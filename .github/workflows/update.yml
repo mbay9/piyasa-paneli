@@ -33,7 +33,7 @@ jobs:
       - name: Veriyi üret (başarısızsa 3 kez dener)
         run: |
           for i in 1 2 3; do
-            if python update.py; then ok=1; break; fi
+            if timeout 1200 python update.py; then ok=1; break; fi
             echo "Deneme $i başarısız, 8 dakika sonra tekrar"; sleep 480
           done
           test "$ok" = 1
