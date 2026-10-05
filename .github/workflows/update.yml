@@ -1,4 +1,3 @@
-.github/workflows/update.yml
 name: Piyasa verisini güncelle
 
 on:
