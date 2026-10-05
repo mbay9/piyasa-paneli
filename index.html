@@ -203,51 +203,65 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
       '<p class="fine">Lider: SPY\'dan güçlü ve SMA50 üstünde. Toparlanıyor: güçlü ama altında. Zayıflıyor: zayıf ama üstünde. Geride: ikisi de zayıf.</p>';
   }
 
-  var AI_SORT = { k: "weight", dir: -1 };
+  var AI_SORT = { k: "w", dir: -1 };
+  function maxW(s) { return Math.max.apply(null, Object.keys(s.w).map(function (k) { return s.w[k]; })); }
   function aiTable(a) {
-    var cols = [["symbol", "Hisse"], ["weight", "SOXX ağırlığı"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["rel20", "SPY'a göre 20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol_vs20", "Hacim / 20G"]];
+    var cols = [["symbol", "Hisse"], ["w", "Ağırlık (SOXX / SMH / DRAM)"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["rel20", "SPY'a göre 20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol_vs20", "Hacim / 20G"]];
     var rows = a.stocks.slice().sort(function (x, y) {
-      var k = AI_SORT.k, u = x[k], v = y[k];
+      var k = AI_SORT.k, u = k === "w" ? maxW(x) : x[k], v = k === "w" ? maxW(y) : y[k];
       if (typeof u === "boolean") { u = u ? 1 : 0; v = v ? 1 : 0; }
       if (u === null || u === undefined) return 1; if (v === null || v === undefined) return -1;
       if (typeof u === "string") return u.localeCompare(v) * AI_SORT.dir;
       return (u - v) * AI_SORT.dir;
     });
     var head = cols.map(function (c) { return '<th class="s" data-k="' + c[0] + '">' + c[1] + (AI_SORT.k === c[0] ? (AI_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
+    function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
-      return '<tr><td><b>' + esc(s.symbol) + '</b>' + (s.memory ? ' <span class="neu">· bellek</span>' : '') + '<small>' + esc(s.theme) + '</small></td><td>' + (s.weight === null ? '<span class="neu">–</span>' : num(s.weight, 2) + "%") + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td>' +
-        (s.above50 === null ? "–" : '<span class="' + (s.above50 ? "pos" : "neg") + '">' + (s.above50 ? "üstünde" : "altında") + '</span>') + '</td><td>' + (s.above200 === null ? "–" : '<span class="' + (s.above200 ? "pos" : "neg") + '">' + (s.above200 ? "üstünde" : "altında") + '</span>') + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td>' + (s.vol_vs20 === null ? "–" : pc(s.vol_vs20, 0)) + '</td></tr>';
+      var w = ["SOXX", "SMH", "DRAM"].map(function (k) { return s.w[k] === undefined ? "–" : num(s.w[k], 1); }).join(" / ");
+      return '<tr><td><b>' + esc(s.symbol) + '</b><small>' + esc(s.name) + '</small></td><td class="mute">' + w + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td>' + (s.vol_vs20 === null ? "–" : pc(s.vol_vs20, 0)) + '</td></tr>';
     }).join("");
-    return '<div class="tw"><table style="min-width:900px"><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
+    return '<div class="tw"><table style="min-width:960px"><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
   function aiMini(list) {
     return '<div class="tw"><table style="min-width:0"><tbody>' + list.map(function (s) {
-      return '<tr><td><b>' + esc(s.symbol) + '</b><small>' + esc(s.theme) + '</small></td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '<small>1G</small></td></tr>';
+      return '<tr><td><b>' + esc(s.symbol) + '</b><small>' + esc(s.name) + '</small></td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '<small>1G</small></td></tr>';
     }).join("") + '</tbody></table></div>';
+  }
+  function aiDetail(a) {
+    var names = { SOXX: "SOXX · iShares", SMH: "SMH · VanEck", DRAM: "DRAM · Roundhill" };
+    var rows = ["SOXX", "SMH", "DRAM"].map(function (k) {
+      var d = a.detail && a.detail[k]; if (!d) return "";
+      var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
+      var top = d.top.map(function (t) { return esc(t.symbol) + ' ' + num(t.weight, 1) + '%'; }).join(" · ");
+      return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + ' · ' + d.covered + '/' + d.listed + ' hisse, ağırlığın %' + num(d.covered_weight, 0) + '\'i</small></td>' +
+        '<td class="' + cls(d.w_d1) + '">' + pc(d.w_d1) + '</td><td class="' + cls(d.w_d5) + '">' + pc(d.w_d5) + '</td><td class="' + cls(d.w_d20) + '">' + pc(d.w_d20) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td>' +
+        '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute" style="white-space:normal;min-width:200px">' + top + '</td></tr>';
+    }).join("");
+    return h2("ETF içi görünüm (ağırlıklı)") + '<div class="tw"><table style="min-width:900px"><thead><tr><th>ETF</th><th>Ağırlıklı 1G</th><th>Ağırlıklı 5G</th><th>Ağırlıklı 20G</th><th>Eşit ağırlıklı 20G</th><th>SMA 50 üstü (ağırlık)</th><th>SMA 200 üstü (ağırlık)</th><th>Yapı</th><th>En büyük 5 pozisyon</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+      '<p class="fine">Ağırlıklı değerler fonun gerçek pozisyon ağırlıklarıyla, eşit ağırlıklı değer her hissenin aynı payla hesaplanır. Eşit ağırlıklı 20G, ETF\'in kendi 20G getirisinin 1 puan veya fazla gerisindeyse yapı DAR (birkaç dev pozisyon taşıyor), önündeyse GENİŞ. DRAM\'de aynı hisseye hem doğrudan hem swap ile verilen pozisyonlar toplandı; ağırlıklar fon varlığının yüzdesidir ve nakit/tahvil kalemleri dahil değildir. Fonun %5,01\'lik CXMT pozisyonu borsada işlem görmediği için hesaba katılmaz.</p>';
   }
   function ai(a) {
     if (!a || !a.etfs) return h2("Yapay zeka") + sub("Bu bölüm bu güncellemede hesaplanamadı. Bir sonraki çalışmada yeniden denenir.");
     var e = a.etfs.map(function (m) {
-      if (!m.available) return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td colspan="9" class="neu">Veri alınamadı</td></tr>';
+      if (!m.available) return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td colspan="10" class="neu">Veri alınamadı</td></tr>';
       return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + cls(m.d60) + '">' + pc(m.d60) + '</td>' +
         '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td><td>' + spark(m.spark) + '</td></tr>';
     }).join("");
     var out = h2("Yapay zeka ve yarı iletken ETF'leri") +
       '<div class="tw"><table style="min-width:860px"><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 200</th><th>30 gün</th></tr></thead><tbody>' + e + '</tbody></table></div>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
-    var b = a.breadth, vc = a.verdict === "GENİŞ" ? "pos" : a.verdict === "DAR" ? "rsk" : "";
-    out += h2("Sektör genişliği") + '<div class="stats">' +
-      stat("SMA 50 üstü", "%" + num(b.above50, 1), a.count + " bileşen içinde") +
+    var b = a.breadth;
+    out += aiDetail(a) + h2("Genişlik (tüm bileşenler birlikte)") + '<div class="stats">' +
+      stat("SMA 50 üstü", "%" + num(b.above50, 1), a.count + " benzersiz hisse") +
       stat("SMA 200 üstü", "%" + num(b.above200, 1), "uzun vade") +
       stat("20 günde pozitif", "%" + num(b.positive_d20, 1), "hisse payı") +
       stat("Zirveye %5 yakın", "%" + num(b.near_high, 1), "52 hafta") +
-      stat("Eşit ağırlıklı 20G", pc(a.equal_weight_d20), "bileşen ortalaması", cls(a.equal_weight_d20)) +
-      stat("Yükseliş yapısı", a.verdict || "–", "ortalama hisse ile SMH farkı", vc) +
-      stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM teması)", cls(a.memory.avg_d20)) + '</div>' +
-      '<p class="fine">Bileşenlerin ortalama 20 günlük getirisi SMH\'nin 1 puan veya fazla gerisindeyse yükseliş DAR (birkaç dev hisse taşıyor), önündeyse GENİŞ kabul edilir.</p>' +
+      stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>' +
       '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>' +
-      h2("Tüm bileşenler") + aiTable(a) +
-      '<p class="fine">Kaynak: ' + esc(a.source) + '. ' + (a.official ? "SOXX ağırlıkları iShares resmi dosyasındandır; SMH ve DRAM için resmi bileşen dosyası okunmadığından bu iki ETF fiyatı ve çekirdek liste ile izlenir." : "Resmi bileşen dosyası okunamadı, bu yüzden ağırlık gösterilmiyor.") + ' Kore borsasındaki hisselerin (SK hynix, Samsung) fiyatları kendi para birimindedir, yüzde değişim karşılaştırılabilir.</p>';
+      h2("Tüm bileşenler") + aiTable(a);
+    var asof = Object.keys(a.detail || {}).map(function (k) { return k + " " + fmtDate(a.detail[k].asof); }).join(", ");
+    var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 120; });
+    out += '<p class="fine">Bileşen listeleri fonların resmi dosyalarından alınmıştır (' + esc(asof) + '). Fiyatlar her gece güncellenir; liste ağırlıkları fon yeniden dengelendikçe değişir.' + (old ? ' <span class="rsk">Liste 120 günden eski, ağırlıklar güncel olmayabilir.</span>' : '') + ' Kore, Tayvan, Japonya ve Çin borsasındaki hisselerin fiyatları kendi para birimi ve kendi işlem saatlerindedir; yüzde değişimleri karşılaştırılabilir.</p>';
     return out;
   }
 
