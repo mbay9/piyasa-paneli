@@ -101,7 +101,6 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
     <a href="#genislik" data-t="genislik">Genişlik</a>
     <a href="#sektor" data-t="sektor">Sektörler</a>
     <a href="#ai" data-t="ai">Yapay Zeka</a>
-    <a href="#kaynak" data-t="kaynak">Kaynaklar</a>
   </nav>
   <div id="banner"></div>
   <main id="app"></main>
@@ -177,7 +176,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
     return h2("Risk notları") + n.map(function (x) {
       var c = { ok: "ok", warn: "warn", bad: "bad" }[x.level] || "";
       return '<div class="note"><b><span class="dot ' + c + '"></span>' + esc(x.title) + '</b><span>' + esc(x.text) + '</span></div>';
-    }).join("") + '<p class="fine">Eşikler yaygın okuma kurallarıdır. Yatırım tavsiyesi değildir.</p>';
+    }).join("");
   }
 
   function breadth(b) {
@@ -273,27 +272,12 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
     return out;
   }
 
-  function sources(meta) {
-    var li = meta.sources.map(function (s) { return '<li><b>' + esc(s.name) + '</b> · ' + esc(s.use) + ' · ' + (s.official ? "resmi" : "resmi değil") + '</li>'; }).join("");
-    var cov = meta.coverage ? '<li><b>Kapsam</b> · ' + meta.coverage.received + ' / ' + meta.coverage.requested + ' hisse' + (meta.coverage.late ? ', ' + meta.coverage.late + ' hissenin son günü eksik' : '') + '</li>' : "";
-    var ver = (meta.verification || []).map(function (v) {
-      var st = { ok: "uyumlu", warn: "küçük fark", unavailable: "doğrulanamadı", bad: "uyuşmazlık" }[v.status] || v.status;
-      var det = v.date ? ' · ' + fmtDate(v.date) + ' · ' + num(v.yahoo, 2) + ' ↔ ' + num(v.official, 2) : (v.note ? ' · ' + esc(v.note) : '');
-      return '<li><b>' + v.id + '</b> ↔ ' + (/^[A-Z0-9]+$/.test(v.fred) ? 'FRED ' : '') + v.fred + ' · ' + st + det + '</li>';
-    }).join("");
-    var reasons = meta.quality && meta.quality.reasons && meta.quality.reasons.length ? '<li><b>Kalite notları</b> · ' + meta.quality.reasons.map(esc).join("; ") + '</li>' : "";
-    var warns = meta.warnings && meta.warnings.length ? '<li><b>Uyarılar</b> · ' + meta.warnings.map(esc).join("; ") + '</li>' : "";
-    return h2("Kaynaklar ve doğrulama") + '<ul class="src">' + li + cov + ver + reasons + warns + '</ul>' +
-      '<p class="fine">Sistem her iş günü ABD kapanışından sonra kendiliğinden çalışır, çekilen veriyi resmi kaynaklarla karşılaştırır, tutarsızsa yayını durdurup önceki doğrulanmış sayfayı korur ve yeniden dener. Alınamayan veri tahmin edilmez.</p>';
-  }
-
   var DATA = null;
   function tabs(d) {
     return '<section class="tab" id="t-genel">' + regime(d.regime) + levels(d) + trend(d) + notes(d.notes) + '</section>' +
       '<section class="tab" id="t-genislik">' + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + sectors(d.sectors) + '</section>' +
-      '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
-      '<section class="tab" id="t-kaynak">' + sources(d.meta) + '</section>';
+      '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>';
   }
   function show() {
     var h = (location.hash || "#genel").slice(1);
