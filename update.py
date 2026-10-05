@@ -376,12 +376,29 @@ def get_universe():
 
 
 # ------------------------------------------------------------------ fiyat verisi
-def _download_chunk(chunk, period):
+def _download_chunk(chunk, period, hard_timeout=150):
+    """yfinance bazen sonsuza dek takılır: ayrı (daemon) iş parçacığında çalıştırıp süre aşımında vazgeçer."""
+    import threading
+    box = {}
+
+    def work():
+        box["r"] = _download_chunk_inner(chunk, period)
+
+    th = threading.Thread(target=work, daemon=True)
+    th.start()
+    th.join(hard_timeout)
+    if th.is_alive():
+        log(f"UYARI: {len(chunk)} sembollük indirme {hard_timeout}s içinde dönmedi, atlandı: {chunk[:5]}...")
+        return {}
+    return box.get("r", {})
+
+
+def _download_chunk_inner(chunk, period):
     import yfinance as yf  # geç import: testlerde gerekmez
     frames = {}
     try:
         df = yf.download(chunk, period=period, interval="1d", auto_adjust=True,
-                         group_by="ticker", threads=True, progress=False)
+                         group_by="ticker", threads=True, progress=False, timeout=30)
     except Exception as e:  # noqa: BLE001
         log("indirme hatası:", repr(e))
         return frames
@@ -403,16 +420,21 @@ def _download_chunk(chunk, period):
     return frames
 
 
-def download(tickers, period="2y", batch=60, tries=3):
+def download(tickers, period="2y", batch=60, tries=3, max_seconds=420):
     """Yeniden deneyerek indirir. (frames, eksik_semboller) döndürür."""
     frames = {}
     pending = list(tickers)
+    t0 = time.time()
     for attempt in range(tries):
         if not pending:
             break
         size = batch if attempt == 0 else 15
         for i in range(0, len(pending), size):
+            if time.time() - t0 > max_seconds:
+                log(f"UYARI: indirme süre sınırına ({max_seconds}s) ulaştı, {len(pending)} sembol eksik kaldı")
+                return frames, [t for t in tickers if t not in frames]
             frames.update(_download_chunk(pending[i:i + size], period))
+            log(f"  indirme: {len(frames)}/{len(tickers)} ({int(time.time() - t0)}s)")
             time.sleep(0.3)
         pending = [t for t in tickers if t not in frames]
         if pending and attempt < tries - 1:
@@ -701,9 +723,9 @@ def get_ai_universe():
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
-        etf_frames, miss_etf = download([t for t, _ in AI_ETFS], tries=3)
+        etf_frames, miss_etf = download([t for t, _ in AI_ETFS], tries=2, max_seconds=90)
         uni, source, official = get_ai_universe()
-        stock_frames, miss = download(list(uni))
+        stock_frames, miss = download(list(uni), batch=10, tries=2, max_seconds=180)
     except Exception as e:  # noqa: BLE001
         log("AI bölümü alınamadı:", repr(e))
         out["error"] = "Veri alınamadı"
