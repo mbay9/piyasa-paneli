@@ -155,21 +155,14 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
       var m = d.indexes[k], risk = k === "VIX";
       rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + spark(m.spark) + '</td></tr>';
     });
-    var y = d.yields;
-    if (y && y.available) {
-      [["y2", "US2Y", "ABD 2 yıllık", 1], ["y10", "US10Y", "ABD 10 yıllık", 1], ["spread", "10Y−2Y", "Eğri farkı", 0]].forEach(function (t) {
-        var s = y[t[0]], bp = function (v) { return v === null ? "–" : sgn(v) + num(Math.abs(v), 0) + " bp"; };
-        rows += '<tr><td><b>' + t[1] + '</b><small>' + t[2] + '</small></td><td>' + (t[3] ? num(s.value, 2) + "%" : sgn(s.value) + num(Math.abs(s.value), 2)) + '</td><td class="neu">' + bp(s.d1_bp) + '</td><td class="neu">' + bp(s.d5_bp) + '</td><td class="neu">–</td><td class="neu">–</td><td>' + spark(s.spark) + '</td></tr>';
-      });
-    }
     return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>Zirveye uzaklık</th><th>30 gün</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      sub("Noktalı satırlar FRED (resmi) ile doğrulandı. Değişimler işlem günü bazındadır. Petrol, Altın ve Gümüş ön ay vadeli sözleşme fiyatıdır; sözleşme yenilendiğinde (roll) fiyatta küçük süreksizlik olabilir. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
+      sub("Noktalı satırlar resmi kaynakla doğrulandı. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, ABD kapanışından önce biter. 2 ve 10 yıllık getiriler yalnızca makro rejim skorunda kullanılır. Petrol, Altın ve Gümüş ön ay vadeli sözleşme fiyatıdır; sözleşme yenilendiğinde (roll) fiyatta küçük süreksizlik olabilir. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
   }
 
   function trend(d) {
     var rows = [];
-    ["SPX", "NASDAQ", "RUT", "WTI", "BRENT"].forEach(function (k) { if (d.indexes[k]) rows.push([k, d.indexes[k]]); });
-    ["SPY", "QQQ", "IWM", "RSP", "QQQE"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
+    ["SPX", "NASDAQ", "RUT", "WTI", "BRENT", "KOSPI", "NIKKEI"].forEach(function (k) { if (d.indexes[k]) rows.push([k, d.indexes[k]]); });
+    ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
       var m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
       return '<tr><td><b>' + x[0] + '</b></td><td class="' + tc + '">' + esc(m.trend) + '</td><td>' + ma(m.above20, m.dist20) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
@@ -286,7 +279,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
     var ver = (meta.verification || []).map(function (v) {
       var st = { ok: "uyumlu", warn: "küçük fark", unavailable: "doğrulanamadı", bad: "uyuşmazlık" }[v.status] || v.status;
       var det = v.date ? ' · ' + fmtDate(v.date) + ' · ' + num(v.yahoo, 2) + ' ↔ ' + num(v.official, 2) : (v.note ? ' · ' + esc(v.note) : '');
-      return '<li><b>' + v.id + '</b> ↔ FRED ' + v.fred + ' · ' + st + det + '</li>';
+      return '<li><b>' + v.id + '</b> ↔ ' + (/^[A-Z0-9]+$/.test(v.fred) ? 'FRED ' : '') + v.fred + ' · ' + st + det + '</li>';
     }).join("");
     var reasons = meta.quality && meta.quality.reasons && meta.quality.reasons.length ? '<li><b>Kalite notları</b> · ' + meta.quality.reasons.map(esc).join("; ") + '</li>' : "";
     var warns = meta.warnings && meta.warnings.length ? '<li><b>Uyarılar</b> · ' + meta.warnings.map(esc).join("; ") + '</li>' : "";
