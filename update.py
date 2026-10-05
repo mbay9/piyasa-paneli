@@ -121,16 +121,18 @@ def tr(x, nd=1):
     return s.replace(",", "§").replace(".", ",").replace("§", ".")
 
 
-def http_get(url, tries=3, timeout=60, headers=None):
+def http_get(url, tries=3, timeout=30, headers=None):
     last = None
     for i in range(tries):
+        t0 = time.time()
         try:
-            resp = requests.get(url, headers=headers or HEADERS, timeout=timeout)
+            resp = requests.get(url, headers=headers or HEADERS, timeout=(10, timeout))
             if resp.status_code == 200 and resp.text:
                 return resp
             last = f"HTTP {resp.status_code}"
         except Exception as e:  # noqa: BLE001
             last = repr(e)
+        log(f"  http deneme {i + 1}/{tries} başarısız ({int(time.time() - t0)}s): {url[:60]} -> {last[:100]}")
         if i < tries - 1:
             time.sleep(3 * (i + 1))
     raise RuntimeError(f"{url[:70]}... alınamadı: {last}")
@@ -468,9 +470,18 @@ def sanity_warnings(frames, ref_date):
 
 
 # ---------------------------------------------------------------- resmi doğrulama
+FRED_STATE = {"down": False}
+
+
 def fred_series(sid, days=60):
+    if FRED_STATE["down"]:
+        raise RuntimeError("FRED erişilemedi (önceki denemeler başarısız)")
     start = (dt.date.today() - dt.timedelta(days=days)).isoformat()
-    resp = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}")
+    try:
+        resp = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}", tries=2, timeout=25)
+    except Exception:
+        FRED_STATE["down"] = True
+        raise
     df = pd.read_csv(io.StringIO(resp.text))
     df.columns = ["date", "v"]
     df["date"] = pd.to_datetime(df["date"])
@@ -658,7 +669,27 @@ def build_notes(idx, etf, breadth, pairs, yields, sectors, verification, univers
     return notes
 
 
-def data_quality(universe, coverage, verification, warnings):
+def verify_proxies(frames, ref_date, tol=0.5):
+    """Resmi kaynak yokken: endeksin günlük getirisi ile aynı endeksi izleyen ETF'in getirisi uyuşmalı."""
+    out = []
+    for idx_sym, etf_sym, name in (("^GSPC", "SPY", "SPX"), ("^IXIC", "QQQ", "NASDAQ")):
+        item = {"id": name, "etf": etf_sym, "kind": "proxy"}
+        try:
+            a, b = frames[idx_sym]["Close"], frames[etf_sym]["Close"]
+            a, b = a[a.index <= pd.Timestamp(ref_date)], b[b.index <= pd.Timestamp(ref_date)]
+            if a.index[-1] != b.index[-1] or len(a) < 2 or len(b) < 2:
+                raise RuntimeError("tarihler uyuşmuyor")
+            ra, rb = pct_change(a, 1), pct_change(b, 1)
+            diff = abs(ra - rb)
+            item.update(date=a.index[-1].strftime("%Y-%m-%d"), index_d1=r(ra, 3), etf_d1=r(rb, 3), diff=r(diff, 3),
+                        status="ok" if diff <= tol else "bad")
+        except Exception as e:  # noqa: BLE001
+            item.update(status="unavailable", note=str(e)[:120])
+        out.append(item)
+    return out
+
+
+def data_quality(universe, coverage, verification, warnings, proxies=None):
     level, reasons = 3, []
     if not universe or not universe["official"]:
         level = min(level, 2)
@@ -668,8 +699,12 @@ def data_quality(universe, coverage, verification, warnings):
         reasons.append(f"Hisse kapsamı %{tr(coverage['ratio'] * 100, 1)}")
     oks = [v for v in verification if v["status"] == "ok"]
     if not oks:
-        level = 1
-        reasons.append("Hiçbir fiyat resmi kaynakla doğrulanamadı")
+        if proxies and all(p["status"] == "ok" for p in proxies):
+            level = min(level, 2)
+            reasons.append("Resmi kaynak (FRED) erişilemedi; endeksler SPY ve QQQ ile çapraz doğrulandı")
+        else:
+            level = 1
+            reasons.append("Hiçbir fiyat resmi kaynakla doğrulanamadı")
     else:
         if any(v["status"] == "unavailable" for v in verification):
             level = min(level, 2)
@@ -866,7 +901,11 @@ def main():
     vix_val = idx["VIX"]["close"] if "VIX" in idx else None
     reg = regime(idx, vix_val, spread_val, sectors, idx.get("DXY"))
     notes = build_notes(idx, etf, breadth, pairs, yields, sectors, verification, universe)
-    dq = data_quality(universe, coverage, verification, warnings)
+    proxies = verify_proxies(macro_frames, ref_date)
+    if any(p["status"] == "bad" for p in proxies):
+        log("HATA: endeks ile ETF getirileri tutarsız, güncelleme iptal:", proxies)
+        sys.exit(1)
+    dq = data_quality(universe, coverage, verification, warnings, proxies)
 
     out = {
         "meta": {
@@ -879,6 +918,7 @@ def main():
             "quality": dq,
             "warnings": warnings[:20],
             "verification": verification,
+            "proxy_checks": proxies,
             "sources": [
                 {"name": "Yahoo Finance halka açık grafik verisi (yfinance)", "official": False,
                  "use": "Fiyat, hacim, endeksler, ETF'ler (SPX, NASDAQ, VIX resmi FRED ile doğrulanır)"},
