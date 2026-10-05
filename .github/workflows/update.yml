@@ -2,12 +2,16 @@ name: Piyasa verisini güncelle
 
 on:
   schedule:
-    # 21:30 UTC = New York 17:30 (yaz saati) / 16:30 (kış saati), yani kapanıştan 30-90 dk sonra
-    - cron: "30 21 * * 1-5"
+    # Ana güncelleme: 22:30 UTC = New York 18:30 (yaz) / 17:30 (kış), kapanıştan 1,5-2,5 saat sonra
+    - cron: "30 22 * * 1-5"
+    # Yedek: ilk çalışma başarısız olursa 01:30 UTC'de tekrar dener (yaz saatinde de kapanıştan sonra)
+    - cron: "30 1 * * 2-6"
+    # Sabah doğrulaması: 14:45 UTC. FRED dünün kapanışını yayınlamış olur, hacim ve fiyatlar kesinleşmiştir
+    - cron: "45 14 * * 2-6"
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -18,20 +22,40 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python update.py
+      - name: Veriyi üret (başarısızsa 3 kez dener)
+        run: |
+          for i in 1 2 3; do
+            if python update.py; then ok=1; break; fi
+            echo "Deneme $i başarısız, 8 dakika sonra tekrar"; sleep 480
+          done
+          test "$ok" = 1
+      - name: Veriyi denetle
+        run: python validate.py
       - run: |
           mkdir site
           cp index.html data.json site/
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+      - name: Zamanlamayı canlı tut
+        # GitHub, 60 gün hareketsiz public depolarda zamanlanmış çalışmaları kapatır; 45 günde bir boş commit atılır
+        run: |
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          if [ $((now - last)) -gt $((45 * 86400)) ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "Zamanlamayı canlı tut"
+            git push
+          fi
 
   deploy:
     needs: build
