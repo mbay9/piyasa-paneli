@@ -47,6 +47,9 @@ INDEXES = [
     ("WTI", "CL=F", "ABD ham petrol, WTI vadeli (ön ay)", False),
     ("BRENT", "BZ=F", "Brent petrol vadeli (ön ay)", False),
     ("BTC", "BTC-USD", "Bitcoin", True),
+    # Asya borsaları kendi saatinde kapanır; ABD referans gününe göre "eski" sayılmaz
+    ("KOSPI", "^KS11", "KOSPI (Güney Kore)", True),
+    ("NIKKEI", "^N225", "Nikkei 225 (Japonya)", True),
 ]
 ETFS = [
     ("SPY", "SPDR S&P 500 ETF"),
@@ -54,6 +57,7 @@ ETFS = [
     ("IWM", "iShares Russell 2000 ETF"),
     ("RSP", "Invesco S&P 500 Equal Weight ETF"),
     ("QQQE", "Direxion Nasdaq-100 Equal Weighted ETF"),
+    ("RWJ", "Invesco S&P SmallCap 600 Revenue ETF"),
 ]
 SECTORS = [
     ("XLK", "Technology"), ("XLF", "Financials"), ("XLI", "Industrials"),
