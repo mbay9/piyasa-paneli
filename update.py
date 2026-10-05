@@ -172,7 +172,7 @@ def metrics(d, use_volume=True):
     out["d5"] = r(pct_change(c, 5))
     out["d20"] = r(pct_change(c, 20))
     smas = {}
-    for n in (20, 50, 200):
+    for n in (50, 100, 200):
         if len(c) >= n:
             m = float(c.rolling(n).mean().iloc[-1])
             smas[n] = m
@@ -214,7 +214,7 @@ def breadth_series(closes, n):
 
 def breadth_block(closes):
     out = {}
-    for n in (20, 50, 200):
+    for n in (50, 100, 200):
         pct, cnt, ab = breadth_series(closes, n)
         pct = pct.dropna()
         if pct.empty:
@@ -299,8 +299,8 @@ def sector_block(frames):
             status = "Geride"
         rows.append({"symbol": sym, "name": name, "date": m["date"], "close": m["close"],
                      "d1": m["d1"], "d5": m["d5"], "d20": m["d20"], "rel20": r(rel),
-                     "above20": m.get("above20"), "above50": above50, "above200": m.get("above200"),
-                     "dist20": m.get("dist20"), "dist50": m.get("dist50"), "dist200": m.get("dist200"),
+                     "above50": above50, "above100": m.get("above100"), "above200": m.get("above200"),
+                     "dist50": m.get("dist50"), "dist100": m.get("dist100"), "dist200": m.get("dist200"),
                      "from_high": m.get("from_high"), "trend": m.get("trend"), "status": status,
                      "vol_vs20": m["vol_vs20"], "vol_vs50": m.get("vol_vs50"), "spark": m.get("spark")})
     rows.sort(key=lambda x: (x["rel20"] is None, -(x["rel20"] or 0)))
@@ -318,12 +318,12 @@ def regime(idx_metrics, vix, curve_spread, sectors, dxy):
     for k in ("SPX", "NASDAQ", "RUT"):
         m = idx_metrics.get(k)
         if m:
-            flags = [m.get("above20"), m.get("above50"), m.get("above200")]
+            flags = [m.get("above50"), m.get("above100"), m.get("above200")]
             flags = [f for f in flags if f is not None]
             if flags:
                 vals.append(sum(1 for f in flags if f) / len(flags) * 100)
     if vals:
-        parts.append(("Endeks trendi", r(sum(vals) / len(vals), 0), f"{len(vals)}/3 endeks, 20/50/200 MA üstü oranı"))
+        parts.append(("Endeks trendi", r(sum(vals) / len(vals), 0), f"{len(vals)}/3 endeks, 50/100/200 MA üstü oranı"))
     if vix is not None:
         parts.append(("Volatilite", r(clamp((30 - vix) / 18 * 100), 0), f"VIX {tr(vix, 2)}"))
     if curve_spread is not None:
@@ -804,7 +804,7 @@ def ai_block(ref_date, spy, qqq):
             "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
             "close": m["close"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
-            "above20": m["above20"], "above50": m["above50"], "above200": m["above200"],
+            "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
             "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
             "vol_vs20": m["vol_vs20"], "trend": m["trend"],
         })
@@ -845,6 +845,7 @@ def ai_block(ref_date, spy, qqq):
             "covered_weight": r(100 * wsum / tot, 1) if tot else None,
             "w_d1": wavg("d1"), "w_d5": wavg("d5"), "w_d20": wavg("d20"), "eq_d20": eq20, "verdict": verdict,
             "above50_n": share(mem, "above50"), "above50_w": wshare("above50"),
+            "above100_n": share(mem, "above100"), "above100_w": wshare("above100"),
             "above200_n": share(mem, "above200"), "above200_w": wshare("above200"),
             "top": [{"symbol": x["symbol"], "weight": x["w"][etf], "d1": x["d1"], "d20": x["d20"]}
                     for x in sorted(mem, key=lambda z: -z["w"][etf])[:5]],
@@ -855,7 +856,7 @@ def ai_block(ref_date, spy, qqq):
     out.update({
         "available": True, "date": ref_date, "etfs": etfs, "detail": detail,
         "count": n, "requested": len(uni), "missing": miss[:15],
-        "breadth": {"above20": share(rows, "above20"), "above50": share(rows, "above50"),
+        "breadth": {"above50": share(rows, "above50"), "above100": share(rows, "above100"),
                     "above200": share(rows, "above200"),
                     "positive_d20": r(100 * sum(1 for d in d20s if d > 0) / len(d20s), 1) if d20s else None,
                     "near_high": r(100 * sum(1 for x in rows if x["from_high"] is not None and x["from_high"] > -5) / n, 1)},
