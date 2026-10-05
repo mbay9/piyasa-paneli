@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+update.py: resmi ETF bilesen dosyalari ile yapay zeka bolumu#!/usr/bin/env python3
 """Piyasa Komuta Paneli - gece veri güncelleyici (v2, doğruluk öncelikli).
 
 GitHub Actions üzerinde çalışır ve data.json üretir.
@@ -722,44 +722,24 @@ def data_quality(universe, coverage, verification, warnings, proxies=None):
 
 # ----------------------------------------------------------------------- ana akış
 # ------------------------------------------------------------------ yapay zeka bölümü
-def get_ai_universe():
-    """SOXX resmi holdings (iShares) + çekirdek liste. {ticker: {name, weight, official}}"""
-    uni = {t: {"theme": th, "weight": None, "official": False} for t, th in AI_CORE.items()}
-    source, official = "Elle derlenmiş çekirdek liste (resmi değil)", False
-    try:
-        txt = http_get(SOXX_URL).text
-        lines = txt.lstrip("﻿").splitlines()
-        start = next(i for i, ln in enumerate(lines[:80]) if ln.replace('"', "").startswith("Ticker,"))
-        df = pd.read_csv(io.StringIO("\n".join(lines[start:])), on_bad_lines="skip")
-        df = df[df["Asset Class"].astype(str).str.strip() == "Equity"]
-        got = 0
-        for _, row in df.iterrows():
-            t = yahoo_symbol(row["Ticker"])
-            if t in ("-", "") or str(row["Ticker"]) == "nan":
-                continue
-            try:
-                w = float(row.get("Weight (%)"))
-            except (TypeError, ValueError):
-                w = None
-            e = uni.setdefault(t, {"theme": str(row.get("Name", "")).title()[:28], "weight": None, "official": True})
-            e["weight"], e["official"] = r(w, 2), True
-            got += 1
-        if got >= 20:
-            source, official = "iShares SOXX holdings CSV (resmi) + çekirdek liste", True
-        else:
-            raise ValueError(f"yalnızca {got} satır")
-    except Exception as e:  # noqa: BLE001
-        log("SOXX holdings alınamadı, çekirdek liste kullanılacak:", repr(e))
-        for e_ in uni.values():
-            e_["weight"], e_["official"] = None, False
-    return uni, source, official
+def load_holdings():
+    """Resmi ETF bileşen dosyaları (holdings.json): {ETF: {asof, source, items:[{symbol,name,weight}]}}"""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "holdings.json")
+    with open(path, encoding="utf-8") as f:
+        h = json.load(f)
+    uni = {}
+    for etf, blk in h.items():
+        for it in blk["items"]:
+            e = uni.setdefault(it["symbol"], {"name": it["name"], "w": {}})
+            e["w"][etf] = it["weight"]
+    return h, uni
 
 
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
+        holdings, uni = load_holdings()
         etf_frames, miss_etf = download([t for t, _ in AI_ETFS], tries=2, max_seconds=90)
-        uni, source, official = get_ai_universe()
         stock_frames, miss = download(list(uni), batch=10, tries=2, max_seconds=180)
     except Exception as e:  # noqa: BLE001
         log("AI bölümü alınamadı:", repr(e))
@@ -780,55 +760,82 @@ def ai_block(ref_date, spy, qqq):
             b = base["Close"][base.index <= ref]
             rel[lbl] = {n: r((pct_change(c, n) or 0) - (pct_change(b, n) or 0)) if len(c) > n and len(b) > n else None
                         for n in (20, 60)}
-        ret60 = r(pct_change(c, 60))
         hi = c.iloc[-252:].max()
-        m.update({"symbol": t, "name": name, "available": True, "d60": ret60, "rel": rel,
+        m.update({"symbol": t, "name": name, "available": True, "d60": r(pct_change(c, 60)), "rel": rel,
                   "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None})
         etfs.append(m)
-    rows, closes = [], {}
+    spy20 = pct_change(spy["Close"][spy.index <= ref], 20)
+    rows = []
     for t, f in stock_frames.items():
         f = f[f.index <= ref]
         if len(f) < 60 or f.index[-1] < ref - pd.Timedelta(days=4):
             continue
         m = metrics(f)
         c = f["Close"]
-        spy20 = pct_change(spy["Close"][spy.index <= ref], 20)
         hi = c.iloc[-252:].max()
-        closes[t] = c
         rows.append({
-            "symbol": t, "theme": uni[t]["theme"], "weight": uni[t]["weight"], "memory": t in AI_MEMORY,
+            "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
             "close": m["close"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
             "above20": m["above20"], "above50": m["above50"], "above200": m["above200"],
             "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
             "vol_vs20": m["vol_vs20"], "trend": m["trend"],
         })
-    if len(rows) < 8:
+    if len(rows) < 12:
         out["error"] = "Yeterli bileşen verisi alınamadı"
         out["etfs"] = etfs
         return out
     n = len(rows)
-    share = lambda k: r(100 * sum(1 for x in rows if x[k]) / max(1, sum(1 for x in rows if x[k] is not None)), 1)  # noqa: E731
+
+    def share(rs, k):
+        den = sum(1 for x in rs if x[k] is not None)
+        return r(100 * sum(1 for x in rs if x[k]) / den, 1) if den else None
+
     d20s = [x["d20"] for x in rows if x["d20"] is not None]
-    eq20 = r(float(np.mean(d20s))) if d20s else None
-    smh = next((e for e in etfs if e["symbol"] == "SMH" and e["available"]), None)
-    verdict = None
-    if smh and eq20 is not None and smh["d20"] is not None:
-        diff = eq20 - smh["d20"]
-        verdict = "GENİŞ" if diff >= 1 else "DAR" if diff <= -1 else "DENGELİ"
+    detail = {}
+    for etf, blk in holdings.items():
+        mem = [x for x in rows if etf in x["w"]]
+        tot = sum(i["weight"] for i in blk["items"])
+        wsum = sum(x["w"][etf] for x in mem)
+
+        def wavg(k):
+            v = [(x["w"][etf], x[k]) for x in mem if x[k] is not None]
+            return r(sum(w * y for w, y in v) / sum(w for w, _ in v)) if v else None
+
+        def wshare(k):
+            den = sum(x["w"][etf] for x in mem if x[k] is not None)
+            return r(100 * sum(x["w"][etf] for x in mem if x[k]) / den, 1) if den else None
+
+        e20 = [x["d20"] for x in mem if x["d20"] is not None]
+        own = next((e for e in etfs if e["symbol"] == etf and e["available"]), None)
+        eq20 = r(float(np.mean(e20))) if e20 else None
+        verdict = None
+        if own and own.get("d20") is not None and eq20 is not None:
+            diff = eq20 - own["d20"]
+            verdict = "GENİŞ" if diff >= 1 else "DAR" if diff <= -1 else "DENGELİ"
+        detail[etf] = {
+            "asof": blk["asof"], "source": blk["source"], "listed": len(blk["items"]), "covered": len(mem),
+            "covered_weight": r(100 * wsum / tot, 1) if tot else None,
+            "w_d1": wavg("d1"), "w_d5": wavg("d5"), "w_d20": wavg("d20"), "eq_d20": eq20, "verdict": verdict,
+            "above50_n": share(mem, "above50"), "above50_w": wshare("above50"),
+            "above200_n": share(mem, "above200"), "above200_w": wshare("above200"),
+            "top": [{"symbol": x["symbol"], "weight": x["w"][etf], "d1": x["d1"], "d20": x["d20"]}
+                    for x in sorted(mem, key=lambda z: -z["w"][etf])[:5]],
+        }
     by20 = sorted([x for x in rows if x["d20"] is not None], key=lambda x: x["d20"], reverse=True)
-    mem = [x for x in rows if x["memory"]]
-    mem20 = [x["d20"] for x in mem if x["d20"] is not None]
+    memrows = [x for x in rows if x["memory"]]
+    m20 = [x["d20"] for x in memrows if x["d20"] is not None]
     out.update({
-        "available": True, "date": ref_date, "source": source, "official": official,
-        "etfs": etfs, "count": n, "requested": len(uni), "missing": miss[:15],
-        "breadth": {"above20": share("above20"), "above50": share("above50"), "above200": share("above200"),
-                    "positive_d20": r(100 * len(d20s and [d for d in d20s if d > 0]) / len(d20s), 1) if d20s else None,
+        "available": True, "date": ref_date, "etfs": etfs, "detail": detail,
+        "count": n, "requested": len(uni), "missing": miss[:15],
+        "breadth": {"above20": share(rows, "above20"), "above50": share(rows, "above50"),
+                    "above200": share(rows, "above200"),
+                    "positive_d20": r(100 * sum(1 for d in d20s if d > 0) / len(d20s), 1) if d20s else None,
                     "near_high": r(100 * sum(1 for x in rows if x["from_high"] is not None and x["from_high"] > -5) / n, 1)},
-        "equal_weight_d20": eq20, "verdict": verdict,
-        "memory": {"count": len(mem), "avg_d20": r(float(np.mean(mem20))) if mem20 else None},
-        "leaders": by20[:6], "laggards": by20[-6:][::-1],
-        "stocks": sorted(rows, key=lambda x: (x["weight"] is None, -(x["weight"] or 0), x["symbol"])),
+        "memory": {"count": len(memrows), "avg_d20": r(float(np.mean(m20))) if m20 else None},
+        "leaders": [{k: x[k] for k in ("symbol", "name", "d1", "d20")} for x in by20[:6]],
+        "laggards": [{k: x[k] for k in ("symbol", "name", "d1", "d20")} for x in by20[-6:][::-1]],
+        "stocks": sorted(rows, key=lambda x: (-max(x["w"].values()), x["symbol"])),
     })
     return out
 
