@@ -511,6 +511,16 @@ def compare_series(y, f, tol, ref_date, rel=True):
             "latest_official": f.index[-1].strftime("%Y-%m-%d")}
 
 
+def cboe_vix():
+    """VIX günlük kapanışı: Cboe'nin kendi resmi tarihsel dosyası (FRED yedeği)."""
+    resp = http_get("https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv", tries=2, timeout=30)
+    df = pd.read_csv(io.StringIO(resp.text))
+    df.columns = [c.strip().upper() for c in df.columns]
+    df["DATE"] = pd.to_datetime(df["DATE"])
+    df["CLOSE"] = pd.to_numeric(df["CLOSE"], errors="coerce")
+    return df.dropna(subset=["CLOSE"]).set_index("DATE")["CLOSE"].tail(30)
+
+
 def verify_prices(frames, ref_date):
     out = []
     for key, ysym, sid, tol in PRICE_VERIFY:
@@ -518,7 +528,14 @@ def verify_prices(frames, ref_date):
         try:
             if ysym not in frames:
                 raise RuntimeError("Yahoo verisi yok")
-            item.update(compare_series(frames[ysym]["Close"], fred_series(sid), tol, ref_date, rel=True))
+            try:
+                official = fred_series(sid)
+            except Exception:  # noqa: BLE001
+                if key != "VIX":
+                    raise
+                official = cboe_vix()
+                item["fred"] = "Cboe VIX_History"
+            item.update(compare_series(frames[ysym]["Close"], official, tol, ref_date, rel=True))
         except Exception as e:  # noqa: BLE001
             item.update(status="unavailable", note=str(e)[:140])
         out.append(item)
