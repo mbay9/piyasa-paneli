@@ -1,4 +1,4 @@
-update.py: resmi ETF bilesen dosyalari ile yapay zeka bolumu#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Piyasa Komuta Paneli - gece veri güncelleyici (v2, doğruluk öncelikli).
 
 GitHub Actions üzerinde çalışır ve data.json üretir.
