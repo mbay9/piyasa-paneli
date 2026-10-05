@@ -478,7 +478,7 @@ def fred_series(sid, days=60):
         raise RuntimeError("FRED erişilemedi (önceki denemeler başarısız)")
     start = (dt.date.today() - dt.timedelta(days=days)).isoformat()
     try:
-        resp = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}", tries=2, timeout=25)
+        resp = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}", tries=2, timeout=80)
     except Exception:
         FRED_STATE["down"] = True
         raise
