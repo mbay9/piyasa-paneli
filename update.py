@@ -27,7 +27,7 @@ import numpy as np
 import pandas as pd
 import requests
 
-SCRIPT_VERSION = "2"
+SCRIPT_VERSION = "3"
 HEADERS = {
     "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
@@ -75,6 +75,25 @@ HARD_DIFF_PCT = 1.0        # Yahoo-FRED farkı bunu aşarsa çalışma durur
 ISHARES_URL = ("https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/"
                "1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund")
 DATASETS_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
+AI_ETFS = [
+    ("SOXX", "iShares Semiconductor ETF"),
+    ("SMH", "VanEck Semiconductor ETF"),
+    ("DRAM", "Roundhill Memory ETF"),
+]
+SOXX_URL = ("https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/"
+            "1467271812596.ajax?fileType=csv&fileName=SOXX_holdings&dataType=fund")
+# Resmi liste okunamazsa kullanılan, elle derlenmiş yapay zeka / yarı iletken çekirdek listesi
+AI_CORE = {
+    "NVDA": "Yapay zeka çipleri", "AVGO": "Ağ ve özel çip", "AMD": "CPU / GPU", "TSM": "Foundry",
+    "ASML": "Litografi", "AMAT": "Ekipman", "LRCX": "Ekipman", "KLAC": "Ekipman", "MU": "Bellek",
+    "MRVL": "Özel çip / ağ", "QCOM": "Mobil çip", "INTC": "CPU / foundry", "TXN": "Analog",
+    "ADI": "Analog", "MPWR": "Güç yarı iletkenleri", "ARM": "Mimari lisansı", "ON": "Güç / otomotiv",
+    "NXPI": "Otomotiv / gömülü", "MCHP": "Mikrodenetleyici", "TER": "Test ekipmanı",
+    "WDC": "Depolama", "STX": "Depolama", "SNDK": "NAND bellek", "SMCI": "AI sunucuları",
+    "ANET": "AI ağ donanımı", "VRT": "Veri merkezi altyapısı", "SNPS": "Çip tasarım yazılımı",
+    "CDNS": "Çip tasarım yazılımı", "000660.KS": "Bellek (SK hynix)", "005930.KS": "Bellek (Samsung)",
+}
+AI_MEMORY = {"MU", "WDC", "STX", "SNDK", "000660.KS", "005930.KS"}
 TICKER_FIX = {"BRKB": "BRK-B", "BFB": "BF-B"}
 
 
@@ -645,6 +664,118 @@ def data_quality(universe, coverage, verification, warnings):
 
 
 # ----------------------------------------------------------------------- ana akış
+# ------------------------------------------------------------------ yapay zeka bölümü
+def get_ai_universe():
+    """SOXX resmi holdings (iShares) + çekirdek liste. {ticker: {name, weight, official}}"""
+    uni = {t: {"theme": th, "weight": None, "official": False} for t, th in AI_CORE.items()}
+    source, official = "Elle derlenmiş çekirdek liste (resmi değil)", False
+    try:
+        txt = http_get(SOXX_URL).text
+        lines = txt.lstrip("﻿").splitlines()
+        start = next(i for i, ln in enumerate(lines[:80]) if ln.replace('"', "").startswith("Ticker,"))
+        df = pd.read_csv(io.StringIO("\n".join(lines[start:])), on_bad_lines="skip")
+        df = df[df["Asset Class"].astype(str).str.strip() == "Equity"]
+        got = 0
+        for _, row in df.iterrows():
+            t = yahoo_symbol(row["Ticker"])
+            if t in ("-", "") or str(row["Ticker"]) == "nan":
+                continue
+            try:
+                w = float(row.get("Weight (%)"))
+            except (TypeError, ValueError):
+                w = None
+            e = uni.setdefault(t, {"theme": str(row.get("Name", "")).title()[:28], "weight": None, "official": True})
+            e["weight"], e["official"] = r(w, 2), True
+            got += 1
+        if got >= 20:
+            source, official = "iShares SOXX holdings CSV (resmi) + çekirdek liste", True
+        else:
+            raise ValueError(f"yalnızca {got} satır")
+    except Exception as e:  # noqa: BLE001
+        log("SOXX holdings alınamadı, çekirdek liste kullanılacak:", repr(e))
+        for e_ in uni.values():
+            e_["weight"], e_["official"] = None, False
+    return uni, source, official
+
+
+def ai_block(ref_date, spy, qqq):
+    out = {"available": False}
+    try:
+        etf_frames, miss_etf = download([t for t, _ in AI_ETFS], tries=3)
+        uni, source, official = get_ai_universe()
+        stock_frames, miss = download(list(uni))
+    except Exception as e:  # noqa: BLE001
+        log("AI bölümü alınamadı:", repr(e))
+        out["error"] = "Veri alınamadı"
+        return out
+    ref = pd.Timestamp(ref_date)
+    etfs = []
+    for t, name in AI_ETFS:
+        f = etf_frames.get(t)
+        if f is None or f.index[-1] < ref - pd.Timedelta(days=4):
+            etfs.append({"symbol": t, "name": name, "available": False})
+            continue
+        f = f[f.index <= ref]
+        m = metrics(f)
+        c = f["Close"]
+        rel = {}
+        for lbl, base in (("spy", spy), ("qqq", qqq)):
+            b = base["Close"][base.index <= ref]
+            rel[lbl] = {n: r((pct_change(c, n) or 0) - (pct_change(b, n) or 0)) if len(c) > n and len(b) > n else None
+                        for n in (20, 60)}
+        ret60 = r(pct_change(c, 60))
+        hi = c.iloc[-252:].max()
+        m.update({"symbol": t, "name": name, "available": True, "d60": ret60, "rel": rel,
+                  "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None})
+        etfs.append(m)
+    rows, closes = [], {}
+    for t, f in stock_frames.items():
+        f = f[f.index <= ref]
+        if len(f) < 60 or f.index[-1] < ref - pd.Timedelta(days=4):
+            continue
+        m = metrics(f)
+        c = f["Close"]
+        spy20 = pct_change(spy["Close"][spy.index <= ref], 20)
+        hi = c.iloc[-252:].max()
+        closes[t] = c
+        rows.append({
+            "symbol": t, "theme": uni[t]["theme"], "weight": uni[t]["weight"], "memory": t in AI_MEMORY,
+            "close": m["close"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
+            "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
+            "above20": m["above20"], "above50": m["above50"], "above200": m["above200"],
+            "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
+            "vol_vs20": m["vol_vs20"], "trend": m["trend"],
+        })
+    if len(rows) < 8:
+        out["error"] = "Yeterli bileşen verisi alınamadı"
+        out["etfs"] = etfs
+        return out
+    n = len(rows)
+    share = lambda k: r(100 * sum(1 for x in rows if x[k]) / max(1, sum(1 for x in rows if x[k] is not None)), 1)  # noqa: E731
+    d20s = [x["d20"] for x in rows if x["d20"] is not None]
+    eq20 = r(float(np.mean(d20s))) if d20s else None
+    smh = next((e for e in etfs if e["symbol"] == "SMH" and e["available"]), None)
+    verdict = None
+    if smh and eq20 is not None and smh["d20"] is not None:
+        diff = eq20 - smh["d20"]
+        verdict = "GENİŞ" if diff >= 1 else "DAR" if diff <= -1 else "DENGELİ"
+    by20 = sorted([x for x in rows if x["d20"] is not None], key=lambda x: x["d20"], reverse=True)
+    mem = [x for x in rows if x["memory"]]
+    mem20 = [x["d20"] for x in mem if x["d20"] is not None]
+    out.update({
+        "available": True, "date": ref_date, "source": source, "official": official,
+        "etfs": etfs, "count": n, "requested": len(uni), "missing": miss[:15],
+        "breadth": {"above20": share("above20"), "above50": share("above50"), "above200": share("above200"),
+                    "positive_d20": r(100 * len(d20s and [d for d in d20s if d > 0]) / len(d20s), 1) if d20s else None,
+                    "near_high": r(100 * sum(1 for x in rows if x["from_high"] is not None and x["from_high"] > -5) / n, 1)},
+        "equal_weight_d20": eq20, "verdict": verdict,
+        "memory": {"count": len(mem), "avg_d20": r(float(np.mean(mem20))) if mem20 else None},
+        "leaders": by20[:6], "laggards": by20[-6:][::-1],
+        "stocks": sorted(rows, key=lambda x: (x["weight"] is None, -(x["weight"] or 0), x["symbol"])),
+    })
+    return out
+
+
 def main():
     now = dt.datetime.now(dt.timezone.utc)
     macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS])
@@ -688,6 +819,11 @@ def main():
 
     pairs = [pair_block(a, b, lbl, etf_frames) for a, b, lbl in PAIRS]
     sectors = sector_block(etf_frames)
+    ai = {"available": False}
+    if "SPY" in etf_frames and "QQQ" in etf_frames:
+        ai = ai_block(ref_date, etf_frames["SPY"], etf_frames["QQQ"])
+        if not ai.get("available"):
+            warnings.append("Yapay zeka bölümü eksik: " + str(ai.get("error")))
     ydf, ysrc = get_yields()
     yields = yield_block(ydf, ysrc)
 
@@ -732,7 +868,7 @@ def main():
             ],
         },
         "indexes": idx, "etfs": etf, "breadth": breadth, "pairs": pairs,
-        "sectors": sectors, "yields": yields, "regime": reg, "notes": notes,
+        "sectors": sectors, "ai": ai, "yields": yields, "regime": reg, "notes": notes,
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, allow_nan=False, indent=1)
