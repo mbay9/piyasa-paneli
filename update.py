@@ -44,6 +44,8 @@ INDEXES = [
     ("DXY", "DX-Y.NYB", "ABD Dolar Endeksi", False),
     ("GOLD", "GC=F", "Altın vadeli (ön ay)", False),
     ("SILVER", "SI=F", "Gümüş vadeli (ön ay)", False),
+    ("WTI", "CL=F", "ABD ham petrol, WTI vadeli (ön ay)", False),
+    ("BRENT", "BZ=F", "Brent petrol vadeli (ön ay)", False),
     ("BTC", "BTC-USD", "Bitcoin", True),
 ]
 ETFS = [
@@ -179,6 +181,8 @@ def metrics(d, use_volume=True):
             out[f"above{n}"] = None
             out[f"dist{n}"] = None
     out["trend"] = trend_label(float(c.iloc[-1]), smas[50], smas[200])
+    hi = float(c.iloc[-252:].max())
+    out["from_high"] = r((c.iloc[-1] / hi - 1) * 100) if hi > 0 else None
     out["vol"] = None
     out["vol_vs20"] = None
     out["vol_vs50"] = None
@@ -291,8 +295,10 @@ def sector_block(frames):
             status = "Geride"
         rows.append({"symbol": sym, "name": name, "date": m["date"], "close": m["close"],
                      "d1": m["d1"], "d5": m["d5"], "d20": m["d20"], "rel20": r(rel),
-                     "above50": above50, "above200": m.get("above200"), "status": status,
-                     "vol_vs20": m["vol_vs20"]})
+                     "above20": m.get("above20"), "above50": above50, "above200": m.get("above200"),
+                     "dist20": m.get("dist20"), "dist50": m.get("dist50"), "dist200": m.get("dist200"),
+                     "from_high": m.get("from_high"), "trend": m.get("trend"), "status": status,
+                     "vol_vs20": m["vol_vs20"], "vol_vs50": m.get("vol_vs50"), "spark": m.get("spark")})
     rows.sort(key=lambda x: (x["rel20"] is None, -(x["rel20"] or 0)))
     return rows
 
