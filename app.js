@@ -71,6 +71,18 @@
     }).join("");
   }
 
+  function partCard(p) {
+    if (!p || !p.series || p.series.length < 2) return "";
+    var W = 600, H = 110, P = 4, n = p.series.length, pts = p.series.map(function (v, i) { return [P + i * (W - 2 * P) / (n - 1), H - P - (Math.max(0, Math.min(100, v)) / 100) * (H - 2 * P)]; });
+    var line = pts.map(function (q, i) { return (i ? "L" : "M") + q[0].toFixed(1) + " " + q[1].toFixed(1); }).join(" ");
+    var area = line + " L" + pts[n - 1][0].toFixed(1) + " " + H + " L" + pts[0][0].toFixed(1) + " " + H + " Z";
+    var last = pts[n - 1];
+    return '<div class="part"><div class="partk">Sektör ETF katılımı <span class="badge">Fiyat bazlı</span></div>' +
+      '<div class="partv">%' + num(p.pct, 0) + '<span class="partd">' + p.above + ' / ' + p.count + ' sektör ETF\'i SMA 50 üzerinde' + (p.d5 === null || p.d5 === undefined ? "" : " · 5G " + pt(p.d5, 0)) + '</span></div>' +
+      '<svg class="partsvg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" aria-label="Sektör ETF katılımı, son ' + n + ' gün"><path d="' + area + '" class="partarea"/><path d="' + line + '" class="partline" vector-effect="non-scaling-stroke"/></svg>' +
+      '<div class="partax"><span>' + fmtDate(p.dates[0]) + '</span><span>' + fmtDate(p.dates[n - 1]) + '</span></div>' +
+      '<div class="fine">Bileşen genişliği değildir; erişilebilen ' + p.count + ' sektör ETF\'inden hesaplanan vekildir.</div></div>';
+  }
   function breadth(b) {
     if (!b || !b.ma50) return h2("Piyasa genişliği") + sub("Hisse listesi alınamadığı için hesaplanmadı.");
     var s = [50, 100, 200].map(function (n) {
@@ -184,7 +196,7 @@
   }
   function tabs(d) {
     return '<section class="tab" id="t-genel">' + regime(d.regime) + levels(d) + trend(d) + notes(d.notes) + '</section>' +
-      '<section class="tab" id="t-genislik">' + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
+      '<section class="tab" id="t-genislik">' + partCard(d.sector_participation) + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>';
   }
