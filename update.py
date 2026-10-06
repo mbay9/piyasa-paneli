@@ -398,7 +398,7 @@ def regime(spx_close, vix_close, closes, n_total, hy, now_utc):
                 if cov >= MIN_COVERAGE:
                     p = float(pct.iloc[-1])
                     b.update({"status": "valid", "score": 1 if p > 60 else (-1 if p < 40 else 0),
-                              "reason": f"{valid}/{n_total} bileşenin %{tr(p, 1)}'i 200G ortalama üzerinde"})
+                              "reason": f"{valid}/{n_total} bileşenin %{tr(p, 1)} kadarı 200G ortalama üzerinde"})
                 else:
                     b["reason"] = f"Veri kapsaması yetersiz: {valid}/{n_total} (%{tr(cov * 100, 1)})"
                     dq["warnings"].append("Genişlik kapsaması yetersiz")
@@ -418,7 +418,7 @@ def regime(spx_close, vix_close, closes, n_total, hy, now_utc):
         pctl = float((vs <= cur).sum()) / len(vs) * 100
         v.update({"latest_vix": r(cur, 2), "percentile_252_observations": r(pctl, 1), "data_date": as_of_d, "status": "valid",
                   "score": 1 if pctl < 60 else (-1 if pctl > 80 else 0),
-                  "reason": f"VIX {tr(cur, 2)}, son 252 gözlemin %{tr(pctl, 0)}'lik diliminde"})
+                  "reason": f"VIX {tr(cur, 2)}, son 252 gözlemde yüzdelik dilim %{tr(pctl, 0)}"})
     else:
         v["reason"] = f"VIX için 252 gözlem veya referans günü verisi yok ({len(vs)} gözlem)"
         dq["missing_data"].append("VIX geçmişi")
