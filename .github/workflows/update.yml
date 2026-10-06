@@ -6,8 +6,6 @@ on:
     - cron: "30 22 * * 1-5"
     # Yedek: ilk çalışma başarısız olursa 01:30 UTC'de tekrar dener (yaz saatinde de kapanıştan sonra)
     - cron: "30 1 * * 2-6"
-    # Sabah doğrulaması: 14:45 UTC. FRED dünün kapanışını yayınlamış olur, hacim ve fiyatlar kesinleşmiştir
-    - cron: "45 14 * * 2-6"
   workflow_dispatch: {}
 
 permissions: {}
