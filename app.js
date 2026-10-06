@@ -178,9 +178,8 @@
       stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>' +
       '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>' +
       h2("Tüm bileşenler") + aiTable(a);
-    var asof = Object.keys(a.detail || {}).map(function (k) { return k + " " + fmtDate(a.detail[k].asof); }).join(", ");
     var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 120; });
-    out += '<p class="fine">Bileşen listeleri fonların resmi dosyalarından alınmıştır (' + esc(asof) + '). Fiyatlar her gece güncellenir; liste ağırlıkları fon yeniden dengelendikçe değişir.' + (old ? ' <span class="rsk">Liste 120 günden eski, ağırlıklar güncel olmayabilir.</span>' : '') + ' Kore, Tayvan, Japonya ve Çin borsasındaki hisselerin fiyatları kendi para birimi ve kendi işlem saatlerindedir; yüzde değişimleri karşılaştırılabilir.</p>';
+    if (old) out += '<p class="fine"><span class="rsk">Liste 120 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
     return out;
   }
 
