@@ -42,10 +42,6 @@ INDEXES = [
     ("RUT", "^RUT", "Russell 2000", False),
     ("VIX", "^VIX", "CBOE Volatility Index", False),
     ("DXY", "DX-Y.NYB", "ABD Dolar Endeksi", False),
-    ("GOLD", "GC=F", "Altın vadeli (ön ay)", False),
-    ("SILVER", "SI=F", "Gümüş vadeli (ön ay)", False),
-    ("WTI", "CL=F", "ABD ham petrol, WTI vadeli (ön ay)", False),
-    ("BRENT", "BZ=F", "Brent petrol vadeli (ön ay)", False),
     ("BTC", "BTC-USD", "Bitcoin", True),
     # Asya borsaları kendi saatinde kapanır; ABD referans gününe göre "eski" sayılmaz
     ("KOSPI", "^KS11", "KOSPI (Güney Kore)", True),
