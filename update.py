@@ -272,6 +272,30 @@ def pair_block(a_name, b_name, label, frames):
     return out
 
 
+def sector_participation(frames):
+    """Sektör ETF'lerinin kaçı kendi 50 günlük ortalamasının üstünde (fiyat bazlı vekil, bileşen genişliği değildir)."""
+    cols = {}
+    for sym, _ in SECTORS:
+        if sym in frames:
+            c = frames[sym]["Close"].astype(float)
+            cols[sym] = c
+    if len(cols) < 6:
+        return None
+    df = pd.DataFrame(cols).dropna(how="all")
+    ma = df.rolling(50, min_periods=50).mean()
+    valid = ma.notna() & df.notna()
+    above = (df > ma) & valid
+    cnt = valid.sum(axis=1)
+    pct = (above.sum(axis=1) / cnt.replace(0, np.nan) * 100).dropna()
+    pct = pct[cnt.loc[pct.index] >= 6].iloc[-60:]
+    if len(pct) < 10:
+        return None
+    return {"count": int(cnt.loc[pct.index[-1]]), "above": int(above.sum(axis=1).loc[pct.index[-1]]),
+            "pct": r(pct.iloc[-1], 0),
+            "d5": r(pct.iloc[-1] - pct.iloc[-6], 0) if len(pct) > 5 else None,
+            "dates": [d.strftime("%Y-%m-%d") for d in pct.index], "series": [r(x, 1) for x in pct.tolist()]}
+
+
 def sector_block(frames):
     if "SPY" not in frames:
         return []
@@ -907,6 +931,7 @@ def main():
 
     pairs = [pair_block(a, b, lbl, etf_frames) for a, b, lbl in PAIRS]
     sectors = sector_block(etf_frames)
+    sector_part = sector_participation(etf_frames)
     ai = {"available": False}
     if "SPY" in etf_frames and "QQQ" in etf_frames:
         ai = ai_block(ref_date, etf_frames["SPY"], etf_frames["QQQ"])
@@ -961,7 +986,7 @@ def main():
             ],
         },
         "indexes": idx, "etfs": etf, "breadth": breadth, "pairs": pairs,
-        "sectors": sectors, "ai": ai, "yields": yields, "regime": reg, "notes": notes,
+        "sectors": sectors, "sector_participation": sector_part, "ai": ai, "yields": yields, "regime": reg, "notes": notes,
     }
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, allow_nan=False, indent=1)
