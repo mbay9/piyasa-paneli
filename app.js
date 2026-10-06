@@ -29,15 +29,26 @@
     return "";
   }
 
+  var REG_LABELS = { RISK_ON: ["RİSK-ON", "pos"], NEUTRAL: ["NÖTR / KARIŞIK", "rsk"], RISK_OFF: ["RİSK-OFF", "neg"], INSUFFICIENT_DATA: ["BELİRSİZ / VERİ YETERSİZ", "neu"] };
+  var REG_NAMES = { trend: "Uzun vadeli trend", breadth: "Piyasa genişliği", vix_percentile: "VIX yüzdelik dilimi", high_yield_spread: "Kredi stresi" };
+
   function regime(rg) {
-    if (!rg) return "";
-    var col = rg.label === "RISK_ON" ? "pos" : rg.label === "RISK_OFF" ? "neg" : "rsk";
-    var bars = rg.components.map(function (c) {
-      return '<div class="comp"><div class="n">' + esc(c.name) + '<small>' + esc(c.note) + '</small></div><div class="track"><i style="width:' + c.score + '%"></i></div><div class="neu" style="text-align:right">' + num(c.score, 0) + '</div></div>';
+    if (!rg || !rg.indicators) return "";
+    var lab = REG_LABELS[rg.market_regime] || REG_LABELS.INSUFFICIENT_DATA;
+    var keys = ["trend", "breadth", "vix_percentile", "high_yield_spread"];
+    var rows = keys.map(function (k) {
+      var x = rg.indicators[k] || {}, ok = x.status === "valid", sc = x.score;
+      var segs = [-1, 0, 1].map(function (v) { return '<i class="' + (ok && sc === v ? (v > 0 ? "on up" : v < 0 ? "on dn" : "on md") : "") + '"></i>'; }).join("");
+      var txt = ok ? (sc > 0 ? "+1" : sc < 0 ? "−1" : "0") : "–";
+      var note = (x.reason || "") + (ok && x.data_date ? " · " + fmtDate(x.data_date) : "");
+      return '<div class="comp"><div class="n">' + esc(REG_NAMES[k]) + '<small>' + esc(note) + '</small></div><div class="tri">' + segs + '</div><div class="' + (ok ? (sc > 0 ? "pos" : sc < 0 ? "neg" : "neu") : "neu") + '" style="text-align:right">' + txt + '</div></div>';
     }).join("");
+    var dq = rg.data_quality || {}, miss = (dq.missing_data || []).concat(dq.stale_data || []);
+    var fine = "Haftalık sinyal" + (rg.as_of_date ? ", referans: " + fmtDate(rg.as_of_date) + " haftası kapanışı" : "") + ". " + (rg.valid_count || 0) + "/4 gösterge geçerli, toplam puan −4 ile +4 arasındadır." +
+      (miss.length ? ' <span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + ".</span>" : "");
     return h2("Makro rejim") +
-      '<div class="score"><span class="big">' + num(rg.score, 0) + '</span><span class="lab ' + col + '">' + esc(rg.label.replace("_", " ")) + '</span></div>' +
-      '<div style="margin-top:14px">' + bars + '</div>' + sub("Kural tabanlı skor: bileşenlerin eşit ağırlıklı ortalaması. 65 ve üstü RISK ON, 40 altı RISK OFF.");
+      '<div class="score"><span class="big">' + (rg.market_regime === "INSUFFICIENT_DATA" ? "–" : (rg.total_score > 0 ? "+" : rg.total_score < 0 ? "−" : "") + Math.abs(rg.total_score)) + '</span><span class="lab ' + lab[1] + '">' + esc(lab[0]) + '</span></div>' +
+      '<div style="margin-top:14px">' + rows + '</div><p class="fine">' + fine + '</p>';
   }
 
   function levels(d) {
@@ -47,7 +58,7 @@
       rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     });
     return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      sub("Noktalı satırlar resmi kaynakla doğrulandı. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, ABD kapanışından önce biter. 2 ve 10 yıllık getiriler yalnızca makro rejim skorunda kullanılır. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
+      sub("Noktalı satırlar resmi kaynakla doğrulandı. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, ABD kapanışından önce biter. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
   }
 
   function trend(d) {
