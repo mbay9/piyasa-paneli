@@ -47,12 +47,12 @@
       rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     });
     return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      sub("Noktalı satırlar resmi kaynakla doğrulandı. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, ABD kapanışından önce biter. 2 ve 10 yıllık getiriler yalnızca makro rejim skorunda kullanılır. Petrol, Altın ve Gümüş ön ay vadeli sözleşme fiyatıdır; sözleşme yenilendiğinde (roll) fiyatta küçük süreksizlik olabilir. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
+      sub("Noktalı satırlar resmi kaynakla doğrulandı. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, ABD kapanışından önce biter. 2 ve 10 yıllık getiriler yalnızca makro rejim skorunda kullanılır. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
   }
 
   function trend(d) {
     var rows = [];
-    ["SPX", "NASDAQ", "RUT", "WTI", "BRENT", "KOSPI", "NIKKEI"].forEach(function (k) { if (d.indexes[k]) rows.push([k, d.indexes[k]]); });
+    ["SPX", "NASDAQ", "RUT", "KOSPI", "NIKKEI"].forEach(function (k) { if (d.indexes[k]) rows.push([k, d.indexes[k]]); });
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
       var m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
@@ -60,7 +60,7 @@
         '<td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + (m.vol_vs20 === null ? '<span class="neu">–</span>' : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td>' + (m.vol_vs50 === null ? '<span class="neu">–</span>' : pc(m.vol_vs50, 0)) + '</td></tr>';
     }).join("");
     return h2("Trend ve hacim") + '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th>Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>' +
-      '<p class="fine">Trend: kapanış &gt; SMA50 &gt; SMA200 yükseliş, tersi düşüş, diğerleri yatay. Hacim, son günün önceki 20 ve 50 günün ortalamasına farkıdır. Endeks ve vadeli sözleşme hacimleri Yahoo verisinde güvenilir olmadığı için yalnızca ETF satırlarında gösterilir.</p>';
+      '<p class="fine">Trend: kapanış &gt; SMA50 &gt; SMA200 yükseliş, tersi düşüş, diğerleri yatay. Hacim, son günün önceki 20 ve 50 günün ortalamasına farkıdır. Endeks hacimleri Yahoo verisinde güvenilir olmadığı için yalnızca ETF satırlarında gösterilir.</p>';
   }
 
   function notes(n) {
