@@ -142,12 +142,12 @@
       var d = a.detail && a.detail[k]; if (!d) return "";
       var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
       var top = d.top.map(function (t) { return esc(t.symbol); }).join(" · ");
-      return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + ' · ' + d.covered + '/' + d.listed + ' hisse, ağırlığın %' + num(d.covered_weight, 0) + '\'i</small></td>' +
+      return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + '</small></td>' +
         '<td class="' + cls(d.w_d1) + '">' + pc(d.w_d1) + '</td><td class="' + cls(d.w_d5) + '">' + pc(d.w_d5) + '</td><td class="' + cls(d.w_d20) + '">' + pc(d.w_d20) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td>' +
         '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above100_w, 0) + '<small>sayı: %' + num(d.above100_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute">' + top + '</td></tr>';
     }).join("");
     return h2("ETF içi görünüm (ağırlıklı)") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Ağırlıklı 1G</th><th>Ağırlıklı 5G</th><th>Ağırlıklı 20G</th><th>Eşit ağırlıklı 20G</th><th>SMA 50 üstü (ağırlık)</th><th>SMA 100 üstü (ağırlık)</th><th>SMA 200 üstü (ağırlık)</th><th>Yapı</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      '<p class="fine">Ağırlıklı değerler fonun gerçek pozisyon ağırlıklarıyla, eşit ağırlıklı değer her hissenin aynı payla hesaplanır. Eşit ağırlıklı 20G, ETF\'in kendi 20G getirisinin 1 puan veya fazla gerisindeyse yapı DAR (birkaç dev pozisyon taşıyor), önündeyse GENİŞ. DRAM\'de aynı hisseye hem doğrudan hem swap ile verilen pozisyonlar toplandı; ağırlıklar fon varlığının yüzdesidir ve nakit/tahvil kalemleri dahil değildir. Fonun %5,01\'lik CXMT pozisyonu borsada işlem görmediği için hesaba katılmaz.</p>';
+      '<p class="fine">Ağırlıklı değerler fonun gerçek pozisyon ağırlıklarıyla, eşit ağırlıklı değer her hissenin aynı payla hesaplanır. Eşit ağırlıklı 20G, ETF\'in kendi 20G getirisinin 1 puan veya fazla gerisindeyse yapı DAR (birkaç dev pozisyon taşıyor), önündeyse GENİŞ. DRAM\'de aynı hisseye hem doğrudan hem swap ile verilen pozisyonlar toplandı; ağırlıklar fon varlığının yüzdesidir ve nakit/tahvil kalemleri dahil değildir.</p>';
   }
   function ai(a) {
     if (!a || !a.etfs) return h2("Yapay zeka") + sub("Bu bölüm bu güncellemede hesaplanamadı. Bir sonraki çalışmada yeniden denenir.");
