@@ -20,8 +20,10 @@ b = d.get("breadth", {}).get("ma50")
 if b and not (0 <= b["pct"] <= 100):
     errs.append("breadth yüzdesi geçersiz")
 rg = d.get("regime")
-if not rg or rg.get("market_regime") not in ("RISK_ON", "NEUTRAL", "RISK_OFF", "INSUFFICIENT_DATA") or not (-4 <= rg.get("total_score", 99) <= 4):
+if not rg or rg.get("market_regime") not in ("RISK_ON", "RISK_OFF", "INSUFFICIENT_DATA"):
     errs.append("rejim sonucu geçersiz")
+elif rg["market_regime"] != "INSUFFICIENT_DATA" and not (rg.get("close") and rg.get("sma200")):
+    errs.append("rejim alanları eksik")
 elif rg["market_regime"] == "INSUFFICIENT_DATA":
     errs.append("rejim hesaplanamadı (veri yetersiz): " + "; ".join(rg["data_quality"].get("stale_data", []) + rg["data_quality"].get("missing_data", [])))
 if d["meta"].get("quality", {}).get("level") == "DÜŞÜK":
