@@ -331,134 +331,64 @@ def clamp(x, lo=0.0, hi=100.0):
     return max(lo, min(hi, x))
 
 
-REGIME_VERSION = "SP500-regime-v1"
-HY_SERIES = "BAMLH0A0HYM2"
+REGIME_VERSION = "SP500-trend-v2"
+TREND_MA, TREND_BAND, TREND_CONFIRM = 200, 0.015, 2
 
 
-def last_completed_week(daily_close, now_utc):
-    """Son tamamlanmış ABD işlem haftası: (haftalık kapanışlar, son işlem günü) döndürür."""
-    ny = now_utc.astimezone(ZoneInfo("America/New_York"))
-    wk = daily_close.resample("W-FRI").last().dropna()
-    last_day = daily_close.groupby(daily_close.index.to_period("W-FRI")).apply(lambda s: s.index[-1])
-    while len(wk):
-        end = wk.index[-1].date()  # haftanın cuması
-        if ny.date() > end or (ny.date() == end and (ny.hour, ny.minute) >= (16, 30)):
-            break
-        wk = wk.iloc[:-1]
-    if wk.empty:
-        return None, None
-    day = last_day.loc[wk.index[-1].to_period("W-FRI")]
-    return wk, day
-
-
-def regime(spx_close, vix_close, closes, n_total, hy, now_utc):
-    """S&P 500 için dört göstergeli haftalık rejim (SP500-regime-v1). Tahmin yok: hesaplanamayan gösterge geçersiz sayılır."""
-    ind = {k: {"score": 0, "status": "invalid", "reason": "", "data_date": None} for k in
-           ("trend", "breadth", "vix_percentile", "high_yield_spread")}
-    ind["trend"].update({"latest_close": None, "moving_average_40_week": None})
-    ind["breadth"].update({"percent_above_200_day": None, "valid_constituent_count": None, "total_constituent_count": n_total})
-    ind["vix_percentile"].update({"latest_vix": None, "percentile_252_observations": None})
-    ind["high_yield_spread"].update({"latest_spread": None, "spread_13_weeks_ago": None, "change_percentage_points": None})
-    dq = {"sources": [], "missing_data": [], "stale_data": [], "warnings": []}
-    wk, as_of = last_completed_week(spx_close, now_utc)
-    if wk is None:
-        return {"as_of_date": None, "market_regime": "INSUFFICIENT_DATA", "total_score": 0, "score_range": "-4 to +4",
-                "valid_count": 0, "indicators": ind, "data_quality": dq, "methodology_version": REGIME_VERSION}
-    as_of_d = as_of.strftime("%Y-%m-%d")
-    if (wk.index[-1].date() - as_of.date()).days > 1:
-        dq["stale_data"].append(f"S&P 500 son verisi {as_of_d}, tamamlanmış haftanın sonundan eski")
-        for x in ind.values():
-            x["reason"] = "Referans haftanın verisi eksik"
-        return {"as_of_date": as_of_d, "market_regime": "INSUFFICIENT_DATA", "total_score": 0, "score_range": "-4 to +4",
-                "valid_count": 0, "indicators": ind, "data_quality": dq, "methodology_version": REGIME_VERSION}
-
-    # 1) Trend: son tamamlanmış haftalık kapanış ve 40 haftalık basit ortalama
-    t = ind["trend"]
-    if len(wk) >= 40:
-        close, ma40 = float(wk.iloc[-1]), float(wk.iloc[-40:].mean())
-        t.update({"latest_close": r(close, 2), "moving_average_40_week": r(ma40, 2), "data_date": as_of_d, "status": "valid",
-                  "score": 1 if close > ma40 else (-1 if close < ma40 else 0),
-                  "reason": f"Haftalık kapanış {tr(close, 2)}, 40 haftalık ortalama {tr(ma40, 2)} ({tr((close / ma40 - 1) * 100, 1)}%)"})
+def regime(spx_close, vix_close, closes, n_total, ref_date):
+    """S&P 500 trend rejimi. Kural: 200 gunluk ortalamanin %1,5 uzerinde 2 kapanis = RISK_ON, %1,5 altinda 2 kapanis = RISK_OFF,
+    aradayken onceki durum korunur. Gecmis testte (1993-2026) en buyuk dusus -55'ten -20'ye indi. VIX ve genislik yalnizca bilgidir, puanlanmaz."""
+    dq = {"sources": ["S&P 500 (^GSPC) gunluk kapanis: Yahoo Finance, resmi degil, fiyat endeksi"], "missing_data": [], "stale_data": [], "warnings": []}
+    out = {"as_of_date": None, "market_regime": "INSUFFICIENT_DATA", "state_since": None, "days_in_state": None, "close": None,
+           "sma200": None, "distance_pct": None, "lower_band": None, "upper_band": None,
+           "context": {"vix": None, "vix_percentile": None, "breadth_pct200": None, "breadth_valid": None, "breadth_total": n_total},
+           "data_quality": dq, "methodology_version": REGIME_VERSION}
+    s = spx_close.dropna()
+    if len(s) < TREND_MA + 60:
+        dq["missing_data"].append(f"S&P 500 gecmisi yetersiz ({len(s)} gun)")
+        return out
+    last = s.index[-1]
+    if last.strftime("%Y-%m-%d") != ref_date:
+        dq["stale_data"].append(f"S&P 500 uzun gecmis son verisi {last.strftime('%Y-%m-%d')}, referans {ref_date}")
+        return out
+    ma = s.rolling(TREND_MA).mean()
+    on, since, flips, up, dn = None, None, 0, 0, 0
+    for d, c, m in zip(s.index, s.values, ma.values):
+        if np.isnan(m):
+            continue
+        up = up + 1 if c > m * (1 + TREND_BAND) else 0
+        dn = dn + 1 if c < m * (1 - TREND_BAND) else 0
+        if on is None:
+            on = bool(c > m)
+            continue
+        new = True if up >= TREND_CONFIRM else (False if dn >= TREND_CONFIRM else on)
+        if new != on:
+            on, since, flips = new, d, flips + 1
+    close, m = float(s.iloc[-1]), float(ma.iloc[-1])
+    out.update({"as_of_date": ref_date, "market_regime": "RISK_ON" if on else "RISK_OFF", "close": r(close, 2), "sma200": r(m, 2),
+                "distance_pct": r((close / m - 1) * 100, 2), "lower_band": r(m * (1 - TREND_BAND), 2), "upper_band": r(m * (1 + TREND_BAND), 2)})
+    if since is not None:
+        out["state_since"] = since.strftime("%Y-%m-%d")
+        out["days_in_state"] = int((s.index > since).sum())
     else:
-        t["reason"] = f"40 haftalık ortalama için yeterli veri yok ({len(wk)} hafta)"
-        dq["missing_data"].append("S&P 500 haftalık geçmişi")
-    dq["sources"].append("S&P 500 (^GSPC) günlük kapanış: Yahoo Finance, resmi değil, fiyat endeksi")
+        dq["warnings"].append("Durum degisimi mevcut gecmiste yok, baslangic tarihi bilinmiyor")
 
-    # 2) Genişlik: bileşenlerin 200 günlük ortalama üzerindeki oranı (yalnızca güncel liste, bu yüzden sadece son hafta için geçerli)
-    b = ind["breadth"]
+    ctx = out["context"]
+    vs = vix_close.dropna()
+    vs = vs[vs.index <= last].tail(252) if len(vs) else vs
+    if len(vs) >= 252 and vs.index[-1] == last:
+        ctx["vix"] = r(float(vs.iloc[-1]), 2)
+        ctx["vix_percentile"] = r(float((vs <= vs.iloc[-1]).sum()) / len(vs) * 100, 0)
     if closes is not None and n_total:
-        c = closes[closes.index <= as_of]
-        if len(c) >= 200 and c.index[-1] == as_of:
-            pct, cnt, ab = breadth_series(c, 200)
+        c2 = closes[closes.index <= last]
+        if len(c2) >= 200 and c2.index[-1] == last:
+            pct, cnt, _ab = breadth_series(c2, 200)
             pct = pct.dropna()
-            if len(pct) and pct.index[-1] == as_of:
-                valid = int(cnt.loc[as_of])
-                cov = valid / n_total
-                b.update({"percent_above_200_day": r(pct.iloc[-1], 1), "valid_constituent_count": valid, "data_date": as_of_d})
-                if cov >= MIN_COVERAGE:
-                    p = float(pct.iloc[-1])
-                    b.update({"status": "valid", "score": 1 if p > 60 else (-1 if p < 40 else 0),
-                              "reason": f"{valid}/{n_total} bileşenin %{tr(p, 1)} kadarı 200G ortalama üzerinde"})
-                else:
-                    b["reason"] = f"Veri kapsaması yetersiz: {valid}/{n_total} (%{tr(cov * 100, 1)})"
-                    dq["warnings"].append("Genişlik kapsaması yetersiz")
-        if b["status"] != "valid" and not b["reason"]:
-            b["reason"] = "Bileşenlerin 200 günlük verisi hesaplanamadı"
-        dq["sources"].append("S&P 500 bileşenleri: güncel liste, tarihsel liste değil (yalnızca güncel sinyal için kullanılır)")
-    else:
-        b["reason"] = "Bileşen listesi veya fiyat verisi alınamadı"
-    if b["status"] != "valid":
-        dq["missing_data"].append("Piyasa genişliği")
-
-    # 3) VIX: son 252 gözlem içindeki yüzdelik dilim (güncel gözlem dahil)
-    v = ind["vix_percentile"]
-    vs = vix_close[vix_close.index <= as_of].dropna().tail(252)
-    if len(vs) >= 252 and vs.index[-1] == as_of:
-        cur = float(vs.iloc[-1])
-        pctl = float((vs <= cur).sum()) / len(vs) * 100
-        v.update({"latest_vix": r(cur, 2), "percentile_252_observations": r(pctl, 1), "data_date": as_of_d, "status": "valid",
-                  "score": 1 if pctl < 60 else (-1 if pctl > 80 else 0),
-                  "reason": f"VIX {tr(cur, 2)}, son 252 gözlemde yüzdelik dilim %{tr(pctl, 0)}"})
-    else:
-        v["reason"] = f"VIX için 252 gözlem veya referans günü verisi yok ({len(vs)} gözlem)"
-        dq["missing_data"].append("VIX geçmişi")
-    dq["sources"].append("VIX (^VIX) günlük kapanış: Yahoo Finance, Cboe resmi dosyasıyla çapraz kontrol, yüzdelik: ≤ güncel / 252")
-
-    # 4) Kredi stresi: HY OAS, 13 haftalık değişim
-    h = ind["high_yield_spread"]
-    if hy is not None and len(hy):
-        hw = hy[hy.index <= as_of].resample("W-FRI").last().dropna()
-        lag = (as_of - hy[hy.index <= as_of].index[-1]).days if len(hy[hy.index <= as_of]) else 999
-        if len(hw) >= 14 and lag <= 7 and (as_of - hw.index[-1]).days <= 7:
-            cur, old = float(hw.iloc[-1]), float(hw.iloc[-14])
-            ch = cur - old
-            h.update({"latest_spread": r(cur, 2), "spread_13_weeks_ago": r(old, 2), "change_percentage_points": r(ch, 2),
-                      "data_date": hw.index[-1].strftime("%Y-%m-%d"), "status": "valid",
-                      "score": 1 if ch <= -0.25 else (-1 if ch >= 0.5 else 0),
-                      "reason": f"Spread %{tr(cur, 2)}, 13 hafta önce %{tr(old, 2)}, değişim {'+' if ch >= 0 else '−'}{tr(abs(ch) * 100, 0)} baz puan"})
-            dq["sources"].append("ICE BofA US High Yield OAS (FRED BAMLH0A0HYM2)")
-        else:
-            h["reason"] = "HY spread serisi güncel değil veya 13 hafta öncesi yok"
-            dq["stale_data"].append("HY OAS")
-    else:
-        h["reason"] = "HY spread serisi alınamadı (FRED erişilemedi)"
-    if h["status"] != "valid":
-        dq["missing_data"].append("Yüksek getirili tahvil spreadi (HY OAS)")
-
-    valid = [x for x in ind.values() if x["status"] == "valid"]
-    total = sum(x["score"] for x in valid)
-    if not valid:
-        label = "INSUFFICIENT_DATA"
-    elif total >= 2:
-        label = "RISK_ON"
-    elif total <= -2:
-        label = "RISK_OFF"
-    else:
-        label = "NEUTRAL"
-    if len(valid) < 4:
-        dq["warnings"].append(f"Yalnızca {len(valid)}/4 gösterge geçerli; eksik göstergeler sıfır sayılmadı, toplama dahil edilmedi")
-    return {"as_of_date": as_of_d, "market_regime": label, "total_score": total, "score_range": "-4 to +4",
-            "valid_count": len(valid), "indicators": ind, "data_quality": dq, "methodology_version": REGIME_VERSION}
+            if len(pct) and pct.index[-1] == last:
+                valid = int(cnt.loc[last])
+                if valid / n_total >= MIN_COVERAGE:
+                    ctx["breadth_pct200"], ctx["breadth_valid"] = r(pct.iloc[-1], 1), valid
+    return out
 
 
 # ------------------------------------------------------------------ hisse listesi
@@ -880,6 +810,19 @@ def load_holdings():
     return h, uni
 
 
+def volume_trend(f):
+    """Hacim eğilimi: son 5 günün ortalaması / son 20 günün ortalaması. +-%20 eşik. Hacim yoksa None."""
+    if "Volume" not in f or len(f) < 25:
+        return None, None
+    v = f["Volume"].astype(float)
+    a20 = float(v.iloc[-20:].mean())
+    a5 = float(v.iloc[-5:].mean())
+    if not a20 > 0 or (v.iloc[-20:] > 0).sum() < 15:
+        return None, None
+    ch = (a5 / a20 - 1) * 100
+    return r(ch, 1), ("Artıyor" if ch >= 20 else ("Azalıyor" if ch <= -20 else "Normal"))
+
+
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
@@ -918,13 +861,14 @@ def ai_block(ref_date, spy, qqq):
         m = metrics(f)
         c = f["Close"]
         hi = c.iloc[-252:].max()
+        v5, vtr = volume_trend(f)
         rows.append({
             "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
             "close": m["close"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
             "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
             "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
-            "vol_vs20": m["vol_vs20"], "trend": m["trend"],
+            "vol_vs20": m["vol_vs20"], "vol5_vs20": v5, "vol_trend": vtr, "trend": m["trend"],
         })
     if len(rows) < 12:
         out["error"] = "Yeterli bileşen verisi alınamadı"
@@ -979,6 +923,9 @@ def ai_block(ref_date, spy, qqq):
                     "positive_d20": r(100 * sum(1 for d in d20s if d > 0) / len(d20s), 1) if d20s else None,
                     "near_high": r(100 * sum(1 for x in rows if x["from_high"] is not None and x["from_high"] > -5) / n, 1)},
         "memory": {"count": len(memrows), "avg_d20": r(float(np.mean(m20))) if m20 else None},
+        "volume": {"rising": sum(1 for x in rows if x["vol_trend"] == "Artıyor"),
+                   "falling": sum(1 for x in rows if x["vol_trend"] == "Azalıyor"),
+                   "valid": sum(1 for x in rows if x["vol_trend"] is not None)},
         "leaders": [{k: x[k] for k in ("symbol", "name", "d1", "d20")} for x in by20[:6]],
         "laggards": [{k: x[k] for k in ("symbol", "name", "d1", "d20")} for x in by20[-6:][::-1]],
         "stocks": sorted(rows, key=lambda x: (-max(x["w"].values()), x["symbol"])),
@@ -1051,13 +998,15 @@ def main():
         if v["id"] in idx:
             idx[v["id"]]["verify"] = {k: v.get(k) for k in ("status", "date", "diff", "fred", "covers_ref")}
 
-    hy = None
+    spx_long = macro_frames["^GSPC"]["Close"]
     try:
-        hy = fred_series(HY_SERIES, days=140)
+        lf, _ = download(["^GSPC"], period="5y", tries=2)
+        if "^GSPC" in lf and len(lf["^GSPC"]) > len(spx_long):
+            spx_long = lf["^GSPC"]["Close"]
     except Exception as e:  # noqa: BLE001
-        log("HY spread alınamadı:", repr(e)[:160])
-    reg = regime(macro_frames["^GSPC"]["Close"], macro_frames["^VIX"]["Close"] if "^VIX" in macro_frames else pd.Series(dtype=float),
-                 closes, len(universe["tickers"]) if universe else 0, hy, now)
+        log("Uzun S&P 500 gecmisi alinamadi:", repr(e)[:160])
+    reg = regime(spx_long, macro_frames["^VIX"]["Close"] if "^VIX" in macro_frames else pd.Series(dtype=float),
+                 closes, len(universe["tickers"]) if universe else 0, ref_date)
     notes = build_notes(idx, etf, breadth, pairs, yields, sectors, verification, universe)
     proxies = verify_proxies(macro_frames, ref_date)
     if any(p["status"] == "bad" for p in proxies):
