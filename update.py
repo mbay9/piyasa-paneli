@@ -5,14 +5,14 @@ GitHub Actions üzerinde çalışır ve data.json üretir.
 
 Kaynaklar
   - Fiyat/hacim: Yahoo Finance halka açık grafik verisi (yfinance) - resmi borsa verisi DEĞİL.
-    Bu yüzden S&P 500, Nasdaq Composite ve VIX kapanışları FRED (resmi) ile çapraz doğrulanır.
+    Bu yüzden VIX kapanışı Cboe'nin resmi dosyasıyla, S&P 500 ve Nasdaq Composite ise SPY ve QQQ ile çapraz doğrulanır.
   - S&P 500 hisse listesi: iShares IVV resmi holdings CSV (yedek: datasets/s-and-p-500-companies)
-  - Getiri eğrisi: U.S. Treasury günlük par getiri eğrisi, FRED DGS2/DGS10 ile çapraz doğrulanır
+  - Getiri eğrisi: U.S. Treasury günlük par getiri eğrisi (resmi kaynağın kendisi)
 
 Koruma kuralları (veri uydurmak yerine çalışmayı durdurur, eski sayfa yerinde kalır)
   - Piyasa kapanışından önce (New York 16:30) alınan günlük veri reddedilir
   - Hisse verisi kapsamı %95'in altındaysa durur
-  - Yahoo, FRED ile aynı tarihte %1'den fazla ayrışırsa durur
+  - Yahoo, resmi dosyayla (VIX) aynı tarihte %1'den fazla ayrışırsa durur
 """
 import io
 import json
@@ -65,15 +65,11 @@ PAIRS = [
     ("RSP", "SPY", "S&P 500: eşit ağırlık (RSP) / piyasa değeri ağırlıklı (SPY)"),
     ("QQQE", "QQQ", "Nasdaq-100: eşit ağırlık (QQQE) / piyasa değeri ağırlıklı (QQQ)"),
 ]
-# (panel adı, Yahoo sembolü, FRED serisi, izin verilen fark %)
-PRICE_VERIFY = [
-    ("SPX", "^GSPC", "SP500", 0.10),
-    ("NASDAQ", "^IXIC", "NASDAQCOM", 0.10),
-    ("VIX", "^VIX", "VIXCLS", 0.50),
-]
+# (panel adı, Yahoo sembolü, izin verilen fark %). Yalnız VIX için resmi günlük dosya (Cboe) runner'dan alınabiliyor.
+PRICE_VERIFY = [("VIX", "^VIX", 0.50)]
 MIN_COVERAGE = 0.95        # altında çalışma durur
 GOOD_COVERAGE = 0.98       # altında veri kalitesi düşer
-HARD_DIFF_PCT = 1.0        # Yahoo-FRED farkı bunu aşarsa çalışma durur
+HARD_DIFF_PCT = 1.0        # Yahoo-resmi dosya farkı bunu aşarsa çalışma durur
 ISHARES_URL = ("https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/"
                "1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund")
 DATASETS_URL = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv"
@@ -352,7 +348,7 @@ def regime(spx_close, vix_close, closes, n_total, ref_date):
         dq["stale_data"].append(f"S&P 500 uzun gecmis son verisi {last.strftime('%Y-%m-%d')}, referans {ref_date}")
         return out
     ma = s.rolling(TREND_MA).mean()
-    on, since, flips, up, dn = None, None, 0, 0, 0
+    on, since, flips, up, dn, hist = None, None, 0, 0, 0, []
     for d, c, m in zip(s.index, s.values, ma.values):
         if np.isnan(m):
             continue
@@ -364,9 +360,11 @@ def regime(spx_close, vix_close, closes, n_total, ref_date):
         new = True if up >= TREND_CONFIRM else (False if dn >= TREND_CONFIRM else on)
         if new != on:
             on, since, flips = new, d, flips + 1
+            hist.append({"date": d.strftime("%Y-%m-%d"), "to": "RISK_ON" if new else "RISK_OFF"})
     close, m = float(s.iloc[-1]), float(ma.iloc[-1])
     out.update({"as_of_date": ref_date, "market_regime": "RISK_ON" if on else "RISK_OFF", "close": r(close, 2), "sma200": r(m, 2),
                 "distance_pct": r((close / m - 1) * 100, 2), "lower_band": r(m * (1 - TREND_BAND), 2), "upper_band": r(m * (1 + TREND_BAND), 2)})
+    out["recent_flips"] = hist[-4:][::-1]
     if since is not None:
         out["state_since"] = since.strftime("%Y-%m-%d")
         out["days_in_state"] = int((s.index > since).sum())
@@ -528,25 +526,6 @@ def sanity_warnings(frames, ref_date):
 
 
 # ---------------------------------------------------------------- resmi doğrulama
-FRED_STATE = {"down": False}
-
-
-def fred_series(sid, days=60):
-    if FRED_STATE["down"]:
-        raise RuntimeError("FRED erişilemedi (önceki denemeler başarısız)")
-    start = (dt.date.today() - dt.timedelta(days=days)).isoformat()
-    try:
-        resp = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}&cosd={start}", tries=2, timeout=80)
-    except Exception:
-        FRED_STATE["down"] = True
-        raise
-    df = pd.read_csv(io.StringIO(resp.text))
-    df.columns = ["date", "v"]
-    df["date"] = pd.to_datetime(df["date"])
-    df["v"] = pd.to_numeric(df["v"], errors="coerce")
-    return df.dropna().set_index("date")["v"]
-
-
 def compare_series(y, f, tol, ref_date, rel=True):
     """Son 5 ortak günde karşılaştırır. rel=True ise yüzde fark, değilse mutlak fark."""
     common = y.index.intersection(f.index)
@@ -570,7 +549,7 @@ def compare_series(y, f, tol, ref_date, rel=True):
 
 
 def cboe_vix():
-    """VIX günlük kapanışı: Cboe'nin kendi resmi tarihsel dosyası (FRED yedeği)."""
+    """VIX günlük kapanışı: Cboe'nin kendi resmi tarihsel dosyası."""
     resp = http_get("https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv", tries=2, timeout=30)
     df = pd.read_csv(io.StringIO(resp.text))
     df.columns = [c.strip().upper() for c in df.columns]
@@ -580,44 +559,23 @@ def cboe_vix():
 
 
 def verify_prices(frames, ref_date):
+    """VIX, Cboe'nin resmi dosyasıyla doğrulanır. SPX ve NASDAQ için resmi günlük dosya alınamıyor; onlar verify_proxies ile SPY ve QQQ'ya karşı kontrol edilir."""
     out = []
-    for key, ysym, sid, tol in PRICE_VERIFY:
-        item = {"id": key, "fred": sid, "tol_pct": tol, "kind": "price"}
+    for key, ysym, tol in PRICE_VERIFY:
+        item = {"id": key, "source": "Cboe VIX_History", "tol_pct": tol, "kind": "price"}
         try:
             if ysym not in frames:
                 raise RuntimeError("Yahoo verisi yok")
-            try:
-                official = fred_series(sid)
-            except Exception:  # noqa: BLE001
-                if key != "VIX":
-                    raise
-                official = cboe_vix()
-                item["fred"] = "Cboe VIX_History"
-            item.update(compare_series(frames[ysym]["Close"], official, tol, ref_date, rel=True))
+            item.update(compare_series(frames[ysym]["Close"], cboe_vix(), tol, ref_date, rel=True))
         except Exception as e:  # noqa: BLE001
             item.update(status="unavailable", note=str(e)[:140])
         out.append(item)
     return out
 
 
-def verify_yields(ydf, ysrc, ref_date):
-    out = []
-    for col, sid, name in (("y2", "DGS2", "US2Y"), ("y10", "DGS10", "US10Y")):
-        item = {"id": name, "fred": sid, "tol_pct": 0.011, "kind": "yield"}
-        if ydf is None or "Treasury" not in (ysrc or ""):
-            item.update(status="unavailable", note="Treasury verisi yok veya kaynak zaten FRED")
-        else:
-            try:
-                item.update(compare_series(ydf[col].astype(float), fred_series(sid), 0.011, ref_date, rel=False))
-            except Exception as e:  # noqa: BLE001
-                item.update(status="unavailable", note=str(e)[:140])
-        out.append(item)
-    return out
-
-
 # ---------------------------------------------------------------------- getiri
 def get_yields():
-    """2Y/10Y getiri: Treasury CSV, yedek FRED."""
+    """2Y/10Y getiri: U.S. Treasury günlük par getiri eğrisi (resmi dosyanın kendisi)."""
     year = dt.date.today().year
     try:
         url = ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
@@ -631,15 +589,6 @@ def get_yields():
                     "U.S. Treasury günlük par getiri eğrisi")
     except Exception as e:  # noqa: BLE001
         log("Treasury alınamadı:", repr(e))
-    try:
-        cols = {}
-        for sid, key in (("DGS2", "y2"), ("DGS10", "y10")):
-            cols[key] = fred_series(sid, days=90).rename(key)
-        df = pd.concat(cols.values(), axis=1).dropna()
-        if len(df) >= 6:
-            return df, "FRED DGS2 / DGS10 (yedek)"
-    except Exception as e:  # noqa: BLE001
-        log("FRED getiri alınamadı:", repr(e))
     return None, None
 
 
@@ -687,20 +636,12 @@ def build_notes(idx, etf, breadth, pairs, yields, sectors, verification, univers
         m = idx.get(key)
         if not m:
             continue
-        if m.get("above200") is False:
-            add("bad", f"{key} 200G ALTINDA", f"{key} 200 günlük ortalamanın %{tr(abs(m['dist200']), 1)} altında.")
+        if m.get("above200") is False and m["dist200"] <= -1.5:
+            add("bad", f"{key} 200G ALTINDA", f"{key} 200 günlük ortalamanın %{tr(abs(m['dist200']), 1)} altında (%1,5'lik bandın dışında).")
+        elif m.get("above200") is False:
+            add("warn", f"{key} 200G'YE YAKIN", f"{key} 200 günlük ortalamanın %{tr(abs(m['dist200']), 1)} altında, %1,5'lik band içinde.")
         elif m.get("above50") is False:
             add("warn", f"{key} 50G ALTINDA", f"{key} 50 günlük ortalamanın %{tr(abs(m['dist50']), 1)} altında.")
-    sp = etf.get("SPY")
-    if sp and sp.get("vol_vs20") is not None:
-        vv = sp["vol_vs20"]
-        yon = "üstünde" if vv >= 0 else "altında"
-        if vv >= 30:
-            add("info", "HACİM YÜKSEK", f"SPY hacmi 20 günlük ortalamanın %{tr(abs(vv), 0)} {yon}.")
-        elif vv <= -25:
-            add("info", "HACİM DÜŞÜK", f"SPY hacmi 20 günlük ortalamanın %{tr(abs(vv), 0)} {yon}.")
-        else:
-            add("info", "HACİM NORMAL", f"SPY hacmi 20 günlük ortalamanın %{tr(abs(vv), 0)} {yon}.")
     b50 = (breadth.get("ma50") or {}).get("pct")
     b200 = (breadth.get("ma200") or {}).get("pct")
     if b50 is not None:
@@ -738,7 +679,7 @@ def build_notes(idx, etf, breadth, pairs, yields, sectors, verification, univers
         if v["status"] == "warn":
             unit = "%" if v.get("kind") == "price" else ""
             tail = "" if v.get("kind") == "price" else " puan"
-            add("warn", f"{v['id']} DOĞRULAMA", f"{v['id']} ile {v['fred']} (FRED, resmi) arasında {unit}{tr(abs(v['worst_diff']), 2)}{tail} fark var, izin verilen {unit}{tr(v['tol_pct'], 2)}{tail}.")
+            add("warn", f"{v['id']} DOĞRULAMA", f"{v['id']} ile {v.get('source', 'resmi kaynak')} arasında {unit}{tr(abs(v['worst_diff']), 2)}{tail} fark var, izin verilen {unit}{tr(v['tol_pct'], 2)}{tail}.")
     if universe and not universe["official"]:
         add("info", "HİSSE LİSTESİ", "S&P 500 hisse listesi resmi kaynaktan alınamadı, GitHub'daki topluluk listesi kullanıldı.")
     return notes
@@ -772,23 +713,23 @@ def data_quality(universe, coverage, verification, warnings, proxies=None):
     if coverage and coverage["ratio"] < GOOD_COVERAGE:
         level = min(level, 2)
         reasons.append(f"Hisse kapsamı %{tr(coverage['ratio'] * 100, 1)}")
-    oks = [v for v in verification if v["status"] == "ok"]
-    if not oks:
-        if proxies and all(p["status"] == "ok" for p in proxies):
-            level = min(level, 2)
-            reasons.append("Resmi kaynak (FRED) erişilemedi; endeksler SPY ve QQQ ile çapraz doğrulandı")
-        else:
-            level = 1
-            reasons.append("Hiçbir fiyat resmi kaynakla doğrulanamadı")
+    vix_ok = any(v["status"] == "ok" for v in verification)
+    prox_ok = bool(proxies) and all(p["status"] == "ok" for p in proxies)
+    if not vix_ok and not prox_ok:
+        level = 1
+        reasons.append("Hiçbir fiyat bağımsız kaynakla doğrulanamadı")
     else:
-        if any(v["status"] == "unavailable" for v in verification):
+        if not vix_ok:
             level = min(level, 2)
-            reasons.append("Bazı seriler resmi kaynakla doğrulanamadı")
-        if any(v["status"] == "warn" for v in verification):
+            reasons.append("VIX, Cboe resmi dosyasıyla doğrulanamadı")
+        elif any(v["status"] == "warn" for v in verification):
             level = min(level, 2)
-            reasons.append("Bazı serilerde Yahoo ile resmi veri arasında küçük fark var")
-        if not all(v.get("covers_ref") for v in oks):
-            reasons.append("Resmi kaynak son günü henüz yayınlamadı, bir önceki güne kadar doğrulandı (sabah yenilenir)")
+            reasons.append("VIX'te Yahoo ile Cboe dosyası arasında küçük fark var")
+        elif not all(v.get("covers_ref") for v in verification if v["status"] == "ok"):
+            reasons.append("Cboe dosyası son günü henüz yayınlamadı, bir önceki güne kadar doğrulandı (sabah yenilenir)")
+        if not prox_ok:
+            level = min(level, 2)
+            reasons.append("S&P 500 ve Nasdaq, SPY ve QQQ ile çapraz doğrulanamadı")
     if warnings:
         level = min(level, 2)
         reasons.append(f"{len(warnings)} veri uyarısı")
@@ -864,7 +805,7 @@ def ai_block(ref_date, spy, qqq):
         v5, vtr = volume_trend(f)
         rows.append({
             "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
-            "close": m["close"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
+            "close": m["close"], "date": m["date"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
             "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
             "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
@@ -950,6 +891,7 @@ def main():
         if sym in macro_frames:
             m = metrics(macro_frames[sym], use_volume=False)  # Yahoo endeks/vadeli hacmi güvenilir değil
             m.update({"symbol": key, "yahoo": sym, "name": name, "h24": h24,
+                      "live": sym == "BTC-USD",  # 7/24 işlem görür: değer anlık, ABD kapanışı değil
                       "stale": (not h24) and m["date"] < ref_date})
             idx[key] = m
     etf_frames = {t: macro_frames[t] for t, _ in ETFS + SECTORS if t in macro_frames}
@@ -985,10 +927,7 @@ def main():
     ydf, ysrc = get_yields()
     yields = yield_block(ydf, ysrc)
 
-    verification = verify_prices(macro_frames, ref_date) + verify_yields(ydf, ysrc, ref_date)
-    for v in verification:  # getiri farkı ikincil: durdurma, sadece uyar
-        if v["kind"] == "yield" and v["status"] == "bad":
-            v["status"] = "warn"
+    verification = verify_prices(macro_frames, ref_date)
     bad = [v for v in verification if v["status"] == "bad"]
     if bad:
         for v in bad:
@@ -996,7 +935,7 @@ def main():
         sys.exit(1)
     for v in verification:
         if v["id"] in idx:
-            idx[v["id"]]["verify"] = {k: v.get(k) for k in ("status", "date", "diff", "fred", "covers_ref")}
+            idx[v["id"]]["verify"] = {k: v.get(k) for k in ("status", "date", "diff", "source", "covers_ref")}
 
     spx_long = macro_frames["^GSPC"]["Close"]
     try:
@@ -1028,12 +967,12 @@ def main():
             "proxy_checks": proxies,
             "sources": [
                 {"name": "Yahoo Finance halka açık grafik verisi (yfinance)", "official": False,
-                 "use": "Fiyat, hacim, endeksler, ETF'ler (SPX, NASDAQ, VIX resmi FRED ile doğrulanır)"},
+                 "use": "Fiyat, hacim, endeksler, ETF'ler. VIX resmi Cboe dosyasıyla, S&P 500 ve Nasdaq SPY ve QQQ ile çapraz kontrol edilir"},
+                {"name": "Cboe VIX tarihsel dosyası", "official": True, "use": "VIX doğrulaması (son gün ertesi sabah yayınlanır)"},
                 {"name": universe["source"] if universe else "Hisse listesi alınamadı",
                  "official": bool(universe and universe["official"]), "use": "S&P 500 bileşen listesi"},
                 {"name": ysrc or "Getiri verisi alınamadı", "official": bool(ysrc and "Treasury" in ysrc),
-                 "use": "2Y/10Y getiri (FRED ile doğrulanır)"},
-                {"name": "FRED (St. Louis Fed)", "official": True, "use": "S&P 500, Nasdaq, VIX ve getiri doğrulaması"},
+                 "use": "2Y/10Y getiri"},
             ],
         },
         "indexes": idx, "etfs": etf, "breadth": breadth, "pairs": pairs,
