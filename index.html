@@ -5,22 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
-<title>Piyasa</title>
+<title>Piyasa Genel Bakış</title>
+<meta name="description" content="ABD piyasaları için her işlem günü ABD kapanışından sonra güncellenen sade gösterge paneli: S&amp;P 500 trend rejimi, piyasa genişliği, sektörler ve yapay zeka hisseleri.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1a18'/%3E%3Cpath d='M6 22l7-8 5 5 8-10' fill='none' stroke='%236fbf95' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <style>
 :root {
-  --bg: #fbfbf9; --fg: #1a1a18; --mute: #8a8a84; --line: #e7e6e1; --soft: #f3f2ee;
-  --up: #2f7d57; --down: #b4483f; --warn: #a1741a; --ink: #1a1a18;
+  --bg: #fbfbf9; --fg: #1a1a18; --mute: #6b6b65; --line: #e7e6e1; --soft: #f3f2ee;
+  --up: #2f7d57; --down: #b4483f; --warn: #8a6212; --ink: #1a1a18;
   --font: system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #111110; --fg: #ecebe6; --mute: #7d7d77; --line: #262624; --soft: #1a1a18;
+    --bg: #111110; --fg: #ecebe6; --mute: #8c8c86; --line: #262624; --soft: #1a1a18;
     --up: #6fbf95; --down: #e08278; --warn: #d4a94f; --ink: #ecebe6; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #111110; --fg: #ecebe6; --mute: #7d7d77; --line: #262624; --soft: #1a1a18;
+  --bg: #111110; --fg: #ecebe6; --mute: #8c8c86; --line: #262624; --soft: #1a1a18;
   --up: #6fbf95; --down: #e08278; --warn: #d4a94f; --ink: #ecebe6; color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -48,8 +50,10 @@ th:first-child, td:first-child { text-align: left; padding-left: 0; }
 th:last-child, td:last-child { padding-right: 0; }
 td small { display: block; color: var(--mute); font-size: 11px; }
 td b { font-weight: 500; }
-th.s { cursor: pointer; } th.s:hover { color: var(--fg); }
-svg.sp { width: 84px; height: 22px; vertical-align: middle; }
+th.s { cursor: pointer; } th.s:hover { color: var(--fg); } th.s:focus-visible { outline: 1px solid var(--fg); outline-offset: 2px; }
+details.srcbox { margin-top: 44px; border-top: 1px solid var(--line); padding-top: 14px; }
+details.srcbox summary { cursor: pointer; color: var(--mute); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.sched { color: var(--mute); font-size: 12px; margin: 4px 0 0; }
 .part { margin: 14px 0 22px; }
 .partk { color: var(--mute); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .badge { font-size: 10px; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; color: var(--warn); letter-spacing: .06em; }
@@ -66,10 +70,6 @@ svg.sp { width: 84px; height: 22px; vertical-align: middle; }
 .score { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-top: 10px; }
 .score .big { font-size: 64px; font-weight: 500; letter-spacing: -.04em; line-height: 1; }
 .score .lab { font-size: 13px; font-weight: 500; letter-spacing: .06em; }
-.comp { display: grid; grid-template-columns: minmax(220px, 380px) 1fr 34px; gap: 14px; align-items: center; padding-block: 8px; border-bottom: 1px solid var(--line); }
-.comp .n { font-size: 13px; } .comp small { display: block; color: var(--mute); font-size: 11px; }
-.tri { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; } .tri i { display: block; height: 3px; background: var(--soft); } .tri i.on { background: var(--ink); } .tri i.up { background: var(--up); } .tri i.dn { background: var(--down); }
-.track { height: 3px; background: var(--soft); } .track i { display: block; height: 100%; background: var(--ink); }
 .note { display: grid; grid-template-columns: 150px 1fr; gap: 14px; padding-block: 11px; border-bottom: 1px solid var(--line); }
 .note b { font-weight: 500; }
 .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 8px; background: var(--mute); vertical-align: 1px; }
@@ -83,19 +83,20 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 @media (max-width: 860px) {
   table, tbody { display: block; width: 100%; }
   thead { display: none; }
-  tr { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; padding-block: 14px; border-bottom: 1px solid var(--line); }
+  tr { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px 10px; padding-block: 9px; border-bottom: 1px solid var(--line); }
   td { display: block; border: 0; padding: 0; text-align: left; min-width: 0; overflow-wrap: anywhere; }
-  td::before { content: attr(data-label); display: block; color: var(--mute); font-size: 11px; line-height: 1.3; }
+  td::before { content: attr(data-label); display: block; color: var(--mute); font-size: 10.5px; line-height: 1.2; }
+  td { line-height: 1.3; font-size: 13px; }
   td:first-child { grid-column: 1 / -1; font-size: 14px; }
   td:first-child::before { display: none; }
   td[colspan] { grid-column: 1 / -1; }
   td.full { grid-column: 1 / -1; }
+  td.hm, th.hm { display: none; }
   .sortbar { display: flex; gap: 8px; align-items: center; margin: 0 0 6px; color: var(--mute); font-size: 12px; }
   .sortbar select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); padding: 6px 8px; border-radius: 0; }
 }
 @media (max-width: 720px) {
   .two { grid-template-columns: 1fr; gap: 0; }
-  .comp { grid-template-columns: 1fr 34px; } .comp .track, .comp .tri { grid-column: 1 / -1; grid-row: 2; }
   .note { grid-template-columns: 1fr; gap: 2px; }
   .score .big { font-size: 52px; }
 }
@@ -104,9 +105,10 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 <body>
 <div class="wrap">
   <header>
-    <h1>Piyasa</h1>
+    <h1>Piyasa Genel Bakış</h1>
     <div class="meta"><span>Kapanış <b id="refDate">–</b></span><span>Güncelleme <b id="gen">–</b></span><span>Veri kalitesi <b id="dq">–</b></span></div>
   </header>
+  <p class="sched">Her işlem günü ABD kapanışından sonra otomatik yenilenir. Kapanış verisi ertesi sabah Türkiye saatiyle görünür.</p>
   <nav id="nav">
     <a href="#genel" data-t="genel">Genel</a>
     <a href="#genislik" data-t="genislik">Genişlik</a>
