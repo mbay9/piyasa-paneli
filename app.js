@@ -1,20 +1,17 @@
 (function () {
   var MONTHS = ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
   function fmtDate(d) { if (!d) return "–"; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1] + " " + a[0]; }
+  function fmtShort(d) { if (!d) return ""; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1]; }
+  function dtag(m, ref) {
+    if (m && m.live) return " · anlık";
+    return m && m.date && ref && m.date !== ref ? " · son kapanış " + fmtShort(m.date) : "";
+  }
   function num(v, dec) { return v === null || v === undefined ? "–" : Number(v).toLocaleString("tr-TR", { minimumFractionDigits: dec, maximumFractionDigits: dec }); }
   function sgn(v) { return v > 0 ? "+" : v < 0 ? "−" : ""; }
   function pc(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 2 : dec) + "%"; }
   function pt(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 1 : dec) + " puan"; }
   function cls(v, risk) { if (v === null || v === undefined || v === 0) return "neu"; if (risk) return v > 0 ? "rsk" : "pos"; return v > 0 ? "pos" : "neg"; }
   function esc(s) { return String(s === null || s === undefined ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
-  function spark(vals) {
-    vals = (vals || []).filter(function (x) { return x !== null; });
-    if (vals.length < 2) return "";
-    var W = 84, H = 22, p = 2, mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals), r = (mx - mn) || 1;
-    var pts = vals.map(function (y, i) { return (p + i * (W - 2 * p) / (vals.length - 1)).toFixed(1) + "," + (H - p - (y - mn) / r * (H - 2 * p)).toFixed(1); }).join(" ");
-    var up = vals[vals.length - 1] >= vals[0];
-    return '<svg class="sp" viewBox="0 0 ' + W + ' ' + H + '" aria-hidden="true"><polyline points="' + pts + '" fill="none" stroke="' + (up ? "var(--up)" : "var(--down)") + '" stroke-width="1.4" stroke-linejoin="round"/></svg>';
-  }
   function h2(t) { return '<h2>' + t + '</h2>'; }
   function sub(t) { return '<p class="sub">' + t + '</p>'; }
   function stat(k, v, d, c) { return '<div class="stat"><div class="k">' + k + '</div><div class="v ' + (c || "") + '">' + v + '</div><div class="d">' + (d || "") + '</div></div>'; }
@@ -42,6 +39,7 @@
       out += '<p class="fine">S&amp;P 500 ' + num(rg.close, 2) + ', 200 günlük ortalama ' + num(rg.sma200, 2) + '. ' +
         (rg.state_since ? fmtDate(rg.state_since) + ' tarihinden beri, ' + rg.days_in_state + ' işlem günüdür bu durumda.' : "Durumun başlangıcı mevcut geçmişte yok.") + '</p>' +
         '<p class="fine">Kural: iki kapanış üst üste ortalamanın %1,5 altında (' + num(rg.lower_band, 2) + ' ve altı) ise RİSK-OFF, %1,5 üzerinde (' + num(rg.upper_band, 2) + ' ve üstü) ise RİSK-ON. Arada önceki durum korunur.</p>';
+      if (rg.recent_flips && rg.recent_flips.length) out += '<p class="fine">Son geçişler: ' + rg.recent_flips.map(function (f) { return fmtDate(f.date) + " " + (f.to === "RISK_ON" ? "RİSK-ON" : "RİSK-OFF"); }).join(" · ") + '.</p>';
       var info = [];
       if (c.vix !== null && c.vix !== undefined) info.push("VIX " + num(c.vix, 2) + ", son 252 gözlemde yüzdelik dilim %" + num(c.vix_percentile, 0));
       if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) info.push("bileşenlerin %" + num(c.breadth_pct200, 1) + " kadarı 200G ortalamanın üzerinde (" + c.breadth_valid + "/" + c.breadth_total + ")");
@@ -52,25 +50,25 @@
   }
 
   function levels(d) {
-    var rows = "";
+    var rows = "", ref = d.meta.ref_date;
     Object.keys(d.indexes).forEach(function (k) {
       var m = d.indexes[k], risk = k === "VIX";
-      rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + esc(dtag(m, ref)) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td class="hm">' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     });
-    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      sub("Noktalı satırlar resmi kaynakla doğrulandı. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, ABD kapanışından önce biter. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
+    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th class="hm">SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+      sub("Yeşil nokta: Cboe'nin resmi dosyasıyla doğrulandı (VIX). S&P 500 ve Nasdaq, SPY ve QQQ ile çapraz kontrol edilir; diğerleri Yahoo Finance verisidir. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, Bitcoin 7/24 işlem görür ve değeri anlıktır. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
   }
 
   function trend(d) {
-    var rows = [];
+    var rows = [], ref = d.meta.ref_date;
     ["SPX", "NASDAQ", "RUT", "KOSPI", "NIKKEI"].forEach(function (k) { if (d.indexes[k]) rows.push([k, d.indexes[k]]); });
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
       var m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + x[0] + '</b></td><td class="' + tc + '">' + esc(m.trend) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
-        '<td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + (m.vol_vs20 === null ? '<span class="neu">–</span>' : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td>' + (m.vol_vs50 === null ? '<span class="neu">–</span>' : pc(m.vol_vs50, 0)) + '</td></tr>';
+      return '<tr><td><b>' + x[0] + '</b>' + (dtag(m, ref) ? '<small>' + esc(dtag(m, ref).replace(" · ", "")) + '</small>' : "") + '</td><td class="' + tc + '">' + esc(m.trend) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td class="hm">' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
+        '<td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + (m.vol_vs20 === null ? '<span class="neu">–</span>' : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td class="hm">' + (m.vol_vs50 === null ? '<span class="neu">–</span>' : pc(m.vol_vs50, 0)) + '</td></tr>';
     }).join("");
-    return h2("Trend ve hacim") + '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th>Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
+    return h2("Trend ve hacim") + '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th class="hm">SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   function notes(n) {
@@ -122,21 +120,22 @@
       if (typeof u === "string") return u.localeCompare(v, "tr") * SEC_SORT.dir;
       return (u - v) * SEC_SORT.dir;
     });
-    var head = cols.map(function (c) { return '<th class="s" data-t="sec" data-k="' + c[0] + '">' + c[1] + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
+    var head = cols.map(function (c) { return '<th class="s' + (c[0] === "d5" || c[0] === "dist100" || c[0] === "vol_vs20" ? " hm" : "") + '" data-t="sec" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
     var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (SEC_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
     var body = sorted.map(function (s) {
       var sc = { "Lider": "pos", "Toparlanıyor": "neu", "Zayıflıyor": "rsk", "Geride": "neg" }[s.status] || "";
       var tc = s.trend === "Yükseliş" ? "pos" : s.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + s.symbol + '</b> <span class="mute">' + esc(s.name) + '</span></td><td class="' + sc + '">' + esc(s.status) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 2) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td>' +
-        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td>' + ma(s.above100, s.dist100) + '</td><td>' + ma(s.above200, s.dist200) + '</td>' +
-        '<td>' + (s.vol_vs20 === null || s.vol_vs20 === undefined ? "–" : pc(s.vol_vs20, 0)) + '</td></tr>';
+      return '<tr><td><b>' + s.symbol + '</b> <span class="mute">' + esc(s.name) + '</span></td><td class="' + sc + '">' + esc(s.status) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 2) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td>' +
+        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td class="hm">' + ma(s.above100, s.dist100) + '</td><td>' + ma(s.above200, s.dist200) + '</td>' +
+        '<td class="hm">' + (s.vol_vs20 === null || s.vol_vs20 === undefined ? "–" : pc(s.vol_vs20, 0)) + '</td></tr>';
     }).join("");
     return h2("Sektör liderliği") + '<div class="sortbar"><label for="secsort">Sırala</label><select id="secsort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   var AI_SORT = { k: "d20", dir: -1 };
   function aiTable(a) {
-    var cols = [["symbol", "Hisse"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["rel20", "SPY'a göre 20G"], ["above50", "SMA 50"], ["above100", "SMA 100"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol_vs20", "Hacim 1G / 20G"], ["vol5_vs20", "Hacim 5G / 20G"], ["vol_trend", "Hacim eğilimi"]];
+    var ref = DATA.meta.ref_date, hmk = { d5: 1, above50: 1, above100: 1, vol5_vs20: 1 };
+    var cols = [["symbol", "Hisse"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["rel20", "SPY'a göre 20G"], ["above50", "SMA 50"], ["above100", "SMA 100"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol5_vs20", "Hacim 5G / 20G"], ["vol_trend", "Hacim eğilimi"]];
     var rows = a.stocks.slice().sort(function (x, y) {
       var k = AI_SORT.k, u = x[k], v = y[k];
       if (typeof u === "boolean") { u = u ? 1 : 0; v = v ? 1 : 0; }
@@ -144,13 +143,14 @@
       if (typeof u === "string") return u.localeCompare(v) * AI_SORT.dir;
       return (u - v) * AI_SORT.dir;
     });
-    var head = cols.map(function (c) { return '<th class="s" data-k="' + c[0] + '">' + c[1] + (AI_SORT.k === c[0] ? (AI_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
+    var head = cols.map(function (c) { return '<th class="s' + (hmk[c[0]] ? " hm" : "") + '" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (AI_SORT.k === c[0] ? (AI_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (AI_SORT.k === c[0] ? (AI_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
-      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span></td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td>' + (s.vol_vs20 === null ? "–" : pc(s.vol_vs20, 0)) + '</td><td>' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
+      var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
+      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span>' + dl + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td class="hm">' + ab(s.above50) + '</td><td class="hm">' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
-    return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
+    return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div><p class="fine">Hacim 5G / 20G: son 5 işlem gününün ortalama hacminin son 20 günün ortalamasına oranı. %20 ve üstü Artıyor, %20 ve altı Azalıyor. Tam sütunlar için masaüstü görünümü.</p>';
   }
   function aiMini(list) {
     return '<div class="tw"><table><tbody>' + list.map(function (s) {
@@ -163,7 +163,7 @@
       var d = a.detail && a.detail[k]; if (!d) return "";
       var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
       var top = d.top.map(function (t) { return esc(t.symbol); }).join(" · ");
-      return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + '</small></td>' +
+      return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + ' (' + Math.max(0, Math.floor((Date.now() - new Date(d.asof).getTime()) / 864e5)) + ' gün)</small></td>' +
         '<td class="' + cls(d.w_d1) + '">' + pc(d.w_d1) + '</td><td class="' + cls(d.w_d5) + '">' + pc(d.w_d5) + '</td><td class="' + cls(d.w_d20) + '">' + pc(d.w_d20) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td>' +
         '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above100_w, 0) + '<small>sayı: %' + num(d.above100_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute">' + top + '</td></tr>';
     }).join("");
@@ -190,20 +190,30 @@
       stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>' +
       '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>' +
       h2("Tüm bileşenler") + aiTable(a);
-    var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 120; });
-    if (old) out += '<p class="fine"><span class="rsk">Liste 120 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
+    var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });
+    if (old) out += '<p class="fine"><span class="rsk">ETF bileşen listesi 45 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
     return out;
+  }
+
+  function sourcesBox(d) {
+    var m = d.meta || {}, q = m.quality || {};
+    var items = (m.sources || []).map(function (x) { return '<li><b>' + esc(x.name) + '</b> ' + (x.official ? '<span class="pos">resmi</span>' : '<span class="rsk">resmi değil</span>') + ' · ' + esc(x.use) + '</li>'; }).join("");
+    var px = (d.meta.proxy_checks || []).filter(function (p) { return p.status === "ok"; }).map(function (p) { return esc(p.id) + " ile " + esc(p.etf) + " günlük getiri farkı " + num(p.diff, 2) + " puan"; });
+    return '<details class="srcbox"><summary>Veri kaynakları ve doğrulama · kalite ' + esc(q.level || "–") + '</summary>' +
+      ((q.reasons || []).length ? '<p class="fine">Kalite notları: ' + esc(q.reasons.join("; ")) + '.</p>' : "") +
+      (px.length ? '<p class="fine">Çapraz kontrol: ' + px.join("; ") + '.</p>' : "") +
+      '<ul class="src">' + items + '</ul><p class="fine">Veriler bilgi amaçlıdır, yatırım tavsiyesi değildir.</p></details>';
   }
 
   var DATA = null;
   function clean(o) {
-    if (typeof o === "string") return o.replace(/[<>"'`]/g, "");
+    if (typeof o === "string") return o.replace(/'/g, "\u2019").replace(/[<>"`]/g, "");
     if (Array.isArray(o)) return o.map(clean);
     if (o && typeof o === "object") { var r = {}; Object.keys(o).forEach(function (k) { r[k] = clean(o[k]); }); return r; }
     return o;
   }
   function tabs(d) {
-    return '<section class="tab" id="t-genel">' + regime(d.regime) + levels(d) + trend(d) + notes(d.notes) + '</section>' +
+    return '<section class="tab" id="t-genel">' + regime(d.regime) + notes(d.notes) + levels(d) + trend(d) + sourcesBox(d) + '</section>' +
       '<section class="tab" id="t-genislik">' + partCard(d.sector_participation) + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>';
@@ -225,6 +235,14 @@
   }
   function draw() { document.getElementById("app").innerHTML = tabs(DATA); labels(); show(); }
 
+  function weekdaysBehind(ref) {
+    try {
+      var ny = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+      var t = new Date(ref + "T00:00:00Z").getTime(), end = new Date(ny + "T00:00:00Z").getTime() - 864e5, n = 0;
+      for (t += 864e5; t <= end; t += 864e5) { var w = new Date(t).getUTCDay(); if (w !== 0 && w !== 6) n++; }
+      return n;
+    } catch (e) { return 0; }
+  }
   function render(d) {
     d = clean(d);
     DATA = d;
@@ -232,7 +250,8 @@
     el.textContent = q.level || "–";
     el.className = q.level === "YÜKSEK" ? "pos" : q.level === "DÜŞÜK" ? "neg" : "rsk";
     var ageH = (Date.now() - new Date(d.meta.generated_at).getTime()) / 36e5;
-    document.getElementById("banner").innerHTML = ageH > 96 ? '<div class="banner">Bu veri ' + Math.floor(ageH / 24) + ' günden eski. Otomatik güncelleme beklenenden uzun süredir yayın yapamadı; son doğrulanmış veri gösteriliyor.</div>' : "";
+    var lag = weekdaysBehind(d.meta.ref_date);
+    document.getElementById("banner").innerHTML = (ageH > 96 || lag >= 2) ? '<div class="banner">Veri güncel olmayabilir: son kapanış ' + fmtDate(d.meta.ref_date) + ', yayın ' + Math.floor(ageH / 24) + ' gün önce. Otomatik güncelleme beklenenden uzun süredir yayın yapamadı; son doğrulanmış veri gösteriliyor.</div>' : "";
     document.getElementById("refDate").textContent = fmtDate(d.meta.ref_date);
     document.getElementById("gen").textContent = new Date(d.meta.generated_at).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul", dateStyle: "medium", timeStyle: "short" });
     draw();
@@ -244,6 +263,9 @@
     var cur = sec ? SEC_SORT : AI_SORT, nx = { k: k, dir: cur.k === k ? -cur.dir : (k === "symbol" || k === "status" || k === "trend" ? 1 : -1) };
     if (sec) SEC_SORT = nx; else AI_SORT = nx;
     draw();
+  });
+  document.addEventListener("keydown", function (e) {
+    if ((e.key === "Enter" || e.key === " ") && e.target && e.target.matches && e.target.matches("th.s")) { e.preventDefault(); e.target.click(); }
   });
   document.addEventListener("change", function (e) {
     if (e.target && (e.target.id === "aisort" || e.target.id === "secsort") && DATA) {
