@@ -747,7 +747,8 @@ def load_holdings():
     for etf, blk in h.items():
         for it in blk["items"]:
             e = uni.setdefault(it["symbol"], {"name": it["name"], "w": {}})
-            e["w"][etf] = it["weight"]
+            e["w"][etf] = it.get("weight", 0)
+    h.pop("WATCH", None)  # izleme listesi ETF bileşeni değil: ETF içi görünüme girmez, hisse tablosuna ve genişliğe girer
     return h, uni
 
 
@@ -805,6 +806,7 @@ def ai_block(ref_date, spy, qqq):
         v5, vtr = volume_trend(f)
         rows.append({
             "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
+            "watch": set(uni[t]["w"]) == {"WATCH"},
             "close": m["close"], "date": m["date"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
             "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
