@@ -160,12 +160,12 @@
       return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span> <b>' + esc(px(s.close, s.cur)) + '</b>' + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
-    return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div><p class="fine">Hacim 5G / 20G: son 5 işlem gününün ortalama hacminin son 20 günün ortalamasına oranı. %20 ve üstü Artıyor, %20 ve altı Azalıyor. Tam sütunlar için masaüstü görünümü.</p>';
+    return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
   function aiStocks(a) {
     if (!a || !a.stocks) return h2("AI hisseleri") + sub("Bu bölüm bu güncellemede hesaplanamadı.");
     var w = a.stocks.filter(function (s) { return s.watch; }).length;
-    return h2("AI hisseleri (" + a.stocks.length + ")") + sub("SOXX, SMH ve DRAM bileşenleri " + (a.stocks.length - w) + " hisse, izleme listesi " + w + " hisse. Piyasa değeri: Yahoo hisse adedi × " + fmtDate(a.date) + " kapanışı, USD (yabancı borsalar güncel kurla). Başlığa dokunarak sırala.") + aiTable(a);
+    return h2("AI hisseleri (" + a.stocks.length + ")") + aiTable(a);
   }
   function aiMini(list) {
     return '<div class="tw"><table><tbody>' + list.map(function (s) {
