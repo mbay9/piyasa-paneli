@@ -1,0 +1,55 @@
+name: Asya endekslerini yenile
+
+on:
+  schedule:
+    # KOSPI ve Nikkei 225 ikisi de yerel 15:30'da kapanır = 06:30 UTC (Türkiye 09:30). Veri oturduktan sonra 07:20 UTC'de yalnız bu ikisi yenilenir.
+    - cron: "20 7 * * 1-5"
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Canlı siteyi al (yalnız KOSPI ve Nikkei değişecek)
+        run: |
+          mkdir site
+          curl -fsSL https://mbay9.github.io/piyasa-paneli/ -o site/index.html
+          curl -fsSL https://mbay9.github.io/piyasa-paneli/app.js -o site/app.js
+      - name: Yalnız KOSPI ve Nikkei'yi yenile
+        run: python update.py --asia
+      - name: Veriyi denetle
+        run: python validate.py
+      - run: cp data.json site/
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
