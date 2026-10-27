@@ -3,7 +3,6 @@
   function fmtDate(d) { if (!d) return "–"; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1] + " " + a[0]; }
   function fmtShort(d) { if (!d) return ""; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1]; }
   function dtag(m, ref) {
-    if (m && m.live) return " · anlık";
     return m && m.date && ref && m.date !== ref ? " · son kapanış " + fmtShort(m.date) : "";
   }
   function px(v, cur) {
@@ -43,8 +42,7 @@
     var ok = rg.market_regime === "RISK_ON" || rg.market_regime === "RISK_OFF";
     var lab = REG_LABELS[rg.market_regime] || REG_LABELS.INSUFFICIENT_DATA;
     var c = rg.context || {}, dq = rg.data_quality || {}, miss = (dq.missing_data || []).concat(dq.stale_data || []);
-    var out = h2("Makro rejim") +
-      '<div class="score"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span><span class="lab ' + lab[1] + '">' + esc(lab[0]) + '</span></div>';
+    var out = '<div class="score"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span><span class="lab ' + lab[1] + '">' + esc(lab[0]) + '</span></div>';
     var head = out; out = "";
     if (ok) {
       out += '<p class="fine">S&amp;P 500 ' + num(rg.close, 2) + ', 200 günlük ortalama ' + num(rg.sma200, 2) + '. ' +
@@ -66,9 +64,9 @@
     var rows = "", ref = d.meta.ref_date;
     Object.keys(d.indexes).forEach(function (k) {
       var m = d.indexes[k], risk = k === "VIX";
-      rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + esc(dtag(m, ref)) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      rows += '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + (risk ? " inv" : "") + '">' + num(m.close, 2) + '</span><small>' + esc(m.name) + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     });
-    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
 
   function trend(d) {
@@ -80,7 +78,7 @@
       return '<tr><td><b>' + x[0] + '</b>' + (dtag(m, ref) ? '<small>' + esc(dtag(m, ref).replace(" · ", "")) + '</small>' : "") + '</td><td class="' + tc + '">' + esc(m.trend) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
         '<td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + (m.vol_vs20 === null ? '<span class="neu">–</span>' : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td class="hm">' + (m.vol_vs50 === null ? '<span class="neu">–</span>' : pc(m.vol_vs50, 0)) + '</td></tr>';
     }).join("");
-    return h2("Trend ve hacim") + '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
+    return '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   function notes(n) {
@@ -161,8 +159,9 @@
       return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + '</span>' + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var noMob = { symbol: 1, above50: 1, above100: 1, above200: 1, vol5_vs20: 1, vol_trend: 1 };
-    var opts = cols.filter(function (c) { return !noMob[c[0]]; }).map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
-    return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
+    var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
+    var opts = mc.map(function (c) { return '<li role="option" tabindex="0" data-k="' + c[0] + '" aria-selected="' + (AI_SORT.k === c[0]) + '">' + c[1] + '</li>'; }).join("");
+    return '<div class="sortbar"><span>Sırala</span><div class="dd"><button type="button" class="ddb" id="aisort" aria-haspopup="listbox" aria-expanded="false">' + esc(curLabel) + '</button><ul class="ddl" role="listbox" hidden>' + opts + '</ul></div></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
   function aiStocks(a) {
     if (!a || !a.stocks) return h2("AI hisseleri") + sub("Bu bölüm bu güncellemede hesaplanamadı.");
@@ -271,6 +270,17 @@
     document.getElementById("gen").textContent = new Date(d.meta.generated_at).toLocaleString("tr-TR", { timeZone: "Europe/Istanbul", dateStyle: "medium", timeStyle: "short" });
     draw();
   }
+  function closeDd() {
+    Array.prototype.forEach.call(document.querySelectorAll(".ddl"), function (l) { l.hidden = true; });
+    Array.prototype.forEach.call(document.querySelectorAll(".ddb"), function (b) { b.setAttribute("aria-expanded", "false"); });
+  }
+  document.addEventListener("click", function (e) {
+    var t = e.target, b = t.closest && t.closest(".ddb"), o = t.closest && t.closest(".ddl li");
+    if (o && DATA) { AI_SORT = { k: o.getAttribute("data-k"), dir: -1 }; draw(); return; }
+    var wasOpen = b && !b.parentNode.querySelector(".ddl").hidden;
+    closeDd();
+    if (b && !wasOpen) { b.parentNode.querySelector(".ddl").hidden = false; b.setAttribute("aria-expanded", "true"); }
+  });
   document.addEventListener("click", function (e) {
     var th = e.target.closest && e.target.closest("th.s");
     if (!th || !DATA) return;
@@ -280,7 +290,8 @@
     draw();
   });
   document.addEventListener("keydown", function (e) {
-    if ((e.key === "Enter" || e.key === " ") && e.target && e.target.matches && e.target.matches("th.s")) { e.preventDefault(); e.target.click(); }
+    if ((e.key === "Enter" || e.key === " ") && e.target && e.target.matches && e.target.matches("th.s, .ddl li")) { e.preventDefault(); e.target.click(); }
+    if (e.key === "Escape") closeDd();
   });
   document.addEventListener("change", function (e) {
     if (e.target && (e.target.id === "aisort" || e.target.id === "secsort") && DATA) {
