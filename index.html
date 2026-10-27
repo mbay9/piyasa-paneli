@@ -32,8 +32,8 @@ body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--fg); f
 .wrap { max-width: 980px; margin-inline: auto; }
 header { padding-block: 40px 8px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: baseline; }
 h1 { font-size: 15px; font-weight: 600; letter-spacing: .01em; margin: 0; }
-.meta { color: var(--mute); font-size: 12px; display: flex; gap: 4px 16px; flex-wrap: wrap; }
-.meta b { color: var(--fg); font-weight: 500; }
+.meta { color: var(--mute); font-size: 11px; letter-spacing: .02em; display: flex; justify-content: center; gap: 2px 14px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; padding-bottom: 8px; border-top: 1px solid var(--line); opacity: .8; font-variant-numeric: tabular-nums; }
+.meta b { font-weight: 400; }
 nav { display: flex; flex-wrap: wrap; gap: 0 20px; border-bottom: 1px solid var(--line); margin-top: 18px; position: sticky; top: 0; background: var(--bg); z-index: 2;}
 nav a { color: var(--mute); text-decoration: none; padding: 12px 0; font-size: 13px; white-space: nowrap; border-bottom: 1.5px solid transparent; margin-bottom: -1px; }
 nav a.on { color: var(--fg); border-bottom-color: var(--ink); }
@@ -110,7 +110,6 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 <div class="wrap">
   <header>
     <h1>Piyasa Genel Bakış</h1>
-    <div class="meta"><span>Kapanış <b id="refDate">–</b></span><span>Güncelleme <b id="gen">–</b></span></div>
   </header>
   <nav id="nav">
     <a href="#genel" data-t="genel">Genel</a>
@@ -121,6 +120,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
   </nav>
   <div id="banner"></div>
   <main id="app"></main>
+  <footer class="meta"><span>Kapanış <b id="refDate">–</b></span><span>Güncelleme <b id="gen">–</b></span></footer>
 </div>
 <script src="app.js"></script>
 </body>
