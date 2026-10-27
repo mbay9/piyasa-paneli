@@ -41,7 +41,13 @@
     var ok = rg.market_regime === "RISK_ON" || rg.market_regime === "RISK_OFF";
     var lab = REG_LABELS[rg.market_regime] || REG_LABELS.INSUFFICIENT_DATA;
     var c = rg.context || {}, dq = rg.data_quality || {}, miss = (dq.missing_data || []).concat(dq.stale_data || []);
-    var out = '<div class="score"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span><span class="lab ' + lab[1] + '">' + esc(lab[0]) + '</span></div>';
+    var st = "";
+    if (ok) {
+      if (rg.days_in_state !== null && rg.days_in_state !== undefined) st += '<div><small>Süre</small><b>' + rg.days_in_state + ' gün</b></div>';
+      if (c.vix !== null && c.vix !== undefined) st += '<div><small>VIX</small><b>' + num(c.vix, 1) + '</b></div>';
+      if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) st += '<div><small>Breadth</small><b>%' + num(c.breadth_pct200, 0) + '</b><div class="rgbar"><i style="width:' + Math.max(0, Math.min(100, c.breadth_pct200)) + '%"></i></div></div>';
+    }
+    var out = '<div class="rgc"><span class="rgp ' + lab[1] + '">' + esc(lab[0]) + '</span><div class="rgm"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span>' + (ok ? '<span class="rgs">SMA 200\'ün ' + (rg.distance_pct >= 0 ? "üzerinde" : "altında") + '</span>' : "") + '</div>' + (st ? '<div class="rgst">' + st + '</div>' : "") + '</div>';
     var head = out; out = "";
     if (ok) {
       out += '<p class="fine">S&amp;P 500 ' + num(rg.close, 2) + ', 200 günlük ortalama ' + num(rg.sma200, 2) + '. ' +
