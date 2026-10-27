@@ -57,8 +57,10 @@
       if (info.length) out += '<p class="fine">Bilgi, puana dahil değil: ' + esc(info.join(" · ")) + '.</p>';
     }
     if (miss.length) head += '<p class="fine"><span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + '.</span></p>';
-    return head + '<details class="srcbox"><summary>Rejim kuralı ve geçmiş testi</summary>' + out + '<p class="fine">Geçmiş testi (1993–2026, işlem ertesi gün, maliyet dahil): bu kural en büyük düşüşü %55&#39;ten %20&#39;ye indirdi, yıllık getiri %9,5 (al-tut %10,9). Geçmiş performans geleceği garanti etmez.</p></details>';
+    REG_BOX = '<details class="srcbox"><summary>Rejim kuralı ve geçmiş testi</summary>' + out + '<p class="fine">Geçmiş testi (1993–2026, işlem ertesi gün, maliyet dahil): bu kural en büyük düşüşü %55&#39;ten %20&#39;ye indirdi, yıllık getiri %9,5 (al-tut %10,9). Geçmiş performans geleceği garanti etmez.</p></details>';
+    return head;
   }
+  var REG_BOX = "";
 
   function levels(d) {
     var rows = "", ref = d.meta.ref_date;
@@ -228,7 +230,7 @@
     return o;
   }
   function tabs(d) {
-    return '<section class="tab" id="t-genel">' + regime(d.regime) + notes(d.notes) + levels(d) + trend(d) + sourcesBox(d) + '</section>' +
+    return '<section class="tab" id="t-genel">' + regime(d.regime) + levels(d) + trend(d) + sourcesBox(d) + REG_BOX + notes(d.notes) + '</section>' +
       '<section class="tab" id="t-genislik">' + partCard(d.sector_participation) + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
