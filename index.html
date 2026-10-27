@@ -73,9 +73,17 @@ details.srcbox summary { cursor: pointer; color: var(--mute); font-size: 12px; l
 .stat .k { color: var(--mute); font-size: 12px; }
 .stat .v { font-size: 26px; font-weight: 500; letter-spacing: -.02em; line-height: 1.25; }
 .stat .d { color: var(--mute); font-size: 12px; }
-.score { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-top: 10px; }
-.score .big { font-size: 64px; font-weight: 500; letter-spacing: -.04em; line-height: 1; }
-.score .lab { font-size: 13px; font-weight: 500; letter-spacing: .06em; }
+.rgc { border: 1px solid var(--line); border-radius: 16px; padding: 20px 20px 18px; margin: 10px 0 18px; }
+.rgp { display: inline-block; padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 500; letter-spacing: .1em; }
+.rgp.pos { color: var(--pxu); background: var(--pxu-bg); } .rgp.neg { color: var(--pxd); background: var(--pxd-bg); } .rgp.neu { color: var(--pxn); background: var(--pxn-bg); }
+.rgm { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+.rgm .big { font-size: 56px; font-weight: 500; letter-spacing: -.04em; line-height: 1; font-variant-numeric: tabular-nums; }
+.rgs { color: var(--mute); font-size: 13px; }
+.rgst { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 20px; border-top: 1px solid var(--line); }
+.rgst > div { padding-top: 14px; min-width: 0; } .rgst > div + div { padding-left: 14px; border-left: 1px solid var(--line); }
+.rgst small { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--mute); }
+.rgst b { font-size: 18px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.rgbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: 6px; overflow: hidden; } .rgbar i { display: block; height: 100%; background: var(--up); }
 .note { display: grid; grid-template-columns: 150px 1fr; gap: 14px; padding-block: 11px; border-bottom: 1px solid var(--line); }
 .note b { font-weight: 500; }
 .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 8px; background: var(--mute); vertical-align: 1px; }
@@ -118,7 +126,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 @media (max-width: 720px) {
   .two { grid-template-columns: 1fr; gap: 0; }
   .note { grid-template-columns: 1fr; gap: 2px; }
-  .score .big { font-size: 52px; }
+  .rgm .big { font-size: 48px; }
 }
 </style>
 </head>
