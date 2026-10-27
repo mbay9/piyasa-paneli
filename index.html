@@ -89,6 +89,17 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 .px.up { color: var(--pxu); background: var(--pxu-bg); } .px.up::before { content: "▲ "; font-size: 9px; vertical-align: 1px; }
 .px.dn { color: var(--pxd); background: var(--pxd-bg); } .px.dn::before { content: "▼ "; font-size: 9px; vertical-align: 1px; }
 .px.nu { color: var(--pxn); background: var(--pxn-bg); }
+.px.inv.up { color: var(--pxd); background: var(--pxd-bg); } .px.inv.dn { color: var(--pxu); background: var(--pxu-bg); }
+.dd { position: relative; }
+.ddb { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; display: flex; gap: 12px; align-items: center; cursor: pointer; }
+.ddb::after { content: ""; width: 6px; height: 6px; border-right: 1.5px solid var(--mute); border-bottom: 1.5px solid var(--mute); transform: rotate(45deg) translateY(-2px); transition: transform .15s; }
+.ddb[aria-expanded="true"]::after { transform: rotate(-135deg) translate(-1px, -1px); }
+.ddl { position: absolute; left: 0; top: calc(100% + 6px); z-index: 6; min-width: 200px; margin: 0; padding: 6px; list-style: none; background: var(--bg); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 14px 36px rgba(0, 0, 0, .22); }
+.ddl[hidden] { display: none; }
+.ddl li { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 10px 12px; border-radius: 10px; font-size: 14px; color: var(--fg); cursor: pointer; }
+.ddl li:hover, .ddl li:focus-visible { background: var(--soft); outline: none; }
+.ddl li[aria-selected="true"] { font-weight: 500; }
+.ddl li[aria-selected="true"]::after { content: ""; width: 5px; height: 9px; border-right: 2px solid var(--up); border-bottom: 2px solid var(--up); transform: rotate(45deg) translateY(-2px); }
 .sortbar { display: none; }
 @media (max-width: 860px) {
   table, tbody { display: block; width: 100%; }
@@ -103,8 +114,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
   td.full { grid-column: 1 / -1; }
   td.hm, th.hm { display: none; }
   .sortbar { display: flex; gap: 8px; align-items: center; margin: 0 0 6px; color: var(--mute); font-size: 12px; }
-  .sortbar select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); padding: 6px 12px; border-radius: 999px; }
-}
+  }
 @media (max-width: 720px) {
   .two { grid-template-columns: 1fr; gap: 0; }
   .note { grid-template-columns: 1fr; gap: 2px; }
