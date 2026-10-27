@@ -522,6 +522,22 @@
    {
     "symbol": "GLW",
     "name": "Corning Incorporated"
+   },
+   {
+    "symbol": "DELL",
+    "name": "Dell Technologies Inc."
+   },
+   {
+    "symbol": "VRT",
+    "name": "Vertiv Holdings Co"
+   },
+   {
+    "symbol": "AMKR",
+    "name": "Amkor Technology, Inc."
+   },
+   {
+    "symbol": "NVT",
+    "name": "nVent Electric plc"
    }
   ]
  }
