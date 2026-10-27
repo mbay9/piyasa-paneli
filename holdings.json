@@ -346,5 +346,103 @@
     "weight": 5.01
    }
   ]
+ },
+ "WATCH": {
+  "asof": "2026-10-27",
+  "source": "Kullanıcının izleme listesi (ETF bileşeni değil)",
+  "items": [
+   {
+    "symbol": "VICR",
+    "name": "Vicor Corporation"
+   },
+   {
+    "symbol": "SIMO",
+    "name": "Silicon Motion Technology Corporation"
+   },
+   {
+    "symbol": "CRWV",
+    "name": "CoreWeave, Inc."
+   },
+   {
+    "symbol": "FPS",
+    "name": "Forgent Power Solutions, Inc."
+   },
+   {
+    "symbol": "PENG",
+    "name": "Penguin Solutions, Inc."
+   },
+   {
+    "symbol": "AAOI",
+    "name": "Applied Optoelectronics, Inc."
+   },
+   {
+    "symbol": "FORM",
+    "name": "FormFactor, Inc."
+   },
+   {
+    "symbol": "SMTC",
+    "name": "Semtech Corporation"
+   },
+   {
+    "symbol": "LSCC",
+    "name": "Lattice Semiconductor Corporation"
+   },
+   {
+    "symbol": "ONTO",
+    "name": "Onto Innovation Inc."
+   },
+   {
+    "symbol": "KLIC",
+    "name": "Kulicke and Soffa Industries, Inc."
+   },
+   {
+    "symbol": "SOLS",
+    "name": "Solstice Advanced Materials, Inc."
+   },
+   {
+    "symbol": "BE",
+    "name": "Bloom Energy Corporation"
+   },
+   {
+    "symbol": "CLS",
+    "name": "Celestica Inc."
+   },
+   {
+    "symbol": "LITE",
+    "name": "Lumentum Holdings Inc."
+   },
+   {
+    "symbol": "GFS",
+    "name": "GLOBALFOUNDRIES Inc."
+   },
+   {
+    "symbol": "VECO",
+    "name": "Veeco Instruments Inc."
+   },
+   {
+    "symbol": "NOK",
+    "name": "Nokia Oyj"
+   },
+   {
+    "symbol": "NBIS",
+    "name": "Nebius Group N.V."
+   },
+   {
+    "symbol": "COHR",
+    "name": "Coherent Corp."
+   },
+   {
+    "symbol": "CIEN",
+    "name": "Ciena Corporation"
+   },
+   {
+    "symbol": "HPE",
+    "name": "Hewlett Packard Enterprise Company"
+   },
+   {
+    "symbol": "EROC",
+    "name": "ERock, Inc."
+   }
+  ]
  }
 }
