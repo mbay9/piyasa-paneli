@@ -66,9 +66,9 @@
     var rows = "", ref = d.meta.ref_date;
     Object.keys(d.indexes).forEach(function (k) {
       var m = d.indexes[k], risk = k === "VIX";
-      rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + esc(dtag(m, ref)) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td class="hm">' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + esc(dtag(m, ref)) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     });
-    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th class="hm">SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
 
   function trend(d) {
@@ -77,10 +77,10 @@
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
       var m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + x[0] + '</b>' + (dtag(m, ref) ? '<small>' + esc(dtag(m, ref).replace(" · ", "")) + '</small>' : "") + '</td><td class="' + tc + '">' + esc(m.trend) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td class="hm">' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
+      return '<tr><td><b>' + x[0] + '</b>' + (dtag(m, ref) ? '<small>' + esc(dtag(m, ref).replace(" · ", "")) + '</small>' : "") + '</td><td class="' + tc + '">' + esc(m.trend) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
         '<td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + (m.vol_vs20 === null ? '<span class="neu">–</span>' : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td class="hm">' + (m.vol_vs50 === null ? '<span class="neu">–</span>' : pc(m.vol_vs50, 0)) + '</td></tr>';
     }).join("");
-    return h2("Trend ve hacim") + '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th class="hm">SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
+    return h2("Trend ve hacim") + '<div class="tw"><table><thead><tr><th>Sembol</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Zirveye uzaklık</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   function notes(n) {
@@ -205,8 +205,7 @@
       stat("Zirveye %5 yakın", "%" + num(b.near_high, 1), "52 hafta") +
       (a.volume && a.volume.valid ? stat("Hacmi artan", num(a.volume.rising, 0) + " / " + num(a.volume.valid, 0), "5G ort. 20G ortalamasının %20 üstünde", "pos") + stat("Hacmi azalan", num(a.volume.falling, 0) + " / " + num(a.volume.valid, 0), "5G ort. 20G ortalamasının %20 altında", "neg") : "") +
       stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>' +
-      '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>' +
-      '<p class="fine">Tek tek hisseler için “AI Hisseleri” sekmesine bak (' + a.stocks.length + ' hisse).</p>';
+      '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>';
     var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });
     if (old) out += '<p class="fine"><span class="rsk">ETF bileşen listesi 45 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
     return out;
@@ -240,6 +239,7 @@
     var h = (location.hash || "#genel").slice(1);
     if (!document.getElementById("t-" + h)) h = "genel";
     Array.prototype.forEach.call(document.querySelectorAll("section.tab"), function (s) { s.classList.toggle("on", s.id === "t-" + h); });
+    document.body.classList.toggle("tg", h === "genel");
     Array.prototype.forEach.call(document.querySelectorAll("nav a"), function (a) { var on = a.getAttribute("data-t") === h; a.classList.toggle("on", on); if (on && a.parentNode) a.parentNode.scrollLeft = Math.max(0, a.offsetLeft - 24); });
   }
   function labels() {
