@@ -442,6 +442,30 @@
    {
     "symbol": "EROC",
     "name": "ERock, Inc."
+   },
+   {
+    "symbol": "AEHR",
+    "name": "Aehr Test Systems, Inc."
+   },
+   {
+    "symbol": "SITM",
+    "name": "SiTime Corporation"
+   },
+   {
+    "symbol": "LASR",
+    "name": "nLIGHT, Inc."
+   },
+   {
+    "symbol": "NVMI",
+    "name": "Nova Ltd."
+   },
+   {
+    "symbol": "FIX",
+    "name": "Comfort Systems USA, Inc."
+   },
+   {
+    "symbol": "SEDG",
+    "name": "SolarEdge Technologies, Inc."
    }
   ]
  }
