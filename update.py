@@ -765,6 +765,42 @@ def volume_trend(f):
     return r(ch, 1), ("Artıyor" if ch >= 20 else ("Azalıyor" if ch <= -20 else "Normal"))
 
 
+def market_caps(symbols, closes, budget=240):
+    """Piyasa değeri (USD) = Yahoo hisse adedi x referans günü kapanışı x USD kuru. Alınamayan hisse için değer yok (None)."""
+    import yfinance as yf
+    t0 = time.time()
+    info = {}
+    for s in symbols:
+        if time.time() - t0 > budget:
+            log("UYARI: piyasa değeri süre sınırına ulaştı")
+            break
+        try:
+            fi = yf.Ticker(s).fast_info
+            n, cur = fi["shares"], fi["currency"]
+            if n and cur:
+                info[s] = (float(n), str(cur))
+        except Exception as e:  # noqa: BLE001
+            log(f"  piyasa değeri alınamadı {s}: {repr(e)[:80]}")
+    fx = {}
+    need = sorted({c for _, c in info.values() if c != "USD"})
+    if need:
+        ff, _ = download([f"{c}USD=X" for c in need], period="1mo", tries=2, max_seconds=60)
+        for c in need:
+            f = ff.get(f"{c}USD=X")
+            if f is not None and len(f):
+                fx[c] = float(f["Close"].iloc[-1])
+    out = {}
+    for s, (n, cur) in info.items():
+        rate = 1.0 if cur == "USD" else fx.get(cur)
+        close = closes.get(s)
+        if rate is None or close is None:
+            continue
+        cap = n * close * rate
+        if 1e7 < cap < 1e14:
+            out[s] = round(cap / 1e6, 0) * 1e6
+    return out
+
+
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
@@ -817,6 +853,14 @@ def ai_block(ref_date, spy, qqq):
         out["error"] = "Yeterli bileşen verisi alınamadı"
         out["etfs"] = etfs
         return out
+    try:
+        mc = market_caps([x["symbol"] for x in rows], {x["symbol"]: x["close"] for x in rows})
+    except Exception as e:  # noqa: BLE001
+        log("Piyasa değeri bölümü atlandı:", repr(e)[:120])
+        mc = {}
+    for x in rows:
+        x["mcap"] = mc.get(x["symbol"])
+    log(f"piyasa değeri: {len(mc)}/{len(rows)} hisse")
     n = len(rows)
 
     def share(rs, k):
