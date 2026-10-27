@@ -348,7 +348,7 @@
   ]
  },
  "WATCH": {
-  "asof": "2026-10-27",
+  "asof": "2026-10-28",
   "source": "Kullanıcının izleme listesi (ETF bileşeni değil)",
   "items": [
    {
@@ -466,6 +466,54 @@
    {
     "symbol": "SEDG",
     "name": "SolarEdge Technologies, Inc."
+   },
+   {
+    "symbol": "LEU",
+    "name": "Centrus Energy Corp."
+   },
+   {
+    "symbol": "WLDN",
+    "name": "Willdan Group, Inc."
+   },
+   {
+    "symbol": "MXL",
+    "name": "MaxLinear, Inc."
+   },
+   {
+    "symbol": "APLD",
+    "name": "Applied Digital Corporation"
+   },
+   {
+    "symbol": "WOLF",
+    "name": "Wolfspeed, Inc."
+   },
+   {
+    "symbol": "VELO",
+    "name": "Velo3D, Inc."
+   },
+   {
+    "symbol": "IONQ",
+    "name": "IonQ, Inc."
+   },
+   {
+    "symbol": "WULF",
+    "name": "TeraWulf Inc."
+   },
+   {
+    "symbol": "MKSI",
+    "name": "MKS Inc."
+   },
+   {
+    "symbol": "FN",
+    "name": "Fabrinet"
+   },
+   {
+    "symbol": "STRL",
+    "name": "Sterling Infrastructure, Inc."
+   },
+   {
+    "symbol": "TTMI",
+    "name": "TTM Technologies, Inc."
    }
   ]
  }
