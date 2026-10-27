@@ -161,7 +161,8 @@
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
       return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + '</span>' + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
-    var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
+    var noMob = { symbol: 1, above50: 1, above100: 1, above200: 1, vol5_vs20: 1, vol_trend: 1 };
+    var opts = cols.filter(function (c) { return !noMob[c[0]]; }).map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
     return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
   function aiStocks(a) {
@@ -240,7 +241,7 @@
     var h = (location.hash || "#genel").slice(1);
     if (!document.getElementById("t-" + h)) h = "genel";
     Array.prototype.forEach.call(document.querySelectorAll("section.tab"), function (s) { s.classList.toggle("on", s.id === "t-" + h); });
-    Array.prototype.forEach.call(document.querySelectorAll("nav a"), function (a) { a.classList.toggle("on", a.getAttribute("data-t") === h); });
+    Array.prototype.forEach.call(document.querySelectorAll("nav a"), function (a) { var on = a.getAttribute("data-t") === h; a.classList.toggle("on", on); if (on && a.parentNode) a.parentNode.scrollLeft = Math.max(0, a.offsetLeft - 24); });
   }
   function labels() {
     Array.prototype.forEach.call(document.querySelectorAll("#app table"), function (t) {
