@@ -30,13 +30,16 @@
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--fg); font: 400 14px/1.55 var(--font); padding-inline: 20px; padding-block: 0 80px; font-variant-numeric: tabular-nums; }
 .wrap { max-width: 980px; margin-inline: auto; }
-header { padding-block: 40px 8px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: baseline; }
-h1 { font-size: 15px; font-weight: 600; letter-spacing: .01em; margin: 0; }
 .meta { color: var(--mute); font-size: 11px; letter-spacing: .02em; display: flex; justify-content: center; gap: 2px 14px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; padding-bottom: 8px; border-top: 1px solid var(--line); opacity: .8; font-variant-numeric: tabular-nums; }
 .meta b { font-weight: 400; }
-nav { display: flex; flex-wrap: wrap; gap: 0 20px; border-bottom: 1px solid var(--line); margin-top: 18px; position: sticky; top: 0; background: var(--bg); z-index: 2;}
-nav a { color: var(--mute); text-decoration: none; padding: 12px 0; font-size: 13px; white-space: nowrap; border-bottom: 1.5px solid transparent; margin-bottom: -1px; }
-nav a.on { color: var(--fg); border-bottom-color: var(--ink); }
+nav { display: flex; gap: 6px; position: sticky; top: 0; z-index: 5; margin-inline: -20px; padding: calc(14px + env(safe-area-inset-top, 0px)) 20px 12px; overflow-x: auto; scrollbar-width: none; background: color-mix(in srgb, var(--bg) 88%, transparent); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+nav::-webkit-scrollbar { display: none; }
+nav a { flex: none; color: var(--mute); text-decoration: none; padding: 7px 14px; font-size: 13px; font-weight: 500; letter-spacing: .01em; border-radius: 999px; transition: color .15s, background .15s; }
+nav a:hover { color: var(--fg); }
+nav a.on { color: var(--bg); background: var(--ink); }
+nav a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+section.tab > h2:first-child { margin-top: 30px; }
+@media (hover: hover) and (min-width: 861px) { tbody tr:hover td { background: var(--soft); } }
 section.tab { display: none; }
 section.tab.on { display: block; }
 h2 { font-size: 12px; font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--mute); margin: 44px 0 6px; }
@@ -97,7 +100,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
   td.full { grid-column: 1 / -1; }
   td.hm, th.hm { display: none; }
   .sortbar { display: flex; gap: 8px; align-items: center; margin: 0 0 6px; color: var(--mute); font-size: 12px; }
-  .sortbar select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); padding: 6px 8px; border-radius: 0; }
+  .sortbar select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); padding: 6px 12px; border-radius: 999px; }
 }
 @media (max-width: 720px) {
   .two { grid-template-columns: 1fr; gap: 0; }
@@ -108,9 +111,6 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>Piyasa Genel Bakış</h1>
-  </header>
   <nav id="nav">
     <a href="#genel" data-t="genel">Genel</a>
     <a href="#genislik" data-t="genislik">Genişlik</a>
