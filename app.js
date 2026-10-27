@@ -264,9 +264,6 @@
   function render(d) {
     d = clean(d);
     DATA = d;
-    var q = d.meta.quality || {}, el = document.getElementById("dq");
-    el.textContent = q.level || "–";
-    el.className = q.level === "YÜKSEK" ? "pos" : q.level === "DÜŞÜK" ? "neg" : "rsk";
     var ageH = (Date.now() - new Date(d.meta.generated_at).getTime()) / 36e5;
     var lag = weekdaysBehind(d.meta.ref_date);
     document.getElementById("banner").innerHTML = (ageH > 96 || lag >= 2) ? '<div class="banner">Veri güncel olmayabilir: son kapanış ' + fmtDate(d.meta.ref_date) + ', yayın ' + Math.floor(ageH / 24) + ' gün önce. Otomatik güncelleme beklenenden uzun süredir yayın yapamadı; son doğrulanmış veri gösteriliyor.</div>' : "";
