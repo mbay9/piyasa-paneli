@@ -140,8 +140,8 @@
 
   var AI_SORT = { k: "d20", dir: -1 };
   function aiTable(a) {
-    var ref = DATA.meta.ref_date, hmk = { d5: 1, above50: 1, above100: 1, vol5_vs20: 1 };
-    var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["rel20", "SPY'a göre 20G"], ["above50", "SMA 50"], ["above100", "SMA 100"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol5_vs20", "Hacim 5G / 20G"], ["vol_trend", "Hacim eğilimi"]];
+    var ref = DATA.meta.ref_date, hmk = { d5: 1, vol5_vs20: 1 };
+    var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above100", "SMA 100"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol5_vs20", "Hacim 5G / 20G"], ["vol_trend", "Hacim eğilimi"]];
     var rows = a.stocks.slice().sort(function (x, y) {
       var k = AI_SORT.k, u = x[k], v = y[k];
       if (typeof u === "boolean") { u = u ? 1 : 0; v = v ? 1 : 0; }
@@ -153,7 +153,7 @@
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span>' + (s.watch ? '<small>izleme listesi</small>' : "") + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td class="hm">' + ab(s.above50) + '</td><td class="hm">' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
+      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span>' + (s.watch ? '<small>izleme listesi</small>' : "") + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
     return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div><p class="fine">Hacim 5G / 20G: son 5 işlem gününün ortalama hacminin son 20 günün ortalamasına oranı. %20 ve üstü Artıyor, %20 ve altı Azalıyor. Tam sütunlar için masaüstü görünümü.</p>';
