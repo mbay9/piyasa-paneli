@@ -798,7 +798,7 @@ def market_caps(symbols, closes, budget=240):
         cap = n * close * rate
         if 1e7 < cap < 1e14:
             out[s] = round(cap / 1e6, 0) * 1e6
-    return out
+    return out, {s: c for s, (_, c) in info.items()}
 
 
 def ai_block(ref_date, spy, qqq):
@@ -854,12 +854,13 @@ def ai_block(ref_date, spy, qqq):
         out["etfs"] = etfs
         return out
     try:
-        mc = market_caps([x["symbol"] for x in rows], {x["symbol"]: x["close"] for x in rows})
+        mc, cu = market_caps([x["symbol"] for x in rows], {x["symbol"]: x["close"] for x in rows})
     except Exception as e:  # noqa: BLE001
         log("Piyasa değeri bölümü atlandı:", repr(e)[:120])
-        mc = {}
+        mc, cu = {}, {}
     for x in rows:
         x["mcap"] = mc.get(x["symbol"])
+        x["cur"] = cu.get(x["symbol"])
     log(f"piyasa değeri: {len(mc)}/{len(rows)} hisse")
     n = len(rows)
 
