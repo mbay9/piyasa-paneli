@@ -147,10 +147,15 @@
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span>' + dl + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td class="hm">' + ab(s.above50) + '</td><td class="hm">' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
+      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="mute">' + esc(s.name) + '</span>' + (s.watch ? '<small>izleme listesi</small>' : "") + dl + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</td><td class="hm">' + ab(s.above50) + '</td><td class="hm">' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (AI_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
     return '<div class="sortbar"><label for="aisort">Sırala</label><select id="aisort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div><p class="fine">Hacim 5G / 20G: son 5 işlem gününün ortalama hacminin son 20 günün ortalamasına oranı. %20 ve üstü Artıyor, %20 ve altı Azalıyor. Tam sütunlar için masaüstü görünümü.</p>';
+  }
+  function aiStocks(a) {
+    if (!a || !a.stocks) return h2("AI hisseleri") + sub("Bu bölüm bu güncellemede hesaplanamadı.");
+    var w = a.stocks.filter(function (s) { return s.watch; }).length;
+    return h2("AI hisseleri (" + a.stocks.length + ")") + sub("SOXX, SMH ve DRAM bileşenleri " + (a.stocks.length - w) + " hisse, izleme listesi " + w + " hisse. Başlığa dokunarak sırala.") + aiTable(a);
   }
   function aiMini(list) {
     return '<div class="tw"><table><tbody>' + list.map(function (s) {
@@ -180,7 +185,7 @@
       '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
     var b = a.breadth;
-    out += aiDetail(a) + h2("Genişlik (tüm bileşenler birlikte)") + '<div class="stats">' +
+    out += aiDetail(a) + h2("Genişlik (tüm hisseler birlikte)") + '<div class="stats">' +
       stat("SMA 50 üstü", "%" + num(b.above50, 1), a.count + " benzersiz hisse") +
       stat("SMA 100 üstü", "%" + num(b.above100, 1), "orta vade") +
       stat("SMA 200 üstü", "%" + num(b.above200, 1), "uzun vade") +
@@ -189,7 +194,7 @@
       (a.volume && a.volume.valid ? stat("Hacmi artan", num(a.volume.rising, 0) + " / " + num(a.volume.valid, 0), "5G ort. 20G ortalamasının %20 üstünde", "pos") + stat("Hacmi azalan", num(a.volume.falling, 0) + " / " + num(a.volume.valid, 0), "5G ort. 20G ortalamasının %20 altında", "neg") : "") +
       stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>' +
       '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>' +
-      h2("Tüm bileşenler") + aiTable(a);
+      '<p class="fine">Tek tek hisseler için “AI Hisseleri” sekmesine bak (' + a.stocks.length + ' hisse).</p>';
     var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });
     if (old) out += '<p class="fine"><span class="rsk">ETF bileşen listesi 45 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
     return out;
@@ -216,7 +221,8 @@
     return '<section class="tab" id="t-genel">' + regime(d.regime) + notes(d.notes) + levels(d) + trend(d) + sourcesBox(d) + '</section>' +
       '<section class="tab" id="t-genislik">' + partCard(d.sector_participation) + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + sectors(d.sectors) + '</section>' +
-      '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>';
+      '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
+      '<section class="tab" id="t-aihisse">' + aiStocks(d.ai) + '</section>';
   }
   function show() {
     var h = (location.hash || "#genel").slice(1);
