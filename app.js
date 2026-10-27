@@ -142,7 +142,7 @@
     return h2("Sektör liderliği") + '<div class="sortbar"><label for="secsort">Sırala</label><select id="secsort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
-  var AI_SORT = { k: "d20", dir: -1 };
+  var AI_SORT = { k: "mcap", dir: -1 };
   function aiTable(a) {
     var ref = DATA.meta.ref_date, hmk = { d5: 1, vol5_vs20: 1 };
     var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above100", "SMA 100"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol5_vs20", "Hacim 5G / 20G"], ["vol_trend", "Hacim eğilimi"]];
