@@ -538,6 +538,14 @@
    {
     "symbol": "NVT",
     "name": "nVent Electric plc"
+   },
+   {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation"
+   },
+   {
+    "symbol": "SPCX",
+    "name": "Space Exploration Technologies Corp."
    }
   ]
  }
