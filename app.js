@@ -133,7 +133,6 @@
       return (u - v) * SEC_SORT.dir;
     });
     var head = cols.map(function (c) { return '<th class="s' + (c[0] === "d5" || c[0] === "dist100" || c[0] === "vol_vs20" ? " hm" : "") + '" data-t="sec" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
-    var opts = cols.map(function (c) { return '<option value="' + c[0] + '"' + (SEC_SORT.k === c[0] ? " selected" : "") + '>' + c[1] + '</option>'; }).join("");
     var body = sorted.map(function (s) {
       var sc = { "Lider": "pos", "Toparlanıyor": "neu", "Zayıflıyor": "rsk", "Geride": "neg" }[s.status] || "";
       var tc = s.trend === "Yükseliş" ? "pos" : s.trend === "Düşüş" ? "neg" : "rsk";
@@ -141,7 +140,7 @@
         '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td class="hm">' + ma(s.above100, s.dist100) + '</td><td>' + ma(s.above200, s.dist200) + '</td>' +
         '<td class="hm">' + (s.vol_vs20 === null || s.vol_vs20 === undefined ? "–" : pc(s.vol_vs20, 0)) + '</td></tr>';
     }).join("");
-    return h2("Sektör liderliği") + '<div class="sortbar"><label for="secsort">Sırala</label><select id="secsort">' + opts + '</select></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
+    return h2("Sektör liderliği") + '<div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   var AI_SORT = { k: "mcap", dir: -1 };
