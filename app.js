@@ -45,6 +45,7 @@
     var c = rg.context || {}, dq = rg.data_quality || {}, miss = (dq.missing_data || []).concat(dq.stale_data || []);
     var out = h2("Makro rejim") +
       '<div class="score"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span><span class="lab ' + lab[1] + '">' + esc(lab[0]) + '</span></div>';
+    var head = out; out = "";
     if (ok) {
       out += '<p class="fine">S&amp;P 500 ' + num(rg.close, 2) + ', 200 günlük ortalama ' + num(rg.sma200, 2) + '. ' +
         (rg.state_since ? fmtDate(rg.state_since) + ' tarihinden beri, ' + rg.days_in_state + ' işlem günüdür bu durumda.' : "Durumun başlangıcı mevcut geçmişte yok.") + '</p>' +
@@ -55,8 +56,8 @@
       if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) info.push("bileşenlerin %" + num(c.breadth_pct200, 1) + " kadarı 200G ortalamanın üzerinde (" + c.breadth_valid + "/" + c.breadth_total + ")");
       if (info.length) out += '<p class="fine">Bilgi, puana dahil değil: ' + esc(info.join(" · ")) + '.</p>';
     }
-    if (miss.length) out += '<p class="fine"><span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + '.</span></p>';
-    return out + '<p class="fine">Geçmiş testi (1993–2026, işlem ertesi gün, maliyet dahil): bu kural en büyük düşüşü %55&#39;ten %20&#39;ye indirdi, yıllık getiri %9,5 (al-tut %10,9). Geçmiş performans geleceği garanti etmez.</p>';
+    if (miss.length) head += '<p class="fine"><span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + '.</span></p>';
+    return head + '<details class="srcbox"><summary>Rejim kuralı ve geçmiş testi</summary>' + out + '<p class="fine">Geçmiş testi (1993–2026, işlem ertesi gün, maliyet dahil): bu kural en büyük düşüşü %55&#39;ten %20&#39;ye indirdi, yıllık getiri %9,5 (al-tut %10,9). Geçmiş performans geleceği garanti etmez.</p></details>';
   }
 
   function levels(d) {
@@ -65,8 +66,7 @@
       var m = d.indexes[k], risk = k === "VIX";
       rows += '<tr><td><b>' + k + '</b>' + vtext(m) + '<small>' + esc(m.name) + esc(dtag(m, ref)) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1, risk) + '">' + pc(m.d1) + '</td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td class="hm">' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     });
-    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th class="hm">SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      sub("Yeşil nokta: Cboe'nin resmi dosyasıyla doğrulandı (VIX). S&P 500 ve Nasdaq, SPY ve QQQ ile çapraz kontrol edilir; diğerleri Yahoo Finance verisidir. Değişimler işlem günü bazındadır. KOSPI ve Nikkei kendi borsalarının kapanışıdır, Bitcoin 7/24 işlem görür ve değeri anlıktır. Zirveye uzaklık son 252 işlem gününün en yüksek kapanışına göredir.").replace('<p class="sub">', '<p class="fine">');
+    return h2("Seviyeler") + '<div class="tw"><table><thead><tr><th>Gösterge</th><th>Son</th><th>1G</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>SMA 50</th><th class="hm">SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
 
   function trend(d) {
@@ -83,10 +83,10 @@
 
   function notes(n) {
     if (!n || !n.length) return "";
-    return h2("Risk notları") + n.map(function (x) {
+    return '<details class="srcbox"><summary>Risk notları · ' + n.length + ' not</summary>' + n.map(function (x) {
       var c = { ok: "ok", warn: "warn", bad: "bad" }[x.level] || "";
       return '<div class="note"><b><span class="dot ' + c + '"></span>' + esc(x.title) + '</b><span>' + esc(x.text) + '</span></div>';
-    }).join("");
+    }).join("") + '</details>';
   }
 
   function partCard(p) {
