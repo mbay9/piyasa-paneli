@@ -790,7 +790,20 @@ def earnings_dates(symbols, ref_date, budget=150):
     out = {}
     ref = pd.Timestamp(ref_date).date()
     lim = ref + dt.timedelta(days=45)
+    prev = {}  # önceki güncellemede onaylanmış (tahmini olmayan), hâlâ gelecekteki tarihler: yeniden sorulmaz
+    try:
+        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
+        for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
+            if x.get("earn") and not x.get("earn_est") and x["earn"] > ref.isoformat():
+                prev[x["symbol"]] = (x["earn"], False)
+    except Exception as e:  # noqa: BLE001
+        log("Önceki bilanço tarihleri okunamadı:", repr(e)[:80])
+    reused = 0
     for s in symbols:
+        if s in prev:
+            out[s] = prev[s]
+            reused += 1
+            continue
         if time.time() - t0 > budget:
             log("UYARI: bilanço tarihleri süre sınırına ulaştı")
             break
@@ -806,6 +819,7 @@ def earnings_dates(symbols, ref_date, budget=150):
                 out[s] = (ds[0].isoformat(), len(ds) > 1)
         except Exception as e:  # noqa: BLE001
             log(f"  bilanço tarihi alınamadı {s}: {repr(e)[:80]}")
+    log(f"bilanço: {reused} onaylı tarih yeniden sorulmadı")
     return out
 
 
