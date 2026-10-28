@@ -783,6 +783,32 @@ def market_caps(symbols, closes, budget=240):
     return out, {s: c for s, (_, c) in info.items()}
 
 
+def earnings_dates(symbols, ref_date, budget=150):
+    """Yaklaşan bilanço tarihi (Yahoo takvimi). Tarih aralığı verilmişse tahmini sayılır. Alınamayan hisse atlanır."""
+    import yfinance as yf
+    t0 = time.time()
+    out = {}
+    ref = pd.Timestamp(ref_date).date()
+    lim = ref + dt.timedelta(days=45)
+    for s in symbols:
+        if time.time() - t0 > budget:
+            log("UYARI: bilanço tarihleri süre sınırına ulaştı")
+            break
+        try:
+            cal = yf.Ticker(s).calendar or {}
+            ds = []
+            for d in cal.get("Earnings Date") or []:
+                d = d.date() if isinstance(d, dt.datetime) else d
+                if isinstance(d, dt.date) and ref < d <= lim:
+                    ds.append(d)
+            ds.sort()
+            if ds:
+                out[s] = (ds[0].isoformat(), len(ds) > 1)
+        except Exception as e:  # noqa: BLE001
+            log(f"  bilanço tarihi alınamadı {s}: {repr(e)[:80]}")
+    return out
+
+
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
@@ -844,6 +870,14 @@ def ai_block(ref_date, spy, qqq):
         x["mcap"] = mc.get(x["symbol"])
         x["cur"] = cu.get(x["symbol"])
     log(f"piyasa değeri: {len(mc)}/{len(rows)} hisse")
+    try:
+        ed = earnings_dates([x["symbol"] for x in rows], ref_date)
+    except Exception as e:  # noqa: BLE001
+        log("Bilanço tarihleri bölümü atlandı:", repr(e)[:120])
+        ed = {}
+    for x in rows:
+        x["earn"], x["earn_est"] = ed.get(x["symbol"], (None, False))
+    log(f"bilanço tarihi: {len(ed)}/{len(rows)} hisse")
     n = len(rows)
 
     def share(rs, k):
