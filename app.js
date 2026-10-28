@@ -2,6 +2,8 @@
   var MONTHS = ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
   function fmtDate(d) { if (!d) return "–"; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1] + " " + a[0]; }
   function fmtShort(d) { if (!d) return ""; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1]; }
+  var TK = { "005930.KS": "Samsung", "688825.SS": "CXMT", "285A.T": "Kioxia", "2408.TW": "Nanya", "603986.SS": "GigaDevice", "2344.TW": "Winbond" };
+  function tk(s) { return TK[s] || s; }
   function dtag(m, ref) {
     return m && m.date && ref && m.date !== ref ? " · son kapanış " + fmtShort(m.date) : "";
   }
@@ -152,7 +154,7 @@
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(s.symbol) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + '</span>' + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
+      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + '</span>' + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var noMob = { symbol: 1, above50: 1, above100: 1, above200: 1, vol5_vs20: 1, vol_trend: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
@@ -166,7 +168,7 @@
   }
   function aiMini(list) {
     return '<div class="tw"><table><tbody>' + list.map(function (s) {
-      return '<tr><td><b>' + esc(s.symbol) + '</b><small>' + esc(s.name) + '</small></td><td data-label="20G" class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td data-label="1G" class="' + cls(s.d1) + '">' + pc(s.d1) + '</td></tr>';
+      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b><small>' + esc(s.name) + '</small></td><td data-label="20G" class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td data-label="1G" class="' + cls(s.d1) + '">' + pc(s.d1) + '</td></tr>';
     }).join("") + '</tbody></table></div>';
   }
   function aiDetail(a) {
@@ -174,7 +176,7 @@
     var rows = ["SOXX", "SMH", "DRAM"].map(function (k) {
       var d = a.detail && a.detail[k]; if (!d) return "";
       var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
-      var top = d.top.map(function (t) { return esc(t.symbol); }).join(" · ");
+      var top = d.top.map(function (t) { return esc(tk(t.symbol)); }).join(" · ");
       return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + ' (' + Math.max(0, Math.floor((Date.now() - new Date(d.asof).getTime()) / 864e5)) + ' gün)</small></td>' +
         '<td class="' + cls(d.w_d1) + '">' + pc(d.w_d1) + '</td><td class="' + cls(d.w_d5) + '">' + pc(d.w_d5) + '</td><td class="' + cls(d.w_d20) + '">' + pc(d.w_d20) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td>' +
         '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above100_w, 0) + '<small>sayı: %' + num(d.above100_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute">' + top + '</td></tr>';
