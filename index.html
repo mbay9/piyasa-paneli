@@ -115,6 +115,7 @@ ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9
 .ddl li[aria-selected="true"] { font-weight: 500; }
 .ddl li[aria-selected="true"]::after { content: ""; width: 5px; height: 9px; border-right: 2px solid var(--up); border-bottom: 2px solid var(--up); transform: rotate(45deg) translateY(-2px); }
 .sortbar { display: none; }
+@media (min-width: 861px) { td:first-child { white-space: nowrap; } td:first-child small { white-space: normal; } }
 @media (max-width: 860px) {
   table, tbody { display: block; width: 100%; }
   thead { display: none; }
