@@ -1,10 +1,16 @@
-name: Asya endekslerini yenile
+name: Kapanışa göre kısmi yenileme
 
 on:
   schedule:
     # KOSPI ve Nikkei 225 ikisi de yerel 15:30'da kapanır = 06:30 UTC (Türkiye 09:30). Veri oturduktan sonra 07:20 UTC'de yalnız bu ikisi yenilenir.
     - cron: "20 7 * * 1-5"
-  workflow_dispatch: {}
+    # BTC 7/24 işlem görür, günlük kapanış UTC 00:00. 00:10 UTC'de biten günün kapanışı yazılır (ABD işlem günlerine denk gelen Sal-Cum arası).
+    - cron: "10 0 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Yenilenecek göstergeler (virgülle): KOSPI,NIKKEI veya BTC"
+        default: "KOSPI,NIKKEI"
 
 permissions: {}
 
@@ -27,13 +33,22 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Canlı siteyi al (yalnız KOSPI ve Nikkei değişecek)
+      - name: Canlı siteyi al (yalnız seçilen gösterge değişecek)
         run: |
           mkdir site
           curl -fsSL https://mbay9.github.io/piyasa-paneli/ -o site/index.html
           curl -fsSL https://mbay9.github.io/piyasa-paneli/app.js -o site/app.js
-      - name: Yalnız KOSPI ve Nikkei'yi yenile
-        run: python update.py --asia
+      - name: Hangi gösterge yenilenecek
+        id: sel
+        env:
+          SCHED: ${{ github.event.schedule }}
+          INPUT: ${{ inputs.only }}
+        run: |
+          if [ "$SCHED" = "10 0 * * 2-6" ]; then only=BTC; elif [ -n "$INPUT" ]; then only="$INPUT"; else only="KOSPI,NIKKEI"; fi
+          case "$only" in *[!A-Z0-9,]*) echo "geçersiz"; exit 1;; esac
+          echo "only=$only" >> "$GITHUB_OUTPUT"
+      - name: Yalnız seçilen göstergeyi yenile
+        run: python update.py --only "${{ steps.sel.outputs.only }}"
       - name: Veriyi denetle
         run: python validate.py
       - run: cp data.json site/
