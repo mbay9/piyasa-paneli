@@ -783,14 +783,14 @@ def market_caps(symbols, closes, budget=240):
     return out, {s: c for s, (_, c) in info.items()}
 
 
-def earnings_dates(symbols, ref_date, budget=150):
-    """Yaklaşan bilanço tarihi (Yahoo takvimi). Tarih aralığı verilmişse tahmini sayılır. Alınamayan hisse atlanır."""
+def earnings_dates(symbols, ref_date, budget=120):
+    """Yaklaşan bilanço tarihi (Yahoo takvimi). Tarih aralığı verilmişse tahmini sayılır. Alınamayan hisse atlanır.
+    Önceki güncellemede onaylanmış, hâlâ gelecekteki tarihler yeniden sorulmaz. Sorgu ayrı iş parçacığında, sert süre sınırıyla çalışır."""
+    import threading
     import yfinance as yf
-    t0 = time.time()
-    out = {}
     ref = pd.Timestamp(ref_date).date()
     lim = ref + dt.timedelta(days=45)
-    prev = {}  # önceki güncellemede onaylanmış (tahmini olmayan), hâlâ gelecekteki tarihler: yeniden sorulmaz
+    prev = {}
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
@@ -798,29 +798,32 @@ def earnings_dates(symbols, ref_date, budget=150):
                 prev[x["symbol"]] = (x["earn"], False)
     except Exception as e:  # noqa: BLE001
         log("Önceki bilanço tarihleri okunamadı:", repr(e)[:80])
-    reused = 0
-    for s in symbols:
-        if s in prev:
-            out[s] = prev[s]
-            reused += 1
-            continue
-        if time.time() - t0 > budget:
-            log("UYARI: bilanço tarihleri süre sınırına ulaştı")
-            break
-        try:
-            cal = yf.Ticker(s).calendar or {}
-            ds = []
-            for d in cal.get("Earnings Date") or []:
-                d = d.date() if isinstance(d, dt.datetime) else d
-                if isinstance(d, dt.date) and ref < d <= lim:
-                    ds.append(d)
-            ds.sort()
-            if ds:
-                out[s] = (ds[0].isoformat(), len(ds) > 1)
-        except Exception as e:  # noqa: BLE001
-            log(f"  bilanço tarihi alınamadı {s}: {repr(e)[:80]}")
-    log(f"bilanço: {reused} onaylı tarih yeniden sorulmadı")
-    return out
+    out = {s: prev[s] for s in symbols if s in prev}
+    log(f"bilanço: {len(out)} onaylı tarih yeniden sorulmadı")
+
+    def work():
+        for s in symbols:
+            if s in prev:
+                continue
+            try:
+                cal = yf.Ticker(s).calendar or {}
+                ds = []
+                for d in cal.get("Earnings Date") or []:
+                    d = d.date() if isinstance(d, dt.datetime) else d
+                    if isinstance(d, dt.date) and ref < d <= lim:
+                        ds.append(d)
+                ds.sort()
+                if ds:
+                    out[s] = (ds[0].isoformat(), len(ds) > 1)
+            except Exception as e:  # noqa: BLE001
+                log(f"  bilanço tarihi alınamadı {s}: {repr(e)[:80]}")
+
+    th = threading.Thread(target=work, daemon=True)
+    th.start()
+    th.join(budget)
+    if th.is_alive():
+        log("UYARI: bilanço tarihleri süre sınırına ulaştı, eldekilerle devam")
+    return dict(out)
 
 
 def ai_block(ref_date, spy, qqq):
