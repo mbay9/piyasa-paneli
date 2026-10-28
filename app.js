@@ -175,7 +175,7 @@
   }
   function aiMini(list) {
     return '<div class="tw"><table><tbody>' + list.map(function (s) {
-      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b><small>' + esc(s.name) + '</small></td><td data-label="20G" class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td data-label="1G" class="' + cls(s.d1) + '">' + pc(s.d1) + '</td></tr>';
+      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b><small>' + esc(s.name) + '</small></td><td data-label="20G" class="' + cls(s.d20) + '">' + pc(s.d20) + '</td></tr>';
     }).join("") + '</tbody></table></div>';
   }
   function aiDetail(a) {
