@@ -931,7 +931,7 @@ def partial_refresh(only):
     if not keys:
         log("HATA: bilinmeyen gösterge:", only)
         sys.exit(1)
-    frames, _ = download([s for _, s, _, _ in keys])
+    frames, _ = download([s for _, s, _, _ in keys] + ["^GSPC"])  # tek sembollü indirme desteklenmiyor: yanına her zaman ^GSPC eklenir
     n = 0
     for key, sym, name, h24 in keys:
         if sym not in frames:
