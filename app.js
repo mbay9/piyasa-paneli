@@ -4,7 +4,7 @@
   function fmtShort(d) { if (!d) return ""; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1]; }
   var TK = { "005930.KS": "Samsung", "688825.SS": "CXMT", "285A.T": "Kioxia", "2408.TW": "Nanya", "603986.SS": "GigaDevice", "2344.TW": "Winbond" };
   function tk(s) { return TK[s] || s; }
-  function sa(s) { return /^[A-Z0-9-]+$/.test(s) ? ' <a class="sa" href="https://seekingalpha.com/symbol/' + encodeURIComponent(s) + '" target="_blank" rel="noopener noreferrer" title="Seeking Alpha\'da aç" aria-label="' + esc(s) + ' Seeking Alpha sayfası">SA</a>' : ""; }
+  function sa(s) { return /^[A-Z0-9-]+$/.test(s) ? ' <a class="sa" href="https://seekingalpha.com/symbol/' + encodeURIComponent(s) + '" target="_blank" rel="noopener noreferrer" title="Seeking Alpha\'da aç" aria-label="' + esc(s) + ' Seeking Alpha sayfası">SA</a><a class="sa" href="https://www.zacks.com/stock/research/' + encodeURIComponent(s) + '/price-target-stock-forecast" target="_blank" rel="noopener noreferrer" title="Zacks hedef fiyat" aria-label="' + esc(s) + ' Zacks hedef fiyat sayfası">Z</a>' : ""; }
   function dtag(m, ref) {
     return m && m.date && ref && m.date !== ref ? " · son kapanış " + fmtShort(m.date) : "";
   }
