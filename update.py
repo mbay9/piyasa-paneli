@@ -921,38 +921,47 @@ def ai_block(ref_date, spy, qqq):
     return out
 
 
-def asia_refresh():
-    """Yalnız KOSPI ve Nikkei 225: canlı data.json indirilir, bu iki endeks yenilenir, geri kalan her şey aynen kalır."""
+def partial_refresh(only):
+    """Yalnız verilen göstergeler (ör. KOSPI,NIKKEI veya BTC): canlı data.json indirilir, bu göstergeler kendi kapanışına göre yenilenir,
+    geri kalan her şey aynen kalır."""
     now = dt.datetime.now(dt.timezone.utc)
     url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
     d = json.loads(http_get(url, tries=3, timeout=30).text)
-    keys = [x for x in INDEXES if x[0] in ("KOSPI", "NIKKEI")]
+    keys = [x for x in INDEXES if x[0] in only]
+    if not keys:
+        log("HATA: bilinmeyen gösterge:", only)
+        sys.exit(1)
     frames, _ = download([s for _, s, _, _ in keys])
     n = 0
     for key, sym, name, h24 in keys:
         if sym not in frames:
             log(f"UYARI: {key} verisi alınamadı, eski değer kalıyor")
             continue
-        m = metrics(frames[sym], use_volume=False)
+        f = frames[sym]
+        if key == "BTC":  # 7/24 işlem görür: günlük kapanış UTC 00:00'dır, günü bitmemiş mumu at
+            f = f[f.index < pd.Timestamp(now.strftime("%Y-%m-%d"))]
+        m = metrics(f, use_volume=False)
         old = d["indexes"].get(key)
         if old and old.get("date") and m["date"] < old["date"]:
             log(f"UYARI: {key} yeni veri ({m['date']}) eskisinden ({old['date']}) geri, değişmedi")
             continue
-        m.update({"symbol": key, "yahoo": sym, "name": name, "h24": h24, "live": False, "stale": False})
+        m.update({"symbol": key, "yahoo": sym, "name": name, "h24": h24, "live": sym == "BTC-USD",
+                  "stale": (not h24) and m["date"] < d["meta"]["ref_date"]})
         d["indexes"][key] = m
         n += 1
         log(f"{key}: {m['date']} kapanış {m['close']}")
     if n == 0:
-        log("HATA: hiçbir Asya endeksi yenilenemedi.")
+        log("HATA: hiçbir gösterge yenilenemedi.")
         sys.exit(1)
-    d["meta"]["asia_refreshed_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    d["meta"]["partial_refreshed_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    d["meta"]["partial_refreshed"] = sorted(only)
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(d, f, ensure_ascii=False, allow_nan=False, indent=1)
 
 
 def main():
-    if "--asia" in sys.argv:
-        return asia_refresh()
+    if "--only" in sys.argv:
+        return partial_refresh(sys.argv[sys.argv.index("--only") + 1].split(","))
     now = dt.datetime.now(dt.timezone.utc)
     macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS])
     if "^GSPC" not in macro_frames:
