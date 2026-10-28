@@ -21,7 +21,7 @@
   function sgn(v) { return v > 0 ? "+" : v < 0 ? "−" : ""; }
   function pc(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 2 : dec) + "%"; }
   function pt(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 1 : dec) + " puan"; }
-  function cls(v, risk) { if (v === null || v === undefined || v === 0) return "neu"; if (risk) return v > 0 ? "rsk" : "pos"; return v > 0 ? "pos" : "neg"; }
+  function cls(v) { if (v === null || v === undefined || v === 0) return "neu"; return v > 0 ? "pos" : "neg"; }
   function esc(s) { return String(s === null || s === undefined ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function h2(t) { return '<h2>' + t + '</h2>'; }
   function sub(t) { return '<p class="sub">' + t + '</p>'; }
@@ -72,8 +72,8 @@
     Object.keys(d.indexes).forEach(function (k) { rows.push([k, d.indexes[k]]); });
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
-      var k = x[0], m = x[1], risk = k === "VIX", tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5, risk) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20, risk) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
+      var k = x[0], m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
+      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
         '<td>' + (m.vol_vs20 == null ? '<span class="neu">–</span>' : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td class="hm">' + (m.vol_vs50 == null ? '<span class="neu">–</span>' : pc(m.vol_vs50, 0)) + '</td></tr>';
     }).join("");
     return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
