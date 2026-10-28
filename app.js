@@ -4,6 +4,7 @@
   function fmtShort(d) { if (!d) return ""; var a = d.split("-"); return parseInt(a[2], 10) + " " + MONTHS[parseInt(a[1], 10) - 1]; }
   var TK = { "005930.KS": "Samsung", "688825.SS": "CXMT", "285A.T": "Kioxia", "2408.TW": "Nanya", "603986.SS": "GigaDevice", "2344.TW": "Winbond" };
   function tk(s) { return TK[s] || s; }
+  function sa(s) { return /^[A-Z0-9-]+$/.test(s) ? ' <a class="sa" href="https://seekingalpha.com/symbol/' + encodeURIComponent(s) + '" target="_blank" rel="noopener noreferrer" title="Seeking Alpha\'da aç" aria-label="' + esc(s) + ' Seeking Alpha sayfası">SA</a>' : ""; }
   function dtag(m, ref) {
     return m && m.date && ref && m.date !== ref ? " · son kapanış " + fmtShort(m.date) : "";
   }
@@ -154,7 +155,7 @@
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
+      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
     }).join("");
     var noMob = { symbol: 1, above50: 1, above100: 1, above200: 1, vol5_vs20: 1, vol_trend: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
