@@ -78,20 +78,6 @@ AI_ETFS = [
     ("SMH", "VanEck Semiconductor ETF"),
     ("DRAM", "Roundhill Memory ETF"),
 ]
-SOXX_URL = ("https://www.ishares.com/us/products/239705/ishares-semiconductor-etf/"
-            "1467271812596.ajax?fileType=csv&fileName=SOXX_holdings&dataType=fund")
-# Resmi liste okunamazsa kullanılan, elle derlenmiş yapay zeka / yarı iletken çekirdek listesi
-AI_CORE = {
-    "NVDA": "Yapay zeka çipleri", "AVGO": "Ağ ve özel çip", "AMD": "CPU / GPU", "TSM": "Foundry",
-    "ASML": "Litografi", "AMAT": "Ekipman", "LRCX": "Ekipman", "KLAC": "Ekipman", "MU": "Bellek",
-    "MRVL": "Özel çip / ağ", "QCOM": "Mobil çip", "INTC": "CPU / foundry", "TXN": "Analog",
-    "ADI": "Analog", "MPWR": "Güç yarı iletkenleri", "ARM": "Mimari lisansı", "ON": "Güç / otomotiv",
-    "NXPI": "Otomotiv / gömülü", "MCHP": "Mikrodenetleyici", "TER": "Test ekipmanı",
-    "WDC": "Depolama", "STX": "Depolama", "SNDK": "NAND bellek", "SMCI": "AI sunucuları",
-    "ANET": "AI ağ donanımı", "VRT": "Veri merkezi altyapısı", "SNPS": "Çip tasarım yazılımı",
-    "CDNS": "Çip tasarım yazılımı", "000660.KS": "Bellek (SK hynix)", "005930.KS": "Bellek (Samsung)",
-}
-AI_MEMORY = {"MU", "WDC", "STX", "SNDK", "000660.KS", "005930.KS"}
 TICKER_FIX = {"BRKB": "BRK-B", "BFB": "BF-B"}
 
 
@@ -321,10 +307,6 @@ def sector_block(frames):
                      "vol_vs20": m["vol_vs20"], "vol_vs50": m.get("vol_vs50"), "spark": m.get("spark")})
     rows.sort(key=lambda x: (x["rel20"] is None, -(x["rel20"] or 0)))
     return rows
-
-
-def clamp(x, lo=0.0, hi=100.0):
-    return max(lo, min(hi, x))
 
 
 REGIME_VERSION = "SP500-trend-v2"
