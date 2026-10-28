@@ -1009,6 +1009,85 @@ def ai_block(ref_date, spy, qqq):
     return out
 
 
+def build_other_changes(cur, prev):
+    """Ana göstergeler, ETF'ler, sektörler, genişlik ve AI ETF'leri için önceki güncellemeye göre değişenler.
+    Her kalem a=bölüm (genel, genislik, sektor, ai) ile işaretlenir. Aynı gün yeniden çalışırsa önceki blok korunur."""
+    ref = str(cur["meta"]["ref_date"])
+    pref = (prev.get("meta") or {}).get("ref_date")
+    if pref and str(pref) == ref:
+        pc = prev.get("changes")
+        return pc if pc and pc.get("since") else None
+    if not pref or str(pref) > ref:
+        return None
+    items = []
+
+    def spark_hi(sp):
+        if not sp or len(sp) < 22 or any(v is None for v in sp[-22:]):
+            return None
+        prior = max(sp[-21:-1])
+        return prior if sp[-1] > prior and sp[-2] <= max(sp[-22:-2]) else None
+
+    def level(area, x, p):
+        if not x or not p or x.get("date") == p.get("date"):
+            return
+        s = x.get("symbol")
+        t0, t1 = p.get("trend"), x.get("trend")
+        trend_flip = bool(t0 and t1 and "Belirsiz" not in (t0, t1) and t0 != t1)
+        if trend_flip:
+            items.append({"a": area, "s": s, "k": "trend", "from": t0, "to": t1, "d1": x.get("d1")})
+        for n in (50, 100, 200):
+            f0, f1 = p.get(f"above{n}"), x.get(f"above{n}")
+            if f0 is None or f1 is None or f0 == f1 or (n == 50 and trend_flip):
+                continue
+            items.append({"a": area, "s": s, "k": "sma", "m": n, "up": bool(f1), "close": x.get("close"), "sma": x.get(f"sma{n}")})
+        ph = spark_hi(x.get("spark"))
+        if ph is not None:
+            items.append({"a": area, "s": s, "k": "hi20", "prev_hi": ph})
+
+    for k, x in (cur.get("indexes") or {}).items():
+        level("genel", x, (prev.get("indexes") or {}).get(k))
+    for k, x in (cur.get("etfs") or {}).items():
+        level("genel", x, (prev.get("etfs") or {}).get(k))
+    pmap = {x.get("symbol"): x for x in prev.get("sectors") or []}
+    for x in cur.get("sectors") or []:
+        p = pmap.get(x.get("symbol"))
+        level("sektor", x, p)
+        if p and x.get("date") != p.get("date") and p.get("status") and x.get("status") and p["status"] != x["status"]:
+            items.append({"a": "sektor", "s": x["symbol"], "k": "status", "from": p["status"], "to": x["status"]})
+    cai, pai = cur.get("ai") or {}, prev.get("ai") or {}
+    pem = {x.get("symbol"): x for x in pai.get("etfs") or [] if x.get("available")}
+    for x in cai.get("etfs") or []:
+        if x.get("available"):
+            level("ai", x, pem.get(x.get("symbol")))
+    for k, x in (cai.get("detail") or {}).items():
+        p = (pai.get("detail") or {}).get(k)
+        if p and x.get("verdict") and p.get("verdict") and x["verdict"] != p["verdict"]:
+            items.append({"a": "ai", "n": k + " ETF içi yapı", "k": "verdict", "from": p["verdict"], "to": x["verdict"]})
+    rg = {"RISK_ON": "Risk-on", "RISK_OFF": "Risk-off"}
+    r0, r1 = (prev.get("regime") or {}).get("market_regime"), (cur.get("regime") or {}).get("market_regime")
+    if r0 and r1 and r0 != r1:
+        items.append({"a": "genel", "k": "regime", "from": rg.get(r0, r0), "to": rg.get(r1, r1)})
+    pp = {x.get("label"): x for x in prev.get("pairs") or []}
+    for x in cur.get("pairs") or []:
+        p = pp.get(x.get("label"))
+        if p and x.get("verdict") and p.get("verdict") and x["verdict"] != p["verdict"]:
+            items.append({"a": "genislik", "n": x["label"], "k": "verdict", "from": p["verdict"], "to": x["verdict"]})
+
+    def thr(area, name, v0, v1):
+        if v0 is None or v1 is None or (v0 < 50) == (v1 < 50) or v0 == 50 or v1 == 50:
+            return
+        items.append({"a": area, "n": name, "k": "thr", "up": v1 > 50, "v": v1})
+
+    for n in (50, 100, 200):
+        thr("genislik", f"S&P 500: SMA {n} üstü hisse payı",
+            ((prev.get("breadth") or {}).get(f"ma{n}") or {}).get("pct"), ((cur.get("breadth") or {}).get(f"ma{n}") or {}).get("pct"))
+    thr("genislik", "Sektör ETF katılımı (SMA 50 üstü)", (prev.get("sector_participation") or {}).get("pct"),
+        (cur.get("sector_participation") or {}).get("pct"))
+    for n in (50, 100, 200):
+        thr("ai", f"AI hisseleri: SMA {n} üstü payı", (pai.get("breadth") or {}).get(f"above{n}"), (cai.get("breadth") or {}).get(f"above{n}"))
+    return {"since": str(pref), "items": items}
+
+
 def partial_refresh(only):
     """Yalnız verilen göstergeler (ör. KOSPI,NIKKEI veya BTC): canlı data.json indirilir, bu göstergeler kendi kapanışına göre yenilenir,
     geri kalan her şey aynen kalır."""
@@ -1160,6 +1239,14 @@ def main():
         "indexes": idx, "etfs": etf, "breadth": breadth, "pairs": pairs,
         "sectors": sectors, "sector_participation": sector_part, "ai": ai, "yields": yields, "regime": reg, "notes": notes,
     }
+    try:
+        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
+        ch = build_other_changes(out, json.loads(http_get(url, tries=2, timeout=30).text))
+        if ch is not None:
+            out["changes"] = ch
+        log("değişenler (genel):", "karşılaştırma yok" if ch is None else f"{len(ch['items'])} (önceki: {ch['since']})")
+    except Exception as e:  # noqa: BLE001
+        log("Değişenler (genel) bölümü atlandı:", repr(e)[:120])
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, allow_nan=False, indent=1)
     log(f"data.json yazıldı | referans kapanış: {ref_date} | kalite: {dq['level']} | "
