@@ -978,7 +978,12 @@ def main():
     idx = {}
     for key, sym, name, h24 in INDEXES:
         if sym in macro_frames:
-            m = metrics(macro_frames[sym], use_volume=False)  # Yahoo endeks/vadeli hacmi güvenilir değil
+            f = macro_frames[sym]
+            if not h24:  # DXY gibi: referans günden sonraki, bitmemiş çubuk alınmaz
+                f = f[f.index <= pd.Timestamp(ref_date)]
+            if sym == "BTC-USD":  # 7/24: günlük kapanış UTC 00:00, günü bitmemiş mum alınmaz
+                f = f[f.index < pd.Timestamp(now.strftime("%Y-%m-%d"))]
+            m = metrics(f, use_volume=False)  # Yahoo endeks/vadeli hacmi güvenilir değil
             m.update({"symbol": key, "yahoo": sym, "name": name, "h24": h24,
                       "live": sym == "BTC-USD",  # 7/24 işlem görür: değer anlık, ABD kapanışı değil
                       "stale": (not h24) and m["date"] < ref_date})
