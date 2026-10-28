@@ -33,11 +33,12 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Canlı siteyi al (yalnız seçilen gösterge değişecek)
+      - name: Sayfa dosyalarını depodan al (yalnız seçilen gösterge değişecek)
         run: |
           mkdir site
-          curl -fsSL https://mbay9.github.io/piyasa-paneli/ -o site/index.html
-          curl -fsSL https://mbay9.github.io/piyasa-paneli/app.js -o site/app.js
+          cp index.html app.js site/
+          sed -i "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_RUN_ID}\"|" site/index.html
+          grep -q "app.js?v=" site/index.html
       - name: Hangi gösterge yenilenecek
         id: sel
         env:
