@@ -826,6 +826,46 @@ def earnings_dates(symbols, ref_date, budget=120):
     return dict(out)
 
 
+def prev_ai():
+    """Canlı siteden önceki güncellemenin AI bölümü: (tarih, {sembol: satır}, değişiklik bloğu). Alınamazsa (None, {}, None)."""
+    try:
+        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
+        a = json.loads(http_get(url, tries=2, timeout=30).text)["ai"]
+        return a.get("date"), {x["symbol"]: x for x in a.get("stocks", [])}, a.get("changes")
+    except Exception as e:  # noqa: BLE001
+        log("Önceki AI verisi okunamadı:", repr(e)[:80])
+        return None, {}, None
+
+
+def build_changes(rows, ex, ref_date, pdate, prows, pchg):
+    """Önceki kapanışa göre değişenler: trend etiketi, SMA 50 geçişi (trend değişmediyse), yeni 20 günlük kapanış zirvesi.
+    Aynı gün yeniden çalışırsa trend/SMA değişimleri önceki bloktan korunur (kendi kendine kıyas boş kalmasın)."""
+    ref = str(ref_date)
+    items, since = [], None
+    if pdate and pdate < ref:
+        since = pdate
+        for x in rows:
+            p = prows.get(x["symbol"])
+            if not p or p.get("date") != pdate or x["date"] != ref:
+                continue
+            t0, t1 = p.get("trend"), x.get("trend")
+            if t0 and t1 and "Belirsiz" not in (t0, t1) and t0 != t1:
+                items.append({"s": x["symbol"], "k": "trend", "from": t0, "to": t1, "d1": x["d1"]})
+            elif p.get("above50") is not None and x["above50"] is not None and p["above50"] != x["above50"]:
+                items.append({"s": x["symbol"], "k": "sma50", "up": bool(x["above50"]), "close": x["close"],
+                              "sma50": ex[x["symbol"]]["sma50"]})
+    elif pdate == ref and pchg and pchg.get("since"):
+        since = pchg["since"]
+        items = [i for i in pchg.get("items", []) if i.get("k") != "hi20"]
+    else:
+        return None
+    for x in rows:
+        e = ex[x["symbol"]]
+        if e["new_hi"] and x["date"] == ref:
+            items.append({"s": x["symbol"], "k": "hi20", "prev_hi": e["prev_hi"]})
+    return {"since": since, "items": items}
+
+
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
@@ -857,6 +897,7 @@ def ai_block(ref_date, spy, qqq):
         etfs.append(m)
     spy20 = pct_change(spy["Close"][spy.index <= ref], 20)
     rows = []
+    ex = {}
     for t, f in stock_frames.items():
         f = f[f.index <= ref]
         if len(f) < 60 or f.index[-1] < ref - pd.Timedelta(days=4):
@@ -865,6 +906,12 @@ def ai_block(ref_date, spy, qqq):
         c = f["Close"]
         hi = c.iloc[-252:].max()
         v5, vtr = volume_trend(f)
+        cf = c.astype(float)
+        new_hi, prev_hi = False, None
+        if len(cf) >= 22:
+            prev_hi = float(cf.iloc[-21:-1].max())
+            new_hi = bool(cf.iloc[-1] > prev_hi and cf.iloc[-2] <= float(cf.iloc[-22:-2].max()))
+        ex[t] = {"sma50": m["sma50"], "new_hi": new_hi, "prev_hi": r(prev_hi, 4) if prev_hi is not None else None}
         rows.append({
             "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
             "watch": set(uni[t]["w"]) == {"WATCH"},
@@ -895,6 +942,14 @@ def ai_block(ref_date, spy, qqq):
     for x in rows:
         x["earn"], x["earn_est"] = ed.get(x["symbol"], (None, False))
     log(f"bilanço tarihi: {len(ed)}/{len(rows)} hisse")
+    try:
+        pdate, prows, pchg = prev_ai()
+        chg = build_changes(rows, ex, ref_date, pdate, prows, pchg)
+        if chg is not None:
+            out["changes"] = chg
+        log("değişenler:", "karşılaştırma yok" if chg is None else f"{len(chg['items'])} (önceki: {chg['since']})")
+    except Exception as e:  # noqa: BLE001
+        log("Değişenler bölümü atlandı:", repr(e)[:120])
     n = len(rows)
 
     def share(rs, k):
