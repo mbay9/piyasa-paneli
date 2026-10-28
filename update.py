@@ -933,6 +933,7 @@ def partial_refresh(only):
         sys.exit(1)
     frames, _ = download([s for _, s, _, _ in keys] + ["^GSPC"])  # tek sembollü indirme desteklenmiyor: yanına her zaman ^GSPC eklenir
     n = 0
+    skipped = 0
     for key, sym, name, h24 in keys:
         if sym not in frames:
             log(f"UYARI: {key} verisi alınamadı, eski değer kalıyor")
@@ -944,13 +945,14 @@ def partial_refresh(only):
         old = d["indexes"].get(key)
         if old and old.get("date") and m["date"] < old["date"]:
             log(f"UYARI: {key} yeni veri ({m['date']}) eskisinden ({old['date']}) geri, değişmedi")
+            skipped += 1
             continue
         m.update({"symbol": key, "yahoo": sym, "name": name, "h24": h24, "live": sym == "BTC-USD",
                   "stale": (not h24) and m["date"] < d["meta"]["ref_date"]})
         d["indexes"][key] = m
         n += 1
         log(f"{key}: {m['date']} kapanış {m['close']}")
-    if n == 0:
+    if n == 0 and skipped == 0:  # yeni veri yoksa hata değil: değişmeden yayınlanır
         log("HATA: hiçbir gösterge yenilenemedi.")
         sys.exit(1)
     d["meta"]["partial_refreshed_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
