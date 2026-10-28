@@ -192,6 +192,38 @@
     }).join("");
     return h2("ETF içi görünüm (ağırlıklı)") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Ağırlıklı 1G</th><th>Ağırlıklı 5G</th><th>Ağırlıklı 20G</th><th>Eşit ağırlıklı 20G</th><th>SMA 50 üstü (ağırlık)</th><th>SMA 100 üstü (ağırlık)</th><th>SMA 200 üstü (ağırlık)</th><th>Yapı</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
+  function chgBox(c) {
+    if (!c || !c.items || !c.items.length) return "";
+    var arrow = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6h8M7 3l3 3-3 3"/></svg>';
+    function tc(t) { return t === "Yükseliş" ? "pos" : t === "Düşüş" ? "neg" : ""; }
+    var G = [
+      ["trend", "Trend", "trend"],
+      ["sma50", "Ortalama", "ortalama"],
+      ["hi20", "20 günlük zirve", "zirve"]
+    ];
+    var chips = "", body = "";
+    G.forEach(function (g) {
+      var L = c.items.filter(function (i) { return i.k === g[0]; });
+      if (!L.length) return;
+      chips += '<span class="cs">' + L.length + " " + g[2] + "</span>";
+      body += '<div class="cg"><h3>' + g[1] + "</h3>" + L.map(function (i) {
+        var f, m = "";
+        if (g[0] === "trend") {
+          f = esc(i.from) + " " + arrow + ' <span class="to ' + tc(i.to) + '">' + esc(i.to) + "</span>";
+          m = i.d1 == null ? "" : pc(i.d1) + " bugün";
+        } else if (g[0] === "sma50") {
+          f = '<span class="to ' + (i.up ? "pos" : "neg") + '">SMA 50 ' + (i.up ? "üstüne çıktı" : "altına indi") + "</span>";
+          m = num(i.close, 2) + " · SMA 50 " + num(i.sma50, 2);
+        } else {
+          f = '<span class="to">Yeni zirve</span>';
+          m = i.prev_hi == null ? "" : "önceki " + num(i.prev_hi, 2);
+        }
+        return '<div class="cr"><b>' + esc(tk(i.s)) + '</b><span class="cf">' + f + '</span><span class="cm">' + m + "</span></div>";
+      }).join("") + "</div>";
+    });
+    return '<details class="chg"><summary><span class="cd"></span><span class="ct">Dünden beri ' + c.items.length + ' değişiklik</span><span class="csum">' + chips + '</span><svg class="car" viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5 8 6l-3.5 3.5"/></svg></summary><div class="cb">' + body +
+      '<p class="fine">Karşılaştırma: ' + esc(fmtShort(c.since)) + ' kapanışı · yalnızca AI hisseleri</p></div></details>';
+  }
   function ai(a) {
     if (!a || !a.etfs) return h2("Yapay zeka") + sub("Bu bölüm bu güncellemede hesaplanamadı. Bir sonraki çalışmada yeniden denenir.");
     var e = a.etfs.map(function (m) {
@@ -199,7 +231,7 @@
       return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + cls(m.d60) + '">' + pc(m.d60) + '</td>' +
         '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
-    var out = h2("Yapay zeka ve yarı iletken ETF'leri") +
+    var out = chgBox(a.changes) + h2("Yapay zeka ve yarı iletken ETF'leri") +
       '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
     var b = a.breadth;
