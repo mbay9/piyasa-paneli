@@ -846,6 +846,11 @@ def build_changes(rows, ex, ref_date, pdate, prows, pchg):
             p = prows.get(x["symbol"])
             if not p or p.get("date") != pdate or x["date"] != ref:
                 continue
+            if p.get("fcd") and x.get("fcd") and x["fcd"] > p["fcd"]:  # yeni bilanço dönemi (nakit akışı tablosu) yayımlandı
+                it = {"s": x["symbol"], "k": "fund", "per": x.get("fcp"), "cur": x.get("fcu"), "f0": p.get("fcf"), "f1": x.get("fcf")}
+                if p.get("ncd") and x.get("ncd") and x["ncd"] > p["ncd"]:
+                    it.update({"n0": p.get("nc"), "n1": x.get("nc")})
+                items.append(it)
             t0, t1 = p.get("trend"), x.get("trend")
             if t0 and t1 and "Belirsiz" not in (t0, t1) and t0 != t1:
                 items.append({"s": x["symbol"], "k": "trend", "from": t0, "to": t1, "d1": x["d1"]})

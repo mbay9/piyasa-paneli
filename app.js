@@ -12,13 +12,14 @@
     if (!(n >= 0 && n <= 14)) return "";
     return ' <span class="eb' + (n <= 1 ? " soon" : "") + '">Bilanço ' + (n === 0 ? "bugün" : n === 1 ? "yarın" : fmtShort(s.earn)) + (s.earn_est ? " (tahmini)" : "") + '</span>';
   }
+  function money(v, cu) {
+    var CS = { USD: "$", TWD: "NT$", EUR: "€", KRW: "₩", JPY: "¥", CNY: "CN¥" };
+    var a = Math.abs(v), c = CS[cu] || (cu ? cu + " " : "");
+    return sgn(v) + c + (a >= 1e6 ? num(a / 1e6, 2) + " Tr" : a >= 1e3 ? num(a / 1e3, a >= 1e4 ? 0 : 1) + " Mr" : num(a, 0) + " Mn");
+  }
   function fb(s) {
     if (s.fcf === null || s.fcf === undefined) return "";
-    var CS = { USD: "$", TWD: "NT$", EUR: "€", KRW: "₩", JPY: "¥", CNY: "CN¥" };
-    function mm(v) {
-      var a = Math.abs(v), c = CS[s.fcu] || (s.fcu ? s.fcu + " " : "");
-      return sgn(v) + c + (a >= 1e6 ? num(a / 1e6, 2) + " Tr" : a >= 1e3 ? num(a / 1e3, a >= 1e4 ? 0 : 1) + " Mr" : num(a, 0) + " Mn");
-    }
+    function mm(v) { return money(v, s.fcu); }
     function my(d) { return d ? MONTHS[parseInt(d.split("-")[1], 10) - 1] + " '" + d.slice(2, 4) : ""; }
     function t(l, v, per) { return '<span class="f ' + (v > 0 ? "y" : "k") + '" data-tip="' + esc(l + " · " + mm(v) + (per ? " · " + per : "")) + '">' + (l === "FCF" ? "FCF" : "BS") + '</span>'; }
     var fp = (s.fcp ? s.fcp + " · " : "") + my(s.fcd);
@@ -237,7 +238,7 @@
     function fl(i) { return esc(i.from) + " " + arrow + ' <span class="to ' + tc(i.to) + '">' + esc(i.to) + "</span>"; }
     var G = [
       ["regime", "Rejim", "rejim"], ["trend", "Trend", "trend"], ["sma", "Ortalama", "ortalama"], ["status", "Sektör durumu", "durum"],
-      ["thr", "Genişlik", "genişlik"], ["verdict", "Yapı", "yapı"], ["hi20", "20 günlük zirve", "zirve"]
+      ["thr", "Genişlik", "genişlik"], ["verdict", "Yapı", "yapı"], ["hi20", "20 günlük zirve", "zirve"], ["fund", "Bilanço", "bilanço"]
     ];
     var chips = "", body = "";
     G.forEach(function (g) {
@@ -251,6 +252,12 @@
         else if (i.k === "status") { f = fl(i); }
         else if (i.k === "verdict") { f = esc(i.n) + ": " + fl(i); }
         else if (i.k === "thr") { f = esc(i.n) + ' <span class="to ' + (i.up ? "pos" : "neg") + '">%50 ' + (i.up ? "üstüne çıktı" : "altına indi") + "</span>"; m = "%" + num(i.v, 0); }
+        else if (i.k === "fund") {
+          var fv = function (a, b) { return a == null || b == null ? "" : money(a, i.cur) + " " + arrow + ' <span class="to ' + (b > a ? "pos" : b < a ? "neg" : "") + '">' + money(b, i.cur) + "</span>"; };
+          var fp = fv(i.f0, i.f1), np = fv(i.n0, i.n1);
+          f = (fp ? "FCF " + fp : i.f1 != null ? "FCF " + money(i.f1, i.cur) : "") + (np ? (fp || i.f1 != null ? " · " : "") + "Net nakit " + np : "");
+          m = esc(i.per || "");
+        }
         else if (i.k === "hi20") { f = '<span class="to">Yeni zirve</span>'; m = i.prev_hi == null ? "" : "önceki " + num(i.prev_hi, 2); }
         else { var n = i.m || 50, sv = i.sma !== undefined ? i.sma : i.sma50; f = '<span class="to ' + (i.up ? "pos" : "neg") + '">SMA ' + n + " " + (i.up ? "üstüne çıktı" : "altına indi") + "</span>"; m = num(i.close, 2) + " · SMA " + n + " " + num(sv, 2); }
         return '<div class="cr' + w + '">' + lab + '<span class="cf">' + f + '</span><span class="cm">' + m + "</span></div>";
