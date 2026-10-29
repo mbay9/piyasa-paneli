@@ -91,19 +91,25 @@
     if (!b || !b.ma50) return h2("Piyasa genişliği") + sub("Hisse listesi alınamadığı için hesaplanmadı.");
     var s = [50, 200].map(function (n) {
       var m = b["ma" + n]; if (!m) return "";
-      return stat(n + " günlük ortalama üstü", "%" + num(m.pct, 1), m.above + " / " + m.total + " hisse · 1G " + pt(m.d1) + " · 5G " + pt(m.d5));
-    }).join("") + stat("52 hafta", '<span class="pos">' + num(b.new_highs, 0) + '</span> <span class="mute">/</span> <span class="neg">' + num(b.new_lows, 0) + '</span>', "yeni zirve / yeni dip");
-    return h2("Piyasa genişliği") + sub("S&P 500 hisselerinin kaçı ortalamalarının üstünde. " + fmtDate(b.date)) + '<div class="stats">' + s + '</div>';
+      return stat(n + " günlük ortalamanın üstünde", "%" + num(m.pct, 0), m.above + " / " + m.total + " hisse · 1 günde " + pt(m.d1) + " · 5 günde " + pt(m.d5));
+    }).join("");
+    return h2("Yükseliş ne kadar geniş?") + sub("Endeks yükselirken hisselerin çoğu da yükseliyor mu, yoksa az sayıda büyük hisse mi taşıyor? Aşağıdaki üç ölçü bu soruyu üç farklı yönden cevaplar. Hepsi bugünü anlatır, yön tahmin etmez. " + fmtDate(b.date)) +
+      '<h3 class="qh">1 · Hisselerin kaçı ortalamalarının üstünde?</h3><div class="stats">' + s + '</div>' +
+      '<p class="fine">S&amp;P 500\'ün 500 hissesi üzerinden. Oran ne kadar yüksekse yükselişe katılan hisse o kadar çok demektir. Endeks yükselirken oran düşüyorsa yükseliş inceliyor demektir.</p>' +
+      '<h3 class="qh">2 · Kaç hisse zirvede, kaç hisse dipte?</h3><div class="stats">' + stat("Son 52 hafta", '<span class="pos">' + num(b.new_highs, 0) + '</span> <span class="mute">/</span> <span class="neg">' + num(b.new_lows, 0) + '</span>', "yeni zirve yapan / yeni dip yapan hisse") + '</div>' +
+      '<p class="fine">52 haftanın en yüksek ya da en düşük seviyesine ulaşan hisse sayısı. Zirve sayısı dipten ne kadar fazlaysa piyasa o kadar güçlü, tersi ise zayıf demektir.</p>';
   }
 
   function pairs(p) {
     var rows = p.map(function (x) {
-      if (!x.available) return '<tr><td><b>' + x.a + ' / ' + x.b + '</b></td><td colspan="5" class="neu">Veri alınamadı</td></tr>';
+      var nm = esc((x.label || "").split(":")[0]);
+      if (!x.available) return '<tr><td><b>' + nm + '</b></td><td colspan="4" class="neu">Veri alınamadı</td></tr>';
       var vc = x.verdict === "GENİŞ" ? "pos" : x.verdict === "DAR" ? "rsk" : "neu";
-      return '<tr><td><b>' + x.a + ' / ' + x.b + '</b><small>' + esc(x.label) + '</small></td><td class="' + cls(x.ret20_a) + '">' + pc(x.ret20_a) + '</td><td class="' + cls(x.ret20_b) + '">' + pc(x.ret20_b) + '</td><td class="' + cls(x.ret20_diff) + '">' + pt(x.ret20_diff, 2) + '</td><td class="' + vc + '"><b>' + x.verdict + '</b></td></tr>';
+      var vt = x.verdict === "GENİŞ" ? "GENİŞ · herkes yükseliyor" : x.verdict === "DAR" ? "DAR · büyükler taşıyor" : esc(x.verdict || "–");
+      return '<tr><td><b>' + nm + '</b><small>' + x.a + ' (eşit ağırlıklı) / ' + x.b + ' (ağırlıklı)</small></td><td class="' + cls(x.ret20_a) + '">' + pc(x.ret20_a) + '</td><td class="' + cls(x.ret20_b) + '">' + pc(x.ret20_b) + '</td><td class="' + cls(x.ret20_diff) + '">' + pt(x.ret20_diff, 2) + '</td><td class="' + vc + '"><b>' + vt + '</b></td></tr>';
     }).join("");
-    return h2("Dar mı geniş mi") + '<div class="tw"><table><thead><tr><th>Çift</th><th>Eşit ağırlık 20G</th><th>Ağırlıklı 20G</th><th>Fark</th><th>Karar</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      '<p class="fine">Eşit ağırlıklı ETF 20 günde 1 puan veya daha fazla geride ise yükseliş DAR (az sayıda büyük hisse taşıyor), 1 puan veya fazla öndeyse GENİŞ.</p>';
+    return '<h3 class="qh">3 · Büyük hisseler mi taşıyor, herkes mi?</h3><div class="tw"><table><thead><tr><th>Endeks</th><th>Eşit ağırlıklı ETF · 20G</th><th>Ağırlıklı ETF · 20G</th><th>Fark</th><th>Okuma</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+      '<p class="fine">Aynı hisseler iki farklı şekilde tartılıyor. Eşit ağırlıklı ETF\'te her hisse aynı ağırlıktadır, ağırlıklı ETF\'te büyük şirketler daha çok etki eder. Eşit ağırlıklı ETF 20 günde 1 puan veya daha fazla gerideyse DAR (az sayıda büyük hisse taşıyor), 1 puan veya daha fazla öndeyse GENİŞ.</p>';
   }
 
   var SEC_SORT = { k: "rel20", dir: -1 };
@@ -156,14 +162,34 @@
     var names = { SOXX: "SOXX · iShares", SMH: "SMH · VanEck", DRAM: "DRAM · Roundhill" };
     var rows = ["SOXX", "SMH", "DRAM"].map(function (k) {
       var d = a.detail && a.detail[k]; if (!d) return "";
+      var own = (a.etfs || []).filter(function (m) { return m.symbol === k && m.available; })[0], od = own ? own.d20 : null;
+      var diff = od === null || od === undefined || d.eq_d20 === null || d.eq_d20 === undefined ? null : d.eq_d20 - od;
       var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
+      var vt = d.verdict === "GENİŞ" ? "GENİŞ · küçükler de yükseliyor" : d.verdict === "DAR" ? "DAR · büyükler taşıyor" : (d.verdict || "–");
       var top = d.top.map(function (t) { return esc(tk(t.symbol)); }).join(" · ");
-      return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + ' (' + Math.max(0, Math.floor((Date.now() - new Date(d.asof).getTime()) / 864e5)) + ' gün)</small></td>' +
-        '<td class="' + cls(d.w_d1) + '">' + pc(d.w_d1) + '</td><td class="' + cls(d.w_d5) + '">' + pc(d.w_d5) + '</td><td class="' + cls(d.w_d20) + '">' + pc(d.w_d20) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td>' +
-        '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute">' + top + '</td></tr>';
+      return '<tr><td><b>' + names[k] + '</b><small>bileşen listesi: ' + fmtDate(d.asof) + '</small></td>' +
+        '<td class="' + cls(od) + '">' + pc(od) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td><td class="' + cls(diff) + '">' + pt(diff, 2) + '</td><td class="' + vc + '"><b>' + vt + '</b></td>' +
+        '<td>%' + num(d.above50_n, 0) + '<small>ağırlığa göre %' + num(d.above50_w, 0) + '</small></td><td>%' + num(d.above200_n, 0) + '<small>ağırlığa göre %' + num(d.above200_w, 0) + '</small></td><td class="mute">' + top + '</td></tr>';
     }).join("");
-    return h2("ETF içi görünüm (ağırlıklı)") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Ağırlıklı 1G</th><th>Ağırlıklı 5G</th><th>Ağırlıklı 20G</th><th>Eşit ağırlıklı 20G</th><th>SMA 50 üstü (ağırlık)</th><th>SMA 200 üstü (ağırlık)</th><th>Yapı</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    return h3q("2 · ETF'i büyük hisseler mi taşıyor, herkes mi?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>ETF\'in kendi 20G getirisi</th><th>Bileşenlerin eşit ağırlıklı 20G getirisi</th><th>Fark</th><th>Okuma</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+      '<p class="fine">ETF büyük hisselerin ağırlığıyla hareket eder. Bileşenlerin eşit ağırlıklı ortalaması ETF\'in kendi getirisinden 1 puan veya daha fazla iyiyse GENİŞ (küçük hisseler de yükseliyor), 1 puan veya daha fazla kötüyse DAR (büyük hisseler taşıyor), arası DENGELİ. SMA sütunlarında büyük sayı hisselerin yüzde kaçının ortalamanın üstünde olduğunu, küçük yazı aynısını ETF ağırlığına göre gösterir; ikisi çok ayrışıyorsa büyük hisseler farklı yönde gidiyor demektir.</p>';
   }
+  function h3q(t) { return '<h3 class="qh">' + t + '</h3>'; }
+  function tierRow(name, list) {
+    var n = list.length; if (!n) return "";
+    function pct(f) { return "%" + num(100 * list.filter(f).length / n, 0); }
+    var d = list.map(function (s) { return s.d20; }).filter(function (v) { return v !== null && v !== undefined; }).sort(function (x, y) { return x - y; });
+    var med = d.length ? (d.length % 2 ? d[(d.length - 1) / 2] : (d[d.length / 2 - 1] + d[d.length / 2]) / 2) : null;
+    return '<tr><td><b>' + name + '</b><small>' + n + ' hisse</small></td><td>' + pct(function (s) { return s.above50; }) + '</td><td>' + pct(function (s) { return s.above200; }) + '</td><td>' + pct(function (s) { return s.d20 > 0; }) + '</td><td class="' + cls(med) + '">' + pc(med) + '</td><td>' + pct(function (s) { return s.from_high !== null && s.from_high !== undefined && s.from_high >= -5; }) + '</td></tr>';
+  }
+  function aiTiers(a) {
+    var st = a.stocks || [], big = st.filter(function (s) { return s.mcap >= 1e11; }), small = st.filter(function (s) { return s.mcap !== null && s.mcap !== undefined && s.mcap < 1e11; }), mem = st.filter(function (s) { return s.memory; });
+    var unk = st.length - big.length - small.length;
+    return h3q("3 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
+      tierRow("Tüm liste", st) + tierRow("100 Mr$ ve üstü", big) + tierRow("100 Mr$ altı", small) + tierRow("Bellek hisseleri", mem) + '</tbody></table></div>' +
+      '<p class="fine">Her satırda grubun hisselerinin yüzde kaçı koşulu sağlıyor. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir. Bellek hisseleri DRAM ETF\'inin bileşenleridir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
+  }
+
   function chgBox(items, since, note) {
     items = (items || []).filter(function (i) { return i.k !== "sma" && i.k !== "sma50"; });
     if (!items.length) return "";
@@ -205,16 +231,12 @@
       return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + cls(m.d60) + '">' + pc(m.d60) + '</td>' +
         '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
-    var ca = (a.changes && a.changes.items) || [], cs = chgFor("ai"), out = chgBox(ca.concat(cs), (a.changes && a.changes.since) || (DATA.changes && DATA.changes.since), "AI hisseleri ve ETF'leri") + h2("Yapay zeka ve yarı iletken ETF'leri") +
-      '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>';
+    var ca = (a.changes && a.changes.items) || [], cs = chgFor("ai"), out = chgBox(ca.concat(cs), (a.changes && a.changes.since) || (DATA.changes && DATA.changes.since), "AI hisseleri ve ETF'leri") + h2("Yapay zeka ve yarı iletken") +
+      sub("Üç soru: ETF'ler nasıl gidiyor, ETF'i büyük hisseler mi taşıyor, listendeki hisseler büyüklüğe göre farklı mı davranıyor? Hepsi bugünkü durumu anlatır, yön tahmin etmez.") +
+      h3q("1 · ETF'ler nasıl gidiyor?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>' +
+      '<p class="fine">"SPY\'a göre 20G": ETF son 20 günde SPY\'dan kaç puan fazla (+) ya da az (−) getiri sağladı. QQQ için de aynı. SMA sütunları fiyatın o ortalamanın üstünde mi altında mı olduğunu ve ne kadar uzakta olduğunu gösterir.</p>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
-    var b = a.breadth;
-    out += aiDetail(a) + h2("Genişlik (tüm hisseler birlikte)") + '<div class="stats">' +
-      stat("SMA 50 üstü", "%" + num(b.above50, 1), a.count + " benzersiz hisse") +
-      stat("SMA 200 üstü", "%" + num(b.above200, 1), "uzun vade") +
-      stat("20 günde pozitif", "%" + num(b.positive_d20, 1), "hisse payı") +
-      stat("Zirveye %5 yakın", "%" + num(b.near_high, 1), "52 hafta") +
-      stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>';
+    out += aiDetail(a) + aiTiers(a);
     var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });
     if (old) out += '<p class="fine"><span class="rsk">ETF bileşen listesi 45 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
     return out;
