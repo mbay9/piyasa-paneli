@@ -20,8 +20,8 @@
     }
     function my(d) { return d ? MONTHS[parseInt(d.split("-")[1], 10) - 1] + " '" + d.slice(2, 4) : ""; }
     function t(l, v, per) { return '<span class="f ' + (v > 0 ? "y" : "k") + '" tabindex="0" data-tip="' + esc(l + " · " + mm(v) + (per ? " · " + per : "")) + '">' + (l === "FCF" ? "FCF" : "BS") + '</span>'; }
-    var fp = s.fcp === "TTM" ? "TTM · " + my(s.fcd) : s.fcp || "";
-    return ' <span class="lk">' + t("FCF", s.fcf, fp) + (s.nc === null || s.nc === undefined ? "" : t("BS", s.nc, my(s.ncd))) + '</span>';
+    var fp = (s.fcp ? s.fcp + " · " : "") + my(s.fcd);
+    return ' <span class="lk">' + t("FCF", s.fcf, fp) + (s.nc === null || s.nc === undefined ? "" : t("BS", s.nc, (s.ncp ? s.ncp + " · " : "") + my(s.ncd))) + '</span>';
   }
   function dtag(m, ref) {
     return m && m.date && ref && m.date !== ref ? " · son kapanış " + fmtShort(m.date) : "";
