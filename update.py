@@ -586,18 +586,12 @@ def data_quality(universe, coverage, verification, warnings, proxies=None):
 
 # ----------------------------------------------------------------------- ana akış
 # ------------------------------------------------------------------ yapay zeka bölümü
-def load_holdings():
-    """Resmi ETF bileşen dosyaları (holdings.json): {ETF: {asof, source, items:[{symbol,name,weight}]}}"""
-    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "holdings.json")
+def load_stock_list():
+    """Takip edilen AI hisse listesi (hisseler.json): {"items": [{"symbol", "name"}]}"""
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "hisseler.json")
     with open(path, encoding="utf-8") as f:
         h = json.load(f)
-    uni = {}
-    for etf, blk in h.items():
-        for it in blk["items"]:
-            e = uni.setdefault(it["symbol"], {"name": it["name"], "w": {}})
-            e["w"][etf] = it.get("weight", 0)
-    h.pop("WATCH", None)  # izleme listesi ETF bileşeni değil: ETF içi görünüme girmez, hisse tablosuna ve genişliğe girer
-    return h, uni
+    return {it["symbol"]: {"name": it["name"]} for it in h["items"]}
 
 
 def market_caps(symbols, closes, budget=240):
@@ -873,7 +867,7 @@ def build_changes(rows, ex, ref_date, pdate, prows, pchg):
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
-        holdings, uni = load_holdings()
+        uni = load_stock_list()
         etf_frames, miss_etf = download([t for t, _ in AI_ETFS], tries=2, max_seconds=90)
         stock_frames, miss = download(list(uni), batch=10, tries=2, max_seconds=180)
     except Exception as e:  # noqa: BLE001
@@ -916,8 +910,7 @@ def ai_block(ref_date, spy, qqq):
             new_hi = bool(cf.iloc[-1] > prev_hi and cf.iloc[-2] <= float(cf.iloc[-22:-2].max()))
         ex[t] = {"sma50": m["sma50"], "new_hi": new_hi, "prev_hi": r(prev_hi, 4) if prev_hi is not None else None}
         rows.append({
-            "symbol": t, "name": uni[t]["name"], "w": uni[t]["w"], "memory": "DRAM" in uni[t]["w"],
-            "watch": set(uni[t]["w"]) == {"WATCH"},
+            "symbol": t, "name": uni[t]["name"],
             "close": m["close"], "date": m["date"], "d1": m["d1"], "d5": m["d5"], "d20": m["d20"],
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
             "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
@@ -968,46 +961,14 @@ def ai_block(ref_date, spy, qqq):
         return r(100 * sum(1 for x in rs if x[k]) / den, 1) if den else None
 
     d20s = [x["d20"] for x in rows if x["d20"] is not None]
-    detail = {}
-    for etf, blk in holdings.items():
-        mem = [x for x in rows if etf in x["w"]]
-        tot = sum(i["weight"] for i in blk["items"])
-        wsum = sum(x["w"][etf] for x in mem)
-
-        def wavg(k):
-            v = [(x["w"][etf], x[k]) for x in mem if x[k] is not None]
-            return r(sum(w * y for w, y in v) / sum(w for w, _ in v)) if v else None
-
-        def wshare(k):
-            den = sum(x["w"][etf] for x in mem if x[k] is not None)
-            return r(100 * sum(x["w"][etf] for x in mem if x[k]) / den, 1) if den else None
-
-        e20 = [x["d20"] for x in mem if x["d20"] is not None]
-        own = next((e for e in etfs if e["symbol"] == etf and e["available"]), None)
-        eq20 = r(float(np.mean(e20))) if e20 else None
-        verdict = None
-        if own and own.get("d20") is not None and eq20 is not None:
-            diff = eq20 - own["d20"]
-            verdict = "GENİŞ" if diff >= 1 else "DAR" if diff <= -1 else "DENGELİ"
-        detail[etf] = {
-            "asof": blk["asof"], "source": blk["source"], "listed": len(blk["items"]), "covered": len(mem),
-            "covered_weight": r(100 * wsum / tot, 1) if tot else None,
-            "w_d1": wavg("d1"), "w_d5": wavg("d5"), "w_d20": wavg("d20"), "eq_d20": eq20, "verdict": verdict,
-            "above50_n": share(mem, "above50"), "above50_w": wshare("above50"),
-            "above100_n": share(mem, "above100"), "above100_w": wshare("above100"),
-            "above200_n": share(mem, "above200"), "above200_w": wshare("above200"),
-        }
-    memrows = [x for x in rows if x["memory"]]
-    m20 = [x["d20"] for x in memrows if x["d20"] is not None]
     out.update({
-        "available": True, "date": ref_date, "etfs": etfs, "detail": detail,
+        "available": True, "date": ref_date, "etfs": etfs,
         "count": n, "requested": len(uni), "missing": miss[:15],
         "breadth": {"above50": share(rows, "above50"), "above100": share(rows, "above100"),
                     "above200": share(rows, "above200"),
                     "positive_d20": r(100 * sum(1 for d in d20s if d > 0) / len(d20s), 1) if d20s else None,
                     "near_high": r(100 * sum(1 for x in rows if x["from_high"] is not None and x["from_high"] > -5) / n, 1)},
-        "memory": {"count": len(memrows), "avg_d20": r(float(np.mean(m20))) if m20 else None},
-        "stocks": sorted(rows, key=lambda x: (-max(x["w"].values()), x["symbol"])),
+        "stocks": sorted(rows, key=lambda x: x["symbol"]),
     })
     return out
 
@@ -1063,10 +1024,6 @@ def build_other_changes(cur, prev):
     for x in cai.get("etfs") or []:
         if x.get("available"):
             level("ai", x, pem.get(x.get("symbol")))
-    for k, x in (cai.get("detail") or {}).items():
-        p = (pai.get("detail") or {}).get(k)
-        if p and x.get("verdict") and p.get("verdict") and x["verdict"] != p["verdict"]:
-            items.append({"a": "ai", "n": k + " ETF içi yapı", "k": "verdict", "from": p["verdict"], "to": x["verdict"]})
     rg = {"RISK_ON": "Risk-on", "RISK_OFF": "Risk-off"}
     r0, r1 = (prev.get("regime") or {}).get("market_regime"), (cur.get("regime") or {}).get("market_regime")
     if r0 and r1 and r0 != r1:

@@ -1,0 +1,372 @@
+{
+ "items": [
+  {
+   "symbol": "005930.KS",
+   "name": "Samsung Electronics"
+  },
+  {
+   "symbol": "2344.TW",
+   "name": "Winbond Electronics"
+  },
+  {
+   "symbol": "2408.TW",
+   "name": "Nanya Technology"
+  },
+  {
+   "symbol": "285A.T",
+   "name": "Kioxia Holdings"
+  },
+  {
+   "symbol": "603986.SS",
+   "name": "GigaDevice Semiconductor"
+  },
+  {
+   "symbol": "688825.SS",
+   "name": "ChangXin Memory Technologies (CXMT)"
+  },
+  {
+   "symbol": "AAOI",
+   "name": "Applied Optoelectronics, Inc."
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices"
+  },
+  {
+   "symbol": "AEHR",
+   "name": "Aehr Test Systems, Inc."
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Material Inc"
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices"
+  },
+  {
+   "symbol": "AMKR",
+   "name": "Amkor Technology, Inc."
+  },
+  {
+   "symbol": "APLD",
+   "name": "Applied Digital Corporation"
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings American Deposita"
+  },
+  {
+   "symbol": "ASML",
+   "name": "Asml Holding Adr Representing"
+  },
+  {
+   "symbol": "ASX",
+   "name": "Ase Technology Holding Adr Rep"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom Inc"
+  },
+  {
+   "symbol": "AXTI",
+   "name": "AXT, Inc."
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy Corporation"
+  },
+  {
+   "symbol": "CBRS",
+   "name": "Cerebras Systems Inc Class A"
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems Inc"
+  },
+  {
+   "symbol": "CIEN",
+   "name": "Ciena Corporation"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica Inc."
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent Corp."
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group Holding"
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc."
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies Inc."
+  },
+  {
+   "symbol": "ENTG",
+   "name": "Entegris Inc"
+  },
+  {
+   "symbol": "EROC",
+   "name": "ERock, Inc."
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA, Inc."
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet"
+  },
+  {
+   "symbol": "FORM",
+   "name": "FormFactor, Inc."
+  },
+  {
+   "symbol": "FPS",
+   "name": "Forgent Power Solutions, Inc."
+  },
+  {
+   "symbol": "GFS",
+   "name": "GLOBALFOUNDRIES Inc."
+  },
+  {
+   "symbol": "GLW",
+   "name": "Corning Incorporated"
+  },
+  {
+   "symbol": "HPE",
+   "name": "Hewlett Packard Enterprise Company"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel Corporation"
+  },
+  {
+   "symbol": "IONQ",
+   "name": "IonQ, Inc."
+  },
+  {
+   "symbol": "KLAC",
+   "name": "Kla"
+  },
+  {
+   "symbol": "KLIC",
+   "name": "Kulicke and Soffa Industries, Inc."
+  },
+  {
+   "symbol": "LASR",
+   "name": "nLIGHT, Inc."
+  },
+  {
+   "symbol": "LEU",
+   "name": "Centrus Energy Corp."
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum Holdings Inc."
+  },
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research"
+  },
+  {
+   "symbol": "LSCC",
+   "name": "Lattice Semiconductor Corporation"
+  },
+  {
+   "symbol": "MCHP",
+   "name": "Microchip Technology Inc"
+  },
+  {
+   "symbol": "MKSI",
+   "name": "MKS Inc."
+  },
+  {
+   "symbol": "MOD",
+   "name": "Modine Manufacturing Company"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems Inc"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "Macom Technology Solutions"
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron Technology"
+  },
+  {
+   "symbol": "MXL",
+   "name": "MaxLinear, Inc."
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V."
+  },
+  {
+   "symbol": "NOK",
+   "name": "Nokia Oyj"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia"
+  },
+  {
+   "symbol": "NVMI",
+   "name": "Nova Ltd."
+  },
+  {
+   "symbol": "NVT",
+   "name": "nVent Electric plc"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "Nxp Semiconductors Nv"
+  },
+  {
+   "symbol": "ON",
+   "name": "On Semiconductor Corp"
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation Inc."
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle Corporation"
+  },
+  {
+   "symbol": "PENG",
+   "name": "Penguin Solutions, Inc."
+  },
+  {
+   "symbol": "QCOM",
+   "name": "Qualcomm"
+  },
+  {
+   "symbol": "SEDG",
+   "name": "SolarEdge Technologies, Inc."
+  },
+  {
+   "symbol": "SIMO",
+   "name": "Silicon Motion Technology Corporation"
+  },
+  {
+   "symbol": "SITM",
+   "name": "SiTime Corporation"
+  },
+  {
+   "symbol": "SKHY",
+   "name": "Sk Hynix American Depositary S"
+  },
+  {
+   "symbol": "SMTC",
+   "name": "Semtech Corporation"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys Inc"
+  },
+  {
+   "symbol": "SOLS",
+   "name": "Solstice Advanced Materials, Inc."
+  },
+  {
+   "symbol": "SPCX",
+   "name": "Space Exploration Technologies Corp."
+  },
+  {
+   "symbol": "STM",
+   "name": "Stmicroelectronics Adr"
+  },
+  {
+   "symbol": "STRL",
+   "name": "Sterling Infrastructure, Inc."
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology"
+  },
+  {
+   "symbol": "TER",
+   "name": "Teradyne"
+  },
+  {
+   "symbol": "TSEM",
+   "name": "Tower Semiconductor"
+  },
+  {
+   "symbol": "TSM",
+   "name": "Taiwan Semiconductor Manufactu"
+  },
+  {
+   "symbol": "TTMI",
+   "name": "TTM Technologies, Inc."
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instrument Inc"
+  },
+  {
+   "symbol": "UMC",
+   "name": "United Micro Electronics Adr R"
+  },
+  {
+   "symbol": "VECO",
+   "name": "Veeco Instruments Inc."
+  },
+  {
+   "symbol": "VELO",
+   "name": "Velo3D, Inc."
+  },
+  {
+   "symbol": "VIAV",
+   "name": "Viavi Solutions Inc."
+  },
+  {
+   "symbol": "VICR",
+   "name": "Vicor Corporation"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv Holdings Co"
+  },
+  {
+   "symbol": "WDC",
+   "name": "Western Digital"
+  },
+  {
+   "symbol": "WLDN",
+   "name": "Willdan Group, Inc."
+  },
+  {
+   "symbol": "WOLF",
+   "name": "Wolfspeed, Inc."
+  },
+  {
+   "symbol": "WULF",
+   "name": "TeraWulf Inc."
+  }
+ ]
+}

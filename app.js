@@ -156,21 +156,6 @@
     if (!a || !a.stocks) return h2("AI hisseleri") + sub("Bu bölüm bu güncellemede hesaplanamadı.");
     return h2("AI hisseleri (" + a.stocks.length + ")") + aiTable(a);
   }
-  function aiDetail(a) {
-    var names = { SOXX: "SOXX · iShares", SMH: "SMH · VanEck", DRAM: "DRAM · Roundhill" };
-    var rows = ["SOXX", "SMH", "DRAM"].map(function (k) {
-      var d = a.detail && a.detail[k]; if (!d) return "";
-      var own = (a.etfs || []).filter(function (m) { return m.symbol === k && m.available; })[0], od = own ? own.d20 : null;
-      var diff = od === null || od === undefined || d.eq_d20 === null || d.eq_d20 === undefined ? null : d.eq_d20 - od;
-      var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
-      var vt = d.verdict === "GENİŞ" ? "GENİŞ · küçükler de yükseliyor" : d.verdict === "DAR" ? "DAR · büyükler taşıyor" : (d.verdict || "–");
-      return '<tr><td><b>' + names[k] + '</b><small>bileşen listesi: ' + fmtDate(d.asof) + '</small></td>' +
-        '<td class="' + cls(od) + '">' + pc(od) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td><td class="' + cls(diff) + '">' + pt(diff, 2) + '</td><td class="' + vc + '"><b>' + vt + '</b></td>' +
-        '<td>%' + num(d.above50_n, 0) + '<small>ağırlığa göre %' + num(d.above50_w, 0) + '</small></td><td>%' + num(d.above200_n, 0) + '<small>ağırlığa göre %' + num(d.above200_w, 0) + '</small></td></tr>';
-    }).join("");
-    return h3q("2 · ETF'i büyük hisseler mi taşıyor, herkes mi?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>ETF\'in kendi 20G getirisi</th><th>Bileşenlerin eşit ağırlıklı 20G getirisi</th><th>Fark</th><th>Okuma</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      '<p class="fine">ETF büyük hisselerin ağırlığıyla hareket eder. Bileşenlerin eşit ağırlıklı ortalaması ETF\'in kendi getirisinden 1 puan veya daha fazla iyiyse GENİŞ (küçük hisseler de yükseliyor), 1 puan veya daha fazla kötüyse DAR (büyük hisseler taşıyor), arası DENGELİ. SMA sütunlarında büyük sayı hisselerin yüzde kaçının ortalamanın üstünde olduğunu, küçük yazı aynısını ETF ağırlığına göre gösterir; ikisi çok ayrışıyorsa büyük hisseler farklı yönde gidiyor demektir.</p>';
-  }
   function h3q(t) { return '<h3 class="qh">' + t + '</h3>'; }
   function tierRow(name, list) {
     var n = list.length; if (!n) return "";
@@ -180,11 +165,11 @@
     return '<tr><td><b>' + name + '</b><small>' + n + ' hisse</small></td><td>' + pct(function (s) { return s.above50; }) + '</td><td>' + pct(function (s) { return s.above200; }) + '</td><td>' + pct(function (s) { return s.d20 > 0; }) + '</td><td class="' + cls(med) + '">' + pc(med) + '</td><td>' + pct(function (s) { return s.from_high !== null && s.from_high !== undefined && s.from_high >= -5; }) + '</td></tr>';
   }
   function aiTiers(a) {
-    var st = a.stocks || [], big = st.filter(function (s) { return s.mcap >= 1e11; }), small = st.filter(function (s) { return s.mcap !== null && s.mcap !== undefined && s.mcap < 1e11; }), mem = st.filter(function (s) { return s.memory; });
+    var st = a.stocks || [], big = st.filter(function (s) { return s.mcap >= 1e11; }), small = st.filter(function (s) { return s.mcap !== null && s.mcap !== undefined && s.mcap < 1e11; });
     var unk = st.length - big.length - small.length;
-    return h3q("3 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
-      tierRow("Tüm liste", st) + tierRow("100 Mr$ ve üstü", big) + tierRow("100 Mr$ altı", small) + tierRow("Bellek hisseleri", mem) + '</tbody></table></div>' +
-      '<p class="fine">Her satırda grubun hisselerinin yüzde kaçı koşulu sağlıyor; ortanca getiri grubun ortadaki hissesinin 20 günlük getirisidir. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir. Bellek hisseleri DRAM ETF\'inin bileşenleridir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
+    return h3q("2 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
+      tierRow("Tüm liste", st) + tierRow("100 Mr$ ve üstü", big) + tierRow("100 Mr$ altı", small) + '</tbody></table></div>' +
+      '<p class="fine">Her satırda grubun hisselerinin yüzde kaçı koşulu sağlıyor; ortanca getiri grubun ortadaki hissesinin 20 günlük getirisidir. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
   }
 
   var SECTR = { XLK: "teknoloji", XLF: "finans", XLE: "enerji", XLV: "sağlık", XLI: "sanayi", XLB: "hammadde", XLY: "isteğe bağlı tüketim", XLP: "temel tüketim", XLU: "elektrik ve su hizmetleri", XLRE: "gayrimenkul", XLC: "iletişim ve medya" };
@@ -286,13 +271,11 @@
         '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
     var ca = (a.changes && a.changes.items) || [], cs = chgFor("ai"), out = chgBox(ca.concat(cs), (a.changes && a.changes.since) || (DATA.changes && DATA.changes.since), "AI hisseleri ve ETF'leri") + h2("Yapay zeka ve yarı iletken") +
-      sub("Üç soru: ETF'ler nasıl gidiyor, ETF'i büyük hisseler mi taşıyor, listendeki hisseler büyüklüğe göre farklı mı davranıyor? Hepsi bugünkü durumu anlatır, yön tahmin etmez.") +
+      sub("İki soru: ETF'ler nasıl gidiyor, listendeki hisseler büyüklüğe göre farklı mı davranıyor? Hepsi bugünkü durumu anlatır, yön tahmin etmez.") +
       h3q("1 · ETF'ler nasıl gidiyor?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>' +
       '<p class="fine">"SPY\'a göre 20G": ETF son 20 günde SPY\'dan kaç puan fazla (+) ya da az (−) getiri sağladı. QQQ için de aynı. SMA sütunları fiyatın o ortalamanın üstünde mi altında mı olduğunu ve ne kadar uzakta olduğunu gösterir.</p>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
-    out += aiDetail(a) + aiTiers(a);
-    var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });
-    if (old) out += '<p class="fine"><span class="rsk">ETF bileşen listesi 45 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
+    out += aiTiers(a);
     return out;
   }
 
