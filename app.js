@@ -66,7 +66,7 @@
     var st = "";
     if (ok) {
       if (rg.days_in_state !== null && rg.days_in_state !== undefined) st += '<div><small>Süre</small><b>' + rg.days_in_state + ' gün</b></div>';
-      if (c.vix !== null && c.vix !== undefined) st += '<div><small>VIX</small><b>' + num(c.vix, 1) + '</b></div>';
+      if (c.vix !== null && c.vix !== undefined) st += '<div><small>VIX · korku endeksi</small><b>' + num(c.vix, 1) + '</b></div>';
       if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) st += '<div><small>Breadth</small><b>%' + num(c.breadth_pct200, 0) + '</b><div class="rgbar"><i style="width:' + Math.max(0, Math.min(100, c.breadth_pct200)) + '%"></i></div></div>';
     }
     var head = '<div class="rgc"><span class="rgp ' + lab[1] + '">' + esc(lab[0]) + '</span><div class="rgm"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span>' + (ok ? '<span class="rgs">SMA 200\'ün ' + (rg.distance_pct >= 0 ? "üzerinde" : "altında") + '</span>' : "") + '</div>' + (st ? '<div class="rgst">' + st + '</div>' : "") + '</div>';
@@ -80,7 +80,7 @@
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
       var k = x[0], m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + (k === "VIX" ? " · korku endeksi" : "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
     return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
