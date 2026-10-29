@@ -141,6 +141,10 @@
    "name": "FTAI Aviation Ltd."
   },
   {
+   "symbol": "GEV",
+   "name": "GE Vernova Inc."
+  },
+  {
    "symbol": "GFS",
    "name": "GLOBALFOUNDRIES Inc."
   },
@@ -151,6 +155,10 @@
   {
    "symbol": "HPE",
    "name": "Hewlett Packard Enterprise Company"
+  },
+  {
+   "symbol": "IFNNY",
+   "name": "Infineon Technologies AG (ADR)"
   },
   {
    "symbol": "INTC",
@@ -267,6 +275,10 @@
   {
    "symbol": "SEDG",
    "name": "SolarEdge Technologies, Inc."
+  },
+  {
+   "symbol": "SEI",
+   "name": "Solaris Energy Infrastructure, Inc."
   },
   {
    "symbol": "SIMO",
