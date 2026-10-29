@@ -32,8 +32,9 @@
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--fg); font: 400 14px/1.55 var(--font); padding-inline: 20px; padding-block: 0 80px; font-variant-numeric: tabular-nums; }
 .wrap { max-width: 980px; margin-inline: auto; }
-.meta { color: var(--mute); font-size: 11px; letter-spacing: .02em; display: flex; justify-content: center; gap: 2px 14px; flex-wrap: wrap; margin-top: 40px; padding-top: 16px; padding-bottom: 8px; border-top: 1px solid var(--line); opacity: .8; font-variant-numeric: tabular-nums; }
-.meta b { font-weight: 400; }
+.meta { color: var(--mute); font-size: 11px; display: flex; flex-direction: column; align-items: flex-end; gap: 3px; margin-top: 48px; padding-bottom: 8px; font-variant-numeric: tabular-nums; text-align: right; }
+.meta i { font-style: normal; text-transform: uppercase; letter-spacing: .08em; font-size: 9.5px; margin-right: 8px; }
+.meta b { font-weight: 500; color: var(--fg); opacity: .85; }
 .meta { display: none; } body.tg .meta { display: flex; }
 nav { display: flex; gap: 6px; position: sticky; top: 0; z-index: 5; margin-inline: -20px; padding: calc(14px + env(safe-area-inset-top, 0px)) 20px 12px; overflow-x: auto; scrollbar-width: none; background: color-mix(in srgb, var(--bg) 88%, transparent); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 nav::-webkit-scrollbar { display: none; }
@@ -58,17 +59,6 @@ th:last-child, td:last-child { padding-right: 0; }
 td small { display: block; color: var(--mute); font-size: 11px; }
 td b { font-weight: 500; }
 th.s { cursor: pointer; } th.s:hover { color: var(--fg); } th.s:focus-visible { outline: 1px solid var(--fg); outline-offset: 2px; }
-details.srcbox { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 14px; }
-details.srcbox summary { cursor: pointer; color: var(--mute); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
-.part { margin: 14px 0 22px; }
-.partk { color: var(--mute); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-.badge { font-size: 10px; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; color: var(--warn); letter-spacing: .06em; }
-.partv { font-size: 40px; font-weight: 500; letter-spacing: -.02em; line-height: 1.2; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.partd { font-size: 13px; color: var(--mute); font-weight: 400; letter-spacing: 0; }
-.partsvg { width: 100%; height: 110px; display: block; margin-top: 8px; }
-.partline { fill: none; stroke: var(--up); stroke-width: 2; }
-.partarea { fill: var(--up); opacity: .12; stroke: none; }
-.partax { display: flex; justify-content: space-between; color: var(--mute); font-size: 11px; margin-top: 2px; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 28px 24px; margin: 14px 0 6px; }
 .stat .k { color: var(--mute); font-size: 12px; }
 .stat .v { font-size: 26px; font-weight: 500; letter-spacing: -.02em; line-height: 1.25; }
@@ -84,15 +74,11 @@ details.srcbox summary { cursor: pointer; color: var(--mute); font-size: 12px; l
 .rgst small { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--mute); }
 .rgst b { font-size: 18px; font-weight: 500; font-variant-numeric: tabular-nums; }
 .rgbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: 6px; overflow: hidden; } .rgbar i { display: block; height: 100%; background: var(--up); }
-.note { display: grid; grid-template-columns: 150px 1fr; gap: 14px; padding-block: 11px; border-bottom: 1px solid var(--line); }
-.note b { font-weight: 500; }
 .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 8px; background: var(--mute); vertical-align: 1px; }
-.dot.ok { display: none; } .dot.warn { background: var(--warn); } .dot.bad { background: var(--down); }
+.dot.warn { background: var(--warn); }
 .fine { color: var(--mute); font-size: 12px; margin: 12px 0 0; max-width: 78ch; }
-ul.src { list-style: none; padding: 0; margin: 0; } ul.src li { padding-block: 9px; border-bottom: 1px solid var(--line); color: var(--mute); } ul.src b { color: var(--fg); font-weight: 500; }
 .banner { border: 1px solid var(--warn); color: var(--warn); padding: 12px 16px; margin-top: 18px; font-size: 13px; }
 .err { border: 1px solid var(--down); color: var(--down); padding: 16px; margin-top: 24px; }
-.two { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
 .px { display: inline-block; margin-left: 6px; padding: 1px 9px; border-radius: 999px; font-size: 12px; font-weight: 500; line-height: 1.5; white-space: nowrap; letter-spacing: .01em; vertical-align: 1px; }
 .px.up { color: var(--pxu); background: var(--pxu-bg); } .px.up::before { content: "▲ "; font-size: 9px; vertical-align: 1px; }
 .px.dn { color: var(--pxd); background: var(--pxd-bg); } .px.dn::before { content: "▼ "; font-size: 9px; vertical-align: 1px; }
@@ -127,7 +113,6 @@ details.chg[open] .car { transform: rotate(90deg); }
 .cf .to { font-weight: 600; color: var(--fg); } .cf .to.pos { color: var(--up); } .cf .to.neg { color: var(--down); }
 .cm { font-size: 11.5px; color: var(--mute); text-align: right; white-space: nowrap; }
 @media (max-width: 480px) { .csum { display: none; } .cr { grid-template-columns: 76px 1fr; } .cr.w { grid-template-columns: 1fr; } .cm { display: none; } }
-.px.inv.up { color: var(--pxd); background: var(--pxd-bg); } .px.inv.dn { color: var(--pxu); background: var(--pxu-bg); }
 .dd { position: relative; }
 .ddb { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; display: flex; gap: 12px; align-items: center; cursor: pointer; }
 .ddb::after { content: ""; width: 6px; height: 6px; border-right: 1.5px solid var(--mute); border-bottom: 1.5px solid var(--mute); transform: rotate(45deg) translateY(-2px); transition: transform .15s; }
@@ -154,8 +139,6 @@ details.chg[open] .car { transform: rotate(90deg); }
   .sortbar { display: flex; gap: 8px; align-items: center; margin: 0 0 6px; color: var(--mute); font-size: 12px; }
   }
 @media (max-width: 720px) {
-  .two { grid-template-columns: 1fr; gap: 0; }
-  .note { grid-template-columns: 1fr; gap: 2px; }
   .rgm .big { font-size: 48px; }
 }
 </style>
@@ -171,7 +154,7 @@ details.chg[open] .car { transform: rotate(90deg); }
   </nav>
   <div id="banner"></div>
   <main id="app"></main>
-  <footer class="meta"><span>Kapanış <b id="refDate">–</b></span><span>Güncelleme <b id="gen">–</b></span></footer>
+  <footer class="meta"><span><i>Kapanış</i><b id="refDate">–</b></span><span><i>Güncelleme</i><b id="gen">–</b></span></footer>
 </div>
 <script src="app.js"></script>
 </body>
