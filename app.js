@@ -69,23 +69,10 @@
       if (c.vix !== null && c.vix !== undefined) st += '<div><small>VIX</small><b>' + num(c.vix, 1) + '</b></div>';
       if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) st += '<div><small>Breadth</small><b>%' + num(c.breadth_pct200, 0) + '</b><div class="rgbar"><i style="width:' + Math.max(0, Math.min(100, c.breadth_pct200)) + '%"></i></div></div>';
     }
-    var out = '<div class="rgc"><span class="rgp ' + lab[1] + '">' + esc(lab[0]) + '</span><div class="rgm"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span>' + (ok ? '<span class="rgs">SMA 200\'ün ' + (rg.distance_pct >= 0 ? "üzerinde" : "altında") + '</span>' : "") + '</div>' + (st ? '<div class="rgst">' + st + '</div>' : "") + '</div>';
-    var head = out; out = "";
-    if (ok) {
-      out += '<p class="fine">S&amp;P 500 ' + num(rg.close, 2) + ', 200 günlük ortalama ' + num(rg.sma200, 2) + '. ' +
-        (rg.state_since ? fmtDate(rg.state_since) + ' tarihinden beri, ' + rg.days_in_state + ' işlem günüdür bu durumda.' : "Durumun başlangıcı mevcut geçmişte yok.") + '</p>' +
-        '<p class="fine">Kural: iki kapanış üst üste ortalamanın %1,5 altında (' + num(rg.lower_band, 2) + ' ve altı) ise RİSK-OFF, %1,5 üzerinde (' + num(rg.upper_band, 2) + ' ve üstü) ise RİSK-ON. Arada önceki durum korunur.</p>';
-      if (rg.recent_flips && rg.recent_flips.length) out += '<p class="fine">Son geçişler: ' + rg.recent_flips.map(function (f) { return fmtDate(f.date) + " " + (f.to === "RISK_ON" ? "RİSK-ON" : "RİSK-OFF"); }).join(" · ") + '.</p>';
-      var info = [];
-      if (c.vix !== null && c.vix !== undefined) info.push("VIX " + num(c.vix, 2) + ", son 252 gözlemde yüzdelik dilim %" + num(c.vix_percentile, 0));
-      if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) info.push("bileşenlerin %" + num(c.breadth_pct200, 1) + " kadarı 200G ortalamanın üzerinde (" + c.breadth_valid + "/" + c.breadth_total + ")");
-      if (info.length) out += '<p class="fine">Bilgi, puana dahil değil: ' + esc(info.join(" · ")) + '.</p>';
-    }
+    var head = '<div class="rgc"><span class="rgp ' + lab[1] + '">' + esc(lab[0]) + '</span><div class="rgm"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span>' + (ok ? '<span class="rgs">SMA 200\'ün ' + (rg.distance_pct >= 0 ? "üzerinde" : "altında") + '</span>' : "") + '</div>' + (st ? '<div class="rgst">' + st + '</div>' : "") + '</div>';
     if (miss.length) head += '<p class="fine"><span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + '.</span></p>';
-    REG_BOX = '<details class="srcbox"><summary>Rejim kuralı ve geçmiş testi</summary>' + out + '</details>';
     return head;
   }
-  var REG_BOX = "";
 
   function levels(d) {
     var rows = [], ref = d.meta.ref_date;
@@ -233,16 +220,6 @@
     return out;
   }
 
-  function sourcesBox(d) {
-    var m = d.meta || {}, q = m.quality || {};
-    var items = (m.sources || []).map(function (x) { return '<li><b>' + esc(x.name) + '</b> ' + (x.official ? '<span class="pos">resmi</span>' : '<span class="rsk">resmi değil</span>') + ' · ' + esc(x.use) + '</li>'; }).join("");
-    var px = (d.meta.proxy_checks || []).filter(function (p) { return p.status === "ok"; }).map(function (p) { return esc(p.id) + " ile " + esc(p.etf) + " günlük getiri farkı " + num(p.diff, 2) + " puan"; });
-    return '<details class="srcbox"><summary>Veri kaynakları ve doğrulama · kalite ' + esc(q.level || "–") + '</summary>' +
-      ((q.reasons || []).length ? '<p class="fine">Kalite notları: ' + esc(q.reasons.join("; ")) + '.</p>' : "") +
-      (px.length ? '<p class="fine">Çapraz kontrol: ' + px.join("; ") + '.</p>' : "") +
-      '<ul class="src">' + items + '</ul><p class="fine">Veriler bilgi amaçlıdır, yatırım tavsiyesi değildir.</p></details>';
-  }
-
   var DATA = null;
   function clean(o) {
     if (typeof o === "string") return o.replace(/'/g, "\u2019").replace(/[<>"`]/g, "");
@@ -251,7 +228,7 @@
     return o;
   }
   function tabs(d) {
-    return '<section class="tab" id="t-genel">' + regime(d.regime) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + levels(d) + sourcesBox(d) + REG_BOX + '</section>' +
+    return '<section class="tab" id="t-genel">' + regime(d.regime) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + levels(d) + '</section>' +
       '<section class="tab" id="t-genislik">' + chgBox(chgFor("genislik"), d.changes && d.changes.since, "S&P 500 genişliği") + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + chgBox(chgFor("sektor"), d.changes && d.changes.since, "sektör ETF'leri") + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
