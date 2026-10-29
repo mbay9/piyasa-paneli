@@ -6,6 +6,9 @@ on:
     - cron: "20 7 * * 1-5"
     # BTC 7/24 işlem görür, günlük kapanış UTC 00:00. 00:10 UTC'de biten günün kapanışı yazılır (ABD işlem günlerine denk gelen Sal-Cum arası).
     - cron: "10 0 * * 2-6"
+  push:
+    branches: [main]
+    paths: [ozet.json]
   workflow_dispatch:
     inputs:
       only:
@@ -37,6 +40,7 @@ jobs:
         run: |
           mkdir site
           cp index.html app.js site/
+          [ -f ozet.json ] && cp ozet.json site/ || true
           sed -i "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_RUN_ID}\"|" site/index.html
           grep -q "app.js?v=" site/index.html
       - name: Hangi gösterge yenilenecek

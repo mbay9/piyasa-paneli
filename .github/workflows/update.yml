@@ -43,6 +43,7 @@ jobs:
       - run: |
           mkdir site
           cp index.html app.js data.json site/
+          [ -f ozet.json ] && cp ozet.json site/ || true
           # tarayıcı önbelleği eski app.js'i tutmasın diye her yayında sürüm eki
           sed -i "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_RUN_ID}\"|" site/index.html
           grep -q "app.js?v=" site/index.html
