@@ -164,12 +164,11 @@
       var diff = od === null || od === undefined || d.eq_d20 === null || d.eq_d20 === undefined ? null : d.eq_d20 - od;
       var vc = d.verdict === "GENİŞ" ? "pos" : d.verdict === "DAR" ? "rsk" : "neu";
       var vt = d.verdict === "GENİŞ" ? "GENİŞ · küçükler de yükseliyor" : d.verdict === "DAR" ? "DAR · büyükler taşıyor" : (d.verdict || "–");
-      var top = d.top.map(function (t) { return esc(tk(t.symbol)); }).join(" · ");
       return '<tr><td><b>' + names[k] + '</b><small>bileşen listesi: ' + fmtDate(d.asof) + '</small></td>' +
         '<td class="' + cls(od) + '">' + pc(od) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td><td class="' + cls(diff) + '">' + pt(diff, 2) + '</td><td class="' + vc + '"><b>' + vt + '</b></td>' +
-        '<td>%' + num(d.above50_n, 0) + '<small>ağırlığa göre %' + num(d.above50_w, 0) + '</small></td><td>%' + num(d.above200_n, 0) + '<small>ağırlığa göre %' + num(d.above200_w, 0) + '</small></td><td class="mute">' + top + '</td></tr>';
+        '<td>%' + num(d.above50_n, 0) + '<small>ağırlığa göre %' + num(d.above50_w, 0) + '</small></td><td>%' + num(d.above200_n, 0) + '<small>ağırlığa göre %' + num(d.above200_w, 0) + '</small></td></tr>';
     }).join("");
-    return h3q("2 · ETF'i büyük hisseler mi taşıyor, herkes mi?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>ETF\'in kendi 20G getirisi</th><th>Bileşenlerin eşit ağırlıklı 20G getirisi</th><th>Fark</th><th>Okuma</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
+    return h3q("2 · ETF'i büyük hisseler mi taşıyor, herkes mi?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>ETF\'in kendi 20G getirisi</th><th>Bileşenlerin eşit ağırlıklı 20G getirisi</th><th>Fark</th><th>Okuma</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
       '<p class="fine">ETF büyük hisselerin ağırlığıyla hareket eder. Bileşenlerin eşit ağırlıklı ortalaması ETF\'in kendi getirisinden 1 puan veya daha fazla iyiyse GENİŞ (küçük hisseler de yükseliyor), 1 puan veya daha fazla kötüyse DAR (büyük hisseler taşıyor), arası DENGELİ. SMA sütunlarında büyük sayı hisselerin yüzde kaçının ortalamanın üstünde olduğunu, küçük yazı aynısını ETF ağırlığına göre gösterir; ikisi çok ayrışıyorsa büyük hisseler farklı yönde gidiyor demektir.</p>';
   }
   function h3q(t) { return '<h3 class="qh">' + t + '</h3>'; }

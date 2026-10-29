@@ -996,8 +996,6 @@ def ai_block(ref_date, spy, qqq):
             "above50_n": share(mem, "above50"), "above50_w": wshare("above50"),
             "above100_n": share(mem, "above100"), "above100_w": wshare("above100"),
             "above200_n": share(mem, "above200"), "above200_w": wshare("above200"),
-            "top": [{"symbol": x["symbol"], "weight": x["w"][etf], "d1": x["d1"], "d20": x["d20"]}
-                    for x in sorted(mem, key=lambda z: -z["w"][etf])[:5]],
         }
     memrows = [x for x in rows if x["memory"]]
     m20 = [x["d20"] for x in memrows if x["d20"] is not None]
