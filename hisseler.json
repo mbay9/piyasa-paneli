@@ -53,6 +53,10 @@
    "name": "Amkor Technology, Inc."
   },
   {
+   "symbol": "ANET",
+   "name": "Arista Networks, Inc."
+  },
+  {
    "symbol": "APLD",
    "name": "Applied Digital Corporation"
   },
@@ -109,8 +113,16 @@
    "name": "CoreWeave, Inc."
   },
   {
+   "symbol": "CSCO",
+   "name": "Cisco Systems, Inc."
+  },
+  {
    "symbol": "DELL",
    "name": "Dell Technologies Inc."
+  },
+  {
+   "symbol": "ENPH",
+   "name": "Enphase Energy, Inc."
   },
   {
    "symbol": "ENTG",
@@ -167,6 +179,10 @@
   {
    "symbol": "IONQ",
    "name": "IonQ, Inc."
+  },
+  {
+   "symbol": "JBL",
+   "name": "Jabil Inc."
   },
   {
    "symbol": "KLAC",
