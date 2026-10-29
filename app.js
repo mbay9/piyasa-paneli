@@ -77,14 +77,12 @@
   function levels(d) {
     var rows = [], ref = d.meta.ref_date;
     Object.keys(d.indexes).forEach(function (k) { rows.push([k, d.indexes[k]]); });
-    ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
-    function hv(x) { return x[1].vol_vs20 != null; }
-    rows = rows.filter(hv).concat(rows.filter(function (x) { return !hv(x); }));  // hacmi olanlar üstte
+    ["QQQ", "RSP", "QQQE"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
     var body = rows.map(function (x) {
       var k = x[0], m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
-    return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + body + '</tbody></table></div>';
+    return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 200</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   function breadth(b) {
@@ -115,26 +113,26 @@
   var SEC_SORT = { k: "rel20", dir: -1 };
   function sectors(rows) {
     if (!rows || !rows.length) return "";
-    var cols = [["symbol", "Sektör"], ["status", "Durum"], ["rel20", "SPY'a göre 20G"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["from_high", "Zirveye uzaklık"], ["trend", "Trend"], ["dist50", "SMA 50"], ["dist200", "SMA 200"]];
+    var cols = [["symbol", "Sektör"], ["status", "Durum"], ["rel20", "SPY'a göre 20G"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["from_high", "Zirveye uzaklık"], ["trend", "Trend"], ["dist200", "SMA 200"]];
     var sorted = rows.slice().sort(function (x, y) {
       var k = SEC_SORT.k, u = x[k], v = y[k];
       if (u === null || u === undefined) return 1; if (v === null || v === undefined) return -1;
       if (typeof u === "string") return u.localeCompare(v, "tr") * SEC_SORT.dir;
       return (u - v) * SEC_SORT.dir;
     });
-    var head = cols.map(function (c) { return '<th class="s' + (c[0] === "d5" || c[0] === "dist100" || c[0] === "vol_vs20" ? " hm" : "") + '" data-t="sec" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
+    var head = cols.map(function (c) { return '<th class="s' + (c[0] === "d5" ? " hm" : "") + '" data-t="sec" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
     var body = sorted.map(function (s) {
       var sc = { "Lider": "pos", "Toparlanıyor": "neu", "Zayıflıyor": "rsk", "Geride": "neg" }[s.status] || "";
       var tc = s.trend === "Yükseliş" ? "pos" : s.trend === "Düşüş" ? "neg" : "rsk";
       return '<tr><td><b>' + s.symbol + '</b> <span class="mute">' + esc(s.name) + '</span></td><td class="' + sc + '">' + esc(s.status) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 2) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td>' +
-        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td>' + ma(s.above200, s.dist200) + '</td></tr>';
+        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above200, s.dist200) + '</td></tr>';
     }).join("");
     return h2("Sektör liderliği") + '<div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
   var AI_SORT = { k: "mcap", dir: -1 };
   function aiTable(a) {
-    var ref = DATA.meta.ref_date, hmk = { d5: 1, vol5_vs20: 1 };
+    var ref = DATA.meta.ref_date, hmk = { d5: 1 };
     var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"]];
     var rows = a.stocks.slice().sort(function (x, y) {
       var k = AI_SORT.k, u = x[k], v = y[k];
@@ -149,7 +147,7 @@
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
       return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + fb(s) + eb(s) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td></tr>';
     }).join("");
-    var noMob = { symbol: 1, above50: 1, above100: 1, above200: 1, vol5_vs20: 1, vol_trend: 1 };
+    var noMob = { symbol: 1, above50: 1, above200: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
     var opts = mc.map(function (c) { return '<li role="option" tabindex="0" data-k="' + c[0] + '" aria-selected="' + (AI_SORT.k === c[0]) + '">' + c[1] + '</li>'; }).join("");
     return '<div class="sortbar"><span>Sırala</span><div class="dd"><button type="button" class="ddb" id="aisort" aria-haspopup="listbox" aria-expanded="false">' + esc(curLabel) + '</button><ul class="ddl" role="listbox" hidden>' + opts + '</ul></div></div><div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
@@ -180,14 +178,14 @@
     function pct(f) { return "%" + num(100 * list.filter(f).length / n, 0); }
     var d = list.map(function (s) { return s.d20; }).filter(function (v) { return v !== null && v !== undefined; }).sort(function (x, y) { return x - y; });
     var med = d.length ? (d.length % 2 ? d[(d.length - 1) / 2] : (d[d.length / 2 - 1] + d[d.length / 2]) / 2) : null;
-    return '<tr><td><b>' + name + '</b><small>' + n + ' hisse</small></td><td>' + pct(function (s) { return s.above50; }) + '</td><td>' + pct(function (s) { return s.above200; }) + '</td><td>' + pct(function (s) { return s.d20 > 0; }) + '</td><td class="' + cls(med) + '">' + pc(med) + '</td><td>' + pct(function (s) { return s.from_high !== null && s.from_high !== undefined && s.from_high >= -5; }) + '</td></tr>';
+    return '<tr><td><b>' + name + '</b><small>' + n + ' hisse</small></td><td>' + pct(function (s) { return s.above50; }) + '</td><td>' + pct(function (s) { return s.above200; }) + '</td><td class="' + cls(med) + '">' + pc(med) + '</td></tr>';
   }
   function aiTiers(a) {
     var st = a.stocks || [], big = st.filter(function (s) { return s.mcap >= 1e11; }), small = st.filter(function (s) { return s.mcap !== null && s.mcap !== undefined && s.mcap < 1e11; }), mem = st.filter(function (s) { return s.memory; });
     var unk = st.length - big.length - small.length;
-    return h3q("3 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
+    return h3q("3 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20G ortanca getiri</th></tr></thead><tbody>' +
       tierRow("Tüm liste", st) + tierRow("100 Mr$ ve üstü", big) + tierRow("100 Mr$ altı", small) + tierRow("Bellek hisseleri", mem) + '</tbody></table></div>' +
-      '<p class="fine">Her satırda grubun hisselerinin yüzde kaçı koşulu sağlıyor. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir. Bellek hisseleri DRAM ETF\'inin bileşenleridir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
+      '<p class="fine">İlk iki sütun grubun hisselerinin yüzde kaçının ortalamanın üstünde olduğunu, ortanca getiri grubun ortadaki hissesinin 20 günlük getirisini gösterir. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir. Bellek hisseleri DRAM ETF\'inin bileşenleridir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
   }
 
   var SECTR = { XLK: "teknoloji", XLF: "finans", XLE: "enerji", XLV: "sağlık", XLI: "sanayi", XLB: "hammadde", XLY: "isteğe bağlı tüketim", XLP: "temel tüketim", XLU: "elektrik ve su hizmetleri", XLRE: "gayrimenkul", XLC: "iletişim ve medya" };
@@ -284,14 +282,14 @@
   function ai(a) {
     if (!a || !a.etfs) return h2("Yapay zeka") + sub("Bu bölüm bu güncellemede hesaplanamadı. Bir sonraki çalışmada yeniden denenir.");
     var e = a.etfs.map(function (m) {
-      if (!m.available) return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td colspan="10" class="neu">Veri alınamadı</td></tr>';
-      return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + cls(m.d60) + '">' + pc(m.d60) + '</td>' +
-        '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      if (!m.available) return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td colspan="6" class="neu">Veri alınamadı</td></tr>';
+      return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td class="' + cls(m.d1) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td>' +
+        '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
     var ca = (a.changes && a.changes.items) || [], cs = chgFor("ai"), out = chgBox(ca.concat(cs), (a.changes && a.changes.since) || (DATA.changes && DATA.changes.since), "AI hisseleri ve ETF'leri") + h2("Yapay zeka ve yarı iletken") +
       sub("Üç soru: ETF'ler nasıl gidiyor, ETF'i büyük hisseler mi taşıyor, listendeki hisseler büyüklüğe göre farklı mı davranıyor? Hepsi bugünkü durumu anlatır, yön tahmin etmez.") +
-      h3q("1 · ETF'ler nasıl gidiyor?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>' +
-      '<p class="fine">"SPY\'a göre 20G": ETF son 20 günde SPY\'dan kaç puan fazla (+) ya da az (−) getiri sağladı. QQQ için de aynı. SMA sütunları fiyatın o ortalamanın üstünde mi altında mı olduğunu ve ne kadar uzakta olduğunu gösterir.</p>';
+      h3q("1 · ETF'ler nasıl gidiyor?") + '<div class="tw"><table><thead><tr><th>ETF</th><th>1G</th><th>5G</th><th>20G</th><th>SPY\'a göre 20G</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>' +
+      '<p class="fine">"SPY\'a göre 20G": ETF son 20 günde SPY\'dan kaç puan fazla (+) ya da az (−) getiri sağladı. SMA sütunları fiyatın o ortalamanın üstünde mi altında mı olduğunu ve ne kadar uzakta olduğunu gösterir.</p>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
     out += aiDetail(a) + aiTiers(a);
     var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });

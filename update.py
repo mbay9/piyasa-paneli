@@ -7,7 +7,6 @@ Kaynaklar
   - Fiyat/hacim: Yahoo Finance halka açık grafik verisi (yfinance) - resmi borsa verisi DEĞİL.
     Bu yüzden VIX kapanışı Cboe'nin resmi dosyasıyla, S&P 500 ve Nasdaq Composite ise SPY ve QQQ ile çapraz doğrulanır.
   - S&P 500 hisse listesi: iShares IVV resmi holdings CSV (yedek: datasets/s-and-p-500-companies)
-  - Getiri eğrisi: U.S. Treasury günlük par getiri eğrisi (resmi kaynağın kendisi)
 
 Koruma kuralları (veri uydurmak yerine çalışmayı durdurur, eski sayfa yerinde kalır)
   - Piyasa kapanışından önce (New York 16:30) alınan günlük veri reddedilir
@@ -55,7 +54,6 @@ ETFS = [
     ("IWM", "iShares Russell 2000 ETF"),
     ("RSP", "Invesco S&P 500 Equal Weight ETF"),
     ("QQQE", "Direxion Nasdaq-100 Equal Weighted ETF"),
-    ("RWJ", "Invesco S&P SmallCap 600 Revenue ETF"),
 ]
 SECTORS = [
     ("XLK", "Technology"), ("XLF", "Financials"), ("XLI", "Industrials"),
@@ -158,10 +156,9 @@ def confirmed_trend(c, days=TREND_DAYS, warm=120):
     return labs[-1] if "Belirsiz" in (cur, labs[-1]) else cur
 
 
-def metrics(d, use_volume=True):
-    """d: Close ve Volume sütunlu DataFrame (tarih indeksli)."""
+def metrics(d):
+    """d: Close sütunlu DataFrame (tarih indeksli)."""
     c = d["Close"].astype(float)
-    v = d["Volume"].astype(float) if (use_volume and "Volume" in d) else pd.Series(dtype=float)
     out = {"date": c.index[-1].strftime("%Y-%m-%d"), "close": r(c.iloc[-1], 4)}
     out["d1"] = r(pct_change(c, 1))
     out["d5"] = r(pct_change(c, 5))
@@ -182,17 +179,6 @@ def metrics(d, use_volume=True):
     out["trend"] = confirmed_trend(c)
     hi = float(c.iloc[-252:].max())
     out["from_high"] = r((c.iloc[-1] / hi - 1) * 100) if hi > 0 else None
-    out["vol"] = None
-    out["vol_vs20"] = None
-    out["vol_vs50"] = None
-    if len(v) >= 51 and v.iloc[-1] > 0:
-        a20 = v.iloc[-21:-1].mean()
-        a50 = v.iloc[-51:-1].mean()
-        out["vol"] = int(v.iloc[-1])
-        if a20 > 0:
-            out["vol_vs20"] = r((v.iloc[-1] / a20 - 1) * 100, 1)
-        if a50 > 0:
-            out["vol_vs50"] = r((v.iloc[-1] / a50 - 1) * 100, 1)
     out["spark"] = [r(x, 4) for x in c.iloc[-30:].tolist()]
     return out
 
@@ -221,7 +207,6 @@ def breadth_block(closes):
             "total": int(cnt.loc[pct.index[-1]]),
             "d1": r(pct.iloc[-1] - pct.iloc[-2], 1) if len(pct) > 1 else None,
             "d5": r(pct.iloc[-1] - pct.iloc[-6], 1) if len(pct) > 5 else None,
-            "spark": [r(x, 1) for x in pct.iloc[-60:].tolist()],
         }
     if len(closes) >= 200:
         hi = closes.rolling(252, min_periods=200).max()
@@ -267,32 +252,7 @@ def pair_block(a_name, b_name, label, frames):
         out["verdict"] = "GENİŞ"
     else:
         out["verdict"] = "DENGELİ"
-    out["spark"] = [r(x, 4) for x in ratio.iloc[-60:].tolist()]
     return out
-
-
-def sector_participation(frames):
-    """Sektör ETF'lerinin kaçı kendi 50 günlük ortalamasının üstünde (fiyat bazlı vekil, bileşen genişliği değildir)."""
-    cols = {}
-    for sym, _ in SECTORS:
-        if sym in frames:
-            c = frames[sym]["Close"].astype(float)
-            cols[sym] = c
-    if len(cols) < 6:
-        return None
-    df = pd.DataFrame(cols).dropna(how="all")
-    ma = df.rolling(50, min_periods=50).mean()
-    valid = ma.notna() & df.notna()
-    above = (df > ma) & valid
-    cnt = valid.sum(axis=1)
-    pct = (above.sum(axis=1) / cnt.replace(0, np.nan) * 100).dropna()
-    pct = pct[cnt.loc[pct.index] >= 6].iloc[-60:]
-    if len(pct) < 10:
-        return None
-    return {"count": int(cnt.loc[pct.index[-1]]), "above": int(above.sum(axis=1).loc[pct.index[-1]]),
-            "pct": r(pct.iloc[-1], 0),
-            "d5": r(pct.iloc[-1] - pct.iloc[-6], 0) if len(pct) > 5 else None,
-            "dates": [d.strftime("%Y-%m-%d") for d in pct.index], "series": [r(x, 1) for x in pct.tolist()]}
 
 
 def sector_block(frames):
@@ -321,7 +281,7 @@ def sector_block(frames):
                      "above50": above50, "above100": m.get("above100"), "above200": m.get("above200"),
                      "dist50": m.get("dist50"), "dist100": m.get("dist100"), "dist200": m.get("dist200"),
                      "from_high": m.get("from_high"), "trend": m.get("trend"), "status": status,
-                     "vol_vs20": m["vol_vs20"], "vol_vs50": m.get("vol_vs50"), "spark": m.get("spark")})
+                     "spark": m.get("spark")})
     rows.sort(key=lambda x: (x["rel20"] is None, -(x["rel20"] or 0)))
     return rows
 
@@ -572,118 +532,6 @@ def verify_prices(frames, ref_date):
     return out
 
 
-# ---------------------------------------------------------------------- getiri
-def get_yields():
-    """2Y/10Y getiri: U.S. Treasury günlük par getiri eğrisi (resmi dosyanın kendisi)."""
-    year = dt.date.today().year
-    try:
-        url = ("https://home.treasury.gov/resource-center/data-chart-center/interest-rates/"
-               f"daily-treasury-rates.csv/{year}/all?type=daily_treasury_yield_curve"
-               f"&field_tdr_date_value={year}&page&_format=csv")
-        df = pd.read_csv(io.StringIO(http_get(url).text))
-        df["Date"] = pd.to_datetime(df["Date"], format="%m/%d/%Y")
-        df = df.sort_values("Date").dropna(subset=["2 Yr", "10 Yr"])
-        if len(df) >= 6:
-            return (df.set_index("Date")[["2 Yr", "10 Yr"]].rename(columns={"2 Yr": "y2", "10 Yr": "y10"}),
-                    "U.S. Treasury günlük par getiri eğrisi")
-    except Exception as e:  # noqa: BLE001
-        log("Treasury alınamadı:", repr(e))
-    return None, None
-
-
-def yield_block(df, source):
-    if df is None:
-        return {"available": False}
-    s2, s10 = df["y2"].astype(float), df["y10"].astype(float)
-    spread = s10 - s2
-
-    def bp(s, n):
-        return r((s.iloc[-1] - s.iloc[-1 - n]) * 100, 0) if len(s) > n else None
-
-    return {
-        "available": True, "source": source, "date": df.index[-1].strftime("%Y-%m-%d"),
-        "y2": {"value": r(s2.iloc[-1]), "d1_bp": bp(s2, 1), "d5_bp": bp(s2, 5), "spark": [r(x) for x in s2.iloc[-30:]]},
-        "y10": {"value": r(s10.iloc[-1]), "d1_bp": bp(s10, 1), "d5_bp": bp(s10, 5), "spark": [r(x) for x in s10.iloc[-30:]]},
-        "spread": {"value": r(spread.iloc[-1]), "d1_bp": bp(spread, 1), "d5_bp": bp(spread, 5), "spark": [r(x) for x in spread.iloc[-30:]]},
-    }
-
-
-# ----------------------------------------------------------------- risk notları
-def build_notes(idx, etf, breadth, pairs, yields, sectors, verification, universe):
-    notes = []
-
-    def add(level, title, text):
-        notes.append({"level": level, "title": title, "text": text})
-
-    vix = idx.get("VIX")
-    if vix:
-        v = vix["close"]
-        if v < 15:
-            add("ok", "VIX DÜŞÜK", f"VIX {tr(v, 2)}: 15 altı, piyasa sakin.")
-        elif v < 20:
-            add("ok", "VIX NORMAL", f"VIX {tr(v, 2)}: 15-20 arası, normal bölge.")
-        elif v < 30:
-            add("warn", "VIX YÜKSEK", f"VIX {tr(v, 2)}: 20-30 arası, gerginlik var.")
-        else:
-            add("bad", "VIX ÇOK YÜKSEK", f"VIX {tr(v, 2)}: 30 üstü, stres bölgesi.")
-        if vix.get("d5") is not None:
-            if vix["d5"] >= 15:
-                add("warn", "VIX SIÇRADI", f"VIX 5 işlem gününde %{tr(vix['d5'], 1)} arttı.")
-            elif vix["d5"] <= -15:
-                add("ok", "VIX GEVŞEDİ", f"VIX 5 işlem gününde %{tr(abs(vix['d5']), 1)} düştü.")
-    for key in ("SPX", "NASDAQ", "RUT"):
-        m = idx.get(key)
-        if not m:
-            continue
-        if m.get("above200") is False and m["dist200"] <= -1.5:
-            add("bad", f"{key} 200G ALTINDA", f"{key} 200 günlük ortalamanın %{tr(abs(m['dist200']), 1)} altında (%1,5'lik bandın dışında).")
-        elif m.get("above200") is False:
-            add("warn", f"{key} 200G'YE YAKIN", f"{key} 200 günlük ortalamanın %{tr(abs(m['dist200']), 1)} altında, %1,5'lik band içinde.")
-        elif m.get("above50") is False:
-            add("warn", f"{key} 50G ALTINDA", f"{key} 50 günlük ortalamanın %{tr(abs(m['dist50']), 1)} altında.")
-    b50 = (breadth.get("ma50") or {}).get("pct")
-    b200 = (breadth.get("ma200") or {}).get("pct")
-    if b50 is not None:
-        if b50 < 30:
-            add("bad", "BREADTH ZAYIF", f"S&P 500 hisselerinin sadece %{tr(b50, 0)}'i 50G MA üstünde.")
-        elif b50 < 50:
-            add("warn", "BREADTH ORTA-ZAYIF", f"S&P 500 hisselerinin %{tr(b50, 0)}'i 50G MA üstünde.")
-        else:
-            add("ok", "BREADTH SAĞLAM", f"S&P 500 hisselerinin %{tr(b50, 0)}'i 50G MA üstünde.")
-    if b200 is not None and b200 < 40:
-        add("warn", "UZUN VADE ZAYIF", f"Hisselerin sadece %{tr(b200, 0)}'i 200G MA üstünde.")
-    for p in pairs:
-        if not p.get("available") or p.get("ret20_diff") is None:
-            continue
-        a, b, d = p["a"], p["b"], p["ret20_diff"]
-        if p["verdict"] == "DAR":
-            add("warn", f"{a}/{b} DAR", f"{a}, {b}'nin 20 günde {tr(abs(d), 1)} puan gerisinde: yükseliş az sayıda büyük hisseyle taşınıyor.")
-        elif p["verdict"] == "GENİŞ":
-            add("ok", f"{a}/{b} GENİŞ", f"{a}, {b}'nin 20 günde {tr(d, 1)} puan önünde: eşit ağırlıklı endeks de yükseliyor.")
-        else:
-            add("info", f"{a}/{b} DENGELİ", f"{a} ile {b} 20 günde yakın seyretti ({'+' if d >= 0 else '−'}{tr(abs(d), 1)} puan).")
-    y = yields.get("spread") if yields.get("available") else None
-    if y and y["value"] is not None:
-        if y["value"] < 0:
-            add("bad", "TERS EĞRİ", f"10Y-2Y farkı −{tr(abs(y['value']), 2)} puan: eğri ters.")
-        else:
-            add("ok", "EĞRİ POZİTİF", f"10Y-2Y farkı +{tr(y['value'], 2)} puan.")
-    lead = [s["symbol"] for s in sectors if s["status"] == "Lider"][:3]
-    lag = [s["symbol"] for s in sectors if s["status"] == "Geride"][-3:]
-    if lead:
-        add("info", "SEKTÖR LİDERLERİ", "SPY'a göre güçlü ve 50G üstünde: " + ", ".join(lead) + ("; geride kalanlar: " + ", ".join(lag) if lag else "."))
-    elif sectors:
-        add("warn", "LİDER SEKTÖR YOK", "Hiçbir sektör hem SPY'dan güçlü hem 50G üstünde değil.")
-    for v in verification:
-        if v["status"] == "warn":
-            unit = "%" if v.get("kind") == "price" else ""
-            tail = "" if v.get("kind") == "price" else " puan"
-            add("warn", f"{v['id']} DOĞRULAMA", f"{v['id']} ile {v.get('source', 'resmi kaynak')} arasında {unit}{tr(abs(v['worst_diff']), 2)}{tail} fark var, izin verilen {unit}{tr(v['tol_pct'], 2)}{tail}.")
-    if universe and not universe["official"]:
-        add("info", "HİSSE LİSTESİ", "S&P 500 hisse listesi resmi kaynaktan alınamadı, GitHub'daki topluluk listesi kullanıldı.")
-    return notes
-
-
 def verify_proxies(frames, ref_date, tol=0.5):
     """Resmi kaynak yokken: endeksin günlük getirisi ile aynı endeksi izleyen ETF'in getirisi uyuşmalı."""
     out = []
@@ -749,19 +597,6 @@ def load_holdings():
             e["w"][etf] = it.get("weight", 0)
     h.pop("WATCH", None)  # izleme listesi ETF bileşeni değil: ETF içi görünüme girmez, hisse tablosuna ve genişliğe girer
     return h, uni
-
-
-def volume_trend(f):
-    """Hacim eğilimi: son 5 günün ortalaması / son 20 günün ortalaması. +-%20 eşik. Hacim yoksa None."""
-    if "Volume" not in f or len(f) < 25:
-        return None, None
-    v = f["Volume"].astype(float)
-    a20 = float(v.iloc[-20:].mean())
-    a5 = float(v.iloc[-5:].mean())
-    if not a20 > 0 or (v.iloc[-20:] > 0).sum() < 15:
-        return None, None
-    ch = (a5 / a20 - 1) * 100
-    return r(ch, 1), ("Artıyor" if ch >= 20 else ("Azalıyor" if ch <= -20 else "Normal"))
 
 
 def market_caps(symbols, closes, budget=240):
@@ -1073,7 +908,6 @@ def ai_block(ref_date, spy, qqq):
         m = metrics(f)
         c = f["Close"]
         hi = c.iloc[-252:].max()
-        v5, vtr = volume_trend(f)
         cf = c.astype(float)
         new_hi, prev_hi = False, None
         if len(cf) >= 22:
@@ -1087,7 +921,7 @@ def ai_block(ref_date, spy, qqq):
             "rel20": r(m["d20"] - spy20) if (m["d20"] is not None and spy20 is not None) else None,
             "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
             "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
-            "vol_vs20": m["vol_vs20"], "vol5_vs20": v5, "vol_trend": vtr, "trend": m["trend"],
+            "trend": m["trend"],
         })
     if len(rows) < 12:
         out["error"] = "Yeterli bileşen verisi alınamadı"
@@ -1164,7 +998,6 @@ def ai_block(ref_date, spy, qqq):
             "top": [{"symbol": x["symbol"], "weight": x["w"][etf], "d1": x["d1"], "d20": x["d20"]}
                     for x in sorted(mem, key=lambda z: -z["w"][etf])[:5]],
         }
-    by20 = sorted([x for x in rows if x["d20"] is not None], key=lambda x: x["d20"], reverse=True)
     memrows = [x for x in rows if x["memory"]]
     m20 = [x["d20"] for x in memrows if x["d20"] is not None]
     out.update({
@@ -1175,11 +1008,6 @@ def ai_block(ref_date, spy, qqq):
                     "positive_d20": r(100 * sum(1 for d in d20s if d > 0) / len(d20s), 1) if d20s else None,
                     "near_high": r(100 * sum(1 for x in rows if x["from_high"] is not None and x["from_high"] > -5) / n, 1)},
         "memory": {"count": len(memrows), "avg_d20": r(float(np.mean(m20))) if m20 else None},
-        "volume": {"rising": sum(1 for x in rows if x["vol_trend"] == "Artıyor"),
-                   "falling": sum(1 for x in rows if x["vol_trend"] == "Azalıyor"),
-                   "valid": sum(1 for x in rows if x["vol_trend"] is not None)},
-        "leaders": [{k: x[k] for k in ("symbol", "name", "d1", "d20")} for x in by20[:6]],
-        "laggards": [{k: x[k] for k in ("symbol", "name", "d1", "d20")} for x in by20[-6:][::-1]],
         "stocks": sorted(rows, key=lambda x: (-max(x["w"].values()), x["symbol"])),
     })
     return out
@@ -1258,8 +1086,6 @@ def build_other_changes(cur, prev):
     for n in (50, 100, 200):
         thr("genislik", f"S&P 500: SMA {n} üstü hisse payı",
             ((prev.get("breadth") or {}).get(f"ma{n}") or {}).get("pct"), ((cur.get("breadth") or {}).get(f"ma{n}") or {}).get("pct"))
-    thr("genislik", "Sektör ETF katılımı (SMA 50 üstü)", (prev.get("sector_participation") or {}).get("pct"),
-        (cur.get("sector_participation") or {}).get("pct"))
     for n in (50, 100, 200):
         thr("ai", f"AI hisseleri: SMA {n} üstü payı", (pai.get("breadth") or {}).get(f"above{n}"), (cai.get("breadth") or {}).get(f"above{n}"))
     return {"since": str(pref), "items": items}
@@ -1285,7 +1111,7 @@ def partial_refresh(only):
         f = frames[sym]
         if key == "BTC":  # 7/24 işlem görür: günlük kapanış UTC 00:00'dır, günü bitmemiş mumu at
             f = f[f.index < pd.Timestamp(now.strftime("%Y-%m-%d"))]
-        m = metrics(f, use_volume=False)
+        m = metrics(f)
         old = d["indexes"].get(key)
         if old and old.get("date") and m["date"] < old["date"]:
             log(f"UYARI: {key} yeni veri ({m['date']}) eskisinden ({old['date']}) geri, değişmedi")
@@ -1327,7 +1153,7 @@ def main():
                 f = f[f.index <= pd.Timestamp(ref_date)]
             if sym == "BTC-USD":  # 7/24: günlük kapanış UTC 00:00, günü bitmemiş mum alınmaz
                 f = f[f.index < pd.Timestamp(now.strftime("%Y-%m-%d"))]
-            m = metrics(f, use_volume=False)  # Yahoo endeks/vadeli hacmi güvenilir değil
+            m = metrics(f)
             m.update({"symbol": key, "yahoo": sym, "name": name, "h24": h24,
                       "live": sym == "BTC-USD",  # 7/24 işlem görür: değer anlık, ABD kapanışı değil
                       "stale": (not h24) and m["date"] < ref_date})
@@ -1356,14 +1182,11 @@ def main():
 
     pairs = [pair_block(a, b, lbl, etf_frames) for a, b, lbl in PAIRS]
     sectors = sector_block(etf_frames)
-    sector_part = sector_participation(etf_frames)
     ai = {"available": False}
     if "SPY" in etf_frames and "QQQ" in etf_frames:
         ai = ai_block(ref_date, etf_frames["SPY"], etf_frames["QQQ"])
         if not ai.get("available"):
             warnings.append("Yapay zeka bölümü eksik: " + str(ai.get("error")))
-    ydf, ysrc = get_yields()
-    yields = yield_block(ydf, ysrc)
 
     verification = verify_prices(macro_frames, ref_date)
     bad = [v for v in verification if v["status"] == "bad"]
@@ -1384,7 +1207,6 @@ def main():
         log("Uzun S&P 500 gecmisi alinamadi:", repr(e)[:160])
     reg = regime(spx_long, macro_frames["^VIX"]["Close"] if "^VIX" in macro_frames else pd.Series(dtype=float),
                  closes, len(universe["tickers"]) if universe else 0, ref_date)
-    notes = build_notes(idx, etf, breadth, pairs, yields, sectors, verification, universe)
     proxies = verify_proxies(macro_frames, ref_date)
     if any(p["status"] == "bad" for p in proxies):
         log("HATA: endeks ile ETF getirileri tutarsız, güncelleme iptal:", proxies)
@@ -1410,12 +1232,10 @@ def main():
                 {"name": "Cboe VIX tarihsel dosyası", "official": True, "use": "VIX doğrulaması (son gün ertesi sabah yayınlanır)"},
                 {"name": universe["source"] if universe else "Hisse listesi alınamadı",
                  "official": bool(universe and universe["official"]), "use": "S&P 500 bileşen listesi"},
-                {"name": ysrc or "Getiri verisi alınamadı", "official": bool(ysrc and "Treasury" in ysrc),
-                 "use": "2Y/10Y getiri"},
             ],
         },
         "indexes": idx, "etfs": etf, "breadth": breadth, "pairs": pairs,
-        "sectors": sectors, "sector_participation": sector_part, "ai": ai, "yields": yields, "regime": reg, "notes": notes,
+        "sectors": sectors, "ai": ai, "regime": reg,
     }
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")

@@ -28,8 +28,6 @@ elif rg["market_regime"] == "INSUFFICIENT_DATA":
     errs.append("rejim hesaplanamadı (veri yetersiz): " + "; ".join(rg["data_quality"].get("stale_data", []) + rg["data_quality"].get("missing_data", [])))
 if len(d.get("sectors") or []) < 10:
     errs.append("sektör verisi eksik")
-if not d.get("notes"):
-    errs.append("risk notları boş")
 if d["meta"].get("quality", {}).get("level") == "DÜŞÜK":
     errs.append("veri kalitesi DÜŞÜK: " + "; ".join(d["meta"]["quality"].get("reasons", [])))
 if errs:
