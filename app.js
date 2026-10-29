@@ -82,7 +82,7 @@
       if (info.length) out += '<p class="fine">Bilgi, puana dahil değil: ' + esc(info.join(" · ")) + '.</p>';
     }
     if (miss.length) head += '<p class="fine"><span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + '.</span></p>';
-    REG_BOX = '<details class="srcbox"><summary>Rejim kuralı ve geçmiş testi</summary>' + out + '<p class="fine">Geçmiş testi (1993–2026, işlem ertesi gün, maliyet dahil): bu kural en büyük düşüşü %55&#39;ten %20&#39;ye indirdi, yıllık getiri %9,5 (al-tut %10,9). Geçmiş performans geleceği garanti etmez.</p></details>';
+    REG_BOX = '<details class="srcbox"><summary>Rejim kuralı ve geçmiş testi</summary>' + out + '</details>';
     return head;
   }
   var REG_BOX = "";
@@ -95,35 +95,14 @@
     rows = rows.filter(hv).concat(rows.filter(function (x) { return !hv(x); }));  // hacmi olanlar üstte
     var body = rows.map(function (x) {
       var k = x[0], m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td>' +
-        '<td class="' + (m.vol_vs20 == null ? "nv" : "") + '">' + (m.vol_vs20 == null ? "" : '<span class="' + (m.vol_vs20 >= 30 ? "rsk" : "") + '">' + pc(m.vol_vs20, 0) + '</span>') + '</td><td class="hm">' + (m.vol_vs50 == null ? "" : pc(m.vol_vs50, 0)) + '</td></tr>';
+      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
-    return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th><th>Hacim / 20G</th><th class="hm">Hacim / 50G</th></tr></thead><tbody>' + body + '</tbody></table></div>';
+    return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
-  function notes(n) {
-    if (!n || !n.length) return "";
-    return '<details class="srcbox"><summary>Risk notları · ' + n.length + ' not</summary>' + n.map(function (x) {
-      var c = { ok: "ok", warn: "warn", bad: "bad" }[x.level] || "";
-      return '<div class="note"><b><span class="dot ' + c + '"></span>' + esc(x.title) + '</b><span>' + esc(x.text) + '</span></div>';
-    }).join("") + '</details>';
-  }
-
-  function partCard(p) {
-    if (!p || !p.series || p.series.length < 2) return "";
-    var W = 600, H = 110, P = 4, n = p.series.length, pts = p.series.map(function (v, i) { return [P + i * (W - 2 * P) / (n - 1), H - P - (Math.max(0, Math.min(100, v)) / 100) * (H - 2 * P)]; });
-    var line = pts.map(function (q, i) { return (i ? "L" : "M") + q[0].toFixed(1) + " " + q[1].toFixed(1); }).join(" ");
-    var area = line + " L" + pts[n - 1][0].toFixed(1) + " " + H + " L" + pts[0][0].toFixed(1) + " " + H + " Z";
-    var last = pts[n - 1];
-    return '<div class="part"><div class="partk">Sektör ETF katılımı <span class="badge">Fiyat bazlı</span></div>' +
-      '<div class="partv">%' + num(p.pct, 0) + '<span class="partd">' + p.above + ' / ' + p.count + ' sektör ETF\'i SMA 50 üzerinde' + (p.d5 === null || p.d5 === undefined ? "" : " · 5G " + pt(p.d5, 0)) + '</span></div>' +
-      '<svg class="partsvg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" aria-label="Sektör ETF katılımı, son ' + n + ' gün"><path d="' + area + '" class="partarea"/><path d="' + line + '" class="partline" vector-effect="non-scaling-stroke"/></svg>' +
-      '<div class="partax"><span>' + fmtDate(p.dates[0]) + '</span><span>' + fmtDate(p.dates[n - 1]) + '</span></div>' +
-      '<div class="fine">Bileşen genişliği değildir; erişilebilen ' + p.count + ' sektör ETF\'inden hesaplanan vekildir.</div></div>';
-  }
   function breadth(b) {
     if (!b || !b.ma50) return h2("Piyasa genişliği") + sub("Hisse listesi alınamadığı için hesaplanmadı.");
-    var s = [50, 100, 200].map(function (n) {
+    var s = [50, 200].map(function (n) {
       var m = b["ma" + n]; if (!m) return "";
       return stat(n + " günlük ortalama üstü", "%" + num(m.pct, 1), m.above + " / " + m.total + " hisse · 1G " + pt(m.d1) + " · 5G " + pt(m.d5));
     }).join("") + stat("52 hafta", '<span class="pos">' + num(b.new_highs, 0) + '</span> <span class="mute">/</span> <span class="neg">' + num(b.new_lows, 0) + '</span>', "yeni zirve / yeni dip");
@@ -143,7 +122,7 @@
   var SEC_SORT = { k: "rel20", dir: -1 };
   function sectors(rows) {
     if (!rows || !rows.length) return "";
-    var cols = [["symbol", "Sektör"], ["status", "Durum"], ["rel20", "SPY'a göre 20G"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["from_high", "Zirveye uzaklık"], ["trend", "Trend"], ["dist50", "SMA 50"], ["dist100", "SMA 100"], ["dist200", "SMA 200"], ["vol_vs20", "Hacim / 20G"]];
+    var cols = [["symbol", "Sektör"], ["status", "Durum"], ["rel20", "SPY'a göre 20G"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["from_high", "Zirveye uzaklık"], ["trend", "Trend"], ["dist50", "SMA 50"], ["dist200", "SMA 200"]];
     var sorted = rows.slice().sort(function (x, y) {
       var k = SEC_SORT.k, u = x[k], v = y[k];
       if (u === null || u === undefined) return 1; if (v === null || v === undefined) return -1;
@@ -155,8 +134,7 @@
       var sc = { "Lider": "pos", "Toparlanıyor": "neu", "Zayıflıyor": "rsk", "Geride": "neg" }[s.status] || "";
       var tc = s.trend === "Yükseliş" ? "pos" : s.trend === "Düşüş" ? "neg" : "rsk";
       return '<tr><td><b>' + s.symbol + '</b> <span class="mute">' + esc(s.name) + '</span></td><td class="' + sc + '">' + esc(s.status) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 2) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td>' +
-        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td class="hm">' + ma(s.above100, s.dist100) + '</td><td>' + ma(s.above200, s.dist200) + '</td>' +
-        '<td class="hm">' + (s.vol_vs20 === null || s.vol_vs20 === undefined ? "–" : pc(s.vol_vs20, 0)) + '</td></tr>';
+        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td>' + ma(s.above200, s.dist200) + '</td></tr>';
     }).join("");
     return h2("Sektör liderliği") + '<div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
   }
@@ -164,7 +142,7 @@
   var AI_SORT = { k: "mcap", dir: -1 };
   function aiTable(a) {
     var ref = DATA.meta.ref_date, hmk = { d5: 1, vol5_vs20: 1 };
-    var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above100", "SMA 100"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"], ["vol5_vs20", "Hacim 5G / 20G"], ["vol_trend", "Hacim eğilimi"]];
+    var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"]];
     var rows = a.stocks.slice().sort(function (x, y) {
       var k = AI_SORT.k, u = x[k], v = y[k];
       if (typeof u === "boolean") { u = u ? 1 : 0; v = v ? 1 : 0; }
@@ -176,7 +154,7 @@
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + fb(s) + eb(s) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above100) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="hm">' + (s.vol5_vs20 == null ? "–" : pc(s.vol5_vs20, 0)) + '</td><td class="' + (s.vol_trend === "Artıyor" ? "pos" : s.vol_trend === "Azalıyor" ? "neg" : "neu") + '">' + esc(s.vol_trend || "–") + '</td></tr>';
+      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + fb(s) + eb(s) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td></tr>';
     }).join("");
     var noMob = { symbol: 1, above50: 1, above100: 1, above200: 1, vol5_vs20: 1, vol_trend: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
@@ -185,13 +163,7 @@
   }
   function aiStocks(a) {
     if (!a || !a.stocks) return h2("AI hisseleri") + sub("Bu bölüm bu güncellemede hesaplanamadı.");
-    var w = a.stocks.filter(function (s) { return s.watch; }).length;
     return h2("AI hisseleri (" + a.stocks.length + ")") + aiTable(a);
-  }
-  function aiMini(list) {
-    return '<div class="tw"><table><tbody>' + list.map(function (s) {
-      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b><small>' + esc(s.name) + '</small></td><td data-label="20G" class="' + cls(s.d20) + '">' + pc(s.d20) + '</td></tr>';
-    }).join("") + '</tbody></table></div>';
   }
   function aiDetail(a) {
     var names = { SOXX: "SOXX · iShares", SMH: "SMH · VanEck", DRAM: "DRAM · Roundhill" };
@@ -201,12 +173,13 @@
       var top = d.top.map(function (t) { return esc(tk(t.symbol)); }).join(" · ");
       return '<tr><td><b>' + names[k] + '</b><small>liste: ' + fmtDate(d.asof) + ' (' + Math.max(0, Math.floor((Date.now() - new Date(d.asof).getTime()) / 864e5)) + ' gün)</small></td>' +
         '<td class="' + cls(d.w_d1) + '">' + pc(d.w_d1) + '</td><td class="' + cls(d.w_d5) + '">' + pc(d.w_d5) + '</td><td class="' + cls(d.w_d20) + '">' + pc(d.w_d20) + '</td><td class="' + cls(d.eq_d20) + '">' + pc(d.eq_d20) + '</td>' +
-        '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above100_w, 0) + '<small>sayı: %' + num(d.above100_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute">' + top + '</td></tr>';
+        '<td>%' + num(d.above50_w, 0) + '<small>sayı: %' + num(d.above50_n, 0) + '</small></td><td>%' + num(d.above200_w, 0) + '<small>sayı: %' + num(d.above200_n, 0) + '</small></td><td class="' + vc + '"><b>' + (d.verdict || "–") + '</b></td><td class="mute">' + top + '</td></tr>';
     }).join("");
-    return h2("ETF içi görünüm (ağırlıklı)") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Ağırlıklı 1G</th><th>Ağırlıklı 5G</th><th>Ağırlıklı 20G</th><th>Eşit ağırlıklı 20G</th><th>SMA 50 üstü (ağırlık)</th><th>SMA 100 üstü (ağırlık)</th><th>SMA 200 üstü (ağırlık)</th><th>Yapı</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+    return h2("ETF içi görünüm (ağırlıklı)") + '<div class="tw"><table><thead><tr><th>ETF</th><th>Ağırlıklı 1G</th><th>Ağırlıklı 5G</th><th>Ağırlıklı 20G</th><th>Eşit ağırlıklı 20G</th><th>SMA 50 üstü (ağırlık)</th><th>SMA 200 üstü (ağırlık)</th><th>Yapı</th><th>En büyük 5 hisse</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
   }
   function chgBox(items, since, note) {
-    if (!items || !items.length) return "";
+    items = (items || []).filter(function (i) { return i.k !== "sma" && i.k !== "sma50"; });
+    if (!items.length) return "";
     var arrow = '<svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6h8M7 3l3 3-3 3"/></svg>';
     function tc(t) { return t === "Yükseliş" || t === "Lider" || t === "Risk-on" || t === "GENİŞ" ? "pos" : t === "Düşüş" || t === "Geride" || t === "Risk-off" || t === "DAR" ? "neg" : ""; }
     function fl(i) { return esc(i.from) + " " + arrow + ' <span class="to ' + tc(i.to) + '">' + esc(i.to) + "</span>"; }
@@ -241,23 +214,20 @@
   function ai(a) {
     if (!a || !a.etfs) return h2("Yapay zeka") + sub("Bu bölüm bu güncellemede hesaplanamadı. Bir sonraki çalışmada yeniden denenir.");
     var e = a.etfs.map(function (m) {
-      if (!m.available) return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td colspan="11" class="neu">Veri alınamadı</td></tr>';
+      if (!m.available) return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td colspan="10" class="neu">Veri alınamadı</td></tr>';
       return '<tr><td><b>' + m.symbol + '</b><small>' + esc(m.name) + '</small></td><td>' + num(m.close, 2) + '</td><td class="' + cls(m.d1) + '">' + pc(m.d1) + '</td><td class="' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + cls(m.d60) + '">' + pc(m.d60) + '</td>' +
-        '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above100, m.dist100) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+        '<td class="' + cls(m.rel.spy[20]) + '">' + pt(m.rel.spy[20], 1) + '</td><td class="' + cls(m.rel.qqq[20]) + '">' + pt(m.rel.qqq[20], 1) + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
     }).join("");
     var ca = (a.changes && a.changes.items) || [], cs = chgFor("ai"), out = chgBox(ca.concat(cs), (a.changes && a.changes.since) || (DATA.changes && DATA.changes.since), "AI hisseleri ve ETF'leri") + h2("Yapay zeka ve yarı iletken ETF'leri") +
-      '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 100</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>';
+      '<div class="tw"><table><thead><tr><th>ETF</th><th>Son</th><th>1G</th><th>5G</th><th>20G</th><th>60G</th><th>SPY\'a göre 20G</th><th>QQQ\'ya göre 20G</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + e + '</tbody></table></div>';
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
     var b = a.breadth;
     out += aiDetail(a) + h2("Genişlik (tüm hisseler birlikte)") + '<div class="stats">' +
       stat("SMA 50 üstü", "%" + num(b.above50, 1), a.count + " benzersiz hisse") +
-      stat("SMA 100 üstü", "%" + num(b.above100, 1), "orta vade") +
       stat("SMA 200 üstü", "%" + num(b.above200, 1), "uzun vade") +
       stat("20 günde pozitif", "%" + num(b.positive_d20, 1), "hisse payı") +
       stat("Zirveye %5 yakın", "%" + num(b.near_high, 1), "52 hafta") +
-      (a.volume && a.volume.valid ? stat("Hacmi artan", num(a.volume.rising, 0) + " / " + num(a.volume.valid, 0), "5G ort. 20G ortalamasının %20 üstünde", "pos") + stat("Hacmi azalan", num(a.volume.falling, 0) + " / " + num(a.volume.valid, 0), "5G ort. 20G ortalamasının %20 altında", "neg") : "") +
-      stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>' +
-      '<div class="two"><div>' + h2("20 günlük liderler") + aiMini(a.leaders) + '</div><div>' + h2("20 günlük gerideler") + aiMini(a.laggards) + '</div></div>';
+      stat("Bellek hisseleri 20G", pc(a.memory.avg_d20), a.memory.count + " hisse (DRAM'in bileşenleri)", cls(a.memory.avg_d20)) + '</div>';
     var old = Object.keys(a.detail || {}).some(function (k) { return (Date.now() - new Date(a.detail[k].asof).getTime()) / 864e5 > 45; });
     if (old) out += '<p class="fine"><span class="rsk">ETF bileşen listesi 45 günden eski, ağırlıklar güncel olmayabilir.</span></p>';
     return out;
@@ -281,8 +251,8 @@
     return o;
   }
   function tabs(d) {
-    return '<section class="tab" id="t-genel">' + regime(d.regime) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + levels(d) + sourcesBox(d) + REG_BOX + notes(d.notes) + '</section>' +
-      '<section class="tab" id="t-genislik">' + chgBox(chgFor("genislik"), d.changes && d.changes.since, "S&P 500 genişliği") + partCard(d.sector_participation) + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
+    return '<section class="tab" id="t-genel">' + regime(d.regime) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + levels(d) + sourcesBox(d) + REG_BOX + '</section>' +
+      '<section class="tab" id="t-genislik">' + chgBox(chgFor("genislik"), d.changes && d.changes.since, "S&P 500 genişliği") + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + chgBox(chgFor("sektor"), d.changes && d.changes.since, "sektör ETF'leri") + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
       '<section class="tab" id="t-aihisse">' + aiStocks(d.ai) + '</section>';
@@ -345,13 +315,6 @@
   document.addEventListener("keydown", function (e) {
     if ((e.key === "Enter" || e.key === " ") && e.target && e.target.matches && e.target.matches("th.s, .ddl li")) { e.preventDefault(); e.target.click(); }
     if (e.key === "Escape") closeDd();
-  });
-  document.addEventListener("change", function (e) {
-    if (e.target && (e.target.id === "aisort" || e.target.id === "secsort") && DATA) {
-      var k = e.target.value, o = { k: k, dir: (k === "symbol" || k === "status" || k === "trend") ? 1 : -1 };
-      if (e.target.id === "secsort") SEC_SORT = o; else AI_SORT = o;
-      draw();
-    }
   });
   var ftip = null;
   function hideTip() { if (ftip) ftip.hidden = true; }
