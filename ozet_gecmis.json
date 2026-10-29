@@ -1,15 +1,401 @@
 [
-  {
-    "date": "2026-10-28",
-    "gun": "yukari",
-    "trend": "yukari",
-    "vix": "normal",
-    "vix_yon": "geriledi",
-    "katilim": "genis",
-    "katilim_yon": "daraldi",
-    "sektor_onde": ["teknoloji", "finans"],
-    "sektor_geride": ["elektrik-su", "gayrimenkul"],
-    "ai": "cok guclu",
-    "not": "ilk kayit"
-  }
+ {
+  "date": "2026-09-28",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "yukseldi",
+  "katilim": "dar",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "saglik",
+   "temel tuketim"
+  ],
+  "sektor_geride": [
+   "istege bagli tuketim",
+   "iletisim"
+  ],
+  "ai": "cok zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-09-29",
+  "gun": "yatay",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "sabit",
+  "sektor_onde": [
+   "elektrik-su",
+   "iletisim"
+  ],
+  "sektor_geride": [
+   "hammadde",
+   "enerji"
+  ],
+  "ai": "guclu",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-09-30",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "teknoloji",
+   "enerji"
+  ],
+  "sektor_geride": [
+   "saglik",
+   "temel tuketim"
+  ],
+  "ai": "yatay",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-01",
+  "gun": "yatay",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "enerji",
+   "teknoloji"
+  ],
+  "sektor_geride": [
+   "iletisim",
+   "saglik"
+  ],
+  "ai": "guclu",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-02",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "istege bagli tuketim",
+   "teknoloji"
+  ],
+  "sektor_geride": [
+   "finans",
+   "saglik"
+  ],
+  "ai": "cok guclu",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-05",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "hammadde",
+   "iletisim"
+  ],
+  "sektor_geride": [
+   "sanayi",
+   "gayrimenkul"
+  ],
+  "ai": "yatay",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-06",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "elektrik-su",
+   "istege bagli tuketim"
+  ],
+  "sektor_geride": [
+   "iletisim",
+   "saglik"
+  ],
+  "ai": "yatay",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-07",
+  "gun": "yatay",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "saglik",
+   "elektrik-su"
+  ],
+  "sektor_geride": [
+   "hammadde",
+   "sanayi"
+  ],
+  "ai": "zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-08",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "enerji",
+   "temel tuketim"
+  ],
+  "sektor_geride": [
+   "saglik",
+   "teknoloji"
+  ],
+  "ai": "cok zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-09",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "dusuk",
+  "vix_yon": "geriledi",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "gayrimenkul",
+   "saglik"
+  ],
+  "sektor_geride": [
+   "enerji",
+   "iletisim"
+  ],
+  "ai": "zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-12",
+  "gun": "yatay",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "enerji",
+   "temel tuketim"
+  ],
+  "sektor_geride": [
+   "istege bagli tuketim",
+   "teknoloji"
+  ],
+  "ai": "cok zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-13",
+  "gun": "yatay",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "dar",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "enerji",
+   "iletisim"
+  ],
+  "sektor_geride": [
+   "finans",
+   "saglik"
+  ],
+  "ai": "yatay",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-14",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "yukseldi",
+  "katilim": "dar",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "saglik",
+   "temel tuketim"
+  ],
+  "sektor_geride": [
+   "iletisim",
+   "teknoloji"
+  ],
+  "ai": "cok zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-15",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "orta",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "saglik",
+   "hammadde"
+  ],
+  "sektor_geride": [
+   "teknoloji",
+   "enerji"
+  ],
+  "ai": "zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-16",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "yukseldi",
+  "katilim": "orta",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "enerji",
+   "elektrik-su"
+  ],
+  "sektor_geride": [
+   "iletisim",
+   "teknoloji"
+  ],
+  "ai": "cok zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-19",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "orta",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "istege bagli tuketim",
+   "teknoloji"
+  ],
+  "sektor_geride": [
+   "gayrimenkul",
+   "elektrik-su"
+  ],
+  "ai": "cok guclu",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-20",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "orta",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "saglik",
+   "gayrimenkul"
+  ],
+  "sektor_geride": [
+   "sanayi",
+   "teknoloji"
+  ],
+  "ai": "yatay",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-21",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "genis",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "teknoloji",
+   "sanayi"
+  ],
+  "sektor_geride": [
+   "gayrimenkul",
+   "iletisim"
+  ],
+  "ai": "cok guclu",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-22",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "yukseldi",
+  "katilim": "genis",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "temel tuketim",
+   "elektrik-su"
+  ],
+  "sektor_geride": [
+   "iletisim",
+   "teknoloji"
+  ],
+  "ai": "cok zayif",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-23",
+  "gun": "asagi",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "sabit",
+  "katilim": "genis",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "enerji",
+   "teknoloji"
+  ],
+  "sektor_geride": [
+   "iletisim",
+   "temel tuketim"
+  ],
+  "ai": "guclu",
+  "not": "geriye dönük hesaplandı"
+ },
+ {
+  "date": "2026-10-28",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "genis",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "teknoloji",
+   "finans"
+  ],
+  "sektor_geride": [
+   "elektrik-su",
+   "gayrimenkul"
+  ],
+  "ai": "cok guclu",
+  "not": "26 ve 27 Eki kaydı yok (geçmiş 23 Eki'ye kadar geriye dönük dolduruldu)"
+ }
 ]
