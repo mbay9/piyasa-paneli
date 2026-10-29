@@ -2,9 +2,11 @@ name: Piyasa verisini güncelle
 
 on:
   schedule:
-    # Ana güncelleme: 22:30 UTC = New York 18:30 (yaz) / 17:30 (kış), kapanıştan 1,5-2,5 saat sonra
-    - cron: "30 22 * * 1-5"
-    # Yedek: ilk çalışma başarısız olursa 01:30 UTC'de tekrar dener (yaz saatinde de kapanıştan sonra)
+    # Kapanış 20:00 UTC (yaz) / 21:00 UTC (kış). İki zamanlama var, "Kapanış kontrolü" işi hangisinin çalışacağını seçer:
+    # yaz saatinde 20:40 UTC, kış saatinde 21:40 UTC çalışır (kapanıştan ~40 dakika sonra), diğeri atlanır.
+    - cron: "40 20 * * 1-5"
+    - cron: "40 21 * * 1-5"
+    # Yedek: ilk çalışma başarısız olursa 01:30 UTC'de tekrar dener (bugünün verisi yayındaysa atlanır)
     - cron: "30 1 * * 2-6"
   workflow_dispatch: {}
 
@@ -15,7 +17,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    name: Kapanış kontrolü
+    runs-on: ubuntu-latest
+    permissions: {}
+    outputs:
+      run: ${{ steps.g.outputs.run }}
+    steps:
+      - id: g
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          run=true
+          if [ "$EVENT" = "schedule" ]; then
+            ny=$(TZ=America/New_York date +%H%M)
+            today=$(TZ=America/New_York date +%F)
+            if [ "$((10#$ny))" -lt 1635 ]; then run=false; echo "New York $ny: kapanış verisi henüz hazır değil, atlandı"; fi
+            live=$(curl -fsS --max-time 30 "https://mbay9.github.io/piyasa-paneli/data.json?t=$RANDOM" | jq -r '.meta.ref_date' || true)
+            if [ "$live" = "$today" ]; then run=false; echo "Bugünün verisi zaten yayında ($live), atlandı"; fi
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
   build:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     permissions:
