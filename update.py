@@ -844,7 +844,7 @@ def earnings_dates(symbols, ref_date, budget=120):
 
 
 SA_EX = {"KS": "krx", "SS": "sha", "T": "tyo", "TW": "tpe"}
-FUND_KEYS = ("fcf", "nc", "fcu", "fcp", "fcd", "ncd", "fet")
+FUND_KEYS = ("fcf", "nc", "fcu", "fcp", "fcd", "ncp", "ncd", "fet")
 
 
 def sa_base(s):
@@ -905,7 +905,7 @@ def sa_fetch(url, label):
 
 
 def fundamentals(symbols, ref_date, budget=300):
-    """FCF (Free Cash Flow) ve Net Cash (Debt): stockanalysis.com en güncel dönem (TTM ya da son mali yıl), milyon, şirketin raporlama para biriminde.
+    """FCF (Free Cash Flow) ve Net Cash (Debt): stockanalysis.com'da en son açıklanan bilançonun (son çeyrek) değeri, milyon, şirketin raporlama para biriminde.
     Haftada bir (hisse başına 5-9 gün) yenilenir, aradaki günlerde önceki değer kalır. Alınamazsa eski değer korunur."""
     import threading
     ref = pd.Timestamp(ref_date).date()
@@ -913,7 +913,7 @@ def fundamentals(symbols, ref_date, budget=300):
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
-            if x.get("fet") and (x.get("fcf") is not None or x.get("nc") is not None):
+            if x.get("fet") and re.match(r"Q\d", str(x.get("fcp") or "")) and (x.get("fcf") is not None or x.get("nc") is not None):
                 prev[x["symbol"]] = {k: x.get(k) for k in FUND_KEYS}
     except Exception as e:  # noqa: BLE001
         log("Önceki temel veriler okunamadı:", repr(e)[:80])
@@ -936,13 +936,13 @@ def fundamentals(symbols, ref_date, budget=300):
             if not base:
                 continue
             try:
-                f, fh, fd, fc = sa_fetch(base + "/financials/cash-flow-statement/", "Free Cash Flow")
+                f, fh, fd, fc = sa_fetch(base + "/financials/cash-flow-statement/?p=quarterly", "Free Cash Flow")
                 time.sleep(0.4)
-                n, nh, nd, nc = sa_fetch(base + "/financials/balance-sheet/", "Net Cash (Debt)")
+                n, nh, nd, nc = sa_fetch(base + "/financials/balance-sheet/?p=quarterly", "Net Cash (Debt)")
                 time.sleep(0.4)
                 if f is None and n is None:
                     continue
-                out[s] = {"fcf": f, "nc": n, "fcu": fc or nc, "fcp": fh, "fcd": fd, "ncd": nd, "fet": ref.isoformat()}
+                out[s] = {"fcf": f, "nc": n, "fcu": fc or nc, "fcp": fh, "fcd": fd, "ncp": nh, "ncd": nd, "fet": ref.isoformat()}
                 fails = 0
             except Exception as e:  # noqa: BLE001
                 fails += 1
