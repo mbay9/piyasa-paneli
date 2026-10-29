@@ -143,10 +143,10 @@ def trend_label(close, s50, s200):
     return "Yatay / karışık"
 
 
-TREND_DAYS = 3
+TREND_DAYS = 12
 
 
-def confirmed_trend(c, days=TREND_DAYS, warm=40):
+def confirmed_trend(c, days=TREND_DAYS, warm=120):
     """Trend etiketi: yeni etiket ancak art arda `days` kapanışta geçerliyse benimsenir, aksi halde önceki etiket sürer."""
     s50, s200 = c.rolling(50).mean(), c.rolling(200).mean()
     n = min(len(c), warm + days)
