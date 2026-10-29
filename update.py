@@ -844,7 +844,7 @@ def earnings_dates(symbols, ref_date, budget=120):
 
 
 SA_EX = {"KS": "krx", "SS": "sha", "T": "tyo", "TW": "tpe"}
-FUND_KEYS = ("fcf", "nc", "fcu", "fcp", "fcd", "ncp", "ncd", "fet")
+FUND_KEYS = ("fcf", "nc", "fcu", "fcp", "fcd", "ncp", "ncd", "fet", "fck", "fnx")
 
 
 def sa_base(s):
@@ -904,30 +904,50 @@ def sa_fetch(url, label):
     return v, head, d, (u.group(2) if u else None)
 
 
-def fundamentals(symbols, ref_date, budget=300):
+def fundamentals(symbols, ref_date, earn=None, budget=300):
     """FCF (Free Cash Flow) ve Net Cash (Debt): stockanalysis.com'da en son açıklanan bilançonun (son çeyrek) değeri, milyon, şirketin raporlama para biriminde.
-    Haftada bir (hisse başına 5-9 gün) yenilenir, aradaki günlerde önceki değer kalır. Alınamazsa eski değer korunur."""
+    Bilanço takvimine bağlıdır: ilk kez bir kez çekilir; sonra yalnız hissenin bilanço tarihi geçince her gün kontrol edilir, yeni çeyrek gelince
+    güncellenir ve bir sonraki bilançoya kadar tekrar sorgulanmaz. Alınamazsa eski değer korunur."""
     import threading
+    earn = earn or {}
     ref = pd.Timestamp(ref_date).date()
     prev = {}
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
-            if x.get("fet") and re.match(r"Q\d", str(x.get("fcp") or "")) and (x.get("fcf") is not None or x.get("nc") is not None):
+            if re.match(r"Q\d", str(x.get("fcp") or "")) and (x.get("fcf") is not None or x.get("nc") is not None):
                 prev[x["symbol"]] = {k: x.get(k) for k in FUND_KEYS}
     except Exception as e:  # noqa: BLE001
         log("Önceki temel veriler okunamadı:", repr(e)[:80])
-    out = {s: dict(prev[s]) for s in symbols if s in prev}
 
-    def stale(s):
-        v = prev.get(s)
+    def day(v):
         try:
-            return v is None or (ref - dt.date.fromisoformat(v["fet"])).days >= 5 + sum(map(ord, s)) % 5
+            return dt.date.fromisoformat(v)
         except Exception:  # noqa: BLE001
-            return True
+            return None
 
-    todo = [s for s in symbols if stale(s)]
-    log(f"temel veriler: {len(symbols) - len(todo)} hisse güncel, {len(todo)} sorgulanacak")
+    out, todo = {}, []
+    for s in symbols:
+        v = dict(prev[s]) if s in prev else None
+        if v is None:
+            todo.append(s)  # ilk kez: bir kez çek
+            continue
+        en = day(earn.get(s))
+        fnx = day(v.get("fnx"))
+        if en and (fnx is None or fnx > ref):  # kayıtlı bilanço tarihi henüz gelmediyse güncel takvim geçerli
+            fnx = en
+            v["fnx"] = en.isoformat()
+        out[s] = v
+        ck = day(v.get("fck") or v.get("fet")) or dt.date.min
+        pe = day(v.get("fcd"))
+        if ck == ref:
+            continue
+        if fnx and fnx <= ref:  # bilanço açıklandı, yeni çeyrek gelene kadar her gün (30 günden sonra 3 günde bir)
+            if (ref - fnx).days <= 30 or (ref - ck).days >= 3:
+                todo.append(s)
+        elif not fnx and pe and (ref - pe).days >= 100 and (ref - ck).days >= 7:  # bilanço tarihi bilinmiyorsa haftada bir güvenlik ağı
+            todo.append(s)
+    log(f"temel veriler: {len(symbols) - len(todo)} hisse güncel (bilanço bekleniyor), {len(todo)} kontrol edilecek")
 
     def work():
         fails = 0
@@ -940,10 +960,20 @@ def fundamentals(symbols, ref_date, budget=300):
                 time.sleep(0.4)
                 n, nh, nd, nc = sa_fetch(base + "/financials/balance-sheet/?p=quarterly", "Net Cash (Debt)")
                 time.sleep(0.4)
+                fails = 0
                 if f is None and n is None:
                     continue
-                out[s] = {"fcf": f, "nc": n, "fcu": fc or nc, "fcp": fh, "fcd": fd, "ncp": nh, "ncd": nd, "fet": ref.isoformat()}
-                fails = 0
+                old = out.get(s)
+                if old and fd == old.get("fcd") and nd == old.get("ncd"):
+                    old["fck"] = ref.isoformat()  # yeni bilanço henüz yok: eski değer kalır, yarın yine bakılır
+                    continue
+                en = day(earn.get(s))
+                new = {"fcf": f, "nc": n, "fcu": fc or nc, "fcp": fh, "fcd": fd, "ncp": nh, "ncd": nd,
+                       "fck": ref.isoformat(), "fet": ref.isoformat(),
+                       "fnx": en.isoformat() if en else None}
+                if fd != nd:  # nakit akışı ve bilanço farklı çeyrekte: geride kalan yayımlanana kadar kontrole devam
+                    new["fnx"] = (old or {}).get("fnx") or ref.isoformat()
+                out[s] = new
             except Exception as e:  # noqa: BLE001
                 fails += 1
                 log(f"  temel veri alınamadı {s}: {repr(e)[:80]}")
@@ -1081,7 +1111,7 @@ def ai_block(ref_date, spy, qqq):
         x["earn"], x["earn_est"] = ed.get(x["symbol"], (None, False))
     log(f"bilanço tarihi: {len(ed)}/{len(rows)} hisse")
     try:
-        fu = fundamentals([x["symbol"] for x in rows], ref_date)
+        fu = fundamentals([x["symbol"] for x in rows], ref_date, {x["symbol"]: x.get("earn") for x in rows})
     except Exception as e:  # noqa: BLE001
         log("Temel veriler bölümü atlandı:", repr(e)[:120])
         fu = {}
