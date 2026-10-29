@@ -269,6 +269,10 @@
    "name": "nVent Electric plc"
   },
   {
+   "symbol": "NVTS",
+   "name": "Navitas Semiconductor Corporation"
+  },
+  {
    "symbol": "NXPI",
    "name": "Nxp Semiconductors Nv"
   },
@@ -283,6 +287,10 @@
   {
    "symbol": "ORCL",
    "name": "Oracle Corporation"
+  },
+  {
+   "symbol": "OUST",
+   "name": "Ouster, Inc."
   },
   {
    "symbol": "PENG",
