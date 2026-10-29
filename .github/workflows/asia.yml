@@ -2,10 +2,11 @@ name: Kapanışa göre kısmi yenileme
 
 on:
   schedule:
-    # KOSPI ve Nikkei 225 ikisi de yerel 15:30'da kapanır = 06:30 UTC (Türkiye 09:30). Veri oturduktan sonra 07:20 UTC'de yalnız bu ikisi yenilenir.
-    - cron: "20 7 * * 1-5"
-    # BTC 7/24 işlem görür, günlük kapanış UTC 00:00. 00:10 UTC'de biten günün kapanışı yazılır (ABD işlem günlerine denk gelen Sal-Cum arası).
-    - cron: "10 0 * * 2-6"
+    # KOSPI (KRX kapanış müzayedesi 15:20-15:30 KST) ve Nikkei 225 (TSE kapanış 15:30 JST, 5 Kasım 2024'ten beri) resmi kapanışı 15:30 yerel = 06:30 UTC.
+    # Kapanıştan 15 dakika sonra, 06:45 UTC'de yalnız bu ikisi yenilenir.
+    - cron: "45 6 * * 1-5"
+    # BTC 7/24 işlem görür, günlük mum kapanışı UTC 00:00. Kapanıştan 15 dakika sonra, 00:15 UTC'de biten günün kapanışı yazılır (Sal-Cum arası).
+    - cron: "15 0 * * 2-6"
   push:
     branches: [main]
     paths: [ozet.json]
@@ -49,7 +50,7 @@ jobs:
           SCHED: ${{ github.event.schedule }}
           INPUT: ${{ inputs.only }}
         run: |
-          if [ "$SCHED" = "10 0 * * 2-6" ]; then only=BTC; elif [ -n "$INPUT" ]; then only="$INPUT"; else only="KOSPI,NIKKEI"; fi
+          if [ "$SCHED" = "15 0 * * 2-6" ]; then only=BTC; elif [ -n "$INPUT" ]; then only="$INPUT"; else only="KOSPI,NIKKEI"; fi
           case "$only" in *[!A-Z0-9,]*) echo "geçersiz"; exit 1;; esac
           echo "only=$only" >> "$GITHUB_OUTPUT"
       - name: Yalnız seçilen göstergeyi yenile

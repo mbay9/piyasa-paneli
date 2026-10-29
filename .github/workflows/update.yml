@@ -2,10 +2,10 @@ name: Piyasa verisini güncelle
 
 on:
   schedule:
-    # Kapanış 20:00 UTC (yaz) / 21:00 UTC (kış). İki zamanlama var, "Kapanış kontrolü" işi hangisinin çalışacağını seçer:
-    # yaz saatinde 20:40 UTC, kış saatinde 21:40 UTC çalışır (kapanıştan ~40 dakika sonra), diğeri atlanır.
-    - cron: "40 20 * * 1-5"
-    - cron: "40 21 * * 1-5"
+    # ABD: hisse kapanışı 16:00 ET, Cboe VIX ve SPX endeks kapanışı 16:15 ET (resmi). Güncelleme 16:15 + 15 dk = 16:30 ET'de başlar.
+    # 16:30 ET = 20:30 UTC (yaz) / 21:30 UTC (kış). İki zamanlama var, "Kapanış kontrolü" işi hangisinin çalışacağını seçer, diğeri atlanır.
+    - cron: "30 20 * * 1-5"
+    - cron: "30 21 * * 1-5"
     # Yedek: ilk çalışma başarısız olursa 01:30 UTC'de tekrar dener (bugünün verisi yayındaysa atlanır)
     - cron: "30 1 * * 2-6"
   workflow_dispatch: {}
@@ -32,7 +32,7 @@ jobs:
           if [ "$EVENT" = "schedule" ]; then
             ny=$(TZ=America/New_York date +%H%M)
             today=$(TZ=America/New_York date +%F)
-            if [ "$((10#$ny))" -lt 1635 ]; then run=false; echo "New York $ny: kapanış verisi henüz hazır değil, atlandı"; fi
+            if [ "$((10#$ny))" -lt 1630 ]; then run=false; echo "New York $ny: kapanış verisi henüz hazır değil, atlandı"; fi
             live=$(curl -fsS --max-time 30 "https://mbay9.github.io/piyasa-paneli/data.json?t=$RANDOM" | jq -r '.meta.ref_date' || true)
             if [ "$live" = "$today" ]; then run=false; echo "Bugünün verisi zaten yayında ($live), atlandı"; fi
           fi
