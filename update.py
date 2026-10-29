@@ -18,6 +18,7 @@ import io
 import json
 import math
 import os
+import re
 import sys
 import time
 import datetime as dt
@@ -26,6 +27,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import pandas as pd
 import requests
+from html.parser import HTMLParser
 
 SCRIPT_VERSION = "3"
 HEADERS = {
@@ -841,6 +843,122 @@ def earnings_dates(symbols, ref_date, budget=120):
     return dict(out)
 
 
+SA_EX = {"KS": "krx", "SS": "sha", "T": "tyo", "TW": "tpe"}
+FUND_KEYS = ("fcf", "nc", "fcu", "fcp", "fcd", "ncd", "fet")
+
+
+def sa_base(s):
+    if "." in s:
+        c, x = s.rsplit(".", 1)
+        return f"https://stockanalysis.com/quote/{SA_EX[x]}/{c}" if x in SA_EX else None
+    return f"https://stockanalysis.com/stocks/{s.lower()}"
+
+
+class _Rows(HTMLParser):
+    """Tablo satırlarını hücre metinleri olarak toplar."""
+
+    def __init__(self):
+        super().__init__()
+        self.rows, self._r, self._c = [], None, None
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "tr":
+            self._r = []
+        elif tag in ("td", "th") and self._r is not None:
+            self._c = []
+
+    def handle_endtag(self, tag):
+        if tag in ("td", "th") and self._c is not None and self._r is not None:
+            self._r.append(" ".join("".join(self._c).split()))
+            self._c = None
+        elif tag == "tr" and self._r is not None:
+            if self._r:
+                self.rows.append(self._r)
+            self._r = None
+
+    def handle_data(self, d):
+        if self._c is not None:
+            self._c.append(d)
+
+
+def sa_fetch(url, label):
+    """stockanalysis.com tablosundan en güncel sütunun `label` satırı: (değer milyon, sütun başlığı, dönem sonu ISO, para birimi)."""
+    html = http_get(url, tries=2, timeout=20).text
+    p = _Rows()
+    p.feed(html)
+    u = re.search(r"Financials in (thousands|millions|billions) ([A-Z]{3})", html)
+    mult = {"thousands": 1e-3, "millions": 1.0, "billions": 1e3}[u.group(1)] if u else 1.0
+    val = per = None
+    for row in p.rows:
+        if len(row) > 1 and row[0] == label:
+            val = row[1]
+        if len(row) > 1 and row[0].startswith("Period Ending"):
+            per = row[1]
+    try:
+        v = round(float(val.replace(",", "")) * mult, 2)
+    except Exception:  # noqa: BLE001
+        v = None
+    m = re.search(r"([A-Z][a-z]{2}) (\d{1,2}), (\d{4})", per or "")
+    d = dt.datetime.strptime(" ".join(m.groups()), "%b %d %Y").date().isoformat() if m else None
+    head = p.rows[0][1] if p.rows and len(p.rows[0]) > 1 else None
+    return v, head, d, (u.group(2) if u else None)
+
+
+def fundamentals(symbols, ref_date, budget=300):
+    """FCF (Free Cash Flow) ve Net Cash (Debt): stockanalysis.com en güncel dönem (TTM ya da son mali yıl), milyon, şirketin raporlama para biriminde.
+    Haftada bir (hisse başına 5-9 gün) yenilenir, aradaki günlerde önceki değer kalır. Alınamazsa eski değer korunur."""
+    import threading
+    ref = pd.Timestamp(ref_date).date()
+    prev = {}
+    try:
+        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
+        for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
+            if x.get("fet") and (x.get("fcf") is not None or x.get("nc") is not None):
+                prev[x["symbol"]] = {k: x.get(k) for k in FUND_KEYS}
+    except Exception as e:  # noqa: BLE001
+        log("Önceki temel veriler okunamadı:", repr(e)[:80])
+    out = {s: dict(prev[s]) for s in symbols if s in prev}
+
+    def stale(s):
+        v = prev.get(s)
+        try:
+            return v is None or (ref - dt.date.fromisoformat(v["fet"])).days >= 5 + sum(map(ord, s)) % 5
+        except Exception:  # noqa: BLE001
+            return True
+
+    todo = [s for s in symbols if stale(s)]
+    log(f"temel veriler: {len(symbols) - len(todo)} hisse güncel, {len(todo)} sorgulanacak")
+
+    def work():
+        fails = 0
+        for s in todo:
+            base = sa_base(s)
+            if not base:
+                continue
+            try:
+                f, fh, fd, fc = sa_fetch(base + "/financials/cash-flow-statement/", "Free Cash Flow")
+                time.sleep(0.4)
+                n, nh, nd, nc = sa_fetch(base + "/financials/balance-sheet/", "Net Cash (Debt)")
+                time.sleep(0.4)
+                if f is None and n is None:
+                    continue
+                out[s] = {"fcf": f, "nc": n, "fcu": fc or nc, "fcp": fh, "fcd": fd, "ncd": nd, "fet": ref.isoformat()}
+                fails = 0
+            except Exception as e:  # noqa: BLE001
+                fails += 1
+                log(f"  temel veri alınamadı {s}: {repr(e)[:80]}")
+                if fails >= 5:
+                    log("UYARI: stockanalysis.com art arda hata verdi, temel veri sorguları durdu")
+                    return
+
+    th = threading.Thread(target=work, daemon=True)
+    th.start()
+    th.join(budget)
+    if th.is_alive():
+        log("UYARI: temel veriler süre sınırına ulaştı, eldekilerle devam")
+    return dict(out)
+
+
 def prev_ai():
     """Canlı siteden önceki güncellemenin AI bölümü: (tarih, {sembol: satır}, değişiklik bloğu). Alınamazsa (None, {}, None)."""
     try:
@@ -962,6 +1080,14 @@ def ai_block(ref_date, spy, qqq):
     for x in rows:
         x["earn"], x["earn_est"] = ed.get(x["symbol"], (None, False))
     log(f"bilanço tarihi: {len(ed)}/{len(rows)} hisse")
+    try:
+        fu = fundamentals([x["symbol"] for x in rows], ref_date)
+    except Exception as e:  # noqa: BLE001
+        log("Temel veriler bölümü atlandı:", repr(e)[:120])
+        fu = {}
+    for x in rows:
+        x.update(fu.get(x["symbol"], {}))
+    log(f"temel veriler: {sum(1 for x in rows if x.get('fcf') is not None)}/{len(rows)} hissede FCF")
     try:
         pdate, prows, pchg = prev_ai()
         chg = build_changes(rows, ex, ref_date, pdate, prows, pchg)
