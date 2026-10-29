@@ -28,11 +28,13 @@ elif rg["market_regime"] == "INSUFFICIENT_DATA":
     errs.append("rejim hesaplanamadı (veri yetersiz): " + "; ".join(rg["data_quality"].get("stale_data", []) + rg["data_quality"].get("missing_data", [])))
 if len(d.get("sectors") or []) < 10:
     errs.append("sektör verisi eksik")
-if d["meta"].get("quality", {}).get("level") == "DÜŞÜK":
-    errs.append("veri kalitesi DÜŞÜK: " + "; ".join(d["meta"]["quality"].get("reasons", [])))
+vix_ok = any(v.get("status") == "ok" for v in d["meta"].get("verification", []))
+prox = d["meta"].get("proxy_checks", [])
+if not vix_ok and not (prox and all(p.get("status") == "ok" for p in prox)):
+    errs.append("hiçbir fiyat bağımsız kaynakla doğrulanamadı")
 if errs:
     print("DOĞRULAMA BAŞARISIZ:", *errs, sep="\n - ", file=sys.stderr)
     sys.exit(1)
 ai = d.get("ai", {})
-print("data.json geçerli | referans", ref, "| kalite", d["meta"]["quality"]["level"],
+print("data.json geçerli | referans", ref,
       "| AI:", "var" if ai.get("available") else "eksik")

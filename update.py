@@ -69,7 +69,6 @@ PAIRS = [
 # (panel adı, Yahoo sembolü, izin verilen fark %). Yalnız VIX için resmi günlük dosya (Cboe) runner'dan alınabiliyor.
 PRICE_VERIFY = [("VIX", "^VIX", 0.50)]
 MIN_COVERAGE = 0.95        # altında çalışma durur
-GOOD_COVERAGE = 0.98       # altında veri kalitesi düşer
 HARD_DIFF_PCT = 1.0        # Yahoo-resmi dosya farkı bunu aşarsa çalışma durur
 ISHARES_URL = ("https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/"
                "1467271812596.ajax?fileType=csv&fileName=IVV_holdings&dataType=fund")
@@ -553,37 +552,6 @@ def verify_proxies(frames, ref_date, tol=0.5):
     return out
 
 
-def data_quality(universe, coverage, verification, warnings, proxies=None):
-    level, reasons = 3, []
-    if not universe or not universe["official"]:
-        level = min(level, 2)
-        reasons.append("Hisse listesi resmi kaynaktan alınamadı")
-    if coverage and coverage["ratio"] < GOOD_COVERAGE:
-        level = min(level, 2)
-        reasons.append(f"Hisse kapsamı %{tr(coverage['ratio'] * 100, 1)}")
-    vix_ok = any(v["status"] == "ok" for v in verification)
-    prox_ok = bool(proxies) and all(p["status"] == "ok" for p in proxies)
-    if not vix_ok and not prox_ok:
-        level = 1
-        reasons.append("Hiçbir fiyat bağımsız kaynakla doğrulanamadı")
-    else:
-        if not vix_ok:
-            level = min(level, 2)
-            reasons.append("VIX, Cboe resmi dosyasıyla doğrulanamadı")
-        elif any(v["status"] == "warn" for v in verification):
-            level = min(level, 2)
-            reasons.append("VIX'te Yahoo ile Cboe dosyası arasında küçük fark var")
-        elif not all(v.get("covers_ref") for v in verification if v["status"] == "ok"):
-            reasons.append("Cboe dosyası son günü henüz yayınlamadı, bir önceki güne kadar doğrulandı (sabah yenilenir)")
-        if not prox_ok:
-            level = min(level, 2)
-            reasons.append("S&P 500 ve Nasdaq, SPY ve QQQ ile çapraz doğrulanamadı")
-    if warnings:
-        level = min(level, 2)
-        reasons.append(f"{len(warnings)} veri uyarısı")
-    return {"level": {3: "YÜKSEK", 2: "ORTA", 1: "DÜŞÜK"}[level], "reasons": reasons}
-
-
 # ----------------------------------------------------------------------- ana akış
 # ------------------------------------------------------------------ yapay zeka bölümü
 def load_stock_list():
@@ -641,7 +609,7 @@ def earnings_dates(symbols, ref_date, budget=120):
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
-            if x.get("earn") and not x.get("earn_est") and x["earn"] > ref.isoformat():
+            if x.get("earn") and not x.get("earn_est") and x["earn"] >= ref.isoformat():
                 prev[x["symbol"]] = (x["earn"], False)
     except Exception as e:  # noqa: BLE001
         log("Önceki bilanço tarihleri okunamadı:", repr(e)[:80])
@@ -657,7 +625,7 @@ def earnings_dates(symbols, ref_date, budget=120):
                 ds = []
                 for d in cal.get("Earnings Date") or []:
                     d = d.date() if isinstance(d, dt.datetime) else d
-                    if isinstance(d, dt.date) and ref < d <= lim:
+                    if isinstance(d, dt.date) and ref <= d <= lim:
                         ds.append(d)
                 ds.sort()
                 if ds:
@@ -1172,7 +1140,6 @@ def main():
     if any(p["status"] == "bad" for p in proxies):
         log("HATA: endeks ile ETF getirileri tutarsız, güncelleme iptal:", proxies)
         sys.exit(1)
-    dq = data_quality(universe, coverage, verification, warnings, proxies)
 
     out = {
         "meta": {
@@ -1183,7 +1150,6 @@ def main():
             "universe_source": universe["source"] if universe else None,
             "universe_check": universe["check"] if universe else None,
             "coverage": coverage,
-            "quality": dq,
             "warnings": warnings[:20],
             "verification": verification,
             "proxy_checks": proxies,
@@ -1208,7 +1174,7 @@ def main():
         log("Değişenler (genel) bölümü atlandı:", repr(e)[:120])
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, allow_nan=False, indent=1)
-    log(f"data.json yazıldı | referans kapanış: {ref_date} | kalite: {dq['level']} | "
+    log(f"data.json yazıldı | referans kapanış: {ref_date} | "
         f"kapsam: {coverage['received'] if coverage else '-'}/{coverage['requested'] if coverage else '-'} | "
         f"doğrulama: " + ", ".join(f"{v['id']}={v['status']}" for v in verification))
 
