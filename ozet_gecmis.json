@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2026-10-28",
+    "gun": "yukari",
+    "trend": "yukari",
+    "vix": "normal",
+    "vix_yon": "geriledi",
+    "katilim": "genis",
+    "katilim_yon": "daraldi",
+    "sektor_onde": ["teknoloji", "finans"],
+    "sektor_geride": ["elektrik-su", "gayrimenkul"],
+    "ai": "cok guclu",
+    "not": "ilk kayit"
+  }
+]
