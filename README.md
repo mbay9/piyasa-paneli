@@ -9,4 +9,3 @@ GitHub Actions her işlem günü ABD kapanışından sonra `update.py` ile `data
 - **ETF bileşenleri:** `holdings.json` elle ayda bir yenilenir (SOXX, SMH, DRAM resmi bileşen dosyaları).
 - **Yerelde çalıştırma:** `pip install -r requirements.txt && python test_regime.py && python update.py && python validate.py`
 
-Bilgi amaçlıdır, yatırım tavsiyesi değildir.
