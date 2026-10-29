@@ -141,6 +141,21 @@ def trend_label(close, s50, s200):
     return "Yatay / karışık"
 
 
+TREND_DAYS = 3
+
+
+def confirmed_trend(c, days=TREND_DAYS, warm=40):
+    """Trend etiketi: yeni etiket ancak art arda `days` kapanışta geçerliyse benimsenir, aksi halde önceki etiket sürer."""
+    s50, s200 = c.rolling(50).mean(), c.rolling(200).mean()
+    n = min(len(c), warm + days)
+    labs = [trend_label(float(c.iloc[i]), float(s50.iloc[i]), float(s200.iloc[i])) for i in range(len(c) - n, len(c))]
+    cur = labs[0]
+    for i in range(days - 1, len(labs)):
+        if all(x == labs[i] for x in labs[i - days + 1:i + 1]):
+            cur = labs[i]
+    return labs[-1] if "Belirsiz" in (cur, labs[-1]) else cur
+
+
 def metrics(d, use_volume=True):
     """d: Close ve Volume sütunlu DataFrame (tarih indeksli)."""
     c = d["Close"].astype(float)
@@ -162,7 +177,7 @@ def metrics(d, use_volume=True):
             out[f"sma{n}"] = None
             out[f"above{n}"] = None
             out[f"dist{n}"] = None
-    out["trend"] = trend_label(float(c.iloc[-1]), smas[50], smas[200])
+    out["trend"] = confirmed_trend(c)
     hi = float(c.iloc[-252:].max())
     out["from_high"] = r((c.iloc[-1] / hi - 1) * 100) if hi > 0 else None
     out["vol"] = None
@@ -830,8 +845,13 @@ def prev_ai():
     """Canlı siteden önceki güncellemenin AI bölümü: (tarih, {sembol: satır}, değişiklik bloğu). Alınamazsa (None, {}, None)."""
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-        a = json.loads(http_get(url, tries=2, timeout=30).text)["ai"]
-        return a.get("date"), {x["symbol"]: x for x in a.get("stocks", [])}, a.get("changes")
+        j = json.loads(http_get(url, tries=2, timeout=30).text)
+        a = j["ai"]
+        rows = {x["symbol"]: x for x in a.get("stocks", [])}
+        if (j.get("meta") or {}).get("trend_days") != TREND_DAYS:
+            for x in rows.values():
+                x["trend"] = None  # eski (1 günlük) etiketle kıyas yapma
+        return a.get("date"), rows, a.get("changes")
     except Exception as e:  # noqa: BLE001
         log("Önceki AI verisi okunamadı:", repr(e)[:80])
         return None, {}, None
@@ -1020,6 +1040,7 @@ def build_other_changes(cur, prev):
     if not pref or str(pref) > ref:
         return None
     items = []
+    legacy = (prev.get("meta") or {}).get("trend_days") != TREND_DAYS
 
     def spark_hi(sp):
         if not sp or len(sp) < 22 or any(v is None for v in sp[-22:]):
@@ -1031,7 +1052,7 @@ def build_other_changes(cur, prev):
         if not x or not p or x.get("date") == p.get("date"):
             return
         s = x.get("symbol")
-        t0, t1 = p.get("trend"), x.get("trend")
+        t0, t1 = (None if legacy else p.get("trend")), x.get("trend")
         trend_flip = bool(t0 and t1 and "Belirsiz" not in (t0, t1) and t0 != t1)
         if trend_flip:
             items.append({"a": area, "s": s, "k": "trend", "from": t0, "to": t1, "d1": x.get("d1")})
@@ -1219,6 +1240,7 @@ def main():
             "version": SCRIPT_VERSION,
             "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "ref_date": ref_date,
+            "trend_days": TREND_DAYS,
             "universe_source": universe["source"] if universe else None,
             "universe_check": universe["check"] if universe else None,
             "coverage": coverage,
