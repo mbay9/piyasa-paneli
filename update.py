@@ -54,6 +54,7 @@ ETFS = [
     ("IWM", "iShares Russell 2000 ETF"),
     ("RSP", "Invesco S&P 500 Equal Weight ETF"),
     ("QQQE", "Direxion Nasdaq-100 Equal Weighted ETF"),
+    ("RWJ", "Invesco S&P SmallCap 600 Revenue ETF"),
 ]
 SECTORS = [
     ("XLK", "Technology"), ("XLF", "Financials"), ("XLI", "Industrials"),
