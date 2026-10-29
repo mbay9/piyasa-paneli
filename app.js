@@ -19,7 +19,7 @@
       return sgn(v) + c + (a >= 1e6 ? num(a / 1e6, 2) + " Tr" : a >= 1e3 ? num(a / 1e3, a >= 1e4 ? 0 : 1) + " Mr" : num(a, 0) + " Mn");
     }
     function my(d) { return d ? MONTHS[parseInt(d.split("-")[1], 10) - 1] + " '" + d.slice(2, 4) : ""; }
-    function t(l, v, per) { return '<span class="f ' + (v > 0 ? "y" : "k") + '" tabindex="0" data-tip="' + esc(l + " · " + mm(v) + (per ? " · " + per : "")) + '">' + (l === "FCF" ? "FCF" : "BS") + '</span>'; }
+    function t(l, v, per) { return '<span class="f ' + (v > 0 ? "y" : "k") + '" data-tip="' + esc(l + " · " + mm(v) + (per ? " · " + per : "")) + '">' + (l === "FCF" ? "FCF" : "BS") + '</span>'; }
     var fp = (s.fcp ? s.fcp + " · " : "") + my(s.fcd);
     return ' <span class="lk">' + t("FCF", s.fcf, fp) + (s.nc === null || s.nc === undefined ? "" : t("BS", s.nc, (s.ncp ? s.ncp + " · " : "") + my(s.ncd))) + '</span>';
   }
@@ -352,6 +352,21 @@
       draw();
     }
   });
+  var ftip = null;
+  function hideTip() { if (ftip) ftip.hidden = true; }
+  document.addEventListener("click", function (e) {
+    var f = e.target.closest && e.target.closest(".f[data-tip]");
+    if (!f) { hideTip(); return; }
+    if (!ftip) { ftip = document.createElement("div"); ftip.id = "ftip"; document.body.appendChild(ftip); }
+    var same = !ftip.hidden && ftip.textContent === f.getAttribute("data-tip");
+    if (same) { hideTip(); return; }
+    ftip.textContent = f.getAttribute("data-tip"); ftip.hidden = false;
+    var r = f.getBoundingClientRect(), w = ftip.offsetWidth, hh = ftip.offsetHeight;
+    var l = Math.max(8, Math.min(r.left, window.innerWidth - w - 8)), tp = r.top - hh - 6;
+    if (tp < 8) tp = r.bottom + 6;
+    ftip.style.left = l + "px"; ftip.style.top = tp + "px";
+  });
+  window.addEventListener("scroll", hideTip, { passive: true });
   window.addEventListener("hashchange", show);
   fetch("data.json?v=" + Date.now()).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(render).catch(function (e) {
     document.getElementById("app").innerHTML = '<div class="err">Veri yüklenemedi (' + esc(e.message) + '). Birkaç dakika sonra yenile.</div>';
