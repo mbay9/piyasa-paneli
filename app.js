@@ -173,63 +173,13 @@
       '<p class="fine">Her satırda grubun hisselerinin yüzde kaçı koşulu sağlıyor; ortanca getiri grubun ortadaki hissesinin 20 günlük getirisidir. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
   }
 
-  var SECTR = { XLK: "teknoloji", XLF: "finans", XLE: "enerji", XLV: "sağlık", XLI: "sanayi", XLB: "hammadde", XLY: "isteğe bağlı tüketim", XLP: "temel tüketim", XLU: "elektrik ve su hizmetleri", XLRE: "gayrimenkul", XLC: "iletişim ve medya" };
   var OZ = null;
   function summary(d) {
     if (OZ && OZ.date === d.meta.ref_date && OZ.paragraphs && OZ.paragraphs.length) {
       var as = OZ.asya && OZ.asya.length ? h3q("Gece: Asya ve Bitcoin") + '<div class="sum">' + OZ.asya.map(function (x) { return "<p>" + esc(x) + "</p>"; }).join("") + '</div>' : "";
       return h2("Günün özeti") + '<div class="sum">' + OZ.paragraphs.map(function (x) { return "<p>" + esc(x).replace(/^Özetle:/, "<b>Özetle:</b>") + "</p>"; }).join("") + '</div>' + as;
     }
-    var ix = d.indexes || {}, P = [], spx = ix.SPX, nq = ix.NASDAQ, ru = ix.RUT;
-    function has(v) { return v !== null && v !== undefined; }
-    function med(l) { var q = l.slice().sort(function (x, y) { return x - y; }); return q.length ? (q.length % 2 ? q[(q.length - 1) / 2] : (q[q.length / 2 - 1] + q[q.length / 2]) / 2) : null; }
-    function mv(v) { return v >= 1 ? "güçlü bir şekilde yükseldi" : v >= 0.25 ? "yükseldi" : v > -0.25 ? "neredeyse yatay seyretti" : v > -1 ? "düştü" : "sert düştü"; }
-    var day = spx && has(spx.d1) ? (spx.d1 >= 0.25 ? "up" : spx.d1 <= -0.25 ? "down" : "flat") : null;
-    if (day) {
-      var s = "Bugün ABD borsası genel olarak " + mv(spx.d1) + ".";
-      if (ru && has(ru.d1) && ru.d1 - spx.d1 > 0.4) s += " Küçük şirketler büyüklerden daha iyi bir gün geçirdi.";
-      else if (ru && has(ru.d1) && ru.d1 - spx.d1 < -0.4) s += " Küçük şirketler büyük şirketlerin gerisinde kaldı.";
-      if (nq && has(nq.d1) && nq.d1 - spx.d1 > 0.4) s += " Teknoloji ağırlıklı Nasdaq, genel piyasadan daha güçlüydü.";
-      else if (nq && has(nq.d1) && nq.d1 - spx.d1 < -0.4) s += " Teknoloji ağırlıklı Nasdaq, genel piyasadan daha zayıftı.";
-      var v = ix.VIX;
-      if (v && has(v.close)) s += " Piyasadaki endişeyi ölçen korku endeksi " + (v.close < 15 ? "düşük, yani ortam sakin" : v.close < 20 ? "normal seviyede" : v.close < 30 ? "yüksek, yani yatırımcılar tedirgin" : "çok yüksek, yani ciddi bir endişe var") + (has(v.d1) ? (v.d1 <= -3 ? " ve bugün belirgin şekilde geriledi." : v.d1 >= 3 ? " ve bugün belirgin şekilde yükseldi." : " ve bugün pek değişmedi.") : ".");
-      P.push(s);
-    }
-    var b = d.breadth && d.breadth.ma50;
-    if (b && has(b.pct)) P.push("Hisselerin " + (b.pct >= 70 ? "büyük çoğunluğu" : b.pct >= 50 ? "yarısından fazlası" : b.pct >= 30 ? "yarısından azı" : "çok azı") + " kısa vadeli ortalama fiyatlarının üzerinde. " + (b.d1 >= 0.5 ? "Bu oran bugün arttı; yani yükselişe katılan hisse sayısı genişledi." : b.d1 <= -0.5 ? "Bu oran bugün azaldı; yani yükselişe katılan hisse sayısı daraldı." : "Bu oran bugün hemen hemen değişmedi."));
-    var sc = (d.sectors || []).filter(function (x) { return has(x.d1); });
-    if (sc.length >= 4) {
-      var so = sc.slice().sort(function (x, y) { return y.d1 - x.d1; }), up = sc.filter(function (x) { return x.d1 > 0; }).length;
-      function nm(x) { return SECTR[x.symbol] || x.name; }
-      P.push(up >= sc.length - 2 ? "Sektörlerin neredeyse hepsi yükseldi; en güçlüsü " + nm(so[0]) + " oldu." : up <= 2 ? "Sektörlerin neredeyse hepsi düştü; en çok geriye giden " + nm(so[so.length - 1]) + " oldu." : "Sektörlerde " + nm(so[0]) + " ve " + nm(so[1]) + " öne çıktı; " + nm(so[so.length - 1]) + " ve " + nm(so[so.length - 2]) + " geride kaldı.");
-    }
-    var ai = d.ai;
-    if (ai && ai.etfs) {
-      var ev = ai.etfs.filter(function (m) { return m.available && has(m.d1); }).map(function (m) { return m.d1; }), t = "";
-      if (ev.length) { var av = ev.reduce(function (x, y) { return x + y; }, 0) / ev.length; t = "Yapay zeka ve çip (yarı iletken) şirketleri bugün " + (av >= 1.5 ? "çok güçlü bir gün geçirdi." : av >= 0.4 ? "iyi bir gün geçirdi." : av > -0.4 ? "durgun bir gün geçirdi." : av > -1.5 ? "zayıf bir gün geçirdi." : "sert düşüş yaşadı."); }
-      var st = (ai.stocks || []).filter(function (x) { return has(x.d1); });
-      if (st.length >= 5) {
-        var r = st.filter(function (x) { return x.d1 > 0; }).length / st.length;
-        t += " Takip ettiğin listede " + (r >= 0.75 ? "şirketlerin çoğu yükseldi." : r <= 0.25 ? "şirketlerin çoğu düştü." : "yükselenler ve düşenler dengeliydi.");
-        var big = st.filter(function (x) { return x.mcap >= 1e11; }).map(function (x) { return x.d1; }), sm = st.filter(function (x) { return has(x.mcap) && x.mcap < 1e11; }).map(function (x) { return x.d1; });
-        if (big.length >= 3 && sm.length >= 3) { var df = med(sm) - med(big); t += df > 0.5 ? " Küçük şirketler büyüklerden daha iyi performans gösterdi." : df < -0.5 ? " Büyük şirketler küçüklerden daha iyi performans gösterdi." : " Büyük ve küçük şirketler benzer yönde hareket etti."; }
-      }
-      if (t) P.push(t);
-    }
-    var tl = spx && spx.trend, rg = d.regime && d.regime.market_regime, s2 = "";
-    if (tl) s2 = tl === "Yükseliş" ? "Genel eğilim hâlâ yukarı yönlü." : tl === "Düşüş" ? "Genel eğilim aşağı yönlü." : "Genel eğilim net değil; piyasa yatay ya da kararsız.";
-    if (rg === "RISK_ON") s2 += " Piyasa risk alma modunda.";
-    else if (rg === "RISK_OFF") s2 += " Piyasa temkinli, riskten kaçış modunda.";
-    var ch = ((d.changes && d.changes.items) || []).concat((d.ai && d.ai.changes && d.ai.changes.items) || []).filter(function (i) { return i.k === "trend" && i.s && i.s !== "SPX"; });
-    var better = ch.filter(function (i) { return i.to === "Yükseliş" || (i.from === "Düşüş" && i.to !== "Düşüş"); }).length, worse = ch.filter(function (i) { return i.to === "Düşüş" || (i.from === "Yükseliş" && i.to !== "Yükseliş"); }).length;
-    if (better || worse) s2 += (better ? " Bazı şirket ve fonların genel görünümü iyileşti." : "") + (worse ? " Bazılarının genel görünümü kötüleşti." : "");
-    if (s2) P.push(s2.trim());
-    if (day) {
-      var wide = b && has(b.pct) ? b.pct >= 55 : null, up2 = tl === "Yükseliş";
-      P.push("<b>Özetle:</b> " + (day === "flat" ? "bugün belirgin bir yön yok, piyasa bekleyici." : day === "up" ? (wide === false ? "piyasa yükseldi ama yükselişi az sayıda hisse taşıyor; genel görünümde iyileşme var, katılım zayıf." : up2 ? (b && b.d1 <= -0.5 ? "gün olumlu ve genel eğilim yukarı; ancak yükselişe katılan hisse sayısı bugün azaldı, bunu izlemekte fayda var." : "gün olumlu; yükselişe çok sayıda hisse katılıyor ve genel eğilim yukarı. Tablo sağlıklı görünüyor.") : "bugün yükseliş var ama genel eğilim henüz yukarı dönmüş değil.") : (up2 ? "bugün bir düşüş yaşandı ama genel eğilim henüz bozulmadı." : "hem bugün hem genel eğilim zayıf; temkinli bir tablo var.")));
-    }
-    if (!P.length) return "";
-    return h2("Günün özeti") + '<div class="sum">' + P.map(function (x) { return "<p>" + x + "</p>"; }).join("") + '</div>';
+    return "";
   }
   function chgBox(items, since, note) {
     items = (items || []).filter(function (i) { return i.k !== "sma" && i.k !== "sma50"; });
