@@ -415,6 +415,12 @@
       "teknoloji"
     ],
     "ai": "zayif",
-    "not": "Endeksler (özellikle Nasdaq) düştü, küçük şirketler ve eşit ağırlık yükseldi; yapay zeka dünkü çok güçlüden zayıfa döndü"
+    "not": "Endeksler (özellikle Nasdaq) düştü, küçük şirketler ve eşit ağırlık yükseldi; yapay zeka dünkü çok güçlüden zayıfa döndü",
+    "asya": {
+      "kospi": "asagi",
+      "nikkei": "asagi",
+      "btc": null,
+      "not": "Asya ABD teknoloji/çip zayıflığının ardından sert düştü; Bitcoin verisi güncel değildi (son tarih 28 Eki), yön yazılmadı"
+    }
   }
 ]
