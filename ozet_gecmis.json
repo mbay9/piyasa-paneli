@@ -422,5 +422,24 @@
       "btc": null,
       "not": "Asya ABD teknoloji/çip zayıflığının ardından sert düştü; Bitcoin verisi güncel değildi (son tarih 28 Eki), yön yazılmadı"
     }
+  },
+  {
+    "date": "2026-10-30",
+    "gun": "asagi",
+    "trend": "yukari",
+    "vix": "normal",
+    "vix_yon": "yukseldi",
+    "katilim": "genis",
+    "katilim_yon": "daraldi",
+    "sektor_onde": [
+      "enerji",
+      "temel tuketim"
+    ],
+    "sektor_geride": [
+      "teknoloji",
+      "iletisim"
+    ],
+    "ai": "cok zayif",
+    "not": "Endeksler üst üste ikinci gün düştü, küçük şirketler de düştü; çip ve yapay zeka sert geriledi; geniş endeks orta vadeli ortalamaların altına indi, VIX sıçradı"
   }
 ]
