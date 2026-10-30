@@ -458,6 +458,23 @@ def download(tickers, period="2y", batch=60, tries=3, max_seconds=420):
         if pending and attempt < tries - 1:
             log(f"{len(pending)} sembol eksik, yeniden deneniyor (deneme {attempt + 2}/{tries})")
             time.sleep(5)
+    if 0 < len(pending) <= 10 and time.time() - t0 < max_seconds:
+        # toplu indirmede dönmeyen birkaç sembol için tek tek, ayrı yolla (Ticker.history) son bir deneme; nedeni de günlüğe yazılır
+        import yfinance as yf
+        for t in list(pending):
+            try:
+                h = yf.Ticker(t).history(period=period, interval="1d", auto_adjust=True, timeout=30)
+                d = h[["Close", "Volume"]].dropna(subset=["Close"]).copy()
+                d["Volume"] = d["Volume"].fillna(0)
+                d = d[d["Close"] > 0]
+                d.index = pd.to_datetime(d.index).tz_localize(None).normalize()
+                d = d[~d.index.duplicated(keep="last")].sort_index()
+                log(f"  tek tek deneme {t}: {len(d)} gün" + (f", son {d.index[-1]:%Y-%m-%d}" if len(d) else ""))
+                if len(d):
+                    frames[t] = d
+            except Exception as e:  # noqa: BLE001
+                log(f"  tek tek deneme {t} başarısız:", repr(e)[:200])
+        pending = [t for t in tickers if t not in frames]
     return frames, pending
 
 
