@@ -3,3 +3,8 @@ SONUC: YAZILDI
 Neden: veri guncel (ref_date 2026-10-30, canli_dogrulandi true), ozet main'e push edildi (8ec765a).
 add_repo/clone: depo oturumda zaten klonluydu (detached HEAD, main'e gecildi). NY tarihi 2026-10-30 (Cuma). Bekleme: yok.
 durum.json (ilk): olay workflow_dispatch, build/deploy success, hata bos. Push sonrasi: olay push, 19:45 ET, build/deploy success, canli_dogrulandi true.
+
+--- 2. calistirma ---
+UTC: 2026-10-30 23:46:55 | ET: 2026-10-30 19:46:55
+SONUC: YAZILMADI (zaten yazilmisti)
+Neden: ozet.json date zaten 2026-10-30; ayni ref_date icin yeniden yazilmadi. Yayin durumu: build/deploy success.
