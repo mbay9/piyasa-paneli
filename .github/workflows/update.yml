@@ -60,9 +60,9 @@ jobs:
         run: |
           for i in 1 2 3; do
             if timeout 1200 python update.py 2>&1 | tee update.log; [ "${PIPESTATUS[0]}" = 0 ]; then ok=1; break; fi
-            echo "Deneme $i başarısız, 8 dakika sonra tekrar"
+            echo "Deneme $i başarısız, 3 dakika sonra tekrar"
             echo "::error title=update.py deneme $i başarısız::$(tail -n 12 update.log | cut -c1-300 | sed ':a;N;$!ba;s/\n/%0A/g')"
-            sleep 480
+            sleep 180
           done
           test "$ok" = 1
       - name: Veriyi denetle
