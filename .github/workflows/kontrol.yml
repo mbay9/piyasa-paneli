@@ -2,7 +2,7 @@ name: Sağlık kontrolü
 
 # Her kod değişikliğinde (ozet dosyaları hariç) kod, yapılandırma ve sayfa yayındaki veriyle gerçek tarayıcıda denenir.
 # Zamanlanmış çalıştırmalar nöbetçidir: güncelleme ve günün özeti zamanında geldi mi bakar, gelmediyse nedeniyle birlikte kırmızıya döner
-# (GitHub, başarısız çalışmayı e-posta ile bildirir). Yayını değiştirmez.
+# (GitHub, başarısız çalışmayı e-posta ile bildirir). Zamanlanmış güncelleme ya da Asya yenilemesi hiç başlamamışsa onu kendisi başlatır (kendini onarır).
 on:
   push:
     branches: [main]
@@ -16,7 +16,7 @@ on:
 
 permissions:
   contents: read
-  actions: read
+  actions: write
 
 concurrency:
   group: kontrol

@@ -126,6 +126,15 @@ def onkontrol():
     except Exception as e:  # noqa: BLE001
         kayit("ozet_gecmis.json: kayıtlar tarihli, sıralı, tekrarsız", False, repr(e))
 
+    # görev talimatları (zamanlanmış oturumlar bunları okur)
+    for ad in ("aksam", "sabah"):
+        try:
+            t = open(yol("gorevler", ad + ".md"), encoding="utf-8").read()
+            eksik = [x for x in ("+veri:refs/remotes/origin/veri", "GÜNLÜK", "gorev-" + ad + ".txt", "ozet.json") if x not in t]
+            kayit(f"Görev talimatı gorevler/{ad}.md: veri dalını zorlamalı çeker (+), günlük yazar", not eksik, f"eksik: {eksik}")
+        except FileNotFoundError:
+            kayit(f"Görev talimatı gorevler/{ad}.md var", False, "dosya yok")
+
     # workflow'lar
     try:
         import yaml
@@ -316,6 +325,14 @@ def gh(yolu):
                                     "User-Agent": "saglik-kontrol"}))
 
 
+def gh_post(yolu, govde):
+    rq = urllib.request.Request("https://api.github.com/repos/" + os.environ["REPO"] + yolu, data=json.dumps(govde).encode(), method="POST",
+                                headers={"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Accept": "application/vnd.github+json",
+                                         "User-Agent": "saglik-kontrol", "Content-Type": "application/json"})
+    with urllib.request.urlopen(rq, timeout=30) as r:
+        return r.status
+
+
 def gh_dosya(dal, ad):
     try:
         j = gh(f"/contents/{ad}?ref={dal}")
@@ -334,13 +351,14 @@ def son_islem_gunu(simdi_et):
     return d
 
 
-def nobetci(simdi=None, canli_veri=None, calismalar=None, ozet=None, dosya=None):
+def nobetci(simdi=None, canli_veri=None, calismalar=None, ozet=None, dosya=None, tetikle=None, asia_calismalar=None):
     et = ZoneInfo("America/New_York")
     simdi = simdi or dt.datetime.now(dt.timezone.utc)
     sim_et = simdi.astimezone(et)
     D = son_islem_gunu(sim_et)
     url = os.environ.get("URL", "").rstrip("/") + "/"
     dosya = dosya or gh_dosya
+    tetikle = tetikle or gh_post
     try:
         veri_c = canli_veri or json.loads(http(f"{url}data.json?t={int(simdi.timestamp())}"))
     except Exception as e:  # noqa: BLE001
@@ -366,8 +384,37 @@ def nobetci(simdi=None, canli_veri=None, calismalar=None, ozet=None, dosya=None)
         elif yeni:
             kayit(f"{D} için güncelleme BAŞARISIZ oldu", False, f"çalışma: {[r['conclusion'] for r in yeni]}; veri dalı durum.json: {durum}")
         else:
-            kayit(f"{D} için zamanlanmış güncelleme HİÇ BAŞLAMADI (GitHub zamanlayıcısı gecikmesi ya da kapalı)", False,
-                  f"{sim_et:%H:%M} ET; son çalışmalar: {[(r['created_at'], r['event'], r['conclusion']) for r in runs[:3]]}")
+            neden = f"{sim_et:%H:%M} ET; son çalışmalar: {[(r['created_at'], r['event'], r['conclusion']) for r in runs[:3]]}"
+            try:
+                tetikle("/actions/workflows/update.yml/dispatches", {"ref": "main"})
+                kayit(f"{D} için zamanlanmış güncelleme HİÇ BAŞLAMADI (GitHub zamanlayıcısı gecikmesi); nöbetçi kendisi başlattı", False, neden, uyari=True)
+            except Exception as e:  # noqa: BLE001
+                kayit(f"{D} için zamanlanmış güncelleme HİÇ BAŞLAMADI ve otomatik başlatılamadı", False, f"{neden}; {e!r}")
+    # Asya yenilemesi (yalnız hafta içi, UTC 08:30-20:00): KOSPI ve Nikkei bugünün tarihinde olmalı; tatil ayrımı çalışma sonucundan yapılır
+    if simdi.weekday() < 5 and (8 * 60 + 30) <= simdi.hour * 60 + simdi.minute < 20 * 60:
+        bugun = simdi.date().isoformat()
+        geri = [k for k in ("KOSPI", "NIKKEI") if veri_c.get("indexes", {}).get(k, {}).get("date") != bugun]
+        if geri:
+            try:
+                ar = asia_calismalar if asia_calismalar is not None else gh("/actions/workflows/asia.yml/runs?per_page=15")["workflow_runs"]
+            except Exception as e:  # noqa: BLE001
+                ar = None
+                kayit("Asya yenileme çalışmaları okunuyor", False, repr(e))
+            if ar is not None:
+                bas = dt.datetime(simdi.year, simdi.month, simdi.day, 6, 0, tzinfo=dt.timezone.utc)
+                yeni = [r for r in ar if dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) >= bas]
+                if any(r["conclusion"] == "success" for r in yeni) or any(r["status"] in ("queued", "in_progress") for r in yeni):
+                    kayit(f"Asya endeksleri ({geri}) bugünün tarihinde değil ama yenileme çalıştı/sürüyor (tatil ya da Yahoo gecikmesi olabilir)", True)
+                elif yeni:
+                    kayit(f"Asya yenilemesi BAŞARISIZ oldu ({geri} bugünün tarihinde değil)", False, f"çalışmalar: {[r['conclusion'] for r in yeni]}; veri dalı durum.json: {dosya('veri', 'durum.json')}")
+                else:
+                    try:
+                        tetikle("/actions/workflows/asia.yml/dispatches", {"ref": "main", "inputs": {"only": "KOSPI,NIKKEI"}})
+                        kayit(f"Asya yenilemesi HİÇ BAŞLAMADI (GitHub zamanlayıcısı gecikmesi); nöbetçi kendisi başlattı", False, f"{simdi:%H:%M} UTC; {geri} bugünün tarihinde değil", uyari=True)
+                    except Exception as e:  # noqa: BLE001
+                        kayit("Asya yenilemesi HİÇ BAŞLAMADI ve otomatik başlatılamadı", False, repr(e))
+        else:
+            kayit("Asya endeksleri bugünün tarihinde", True)
     # özet
     try:
         oz = ozet or json.loads(http(f"{url}ozet.json?t={int(simdi.timestamp())}"))
