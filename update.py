@@ -5,7 +5,7 @@ GitHub Actions üzerinde çalışır ve data.json üretir.
 
 Kaynaklar
   - Fiyat/hacim: Yahoo Finance halka açık grafik verisi (yfinance) - resmi borsa verisi DEĞİL.
-    Bu yüzden VIX kapanışı Cboe'nin resmi dosyasıyla, S&P 500 ve Nasdaq Composite ise SPY ve QQQ ile çapraz doğrulanır.
+    Bu yüzden VIX kapanışı Cboe'nin resmi dosyasıyla, S&P 500 SPY ile, Nasdaq Composite ONEQ ile çapraz doğrulanır.
   - S&P 500 hisse listesi: iShares IVV resmi holdings CSV (yedek: datasets/s-and-p-500-companies)
 
 Koruma kuralları (veri uydurmak yerine çalışmayı durdurur, eski sayfa yerinde kalır)
@@ -68,6 +68,7 @@ PAIRS = [
 ]
 # (panel adı, Yahoo sembolü, izin verilen fark %). Yalnız VIX için resmi günlük dosya (Cboe) runner'dan alınabiliyor.
 PRICE_VERIFY = [("VIX", "^VIX", 0.50)]
+PROXY_ONLY = ["ONEQ"]      # yalnız Nasdaq Composite çapraz kontrolü için indirilir, sitede gösterilmez
 MIN_COVERAGE = 0.95        # altında çalışma durur
 HARD_DIFF_PCT = 1.0        # Yahoo-resmi dosya farkı bunu aşarsa çalışma durur
 ISHARES_URL = ("https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf/"
@@ -518,7 +519,7 @@ def cboe_vix():
 
 
 def verify_prices(frames, ref_date):
-    """VIX, Cboe'nin resmi dosyasıyla doğrulanır. SPX ve NASDAQ için resmi günlük dosya alınamıyor; onlar verify_proxies ile SPY ve QQQ'ya karşı kontrol edilir."""
+    """VIX, Cboe'nin resmi dosyasıyla doğrulanır. SPX ve NASDAQ için resmi günlük dosya alınamıyor; onlar verify_proxies ile SPY ve ONEQ'ya karşı kontrol edilir."""
     out = []
     for key, ysym, tol in PRICE_VERIFY:
         item = {"id": key, "source": "Cboe VIX_History", "tol_pct": tol, "kind": "price"}
@@ -535,7 +536,7 @@ def verify_prices(frames, ref_date):
 def verify_proxies(frames, ref_date, tol=0.5):
     """Resmi kaynak yokken: endeksin günlük getirisi ile aynı endeksi izleyen ETF'in getirisi uyuşmalı."""
     out = []
-    for idx_sym, etf_sym, name in (("^GSPC", "SPY", "SPX"), ("^IXIC", "QQQ", "NASDAQ")):
+    for idx_sym, etf_sym, name in (("^GSPC", "SPY", "SPX"), ("^IXIC", "ONEQ", "NASDAQ")):  # ONEQ Nasdaq Composite'i izler; QQQ Nasdaq-100'ü izler (farklı endeks)
         item = {"id": name, "etf": etf_sym, "kind": "proxy"}
         try:
             a, b = frames[idx_sym]["Close"], frames[etf_sym]["Close"]
@@ -1064,7 +1065,7 @@ def main():
     if "--only" in sys.argv:
         return partial_refresh(sys.argv[sys.argv.index("--only") + 1].split(","))
     now = dt.datetime.now(dt.timezone.utc)
-    macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS])
+    macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS] + PROXY_ONLY)
     if "^GSPC" not in macro_frames:
         log("HATA: S&P 500 verisi alınamadı, güncelleme iptal.")
         sys.exit(1)
@@ -1155,7 +1156,7 @@ def main():
             "proxy_checks": proxies,
             "sources": [
                 {"name": "Yahoo Finance halka açık grafik verisi (yfinance)", "official": False,
-                 "use": "Fiyat, hacim, endeksler, ETF'ler. VIX resmi Cboe dosyasıyla, S&P 500 ve Nasdaq SPY ve QQQ ile çapraz kontrol edilir"},
+                 "use": "Fiyat, hacim, endeksler, ETF'ler. VIX resmi Cboe dosyasıyla, S&P 500 SPY ile, Nasdaq Composite ONEQ ile çapraz kontrol edilir"},
                 {"name": "Cboe VIX tarihsel dosyası", "official": True, "use": "VIX doğrulaması (son gün ertesi sabah yayınlanır)"},
                 {"name": universe["source"] if universe else "Hisse listesi alınamadı",
                  "official": bool(universe and universe["official"]), "use": "S&P 500 bileşen listesi"},
