@@ -48,6 +48,8 @@ jobs:
     outputs:
       hata: ${{ steps.uret.outputs.hata }}
       isaret: ${{ steps.iz.outputs.isaret }}
+      kok: ${{ steps.on.outputs.kok }}${{ steps.vr.outputs.kok }}${{ steps.st.outputs.kok }}
+      kontrol: ${{ steps.kz.outputs.kontrol }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
@@ -57,6 +59,11 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Kontrol araçları
+        run: pip install pyyaml playwright
+      - name: "Sağlık ön kontrolü (kod, yapılandırma, hisse listesi, özet dosyaları)"
+        id: on
+        run: python saglik.py onkontrol --cikti kontrol.json
       - name: Rejim kuralı testleri
         run: python test_regime.py
       - name: Veriyi üret (başarısızsa 3 kez dener)
@@ -72,6 +79,9 @@ jobs:
           test "$ok" = 1
       - name: Veriyi denetle
         run: python validate.py
+      - name: "Sağlık kontrolü: veri içeriği"
+        id: vr
+        run: python saglik.py veri --cikti kontrol.json
       - name: Yayın işareti (kayıt işi canlı sitede bunu arar)
         id: iz
         run: echo "isaret=$(jq -r '(.meta.partial_refreshed_at // "") + "|" + .meta.generated_at' data.json)" >> "$GITHUB_OUTPUT"
@@ -82,6 +92,15 @@ jobs:
           # tarayıcı önbelleği eski app.js'i tutmasın diye her yayında sürüm eki
           sed -i "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_RUN_ID}\"|" site/index.html
           grep -q "app.js?v=" site/index.html
+      - name: "Sağlık kontrolü: sayfa gerçek tarayıcıda açılıp denenir"
+        id: st
+        run: python saglik.py site site --cikti kontrol.json
+      - name: Kontrol özeti
+        id: kz
+        if: always()
+        run: |
+          [ -f kontrol.json ] || echo '[]' > kontrol.json
+          echo "kontrol=$(jq -c '[.[]|select(.durum!="ok")|{ad,durum,ayrinti}]' kontrol.json)" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: site
@@ -124,6 +143,9 @@ jobs:
           EVENT: ${{ github.event_name }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           HATA: ${{ needs.build.outputs.hata }}
+          KOK: ${{ needs.build.outputs.kok }}
+          KONTROL: ${{ needs.build.outputs.kontrol }}
+          RUN_ID: ${{ github.run_id }}
 
   keepalive:
     # GitHub, 60 gün hareketsiz public depolarda zamanlanmış çalışmaları kapatır; 45 günde bir boş commit atılır
