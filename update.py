@@ -1038,6 +1038,34 @@ def build_other_changes(cur, prev):
     return {"since": str(pref), "items": items}
 
 
+def patch_asia_close(frames, syms=("^KS11", "^N225")):
+    """Yahoo, kapanmış Asya seansının günlük mumunun kapanışını (close) saatlerce boş (null) bırakabiliyor: mum yalnız open/high/low ile gelir
+    ve yfinance onu atar, gösterge bir gün geride kalır. Seans resmi kapanışını (15:30 yerel = 06:30 UTC) geçmişse ve Yahoo'nun son fiyatının
+    zamanı kapanıştan sonraysa, o son fiyat kapanış olarak eklenir (kapanıştan sonra fiyat değişmez). Yahoo mumu doldurunca kendi değeri geçerli olur."""
+    for sym in syms:
+        f = frames.get(sym)
+        if f is None or not len(f):
+            continue
+        try:
+            j = json.loads(http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=5d&interval=1d", tries=2).text)["chart"]["result"][0]
+            ts, q, meta = j["timestamp"], j["indicators"]["quote"][0], j["meta"]
+            i = len(ts) - 1
+            local = dt.datetime.fromtimestamp(ts[i] + int(meta.get("gmtoffset", 0)), dt.timezone.utc)
+            day = pd.Timestamp(local.strftime("%Y-%m-%d"))
+            if f.index[-1] >= day or q["close"][i] is not None or q["open"][i] is None:
+                continue
+            close_utc = dt.datetime(day.year, day.month, day.day, 6, 30, tzinfo=dt.timezone.utc).timestamp()
+            price, rmt = meta.get("regularMarketPrice"), meta.get("regularMarketTime")
+            if not price or not rmt or rmt < close_utc:
+                log(f"  {sym}: {day:%Y-%m-%d} mumunun kapanışı Yahoo'da henüz yok ve seans bitişi doğrulanamadı, eklenmedi")
+                continue
+            vol = q["volume"][i] or 0
+            frames[sym] = pd.concat([f, pd.DataFrame({"Close": [float(price)], "Volume": [float(vol)]}, index=[day])])
+            log(f"  {sym}: {day:%Y-%m-%d} günlük mumunun kapanışı Yahoo'da boş; kapanış sonrası son fiyat ({price}) kullanıldı")
+        except Exception as e:  # noqa: BLE001
+            log(f"  {sym}: kapanış yaması atlandı:", repr(e)[:120])
+
+
 def partial_refresh(only):
     """Yalnız verilen göstergeler (ör. KOSPI,NIKKEI veya BTC): canlı data.json indirilir, bu göstergeler kendi kapanışına göre yenilenir,
     geri kalan her şey aynen kalır."""
@@ -1049,6 +1077,7 @@ def partial_refresh(only):
         log("HATA: bilinmeyen gösterge:", only)
         sys.exit(1)
     frames, _ = download([s for _, s, _, _ in keys] + ["^GSPC"])  # tek sembollü indirme desteklenmiyor: yanına her zaman ^GSPC eklenir
+    patch_asia_close(frames, [x for x in ("^KS11", "^N225") if any(k[1] == x for k in keys)])
     n = 0
     skipped = 0
     for key, sym, name, h24 in keys:
@@ -1083,6 +1112,7 @@ def main():
         return partial_refresh(sys.argv[sys.argv.index("--only") + 1].split(","))
     now = dt.datetime.now(dt.timezone.utc)
     macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS] + PROXY_ONLY)
+    patch_asia_close(macro_frames)
     if "^GSPC" not in macro_frames:
         log("HATA: S&P 500 verisi alınamadı, güncelleme iptal.")
         sys.exit(1)
