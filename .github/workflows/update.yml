@@ -45,6 +45,9 @@ jobs:
     timeout-minutes: 50
     permissions:
       contents: read
+    outputs:
+      hata: ${{ steps.uret.outputs.hata }}
+      isaret: ${{ steps.iz.outputs.isaret }}
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
@@ -57,16 +60,21 @@ jobs:
       - name: Rejim kuralı testleri
         run: python test_regime.py
       - name: Veriyi üret (başarısızsa 3 kez dener)
+        id: uret
         run: |
           for i in 1 2 3; do
             if timeout 1200 python update.py 2>&1 | tee update.log; [ "${PIPESTATUS[0]}" = 0 ]; then ok=1; break; fi
             echo "Deneme $i başarısız, 3 dakika sonra tekrar"
             echo "::error title=update.py deneme $i başarısız::$( (grep -h 'HATA' update.log | tail -n 5; tail -n 4 update.log) | cut -c1-900 | sed ':a;N;$!ba;s/\n/%0A/g')"
+            echo "hata=deneme $i: $( (grep -h 'HATA' update.log | tail -n 3; tail -n 2 update.log) | cut -c1-400 | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
             sleep 180
           done
           test "$ok" = 1
       - name: Veriyi denetle
         run: python validate.py
+      - name: Yayın işareti (kayıt işi canlı sitede bunu arar)
+        id: iz
+        run: echo "isaret=$(jq -r '(.meta.partial_refreshed_at // "") + "|" + .meta.generated_at' data.json)" >> "$GITHUB_OUTPUT"
       - run: |
           mkdir site
           cp index.html app.js data.json site/
@@ -87,9 +95,35 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+
+  kayit:
+    name: Yayın kaydı (veri dalı)
+    needs: [gate, build, deploy]
+    if: always() && needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - run: bash .github/kayit.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          URL: ${{ needs.deploy.outputs.page_url }}
+          EXPECT: ${{ needs.build.outputs.isaret }}
+          BUILD: ${{ needs.build.result }}
+          DEPLOY: ${{ needs.deploy.result }}
+          EVENT: ${{ github.event_name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          HATA: ${{ needs.build.outputs.hata }}
 
   keepalive:
     # GitHub, 60 gün hareketsiz public depolarda zamanlanmış çalışmaları kapatır; 45 günde bir boş commit atılır
