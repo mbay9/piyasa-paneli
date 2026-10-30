@@ -242,7 +242,7 @@ def site():
                 try:
                     tarayici = pw.chromium.launch()
                 except Exception as e:  # noqa: BLE001  # ortam sorunu, site sorunu değil: yayını engellemez
-                    kayit("Sayfa testi: tarayıcı başlatıldı", False, repr(e)[:300], uyari=True)
+                    kayit("Sayfa testi: tarayıcı başlatıldı", False, repr(e)[:300], uyari=not os.environ.get("GITHUB_ACTIONS"))  # yayın hattında tarayıcı yoksa test atlanmış sayılmaz: yayın durur
                     return
             for ad, w, h in (("masaüstü", 1280, 900), ("telefon", 400, 800)):
                 sayfa = tarayici.new_page(viewport={"width": w, "height": h})
