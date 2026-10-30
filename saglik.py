@@ -126,6 +126,15 @@ def onkontrol():
     except Exception as e:  # noqa: BLE001
         kayit("ozet_gecmis.json: kayıtlar tarihli, sıralı, tekrarsız", False, repr(e))
 
+    # öğrenilen dersler: her derse bağlı önlem kodda gerçekten duruyor mu (önlem silinirse hata geri gelir, yayın durur)
+    try:
+        ders = oku_json(yol("dersler.json"))
+        for d in ders:
+            eksik = [f"{f}: {m}" for f, m in d["kanit"] if m not in open(yol(*f.split("/")), encoding="utf-8").read()]
+            kayit(f"Ders {d['tarih']}: {d['olay'][:70]} (önlem yerinde)", not eksik, f"önlem eksik: {eksik}")
+    except Exception as e:  # noqa: BLE001
+        kayit("dersler.json okunuyor", False, repr(e))
+
     # görev talimatları (zamanlanmış oturumlar bunları okur)
     for ad in ("aksam", "sabah"):
         try:
@@ -415,6 +424,16 @@ def nobetci(simdi=None, canli_veri=None, calismalar=None, ozet=None, dosya=None,
                         kayit("Asya yenilemesi HİÇ BAŞLAMADI ve otomatik başlatılamadı", False, repr(e))
         else:
             kayit("Asya endeksleri bugünün tarihinde", True)
+    # ders: yayın hattı son kayıtta hata bildirdiyse, o tarihten sonra bir ders yazılmış olmalı
+    try:
+        dur = json.loads(dosya("veri", "durum.json"))
+        if dur.get("kok_neden"):
+            gunc = [d["tarih"] for d in oku_json(yol("dersler.json"))]
+            kayit_gun = (dur.get("kayit_et") or dur.get("kayit_utc") or "")[:10]
+            kayit("Son yayın hatası için ders (dersler.json) yazılmış", bool(gunc) and max(gunc) >= kayit_gun,
+                  f"hata {kayit_gun}: {dur['kok_neden'][:200]} — son ders {max(gunc) if gunc else '-'}; nedeni ve kalıcı önlemi dersler.json'a ekle", uyari=True)
+    except Exception:  # noqa: BLE001
+        pass
     # özet
     try:
         oz = ozet or json.loads(http(f"{url}ozet.json?t={int(simdi.timestamp())}"))
