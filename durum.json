@@ -1,0 +1,13 @@
+{
+  "kayit_utc": "2026-10-31T01:04:08Z",
+  "kayit_et": "2026-10-30 21:04",
+  "olay": "schedule",
+  "run": "https://github.com/mbay9/piyasa-paneli/actions/runs/41153414255",
+  "build": "success",
+  "deploy": "success",
+  "canli_dogrulandi": true,
+  "data_ref_date": "2026-10-30",
+  "kok_neden": "",
+  "hata": "",
+  "kontroller": []
+}
