@@ -1066,6 +1066,34 @@ def patch_asia_close(frames, syms=("^KS11", "^N225")):
             log(f"  {sym}: kapanış yaması atlandı:", repr(e)[:120])
 
 
+def patch_btc_close(frames, now=None, sym="BTC-USD"):
+    """Bitcoin günlük mumu UTC 00:00'da kapanır ama Yahoo (ve yfinance) biten günün mumunu bazen saatlerce geç verir: gösterge bir gün geride kalır.
+    Grafik API'sinde kapanışı dolu, bugünden önceki mumlar eksikse doğrudan eklenir (biten günün kapanışı değişmez)."""
+    f = frames.get(sym)
+    if f is None or not len(f):
+        return
+    now = now or dt.datetime.now(dt.timezone.utc)
+    today = pd.Timestamp(now.strftime("%Y-%m-%d"))
+    if f.index[-1] >= today - pd.Timedelta(days=1):
+        return
+    try:
+        j = json.loads(http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=10d&interval=1d", tries=2).text)["chart"]["result"][0]
+        q = j["indicators"]["quote"][0]
+        rows = {}
+        for i, t in enumerate(j["timestamp"]):
+            day = pd.Timestamp(dt.datetime.fromtimestamp(t, dt.timezone.utc).strftime("%Y-%m-%d"))
+            if f.index[-1] < day < today and q["close"][i] is not None:
+                rows[day] = (float(q["close"][i]), float(q["volume"][i] or 0))
+        if rows:
+            add = pd.DataFrame({"Close": [v[0] for v in rows.values()], "Volume": [v[1] for v in rows.values()]}, index=list(rows))
+            frames[sym] = pd.concat([f, add])
+            log(f"  {sym}: yfinance'te eksik mumlar grafik API'sinden eklendi: {[d.strftime('%Y-%m-%d') for d in rows]}")
+        else:
+            log(f"  {sym}: son mum {f.index[-1]:%Y-%m-%d}; grafik API'sinde de yeni kapanış henüz yok")
+    except Exception as e:  # noqa: BLE001
+        log(f"  {sym}: BTC yaması atlandı:", repr(e)[:120])
+
+
 def partial_refresh(only):
     """Yalnız verilen göstergeler (ör. KOSPI,NIKKEI veya BTC): canlı data.json indirilir, bu göstergeler kendi kapanışına göre yenilenir,
     geri kalan her şey aynen kalır."""
@@ -1078,6 +1106,7 @@ def partial_refresh(only):
         sys.exit(1)
     frames, _ = download([s for _, s, _, _ in keys] + ["^GSPC"])  # tek sembollü indirme desteklenmiyor: yanına her zaman ^GSPC eklenir
     patch_asia_close(frames, [x for x in ("^KS11", "^N225") if any(k[1] == x for k in keys)])
+    patch_btc_close(frames, now)
     n = 0
     skipped = 0
     for key, sym, name, h24 in keys:
@@ -1113,6 +1142,7 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS] + PROXY_ONLY)
     patch_asia_close(macro_frames)
+    patch_btc_close(macro_frames)
     if "^GSPC" not in macro_frames:
         log("HATA: S&P 500 verisi alınamadı, güncelleme iptal.")
         sys.exit(1)

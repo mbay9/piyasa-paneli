@@ -399,6 +399,31 @@ def nobetci(simdi=None, canli_veri=None, calismalar=None, ozet=None, dosya=None,
                 kayit(f"{D} için zamanlanmış güncelleme HİÇ BAŞLAMADI (GitHub zamanlayıcısı gecikmesi); nöbetçi kendisi başlattı", False, neden, uyari=True)
             except Exception as e:  # noqa: BLE001
                 kayit(f"{D} için zamanlanmış güncelleme HİÇ BAŞLAMADI ve otomatik başlatılamadı", False, f"{neden}; {e!r}")
+    # Bitcoin (7/24): UTC 00:00'da biten günün kapanışı yazılmış olmalı (hafta sonu dahil her gün, UTC 00:45'ten sonra)
+    if simdi.hour * 60 + simdi.minute >= 45:
+        dun = (simdi.date() - dt.timedelta(days=1)).isoformat()
+        bd = veri_c.get("indexes", {}).get("BTC", {}).get("date")
+        if bd == dun:
+            kayit(f"Bitcoin kapanışı güncel ({bd})", True)
+        else:
+            try:
+                ar = asia_calismalar if asia_calismalar is not None else gh("/actions/workflows/asia.yml/runs?per_page=15")["workflow_runs"]
+            except Exception as e:  # noqa: BLE001
+                ar = None
+                kayit("Bitcoin için yenileme çalışmaları okunuyor", False, repr(e))
+            if ar is not None:
+                bas = dt.datetime(simdi.year, simdi.month, simdi.day, 0, 0, tzinfo=dt.timezone.utc)
+                yeni = [r for r in ar if dt.datetime.fromisoformat(r["created_at"].replace("Z", "+00:00")) >= bas]
+                if any(r["status"] in ("queued", "in_progress") for r in yeni):
+                    kayit(f"Bitcoin kapanışı {bd}, beklenen {dun}: yenileme sürüyor", True)
+                elif simdi.hour * 60 + simdi.minute < 3 * 60 + 45 and not any(r["conclusion"] == "success" for r in yeni):
+                    try:
+                        tetikle("/actions/workflows/asia.yml/dispatches", {"ref": "main", "inputs": {"only": "BTC"}})
+                        kayit(f"Bitcoin kapanışı {bd}, beklenen {dun}; yenileme başlamamıştı, nöbetçi kendisi başlattı", False, f"{simdi:%H:%M} UTC", uyari=True)
+                    except Exception as e:  # noqa: BLE001
+                        kayit("Bitcoin yenilemesi başlatılamadı", False, repr(e))
+                else:
+                    kayit(f"Bitcoin kapanışı {bd}, beklenen {dun}: yenileme çalıştı ama güncel mum gelmedi (Yahoo gecikmesi)", False, f"çalışmalar: {[r['conclusion'] for r in yeni]}", uyari=True)
     # Asya yenilemesi (yalnız hafta içi, UTC 08:30-20:00): KOSPI ve Nikkei bugünün tarihinde olmalı; tatil ayrımı çalışma sonucundan yapılır
     if simdi.weekday() < 5 and (8 * 60 + 30) <= simdi.hour * 60 + simdi.minute < 20 * 60:
         bugun = simdi.date().isoformat()
