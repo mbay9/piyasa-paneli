@@ -8,3 +8,8 @@ durum.json (ilk): olay workflow_dispatch, build/deploy success, hata bos. Push s
 UTC: 2026-10-30 23:46:55 | ET: 2026-10-30 19:46:55
 SONUC: YAZILMADI (zaten yazilmisti)
 Neden: ozet.json date zaten 2026-10-30; ayni ref_date icin yeniden yazilmadi. Yayin durumu: build/deploy success.
+
+=== YEDEK calisma 2026-10-31T01:05:46Z (ET 2026-10-30 21:05:46 EDT) ===
+SONUC: YAZILMADI
+Neden: ozet.json zaten ref_date 2026-10-30 icin yazilmis (ozet_gecmis.json'da da bugunun kaydi var); yedek gorev yeniden yazmadi.
+Depo: /home/claude/piyasa-paneli mevcuttu, git pull --rebase basarili. NY tarihi 2026-10-30. durum.json: build=success deploy=success canli_dogrulandi=true data_ref_date=2026-10-30 hata="". data.json meta.ref_date=2026-10-30. Bekleme yok.
