@@ -151,11 +151,11 @@
       return '<tr><td>' + l + '</td><td>' + (eps === null || eps === undefined ? "–" : num(eps, 2)) + '</td><td>' + (pe === null || pe === undefined ? "–" : num(pe, 1)) + '</td><td>' + (lo === null || lo === undefined ? "–" : num(lo, 2) + " – " + num(hi, 2)) + '</td><td>' + (an || "–") + '</td><td>' + mval(rev, e.revu) + '</td><td>' + (ps === null || ps === undefined ? "–" : num(ps, 1)) + '</td></tr>';
     }
     var out = '<div class="vgrid"><div class="blk wide"><h3>Analist tahminleri</h3><div class="tw"><table><thead><tr><th></th><th>EPS</th><th>İleri F/K</th><th>EPS aralığı</th><th>Analist</th><th>Gelir</th><th>İleri F/S</th></tr></thead><tbody>' +
-      rw("Cari yıl", e.eps0, e.eps0_lo, e.eps0_hi, e.an0, e.rev0, e.pe0, e.ps0) + rw("Gelecek yıl", e.eps1, e.eps1_lo, e.eps1_hi, e.an1, e.rev1, e.pe1, e.ps1) + '</tbody></table></div>' +
+      rw("Mevcut yıl", e.eps0, e.eps0_lo, e.eps0_hi, e.an0, e.rev0, e.pe0, e.ps0) + rw("Gelecek yıl", e.eps1, e.eps1_lo, e.eps1_hi, e.an1, e.rev1, e.pe1, e.ps1) + '</tbody></table></div>' +
       (e.kur_uyari ? '<p class="vn">F/K gösterilmiyor: hisse fiyatı ile EPS tahmini aynı para biriminde olmayabilir (ADR).</p>' : "") + '</div>';
     if (hasPe) {
       function r(l, p, t, f) { return '<tr><td>' + l + '</td><td class="' + cls(p) + '">' + pc(p) + '</td><td class="' + cls(t) + '">' + pc(t) + '</td><td class="' + (f === null || f === undefined ? "neu" : cls(-f)) + '">' + pc(f) + '</td></tr>'; }
-      out += '<div class="blk"><h3>Son 5 ve 20 gün</h3><div class="tw"><table><thead><tr><th></th><th>Fiyat</th><th>Cari yıl EPS tahmini</th><th>İleri F/K</th></tr></thead><tbody>' + r("5 gün", s.d5, e.r5, e.pc5) + r("20 gün", s.d20, e.r20, e.pc20) + '</tbody></table></div><p class="vn">EPS tahmini 7 ve 30 gün önceki tahmine göre. F/K değişiminde yeşil ucuzlama, kırmızı pahalanmadır.</p></div>';
+      out += '<div class="blk"><h3>Son 5 ve 20 gün</h3><div class="tw"><table><thead><tr><th></th><th>Fiyat</th><th>Mevcut yıl EPS tahmini</th><th>İleri F/K</th></tr></thead><tbody>' + r("5 gün", s.d5, e.r5, e.pc5) + r("20 gün", s.d20, e.r20, e.pc20) + '</tbody></table></div><p class="vn">EPS tahmini 7 ve 30 gün önceki tahmine göre. F/K değişiminde yeşil ucuzlama, kırmızı pahalanmadır.</p></div>';
       if (e.pc20 !== null && e.pc20 !== undefined && e.r20 !== null && e.r20 !== undefined) {
         function sg2(v, top) { var wd = Math.min(Math.abs(v) / 15 * 50, 50); return '<div class="sg' + (top ? "" : " b") + '" style="left:' + (v >= 0 ? 50 : 50 - wd) + '%;width:' + wd + '%;background:' + (v > 0 ? "var(--down)" : "var(--up)") + '"></div>'; }
         out += '<div class="blk"><h3>Çarpan neden değişti (20 gün)</h3><div class="vbar" role="img" aria-label="Fiyat ve tahmin etkisi">' + sg2(s.d20, true) + sg2(-e.r20, false) + '</div><p class="vn">Üst çubuk fiyat (' + pc(s.d20) + '), alt çubuk tahmin revizyonu (' + pc(e.r20) + '). Sola giden çubuk çarpanı düşürür (ucuzlar), sağa giden artırır.</p></div>';
@@ -165,7 +165,7 @@
     if (hasPe && bl && bl.for && bl.for < today) { var dm = (e.pe0 / bl.pe - 1) * 100; b2 = '<div class="kv"><span>Bilanço (' + fmtShort(bl.for) + ') öncesi F/K</span><span>' + num(bl.pe, 1) + '</span></div><div class="kv"><span>Bugün</span><span>' + num(e.pe0, 1) + ' <span class="' + cls(-dm) + '">(' + pc(dm) + ')</span></span></div>'; }
     else if (hasPe && s.earn) b2 = '<p class="vn">Bilanço ' + fmtShort(s.earn) + '. Öncesi F/K bu tarihe kadar kaydedilir, bilanço sonrası bugünkü değerle kıyaslanır.</p>';
     else b2 = '<p class="vn">Bilanço öncesi F/K kaydı yok; bir sonraki bilançodan itibaren kaydedilir.</p>';
-    out += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div><p class="vn">Kaynak: Yahoo Finance analist tahminleri. "Cari yıl", şirketin içinde bulunduğu mali yıldır.</p>';
+    out += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div><p class="vn">Kaynak: Yahoo Finance analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
     return out;
   }
   function aiTable(a) {
