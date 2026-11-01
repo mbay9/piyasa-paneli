@@ -142,5 +142,61 @@
     "ADR"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "30 Ekim'de 'Piyasa verisini güncelle' üç kez başarısız oldu (iki zamanlanmış, bir elle)",
+  "kok_neden": "Nasdaq Composite'in günlük getirisi Nasdaq-100'ü izleyen QQQ ile karşılaştırılıyordu; iki farklı endeks olduğundan sert düşüş gününde fark eşiği (0,5 puan) aştı ve güncelleme iptal edildi. Kayıtlı log çıktısı yalnızca elle çalıştırılan koşuda okunabildi, diğer ikisi aynı kodla aynı günde ve aynı çıkış koduyla bitti",
+  "onlem": "Composite, onu izleyen ONEQ ile karşılaştırılıyor; QQQ yalnızca Nasdaq-100 için kullanılıyor",
+  "kanit": [
+   [
+    "update.py",
+    "ONEQ Nasdaq Composite'i izler"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "27 Ekim'de güncelleme, yayın adımında GitHub Pages 500 hatasıyla düştü",
+  "kok_neden": "GitHub Pages'in geçici sunucu hatası (deploy-pages 'Failed to create deployment (status: 500)'); veri doğruydu, yalnızca yayın başarısız oldu",
+  "onlem": "Yayın adımı hata verirse 90 saniye sonra bir kez daha denenir",
+  "kanit": [
+   [
+    ".github/workflows/update.yml",
+    "Yayını yeniden dene"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "Yeni sekme eklenen kod gönderildiğinde 'Sağlık kontrolü' kırmızıya döndü",
+  "kok_neden": "Kod gönderildiğinde sayfa testi yeni app.js'i yayındaki eski data.json ile açıyor; yeni sekmenin verisi henüz yayında olmadığı için sekme çok kısa ('veri yok') görünüp testi geçemedi",
+  "onlem": "Veri yokken gösterilen metin açıklayıcı ve testin içerik eşiğini geçecek uzunlukta; veri gelince tam içerik çizilir",
+  "kanit": [
+   [
+    "app.js",
+    "henüz yayında değil"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "Test işleri (tahmin, endeks) sonuç dosyasını gorev dalına yazarken düştü; bilanço işi de aynı adımda bir kez düştü",
+  "kok_neden": "Bilanço işinde kesin neden: işin kendi çıktı klasörü ile dalın aynı adlı klasörü çakıştı (dala geçerken dosya ezilemedi). Test işlerinde log okunamadı; olası nedenler: değişiklik yokken 'git commit' hata kodu vermesi ya da iki iş aynı anda dala itince çakışma (doğrulanamadı)",
+  "onlem": "Dala yazan tüm işlerde değişiklik yoksa hata verilmez, itme çakışırsa yeniden denenir, bilanço işinde dala geçmeden önce yerel klasör kaldırılır",
+  "kanit": [
+   [
+    ".github/workflows/bilanco.yml",
+    "rm -rf bilanco"
+   ],
+   [
+    ".github/workflows/tahmin-testi.yml",
+    "git rebase"
+   ],
+   [
+    ".github/workflows/kalibrasyon.yml",
+    "git rebase"
+   ]
+  ]
  }
 ]

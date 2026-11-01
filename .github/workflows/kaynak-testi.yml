@@ -26,4 +26,11 @@ jobs:
           cp kaynak-rapor.json /tmp/ && rm -f kaynak-rapor.json
           git fetch -q origin gorev && git checkout -q -B gorev origin/gorev || git checkout -q --orphan gorev
           cp /tmp/kaynak-rapor.json .
-          git add kaynak-rapor.json && git commit -q -m "Kaynak testi" && git push -q origin gorev
+          git add kaynak-rapor.json
+          if git diff --cached --quiet; then echo "değişiklik yok"; else
+            git commit -q -m "Kaynak testi"
+            for i in 1 2 3 4; do
+              git push -q origin gorev && break
+              git fetch -q origin gorev && git rebase -q origin/gorev || { git rebase --abort; exit 1; }
+            done
+          fi

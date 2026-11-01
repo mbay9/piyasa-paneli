@@ -49,4 +49,10 @@ jobs:
           fi
           rm -rf bilanco && cp -r /tmp/cikti bilanco
           git add bilanco
-          git diff --cached --quiet && echo "değişiklik yok" || (git commit -q -m "Bilançolar" && git push -q origin bilanco)
+          if git diff --cached --quiet; then echo "değişiklik yok"; else
+            git commit -q -m "Bilançolar"
+            for i in 1 2 3 4; do
+              git push -q origin bilanco && break
+              git fetch -q origin bilanco && git rebase -q origin/bilanco || { git rebase --abort; exit 1; }
+            done
+          fi

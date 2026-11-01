@@ -26,4 +26,11 @@ jobs:
           cp tahmin-rapor.json /tmp/ && rm -f tahmin-rapor.json
           git fetch -q origin gorev && git checkout -q -B gorev origin/gorev || git checkout -q --orphan gorev
           cp /tmp/tahmin-rapor.json .
-          git add tahmin-rapor.json && git commit -q -m "Tahmin verisi testi" && git push -q origin gorev
+          git add tahmin-rapor.json
+          if git diff --cached --quiet; then echo "değişiklik yok"; else
+            git commit -q -m "Tahmin verisi testi"
+            for i in 1 2 3 4; do
+              git push -q origin gorev && break
+              git fetch -q origin gorev && git rebase -q origin/gorev || { git rebase --abort; exit 1; }
+            done
+          fi

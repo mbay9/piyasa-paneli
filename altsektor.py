@@ -203,10 +203,13 @@ def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None, onceki=None, ai_
         uy = uyum(u, "yoy")
         onc = next((x for x in (onceki or {}).get("gruplar", []) if x["ad"] == g), None)
         uy["onceki"] = ((onc or {}).get("uyum") or {}).get("karar")
-        out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uy, "uyum_qoq": uyum(u, "qoq"),
-                    "okuma": okuma(uy["karar"], k["d20"], k["pe"], ai_pe)})
+        uq = uyum(u, "qoq")
+        uq["onceki"] = ((onc or {}).get("uyum_qoq") or {}).get("karar")
+        # yapay zeka gibi hızlı değişen alanlarda ana okuma bir önceki çeyrektir; geçen yıl mevsimselliği ayıklar, ikisi birlikte gösterilir
+        out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uy, "uyum_qoq": uq,
+                    "okuma": okuma(uq["karar"], k["d20"], k["pe"], ai_pe)})
     adlar = {g["ad"]: g for g in out}
-    zincir = [{"ad": g, "gelir_yoy": adlar[g]["ozet"]["gelir_yoy"], "capex_yoy": adlar[g]["ozet"]["capex_yoy"], "brut_yoy": adlar[g]["ozet"]["brut_yoy"],
+    zincir = [{"ad": g, "gelir_yoy": adlar[g]["ozet"]["gelir_yoy"], "gelir_qoq": adlar[g]["ozet"]["gelir_qoq"], "capex_yoy": adlar[g]["ozet"]["capex_yoy"], "brut_yoy": adlar[g]["ozet"]["brut_yoy"],
                "bil_n": adlar[g]["ozet"]["bil_n"], "d20": adlar[g]["ozet"]["d20"]} for g in ZINCIR if g in adlar]
     olaylar = olaylari_guncelle((onceki or {}).get("olaylar"), kovalar, ref_tarih)
     for o in out:   # çıktı boyutu için üye bilgisindeki olay alanlarını at

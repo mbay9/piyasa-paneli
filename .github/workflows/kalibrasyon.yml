@@ -47,4 +47,10 @@ jobs:
           fi
           cp /tmp/kalibrasyon.out.json kalibrasyon.json
           git add kalibrasyon.json
-          git diff --cached --quiet && echo "değişiklik yok" || (git commit -q -m "Kalibrasyon" && git push -q origin gorev)
+          if git diff --cached --quiet; then echo "değişiklik yok"; else
+            git commit -q -m "Kalibrasyon"
+            for i in 1 2 3 4; do
+              git push -q origin gorev && break
+              git fetch -q origin gorev && git rebase -q origin/gorev || { git rebase --abort; exit 1; }
+            done
+          fi
