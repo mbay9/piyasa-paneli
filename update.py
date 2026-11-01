@@ -1360,6 +1360,13 @@ def main():
     except Exception as e:  # noqa: BLE001
         log("Değerleme özeti atlandı:", repr(e)[:120])
     try:
+        import altsektor
+        gr = json.load(open("gruplar.json", encoding="utf-8"))
+        out["altsektor"] = altsektor.uret(ai.get("stocks") or [], gr, "bilanco" if os.path.isdir("bilanco") else None, out["meta"]["ref_date"])
+        log("alt sektörler:", len(out["altsektor"]["gruplar"]), "grup; gruplanmamış:", out["altsektor"]["atanmamis"], "; bilanço dosyası:", os.path.isdir("bilanco"))
+    except Exception as e:  # noqa: BLE001
+        log("Alt sektörler atlandı:", repr(e)[:120])
+    try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         ch = build_other_changes(out, json.loads(http_get(url, tries=2, timeout=30).text))
         if ch is not None:

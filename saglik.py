@@ -209,6 +209,16 @@ def veri():
         if h is not None and not (isinstance(h, list) and all(isinstance(p, list) and len(p) == 2 and p[1] is not None for p in h)):
             kotu.append(f"{x['symbol']}: eh biçimi")
     kayit("Değerleme: F/K değerleri makul, fiyat/EPS ile tutarlı, para birimi uyumlu", not kotu, "; ".join(kotu[:6]))
+    # alt sektörler: tüm hisseler tam bir kez, tarih güncel, gruplanmamış hisse yok
+    try:
+        al = d.get("altsektor")
+        ok = bool(al) and al.get("tarih") == d["meta"]["ref_date"]
+        syms = [u["s"] for g in (al or {}).get("gruplar", []) for u in g["uyeler"]]
+        ok = ok and sorted(syms) == sorted(x["symbol"] for x in d["ai"]["stocks"])
+        kayit("Alt sektörler: güncel, her hisse tam bir grupta, gruplanmamış hisse yok", bool(ok) and not (al or {}).get("atanmamis"),
+              f"tarih={al.get('tarih') if al else None} gruplanmamış={al.get('atanmamis') if al else None}", uyari=True)
+    except Exception as e:  # noqa: BLE001
+        kayit("Alt sektörler: güncel, her hisse tam bir grupta, gruplanmamış hisse yok", False, repr(e), uyari=True)
     # değerleme özeti: endeks bloğuyla tutarlı, tarihi güncel
     try:
         dg = d.get("degerleme")

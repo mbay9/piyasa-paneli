@@ -339,12 +339,46 @@
     if (o && typeof o === "object") { var r = {}; Object.keys(o).forEach(function (k) { r[k] = clean(o[k]); }); return r; }
     return o;
   }
+  function subsector(d) {
+    var al = d.altsektor;
+    if (!al || al.tarih !== d.meta.ref_date) return h2("Alt sektörler") + '<p class="vn">Bu gün için alt sektör verisi yok.</p>';
+    function c(v, dec, suf) { return v == null ? '<td class="neu">–</td>' : '<td class="' + cls(v) + '">' + (v > 0 ? "+" : v < 0 ? "−" : "") + num(Math.abs(v), dec) + (suf || "%") + "</td>"; }
+    function uyumHucre(u) {
+      if (!u || u.karar === "yetersiz veri") return '<td class="neu">Yetersiz veri' + (u ? " (" + u.n + " bilanço)" : "") + "</td>";
+      var cl = u.karar.indexOf("iyi") >= 0 ? "pos" : u.karar.indexOf("kötü") >= 0 ? "neg" : "neu";
+      return '<td class="' + cl + '">' + esc(u.karar.charAt(0).toUpperCase() + u.karar.slice(1)) + "<small>" + u.iyi + " iyi · " + u.karisik + " karışık · " + u.kotu + " kötü (" + u.n + " şirket)</small></td>";
+    }
+    function plain(v) { return v == null ? '<td class="neu">–</td>' : "<td>" + num(v, 1) + "</td>"; }
+    var rows = al.gruplar.map(function (g) {
+      var o = g.ozet;
+      return "<tr><td><b>" + esc(g.ad) + "</b><small>" + o.n + " hisse · 5 günde " + o.yukselen5 + " yükselen</small></td>" + c(o.d5, 1) + c(o.d20, 1) + c(o.r20, 1) + c(o.eps_b, 0) + plain(o.pe) + c(o.gelir_yoy, 0) + c(o.brut_yoy, 1, " puan") + uyumHucre(g.uyum) + "</tr>";
+    }).join("");
+    var out = h2("Alt sektörler") + '<div class="tw"><table><thead><tr><th>Grup</th><th>5G</th><th>20G</th><th>EPS revizyonu 20G</th><th>EPS büyümesi (gelecek yıl)</th><th>İleri F/K</th><th>Gelir (geçen yıl aynı çeyrek)</th><th>Brüt marj değişimi</th><th>Bilançolar birbirini doğruluyor mu?</th></tr></thead><tbody>' + rows + "</tbody></table></div>" +
+      '<p class="vn">Her sayı grubun medyanıdır (aşırı değerlerden etkilenmez). Fiyat hareketleri 5 ve 20 işlem günlüktür. EPS revizyonu mevcut yıl tahminlerinin son 30 günde değişimi, EPS büyümesi gelecek yıl tahmininin mevcut yıla göre artışıdır. Gelir ve brüt marj, en son bilanço çeyreğinin geçen yılın aynı çeyreğiyle kıyaslamasıdır; hisselerin çeyrek tarihleri aynı olmayabilir.</p>';
+    al.gruplar.forEach(function (g) {
+      var o = g.ozet;
+      var body = g.uyeler.map(function (u) {
+        var b = u.bil || {};
+        return "<tr><td><b>" + esc(tk(u.s)) + "</b></td>" + c(u.d5, 1) + c(u.d20, 1) + c(u.r20, 1) + plain(u.pe) + c(b.yoy_gelir, 0) + c(b.yoy_brut, 1, " puan") + "<td>" + (b.yoy_stok == null ? "–" : (b.yoy_stok > 0 ? "+" : "") + num(b.yoy_stok, 1) + " puan") + "</td><td>" + (u.earn ? fmtShort(u.earn) : "–") + "</td></tr>";
+      }).join("");
+      var u = g.uyum, uy = "";
+      if (u && u.karar !== "yetersiz veri") {
+        var SA = { gelir: "gelir", brut_marj: "brüt marj", faaliyet_marj: "faaliyet marjı", net_marj: "net marj", fcf_marj: "FCF marjı", stok_oran: "stok/gelir" };
+        uy = '<p class="vn"><b>Bilanço uyumu (geçen yılın aynı çeyreğine göre):</b> ' + esc(u.karar) + ". " + Object.keys(u.sinyal).map(function (k) { var x = u.sinyal[k]; return SA[k] + ": " + x.iyi + " iyileşti, " + x.kotu + " kötüleşti"; }).join(" · ") + "." +
+          (u.ayrisan && u.ayrisan.length ? " Ayrışanlar: " + u.ayrisan.map(function (x) { return esc(tk(x)); }).join(", ") + "." : "") + "</p>";
+      }
+      var fc = o.fcf_n ? " · " + o.fcf_pozitif + "/" + o.fcf_n + " hissede FCF pozitif" : "";
+      out += '<details class="sgd"><summary>' + esc(g.ad) + " · " + o.n + " hisse</summary>" + '<p class="vn">Bilançosu kayıtlı ' + o.bil_n + " hisse" + fc + (o.stok_yoy != null ? " · stok/gelir oranı geçen yıla göre medyan " + (o.stok_yoy > 0 ? "+" : "") + num(o.stok_yoy, 1) + " puan" : "") + '.</p>' + uy + '<div class="tw"><table><thead><tr><th>Hisse</th><th>5G</th><th>20G</th><th>EPS rev. 20G</th><th>İleri F/K</th><th>Gelir YoY</th><th>Brüt marj</th><th>Stok/gelir</th><th>Bilanço</th></tr></thead><tbody>' + body + "</tbody></table></div></details>";
+    });
+    return out + (al.atanmamis && al.atanmamis.length ? '<p class="vn">Gruba atanmamış hisseler "Diğer"de: ' + al.atanmamis.map(function (x) { return esc(tk(x)); }).join(", ") + ".</p>" : "");
+  }
   function tabs(d) {
     return '<section class="tab" id="t-genel">' + regime(d.regime) + summary(d) + valuation(d) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + levels(d) + '</section>' +
       '<section class="tab" id="t-genislik">' + chgBox(chgFor("genislik"), d.changes && d.changes.since, "S&P 500 genişliği") + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + chgBox(chgFor("sektor"), d.changes && d.changes.since, "sektör ETF'leri") + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
-      '<section class="tab" id="t-aihisse">' + aiStocks(d.ai) + '</section>';
+      '<section class="tab" id="t-aihisse">' + aiStocks(d.ai) + '</section>' +
+      '<section class="tab" id="t-altsektor">' + subsector(d) + '</section>';
   }
   function show() {
     var h = (location.hash || "#genel").slice(1);
