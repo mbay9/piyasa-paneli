@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt lxml
+      - run: pip install -r requirements.txt lxml openpyxl
       - run: python kaynak_testi.py --rapor kaynak-rapor.json
       - name: Raporu gorev dalına yaz
         run: |
