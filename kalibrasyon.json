@@ -1,0 +1,85 @@
+{
+ "guncelleme": "2026-11-01",
+ "kayitlar": [
+  {
+   "olcu": "nasdaq_oneq",
+   "tarih": "2026-10-30",
+   "bizim": -2.856,
+   "resmi": -2.84,
+   "fark": -0.016,
+   "fark_pct": -0.016,
+   "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
+   "olcu": "spx_spy",
+   "tarih": "2026-10-30",
+   "bizim": -1.818,
+   "resmi": -1.773,
+   "fark": -0.045,
+   "fark_pct": -0.045,
+   "kaynak": "SPY günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
+   "olcu": "vix_cboe",
+   "tarih": "2026-10-30",
+   "bizim": 19.42,
+   "resmi": 19.42,
+   "fark": 0.0,
+   "fark_pct": 0.0,
+   "kaynak": "Cboe VIX_History (resmi)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": null
+  }
+ ],
+ "ozet": {
+  "nasdaq_oneq": {
+   "n": 1,
+   "ort_fark_pct": -0.02,
+   "std_pct": 0.0,
+   "son_fark_pct": -0.016,
+   "son_tarih": "2026-10-30",
+   "durum": "yetersiz veri",
+   "sistematik": false
+  },
+  "spx_spy": {
+   "n": 1,
+   "ort_fark_pct": -0.04,
+   "std_pct": 0.0,
+   "son_fark_pct": -0.045,
+   "son_tarih": "2026-10-30",
+   "durum": "yetersiz veri",
+   "sistematik": false
+  },
+  "vix_cboe": {
+   "n": 1,
+   "ort_fark_pct": 0.0,
+   "std_pct": 0.0,
+   "son_fark_pct": 0.0,
+   "son_tarih": "2026-10-30",
+   "durum": "yetersiz veri",
+   "sistematik": false
+  }
+ },
+ "hatalar": [
+  "ChartRow: değer ya da tarih okunamadı"
+ ],
+ "eklenen": 3,
+ "referans": {
+  "tarih": "2026-10-30",
+  "ileri": 18.7,
+  "ileri_ort5": 19.8,
+  "ileri_ort10": 19.1,
+  "son": 25.9,
+  "son_ort5": 24.4,
+  "son_ort10": 23.7,
+  "kaynak": "FactSet Earnings Insight (S&P 500)",
+  "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+ }
+}
