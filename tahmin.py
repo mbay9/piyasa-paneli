@@ -32,6 +32,13 @@ def tek(sym):
             "rev": _satir(re_, idx, "avg"), "rev_lo": _satir(re_, idx, "low"), "rev_hi": _satir(re_, idx, "high"), "rev_an": _satir(re_, idx, "numberOfAnalysts"),
             "eps_7g": _satir(tr, idx, "7daysAgo"), "eps_30g": _satir(tr, idx, "30daysAgo"), "eps_60g": _satir(tr, idx, "60daysAgo"), "eps_90g": _satir(tr, idx, "90daysAgo"),
         }
+    try:
+        info = t.info or {}
+        out["fye"] = {"son": info.get("lastFiscalYearEnd"), "sonraki": info.get("nextFiscalYearEnd"), "ceyrek": info.get("mostRecentQuarter")}
+        out["y0"]["eps_gecen"] = _satir(ee, "0y", "yearAgoEps")
+        out["y1"]["eps_gecen"] = _satir(ee, "+1y", "yearAgoEps")
+    except Exception:  # noqa: BLE001
+        out["fye"] = None
     return out
 
 
@@ -106,7 +113,7 @@ if __name__ == "__main__":
     sonuc, hata = hepsi(liste)
     alan = lambda k: sum(1 for v in sonuc.values() if v["y0"].get(k) is not None)  # noqa: E731
     rapor = {"toplam": len(liste), "tahmin_var": len(sonuc), "eksik": hata,
-             "kapsam": {k: alan(k) for k in ("eps", "eps_lo", "an", "rev", "eps_7g", "eps_30g", "eps_90g")}, "ornek": dict(list(sonuc.items())[:3]), "veri": sonuc}
+             "kapsam": {k: alan(k) for k in ("eps", "eps_lo", "an", "rev", "eps_7g", "eps_30g", "eps_90g")}, "ornek": dict(list(sonuc.items())[:3]), "fye_var": sum(1 for v in sonuc.values() if v.get("fye") and (v["fye"].get("sonraki") or v["fye"].get("son"))), "veri": sonuc}
     print(json.dumps({k: v for k, v in rapor.items() if k != "veri"}, ensure_ascii=False, indent=1))
     if "--rapor" in sys.argv:
         json.dump(rapor, open(sys.argv[sys.argv.index("--rapor") + 1], "w", encoding="utf-8"), ensure_ascii=False)
