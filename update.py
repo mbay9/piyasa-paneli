@@ -1209,12 +1209,18 @@ def endeks_blok(closes, ref_date, universe_tickers):
         for k in list((b or {}).keys()):
             if isinstance(b[k], dict):
                 b[k].pop("ey", None)
-    # geçmiş: bir satır = tarih,S&P ileri,S&P son(GAAP),Nasdaq-100 ileri,Nasdaq-100 son(GAAP)
+    # geçmiş: bir satır = tarih, S&P ileri, S&P son (düzeltilmiş), S&P son (GAAP), Nasdaq-100 ileri, son (düzeltilmiş), son (GAAP)
     def pe(b, k):
         v = ((b or {}).get(k) or {}).get("pe")
         return "" if v is None else str(v)
-    satir = ",".join([ref_date, pe(spx, "ileri"), pe(spx, "gaap"), pe(ndx, "ileri"), pe(ndx, "gaap")])
-    gec = [x for x in (prev.get("gecmis") or "").split("\n") if x and not x.startswith(ref_date)]
+    satir = ",".join([ref_date, pe(spx, "ileri"), pe(spx, "son"), pe(spx, "gaap"), pe(ndx, "ileri"), pe(ndx, "son"), pe(ndx, "gaap")])
+    gec = []
+    for x in (prev.get("gecmis") or "").split("\n"):
+        p = x.split(",") if x else []
+        if len(p) == 5:  # ilk biçim: düzeltilmiş son 12 ay sütunu yoktu
+            p = [p[0], p[1], "", p[2], p[3], "", p[4]]
+        if len(p) == 7 and p[0] != ref_date:
+            gec.append(",".join(p))
     gec = (gec + [satir])[-800:]
     return {"tarih": ref_date, "spx": spx, "ndx": ndx,
             "kaynak": {"spx": spx_kaynak, "spx_tarih": spx_tarih, "ndx": ndx_kaynak, "ndx_liste_tarih": ndx_tarih,

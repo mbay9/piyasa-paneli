@@ -237,7 +237,7 @@ def veri():
                 bozuk.append(sy)
         kayit("Endeks çarpanı: kazanç önbelleği okunur ve yeterli (en az 450 hisse)", len(ob) >= 450 and not bozuk, f"{len(ob)} hisse; bozuk: {bozuk[:5]}")
         gs = [x.split(",") for x in (en.get("gecmis") or "").split("\n") if x]
-        kayit("Endeks çarpanı: geçmiş satırları düzgün, sonuncusu bugün", bool(gs) and all(len(x) == 5 for x in gs) and gs[-1][0] == en.get("tarih"), gs[-1] if gs else None)
+        kayit("Endeks çarpanı: geçmiş satırları düzgün, sonuncusu bugün", bool(gs) and all(len(x) == 7 for x in gs) and gs[-1][0] == en.get("tarih"), gs[-1] if gs else None)
     idx = d.get("indexes", {})
     geride = {k: v.get("date") for k, v in idx.items() if k in ("SPX", "NASDAQ", "RUT", "VIX") and v.get("date") != ref}
     kayit("Endeksler: ABD endeksleri referans günde", not geride, geride)
@@ -519,6 +519,18 @@ def nobetci(simdi=None, canli_veri=None, calismalar=None, ozet=None, dosya=None,
                   f"hata {kayit_gun}: {dur['kok_neden'][:200]} — son ders {max(gunc) if gunc else '-'}; nedeni ve kalıcı önlemi dersler.json'a ekle", uyari=True)
     except Exception:  # noqa: BLE001
         pass
+    # kalibrasyon: karşılaştırma işi (kalibrasyon.yml) çalışıyor mu, resmi kaynaklardan sapma var mı
+    try:
+        kal = json.loads(dosya("gorev", "kalibrasyon.json"))
+        gun = (simdi.date() - dt.date.fromisoformat(kal["guncelleme"])).days
+        kayit("Kalibrasyon: karşılaştırma işi son 4 günde çalışmış", gun <= 4, f"son çalışma {kal['guncelleme']}", uyari=True)
+        for o, x in (kal.get("ozet") or {}).items():
+            if x.get("durum") == "sapma":
+                kayit(f"Kalibrasyon sapması: {o}", False, f"ortalama fark %{x['ort_fark_pct']}, son fark %{x['son_fark_pct']} ({x['n']} ölçüm); yöntem ya da kaynak farkı incelenmeli", uyari=True)
+        if kal.get("hatalar"):
+            kayit("Kalibrasyon: kaynaklar okunabildi", False, "; ".join(kal["hatalar"])[:300], uyari=True)
+    except Exception:  # noqa: BLE001
+        pass  # dosya henüz yok ya da okunamadı: nöbetçinin ana işini engellemez
     # özet
     try:
         oz = ozet or json.loads(http(f"{url}ozet.json?t={int(simdi.timestamp())}"))

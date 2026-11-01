@@ -1,0 +1,50 @@
+name: Kalibrasyon (resmi çarpanlarla karşılaştırma)
+
+# Sitenin endeks çarpanlarını FactSet (S&P 500), ChartRow ve Siblis (Nasdaq-100) ile karşılaştırır, farkları `gorev` dalındaki kalibrasyon.json'a biriktirir.
+# Siteyi değiştirmez. Sapma ya da kaynak okunamazsa nöbetçi (kontrol.yml) uyarı verir.
+on:
+  schedule:
+    - cron: "10 23 * * 1-6"   # güncellemeden sonra (kış 21:33 UTC + süre); cumartesi FactSet cuma raporunu yakalar
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kalibrasyon
+  cancel-in-progress: false
+
+jobs:
+  kalibre:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt pypdf
+      - run: python test_kalibrasyon.py
+      - name: Dosyaları dallardan al
+        run: |
+          git fetch -q origin +veri:refs/remotes/origin/veri
+          git fetch -q origin +gorev:refs/remotes/origin/gorev || true
+          git show origin/veri:data.json > /tmp/data.json
+          git show origin/gorev:kalibrasyon.json > /tmp/kalibrasyon.json 2>/dev/null || echo '{}' > /tmp/kalibrasyon.json
+      - name: Karşılaştır
+        run: python kalibrasyon.py --veri /tmp/data.json --dosya /tmp/kalibrasyon.json
+      - name: Sonucu gorev dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp /tmp/kalibrasyon.json /tmp/kalibrasyon.out.json
+          if git rev-parse -q --verify origin/gorev >/dev/null; then
+            git checkout -q -B gorev origin/gorev
+          else
+            git checkout -q --orphan gorev
+            git rm -rq --cached . >/dev/null 2>&1 || true
+          fi
+          cp /tmp/kalibrasyon.out.json kalibrasyon.json
+          git add kalibrasyon.json
+          git diff --cached --quiet && echo "değişiklik yok" || (git commit -q -m "Kalibrasyon" && git push -q origin gorev)
