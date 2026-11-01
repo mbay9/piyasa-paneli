@@ -1,0 +1,2123 @@
+[
+ {
+  "s": "MU",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Micron Technology",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Micron Technology, Inc. engages in the provision of semiconductor memory and storage products in the United States, Taiwan, Mainland China, other Asia Pacific countries, Japan, Europe, and internationally. It operates through Cloud Memory Business Unit, Core Data Center Business Unit, Mobile and Client Business Unit, and Automotive and Embedded Business Unit segments. The company provides dynamic random access memory (DRAM) products, including High-Bandwidth Memory, doublie data rate, low-power DRAM, and graphics DRAM products; NAND products comprising solid state drives, managed NAND, and multi-chip packages; and NOR products. The company sells its products under the Micron brand name and p",
+   "ulke": "United States",
+   "ad": "Micron Technology, Inc."
+  },
+  "profil": {
+   "donem": "2026-08-31",
+   "brut_marj": 86.8,
+   "faaliyet_marj": 80.7,
+   "arge": 3.5,
+   "capex": 20.5,
+   "stok": 19.1,
+   "nakit_borc": 71.0
+  }
+ },
+ {
+  "s": "SNDK",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Sandisk",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally. The company provides solid state drives for desktop and notebook PCs, gaming consoles, and set top boxes; and flash-based embedded storage products for mobile phones, tablets, notebook PCs and other portable and wearable devices, automotive applications, Internet of Things, industrial, and connected home applications, as well as removable cards, universal serial bus drives, and wafers and components. It sells its products to computer manufacturers and original equipment manufacturers, datacenters, pri",
+   "ulke": "United States",
+   "ad": "Sandisk Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 84.6,
+   "faaliyet_marj": 78.5,
+   "arge": 3.9,
+   "capex": 0.5,
+   "stok": 30.1,
+   "nakit_borc": 51.0
+  }
+ },
+ {
+  "s": "SKHY",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Sk Hynix American Depositary S",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "SK hynix Inc. through its subsidiaries, engages in research, develops, manufactures, distributes, and sells semiconductor devices in Korea, China, rest of Asia, the United States, Europe, and internationally. It offers DRAM, such as server memory, graphics memory, mobile memory, PC memory, consumer memory; NAND flash memory; SSD; and MCP products. It also engages in foundry business, produces non-memory semiconductors. The company serves its products for server, networking, mobile, personal computer, consumer, and automotive applications. The company was formerly known as Hynix Semiconductor Inc. and changed its name to SK hynix Inc. in March 2012. SK hynix Inc. was incorporated in 1949 and ",
+   "ulke": "South Korea",
+   "ad": "SK hynix Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 83.2,
+   "faaliyet_marj": 76.3,
+   "arge": 4.2,
+   "capex": 14.0,
+   "stok": 22.7,
+   "nakit_borc": 84.0
+  }
+ },
+ {
+  "s": "005930.KS",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Samsung Electronics",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Consumer Electronics",
+   "ozet": "Samsung Electronics Co., Ltd. engages in the consumer electronics, information technology and mobile communications, and device solutions businesses worldwide. The company operates through four divisions: Device eXperience (DX), Device Solutions (DS), SDC, and Harman. The company offers smartphones, tablets, audio sounds, watches, switches, and accessories; TVs, and sound devices; appliances, including refrigerators, washing machines and dryers, vacuum cleaners, cooking appliances, dishwashers, air conditioners, and air purifiers; monitors and memory storage products; displays, and smart and LED signages; and other accessories. It also engages in venture capital investments, cloud services, ",
+   "ulke": "South Korea",
+   "ad": "Samsung Electronics Co., Ltd."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 69.6,
+   "faaliyet_marj": 52.2,
+   "arge": 9.3,
+   "capex": 8.6,
+   "stok": 41.6,
+   "nakit_borc": 98.0
+  }
+ },
+ {
+  "s": "285A.T",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Kioxia Holdings",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Kioxia Holdings Corporation engages in research, development, manufacturing, sales, and other services of memory and related products for solid state drives (SSDs) and storage and smart devices in Japan, North America, Europe, and Asia. The company offers flash memory, SSDs, SD memory cards, and other retail products. It is also involved in the product and software development of SSD products; marketing of memory and SSD products; production management of subcontracted production in the post-process of memory; production and distribution of memory and photomask for semiconductor products; energy management business; and entrusted engineering work of CIM developments, as well as provides clea",
+   "ulke": "Japan",
+   "ad": "Kioxia Holdings Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 78.1,
+   "faaliyet_marj": 71.9,
+   "arge": null,
+   "capex": 3.0,
+   "stok": 24.8,
+   "nakit_borc": -2.0
+  }
+ },
+ {
+  "s": "688825.SS",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "ChangXin Memory Technologies (CXMT)",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "CXMT Corporation engages in the research and development, design, manufacturing, and sales of dynamic random access memory chips in China and Internationally. Its products include DDR4, DDR5, LPDDR4X, LPDDR5/5X, DRAM wafers, DRAM module. The company's other products and services include providing technology and research and development services, wafer foundry services, and sales of related photomask products. It serves servers, mobile devices, personal computers, and smart cars. The company was founded in 2016 and is based in Hefei, China.",
+   "ulke": "China",
+   "ad": "CXMT Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 87.6,
+   "faaliyet_marj": 83.3,
+   "arge": 3.4,
+   "capex": 12.3,
+   "stok": 35.3,
+   "nakit_borc": 42.0
+  }
+ },
+ {
+  "s": "2408.TW",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Nanya Technology",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Nanya Technology Corporation research, develops, manufactures, and sells semiconductor products in Taiwan, Japan, Malaysia, China, the United States, Thailand, Germany, Singapore, Poland and internationally. It offers standard dynamic random-access memory (DRAM), low power DRAM, MCP and eMCP, and KGD products, as well as modules; and other memory products and Elixir brands. The company engages in the import and export of its machinery, equipment, and raw materials. Its products have applications in home and entertainment, office and enterprise, mobile and portable, industrial, and automotive. Nanya Technology Corporation was incorporated in 1995 and is headquartered in New Taipei City, Taiwa",
+   "ulke": "Taiwan",
+   "ad": "Nanya Technology Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 79.5,
+   "faaliyet_marj": 73.7,
+   "arge": 3.9,
+   "capex": 4.9,
+   "stok": 26.1,
+   "nakit_borc": 236.0
+  }
+ },
+ {
+  "s": "2344.TW",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Winbond Electronics",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Winbond Electronics Corporation engages in the research, development, production and sales of integrated circuits, various semiconductor components and other system products. The company offers customized memory solutions, including CUBE(3DCaaS), pseudo static random access memory, DDR/SDR, LPDDR/LPSDR, Known Good Die wafer products; electrical simulation, wafer-level speed testing, and other services; redistribution layers; and failure analysis services, as well as low power SDR, DDR, DDR2, DDR3, and DDR4/4X SDRAM products. It also provides specialty DRAM products, such as SDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, and DDR4 SDRAM products; code storage flash memory products comprising serial",
+   "ulke": "Taiwan",
+   "ad": "Winbond Electronics Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 66.2,
+   "faaliyet_marj": 49.0,
+   "arge": 10.9,
+   "capex": 8.9,
+   "stok": 43.1,
+   "nakit_borc": -14.0
+  }
+ },
+ {
+  "s": "603986.SS",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "GigaDevice Semiconductor",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "GigaDevice Semiconductor Inc. engages in the research, development, technical support, and sale of memory, microcontrollers, sensors, and analog chips. The company offers SPI NOR, SPI NAND, parallel NAND, wafer level chip scale packaging (WLCSP), and known good die (KGD) flash products; 32-bit microcontrollers (MCUs), such as high-performance, mainstream, entry-level, low-power consumptions, automotive, and specific MCUs, as well as wireless MCUs and modules; and sensors comprising touch controllers, fingerprint recognition, and barometric pressure sensors. It also provides analogs consisting of general power supply products, including low drop linear regulators and DC-DC converters; applica",
+   "ulke": "China",
+   "ad": "GigaDevice Semiconductor Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 70.3,
+   "faaliyet_marj": 60.2,
+   "arge": 5.0,
+   "capex": 5.3,
+   "stok": 72.1,
+   "nakit_borc": 224.0
+  }
+ },
+ {
+  "s": "SIMO",
+  "grup": "Bellek (HBM, DRAM, NAND)",
+  "hisse_adi": "Silicon Motion Technology Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Silicon Motion Technology Corporation, together with its subsidiaries, designs, develops, and markets NAND flash controllers for solid-state storage devices and related devices in China, Japan, Singapore, Taiwan, Korea, the United States, and internationally. It offers controllers for computing-grade solid state drives (SSDs), which are used in PCs and other client devices; enterprise-grade SSDs used in enterprise and hyperscale data centers; eMMC and UFS mobile embedded storage for use in smartphones and IoT devices; flash memory cards and flash drives for use in expandable storage; and specialized SSDs that are used in industrial, commercial, and automotive applications. The company market",
+   "ulke": "Hong Kong",
+   "ad": "Silicon Motion Technology Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 53.6,
+   "faaliyet_marj": 29.0,
+   "arge": 20.7,
+   "capex": 4.1,
+   "stok": 155.5,
+   "nakit_borc": -50.0
+  }
+ },
+ {
+  "s": "WDC",
+  "grup": "Depolama",
+  "hisse_adi": "Western Digital",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "Western Digital Corporation engages in the development, manufacture, and sale of data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa. The company offers internal HDDs, data center drives, data center platforms, external drives, portable drives, NAS for home and office, and accessories. It sells its data storage devices and solutions through its computer sales personnel, dealers, distributors, retailers, and subsidiaries. The company has a collaboration with Open Quantum Design for the development of quantum error correction technology and related systems to advance reliable quantum computing. Western Dig",
+   "ulke": "United States",
+   "ad": "Western Digital Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 57.8,
+   "faaliyet_marj": 47.7,
+   "arge": 6.5,
+   "capex": 5.2,
+   "stok": 40.7,
+   "nakit_borc": 12.0
+  }
+ },
+ {
+  "s": "STX",
+  "grup": "Depolama",
+  "hisse_adi": "Seagate Technology",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally. The company offers External and internal hard drives; external and internal solid-state drives (SSDs); enterprise hard drives and SSDs; data storage systems; network attached storage (NAS) hard drives; video and analytics hard drives; and hyperscale and cloud solution. It offers its products for Healthcare, Media & Entertainment, Surveillance & Security, and telecommunication industry. The company sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore",
+   "ulke": "Singapore",
+   "ad": "Seagate Technology Holdings plc"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 57.3,
+   "faaliyet_marj": 48.9,
+   "arge": 4.7,
+   "capex": 5.0,
+   "stok": 40.2,
+   "nakit_borc": -33.0
+  }
+ },
+ {
+  "s": "LITE",
+  "grup": "Optik",
+  "hisse_adi": "Lumentum Holdings Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Lumentum Holdings Inc. manufactures and sells optical and photonic products in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. It offers component products, including semiconductor laser chips, laser sub-assemblies, line subsystems, and wavelength management systems. The company also offers system products, such as optical modules, optical circuit switches, and industrial lasers, including short-pulse solid-state lasers and kilowatt-class fiber lasers. Its products and solutions are used in cloud, artificial intelligence and machine learning (AI/ML), telecommunications, consumer, and industrial end-market applications. The company was incorporated in 2015 and is headquar",
+   "ulke": "United States",
+   "ad": "Lumentum Holdings Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 47.4,
+   "faaliyet_marj": 28.0,
+   "arge": 10.4,
+   "capex": 16.6,
+   "stok": 68.7,
+   "nakit_borc": 106.0
+  }
+ },
+ {
+  "s": "AAOI",
+  "grup": "Optik",
+  "hisse_adi": "Applied Optoelectronics, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Applied Optoelectronics, Inc. engages in the design, manufacture, and sale of fiber-optic networking products in the United States, Taiwan, and China. The company offers optical modules, optical filters, lasers, laser components, subassemblies, transmitters and transceivers, turn-key equipment, headend, node, and distribution equipment, as well as amplifiers. It sells its products to internet data center operators, cable television, telecom equipment manufacturers, fiber-to-the-home, and internet service providers through its direct and indirect sales channels. Applied Optoelectronics, Inc. was incorporated in 1997 and is headquartered in Sugar Land, Texas.",
+   "ulke": "United States",
+   "ad": "Applied Optoelectronics, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 27.7,
+   "faaliyet_marj": -12.4,
+   "arge": 18.2,
+   "capex": 148.8,
+   "stok": 145.3,
+   "nakit_borc": 104.0
+  }
+ },
+ {
+  "s": "COHR",
+  "grup": "Optik",
+  "hisse_adi": "Coherent Corp.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Scientific & Technical Instruments",
+   "ozet": "Coherent Corp. develops, manufactures, and markets lasers, transceivers, other optical and optoelectronic devices, modules, and systems worldwide. Its products include critical components consisting of detectors, passive optics, thermal solutions, and PICS; silicon photonics and other advanced optical technologies; and coherent transmission components, transport products, optical amplifiers, passive optical components, optical line systems, and multi-rail platform. The company's Datacenter and Communications segment offers transceivers, co-packaged optics, and optical circuit switches, as well as other systems, such as subsystems, modules, and semiconductor devices for datacenter and communi",
+   "ulke": "United States",
+   "ad": "Coherent Corp."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 38.5,
+   "faaliyet_marj": 14.9,
+   "arge": 10.6,
+   "capex": 27.5,
+   "stok": 126.2,
+   "nakit_borc": -76.0
+  }
+ },
+ {
+  "s": "FN",
+  "grup": "Optik",
+  "hisse_adi": "Fabrinet",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North America, the Asia-Pacific, Europe, and internationally. The company offers a range of advanced optical and electro-mechanical capabilities in the manufacturing process, including process design and engineering, supply chain management, manufacturing, printed circuit board assembly, packaging, integration, final assembly, and testing. Its products include switching products, including reconfigurable optical add-drop multiplexers, optical amplifiers, modulators, and other optical components and modules that enable network managers to route voice, video, and data communi",
+   "ulke": "Cayman Islands",
+   "ad": "Fabrinet"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 12.0,
+   "faaliyet_marj": 10.2,
+   "arge": null,
+   "capex": 7.0,
+   "stok": 77.6,
+   "nakit_borc": 66.0
+  }
+ },
+ {
+  "s": "CIEN",
+  "grup": "Optik",
+  "hisse_adi": "Ciena Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Ciena Corporation, a network technology company, provides hardware, software, and services for various network operators in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and India. It operates through Networking Platforms, Platform Software and Services, Blue Planet Automation Software and Services, and Global Services segments. The Networking Platforms segment consists optical networking, routing, and switching products and services. This segment products include the 6500 Packet-Optical Platform, Waveserver modular interconnect system, the 6500 Reconfigurable Line System, and coherent pluggable transceivers; and the 3000 family of service delivery platforms and the",
+   "ulke": "United States",
+   "ad": "Ciena Corporation"
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 45.4,
+   "faaliyet_marj": 18.1,
+   "arge": 14.2,
+   "capex": 4.8,
+   "stok": 52.2,
+   "nakit_borc": -39.0
+  }
+ },
+ {
+  "s": "VIAV",
+  "grup": "Optik",
+  "hisse_adi": "Viavi Solutions Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Viavi Solutions Inc. engages in the provision of test and measurement and optical technologies for military, aerospace, railway and first responder communications in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. The company operates in two segments, Network and Service Enablement (NSE) and Optical Security and Performance Products (OSP). The NSE segment provides integrated portfolio of test, monitoring, assurance, and resilient PNT solutions that enable and secure critical infrastructure. This segment also offers instruments, microprobes, and perpetual software licenses that support the development, production, maintenance, and optimization of network systems, as well ",
+   "ulke": "United States",
+   "ad": "Viavi Solutions Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 59.1,
+   "faaliyet_marj": 13.6,
+   "arge": 15.8,
+   "capex": 2.5,
+   "stok": 35.0,
+   "nakit_borc": -11.0
+  }
+ },
+ {
+  "s": "LASR",
+  "grup": "Optik",
+  "hisse_adi": "nLIGHT, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "nLIGHT, Inc. engages in the design, development, manufacture, and sale of semiconductor and fiber lasers for aerospace and defense, industrial, and microfabrication applications. It operates through two segments, Laser Products and Advanced Development. The company offers semiconductor lasers with various ranges of power levels, wavelengths, and output fiber sizes; and programmable and serviceable fiber lasers for use in aerospace and defense and industrial applications. It also provides fiber amplifiers, beam combination, and control systems for use in high-energy laser systems in directed energy applications. The company sells its products through direct sales force in the United States, C",
+   "ulke": "United States",
+   "ad": "nLIGHT, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 31.1,
+   "faaliyet_marj": -4.3,
+   "arge": 15.9,
+   "capex": 5.9,
+   "stok": 58.4,
+   "nakit_borc": 382.0
+  }
+ },
+ {
+  "s": "GLW",
+  "grup": "Optik",
+  "hisse_adi": "Corning Incorporated",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "Corning Incorporated operates in optical communications, display, specialty materials, automotive, and life sciences businesses in the United States, Canada, Mexico, Japan, Taiwan, China, South Korea, Germany, and internationally. The company provides optical fibers and cables; and hardware and equipment products, such as cable assemblies, fiber optic hardware and connectors, optical components and couplers, closures, network interface devices, and other accessories for the telecommunications industry, businesses, governments, and individuals. It also offers glass substrates for flat panel displays, including liquid crystal displays and organic light-emitting diodes that are used in televisi",
+   "ulke": "United States",
+   "ad": "Corning Incorporated"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 36.1,
+   "faaliyet_marj": 15.5,
+   "arge": 6.6,
+   "capex": 9.4,
+   "stok": 76.0,
+   "nakit_borc": -153.0
+  }
+ },
+ {
+  "s": "CRDO",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Credo Technology Group Holding",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Credo Technology Group Holding Ltd provides various high-speed connectivity solutions for optical and electrical Ethernet and PCIe applications in the United States, Taiwan, Mainland China, Hong Kong, and other international markets. The company offers ZeroFlap (ZF) active electrical cables and ZF optical transceivers, OmniConnect memory solutions, and a suite of retimers and DSPs for optical and copper Ethernet and PCIe, as well as integrated circuits, active electrical cables, and SerDes chiplets. It also provides intellectual property (IP) solutions, including SerDes IP licensing. The company offers was founded in 2008 and is headquartered in Grand Cayman, the Cayman Islands.",
+   "ulke": "Cayman Islands",
+   "ad": "Credo Technology Group Holding Ltd"
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 64.5,
+   "faaliyet_marj": 25.2,
+   "arge": 23.9,
+   "capex": 1.5,
+   "stok": 65.4,
+   "nakit_borc": 154.0
+  }
+ },
+ {
+  "s": "ALAB",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Astera Labs",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Astera Labs, Inc. designs, manufactures, and sells semiconductor-based connectivity solutions for cloud and AI infrastructure in Taiwan and the United States. It offers an intelligent connectivity platform, comprised of semiconductor-based, high-speed, mixed-signal connectivity products that integrate a matrix of microcontrollers and sensors, and COSMOS. The company provides COSMOS software suite, a connectivity system management and optimization software that enables management and optimization of resources for large fleets at cloud-scale via link, fleet, and RAS management capabilities. In addition, it offers PCIe/CXL smart DSP retimers and cable modules; ethernet smart cable modules for c",
+   "ulke": "United States",
+   "ad": "Astera Labs, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 73.3,
+   "faaliyet_marj": 22.7,
+   "arge": 34.6,
+   "capex": 5.2,
+   "stok": 29.0,
+   "nakit_borc": null
+  }
+ },
+ {
+  "s": "MTSI",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Macom Technology Solutions",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "MACOM Technology Solutions Holdings, Inc., together with its subsidiaries, provides analog semiconductor solutions for use in wireless and wireline applications across the radio frequency (RF), microwave, millimeter wave, and lightwave spectrum. The company offers a portfolio of standard and custom devices, including integrated circuits, multi-chip modules, diodes, amplifiers, switches and switch limiters, passive and active components, and subsystems. Its semiconductor products are electronic components that are incorporated in electronic systems, such as wireless base stations, optical networks, radar and medical systems, satellite networks, and test and measurement applications. The compa",
+   "ulke": "United States",
+   "ad": "MACOM Technology Solutions Holdings, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 58.3,
+   "faaliyet_marj": 22.5,
+   "arge": 21.7,
+   "capex": 24.2,
+   "stok": 82.3,
+   "nakit_borc": 83.0
+  }
+ },
+ {
+  "s": "SMTC",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Semtech Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base station optical transceivers, and interface applications; and video products for broadcast applications, ",
+   "ulke": "United States",
+   "ad": "Semtech Corporation"
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 53.8,
+   "faaliyet_marj": 16.2,
+   "arge": 17.7,
+   "capex": 2.4,
+   "stok": 50.0,
+   "nakit_borc": -84.0
+  }
+ },
+ {
+  "s": "MXL",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "MaxLinear, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "MaxLinear, Inc. provides communications systems-on-chip solutions in the United States, Asia, Europe, and internationally. Its products integrate various portions of a high-speed communication system, including radio frequency, high-performance analog, mixed-signal, digital signal processing, security engines, data compression and networking layers, and power management. Its products are used in various electronic devices, such as radio transceivers and modems for 4G/5G base-station and backhaul infrastructure; optical transceivers; wi-fi and wireline routers for home networking; broadband modems compliant with data over cable service interface specifications, passive optical fiber standards",
+   "ulke": "United States",
+   "ad": "MaxLinear, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 58.7,
+   "faaliyet_marj": 14.0,
+   "arge": 27.8,
+   "capex": 4.4,
+   "stok": 52.2,
+   "nakit_borc": -48.0
+  }
+ },
+ {
+  "s": "ANET",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Arista Networks, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "Arista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyon",
+   "ulke": "United States",
+   "ad": "Arista Networks, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 62.9,
+   "faaliyet_marj": 45.4,
+   "arge": 11.5,
+   "capex": 1.0,
+   "stok": 83.5,
+   "nakit_borc": null
+  }
+ },
+ {
+  "s": "CSCO",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Cisco Systems, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Cisco Systems, Inc. designs, develops, and sells technologies to power, help, secure, and draw insights from the internet in the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and China. The company provides data center switching; network security, identity and access management, and secure access service edge; identity and agentic security solutions; interconnects public and private wireline and mobile networks, delivering connectivity to campus, data center, and branch networks; WEBEX suite, collaboration devices, and contact center; communication platform as a service software, including perpetual licenses, subscription arrangements, and hardware solutions; network as",
+   "ulke": "United States",
+   "ad": "Cisco Systems, Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 64.1,
+   "faaliyet_marj": 27.7,
+   "arge": 14.1,
+   "capex": 2.3,
+   "stok": 33.0,
+   "nakit_borc": -79.0
+  }
+ },
+ {
+  "s": "NOK",
+  "grup": "Bağlantı çipleri ve ağ",
+  "hisse_adi": "Nokia Oyj",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Nokia Oyj, together with its subsidiaries, provides mobile, fixed, and cloud network solutions in North and Latin America, Greater China, India, Asia Pacific, Europe, the Middle East, and Africa. It operates in four segments: Network Infrastructure, Mobile Networks, Cloud and Network Services, and Nokia Technologies. The company offers fixed network solutions, such as fiber and copper technologies, access infrastructure, in-home Wi-Fi solutions, and cloud and virtualization services; IP network solutions, which delivers IP edge routing and data center networking solutions for residential, mobile, enterprise, and cloud applications; and optical networks solutions, which provides optical trans",
+   "ulke": "Finland",
+   "ad": "Nokia Oyj"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 42.2,
+   "faaliyet_marj": 3.8,
+   "arge": 24.3,
+   "capex": 3.8,
+   "stok": 55.9,
+   "nakit_borc": 32.0
+  }
+ },
+ {
+  "s": "NVDA",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Nvidia",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "NVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sell",
+   "ulke": "United States",
+   "ad": "NVIDIA Corporation"
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 75.0,
+   "faaliyet_marj": 66.2,
+   "arge": 7.3,
+   "capex": 2.8,
+   "stok": 32.8,
+   "nakit_borc": 25.0
+  }
+ },
+ {
+  "s": "AMD",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Advanced Micro Devices",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Advanced Micro Devices, Inc. operates as a semiconductor company internationally. It operates in three segments: Data Center, Client and Gaming, and Embedded. The company offers artificial intelligence (AI) accelerators, microprocessors, and graphics processing units (GPUs) as standalone devices or as incorporated into accelerated processing units, chipsets, and data center and professional GPUs; and embedded processors and semi-custom system-on-chip (SoC) products, microprocessor and SoC development services and technology, data processing units, field programmable gate arrays (FPGA), system on modules, AI network interface cards, and adaptive SoC products. It provides processors under the ",
+   "ulke": "United States",
+   "ad": "Advanced Micro Devices, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 53.8,
+   "faaliyet_marj": 17.3,
+   "arge": 21.9,
+   "capex": 7.0,
+   "stok": 73.4,
+   "nakit_borc": 77.0
+  }
+ },
+ {
+  "s": "INTC",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Intel Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Intel Corporation designs, develops, manufactures, markets, sells, and services computing and related end products and services in the United States, Ireland, Israel, and internationally. It operates through three segments: CCG, DCAI, and Intel Foundry. The company offers client computing group products, including client and commercial CPUs, discrete client GPUs, edge computing, and connectivity products; data center and AI products, such as server CPUs, discrete GPUs, and networking products; and semiconductors comprising wafer fabrication, substrates, and other related products and services. It also provides driving assistance and self-driving solutions; and develops and manufactures multi",
+   "ulke": "United States",
+   "ad": "Intel Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 40.4,
+   "faaliyet_marj": 12.2,
+   "arge": 20.9,
+   "capex": 15.8,
+   "stok": 77.5,
+   "nakit_borc": -129.0
+  }
+ },
+ {
+  "s": "ARM",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Arm Holdings American Deposita",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Arm Holdings plc researches, develops, licenses, and markets central processing unit (CPU) intellectual property (IP), graphics processing unit IP, systems IP, compute subsystems (CSS), and associated software, tools and related services. The company provides a product portfolio, including CPU IP, GPU and neural processing unit (NPU) accelerators, system IP such as interconnects, compute platform products including pre-integrated CSSs, and development tools and software. The company serves semiconductor companies, original equipment manufacturers (OEMs), cloud service providers (CSPs), and organizations developing chips for end markets such as smartphones, consumer electronics, industrial Io",
+   "ulke": "United Kingdom",
+   "ad": "Arm Holdings plc"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 97.2,
+   "faaliyet_marj": 7.6,
+   "arge": 65.0,
+   "capex": 16.1,
+   "stok": null,
+   "nakit_borc": 266.0
+  }
+ },
+ {
+  "s": "QCOM",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Qualcomm",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "QUALCOMM Incorporated engages in the development and commercialization of foundational technologies for the wireless industry worldwide. It operates through three segments: Qualcomm CDMA Technologies (QCT); Qualcomm Technology Licensing (QTL); and Qualcomm Strategic Initiatives (QSI). The QCT segment develops and supplies integrated circuits and system software with connectivity and computing technologies for use in mobile devices; automotive systems for connectivity, digital cockpit, and ADAS/AD; and IoT, including consumer electronic devices, industrial devices, and edge networking products. The QTL segment grants licenses or provides rights to use portions of its intellectual property por",
+   "ulke": "United States",
+   "ad": "QUALCOMM Incorporated"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 53.1,
+   "faaliyet_marj": 16.3,
+   "arge": 26.2,
+   "capex": 5.0,
+   "stok": 84.2,
+   "nakit_borc": -70.0
+  }
+ },
+ {
+  "s": "AVGO",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Broadcom Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solut",
+   "ulke": "United States",
+   "ad": "Broadcom Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 69.1,
+   "faaliyet_marj": 54.3,
+   "arge": 9.8,
+   "capex": 1.8,
+   "stok": 15.3,
+   "nakit_borc": -120.0
+  }
+ },
+ {
+  "s": "MRVL",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Marvell Technology",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally. The company develops and scales system-on-a-chip architectures, integrating analog, mixed-signal, and digital signal processing functionality. It offers a portfolio of ethernet solutions, including spanning controllers, network adapters, physical transceivers, and switches; single or multiple core processors; and custom application specific integrated circuits, interconnects, fibre channel adapters, and processo",
+   "ulke": "United States",
+   "ad": "Marvell Technology, Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 53.1,
+   "faaliyet_marj": 16.7,
+   "arge": 27.1,
+   "capex": 4.8,
+   "stok": 49.7,
+   "nakit_borc": -49.0
+  }
+ },
+ {
+  "s": "CBRS",
+  "grup": "İşlemci ve hızlandırıcı",
+  "hisse_adi": "Cerebras Systems Inc Class A",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Cerebras Systems Inc. operates as an artificial intelligence infrastructure company. It designs and manufactures an AI compute platform that comprises of proprietary systems and software that is delivered in racks for deployment in data centers up to supercomputer scale. The company's pioneering wafer-scale engine, a chip encompassing a silicon wafer, designed to enable higher performance and speeds than GPUs for the computational demands of inference, Generative AI, and other AI applications. Its customers include hyperscalers, foundation model labs, AI-native and digital-native businesses, enterprises, and leaders of Sovereign AI initiatives. The company has operations in the United States",
+   "ulke": "United States",
+   "ad": "Cerebras Systems Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 14.2,
+   "faaliyet_marj": -265.0,
+   "arge": 177.8,
+   "capex": 231.5,
+   "stok": 18.1,
+   "nakit_borc": 3573.0
+  }
+ },
+ {
+  "s": "TSM",
+  "grup": "Foundry ve paketleme",
+  "hisse_adi": "Taiwan Semiconductor Manufactu",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides various wafer fabrication processes, such as processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also involved in providing customer and engineering support services; manufacturing of masks; investment in technology start-up companies; research, designing, developing, manufacturing, pa",
+   "ulke": "Taiwan",
+   "ad": "Taiwan Semiconductor Manufacturing Company Limited"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 66.4,
+   "faaliyet_marj": 58.7,
+   "arge": 6.0,
+   "capex": 29.7,
+   "stok": 28.6,
+   "nakit_borc": 203.0
+  }
+ },
+ {
+  "s": "GFS",
+  "grup": "Foundry ve paketleme",
+  "hisse_adi": "GLOBALFOUNDRIES Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "GLOBALFOUNDRIES Inc., a semiconductor foundry, provides range of mainstream wafer fabrication services and technologies in the United States, Europe, the Middle East, Africa, and internationally. It offers semiconductor devices, including microprocessors, mobile application processors, baseband processors, network processors, radio frequency modems, microcontrollers, and power management units. The company also provides quantum technology solutions. GLOBALFOUNDRIES Inc. has a strategic partnership with the U.S. Department of Energy's Genesis Mission to accelerate scientific discovery through artificial intelligence and advanced computing; and Xanadu Quantum Technologies Limited to accelerate",
+   "ulke": "United States",
+   "ad": "GLOBALFOUNDRIES Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 28.3,
+   "faaliyet_marj": 9.7,
+   "arge": 9.7,
+   "capex": 23.0,
+   "stok": 90.8,
+   "nakit_borc": 40.0
+  }
+ },
+ {
+  "s": "UMC",
+  "grup": "Foundry ve paketleme",
+  "hisse_adi": "United Micro Electronics Adr R",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "United Microelectronics Corporation operates as a semiconductor wafer foundry in Taiwan, China, Hong Kong, Japan, Korea, the United States, Europe, and internationally. It manufactures and sells integrated circuits. The company offers circuit design; mask tooling; wafer fabrication; and assembly and testing services for communication devices, consumer electronics, computer, and other applications. It also provides venture capital and marketing support; consulting and planning; energy technical; solar engineering integrated design; research and development services; and insurance services. United Microelectronics Corporation was incorporated in 1980 and is headquartered in Hsinchu City, Taiwa",
+   "ulke": "Taiwan",
+   "ad": "United Microelectronics Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 34.0,
+   "faaliyet_marj": 25.0,
+   "arge": 6.1,
+   "capex": 16.2,
+   "stok": 51.7,
+   "nakit_borc": 109.0
+  }
+ },
+ {
+  "s": "TSEM",
+  "grup": "Foundry ve paketleme",
+  "hisse_adi": "Tower Semiconductor",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Tower Semiconductor Ltd., an independent semiconductor foundry, provides technology, development, and process platforms for integrated circuits in the United States, Japan, rest of Asia, and Europe. It provides customizable process technologies, including SiGe, SiPho, mixed signal CMOS, RF CMOS, CMOS image sensors, non-imaging sensors, wafers, and integrated power management. The company also offers a design enablement platform for a design cycle, as well as transfer optimization and development process services to integrated device manufacturers and fabless companies. It serves consumer applications, personal computers, communications, handsets and smartphones, automotive, industrial, aeros",
+   "ulke": "Israel",
+   "ad": "Tower Semiconductor Ltd."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 29.9,
+   "faaliyet_marj": 19.6,
+   "arge": 5.1,
+   "capex": 40.6,
+   "stok": 53.1,
+   "nakit_borc": 291.0
+  }
+ },
+ {
+  "s": "ASX",
+  "grup": "Foundry ve paketleme",
+  "hisse_adi": "Ase Technology Holding Adr Rep",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "ASE Technology Holding Co., Ltd., together with its subsidiaries, provides semiconductor manufacturing services in the United States, Taiwan, rest of Asia, Europe, and internationally. It operates through Packaging, Testing, and EMS. The company offers semiconductor packaging, interconnect materials production, front-end engineering testing, wafer probing, and final testing services, as well as integrated solutions for EMS (electronic manufacturing services) in relation to computing, peripherals, communications, industrial, automotive, and server applications. It also provides turnkey services, such as packaging, testing, and direct shipment of semiconductors to end users; wire bonding, incl",
+   "ulke": "Taiwan",
+   "ad": "ASE Technology Holding Co., Ltd."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 22.1,
+   "faaliyet_marj": 13.6,
+   "arge": 4.6,
+   "capex": 51.5,
+   "stok": 40.8,
+   "nakit_borc": -117.0
+  }
+ },
+ {
+  "s": "AMKR",
+  "grup": "Foundry ve paketleme",
+  "hisse_adi": "Amkor Technology, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Amkor Technology, Inc. provides outsourced semiconductor packaging and test services in the United States, Japan, Europe, and the Asia Pacific. It offers turnkey packaging and test services, including semiconductor wafer bump, wafer probe, wafer back-grind, package design, packaging, burn-in, system-level and final test, and drop shipment services; flip chip scale package products for smartphones, tablets, and other mobile consumer electronic devices; flip chip stacked chip scale packages that are used to stack memory digital baseband, and as applications processors in mobile devices; flip-chip ball grid array packages for various networking, storage, computing, automotive, and consumer appl",
+   "ulke": "United States",
+   "ad": "Amkor Technology, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 18.3,
+   "faaliyet_marj": 11.3,
+   "arge": 2.0,
+   "capex": 27.5,
+   "stok": 30.3,
+   "nakit_borc": -11.0
+  }
+ },
+ {
+  "s": "ASML",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Asml Holding Adr Representing",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "ASML Holding N.V. provides lithography solutions for the development, production, marketing, sales, upgrading, and servicing of advanced semiconductor equipment systems. The company offers lithography, metrology, and inspection systems. It also provides extreme ultraviolet lithography systems; and deep ultraviolet lithography systems comprising immersion and dry lithography systems solutions to manufacture various range of semiconductor nodes and technologies. In addition, the company offers metrology and inspection systems, including YieldStar optical metrology systems, a diffraction-based wafer metrology platform to assess the quality of patterns on the wafers; and HMI electron beam soluti",
+   "ulke": "Netherlands",
+   "ad": "ASML Holding N.V."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 57.4,
+   "faaliyet_marj": 44.4,
+   "arge": 10.1,
+   "capex": 3.8,
+   "stok": 102.1,
+   "nakit_borc": 92.0
+  }
+ },
+ {
+  "s": "AMAT",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Applied Material Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Applied Materials, Inc. provides materials engineering solutions, equipment, services, and software to the semiconductor and related industries in the United States, China, Korea, Taiwan, Japan, Southeast Asia, Europe, and internationally. The company operates through Semiconductor Systems and Applied Global Services (AGS) segments. The Semiconductor Systems segment includes semiconductor capital equipment to enable materials engineering steps, including etch, rapid thermal processing, deposition, chemical mechanical planarization, metrology and inspection, wafer packaging, and ion implantation. The AGS segment offers integrated solutions to optimize equipment and fab performance and product",
+   "ulke": "United States",
+   "ad": "Applied Materials, Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 50.3,
+   "faaliyet_marj": 33.7,
+   "arge": 12.1,
+   "capex": 7.8,
+   "stok": 72.0,
+   "nakit_borc": 21.0
+  }
+ },
+ {
+  "s": "LRCX",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Lam Research",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Lam Research Corporation designs, manufactures, markets, refurbishes, and services semiconductor processing equipment used in the fabrication of integrated circuits in the United States, China, Korea, Taiwan, Japan, Southeast Asia, and Europe. The company offers ALTUS systems to deposit conformal or selective films for tungsten or molybdenum metallization applications; SABRE electrochemical deposition products for copper interconnect transition, which support copper damascene manufacturing; Striker single-wafer atomic layer deposition products for dielectric film solutions; and VECTOR plasma-enhanced chemical vapor deposition (CVD) products. It also provides Akara, a conductor etch system de",
+   "ulke": "United States",
+   "ad": "Lam Research Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 52.3,
+   "faaliyet_marj": 40.0,
+   "arge": 8.1,
+   "capex": 3.1,
+   "stok": 55.4,
+   "nakit_borc": 45.0
+  }
+ },
+ {
+  "s": "KLAC",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Kla",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "KLA Corporation, together with its subsidiaries, provides process control and process-enabling solutions for manufacturing wafers, reticles/masks, chemicals/materials, integrated circuits (ICs), packaged ICs, and printed circuit boards. It operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. The company offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; chemical process control equipment; wired and wireless sensor wafers and reticles; wafer defect inspection, review, and metrology systems; reticle inspection and ",
+   "ulke": "United States",
+   "ad": "KLA Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 61.9,
+   "faaliyet_marj": 45.0,
+   "arge": 9.6,
+   "capex": 4.7,
+   "stok": 98.9,
+   "nakit_borc": -30.0
+  }
+ },
+ {
+  "s": "TER",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Teradyne",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Teradyne, Inc. engages in the design, development, manufacture, and sale of automated test systems and robotics products in the United States, Asia Pacific, Europe, the Middle East, and Africa. The company operates through Semiconductor Test, Robotics, and Other segments. The Semiconductor Test segment offers products and services for wafer level and device package testing, and system level testing of semiconductor devices in automotive, industrial, communications, consumer, smartphones, cloud, computer and electronic game, and other applications. This segment also provides FLEX test platform systems; J750 test system to address the volume semiconductor devices, including microcontrollers; M",
+   "ulke": "United States",
+   "ad": "Teradyne, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 59.8,
+   "faaliyet_marj": 33.2,
+   "arge": 11.8,
+   "capex": 6.8,
+   "stok": 30.3,
+   "nakit_borc": 19.0
+  }
+ },
+ {
+  "s": "ONTO",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Onto Innovation Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Onto Innovation Inc. engages in the design, development, manufacture, and support of process control tools that perform macro-defect inspection and metrology in the United States, Taiwan, South Korea, Japan, China, Southeast Asia, Asia, and Europe. The company offers lithography systems and process control analytical software; and automated and integrated metrology systems, silicon wafer all-surface inspection, macro defect inspection, automated defect classification and pattern analysis, yield analysis, opaque film metrology, 4D business, advanced packaging lithography, process control software, and yield management software products. It also provides process and yield management solutions,",
+   "ulke": "United States",
+   "ad": "Onto Innovation Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 53.4,
+   "faaliyet_marj": 19.6,
+   "arge": 11.3,
+   "capex": 1.1,
+   "stok": 110.5,
+   "nakit_borc": 120.0
+  }
+ },
+ {
+  "s": "NVMI",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Nova Ltd.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Nova Ltd. engages in the design, development, production, and sale of process control systems used in the manufacture of semiconductors in Taiwan, the United States, China, Korea, and internationally. The company's product portfolio includes a set of metrology platforms for dimensional, films, and materials and chemical metrology measurements for process control for various semiconductor manufacturing process steps, such as lithography, Etch, chemical mechanical planarization, deposition, electrochemical plating, and advanced packaging. It serves various sectors of the integrated circuit manufacturing industry, including logic, foundry, memory, and packaging sectors, as well as process equip",
+   "ulke": "Israel",
+   "ad": "Nova Ltd."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 56.5,
+   "faaliyet_marj": 29.9,
+   "arge": 15.4,
+   "capex": 1.0,
+   "stok": 72.7,
+   "nakit_borc": 85.0
+  }
+ },
+ {
+  "s": "FORM",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "FormFactor, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "FormFactor, Inc. designs, manufactures, and sells probe cards, analytical probes, probe stations, thermal systems, cryogenic systems, and related services in the United States, South Korea, Taiwan, China, Japan, Singapore, Europe, Malaysia, and internationally. It operates in two segments: Probe Cards and Systems segments. The company provides probe cards to test various semiconductor device types, including systems- on-chip products, such as graphics, central, digital processing units, and other custom application-specific processing units; mobile application processors, microprocessors, and microcontrollers; network devices, which include switches and network processing units; dynamic rand",
+   "ulke": "United States",
+   "ad": "FormFactor, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 50.7,
+   "faaliyet_marj": 24.3,
+   "arge": 12.0,
+   "capex": 3.7,
+   "stok": 47.0,
+   "nakit_borc": 122.0
+  }
+ },
+ {
+  "s": "AEHR",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Aehr Test Systems, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Aehr Test Systems, Inc. provides test solutions for testing, burn-in, and semiconductor devices at wafer level, singulated die, and package level in the United States, Asia, Europe, and the Middle East. The company offers FOX-XP and FOX-NP systems, which are full wafer contact and singulated die/module test and burn-in systems that test, burn-in, and stabilize a range of devices, including silicon carbide-based (SIC) and gallium nitride (GAN) power semiconductors; 2D and 3D sensors used in mobile phones, tablets, and other computing devices; memory semiconductors; processors; microcontrollers; systems-on-a-chip; and photonics and integrated optical devices used in AI. It also provides the FO",
+   "ulke": "United States",
+   "ad": "Aehr Test Systems, Inc."
+  },
+  "profil": {
+   "donem": "2026-05-31",
+   "brut_marj": 42.6,
+   "faaliyet_marj": -6.4,
+   "arge": 19.4,
+   "capex": 0.7,
+   "stok": 219.6,
+   "nakit_borc": 565.0
+  }
+ },
+ {
+  "s": "VECO",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Veeco Instruments Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Veeco Instruments Inc., together with its subsidiaries, develops, manufactures, sells, and supports semiconductor and thin film process equipment primarily to make electronic devices in the United States, Europe, the Middle East, and Africa, China, Rest of the Asia-Pacific, and internationally. It offers laser annealing, ion beam deposition and etch, metal organic chemical vapor deposition, single wafer wet processing and surface preparation, molecular beam epitaxy, advanced packaging lithography, atomic layer deposition, and other deposition systems. The company's process equipment systems are used in the production of a range of microelectronic components, including logic, dynamic random-a",
+   "ulke": "United States",
+   "ad": "Veeco Instruments Inc."
+  },
+  "profil": {
+   "donem": "2026-03-31",
+   "brut_marj": 35.3,
+   "faaliyet_marj": -0.4,
+   "arge": 18.9,
+   "capex": 3.2,
+   "stok": 178.2,
+   "nakit_borc": 77.0
+  }
+ },
+ {
+  "s": "KLIC",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "Kulicke and Soffa Industries, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Kulicke and Soffa Industries, Inc. designs, manufactures, and sells capital equipment and consumables in China, the United States, Taiwan, Malaysia, Japan, the Philippines, Korea, Hong Kong, and internationally. It operates through four segments: Ball Bonding Equipment, Wedge Bonding Equipment, Advanced Solutions, and Aftermarket Products and Services (APS). The company provides services used to assemble semiconductor devices, such as integrated circuits, power discretes, light-emitting diode (LEDs), and sensors. It also offers ball bonding equipment, wafer level bonding equipment, and wedge-related bonding equipment; and advanced display, die-attach, and thermocompression systems and soluti",
+   "ulke": "Singapore",
+   "ad": "Kulicke and Soffa Industries, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 47.8,
+   "faaliyet_marj": 20.7,
+   "arge": 13.3,
+   "capex": 1.3,
+   "stok": 68.7,
+   "nakit_borc": 145.0
+  }
+ },
+ {
+  "s": "MKSI",
+  "grup": "Yarı iletken ekipmanı",
+  "hisse_adi": "MKS Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Scientific & Technical Instruments",
+   "ozet": "MKS Inc. provides foundational technology solutions to semiconductor manufacturing, electronics and packaging, and specialty industrial applications in the United States, China, South Korea, Japan, Taiwan, Singapore, and internationally. The company operates through Vacuum Solutions Division (VSD), Photonics Solutions Division (PSD), and Material Solutions Division (MSD) segments. Its VSD segment provides foundational technology solutions, including pressure measurement and control, flow measurement and control, gas and vapor delivery, gas composition analysis, electronic control technology, reactive gas generation and delivery, power generation and delivery, and fiber optic temperature and ",
+   "ulke": "United States",
+   "ad": "MKS Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 47.7,
+   "faaliyet_marj": 20.6,
+   "arge": 6.1,
+   "capex": 4.3,
+   "stok": 82.8,
+   "nakit_borc": -286.0
+  }
+ },
+ {
+  "s": "ENTG",
+  "grup": "Malzeme",
+  "hisse_adi": "Entegris Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "Entegris, Inc. provides advanced materials and process solutions for the semiconductor and other high-technology industries in North America, Taiwan, South Korea, Japan, China, Europe, and Southeast Asia. It operates in two segments, Materials Solutions (MS) and Advanced Purity Solutions (APS). The MS segment provides materials-based solutions, such as chemical vapor and atomic layer deposition materials, chemical mechanical planarization slurries and pads, ion implantation specialty gases, formulated etch and clean materials, and other specialty materials. The APS segment offers filtration, purification, and contamination-control solutions for the semiconductor manufacturing processes, semi",
+   "ulke": "United States",
+   "ad": "Entegris, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 47.6,
+   "faaliyet_marj": 18.1,
+   "arge": 9.4,
+   "capex": 4.4,
+   "stok": 79.7,
+   "nakit_borc": -363.0
+  }
+ },
+ {
+  "s": "AXTI",
+  "grup": "Malzeme",
+  "hisse_adi": "AXT, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductor Equipment & Materials",
+   "ozet": "AXT, Inc. designs, develops, manufactures, and distributes compound and single element semiconductor substrates. The company provides indium phosphide for use in data center connectivity using light/lasers, high-speed data transfer in data centers, 5G communications, fiber optic lasers and detectors, consumer devices, passive optical networks, silicon photonics, photonic integrated circuits, thermo-photovoltaics, RF amplifier and switching, infrared light-emitting diode (LEDS) motion control, lidar for robotics and autonomous vehicles, and infrared thermal imaging. It also offers semi-insulating gallium arsenide (GaAs) substrates for use in Wi-Fi and IoT devices, transistors, direct broadcas",
+   "ulke": "United States",
+   "ad": "AXT, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 44.9,
+   "faaliyet_marj": 21.9,
+   "arge": 7.7,
+   "capex": 15.2,
+   "stok": 202.4,
+   "nakit_borc": 696.0
+  }
+ },
+ {
+  "s": "SOLS",
+  "grup": "Malzeme",
+  "hisse_adi": "Solstice Advanced Materials, Inc.",
+  "yahoo": {
+   "sektor": "Basic Materials",
+   "sanayi": "Specialty Chemicals",
+   "ozet": "Solstice Advanced Materials, Inc. operates as a specialty chemicals and advanced materials company in the United States and internationally. It operates in two segments: Refrigerants & Applied Solutions (RAS), and Electronic & Specialty Materials (ESM). The RAS segment manufactures and sells low global warming potential (LGWP) refrigerants, blowing agents, solvents, and aerosol materials; and provides, aerosol propellants, cleaning solvents, pharmaceutical packaging materials, and alternative energy services under the Solstice, Genetron, and Aclar brands. The ESM segment offers electronic materials, fibers and laboratory life science chemicals for semiconductor, defense, pharmaceutical, and ",
+   "ulke": "United States",
+   "ad": "Solstice Advanced Materials, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 32.2,
+   "faaliyet_marj": 19.3,
+   "arge": 2.2,
+   "capex": 12.1,
+   "stok": 58.0,
+   "nakit_borc": -146.0
+  }
+ },
+ {
+  "s": "CDNS",
+  "grup": "Tasarım yazılımı",
+  "hisse_adi": "Cadence Design Systems Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Software - Application",
+   "ozet": "Cadence Design Systems, Inc. develops computational, AI-driven software, hardware, and silicon intellectual property products and solutions. The company offers functional verification services, such as Jasper, a formal verification platform; Xcelium, a parallel logic simulation platform; Verisium, a generative AI solution; Palladium, an enterprise emulation platform; and Protium, a prototyping platform for chip verification, as well as digital IC design and sign off products, including Innovus platform; and custom IC design and simulation product include Virtuoso, a platform to design and verify analog. It also provides Xcelium logic simulator and other front-end verification and virtual pro",
+   "ulke": "United States",
+   "ad": "Cadence Design Systems, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 85.6,
+   "faaliyet_marj": 28.8,
+   "arge": 32.9,
+   "capex": 3.8,
+   "stok": 27.5,
+   "nakit_borc": -83.0
+  }
+ },
+ {
+  "s": "SNPS",
+  "grup": "Tasarım yazılımı",
+  "hisse_adi": "Synopsys Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Software - Infrastructure",
+   "ozet": "Synopsys, Inc. provides design IP solutions in the semiconductor and electronics industries. It operates in two segments, Design Automation and Design IP. The company offers Digital and Custom IC Design solution that provides digital design implementation solutions; Verification solution that offers virtual prototyping, static and formal verification, simulation, emulation, field programmable gate array (FPGA)-based prototyping, and debug solutions; FPGA design products that are programmed to perform specific functions; synopsys technology computer-aided design (TCAD), mask synthesis, and manufacturing analytic solutions; and AI-driven EDA solutions. It also provides pre-verified and silicon",
+   "ulke": "United States",
+   "ad": "Synopsys, Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 72.6,
+   "faaliyet_marj": 14.5,
+   "arge": 29.1,
+   "capex": 2.7,
+   "stok": 19.3,
+   "nakit_borc": -292.0
+  }
+ },
+ {
+  "s": "ADI",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Analog Devices",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Analog Devices, Inc. engages in the design, manufacture, testing, and marketing of integrated circuits (ICs), software, and subsystems products in the United States, rest of North and South America, Europe, Japan, China, and rest of Asia. It provides data converter products, which translate real-world analog signals into digital data, as well as translates digital data into analog signals; power management and reference products for power conversion, driver monitoring, sequencing, and energy management applications in the automotive, communications, industrial, and consumer markets; and power ICs that include performance, integration, and software design simulation tools for accurate power s",
+   "ulke": "United States",
+   "ad": "Analog Devices, Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 67.3,
+   "faaliyet_marj": 39.5,
+   "arge": 13.3,
+   "capex": 3.6,
+   "stok": 48.0,
+   "nakit_borc": -169.0
+  }
+ },
+ {
+  "s": "TXN",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Texas Instrument Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Texas Instruments Incorporated designs, manufactures, and sells semiconductors to electronics designers and manufacturers in the United States, China, the rest of Asia, Europe, the Middle East, Africa, Japan, and internationally. It operates through Analog and Embedded Processing segments. The Analog segment offers power products to manage power requirements across various voltage levels, including battery-management solutions, DC/DC switching regulators, AC/DC and isolated controllers and converters, power switches, linear regulators, voltage references, multiphase controllers and power stages, and lighting products. This segment also provides signal chain products that sense, condition, an",
+   "ulke": "United States",
+   "ad": "Texas Instruments Incorporated"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 64.2,
+   "faaliyet_marj": 47.6,
+   "arge": 8.8,
+   "capex": 7.6,
+   "stok": 77.2,
+   "nakit_borc": -89.0
+  }
+ },
+ {
+  "s": "MCHP",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Microchip Technology Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Microchip Technology Incorporated develops, manufactures, and sells smart, connected, and secure embedded control solutions in the Americas, Europe, and Asia. It operates in two segments, Semiconductor Products and Technology Licensing. The company offers general-purpose 8-bit, 16-bit, 32-bit, and 64-bit mixed-signal microcontrollers; 32-bit and 64-bit embedded mixed-signal microprocessors; and specialized mixed-signal microcontrollers for automotive, industrial, computing, communications, lighting, power supplies, motor control, human-machine interface, security, wired connectivity, and wireless connectivity applications. It also provides analog products, including power management, linear,",
+   "ulke": "United States",
+   "ad": "Microchip Technology Incorporated"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 63.2,
+   "faaliyet_marj": 24.0,
+   "arge": 20.8,
+   "capex": 0.9,
+   "stok": 70.5,
+   "nakit_borc": -345.0
+  }
+ },
+ {
+  "s": "NXPI",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Nxp Semiconductors Nv",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "NXP Semiconductors N.V. provides semiconductor products in the United States, Germany, Japan, South Korea, Taiwan, Singapore, the Netherlands, Mainland China, Hong Kong, and internationally. The company's product portfolio includes microcontrollers; application processors; communication processors; wireless connectivity solutions, such as near field communications, ultra-wideband, Bluetooth low-energy, Zigbee, Thread, and Wi-Fi and Wi-Fi/Bluetooth integrated SoCs; analog and interface products; radio frequency devices, and security controllers, as well as semiconductor-based environmental and inertial sensors, including pressure, inertial, magnetic, and gyroscopic sensors. Its products are u",
+   "ulke": "Netherlands",
+   "ad": "NXP Semiconductors N.V."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 57.8,
+   "faaliyet_marj": 32.5,
+   "arge": 16.2,
+   "capex": 2.3,
+   "stok": 68.6,
+   "nakit_borc": -194.0
+  }
+ },
+ {
+  "s": "ON",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "On Semiconductor Corp",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "ON Semiconductor Corporation provides intelligent sensing and power solutions in Hong Kong, Singapore, the United Kingdom, the United States, and internationally. It operates through three segments: Power Solutions Group, Analog and Mixed-Signal Group, and Intelligent Sensing Group. The Power Solutions Group segment offers discrete, module, and integrated semiconductor devices designed to enable power conversion, including power switching, signal conditioning, and circuit protection technologies. Its Analog and Mixed-Signal Group segment designs and develops analog and mixed-signal solutions, including power management, sensor interface, connectivity, and standard products for automotive, in",
+   "ulke": "United States",
+   "ad": "ON Semiconductor Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 38.4,
+   "faaliyet_marj": 18.7,
+   "arge": 8.8,
+   "capex": 2.1,
+   "stok": 127.7,
+   "nakit_borc": -39.0
+  }
+ },
+ {
+  "s": "STM",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Stmicroelectronics Adr",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "STMicroelectronics N.V., together with its subsidiaries, designs, develops, manufactures, and sells semiconductor products in Europe, the Middle East, Africa, the Americas, and the Asia Pacific. The company operates through Analog products, MEMS and Sensors Group (AM&S); Power and Discrete products (P&D); Embedded Processing (EMP); and RF Products (D&RF) segments. It offers industrial application-specific integrated circuits (ASICs) and application-specific standard products (ASSPs); power management solutions; custom analog ICs, wireless charging solutions; galvanic isolated gate and LED drivers; converters, transistors, intelligent power switches, clocks and timers, comparators, and curr",
+   "ulke": "Switzerland",
+   "ad": "STMicroelectronics N.V."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 37.3,
+   "faaliyet_marj": 10.9,
+   "arge": 14.5,
+   "capex": 17.3,
+   "stok": 86.5,
+   "nakit_borc": 56.0
+  }
+ },
+ {
+  "s": "MPWR",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Monolithic Power Systems Inc",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Monolithic Power Systems, Inc. provides semiconductor-based power electronics solutions in China, Taiwan, South Korea, Southeast Asia, Europe, the United States, Japan, and internationally. The company offers direct current (DC) to DC solutions to convert and control voltages within a range of electronic systems, such as cloud-based and on-premises CPU servers and workstations, AI systems, memory, storage solutions, notebooks, infotainment, power sources, home appliances, network infrastructure, and satellite communications. It also provides alternating current (AC) to DC; driver metal-oxide-semiconductor field-effect transistors; power management integrated circuits (ICs); and current limit",
+   "ulke": "United States",
+   "ad": "Monolithic Power Systems, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 55.2,
+   "faaliyet_marj": 31.0,
+   "arge": 12.1,
+   "capex": 8.4,
+   "stok": 68.9,
+   "nakit_borc": 142.0
+  }
+ },
+ {
+  "s": "LSCC",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Lattice Semiconductor Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Lattice Semiconductor Corporation, together with its subsidiaries, develops and sells semiconductor, silicon-based and silicon-enabling, evaluation boards, and development hardware products in Asia, Europe, and the Americas. It offers field programmable gate arrays (FPGA), which are regular arrays of logic that can be custom-configured by the user through software. The company's products include small FPGA platforms, including Lattice Nexus and Lattice Nexus 2; Lattice Avant, a mid-range FPGA platform; general purpose FPGA, such as Lattice Avant-G, Certus-NX, CertusPro, and Certus-N2; and specialized FPGAs, which includes Lattice Avant-E, Avant-X, SCP, MachXO, iCE, CrossLink,and CrossLinkPlu",
+   "ulke": "United States",
+   "ad": "Lattice Semiconductor Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 70.3,
+   "faaliyet_marj": 13.3,
+   "arge": 31.9,
+   "capex": 13.0,
+   "stok": 50.0,
+   "nakit_borc": 67.0
+  }
+ },
+ {
+  "s": "WOLF",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Wolfspeed, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Wolfspeed, Inc., a semiconductor company, focuses on silicon carbide materials and devices for power applications in Europe, Hong Kong, Singapore, China, rest of Asia Pacific, Japan, the United States, and internationally. The company offers silicon carbide and gallium nitride (GaN) materials, including silicon carbide bare wafers, epitaxial wafers, and GaN epitaxial layers on silicon carbide wafers to manufacture products for RF, silicon carbide substrates, mosfets, schotky diodes, power, and other applications. It also provides power devices, such as silicon carbide Schottky diodes, metal oxide semiconductor field effect transistors (MOSFETs), and power modules for customers and distributo",
+   "ulke": "United States",
+   "ad": "Wolfspeed, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": -24.5,
+   "faaliyet_marj": -70.8,
+   "arge": 18.6,
+   "capex": null,
+   "stok": null,
+   "nakit_borc": null
+  }
+ },
+ {
+  "s": "NVTS",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Navitas Semiconductor Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "Navitas Semiconductor Corporation designs, develops, and markets power semiconductors in the United States, Europe, China, rest of Asia, and internationally. The company offers gallium nitride power integrated circuits, silicon carbide power devices, silicon system controllers, and digital isolators for power conversion and charging. Its products are used in automotive, data center, mobile, consumer electronics markets, and various other applications. The company was founded in 2014 and is based in Torrance, California.",
+   "ulke": "United States",
+   "ad": "Navitas Semiconductor Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 38.7,
+   "faaliyet_marj": -255.0,
+   "arge": 124.9,
+   "capex": 2.2,
+   "stok": 185.3,
+   "nakit_borc": 5245.0
+  }
+ },
+ {
+  "s": "VICR",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "Vicor Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally. The company offers a range of brick-format DC-DC converters; complementary components that provide AC line rectification, input filtering, power factor correction, and transient protection; and input and output voltage, and output power products, as well as sells electrical and mechanical accessories. It also designs, sells, and services custom power system solutions. It serves independent manufacturers of electronic",
+   "ulke": "United States",
+   "ad": "Vicor Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 68.3,
+   "faaliyet_marj": 36.6,
+   "arge": 12.2,
+   "capex": 8.2,
+   "stok": 56.3,
+   "nakit_borc": 257.0
+  }
+ },
+ {
+  "s": "SITM",
+  "grup": "Analog ve güç yarı iletkenleri",
+  "hisse_adi": "SiTime Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Semiconductors",
+   "ozet": "SiTime Corporation engages in the design, development, and sale of silicon timing systems solutions in Hong Kong, Taiwan, the United States, Singapore, and internationally. It offers various types of oscillators, as well as clock integrated circuits, resonators, and synchronization software for use in artificial intelligence systems, data center, communications, enterprise, automotive, industrial, aerospace, defense, mobile, Internet of Things, and consumer markets. The company was incorporated in 2003 and is based in Santa Clara, California.",
+   "ulke": "United States",
+   "ad": "SiTime Corporation"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 63.0,
+   "faaliyet_marj": 10.6,
+   "arge": 22.9,
+   "capex": 8.2,
+   "stok": 66.0,
+   "nakit_borc": 378.0
+  }
+ },
+ {
+  "s": "CRWV",
+  "grup": "Bulut ve yapay zeka altyapısı",
+  "hisse_adi": "CoreWeave, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Software - Infrastructure",
+   "ozet": "CoreWeave, Inc. operates as a cloud infrastructure technology company in the United States. The company offers CoreWeave Cloud platform that comprises proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence (AI) infrastructure at scale. It also offers data and storage solutions, such as Local Object Transport Accelerator; infrastructure control solutions, including CoreWeave Kubernetes service; mission control services, including node, rack, and fleet lifecycle management; model and agent development tools comprising Weights & Biases, an AI developer platform; and runtime acceleration. In addition, the company offers",
+   "ulke": "United States",
+   "ad": "CoreWeave, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 65.9,
+   "faaliyet_marj": -1.9,
+   "arge": null,
+   "capex": 249.4,
+   "stok": null,
+   "nakit_borc": -1789.0
+  }
+ },
+ {
+  "s": "NBIS",
+  "grup": "Bulut ve yapay zeka altyapısı",
+  "hisse_adi": "Nebius Group N.V.",
+  "yahoo": {
+   "sektor": "Communication Services",
+   "sanayi": "Internet Content & Information",
+   "ozet": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally. It offers Nebius builds full-stack infrastructure for AI, including large-scale GPU clusters, cloud platforms, and tools and services for developers. The company also provides TripleTen, an edtech platform for re-skilling individuals for careers in technolgy; and Avride, which develops autonomous driving technology for self-driving cars and delivery robotics. It has a strategic alliance with NVIDIA Corporation to support the expansion of the company's AI cloud infrastructure. The company was formerly known as Y",
+   "ulke": "Netherlands",
+   "ad": "Nebius Group N.V."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 77.1,
+   "faaliyet_marj": -30.2,
+   "arge": 32.8,
+   "capex": 971.6,
+   "stok": null,
+   "nakit_borc": -366.0
+  }
+ },
+ {
+  "s": "APLD",
+  "grup": "Bulut ve yapay zeka altyapısı",
+  "hisse_adi": "Applied Digital Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Information Technology Services",
+   "ozet": "Applied Digital Corporation designs, develops, and operates digital infrastructure solutions to high-performance computing (HPC) and artificial intelligence industries in North America. It operates through: Data Center Hosting, and HPC Hosting Business. The company provides energized infrastructure services to crypto mining customers; and cloud services to customers, such as AI and machine learning developers. It also engages in the designing, constructing, and operating of data centers to provide computing power and support HPC applications. The company was formerly known as Applied Blockchain, Inc. and changed its name to Applied Digital Corporation in November 2022. Applied Digital Corpor",
+   "ulke": "United States",
+   "ad": "Applied Digital Corporation"
+  },
+  "profil": {
+   "donem": "2026-08-31",
+   "brut_marj": 15.3,
+   "faaliyet_marj": -18.2,
+   "arge": null,
+   "capex": 606.9,
+   "stok": null,
+   "nakit_borc": -1034.0
+  }
+ },
+ {
+  "s": "WULF",
+  "grup": "Bulut ve yapay zeka altyapısı",
+  "hisse_adi": "TeraWulf Inc.",
+  "yahoo": {
+   "sektor": "Financial Services",
+   "sanayi": "Capital Markets",
+   "ozet": "TeraWulf Inc., together with its subsidiaries, owns, develops, operates digital infrastructure in the United States. It also develops and operates bitcoin mining facilities for bitcoin mining and high-performance computing workloads, leveraging clean, cost-effective, and reliable energy. The company was founded in 2021 and is headquartered in Easton, Maryland.",
+   "ulke": "United States",
+   "ad": "TeraWulf Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 72.3,
+   "faaliyet_marj": -312.8,
+   "arge": null,
+   "capex": 1911.1,
+   "stok": null,
+   "nakit_borc": -5847.0
+  }
+ },
+ {
+  "s": "ORCL",
+  "grup": "Bulut ve yapay zeka altyapısı",
+  "hisse_adi": "Oracle Corporation",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Software - Infrastructure",
+   "ozet": "Oracle Corporation offers products and services that build, run and support enterprise information technology frameworks worldwide. Its Oracle cloud software as a service offering includes various cloud software applications, including Oracle Fusion cloud enterprise resource planning ERP, Oracle Fusion cloud enterprise performance management EPM, Oracle Fusion cloud supply chain and manufacturing management SCM, Oracle Fusion cloud human capital management HCM, and NetSuite applications suite, Oracle Health applications, as well as Oracle Fusion Sales, Service, and Marketing. The company also offers cloud-based industry solutions for various industries; Oracle cloud license and on-premise li",
+   "ulke": "United States",
+   "ad": "Oracle Corporation"
+  },
+  "profil": {
+   "donem": "2026-08-31",
+   "brut_marj": 60.0,
+   "faaliyet_marj": 35.3,
+   "arge": 12.4,
+   "capex": 147.3,
+   "stok": null,
+   "nakit_borc": -614.0
+  }
+ },
+ {
+  "s": "DELL",
+  "grup": "Sunucu ve donanım",
+  "hisse_adi": "Dell Technologies Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "Dell Technologies Inc. designs, develops, manufactures, markets, sells, and supports various comprehensive and integrated solutions, products, and services in the Americas, Europe, the Middle East, Asia, and internationally. The company operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments. The ISG segment provides modern and traditional storage solutions, including all-flash, purpose-built, hyper-converged infrastructure, software-defined storage, and general-purpose and AI-optimized servers. This segment also offers networking products and services comprising wide area network infrastructure, data center and edge networking switches, and cables and",
+   "ulke": "United States",
+   "ad": "Dell Technologies Inc."
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 20.9,
+   "faaliyet_marj": 11.6,
+   "arge": 2.4,
+   "capex": 2.6,
+   "stok": 45.3,
+   "nakit_borc": -49.0
+  }
+ },
+ {
+  "s": "HPE",
+  "grup": "Sunucu ve donanım",
+  "hisse_adi": "Hewlett Packard Enterprise Company",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Communication Equipment",
+   "ozet": "Hewlett Packard Enterprise Company, together with its subsidiaries, develops intelligent solutions in the United States, the Americas, Europe, the Middle East, Africa, the Asia Pacific, Japan, and internationally. It operates in five segments: Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments and Other. The company offers general-purpose servers, workload-optimized servers, and integrated systems, including HPE ProLiant Rack and Tower servers; HPE Synergy; HPE Scale Up servers; HPE Edgeline servers; HPE Cray EX; HPE Cray XD; and HPE NonStop. It also provides cloud-native and hybrid solutions, such as HPE Alletra Storage; HPE InfoSight; HPE CloudPhysics; and HPE ",
+   "ulke": "United States",
+   "ad": "Hewlett Packard Enterprise Company"
+  },
+  "profil": {
+   "donem": "2026-07-31",
+   "brut_marj": 40.1,
+   "faaliyet_marj": 12.0,
+   "arge": 9.5,
+   "capex": 6.1,
+   "stok": 96.8,
+   "nakit_borc": -115.0
+  }
+ },
+ {
+  "s": "PENG",
+  "grup": "Sunucu ve donanım",
+  "hisse_adi": "Penguin Solutions, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Information Technology Services",
+   "ozet": "Penguin Solutions, Inc. designs, builds, deploys and manages data centers for enterprises, sovereign AI initiatives, and neocloud providers worldwide. The company operates through three segments: Advanced Computing, Integrated Memory, and Optimized LED. It offers AI infrastructure design, system integration, deployment, cluster validation, performance optimization, and ongoing infrastructure management services; continuous availability of customers critical data and applications in data centers and edge locations under the Stratus brand products; and dynamic random-access memory, modules, solid-state/flash storage, and CXL-based memory expansion technologies designed to improve memory capaci",
+   "ulke": "United States",
+   "ad": "Penguin Solutions, Inc."
+  },
+  "profil": {
+   "donem": "2026-08-31",
+   "brut_marj": 27.5,
+   "faaliyet_marj": 11.1,
+   "arge": 3.9,
+   "capex": 0.8,
+   "stok": 132.1,
+   "nakit_borc": -35.0
+  }
+ },
+ {
+  "s": "CLS",
+  "grup": "Sunucu ve donanım",
+  "hisse_adi": "Celestica Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "Celestica Inc., together with its subsidiaries, provides supply chain solutions in Asia, North America, and internationally. It operates through two segments, Advanced Technology Solutions, and Connectivity and Cloud Solutions. The company offers a range of product manufacturing and related supply chain services, including design and development, new product introduction, engineering services, component sourcing, electronics manufacturing and assembly, testing, mechanical assembly, systems integration, precision machining, logistics, asset management, product licensing, and after-market repair and return services. It also provides hardware platform solutions, which includes development of in",
+   "ulke": "Canada",
+   "ad": "Celestica Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 11.0,
+   "faaliyet_marj": 7.9,
+   "arge": 0.9,
+   "capex": 4.7,
+   "stok": 77.4,
+   "nakit_borc": 54.0
+  }
+ },
+ {
+  "s": "JBL",
+  "grup": "Sunucu ve donanım",
+  "hisse_adi": "Jabil Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. The company offers electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and optical component applications; creates, develops, and connects concepts and specifications that optimize the function, value, and appearance of products for both consumers and manufacturing partners; design of plastic and metal components, enclosures, sub-assemblies, and systems, with advanced modeling and analysis of electronic, electro-mechanical, an",
+   "ulke": "United States",
+   "ad": "Jabil Inc."
+  },
+  "profil": {
+   "donem": "2026-08-31",
+   "brut_marj": 9.4,
+   "faaliyet_marj": 5.8,
+   "arge": 0.1,
+   "capex": 2.3,
+   "stok": 69.8,
+   "nakit_borc": -21.0
+  }
+ },
+ {
+  "s": "TTMI",
+  "grup": "Sunucu ve donanım",
+  "hisse_adi": "TTM Technologies, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally. It operates in three segments, A&D, Commercial, and RF&S Components. The company offers various engineered systems and RF and microwave assemblies; PCBs and IC substrates, custom assemblies and integrated systems, passive and advanced ceramic RF components, hi-reliability multi-chip modules, and beamforming and switching networks; and design-for-manufacturability, PCB layout design, simulation and testing, quick turnaround (QTA) production, and specialized RF",
+   "ulke": "United States",
+   "ad": "TTM Technologies, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 24.2,
+   "faaliyet_marj": 13.5,
+   "arge": 0.8,
+   "capex": 6.8,
+   "stok": 27.0,
+   "nakit_borc": -74.0
+  }
+ },
+ {
+  "s": "VRT",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "Vertiv Holdings Co",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Electrical Equipment & Parts",
+   "ozet": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, energy storage solutions, hardware, and software infrastructure that are integral to the technologie",
+   "ulke": "United States",
+   "ad": "Vertiv Holdings Co"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 38.1,
+   "faaliyet_marj": 23.0,
+   "arge": null,
+   "capex": 3.3,
+   "stok": 76.2,
+   "nakit_borc": 8.0
+  }
+ },
+ {
+  "s": "MOD",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "Modine Manufacturing Company",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Building Products & Equipment",
+   "ozet": "Modine Manufacturing Company designs, engineers, tests, manufactures, and sells mission-critical thermal solutions in the United States, Canada, Italy, Hungary, the United Kingdom, China, and internationally. It offers heat transfer products, including round tube plate fin construction; gas-fired, hydronic, electric, and oil fired unit heaters; roof-mounted direct- and indirect-fired makeup air units, duct furnaces, infrared units, and perimeter heating products; single packaged unit ventilators, modular chillers, air handler and condensing units, and ceiling cassettes; evaporator unit coolers, remote condensers, fluid coolers, gas coolers, and dry and brine coolers; and motor and generator ",
+   "ulke": "United States",
+   "ad": "Modine Manufacturing Company"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 20.8,
+   "faaliyet_marj": 9.0,
+   "arge": null,
+   "capex": 5.3,
+   "stok": 69.7,
+   "nakit_borc": -50.0
+  }
+ },
+ {
+  "s": "NVT",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "nVent Electric plc",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Electrical Equipment & Parts",
+   "ozet": "nVent Electric plc designs, manufactures, markets, installs, and services electrical connection and protection solutions in the America, Europe, the Middle East, India, Africa, the Asia Pacific, and internationally. It operates in two segments, Systems Protection and Electrical Connections. The company provides solutions to protect electronics, systems, and data in mission critical applications, including data centers. It also offers solutions that connect power and data infrastructure. In addition, the company provides bus systems, cable management, control buildings, liquid and air-cooling solutions, electrical connections, enclosures, equipment protection, power connections, and power man",
+   "ulke": "United Kingdom",
+   "ad": "nVent Electric plc"
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 37.9,
+   "faaliyet_marj": 20.4,
+   "arge": 1.7,
+   "capex": 1.5,
+   "stok": 35.5,
+   "nakit_borc": -94.0
+  }
+ },
+ {
+  "s": "FPS",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "Forgent Power Solutions, Inc.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Electrical Equipment & Parts",
+   "ozet": "Forgent Power Solutions, Inc. engages in the design and manufacture of electrical distribution equipment used in data centers, the power grid, and energy-intensive industrial facilities. The company's products include dry type transformers, liquid filled transformers, switchgear, switchboards, panelboards, remote power panels, generator connection cabinets, tap boxes, automatic transfer switches, gear ehouses, power skids, power distribution units, and ups ehouses. It also provides maintenance, testing, repair, modernization, start-up and commissioning and aftermarket retrofit services. It serves technology, power, utility and industrial companies. The company was founded in 2023 and is base",
+   "ulke": "United States",
+   "ad": "Forgent Power Solutions, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 36.1,
+   "faaliyet_marj": 19.9,
+   "arge": null,
+   "capex": 6.8,
+   "stok": 54.1,
+   "nakit_borc": -131.0
+  }
+ },
+ {
+  "s": "FIX",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "Comfort Systems USA, Inc.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Engineering & Construction",
+   "ozet": "Comfort Systems USA, Inc., together with its subsidiaries, provides mechanical and electrical installation, renovation, maintenance, repair, and replacement services for the mechanical and electrical services industry in the United States. The company operates through two segments: Mechanical and Electrical. It offers heating, ventilation, and air conditioning systems, as well as plumbing, electrical, piping and controls, off-site construction, monitoring, and fire protection. The company is also involved in the design, engineering, integration, installation, and start-up of mechanical, electrical, and plumbing (MEP) and related systems in new buildings; and renovation, expansion, maintenanc",
+   "ulke": "United States",
+   "ad": "Comfort Systems USA, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 24.8,
+   "faaliyet_marj": 16.5,
+   "arge": null,
+   "capex": 5.6,
+   "stok": 3.2,
+   "nakit_borc": 47.0
+  }
+ },
+ {
+  "s": "STRL",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "Sterling Infrastructure, Inc.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Engineering & Construction",
+   "ozet": "Sterling Infrastructure, Inc. engages in the provision of e-infrastructure, transportation, and building solutions in the United States. It operates through three segments: E-Infrastructure, Transportation, and Building Solutions. The E-Infrastructure Solutions segment provides site development services for the blue-chip end users in the e-commerce distribution center, data center, manufacturing, warehousing, and power generation sectors. Its Transportation Solutions segment is involved in the development of infrastructure and rehabilitation projects for highways, roads, bridges, airports, ports, rail, and storm drainage systems for the departments of transportation, regional transit, airpor",
+   "ulke": "United States",
+   "ad": "Sterling Infrastructure, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 24.1,
+   "faaliyet_marj": 19.9,
+   "arge": null,
+   "capex": 2.9,
+   "stok": null,
+   "nakit_borc": 3.0
+  }
+ },
+ {
+  "s": "WLDN",
+  "grup": "Güç, soğutma ve veri merkezi inşaatı",
+  "hisse_adi": "Willdan Group, Inc.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Engineering & Construction",
+   "ozet": "Willdan Group, Inc., a technical services company, focuses on the provision of energy and infrastructure solutions in the United States and Canada. The company operates in two segments: Energy, and Engineering and Consulting. The Energy segment offers in-depth energy planning studies, economic analysis, modeling and forecasting software, decarbonization, program design and implementation, energy efficiency, turnkey energy and infrastructure projects, grid modernization, and utility-scale electrical engineering and construction management services. It serves investor-owned and municipal utilities, as well as investors and hyperscalers, and state and local governments. The Engineering and Cons",
+   "ulke": "United States",
+   "ad": "Willdan Group, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 37.9,
+   "faaliyet_marj": 8.5,
+   "arge": null,
+   "capex": 0.7,
+   "stok": null,
+   "nakit_borc": -24.0
+  }
+ },
+ {
+  "s": "GEV",
+  "grup": "Enerji",
+  "hisse_adi": "GE Vernova Inc.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Specialty Industrial Machinery",
+   "ozet": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Middle East, and Africa. The company operates through three segments: Power, Wind, and Electrification. The Power segment designs, manufactures, and services gas, nuclear, hydro, and steam technologies. It serves industrial, government, and other customers. The Wind segment offers wind generation technologies, including onshore and offshore wind turbines and blades. The Electrification segment provides grid solutions; power conversion; electrification software; and solar and storage solutions",
+   "ulke": "United States",
+   "ad": "GE Vernova Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 24.6,
+   "faaliyet_marj": 11.0,
+   "arge": 2.8,
+   "capex": 5.1,
+   "stok": 95.6,
+   "nakit_borc": 110.0
+  }
+ },
+ {
+  "s": "BE",
+  "grup": "Enerji",
+  "hisse_adi": "Bloom Energy Corporation",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Electrical Equipment & Parts",
+   "ozet": "Bloom Energy Corporation designs, manufactures, sells, and installs solid oxide fuel cell systems for on-site power generation in the United States and internationally. It offers Bloom Energy Server, an energy server platform to convert fuel, such as natural gas, biogas, hydrogen, or a blend of these fuels, into electricity through a non-combustion electrochemical process. The company also provides Bloom Electrolyzer for producing hydrogen. It sells its products through direct and indirect sales channels to utilities, data centers, retail, healthcare, education, telecom, manufacturing, and other industries. The company was formerly known as Ion America Corp. and changed its name to Bloom Ene",
+   "ulke": "United States",
+   "ad": "Bloom Energy Corporation"
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 33.8,
+   "faaliyet_marj": 18.2,
+   "arge": 5.2,
+   "capex": 12.4,
+   "stok": 75.1,
+   "nakit_borc": -24.0
+  }
+ },
+ {
+  "s": "SEI",
+  "grup": "Enerji",
+  "hisse_adi": "Solaris Energy Infrastructure, Inc.",
+  "yahoo": {
+   "sektor": "Energy",
+   "sanayi": "Oil & Gas Equipment & Services",
+   "ozet": "Solaris Energy Infrastructure, Inc. provides modular and scalable equipment-based solutions for power generation, control and distribution, and management of raw materials used in the completion of oil and natural gas wells in the United States. It operates in Solaris Power Solutions and Solaris Logistics Solutions segments. The Solaris Power Solutions segment delivers power generation, control, and distribution solutions; and offers support to data center, energy, and other commercial and industrial sector. It also provides site preparation, specialized structural and foundational work, and gas pipeline construction services. The Solaris Logistics Solutions segment designs and manufactures ",
+   "ulke": "United States",
+   "ad": "Solaris Energy Infrastructure, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 39.5,
+   "faaliyet_marj": 25.8,
+   "arge": null,
+   "capex": 224.2,
+   "stok": 11.4,
+   "nakit_borc": -771.0
+  }
+ },
+ {
+  "s": "LEU",
+  "grup": "Enerji",
+  "hisse_adi": "Centrus Energy Corp.",
+  "yahoo": {
+   "sektor": "Energy",
+   "sanayi": "Uranium",
+   "ozet": "Centrus Energy Corp. supplies nuclear fuel components for the nuclear power industry in the United States, Japan, the Netherlands, and internationally. The company operates through two segments: Low-Enriched Uranium (LEU) and Technical Solutions. The LEU segment sells separative work units (SWU) components of LEU; natural uranium hexafluoride, uranium concentrates, and uranium conversion; and enriched uranium products to utilities that operate nuclear power plants. The Technical Solutions segment offers technical, manufacturing, engineering, and operations services to public and private sector customers. It also operates as a equipment manufacturing and engineering firm focused primarily on ",
+   "ulke": "United States",
+   "ad": "Centrus Energy Corp."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 28.3,
+   "faaliyet_marj": 5.9,
+   "arge": null,
+   "capex": 40.7,
+   "stok": 214.1,
+   "nakit_borc": 392.0
+  }
+ },
+ {
+  "s": "ENPH",
+  "grup": "Enerji",
+  "hisse_adi": "Enphase Energy, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Solar",
+   "ozet": "Enphase Energy, Inc., together with its subsidiaries, designs, develops, manufactures, and sells home energy solutions for the solar photovoltaic industry in the United States and internationally. The company offers semiconductor-based microinverter that converts energy at the individual solar module level and combines with its proprietary networking and software technologies to provide energy monitoring and control. It also provides microinverter units and related accessories; IQ Battery and related accessories; IQ PowerPack 1500 and related accessories; IQ Combiner, IQ Gateway, and IQ Energy Router; cloud-based monitoring service; and electric vehicle charging solutions, as well as design,",
+   "ulke": "United States",
+   "ad": "Enphase Energy, Inc."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 43.3,
+   "faaliyet_marj": 2.2,
+   "arge": 15.4,
+   "capex": 3.9,
+   "stok": 83.1,
+   "nakit_borc": 119.0
+  }
+ },
+ {
+  "s": "SEDG",
+  "grup": "Enerji",
+  "hisse_adi": "SolarEdge Technologies, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Solar",
+   "ozet": "SolarEdge Technologies, Inc., together with its subsidiaries, operates as an energy technology company in the United States, Europe, and internationally. The company offers power optimizers and DC-to-AC inverters; Storage Solutions, such as home battery 400V and CSS-OD solution; EV chargers for residential and commercial applications; SolarEdge ONE, an energy optimization system; and cloud-based monitoring platform. It also provides mySolarEdge app, which enables system owners to track their real-time system production and household energy consumption; SolarEdge Go app, a mobile application for SolarEdge installers, integrating installation, management, and service capabilities; designer pla",
+   "ulke": "Israel",
+   "ad": "SolarEdge Technologies, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 27.5,
+   "faaliyet_marj": -2.7,
+   "arge": 15.2,
+   "capex": 2.4,
+   "stok": 173.2,
+   "nakit_borc": 40.0
+  }
+ },
+ {
+  "s": "IONQ",
+  "grup": "Diğer",
+  "hisse_adi": "IonQ, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "IonQ, Inc. develops quantum computing systems in the United States, Switzerland, and Internationally. It sells access to quantum computers of various qubit capacities. The company also makes access to its quantum computers through cloud platforms, such as Amazon Web Services (AWS), Braket, Microsoft's Azure Quantum, and Google's Cloud Marketplace, as well as through its cloud service. The company engages in quantum-safe communications and quantum detection systems. It provides contracts associated with the design, development, construction, and sale of specialized quantum computing hardware systems; maintenance and support services; and consulting services related to co-developing algorithms",
+   "ulke": "United States",
+   "ad": "IonQ, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 24.9,
+   "faaliyet_marj": -421.3,
+   "arge": 200.7,
+   "capex": 12.8,
+   "stok": 109.3,
+   "nakit_borc": 2579.0
+  }
+ },
+ {
+  "s": "OUST",
+  "grup": "Diğer",
+  "hisse_adi": "Ouster, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Electronic Components",
+   "ozet": "Ouster, Inc. engages in the production and sale of lidar sensor kits for the automotive, industrial, robotics, and smart infrastructure industries in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa. The company offers the Outer Sensor (OS) product line, including OSDome that provides a hemispheric field of view; OS0 for wide view; OS1, for mid-range view; and OS2 for long-range view. It also provides the DF series, a suite of short, mid, and long-range solid-state digital lidar sensors for advanced driver assistance systems (ADAS) and autonomous driving systems; Velodyne that offers surround-view lidar sensors comprising VLP-16, VLP-16 Lite, VLP-16 Hi-Res, VLP-32, and VLS",
+   "ulke": "United States",
+   "ad": "Ouster, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 48.9,
+   "faaliyet_marj": -36.7,
+   "arge": 35.4,
+   "capex": 4.8,
+   "stok": 57.5,
+   "nakit_borc": 448.0
+  }
+ },
+ {
+  "s": "VELO",
+  "grup": "Diğer",
+  "hisse_adi": "Velo3D, Inc.",
+  "yahoo": {
+   "sektor": "Technology",
+   "sanayi": "Computer Hardware",
+   "ozet": "Velo3D, Inc. produces and sells metal additive three-dimensional printers in the Americas, Europe, and internationally. Its printers enable the production of components for space rockets, jet engines, fuel delivery systems, and other metal parts. The company also offers Flow, a proprietary software platform, which scans part designs for geometrical features; Sapphire, Sapphire 1MZ, Sapphire XC, and Sapphire XC 1MZ printers; Assure, a quality assurance software platform; Developer, a new version of print preparation software that turns traditional design files into print files; and Intelligent Fusion, the underlying manufacturing process that binds and facilitates all aspects of the Velo3D fu",
+   "ulke": "United States",
+   "ad": "Velo3D, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 21.5,
+   "faaliyet_marj": -53.5,
+   "arge": 20.9,
+   "capex": 17.0,
+   "stok": 133.5,
+   "nakit_borc": 292.0
+  }
+ },
+ {
+  "s": "SPCX",
+  "grup": "Diğer",
+  "hisse_adi": "Space Exploration Technologies Corp.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Aerospace & Defense",
+   "ozet": "Space Exploration Technologies Corp. provides satellite-based broadband services in the United States, Ireland, Canada, and internationally. It operates through three operating segments: Space, Connectivity, and AI. The Space segment designs, manufactures, and launches reusable rockets to provide access to space. It also provides launch services for the deployment of payloads to intended orbits for commercial and government customers utilizing Falcon 9 and Falcon Heavy; and engages in the launch and development for the development of spacecraft and the provision of launch and mission services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Its com",
+   "ulke": "United States",
+   "ad": "Space Exploration Technologies Corp."
+  },
+  "profil": {
+   "donem": "2026-09-30",
+   "brut_marj": 62.4,
+   "faaliyet_marj": 19.2,
+   "arge": 31.5,
+   "capex": 134.5,
+   "stok": 19.8,
+   "nakit_borc": 347.0
+  }
+ },
+ {
+  "s": "FTAI",
+  "grup": "Diğer",
+  "hisse_adi": "FTAI Aviation Ltd.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Aerospace & Defense",
+   "ozet": "FTAI Aviation Ltd. owns, acquires, and sells aviation equipment for the transportation of goods and people worldwide. It operates in two segments, Aviation Leasing and Aerospace Products. The Aviation Leasing segment owns, leases, manages, and sells aircraft and aircraft engines. As of December 31, 2025, this segment owned and managed 290 aviation assets consisting of 47 commercial aircraft and 243 engines, including eight aircraft and seventeen engines in Russia. The Aerospace Products segment develops, manufactures, repairs/refurbishes, and sells aircraft engines and aftermarket components for the commercial aircraft engines. It also engages in the offshore energy business, which consists ",
+   "ulke": "United States",
+   "ad": "FTAI Aviation Ltd."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 28.4,
+   "faaliyet_marj": 21.0,
+   "arge": null,
+   "capex": 9.8,
+   "stok": 162.1,
+   "nakit_borc": -327.0
+  }
+ },
+ {
+  "s": "EROC",
+  "grup": "Diğer",
+  "hisse_adi": "ERock, Inc.",
+  "yahoo": {
+   "sektor": "Industrials",
+   "sanayi": "Specialty Industrial Machinery",
+   "ozet": "ERock, Inc. designs, deploys, sells, operates, and maintains distributed power generation systems designed to provide power for commercial and industrial customers in the United States. Its offerings include the design, installation, and operation of modular power systems, as well as ongoing operations and maintenance and asset management services. Its systems support a range of customer applications, including bridge power, backup power, and dispatchable power solutions. The company primarily serves data centers, utilities, and commercial and industrial customers across the United States. The company was founded in 2006 and is based in Houston, Texas.",
+   "ulke": "United States",
+   "ad": "ERock, Inc."
+  },
+  "profil": {
+   "donem": "2026-06-30",
+   "brut_marj": 21.9,
+   "faaliyet_marj": -49.8,
+   "arge": null,
+   "capex": 11.9,
+   "stok": 266.0,
+   "nakit_borc": 1496.0
+  }
+ }
+]
