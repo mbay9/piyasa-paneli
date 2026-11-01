@@ -68,6 +68,8 @@ jobs:
         run: python test_regime.py
       - name: Tahmin/değerleme testleri
         run: python test_tahmin.py
+      - name: Endeks çarpanı testleri
+        run: python test_endeks.py
       - name: Veriyi üret (başarısızsa 3 kez dener)
         id: uret
         run: |

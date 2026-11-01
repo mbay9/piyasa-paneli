@@ -209,6 +209,35 @@ def veri():
         if h is not None and not (isinstance(h, list) and all(isinstance(p, list) and len(p) == 2 and p[1] is not None for p in h)):
             kotu.append(f"{x['symbol']}: eh biçimi")
     kayit("Değerleme: F/K değerleri makul, fiyat/EPS ile tutarlı, para birimi uyumlu", not kotu, "; ".join(kotu[:6]))
+    # endeks çarpanı (S&P 500, Nasdaq-100): yoksa uyarı; varsa içeriği doğru olmak zorunda
+    en = d.get("endeks")
+    kayit("Endeks çarpanı: bölüm var", bool(en), "data.json'da endeks bölümü yok: sitede endeks çarpanı görünmez", uyari=True)
+    if en:
+        kayit("Endeks çarpanı: taze (bayat işaretli değil, referans günde)", not en.get("bayat") and en.get("tarih") == ref, f"tarih={en.get('tarih')} bayat={en.get('bayat')}", uyari=True)
+        for ad, (lo, hi) in (("spx", (480, 520)), ("ndx", (95, 110))):
+            b = en.get(ad) or {}
+            il = b.get("ileri") or {}
+            kayit(f"Endeks çarpanı {ad}: ileri 12 ay F/K makul (8-45)", il.get("pe") is not None and 8 < il["pe"] < 45, il.get("pe"))
+            kayit(f"Endeks çarpanı {ad}: üye sayısı {lo}-{hi}", lo <= (b.get("uye") or 0) <= hi, b.get("uye"))
+            kap = il.get("kapsam") or 0
+            kayit(f"Endeks çarpanı {ad}: kazanç verisi ağırlığın en az %95'inde", kap >= 95, f"%{kap}; verisiz: {b.get('verisiz')}", uyari=kap >= 90)
+            if il.get("pe") and il.get("pe_zh"):
+                kayit(f"Endeks çarpanı {ad}: zarar dahil ve hariç yakın (%15)", abs(il["pe"] - il["pe_zh"]) <= 0.15 * il["pe"], f"{il['pe']} / {il['pe_zh']}")
+            for k in ("fy1", "fy2", "son", "gaap"):
+                v = (b.get(k) or {}).get("pe")
+                if v is not None and not (3 < v < 150):
+                    kayit(f"Endeks çarpanı {ad}: {k} F/K makul", False, v)
+        kayit("Endeks çarpanı: ağırlıklar gerçek ETF dosyasından", not (en.get("kaynak") or {}).get("yaklasik"), en.get("kaynak"), uyari=True)
+        ob = en.get("onbellek") or {}
+        bozuk = []
+        for sy, v in ob.items():
+            try:
+                json.loads(v)
+            except Exception:  # noqa: BLE001
+                bozuk.append(sy)
+        kayit("Endeks çarpanı: kazanç önbelleği okunur ve yeterli (en az 450 hisse)", len(ob) >= 450 and not bozuk, f"{len(ob)} hisse; bozuk: {bozuk[:5]}")
+        gs = [x.split(",") for x in (en.get("gecmis") or "").split("\n") if x]
+        kayit("Endeks çarpanı: geçmiş satırları düzgün, sonuncusu bugün", bool(gs) and all(len(x) == 5 for x in gs) and gs[-1][0] == en.get("tarih"), gs[-1] if gs else None)
     idx = d.get("indexes", {})
     geride = {k: v.get("date") for k, v in idx.items() if k in ("SPX", "NASDAQ", "RUT", "VIX") and v.get("date") != ref}
     kayit("Endeksler: ABD endeksleri referans günde", not geride, geride)

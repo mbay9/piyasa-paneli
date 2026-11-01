@@ -1146,6 +1146,82 @@ def partial_refresh(only):
         json.dump(d, f, ensure_ascii=False, allow_nan=False, indent=1)
 
 
+def prev_endeks():
+    """Canlı siteden önceki endeks bloğu (önbellek ve geçmiş dahil). Alınamazsa {}."""
+    try:
+        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
+        return json.loads(http_get(url, tries=2, timeout=30).text).get("endeks") or {}
+    except Exception as e:  # noqa: BLE001
+        log("Önceki endeks verisi okunamadı:", repr(e)[:80])
+        return {}
+
+
+def endeks_blok(closes, ref_date, universe_tickers):
+    """S&P 500 ve Nasdaq-100 çarpanı (endeks.py). Hata verirse çağıran önceki bloğu bayat işaretiyle taşır."""
+    import endeks as E
+    bugun = dt.date.fromisoformat(ref_date)
+    prev = prev_endeks()
+    onb = E.ac(prev.get("onbellek"))
+    spx_w, spx_tarih = E.spx_agirlik()
+    ndx_mc, ndx_tarih = E.ndx_resmi()
+    ndx_w, ndx_kaynak = E.ndx_agirlik(ndx_mc)
+    log(f"endeks ağırlıkları: S&P {'SPY ' + str(spx_tarih) if spx_w else 'yok (piyasa değeri yedeği)'}, Nasdaq-100 {ndx_kaynak or 'yok'}")
+    spx_uyeler = sorted(spx_w) if spx_w else sorted(universe_tickers)
+    ndx_uyeler = sorted(ndx_w) if ndx_w else sorted(ndx_mc or [])
+    if not ndx_uyeler:
+        raise RuntimeError("Nasdaq-100 üye listesi alınamadı")
+    tum = sorted(set(spx_uyeler) | set(ndx_uyeler))
+    son = closes.ffill().iloc[-1]
+    fiyat = {s: E.f(son[s]) for s in tum if s in closes.columns and E.f(son[s])}
+    eksik = [s for s in tum if s not in fiyat]
+    if eksik:
+        ef, _ = download(eksik, period="1mo", tries=2, max_seconds=90)
+        for s, fr in ef.items():
+            fr = fr[fr.index <= pd.Timestamp(ref_date)]
+            if len(fr):
+                fiyat[s] = E.f(fr["Close"].iloc[-1])
+    ozet = E.yenile(onb, tum, bugun, log=log)
+    if spx_w:
+        w = {s: x for s, x in spx_w.items()}
+        hd = E.spy_tarih(spx_tarih or "")
+        if hd is not None and pd.Timestamp(hd) in closes.index and hd < bugun:
+            hold = {s: E.f(closes.loc[pd.Timestamp(hd), s]) for s in w if s in closes.columns}
+            w = {s: x for s, x in E.rolla(w, fiyat, hold).items()}
+        else:
+            t = sum(w.values())
+            w = {s: x / t for s, x in w.items()}
+        spx_kaynak = "SPDR SPY"
+    else:
+        w = E.yedek_agirlik(spx_uyeler, onb, fiyat)
+        spx_kaynak = "piyasa_degeri"
+    if ndx_w:
+        t = sum(ndx_w.values())
+        nw = {s: x / t for s, x in ndx_w.items()}
+    else:
+        nw = {}
+    spx = E.hesapla(w, fiyat, onb, bugun)
+    ndx = E.hesapla(nw, fiyat, onb, bugun) if nw else None
+    if ndx is None and ndx_mc:
+        nw = E.yedek_agirlik(ndx_uyeler, onb, fiyat)
+        ndx = E.hesapla(nw, fiyat, onb, bugun) if nw else None
+        ndx_kaynak = "piyasa_degeri"
+    for b in (spx, ndx):
+        for k in list((b or {}).keys()):
+            if isinstance(b[k], dict):
+                b[k].pop("ey", None)
+    # geçmiş: bir satır = tarih,S&P ileri,S&P son(GAAP),Nasdaq-100 ileri,Nasdaq-100 son(GAAP)
+    def pe(b, k):
+        v = ((b or {}).get(k) or {}).get("pe")
+        return "" if v is None else str(v)
+    satir = ",".join([ref_date, pe(spx, "ileri"), pe(spx, "gaap"), pe(ndx, "ileri"), pe(ndx, "gaap")])
+    gec = [x for x in (prev.get("gecmis") or "").split("\n") if x and not x.startswith(ref_date)]
+    gec = (gec + [satir])[-800:]
+    return {"tarih": ref_date, "spx": spx, "ndx": ndx,
+            "kaynak": {"spx": spx_kaynak, "spx_tarih": spx_tarih, "ndx": ndx_kaynak, "ndx_liste_tarih": ndx_tarih,
+                       "yaklasik": spx_kaynak != "SPDR SPY" or ndx_kaynak != "slickcharts"},
+            "yenileme": ozet, "gecmis": "\n".join(gec), "onbellek": E.paketle(onb)}
+
+
 def main():
     if "--only" in sys.argv:
         return partial_refresh(sys.argv[sys.argv.index("--only") + 1].split(","))
@@ -1205,6 +1281,18 @@ def main():
         if not ai.get("available"):
             warnings.append("Yapay zeka bölümü eksik: " + str(ai.get("error")))
 
+    endeks = None
+    if closes is not None:
+        try:
+            endeks = endeks_blok(closes, ref_date, universe["tickers"])
+        except Exception as e:  # noqa: BLE001
+            log("UYARI: endeks çarpanı hesaplanamadı:", repr(e)[:200])
+            pv = prev_endeks()
+            if pv:
+                pv["bayat"] = True
+                endeks = pv
+            warnings.append("Endeks çarpanı hesaplanamadı: " + repr(e)[:100])
+
     verification = verify_prices(macro_frames, ref_date)
     bad = [v for v in verification if v["status"] == "bad"]
     if bad:
@@ -1252,6 +1340,8 @@ def main():
         "indexes": idx, "etfs": etf, "breadth": breadth, "pairs": pairs,
         "sectors": sectors, "ai": ai, "regime": reg,
     }
+    if endeks:
+        out["endeks"] = endeks
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         ch = build_other_changes(out, json.loads(http_get(url, tries=2, timeout=30).text))
