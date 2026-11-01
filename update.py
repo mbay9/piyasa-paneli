@@ -1362,7 +1362,13 @@ def main():
     try:
         import altsektor
         gr = json.load(open("gruplar.json", encoding="utf-8"))
-        out["altsektor"] = altsektor.uret(ai.get("stocks") or [], gr, "bilanco" if os.path.isdir("bilanco") else None, out["meta"]["ref_date"])
+        try:
+            onc = json.loads(http_get(os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json"), tries=2, timeout=30).text).get("altsektor")
+        except Exception as e:  # noqa: BLE001
+            onc = None
+            log("Önceki alt sektör verisi okunamadı:", repr(e)[:80])
+        out["altsektor"] = altsektor.uret(ai.get("stocks") or [], gr, "bilanco" if os.path.isdir("bilanco") else None, out["meta"]["ref_date"],
+                                          onceki=onc, ai_pe=(out.get("degerleme") or {}).get("ai_medyan"))
         log("alt sektörler:", len(out["altsektor"]["gruplar"]), "grup; gruplanmamış:", out["altsektor"]["atanmamis"], "; bilanço dosyası:", os.path.isdir("bilanco"))
     except Exception as e:  # noqa: BLE001
         log("Alt sektörler atlandı:", repr(e)[:120])

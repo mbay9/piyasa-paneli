@@ -38,7 +38,7 @@ AD = {"gelir": "Gelir", "brut": "Brüt kâr", "faaliyet": "Faaliyet kârı", "ne
       "nakit": "Nakit ve kısa vadeli yatırımlar", "borc": "Toplam borç", "ozkaynak": "Özkaynak", "varlik": "Toplam varlık",
       "isletme_nakit": "İşletme nakit akışı", "fcf": "Serbest nakit akışı", "net_nakit": "Net nakit (nakit − borç)",
       "brut_marj": "Brüt marj", "faaliyet_marj": "Faaliyet marjı", "net_marj": "Net marj", "fcf_marj": "FCF marjı",
-      "arge_oran": "Ar-Ge / gelir", "fgy_oran": "Satış-yönetim gideri / gelir", "stok_oran": "Stok / çeyrek geliri",
+      "capex": "Yatırım harcaması (capex)", "arge_oran": "Ar-Ge / gelir", "fgy_oran": "Satış-yönetim gideri / gelir", "stok_oran": "Stok / çeyrek geliri",
       "alacak_oran": "Alacak / çeyrek geliri"}
 # oran kalemlerinde iyi yön (marjlar +1; gider ve stok/alacak oranları -1)
 ORAN_YON = {"brut_marj": 1, "faaliyet_marj": 1, "net_marj": 1, "fcf_marj": 1, "arge_oran": 0, "fgy_oran": -1, "stok_oran": -1, "alacak_oran": -1}
@@ -76,6 +76,8 @@ def cikar(gelir_tab, bilanco_tab, nakit_tab):
 def turet(c):
     """Marj ve oranlar. Ham kalemler eksikse ilgili oran üretilmez."""
     d = dict(c)
+    if d.get("capex") is not None:
+        d["capex"] = abs(d["capex"])
     g = c.get("gelir")
     if g and g > 0:
         for k, a in (("brut_marj", "brut"), ("faaliyet_marj", "faaliyet"), ("net_marj", "net"), ("fcf_marj", "fcf"),
@@ -151,9 +153,40 @@ def _ozet(satirlar):
             "n": len(satirlar)}
 
 
-def analiz(ceyrekler):
+def kalite(son, qoq, yoy, para, donem, bugun=None, seri=None):
+    """Veriye güvenmeden önce bakılan işaretler. Dönüş: (uyarılar, güvenilir)
+    güvenilir=False: sayılar gruplarda medyana sokulmaz (yanlış sıçramalar sonucu bozmasın)."""
+    bugun = bugun or dt.date.today()
+    u, ciddi = [], False
+    if (bugun - dt.date.fromisoformat(donem)).days > 150:
+        u.append("son çeyrek 150 günden eski (yeni bilanço henüz kayıtta değil)")
+    n = len([k for k in son if k in AD])
+    if n < 8:
+        u.append(f"yalnızca {n} kalem var"); ciddi = True
+    if not para:
+        u.append("para birimi bilinmiyor")
+    g = {x["k"]: x for x in (yoy or {}).get("satirlar", [])}
+    q = {x["k"]: x for x in (qoq or {}).get("satirlar", [])}
+    for ad, d in (("geçen yıla göre", g), ("önceki çeyreğe göre", q)):
+        f = (d.get("gelir") or {}).get("fark")
+        if f is not None and abs(f) > (250 if ad.startswith("geçen") else 120):
+            # gerçek bir sıçrama (örneğin bellek döngüsü) genelde art arda çeyreklerde yükselen düzgün bir seri bırakır;
+            # dalgalı ya da tek çeyreğe sıkışan sıçrama şüphelidir
+            duzgun = bool(seri) and len(seri) >= 4 and all(b > a > 0 for a, b in zip(seri[-4:], seri[-3:]))
+            if duzgun:
+                u.append(f"gelir değişimi {ad} %{abs(f):.0f}: çok yüksek ama son 4 çeyrekte düzenli yükselen seri (not)")
+            else:
+                u.append(f"gelir değişimi {ad} %{abs(f):.0f}: aşırı ve seri düzgün değil, kaynağı doğrulanmalı"); ciddi = True
+    bm, nm = son.get("brut_marj"), son.get("net_marj")
+    if (bm is not None and bm > 100) or (nm is not None and nm > 100):
+        u.append("marj %100'ün üstünde: tutarsız veri"); ciddi = True
+    return u, not ciddi
+
+
+def analiz(ceyrekler, para=None, bugun=None):
     """En son çeyreği bir önceki çeyrek (QoQ) ve geçen yılın aynı çeyreği (YoY) ile karşılaştırır."""
-    tarihler = sorted(ceyrekler)
+    # gelir satırı olmayan (henüz kısmi açıklanmış) çeyrek karşılaştırmaya girmez
+    tarihler = [t for t in sorted(ceyrekler) if ceyrekler[t].get("gelir")]
     if not tarihler:
         return None
     t = tarihler[-1]
@@ -169,12 +202,42 @@ def analiz(ceyrekler):
         o = yillar[-1]
         sat = karsilastir(son, turet(ceyrekler[o]))
         sonuc["yoy"] = {"donem": o, "satirlar": sat, "ozet": _ozet(sat)}
+    sonuc["uyari"], sonuc["guvenilir"] = kalite(son, sonuc.get("qoq"), sonuc.get("yoy"), para, t, bugun, [ceyrekler[x]["gelir"] for x in tarihler])
     return sonuc
 
 
-def hisse_dosyasi(sym, para, ceyrek, onceki=None):
+def surpriz_satirlari(df):
+    """Yahoo earnings_history -> [{donem, tahmin, gercek, yuzde}]; tahmin sıfır ya da eksikse yüzde hesaplanmaz."""
+    out = []
+    if df is None or getattr(df, "empty", True):
+        return out
+    for idx, r in df.iterrows():
+        t, g = _sayi(r.get("epsEstimate")), _sayi(r.get("epsActual"))
+        if t is None or g is None:
+            continue
+        y = round((g - t) / abs(t) * 100, 1) if t != 0 else None
+        out.append({"donem": str(idx)[:10], "tahmin": t, "gercek": g, "yuzde": y})
+    return out
+
+
+def surpriz_birlestir(eski, yeni):
+    m = {x["donem"]: x for x in (eski or [])}
+    for x in yeni or []:
+        m[x["donem"]] = x
+    return [m[k] for k in sorted(m)][-12:]
+
+
+def sonuc_surpriz(x, esik=1.0):
+    y = x.get("yuzde")
+    if y is None:
+        return None
+    return "aştı" if y > esik else "kaçırdı" if y < -esik else "beklentide"
+
+
+def hisse_dosyasi(sym, para, ceyrek, onceki=None, surpriz=None, bugun=None):
     c = birlestir((onceki or {}).get("ceyrekler"), ceyrek)
-    return {"sembol": sym, "para": para, "guncelleme": dt.date.today().isoformat(), "ceyrekler": c, "analiz": analiz(c)}
+    return {"sembol": sym, "para": para, "guncelleme": dt.date.today().isoformat(), "ceyrekler": c, "analiz": analiz(c, para, bugun),
+            "surpriz": surpriz_birlestir((onceki or {}).get("surpriz"), surpriz)}
 
 
 def getir(sym, tries=3):
@@ -190,7 +253,11 @@ def getir(sym, tries=3):
                     para = (t.info or {}).get("financialCurrency")
                 except Exception:  # noqa: BLE001
                     para = None
-                return c, para
+                try:
+                    sp = surpriz_satirlari(t.earnings_history)
+                except Exception:  # noqa: BLE001
+                    sp = []
+                return c, para, sp
             son = "boş tablo"
         except Exception as e:  # noqa: BLE001
             son = repr(e)[:120]
@@ -214,13 +281,13 @@ def ana(cikti="bilanco", onceki=None, semboller=None, isci=4):
             except Exception:  # noqa: BLE001
                 eski = None
         try:
-            c, para = getir(sym)
+            c, para, sp = getir(sym)
         except Exception as e:  # noqa: BLE001
             hata[sym] = str(e)
             if eski:   # eski kayıt korunur
                 json.dump(eski, open(os.path.join(cikti, ad), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
             return
-        d = hisse_dosyasi(sym, para or (eski or {}).get("para"), c, eski)
+        d = hisse_dosyasi(sym, para or (eski or {}).get("para"), c, eski, sp)
         json.dump(d, open(os.path.join(cikti, ad), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
     with ThreadPoolExecutor(isci) as ex:

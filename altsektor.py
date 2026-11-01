@@ -32,11 +32,19 @@ def bilanco_gostergeleri(b):
     out = {"donem": a.get("donem") if a else None}
     if not a:
         return out
+    out["guvenilir"] = a.get("guvenilir", True)
+    out["uyari"] = a.get("uyari") or []
+    sp = (b.get("surpriz") or [])
+    if sp:
+        x = sp[-1]
+        y = x.get("yuzde")
+        out["surpriz"] = {"donem": x["donem"], "yuzde": y, "sonuc": None if y is None else "aştı" if y > 1 else "kaçırdı" if y < -1 else "beklentide"}
     for ad in ("yoy", "qoq"):
         d = {x["k"]: x for x in (a.get(ad) or {}).get("satirlar", [])}
         out[ad + "_gelir"] = d["gelir"]["fark"] if "gelir" in d else None
         out[ad + "_brut"] = d["brut_marj"]["fark"] if "brut_marj" in d else None
         out[ad + "_stok"] = d["stok_oran"]["fark"] if "stok_oran" in d else None
+        out[ad + "_capex"] = d["capex"]["fark"] if "capex" in d else None
         out[ad + "_iyi"] = (a[ad]["ozet"]["iyi"], a[ad]["ozet"]["kotu"]) if a.get(ad) else None
         out[ad + "_sonuc"] = {k: d[k]["sonuc"] for k in SINYAL if k in d}
     return out
@@ -49,6 +57,8 @@ def _sinirla(v, sinir=500):
 
 def hisse_yonu(bil, donem="yoy"):
     """Bir hissenin tüm kalemlerinde iyileşen/kötüleşen sayısına göre tek yön: 1 iyi, -1 kötü, 0 karışık/nötr, None veri yok."""
+    if not bil or not bil.get("guvenilir", True):
+        return None
     d = (bil or {}).get(donem + "_sonuc") or {}
     iyi = sum(v == "iyileşti" for v in d.values())
     kotu = sum(v == "kötüleşti" for v in d.values())
@@ -68,7 +78,7 @@ def uyum(uyeler, donem="yoy"):
     out = {"n": len(v), "iyi": sum(y == 1 for _, y in v), "kotu": sum(y == -1 for _, y in v), "karisik": sum(y == 0 for _, y in v)}
     sinyal = {}
     for k in SINYAL:
-        sat = [(u["bil"] or {}).get(donem + "_sonuc", {}).get(k) for u in uyeler]
+        sat = [(u["bil"] or {}).get(donem + "_sonuc", {}).get(k) for u in uyeler if (u["bil"] or {}).get("guvenilir", True)]
         sat = [x for x in sat if x]
         if sat:
             sinyal[k] = {"iyi": sat.count("iyileşti"), "kotu": sat.count("kötüleşti"), "n": len(sat)}
@@ -93,10 +103,61 @@ def uye(s, bil):
             "pe": e.get("pe0"), "r20": e.get("r20"), "pc20": e.get("pc20"),
             "eps_b": _sinirla(oran(e.get("eps1"), e.get("eps0"))), "gelir_b": oran(e.get("rev1"), e.get("rev0")),
             "fcf": None if s.get("fcf") is None else s["fcf"] > 0, "bs": None if s.get("nc") is None else s["nc"] > 0,
-            "earn": s.get("earn"), "bil": bil}
+            "earn": s.get("earn"), "bil": bil, "bilanco_tarihi": ((s.get("est") or {}).get("bl") or {}).get("for"), "son_kapanis": s.get("date")}
 
 
-def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None):
+ZINCIR = ["Bulut ve yapay zeka altyapısı", "Sunucu ve donanım", "İşlemci ve hızlandırıcı", "Bellek (HBM, DRAM, NAND)", "Depolama",
+          "Bağlantı çipleri ve ağ", "Optik", "Foundry ve paketleme", "Yarı iletken ekipmanı", "Malzeme"]
+
+
+def okuma(karar, d20, pe, pe_ref):
+    """Bilanço yönü, fiyat ve çarpanı tek cümlede birleştirir (yalnızca tanımlayıcı; yorum yok)."""
+    if not karar or karar == "yetersiz veri":
+        return None
+    yon = "iyi" if "iyi" in karar else "kötü" if "kötü" in karar else "karışık"
+    f = None if d20 is None else "yükseldi" if d20 > 5 else "düştü" if d20 < -5 else "yatay"
+    c = None
+    if pe and pe_ref:
+        r = pe / pe_ref
+        c = "düşük" if r < 0.8 else "yüksek" if r > 1.25 else "orta"
+    if f is None:
+        return None
+    ek = f", ileri F/K genel listenin medyanına göre {c}" if c else ""
+    if yon == "karışık":
+        return f"Bilançolar karışık; fiyat 20 günde {f}{ek}."
+    if yon == "iyi":
+        if f == "düştü":
+            return f"Bilançolar iyi ama fiyat 20 günde düştü: bilanço ve fiyat ters yönde{ek}."
+        if f == "yükseldi":
+            return f"Bilançolar iyi ve fiyat 20 günde yükseldi{ek}" + ("; iyi haber büyük ölçüde fiyatta görünüyor." if c == "yüksek" else ".")
+        return f"Bilançolar iyi, fiyat 20 günde yatay{ek}."
+    if f == "yükseldi":
+        return f"Bilançolar kötü ama fiyat 20 günde yükseldi: bilanço ve fiyat ters yönde{ek}."
+    return f"Bilançolar kötü ve fiyat 20 günde {f}{ek}."
+
+
+def olaylari_guncelle(onceki, kovalar, ref_tarih, pencere=4):
+    """Bilanço açıklayan şirketin o günkü hareketi ile gruptaki diğerlerinin hareketini kaydeder (günler biriktirilir)."""
+    import datetime as dt
+    if not ref_tarih:
+        return onceki or []
+    bugun = dt.date.fromisoformat(ref_tarih)
+    ev = {(o["s"], o["tarih"]): o for o in (onceki or []) if (bugun - dt.date.fromisoformat(o["tarih"])).days <= 120}
+    for g, uyeler in kovalar.items():
+        for u in uyeler:
+            t = u.get("bilanco_tarihi")
+            if not t or u.get("son_kapanis") != ref_tarih:
+                continue
+            fark = (bugun - dt.date.fromisoformat(t)).days
+            if not (0 <= fark <= pencere):
+                continue
+            diger = [x["d1"] for x in uyeler if x["s"] != u["s"] and x.get("son_kapanis") == ref_tarih and x["d1"] is not None]
+            o = ev.setdefault((u["s"], t), {"s": u["s"], "tarih": t, "grup": g, "gunler": {}})
+            o["gunler"][ref_tarih] = {"d1": u["d1"], "es": medyan(diger), "yuk": sum(1 for x in diger if x > 0), "n": len(diger)}
+    return sorted(ev.values(), key=lambda o: (o["tarih"], o["s"]))[-60:]
+
+
+def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None, onceki=None, ai_pe=None):
     atanan = {}
     for g, sy in gruplar.items():
         for x in sy:
@@ -123,7 +184,10 @@ def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None):
     for g, u in kovalar.items():
         if not u:
             continue
-        bl = [x["bil"] for x in u if x["bil"]]
+        tum = [x["bil"] for x in u if x["bil"]]
+        bl = [x for x in tum if x.get("guvenilir", True)]
+        dis = [x["s"] for x in u if x["bil"] and not x["bil"].get("guvenilir", True)]
+        sp = [x["bil"]["surpriz"] for x in u if x["bil"] and x["bil"].get("surpriz") and x["bil"]["surpriz"].get("sonuc")]
         k = {"n": len(u), "d1": medyan([x["d1"] for x in u]), "d5": medyan([x["d5"] for x in u]), "d20": medyan([x["d20"] for x in u]),
              "yukselen5": sum(1 for x in u if (x["d5"] or 0) > 0), "r20": medyan([x["r20"] for x in u]),
              "eps_b": medyan([x["eps_b"] for x in u]), "gelir_b": medyan([x["gelir_b"] for x in u]),
@@ -131,7 +195,21 @@ def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None):
              "fcf_pozitif": sum(1 for x in u if x["fcf"]), "fcf_n": sum(1 for x in u if x["fcf"] is not None),
              "gelir_yoy": medyan([x.get("yoy_gelir") for x in bl]), "gelir_qoq": medyan([x.get("qoq_gelir") for x in bl]),
              "brut_yoy": medyan([x.get("yoy_brut") for x in bl]), "brut_qoq": medyan([x.get("qoq_brut") for x in bl]),
-             "stok_yoy": medyan([x.get("yoy_stok") for x in bl]), "bil_n": len(bl)}
+             "stok_yoy": medyan([x.get("yoy_stok") for x in bl]), "capex_yoy": medyan([x.get("yoy_capex") for x in bl]),
+             "bil_n": len(bl), "dislanan": dis,
+             "surpriz": {"asti": sum(x["sonuc"] == "aştı" for x in sp), "kacirdi": sum(x["sonuc"] == "kaçırdı" for x in sp),
+                         "beklentide": sum(x["sonuc"] == "beklentide" for x in sp), "n": len(sp), "medyan": medyan([x["yuzde"] for x in sp])}}
         u.sort(key=lambda x: -(x["d20"] if x["d20"] is not None else -1e9))
-        out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uyum(u, "yoy"), "uyum_qoq": uyum(u, "qoq")})
-    return {"tarih": ref_tarih, "gruplar": out, "atanmamis": sorted(atanmamis)}
+        uy = uyum(u, "yoy")
+        onc = next((x for x in (onceki or {}).get("gruplar", []) if x["ad"] == g), None)
+        uy["onceki"] = ((onc or {}).get("uyum") or {}).get("karar")
+        out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uy, "uyum_qoq": uyum(u, "qoq"),
+                    "okuma": okuma(uy["karar"], k["d20"], k["pe"], ai_pe)})
+    adlar = {g["ad"]: g for g in out}
+    zincir = [{"ad": g, "gelir_yoy": adlar[g]["ozet"]["gelir_yoy"], "capex_yoy": adlar[g]["ozet"]["capex_yoy"], "brut_yoy": adlar[g]["ozet"]["brut_yoy"],
+               "bil_n": adlar[g]["ozet"]["bil_n"], "d20": adlar[g]["ozet"]["d20"]} for g in ZINCIR if g in adlar]
+    olaylar = olaylari_guncelle((onceki or {}).get("olaylar"), kovalar, ref_tarih)
+    for o in out:   # çıktı boyutu için üye bilgisindeki olay alanlarını at
+        for x in o["uyeler"]:
+            x.pop("bilanco_tarihi", None); x.pop("son_kapanis", None)
+    return {"tarih": ref_tarih, "gruplar": out, "atanmamis": sorted(atanmamis), "zincir": zincir, "olaylar": olaylar}
