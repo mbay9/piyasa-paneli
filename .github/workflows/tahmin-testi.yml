@@ -1,0 +1,29 @@
+name: Tahmin verisi testi
+
+# Yahoo'nun analist tahmin verisi takip edilen hisselerin kaçı için dolu? Sonuç `gorev` dalına tahmin-rapor.json olarak yazılır. Siteyi değiştirmez.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python tahmin.py --rapor tahmin-rapor.json
+      - name: Raporu gorev dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp tahmin-rapor.json /tmp/
+          git fetch -q origin gorev && git checkout -q -B gorev origin/gorev || git checkout -q --orphan gorev
+          cp /tmp/tahmin-rapor.json .
+          git add tahmin-rapor.json && git commit -q -m "Tahmin verisi testi" && git push -q origin gorev
