@@ -1,66 +1,55 @@
-"""Ağırlık ve geçmiş veri kaynağı yoklaması (siteyi değiştirmez): python kaynak_testi.py --rapor kaynak-rapor.json"""
+"""Resmi çarpan kaynaklarının biçim yoklaması (siteyi değiştirmez): python kaynak_testi.py --rapor kaynak-rapor.json"""
 import io
 import json
+import re
 import sys
+import datetime as dt
 import requests
-import pandas as pd
 
 H = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"}
-out = {}
+out = {"factset": {}, "siblis": None, "chartrow": None}
 
 
-def dene(ad, fn):
+def pdf_metin(url):
+    from pypdf import PdfReader
+    r = requests.get(url, headers=H, timeout=60)
+    if r.status_code != 200 or "pdf" not in (r.headers.get("content-type") or ""):
+        return None, r.status_code
+    rd = PdfReader(io.BytesIO(r.content))
+    return "\n".join((p.extract_text() or "") for p in rd.pages), 200
+
+
+bugun = dt.date(2026, 11, 1)
+tarihler = []
+d = bugun
+while len(tarihler) < 8:
+    d -= dt.timedelta(days=1)
+    if d.weekday() == 4:
+        tarihler.append(d)
+for d in tarihler:
+    ad = d.strftime("%m%d%y")
+    for host in ("advantage.factset.com/hubfs/Website", "insight.factset.com/hubfs", "go.factset.com/hubfs"):
+        url = f"https://{host}/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_{ad}.pdf"
+        try:
+            t, st = pdf_metin(url)
+        except Exception as e:  # noqa: BLE001
+            t, st = None, repr(e)[:80]
+        if t:
+            sat = [re.sub(r"\s+", " ", x) for x in t.splitlines() if "P/E" in x or "p/e" in x]
+            out["factset"][d.isoformat()] = {"url": url, "n": len(t), "satirlar": sat[:14]}
+            break
+        out["factset"][d.isoformat()] = {"hata": st}
+    print(d, {k: v for k, v in out["factset"][d.isoformat()].items() if k != "satirlar"}, (out["factset"][d.isoformat()].get("satirlar") or [])[:4])
+for ad, url in (("siblis", "https://siblisresearch.com/data/nasdaq-100-pe-ratio/"), ("chartrow", "https://chartrow.com/nasdaq-100/pe-ratio")):
     try:
-        out[ad] = fn()
+        r = requests.get(url, headers=H, timeout=40)
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", r.text, flags=re.S)
+        t = re.sub(r"<[^>]+>", " ", t)
+        t = re.sub(r"\s+", " ", t)
+        i = t.find("P/E")
+        out[ad] = {"status": r.status_code, "bytes": len(r.text), "ornek": t[max(0, i - 200):i + 900]}
     except Exception as e:  # noqa: BLE001
-        out[ad] = {"hata": repr(e)[:300]}
-    print(ad, json.dumps(out[ad], ensure_ascii=False, default=str)[:600])
-
-
-def ssga():
-    r = requests.get("https://www.ssga.com/library-content/products/fund-data/etfs/us/holdings-daily-us-en-spy.xlsx", headers=H, timeout=40)
-    raw = pd.read_excel(io.BytesIO(r.content), header=None)
-    baslik = next(i for i in range(15) if "Ticker" in [str(x).strip() for x in raw.iloc[i].tolist()])
-    df = raw.iloc[baslik + 1:].copy()
-    df.columns = [str(x).strip() for x in raw.iloc[baslik].tolist()]
-    df = df[df["Ticker"].notna() & df["Weight"].notna()]
-    w = pd.to_numeric(df["Weight"], errors="coerce")
-    return {"ust_satirlar": raw.iloc[:baslik].fillna("").astype(str).values.tolist()[:6], "kolonlar": list(df.columns), "n": int(len(df)), "agirlik_toplam": float(w.sum()), "ilk5": df.head(5)[["Ticker", "Weight"]].values.tolist()}
-
-
-def slick(url):
-    r = requests.get(url, headers=H, timeout=40)
-    tb = [t for t in pd.read_html(io.StringIO(r.text)) if any("Symbol" in str(c) for c in t.columns)]
-    t = tb[0]
-    wc = next(c for c in t.columns if "Weight" in str(c))
-    w = pd.to_numeric(t[wc].astype(str).str.replace("%", ""), errors="coerce")
-    return {"kolonlar": [str(c) for c in t.columns], "n": int(len(t)), "agirlik_toplam": float(w.sum()), "ilk5": t.head(5).astype(str).values.tolist()}
-
-
-def shiller():
-    r = requests.get("https://raw.githubusercontent.com/datasets/s-and-p-500/main/data/data.csv", headers=H, timeout=40)
-    df = pd.read_csv(io.StringIO(r.text))
-    return {"kolonlar": list(df.columns), "n": int(len(df)), "ilk": df.head(2).astype(str).values.tolist(), "son3": df.tail(3).astype(str).values.tolist()}
-
-
-def spglobal():
-    r = requests.get("https://www.spglobal.com/spdji/en/documents/additional-material/sp-500-eps-est.xlsx", headers=H, timeout=60)
-    return {"status": r.status_code, "bytes": len(r.content), "ctype": r.headers.get("content-type")}
-
-
-def factset():
-    r = requests.get("https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_102326.pdf", headers=H, timeout=60)
-    return {"status": r.status_code, "bytes": len(r.content), "ctype": r.headers.get("content-type")}
-
-
-def ndx_pr():
-    r = requests.get("https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX?range=max&interval=1mo", headers=H, timeout=40)
-    j = r.json()["result"][0]
-    return {"status": r.status_code, "ilk": j["timestamp"][0], "n": len(j["timestamp"])}
-
-
-for ad, fn in (("ssga_spy", ssga), ("slick_ndx", lambda: slick("https://www.slickcharts.com/nasdaq100")), ("slick_spx", lambda: slick("https://www.slickcharts.com/sp500")),
-               ("shiller_datasets", shiller), ("spglobal_eps", spglobal), ("factset_pdf", factset), ("yahoo_ndx_max", ndx_pr)):
-    dene(ad, fn)
+        out[ad] = {"hata": repr(e)[:150]}
+    print(ad, str(out[ad])[:500])
 if "--rapor" in sys.argv:
-    json.dump(out, open(sys.argv[sys.argv.index("--rapor") + 1], "w", encoding="utf-8"), ensure_ascii=False, default=str)
+    json.dump(out, open(sys.argv[sys.argv.index("--rapor") + 1], "w", encoding="utf-8"), ensure_ascii=False)
