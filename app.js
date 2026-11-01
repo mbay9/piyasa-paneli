@@ -135,14 +135,15 @@
   var VOPEN = {};
   function mval(v, cu) { if (v === null || v === undefined) return "–"; return money(v, cu).replace(/^[+−]/, ""); }
   function vchip(s) {
-    var e = s.est; if (!e) return "";
-    var t, c = "";
-    if (e.pe0 !== null && e.pe0 !== undefined) {
-      var m = e.pc20;
-      t = "F/K " + num(e.pe0, 1) + (m === null || m === undefined ? "" : " · " + (m < 0 ? "↓" : m > 0 ? "↑" : "→") + " " + pc(m, 0));
-      if (m !== null && m !== undefined) c = m <= -3 ? " u" : m >= 3 ? " p" : "";
-    } else t = e.kur_uyari ? "F/K" : (e.ps0 ? "zararda · F/S " + num(e.ps0, 1) : "zararda");
-    return ' <button type="button" class="vb' + c + '" data-s="' + esc(s.symbol) + '" aria-expanded="' + (VOPEN[s.symbol] ? "true" : "false") + '" aria-label="' + esc(tk(s.symbol)) + ' değerleme ayrıntısı"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5 8 6l-3.5 3.5"/></svg>' + t + '</button>';
+    if (!s.est) return '<span class="vb ph" aria-hidden="true"></span>';
+    return '<button type="button" class="vb" data-s="' + esc(s.symbol) + '" aria-expanded="' + (VOPEN[s.symbol] ? "true" : "false") + '" aria-label="' + esc(tk(s.symbol)) + ' değerleme ayrıntısı"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5 8 6l-3.5 3.5"/></svg></button>';
+  }
+  function fkCell(s) {
+    var e = s.est;
+    if (!e) return '<span class="neu">–</span>';
+    if (e.pe0 === null || e.pe0 === undefined) return '<span class="neu">–</span><small>' + (e.kur_uyari ? "ADR: kur farkı" : "zararda") + '</small>';
+    var m = e.pc20, k = m === null || m === undefined ? "" : m <= -3 ? "u" : m >= 3 ? "p" : "";
+    return '<span class="fk ' + k + '">' + num(e.pe0, 1) + '</span>' + (m === null || m === undefined ? "" : '<small class="' + (k === "u" ? "pos" : k === "p" ? "neg" : "neu") + '">' + (m < 0 ? "↓" : "↑") + " " + pc(m, 0) + " · 20g</small>");
   }
   function vspark(h) {
     if (!h || h.length < 5) return "";
@@ -176,9 +177,9 @@
   }
   function aiTable(a) {
     var ref = DATA.meta.ref_date, hmk = { d5: 1 };
-    var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"]];
+    var cols = [["symbol", "Hisse"], ["pe0", "İleri F/K"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"]];
     var rows = a.stocks.slice().sort(function (x, y) {
-      var k = AI_SORT.k, u = x[k], v = y[k];
+      var k = AI_SORT.k, u = k === "pe0" ? (x.est ? x.est.pe0 : null) : x[k], v = k === "pe0" ? (y.est ? y.est.pe0 : null) : y[k];
       if (typeof u === "boolean") { u = u ? 1 : 0; v = v ? 1 : 0; }
       if (u === null || u === undefined) return 1; if (v === null || v === undefined) return -1;
       if (typeof u === "string") return u.localeCompare(v) * AI_SORT.dir;
@@ -187,8 +188,8 @@
     var head = cols.map(function (c) { return '<th class="s' + (hmk[c[0]] ? " hm" : "") + '" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (AI_SORT.k === c[0] ? (AI_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (AI_SORT.k === c[0] ? (AI_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
-      var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + fb(s) + eb(s) + vchip(s) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td></tr>' + (s.est && VOPEN[s.symbol] ? '<tr class="vp"><td colspan="8">' + vpanel(s) + '</td></tr>' : "");
+      var dl = s.date && s.date !== ref ? '<span class="eb">son kapanış ' + fmtShort(s.date) + '</span>' : "";
+      return '<tr><td><div class="hc">' + vchip(s) + '<div><div class="l1"><b>' + esc(tk(s.symbol)) + '</b><span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span></div><div class="l2">' + sa(s.symbol) + fb(s) + eb(s) + dl + '</div></div></div>' + '</td><td class="fkc">' + fkCell(s) + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td></tr>' + (s.est && VOPEN[s.symbol] ? '<tr class="vp"><td colspan="9">' + vpanel(s) + '</td></tr>' : "");
     }).join("");
     var noMob = { symbol: 1, above50: 1, above200: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
@@ -359,7 +360,7 @@
     if (nx && nx.classList.contains("vp")) { nx.parentNode.removeChild(nx); delete VOPEN[sym]; b.setAttribute("aria-expanded", "false"); return; }
     var s = DATA.ai.stocks.filter(function (x) { return x.symbol === sym; })[0];
     if (!s || !s.est) return;
-    var tr = document.createElement("tr"); tr.className = "vp"; tr.innerHTML = '<td colspan="8">' + vpanel(s) + '</td>';
+    var tr = document.createElement("tr"); tr.className = "vp"; tr.innerHTML = '<td colspan="9">' + vpanel(s) + '</td>';
     row.parentNode.insertBefore(tr, row.nextSibling); labels(); VOPEN[sym] = 1; b.setAttribute("aria-expanded", "true");
   });
   var ftip = null;

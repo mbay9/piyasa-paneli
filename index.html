@@ -92,11 +92,15 @@ th.s { cursor: pointer; } th.s:hover { color: var(--fg); } th.s:focus-visible { 
 .f.y { color: var(--pxu); background: var(--pxu-bg); } .f.k { color: var(--pxd); background: var(--pxd-bg); }
 #ftip { position: fixed; z-index: 5; max-width: calc(100vw - 16px); background: var(--fg); color: var(--bg); padding: 5px 9px; border-radius: 7px; font-size: 11.5px; font-weight: 500; line-height: 1.4; pointer-events: none; }
 .lk { white-space: nowrap; }
-.vb { all: unset; box-sizing: border-box; display: inline-flex; align-items: center; gap: 5px; margin-left: 8px; padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 500; line-height: 1.5; white-space: nowrap; cursor: pointer; color: var(--mute); background: var(--pxn-bg); vertical-align: 1px; }
-.vb.u { color: var(--pxu); background: var(--pxu-bg); } .vb.p { color: var(--pxd); background: var(--pxd-bg); }
-.vb:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.vb svg { width: 9px; height: 9px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: transform .15s; }
-.vb[aria-expanded="true"] svg { transform: rotate(90deg); }
+.vb { all: unset; box-sizing: border-box; width: 20px; height: 20px; border-radius: 6px; display: inline-grid; place-items: center; flex: none; cursor: pointer; color: var(--mute); background: var(--soft); }
+.vb.ph { background: none; cursor: default; }
+.vb:hover { color: var(--fg); } .vb:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.vb svg { width: 10px; height: 10px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: transform .15s; }
+.vb[aria-expanded="true"] { color: var(--fg); } .vb[aria-expanded="true"] svg { transform: rotate(90deg); }
+.hc { display: flex; align-items: center; gap: 10px; } .l1 { display: flex; align-items: center; gap: 4px 8px; flex-wrap: wrap; }
+.l2 { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 0; margin-top: 4px; } .l2 .sa:first-child, .l2 .lk:first-child { margin-left: 0; } .l2 .px { margin-left: 0; }
+.hc .px { margin-left: 0; } .fk { font-weight: 500; } .fk.u { color: var(--up); } .fk.p { color: var(--down); }
+td.fkc small { white-space: nowrap; }
 tr.vp > td { text-align: left; padding: 6px 0 18px; }
 .vgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px 28px; }
 .vgrid .wide { grid-column: 1 / -1; }
