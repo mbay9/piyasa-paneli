@@ -39,7 +39,7 @@ def bilanco_gostergeleri(b):
         x = sp[-1]
         y = x.get("yuzde")
         out["surpriz"] = {"donem": x["donem"], "yuzde": y, "sonuc": None if y is None else "aştı" if y > 1 else "kaçırdı" if y < -1 else "beklentide"}
-    for ad in ("yoy", "qoq"):
+    for ad in ("qoq",):
         d = {x["k"]: x for x in (a.get(ad) or {}).get("satirlar", [])}
         out[ad + "_gelir"] = d["gelir"]["fark"] if "gelir" in d else None
         out[ad + "_brut"] = d["brut_marj"]["fark"] if "brut_marj" in d else None
@@ -55,7 +55,7 @@ def _sinirla(v, sinir=500):
     return None if v is not None and abs(v) > sinir else v
 
 
-def hisse_yonu(bil, donem="yoy"):
+def hisse_yonu(bil, donem="qoq"):
     """Bir hissenin tüm kalemlerinde iyileşen/kötüleşen sayısına göre tek yön: 1 iyi, -1 kötü, 0 karışık/nötr, None veri yok."""
     if not bil or not bil.get("guvenilir", True):
         return None
@@ -71,7 +71,7 @@ def hisse_yonu(bil, donem="yoy"):
     return 0
 
 
-def uyum(uyeler, donem="yoy"):
+def uyum(uyeler, donem="qoq"):
     """Aynı gruptaki şirketlerin bilançoları birbirini doğruluyor mu?"""
     yon = [(u["s"], hisse_yonu(u["bil"], donem)) for u in uyeler]
     v = [(s, y) for s, y in yon if y is not None]
@@ -193,23 +193,18 @@ def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None, onceki=None, ai_
              "eps_b": medyan([x["eps_b"] for x in u]), "gelir_b": medyan([x["gelir_b"] for x in u]),
              "pe": medyan([x["pe"] for x in u if x["pe"] and 0 < x["pe"] < 500]),
              "fcf_pozitif": sum(1 for x in u if x["fcf"]), "fcf_n": sum(1 for x in u if x["fcf"] is not None),
-             "gelir_yoy": medyan([x.get("yoy_gelir") for x in bl]), "gelir_qoq": medyan([x.get("qoq_gelir") for x in bl]),
-             "brut_yoy": medyan([x.get("yoy_brut") for x in bl]), "brut_qoq": medyan([x.get("qoq_brut") for x in bl]),
-             "stok_yoy": medyan([x.get("yoy_stok") for x in bl]), "capex_yoy": medyan([x.get("yoy_capex") for x in bl]),
+             "gelir_qoq": medyan([x.get("qoq_gelir") for x in bl]), "brut_qoq": medyan([x.get("qoq_brut") for x in bl]),
+             "stok_qoq": medyan([x.get("qoq_stok") for x in bl]), "capex_qoq": medyan([x.get("qoq_capex") for x in bl]),
              "bil_n": len(bl), "dislanan": dis,
              "surpriz": {"asti": sum(x["sonuc"] == "aştı" for x in sp), "kacirdi": sum(x["sonuc"] == "kaçırdı" for x in sp),
                          "beklentide": sum(x["sonuc"] == "beklentide" for x in sp), "n": len(sp), "medyan": medyan([x["yuzde"] for x in sp])}}
         u.sort(key=lambda x: -(x["d20"] if x["d20"] is not None else -1e9))
-        uy = uyum(u, "yoy")
+        uy = uyum(u)
         onc = next((x for x in (onceki or {}).get("gruplar", []) if x["ad"] == g), None)
         uy["onceki"] = ((onc or {}).get("uyum") or {}).get("karar")
-        uq = uyum(u, "qoq")
-        uq["onceki"] = ((onc or {}).get("uyum_qoq") or {}).get("karar")
-        # yapay zeka gibi hızlı değişen alanlarda ana okuma bir önceki çeyrektir; geçen yıl mevsimselliği ayıklar, ikisi birlikte gösterilir
-        out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uy, "uyum_qoq": uq,
-                    "okuma": okuma(uq["karar"], k["d20"], k["pe"], ai_pe)})
+        out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uy, "okuma": okuma(uy["karar"], k["d20"], k["pe"], ai_pe)})
     adlar = {g["ad"]: g for g in out}
-    zincir = [{"ad": g, "gelir_yoy": adlar[g]["ozet"]["gelir_yoy"], "gelir_qoq": adlar[g]["ozet"]["gelir_qoq"], "capex_yoy": adlar[g]["ozet"]["capex_yoy"], "brut_yoy": adlar[g]["ozet"]["brut_yoy"],
+    zincir = [{"ad": g, "gelir_qoq": adlar[g]["ozet"]["gelir_qoq"], "capex_qoq": adlar[g]["ozet"]["capex_qoq"], "brut_qoq": adlar[g]["ozet"]["brut_qoq"],
                "bil_n": adlar[g]["ozet"]["bil_n"], "d20": adlar[g]["ozet"]["d20"]} for g in ZINCIR if g in adlar]
     olaylar = olaylari_guncelle((onceki or {}).get("olaylar"), kovalar, ref_tarih)
     for o in out:   # çıktı boyutu için üye bilgisindeki olay alanlarını at

@@ -146,7 +146,7 @@
  {
   "tarih": "2026-11-02",
   "olay": "30 Ekim'de 'Piyasa verisini güncelle' üç kez başarısız oldu (iki zamanlanmış, bir elle)",
-  "kok_neden": "Nasdaq Composite'in günlük getirisi Nasdaq-100'ü izleyen QQQ ile karşılaştırılıyordu; iki farklı endeks olduğundan sert düşüş gününde fark eşiği (0,5 puan) aştı ve güncelleme iptal edildi. Kayıtlı log çıktısı yalnızca elle çalıştırılan koşuda okunabildi, diğer ikisi aynı kodla aynı günde ve aynı çıkış koduyla bitti",
+  "kok_neden": "Nasdaq Composite'in günlük getirisi (−%2,856) Nasdaq-100'ü izleyen QQQ ile (−%3,474) karşılaştırılıyordu; iki farklı endeks olduğundan fark 0,618 puan çıkıp 0,5 eşiğini aştı. Üç koşunun üçünün logunda aynı satır var",
   "onlem": "Composite, onu izleyen ONEQ ile karşılaştırılıyor; QQQ yalnızca Nasdaq-100 için kullanılıyor",
   "kanit": [
    [
@@ -181,21 +181,57 @@
  },
  {
   "tarih": "2026-11-02",
-  "olay": "Test işleri (tahmin, endeks) sonuç dosyasını gorev dalına yazarken düştü; bilanço işi de aynı adımda bir kez düştü",
-  "kok_neden": "Bilanço işinde kesin neden: işin kendi çıktı klasörü ile dalın aynı adlı klasörü çakıştı (dala geçerken dosya ezilemedi). Test işlerinde log okunamadı; olası nedenler: değişiklik yokken 'git commit' hata kodu vermesi ya da iki iş aynı anda dala itince çakışma (doğrulanamadı)",
-  "onlem": "Dala yazan tüm işlerde değişiklik yoksa hata verilmez, itme çakışırsa yeniden denenir, bilanço işinde dala geçmeden önce yerel klasör kaldırılır",
+  "olay": "Test işleri sonuç dosyasını gorev dalına yazarken düştü (tahmin testi, bilanço işi)",
+  "kok_neden": "Dala geçerken işin kendi ürettiği dosya (tahmin-rapor.json, bilanco/) dalda aynı adla bulunduğundan 'untracked working tree files would be overwritten' hatası çıktı; geçiş başarısız olunca itme de reddedildi. Logda kesin satır var",
+  "onlem": "Önce çıktı geçici klasöre kopyalanıp yerelden silinir, sonra dala geçilir; değişiklik yoksa hata verilmez, itme çakışırsa yeniden denenir",
   "kanit": [
+   [
+    ".github/workflows/tahmin-testi.yml",
+    "rm -f tahmin-rapor.json"
+   ],
    [
     ".github/workflows/bilanco.yml",
     "rm -rf bilanco"
    ],
    [
-    ".github/workflows/tahmin-testi.yml",
-    "git rebase"
-   ],
-   [
     ".github/workflows/kalibrasyon.yml",
     "git rebase"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "28 Ekim'de elle başlatılan BTC yenilemesi iki kez 'hiçbir gösterge yenilenemedi' diye düştü",
+  "kok_neden": "Yahoo'nun BTC günlüğü (26 Ekim) sitedeki değerden (27 Ekim) eski çıktı; kod bunu hata sayıp çıkış kodu 1 verdi. Yeni veri yokken değişmeden bırakmak hata değildir",
+  "onlem": "Eski gelen veri atlanır ve sayılır (skipped); yalnızca hiçbir şey indirilemediyse hata verilir",
+  "kanit": [
+   [
+    "update.py",
+    "skipped += 1"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "6 Ekim'de zamanlanmış güncelleme 10:56 ET'de çalışıp üç denemede de düştü",
+  "kok_neden": "Zamanlama kapanıştan önce tetiklendi; kod doğru olarak günlük veri tamamlanmadan yayınlamayı reddetti (log: 'günlük verisi henüz tamamlanmış olabilir')",
+  "onlem": "Başlamadan önce New York saati 16:30'dan önceyse koşu atlanır (kapanış kontrolü)",
+  "kanit": [
+   [
+    ".github/workflows/update.yml",
+    "kapanış verisi henüz hazır değil"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "Endeks testi 1 Kasım'da düştü",
+  "kok_neden": "iShares IVV dosyası Actions'tan HTML olarak geliyordu; test başlık satırını bulamayıp StopIteration verdi",
+  "onlem": "Üretimde SPDR SPY dosyası kullanılıyor; test aracında liste yedeği var",
+  "kanit": [
+   [
+    "endeks.py",
+    "parse_spy"
    ]
   ]
  }

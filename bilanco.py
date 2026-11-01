@@ -153,7 +153,7 @@ def _ozet(satirlar):
             "n": len(satirlar)}
 
 
-def kalite(son, qoq, yoy, para, donem, bugun=None, seri=None):
+def kalite(son, qoq, para, donem, bugun=None, seri=None):
     """Veriye güvenmeden önce bakılan işaretler. Dönüş: (uyarılar, güvenilir)
     güvenilir=False: sayılar gruplarda medyana sokulmaz (yanlış sıçramalar sonucu bozmasın)."""
     bugun = bugun or dt.date.today()
@@ -165,11 +165,10 @@ def kalite(son, qoq, yoy, para, donem, bugun=None, seri=None):
         u.append(f"yalnızca {n} kalem var"); ciddi = True
     if not para:
         u.append("para birimi bilinmiyor")
-    g = {x["k"]: x for x in (yoy or {}).get("satirlar", [])}
     q = {x["k"]: x for x in (qoq or {}).get("satirlar", [])}
-    for ad, d in (("geçen yıla göre", g), ("önceki çeyreğe göre", q)):
+    for ad, d in (("önceki çeyreğe göre", q),):
         f = (d.get("gelir") or {}).get("fark")
-        if f is not None and abs(f) > (250 if ad.startswith("geçen") else 120):
+        if f is not None and abs(f) > 120:
             # gerçek bir sıçrama (örneğin bellek döngüsü) genelde art arda çeyreklerde yükselen düzgün bir seri bırakır;
             # dalgalı ya da tek çeyreğe sıkışan sıçrama şüphelidir
             duzgun = bool(seri) and len(seri) >= 4 and all(b > a > 0 for a, b in zip(seri[-4:], seri[-3:]))
@@ -184,7 +183,7 @@ def kalite(son, qoq, yoy, para, donem, bugun=None, seri=None):
 
 
 def analiz(ceyrekler, para=None, bugun=None):
-    """En son çeyreği bir önceki çeyrek (QoQ) ve geçen yılın aynı çeyreği (YoY) ile karşılaştırır."""
+    """En son çeyreği bir önceki çeyrekle karşılaştırır (hızlı değişen alanlarda önemli olan ivmedir)."""
     # gelir satırı olmayan (henüz kısmi açıklanmış) çeyrek karşılaştırmaya girmez
     tarihler = [t for t in sorted(ceyrekler) if ceyrekler[t].get("gelir")]
     if not tarihler:
@@ -197,12 +196,7 @@ def analiz(ceyrekler, para=None, bugun=None):
         o = oncekiler[-1]
         sat = karsilastir(son, turet(ceyrekler[o]))
         sonuc["qoq"] = {"donem": o, "satirlar": sat, "ozet": _ozet(sat)}
-    yillar = [x for x in tarihler[:-1] if 330 <= _ceyrek_arasi(x, t) <= 400]
-    if yillar:
-        o = yillar[-1]
-        sat = karsilastir(son, turet(ceyrekler[o]))
-        sonuc["yoy"] = {"donem": o, "satirlar": sat, "ozet": _ozet(sat)}
-    sonuc["uyari"], sonuc["guvenilir"] = kalite(son, sonuc.get("qoq"), sonuc.get("yoy"), para, t, bugun, [ceyrekler[x]["gelir"] for x in tarihler])
+    sonuc["uyari"], sonuc["guvenilir"] = kalite(son, sonuc.get("qoq"), para, t, bugun, [ceyrekler[x]["gelir"] for x in tarihler])
     return sonuc
 
 

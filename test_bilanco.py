@@ -12,7 +12,7 @@ def main():
     q = B.cikar(g, b, c)
     assert q["2026-09-30"]["gelir"] == 120 and q["2026-09-30"]["nakit"] == 70
     a = B.analiz(q)
-    assert a["donem"] == "2026-09-30" and a["qoq"]["donem"] == "2026-06-30" and a["yoy"]["donem"] == "2025-09-30"
+    assert a["donem"] == "2026-09-30" and a["qoq"]["donem"] == "2026-06-30"
     d = {x["k"]: x for x in a["qoq"]["satirlar"]}
     assert d["gelir"]["sonuc"] == "iyileşti" and d["gelir"]["fark"] == 20.0
     assert d["borc"]["sonuc"] == "kötüleşti"            # borç arttı
@@ -20,8 +20,8 @@ def main():
     assert d["brut_marj"]["sonuc"] == "değişmedi"       # 50 -> 50
     assert d["faaliyet_marj"]["sonuc"] == "kötüleşti"   # 30 -> 25
     assert d["stok_oran"]["sonuc"] == "kötüleşti"       # 20/100 -> 30/120 = 25
-    y = {x["k"]: x for x in a["yoy"]["satirlar"]}
-    assert y["fcf"]["sonuc"] == "iyileşti" and y["net_nakit"]["sonuc"] == "iyileşti"
+    assert "yoy" not in a                                # geçen yıla göre karşılaştırma yok, yalnız önceki çeyrek
+    assert d["fcf"]["sonuc"] == "iyileşti" and d["net_nakit"]["sonuc"] == "değişmedi"
     # birikim: eski çeyrek korunur
     m = B.birlestir({"2024-09-30": {"gelir": 1}}, q)
     assert "2024-09-30" in m and len(m) == 4
@@ -33,7 +33,7 @@ def main():
     assert a2["guvenilir"] is True or any("kalem" in x for x in a2["uyari"])   # az kalem sentetikte olabilir
     # aşırı sıçrama güvenilmez sayılır
     q2 = {"2026-09-30": {"gelir": 500, "brut": 100, "faaliyet": 10, "net": 5, "ebitda": 1, "eps": 1, "nakit": 1, "borc": 1, "varlik": 1, "isletme_nakit": 1, "fcf": 1},
-          "2025-09-30": {"gelir": 100, "brut": 50, "faaliyet": 10, "net": 5, "ebitda": 1, "eps": 1, "nakit": 1, "borc": 1, "varlik": 1, "isletme_nakit": 1, "fcf": 1}}
+          "2026-06-30": {"gelir": 100, "brut": 50, "faaliyet": 10, "net": 5, "ebitda": 1, "eps": 1, "nakit": 1, "borc": 1, "varlik": 1, "isletme_nakit": 1, "fcf": 1}}
     a3 = B.analiz(q2, "USD", bg)
     assert a3["guvenilir"] is False and any("aşırı" in x for x in a3["uyari"])
     # düzgün yükselen seri kabul edilir, dalgalı sıçrama reddedilir
