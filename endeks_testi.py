@@ -185,4 +185,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:  # noqa: BLE001
+        import traceback
+        iz = traceback.format_exc()
+        print(iz)
+        if "--rapor" in sys.argv:
+            json.dump({"hata": iz}, open(sys.argv[sys.argv.index("--rapor") + 1], "w", encoding="utf-8"), ensure_ascii=False)
