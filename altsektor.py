@@ -106,13 +106,13 @@ def uye(s, bil):
             "earn": s.get("earn"), "bil": bil, "bilanco_tarihi": ((s.get("est") or {}).get("bl") or {}).get("for"), "son_kapanis": s.get("date")}
 
 
-ZINCIR = ["Bulut ve yapay zeka altyapısı", "Sunucu ve donanım", "İşlemci ve hızlandırıcı", "Bellek (HBM, DRAM, NAND)", "Depolama",
-          "Bağlantı çipleri ve ağ", "Optik", "Foundry ve paketleme", "Yarı iletken ekipmanı", "Malzeme"]
+ZINCIR = ["Bulut ve yapay zeka altyapısı", "Sunucu ve elektronik üretim", "İşlemci ve hızlandırıcı", "Bellek ve depolama (HBM, DRAM, NAND, HDD)",
+          "Bağlantı çipleri", "Ağ ekipmanı", "Optik", "Foundry ve paketleme", "Yarı iletken ekipmanı ve malzeme"]
 
 
 def okuma(karar, d20, pe, pe_ref):
     """Bilanço yönü, fiyat ve çarpanı tek cümlede birleştirir (yalnızca tanımlayıcı; yorum yok)."""
-    if not karar or karar == "yetersiz veri":
+    if not karar or karar == "yetersiz veri" or karar.startswith("karma"):
         return None
     yon = "iyi" if "iyi" in karar else "kötü" if "kötü" in karar else "karışık"
     f = None if d20 is None else "yükseldi" if d20 > 5 else "düştü" if d20 < -5 else "yatay"
@@ -199,7 +199,7 @@ def uret(hisseler, gruplar, bilanco_dizin=None, ref_tarih=None, onceki=None, ai_
              "surpriz": {"asti": sum(x["sonuc"] == "aştı" for x in sp), "kacirdi": sum(x["sonuc"] == "kaçırdı" for x in sp),
                          "beklentide": sum(x["sonuc"] == "beklentide" for x in sp), "n": len(sp), "medyan": medyan([x["yuzde"] for x in sp])}}
         u.sort(key=lambda x: -(x["d20"] if x["d20"] is not None else -1e9))
-        uy = uyum(u)
+        uy = uyum(u) if g != DIGER else {"n": len(u), "iyi": 0, "karisik": 0, "kotu": 0, "sinyal": {}, "karar": "karma grup, yorum yok", "ayrisan": []}
         onc = next((x for x in (onceki or {}).get("gruplar", []) if x["ad"] == g), None)
         uy["onceki"] = ((onc or {}).get("uyum") or {}).get("karar")
         out.append({"ad": g, "ozet": k, "uyeler": u, "uyum": uy, "okuma": okuma(uy["karar"], k["d20"], k["pe"], ai_pe)})

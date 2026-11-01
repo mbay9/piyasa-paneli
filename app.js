@@ -281,7 +281,7 @@
       al.gruplar.forEach(function (g) {
         var u = g.uyum || {}, k = u.karar || "";
         if (k.indexOf("iyi") >= 0) iyi.push(g.ad); else if (k.indexOf("kötü") >= 0) kotu.push(g.ad); else if (k === "karışık mesaj") kar.push(g.ad);
-        if (u.onceki && u.karar !== u.onceki && u.karar !== "yetersiz veri" && u.onceki !== "yetersiz veri") dg.push(g.ad);
+        if (u.onceki && u.karar !== u.onceki && u.karar !== "yetersiz veri" && u.onceki !== "yetersiz veri" && u.karar.indexOf("karma") !== 0) dg.push(g.ad);
       });
       function sat(et, cl, L) { return L.length ? '<div class="kv"><span class="' + cl + '"><b>' + et + "</b></span><span>" + L.map(esc).join(", ") + "</span></div>" : ""; }
       var alt = sat("Bilançolar iyi yönde", "pos", iyi) + sat("Bilançolar kötü yönde", "neg", kotu) + sat("Karışık", "neu", kar) + sat("Dünden değişen", "", dg);
@@ -358,6 +358,7 @@
     if (!al || al.tarih !== d.meta.ref_date) return h2("Alt sektörler") + '<p class="vn">Bu gün için alt sektör verisi henüz yayında değil; bir sonraki veri güncellemesiyle birlikte görünecek. Bu sekmede hisseler gruplara ayrılır, grupların fiyat, tahmin ve bilanço göstergeleri karşılaştırılır.</p>';
     function c(v, dec, suf) { return v == null ? '<td class="neu">–</td>' : '<td class="' + cls(v) + '">' + (v > 0 ? "+" : v < 0 ? "−" : "") + num(Math.abs(v), dec) + (suf || "%") + "</td>"; }
     function uyumHucre(u) {
+      if (u && u.karar.indexOf("karma") === 0) return '<td class="neu">Karma grup, ortak yorum yok</td>';
       if (!u || u.karar === "yetersiz veri") return '<td class="neu">Yetersiz veri' + (u ? " (" + u.n + " bilanço)" : "") + "</td>";
       var cl = u.karar.indexOf("iyi") >= 0 ? "pos" : u.karar.indexOf("kötü") >= 0 ? "neg" : "neu";
       return '<td class="' + cl + '">' + esc(u.karar.charAt(0).toUpperCase() + u.karar.slice(1)) + "<small>" + u.iyi + " iyi · " + u.karisik + " karışık · " + u.kotu + " kötü (" + u.n + " şirket)</small></td>";
@@ -396,7 +397,7 @@
       }).join("");
       var SA = { gelir: "gelir", brut_marj: "brüt marj", faaliyet_marj: "faaliyet marjı", net_marj: "net marj", fcf_marj: "FCF marjı", stok_oran: "stok/gelir" };
       function uyP(u, bas) {
-        if (!u || u.karar === "yetersiz veri") return "";
+        if (!u || u.karar === "yetersiz veri" || u.karar.indexOf("karma") === 0) return "";
         return '<p class="vn"><b>Bilanço uyumu (' + bas + "):</b> " + esc(u.karar) + ". " + Object.keys(u.sinyal).map(function (k) { var x = u.sinyal[k]; return SA[k] + ": " + x.iyi + " iyileşti, " + x.kotu + " kötüleşti"; }).join(" · ") + "." +
           (u.ayrisan && u.ayrisan.length ? " Ayrışanlar: " + u.ayrisan.map(function (x) { return esc(tk(x)); }).join(", ") + "." : "") + "</p>";
       }

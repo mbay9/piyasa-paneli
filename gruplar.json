@@ -1,17 +1,131 @@
 {
-  "Bellek (HBM, DRAM, NAND)": ["MU", "SNDK", "SKHY", "005930.KS", "285A.T", "688825.SS", "2408.TW", "2344.TW", "603986.SS", "SIMO"],
-  "Depolama": ["WDC", "STX"],
-  "Optik": ["LITE", "AAOI", "COHR", "FN", "CIEN", "VIAV", "LASR", "GLW"],
-  "Bağlantı çipleri ve ağ": ["CRDO", "ALAB", "MTSI", "SMTC", "MXL", "ANET", "CSCO", "NOK"],
-  "İşlemci ve hızlandırıcı": ["NVDA", "AMD", "INTC", "ARM", "QCOM", "AVGO", "MRVL", "CBRS"],
-  "Foundry ve paketleme": ["TSM", "GFS", "UMC", "TSEM", "ASX", "AMKR"],
-  "Yarı iletken ekipmanı": ["ASML", "AMAT", "LRCX", "KLAC", "TER", "ONTO", "NVMI", "FORM", "AEHR", "VECO", "KLIC", "MKSI"],
-  "Malzeme": ["ENTG", "AXTI", "SOLS"],
-  "Tasarım yazılımı": ["CDNS", "SNPS"],
-  "Analog ve güç yarı iletkenleri": ["ADI", "TXN", "MCHP", "NXPI", "ON", "STM", "MPWR", "LSCC", "WOLF", "NVTS", "VICR", "SITM"],
-  "Bulut ve yapay zeka altyapısı": ["CRWV", "NBIS", "APLD", "WULF", "ORCL"],
-  "Sunucu ve donanım": ["DELL", "HPE", "PENG", "CLS", "JBL", "TTMI"],
-  "Güç, soğutma ve veri merkezi inşaatı": ["VRT", "MOD", "NVT", "FPS", "FIX", "STRL", "WLDN"],
-  "Enerji": ["GEV", "BE", "SEI", "LEU", "ENPH", "SEDG"],
-  "Diğer": ["IONQ", "OUST", "VELO", "SPCX", "FTAI", "EROC"]
+  "Bellek ve depolama (HBM, DRAM, NAND, HDD)": [
+    "MU",
+    "SNDK",
+    "SKHY",
+    "005930.KS",
+    "285A.T",
+    "688825.SS",
+    "2408.TW",
+    "2344.TW",
+    "603986.SS",
+    "SIMO",
+    "WDC",
+    "STX"
+  ],
+  "Optik": [
+    "LITE",
+    "AAOI",
+    "COHR",
+    "FN",
+    "CIEN",
+    "GLW"
+  ],
+  "Bağlantı çipleri": [
+    "CRDO",
+    "ALAB",
+    "MTSI",
+    "SMTC",
+    "MXL"
+  ],
+  "Ağ ekipmanı": [
+    "ANET",
+    "CSCO",
+    "NOK",
+    "VIAV"
+  ],
+  "İşlemci ve hızlandırıcı": [
+    "NVDA",
+    "AMD",
+    "INTC",
+    "QCOM",
+    "AVGO",
+    "MRVL",
+    "CBRS"
+  ],
+  "Çip tasarımı (IP ve yazılım)": [
+    "ARM",
+    "CDNS",
+    "SNPS"
+  ],
+  "Foundry ve paketleme": [
+    "TSM",
+    "GFS",
+    "UMC",
+    "TSEM",
+    "ASX",
+    "AMKR"
+  ],
+  "Yarı iletken ekipmanı ve malzeme": [
+    "ASML",
+    "AMAT",
+    "LRCX",
+    "KLAC",
+    "TER",
+    "ONTO",
+    "NVMI",
+    "FORM",
+    "AEHR",
+    "VECO",
+    "KLIC",
+    "MKSI",
+    "ENTG",
+    "AXTI"
+  ],
+  "Analog, güç ve diğer yarı iletkenler": [
+    "ADI",
+    "TXN",
+    "MCHP",
+    "NXPI",
+    "ON",
+    "STM",
+    "MPWR",
+    "LSCC",
+    "WOLF",
+    "NVTS",
+    "VICR",
+    "SITM"
+  ],
+  "Bulut ve yapay zeka altyapısı": [
+    "CRWV",
+    "NBIS",
+    "APLD",
+    "WULF",
+    "ORCL"
+  ],
+  "Sunucu ve elektronik üretim": [
+    "DELL",
+    "HPE",
+    "PENG",
+    "CLS",
+    "JBL",
+    "TTMI"
+  ],
+  "Güç, soğutma ve veri merkezi inşaatı": [
+    "VRT",
+    "MOD",
+    "NVT",
+    "FPS",
+    "FIX",
+    "STRL",
+    "WLDN"
+  ],
+  "Enerji (veri merkezi gücü, güneş, nükleer)": [
+    "GEV",
+    "BE",
+    "SEI",
+    "EROC",
+    "LEU",
+    "ENPH",
+    "SEDG"
+  ],
+  "Diğer": [
+    "IONQ",
+    "OUST",
+    "VELO",
+    "SPCX",
+    "FTAI",
+    "LASR",
+    "SOLS"
+  ]
 }
