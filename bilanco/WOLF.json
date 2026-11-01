@@ -351,6 +351,34 @@
     "kotu": 5,
     "n": 13
    }
+  },
+  "uyari": [],
+  "guvenilir": true
+ },
+ "surpriz": [
+  {
+   "donem": "2025-09-30",
+   "tahmin": -0.75,
+   "gercek": -0.55,
+   "yuzde": 26.7
+  },
+  {
+   "donem": "2025-12-31",
+   "tahmin": -0.735,
+   "gercek": -6.11,
+   "yuzde": -731.3
+  },
+  {
+   "donem": "2026-03-31",
+   "tahmin": -3.78,
+   "gercek": -3.26,
+   "yuzde": 13.8
+  },
+  {
+   "donem": "2026-06-30",
+   "tahmin": -2.45,
+   "gercek": -2.26,
+   "yuzde": 7.8
   }
- }
+ ]
 }

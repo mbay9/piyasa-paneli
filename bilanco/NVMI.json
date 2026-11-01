@@ -57,7 +57,6 @@
   "2026-03-31": {
    "gelir": 235308000.0,
    "brut": 135688000.0,
-   "faaliyet": 70836000.0,
    "net": 69259000.0,
    "ebitda": 76647000.0,
    "eps": 2.04,
@@ -69,7 +68,6 @@
    "varlik": 2415691000.0,
    "stok": 178850000.0,
    "alacak": 176917000.0,
-   "isletme_nakit": 40077000.0,
    "capex": -4049000.0,
    "fcf": 36028000.0
   },
@@ -95,7 +93,7 @@
  },
  "analiz": {
   "donem": "2026-06-30",
-  "kalem_sayisi": 21,
+  "kalem_sayisi": 22,
   "qoq": {
    "donem": "2026-03-31",
    "satirlar": [
@@ -114,15 +112,6 @@
      "once": 135688000.0,
      "simdi": 144161000.0,
      "fark": 6.2,
-     "tur": "yuzde",
-     "sonuc": "iyileşti"
-    },
-    {
-     "k": "faaliyet",
-     "ad": "Faaliyet kârı",
-     "once": 70836000.0,
-     "simdi": 76185000.0,
-     "fark": 7.6,
      "tur": "yuzde",
      "sonuc": "iyileşti"
     },
@@ -190,15 +179,6 @@
      "sonuc": "iyileşti"
     },
     {
-     "k": "isletme_nakit",
-     "ad": "İşletme nakit akışı",
-     "once": 40077000.0,
-     "simdi": 40918000.0,
-     "fark": 2.1,
-     "tur": "yuzde",
-     "sonuc": "iyileşti"
-    },
-    {
      "k": "fcf",
      "ad": "Serbest nakit akışı",
      "once": 36028000.0,
@@ -226,15 +206,6 @@
      "sonuc": "kötüleşti"
     },
     {
-     "k": "faaliyet_marj",
-     "ad": "Faaliyet marjı",
-     "once": 30.1,
-     "simdi": 29.88,
-     "fark": -0.22,
-     "tur": "puan",
-     "sonuc": "değişmedi"
-    },
-    {
      "k": "net_marj",
      "ad": "Net marj",
      "once": 29.43,
@@ -251,6 +222,15 @@
      "fark": -0.24,
      "tur": "puan",
      "sonuc": "değişmedi"
+    },
+    {
+     "k": "capex",
+     "ad": "Yatırım harcaması (capex)",
+     "once": 4049000.0,
+     "simdi": 2494000.0,
+     "fark": -38.4,
+     "tur": "yuzde",
+     "sonuc": "azaldı"
     },
     {
      "k": "arge_oran",
@@ -290,9 +270,9 @@
     }
    ],
    "ozet": {
-    "iyi": 12,
+    "iyi": 10,
     "kotu": 4,
-    "n": 21
+    "n": 19
    }
   },
   "yoy": {
@@ -425,6 +405,15 @@
      "sonuc": "kötüleşti"
     },
     {
+     "k": "capex",
+     "ad": "Yatırım harcaması (capex)",
+     "once": 2738000.0,
+     "simdi": 2494000.0,
+     "fark": -8.9,
+     "tur": "yuzde",
+     "sonuc": "azaldı"
+    },
+    {
      "k": "arge_oran",
      "ad": "Ar-Ge / gelir",
      "once": 16.11,
@@ -464,8 +453,36 @@
    "ozet": {
     "iyi": 10,
     "kotu": 7,
-    "n": 18
+    "n": 19
    }
+  },
+  "uyari": [],
+  "guvenilir": true
+ },
+ "surpriz": [
+  {
+   "donem": "2025-09-30",
+   "tahmin": 2.15018,
+   "gercek": 2.16,
+   "yuzde": 0.5
+  },
+  {
+   "donem": "2025-12-31",
+   "tahmin": 2.12483,
+   "gercek": 2.14,
+   "yuzde": 0.7
+  },
+  {
+   "donem": "2026-03-31",
+   "tahmin": 2.19857,
+   "gercek": 2.33,
+   "yuzde": 6.0
+  },
+  {
+   "donem": "2026-06-30",
+   "tahmin": 2.41183,
+   "gercek": 2.51,
+   "yuzde": 4.1
   }
- }
+ ]
 }

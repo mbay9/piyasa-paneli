@@ -101,7 +101,7 @@
  },
  "analiz": {
   "donem": "2026-06-30",
-  "kalem_sayisi": 21,
+  "kalem_sayisi": 22,
   "qoq": {
    "donem": "2026-03-31",
    "satirlar": [
@@ -259,6 +259,15 @@
      "sonuc": "kötüleşti"
     },
     {
+     "k": "capex",
+     "ad": "Yatırım harcaması (capex)",
+     "once": 533000000.0,
+     "simdi": 496000000.0,
+     "fark": -6.9,
+     "tur": "yuzde",
+     "sonuc": "azaldı"
+    },
+    {
      "k": "arge_oran",
      "ad": "Ar-Ge / gelir",
      "once": 23.24,
@@ -298,7 +307,7 @@
    "ozet": {
     "iyi": 1,
     "kotu": 16,
-    "n": 21
+    "n": 22
    }
   },
   "yoy": {
@@ -458,6 +467,15 @@
      "sonuc": "kötüleşti"
     },
     {
+     "k": "capex",
+     "ad": "Yatırım harcaması (capex)",
+     "once": 294000000.0,
+     "simdi": 496000000.0,
+     "fark": 68.7,
+     "tur": "yuzde",
+     "sonuc": "arttı"
+    },
+    {
      "k": "arge_oran",
      "ad": "Ar-Ge / gelir",
      "once": 21.48,
@@ -497,8 +515,36 @@
    "ozet": {
     "iyi": 1,
     "kotu": 18,
-    "n": 21
+    "n": 22
    }
+  },
+  "uyari": [],
+  "guvenilir": true
+ },
+ "surpriz": [
+  {
+   "donem": "2025-09-30",
+   "tahmin": 2.87578,
+   "gercek": 3.0,
+   "yuzde": 4.3
+  },
+  {
+   "donem": "2025-12-31",
+   "tahmin": 3.40235,
+   "gercek": 3.5,
+   "yuzde": 2.9
+  },
+  {
+   "donem": "2026-03-31",
+   "tahmin": 2.56433,
+   "gercek": 2.65,
+   "yuzde": 3.3
+  },
+  {
+   "donem": "2026-06-30",
+   "tahmin": 2.22643,
+   "gercek": 2.21,
+   "yuzde": -0.7
   }
- }
+ ]
 }
