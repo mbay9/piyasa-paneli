@@ -57,6 +57,7 @@
   "2026-03-31": {
    "gelir": 235308000.0,
    "brut": 135688000.0,
+   "faaliyet": 70836000.0,
    "net": 69259000.0,
    "ebitda": 76647000.0,
    "eps": 2.04,
@@ -68,6 +69,7 @@
    "varlik": 2415691000.0,
    "stok": 178850000.0,
    "alacak": 176917000.0,
+   "isletme_nakit": 40077000.0,
    "capex": -4049000.0,
    "fcf": 36028000.0
   },
@@ -112,6 +114,15 @@
      "once": 135688000.0,
      "simdi": 144161000.0,
      "fark": 6.2,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "faaliyet",
+     "ad": "Faaliyet kârı",
+     "once": 70836000.0,
+     "simdi": 76185000.0,
+     "fark": 7.6,
      "tur": "yuzde",
      "sonuc": "iyileşti"
     },
@@ -179,6 +190,15 @@
      "sonuc": "iyileşti"
     },
     {
+     "k": "isletme_nakit",
+     "ad": "İşletme nakit akışı",
+     "once": 40077000.0,
+     "simdi": 40918000.0,
+     "fark": 2.1,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
      "k": "fcf",
      "ad": "Serbest nakit akışı",
      "once": 36028000.0,
@@ -204,6 +224,15 @@
      "fark": -1.12,
      "tur": "puan",
      "sonuc": "kötüleşti"
+    },
+    {
+     "k": "faaliyet_marj",
+     "ad": "Faaliyet marjı",
+     "once": 30.1,
+     "simdi": 29.88,
+     "fark": -0.22,
+     "tur": "puan",
+     "sonuc": "değişmedi"
     },
     {
      "k": "net_marj",
@@ -270,9 +299,9 @@
     }
    ],
    "ozet": {
-    "iyi": 10,
+    "iyi": 12,
     "kotu": 4,
-    "n": 19
+    "n": 22
    }
   },
   "uyari": [],
