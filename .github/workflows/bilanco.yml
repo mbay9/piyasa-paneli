@@ -40,6 +40,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp -r bilanco /tmp/cikti
+          rm -rf bilanco   # dalın kendi bilanco/ klasörüyle çakışmasın
           if git rev-parse -q --verify origin/bilanco >/dev/null; then
             git checkout -q -B bilanco origin/bilanco
           else
