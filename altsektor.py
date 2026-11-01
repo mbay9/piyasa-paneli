@@ -106,7 +106,7 @@ def uye(s, bil):
             "earn": s.get("earn"), "bil": bil, "bilanco_tarihi": ((s.get("est") or {}).get("bl") or {}).get("for"), "son_kapanis": s.get("date")}
 
 
-ZINCIR = ["Büyük bulut şirketleri (talep tarafı)", "Bulut ve yapay zeka altyapısı", "Sunucu ve elektronik üretim", "İşlemci ve hızlandırıcı", "Bellek ve depolama (HBM, DRAM, NAND, HDD)",
+ZINCIR = ["Bulut ve yapay zeka altyapısı", "Sunucu ve elektronik üretim", "İşlemci ve hızlandırıcı", "Bellek ve depolama (HBM, DRAM, NAND, HDD)",
           "Bağlantı çipleri", "Ağ ekipmanı", "Optik", "Foundry ve paketleme", "Yarı iletken ekipmanı ve malzeme"]
 
 
