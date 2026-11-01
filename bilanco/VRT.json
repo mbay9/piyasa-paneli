@@ -1,0 +1,481 @@
+{
+ "sembol": "VRT",
+ "para": "USD",
+ "guncelleme": "2026-11-01",
+ "ceyrekler": {
+  "2025-09-30": {
+   "gelir": 2675800000.0,
+   "brut": 1010700000.0,
+   "faaliyet": 548300000.0,
+   "net": 398500000.0,
+   "ebitda": 590400000.0,
+   "eps": 1.02,
+   "fgy": 414300000.0,
+   "nakit": 1940600000.0,
+   "borc": 3213900000.0,
+   "ozkaynak": 3508700000.0,
+   "varlik": 10816300000.0,
+   "stok": 1437100000.0,
+   "alacak": 2810700000.0,
+   "isletme_nakit": 482700000.0,
+   "capex": -46700000.0,
+   "fcf": 436000000.0
+  },
+  "2025-12-31": {
+   "gelir": 2880000000.0,
+   "brut": 1121400000.0,
+   "faaliyet": 606900000.0,
+   "net": 445600000.0,
+   "ebitda": 668200000.0,
+   "eps": 1.14,
+   "fgy": 461600000.0,
+   "nakit": 1827900000.0,
+   "borc": 3227900000.0,
+   "ozkaynak": 3941300000.0,
+   "varlik": 12212400000.0,
+   "stok": 1456500000.0,
+   "alacak": 3109000000.0,
+   "isletme_nakit": 978900000.0,
+   "capex": -95000000.0,
+   "fcf": 883900000.0
+  },
+  "2026-03-31": {
+   "gelir": 2649500000.0,
+   "brut": 999700000.0,
+   "faaliyet": 433600000.0,
+   "net": 390100000.0,
+   "ebitda": 541300000.0,
+   "eps": 0.99,
+   "fgy": 456700000.0,
+   "nakit": 2500500000.0,
+   "borc": 3264900000.0,
+   "ozkaynak": 4244900000.0,
+   "varlik": 13400100000.0,
+   "stok": 1834600000.0,
+   "alacak": 3148700000.0,
+   "isletme_nakit": 766800000.0,
+   "capex": -114000000.0,
+   "fcf": 652800000.0
+  },
+  "2026-06-30": {
+   "gelir": 3274300000.0,
+   "brut": 1234900000.0,
+   "faaliyet": 637900000.0,
+   "net": 497800000.0,
+   "ebitda": 753200000.0,
+   "eps": 1.27,
+   "fgy": 494400000.0,
+   "nakit": 3110600000.0,
+   "borc": 3338200000.0,
+   "ozkaynak": 4757600000.0,
+   "varlik": 15900900000.0,
+   "stok": 2522700000.0,
+   "alacak": 3750300000.0,
+   "isletme_nakit": 1099800000.0,
+   "capex": -174500000.0,
+   "fcf": 925300000.0
+  },
+  "2026-09-30": {
+   "gelir": 4312800000.0,
+   "brut": 1643400000.0,
+   "faaliyet": 991100000.0,
+   "net": 764500000.0,
+   "ebitda": 1109100000.0,
+   "eps": 1.95,
+   "fgy": 556900000.0,
+   "nakit": 3711700000.0,
+   "borc": 3356900000.0,
+   "ozkaynak": 5502000000.0,
+   "varlik": 18174500000.0,
+   "stok": 3288400000.0,
+   "alacak": 4379700000.0,
+   "isletme_nakit": 794000000.0,
+   "capex": -141800000.0,
+   "fcf": 652200000.0
+  }
+ },
+ "analiz": {
+  "donem": "2026-09-30",
+  "kalem_sayisi": 20,
+  "qoq": {
+   "donem": "2026-06-30",
+   "satirlar": [
+    {
+     "k": "gelir",
+     "ad": "Gelir",
+     "once": 3274300000.0,
+     "simdi": 4312800000.0,
+     "fark": 31.7,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "brut",
+     "ad": "Brüt kâr",
+     "once": 1234900000.0,
+     "simdi": 1643400000.0,
+     "fark": 33.1,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "faaliyet",
+     "ad": "Faaliyet kârı",
+     "once": 637900000.0,
+     "simdi": 991100000.0,
+     "fark": 55.4,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "net",
+     "ad": "Net kâr",
+     "once": 497800000.0,
+     "simdi": 764500000.0,
+     "fark": 53.6,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "ebitda",
+     "ad": "FAVÖK",
+     "once": 753200000.0,
+     "simdi": 1109100000.0,
+     "fark": 47.3,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "eps",
+     "ad": "Hisse başı kâr",
+     "once": 1.27,
+     "simdi": 1.95,
+     "fark": 53.5,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "nakit",
+     "ad": "Nakit ve kısa vadeli yatırımlar",
+     "once": 3110600000.0,
+     "simdi": 3711700000.0,
+     "fark": 19.3,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "borc",
+     "ad": "Toplam borç",
+     "once": 3338200000.0,
+     "simdi": 3356900000.0,
+     "fark": 0.6,
+     "tur": "yuzde",
+     "sonuc": "değişmedi"
+    },
+    {
+     "k": "ozkaynak",
+     "ad": "Özkaynak",
+     "once": 4757600000.0,
+     "simdi": 5502000000.0,
+     "fark": 15.6,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "varlik",
+     "ad": "Toplam varlık",
+     "once": 15900900000.0,
+     "simdi": 18174500000.0,
+     "fark": 14.3,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "isletme_nakit",
+     "ad": "İşletme nakit akışı",
+     "once": 1099800000.0,
+     "simdi": 794000000.0,
+     "fark": -27.8,
+     "tur": "yuzde",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "fcf",
+     "ad": "Serbest nakit akışı",
+     "once": 925300000.0,
+     "simdi": 652200000.0,
+     "fark": -29.5,
+     "tur": "yuzde",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "net_nakit",
+     "ad": "Net nakit (nakit − borç)",
+     "once": -227600000.0,
+     "simdi": 354800000.0,
+     "fark": 255.9,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "brut_marj",
+     "ad": "Brüt marj",
+     "once": 37.71,
+     "simdi": 38.11,
+     "fark": 0.4,
+     "tur": "puan",
+     "sonuc": "değişmedi"
+    },
+    {
+     "k": "faaliyet_marj",
+     "ad": "Faaliyet marjı",
+     "once": 19.48,
+     "simdi": 22.98,
+     "fark": 3.5,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "net_marj",
+     "ad": "Net marj",
+     "once": 15.2,
+     "simdi": 17.73,
+     "fark": 2.53,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "fcf_marj",
+     "ad": "FCF marjı",
+     "once": 28.26,
+     "simdi": 15.12,
+     "fark": -13.14,
+     "tur": "puan",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "fgy_oran",
+     "ad": "Satış-yönetim gideri / gelir",
+     "once": 15.1,
+     "simdi": 12.91,
+     "fark": -2.19,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "stok_oran",
+     "ad": "Stok / çeyrek geliri",
+     "once": 77.05,
+     "simdi": 76.25,
+     "fark": -0.8,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "alacak_oran",
+     "ad": "Alacak / çeyrek geliri",
+     "once": 114.54,
+     "simdi": 101.55,
+     "fark": -12.99,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    }
+   ],
+   "ozet": {
+    "iyi": 15,
+    "kotu": 3,
+    "n": 20
+   }
+  },
+  "yoy": {
+   "donem": "2025-09-30",
+   "satirlar": [
+    {
+     "k": "gelir",
+     "ad": "Gelir",
+     "once": 2675800000.0,
+     "simdi": 4312800000.0,
+     "fark": 61.2,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "brut",
+     "ad": "Brüt kâr",
+     "once": 1010700000.0,
+     "simdi": 1643400000.0,
+     "fark": 62.6,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "faaliyet",
+     "ad": "Faaliyet kârı",
+     "once": 548300000.0,
+     "simdi": 991100000.0,
+     "fark": 80.8,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "net",
+     "ad": "Net kâr",
+     "once": 398500000.0,
+     "simdi": 764500000.0,
+     "fark": 91.8,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "ebitda",
+     "ad": "FAVÖK",
+     "once": 590400000.0,
+     "simdi": 1109100000.0,
+     "fark": 87.9,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "eps",
+     "ad": "Hisse başı kâr",
+     "once": 1.02,
+     "simdi": 1.95,
+     "fark": 91.2,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "nakit",
+     "ad": "Nakit ve kısa vadeli yatırımlar",
+     "once": 1940600000.0,
+     "simdi": 3711700000.0,
+     "fark": 91.3,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "borc",
+     "ad": "Toplam borç",
+     "once": 3213900000.0,
+     "simdi": 3356900000.0,
+     "fark": 4.4,
+     "tur": "yuzde",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "ozkaynak",
+     "ad": "Özkaynak",
+     "once": 3508700000.0,
+     "simdi": 5502000000.0,
+     "fark": 56.8,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "varlik",
+     "ad": "Toplam varlık",
+     "once": 10816300000.0,
+     "simdi": 18174500000.0,
+     "fark": 68.0,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "isletme_nakit",
+     "ad": "İşletme nakit akışı",
+     "once": 482700000.0,
+     "simdi": 794000000.0,
+     "fark": 64.5,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "fcf",
+     "ad": "Serbest nakit akışı",
+     "once": 436000000.0,
+     "simdi": 652200000.0,
+     "fark": 49.6,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "net_nakit",
+     "ad": "Net nakit (nakit − borç)",
+     "once": -1273300000.0,
+     "simdi": 354800000.0,
+     "fark": 127.9,
+     "tur": "yuzde",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "brut_marj",
+     "ad": "Brüt marj",
+     "once": 37.77,
+     "simdi": 38.11,
+     "fark": 0.34,
+     "tur": "puan",
+     "sonuc": "değişmedi"
+    },
+    {
+     "k": "faaliyet_marj",
+     "ad": "Faaliyet marjı",
+     "once": 20.49,
+     "simdi": 22.98,
+     "fark": 2.49,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "net_marj",
+     "ad": "Net marj",
+     "once": 14.89,
+     "simdi": 17.73,
+     "fark": 2.84,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "fcf_marj",
+     "ad": "FCF marjı",
+     "once": 16.29,
+     "simdi": 15.12,
+     "fark": -1.17,
+     "tur": "puan",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "fgy_oran",
+     "ad": "Satış-yönetim gideri / gelir",
+     "once": 15.48,
+     "simdi": 12.91,
+     "fark": -2.57,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    },
+    {
+     "k": "stok_oran",
+     "ad": "Stok / çeyrek geliri",
+     "once": 53.71,
+     "simdi": 76.25,
+     "fark": 22.54,
+     "tur": "puan",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "alacak_oran",
+     "ad": "Alacak / çeyrek geliri",
+     "once": 105.04,
+     "simdi": 101.55,
+     "fark": -3.49,
+     "tur": "puan",
+     "sonuc": "iyileşti"
+    }
+   ],
+   "ozet": {
+    "iyi": 16,
+    "kotu": 3,
+    "n": 20
+   }
+  }
+ }
+}
