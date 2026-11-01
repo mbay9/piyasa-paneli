@@ -165,9 +165,44 @@
     if (hasPe && bl && bl.for && bl.for < today) { var dm = (e.pe0 / bl.pe - 1) * 100; b2 = '<div class="kv"><span>Bilanço (' + fmtShort(bl.for) + ') öncesi F/K</span><span>' + num(bl.pe, 1) + '</span></div><div class="kv"><span>Bugün</span><span>' + num(e.pe0, 1) + ' <span class="' + cls(-dm) + '">(' + pc(dm) + ')</span></span></div>'; }
     else if (hasPe && s.earn) b2 = '<p class="vn">Bilanço ' + fmtShort(s.earn) + '. Öncesi F/K bu tarihe kadar kaydedilir, bilanço sonrası bugünkü değerle kıyaslanır.</p>';
     else b2 = '<p class="vn">Bilanço öncesi F/K kaydı yok; bir sonraki bilançodan itibaren kaydedilir.</p>';
-    out += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div><p class="vn">Kaynak: Yahoo Finance analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
+    out += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div>' + bilPanel(s.symbol) + '<p class="vn">Kaynak: Yahoo Finance analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
     return out;
   }
+  var BIL = {};
+  function bilTable(a, cur) {
+    if (!a || !a.satirlar) return "";
+    var o = a.ozet;
+    var rows = a.satirlar.map(function (x) {
+      var oran = x.tur === "puan", c = x.sonuc === "iyileşti" ? "pos" : x.sonuc === "kötüleşti" ? "neg" : "";
+      var f = function (v) { return oran ? "%" + num(v, 1) : (x.k === "eps" ? num(v, 2) : money(v / 1e6, cur).replace(/^\+/, "")); };
+      var d = x.fark == null ? (x.isaret ? "işaret değişti" : "–") : oran ? (x.fark > 0 ? "+" : "") + num(x.fark, 1) + " puan" : pc(x.fark, 1);
+      return "<tr><td>" + esc(x.ad) + "</td><td>" + f(x.once) + "</td><td>" + f(x.simdi) + "</td><td>" + d + '</td><td class="' + c + '">' + esc(x.sonuc) + "</td></tr>";
+    }).join("");
+    return '<p class="vn">' + fmtShort(a.donem) + " ile karşılaştırma: <b>" + o.iyi + "</b> kalem iyileşti, <b>" + o.kotu + "</b> kalem kötüleşti (" + o.n + " kalem).</p>" +
+      '<div class="tw"><table><thead><tr><th>Kalem</th><th>Önce</th><th>Şimdi</th><th>Değişim</th><th>Sonuç</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  }
+  function bilBody(sym) {
+    var b = BIL[sym];
+    if (b === undefined) return '<p class="vn">Yükleniyor…</p>';
+    if (!b || !b.analiz) return '<p class="vn">Bu hisse için bilanço kaydı yok.</p>';
+    var a = b.analiz, cur = b.para || null;
+    return '<p class="vn">Son çeyrek: dönem sonu ' + fmtShort(a.donem) + ' ' + esc(a.donem.slice(0, 4)) + (cur ? " · para birimi " + esc(cur) : "") + ". Kaynak: Yahoo Finance tabloları; kayıtta " + Object.keys(b.ceyrekler).length + " çeyrek var.</p>" +
+      (a.qoq ? '<h3 class="qh">Bir önceki çeyreğe göre</h3>' + bilTable(a.qoq, cur) : '<p class="vn">Bir önceki çeyrek kayıtta yok.</p>') +
+      (a.yoy ? '<h3 class="qh">Geçen yılın aynı çeyreğine göre</h3>' + bilTable(a.yoy, cur) : '<p class="vn">Geçen yılın aynı çeyreği kayıtta yok; çeyrekler biriktikçe eklenecek.</p>');
+  }
+  function bilPanel(sym) {
+    return '<details class="bil" data-s="' + esc(sym) + '"' + (BOPEN[sym] ? " open" : "") + '><summary>Bilanço analizi</summary><div class="bb">' + (BOPEN[sym] ? bilBody(sym) : "") + "</div></details>";
+  }
+  var BOPEN = {};
+  document.addEventListener("toggle", function (e) {
+    var d = e.target;
+    if (!d || !d.classList || !d.classList.contains("bil")) return;
+    var sym = d.getAttribute("data-s");
+    if (d.open) BOPEN[sym] = 1; else { delete BOPEN[sym]; return; }
+    var box = d.querySelector(".bb"); box.innerHTML = bilBody(sym);
+    if (BIL[sym] !== undefined) return;
+    fetch("bilanco/" + encodeURIComponent(sym) + ".json?v=" + DATA.meta.ref_date).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (j) { BIL[sym] = j; if (d.open) box.innerHTML = bilBody(sym); });
+  }, true);
   function aiTable(a) {
     var ref = DATA.meta.ref_date, hmk = { d5: 1 };
     var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"]];

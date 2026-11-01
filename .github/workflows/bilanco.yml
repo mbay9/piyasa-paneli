@@ -1,0 +1,51 @@
+name: Bilanço dosyaları
+
+# Her hissenin çeyreklik gelir tablosu, bilanço ve nakit akışını Yahoo'dan indirir, `bilanco` dalındaki bilanco/<SEMBOL>.json dosyalarına biriktirir
+# ve son çeyreği önceki çeyrek ile geçen yılın aynı çeyreğiyle karşılaştırır. Site bu dosyaları bir sonraki yayında alır.
+on:
+  schedule:
+    - cron: "15 10 * * 2-6"   # 06:15 ET civarı; gece gelen bilançolar sabah işlenir
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bilanco
+  cancel-in-progress: false
+
+jobs:
+  bilanco:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python test_bilanco.py
+      - name: Önceki kayıtları al
+        run: |
+          mkdir -p /tmp/onceki
+          if git fetch -q origin +bilanco:refs/remotes/origin/bilanco 2>/dev/null; then
+            git archive origin/bilanco | tar -x -C /tmp/onceki
+          fi
+          ls /tmp/onceki | wc -l
+      - name: İndir ve karşılaştır
+        run: python bilanco.py /tmp/onceki
+      - name: bilanco dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp -r bilanco /tmp/cikti
+          if git rev-parse -q --verify origin/bilanco >/dev/null; then
+            git checkout -q -B bilanco origin/bilanco
+          else
+            git checkout -q --orphan bilanco
+            git rm -rqf . >/dev/null 2>&1 || true
+          fi
+          rm -rf bilanco && cp -r /tmp/cikti bilanco
+          git add bilanco
+          git diff --cached --quiet && echo "değişiklik yok" || (git commit -q -m "Bilançolar" && git push -q origin bilanco)
