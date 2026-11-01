@@ -189,6 +189,26 @@ def veri():
         kayit("data.json: üretim zamanı taze (son 2 saat)", 0 <= yas < 120, f"{yas:.0f} dakika önce")
     except Exception as e:  # noqa: BLE001
         kayit("data.json: üretim zamanı taze (son 2 saat)", False, repr(e))
+    # analist tahmini / değerleme (isteğe bağlı bölüm: yoksa uyarı; varsa içeriği doğru olmak zorunda)
+    hs = (d.get("ai") or {}).get("stocks") or []
+    ev = [x for x in hs if x.get("est")]
+    if hs:
+        kayit(f"Değerleme: {len(ev)}/{len(hs)} hissede analist tahmini", len(ev) >= 0.9 * len(hs), "Yahoo tahmin verisi eksik ya da alınamadı: panel bu hisselerde görünmez", uyari=True)
+    kotu = []
+    for x in ev:
+        e = x["est"]
+        for k in ("pe0", "pe1", "ps0", "ps1", "pe5", "pe20"):
+            v = e.get(k)
+            if v is not None and not (isinstance(v, (int, float)) and 0 < v < 5000):
+                kotu.append(f"{x['symbol']} {k}={v}")
+        if e.get("pe0") is not None and x.get("cur") != x.get("fcu"):
+            kotu.append(f"{x['symbol']}: fiyat parası {x.get('cur')} ≠ raporlama parası {x.get('fcu')} iken F/K var")
+        if e.get("pe0") is not None and e.get("eps0") and x.get("close") and abs(x["close"] / e["eps0"] - e["pe0"]) > 0.02 * e["pe0"] + 0.02:
+            kotu.append(f"{x['symbol']}: F/K fiyat/EPS ile uyuşmuyor")
+        h = e.get("eh")
+        if h is not None and not (isinstance(h, list) and all(isinstance(p, list) and len(p) == 2 and p[1] is not None for p in h)):
+            kotu.append(f"{x['symbol']}: eh biçimi")
+    kayit("Değerleme: F/K değerleri makul, fiyat/EPS ile tutarlı, para birimi uyumlu", not kotu, "; ".join(kotu[:6]))
     idx = d.get("indexes", {})
     geride = {k: v.get("date") for k, v in idx.items() if k in ("SPX", "NASDAQ", "RUT", "VIX") and v.get("date") != ref}
     kayit("Endeksler: ABD endeksleri referans günde", not geride, geride)
@@ -285,6 +305,17 @@ def site():
                 n = sayfa.evaluate("""() => { let n = 0; document.querySelectorAll('button, th, [data-tip], .ddb').forEach(e => { e.dispatchEvent(new MouseEvent('click', {bubbles: true, cancelable: true})); n++; }); document.dispatchEvent(new KeyboardEvent('keydown', {key: 'Escape', bubbles: true})); return n; }""")
                 sayfa.wait_for_timeout(200)
                 kayit(f"Sayfa testi ({ad}): {n} öğeye tıklandı, hata/başarısız istek yok", not hatalar, " | ".join(hatalar[:4]))
+                nvb = sayfa.evaluate("document.querySelectorAll('.vb').length")
+                if nvb:
+                    sayfa.evaluate("location.hash = '#aihisse'")
+                    sayfa.wait_for_timeout(150)
+                    sayfa.evaluate("document.querySelectorAll('.vb').forEach(b => { if (b.getAttribute('aria-expanded') !== 'true') b.click(); })")
+                    sayfa.wait_for_timeout(200)
+                    ac = sayfa.evaluate("document.querySelectorAll('tr.vp').length")
+                    pm = sayfa.evaluate("Array.from(document.querySelectorAll('tr.vp')).map(t => t.innerText).join(' ')")
+                    mm = kotu.search(pm)
+                    kayit(f"Sayfa testi ({ad}): {nvb} hissenin değerleme paneli açılıyor, undefined/NaN yok", ac == nvb and not mm and len(pm) > 200,
+                          f"açılan {ac}/{nvb}" + (f"; metinde '{mm.group(0)}': " + pm[max(0, mm.start() - 60):mm.end() + 40] if mm else ""))
                 if oz and oz.get("date") == ref:
                     sayfa.evaluate("location.hash = '#genel'")
                     sayfa.wait_for_timeout(150)

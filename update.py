@@ -937,6 +937,16 @@ def ai_block(ref_date, spy, qqq):
     for x in rows:
         x.update(fu.get(x["symbol"], {}))
     log(f"temel veriler: {sum(1 for x in rows if x.get('fcf') is not None)}/{len(rows)} hissede FCF")
+    try:  # analist tahminleri ve değerleme (isteğe bağlı: alınamazsa bölüm boş kalır, yayın durmaz)
+        import tahmin
+        _, prows0, _ = prev_ai()
+        est, _hata = tahmin.hepsi([x["symbol"] for x in rows], bekle=0.2)
+        for x in rows:
+            if x["symbol"] in est:
+                x["est"] = tahmin.turet(x, est[x["symbol"]], (prows0.get(x["symbol"]) or {}).get("est"), str(ref_date))
+        log(f"analist tahmini: {len(est)}/{len(rows)} hisse, F/K hesaplanan: {sum(1 for x in rows if (x.get('est') or {}).get('pe0') is not None)}")
+    except Exception as e:  # noqa: BLE001
+        log("Analist tahmini bölümü atlandı:", repr(e)[:120])
     try:
         pdate, prows, pchg = prev_ai()
         chg = build_changes(rows, ex, ref_date, pdate, prows, pchg)

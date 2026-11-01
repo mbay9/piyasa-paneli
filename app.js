@@ -132,6 +132,48 @@
   }
 
   var AI_SORT = { k: "mcap", dir: -1 };
+  var VOPEN = {};
+  function mval(v, cu) { if (v === null || v === undefined) return "–"; return money(v, cu).replace(/^[+−]/, ""); }
+  function vchip(s) {
+    var e = s.est; if (!e) return "";
+    var t, c = "";
+    if (e.pe0 !== null && e.pe0 !== undefined) {
+      var m = e.pc20;
+      t = "F/K " + num(e.pe0, 1) + (m === null || m === undefined ? "" : " · " + (m < 0 ? "↓" : m > 0 ? "↑" : "→") + " " + pc(m, 0));
+      if (m !== null && m !== undefined) c = m <= -3 ? " u" : m >= 3 ? " p" : "";
+    } else t = e.kur_uyari ? "F/K" : (e.ps0 ? "zararda · F/S " + num(e.ps0, 1) : "zararda");
+    return ' <button type="button" class="vb' + c + '" data-s="' + esc(s.symbol) + '" aria-expanded="' + (VOPEN[s.symbol] ? "true" : "false") + '" aria-label="' + esc(tk(s.symbol)) + ' değerleme ayrıntısı"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5 8 6l-3.5 3.5"/></svg>' + t + '</button>';
+  }
+  function vspark(h) {
+    if (!h || h.length < 5) return "";
+    var v = h.map(function (p) { return p[1]; }), w = 300, ht = 56, pad = 5, mn = Math.min.apply(null, v), mx = Math.max.apply(null, v);
+    var pts = v.map(function (y, i) { return [pad + i * (w - 2 * pad) / (v.length - 1), pad + (1 - (y - mn) / ((mx - mn) || 1)) * (ht - 2 * pad)]; });
+    var d = pts.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1); }).join(" "), l = pts[pts.length - 1];
+    return '<div class="blk"><h3>İleri F/K seyri</h3><svg class="sp" viewBox="0 0 ' + w + " " + ht + '" preserveAspectRatio="none" role="img" aria-label="İleri F/K çizgisi"><path d="' + d + '" fill="none" stroke="var(--mute)" stroke-width="1.5" vector-effect="non-scaling-stroke"/><circle cx="' + l[0].toFixed(1) + '" cy="' + l[1].toFixed(1) + '" r="3" fill="var(--ink)"/></svg><div class="ev"><span>' + fmtShort(h[0][0]) + " · " + num(v[0], 1) + '</span><span>' + fmtShort(h[h.length - 1][0]) + " · " + num(v[v.length - 1], 1) + '</span></div></div>';
+  }
+  function vpanel(s) {
+    var e = s.est, hasPe = e.pe0 !== null && e.pe0 !== undefined;
+    function rw(l, eps, lo, hi, an, rev, pe, ps) {
+      return '<tr><td>' + l + '</td><td>' + (eps === null || eps === undefined ? "–" : num(eps, 2)) + '</td><td>' + (pe === null || pe === undefined ? "–" : num(pe, 1)) + '</td><td>' + (lo === null || lo === undefined ? "–" : num(lo, 2) + " – " + num(hi, 2)) + '</td><td>' + (an || "–") + '</td><td>' + mval(rev, e.revu) + '</td><td>' + (ps === null || ps === undefined ? "–" : num(ps, 1)) + '</td></tr>';
+    }
+    var out = '<div class="vgrid"><div class="blk wide"><h3>Analist tahminleri</h3><div class="tw"><table><thead><tr><th></th><th>EPS</th><th>İleri F/K</th><th>EPS aralığı</th><th>Analist</th><th>Gelir</th><th>İleri F/S</th></tr></thead><tbody>' +
+      rw("Cari yıl", e.eps0, e.eps0_lo, e.eps0_hi, e.an0, e.rev0, e.pe0, e.ps0) + rw("Gelecek yıl", e.eps1, e.eps1_lo, e.eps1_hi, e.an1, e.rev1, e.pe1, e.ps1) + '</tbody></table></div>' +
+      (e.kur_uyari ? '<p class="vn">F/K gösterilmiyor: hisse fiyatı ile EPS tahmini aynı para biriminde olmayabilir (ADR).</p>' : "") + '</div>';
+    if (hasPe) {
+      function r(l, p, t, f) { return '<tr><td>' + l + '</td><td class="' + cls(p) + '">' + pc(p) + '</td><td class="' + cls(t) + '">' + pc(t) + '</td><td class="' + (f === null || f === undefined ? "neu" : cls(-f)) + '">' + pc(f) + '</td></tr>'; }
+      out += '<div class="blk"><h3>Son 5 ve 20 gün</h3><div class="tw"><table><thead><tr><th></th><th>Fiyat</th><th>Cari yıl EPS tahmini</th><th>İleri F/K</th></tr></thead><tbody>' + r("5 gün", s.d5, e.r5, e.pc5) + r("20 gün", s.d20, e.r20, e.pc20) + '</tbody></table></div><p class="vn">EPS tahmini 7 ve 30 gün önceki tahmine göre. F/K değişiminde yeşil ucuzlama, kırmızı pahalanmadır.</p></div>';
+      if (e.pc20 !== null && e.pc20 !== undefined && e.r20 !== null && e.r20 !== undefined) {
+        function sg2(v, top) { var wd = Math.min(Math.abs(v) / 15 * 50, 50); return '<div class="sg' + (top ? "" : " b") + '" style="left:' + (v >= 0 ? 50 : 50 - wd) + '%;width:' + wd + '%;background:' + (v > 0 ? "var(--down)" : "var(--up)") + '"></div>'; }
+        out += '<div class="blk"><h3>Çarpan neden değişti (20 gün)</h3><div class="vbar" role="img" aria-label="Fiyat ve tahmin etkisi">' + sg2(s.d20, true) + sg2(-e.r20, false) + '</div><p class="vn">Üst çubuk fiyat (' + pc(s.d20) + '), alt çubuk tahmin revizyonu (' + pc(e.r20) + '). Sola giden çubuk çarpanı düşürür (ucuzlar), sağa giden artırır.</p></div>';
+      }
+    }
+    var bl = e.bl, today = DATA.meta.ref_date, b2;
+    if (hasPe && bl && bl.for && bl.for < today) { var dm = (e.pe0 / bl.pe - 1) * 100; b2 = '<div class="kv"><span>Bilanço (' + fmtShort(bl.for) + ') öncesi F/K</span><span>' + num(bl.pe, 1) + '</span></div><div class="kv"><span>Bugün</span><span>' + num(e.pe0, 1) + ' <span class="' + cls(-dm) + '">(' + pc(dm) + ')</span></span></div>'; }
+    else if (hasPe && s.earn) b2 = '<p class="vn">Bilanço ' + fmtShort(s.earn) + '. Öncesi F/K bu tarihe kadar kaydedilir, bilanço sonrası bugünkü değerle kıyaslanır.</p>';
+    else b2 = '<p class="vn">Bilanço öncesi F/K kaydı yok; bir sonraki bilançodan itibaren kaydedilir.</p>';
+    out += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div><p class="vn">Kaynak: Yahoo Finance analist tahminleri. "Cari yıl", şirketin içinde bulunduğu mali yıldır.</p>';
+    return out;
+  }
   function aiTable(a) {
     var ref = DATA.meta.ref_date, hmk = { d5: 1 };
     var cols = [["symbol", "Hisse"], ["mcap", "Piyasa değeri"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["above50", "SMA 50"], ["above200", "SMA 200"], ["from_high", "Zirveye uzaklık"]];
@@ -146,7 +188,7 @@
     function ab(f) { return f === null || f === undefined ? "–" : '<span class="' + (f ? "pos" : "neg") + '">' + (f ? "üstünde" : "altında") + '</span>'; }
     var body = rows.map(function (s) {
       var dl = s.date && s.date !== ref ? '<small>son kapanış ' + fmtShort(s.date) + '</small>' : "";
-      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + fb(s) + eb(s) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td></tr>';
+      return '<tr><td><b>' + esc(tk(s.symbol)) + '</b> <span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span>' + sa(s.symbol) + fb(s) + eb(s) + vchip(s) + dl + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td></tr>' + (s.est && VOPEN[s.symbol] ? '<tr class="vp"><td colspan="8">' + vpanel(s) + '</td></tr>' : "");
     }).join("");
     var noMob = { symbol: 1, above50: 1, above200: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
@@ -260,9 +302,9 @@
   }
   function labels() {
     Array.prototype.forEach.call(document.querySelectorAll("#app table"), function (t) {
-      var hs = Array.prototype.map.call(t.querySelectorAll("thead th"), function (h) { return h.textContent.replace(/[↑↓]/g, "").trim(); });
+      var hs = Array.prototype.map.call(t.querySelectorAll(":scope > thead th"), function (h) { return h.textContent.replace(/[↑↓]/g, "").trim(); });
       if (!hs.length) return;
-      Array.prototype.forEach.call(t.querySelectorAll("tbody tr"), function (tr) {
+      Array.prototype.forEach.call(t.querySelectorAll(":scope > tbody > tr"), function (tr) {
         Array.prototype.forEach.call(tr.children, function (td, i) { if (!td.hasAttribute("data-label") && hs[i]) td.setAttribute("data-label", hs[i]); });
       });
     });
@@ -309,6 +351,16 @@
   document.addEventListener("keydown", function (e) {
     if ((e.key === "Enter" || e.key === " ") && e.target && e.target.matches && e.target.matches("th.s, .ddl li")) { e.preventDefault(); e.target.click(); }
     if (e.key === "Escape") closeDd();
+  });
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest && e.target.closest(".vb");
+    if (!b || !DATA) return;
+    var sym = b.getAttribute("data-s"), row = b.closest("tr"), nx = row.nextElementSibling;
+    if (nx && nx.classList.contains("vp")) { nx.parentNode.removeChild(nx); delete VOPEN[sym]; b.setAttribute("aria-expanded", "false"); return; }
+    var s = DATA.ai.stocks.filter(function (x) { return x.symbol === sym; })[0];
+    if (!s || !s.est) return;
+    var tr = document.createElement("tr"); tr.className = "vp"; tr.innerHTML = '<td colspan="8">' + vpanel(s) + '</td>';
+    row.parentNode.insertBefore(tr, row.nextSibling); labels(); VOPEN[sym] = 1; b.setAttribute("aria-expanded", "true");
   });
   var ftip = null;
   function hideTip() { if (ftip) ftip.hidden = true; }

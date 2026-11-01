@@ -4,7 +4,6 @@ import json
 import sys
 import time
 
-import yfinance as yf
 
 
 def _f(v):
@@ -23,6 +22,7 @@ def _satir(df, idx, col):
 
 
 def tek(sym):
+    import yfinance as yf
     t = yf.Ticker(sym)
     ee, re_, tr = t.earnings_estimate, t.revenue_estimate, t.eps_trend
     out = {}
@@ -48,6 +48,57 @@ def hepsi(semboller, bekle=0.3):
             hata[s] = repr(e)[:120]
         time.sleep(bekle)
     return sonuc, hata
+
+
+def _r(v, n=2):
+    return None if v is None else round(float(v), n)
+
+
+def turet(x, e, onceki=None, bugun=None):
+    """Hisse satırı x (close, d5, d20, mcap, cur, fcu, earn) ve Yahoo tahmini e'den değerleme alanları.
+    İleri F/K yalnız fiyat ve EPS aynı para biriminde ise hesaplanır (ADR'lerde Yahoo EPS'i şirketin raporlama parasıyla verebilir: karışırsa gösterilmez).
+    5 işlem günü = 7 takvim günü (eps_7g), 20 işlem günü ~ 1 ay (eps_30g). Geçmiş (eh) ve bilanço öncesi kayıt (bl) önceki yayından taşınır."""
+    c = x.get("close")
+    y0, y1 = e["y0"], e["y1"]
+    kur_ok = bool(x.get("cur")) and x.get("cur") == x.get("fcu")
+    o = {"cur": x.get("cur"), "an0": y0.get("an") and int(y0["an"]), "an1": y1.get("an") and int(y1["an"]),
+         "eps0": _r(y0["eps"], 3), "eps0_lo": _r(y0["eps_lo"], 3), "eps0_hi": _r(y0["eps_hi"], 3),
+         "eps1": _r(y1["eps"], 3), "eps1_lo": _r(y1["eps_lo"], 3), "eps1_hi": _r(y1["eps_hi"], 3),
+         "rev0": _r(y0["rev"] and y0["rev"] / 1e6, 1), "rev1": _r(y1["rev"] and y1["rev"] / 1e6, 1), "revu": x.get("fcu")}
+    if not kur_ok:
+        o["kur_uyari"] = True
+        return o
+    pos = lambda v: v is not None and v > 0  # noqa: E731
+    o["pe0"] = _r(c / y0["eps"], 2) if pos(y0["eps"]) and c else None
+    o["pe1"] = _r(c / y1["eps"], 2) if pos(y1["eps"]) and c else None
+    mc = x.get("mcap")
+    if x.get("cur") == "USD" and mc:
+        o["ps0"] = _r(mc / y0["rev"], 2) if pos(y0["rev"]) else None
+        o["ps1"] = _r(mc / y1["rev"], 2) if pos(y1["rev"]) else None
+    # 5 ve 20 günlük: fiyat o günkü fiyata, EPS tahmini 7 ve 30 gün önceki tahmine bölünür
+    for ad, d, ek in (("5", x.get("d5"), "eps_7g"), ("20", x.get("d20"), "eps_30g")):
+        old = y0.get(ek)
+        if pos(old) and pos(y0["eps"]) and d is not None and c:
+            o["pe" + ad] = _r((c / (1 + d / 100)) / old, 2)
+            o["r" + ad] = _r((y0["eps"] / old - 1) * 100, 2)
+            o["pc" + ad] = _r((o["pe0"] / o["pe" + ad] - 1) * 100, 1)
+        elif pos(old) and y0["eps"] is not None:
+            o["r" + ad] = _r((y0["eps"] / old - 1) * 100, 2)
+    # geçmiş: her yayında bir nokta (tarih, ileri F/K), son 60
+    eh = list((onceki or {}).get("eh") or [])
+    if bugun and o["pe0"] is not None:
+        eh = [p for p in eh if p[0] != bugun] + [[bugun, o["pe0"]]]
+    o["eh"] = eh[-60:]
+    # bilanço öncesi kayıt: bilanço yaklaşırken her gün güncellenir; bilanço geçince sabit kalır ve bugünkü çarpanla kıyaslanır
+    bl = (onceki or {}).get("bl")
+    nxt = x.get("earn")
+    if bugun and o["pe0"] is not None and nxt and nxt >= bugun and (bl is None or bl.get("for") != nxt):
+        bl = {"for": nxt, "pe": o["pe0"], "d": bugun, "eps": o["eps0"]}
+    elif bugun and o["pe0"] is not None and bl and bl.get("for") and bl["for"] >= bugun:
+        bl = dict(bl, pe=o["pe0"], d=bugun, eps=o["eps0"])
+    if bl:
+        o["bl"] = bl
+    return o
 
 
 if __name__ == "__main__":

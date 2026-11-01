@@ -122,5 +122,25 @@
     "15 3 * * *"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-02",
+  "olay": "Analist tahmininden F/K hesaplarken ADR'lerde (ASML, TSM, UMC) fiyat ve EPS farklı para biriminde çıkabiliyordu",
+  "kok_neden": "Yahoo EPS tahminini şirketin raporlama parasıyla verirken fiyatı işlem parasıyla verir; ikisini bölmek yanlış çarpan üretir",
+  "onlem": "F/K yalnız fiyat parası ile raporlama parası aynıysa hesaplanır (kur_uyari); veri kontrolü bunu ve fiyat/EPS tutarlılığını denetler; birim test",
+  "kanit": [
+   [
+    "tahmin.py",
+    "kur_uyari"
+   ],
+   [
+    "saglik.py",
+    "para birimi uyumlu"
+   ],
+   [
+    "test_tahmin.py",
+    "ADR"
+   ]
+  ]
  }
 ]
