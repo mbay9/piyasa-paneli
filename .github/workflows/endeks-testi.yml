@@ -1,0 +1,29 @@
+name: Endeks çarpanı testi
+
+# S&P 500 ve Nasdaq-100 için F/K'yi farklı yöntemlerle hesaplar. Sonuç `gorev` dalına endeks-rapor.json olarak yazılır. Siteyi değiştirmez.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt lxml
+      - run: python endeks_testi.py --rapor endeks-rapor.json
+      - name: Raporu gorev dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp endeks-rapor.json /tmp/ && rm -f endeks-rapor.json
+          git fetch -q origin gorev && git checkout -q -B gorev origin/gorev || git checkout -q --orphan gorev
+          cp /tmp/endeks-rapor.json .
+          git add endeks-rapor.json && git commit -q -m "Endeks çarpanı testi" && git push -q origin gorev
