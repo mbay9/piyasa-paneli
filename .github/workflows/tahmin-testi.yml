@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp tahmin-rapor.json /tmp/
+          cp tahmin-rapor.json /tmp/ && rm -f tahmin-rapor.json
           git fetch -q origin gorev && git checkout -q -B gorev origin/gorev || git checkout -q --orphan gorev
           cp /tmp/tahmin-rapor.json .
           git add tahmin-rapor.json && git commit -q -m "Tahmin verisi testi" && git push -q origin gorev
