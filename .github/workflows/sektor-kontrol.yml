@@ -1,0 +1,40 @@
+name: Grup doğrulama verisi
+
+# Hisselerin Yahoo sektör/sanayi sınıflaması, iş özeti ve bilanço profilini toplar; `gorev` dalına sektor-rapor.json olarak yazar. Siteyi değiştirmez.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Bilanço kayıtlarını al
+        run: |
+          mkdir -p /tmp/onceki
+          git fetch -q origin +bilanco:refs/remotes/origin/bilanco && git archive origin/bilanco | tar -x -C /tmp/onceki
+      - run: python sektor_kontrol.py sektor-rapor.json /tmp/onceki/bilanco
+      - name: gorev dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp sektor-rapor.json /tmp/ && rm -f sektor-rapor.json
+          git fetch -q origin gorev && git checkout -q -B gorev origin/gorev || git checkout -q --orphan gorev
+          cp /tmp/sektor-rapor.json .
+          git add sektor-rapor.json
+          if git diff --cached --quiet; then echo "değişiklik yok"; else
+            git commit -q -m "Grup doğrulama verisi"
+            for i in 1 2 3 4; do
+              git push -q origin gorev && break
+              git fetch -q origin gorev && git rebase -q origin/gorev || { git rebase --abort; exit 1; }
+            done
+          fi
