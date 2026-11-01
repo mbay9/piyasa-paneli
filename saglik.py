@@ -209,6 +209,20 @@ def veri():
         if h is not None and not (isinstance(h, list) and all(isinstance(p, list) and len(p) == 2 and p[1] is not None for p in h)):
             kotu.append(f"{x['symbol']}: eh biçimi")
     kayit("Değerleme: F/K değerleri makul, fiyat/EPS ile tutarlı, para birimi uyumlu", not kotu, "; ".join(kotu[:6]))
+    # değerleme özeti: endeks bloğuyla tutarlı, tarihi güncel
+    try:
+        dg = d.get("degerleme")
+        if d.get("endeks") is not None:
+            ok = bool(dg) and dg.get("tarih") == d["meta"]["ref_date"]
+            if ok:
+                for r in dg.get("endeks", []):
+                    b = d["endeks"].get("spx" if r["ad"] == "S&P 500" else "ndx", {})
+                    ok = ok and abs(r["ileri"] - b["ileri"]["pe"]) < 1e-9
+                ok = ok and len(dg.get("endeks", [])) == 2 and all(abs(x["deg"]) >= 15 for x in dg.get("bilanco", []) + dg.get("hareket", []))
+            kayit("Değerleme özeti: güncel ve endeks bloğuyla tutarlı", bool(ok), f"tarih={dg.get('tarih') if dg else None}", uyari=True)
+    except Exception as e:  # noqa: BLE001
+        kayit("Değerleme özeti: güncel ve endeks bloğuyla tutarlı", False, repr(e), uyari=True)
+
     # endeks çarpanı (S&P 500, Nasdaq-100): yoksa uyarı; varsa içeriği doğru olmak zorunda
     en = d.get("endeks")
     kayit("Endeks çarpanı: bölüm var", bool(en), "data.json'da endeks bölümü yok: sitede endeks çarpanı görünmez", uyari=True)

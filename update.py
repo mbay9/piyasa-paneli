@@ -1349,6 +1349,17 @@ def main():
     if endeks:
         out["endeks"] = endeks
     try:
+        import degerleme
+        ref = None
+        try:
+            ref = json.loads(http_get("https://raw.githubusercontent.com/mbay9/piyasa-paneli/gorev/kalibrasyon.json", tries=2, timeout=30).text).get("referans")
+        except Exception as e:  # noqa: BLE001
+            log("FactSet referansı alınamadı (bölge etiketi atlanır):", repr(e)[:100])
+        out["degerleme"] = degerleme.uret(out, ref)
+        log("değerleme özeti:", len(out["degerleme"]["bilanco"]), "bilanço sonrası,", len(out["degerleme"]["hareket"]), "hareket")
+    except Exception as e:  # noqa: BLE001
+        log("Değerleme özeti atlandı:", repr(e)[:120])
+    try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         ch = build_other_changes(out, json.loads(http_get(url, tries=2, timeout=30).text))
         if ch is not None:
