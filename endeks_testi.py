@@ -138,7 +138,13 @@ def hesapla(ad, satirlar, bugun):
 
 def main():
     bugun = dt.date.today()
-    ivv = ivv_agirlik()
+    try:
+        ivv = ivv_agirlik()
+    except Exception as e:  # noqa: BLE001
+        U.log("iShares ağırlıkları alınamadı, piyasa değeri ağırlığı kullanılacak:", repr(e)[:120])
+        ivv = {}
+    if not ivv:
+        ivv = {t: (0.0, "") for t in (U.get_universe() or {"tickers": []})["tickers"]}
     ndx, ndx_kaynak = ndx_liste()
     semboller = sorted(set(ivv) | set(ndx))
     U.log(f"{len(ivv)} S&P, {len(ndx)} Nasdaq-100 ({ndx_kaynak}), toplam {len(semboller)} sembol")
@@ -152,7 +158,7 @@ def main():
 
     # S&P 500: iShares IVV ağırlıkları
     tp = sum(w for w, _ in ivv.values())
-    spx_ivv = [dict(veri[s], w=w / tp) for s, (w, _) in ivv.items() if s in veri]
+    spx_ivv = [dict(veri[s], w=w / tp) for s, (w, _) in ivv.items() if s in veri] if tp > 0 else []
     # S&P 500: piyasa değeri ağırlığı (ikinci paylar çıkarılır)
     mc = {s: veri[s].get("mcap") for s in ivv if s in veri and s not in IKINCI_SINIF and veri[s].get("mcap")}
     tm = sum(mc.values())
@@ -166,7 +172,8 @@ def main():
     rapor = {"tarih": bugun_s, "ndx_kaynak": ndx_kaynak, "sembol": len(semboller), "eksik_veri": eksik[:40], "eksik_adet": len(eksik),
              "sure_sn": int(time.time() - t0),
              "para_uyumsuz": [s for s, r in veri.items() if not r.get("para_ok")][:40],
-             "spx_ivv_agirlik": hesapla("S&P 500 (IVV ağırlıkları)", spx_ivv, bugun),
+             "spx_ivv_agirlik": hesapla("S&P 500 (IVV ağırlıkları)", spx_ivv, bugun) if spx_ivv else None,
+             "ivv_ok": bool(spx_ivv),
              "spx_mcap_agirlik": hesapla("S&P 500 (piyasa değeri)", spx_mc, bugun),
              "ndx_mcap_agirlik": hesapla("Nasdaq-100 (piyasa değeri, yaklaşık)", ndx_mc, bugun),
              "son_7_gunde_bilanco": [s for s, r in veri.items() if r.get("mrq") and (bugun - dt.date.fromtimestamp(r["mrq"])).days <= 45][:5],
