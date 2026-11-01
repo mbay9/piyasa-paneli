@@ -254,41 +254,41 @@
   function valuation(d) {
     var v = d.degerleme;
     if (!v || v.tarih !== d.meta.ref_date) return "";
-    var out = "", z = { "ucuz": "pos", "normal": "", "pahalı": "neg", "çok pahalı": "neg" };
-    (v.endeks || []).forEach(function (e) {
-      var m = "ileri F/K <b>" + num(e.ileri, 1) + "</b>";
-      if (e.son != null) m += " · son 12 ay " + num(e.son, 1);
-      if (e.d5 != null) m += " · 5 günde " + pc(e.d5, 1);
-      if (e.d20 != null) m += " · 20 günde " + pc(e.d20, 1);
-      var t = "";
-      if (e.ort10 != null) t = " 10 yıllık ortalama " + num(e.ort10, 1) + (e.ort5 != null ? ", 5 yıllık " + num(e.ort5, 1) : "") + "; şu an ortalamanın %" + num(Math.abs(e.ort10_oran - 1) * 100, 0) + " " + (e.ort10_oran >= 1 ? "üstünde" : "altında") + ' → <span class="' + (z[e.bolge] || "") + '"><b>' + esc(e.bolge) + "</b></span>.";
-      var k = e.ilk && e.ilk.length ? " Kazançların %" + num(e.ilk.reduce(function (a, x) { return a + x[1]; }, 0), 0) + "'i ilk " + e.ilk.length + " şirkette (" + e.ilk.map(function (x) { return esc(tk(x[0])); }).join(", ") + ")." : "";
-      out += "<p><b>" + esc(e.ad) + ":</b> " + m + "." + t + k + "</p>";
-    });
-    function sat(x, bil) {
-      var why = x.fiyat != null && x.eps != null ? " Fiyat " + pc(x.fiyat, 1) + ", mevcut yıl EPS tahmini " + pc(x.eps, 1) + " (5 gün)." : "";
-      return "<p><b>" + esc(tk(x.s)) + "</b> " + (bil ? "bilançodan (" + fmtShort(x.bilanco) + ") beri " : "5 günde ") + '<span class="' + (x.deg > 0 ? "neg" : "pos") + '">' + esc(x.yon) + "</span>: ileri F/K " + (bil ? num(x.once, 1) + " → " : "") + num(x.simdi, 1) + " (" + pc(x.deg, 0) + ")." + (bil ? "" : why) + "</p>";
+    var zc = { "ucuz": "pos", "normal": "", "pahalı": "neg", "çok pahalı": "neg" };
+    function sg(x, dec) { return x == null ? "–" : '<span class="' + cls(x) + '">' + (x > 0 ? "+" : x < 0 ? "−" : "") + num(Math.abs(x), dec) + "%</span>"; }
+    var out = h2("Değerleme özeti");
+    // 1) endeksler
+    var er = (v.endeks || []).map(function (e) {
+      var ort = e.ort10 != null ? '<span class="' + (zc[e.bolge] || "") + '"><b>' + esc(e.bolge.charAt(0).toUpperCase() + e.bolge.slice(1)) + "</b></span><small>10 yıllık ortalama " + num(e.ort10, 1) + "</small>" : '<span class="neu">–</span><small>ortalama kaynağı yok</small>';
+      return "<tr><td><b>" + esc(e.ad) + "</b></td><td><b>" + num(e.ileri, 1) + "</b><small>son 12 ay " + num(e.son, 1) + "</small></td><td>" + ort + "</td><td>" + sg(e.d20, 1) + "</td></tr>";
+    }).join("");
+    if (er) out += h3q("Endeksler") + '<div class="tw"><table><thead><tr><th>Endeks</th><th>İleri F/K</th><th>Tarihe göre</th><th>20 günde</th></tr></thead><tbody>' + er + "</tbody></table></div>";
+    // 2) bilanço sonrası
+    function neden(x) { return x.fiyat == null || x.eps == null ? "–" : Math.abs(x.fiyat) >= Math.abs(x.eps) ? "fiyat (" + pc(x.fiyat, 0) + ")" : "tahmin (" + pc(x.eps, 0) + ")"; }
+    function tab(L, bil) {
+      return '<div class="tw"><table><thead><tr><th>Hisse</th><th>İleri F/K</th><th>Değişim</th><th>Asıl neden</th></tr></thead><tbody>' + L.map(function (x) {
+        return "<tr><td><b>" + esc(tk(x.s)) + "</b>" + (bil ? "<small>bilanço " + fmtShort(x.bilanco) + "</small>" : "") + "</td><td>" + (bil ? num(x.once, 1) + " → " : "") + num(x.simdi, 1) + '</td><td class="' + (x.deg > 0 ? "neg" : "pos") + '">' + (x.deg > 0 ? "+" : "−") + num(Math.abs(x.deg), 0) + "% " + (x.deg > 0 ? "pahalandı" : "ucuzladı") + "</td><td>" + neden(x) + "</td></tr>";
+      }).join("") + "</tbody></table></div>";
     }
-    if (v.bilanco && v.bilanco.length) out += h3q("Bilanço sonrası yeniden fiyatlanma") + v.bilanco.map(function (x) { return sat(x, true); }).join("");
-    else out += '<p class="vn">Bilanço açıklayıp ileri F/K\'si bilanço öncesine göre %15 ve üstü değişen yapay zeka listesi hissesi yok.</p>';
-    if (v.hareket && v.hareket.length) out += h3q("5 günde en çok değişen çarpanlar") + v.hareket.map(function (x) { return sat(x, false); }).join("");
+    out += h3q("Bilanço sonrası yeniden fiyatlanma");
+    out += v.bilanco && v.bilanco.length ? tab(v.bilanco, true) : '<p class="vn">Bilanço açıklayıp F/K\'si %15 ve üstü değişen hisse yok.</p>';
+    // 3) 5 günlük hareketler
+    if (v.hareket && v.hareket.length) out += h3q("5 günde çarpanı en çok değişenler") + tab(v.hareket.slice(0, 6), false);
+    // 4) alt sektörler
     var al = d.altsektor;
     if (al && al.tarih === d.meta.ref_date) {
-      var iyi = [], kotu = [], kar = [], dgs = [];
+      var iyi = [], kotu = [], kar = [], dg = [];
       al.gruplar.forEach(function (g) {
-        var uu = g.uyum, k = uu && uu.karar || "";
+        var u = g.uyum || {}, k = u.karar || "";
         if (k.indexOf("iyi") >= 0) iyi.push(g.ad); else if (k.indexOf("kötü") >= 0) kotu.push(g.ad); else if (k === "karışık mesaj") kar.push(g.ad);
-        if (uu && uu.onceki && uu.karar !== uu.onceki && uu.karar !== "yetersiz veri" && uu.onceki !== "yetersiz veri") dgs.push(g.ad + ": " + uu.onceki + " → " + uu.karar);
+        if (u.onceki && u.karar !== u.onceki && u.karar !== "yetersiz veri" && u.onceki !== "yetersiz veri") dg.push(g.ad);
       });
-      var t = "";
-      if (iyi.length) t += "Bilançoları (önceki çeyreğe göre) birbirini iyi yönde doğrulayan gruplar: " + iyi.map(esc).join(", ") + ". ";
-      if (kotu.length) t += "Kötü yönde doğrulayanlar: " + kotu.map(esc).join(", ") + ". ";
-      if (kar.length) t += "Karışık mesaj veren gruplar: " + kar.map(esc).join(", ") + ". ";
-      if (dgs.length) t += "Bir önceki güne göre değişenler: " + dgs.map(esc).join("; ") + ".";
-      if (t) out += h3q("Alt sektörler") + "<p>" + t + "</p>";
+      function sat(et, cl, L) { return L.length ? '<div class="kv"><span class="' + cl + '"><b>' + et + "</b></span><span>" + L.map(esc).join(", ") + "</span></div>" : ""; }
+      var alt = sat("Bilançolar iyi yönde", "pos", iyi) + sat("Bilançolar kötü yönde", "neg", kotu) + sat("Karışık", "neu", kar) + sat("Dünden değişen", "", dg);
+      if (alt) out += h3q("Alt sektörlerde bilanço (önceki çeyreğe göre)") + alt + '<p class="vn">Ayrıntı için Alt Sektörler sekmesine bakın.</p>';
     }
-    if (v.ai_medyan != null) out += '<p class="vn">Yapay zeka listesinin medyan ileri F/K\'si ' + num(v.ai_medyan, 1) + " (" + v.ai_n + " hisse).</p>";
-    return h2("Değerleme özeti") + '<div class="sum">' + out + "</div>";
+    if (v.ai_medyan != null) out += '<p class="vn">Yapay zeka listesinin medyan ileri F/K\'si ' + num(v.ai_medyan, 1) + ".</p>";
+    return out;
   }
   function chgBox(items, since, note) {
     items = (items || []).filter(function (i) { return i.k !== "sma" && i.k !== "sma50"; });
