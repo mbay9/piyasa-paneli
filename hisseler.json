@@ -53,6 +53,10 @@
    "name": "Amkor Technology, Inc."
   },
   {
+   "symbol": "AMZN",
+   "name": "Amazon.com, Inc."
+  },
+  {
    "symbol": "ANET",
    "name": "Arista Networks, Inc."
   },
@@ -165,6 +169,10 @@
    "name": "Corning Incorporated"
   },
   {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc."
+  },
+  {
    "symbol": "HPE",
    "name": "Hewlett Packard Enterprise Company"
   },
@@ -213,6 +221,10 @@
    "name": "Microchip Technology Inc"
   },
   {
+   "symbol": "META",
+   "name": "Meta Platforms, Inc."
+  },
+  {
    "symbol": "MKSI",
    "name": "MKS Inc."
   },
@@ -227,6 +239,10 @@
   {
    "symbol": "MRVL",
    "name": "Marvell Technology"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft Corporation"
   },
   {
    "symbol": "MTSI",

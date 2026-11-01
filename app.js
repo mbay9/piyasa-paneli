@@ -377,7 +377,7 @@
     if (al.zincir && al.zincir.length) {
       out += h3q("Talepten üretime zincir") + '<div class="tw"><table><thead><tr><th>Halka</th><th>Yatırım harcaması (önceki çeyreğe göre)</th><th>Gelir (önceki çeyreğe göre)</th><th>Brüt marj değişimi</th><th>Fiyat 20G</th></tr></thead><tbody>' +
         al.zincir.map(function (z) { return "<tr><td><b>" + esc(z.ad) + "</b><small>" + z.bil_n + " bilanço</small></td>" + c(z.capex_qoq, 0) + c(z.gelir_qoq, 0) + c(z.brut_qoq, 1, " puan") + c(z.d20, 1) + "</tr>"; }).join("") + "</tbody></table></div>" +
-        '<p class="vn">Sıra talepten üretime doğrudur: yapay zeka altyapısını kuranlar, sunucu, işlemci, bellek ve bağlantı, foundry ve ekipman. Büyük bulut şirketleri (Microsoft, Amazon, Google, Meta) listede olmadığından talep tarafındaki yatırım harcaması yalnızca listedeki bulut ve altyapı şirketlerini yansıtır; tam tablo değildir.</p>';
+        '<p class="vn">Sıra talepten üretime doğrudur: yapay zeka altyapısını kuranlar, sunucu, işlemci, bellek ve bağlantı, foundry ve ekipman. Yatırım harcaması Yahoo nakit akış tablosundaki maddi duran varlık alımıdır; finansal kiralama (lease) ile edinilen veri merkezi ekipmanı dahil değildir, bu yüzden büyük bulut şirketlerinin toplam harcaması burada olduğundan düşük görünebilir. Çeyrek sonuçları bilanço açıklandıktan sonra gelir.</p>';
     }
     if (al.olaylar && al.olaylar.length) {
       var evs = al.olaylar.slice().reverse().slice(0, 10).map(function (o) {
