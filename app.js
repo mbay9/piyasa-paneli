@@ -111,24 +111,22 @@
       '<p class="fine">Aynı hisseler iki farklı şekilde tartılıyor. Eşit ağırlıklı ETF\'te her hisse aynı ağırlıktadır, ağırlıklı ETF\'te büyük şirketler daha çok etki eder. Eşit ağırlıklı ETF 20 günde 1 puan veya daha fazla gerideyse DAR (az sayıda büyük hisse taşıyor), 1 puan veya daha fazla öndeyse GENİŞ.</p>';
   }
 
-  var SEC_SORT = { k: "rel20", dir: -1 };
   function sectors(rows) {
     if (!rows || !rows.length) return "";
-    var cols = [["symbol", "Sektör"], ["status", "Durum"], ["rel20", "SPY'a göre 20G"], ["d1", "1G"], ["d5", "5G"], ["d20", "20G"], ["from_high", "Zirveye uzaklık"], ["trend", "Trend"], ["dist50", "SMA 50"], ["dist200", "SMA 200"]];
-    var sorted = rows.slice().sort(function (x, y) {
-      var k = SEC_SORT.k, u = x[k], v = y[k];
-      if (u === null || u === undefined) return 1; if (v === null || v === undefined) return -1;
-      if (typeof u === "string") return u.localeCompare(v, "tr") * SEC_SORT.dir;
-      return (u - v) * SEC_SORT.dir;
-    });
-    var head = cols.map(function (c) { return '<th class="s' + (c[0] === "d5" ? " hm" : "") + '" data-t="sec" data-k="' + c[0] + '" tabindex="0" role="button" aria-sort="' + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? "ascending" : "descending") : "none") + '">' + c[1] + (SEC_SORT.k === c[0] ? (SEC_SORT.dir > 0 ? " ↑" : " ↓") : "") + '</th>'; }).join("");
-    var body = sorted.map(function (s) {
-      var sc = { "Lider": "pos", "Toparlanıyor": "neu", "Zayıflıyor": "rsk", "Geride": "neg" }[s.status] || "";
-      var tc = s.trend === "Yükseliş" ? "pos" : s.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + s.symbol + '</b> <span class="mute">' + esc(s.name) + '</span></td><td class="' + sc + '">' + esc(s.status) + '</td><td class="' + cls(s.rel20) + '">' + pt(s.rel20, 2) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td>' +
-        '<td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</td><td class="' + tc + '">' + esc(s.trend || "–") + '</td><td>' + ma(s.above50, s.dist50) + '</td><td>' + ma(s.above200, s.dist200) + '</td></tr>';
+    var sorted = rows.slice().sort(function (x, y) { return (y.rel20 == null ? -1e9 : y.rel20) - (x.rel20 == null ? -1e9 : x.rel20); });
+    var mx = Math.max.apply(null, sorted.map(function (s) { return Math.abs(s.rel20 || 0); }).concat([1]));
+    var last = sorted.length - 1;
+    var body = sorted.map(function (s, i) {
+      var sc = { "Lider": "pos", "Toparlanıyor": "neu", "Zayıflıyor": "rsk", "Geride": "neg" }[s.status] || "neu";
+      var r = s.rel20 || 0, w = (Math.abs(r) / mx * 50).toFixed(1);
+      var bar = '<span class="sxcb"><i class="' + (r >= 0 ? "g" : "r") + '" style="width:' + w + "%;" + (r >= 0 ? "left:50%" : "right:50%") + '"></i></span>';
+      return '<div class="sxcr"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
+        '<span class="sxcm"><b>' + esc(s.symbol) + " " + esc(s.name) + '</b><small class="' + sc + '">' + esc(s.status) + " · " + esc(s.trend || "–") + "</small></span>" +
+        '<span class="sxcv">' + bar + '<span class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</span></span>' +
+        '<span class="sxcx ' + cls(s.d20) + '">' + pc(s.d20, 1) + '</span><span class="sxcx hm ' + cls(s.d5) + '">' + pc(s.d5, 1) + "</span></div>";
     }).join("");
-    return h2("Sektör liderliği") + '<div class="tw"><table><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>';
+    return h2("Sektör liderliği") + sub("SPY'a göre son 20 günde en çok önde olandan en çok geride olana doğru sıralı. Çubuk SPY'dan kaç puan fazla (sağa) ya da az (sola) getiri olduğunu gösterir.") +
+      '<div class="sxch"><span></span><span>Sektör</span><span>SPY\'a göre 20G</span><span>20G</span><span class="hm">5G</span></div>' + body;
   }
 
   var AI_SORT = { k: "mcap", dir: -1 };
@@ -452,9 +450,8 @@
   document.addEventListener("click", function (e) {
     var th = e.target.closest && e.target.closest("th.s");
     if (!th || !DATA) return;
-    var k = th.getAttribute("data-k"), sec = th.getAttribute("data-t") === "sec";
-    var cur = sec ? SEC_SORT : AI_SORT, nx = { k: k, dir: cur.k === k ? -cur.dir : (k === "symbol" || k === "status" || k === "trend" ? 1 : -1) };
-    if (sec) SEC_SORT = nx; else AI_SORT = nx;
+    var k = th.getAttribute("data-k");
+    AI_SORT = { k: k, dir: AI_SORT.k === k ? -AI_SORT.dir : (k === "symbol" || k === "status" || k === "trend" ? 1 : -1) };
     draw();
   });
   document.addEventListener("keydown", function (e) {
