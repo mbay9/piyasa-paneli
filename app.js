@@ -85,14 +85,14 @@
       var k = x[0], m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
       var nm = esc(m.name || "") + (k === "VIX" ? " · korku endeksi" : "") + esc(dtag(m, ref));
       return '<div class="gxr gxl"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
-        '<span class="sxcm"><b>' + k + vtext(m) + '</b><small class="neu">' + num(m.close, 2) + " · " + nm + '</small>' +
-        '<small class="gxm neu">5G <span class="' + cc(k, m.d5) + '">' + pc(m.d5) + '</span> · 20G <span class="' + cc(k, m.d20) + '">' + pc(m.d20) + '</span>' + (k === "VIX" ? "" : ' · zirve <span class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + "</span>") + '<br>SMA 50 <span class="' + (m.above50 ? "pos" : "neg") + '">' + pc(m.dist50, 1) + '</span> · SMA 200 <span class="' + (m.above200 ? "pos" : "neg") + '">' + pc(m.dist200, 1) + '</span> · <span class="' + tc + '">' + esc(m.trend || "–") + "</span></small></span>" +
+        '<span class="sxcm"><b>' + k + vtext(m) + ' <em class="gxp ' + tc + '">' + esc(m.trend || "–") + '</em></b><small class="neu">' + num(m.close, 2) + " · " + nm + '</small>' +
+        '<small class="gxm neu"><span class="nw">5G <span class="' + cc(k, m.d5) + '">' + pc(m.d5) + '</span></span> · <span class="nw">20G <span class="' + cc(k, m.d20) + '">' + pc(m.d20) + '</span></span>' + (k === "VIX" ? "" : ' · <span class="nw">zirve <span class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + "</span></span>") + '<br><span class="nw">SMA 50 <span class="' + (m.above50 ? "pos" : "neg") + '">' + pc(m.dist50, 1) + '</span></span> · <span class="nw">SMA 200 <span class="' + (m.above200 ? "pos" : "neg") + '">' + pc(m.dist200, 1) + '</span></span>' + "</small></span>" +
         '<span class="gxd r ' + cc(k, m.d1) + '">' + pc(m.d1) + "</span>" +
         '<span class="gxd r ' + cc(k, m.d5) + '">' + pc(m.d5) + '</span><span class="gxd r ' + cc(k, m.d20) + '">' + pc(m.d20) + "</span>" +
         '<span class="gxd r ' + (k === "VIX" ? "neu" : cls(m.from_high)) + '">' + (k === "VIX" ? "–" : pc(m.from_high, 1)) + "</span>" +
         '<span class="gxd r ' + (m.above50 == null ? "neu" : m.above50 ? "pos" : "neg") + '">' + (m.dist50 == null ? "–" : pc(m.dist50, 1)) + '</span><span class="gxd r ' + (m.above200 == null ? "neu" : m.above200 ? "pos" : "neg") + '">' + (m.dist200 == null ? "–" : pc(m.dist200, 1)) + "</span>" +
         '<span class="gxd r ' + tc + '">' + esc(m.trend || "–") + "</span>" +
-        '<span class="gxt r ' + cc(k, m.d1) + '">' + pc(m.d1) + "</span></div>";
+        '<span class="gxt r ' + cc(k, m.d1) + '">' + pc(m.d1) + "<small>bugün</small></span></div>";
     }).join("");
     return '<div class="gxh gxr gxl"><span></span><span>Gösterge</span><span class="r">Bugün</span><span class="r">5G</span><span class="r">20G</span><span class="r">Zirveye uzaklık</span><span class="r">SMA 50</span><span class="r">SMA 200</span><span class="r">Trend</span></div>' + body +
       '<p class="fine">Sıra bugünkü değişime göre. SMA sütunları fiyatın o ortalamaya uzaklığıdır. VIX\'te yükseliş kırmızı gösterilir.</p>';
