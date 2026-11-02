@@ -5,3 +5,11 @@ Depo: add_repo/register_repo_root araclari yok; /home/claude/piyasa-paneli zaten
 Bugun UTC 2026-10-30; KOSPI 2026-10-30, NIKKEI 2026-10-30, BTC 2026-10-29
 durum.json: kayit_utc 2026-10-30T23:40:29Z, build success, deploy success, data_ref_date 2026-10-30, hata bos
 ozet.json date 2026-10-29 (asya mevcut). Bekleme yok.
+=== 2026-11-02 11:36:01 UTC / 2026-11-02 06:36:01 ET (yedek calisma) ===
+SONUC: YAZILMADI
+Neden: ozet.json'da ayni ref_date (2026-10-30) icin "asya" alani zaten var; kurala gore yeniden yazilmadi.
+Depo: /home/claude/piyasa-paneli mevcuttu, git pull --rebase basarili.
+Bugun UTC: 2026-11-02. KOSPI date=2026-11-02, NIKKEI date=2026-11-02, BTC date=2026-11-01, meta.ref_date=2026-10-30.
+durum.json: build=success deploy=success canli_dogrulandi=true data_ref_date=2026-10-30 hata="" kok_neden="" olay=workflow_dispatch kayit_et=2026-11-02 05:34
+ozet.json date=2026-10-30 (veri ref_date ile ayni), asya mevcut.
+Bekleme: yok.
