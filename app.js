@@ -243,11 +243,7 @@
       return '<tr><td><div class="hc">' + vchip(s) + '<div><div class="l1"><b>' + esc(tk(s.symbol)) + '</b><span class="px ' + (s.d1 > 0 ? "up" : s.d1 < 0 ? "dn" : "nu") + '">' + esc(px(s.close, s.cur)) + (s.d1 == null ? "" : " · " + pc(s.d1)) + '</span></div><div class="l2">' + sa(s.symbol) + fb(s) + eb(s) + dl + '</div></div></div>' + '</td><td>' + cap(s.mcap) + '</td><td class="' + cls(s.d1) + '">' + pc(s.d1) + '</td><td class="hm ' + cls(s.d5) + '">' + pc(s.d5) + '</td><td class="' + cls(s.d20) + '">' + pc(s.d20) + '</td><td>' + ab(s.above50) + '</td><td>' + ab(s.above200) + '</td><td class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + zg(s.from_high) + '</td></tr>' + (s.est && VOPEN[s.symbol] ? '<tr class="vp"><td colspan="8">' + vpanel(s) + '</td></tr>' : "");
     }
     function zg(v) { return v == null ? "" : '<span class="zg" aria-hidden="true"><span style="width:' + Math.max(0, Math.min(100, (v + 50) * 2)).toFixed(0) + '%"></span></span>'; }
-    var secs = [["100 Mr$ ve üstü", function (s) { return s.mcap >= 1e11; }], ["100 Mr$ altı", function (s) { return s.mcap !== null && s.mcap !== undefined && s.mcap < 1e11; }], ["Piyasa değeri bilinmeyen", function (s) { return s.mcap === null || s.mcap === undefined; }]];
-    var body = secs.map(function (g) {
-      var L = rows.filter(g[1]); if (!L.length) return "";
-      return '<tr class="gs"><td colspan="8"><b>' + g[0] + '</b><span>' + L.length + ' hisse</span></td></tr>' + L.map(rowHtml).join("");
-    }).join("");
+    var body = rows.map(rowHtml).join("");
 
     var noMob = { symbol: 1, above50: 1, above200: 1 };
     var mc = cols.filter(function (c) { return !noMob[c[0]]; }), curLabel = (mc.filter(function (c) { return c[0] === AI_SORT.k; })[0] || mc[0])[1];
