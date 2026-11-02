@@ -125,7 +125,7 @@
         '<span class="sxcv">' + bar + '<span class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</span></span>' +
         '<span class="sxcx ' + cls(s.d20) + '">' + pc(s.d20, 1) + '</span><span class="sxcx hm ' + cls(s.d5) + '">' + pc(s.d5, 1) + "</span></div>";
     }).join("");
-    return h2("Sektör liderliği") + sub("SPY'a göre son 20 günde en çok önde olandan en çok geride olana doğru sıralı. "Puan", sektörün SPY'dan kaç puan fazla ya da az getiri sağladığıdır.") +
+    return h2("Sektör liderliği") + sub("SPY'a göre son 20 günde en çok önde olandan en çok geride olana doğru sıralı. Puan: sektörün SPY'dan kaç puan fazla ya da az getiri sağladığıdır.") +
       '<div class="sxch"><span></span><span>Sektör</span><span>SPY\'a göre 20G</span><span>20G</span><span class="hm">5G</span></div>' + body;
   }
 
