@@ -440,6 +440,12 @@
       "iletisim"
     ],
     "ai": "cok zayif",
-    "not": "Endeksler üst üste ikinci gün düştü, küçük şirketler de düştü; çip ve yapay zeka sert geriledi; geniş endeks orta vadeli ortalamaların altına indi, VIX sıçradı"
+    "not": "Endeksler üst üste ikinci gün düştü, küçük şirketler de düştü; çip ve yapay zeka sert geriledi; geniş endeks orta vadeli ortalamaların altına indi, VIX sıçradı",
+    "asya": {
+      "kospi": "yatay",
+      "nikkei": "yatay",
+      "btc": null,
+      "not": "Asya ABD cuma günkü teknoloji/çip zayıflığına sakin tepki verdi; son haftada toparlanma, aylık tablo hâlâ aşağıda; Bitcoin verisi güncel değildi (son tarih 31 Eki), yön yazılmadı"
+    }
   }
 ]
