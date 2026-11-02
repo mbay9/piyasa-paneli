@@ -373,7 +373,7 @@ def site():
                     sayfa.evaluate("location.hash = '#genel'")
                     sayfa.wait_for_timeout(150)
                     g = sayfa.inner_text("#t-genel")
-                    kayit(f"Sayfa testi ({ad}): günün özeti Genel sekmesinde görünüyor", oz["paragraphs"][0][:30] in g, f"özet tarihi {oz['date']}")
+                    kayit(f"Sayfa testi ({ad}): günün özeti Genel sekmesinde görünüyor", oz["paragraphs"][-1][:30].replace("Özetle:", "").strip()[:25] in g, f"özet tarihi {oz['date']}")
                     if oz.get("asya"):
                         kayit(f"Sayfa testi ({ad}): Asya ve Bitcoin eki görünüyor", "Asya ve Bitcoin" in g)
                 sayfa.close()
