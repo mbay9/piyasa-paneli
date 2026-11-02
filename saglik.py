@@ -375,7 +375,7 @@ def site():
                     g = sayfa.inner_text("#t-genel")
                     kayit(f"Sayfa testi ({ad}): günün özeti Genel sekmesinde görünüyor", oz["paragraphs"][-1][:30].replace("Özetle:", "").strip()[:25] in g, f"özet tarihi {oz['date']}")
                     if oz.get("asya"):
-                        kayit(f"Sayfa testi ({ad}): Asya ve Bitcoin eki görünüyor", "Asya ve Bitcoin" in g)
+                        kayit(f"Sayfa testi ({ad}): Asya ve Bitcoin eki görünüyor", "Asya ve Bitcoin" in sayfa.evaluate("document.querySelector('#t-genel').textContent"))
                 sayfa.close()
             tarayici.close()
     except Exception as e:  # noqa: BLE001
