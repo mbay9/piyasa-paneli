@@ -65,24 +65,37 @@
     var c = rg.context || {}, dq = rg.data_quality || {}, miss = (dq.missing_data || []).concat(dq.stale_data || []);
     var st = "";
     if (ok) {
-      if (rg.days_in_state !== null && rg.days_in_state !== undefined) st += '<div><small>Süre</small><b>' + rg.days_in_state + ' gün</b></div>';
-      if (c.vix !== null && c.vix !== undefined) st += '<div><small>VIX · korku endeksi</small><b>' + num(c.vix, 1) + '</b></div>';
-      if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) st += '<div><small>Breadth</small><b>%' + num(c.breadth_pct200, 0) + '</b><div class="rgbar"><i style="width:' + Math.max(0, Math.min(100, c.breadth_pct200)) + '%"></i></div></div>';
+      if (rg.days_in_state !== null && rg.days_in_state !== undefined) st += "<span>" + rg.days_in_state + " gün</span>";
+      if (c.vix !== null && c.vix !== undefined) st += "<span>VIX " + num(c.vix, 1) + "</span>";
+      if (c.breadth_pct200 !== null && c.breadth_pct200 !== undefined) st += "<span>Katılım %" + num(c.breadth_pct200, 0) + "</span>";
     }
-    var head = '<div class="rgc"><span class="rgp ' + lab[1] + '">' + esc(lab[0]) + '</span><div class="rgm"><span class="big">' + (ok ? pc(rg.distance_pct, 1) : "–") + '</span>' + (ok ? '<span class="rgs">SMA 200\'ün ' + (rg.distance_pct >= 0 ? "üzerinde" : "altında") + '</span>' : "") + '</div>' + (st ? '<div class="rgst">' + st + '</div>' : "") + '</div>';
+    var head = '<div class="gxs"><span class="rgp ' + lab[1] + '">' + esc(lab[0]) + '</span>' + (ok ? '<span class="gxb"><b class="' + cls(rg.distance_pct) + '">' + pc(rg.distance_pct, 1) + '</b> <span class="mute">S&amp;P 500, SMA 200\'ün ' + (rg.distance_pct >= 0 ? "üzerinde" : "altında") + "</span></span>" : "") + '<span class="gxf"></span>' + st + "</div>";
     if (miss.length) head += '<p class="fine"><span class="rsk">Hesaplanamayan: ' + esc(miss.join(", ")) + '.</span></p>';
     return head;
   }
-
   function levels(d) {
     var rows = [], ref = d.meta.ref_date;
     Object.keys(d.indexes).forEach(function (k) { rows.push([k, d.indexes[k]]); });
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
-    var body = rows.map(function (x) {
+    function eff(x) { var v = x[1].d1; return v == null ? -1e9 : (x[0] === "VIX" ? -v : v); }
+    rows.sort(function (x, y) { return eff(y) - eff(x); });
+    function cc(k, v) { return v == null ? "neu" : cls(k === "VIX" ? -v : v); }
+    var last = rows.length - 1;
+    var body = rows.map(function (x, i) {
       var k = x[0], m = x[1], tc = m.trend === "Yükseliş" ? "pos" : m.trend === "Düşüş" ? "neg" : "rsk";
-      return '<tr><td><b>' + k + '</b>' + vtext(m) + ' <span class="px ' + (m.d1 > 0 ? "up" : m.d1 < 0 ? "dn" : "nu") + '">' + num(m.close, 2) + (m.d1 == null ? "" : " · " + pc(m.d1)) + '</span><small>' + esc(m.name || "") + (k === "VIX" ? " · korku endeksi" : "") + esc(dtag(m, ref)) + '</small></td><td class="hm ' + cls(m.d5) + '">' + pc(m.d5) + '</td><td class="' + cls(m.d20) + '">' + pc(m.d20) + '</td><td class="' + (k === "VIX" ? "nv" : cls(m.from_high)) + '">' + (k === "VIX" ? "" : pc(m.from_high, 1)) + '</td><td class="' + tc + '">' + esc(m.trend || "–") + '</td><td>' + ma(m.above50, m.dist50) + '</td><td>' + ma(m.above200, m.dist200) + '</td></tr>';
+      var nm = esc(m.name || "") + (k === "VIX" ? " · korku endeksi" : "") + esc(dtag(m, ref));
+      return '<div class="gxr gxl"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
+        '<span class="sxcm"><b>' + k + vtext(m) + '</b><small class="neu">' + num(m.close, 2) + " · " + nm + '</small>' +
+        '<small class="gxm neu">5G <span class="' + cc(k, m.d5) + '">' + pc(m.d5) + '</span> · 20G <span class="' + cc(k, m.d20) + '">' + pc(m.d20) + '</span>' + (k === "VIX" ? "" : ' · zirve <span class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + "</span>") + '<br>SMA 50 <span class="' + (m.above50 ? "pos" : "neg") + '">' + pc(m.dist50, 1) + '</span> · SMA 200 <span class="' + (m.above200 ? "pos" : "neg") + '">' + pc(m.dist200, 1) + '</span> · <span class="' + tc + '">' + esc(m.trend || "–") + "</span></small></span>" +
+        '<span class="gxd r ' + cc(k, m.d1) + '">' + pc(m.d1) + "</span>" +
+        '<span class="gxd r ' + cc(k, m.d5) + '">' + pc(m.d5) + '</span><span class="gxd r ' + cc(k, m.d20) + '">' + pc(m.d20) + "</span>" +
+        '<span class="gxd r ' + (k === "VIX" ? "neu" : cls(m.from_high)) + '">' + (k === "VIX" ? "–" : pc(m.from_high, 1)) + "</span>" +
+        '<span class="gxd r ' + (m.above50 == null ? "neu" : m.above50 ? "pos" : "neg") + '">' + (m.dist50 == null ? "–" : pc(m.dist50, 1)) + '</span><span class="gxd r ' + (m.above200 == null ? "neu" : m.above200 ? "pos" : "neg") + '">' + (m.dist200 == null ? "–" : pc(m.dist200, 1)) + "</span>" +
+        '<span class="gxd r ' + tc + '">' + esc(m.trend || "–") + "</span>" +
+        '<span class="gxt r ' + cc(k, m.d1) + '">' + pc(m.d1) + "</span></div>";
     }).join("");
-    return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + body + '</tbody></table></div>';
+    return '<div class="gxh gxr gxl"><span></span><span>Gösterge</span><span class="r">Bugün</span><span class="r">5G</span><span class="r">20G</span><span class="r">Zirveye uzaklık</span><span class="r">SMA 50</span><span class="r">SMA 200</span><span class="r">Trend</span></div>' + body +
+      '<p class="fine">Sıra bugünkü değişime göre. SMA sütunları fiyatın o ortalamaya uzaklığıdır. VIX\'te yükseliş kırmızı gösterilir.</p>';
   }
 
   function chainRows(list) {
@@ -257,8 +270,10 @@
   var OZ = null;
   function summary(d) {
     if (OZ && OZ.date === d.meta.ref_date && OZ.paragraphs && OZ.paragraphs.length) {
-      var as = OZ.asya && OZ.asya.length ? h3q("Gece: Asya ve Bitcoin") + '<div class="sum">' + OZ.asya.map(function (x) { return "<p>" + esc(x) + "</p>"; }).join("") + '</div>' : "";
-      return h2("Günün özeti") + '<div class="sum">' + OZ.paragraphs.map(function (x) { return "<p>" + esc(x).replace(/^Özetle:/, "<b>Özetle:</b>") + "</p>"; }).join("") + '</div>' + as;
+      var ps = OZ.paragraphs, last = ps[ps.length - 1], rest = ps.slice(0, -1);
+      var as = OZ.asya && OZ.asya.length ? '<div class="sum"><h3 class="qh">Gece: Asya ve Bitcoin</h3>' + OZ.asya.map(function (x) { return "<p>" + esc(x) + "</p>"; }).join("") + "</div>" : "";
+      var more = rest.length || as ? '<details class="sgd"><summary>Tüm özet</summary><div class="sum">' + rest.map(function (x) { return "<p>" + esc(x) + "</p>"; }).join("") + "</div>" + as + "</details>" : "";
+      return h2("Günün özeti") + '<div class="sum"><p>' + esc(last).replace(/^Özetle:/, "<b>Özetle:</b>") + "</p></div>" + more;
     }
     return "";
   }
@@ -266,26 +281,24 @@
     var v = d.degerleme;
     if (!v || v.tarih !== d.meta.ref_date) return "";
     var zc = { "ucuz": "pos", "normal": "", "pahalı": "neg", "çok pahalı": "neg" };
-    function sg(x, dec) { return x == null ? "–" : '<span class="' + cls(x) + '">' + (x > 0 ? "+" : x < 0 ? "−" : "") + num(Math.abs(x), dec) + "%</span>"; }
+    function sg(x, dec) { return x == null ? "" : ' · 20 günde <span class="' + cls(x) + '">' + (x > 0 ? "+" : x < 0 ? "−" : "") + num(Math.abs(x), dec) + "%</span>"; }
     var out = h2("Değerleme özeti");
-    // 1) endeksler
     var er = (v.endeks || []).map(function (e) {
-      var ort = e.ort10 != null ? '<span class="' + (zc[e.bolge] || "") + '"><b>' + esc(e.bolge.charAt(0).toUpperCase() + e.bolge.slice(1)) + "</b></span><small>10 yıllık ortalama " + num(e.ort10, 1) + "</small>" : '<span class="neu">–</span><small>ortalama kaynağı yok</small>';
-      return "<tr><td><b>" + esc(e.ad) + "</b></td><td><b>" + num(e.ileri, 1) + "</b><small>son 12 ay " + num(e.son, 1) + "</small></td><td>" + ort + "</td><td>" + sg(e.d20, 1) + "</td></tr>";
+      var ort = e.ort10 != null ? ' · <span class="' + (zc[e.bolge] || "") + '"><b>' + esc(e.bolge.charAt(0).toUpperCase() + e.bolge.slice(1)) + "</b></span> (10 yıllık ortalama " + num(e.ort10, 1) + ")" : "";
+      return '<div class="gxrow"><span><b>' + esc(e.ad) + "</b><small>son 12 ay " + num(e.son, 1) + ort + sg(e.d20, 1) + "</small></span><big>" + num(e.ileri, 1) + "x</big></div>";
     }).join("");
-    if (er) out += h3q("Endeksler") + '<div class="tw"><table><thead><tr><th>Endeks</th><th>İleri F/K</th><th>Tarihe göre</th><th>20 günde</th></tr></thead><tbody>' + er + "</tbody></table></div>";
-    // 2) bilanço sonrası
-    function neden(x) { return x.fiyat == null || x.eps == null ? "–" : Math.abs(x.fiyat) >= Math.abs(x.eps) ? "fiyat (" + pc(x.fiyat, 0) + ")" : "tahmin (" + pc(x.eps, 0) + ")"; }
-    function tab(L, bil) {
-      return '<div class="tw"><table><thead><tr><th>Hisse</th><th>İleri F/K</th><th>Değişim</th><th>Asıl neden</th></tr></thead><tbody>' + L.map(function (x) {
-        return "<tr><td><b>" + esc(tk(x.s)) + "</b>" + (bil ? "<small>bilanço " + fmtShort(x.bilanco) + "</small>" : "") + "</td><td>" + (bil ? num(x.once, 1) + " → " : "") + num(x.simdi, 1) + '</td><td class="' + (x.deg > 0 ? "neg" : "pos") + '">' + (x.deg > 0 ? "+" : "−") + num(Math.abs(x.deg), 0) + "% " + (x.deg > 0 ? "pahalandı" : "ucuzladı") + "</td><td>" + neden(x) + "</td></tr>";
-      }).join("") + "</tbody></table></div>";
+    if (er) out += '<div class="gxlist">' + er + "</div>";
+    function neden(x) { return x.fiyat == null || x.eps == null ? "" : Math.abs(x.fiyat) >= Math.abs(x.eps) ? "fiyat " + (x.fiyat > 0 ? "arttı" : "düştü") + " (" + pc(x.fiyat, 0) + ")" : "tahmin " + (x.eps > 0 ? "yükseldi" : "düştü") + " (" + pc(x.eps, 0) + ")"; }
+    function liste(L, bil) {
+      var mx = Math.max.apply(null, L.map(function (x) { return Math.abs(x.deg || 0); }).concat([20]));
+      return '<div class="sxch"><span></span><span>Hisse</span><span>F/K değişimi</span><span>İleri F/K</span><span class="hm"></span></div>' + chainRows(L.map(function (x) {
+        return { ad: esc(tk(x.s)), alt: (bil ? "bilanço " + fmtShort(x.bilanco) + " · " + num(x.once, 1) + " → " + num(x.simdi, 1) + " · " : (x.deg > 0 ? "pahalandı · " : "ucuzladı · ")) + neden(x), sc: "neu",
+          bar: centered(x.deg, mx), v: (x.deg > 0 ? "+" : "−") + num(Math.abs(x.deg), 0) + "%", vc: x.deg > 0 ? "neg" : "pos", c1: num(x.simdi, 1) + "x", c2: "" };
+      }));
     }
     out += h3q("Bilanço sonrası yeniden fiyatlanma");
-    out += v.bilanco && v.bilanco.length ? tab(v.bilanco, true) : '<p class="vn">Bilanço açıklayıp F/K\'si %15 ve üstü değişen hisse yok.</p>';
-    // 3) 5 günlük hareketler
-    if (v.hareket && v.hareket.length) out += h3q("5 günde çarpanı en çok değişenler") + tab(v.hareket.slice(0, 6), false);
-    // 4) alt sektörler
+    out += v.bilanco && v.bilanco.length ? liste(v.bilanco, true) : '<p class="fine">Bilanço açıklayıp ileri F/K\'si %15 ve üstü değişen hisse yok.</p>';
+    if (v.hareket && v.hareket.length) out += h3q("5 günde çarpanı en çok değişenler") + liste(v.hareket.slice(0, 6), false) + '<p class="fine">Çubuk, F/K\'nin kaç yüzde değiştiğini gösterir: sola ucuzladı, sağa pahalandı.</p>';
     var al = d.altsektor;
     if (al && al.tarih === d.meta.ref_date) {
       var iyi = [], kotu = [], kar = [], dg = [];
@@ -294,11 +307,11 @@
         if (k.indexOf("iyi") >= 0) iyi.push(g.ad); else if (k.indexOf("kötü") >= 0) kotu.push(g.ad); else if (k === "karışık mesaj") kar.push(g.ad);
         if (u.onceki && u.karar !== u.onceki && u.karar !== "yetersiz veri" && u.onceki !== "yetersiz veri" && u.karar.indexOf("karma") !== 0) dg.push(g.ad);
       });
-      function sat(et, cl, L) { return L.length ? '<div class="kv"><span class="' + cl + '"><b>' + et + "</b></span><span>" + L.map(esc).join(", ") + "</span></div>" : ""; }
-      var alt = sat("Bilançolar iyi yönde", "pos", iyi) + sat("Bilançolar kötü yönde", "neg", kotu) + sat("Karışık", "neu", kar) + sat("Dünden değişen", "", dg);
-      if (alt) out += h3q("Alt sektörlerde bilanço (önceki çeyreğe göre)") + alt + '<p class="vn">Ayrıntı için Alt Sektörler sekmesine bakın.</p>';
+      function sat(et, cl, L) { return L.length ? '<div class="gxlab"><b class="' + cl + '">' + et + "</b><span>" + L.map(esc).join(", ") + "</span></div>" : ""; }
+      var alt = sat("İyi yönde", "pos", iyi) + sat("Kötü yönde", "neg", kotu) + sat("Karışık", "neu", kar) + sat("Dünden değişen", "", dg);
+      if (alt) out += h3q("Alt sektörlerde bilanço (önceki çeyreğe göre)") + alt + '<p class="fine">Ayrıntı için Alt Sektörler sekmesine bakın.</p>';
     }
-    if (v.ai_medyan != null) out += '<p class="vn">Yapay zeka listesinin medyan ileri F/K\'si ' + num(v.ai_medyan, 1) + ".</p>";
+    if (v.ai_medyan != null) out += '<p class="fine">Yapay zeka listesinin medyan ileri F/K\'si ' + num(v.ai_medyan, 1) + ".</p>";
     return out;
   }
   function chgBox(items, since, note) {
@@ -410,7 +423,7 @@
     return out + (al.atanmamis && al.atanmamis.length ? '<p class="vn">Gruba atanmamış hisseler "Diğer"de: ' + al.atanmamis.map(function (x) { return esc(tk(x)); }).join(", ") + ".</p>" : "");
   }
   function tabs(d) {
-    return '<section class="tab" id="t-genel">' + regime(d.regime) + summary(d) + valuation(d) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + levels(d) + '</section>' +
+    return '<section class="tab" id="t-genel">' + regime(d.regime) + summary(d) + chgBox(chgFor("genel"), d.changes && d.changes.since, "ana göstergeler ve ETF'ler") + h2("Göstergeler") + levels(d) + valuation(d) + '</section>' +
       '<section class="tab" id="t-genislik">' + chgBox(chgFor("genislik"), d.changes && d.changes.since, "S&P 500 genişliği") + breadth(d.breadth) + pairs(d.pairs) + '</section>' +
       '<section class="tab" id="t-sektor">' + chgBox(chgFor("sektor"), d.changes && d.changes.since, "sektör ETF'leri") + sectors(d.sectors) + '</section>' +
       '<section class="tab" id="t-ai">' + ai(d.ai) + '</section>' +
