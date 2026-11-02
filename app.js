@@ -46,7 +46,6 @@
   function esc(s) { return String(s === null || s === undefined ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function h2(t) { return '<h2>' + t + '</h2>'; }
   function sub(t) { return '<p class="sub">' + t + '</p>'; }
-  function stat(k, v, d, c) { return '<div class="stat"><div class="k">' + k + '</div><div class="v ' + (c || "") + '">' + v + '</div><div class="d">' + (d || "") + '</div></div>'; }
   function ma(flag, dist) {
     if (flag === null || flag === undefined) return '<span class="neu">–</span>';
     return '<span class="' + (flag ? "pos" : "neg") + '">' + (flag ? "üstünde" : "altında") + '</span><small>' + pc(dist, 1) + '</small>';
@@ -86,29 +85,43 @@
     return '<div class="tw"><table><thead><tr><th>Gösterge</th><th class="hm">5G</th><th>20G</th><th>Zirveye uzaklık</th><th>Trend</th><th>SMA 50</th><th>SMA 200</th></tr></thead><tbody>' + body + '</tbody></table></div>';
   }
 
+  function chainRows(list) {
+    var last = list.length - 1;
+    return list.map(function (x, i) {
+      return '<div class="sxcr"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
+        '<span class="sxcm"><b>' + x.ad + '</b><small class="' + (x.sc || "neu") + '">' + x.alt + '</small></span>' +
+        '<span class="sxcv">' + x.bar + '<span class="' + (x.vc || "") + '">' + x.v + '</span></span>' +
+        '<span class="sxcx ' + (x.c1c || "") + '">' + x.c1 + '</span><span class="sxcx hm ' + (x.c2c || "") + '">' + x.c2 + '</span></div>';
+    }).join("");
+  }
+  function gauge(p) { return '<span class="sxcb"><i class="g" style="left:0;width:' + Math.max(0, Math.min(100, p)).toFixed(1) + '%"></i></span>'; }
+  function centered(v, mx) { var w = (Math.min(Math.abs(v || 0), mx) / mx * 50).toFixed(1); return '<span class="sxcb"><i class="' + (v >= 0 ? "g" : "r") + '" style="width:' + w + "%;" + (v >= 0 ? "left:50%" : "right:50%") + '"></i></span>'; }
   function breadth(b) {
     if (!b || !b.ma50) return h2("Piyasa genişliği") + sub("Hisse listesi alınamadığı için hesaplanmadı.");
-    var s = [50, 200].map(function (n) {
-      var m = b["ma" + n]; if (!m) return "";
-      return stat(n + " günlük ortalamanın üstünde", "%" + num(m.pct, 0), m.above + " / " + m.total + " hisse · 1 günde " + pt(m.d1) + " · 5 günde " + pt(m.d5));
-    }).join("");
-    return h2("Yükseliş ne kadar geniş?") + sub("Endeks yükselirken hisselerin çoğu da yükseliyor mu, yoksa az sayıda büyük hisse mi taşıyor? Aşağıdaki üç ölçü bu soruyu üç farklı yönden cevaplar. Hepsi bugünü anlatır, yön tahmin etmez. " + fmtDate(b.date)) +
-      '<h3 class="qh">1 · Hisselerin kaçı ortalamalarının üstünde?</h3><div class="stats">' + s + '</div>' +
-      '<p class="fine">S&amp;P 500\'ün 500 hissesi üzerinden. Oran ne kadar yüksekse yükselişe katılan hisse o kadar çok demektir. Endeks yükselirken oran düşüyorsa yükseliş inceliyor demektir.</p>' +
-      '<h3 class="qh">2 · Kaç hisse zirvede, kaç hisse dipte?</h3><div class="stats">' + stat("Son 52 hafta", '<span class="pos">' + num(b.new_highs, 0) + '</span> <span class="mute">/</span> <span class="neg">' + num(b.new_lows, 0) + '</span>', "yeni zirve yapan / yeni dip yapan hisse") + '</div>' +
-      '<p class="fine">52 haftanın en yüksek ya da en düşük seviyesine ulaşan hisse sayısı. Zirve sayısı dipten ne kadar fazlaysa piyasa o kadar güçlü, tersi ise zayıf demektir.</p>';
+    var list = [50, 200].map(function (n) {
+      var m = b["ma" + n]; if (!m) return null;
+      return { ad: n + " günlük ortalamanın üstünde", alt: m.above + " / " + m.total + " hisse", bar: gauge(m.pct), v: "%" + num(m.pct, 0), c1: pt(m.d1), c1c: cls(m.d1), c2: pt(m.d5), c2c: cls(m.d5) };
+    }).filter(Boolean);
+    var tot = (b.new_highs || 0) + (b.new_lows || 0);
+    list.push({ ad: "52 haftanın zirvesi / dibi", alt: "yeni zirve yapan / yeni dip yapan hisse", bar: gauge(tot ? b.new_highs / tot * 100 : 0), v: '<span class="pos">' + num(b.new_highs, 0) + '</span> / <span class="neg">' + num(b.new_lows, 0) + "</span>", c1: "", c2: "" });
+    return h2("Yükseliş ne kadar geniş?") + sub("Endeks yükselirken hisselerin çoğu da yükseliyor mu, yoksa az sayıda büyük hisse mi taşıyor? S&amp;P 500'ün 500 hissesi üzerinden, " + fmtDate(b.date) + ".") +
+      '<div class="sxch"><span></span><span>Ölçü</span><span>Oran</span><span>1 gün</span><span class="hm">5 gün</span></div>' + chainRows(list) +
+      '<p class="fine">Oran yüksekse yükselişe katılan hisse çoktur. Endeks yükselirken oran düşüyorsa yükseliş inceliyor demektir. Zirve sayısı dipten fazlaysa piyasa güçlüdür.</p>';
   }
 
   function pairs(p) {
-    var rows = p.map(function (x) {
+    var ok = p.filter(function (x) { return x.available; });
+    var mx = Math.max.apply(null, ok.map(function (x) { return Math.abs(x.ret20_diff || 0); }).concat([2]));
+    var list = p.map(function (x) {
       var nm = esc((x.label || "").split(":")[0]);
-      if (!x.available) return '<tr><td><b>' + nm + '</b></td><td colspan="4" class="neu">Veri alınamadı</td></tr>';
+      if (!x.available) return { ad: nm, alt: "Veri alınamadı", bar: "", v: "–", c1: "", c2: "" };
       var vc = x.verdict === "GENİŞ" ? "pos" : x.verdict === "DAR" ? "rsk" : "neu";
       var vt = x.verdict === "GENİŞ" ? "GENİŞ · herkes yükseliyor" : x.verdict === "DAR" ? "DAR · büyükler taşıyor" : esc(x.verdict || "–");
-      return '<tr><td><b>' + nm + '</b><small>' + x.a + ' (eşit ağırlıklı) / ' + x.b + ' (ağırlıklı)</small></td><td class="' + cls(x.ret20_a) + '">' + pc(x.ret20_a) + '</td><td class="' + cls(x.ret20_b) + '">' + pc(x.ret20_b) + '</td><td class="' + cls(x.ret20_diff) + '">' + pt(x.ret20_diff, 2) + '</td><td class="' + vc + '"><b>' + vt + '</b></td></tr>';
-    }).join("");
-    return '<h3 class="qh">3 · Büyük hisseler mi taşıyor, herkes mi?</h3><div class="tw"><table><thead><tr><th>Endeks</th><th>Eşit ağırlıklı ETF · 20G</th><th>Ağırlıklı ETF · 20G</th><th>Fark</th><th>Okuma</th></tr></thead><tbody>' + rows + '</tbody></table></div>' +
-      '<p class="fine">Aynı hisseler iki farklı şekilde tartılıyor. Eşit ağırlıklı ETF\'te her hisse aynı ağırlıktadır, ağırlıklı ETF\'te büyük şirketler daha çok etki eder. Eşit ağırlıklı ETF 20 günde 1 puan veya daha fazla gerideyse DAR (az sayıda büyük hisse taşıyor), 1 puan veya daha fazla öndeyse GENİŞ.</p>';
+      return { ad: nm, alt: vt, sc: vc, bar: centered(x.ret20_diff, mx), v: pt(x.ret20_diff, 1), vc: cls(x.ret20_diff), c1: pc(x.ret20_a, 1), c1c: cls(x.ret20_a), c2: pc(x.ret20_b, 1), c2c: cls(x.ret20_b) };
+    });
+    return h3q("Büyük hisseler mi taşıyor, herkes mi?") +
+      '<div class="sxch"><span></span><span>Endeks</span><span>Eşit − ağırlıklı, 20G</span><span>Eşit ağırlıklı</span><span class="hm">Ağırlıklı</span></div>' + chainRows(list) +
+      '<p class="fine">Aynı hisseler iki şekilde tartılır: eşit ağırlıklı ETF\'te her hisse aynıdır, ağırlıklı ETF\'te büyük şirketler daha çok etki eder. Eşit ağırlıklı ETF 20 günde 1 puan veya daha fazla gerideyse DAR, 1 puan veya daha fazla öndeyse GENİŞ.</p>';
   }
 
   function sectors(rows) {
