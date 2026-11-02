@@ -77,8 +77,9 @@
     var rows = [], ref = d.meta.ref_date;
     Object.keys(d.indexes).forEach(function (k) { rows.push([k, d.indexes[k]]); });
     ["SPY", "QQQ", "IWM", "RSP", "QQQE", "RWJ"].forEach(function (k) { if (d.etfs[k]) rows.push([k, d.etfs[k]]); });
-    function eff(x) { var v = x[1].d1; return v == null ? -1e9 : (x[0] === "VIX" ? -v : v); }
-    rows.sort(function (x, y) { return eff(y) - eff(x); });
+    var ORD = ["SPX", "SPY", "NASDAQ", "QQQ", "RUT", "IWM", "RSP", "QQQE", "RWJ", "VIX", "DXY", "BTC", "NIKKEI", "KOSPI"];
+    function oi(x) { var i = ORD.indexOf(x[0]); return i < 0 ? 99 : i; }
+    rows.sort(function (x, y) { return oi(x) - oi(y); });
     function cc(k, v) { return v == null ? "neu" : cls(k === "VIX" ? -v : v); }
     var last = rows.length - 1;
     var body = rows.map(function (x, i) {
@@ -95,7 +96,7 @@
         '<span class="gxt r ' + cc(k, m.d1) + '">' + pc(m.d1) + "<small>bugün</small></span></div>";
     }).join("");
     return '<div class="gxh gxr gxl"><span></span><span>Gösterge</span><span class="r">Bugün</span><span class="r">5G</span><span class="r">20G</span><span class="r">Zirveye uzaklık</span><span class="r">SMA 50</span><span class="r">SMA 200</span><span class="r">Trend</span></div>' + body +
-      '<p class="fine">Sıra bugünkü değişime göre. SMA sütunları fiyatın o ortalamaya uzaklığıdır. VIX\'te yükseliş kırmızı gösterilir.</p>';
+      '<p class="fine">Önce ABD borsaları, sonra ABD piyasasını en çok etkileyenden en aza doğru diğerleri: korku endeksi, dolar, Bitcoin, Asya. SMA sütunları fiyatın o ortalamaya uzaklığıdır. VIX\'te yükseliş kırmızı gösterilir.</p>';
   }
 
   function chainRows(list) {
