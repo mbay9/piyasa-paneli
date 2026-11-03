@@ -1,0 +1,3181 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/67347/000110465926122032/mod-ex99d1.htm
+SEMBOL: MOD
+BASVURU_TARIHI: 2026-11-03
+BASVURU: 0001104659-26-122032
+
+EX-99.1
+2
+mod-ex99d1.htm
+EX-99.1
+Exhibit 99.1
+NEWS RELEASE
+FOR IMMEDIATE RELEASE
+Modine Reports Second Quarter Fiscal 2027 Results
+​
+Strong growth in Data Centers and Commercial HVAC segments supports higher full-year revenue outlook for core business following the spin-off of Performance Technologies
+Racine, WI – November 3, 2026 – Modine (NYSE: MOD), a diversified global leader in thermal management technology and solutions, today reported financial results for the quarter ended September 30, 2026.
+Second Quarter Highlights:
+| ● | Net sales of $994.4 million increased $255.5 million, or 35 percent, from the prior year |
+| ● | Net earnings of $30.3 million decreased $14.5 million, or 32 percent, from the prior year, including $29.5 million of income tax expense related to legal entity restructuring to facilitate the spin-off of the Performance Technologies business |
+| ● | Adjusted EBITDA of $136.2 million increased $32.4 million, or 31 percent, from the prior year |
+| ● | Earnings per share of $0.56 decreased $0.27, or 33 percent, from the prior year |
+| ● | Adjusted earnings per share of $1.35 increased $0.29, or 27 percent, from the prior year |
+| ● | Completed the spin-off of Performance Technologies on October 1 |
+​
+“Data Centers and Commercial HVAC delivered strong quarters, with revenue growth of 95% and 23%, respectively,” said Modine President and Chief Executive Officer, Neil D. Brinker. “Demand for our products remains very robust, highlighted by record orders and backlog in our Data Centers segment and expanding opportunities to serve the data center cooling market within Commercial HVAC. We have bolstered our supply chain by entering into long-term agreements with multiple strategic suppliers to secure critical components to meet our existing backlog and future business needs. We are confident in our higher revenue outlook for our core business following the successful spin-off of Performance Technologies and remain well-equipped to drive long-term sustainable growth.”
+Second Quarter Financial Results
+Net sales increased 35 percent to $994.4 million, compared with $738.9 million in the prior year. Sales growth was driven by higher sales in the Data Centers and Commercial HVAC segments.
+Gross profit increased 25 percent to $205.4 million and gross margin decreased by 160 basis points to 20.7 percent. Gross profit increased in the Data Centers and Commercial HVAC segments, while Performance Technologies experienced a slight decline in gross profit. The decrease in gross margin resulted from lower gross margins in each of the three business segments, as further discussed in the segment review below.
+Selling, general and administrative (“SG&A”) expenses increased 24 percent to $104.6 million, but decreased as a percentage of sales. The increase in SG&A expenses was primarily due to higher expenses in the Data Centers segment to support growth and costs related to the spin-off of the Performance Technologies business.
+Operating income increased 33 percent to $97.8 million. The increase was driven by higher gross profit on higher sales volume, as compared to the prior year, partially offset by higher SG&A expenses to support growth and to prepare for the spin-off of the Performance Technologies business. The Company recorded $3.0 million of restructuring expenses during the quarter, primarily severance expenses related to headcount reductions and costs related to equipment transfers. In addition, the Company incurred $14.1 million in costs related to the spin-off of the Performance Technologies business. Adjusted EBITDA, which excludes restructuring expenses, disposition costs, interest expense, the provision for income taxes, and depreciation and amortization expense, was $136.2 million, an increase of $32.4 million, or 31 percent compared to the prior year.
+​
+1
+Earnings per share was $0.56, compared with $0.83 in the prior year, a decrease of $0.27 or 33 percent. This decrease was due to a higher provision for income taxes, driven by the income tax impacts of legal entity restructuring steps completed to facilitate the spin-off of the Performance Technologies business. Adjusted earnings per share was $1.35, compared with adjusted earnings per share of $1.06 in the prior year, an increase of $0.29 or 27 percent.
+Second Quarter Segment Review
+| ● | Data Centers segment sales were $439.7 million, compared with $225.0 million one year ago, an increase of 95 percent. This increase was primarily driven by higher sales to hyperscale customers in North America. The segment reported gross margin of 19.7 percent, which was 470 basis points lower than the prior year. This decrease was primarily due to higher material, component and tariff costs. SG&A expenses decreased as a percentage of sales due to the significant increase in revenue. The segment reported operating income of $61.2 million, a 70 percent increase from the prior year, and adjusted EBITDA of $67.6 million, a 66 percent increase from the prior year. |
+| ● | Commercial HVAC segment sales were $285.5 million, compared with $232.9 million one year ago, an increase of 23 percent. This increase was primarily driven by higher sales of coils, coatings, and heating and ventilation products. The segment reported gross margin of 23.1 percent, which was 140 basis points lower than the prior year, primarily due to unfavorable sales mix and higher material and tariff costs. The segment reported operating income of $34.3 million, a 30 percent increase from the prior year, and adjusted EBITDA of $43.0 million, a 22 percent increase from the prior year. |
+| ● | Performance Technologies segment sales were $287.7 million, compared with $286.3 million one year ago, an increase of less than 1 percent. Higher sales to power generation and commercial vehicle customers were largely offset by lower sales to automotive and off highway customers. The segment reported gross margin of 18.6 percent, which was 30 basis points lower than the prior year, primarily due to higher material and tariff costs. The segment reported operating income of $32.1 million, an 8 percent increase from the prior year, and adjusted EBITDA of $40.9 million, a 3 percent decrease from the prior year. |
+​
+Balance Sheet & Liquidity
+Net cash used for operating activities for the six months ended September 30, 2026, was $57.1 million, a decrease of $86.2 million compared to the prior year. Free cash flow for the six months ended September 30, 2026, was a use of $145.6 million, a decrease of $115.3 million from the prior year. This decrease was primarily due to higher capital expenditures to increase production capacity in the Data Centers segment, and higher net working capital including increased inventory levels to support growing customer demand for data center cooling products. Cash payments for restructuring activities, disposition costs and certain other items totaled $27.7 million during the six months ended September 30, 2026.
+Total debt was $724.3 million as of September 30, 2026. Cash and cash equivalents totaled $150.6 million as of September 30, 2026. Net debt was $573.7 million as of September 30, 2026, an increase of $210.9 million from the end of fiscal 2026. This increase primarily resulted from increases in working capital and purchases of stock in conjunction with our equity compensation plan. Under this plan, participants have the option to sell back shares of their vested equity awards to satisfy individual tax withholding obligations. These repurchased shares are held as treasury stock, which reduces the number of shares outstanding used to calculate earnings per share.
+Outlook
+“We are updating our Fiscal 2027 financial outlook to reflect the higher expectations for our core businesses and the successful spin-off of the Performance Technologies business,” said Modine President and Chief Executive Officer, Neil D. Brinker. “Starting in the third fiscal quarter, the historical results for Performance Technologies will be reported as discontinued operations, and we have revised our continuing outlook accordingly. We expect revenues to increase 50 to 55 percent from the prior year, excluding Performance Technologies from both periods. Additionally, we expect full-year adjusted EBITDA for our continuing business to be $470 to $500 million, representing a growth rate in excess of 50 percent from the prior year, excluding Performance Technologies from both periods. In addition, I am looking forward to sharing our longer term revenue and earnings targets during our upcoming Analyst and Investor Day on November 18.”
+|
+|
+Fiscal 2027
+| Current Outlook
+|
+Net Sales
+| $3.1 to $3.2 billion
+|
+Adjusted EBITDA
+| $470 to $500 million
+|
+2
+​
+Conference Call and Webcast
+Modine will conduct a conference call and live webcast, with a slide presentation, on Wednesday, November 4, 2026, at 10:00 a.m. Central Time (11:00 a.m. Eastern Time) to discuss its second quarter fiscal year 2027 financial results. The webcast and accompanying slides will be available on the Investor Relations section of the Modine website at www.modine.com. Participants are encouraged to log on to the webcast and conference call about ten minutes prior to the start of the event. A replay of the audio and slides will be available on the Investor Relations section of the Modine website at www.modine.com on or after November 4, 2026. A call-in replay will be available through midnight on November 11, 2026, at 877-660-6853, (international replay 201-612-7415); Conference ID# 13762536. The Company will post a transcript of the call on its website on or after November 9, 2026.
+About Modine
+For more than 100 years, Modine has solved the toughest thermal management challenges for mission-critical applications. Our purpose of Engineering a Cleaner, Healthier World™ means we are always evolving our portfolio of technologies to provide the latest heating, cooling, and ventilation solutions. Through the hard work of more than 9,000 employees worldwide, our businesses advance our purpose with systems that improve air quality, reduce energy and water consumption, and use environmentally friendly refrigerants. Modine is a global company headquartered in Racine, Wisconsin (U.S.), with operations in North America, Europe, and Asia. For more information about Modine, visit www.modine.com.
+​
+Forward-Looking Statements
+This press release contains statements, including information about future financial performance and market conditions, accompanied by phrases such as “believes,” “estimates,” “expects,” “plans,” “anticipates,” “intends,” “projects,” and other similar “forward-looking” statements, as defined in the Private Securities Litigation Reform Act of 1995. Modine's actual results, performance or achievements may differ materially from those expressed or implied in these statements because of certain risks and uncertainties, including, but not limited to those described under “Risk Factors” in Item 1A of Part I of the Company's most recent Annual Report on Form 10-K. Other risks and uncertainties include, but are not limited to, the following: the impact of potential adverse developments or disruptions in the global economy and financial markets, including impacts related to geopolitical tensions and military conflicts, including the conflict between the U.S. and Iran, broadening military conflicts in the Middle East and ongoing conflict between Russia and Ukraine, inflation, energy costs, government incentive or funding programs, supply chain challenges or supplier constraints, logistical disruptions, tariffs, sanctions and other trade issues or cross-border trade restrictions; the impact of other economic, social and political conditions, changes and challenges in the markets where we operate and compete, including foreign currency exchange rate fluctuations, changes in interest rates, tightening of the credit markets, recession or recovery therefrom, restrictions associated with importing and exporting and foreign ownership, public health crises, and the general uncertainties, including the impact on demand for our products and the markets we serve from regulatory and/or policy changes that have been or may be implemented in the U.S. or abroad, including those related to tax and trade, climate change, and public health threats; the overall health and pricing focus of our customers; changes or threats to the market growth prospects for our customers; the potential impacts of opposition to data center development from local communities, environmental or other advocacy groups and/or governmental authorities; the impact of delays by major customers for product or program launches or delays or constraints in construction projects that incorporate our products and services; our ability to realize the sales growth and return on investments anticipated in our Data Centers segment and our ability to execute on other organic growth opportunities and acquisitions; our ability to efficiently manage working capital and the potential adverse effects on cash flows from increases in working capital to support the rapid growth of our Data Centers segment; our ability to realize anticipated benefits from and the various risks associated with our strategic initiatives, including the recently-completed spin-off of the Performance Technologies business on October 1, 2026, and our continued application of 80/20 principles across our businesses; our ability to successfully exit portions of our business that do not align with our strategic plans; our ability to be at the forefront of technological advances and the impacts of any changes in the adoption rate of technologies that we expect to drive sales growth; our ability to effectively and efficiently manage our operations in response to sales volume changes, including maintaining adequate production capacity to meet demand in our growing businesses, particularly in our Data Centers segment, while also completing restructuring activities and realizing benefits thereof; our ability to fund our global liquidity requirements efficiently and comply with the financial covenants in our credit agreements; operational inefficiencies as a result of product or program launches, unexpected volume increases or decreases, product transfers and product warranty and liability claims; the impact on Modine of any significant increases in commodity prices, particularly aluminum, copper, steel and stainless steel (nickel) and other purchased components and related costs, and our ability to adjust product pricing in response to any such increases; our ability to recruit and maintain talent in managerial, leadership, operational and administrative functions and to mitigate increased labor costs; our ability to protect our proprietary information and intellectual property from theft or attack; the impact of any substantial disruption or material breach of our information technology systems; costs and other effects of environmental investigation, remediation or litigation and the increasing emphasis on environmental, social and corporate governance matters; our ability to realize the benefits of deferred tax assets and the impact of changes in tax regulations; and other risks and uncertainties identified in our public filings with the U.S. Securities and Exchange Commission. Forward-looking statements are as of the date of this press release, and we do not assume any obligation to update any forward-looking statements.
+3
+Non-GAAP Financial Disclosures
+Adjusted EBITDA, adjusted EBITDA margin, adjusted earnings per share, net debt, free cash flow, organic sales and organic sales growth (which are defined below) as used in this press release are not measures that are defined in generally accepted accounting principles (GAAP). These non-GAAP measures are used by management as performance measures to evaluate the Company’s overall financial performance and liquidity. These measures are not, and should not be viewed as, substitutes for the applicable GAAP measures, and may be different from similarly titled measures used by other companies.
+Definition – Adjusted EBITDA and adjusted EBITDA margin
+The Company defines adjusted EBITDA as net earnings excluding interest expense, the provision or benefit for income taxes, depreciation and amortization expenses, other income and expense, restructuring expenses, impairment charges, pension termination charges, acquisition and disposition costs, and certain other gains or charges. Adjusted EBITDA margin represents adjusted EBITDA as a percentage of net sales. The Company believes that adjusted EBITDA and adjusted EBITDA margin provide relevant measures of profitability and earnings power. The Company views these financial metrics as being useful in assessing operating performance from period to period by excluding certain items that it believes are not representative of its core business. Adjusted EBITDA, when calculated for the business segments, is defined as operating income excluding depreciation and amortization expenses, restructuring expenses, impairment charges, and certain other gains or charges.
+Definition – Adjusted earnings per share
+Diluted earnings per share plus restructuring expenses, impairment charges, pension termination charges, acquisition and disposition costs, and excluding changes in income tax valuation allowances and certain other gains or charges. Adjusted earnings per share is an overall performance measure, not including costs associated with restructuring, acquisitions, and dispositions, and certain other gains or charges.
+Definition – Net debt
+The sum of debt due within one year and long-term debt, less cash and cash equivalents. Net debt is an indicator of the Company's debt position after considering on-hand cash balances.
+Definition – Free cash flow
+Free cash flow represents net cash provided by operating activities less expenditures for property, plant and equipment. Free cash flow presents cash generated from operations during the period that is available for strategic capital decisions.
+Definition – Organic sales and organic sales growth
+Net sales and net sales growth can be impacted by acquisitions, dispositions, and foreign currency exchange rate fluctuations. The Company defines organic sales as external net sales excluding the impact of acquisitions and the effects of foreign currency exchange rate fluctuations. Organic sales growth represents the percentage change of organic sales compared to prior year external net sales, excluding the impact of dispositions. The effect of exchange rate changes is calculated by using the same foreign currency exchange rates as those used to translate financial data for the prior period. The Company adjusts for acquisitions and dispositions by excluding net sales in the current and prior periods, respectively, for which there are no comparable sales in the reported periods. These sales growth measures provide a more consistent indication of our performance, without the effects of foreign currency exchange rate fluctuations or acquisitions and dispositions.
+Forward-looking non-GAAP financial measure
+The Company’s fiscal 2027 guidance excludes the results of the Performance Technologies business, which will be reported as a discontinued operation starting for the third quarter of fiscal 2027. Adjusted EBITDA, as defined above, is a non-GAAP financial measure. The fiscal 2027 guidance includes the following estimates for the Company’s remaining businesses (excluding Performance Technologies): interest expense of approximately $26 to $30 million; a provision for income taxes of approximately $95 to $105 million; and depreciation and amortization expense of approximately $56 to $61 million. The non-GAAP financial measure also excludes certain cash and non-cash expenses or gains. These expenses and gains may be significant and include items such as restructuring expenses (including severance and equipment transfer costs), impairment charges, acquisition and disposition costs, and certain other items. These expenses for the first six months of fiscal 2027 are presented on page 9. In connection with the Reverse Morris Trust transaction with Gentherm, the Company expects to incur approximately $20 to $25 million of additional costs during the second half of fiscal 2027, primarily for transaction advisory, legal, accounting, tax and other professional services. Estimates of other expenses and gains for the remainder of fiscal 2027 are not available due to the low visibility and unpredictability of these items.
+​
+4
+​
+Modine Manufacturing Company
+Consolidated statements of operations (unaudited)
+(In millions, except per share amounts)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended September 30,
+| ​ ​ ​
+| Six months ended September 30,
+|
+​
+| ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Net sales
+| ​
+| $
+| 994.4
+| ​
+| $
+| 738.9
+| ​
+| $
+| 1,868.5
+| ​
+| $
+| 1,421.7
+|
+Cost of sales
+| ​
+|
+| 789.0
+| ​
+|
+| 574.0
+| ​
+|
+| 1,481.1
+| ​
+|
+| 1,091.4
+|
+Gross profit
+| ​
+|
+| 205.4
+| ​
+|
+| 164.9
+| ​
+|
+| 387.4
+| ​
+|
+| 330.3
+|
+Selling, general & administrative expenses
+| ​
+|
+| 104.6
+| ​
+|
+| 84.2
+| ​
+|
+| 207.9
+| ​
+|
+| 169.1
+|
+Restructuring expenses
+| ​
+|
+| 3.0
+| ​
+|
+| 3.1
+| ​
+|
+| 6.9
+| ​
+|
+| 7.9
+|
+Impairment charge
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+|
+Operating income
+| ​
+|
+| 97.8
+| ​
+|
+| 73.5
+| ​
+|
+| 172.6
+| ​
+|
+| 149.2
+|
+Interest expense
+| ​
+|
+| (8.5)
+| ​
+|
+| (8.3)
+| ​
+|
+| (14.9)
+| ​
+|
+| (14.1)
+|
+Other expense – net
+| ​
+|
+| (1.3)
+| ​
+|
+| (1.5)
+| ​
+|
+| (1.1)
+| ​
+|
+| (5.7)
+|
+Earnings before income taxes
+| ​
+|
+| 88.0
+| ​
+|
+| 63.7
+| ​
+|
+| 156.6
+| ​
+|
+| 129.4
+|
+Provision for income taxes
+| ​
+|
+| (57.7)
+| ​
+|
+| (18.9)
+| ​
+|
+| (52.0)
+| ​
+|
+| (32.9)
+|
+Net earnings
+| ​
+|
+| 30.3
+| ​
+|
+| 44.8
+| ​
+|
+| 104.6
+| ​
+|
+| 96.5
+|
+Net earnings attributable to noncontrolling interest
+| ​
+|
+| (0.3)
+| ​
+|
+| (0.4)
+| ​
+|
+| (0.7)
+| ​
+|
+| (0.9)
+|
+Net earnings attributable to Modine
+| ​
+| $
+| 30.0
+| ​
+| $
+| 44.4
+| ​
+| $
+| 103.9
+| ​
+| $
+| 95.6
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net earnings per share attributable to Modine shareholders – diluted
+| ​
+| $
+| 0.56
+| ​
+| $
+| 0.83
+| ​
+| $
+| 1.93
+| ​
+| $
+| 1.78
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Weighted-average shares outstanding – diluted
+| ​
+|
+| 53.9
+| ​
+|
+| 53.8
+| ​
+|
+| 53.9
+| ​
+|
+| 53.7
+|
+​
+​
+​
+Condensed consolidated balance sheets (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| September 30, 2026
+| ​ ​ ​
+| March 31, 2026
+|
+Assets
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash and cash equivalents
+| ​
+| $
+| 150.6
+|
+| $
+| 73.5
+|
+Trade receivables
+| ​
+|
+| 795.1
+|
+| ​
+| 731.0
+|
+Inventories
+| ​
+|
+| 697.5
+|
+| ​
+| 506.1
+|
+Other current assets
+| ​
+|
+| 173.7
+|
+| ​
+| 105.5
+|
+Total current assets
+| ​
+|
+| 1,816.9
+|
+| ​
+| 1,416.1
+|
+Property, plant and equipment – net
+| ​
+|
+| 559.6
+|
+| ​
+| 520.9
+|
+Intangible assets – net
+| ​
+|
+| 184.7
+|
+| ​
+| 197.0
+|
+Goodwill
+| ​
+|
+| 289.7
+|
+| ​
+| 292.1
+|
+Deferred income taxes
+| ​
+|
+| 93.0
+|
+| ​
+| 85.3
+|
+Other noncurrent assets
+| ​
+|
+| 161.8
+|
+| ​
+| 163.2
+|
+Total assets
+| ​
+| $
+| 3,105.7
+|
+| $
+| 2,674.6
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Liabilities and shareholders’ equity
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Debt due within one year
+| ​
+| $
+| 46.9
+| ​
+| $
+| 51.4
+|
+Accounts payable
+| ​
+|
+| 563.9
+| ​
+|
+| 464.8
+|
+Other current liabilities
+| ​
+|
+| 224.8
+| ​
+|
+| 212.7
+|
+Total current liabilities
+| ​
+|
+| 835.6
+| ​
+|
+| 728.9
+|
+Long-term debt
+| ​
+|
+| 677.4
+| ​
+|
+| 384.9
+|
+Other noncurrent liabilities
+| ​
+|
+| 354.1
+| ​
+|
+| 358.0
+|
+Total liabilities
+| ​
+|
+| 1,867.1
+| ​
+|
+| 1,471.8
+|
+Total equity
+| ​
+|
+| 1,238.6
+| ​
+|
+| 1,202.8
+|
+Total liabilities & equity
+| ​
+| $
+| 3,105.7
+| ​
+| $
+| 2,674.6
+|
+​
+​
+​
+5
+​
+​
+​
+​
+Modine Manufacturing Company
+Condensed consolidated statements of cash flows (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Six months ended September 30,
+|
+​
+| ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Cash flows from operating activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net earnings
+| ​
+| $
+| 104.6
+| ​
+| $
+| 96.5
+|
+Adjustments to reconcile net earnings to net cash (used for) provided by operating activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Depreciation and amortization
+| ​
+|
+| 42.0
+| ​
+|
+| 38.7
+|
+Impairment charge
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+|
+Stock-based compensation expense
+| ​
+|
+| 12.7
+| ​
+|
+| 7.4
+|
+Deferred income taxes
+| ​
+|
+| (8.6)
+| ​
+|
+| 10.4
+|
+Other – net
+| ​
+|
+| 2.0
+| ​
+|
+| 4.8
+|
+Changes in operating assets and liabilities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Trade accounts receivable
+| ​
+|
+| (68.4)
+| ​
+|
+| (48.2)
+|
+Inventories
+| ​
+|
+| (194.5)
+| ​
+|
+| (147.1)
+|
+Accounts payable
+| ​
+|
+| 111.9
+| ​
+|
+| 96.7
+|
+Other assets and liabilities
+| ​
+| ​
+| (58.8)
+| ​
+| ​
+| (34.2)
+|
+Net cash (used for) provided by operating activities
+| ​
+|
+| (57.1)
+| ​
+|
+| 29.1
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash flows from investing activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Expenditures for property, plant and equipment
+| ​
+|
+| (88.5)
+| ​
+|
+| (59.4)
+|
+Payments for business acquisitions, net of cash acquired
+| ​
+| ​
+| —
+| ​
+| ​
+| (182.1)
+|
+Other – net
+| ​
+|
+| 2.5
+| ​
+|
+| 3.2
+|
+Net cash used for investing activities
+| ​
+|
+| (86.0)
+| ​
+|
+| (238.3)
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash flows from financing activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net increase in debt
+| ​
+|
+| 287.6
+| ​
+|
+| 224.6
+|
+Purchases of treasury stock
+| ​
+| ​
+| (65.7)
+| ​
+| ​
+| (5.7)
+|
+Other – net
+| ​
+|
+| (1.1)
+| ​
+|
+| 0.6
+|
+Net cash provided by financing activities
+| ​
+|
+| 220.8
+| ​
+|
+| 219.5
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Effect of exchange rate changes on cash
+| ​
+|
+| (0.5)
+| ​
+|
+| 1.8
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net increase in cash, cash equivalents and restricted cash
+| ​
+|
+| 77.2
+| ​
+|
+| 12.1
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash, cash equivalents and restricted cash – beginning of period
+| ​
+|
+| 73.7
+| ​
+|
+| 71.9
+|
+Cash, cash equivalents and restricted cash – end of period
+| ​
+| $
+| 150.9
+| ​
+| $
+| 84.0
+|
+​
+​
+​
+​
+6
+Modine Manufacturing Company
+Segment operating results (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended September 30,
+| ​ ​ ​
+| Six months ended September 30,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+| 2026
+| ​ ​ ​
+| 2025
+|
+Net sales:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Data Centers
+| ​
+| $
+| 439.7
+| ​
+| $
+| 225.0
+| ​
+| $
+| 788.3
+| ​
+| $
+| 408.7
+|
+Commercial HVAC
+| ​
+| ​
+| 285.5
+| ​
+| ​
+| 232.9
+| ​
+| ​
+| 547.1
+| ​
+| ​
+| 447.1
+|
+Performance Technologies
+| ​
+|
+| 287.7
+| ​
+|
+| 286.3
+| ​
+|
+| 565.5
+| ​
+|
+| 571.8
+|
+Segment total
+| ​
+|
+| 1,012.9
+| ​
+|
+| 744.2
+| ​
+|
+| 1,900.9
+| ​
+|
+| 1,427.6
+|
+Corporate and eliminations
+| ​
+|
+| (18.5)
+| ​
+|
+| (5.3)
+| ​
+|
+| (32.4)
+| ​
+|
+| (5.9)
+|
+Net sales
+| ​
+| $
+| 994.4
+| ​
+| $
+| 738.9
+| ​
+| $
+| 1,868.5
+| ​
+| $
+| 1,421.7
+|
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended September 30,
+|
+| ​ ​ ​
+| Six months ended September 30,
+|
+|
+​
+| ​
+| 2026
+| ​
+| ​
+| 2025
+|
+| ​
+| 2026
+| ​
+| ​
+| 2025
+|
+|
+​
+| ​ ​ ​
+| $’s
+| ​ ​ ​
+| % of sales
+| ​ ​ ​
+| ​
+| $’s
+| ​ ​ ​
+| % of sales
+|
+| ​
+| $’s
+| ​ ​ ​
+| % of sales
+| ​ ​ ​
+| ​
+| $’s
+| ​ ​ ​
+| % of sales
+|
+|
+Gross profit:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Data Centers
+| ​
+| $
+| 86.6
+| ​
+| 19.7
+| %
+| ​
+| $
+| 54.9
+|
+| 24.4
+| %
+| ​
+| $
+| 156.9
+| ​
+| 19.9
+| %
+| ​
+| $
+| 109.6
+|
+| 26.8
+| %
+|
+Commercial HVAC
+| ​
+| ​
+| 66.0
+| ​
+| 23.1
+| %
+| ​
+| ​
+| 57.1
+| ​
+| 24.5
+| %
+| ​
+| ​
+| 129.9
+| ​
+| 23.7
+| %
+| ​
+| ​
+| 115.3
+| ​
+| 25.8
+| %
+|
+Performance Technologies
+| ​
+|
+| 53.4
+| ​
+| 18.6
+| %
+| ​
+|
+| 54.1
+|
+| 18.9
+| %
+| ​
+|
+| 102.2
+| ​
+| 18.1
+| %
+| ​
+|
+| 106.0
+|
+| 18.5
+| %
+|
+Segment total
+| ​
+|
+| 206.0
+| ​
+| 20.3
+| %
+| ​
+|
+| 166.1
+|
+| 22.3
+| %
+| ​
+|
+| 389.0
+| ​
+| 20.5
+| %
+| ​
+|
+| 330.9
+|
+| 23.2
+| %
+|
+Corporate and eliminations
+| ​
+|
+| (0.6)
+| ​
+| —
+| ​
+| ​
+|
+| (1.2)
+|
+| —
+| ​
+| ​
+|
+| (1.6)
+| ​
+| —
+| ​
+| ​
+|
+| (0.6)
+|
+| —
+| ​
+|
+Gross profit
+| ​
+| $
+| 205.4
+| ​
+| 20.7
+| %
+| ​
+| $
+| 164.9
+|
+| 22.3
+| %
+| ​
+| $
+| 387.4
+| ​
+| 20.7
+| %
+| ​
+| $
+| 330.3
+|
+| 23.2
+| %
+|
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended September 30,
+| ​ ​ ​
+| Six months ended September 30,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+| 2026
+| ​ ​ ​
+| 2025
+|
+Operating income:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Data Centers
+| ​
+| $
+| 61.2
+| ​
+| $
+| 35.9
+| ​
+| $
+| 107.5
+| ​
+| $
+| 70.6
+|
+Commercial HVAC
+| ​
+| ​
+| 34.3
+| ​
+| ​
+| 26.3
+| ​
+| ​
+| 65.7
+| ​
+| ​
+| 58.5
+|
+Performance Technologies
+| ​
+|
+| 32.1
+| ​
+|
+| 29.7
+| ​
+|
+| 59.7
+| ​
+|
+| 56.2
+|
+Segment total
+| ​
+|
+| 127.6
+| ​
+|
+| 91.9
+| ​
+|
+| 232.9
+| ​
+|
+| 185.3
+|
+Corporate and eliminations
+| ​
+|
+| (29.8)
+| ​
+|
+| (18.4)
+| ​
+|
+| (60.3)
+| ​
+|
+| (36.1)
+|
+Operating income
+| ​
+| $
+| 97.8
+| ​
+| $
+| 73.5
+| ​
+| $
+| 172.6
+| ​
+| $
+| 149.2
+|
+​
+​
+​
+7
+Modine Manufacturing Company
+Adjusted financial results (unaudited)
+(In millions, except per share amounts)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended September 30,
+| ​ ​ ​
+| Six months ended September 30,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+| 2026
+| ​ ​ ​
+| 2025
+|
+Net earnings
+| ​
+| $
+| 30.3
+| ​
+| $
+| 44.8
+| ​
+| $
+| 104.6
+| ​
+| $
+| 96.5
+|
+Interest expense
+| ​
+|
+| 8.5
+| ​
+|
+| 8.3
+| ​
+|
+| 14.9
+| ​
+|
+| 14.1
+|
+Provision for income taxes
+| ​
+|
+| 57.7
+| ​
+|
+| 18.9
+| ​
+|
+| 52.0
+| ​
+|
+| 32.9
+|
+Depreciation and amortization expense
+| ​
+|
+| 21.3
+| ​
+|
+| 19.7
+| ​
+|
+| 42.0
+| ​
+|
+| 38.7
+|
+Other expense – net
+| ​
+|
+| 1.3
+| ​
+|
+| 1.5
+| ​
+|
+| 1.1
+| ​
+|
+| 5.7
+|
+Restructuring expenses (a)
+| ​
+|
+| 3.0
+| ​
+|
+| 3.1
+| ​
+|
+| 6.9
+| ​
+|
+| 7.9
+|
+Impairment charge (b)
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+|
+Disposition costs (c)
+| ​
+| ​
+| 14.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 21.2
+| ​
+| ​
+| —
+|
+Acquisition and integration costs (d)
+| ​
+|
+| —
+| ​
+|
+| 3.4
+| ​
+|
+| —
+| ​
+|
+| 5.3
+|
+Adjusted EBITDA
+| ​
+| $
+| 136.2
+| ​
+| $
+| 103.8
+| ​
+| $
+| 242.7
+| ​
+| $
+| 205.2
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net earnings per share attributable to Modine shareholders – diluted
+| ​
+| $
+| 0.56
+| ​
+| $
+| 0.83
+| ​
+| $
+| 1.93
+| ​
+| $
+| 1.78
+|
+Restructuring expenses (a)
+| ​
+|
+| 0.04
+| ​
+|
+| 0.04
+| ​
+|
+| 0.10
+| ​
+|
+| 0.12
+|
+Impairment charge (b)
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.08
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.08
+|
+Disposition costs (c)
+| ​
+| ​
+| 0.20
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.29
+| ​
+| ​
+| —
+|
+Acquisition and integration costs (d)
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.05
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.08
+|
+Tax impacts of legal entity restructuring (e)
+| ​
+| ​
+| 0.55
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.55
+| ​
+| ​
+| —
+|
+Tax law changes (f)
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.06
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.06
+|
+Adjusted earnings per share
+| ​
+| $
+| 1.35
+| ​
+| $
+| 1.06
+| ​
+| $
+| 2.87
+| ​
+| $
+| 2.12
+|
+____
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+(a) | Restructuring expenses primarily consist of employee severance expenses and equipment transfer costs. The tax benefit related to restructuring expenses during both the second quarter of fiscal 2027 and fiscal 2026 was $0.8 million. The tax benefit related to restructuring expenses during both the first six months of fiscal 2027 and fiscal 2026 was $1.5 million. |
+​
+(b) | During the second quarter of fiscal 2026, the Company recorded a $4.1 million non-cash asset impairment charge related to its technical service center and administrative support facility in Germany. The Company expects the sale transaction to close by the end of calendar 2026. There was no tax impact associated with this impairment charge. |
+​
+(c) | Disposition costs primarily relate to the Reverse Morris Trust transaction with Gentherm, which was completed on October 1, 2026, and include fees for legal, accounting, tax, and other professional services and other costs directly related to the transaction. The tax benefit related to the disposition costs during the second quarter and first six months of fiscal 2027 was $3.5 million and $5.2 million, respectively. |
+​
+​
+(d) | Acquisition and integration costs primarily related to the Company’s fiscal 2026 acquisitions, including L.B. White, AbsolutAire, and Climate by Design International. The costs primarily included fees for legal, accounting, and other professional services and costs directly associated with integration activities. In addition, the adjustment for the first six months of fiscal 2026 included $1.3 million for the impact of inventory purchase accounting adjustments. The tax benefit related to the acquisition-related costs and adjustments during the second quarter and first six months of fiscal 2026 was $0.4 million and $0.8 million, respectively. |
+​
+(e) | During the second quarter of fiscal 2027 and in preparation of the Reverse Morris Trust transaction with Gentherm, the Company completed several legal entity restructuring steps to separate the Performance Technologies business from its other businesses. The income tax impacts of these legal entity restructuring steps increased the Company’s income tax expense for the second quarter of fiscal 2027 by $29.5 million. |
+​
+(f) | The provisions of the One Big Beautiful Bill Act, which was enacted in July 2025, negatively impacted the Company’s income tax expense for the second quarter of fiscal 2026 by $3.1 million. The higher income tax expense was primarily due to impacts related to state deferred taxes and the utilization of foreign tax credits. |
+​
+​
+​
+​
+8
+Modine Manufacturing Company
+Segment adjusted financial results (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended September 30, 2026
+| ​ ​ ​
+| Three months ended September 30, 2025
+|
+|
+​
+| Data
+| ​ ​ ​
+| Commercial
+| ​
+| Performance
+| ​ ​ ​
+| Corporate and
+| ​ ​ ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| Data
+| ​ ​ ​
+| Commercial
+| ​
+| Performance
+| ​ ​ ​
+| Corporate and
+| ​ ​ ​
+| ​ ​ ​
+| ​
+|
+|
+​
+| Centers
+| ​
+| HVAC
+| ​
+| Technologies
+| ​
+| eliminations
+| ​
+| Total
+| ​
+| Centers
+| ​
+| HVAC
+| ​
+| Technologies
+| ​
+| eliminations
+| ​
+| Total
+|
+|
+Operating income
+| $
+| 61.2
+| ​
+| $
+| 34.3
+| ​
+| $
+| 32.1
+| ​
+| $
+| (29.8)
+| ​
+| $
+| 97.8
+| ​
+| $
+| 35.9
+| ​
+| $
+| 26.3
+| ​
+| $
+| 29.7
+| ​
+| $
+| (18.4)
+| ​
+| $
+| 73.5
+| ​
+|
+Depreciation and amortization expense
+|
+| 5.7
+| ​
+| ​
+| 8.0
+| ​
+| ​
+| 7.2
+| ​
+| ​
+| 0.4
+| ​
+|
+| 21.3
+| ​
+|
+| 4.4
+| ​
+| ​
+| 7.0
+| ​
+|
+| 7.8
+| ​
+|
+| 0.5
+| ​
+|
+| 19.7
+| ​
+|
+Restructuring expenses (a)
+|
+| 0.7
+| ​
+| ​
+| 0.7
+| ​
+| ​
+| 1.6
+| ​
+| ​
+| —
+| ​
+|
+| 3.0
+| ​
+|
+| 0.5
+| ​
+| ​
+| 1.9
+| ​
+|
+| 0.6
+| ​
+|
+| 0.1
+| ​
+|
+| 3.1
+| ​
+|
+Impairment charge (a)
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+| ​
+|
+Disposition costs (a)
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 14.1
+| ​
+|
+| 14.1
+| ​
+|
+| —
+| ​
+| ​
+| —
+| ​
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+Acquisition and integration costs (a)
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| 3.4
+| ​
+|
+| 3.4
+| ​
+|
+Adjusted EBITDA
+| $
+| 67.6
+| ​
+| $
+| 43.0
+| ​
+| $
+| 40.9
+| ​
+| $
+| (15.3)
+| ​
+| $
+| 136.2
+| ​
+| $
+| 40.8
+| ​
+| $
+| 35.2
+| ​
+| $
+| 42.2
+| ​
+| $
+| (14.4)
+| ​
+| $
+| 103.8
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net sales
+| $
+| 439.7
+| ​
+| $
+| 285.5
+| ​
+| $
+| 287.7
+| ​
+| $
+| (18.5)
+| ​
+| $
+| 994.4
+| ​
+| $
+| 225.0
+| ​
+| $
+| 232.9
+| ​
+| $
+| 286.3
+| ​
+| $
+| (5.3)
+| ​
+| $
+| 738.9
+| ​
+|
+Adjusted EBITDA margin
+|
+| 15.4
+| %
+| ​
+| 15.1
+| %
+|
+| 14.2
+| %
+|
+| ​
+| ​
+|
+| 13.7
+| %
+|
+| 18.1
+| %
+| ​
+| 15.1
+| %
+|
+| 14.7
+| %
+|
+| ​
+| ​
+|
+| 14.0
+| %
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Six months ended September 30, 2026
+| ​ ​ ​
+| Six months ended September 30, 2025
+|
+|
+​
+| Data
+| ​ ​ ​
+| Commercial
+| ​
+| Performance
+| ​ ​ ​
+| Corporate and
+| ​ ​ ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| Data
+| ​ ​ ​
+| Commercial
+| ​
+| Performance
+| ​ ​ ​
+| Corporate and
+| ​ ​ ​
+| ​ ​ ​
+| ​
+|
+|
+​
+| Centers
+| ​
+| HVAC
+| ​
+| Technologies
+| ​
+| eliminations
+| ​
+| Total
+| ​
+| Centers
+| ​
+| HVAC
+| ​
+| Technologies
+| ​
+| eliminations
+| ​
+| Total
+|
+|
+Operating income
+| $
+| 107.5
+| ​
+| $
+| 65.7
+| ​
+| $
+| 59.7
+| ​
+| $
+| (60.3)
+| ​
+| $
+| 172.6
+| ​
+| $
+| 70.6
+| ​
+| $
+| 58.5
+| ​
+| $
+| 56.2
+| ​
+| $
+| (36.1)
+| ​
+| $
+| 149.2
+| ​
+|
+Depreciation and amortization expense
+|
+| 11.1
+| ​
+| ​
+| 16.0
+| ​
+| ​
+| 14.1
+| ​
+| ​
+| 0.8
+| ​
+|
+| 42.0
+| ​
+|
+| 10.1
+| ​
+| ​
+| 12.5
+| ​
+|
+| 15.3
+| ​
+|
+| 0.8
+| ​
+|
+| 38.7
+| ​
+|
+Restructuring expenses (a)
+|
+| 0.7
+| ​
+| ​
+| 2.9
+| ​
+| ​
+| 3.3
+| ​
+| ​
+| —
+| ​
+|
+| 6.9
+| ​
+|
+| 0.7
+| ​
+| ​
+| 3.0
+| ​
+|
+| 4.1
+| ​
+|
+| 0.1
+| ​
+|
+| 7.9
+| ​
+|
+Impairment charge (a)
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.1
+| ​
+|
+Disposition costs (a)
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 21.2
+| ​
+|
+| 21.2
+| ​
+|
+| —
+| ​
+| ​
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+Acquisition and integration costs (a)
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| —
+| ​
+| ​
+| —
+| ​
+|
+| —
+| ​
+|
+| 5.3
+| ​
+|
+| 5.3
+| ​
+|
+Adjusted EBITDA
+| $
+| 119.3
+| ​
+| $
+| 84.6
+| ​
+| $
+| 77.1
+| ​
+| $
+| (38.3)
+| ​
+| $
+| 242.7
+| ​
+| $
+| 81.4
+| ​
+| $
+| 74.0
+| ​
+| $
+| 79.7
+| ​
+| $
+| (29.9)
+| ​
+| $
+| 205.2
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net sales
+| $
+| 788.3
+| ​
+| $
+| 547.1
+| ​
+| $
+| 565.5
+| ​
+| $
+| (32.4)
+| ​
+| $
+| 1,868.5
+| ​
+| $
+| 408.7
+| ​
+| $
+| 447.1
+| ​
+| $
+| 571.8
+| ​
+| $
+| (5.9)
+| ​
+| $
+| 1,421.7
+| ​
+|
+Adjusted EBITDA margin
+|
+| 15.1
+| %
+| ​
+| 15.5
+| %
+|
+| 13.6
+| %
+|
+| ​
+| ​
+|
+| 13.0
+| %
+|
+| 19.9
+| %
+| ​
+| 16.6
+| %
+|
+| 13.9
+| %
+|
+| ​
+| ​
+|
+| 14.4
+| %
+|
+____
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+(a) | See the Adjusted EBITDA reconciliations on the previous page for information on restructuring expenses and other adjustments. |
+​
+​
+9
+Modine Manufacturing Company
+Net debt (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| September 30, 2026
+| ​ ​ ​
+| March 31, 2026
+|
+Debt due within one year
+| ​
+| $
+| 46.9
+| ​
+| $
+| 51.4
+|
+Long-term debt
+| ​
+|
+| 677.4
+| ​
+|
+| 384.9
+|
+Total debt
+| ​
+|
+| 724.3
+| ​
+|
+| 436.3
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Less: cash and cash equivalents
+| ​
+|
+| 150.6
+| ​
+|
+| 73.5
+|
+Net debt
+| ​
+| $
+| 573.7
+| ​
+| $
+| 362.8
+|
+​
+​
+Free cash flow (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+|
+| Three months ended September 30,
+| ​ ​ ​
+| Six months ended September 30,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Net cash (used for) provided by operating activities
+| ​
+| $
+| (98.5)
+| ​
+| $
+| 1.4
+| ​
+| $
+| (57.1)
+| ​
+| $
+| 29.1
+|
+Expenditures for property, plant and equipment
+| ​
+|
+| (42.1)
+| ​
+|
+| (31.9)
+| ​
+|
+| (88.5)
+| ​
+|
+| (59.4)
+|
+Free cash flow
+| ​
+| $
+| (140.6)
+| ​
+| $
+| (30.5)
+| ​
+| $
+| (145.6)
+| ​
+| $
+| (30.3)
+|
+​
+​
+Organic sales and organic sales growth (unaudited)
+(In millions)
+​
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended September 30, 2026
+| ​ ​ ​
+| Three months ended September 30, 2025
+|
+|
+​
+| ​ ​ ​
+| ​
+| ​
+| ​ ​ ​
+| Effect of
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​
+| ​ ​ ​
+| ​
+| ​
+| Sales
+| ​ ​ ​
+| Organic
+| ​
+|
+​
+| ​
+| External
+| ​
+| Exchange Rate
+| ​
+| Effect of
+| ​
+| Organic
+| ​
+| External
+| ​
+| Effect of
+| ​
+| Excluding
+| ​
+| Sales
+| ​
+|
+​
+| ​
+| Sales
+| ​
+| Changes
+| ​
+| Acquisitions
+| ​
+| Sales
+| ​
+| Sales
+| ​
+| Dispositions
+| ​
+| Dispositions
+| ​
+| Growth
+| ​
+|
+Net sales:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+|
+Data Centers
+| ​
+| $
+| 437.3
+| ​
+| $
+| 2.1
+| ​
+| $
+| —
+| ​
+| $
+| 439.4
+| ​
+| $
+| 224.0
+| ​
+| $
+| —
+| ​
+| $
+| 224.0
+| ​
+| 96
+| %
+|
+Commercial HVAC
+| ​
+| ​
+| 269.4
+| ​
+| ​
+| 1.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 270.5
+| ​
+| ​
+| 230.1
+| ​
+| ​
+| —
+| ​
+| ​
+| 230.1
+| ​
+| 18
+| %
+|
+Performance Technologies
+| ​
+|
+| 287.7
+| ​
+|
+| (0.2)
+| ​
+|
+| —
+| ​
+|
+| 287.5
+| ​
+|
+| 284.8
+| ​
+|
+| —
+| ​
+|
+| 284.8
+| ​
+| 1
+| %
+|
+Net Sales
+| ​
+| $
+| 994.4
+| ​
+| $
+| 3.0
+| ​
+| $
+| —
+| ​
+| $
+| 997.4
+| ​
+| $
+| 738.9
+| ​
+| $
+| —
+| ​
+| $
+| 738.9
+| ​
+| 35
+| %
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Six months ended September 30, 2026
+| ​ ​ ​
+| Six months ended September 30, 2025
+|
+|
+​
+| ​ ​ ​
+| ​
+| ​
+| ​ ​ ​
+| Effect of
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​
+| ​ ​ ​
+| ​
+| ​
+| Sales
+| ​ ​ ​
+| Organic
+| ​
+|
+​
+| ​
+| External
+| ​
+| Exchange Rate
+| ​
+| Effect of
+| ​
+| Organic
+| ​
+| External
+| ​
+| Effect of
+| ​
+| Excluding
+| ​
+| Sales
+| ​
+|
+​
+| ​
+| Sales
+| ​
+| Changes
+| ​
+| Acquisitions
+| ​
+| Sales
+| ​
+| Sales
+| ​
+| Dispositions
+| ​
+| Dispositions
+| ​
+| Growth
+| ​
+|
+Net sales:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+|
+Data Centers
+| ​
+| $
+| 785.7
+| ​
+| $
+| 2.1
+| ​
+| $
+| —
+| ​
+| $
+| 787.8
+| ​
+| $
+| 407.6
+| ​
+| $
+| —
+| ​
+| $
+| 407.6
+| ​
+| 93
+| %
+|
+Commercial HVAC
+| ​
+| ​
+| 517.3
+| ​
+| ​
+| (0.9)
+| ​
+| ​
+| (19.7)
+| ​
+| ​
+| 496.7
+| ​
+| ​
+| 443.8
+| ​
+| ​
+| —
+| ​
+| ​
+| 443.8
+| ​
+| 12
+| %
+|
+Performance Technologies
+| ​
+|
+| 565.5
+| ​
+|
+| (4.3)
+| ​
+|
+| —
+| ​
+|
+| 561.2
+| ​
+|
+| 570.3
+| ​
+|
+| —
+| ​
+|
+| 570.3
+| ​
+| (2)
+| %
+|
+Net Sales
+| ​
+| $
+| 1,868.5
+| ​
+| $
+| (3.1)
+| ​
+| $
+| (19.7)
+| ​
+| $
+| 1,845.7
+| ​
+| $
+| 1,421.7
+| ​
+| $
+| —
+| ​
+| $
+| 1,421.7
+| ​
+| 30
+| %
+|
+​
+​
+​
+10
+SOURCE: Modine
+Kathleen Powers
+(262) 636-1687
+kathleen.t.powers@modine.com
+11
