@@ -1,0 +1,58 @@
+name: Bilanço bültenleri
+
+# Bilanço açıklayan şirketlerin basın bültenini (8-K, ek 99.1) SEC EDGAR'dan indirir ve `bildirim` dalına yazar.
+# Rakam yorumlanmaz; metin olduğu gibi saklanır, tablo hazırlayan görev bunları okuyup doğrular.
+on:
+  schedule:
+    - cron: "10 14 * * 1-5"   # sabah (ET 09:10 civarı): gece ve piyasa öncesi açıklananlar
+    - cron: "50 21 * * 1-5"   # akşam (ET 16:50 civarı): kapanıştan hemen sonra gelenler
+    - cron: "40 23 * * 1-5"   # gece (ET 18:40 civarı): geç gelenler
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bildirim
+  cancel-in-progress: false
+
+jobs:
+  bildirim:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+      - run: python test_edgar.py
+      - name: Önceki kayıtları al
+        run: |
+          mkdir -p /tmp/onceki
+          if git fetch -q origin +bildirim:refs/remotes/origin/bildirim 2>/dev/null; then
+            git archive origin/bildirim | tar -x -C /tmp/onceki
+          fi
+          mkdir -p bildirim && [ -d /tmp/onceki/bildirim ] && cp -r /tmp/onceki/bildirim/. bildirim/ || true
+      - name: EDGAR'dan indir
+        run: python edgar.py
+      - name: bildirim dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp -r bildirim /tmp/cikti
+          rm -rf bildirim
+          if git rev-parse -q --verify origin/bildirim >/dev/null; then
+            git checkout -q -B bildirim origin/bildirim
+          else
+            git checkout -q --orphan bildirim
+            git rm -rqf . >/dev/null 2>&1 || true
+          fi
+          rm -rf bildirim && cp -r /tmp/cikti bildirim
+          git add bildirim
+          if git diff --cached --quiet; then echo "değişiklik yok"; else
+            git commit -q -m "Bülten"
+            for i in 1 2 3 4; do
+              git push -q origin bildirim && break
+              git fetch -q origin bildirim && git rebase -q origin/bildirim || { git rebase --abort; exit 1; }
+            done
+          fi
