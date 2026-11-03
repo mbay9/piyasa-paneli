@@ -1,7 +1,7 @@
 {
  "sembol": "LITE",
  "para": "USD",
- "guncelleme": "2026-11-01",
+ "guncelleme": "2026-11-03",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 480700000.0,
@@ -318,12 +318,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 1.02764,
-   "gercek": 1.1,
-   "yuzde": 7.0
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 1.40853,
    "gercek": 1.67,
@@ -340,6 +334,12 @@
    "tahmin": 2.96892,
    "gercek": 3.23,
    "yuzde": 8.8
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 4.22394,
+   "gercek": 4.57,
+   "yuzde": 8.2
   }
  ]
 }

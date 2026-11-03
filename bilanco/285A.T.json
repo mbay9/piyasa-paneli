@@ -1,7 +1,7 @@
 {
  "sembol": "285A.T",
  "para": "JPY",
- "guncelleme": "2026-11-01",
+ "guncelleme": "2026-11-03",
  "ceyrekler": {
   "2025-03-31": {
    "capex": -80301000000.0
@@ -305,8 +305,8 @@
   {
    "donem": "2026-09-30",
    "tahmin": 1192.5648,
-   "gercek": 836.0267,
-   "yuzde": -29.9
+   "gercek": 838.31,
+   "yuzde": -29.7
   }
  ]
 }
