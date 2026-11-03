@@ -465,6 +465,12 @@
    "enerji"
   ],
   "ai": "cok zayif",
-  "not": "Endeksler üst üste üçüncü gün düştü ama hisselerin çoğu yükseldi; teknoloji, çip ve yapay zeka sert geriledi, VIX bir ayın zirvesinde"
+  "not": "Endeksler üst üste üçüncü gün düştü ama hisselerin çoğu yükseldi; teknoloji, çip ve yapay zeka sert geriledi, VIX bir ayın zirvesinde",
+  "asya": {
+   "kospi": "asagi",
+   "nikkei": null,
+   "btc": null,
+   "not": "Kore ABD teknoloji/çip zayıflığının ardından sert düştü, önceki günkü toparlanma silindi; Japonya tatildeydi (Kültür Günü); Bitcoin verisi güncel değildi (son tarih 1 Kas), yön yazılmadı"
+  }
  }
 ]
