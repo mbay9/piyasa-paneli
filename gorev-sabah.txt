@@ -1,23 +1,7 @@
-UTC: 2026-10-30 23:43:22 | ET: 2026-10-30 19:43:22 EDT
-SONUC: YAZILMADI (test calistirmasi)
-Neden: ozet.json date (2026-10-29) veri dali meta.ref_date (2026-10-30) ile ayni degil; aksam ozeti henuz yazilmamis (adim 3).
-Depo: add_repo/register_repo_root araclari yok; /home/claude/piyasa-paneli zaten klonluydu, fetch/pull basarili.
-Bugun UTC 2026-10-30; KOSPI 2026-10-30, NIKKEI 2026-10-30, BTC 2026-10-29
-durum.json: kayit_utc 2026-10-30T23:40:29Z, build success, deploy success, data_ref_date 2026-10-30, hata bos
-ozet.json date 2026-10-29 (asya mevcut). Bekleme yok.
-=== 2026-11-02 11:36:01 UTC / 2026-11-02 06:36:01 ET (yedek calisma) ===
+UTC: 2026-11-03 11:34 | ET: 2026-11-03 06:34 EST
 SONUC: YAZILMADI
-Neden: ozet.json'da ayni ref_date (2026-10-30) icin "asya" alani zaten var; kurala gore yeniden yazilmadi.
-Depo: /home/claude/piyasa-paneli mevcuttu, git pull --rebase basarili.
-Bugun UTC: 2026-11-02. KOSPI date=2026-11-02, NIKKEI date=2026-11-02, BTC date=2026-11-01, meta.ref_date=2026-10-30.
-durum.json: build=success deploy=success canli_dogrulandi=true data_ref_date=2026-10-30 hata="" kok_neden="" olay=workflow_dispatch kayit_et=2026-11-02 05:34
-ozet.json date=2026-10-30 (veri ref_date ile ayni), asya mevcut.
-Bekleme: yok.
-=== 2026-11-03 08:05 UTC / 2026-11-03 03:05 ET ===
-SONUC: YAZILDI
-Neden: KOSPI guncel (2026-11-03) oldugu icin Asya eki yazildi; Nikkei Japonya tatili (Kultur Gunu) nedeniyle 2026-11-02'de kaldi, BTC verisi guncel degildi (2026-11-01), yon yazilmadi.
-Depo: mevcut klon, git pull basarili. Bugun UTC 2026-11-03. Bekleme ~19 dk (07:36-07:55 UTC).
-Veri: KOSPI date=2026-11-03, NIKKEI date=2026-11-02, BTC date=2026-11-01, meta.ref_date=2026-11-02.
-durum.json (push sonrasi): olay=push build=success deploy=success canli_dogrulandi=true data_ref_date=2026-11-02 hata/kok_neden bos.
-ozet.json date=2026-11-02 = meta.ref_date. ozet.json ve ozet_gecmis.json main'e push edildi.
-Not: gunluk icin force push (git push --force origin HEAD:gorev) guvenlik siniflandiricisi tarafindan reddedildi; ayni icerik GitHub API ile gorev dalina normal commit olarak eklendi.
+Neden: ozet.json'da ref_date 2026-11-02 icin "asya" alani zaten var (commit fd623f7, yedek gorev kurali geregi yeniden yazilmadi).
+Depo: /home/claude/piyasa-paneli mevcuttu, git pull --rebase basarili (add_repo/clone gerekmedi).
+Bugun UTC: 2026-11-03. Veri dali: KOSPI date=2026-11-03, NIKKEI date=2026-11-02 (Japonya tatil), BTC date=2026-11-01. data.json meta.ref_date=2026-11-02, ozet.json date=2026-11-02 (esit).
+durum.json: build=success, deploy=success, canli_dogrulandi=true, kayit_et=2026-11-03 02:56, olay=push, data_ref_date=2026-11-02, hata/kok_neden bos.
+Bekleme: yok (0 dk). Hata yok.
