@@ -11,7 +11,7 @@ on:
     - cron: "15 3 * * *"
   push:
     branches: [main]
-    paths: [ozet.json]
+    paths: [ozet.json, tablolar.json]
   workflow_dispatch:
     inputs:
       only:
@@ -54,6 +54,7 @@ jobs:
           mkdir site
           cp index.html app.js site/
           [ -f ozet.json ] && cp ozet.json site/ || true
+          [ -f tablolar.json ] && cp tablolar.json site/ || true
           sed -i "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_RUN_ID}\"|" site/index.html
           grep -q "app.js?v=" site/index.html
       - name: Hangi gösterge yenilenecek

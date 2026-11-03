@@ -1,0 +1,146 @@
+{
+ "v": 1,
+ "guncelleme": "2026-11-04T00:00:00Z",
+ "tablolar": {
+  "LITE": {
+   "tarih": "2026-11-02",
+   "basvuru": "0001628280-26-068655",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+   "bolumler": [
+    {
+     "baslik": "LITE",
+     "etiket": "2027/1F",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 1262.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,262.6"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 136.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "kanit": [
+        "136.5%"
+       ]
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 4.57,
+       "bek": 4.22,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$4.57"
+       ]
+      },
+      {
+       "ad": "Gross Profit* ($M)",
+       "fmt": "m",
+       "ger": 671.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "671.2"
+       ]
+      },
+      {
+       "ad": "Gross Margin %*",
+       "fmt": "p",
+       "ger": 53.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "53.2"
+       ]
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 578.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "578.0"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 45.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "578.0 / 1,262.6"
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "2027/2F",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1600.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1.575 billion to $1.625 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 140.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,600.0 / 665.5 (geçen yılın aynı çeyreği, Yahoo tabloları)"
+      },
+      {
+       "ad": "EPS* Guidance ($)",
+       "fmt": "d",
+       "ger": 6.05,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$5.90 to $6.20"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Operating Margin % *",
+       "fmt": "p",
+       "ger": 45.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "kanit": [
+        "45.0% to 46.0%"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
+    }
+   ],
+   "dipnot": "* Non-GAAP. Estimate: Yahoo Finance consensus (EPS). Revenue and guidance estimates were not recorded before this release, so no Beat/Miss is shown for them."
+  }
+ }
+}

@@ -45,18 +45,22 @@ def basvurular(cik, bugun, gun=GUN):
     out = []
     for i, f in enumerate(d["form"]):
         if f == "8-K" and "2.02" in (d["items"][i] or "").split(",") and d["filingDate"][i] >= esik:
-            out.append((d["filingDate"][i], d["accessionNumber"][i]))
+            out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i]))
     return out
 
 
-def bulten(cik, acc):
+def bulten(cik, acc, birincil=""):
+    """Bülten metni: önce adında 99 geçen ek; yoksa ana belge dışındaki en büyük htm/txt (bazı şirketler eki başka adla verir)."""
     kok = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/"
     ind = json.loads(al(kok + "index.json"))
-    adaylar = [x["name"] for x in ind["directory"]["item"] if re.search(r"(?i)(ex|exhibit)[-_ ]?99", x["name"]) and x["name"].lower().endswith((".htm", ".html", ".txt"))]
+    dosyalar = [x for x in ind["directory"]["item"] if x["name"].lower().endswith((".htm", ".html", ".txt")) and not re.match(r"(?i)r\d+\.htm", x["name"])]
+    adaylar = [x["name"] for x in dosyalar if re.search(r"(?i)(ex|exhibit)[-_ ]?99", x["name"])]
     adaylar.sort(key=lambda n: (not re.search(r"99[-_.]?1|991", n), n))
-    for ad in adaylar[:2]:
+    yedek = sorted((x for x in dosyalar if x["name"] != birincil and x["name"] not in adaylar and not re.search(r"(?i)index|xbrl|graphic|ex[-_]?(3|4|10|21|23|31|32|101|104)", x["name"])),
+                   key=lambda x: -int(x.get("size") or 0) if str(x.get("size") or "0").isdigit() else 0)
+    for ad in adaylar[:2] + [x["name"] for x in yedek[:2]]:
         t = metne(al(kok + ad))
-        if len(t) > 500:
+        if len(t) > 1500 and re.search(r"(?i)(results|revenue|net income|quarter)", t):
             return kok + ad, t
     return None, None
 
@@ -72,11 +76,11 @@ def ana(semboller, cikti="bildirim", bugun=None):
         if not cik:
             continue
         try:
-            for tarih, acc in basvurular(cik, bugun):
+            for tarih, acc, bir in basvurular(cik, bugun):
                 yol = os.path.join(cikti, s, f"{tarih}_{acc}.txt")
                 if os.path.exists(yol):
                     continue
-                url, t = bulten(cik, acc)
+                url, t = bulten(cik, acc, bir)
                 if not t:
                     hata[s] = f"{acc}: ek 99 bulunamadı"
                     continue

@@ -56,7 +56,7 @@ def http(url, tries=3, timeout=30, headers=None):
 
 # ------------------------------------------------------------------ onkontrol
 def onkontrol():
-    for f in ("update.py", "validate.py", "saglik.py", "test_regime.py"):
+    for f in ("update.py", "validate.py", "saglik.py", "test_regime.py", "edgar.py", "tablo_kontrol.py"):
         try:
             ast.parse(open(yol(f), encoding="utf-8").read(), f)
             kayit(f"Python sözdizimi: {f}", True)
@@ -98,6 +98,15 @@ def onkontrol():
               f"{len(syms)} hisse; geçersiz sembol: {kotu}; adsız: {ad_yok}; tekrar: {tekrar}")
     except Exception as e:  # noqa: BLE001
         kayit("Hisse listesi: geçerli, adlı, tekrarsız", False, repr(e))
+
+    # bilanço tabloları (varsa): biçim ve Beat/Miss tutarlılığı
+    try:
+        if os.path.isfile(yol("tablolar.json")):
+            import tablo_kontrol
+            th = tablo_kontrol.denetle(oku_json(yol("tablolar.json")))
+            kayit("tablolar.json: biçim, Beat/Miss tutarlılığı, kanıt alanları", not th, "; ".join(th[:3]))
+    except Exception as e:  # noqa: BLE001
+        kayit("tablolar.json: biçim, Beat/Miss tutarlılığı, kanıt alanları", False, repr(e))
 
     # özet dosyaları
     try:

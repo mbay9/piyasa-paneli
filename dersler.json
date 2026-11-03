@@ -234,5 +234,57 @@
     "parse_spy"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-03",
+  "olay": "LITE bilanço tarihi sitede 5 Kas görünürken şirket 2 Kas'ta açıklamıştı (NBIS tarihi de kaymıştı)",
+  "kok_neden": "Onaylı bilanço tarihleri bir kez kaydedilip yeniden sorulmuyordu; şirket tarihi kaydırınca ya da erken açıklayınca eski tarih sitede kalıyordu",
+  "onlem": "30 günden yakın tarihler her gün yeniden sorulur; Yahoo sürpriz kaydı son çeyreği açıklanmış gösteriyorsa takvimdeki gelecek tarih gösterilmez; takvimden düşen tarihin öncesi F/K kaydı kullanılmaz",
+  "kanit": [
+   [
+    "update.py",
+    "rapor_edilmis"
+   ],
+   [
+    "update.py",
+    "30 günden yakın tarihler"
+   ],
+   [
+    "tahmin.py",
+    "takvimde artık tarih yok"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-03",
+  "olay": "AEHR bilançosu açıklandığı halde Alt Sektörler'de eski çeyrek güncel gibi puanlanıyordu",
+  "kok_neden": "Yahoo finansal tabloları yeni çeyreği geç veriyor; sürpriz kaydı yeni çeyreği gösterirken tablolar eski çeyrekte kalıyordu ve bu durum güvenilirlik işaretini etkilemiyordu",
+  "onlem": "Sürpriz kaydı tablolardan 100 günden fazla ilerideyse ya da son çeyrek 150 günden eskiyse hisse güvenilmez sayılır, gruplarda medyana ve puana girmez",
+  "kanit": [
+   [
+    "altsektor.py",
+    "finansal tablolar kayıtta henüz yok"
+   ]
+  ]
+ },
+ {
+  "tarih": "2026-11-03",
+  "olay": "Bilanço tablosunda (Beat/Miss) uydurma ya da yanlış çeyrek rakamı riski",
+  "kok_neden": "Yahoo çeyrek beklentisinin etiketi EPS ve gelirde farklı anlarda kayıyor",
+  "onlem": "Tablodaki her gerçek rakam bültende birebir geçmek zorunda (kanit) ve Beat/Miss tutarlılığı denetlenir; beklenti makul aralık dışındaysa kullanılmaz; tablo_kontrol geçmeden yayınlanmaz",
+  "kanit": [
+   [
+    "tablo_kontrol.py",
+    "kanıt bültende birebir geçmiyor"
+   ],
+   [
+    "saglik.py",
+    "tablo_kontrol"
+   ],
+   [
+    "gorevler/tablo.md",
+    "BİREBİR"
+   ]
+  ]
  }
 ]

@@ -76,6 +76,8 @@ jobs:
         run: python test_altsektor.py
       - name: Bilanço tarihi çelişki testi
         run: python test_earn.py
+      - name: Bilanço tablosu denetim testi
+        run: python test_tablo.py
       - name: Bilanço kayıtlarını al (alt sektör göstergeleri ve site için)
         run: |
           if git fetch -q --depth=1 origin +bilanco:refs/remotes/origin/bilanco 2>/dev/null; then
@@ -105,6 +107,7 @@ jobs:
           mkdir site
           cp index.html app.js data.json site/
           [ -f ozet.json ] && cp ozet.json site/ || true
+          [ -f tablolar.json ] && cp tablolar.json site/ || true
           [ -d bilanco ] && cp -r bilanco site/ || true
           # tarayıcı önbelleği eski app.js'i tutmasın diye her yayında sürüm eki
           sed -i "s|src=\"app.js\"|src=\"app.js?v=${GITHUB_RUN_ID}\"|" site/index.html

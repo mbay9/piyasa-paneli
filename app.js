@@ -220,11 +220,32 @@
     else b2 = '<p class="vn">Bilanço öncesi F/K kaydı yok; bir sonraki bilançodan itibaren kaydedilir.</p>';
     fk += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div>';
     tah += '</div>';
-    var tabs = [["fiyat", "Fiyat", vchart(s)], ["tahmin", "Tahminler", tah], ["fk", "F/K", fk], ["bilanco", "Bilanço", bilPanel(s.symbol)]];
+    var tabs = [["fiyat", "Fiyat", vchart(s)], ["tahmin", "Tahminler", tah], ["fk", "F/K", fk], ["bilanco", "Bilanço", btable(s.symbol) + bilPanel(s.symbol)]];
     var cur = VTAB[s.symbol] || ((s.h && s.h.length >= 25) ? "fiyat" : "tahmin");
     var bar = tabs.map(function (t) { return '<button type="button" class="vt' + (cur === t[0] ? " on" : "") + '" data-vt="' + t[0] + '" data-s="' + esc(s.symbol) + '">' + t[1] + "</button>"; }).join("");
     var body = tabs.filter(function (t) { return t[0] === cur; })[0][2];
     return '<div class="vtabs">' + bar + "</div>" + body + '<p class="vn">Kaynak: Yahoo Finance fiyat ve analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
+  }
+  var TAB = null;
+  function btable(sym) {
+    var t = TAB && TAB.tablolar && TAB.tablolar[sym];
+    if (!t) return "";
+    function f(v, m) {
+      if (v === null || v === undefined) return "–";
+      var us = function (x, d) { return x.toLocaleString("en-US", { minimumFractionDigits: d, maximumFractionDigits: d }); };  // tablo İngilizce biçimde: 1,149.5
+      if (m === "p") return us(v, 1) + "%";
+      if (m === "d") return us(v, 2);
+      return us(v, 1);
+    }
+    var out = '<div class="btw">';
+    t.bolumler.forEach(function (b, i) {
+      out += '<table class="bt"><colgroup><col style="width:46%"><col style="width:18%"><col style="width:18%"><col style="width:18%"></colgroup><thead><tr><th>' + esc(b.baslik) + "</th><th></th><th>" + esc(b.etiket || "") + "</th><th></th></tr>" +
+        (i === 0 ? "<tr><th>Metric</th><th>Estimate</th><th>Actual</th><th>Result</th></tr>" : "") + "</thead><tbody>" +
+        b.satirlar.map(function (r) {
+          return '<tr' + (r.vurgu ? ' class="y"' : "") + "><td>" + esc(r.ad) + "</td><td>" + f(r.bek, r.fmt) + "</td><td>" + f(r.ger, r.fmt) + "</td><td" + (r.sonuc === "Beat" ? ' class="bb"' : r.sonuc === "Miss" ? ' class="bm"' : "") + ">" + esc(r.sonuc || "") + "</td></tr>";
+        }).join("") + "</tbody></table>";
+    });
+    return out + '<p class="vn">' + esc(fmtShort(t.tarih)) + " · " + (t.dipnot ? esc(t.dipnot) + " " : "") + 'Source: company press release (<a href="' + esc(t.kaynak) + '" target="_blank" rel="noopener">SEC 8-K</a>).</p></div>';
   }
   var BIL = {};
   function bilTable(a, cur) {
@@ -566,6 +587,7 @@
   });
   window.addEventListener("scroll", hideTip, { passive: true });
   window.addEventListener("hashchange", show);
+  fetch("tablolar.json?v=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { if (j && j.tablolar) { TAB = j; if (DATA) draw(); } }).catch(function () {});
   fetch("ozet.json?v=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { if (j && j.paragraphs) { OZ = j; if (DATA) draw(); } }).catch(function () {});
   fetch("data.json?v=" + Date.now()).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(render).catch(function (e) {
     document.getElementById("app").innerHTML = '<div class="err">Veri yüklenemedi (' + esc(e.message) + '). Birkaç dakika sonra yenile.</div>';
