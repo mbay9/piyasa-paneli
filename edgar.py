@@ -12,7 +12,7 @@ import sys
 import time
 import urllib.request
 
-UA = "piyasa-paneli araştırma tantalos@duck.com"
+UA = "piyasa-paneli research tantalos@duck.com"
 GUN = 4  # son kaç takvim günündeki başvurular
 
 
