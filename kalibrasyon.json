@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-02",
+ "guncelleme": "2026-11-03",
  "kayitlar": [
   {
    "olcu": "nasdaq_oneq",
@@ -20,6 +20,18 @@
    "resmi": -0.998,
    "fark": -0.074,
    "fark_pct": -0.074,
+   "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
+   "olcu": "nasdaq_oneq",
+   "tarih": "2026-11-03",
+   "bizim": 0.825,
+   "resmi": 0.736,
+   "fark": 0.089,
+   "fark_pct": 0.089,
    "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
    "url": null,
    "kayma_gun": 0,
@@ -86,6 +98,18 @@
    "not": "fark yüzde puan"
   },
   {
+   "olcu": "spx_spy",
+   "tarih": "2026-11-03",
+   "bizim": 0.365,
+   "resmi": 0.299,
+   "fark": 0.066,
+   "fark_pct": 0.066,
+   "kaynak": "SPY günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
    "olcu": "vix_cboe",
    "tarih": "2026-10-30",
    "bizim": 19.42,
@@ -96,16 +120,28 @@
    "url": null,
    "kayma_gun": 0,
    "not": null
+  },
+  {
+   "olcu": "vix_cboe",
+   "tarih": "2026-11-02",
+   "bizim": 21.15,
+   "resmi": 21.15,
+   "fark": 0.0,
+   "fark_pct": 0.0,
+   "kaynak": "Cboe VIX_History (resmi)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": null
   }
  ],
  "ozet": {
   "nasdaq_oneq": {
-   "n": 2,
-   "ort_fark_pct": -0.04,
-   "std_pct": 0.03,
-   "son_fark_pct": -0.074,
-   "son_tarih": "2026-11-02",
-   "durum": "yetersiz veri",
+   "n": 3,
+   "ort_fark_pct": -0.0,
+   "std_pct": 0.07,
+   "son_fark_pct": 0.089,
+   "son_tarih": "2026-11-03",
+   "durum": "iyi",
    "sistematik": false
   },
   "spx_ileri_factset": {
@@ -136,20 +172,20 @@
    "sistematik": false
   },
   "spx_spy": {
-   "n": 2,
-   "ort_fark_pct": -0.04,
-   "std_pct": 0.01,
-   "son_fark_pct": -0.031,
-   "son_tarih": "2026-11-02",
-   "durum": "yetersiz veri",
+   "n": 3,
+   "ort_fark_pct": -0.0,
+   "std_pct": 0.05,
+   "son_fark_pct": 0.066,
+   "son_tarih": "2026-11-03",
+   "durum": "iyi",
    "sistematik": false
   },
   "vix_cboe": {
-   "n": 1,
+   "n": 2,
    "ort_fark_pct": 0.0,
    "std_pct": 0.0,
    "son_fark_pct": 0.0,
-   "son_tarih": "2026-10-30",
+   "son_tarih": "2026-11-02",
    "durum": "yetersiz veri",
    "sistematik": false
   }
