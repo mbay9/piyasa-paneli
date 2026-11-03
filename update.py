@@ -654,12 +654,12 @@ def earnings_dates(symbols, ref_date, budget=120):
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
-            if x.get("earn") and not x.get("earn_est") and x["earn"] > (ref + dt.timedelta(days=10)).isoformat():  # yakın tarihler her gün yeniden sorulur
+            if x.get("earn") and not x.get("earn_est") and x["earn"] > (ref + dt.timedelta(days=30)).isoformat():  # 30 günden yakın tarihler her gün yeniden sorulur (şirketler tarihi kaydırabilir)
                 prev[x["symbol"]] = (x["earn"], False)
     except Exception as e:  # noqa: BLE001
         log("Önceki bilanço tarihleri okunamadı:", repr(e)[:80])
     out = {s: prev[s] for s in symbols if s in prev}
-    log(f"bilanço: {len(out)} uzak onaylı tarih yeniden sorulmadı (10 günden yakın olanlar her gün sorulur)")
+    log(f"bilanço: {len(out)} uzak onaylı tarih yeniden sorulmadı (30 günden yakın olanlar her gün sorulur)")
 
     def work():
         for s in symbols:
@@ -780,6 +780,9 @@ def fundamentals(symbols, ref_date, earn=None, budget=300):
         if en and (fnx is None or fnx > ref):  # kayıtlı bilanço tarihi henüz gelmediyse güncel takvim geçerli
             fnx = en
             v["fnx"] = en.isoformat()
+        if not en and fnx and fnx > ref and (fnx - ref).days <= 30:  # takvimde artık tarih yok (açıklandı ya da kaldırıldı): kayıtlı tarihe güvenilmez, her gün kontrol
+            fnx = ref
+            v["fnx"] = ref.isoformat()
         out[s] = v
         ck = day(v.get("fck") or v.get("fet")) or dt.date.min
         pe = day(v.get("fcd"))

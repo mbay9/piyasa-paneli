@@ -99,6 +99,8 @@ def turet(x, e, onceki=None, bugun=None):
     # bilanço öncesi kayıt: bilanço yaklaşırken her gün güncellenir; bilanço geçince sabit kalır ve bugünkü çarpanla kıyaslanır
     bl = (onceki or {}).get("bl")
     nxt = x.get("earn")
+    if not nxt and bl and (bl.get("for") or "") >= (bugun or ""):  # takvimde artık tarih yok: kayıtlı öncesi değer yanlış zamana ait olabilir
+        bl = None
     if x.get("earn_rep"):  # bilanço takvimdeki tarihten önce açıklanmış: eski öncesi kaydı yanlış zamana ait olur, kullanılmaz
         bl, nxt = None, None
     if bugun and o["pe0"] is not None and nxt and nxt >= bugun and (bl is None or bl.get("for") != nxt):

@@ -37,4 +37,6 @@ o = tahmin.turet(x(earn="2026-11-05"), e(), None, "2026-11-02")
 assert o["bl"]["for"] == "2026-11-05" and o["bl"]["pe"] == 10.0, o
 o = tahmin.turet(x(earn=None, close=80.0), e(), {"bl": o["bl"]}, "2026-11-06")
 assert o["bl"]["pe"] == 10.0 and o["pe0"] == 8.0, o
+o2 = tahmin.turet(x(earn=None, close=80.0), e(), {"bl": {"for": "2026-11-05", "pe": 10.0, "d": "2026-11-03", "eps": 8.0}}, "2026-11-03")
+assert "bl" not in o2, o2   # takvimde tarih kalmadı ve tarih gelecekte görünüyor: eski öncesi kayıt kullanılmaz
 print("test_tahmin: tamam")
