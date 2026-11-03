@@ -1,0 +1,20 @@
+name: Finnhub deneme
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  dene:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Uç noktaları dene
+        env:
+          FK: ${{ secrets.FINNHUB_API_KEY }}
+        run: |
+          [ -n "$FK" ] || { echo "SECRET BOŞ"; exit 1; }
+          for s in MKSI LITE AAPL 2344.TW; do
+            for ep in "stock/earnings?symbol=$s&limit=4" "stock/eps-estimate?symbol=$s&freq=quarterly" "stock/revenue-estimate?symbol=$s&freq=quarterly" "stock/ebitda-estimate?symbol=$s&freq=quarterly" "stock/ebit-estimate?symbol=$s&freq=quarterly"; do
+              code=$(curl -s -m 30 -o out.json -w "%{http_code}" "https://finnhub.io/api/v1/$ep&token=$FK")
+              echo "== $s ${ep%%\?*} HTTP $code"; head -c 450 out.json | sed "s/$FK/***/g"; echo
+              sleep 1.2
+            done
+          done
