@@ -620,6 +620,29 @@ def market_caps(symbols, closes, budget=240):
     return out, {s: c for s, (_, c) in info.items()}
 
 
+def son_ceyrek_sonu(ref):
+    """ref tarihinden önceki (ya da o günkü) son takvim çeyreği sonu."""
+    for m, d in ((12, 31), (9, 30), (6, 30), (3, 31)):
+        c = dt.date(ref.year, m, d)
+        if c < ref:
+            return c
+    return dt.date(ref.year - 1, 12, 31)
+
+
+def rapor_edilmis(sym, ref, dizin="bilanco"):
+    """Yahoo'nun sürpriz kaydında son biten çeyrek için gerçek EPS varsa şirket o çeyreği açıklamıştır (takvimdeki tarihten bağımsız).
+    Dönüş: sürpriz kaydının dönemi (ISO) ya da None. Dosya yoksa ya da okunamazsa None: tarihe dokunulmaz."""
+    try:
+        d = json.load(open(os.path.join(dizin, sym + ".json"), encoding="utf-8"))
+        q = son_ceyrek_sonu(ref).isoformat()
+        for x in d.get("surpriz") or []:
+            if x.get("donem") == q and x.get("gercek") is not None:
+                return q
+    except Exception:  # noqa: BLE001
+        pass
+    return None
+
+
 def earnings_dates(symbols, ref_date, budget=120):
     """Yaklaşan bilanço tarihi (Yahoo takvimi). Tarih aralığı verilmişse tahmini sayılır. Alınamayan hisse atlanır.
     Önceki güncellemede onaylanmış, hâlâ gelecekteki tarihler yeniden sorulmaz. Sorgu ayrı iş parçacığında, sert süre sınırıyla çalışır."""
@@ -631,12 +654,12 @@ def earnings_dates(symbols, ref_date, budget=120):
     try:
         url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
         for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
-            if x.get("earn") and not x.get("earn_est") and x["earn"] >= ref.isoformat():
+            if x.get("earn") and not x.get("earn_est") and x["earn"] > (ref + dt.timedelta(days=10)).isoformat():  # yakın tarihler her gün yeniden sorulur
                 prev[x["symbol"]] = (x["earn"], False)
     except Exception as e:  # noqa: BLE001
         log("Önceki bilanço tarihleri okunamadı:", repr(e)[:80])
     out = {s: prev[s] for s in symbols if s in prev}
-    log(f"bilanço: {len(out)} onaylı tarih yeniden sorulmadı")
+    log(f"bilanço: {len(out)} uzak onaylı tarih yeniden sorulmadı (10 günden yakın olanlar her gün sorulur)")
 
     def work():
         for s in symbols:
@@ -934,11 +957,19 @@ def ai_block(ref_date, spy, qqq):
     except Exception as e:  # noqa: BLE001
         log("Bilanço tarihleri bölümü atlandı:", repr(e)[:120])
         ed = {}
+    ref_d = pd.Timestamp(ref_date).date()
+    rep = {}
     for x in rows:
         x["earn"], x["earn_est"] = ed.get(x["symbol"], (None, False))
-    log(f"bilanço tarihi: {len(ed)}/{len(rows)} hisse")
+        if x["earn"] and x["earn"] > ref_d.isoformat():
+            q = rapor_edilmis(x["symbol"], ref_d)
+            if q:  # takvim gelecek tarih diyor ama şirket son çeyreği çoktan açıklamış: tahmini tarih gösterilmez
+                log(f"  bilanço tarihi çelişkisi {x['symbol']}: takvim {x['earn']}, ama {q} çeyreği açıklanmış (Yahoo sürpriz kaydı); tarih kaldırıldı")
+                rep[x["symbol"]] = ref_d.isoformat()
+                x["earn"], x["earn_est"], x["earn_rep"] = None, False, q
+    log(f"bilanço tarihi: {len(ed)}/{len(rows)} hisse, {len(rep)} çelişki giderildi")
     try:
-        fu = fundamentals([x["symbol"] for x in rows], ref_date, {x["symbol"]: x.get("earn") for x in rows})
+        fu = fundamentals([x["symbol"] for x in rows], ref_date, {x["symbol"]: rep.get(x["symbol"], x.get("earn")) for x in rows})
     except Exception as e:  # noqa: BLE001
         log("Temel veriler bölümü atlandı:", repr(e)[:120])
         fu = {}

@@ -74,6 +74,8 @@ jobs:
         run: python test_degerleme.py
       - name: Alt sektör testleri
         run: python test_altsektor.py
+      - name: Bilanço tarihi çelişki testi
+        run: python test_earn.py
       - name: Bilanço kayıtlarını al (alt sektör göstergeleri ve site için)
         run: |
           if git fetch -q --depth=1 origin +bilanco:refs/remotes/origin/bilanco 2>/dev/null; then
