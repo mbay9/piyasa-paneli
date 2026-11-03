@@ -432,24 +432,6 @@
     }
     var head = '<div class="sh"><span>Grup</span><span>5 gün</span><span>20 gün</span><span>Gelir, çeyrek</span><span>Bilançolar</span><span>İleri F/K</span></div>';
     var SA = { gelir: "gelir", brut_marj: "brüt marj", faaliyet_marj: "faaliyet marjı", net_marj: "net marj", fcf_marj: "FCF marjı", stok_oran: "stok/gelir" };
-    var SPK = {};
-    (d.ai && d.ai.stocks || []).forEach(function (x) { if (x.h) SPK[x.symbol] = x.h; });
-    function spark(g) {
-      var N = 60, ser = [];
-      g.uyeler.forEach(function (m) {
-        var h = (SPK[m.s] || []).filter(function (v) { return v != null; });
-        if (h.length < N) return;
-        h = h.slice(-N); if (!h[0]) return;
-        ser.push(h.map(function (v) { return v / h[0] * 100; }));
-      });
-      if (ser.length < 2) return "";
-      var ln = [], i, j, t;
-      for (i = 0; i < N; i++) { t = 0; for (j = 0; j < ser.length; j++) t += ser[j][i]; ln.push(t / ser.length); }
-      var mn = Math.min.apply(null, ln), mx = Math.max.apply(null, ln), W = 64, H = 18, rg = (mx - mn) || 1;
-      var pts = ln.map(function (v, k) { return (k / (N - 1) * W).toFixed(1) + "," + (H - 1.5 - (v - mn) / rg * (H - 3)).toFixed(1); }).join(" ");
-      var up = ln[N - 1] >= ln[0];
-      return '<svg class="spk ' + (up ? "pos" : "neg") + '" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + " " + H + '" role="img" aria-label="Son 60 işlem günü, eşit ağırlıklı grup çizgisi (' + ser.length + ' hisse)"><title>Son 60 işlem günü, eşit ağırlıklı (' + ser.length + ' hisse)</title><polyline points="' + pts + '" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg>';
-    }
     var rows = al.gruplar.map(function (g) {
       var o = g.ozet, u = g.uyum;
       var body = g.uyeler.map(function (m) {
@@ -459,10 +441,10 @@
       var karar = u && u.karar.indexOf("karma") !== 0 && u.karar !== "yetersiz veri" ? "<p class=\"vn\"><b>Bilançolar:</b> " + esc(u.karar) + ". " + Object.keys(u.sinyal).map(function (k) { var x = u.sinyal[k]; return SA[k] + " " + x.iyi + "↑ " + x.kotu + "↓"; }).join(" · ") + (u.ayrisan && u.ayrisan.length ? ". Ayrışanlar: " + u.ayrisan.map(function (x) { return esc(tk(x)); }).join(", ") : "") + ".</p>" : "";
       var ok = g.okuma ? '<p class="vn">' + esc(g.okuma) + "</p>" : "";
       var ds = o.dislanan && o.dislanan.length ? '<p class="vn neg">Verisi şüpheli, medyana alınmayan: ' + o.dislanan.map(function (x) { return esc(tk(x)); }).join(", ") + ".</p>" : "";
-      return '<details class="sr"><summary class="sh"><span class="gn"><span class="gt"><b>' + esc(g.ad) + "</b> <small>" + o.n + "</small></span>" + spark(g) + "</span><span>" + pc(o.d5, 1) + "</span><span>" + pc(o.d20, 1) + "</span><span>" + pc(o.gelir_qoq, 0) + "</span><span>" + bar(u) + "</span><span>" + (o.pe == null ? "–" : num(o.pe, 1) + "x") + "</span></summary>" +
+      return '<details class="sr"><summary class="sh"><span><b>' + esc(g.ad) + "</b> <small>" + o.n + "</small></span><span>" + pc(o.d5, 1) + "</span><span>" + pc(o.d20, 1) + "</span><span>" + pc(o.gelir_qoq, 0) + "</span><span>" + bar(u) + "</span><span>" + (o.pe == null ? "–" : num(o.pe, 1) + "x") + "</span></summary>" +
         '<div class="sd">' + ok + karar + ds + '<div class="tw"><table><thead><tr><th>Hisse</th><th>5G</th><th>20G</th><th>Gelir, çeyrek</th><th>Brüt marj</th><th>İleri F/K</th><th>Bilanço tarihi</th></tr></thead><tbody>' + body + "</tbody></table></div></div></details>";
     }).join("");
-    var out = h2("Alt sektörler") + sub("Her satır bir grup, medyan değerlerle. Çubuk gruptaki bilançoların iyi (yeşil), karışık (sarı) ve zayıf (kırmızı) oranını gösterir. Satırdaki çizgi grubun son 60 işlem gününü (eşit ağırlıklı) gösterir. Satıra tıklayınca hisseler açılır.") + '<div class="stb">' + head + rows + "</div>" +
+    var out = h2("Alt sektörler") + sub("Her satır bir grup, medyan değerlerle. Çubuk gruptaki bilançoların iyi (yeşil), karışık (sarı) ve zayıf (kırmızı) oranını gösterir. Satıra tıklayınca hisseler açılır.") + '<div class="stb">' + head + rows + "</div>" +
       '<p class="fine">Gelir, en son bilanço çeyreğinin bir önceki çeyreğe göre değişimidir. Fiyat hareketleri 5 ve 20 işlem günlüktür.</p>';
     if (al.zincir && al.zincir.length) {
       out += '<details class="sgd"><summary>Talepten üretime sıra</summary><div class="tw"><table><thead><tr><th>Halka</th><th>Yatırım harcaması</th><th>Gelir</th><th>Brüt marj</th><th>20G</th></tr></thead><tbody>' +
