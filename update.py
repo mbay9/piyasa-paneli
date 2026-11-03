@@ -859,6 +859,9 @@ def build_changes(rows, ex, ref_date, pdate, prows, pchg):
     return {"since": since, "items": items}
 
 
+HIST_N = 320  # hisse detayindaki fiyat grafigi icin son kapanislar (SMA 200 de bunlardan cizilir)
+
+
 def ai_block(ref_date, spy, qqq):
     out = {"available": False}
     try:
@@ -911,6 +914,7 @@ def ai_block(ref_date, spy, qqq):
             "above50": m["above50"], "above100": m["above100"], "above200": m["above200"],
             "from_high": r((c.iloc[-1] / hi - 1) * 100) if hi else None,
             "trend": m["trend"],
+            "h": [r(x, 2) for x in cf.iloc[-HIST_N:].tolist()], "h0": cf.index[-min(len(cf), HIST_N)].strftime("%Y-%m-%d"),
         })
     if len(rows) < 12:
         out["error"] = "Yeterli bileşen verisi alınamadı"

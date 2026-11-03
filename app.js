@@ -170,28 +170,61 @@
     var d = pts.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1); }).join(" "), l = pts[pts.length - 1];
     return '<div class="blk"><h3>İleri F/K seyri</h3><svg class="sp" viewBox="0 0 ' + w + " " + ht + '" preserveAspectRatio="none" role="img" aria-label="İleri F/K çizgisi"><path d="' + d + '" fill="none" stroke="var(--mute)" stroke-width="1.5" vector-effect="non-scaling-stroke"/><circle cx="' + l[0].toFixed(1) + '" cy="' + l[1].toFixed(1) + '" r="3" fill="var(--ink)"/></svg><div class="ev"><span>' + fmtShort(h[0][0]) + " · " + num(v[0], 1) + '</span><span>' + fmtShort(h[h.length - 1][0]) + " · " + num(v[v.length - 1], 1) + '</span></div></div>';
   }
+  var VTAB = {};
+  function vchart(s) {
+    var h = (s.h || []).filter(function (v) { return v !== null && v !== undefined; });
+    if (h.length < 25) return '<p class="vn">Fiyat geçmişi bir sonraki güncellemeden sonra gelir.</p>';
+    var R = VRNG[s.symbol] || 63, n = Math.min(R, h.length);
+    function sma(k, idx) { if (idx + 1 < k) return null; var t = 0; for (var q = idx - k + 1; q <= idx; q++) t += h[q]; return t / k; }
+    var L = h.length, from = L - n, pr = [], s50 = [], s200 = [];
+    for (var q = from; q < L; q++) { pr.push(h[q]); s50.push(sma(50, q)); s200.push(sma(200, q)); }
+    var all = pr.concat(s50.filter(function (v) { return v !== null; }), s200.filter(function (v) { return v !== null; }));
+    var lo = Math.min.apply(null, all), hi = Math.max.apply(null, all), pad = (hi - lo) * 0.06 || 1; lo -= pad; hi += pad;
+    function X(i) { return (i / (n - 1) * 1000).toFixed(1); }
+    function Y(v) { return ((1 - (v - lo) / (hi - lo)) * 200).toFixed(1); }
+    function line(arr) { var d = "", on = false; arr.forEach(function (v, i) { if (v === null) { on = false; return; } d += (on ? "L" : "M") + X(i) + " " + Y(v); on = true; }); return d; }
+    var chg = pr[pr.length - 1] / pr[0] - 1, col = chg >= 0 ? "var(--up)" : "var(--down)";
+    var grid = [0, 1, 2, 3].map(function (k) { var v = lo + (hi - lo) * k / 3; return '<line x1="0" x2="1000" y1="' + Y(v) + '" y2="' + Y(v) + '" class="gl" vector-effect="non-scaling-stroke"/>'; }).join("");
+    var ylab = [3, 2, 1, 0].map(function (k) { var v = lo + (hi - lo) * k / 3; return '<span style="top:' + ((1 - (v - lo) / (hi - lo)) * 100).toFixed(1) + '%">' + num(v, v >= 100 ? 0 : 2) + "</span>"; }).join("");
+    var rng = [[21, "1A"], [63, "3A"], [120, "6A"]].map(function (x) { return '<button type="button" class="vr' + (R === x[0] ? " on" : "") + '" data-vr="' + x[0] + '" data-s="' + esc(s.symbol) + '">' + x[1] + "</button>"; }).join("");
+    var last = pr[pr.length - 1], l50 = s50[s50.length - 1], l200 = s200[s200.length - 1];
+    function dist(m) { return m === null ? '<span class="neu">–</span>' : '<span class="' + (last > m ? "pos" : "neg") + '">' + (last > m ? "üstünde" : "altında") + " (" + pc((last / m - 1) * 100, 1) + ")</span>"; }
+    return '<div class="vch"><div class="vrh"><span>Son ' + n + ' işlem günü ' + '<b class="' + cls(chg * 100) + '">' + pc(chg * 100, 1) + '</b></span><span class="vrs">' + rng + '</span></div>' +
+      '<div class="vpl"><svg viewBox="0 0 1000 200" preserveAspectRatio="none" role="img" aria-label="' + esc(tk(s.symbol)) + ' fiyat grafiği">' + grid +
+      '<path d="' + line(s200) + '" class="s200" vector-effect="non-scaling-stroke"/><path d="' + line(s50) + '" class="s50" vector-effect="non-scaling-stroke"/>' +
+      '<path d="' + line(pr) + '" fill="none" stroke="' + col + '" stroke-width="2" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg><div class="yl">' + ylab + '</div></div>' +
+      '<div class="vleg"><span><i class="lp" style="background:' + col + '"></i>Fiyat</span><span><i class="l50"></i>SMA 50</span><span><i class="l200"></i>SMA 200</span></div>' +
+      '<div class="vsm"><span>1G <b class="' + cls(s.d1) + '">' + pc(s.d1) + '</b></span><span>5G <b class="' + cls(s.d5) + '">' + pc(s.d5) + '</b></span><span>20G <b class="' + cls(s.d20) + '">' + pc(s.d20) + '</b></span><span>Zirve <b class="' + cls(s.from_high) + '">' + pc(s.from_high, 1) + '</b></span><span>SMA 50 ' + dist(l50) + '</span><span>SMA 200 ' + dist(l200) + '</span></div></div>';
+  }
+  var VRNG = {};
   function vpanel(s) {
     var e = s.est, hasPe = e.pe0 !== null && e.pe0 !== undefined;
     function rw(l, eps, lo, hi, an, rev, pe, ps) {
       return '<tr><td>' + l + '</td><td>' + (eps === null || eps === undefined ? "–" : num(eps, 2)) + '</td><td>' + (pe === null || pe === undefined ? "–" : num(pe, 1)) + '</td><td>' + (lo === null || lo === undefined ? "–" : num(lo, 2) + " – " + num(hi, 2)) + '</td><td>' + (an || "–") + '</td><td>' + mval(rev, e.revu) + '</td><td>' + (ps === null || ps === undefined ? "–" : num(ps, 1)) + '</td></tr>';
     }
-    var out = '<div class="vgrid"><div class="blk wide"><h3>Analist tahminleri</h3><div class="tw"><table><thead><tr><th></th><th>EPS</th><th>İleri F/K</th><th>EPS aralığı</th><th>Analist</th><th>Gelir</th><th>İleri F/S</th></tr></thead><tbody>' +
+    var tah = '<div class="vgrid"><div class="blk wide"><h3>Analist tahminleri</h3><div class="tw"><table><thead><tr><th></th><th>EPS</th><th>İleri F/K</th><th>EPS aralığı</th><th>Analist</th><th>Gelir</th><th>İleri F/S</th></tr></thead><tbody>' +
       rw("Mevcut yıl", e.eps0, e.eps0_lo, e.eps0_hi, e.an0, e.rev0, e.pe0, e.ps0) + rw("Gelecek yıl", e.eps1, e.eps1_lo, e.eps1_hi, e.an1, e.rev1, e.pe1, e.ps1) + '</tbody></table></div>' +
       (e.kur_uyari ? '<p class="vn">F/K gösterilmiyor: hisse fiyatı ile EPS tahmini aynı para biriminde olmayabilir (ADR).</p>' : "") + '</div>';
+    var fk = '<div class="vgrid">';
     if (hasPe) {
       function r(l, p, t, f) { return '<tr><td>' + l + '</td><td class="' + cls(p) + '">' + pc(p) + '</td><td class="' + cls(t) + '">' + pc(t) + '</td><td class="' + (f === null || f === undefined ? "neu" : cls(-f)) + '">' + pc(f) + '</td></tr>'; }
-      out += '<div class="blk"><h3>Son 5 ve 20 gün</h3><div class="tw"><table><thead><tr><th></th><th>Fiyat</th><th>Mevcut yıl EPS tahmini</th><th>İleri F/K</th></tr></thead><tbody>' + r("5 gün", s.d5, e.r5, e.pc5) + r("20 gün", s.d20, e.r20, e.pc20) + '</tbody></table></div><p class="vn">EPS tahmini 7 ve 30 gün önceki tahmine göre. F/K değişiminde yeşil ucuzlama, kırmızı pahalanmadır.</p></div>';
+      tah += '<div class="blk"><h3>Son 5 ve 20 gün</h3><div class="tw"><table><thead><tr><th></th><th>Fiyat</th><th>Mevcut yıl EPS tahmini</th><th>İleri F/K</th></tr></thead><tbody>' + r("5 gün", s.d5, e.r5, e.pc5) + r("20 gün", s.d20, e.r20, e.pc20) + '</tbody></table></div><p class="vn">EPS tahmini 7 ve 30 gün önceki tahmine göre. F/K değişiminde yeşil ucuzlama, kırmızı pahalanmadır.</p></div>';
       if (e.pc20 !== null && e.pc20 !== undefined && e.r20 !== null && e.r20 !== undefined) {
         function sg2(v, top) { var wd = Math.min(Math.abs(v) / 15 * 50, 50); return '<div class="sg' + (top ? "" : " b") + '" style="left:' + (v >= 0 ? 50 : 50 - wd) + '%;width:' + wd + '%;background:' + (v > 0 ? "var(--down)" : "var(--up)") + '"></div>'; }
-        out += '<div class="blk"><h3>Çarpan neden değişti (20 gün)</h3><div class="vbar" role="img" aria-label="Fiyat ve tahmin etkisi">' + sg2(s.d20, true) + sg2(-e.r20, false) + '</div><p class="vn">Üst çubuk fiyat (' + pc(s.d20) + '), alt çubuk tahmin revizyonu (' + pc(e.r20) + '). Sola giden çubuk çarpanı düşürür (ucuzlar), sağa giden artırır.</p></div>';
+        fk += '<div class="blk"><h3>Çarpan neden değişti (20 gün)</h3><div class="vbar" role="img" aria-label="Fiyat ve tahmin etkisi">' + sg2(s.d20, true) + sg2(-e.r20, false) + '</div><p class="vn">Üst çubuk fiyat (' + pc(s.d20) + '), alt çubuk tahmin revizyonu (' + pc(e.r20) + '). Sola giden çubuk çarpanı düşürür (ucuzlar), sağa giden artırır.</p></div>';
       }
     }
     var bl = e.bl, today = DATA.meta.ref_date, b2;
     if (hasPe && bl && bl.for && bl.for < today) { var dm = (e.pe0 / bl.pe - 1) * 100; b2 = '<div class="kv"><span>Bilanço (' + fmtShort(bl.for) + ') öncesi F/K</span><span>' + num(bl.pe, 1) + '</span></div><div class="kv"><span>Bugün</span><span>' + num(e.pe0, 1) + ' <span class="' + cls(-dm) + '">(' + pc(dm) + ')</span></span></div>'; }
     else if (hasPe && s.earn) b2 = '<p class="vn">Bilanço ' + fmtShort(s.earn) + '. Öncesi F/K bu tarihe kadar kaydedilir, bilanço sonrası bugünkü değerle kıyaslanır.</p>';
     else b2 = '<p class="vn">Bilanço öncesi F/K kaydı yok; bir sonraki bilançodan itibaren kaydedilir.</p>';
-    out += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div>' + bilPanel(s.symbol) + '<p class="vn">Kaynak: Yahoo Finance analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
-    return out;
+    fk += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div>';
+    tah += '</div>';
+    var tabs = [["fiyat", "Fiyat", vchart(s)], ["tahmin", "Tahminler", tah], ["fk", "F/K", fk], ["bilanco", "Bilanço", bilPanel(s.symbol)]];
+    var cur = VTAB[s.symbol] || ((s.h && s.h.length >= 25) ? "fiyat" : "tahmin");
+    var bar = tabs.map(function (t) { return '<button type="button" class="vt' + (cur === t[0] ? " on" : "") + '" data-vt="' + t[0] + '" data-s="' + esc(s.symbol) + '">' + t[1] + "</button>"; }).join("");
+    var body = tabs.filter(function (t) { return t[0] === cur; })[0][2];
+    return '<div class="vtabs">' + bar + "</div>" + body + '<p class="vn">Kaynak: Yahoo Finance fiyat ve analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
   }
   var BIL = {};
   function bilTable(a, cur) {
@@ -489,6 +522,13 @@
     if (!th || !DATA) return;
     var k = th.getAttribute("data-k");
     AI_SORT = { k: k, dir: AI_SORT.k === k ? -AI_SORT.dir : (k === "symbol" || k === "status" || k === "trend" ? 1 : -1) };
+    draw();
+  });
+  document.addEventListener("click", function (e) {
+    var t = e.target.closest ? e.target.closest("[data-vt],[data-vr]") : null;
+    if (!t || !DATA) return;
+    var sy = t.getAttribute("data-s");
+    if (t.hasAttribute("data-vt")) VTAB[sy] = t.getAttribute("data-vt"); else VRNG[sy] = parseInt(t.getAttribute("data-vr"), 10);
     draw();
   });
   document.addEventListener("input", function (e) {
