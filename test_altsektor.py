@@ -51,5 +51,10 @@ def main():
     assert len(r4["olaylar"][0]["gunler"]) == 2
     # önceki karar kaydı
     assert "onceki" in r4["gruplar"][0]["uyum"]
+    # eski çeyrek: Yahoo sürpriz kaydı daha yeni çeyreği gösteriyorsa güvenilmez sayılır
+    g0 = {"analiz": {"donem": "2026-05-31", "guvenilir": True, "uyari": []}, "surpriz": [{"donem": "2026-09-30", "gercek": 0.28, "yuzde": 121.0}]}
+    assert A.bilanco_gostergeleri(g0)["guvenilir"] is False
+    g1 = {"analiz": {"donem": "2026-06-30", "guvenilir": True, "uyari": []}, "surpriz": [{"donem": "2026-09-30", "gercek": 0.28, "yuzde": 8.0}]}
+    assert A.bilanco_gostergeleri(g1)["guvenilir"] is True   # bir çeyrek fark normal: yeni tablolar birkaç gün sonra gelir
     print("test_altsektor: tamam")
 main()

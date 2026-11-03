@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+import datetime as dt
 import statistics
 
 DIGER = "Diğer"
@@ -39,6 +40,17 @@ def bilanco_gostergeleri(b):
         x = sp[-1]
         y = x.get("yuzde")
         out["surpriz"] = {"donem": x["donem"], "yuzde": y, "sonuc": None if y is None else "aştı" if y > 1 else "kaçırdı" if y < -1 else "beklentide"}
+    eski = any(str(w).startswith("son çeyrek 150") for w in out["uyari"])
+    if sp and a.get("donem"):  # Yahoo sürpriz kaydı yeni çeyreği gösteriyor ama tablolar geride: şirket açıklamış, kayıt eski
+        try:
+            fark = (dt.date.fromisoformat(sp[-1]["donem"]) - dt.date.fromisoformat(a["donem"])).days
+        except Exception:  # noqa: BLE001
+            fark = 0
+        if fark > 100 and sp[-1].get("gercek") is not None:
+            eski = True
+            out["uyari"] = out["uyari"] + ["yeni bilanço açıklanmış ama finansal tablolar kayıtta henüz yok: gösterilen çeyrek eski"]
+    if eski:
+        out["guvenilir"] = False  # eski çeyrek güncel gibi gösterilmez, gruplarda medyana ve puana sokulmaz
     for ad in ("qoq",):
         d = {x["k"]: x for x in (a.get(ad) or {}).get("satirlar", [])}
         out[ad + "_gelir"] = d["gelir"]["fark"] if "gelir" in d else None
