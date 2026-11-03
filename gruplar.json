@@ -117,7 +117,8 @@
     "EROC",
     "LEU",
     "ENPH",
-    "SEDG"
+    "SEDG",
+    "INIO"
   ],
   "Diğer": [
     "IONQ",
@@ -126,6 +127,8 @@
     "SPCX",
     "FTAI",
     "LASR",
-    "SOLS"
+    "SOLS",
+    "META",
+    "PLTR"
   ]
 }

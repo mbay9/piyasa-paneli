@@ -169,6 +169,10 @@
    "name": "Hewlett Packard Enterprise Company"
   },
   {
+   "symbol": "INIO",
+   "name": "INNIO N.V."
+  },
+  {
    "symbol": "INTC",
    "name": "Intel Corporation"
   },
@@ -211,6 +215,10 @@
   {
    "symbol": "MCHP",
    "name": "Microchip Technology Inc"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms, Inc."
   },
   {
    "symbol": "MKSI",
@@ -287,6 +295,10 @@
   {
    "symbol": "PENG",
    "name": "Penguin Solutions, Inc."
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies Inc."
   },
   {
    "symbol": "QCOM",
