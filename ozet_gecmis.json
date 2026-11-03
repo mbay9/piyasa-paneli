@@ -472,5 +472,24 @@
    "btc": null,
    "not": "Kore ABD teknoloji/çip zayıflığının ardından sert düştü, önceki günkü toparlanma silindi; Japonya tatildeydi (Kültür Günü); Bitcoin verisi güncel değildi (son tarih 1 Kas), yön yazılmadı"
   }
+ },
+ {
+  "date": "2026-11-03",
+  "gun": "yukari",
+  "trend": "yukari",
+  "vix": "yuksek",
+  "vix_yon": "geriledi",
+  "katilim": "genis",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "teknoloji",
+   "iletisim"
+  ],
+  "sektor_geride": [
+   "temel tuketim",
+   "malzeme"
+  ],
+  "ai": "zayif",
+  "not": "Üç günlük düşüşün ardından yükseliş; teknoloji ve çipler toparlandı ama genel tablo hâlâ zayıf, VIX hafif geriledi"
  }
 ]
