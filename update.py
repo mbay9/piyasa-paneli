@@ -284,6 +284,10 @@ def sector_block(frames):
                      "from_high": m.get("from_high"), "trend": m.get("trend"), "status": status,
                      "spark": m.get("spark")})
     rows.sort(key=lambda x: (x["rel20"] is None, -(x["rel20"] or 0)))
+    # Lider yalnizca SPY'dan iyi ve SMA 50 ustundeki sektorlerin en guclu 3'u; esigi gecen diger sektorler "Guclu" (rows rel20'ye gore sirali)
+    adaylar = [x for x in rows if x["status"] == "Lider"]
+    for x in adaylar[3:]:
+        x["status"] = "Güçlü"
     return rows
 
 
