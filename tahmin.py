@@ -32,6 +32,10 @@ def tek(sym):
             "rev": _satir(re_, idx, "avg"), "rev_lo": _satir(re_, idx, "low"), "rev_hi": _satir(re_, idx, "high"), "rev_an": _satir(re_, idx, "numberOfAnalysts"),
             "eps_7g": _satir(tr, idx, "7daysAgo"), "eps_30g": _satir(tr, idx, "30daysAgo"), "eps_60g": _satir(tr, idx, "60daysAgo"), "eps_90g": _satir(tr, idx, "90daysAgo"),
         }
+    try:  # çeyreklik beklenti (bu çeyrek / gelecek çeyrek): bilanço öncesi değerleri saklamak için her gün kaydedilir
+        out["q"] = {"eps0q": _satir(ee, "0q", "avg"), "rev0q": _satir(re_, "0q", "avg"), "eps1q": _satir(ee, "+1q", "avg"), "rev1q": _satir(re_, "+1q", "avg")}
+    except Exception:  # noqa: BLE001
+        out["q"] = None
     try:
         info = t.info or {}
         out["fye"] = {"son": info.get("lastFiscalYearEnd"), "sonraki": info.get("nextFiscalYearEnd"), "ceyrek": info.get("mostRecentQuarter")}
@@ -72,6 +76,11 @@ def turet(x, e, onceki=None, bugun=None):
          "eps0": _r(y0["eps"], 3), "eps0_lo": _r(y0["eps_lo"], 3), "eps0_hi": _r(y0["eps_hi"], 3),
          "eps1": _r(y1["eps"], 3), "eps1_lo": _r(y1["eps_lo"], 3), "eps1_hi": _r(y1["eps_hi"], 3),
          "rev0": _r(y0["rev"] and y0["rev"] / 1e6, 1), "rev1": _r(y1["rev"] and y1["rev"] / 1e6, 1), "revu": x.get("fcu")}
+    q = e.get("q")
+    if bugun and q and any(v is not None for v in q.values()):
+        qh = [p for p in ((onceki or {}).get("qh") or []) if p[0] != bugun]
+        qh.append([bugun, _r(q.get("eps0q"), 3), _r(q.get("rev0q") and q["rev0q"] / 1e6, 1), _r(q.get("eps1q"), 3), _r(q.get("rev1q") and q["rev1q"] / 1e6, 1)])
+        o["qh"] = qh[-14:]  # [tarih, bu çeyrek EPS, bu çeyrek gelir (milyon), gelecek çeyrek EPS, gelecek çeyrek gelir]
     if not kur_ok:
         o["kur_uyari"] = True
         return o

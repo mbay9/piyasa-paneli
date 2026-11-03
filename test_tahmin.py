@@ -39,4 +39,8 @@ o = tahmin.turet(x(earn=None, close=80.0), e(), {"bl": o["bl"]}, "2026-11-06")
 assert o["bl"]["pe"] == 10.0 and o["pe0"] == 8.0, o
 o2 = tahmin.turet(x(earn=None, close=80.0), e(), {"bl": {"for": "2026-11-05", "pe": 10.0, "d": "2026-11-03", "eps": 8.0}}, "2026-11-03")
 assert "bl" not in o2, o2   # takvimde tarih kalmadı ve tarih gelecekte görünüyor: eski öncesi kayıt kullanılmaz
+ee = e(); ee["q"] = {"eps0q": 4.22, "rev0q": 1.26e9, "eps1q": 5.9, "rev1q": 1.5e9}
+oq = tahmin.turet(x(), ee, None, "2026-11-01")
+oq2 = tahmin.turet(x(), ee, oq, "2026-11-02")
+assert oq["qh"] == [["2026-11-01", 4.22, 1260.0, 5.9, 1500.0]] and len(oq2["qh"]) == 2, oq2
 print("test_tahmin: tamam")
