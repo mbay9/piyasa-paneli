@@ -40,13 +40,28 @@ def metne(h):
 
 
 def basvurular(cik, bugun, gun=GUN):
+    """Son günlerdeki başvurular: (tarih, no, ana belge, tür). 8-K madde 2.02 (bilanço bülteni) ve 10-Q/10-K (nakit akışı için)."""
     d = json.loads(al(f"https://data.sec.gov/submissions/CIK{int(cik):010d}.json"))["filings"]["recent"]
     esik = (bugun - dt.timedelta(days=gun)).isoformat()
     out = []
     for i, f in enumerate(d["form"]):
-        if f == "8-K" and "2.02" in (d["items"][i] or "").split(",") and d["filingDate"][i] >= esik:
-            out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i]))
+        if d["filingDate"][i] < esik:
+            continue
+        if f == "8-K" and "2.02" in (d["items"][i] or "").split(","):
+            out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i], "8-K"))
+        elif f in ("10-Q", "10-K"):
+            out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i], f))
     return out
+
+
+def nakit_akisi(cik, acc, birincil):
+    """10-Q/10-K içinden yalnız nakit akışı tablosunu çıkarır (işletme faaliyetleri, yatırım faaliyetleri)."""
+    t = metne(al(f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{birincil}"))
+    for m in re.finditer(r"(?i)STATEMENTS? OF CASH FLOWS", t):
+        parca = t[m.start(): m.start() + 9000]
+        if re.search(r"(?i)operating activities", parca) and re.search(r"(?i)investing activities", parca):
+            return parca
+    return None
 
 
 def bulten(cik, acc, birincil=""):
@@ -76,9 +91,20 @@ def ana(semboller, cikti="bildirim", bugun=None):
         if not cik:
             continue
         try:
-            for tarih, acc, bir in basvurular(cik, bugun):
-                yol = os.path.join(cikti, s, f"{tarih}_{acc}.txt")
+            for tarih, acc, bir, tur in basvurular(cik, bugun):
+                yol = os.path.join(cikti, s, f"{tarih}_{acc}.txt" if tur == "8-K" else f"{tarih}_{acc}_{tur}_nakit.txt")
                 if os.path.exists(yol):
+                    continue
+                if tur != "8-K":
+                    t = nakit_akisi(cik, acc, bir)
+                    url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{bir}"
+                    if t:
+                        os.makedirs(os.path.dirname(yol), exist_ok=True)
+                        open(yol, "w", encoding="utf-8").write(f"KAYNAK: {url}\nSEMBOL: {s}\nBASVURU_TARIHI: {tarih}\nBASVURU: {acc}\nTUR: {tur} nakit akışı tablosu\n\n{t}\n")
+                        yeni += 1
+                        print("yeni:", s, tarih, tur, "nakit akışı")
+                    else:
+                        hata[s] = f"{acc}: {tur} nakit akışı tablosu bulunamadı"
                     continue
                 url, t = bulten(cik, acc, bir)
                 if not t:
