@@ -1,0 +1,251 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1451809/000145180926000076/sitm-q326x8kxexx991.htm
+SEMBOL: SITM
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0001451809-26-000076
+
+EX-99.1
+2
+sitm-q326x8kxexx991.htm
+EX-99.1
+Document
+Exhibit 99.1
+SiTime Reports Third Quarter 2026 Financial Results
+Q3 Net Revenue Increased 257% to $298.7 Million
+SANTA CLARA, Calif., November 4, 2026 – SiTime Corporation, (Nasdaq: SITM), the Precision Timing company, today announced financial results for the third quarter ended September 30, 2026.
+Net revenue in the third quarter of 2026 was $298.7 million, as compared to $83.6 million in the year ago quarter.
+“With its rapid organic growth and the addition of TPD, SiTime is now operating at a new level of scale and financial performance,” said Rajesh Vashist, chairman and CEO of SiTime. “In Q3, growth was broad-based, demonstrating strength well beyond any single market. Simultaneously, core CED revenue grew 202% year over year as the AI infrastructure buildout continued to drive demand for differentiated timing. TPD integration has gone exceptionally well across our teams, customers and roadmap. We exited the quarter with an annualized revenue run rate above $1 billion and substantial opportunity still ahead.”
+In the third quarter of 2026, GAAP gross profit was $154.1 million, or 51.6% of revenue, GAAP operating expenses were $145.8 million, GAAP income from operations was $8.3 million, and GAAP net income was $4.4 million, or $0.14 per diluted share.
+In the third quarter of 2026, non-GAAP gross profit was $211.1 million, or 70.7% of revenue, non-GAAP operating expenses were $81.6 million, non-GAAP income from operations was $129.5 million and non-GAAP net income was $130.3 million, or $4.01 per diluted share.
+Total cash, cash equivalents and short-term investments were $324.3 million on September 30, 2026.
+SiTime plans to discuss its business outlook as part of today’s scheduled conference call.
+SiTime also announced a three-for-one forward stock split of SiTime’s issued common stock to make stock ownership more accessible to employees and investors. The split will be effected through an amendment to SiTime’s Amended and Restated Certificate of Incorporation, which will result in a proportionate increase in the number of shares of authorized common stock. Each record holder of common stock as of the close of market on Thursday, December 3, 2026, will receive two additional shares of common stock for each one share of common stock owned, to be distributed after the close of market on Friday, December 4, 2026. Trading is expected to commence on a split-adjusted basis at market open on Monday, December 7, 2026.
+Use of Non-GAAP Financial Information
+This press release and its attachments include certain non-GAAP supplemental performance measures. The presentation of this financial information is not intended to be considered in isolation or as a substitute for the financial information prepared and presented in accordance with GAAP.
+SiTime believes that the presentation of non-GAAP financial measures provides important supplemental information to management and investors regarding financial and business trends relating to SiTime’s financial condition and results of operations. SiTime believes that these non-GAAP financial measures provide additional insight into SiTime’s ongoing performance and core operational activities and has chosen to provide these measures for more consistent and meaningful comparison between periods. These measures should only be used to evaluate SiTime’s results of operations in conjunction with the corresponding GAAP measures. The non-GAAP financial measures exclude stock-based compensation expense, amortization of acquired intangibles, amortization of inventory step-up costs, amortization of financing related transaction costs, and acquisition-related expenses which include transaction and certain other cash costs associated with business acquisition as well as changes in the estimated fair value of earn out liabilities and accretion of acquisition consideration payable. The reconciliation between GAAP and non-GAAP financial results is provided in the financial statements portion of this release.
+Inducement Plan Grants
+SiTime granted restricted stock unit awards (“RSUs”) on November 2, 2026 that were approved by the Compensation and Talent Committee of its Board of Directors under SiTime’s Amended and Restated 2022 Inducement Award Plan, as a material inducement to the employment of 71 newly hired individuals globally. The RSUs were approved in accordance with Nasdaq Listing Rule 5635(c)(4). The inducement grants consisted of an aggregate of 47,976 RSUs. For these newly hired individuals, one-fourth of the RSUs will vest on the first February 20, May 20, August 20, or November 20, falling in the one-year anniversary quarter of the applicable vesting start date, and then 1/16 th of the RSUs will vest in equal quarterly installments on each February 20, May 20, August 20, and November 20 thereafter, subject to each such employee’s
+continued service on each vesting date. The inducement grants are subject to the terms and conditions of award agreements covering the RSU grants and SiTime’s Amended and Restated 2022 Inducement Award Plan.
+Conference Call
+SiTime will broadcast the financial results for its third quarter of 2026 via conference call today, November 4, 2026, at 2:00 p.m. Pacific Time (5:00 p.m. Eastern Time). To join the conference call via phone, participants are required to complete the following registration form to receive a dial-in number and dedicated PIN for accessing the conference call. The conference call will also be available via a live audio webcast on the investor relations section of the SiTime website at investor.sitime.com. Please access the website at least a few minutes prior to the start of the call to download and install any necessary audio software. An archived webcast replay of the call will be available on the website.
+About SiTime
+SiTime is the Precision Timing company. Our people and products help engineers build the impossible. Customers trust SiTime solutions in more than 400 applications, including AI hardware, autonomous vehicles, low Earth orbit satellites and wearables. Built on decades of innovation, our oscillators, clocks, resonators and software deliver higher system performance, greater resilience and better reliability. For more information, visit www.sitime.com.
+Forward-Looking Statements
+This press release and the earnings call referencing this press release contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These forward-looking statements involve risks, uncertainties, assumptions, and other factors that may cause actual results or outcomes to differ materially from those anticipated in such forward-looking statements. The risks, uncertainties, assumptions, and other factors include, but are not limited to our expectations and trends relating to the growth of our new products, our product differentiation and market acceptance of our products, and our ability to accurately forecast our future performance, business and growth. More information about these and other risks, uncertainties, and other factors that may cause actual outcomes and results to differ materially from those included in the forward-looking statements contained in this release are included under the caption “Risk Factors” and elsewhere in our most recent Form 10-Q filed with the Securities and Exchange Commission (the “SEC”) and other filings SiTime makes with the SEC from time to time, including SiTime's Annual Report on Form 10-K that has been filed for the year ended December 31, 2025. The financial information set forth in this release reflects estimates based on information available at this time. While SiTime believes these estimates to be reasonable, these amounts could differ materially from reported amounts in SiTime’s Quarterly Report on Form 10-Q for the quarter ended September 30, 2026 and SiTime’s other filings with the SEC. Forward-looking statements speak only as of the date the statements are made and are based on information available to SiTime at the time those statements are made and/or management's good faith belief as of that time with respect to future events. Except as required by law, SiTime undertakes no obligation, and does not intend, to update these forward-looking statements.
+SiTime Corporation
+Unaudited GAAP Condensed Consolidated Statements of Operations
+| | | | | | | | | | | | | | | | | |
+| Three months ended |
+| September 30, 2026 | | June 30, 2026 | | September 30, 2025 |
+| | | | | |
+| (in thousands, except per share data)
+|
+Revenue | $ | 298,671 | | | $ | 157,432 | | | $ | 83,567 | |
+Cost of revenue | 144,553 | | | 58,290 | | | 38,850 | |
+Gross profit | 154,118 | | | 99,142 | | | 44,717 | |
+Operating expenses: | | | | | |
+Research and development | 62,412 | | | 36,117 | | | 30,009 | |
+Selling, general and administrative | 62,085 | | | 46,301 | | | 30,603 | |
+Acquisition related costs | 21,288 | | | 8,509 | | | 126 | |
+Total operating expenses | 145,785 | | | 90,927 | | | 60,738 | |
+Income (loss) from operations | 8,333 | | | 8,215 | | | (16,021) | |
+Interest income | 1,487 | | | 12,545 | | | 8,275 | |
+Interest expense | (5,094) | | | (2,247) | | | — | |
+Other expense, net | (199) | | | (317) | | | (157) | |
+Income (loss) before income taxes | 4,527 | | | 18,196 | | | (7,903) | |
+Income tax expense | (174) | | | (40) | | | (111) | |
+Net income (loss) | $ | 4,353 | | | $ | 18,156 | | | $ | (8,014) | |
+Net income (loss) attributable to common stockholders and comprehensive income (loss) | $ | 4,353 | | | $ | 18,156 | | | $ | (8,014) | |
+Net income (loss) per share attributable to common stockholders, basic | $ | 0.14 | | | $ | 0.69 | | | $ | (0.31) | |
+Net income (loss) per share attributable to common stockholders, diluted | $ | 0.14 | | | $ | 0.66 | | | $ | (0.31) | |
+Weighted-average shares used to compute basic net income (loss) per share | 30,134 | | 26,450 | | 26,048 |
+Weighted-average shares used to compute diluted net income (loss) per share | 31,170 | | 27,490 | | 26,048 |
+SiTime Corporation
+Unaudited GAAP Condensed Consolidated Statements of Operations
+| | | | | | | | | | | |
+| Nine Months Ended |
+| September 30, 2026 | | September 30, 2025 |
+| | | |
+| (in thousands, except per share data)
+|
+Revenue | $ | 569,670 | | | $ | 213,375 | |
+Cost of revenue | 249,455 | | | 102,270 | |
+Gross profit | 320,215 | | | 111,105 | |
+Operating expenses: | | | |
+Research and development | 131,266 | | | 90,598 | |
+Selling, general and administrative | 147,322 | | | 85,689 | |
+Acquisition related costs | 37,417 | | | 3,560 | |
+Total operating expenses | 316,005 | | | 179,847 | |
+Income (loss) from operations | 4,210 | | | (68,742) | |
+Interest income | 21,342 | | | 16,832 | |
+Interest expense | (7,341) | | | — | |
+Other (expense) income, net | (691) | | | 53 | |
+Income (loss) before income taxes | 17,520 | | | (51,857) | |
+Income tax expense | (228) | | | (213) | |
+Net income (loss) | $ | 17,292 | | | $ | (52,070) | |
+Net income (loss) attributable to common stockholders and comprehensive income (loss) | $ | 17,292 | | | $ | (52,070) | |
+Net income (loss) per share attributable to common stockholders, basic | $ | 0.63 | | | $ | (2.12) | |
+Net income (loss) per share attributable to common stockholders, diluted | $ | 0.60 | | | $ | (2.12) | |
+Weighted-average shares used to compute basic net income (loss) per share | 27,656 | | 24,551 |
+Weighted-average shares used to compute diluted net income (loss) per share | 28,636 | | 24,551 |
+SiTime Corporation
+Unaudited Reconciliation of Non-GAAP Adjustments | | | | | | | | | | | | | | | | | |
+| Three months ended |
+| September 30, 2026 | | June 30, 2026 | | September 30, 2025 |
+| (in thousands, except per share data)
+|
+Reconciliation of GAAP gross profit and margin to non-GAAP | | | | | |
+Revenue | $ | 298,671 | | | $ | 157,432 | | | $ | 83,567 | |
+GAAP gross profit | 154,118 | | | 99,142 | | | 44,717 | |
+GAAP gross margin | 51.6 | % | | 63.0 | % | | 53.5 | % |
+Amortization of acquired intangibles | 53,239 | | | 5,744 | | | 3,573 | |
+Amortization of inventory step-up costs | 3,020 | | | — | | | — | |
+Stock-based compensation | 679 | | | 699 | | | 831 | |
+Non-GAAP gross profit | $ | 211,056 | | | $ | 105,585 | | | $ | 49,121 | |
+Non-GAAP gross margin | 70.7 | % | | 67.1 | % | | 58.8 | % |
+| | | | | |
+Reconciliation of GAAP operating expenses to non-GAAP | | | | | |
+GAAP research and development expenses | $ | 62,412 | | | $ | 36,117 | | | $ | 30,009 | |
+Stock-based compensation | (13,788) | | | (10,501) | | | (11,485) | |
+Non-GAAP research and development expenses | $ | 48,624 | | | $ | 25,616 | | | $ | 18,524 | |
+| | | | | |
+GAAP selling, general and administrative expenses | $ | 62,085 | | | $ | 46,301 | | | $ | 30,603 | |
+Amortization of acquired intangibles | (8,580) | | | — | | | — | |
+Stock-based compensation | (20,554) | | | (19,793) | | | (15,441) | |
+| | | | | |
+Non-GAAP selling, general and administrative expenses | $ | 32,951 | | | $ | 26,508 | | | $ | 15,162 | |
+| | | | | |
+GAAP acquisition related costs | $ | 21,288 | | | $ | 8,509 | | | $ | 126 | |
+Acquisition related costs | (21,288) | | | (8,509) | | | (126) | |
+Non-GAAP acquisition related costs | $ | — | | | $ | — | | | $ | — | |
+Total Non-GAAP operating expenses | $ | 81,575 | | | $ | 52,124 | | | $ | 33,686 | |
+| | | | | |
+Reconciliation of GAAP income (loss) from operations to non-GAAP income from operations | | | | | |
+GAAP income (loss) from operations | $ | 8,333 | | | $ | 8,215 | | | $ | (16,021) | |
+Acquisition related costs | 21,288 | | | 8,509 | | | 126 | |
+| | | | | |
+Amortization of acquired intangibles | 61,819 | | | 5,744 | | | 3,573 | |
+Amortization of inventory step-up costs | 3,020 | | | — | | | — | |
+Stock-based compensation | 35,021 | | | 30,993 | | | 27,757 | |
+Non-GAAP income from operations | $ | 129,481 | | | $ | 53,461 | | | $ | 15,435 | |
+Non-GAAP income from operations as a percentage of revenue | 43.4 | % | | 34.0 | % | | 18.5 | % |
+| | | | | |
+Reconciliation of GAAP net income (loss) to non-GAAP net income | | | | | |
+GAAP net income (loss) | $ | 4,353 | | | $ | 18,156 | | | $ | (8,014) | |
+Acquisition related costs | 21,288 | | | 8,509 | | | 126 | |
+Amortization of financing related transaction costs | 4,776 | | | 2,247 | | | — | |
+Amortization of acquired intangibles | 61,819 | | | 5,744 | | | 3,573 | |
+Amortization of inventory step-up costs | 3,020 | | | — | | | — | |
+Stock-based compensation | 35,021 | | | 30,993 | | | 27,757 | |
+Non-GAAP net income | $ | 130,277 | | | $ | 65,649 | | | $ | 23,442 | |
+Weighted-average shares used to compute diluted net income per share (1)
+| 32,468 | | 28,061 | | 26,938 |
+| | | | | |
+GAAP net income (loss) per share diluted | $ | 0.14 | | | $ | 0.66 | | | $ | (0.31) | |
+| | | | | | | | | | | | | | | | | |
+Non-GAAP adjustments detailed above | 3.87 | | | 1.68 | | | 1.18 | |
+Non-GAAP net income per share diluted | $ | 4.01 | | | $ | 2.34 | | | $ | 0.87 | |
+(1) Non-GAAP diluted weighted average shares are calculated using the treasury stock method and differ from GAAP diluted weighted average shares in certain periods due to non-GAAP net income reported.
+SiTime Corporation
+Unaudited Reconciliation of Non-GAAP Adjustments
+| | | | | | | | | | | |
+| Nine Months Ended |
+| September 30, 2026 | | September 30, 2025 |
+| (in thousands, except per share data)
+|
+Reconciliation of GAAP gross profit and margin to non-GAAP | | | |
+Revenue | $ | 569,670 | | | $ | 213,375 | |
+GAAP gross profit | 320,215 | | | 111,105 | |
+GAAP gross margin | 56.2 | % | | 52.1 | % |
+Amortization of acquired intangibles | 64,728 | | | 10,718 | |
+Amortization of inventory step-up costs | 3,020 | | | — | |
+Stock-based compensation | 1,968 | | | 2,357 | |
+Non-GAAP gross profit | $ | 389,931 | | | $ | 124,180 | |
+Non-GAAP gross margin | 68.4 | % | | 58.2 | % |
+| | | |
+Reconciliation of GAAP operating expenses to non-GAAP | | | |
+GAAP research and development expenses | $ | 131,266 | | | $ | 90,598 | |
+Stock-based compensation | (35,516) | | | (33,210) | |
+Non-GAAP research and development expenses | $ | 95,750 | | | $ | 57,388 | |
+| | | |
+GAAP selling, general and administrative expenses | $ | 147,322 | | | $ | 85,689 | |
+Amortization of acquired intangibles | (8,580) | | | — | |
+Stock-based compensation | (59,329) | | | (43,561) | |
+| | | |
+Non-GAAP selling, general and administrative expenses | $ | 79,413 | | | $ | 42,128 | |
+| | | |
+GAAP acquisition related costs | $ | 37,417 | | | $ | 3,560 | |
+Acquisition related costs | (37,417) | | | (3,560) | |
+Non-GAAP acquisition related costs | $ | — | | | $ | — | |
+Total Non-GAAP operating expenses | $ | 175,163 | | | $ | 99,516 | |
+| | | |
+Reconciliation of GAAP income (loss) from operations to non-GAAP income from operations | | | |
+GAAP income (loss) from operations | $ | 4,210 | | | $ | (68,742) | |
+Amortization of acquired intangibles | 73,308 | | | 10,718 | |
+Acquisition related costs | 37,417 | | | 3,560 | |
+| | | |
+Amortization of inventory step-up costs | 3,020 | | | — | |
+Stock-based compensation | 96,813 | | | 79,128 | |
+Non-GAAP income from operations | $ | 214,768 | | | $ | 24,664 | |
+Non-GAAP income from operations as a percentage of revenue | 37.7 | % | | 11.6 | % |
+| | | |
+Reconciliation of GAAP net income (loss) to non-GAAP net income | | | |
+GAAP net income (loss) | $ | 17,292 | | | $ | (52,070) | |
+Amortization of acquired intangibles | 73,308 | | | 10,718 | |
+Acquisition related costs | 37,417 | | | 3,560 | |
+Amortization of financing related transaction costs | 7,023 | | | — | |
+Amortization of inventory step-up costs | 3,020 | | | — | |
+Stock-based compensation | 96,813 | | | 79,128 | |
+Non-GAAP net income | $ | 234,873 | | | $ | 41,336 | |
+Weighted-average shares used to compute diluted net income per share (1)
+| 29,264 | | 25,390 |
+| | | |
+GAAP net income (loss) per share diluted | $ | 0.60 | | | $ | (2.12) | |
+Non-GAAP adjustments detailed above | 7.43 | | | 3.75 | |
+Non-GAAP net income per share diluted | $ | 8.03 | | | $ | 1.63 | |
+(1) Non-GAAP diluted weighted average shares are calculated using the treasury stock method and differ from GAAP diluted weighted average shares in certain periods due to non-GAAP net income reported.
+SiTime Corporation
+Unaudited GAAP Condensed Consolidated Balance Sheets
+| | | | | | | | | | | |
+| As of
+|
+| September 30, 2026 | | December 31, 2025 |
+| | | |
+| (in thousands)
+|
+Assets: | | | |
+Current assets: | | | |
+Cash and cash equivalents | $ | 324,350 | | | $ | 16,759 | |
+Short-term investments in held-to-maturity securities | — | | | 791,648 | |
+Accounts receivable, net | 202,880 | | | 45,040 | |
+Inventories | 111,356 | | | 81,557 | |
+Prepaid expenses and other current assets | 19,222 | | | 14,275 | |
+Total current assets | 657,808 | | | 949,279 | |
+Property and equipment, net | 124,533 | | | 105,114 | |
+Intangible assets, net | 2,156,770 | | | 147,366 | |
+Right-of-use assets, net | 14,241 | | | 4,089 | |
+Goodwill | 1,999,072 | | | 87,098 | |
+Other assets | 28,094 | | | 1,753 | |
+Total assets | $ | 4,980,518 | | | $ | 1,294,699 | |
+Liabilities and Stockholders' Equity: | | | |
+Current liabilities: | | | |
+Accounts payable | $ | 34,066 | | | $ | 21,327 | |
+Accrued expenses and other current liabilities | 84,323 | | | 62,678 | |
+Total current liabilities | 118,389 | | | 84,005 | |
+Convertible senior notes, net | 1,319,137 | | | — | |
+Other non-current liabilities | 49,676 | | | 54,512 | |
+Total liabilities | 1,487,202 | | | 138,517 | |
+Commitments and contingencies | | | |
+Stockholders’ equity: | | | |
+Common stock | 3 | | | 3 | |
+Additional paid-in capital | 3,700,925 | | | 1,381,083 | |
+Accumulated deficit | (207,612) | | | (224,904) | |
+Total stockholders’ equity | 3,493,316 | | | 1,156,182 | |
+Total liabilities and stockholders’ equity | $ | 4,980,518 | | | $ | 1,294,699 | |
+Investor Relations Contacts:
+Shelton Group
+Leanne Sievers | Brett Perry
+sitm-ir@sheltongroup.com
+SiTime Corporation
+Beth Howe
+Chief Financial Officer
+investor.relations@sitime.com

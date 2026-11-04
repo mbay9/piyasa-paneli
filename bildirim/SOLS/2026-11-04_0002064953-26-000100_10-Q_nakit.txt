@@ -1,0 +1,130 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2064953/000206495326000100/sols-20260930.htm
+SEMBOL: SOLS
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0002064953-26-000100
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (UNAUDITED)
+(Dollars in millions)
+For The Nine Months Ended September 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income
+| $ | 326 | $ | 231 |
+Adjustments to reconcile net income to net cash provided by operating activities |
+Depreciation | 160 | 151 |
+Amortization | 14 | 15 |
+Equity income of affiliated companies | ( 13 ) | ( 15 ) |
+Gain on sale of fixed assets | — | ( 15 ) |
+Stock-based compensation expense
+| 17 | 19 |
+Other adjustments 1
+| 34 | 1 |
+Changes in assets and liabilities |
+Accounts receivable 2
+| ( 66 ) | ( 46 ) |
+Inventories | 48 | ( 150 ) |
+Other assets, current and noncurrent | ( 104 ) | ( 24 ) |
+Accounts payable 3
+| 84 | 82 |
+Accrued and other liabilities, current 4
+| 201 | 26 |
+Deferred income taxes | 14 | ( 6 ) |
+Deferred income and customer advances | ( 5 ) | 2 |
+Other liabilities, noncurrent 5
+| ( 16 ) | 18 |
+Net cash provided by operating activities
+| 693 | 289 |
+Cash flows from investing activities: |
+Capital expenditures paid 6
+| ( 325 ) | ( 248 ) |
+Cash paid for long-life catalysts and deferred maintenance | — | ( 1 ) |
+Proceeds from disposals of property, plant, and equipment | — | 23 |
+Capitalized software
+| ( 3 ) | ( 2 ) |
+Net cash used for investing activities
+| ( 328 ) | ( 228 ) |
+Cash flows from financing activities: |
+Repurchases of common stock | ( 100 ) | — |
+Dividends
+| ( 36 ) | — |
+Finance lease payments | ( 10 ) | ( 18 ) |
+Bridge loan fees | ( 34 ) | — |
+Principal payments of long term debt | ( 3 ) | — |
+Net transfers to Parent | — | ( 310 ) |
+Net cash used for financing activities
+| ( 183 ) | ( 328 ) |
+Effect of foreign exchange rate changes on cash and cash equivalents | ( 2 ) | 23 |
+Net increase (decrease) in cash and cash equivalents
+| 180 | ( 244 ) |
+Cash and cash equivalents at beginning of period | 534 | 661 |
+Cash and cash equivalents at end of period
+| $ | 714 | $ | 417 |
+__________________
+1. Other adjustments in the current-year includes fees related to a bridge loan facility and backstop revolving credit facility associated with the terminated merger of Element Solutions Inc.
+2. Accounts receivable includes decreases in short term related party receivables of $ 4 million and $ 9 million for the nine months ended September 30, 2026 and 2025, respectively.
+3. Accounts payable includes increases in related party accounts payables of $ 1 million and $ 1 million for the nine months ended September 30, 2026 and 2025, respectively.
+4. Accrued and other liabilities, current includes increases in related party accrued liabilities of $ 6 million and $ 5 million for the nine months ended September 30, 2026 and 2025, respectively.
+5. Other liabilities, noncurrent includes decreases in related party long-term receivable of $ 0 million and $ 7 million for the nine months ended September 30, 2026 and 2025, respectively.
+6. Capital expenditures paid includes net of reimbursements received pursuant to certain contractual arrangements of $ 9 million for the nine months ended September 30, 2026.
+The Notes to the Consolidated Financial Statements are an integral part of this statement.
+6
+SOLSTICE ADVANCED MATERIALS INC.
+CONSOLIDATED STATEMENTS OF EQUITY (UNAUDITED)
+(Dollars in millions, except per share amounts)
+Common Stock 1
+| Additional Paid-in Capital | Treasury Stock | Net Parent Investment | Accumulated Other Comprehensive Loss | Retained Earnings | Noncontrolling Interest | Total Equity |
+Balance as of June 30, 2026 | $ | 2 | $ | 1,506 | $ | — | $ | — | $ | ( 142 ) | $ | 220 | $ | 2 | $ | 1,588 |
+Net income | — | — | — | — | — | 80 | 8 | 88 |
+Dividends ($ 0.075 per share)
+| — | — | — | — | — | ( 12 ) | — | ( 12 ) |
+Repurchases of common stock | — | — | ( 101 ) | — | — | — | — | ( 101 ) |
+Foreign exchange translation adjustment | — | — | — | — | 12 | — | — | 12 |
+Pension and other postretirement benefit adjustments | — | — | — | — | — | — | — | — |
+Changes in fair value of cash flow hedges | — | — | — | — | ( 1 ) | — | — | ( 1 ) |
+Stock-based compensation
+| — | 6 | — | — | — | — | — | 6 |
+Tax withholding for shares issued under employee compensation plans | — | ( 5 ) | — | — | — | — | — | ( 5 ) |
+Balance as of September 30, 2026 | $ | 2 | $ | 1,507 | $ | ( 101 ) | $ | — | $ | ( 131 ) | $ | 288 | $ | 9 | $ | 1,574 |
+Balance as of June 30, 2025 | $ | — | $ | — | $ | — | $ | 3,706 | $ | ( 164 ) | $ | — | $ | ( 69 ) | $ | 3,473 |
+Net income (loss) | — | — | — | ( 35 ) | — | — | 26 | ( 9 ) |
+Foreign exchange translation adjustment | — | — | — | — | ( 5 ) | — | — | ( 5 ) |
+Pension and other postretirement benefit adjustments | — | — | — | — | ( 1 ) | — | — | ( 1 ) |
+Changes in fair value of cash flow hedges | — | — | — | — | 16 | — | — | 16 |
+Net transfers to Parent | — | — | — | ( 289 ) | — | — | ( 4 ) | ( 293 ) |
+Balance as of September 30, 2025 | $ | — | $ | — | $ | — | $ | 3,382 | $ | ( 154 ) | $ | — | $ | ( 47 ) | $ | 3,181 |
+7
+Common Stock 1
+| Additional Paid-in Capital | Treasury Stock | Net Parent Investment | Accumulated Other Comprehensive Loss | Retained Earnings | Noncontrolling Interest | Total Equity |
+Balance as of December 31, 2025 | $ | 2 | $ | 1,495 | $ | — | $ | — | $ | ( 127 ) | $ | 41 | $ | ( 34 ) | $ | 1,377 |
+Net income | — | — | — | — | — | 283 | 43 | 326 |
+Dividends ($ 0.225 per share)
+| — | — | — | — | — | ( 36 ) | — | ( 36 ) |
+Repurchases of common stock | — | — | ( 101 ) | — | — | — | — | ( 101 ) |
+Foreign exchange translation adjustment | — | — | — | — | ( 3 ) | — | — | ( 3 ) |
+Pension and other postretirement benefit adjustments | — | — | — | — | ( 1 ) | — | — | ( 1 ) |
+Changes in fair value of cash flow hedges | — | — | — | — | ( 1 ) | — | — | ( 1 ) |
+Stock-based compensation
+| — | 17 | — | — | — | — | — | 17 |
+Tax withholding for shares issued under employee compensation plans | — | ( 5 ) | — | — | — | — | — | ( 5 ) |
+Balance as of September 30, 2026 | $ | 2 | $ | 1,507 | $ | ( 101 ) | $ | — | $ | ( 131 ) | $ | 288 | $ | 9 | $ | 1,574 |
+Balance as of December 31, 2024 | $ | — | $ | — | $ | — | $ | 3,471 | $ | ( 213 ) | $ | — | $ | ( 76 ) | $ | 3,182 |
+Net income | — | — | — | 196 | — | — | 35 | 231 |
+Foreign exchange translation adjustment | — | — | — | — | 83 | — | — | 83 |
+Pension and other postretirement benefit adjustments | — | — | — | — | ( 3 ) | — | — | ( 3 ) |
+Changes in fair value of cash flow hedges | — | — | — | — | ( 21 ) | — | — | ( 21 ) |
+Net transfers to Parent | — | — | — | ( 285 ) | — | — | ( 6 ) | ( 291 ) |
+Balance as of September 30, 2025 | $ | — | $ | — | $ | — | $ | 3,382 | $ | ( 154 ) | $ | — | $ | ( 47 ) | $ | 3,181 |
+__________________
+1. See Note 11 – Shareowners’ Equity of the Notes to the Consolidated Financial Statements for a rollforward of common stock outstanding.
+The Notes to the Consolidated Financial Statements are an integral part of this statement.
+8
+SOLSTICE ADVANCED MATERIALS INC.
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+(Dollars in tables in millions, unless otherwise noted)
+Note 1. Business Overview and Basis of Presentation
+About the Business
+Solstice Advanced Materials Inc. (“Solstice,” “Solstice Advanced Materials,” “we,” “us,” “our,” the “Business,” or the “Company”) is a global specialty chemicals and advanced materials company with leading positions in refrigerants, semiconductor materials, protective fibers, and healthcare packaging. Prior to October 30, 2025, the Company was wholly owned by Honeywell International Inc. (“Honeywell” or “Parent”).
+On October 8, 2024, Honeywell announced its plan to spin off its Advanced Materials business into an independent, U.S. publicly traded company through a pro rata distribution of all of the outstanding common shares of Solstice Advanced Materials to Honeywell shareowners (the “Spin-off”) that would be tax-free for U.S. federal tax purposes. On October 30, 2025, the Spin-off was consummated by means of a pro-rata distribution (the “Distribution”), which was intended to be tax-free for U.S. federal tax purposes, of all of the issued and outstanding Solstice Advanced Materials common shares to Honeywell’s shareowners of record as of October 17, 2025 (the “Record Date”), at which time each holder of Honeywell's common shares received one Solstice Advanced Materials common share for every four Honeywell common shares held as of the close of business on the Record Date, resulting in the Distribution of 158,727,456 of the Company’s common shares to Honeywell shareowners. Upon completion of the Distribution, on October 30, 2025, the Company commenced “regular way” trading as an independent public company under the ticker symbol “SOLS” on The Nasdaq Stock Market (“Nasdaq”). Following the Distribution, Honeywell does not beneficially own any Solstice Advanced Materials common shares.
+Terminated Acquisition of Element Solutions Inc
+On July 6, 2026, Solstice entered into an Agreement and Plan of Merger (the “Merger Agreement”) to acquire Element Solutions Inc (“Element Solutions”) in a cash-and-stock transaction pursuant to which 

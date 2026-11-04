@@ -1,0 +1,2750 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/103145/000110465926122689/veco-ex99d1.htm
+SEMBOL: VECO
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0001104659-26-122689
+
+EX-99.1
+2
+veco-ex99d1.htm
+EX-99.1
+EXHIBIT 99.1
+​
+​
+VEECO REPORTS THIRD QUARTER 2026 FINANCIAL RESULTS
+​
+Third Quarter 2026 Highlights:
+​
+| ● | Revenue of $209.4 million, compared with $165.9 million in the same period last year |
+| ● | GAAP net income of $13.6 million, or $0.21 per diluted share, compared with $10.6 million, or $0.17 earnings per diluted share in the same period last year |
+| ● | Non-GAAP net income of $24.1 million, or $0.36 per diluted share, compared with $21.8 million, or $0.36 per diluted share in the same period last year |
+​
+Plainview, N.Y., November 4, 2026 -- Veeco Instruments Inc. (Nasdaq: VECO) today announced financial results for its third quarter ended September 30, 2026. Results are reported in accordance with U.S. generally accepted accounting principles (“GAAP”) and are also reported adjusting for certain items (“Non-GAAP”). A reconciliation between GAAP and Non-GAAP operating results is provided at the end of this press release.
+​
+​
+|
+U.S. Dollars in millions, except per share data
+|
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+GAAP Results
+|
+| Q3 '26
+| ​
+| Q3 '25
+|
+Revenue
+| ​
+| $
+| 209.4
+| ​
+| $
+| 165.9
+|
+Net income
+| ​
+| $
+| 13.6
+| ​
+| $
+| 10.6
+|
+Diluted earnings per share
+| ​
+| $
+| 0.21
+| ​
+| $
+| 0.17
+|
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Non-GAAP Results
+|
+| Q3 '26
+| ​
+| Q3 '25
+|
+Operating income
+| ​
+| $
+| 25.2
+| ​
+| $
+| 23.1
+|
+Net income
+| ​
+| $
+| 24.1
+| ​
+| $
+| 21.8
+|
+Diluted earnings per share
+| ​
+| $
+| 0.36
+| ​
+| $
+| 0.36
+|
+​
+​
+“Veeco’s third-quarter performance reflects solid execution and significant opportunities across our business,” said Bill Miller, Ph.D., Veeco’s Chief Executive Officer. “AI infrastructure investment is accelerating technology transitions across leading-edge logic and memory, advanced packaging, and high-speed optical connectivity. This is driving unprecedented customer engagement and order activity across our differentiated portfolio. With greater visibility and strategic investments to expand our manufacturing capacity, we believe Veeco is well positioned to exceed one billion dollars in revenue for the full year 2027.”
+​
+​
+​
+​
+1
+Guidance and Outlook
+​
+The following guidance is provided for Veeco’s fourth quarter 2026:
+​
+| ● | Revenue is expected in the range of $230 million to $260 million |
+| ● | GAAP diluted earnings per share are expected in the range of $0.34 to $0.53 |
+| ● | Non-GAAP diluted earnings per share are expected in the range of $0.50 to $0.70 |
+​
+The following revised guidance is provided for Veeco’s fiscal year 2026:
+​
+| ● | Revenue is expected in the range of $790 million to $820 million |
+| ● | GAAP diluted earnings per share are expected in the range of $0.72 to $0.92 |
+| ● | Non-GAAP diluted earnings per share are expected in the range of $1.32 to $1.52 |
+​
+​
+Conference Call Information
+​
+A conference call reviewing these results has been scheduled for today, November 4, 2026 starting at 5:00pm ET. To join the call, dial 1-877-407-8029 (toll-free) or 1-201-689-8029. Participants may also access a live webcast of the call by visiting the investor relations section of Veeco's website at ir.veeco.com . A replay of the webcast will be made available on the Veeco website that evening. We will post an accompanying slide presentation to our website prior to the beginning of the call.
+​
+About Veeco
+​
+Veeco (NASDAQ: VECO) is an innovative manufacturer of semiconductor process equipment. Our laser annealing, ion beam, metal organic chemical vapor deposition (MOCVD), single wafer etch & clean and lithography technologies play an integral role in the fabrication and packaging of advanced semiconductor devices. With equipment designed to optimize performance, yield and cost of ownership, Veeco holds leading technology positions in the markets we serve. To learn more about Veeco’s systems and service offerings, visit www.veeco.com .
+​
+No Offer or Solicitation
+This communication is not intended to and shall not constitute an offer to purchase or the solicitation of an offer to buy or sell any securities, nor shall there be any sale of securities in any jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such jurisdiction. No offer of securities shall be made, except by means of a prospectus meeting the requirements of Section 10 of the Securities Act of 1933, as amended.
+Forward-looking Statements
+​
+This press release contains “forward-looking statements”, within the meaning of the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995, as amended, that are based on management’s expectations, estimates, projections and assumptions. Words such as “expects,” “anticipates,” “plans,” “believes,” “scheduled,” “estimates” and variations of these words and similar expressions are intended to identify forward-looking statements. Forward-looking statements include, but are not limited to, those regarding anticipated growth and trends in our businesses and markets, including trends related to artificial intelligence and high-performance computing, industry outlooks and demand drivers, statements regarding the pending merger with Axcelis, the timing of shipments, deliveries and revenue recognition, statements regarding shipments currently being held by U.S. Customs, our investment and growth strategies, our development of new products and technologies, our business outlook for current and future periods, our ongoing transformation initiative and the effects thereof on our operations and financial results, the timing, completion and expected benefits of the proposed transaction and other statements that are not historical facts. These statements and their underlying assumptions are subject to risks and uncertainties and are not guarantees of future performance. Factors that could cause actual results to differ materially from those expressed or implied by such statements include, without limitation: the level of demand for our products; global economic and industry conditions; global trade issues, including the effects of foreign and domestic tariffs and the ongoing trade disputes between the U.S. and China, and changes in trade and export license policies; our dependency on third-party suppliers and outsourcing partners; the timing of customer orders; our ability to develop, deliver and support new products and technologies; our ability to expand our current markets, increase market share and develop new markets; the concentrated nature of our customer base; cybersecurity attacks and our ability to safeguard sensitive information and protect our intellectual property rights in key technologies; the effects of regional or global health epidemics; delays in or failure to complete the proposed transaction, whether due to an inability by either party to satisfy one or more conditions to closing, including an inability to obtain regulatory approval in China, the occurrence of events or changes in circumstances that give rise to the termination of the applicable merger agreement by either party, or otherwise; risks related to the pendency of the proposed transaction and its effect on our business, financial condition, results of operations, cash flows and stock price; our ability to achieve the objectives of operational and strategic initiatives and attract, motivate and retain key employees, including as a result of the proposed transaction; diversion of management time and attention from ordinary course business operations to the proposed transaction and other potential disruptions to our business relating thereto; the variability of
+2
+results among products and end-markets, and our ability to accurately forecast future results, market conditions, and customer requirements; the impact of our indebtedness, including our convertible senior notes and our capped call transactions; and other risks and uncertainties described in our SEC filings on Forms 10-K, 10-Q and 8-K, and from time-to-time in our other SEC reports. All forward-looking statements speak only to management’s expectations, estimates, projections and assumptions as of the date of this press release. The Company does not undertake any obligation to update or publicly revise any forward-looking statements to reflect events, circumstances or changes in expectations after the date of this press release.
+​
+- financial tables attached-
+Veeco Contacts:
+​
+Investor Relations: Alex Delacroix (516) 528-1020 adelacroix@veeco.com
+Media: Brenden Wright (410) 984-2610 bwright@veeco.com
+​
+​
+3
+Veeco Instruments Inc. and Subsidiaries
+Condensed Consolidated Statements of Operations
+(in thousands, except per share amounts)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three months ended September 30,
+| ​
+| Nine months ended September 30,
+|
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+|
+Net sales
+|
+| $
+| 209,384
+|
+| $
+| 165,881
+|
+| $
+| 561,206
+|
+| $
+| 499,277
+| ​
+|
+Cost of sales
+| ​
+|
+| 128,995
+| ​
+|
+| 98,178
+| ​
+|
+| 350,157
+| ​
+|
+| 294,380
+| ​
+|
+Gross profit
+| ​
+|
+| 80,389
+| ​
+|
+| 67,703
+| ​
+|
+| 211,049
+| ​
+|
+| 204,897
+| ​
+|
+Operating expenses, net:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Research and development
+| ​
+|
+| 35,059
+| ​
+|
+| 28,988
+| ​
+|
+| 98,277
+| ​
+|
+| 89,062
+| ​
+|
+Selling, general, and administrative
+| ​
+|
+| 28,534
+| ​
+|
+| 24,654
+| ​
+|
+| 82,179
+| ​
+|
+| 73,609
+| ​
+|
+Amortization of intangible assets
+| ​
+|
+| 411
+| ​
+|
+| 771
+| ​
+|
+| 1,723
+| ​
+|
+| 2,413
+| ​
+|
+Merger costs
+| ​
+|
+| 2,260
+| ​
+|
+| 2,609
+| ​
+|
+| 5,736
+| ​
+|
+| 2,609
+| ​
+|
+Other operating expense (income), net
+| ​
+|
+| 26
+| ​
+|
+| 127
+| ​
+|
+| (160)
+| ​
+|
+| 132
+| ​
+|
+Total operating expenses, net
+| ​
+|
+| 66,290
+| ​
+|
+| 57,149
+| ​
+|
+| 187,755
+| ​
+|
+| 167,825
+| ​
+|
+Operating income
+| ​
+|
+| 14,099
+| ​
+|
+| 10,554
+| ​
+|
+| 23,294
+| ​
+|
+| 37,072
+| ​
+|
+Interest income (expense), net
+| ​
+|
+| 1,785
+| ​
+|
+| 1,321
+| ​
+|
+| 4,131
+| ​
+|
+| 3,062
+| ​
+|
+Other income (expense), net
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| (653)
+| ​
+|
+Income before income taxes
+| ​
+|
+| 15,884
+| ​
+|
+| 11,875
+| ​
+|
+| 27,425
+| ​
+|
+| 39,481
+| ​
+|
+Income tax expense
+| ​
+|
+| 2,249
+| ​
+|
+| 1,279
+| ​
+|
+| 2,257
+| ​
+|
+| 5,205
+| ​
+|
+Net income
+|
+| $
+| 13,635
+|
+| $
+| 10,596
+|
+| $
+| 25,168
+|
+| $
+| 34,276
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income per common share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic
+|
+| $
+| 0.22
+|
+| $
+| 0.18
+|
+| $
+| 0.41
+|
+| $
+| 0.58
+| ​
+|
+Diluted
+|
+| $
+| 0.21
+|
+| $
+| 0.17
+|
+| $
+| 0.39
+|
+| $
+| 0.57
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Weighted average number of shares:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic
+| ​
+|
+| 61,109
+| ​
+|
+| 60,077
+| ​
+|
+| 60,889
+| ​
+|
+| 58,993
+| ​
+|
+Diluted
+| ​
+|
+| 66,154
+| ​
+|
+| 60,950
+| ​
+|
+| 65,207
+| ​
+|
+| 60,436
+| ​
+|
+​
+​
+4
+Veeco Instruments Inc. and Subsidiaries
+Condensed Consolidated Balance Sheets
+(in thousands)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| September 30,
+| ​
+| December 31,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+​
+| ​
+| (unaudited)
+| ​
+| ​
+| ​
+|
+Assets
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Current assets:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash and cash equivalents
+| ​
+| $
+| 205,321
+| ​
+| $
+| 163,466
+|
+Short-term investments
+| ​
+|
+| 277,184
+| ​
+|
+| 226,763
+|
+Accounts receivable, net
+| ​
+|
+| 154,064
+| ​
+|
+| 110,685
+|
+Contract assets
+| ​
+|
+| 26,884
+| ​
+|
+| 34,838
+|
+Inventories
+| ​
+|
+| 308,265
+| ​
+|
+| 275,298
+|
+Prepaid expenses and other current assets
+| ​
+|
+| 43,875
+| ​
+|
+| 34,286
+|
+Total current assets
+| ​
+|
+| 1,015,593
+| ​
+|
+| 845,336
+|
+Property, plant and equipment, net
+| ​
+|
+| 116,163
+| ​
+|
+| 108,646
+|
+Operating lease right-of-use assets
+| ​
+| ​
+| 24,715
+| ​
+|
+| 24,606
+|
+Intangible assets, net
+| ​
+|
+| 3,973
+| ​
+|
+| 5,696
+|
+Goodwill
+| ​
+|
+| 214,964
+| ​
+|
+| 214,964
+|
+Deferred income taxes
+| ​
+|
+| 123,538
+| ​
+|
+| 122,935
+|
+Other assets
+| ​
+|
+| 6,714
+| ​
+|
+| 3,612
+|
+Total assets
+| ​
+| $
+| 1,505,660
+| ​
+| $
+| 1,325,795
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Liabilities and stockholders’ equity
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Current liabilities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Accounts payable
+| ​
+| $
+| 68,474
+| ​
+| $
+| 55,345
+|
+Accrued expenses and other current liabilities
+| ​
+|
+| 60,628
+| ​
+|
+| 45,503
+|
+Contract liabilities
+| ​
+|
+| 132,351
+| ​
+|
+| 74,161
+|
+Income taxes payable
+| ​
+|
+| 1,041
+| ​
+|
+| 3,048
+|
+Total current liabilities
+| ​
+|
+| 262,494
+| ​
+|
+| 178,057
+|
+Deferred income taxes
+| ​
+|
+| 458
+| ​
+|
+| 532
+|
+Long-term debt
+| ​
+|
+| 226,835
+| ​
+|
+| 226,009
+|
+Long-term operating lease liabilities
+| ​
+| ​
+| 31,480
+| ​
+|
+| 31,837
+|
+Other liabilities
+| ​
+|
+| 60,471
+| ​
+|
+| 3,852
+|
+Total liabilities
+| ​
+|
+| 581,738
+| ​
+|
+| 440,287
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Total stockholders’ equity
+| ​
+|
+| 923,922
+| ​
+|
+| 885,508
+|
+Total liabilities and stockholders’ equity
+| ​
+| $
+| 1,505,660
+| ​
+| $
+| 1,325,795
+|
+​
+Note on Reconciliation Tables
+​
+The below tables include financial measures adjusted for the impact of certain items; these financial measures are therefore not calculated in accordance with GAAP. These Non-GAAP financial measures exclude items such as: share-based compensation expense; charges relating to restructuring initiatives; non-cash asset impairments; certain other non-operating gains and losses; and acquisition-related items such as transaction costs, non-cash amortization of acquired intangible assets, and certain integration costs.
+These Non-GAAP financial measures may be different from Non-GAAP financial measures used by other companies. Non-GAAP financial measures should not be considered a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP. By excluding these items, Non-GAAP financial measures are intended to facilitate meaningful comparisons to historical operating results, competitors’ operating results, and estimates made by securities analysts. Management is evaluated on key performance metrics including Non-GAAP Operating income (loss), which is used to determine management incentive compensation as well as to forecast future periods. These Non-GAAP financial measures may be useful to investors in allowing for greater transparency of supplemental information used by management in its financial and operational decision-making. In addition, similar Non-GAAP financial measures have historically been reported to investors; the inclusion of comparable numbers provides consistency in financial reporting. Investors are encouraged to review the reconciliation of the Non-GAAP financial measures used in this news release to their most directly comparable GAAP financial measures.
+5
+​
+Reconciliation of GAAP to Non-GAAP Financial Data (Q3 2026)
+(in thousands)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| Non-GAAP Adjustments
+| ​
+| ​
+| ​
+|
+|
+​
+| ​
+| ​
+| ​
+| ​
+| Share-Based
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+|
+Three months ended September 30, 2026
+| ​ ​ ​
+| GAAP
+| ​ ​ ​
+| Compensation
+| ​ ​ ​
+| Amortization
+| ​ ​ ​
+| Other
+| ​ ​ ​
+| Non-GAAP
+|
+|
+Net sales
+| ​
+| $
+| 209,384
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| $
+| 209,384
+|
+|
+Gross profit
+|
+| ​
+| 80,389
+|
+| 1,411
+| ​
+| ​
+|
+| ​
+|
+| ​
+| 81,800
+| ​
+|
+Gross margin
+|
+| ​
+| 38.4
+| %
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+| ​
+| 39.1
+| %
+|
+Operating expenses
+|
+| ​
+| 66,290
+|
+| (7,003)
+| ​
+| (411)
+| ​
+| (2,260)
+| ​
+| ​
+| 56,616
+| ​
+|
+Operating income
+|
+| ​
+| 14,099
+|
+| 8,414
+| ​
+| 411
+|
+| 2,260
+| ^
+| ​
+| 25,184
+| ​
+|
+Net income
+|
+| ​
+| 13,635
+|
+| 8,414
+|
+| 411
+|
+| 1,643
+| ^
+| ​
+| 24,103
+| ​
+|
+^
+| - See table below for additional details.
+|
+Other Non-GAAP Adjustments (Q3 2026)
+(in thousands)
+(unaudited)
+​
+| ​
+| ​
+|
+Three months ended September 30, 2026
+| ​ ​ ​
+| ​
+|
+Merger related expenses
+| $
+| 2,260
+|
+Subtotal
+| ​
+| 2,260
+|
+Non-cash interest expense
+|
+| 292
+|
+Non-GAAP tax adjustment *
+|
+| (909)
+|
+Total Other
+| $
+| 1,643
+|
+*
+| - The ‘with or without’ method is utilized to determine the income tax effect of all Non-GAAP adjustments.
+|
+Net Income per Common Share (Q3 2026)
+(in thousands, except per share amounts)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three months ended September 30, 2026
+|
+​
+| ​
+| GAAP
+| ​
+| Non-GAAP
+|
+Numerator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income available to common shareholders
+| ​
+| $
+| 13,635
+| ​
+| $
+| 24,103
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Denominator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic weighted average shares outstanding
+| ​
+| ​
+| 61,109
+| ​
+| ​
+| 61,109
+|
+Effect of potentially dilutive share-based awards
+| ​
+| ​
+| 1,756
+| ​
+| ​
+| 1,756
+|
+Dilutive effect of 2029 Convertible Senior Notes
+| ​
+|
+| 3,289
+|
+|
+| 3,289
+|
+Diluted weighted average shares outstanding
+| ​
+| ​
+| 66,154
+| ​
+| ​
+| 66,154
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income per common share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic
+| ​
+| $
+| 0.22
+| ​
+| $
+| 0.39
+|
+Diluted
+| ​
+| $
+| 0.21
+| ​
+| $
+| 0.36
+|
+​
+6
+Reconciliation of GAAP to Non-GAAP Financial Data (Q3 2025)
+(in thousands)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| Non-GAAP Adjustments
+| ​
+|
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| Share-based
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Three months ended September 30, 2025
+| ​ ​ ​
+| ​
+| GAAP
+| ​ ​ ​
+| Compensation
+| ​ ​ ​
+| Amortization
+| ​ ​ ​
+| Other
+| ​ ​ ​
+| Non-GAAP
+| ​
+|
+Net sales
+| ​
+| $
+| 165,881
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| $
+| 165,881
+| ​
+|
+Gross profit
+| ​
+|
+| 67,703
+|
+| 1,771
+| ​
+| ​
+|
+| ​
+| ​
+|
+| 69,474
+| ​
+|
+Gross margin
+| ​
+|
+| 40.8
+| %
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| 41.9
+| %
+|
+Operating expenses
+| ​
+|
+| 57,149
+|
+| (7,374)
+| ​
+| (771)
+| ​
+| (2,663)
+| ​
+| ​
+| 46,341
+| ​
+|
+Operating income
+| ​
+|
+| 10,554
+|
+| 9,145
+| ​
+| 771
+|
+| 2,663
+| ^
+| ​
+| 23,133
+| ​
+|
+Net income
+| ​
+|
+| 10,596
+|
+| 9,145
+|
+| 771
+|
+| 1,261
+| ^
+| ​
+| 21,773
+| ​
+|
+^
+| - See table below for additional details.
+|
+​
+Other Non-GAAP Adjustments (Q3 2025)
+(in thousands)
+(unaudited)
+​
+| ​
+| ​
+|
+Three months ended September 30, 2025
+| ​
+| ​
+|
+Merger related expenses
+| ​
+| 2,609
+|
+Other
+| $
+| 54
+|
+Subtotal
+| ​
+| 2,663
+|
+Non-cash interest expense
+|
+| 283
+|
+Non-GAAP tax adjustment *
+|
+| (1,685)
+|
+Total Other
+| $
+| 1,261
+|
+*
+| - The ‘with or without’ method is utilized to determine the income tax effect of all Non-GAAP adjustments.
+|
+​
+​
+Net Income per Common Share (Q3 2025)
+(in thousands, except per share amounts)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three months ended September 30, 2025
+|
+​
+| ​
+| GAAP
+| ​
+| Non-GAAP
+|
+Numerator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income available to common shareholders
+| ​
+| $
+| 10,596
+| ​
+| $
+| 21,773
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Denominator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic weighted average shares outstanding
+| ​
+| ​
+| 60,077
+| ​
+| ​
+| 60,077
+|
+Effect of potentially dilutive share-based awards
+| ​
+| ​
+| 873
+| ​
+| ​
+| 873
+|
+Diluted weighted average shares outstanding
+| ​
+| ​
+| 60,950
+| ​
+| ​
+| 60,950
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income per common share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic
+| ​
+| $
+| 0.18
+| ​
+| $
+| 0.36
+|
+Diluted
+| ​
+| $
+| 0.17
+| ​
+| $
+| 0.36
+|
+| (1) | - The non-GAAP incremental dilutive shares includes the impact of the Company’s capped call transaction issued concurrently with our 2027 Notes, and as such, an effective conversion price of $18.46 is used when determining incremental shares to add to the dilutive share count. The GAAP incremental dilutive shares does not include the impact of the Company’s capped call transaction, and as such, an effective conversion price of $13.98 is used when determining incremental shares to add to the dilutive share count. |
+​
+7
+​
+​
+Reconciliation of GAAP Net Income to Non-GAAP Operating Income (Q3 2026 and 2025)
+(in thousands)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended
+| ​ ​ ​
+| Three months ended
+|
+​
+| ​
+| September 30, 2026
+| ​
+| September 30, 2025
+|
+GAAP Net income
+| ​
+| $
+| 13,635
+| ​
+| $
+| 10,596
+|
+Share-based compensation
+| ​
+|
+| 8,414
+| ​
+|
+| 9,145
+|
+Amortization
+| ​
+|
+| 411
+| ​
+|
+| 771
+|
+Merger related expenses
+| ​
+|
+| 2,260
+| ​
+|
+| 2,609
+|
+Interest (income) expense, net
+| ​
+|
+| (1,785)
+| ​
+|
+| (1,321)
+|
+Other
+| ​
+| ​
+| —
+| ​
+| ​
+| 54
+|
+Income tax expense (benefit)
+| ​
+|
+| 2,249
+| ​
+|
+| 1,279
+|
+Non-GAAP Operating income
+| ​
+| $
+| 25,184
+| ​
+| $
+| 23,133
+|
+​
+Reconciliation of GAAP to Non-GAAP Financial Data (Q4 2026)
+(in millions, except per share amounts)
+(unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Non-GAAP Adjustments
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+|
+Guidance for the three months ending
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Share-based
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+|
+December 31, 2026
+| ​
+| GAAP
+| ​
+| Compensation
+| ​
+| Amortization
+| ​
+| ​ ​ Other
+| ​
+| Non-GAAP
+|
+|
+Net sales
+| ​ ​ ​
+| $
+| 230
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 260
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| $
+| 230
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 260
+| ​
+|
+Gross profit
+| ​
+|
+| 97
+|
+| -
+| ​
+|
+| 114
+|
+| 2
+|
+| —
+|
+| —
+| ​
+|
+| 99
+|
+| -
+| ​
+|
+| 116
+| ​
+|
+Gross margin
+| ​
+|
+| 42%
+| ​
+| -
+| ​
+|
+| 44%
+| ​
+| ​
+|
+| ​
+|
+| ​
+| ​
+|
+| 43%
+| ​
+| -
+| ​
+|
+| 44%
+| ​
+|
+Operating expenses
+| ​
+| ​
+| 73
+|
+| -
+| ​
+|
+| 75
+| ​
+| (8)
+| ​
+| —
+| ​
+| (1)
+| ​
+| ​
+| 64
+|
+| -
+| ​
+|
+| 66
+| ​
+|
+Operating income
+| ​
+| ​
+| 24
+| ​
+| -
+| ​
+| ​
+| 39
+| ​
+| 10
+| ​
+| ​
+| ​
+| 1
+| ​
+| ​
+| 35
+| ​
+| -
+| ​
+| ​
+| 50
+| ​
+|
+Net income
+| ​
+| $
+| 23
+|
+| -
+| ​
+| $
+| 36
+|
+| 10
+|
+| —
+| ​
+| 1
+| ​
+| $
+| 34
+|
+| -
+| ​
+| $
+| 47
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income per diluted common share
+| ​
+| $
+| 0.34
+|
+| -
+| ​
+| $
+| 0.53
+|
+| ​
+|
+| ​
+|
+| ​
+| ​
+| $
+| 0.50
+|
+| -
+| ​
+| $
+| 0.70
+| ​
+|
+​
+Income per Diluted Common Share (Q4 2026)
+(in millions, except per share amounts)
+(unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Guidance for the three months ending December 31, 2026
+| ​
+| GAAP
+| ​
+| Non-GAAP
+|
+Numerator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income available to common shareholders
+| ​ ​ ​
+| $
+| 23
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 36
+| ​ ​ ​
+| $
+| 34
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 47
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Denominator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic weighted average shares outstanding
+| ​
+| ​
+| 61
+| ​
+| -
+| ​
+| ​
+| 61
+| ​
+| ​
+| 61
+| ​
+| -
+| ​
+| ​
+| 61
+|
+Effect of potentially dilutive share-based awards
+| ​
+| ​
+| 2
+|
+| -
+| ​
+| ​
+| 2
+| ​
+| ​
+| 2
+|
+| -
+| ​
+| ​
+| 2
+|
+Dilutive effect of 2029 Convertible Senior Notes
+| ​
+|
+| 3
+| ​
+| -
+| ​
+|
+| 3
+|
+|
+| 3
+| ​
+| -
+| ​
+|
+| 3
+|
+Diluted weighted average shares outstanding
+| ​
+| ​
+| 66
+| ​
+| -
+| ​
+| ​
+| 66
+| ​
+| ​
+| 66
+| ​
+| -
+| ​
+| ​
+| 66
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income per common share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income per diluted common share
+| ​
+| $
+| 0.34
+| ​
+| -
+| ​
+| $
+| 0.53
+| ​
+| $
+| 0.50
+| ​
+| -
+| ​
+| $
+| 0.70
+|
+8
+​
+​
+​
+Reconciliation of GAAP Net Income to Non-GAAP Operating Income (Q4 2026)
+(in millions)
+(unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Guidance for the three months ending December 31, 2026
+| ​ ​ ​
+| ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​
+|
+GAAP Net income
+| ​
+| $
+| 23
+|
+| -
+| ​
+| $
+| 36
+|
+Share-based compensation
+| ​
+|
+| 10
+|
+| -
+| ​
+|
+| 10
+|
+Merger related expense
+| ​
+| ​
+| 1
+| ​
+| -
+| ​
+| ​
+| 1
+|
+Interest expense (income)
+| ​
+| ​
+| (2)
+| ​
+| -
+| ​
+| ​
+| (2)
+|
+Income tax expense
+| ​
+| ​
+| 3
+| ​
+| -
+| ​
+| ​
+| 5
+|
+Non-GAAP Operating income
+| ​
+| $
+| 35
+|
+| -
+| ​
+| $
+| 50
+|
+​
+Note: Amounts may not calculate precisely due to rounding.
+​
+Reconciliation of GAAP to Non-GAAP Financial Data (FY 2026)
+(in millions, except per share amounts)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Non-GAAP Adjustments
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Guidance for the year ending
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Share-based
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+December 31, 2026
+| ​
+| GAAP
+| ​
+| Compensation
+| ​
+| Amortization
+| ​
+| ​ ​ Other
+| ​
+| Non-GAAP
+|
+Net sales
+| ​ ​ ​
+| $
+| 790
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 820
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| $
+| 790
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 820
+|
+Gross profit
+| ​
+|
+| 309
+|
+| -
+| ​
+|
+| 325
+|
+| 6
+|
+| —
+|
+| —
+| ​
+|
+| 315
+|
+| -
+| ​
+|
+| 331
+|
+Gross margin
+| ​
+|
+| 39%
+| ​
+| -
+| ​
+|
+| 40%
+| ​
+| ​
+|
+| ​
+|
+| ​
+| ​
+|
+| 40%
+| ​
+| -
+| ​
+|
+| 40%
+|
+Operating expenses
+| ​
+| ​
+| 261
+|
+| -
+| ​
+|
+| 262
+| ​
+| (30)
+| ​
+| (2)
+| ​
+| (7)
+| ​
+| ​
+| 222
+|
+| -
+| ​
+|
+| 224
+|
+Operating income
+| ​
+| ​
+| 48
+| ​
+| -
+| ​
+| ​
+| 63
+| ​
+| 36
+| ​
+| 2
+| ​
+| 7
+| ​
+| ​
+| 93
+| ​
+| -
+| ​
+| ​
+| 108
+|
+Net income
+| ​
+| $
+| 48
+|
+| -
+| ​
+| $
+| 62
+|
+| 36
+|
+| 2
+| ​
+| 2
+| ​
+| $
+| 89
+|
+| -
+| ​
+| $
+| 102
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income per diluted common share
+| ​
+| $
+| 0.72
+|
+| -
+| ​
+| $
+| 0.92
+|
+| ​
+|
+| ​
+|
+| ​
+| ​
+| $
+| 1.32
+|
+| -
+| ​
+| $
+| 1.52
+|
+​
+Income per Diluted Common Share (FY 2026)
+(in millions, except per share amounts)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Guidance for the year ending December 31, 2026
+| ​
+| GAAP
+| ​
+| Non-GAAP
+|
+Numerator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income available to common shareholders
+| ​ ​ ​
+| $
+| 48
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 62
+| ​ ​ ​
+| $
+| 89
+| ​ ​ ​
+| -
+| ​ ​ ​
+| $
+| 102
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Denominator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic weighted average shares outstanding
+| ​
+| ​
+| 61
+| ​
+| -
+| ​
+| ​
+| 61
+| ​
+| ​
+| 61
+| ​
+| -
+| ​
+| ​
+| 61
+|
+Effect of potentially dilutive share-based awards
+| ​
+| ​
+| 2
+|
+| -
+| ​
+| ​
+| 2
+| ​
+| ​
+| 2
+|
+| -
+| ​
+| ​
+| 2
+|
+Dilutive effect of 2029 Convertible Senior Notes
+| ​
+|
+| 3
+| ​
+| -
+| ​
+|
+| 3
+|
+|
+| 3
+| ​
+| -
+| ​
+|
+| 3
+|
+Diluted weighted average shares outstanding
+| ​
+| ​
+| 66
+| ​
+| -
+| ​
+| ​
+| 66
+| ​
+| ​
+| 66
+| ​
+| -
+| ​
+| ​
+| 66
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income per common share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income per diluted common share
+| ​
+| $
+| 0.72
+| ​
+| -
+| ​
+| $
+| 0.92
+| ​
+| $
+| 1.32
+| ​
+| -
+| ​
+| $
+| 1.52
+|
+​
+9
+​
+​
+​
+​
+​
+​
+Reconciliation of GAAP Net Income to Non-GAAP Operating Income (FY 2026)
+(in millions)
+(unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Guidance for the year ending December 31, 2026
+| ​ ​ ​
+| ​
+| ​
+| ​ ​ ​
+| ​
+| ​ ​ ​
+| ​
+| ​
+|
+GAAP Net income
+| ​
+| $
+| 48
+|
+| -
+| ​
+| $
+| 62
+|
+Share-based compensation
+| ​
+|
+| 36
+|
+| -
+| ​
+|
+| 36
+|
+Amortization
+| ​
+|
+| 2
+|
+| -
+| ​
+|
+| 2
+|
+Merger related expense
+| ​
+| ​
+| 7
+| ​
+| -
+| ​
+| ​
+| 7
+|
+Interest expense (income)
+| ​
+| ​
+| (6)
+| ​
+| -
+| ​
+| ​
+| (6)
+|
+Income tax expense
+| ​
+| ​
+| 6
+| ​
+| -
+| ​
+| ​
+| 7
+|
+Non-GAAP Operating income
+| ​
+| $
+| 93
+|
+| -
+| ​
+| $
+| 108
+|
+​
+10

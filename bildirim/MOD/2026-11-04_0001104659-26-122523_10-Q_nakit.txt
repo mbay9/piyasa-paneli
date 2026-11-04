@@ -1,0 +1,1275 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/67347/000110465926122523/mod-20260930x10q.htm
+SEMBOL: MOD
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0001104659-26-122523
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+For the six months ended September 30, 2026 and 2025
+(In millions)
+(Unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Six months ended September 30,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Cash flows from operating activities:
+|
+| ​
+| ​
+|
+| ​
+| ​
+|
+Net earnings
+| ​
+| $
+| 104.6
+| ​
+| $
+| 96.5
+|
+Adjustments to reconcile net earnings to net cash (used for) provided by operating activities:
+| ​
+|
+| ​
+| ​
+|
+| ​
+|
+Depreciation and amortization
+| ​
+|
+| 42.0
+| ​
+|
+| 38.7
+|
+Impairment charge
+| ​
+|
+| —
+| ​
+|
+| 4.1
+|
+Stock-based compensation expense
+| ​
+|
+| 12.7
+| ​
+|
+| 7.4
+|
+Deferred income taxes
+| ​
+|
+| ( 8.6 )
+| ​
+|
+| 10.4
+|
+Other – net
+| ​
+|
+| 2.0
+| ​
+|
+| 4.8
+|
+Changes in operating assets and liabilities:
+| ​
+|
+| ​
+| ​
+|
+| ​
+|
+Trade accounts receivable
+| ​
+|
+| ( 68.4 )
+| ​
+|
+| ( 48.2 )
+|
+Inventories
+| ​
+|
+| ( 194.5 )
+| ​
+|
+| ( 147.1 )
+|
+Accounts payable
+| ​
+|
+| 111.9
+| ​
+|
+| 96.7
+|
+Other assets and liabilities
+| ​
+| ​
+| ( 58.8 )
+| ​
+| ​
+| ( 34.2 )
+|
+Net cash (used for) provided by operating activities
+| ​
+|
+| ( 57.1 )
+| ​
+|
+| 29.1
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash flows from investing activities:
+| ​
+|
+| ​
+| ​
+|
+| ​
+|
+Expenditures for property, plant and equipment
+| ​
+|
+| ( 88.5 )
+| ​
+|
+| ( 59.4 )
+|
+Payments for business acquisitions, net of cash acquired
+| ​
+|
+| —
+| ​
+|
+| ( 182.1 )
+|
+Other – net
+| ​
+|
+| 2.5
+| ​
+|
+| 3.2
+|
+Net cash used for investing activities
+| ​
+|
+| ( 86.0 )
+| ​
+|
+| ( 238.3 )
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash flows from financing activities:
+| ​
+|
+| ​
+| ​
+|
+| ​
+|
+Borrowings of debt
+| ​
+|
+| 887.6
+| ​
+|
+| 499.6
+|
+Repayments of debt
+| ​
+|
+| ( 595.0 )
+| ​
+|
+| ( 277.2 )
+|
+(Repayments) borrowings on bank overdraft facilities – net
+| ​
+|
+| ( 5.0 )
+| ​
+|
+| 2.2
+|
+Purchases of treasury stock
+| ​
+|
+| ( 65.7 )
+| ​
+|
+| ( 5.7 )
+|
+Dividends paid to noncontrolling interest
+| ​
+|
+| ( 1.6 )
+| ​
+|
+| ( 1.8 )
+|
+Other – net
+| ​
+|
+| 0.5
+| ​
+|
+| 2.4
+|
+Net cash provided by financing activities
+| ​
+|
+| 220.8
+| ​
+|
+| 219.5
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Effect of exchange rate changes on cash
+| ​
+|
+| ( 0.5 )
+| ​
+|
+| 1.8
+|
+Net increase in cash, cash equivalents and restricted cash
+| ​
+|
+| 77.2
+| ​
+|
+| 12.1
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash, cash equivalents and restricted cash – beginning of period
+| ​
+|
+| 73.7
+| ​
+|
+| 71.9
+|
+Cash, cash equivalents and restricted cash – end of period
+| ​
+| $
+| 150.9
+| ​
+| $
+| 84.0
+|
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+​
+4
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY
+For the three and six months ended September 30, 2026
+(In millions)
+(Unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Accumulated
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Additional
+| ​
+| ​
+| ​
+| ​
+| other
+| ​
+| Treasury
+| ​
+| Non-
+| ​
+| ​
+|
+|
+​
+| ​ ​ ​
+| Common stock
+| ​
+| paid-in
+| ​
+| Retained
+| ​
+| comprehensive
+| ​
+| stock, at
+| ​
+| controlling
+| ​
+| ​
+|
+|
+​
+|
+| Shares
+| ​ ​ ​
+| Amount
+| ​ ​ ​
+| capital
+| ​ ​ ​
+| earnings
+| ​ ​ ​
+| loss
+| ​ ​ ​
+| cost
+| ​ ​ ​
+| interest
+| ​ ​ ​
+| Total
+|
+Balance, March 31, 2026
+|
+| 57.0
+| ​
+| $
+| 35.6
+| ​
+| $
+| 336.1
+| ​
+| $
+| 964.5
+| ​
+| $
+| ( 37.1 )
+| ​
+| $
+| ( 104.6 )
+| ​
+| $
+| 8.3
+| ​
+| $
+| 1,202.8
+|
+Net earnings
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 73.9
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 0.4
+| ​
+|
+| 74.3
+|
+Other comprehensive loss
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| ( 10.3 )
+| ​
+|
+| —
+| ​
+|
+| ( 0.1 )
+| ​
+|
+| ( 10.4 )
+|
+Stock options and awards
+|
+| 0.5
+| ​
+|
+| 0.3
+| ​
+|
+| ( 0.3 )
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+|
+Purchases of treasury stock
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| ( 64.6 )
+| ​
+|
+| —
+| ​
+|
+| ( 64.6 )
+|
+Stock-based compensation expense
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 8.0
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 8.0
+|
+Dividend declared to noncontrolling interest
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| ( 0.3 )
+| ​
+|
+| ( 0.3 )
+|
+Balance, June 30, 2026
+|
+| 57.5
+| ​
+| $
+| 35.9
+| ​
+| $
+| 343.8
+| ​
+| $
+| 1,038.4
+| ​
+| $
+| ( 47.4 )
+| ​
+| $
+| ( 169.2 )
+| ​
+| $
+| 8.3
+| ​
+| $
+| 1,209.8
+|
+Net earnings
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 30.0
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.3
+| ​
+|
+| 30.3
+|
+Other comprehensive (loss) income
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| ( 5.1 )
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.5
+| ​
+|
+| ( 4.6 )
+|
+Stock options and awards
+|
+| 0.1
+| ​
+| ​
+| 0.1
+| ​
+| ​
+| 0.7
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| 0.8
+|
+Purchases of treasury stock
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| ( 1.1 )
+| ​
+| ​
+| —
+| ​
+|
+| ( 1.1 )
+|
+Stock-based compensation expense
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 4.7
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| 4.7
+|
+Dividend paid to noncontrolling interest
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| ( 1.3 )
+| ​
+|
+| ( 1.3 )
+|
+Balance, September 30, 2026
+|
+| 57.6
+| ​
+| $
+| 36.0
+| ​
+| $
+| 349.2
+| ​
+| $
+| 1,068.4
+| ​
+| $
+| ( 52.5 )
+| ​
+| $
+| ( 170.3 )
+| ​
+| $
+| 7.8
+| ​
+| $
+| 1,238.6
+|
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+5
+Table of Contents
+MODINE MANUFACTURING COMPANY
+CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY
+For the three and six months ended September 30, 2025
+(In millions)
+(Unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| Accumulated
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| Additional
+| ​
+| ​
+| ​
+| ​
+| other
+| ​
+| Treasury
+| ​
+| Non-
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Common stock
+| ​
+| paid-in
+| ​
+| Retained
+| ​
+| comprehensive
+| ​
+| stock, at
+| ​
+| controlling
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Shares
+| ​ ​ ​
+| Amount
+| ​ ​ ​
+| capital
+| ​ ​ ​
+| earnings
+| ​ ​ ​
+| loss
+| ​ ​ ​
+| cost
+| ​ ​ ​
+| interest
+| ​ ​ ​
+| Total
+|
+Balance, March 31, 2025
+|
+| 56.5
+| ​
+| $
+| 35.3
+| ​
+| $
+| 310.8
+| ​
+| $
+| 843.0
+| ​
+| $
+| ( 181.3 )
+| ​
+| $
+| ( 97.6 )
+| ​
+| $
+| 8.0
+| ​
+| $
+| 918.2
+|
+Net earnings
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 51.2
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 0.5
+| ​
+|
+| 51.7
+|
+Other comprehensive income
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 49.4
+| ​
+|
+| —
+| ​
+|
+| 0.5
+| ​
+|
+| 49.9
+|
+Stock options and awards
+|
+| 0.1
+| ​
+|
+| 0.1
+| ​
+|
+| 0.4
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 0.5
+|
+Purchases of treasury stock
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| ( 5.1 )
+| ​
+|
+| —
+| ​
+|
+| ( 5.1 )
+|
+Stock-based compensation expense
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 5.3
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| 5.3
+|
+Dividends declared or paid to noncontrolling interest
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+| ( 1.8 )
+| ​
+|
+| ( 1.8 )
+|
+Balance, June 30, 2025
+|
+| 56.6
+| ​
+| $
+| 35.4
+| ​
+| $
+| 316.5
+| ​
+| $
+| 894.2
+| ​
+| $
+| ( 131.9 )
+| ​
+| $
+| ( 102.7 )
+| ​
+| $
+| 7.2
+| ​
+| $
+| 1,018.7
+|
+Net earnings
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 44.4
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.4
+| ​
+|
+| 44.8
+|
+Other comprehensive loss
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| ( 5.8 )
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| ( 5.8 )
+|
+Stock options and awards
+|
+| 0.2
+| ​
+| ​
+| 0.1
+| ​
+| ​
+| 1.8
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| 1.9
+|
+Purchases of treasury stock
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| ( 0.6 )
+| ​
+| ​
+| —
+| ​
+|
+| ( 0.6 )
+|
+Stock-based compensation expense
+|
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| 2.1
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+|
+| 2.1
+|
+Balance, September 30, 2025
+|
+| 56.8
+| ​
+| $
+| 35.5
+| ​
+| $
+| 320.4
+| ​
+| $
+| 938.6
+| ​
+| $
+| ( 137.7 )
+| ​
+| $
+| ( 103.3 )
+| ​
+| $
+| 7.6
+| ​
+| $
+| 1,061.1
+|
+​
+The notes to condensed consolidated financial statements are an integral part of these statements.
+​
+​
+​
+6
+Table of Contents
+MODINE MANUFACTURING COMPANY
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(In millions, except per share amounts)
+(unaudited)
+Note 1: General
+The accompanying unaudited condensed consolidated financial statements of Modine Manufacturing Company (“Modine” or the “Company”) were prepared in conformity with accounting principles generally accepted in the United States (“GAAP”) for interim financial information and with the instructions to Form 10-Q and Rule 10- 01 of Regulation S-X. Accordingly, they do not include all of the information and footnotes necessary for a comprehensive presentation of financial position, results of operations and cash flows required by GAAP for complete financial statements. The financial statements include all normal recurring adjustments that are, in the opinion of management, necessary for a fair statement of results for the interim periods. Results for the first six months of fiscal 2027 are not necessarily indicative of the results to be expected for the full year (see Note 2 for a discussion of the spin-off of the Company’s Performance Technologies business). These financial statem

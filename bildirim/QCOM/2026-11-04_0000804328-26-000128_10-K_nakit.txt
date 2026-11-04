@@ -1,0 +1,128 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm
+SEMBOL: QCOM
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0000804328-26-000128
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In millions)
+Year Ended |
+September 27,
+2026 | September 28,
+2025 | September 29,
+2024 |
+Operating Activities: |
+Net income from continuing operations | $ | 13,628 | $ | 5,541 | $ | 10,110 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization expense | 1,630 | 1,602 | 1,706 |
+Income tax payments (in excess) less than income tax provision | ( 5,858 ) | 3,980 | ( 3,064 ) |
+Share-based compensation expense | 3,452 | 2,783 | 2,648 |
+Net gains on marketable securities and other investments
+| ( 752 ) | ( 381 ) | ( 349 ) |
+Impairment losses on other investments
+| 88 | 113 | 79 |
+Net (gains) losses on equity method investments | ( 258 ) | ( 12 ) | 10 |
+Other items
+| ( 20 ) | ( 28 ) | ( 70 ) |
+Changes in assets and liabilities: |
+Accounts receivable, net | 215 | ( 365 ) | ( 768 ) |
+Inventories | ( 2,049 ) | ( 138 ) | 13 |
+Other assets | 686 | 971 | 230 |
+Trade accounts payable | ( 3 ) | 119 | 682 |
+Payroll, benefits and other liabilities | 386 | ( 173 ) | 1,066 |
+Net cash used by operating activities from discontinued operations | — | — | ( 91 ) |
+Net cash provided by operating activities | 11,145 | 14,012 | 12,202 |
+Investing Activities: |
+Capital expenditures | ( 2,494 ) | ( 1,192 ) | ( 1,041 ) |
+Purchases of debt and equity marketable securities | ( 2,948 ) | ( 4,694 ) | ( 5,069 ) |
+Proceeds from sales and maturities of debt and equity marketable securities | 4,906 | 5,755 | 2,677 |
+Acquisitions and other investments, net of cash acquired | ( 1,577 ) | ( 743 ) | ( 254 ) |
+Proceeds from other investments | 45 | 61 | 88 |
+Other items
+| 29 | 13 | ( 26 ) |
+Net cash provided by investing activities from discontinued operations
+| — | — | 2 |
+Net cash used by investing activities | ( 2,039 ) | ( 800 ) | ( 3,623 ) |
+Financing Activities: |
+Proceeds from short-term debt | 5,073 | 998 | 799 |
+Repayment of short-term debt | ( 4,576 ) | ( 998 ) | ( 799 ) |
+Repayment of debt of acquired company | ( 174 ) | ( 4 ) | — |
+Proceeds from issuance of term debt | — | 1,487 | — |
+Repayment of term debt | — | ( 1,365 ) | ( 914 ) |
+Proceeds from issuance of common stock | 224 | 404 | 383 |
+Repurchases and retirements of common stock | ( 7,817 ) | ( 8,791 ) | ( 4,121 ) |
+Dividends paid | ( 3,854 ) | ( 3,805 ) | ( 3,687 ) |
+Payments of tax withholdings related to vesting of share-based awards | ( 1,134 ) | ( 1,115 ) | ( 932 ) |
+Other items
+| ( 37 ) | ( 7 ) | ( 17 ) |
+Net cash provided by financing activities from discontinued operations | — | — | 19 |
+Net cash used by financing activities | ( 12,295 ) | ( 13,196 ) | ( 9,269 ) |
+Effect of exchange rate changes on cash and cash equivalents | ( 18 ) | ( 22 ) | 12 |
+Net decrease in total cash, cash equivalents and restricted cash | ( 3,207 ) | ( 6 ) | ( 678 ) |
+Total cash and cash equivalents at beginning of period (including $ 2,323 classified as restricted cash at September 28, 2025 and $ 77 classified as held for sale at September 24, 2023)
+| 7,843 | 7,849 | 8,527 |
+Total cash and cash equivalents at end of period (including $ 2,323 classified as restricted cash at September 28, 2025)
+| $ | 4,636 | $ | 7,843 | $ | 7,849 |
+See accompanying notes.
+F-6
+QUALCOMM Incorporated
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(In millions, except per share data)
+Year Ended |
+September 27,
+2026 | September 28,
+2025 | September 29,
+2024 |
+Total stockholders’ equity, beginning balance
+| $ | 21,206 | $ | 26,274 | $ | 21,581 |
+Common stock and paid-in capital:
+|
+Balance at beginning of period
+| — | — | 490 |
+Common stock issued under employee benefit plans | 224 | 404 | 383 |
+Repurchases and retirements of common stock
+| ( 4,987 ) | ( 2,177 ) | ( 2,731 ) |
+Share-based compensation
+| 3,568 | 2,888 | 2,767 |
+Tax withholdings related to vesting of share-based payments
+| ( 1,134 ) | ( 1,115 ) | ( 932 ) |
+Customer warrant | 268 | — | — |
+Common stock issued in acquisition
+| 4,512 | — | 23 |
+Common stock issued to settle convertible debt | 67 | — | — |
+Balance at end of period
+| 2,518 | — | — |
+Retained earnings:
+|
+Balance at beginning of period
+| 20,646 | 25,687 | 20,733 |
+Net income | 13,628 | 5,541 | 10,142 |
+Repurchases and retirements of common stock
+| ( 2,800 ) | ( 6,669 ) | ( 1,394 ) |
+Dividends
+| ( 3,971 ) | ( 3,913 ) | ( 3,794 ) |
+Balance at end of period
+| 27,503 | 20,646 | 25,687 |
+Accumulated other comprehensive income: |
+Balance at beginning of period
+| 560 | 587 | 358 |
+Other comprehensive (loss) income
+| ( 180 ) | ( 27 ) | 229 |
+Balance at end of period
+| 380 | 560 | 587 |
+Total stockholders’ equity, ending balance
+| $ | 30,401 | $ | 21,206 | $ | 26,274 |
+Dividends per share announced
+| $ | 3.62 | $ | 3.48 | $ | 3.30 |
+See accompanying notes.
+F-7
+QUALCOMM Incorporated
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+Note 1. Significant Accounting Policies
+We are a global technology leader, helping to bring intelligent computing everywhere through the development and commercialization of foundational technologies, including advanced artificial intelligence (AI), high-performance and low-power computing and leading connectivity. Our platforms help power intelligent products and services used around the world, across industries and applications from handsets to automotive, the internet of things (IoT) and data center. We derive revenues principally from sales of integrated circuit products and through the licensing of our intellectual property, including patents and other rights.
+Principles of Consolidation. The consolidated financial statements include the assets, liabilities and operating results of Qualcomm, its subsidiaries and any variable interest entities for which we are deemed to be the primary beneficiary. Intercompany transactions and balances have been eliminated.
+Financial Statement Preparation. The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America (GAAP) requires management to make estimates and assumptions that affect the reported amounts and the disclosure of contingent amounts in our consolidated financial statements and the accompanying notes. Examples of our significant accounting estimates and policies that may involve a higher degree of judgment and complexity than others include: the estimation of sales-based royalty revenues; the impairment of non-marketable equity investments; the valuation of inventories; the impairment of goodwill, other indefinite-lived assets and long-lived assets; the recognition, measurement and disclosure of loss contingencies related to legal and regulatory proceedings; and the calculation of our income tax provision, including the recognition and measurement of uncertain tax positions and realizability of deferred tax assets. Actual results could differ from those estimates. Certain prior year amounts have been reclassified to conform to the current year presentation.
+Fiscal Year. We operate and report using a 52-53 week fiscal year ending on the last Sunday in September. Our fiscal years for 2026, 2025 and 2024 included 52 weeks, 52 weeks and 53 weeks, respectively. Our fiscal year for 2027 will include 52 weeks.
+Cash Equivalents and Restricted Cash. We consider all highly liquid investments with original maturities of 90 days or less to be cash equivalents. Cash equivalents may be comprised of money market funds, certificates of deposit, commercial paper, corporate bonds and notes and certain bank time deposits, U.S. Treasury securities and government-related securities. The carrying amounts approximate fair value due to the short maturities of these instruments. Restricted cash includes cash that is legally restricted as to withdrawal or usage (Note 9).
+Marketable Securities. Marketable securities include marketable equity securities and available-for-sale debt securities. We classify marketable securities as current or noncurrent based on the nature of the securities and their availability for use in current operations. Marketable securities are stated at fair value with all realized and unrealized gains and losses on investments in marketable equity securities and realized gains and losses on available-for-sale debt securities recognized in investment and other income, net. Debt securities are classified as available-for-sale or held-to-maturity at the time of purchase and reevaluated at each balance sheet date. The realized and unrealized gains and losses on marketable securities are determined using the specific identification method.
+If a debt security has an unrealized loss and we either intend to sell the security or it is more likely than not that we will be required to sell the security before its anticipated recovery, we record an impairment charge to investment and other income, net for the entire amount of the unrealized loss and adjust the amortized cost basis of the security. For the remaining debt securities, if an unrealized loss exists, we separate the impairment into the portion of the loss 
