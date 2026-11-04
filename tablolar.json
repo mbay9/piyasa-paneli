@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-04T01:40:27Z",
+ "guncelleme": "2026-11-04T01:45:51Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -9127,6 +9127,196 @@
    ],
    "uretici": "toplu",
    "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+  },
+  "TER": {
+   "tarih": "2026-10-28",
+   "basvuru": "0001193125-26-434981",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/97210/000119312526434981/ter-ex99_1.htm",
+   "bolumler": [
+    {
+     "baslik": "TER",
+     "etiket": "Quarter ended Sep 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 1306.0,
+       "bek": 1250.0,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$1,306 million"
+       ],
+       "bg": "TER prior-quarter release (2026-07-29): $1,200 million to $1,300 million"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 70.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "kanit": [
+        "70%"
+       ]
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 2.29,
+       "bek": 2.06,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "2.29"
+       ]
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1300.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1,250 million to $1,350 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
+    }
+   ],
+   "dipnot": "* Adjusted/non-GAAP per the company release. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows.",
+   "uretici": "elle"
+  },
+  "AXTI": {
+   "tarih": "2026-10-29",
+   "basvuru": "0001437749-26-033941",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926033941/0001437749-26-033941.txt",
+   "bolumler": [
+    {
+     "baslik": "AXTI",
+     "etiket": "Quarter ended Sep 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 73.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$73.4 million"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 162.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "73.4 / 28.0 - 1 (release: third quarter of 2025 revenue $28.0 million)"
+      },
+      {
+       "ad": "EPS ($)",
+       "fmt": "d",
+       "ger": 0.41,
+       "bek": 0.31,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "0.41"
+       ]
+      }
+     ]
+    }
+   ],
+   "dipnot": "* Adjusted/non-GAAP per the company release. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows.",
+   "uretici": "elle"
+  },
+  "VECO": {
+   "tarih": "2026-08-05",
+   "basvuru": "0001104659-26-091118",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/103145/000110465926091118/veco-20260805xex99d1.htm",
+   "bolumler": [
+    {
+     "baslik": "VECO",
+     "etiket": "Quarter ended Jun 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 193.5,
+       "bek": 180.0,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$193.5 million"
+       ],
+       "bg": "VECO prior-quarter release (2026-05-05): $170 million to $190 million"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 16.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "193.5 / 166.1 - 1 (release: same period last year $166.1 million)"
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 0.33,
+       "bek": 0.28,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "0.33"
+       ]
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 210.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$200 million to $220 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "EPS* Guidance ($)",
+       "fmt": "d",
+       "ger": 0.42,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$0.35 to $0.49"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
+    }
+   ],
+   "dipnot": "* Adjusted/non-GAAP per the company release. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows.",
+   "uretici": "elle"
   }
  }
 }
