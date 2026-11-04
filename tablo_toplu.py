@@ -94,19 +94,45 @@ def _para(x, birim):
     return float(x.replace(",", "")) * (1000.0 if birim.lower() == "billion" else 1.0)
 
 
-def rehberlik_gelir(metin):
+def _adaylar_gelir(metin):
+    """Satırlardaki gelir rehberliği adayları: (orta $M, kanıt metni). Aralık, ± ve 'yaklaşık' biçimleri."""
+    out = []
+    cap = metin.lower().find("outlook")
+    cap2 = metin.lower().find("guidance")
+    bas = min([x for x in (cap, cap2) if x >= 0] or [len(metin)])
+    pos = 0
     for satir in metin.split("\n"):
-        if not _BAGLAM.search(satir):
+        konum = pos
+        pos += len(satir) + 1
+        baglam = bool(_BAGLAM.search(satir)) or konum > bas
+        if not baglam:
             continue
-        for m in re.finditer(r"(?i)revenues?[^.\n]{0,110}?" + _ARALIK, satir):
+        for m in re.finditer(r"(?i)(?:net )?(?:revenues?|sales)[^.\n]{0,110}?" + _ARALIK, satir):
             try:
                 u2 = m.group(4)
-                u1 = m.group(2) or u2
-                lo, hi = _para(m.group(1), u1), _para(m.group(3), u2)
+                lo, hi = _para(m.group(1), m.group(2) or u2), _para(m.group(3), u2)
             except ValueError:
                 continue
             if 0 < lo < hi:
-                return {"orta": (lo + hi) / 2, "kanit": m.group(0)[m.group(0).index("$"):]}
+                out.append(((lo + hi) / 2, m.group(0)[m.group(0).index("$"):]))
+        for m in re.finditer(r"(?i)(?:net )?(?:revenues?|sales)[^.\n]{0,60}?\$\s*([\d.,]+)\s*(million|billion)\s*(?:\+/-|±|plus or minus)", satir):
+            try:
+                out.append((_para(m.group(1), m.group(2)), m.group(0)[m.group(0).index("$"):]))
+            except ValueError:
+                pass
+        for m in re.finditer(r"(?i)(?:net )?(?:revenues?|sales)\s+(?:of|to be|at)\s+(?:approximately|about|around)\s+\$\s*([\d.,]+)\s*(million|billion)", satir):
+            try:
+                out.append((_para(m.group(1), m.group(2)), m.group(0)[m.group(0).index("$"):]))
+            except ValueError:
+                pass
+    return out
+
+
+def rehberlik_gelir(metin, hedef=None, alt=0.65, ust=1.35):
+    """İlk uygun aday. hedef ($M) verilirse orta nokta hedef*alt..hedef*ust içinde olmalı (yıllık rehberlik ve başka kalemleri eler)."""
+    for orta, kanit in _adaylar_gelir(metin):
+        if hedef is None or alt * hedef <= orta <= ust * hedef:
+            return {"orta": orta, "kanit": kanit}
     return None
 
 
@@ -260,8 +286,8 @@ def tablo(sym, dosya, metin, b):
     bg_kullanildi = False
     onceki = onceki_bulten(dosya, tarih)
     if onceki:
-        rg = rehberlik_gelir(open(onceki, encoding="utf-8").read())
-        if rg and 0.65 * gel <= rg["orta"] * 1e6 <= 1.35 * gel:
+        rg = rehberlik_gelir(open(onceki, encoding="utf-8").read(), gel / 1e6)
+        if rg:
             ptar = os.path.basename(onceki)[:10]
             bgm = f"{sym} prior-quarter release ({ptar}): " + rg["kanit"]
             for r in S:
@@ -271,8 +297,8 @@ def tablo(sym, dosya, metin, b):
                     r["bek"] = round((rg["orta"] * 1e6 / ce[ky]["gelir"] - 1) * 100, 1); r["sonuc"] = sonuc_beklenen(r["ger"], r["bek"], "p"); r["bg"] = bgm
     bolumler = [{"baslik": sym, "etiket": etiket(metin, k), "satirlar": S}]
     # sonraki çeyrek rehberliği
-    rn = rehberlik_gelir(metin)
-    if rn and 0.6 * gel <= rn["orta"] * 1e6 <= 1.6 * gel:
+    rn = rehberlik_gelir(metin, gel / 1e6, 0.6, 1.6)
+    if rn:
         G = []
         G.append({"ad": "Revenue Guidance ($M)", "fmt": "m", "ger": round(rn["orta"], 1), "bek": None, "sonuc": None, "vurgu": 0, "kanit": [rn["kanit"]], "hesap": "aralığın orta noktası"})
         kn = ce_yakin(ce, dt.date.fromisoformat(k), 274)

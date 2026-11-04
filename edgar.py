@@ -49,6 +49,8 @@ def basvurular(cik, bugun, gun=GUN):
             continue
         if f == "8-K" and "2.02" in (d["items"][i] or "").split(","):
             out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i], "8-K"))
+        elif f == "6-K":  # yabancı şirketler: madde numarası yok, içerik süzgeci ana() içinde
+            out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i], "6-K"))
         elif f in ("10-Q", "10-K"):
             out.append((d["filingDate"][i], d["accessionNumber"][i], d["primaryDocument"][i], f))
     return out
@@ -92,10 +94,10 @@ def ana(semboller, cikti="bildirim", bugun=None, gun=GUN):
             continue
         try:
             for tarih, acc, bir, tur in basvurular(cik, bugun, gun):
-                yol = os.path.join(cikti, s, f"{tarih}_{acc}.txt" if tur == "8-K" else f"{tarih}_{acc}_{tur}_nakit.txt")
+                yol = os.path.join(cikti, s, f"{tarih}_{acc}.txt" if tur in ("8-K", "6-K") else f"{tarih}_{acc}_{tur}_nakit.txt")
                 if os.path.exists(yol):
                     continue
-                if tur != "8-K":
+                if tur not in ("8-K", "6-K"):
                     t = nakit_akisi(cik, acc, bir)
                     url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc.replace('-', '')}/{bir}"
                     if t:
@@ -107,6 +109,9 @@ def ana(semboller, cikti="bildirim", bugun=None, gun=GUN):
                         hata[s] = f"{acc}: {tur} nakit akışı tablosu bulunamadı"
                     continue
                 url, t = bulten(cik, acc, bir)
+                if tur == "6-K":  # yalnız çeyrek sonuç bültenleri (6-K'ler çoğunlukla başka duyurular)
+                    if not t or len(t) < 3000 or not re.search(r"(?i)quarter", t) or not re.search(r"(?i)\b(revenues?|net sales)\b", t) or not re.search(r"(?i)(results|earnings)", t[:3000]):
+                        continue
                 if not t:
                     hata[s] = f"{acc}: ek 99 bulunamadı"
                     continue
