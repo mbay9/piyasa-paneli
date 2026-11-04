@@ -16,6 +16,8 @@ DEC = {"m": 1, "p": 1, "d": 2}
 def sonuc_beklenen(ger, bek, fmt):
     d = DEC[fmt]
     a, b = round(ger, d), round(bek, d)
+    if fmt == "p" and abs(a - b) <= 0.1 + 1e-9:
+        return "In line"
     return "Beat" if a > b else "Miss" if a < b else "In line"
 
 

@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-04T08:00:00Z",
+ "guncelleme": "2026-11-04T00:21:49Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -160,6 +160,309 @@
     }
    ],
    "dipnot": "* Non-GAAP. Estimates: EPS from Yahoo Finance consensus; revenue consensus from MarketBeat (actual minus the reported $7.11M beat). Consensus for guidance, EBITDA and gross profit is not available, so no Beat/Miss is shown for those rows. FCF = operating cash flow - capital expenditures (Form 10-Q)."
+  },
+  "AMD": {
+   "tarih": "2026-11-03",
+   "basvuru": "0000002488-26-000188",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+   "bolumler": [
+    {
+     "baslik": "AMD",
+     "etiket": "2026/3F",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 13377.0,
+       "bek": 13093.9,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "13,377"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 44.7,
+       "bek": 41.6,
+       "sonuc": "Beat",
+       "vurgu": 1,
+       "hesap": "13,377 / 9,246 - 1 (bülten); beklenti: 13,093.9 / 9,246 - 1"
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 2.09,
+       "bek": 1.95,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$2.09"
+       ]
+      },
+      {
+       "ad": "Gross Profit* ($M)",
+       "fmt": "m",
+       "ger": 7483.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "7,483"
+       ]
+      },
+      {
+       "ad": "Gross Margin %*",
+       "fmt": "p",
+       "ger": 55.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "7,483 / 13,377"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 3923.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "3,923"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 29.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "3,923 / 13,377"
+      },
+      {
+       "ad": "Data Center Revenue ($M)",
+       "fmt": "m",
+       "ger": 8546.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "8,546"
+       ]
+      },
+      {
+       "ad": "Data Center Revenue Change YoY",
+       "fmt": "p",
+       "ger": 96.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "8,546 / 4,341 - 1 (bülten segment tablosu)"
+      },
+      {
+       "ad": "FCF ($M)",
+       "fmt": "m",
+       "ger": 554.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "554"
+       ]
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": 4.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "554 / 13,377"
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "2026/4F",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 17000.0,
+       "bek": 16143.5,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$17 billion"
+       ],
+       "hesap": "bülten: yaklaşık 17 milyar $, ±3% (orta nokta)"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 66.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "kanit": [
+        "66%"
+       ]
+      },
+      {
+       "ad": "Gross Margin % *",
+       "fmt": "p",
+       "ger": 55.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "55%"
+       ]
+      }
+     ]
+    }
+   ],
+   "dipnot": "* Non-GAAP. Estimates: Yahoo Finance consensus recorded before the release (revenue 13,093.9; EPS 1.945; next-quarter revenue 16,143.5); no estimate available for the other rows. Segment YoY and FCF figures per the company release; FCF as defined by the company."
+  },
+  "ALAB": {
+   "tarih": "2026-11-03",
+   "basvuru": "0001736297-26-000044",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000044/q326exhibit991.htm",
+   "bolumler": [
+    {
+     "baslik": "ALAB",
+     "etiket": "2026/3F",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 584.9,
+       "bek": 550.8,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$584.9 million"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 153.7,
+       "bek": 138.9,
+       "sonuc": "Beat",
+       "vurgu": 1,
+       "hesap": "584,899 / 230,575 - 1 (bülten, bin $); beklenti: 550.8 / 230.575 - 1"
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 1.32,
+       "bek": 1.19,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$1.32"
+       ]
+      },
+      {
+       "ad": "Gross Profit* ($M)",
+       "fmt": "m",
+       "ger": 423.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "423,642 bin $ (bülten tablosu)"
+      },
+      {
+       "ad": "Gross Margin %*",
+       "fmt": "p",
+       "ger": 72.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "72.4%"
+       ]
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 261.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$261.6 million"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 44.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "kanit": [
+        "44.7%"
+       ]
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "2026/4F",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 740.0,
+       "bek": 655.7,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$730 million to $750 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 173.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "740 / 270.583 - 1 (2025-12-31 çeyreği geliri, bilanco kaydı)"
+      },
+      {
+       "ad": "EPS* Guidance ($)",
+       "fmt": "d",
+       "ger": 1.64,
+       "bek": 1.42,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$1.62",
+        "$1.66"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Gross Margin % *",
+       "fmt": "p",
+       "ger": 72.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "72%"
+       ]
+      }
+     ]
+    }
+   ],
+   "dipnot": "* Non-GAAP. Estimates: Yahoo Finance consensus recorded before the release (revenue 550.8; EPS 1.192; next-quarter revenue 655.7, EPS 1.421); no estimate available for the other rows. Operating cash flow in the release is nine-month only, so FCF is not shown."
   }
  }
 }
