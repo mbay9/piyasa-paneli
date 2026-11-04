@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-04T00:00:00Z",
+ "guncelleme": "2026-11-04T07:00:00Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -15,8 +15,8 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1262.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 1255.5,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "1,262.6"
@@ -26,12 +26,13 @@
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 136.5,
-       "bek": null,
-       "sonuc": null,
+       "bek": 135.2,
+       "sonuc": "Beat",
        "vurgu": 1,
        "kanit": [
         "136.5%"
-       ]
+       ],
+       "hesap": "136.5 gerçek (bülten); beklenti: 1,255.5 / 533.8 - 1 (geçen yılın aynı çeyreği 533.8, bülten)"
       },
       {
        "ad": "EPS* ($)",
@@ -140,7 +141,7 @@
      ]
     }
    ],
-   "dipnot": "* Non-GAAP. Estimate: Yahoo Finance consensus (EPS). Revenue and guidance estimates were not recorded before this release, so no Beat/Miss is shown for them."
+   "dipnot": "* Non-GAAP. Estimates: EPS from Yahoo Finance consensus; revenue consensus from MarketBeat (actual minus the reported $7.11M beat). Consensus for guidance, EBITDA and gross profit is not available, so no Beat/Miss is shown for those rows."
   }
  }
 }
