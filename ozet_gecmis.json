@@ -497,5 +497,24 @@
       "btc": null,
       "not": "Kore hafif yükseldi, Japonya geriledi; ikisi de aylık tabloda çok aşağıda, eğilim karışık; Bitcoin verisi güncel değildi (son tarih 2 Kas), yön yazılmadı"
     }
+  },
+  {
+    "date": "2026-11-04",
+    "gun": "yukari",
+    "trend": "yukari",
+    "vix": "normal",
+    "vix_yon": "geriledi",
+    "katilim": "genis",
+    "katilim_yon": "genisledi",
+    "sektor_onde": [
+      "dongusel tuketim",
+      "finans"
+    ],
+    "sektor_geride": [
+      "enerji",
+      "sanayi"
+    ],
+    "ai": "cok zayif",
+    "not": "Üst üste ikinci yükseliş, toparlanma geniş piyasaya yayıldı; küçük şirketler ve eşit ağırlık güçlü, korku endeksi sert düştü; çip ve yapay zeka dünkü toparlanmayı geri verdi"
   }
 ]
