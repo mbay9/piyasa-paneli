@@ -1,7 +1,7 @@
 {
  "sembol": "AMD",
  "para": "USD",
- "guncelleme": "2026-11-03",
+ "guncelleme": "2026-11-04",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 7685000000.0,
@@ -315,12 +315,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 1.17529,
-   "gercek": 1.2,
-   "yuzde": 2.1
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 1.32432,
    "gercek": 1.53,
@@ -337,6 +331,12 @@
    "tahmin": 1.60841,
    "gercek": 1.66,
    "yuzde": 3.2
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 1.94491,
+   "gercek": 2.09,
+   "yuzde": 7.5
   }
  ]
 }

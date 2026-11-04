@@ -1,7 +1,7 @@
 {
  "sembol": "ALAB",
  "para": "USD",
- "guncelleme": "2026-11-03",
+ "guncelleme": "2026-11-04",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 191925000.0,
@@ -293,12 +293,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.39014,
-   "gercek": 0.49,
-   "yuzde": 25.6
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.51492,
    "gercek": 0.58,
@@ -315,6 +309,12 @@
    "tahmin": 0.69195,
    "gercek": 0.8,
    "yuzde": 15.6
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 1.19211,
+   "gercek": 1.32,
+   "yuzde": 10.7
   }
  ]
 }

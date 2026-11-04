@@ -1,7 +1,7 @@
 {
  "sembol": "MOD",
  "para": "USD",
- "guncelleme": "2026-11-03",
+ "guncelleme": "2026-11-04",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 682800000.0,
@@ -302,12 +302,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 1.01,
-   "gercek": 1.06,
-   "yuzde": 5.0
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.99413,
    "gercek": 1.19,
@@ -324,6 +318,12 @@
    "tahmin": 1.27477,
    "gercek": 1.53,
    "yuzde": 20.0
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 1.52373,
+   "gercek": 1.35,
+   "yuzde": -11.4
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "sembol": "SMCI",
  "para": "USD",
- "guncelleme": "2026-11-03",
+ "guncelleme": "2026-11-04",
  "ceyrekler": {
   "2025-03-31": {
    "eps": 0.17
@@ -319,12 +319,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.38923,
-   "gercek": 0.35,
-   "yuzde": -10.1
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.48789,
    "gercek": 0.69,
@@ -341,6 +335,12 @@
    "tahmin": 0.95748,
    "gercek": 1.7,
    "yuzde": 77.5
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 1.23458,
+   "gercek": 1.81,
+   "yuzde": 46.6
   }
  ]
 }
