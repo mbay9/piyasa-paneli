@@ -56,7 +56,7 @@ def http(url, tries=3, timeout=30, headers=None):
 
 # ------------------------------------------------------------------ onkontrol
 def onkontrol():
-    for f in ("update.py", "validate.py", "saglik.py", "test_regime.py", "edgar.py", "tablo_kontrol.py"):
+    for f in ("update.py", "validate.py", "saglik.py", "test_regime.py", "edgar.py", "tablo_kontrol.py", "tablo_toplu.py"):
         try:
             ast.parse(open(yol(f), encoding="utf-8").read(), f)
             kayit(f"Python sözdizimi: {f}", True)
