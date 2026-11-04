@@ -1,0 +1,14 @@
+name: fmp-test
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - name: FMP deneme
+        env:
+          K: ${{ secrets.FMP_API_KEY }}
+        run: |
+          [ -z "$K" ] && echo "FMP_API_KEY secret yok" && exit 0
+          for u in "analyst-estimates?symbol=AMD&period=quarter&limit=6" "earnings?symbol=AMD&limit=6" "earnings?symbol=ALAB&limit=6"; do
+            echo "== $u"; curl -s "https://financialmodelingprep.com/stable/$u&apikey=$K" | head -c 1800; echo
+          done
