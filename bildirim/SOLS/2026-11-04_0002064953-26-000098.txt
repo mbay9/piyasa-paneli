@@ -1,0 +1,424 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2064953/000206495326000098/exhibit991-earningsrelease.htm
+SEMBOL: SOLS
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0002064953-26-000098
+
+EX-99.1
+2
+exhibit991-earningsrelease.htm
+EX-99.1
+Document
+| | | | | |
+| Exhibit 99.1 |
+Solstice Advanced Materials Reports Third Quarter 2026 Results
+• Net Sales of $1,046 million exceeded guidance, up 8% YoY reflecting robust growth in Electronic Materials, Refrigerants, and Healthcare Packaging
+• Net Income attributable to Solstice Advanced Materials of $80 million, Diluted Earnings per Share (EPS) of $0.50, and Adjusted diluted EPS 1 of $0.80
+• Adjusted EBITDA 1 of $265 million, with Adjusted EBITDA Margin 1 of 25.3%, up 109 bps YoY
+• Company raises Full-Year 2026 Guidance; now expects Net Sales of $4,195 - $4,220 million, Adjusted EBITDA 1 of $1,050 - $1,060 million, and Adjusted Diluted Earnings per Share (EPS) 1 of $2.90 - $2.95
+• Returned $112 million to shareowners in the third quarter including $100 million of share repurchases. Intends to substantially complete $500 million share repurchase authorization by the end of 1Q’27
+MORRIS PLAINS, N.J., November 4, 2026 – Solstice Advanced Materials (Nasdaq: SOLS) (“Solstice” or “the Company”), a global leader in high-performance specialty materials, today reported financial results for the third quarter of 2026.
+"Solstice delivered strong third-quarter results, demonstrating the value of our differentiated portfolio and consistent execution,” said David Sewell, President and Chief Executive Officer. “Our businesses are well positioned to benefit from key secular growth trends including nuclear energy, thermal management, AI and data centers, and we continue to invest to support that growth. Our cash generation and balance sheet strength also enable us to return capital to shareowners, including through our $500 million share repurchase authorization, which we intend to substantially complete by the end of the first quarter of 2027.”
+| | | | | | | | | | | | | | | | | | |
+Consolidated Financial Highlights
+| For The Three Months Ended September 30, | |
+(Dollars in millions, except per share amounts) | 2026 | | 2025 | | % Change
+| |
+Net Sales | $ | 1,046 | | $ | 969 | | 8% | |
+Net Income (Loss) attributable to Solstice Advanced Materials | $ | 80 | | $ | (35) | | NM | |
+Diluted earnings (loss) per share | $ | 0.50 | | $ | (0.22) | | NM | |
+Adjusted diluted EPS 1
+| $ | 0.80 | | N/A | | N/A | |
+Adjusted EBITDA 1,2
+| $ | 265 | | $ | 235 | | 13% | |
+Adjusted EBITDA Margin 1,2
+| 25.3% | | 24.3% | | 109 bps | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+______________
+NM - not meaningful
+Net Sales in the third quarter of 2026 were $1,046 million, an 8% increase compared to the third quarter of 2025, reflecting 6% higher Net Sales in the Refrigerants & Applied Solutions segment and 13% higher Net Sales in the Electronic & Specialty Materials segment. Organic Net Sales 1 increased by 8% in the third quarter of 2026 driven by both volume and price.
+Net Income attributable to Solstice Advanced Materials in the third quarter of 2026 was $80 million, compared to Net Loss attributable to Solstice Advanced Materials of $35 million in the third quarter of 2025. The increase was primarily driven by higher Net Sales and lower income taxes partially offset by higher interest expense.
+Adjusted EBITDA 1,2 for the third quarter of 2026 was $265 million, a 13% increase compared to the third quarter of 2025. Adjusted EBITDA Margin 1,2 for the third quarter of 2026 increased 109 basis points to 25.3%, reflecting Net Sales growth and operational leverage.
+Financial Position
+1
+| | | | | |
+| |
+Operating Cash Flow for the nine months ended September 30, 2026 was $693 million. Capital Expenditures for the nine months ended September 30, 2026 were $325 million, a 31% increase compared to the prior-year period due to planned increases in capital spending intended to drive long-term growth. Free Cash Flow 1 for the nine months ended September 30, 2026 was $368 million.
+As of September 30, 2026, the Company’s Total Long-Term Debt was $2.0 billion and Cash and Cash Equivalents were approximately $714 million. As a result, the Company’s Net Leverage ratio was approximately 1.3x based on a trailing twelve-month Adjusted EBITDA 1 . Total liquidity was approximately $1.7 billion, including Cash and Cash Equivalents and $1.0 billion of availability through the Company’s revolving credit facility.
+Capital Deployment
+On August 27, 2026, the Company announced that the Board of Directors of the Company approved a share repurchase program, authorizing the repurchase of up to $500 million of its common stock. During the three months ended September 30, 2026, the Company completed $100 million of the program, repurchasing 1.7 million shares of its common stock. The Company intends to substantially complete its current $500 million share repurchase authorization by the end of the first quarter of 2027.
+The Company also announced on November 3, 2026, that the Board of Directors declared a quarterly dividend of $0.075 per share of common stock outstanding, payable on December 10, 2026, to shareowners of record as of November 25, 2026.
+Segment Highlights
+Refrigerants & Applied Solutions (RAS)
+| | | | | | | | | | | | | | | | | | | |
+| For The Three Months Ended September 30, | | |
+(Dollars in millions) | 2026 | | 2025 | | % Change
+| | |
+Net Sales |
+| |
+| |
+| | |
+Refrigerants | $ | 433 | | $ | 400 | | 8% | | |
+Building Solutions & Intermediates | 167 | | 175 | | (5)% | | |
+Nuclear
+| 66 | | 63 | | 4% | | |
+Healthcare Packaging | 61 | | 49 | | 24% | | |
+RAS Segment Net Sales | $ | 726 | | $ | 687 | | 6% | | |
+RAS Segment Adjusted EBITDA
+| $ | 251 | | $ | 243 | | 3% | | |
+RAS Segment Adjusted EBITDA Margin
+| 34.5% | | 35.4% | | (82) bps | | |
+Net Sales for the Refrigerants & Applied Solutions segment were $726 million in the third quarter of 2026, up 6% compared to the third quarter of 2025. Net Sales in Refrigerants increased 8% in the third quarter of 2026 compared to the third quarter of 2025, reflecting strong demand across automotive and data center applications. Net Sales in Healthcare Packaging improved 24%, reflecting higher volume and pricing following destocking in the second half of 2025. Building Solutions & Intermediates decreased 5% as construction-related end markets remained soft. Nuclear revenues increased 4% in the third quarter of 2026 compared to the third quarter of 2025. Solstice completed ~$30 million 3 of previously communicated product loan returns in the quarter. Demand for the Company’s conversion services continues to be robust, with the backlog for Nuclear now at $2.6 billion.
+Segment Adjusted EBITDA for the Refrigerants & Applied Solutions segment increased 3% in the third quarter of 2026 compared to the third quarter of 2025. Segment Adjusted EBITDA Margin was 34.5%, down 82 basis points vs. the prior year due in part to higher R&D investment. Segment Adjusted EBITDA Margin improved 160 basis points sequentially from the second quarter of 2026, consistent with the Company’s previously communicated expectations.
+2
+| | | | | |
+| |
+Electronic & Specialty Materials (ESM)
+| | | | | | | | | | | | | | | | | | | |
+| For The Three Months Ended September 30, | | |
+(Dollars in millions) | 2026 | | 2025 | | % Change | | |
+Net Sales |
+| |
+| |
+| | |
+Electronic Materials | $ | 135 | | $ | 103 | | 31% | | |
+Research & Performance Chemicals | 131 | | 126 | | 4% | | |
+Safety & Defense Solutions | 54 | | 53 | | 3% | | |
+ESM Segment Net Sales
+| $ | 320 | | $ | 282 | | 13% | | |
+ESM Segment Adjusted EBITDA
+| $ | 68 | | $ | 47 | | 44% | | |
+ESM Segment Adjusted EBITDA Margin
+| 21.2% | | 16.7% | | 453 bps | | |
+The Electronic & Specialty Materials segment delivered record quarterly Net Sales of $320 million in the third quarter of 2026, up 13% from the prior-year period. Growth was primarily driven by a 31% increase in Electronic Materials reflecting increased demand for sputtering targets and thermal solutions in memory and AI-related applications. Safety & Defense Solutions sales increased 3% compared to the prior year, on improved volumes. Research & Performance Chemicals sales grew 4%, on higher demand for specialty additives.
+Segment Adjusted EBITDA for the Electronic & Specialty Materials segment increased 44% in the third quarter of 2026 compared to the third quarter of 2025. Segment Adjusted EBITDA Margin for the segment increased 453 basis points compared to the third quarter of 2025, reflecting Net Sales growth and improved operating leverage.
+Corporate Expenses
+Corporate Expenses of $53 million in the third quarter of 2026 were slightly lower compared to $54 million in the third quarter of 2025. There were no standalone cost adjustments in the third quarter of 2026, compared to $1 million in the third quarter of 2025, which was prior to the spin-off from Honeywell International Inc. (“Honeywell”) on October 30, 2025.
+Income Tax Expense
+Income Tax Expense was $24 million in the third quarter of 2026, a decrease of $158 million compared to the third quarter of 2025 as a result of frictional taxes associated with the Company’s Spin-off from Honeywell in the prior-year period. Effective tax rates were 22% and 105% for the third quarters of 2026 and 2025, respectively.
+3
+| | | | | |
+| |
+2026 Financial Outlook
+| | | | | | | | | | | | | | | | | |
+(Dollars in millions except per share amounts) | Previous 2026 Guidance | | Raised 2026 Guidance | | 4Q 2026 Guidance |
+Net Sales | $4,125 - $4,185 | | $4,195 - $4,220 | | $1,010 - $1,035 |
+Adjusted EBITDA 1 | $1,035 - $1,055 | | $1,050 - $1,060 | | $246 - $256 |
+Adjusted Diluted EPS 1
+| $2.75 - $2.95 | | $2.90 - $2.95 | | $0.57 - $0.62 |
+Capital Expenditures | $420 - $440 | | Unchanged | | |
+"Our strong business performance year-to-date gives us confidence to raise our full-year outlook for the second consecutive quarter," said David Sewell, President and Chief Executive Officer. "Our team remains focused on operational excellence and disciplined capital deployment to deliver long-term value for shareowners."
+The Company does not provide a reconciliation of forward-looking Adjusted EBITDA (non-GAAP) or Adjusted diluted Earnings per Share to GAAP net income (loss) attributable to Solstice Advanced Materials, due to the inherent difficulty in forecasting and quantifying certain amounts that are necessary for such reconciliation. Because deductions (such as repositioning charges, transaction costs, impairment charges, and litigation and other matters) used to calculate projected net income (loss) vary based on actual events, the Company is not able to forecast on a GAAP basis with reasonable certainty all deductions needed in order to provide a GAAP calculation of projected net income (loss) at this time. The amount of these deductions may be material and, therefore, could result in projected GAAP net income (loss) being materially less than projected Adjusted EBITDA (non-GAAP) or Adjusted Net Income attributable to Solstice (non-GAAP). These statements represent forward-looking information and a projected financial outlook, and actual results may vary. Please see the risks and assumptions referred to in the “Forward-Looking Statements” section of this news release. The guidance in this news release is only effective as of the date it is given and will not be updated or affirmed unless and until the Company publicly announces updated or affirmed guidance.
+1 This is a non-GAAP measure or a non-GAAP ratio. For further information on non-GAAP measures and non-GAAP ratios, please refer to the "Non-GAAP Financial Measures" section of this news release. Please also refer to tables at the end of this news release for a reconciliation of historical non-
+GAAP measures and ratios to the most directly comparable GAAP measure.
+2 The three months ended September 30, 2025 represents Adjusted Standalone EBITDA (non-GAAP) and Adjusted Standalone EBITDA Margin (non-
+GAAP).
+3 Estimated sales value.
+4
+| | | | | |
+| |
+Conference Call Details
+Solstice will discuss its third quarter results during an investor conference call starting at 8:30 a.m. Eastern Time today. A live webcast of the investor call as well as related presentation materials will be available on the Investor Relations section of the Company’s website, investor.solstice.com . The teleconference can be accessed by dialing 877-407-8029 (North America toll-free) or +1 201-689-8029 (international).
+A replay of the webcast will be available shortly after the call concludes and will be available for 30 days following the presentation.
+About Solstice Advanced Materials
+Solstice Advanced Materials is a leading global specialty materials company that advances science for smarter outcomes. Solstice offers high-performance solutions that enable critical industries and applications, including refrigerants, semiconductor manufacturing, data center cooling, nuclear power, protective fibers, healthcare packaging and more. Solstice is recognized for developing next-generation materials through some of the industry's most renowned brands such as Solstice®, Genetron®, Aclar®, Spectra®, Fluka™ and Hydranal™. Partnering with over 3,000 customers across more than 120 countries and territories and supported by a robust portfolio of over 5,700 patents and pending applications, Solstice’s approximately 4,100 employees worldwide drive innovation in materials science. For more information, visit www.Solstice.com .
+Forward-Looking Statements
+This news release contains “forward-looking statements” within the meaning of the federal securities laws made pursuant to the safe harbor provisions of the Private Securities Litigation Reform Act of 1995 about us and our industry that involve substantial risks and uncertainties. These statements can be identified by the fact that they do not relate strictly to historical or current facts, but rather are based on current expectations, estimates, assumptions and projections about our industry and our business and financial results. Forward-looking statements often include words such as “anticipates,” “estimates,” “expects,” “positioned,” “projects,” “forecasts,” “intends,” “plans,” “continues,” “could,” “believes,” “may,” “will,” “would,” “should,” “goals” and words and terms of similar substance in connection with discussions of future operating or financial performance. As with any projection or forecast, forward-looking statements are inherently susceptible to uncertainty and changes in circumstances. Our actual results may vary materially from those expressed or implied in our forward-looking statements. Accordingly, undue reliance should not be placed on any forward-looking statement made by us or on our behalf. Although we believe that the forward-looking statements contained in this release are based on reasonable assumptions, you should be aware that a variety of factors, many of which are difficult to predict and outside of our control, could affect our actual financial results or results of operations and could cause actual results to differ materially from those in such forward-looking statements, including, but not limited to: our limited operating history as an independent, publicly traded company and unreliability of historical consolidated financial information as an indicator of our future results; our ability to successfully develop new technologies and introduce new products; an overall decline in the health of the economy and the industries in which we operate, including as a result of inflation, tariffs and other trade barriers and restrictions, market volatility, geopolitical instability and social unrest, the possibility of an economic downturn or recession or other macroeconomic factors; changes in the price and availability of raw materials that we use to produce our products, including due to factors such as supply chain disruptions, including due to increased energy prices, and the impact of inflation; our ability to comply with complex government regulations and the impact of changes in such regulations; global climate change and related regulations and changes in customer demand; the public and political perceptions of nuclear energy and radioactive materials; economic, political, regulatory, foreign exchange and other risks of international operations; the impact of tariffs or other restrictions on foreign imports; our ability to borrow funds and access capital markets and any limitations in the terms of our indebtedness; our ability to compete successfully in the markets in which we operate; the effect on our revenue and cash flow from seasonal fluctuations and cyclical market conditions; concentrations of our credit, counterparty and market risk; our ability to successfully execute or effectively integrate potential acquisitions or complete potential
+5
+| | | | | |
+| |
+divestitures; our joint ventures and strategic co-development partnerships; our ability to recruit and retain qualified personnel; potential material environmental liabilities; the hazardous nature of chemical manufacturing; decommissioning and remediation expenses and regulatory requirements; potential material litigation matters, including disputes related to the Spin-off; the impact of potential cybersecurity attacks, data privacy breaches and other operational disruptions; increasing stakeholder interest in public company performance, disclosure, and goal-setting with respect to sustainability matters; failure to maintain, protect and enforce our intellectual property or to be successful in litigation related to our intellectual property or the intellectual property of others, or competitors developing similar or superior intellectual property or technology; unforeseen U.S. federal income tax and foreign tax liabilities and our ability to achieve anticipated tax treatments in connection with the Spin-off; U.S. federal income tax reform; our ability to operate as an independent, publicly traded company without certain benefits available to us as a part of Honeywell prior to the Spin-off, including managing the costs of operating as an independent company following the Spin-off; our ability to achieve some or all of the benefits that we expect to achieve from the Spin-off; our inability to maintain intellectual property agreements; potential timing, declaration, amount and payment of the Company’s dividend program; expectations relating to our share repurchase program; potential cash contributions to defined benefit pension plans; and our ability to maintain proper and effective internal controls.
+These and other factors are more fully discussed in Part I. Item 1A. “Risk Factors” and Part II. Item 7. “Management’s Discussion and Analysis of Financial Condition and Results of Operations” included in our Annual Report on Form 10-K for the year ended December 31, 2025, and may be updated from time to time in our Securities and Exchange Commission (“SEC”) filings. These risks could cause actual results to differ materially from those implied by forward-looking statements in this release. Even if our results of operations, financial condition and liquidity and the development of the industries in which we operate are consistent with the forward-looking statements contained in this release, those results or developments may not be indicative of results or developments in subsequent periods. Solstice does not undertake to update or revise any of its forward-looking statements, which speak only as of the date they are made, except as may be required by law or regulation.
+| | | | | |
+Contacts:
+| |
+Investor Relations
+| Media
+|
+Mike Leithead
+| Phil Terrigno
+|
+(973) 370-8188
+| (973) 768-8868
+|
+Michael.Leithead@solstice.com
+| Phil.Terrigno@solstice.com
+|
+6
+| | | | | |
+| |
+SOLSTICE ADVANCED MATERIALS INC.
+CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED)
+(AMOUNTS IN MILLIONS, EXCEPT PER SHARE AMOUNTS)
+| | | | | | | | | | | | | | | | | | | | | | | |
+| For The Three Months Ended September 30, | | For The Nine Months Ended September 30, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Product sales
+| $ | 980 | | | $ | 905 | | | $ | 2,957 | | | $ | 2,687 | |
+Service sales
+| 66 | | | 64 | | | 229 | | | 212 | |
+Net sales
+| 1,046 | | | 969 | | | 3,185 | | | 2,899 | |
+Costs, expenses and other
+| | | | | | | |
+Cost of products sold
+| 652 | | | 613 | | | 1,995 | | | 1,745 | |
+Cost of services sold
+| 49 | | | 46 | | | 159 | | | 162 | |
+Total cost of products and services sold
+| 701 | | | 659 | | | 2,153 | | | 1,907 | |
+Research and development expenses
+| 30 | | | 26 | | | 83 | | | 70 | |
+Selling, general and administrative expenses
+| 120 | | | 113 | | | 350 | | | 309 | |
+Transaction-related costs | 31 | | | 32 | | | 78 | | | 90 | |
+Other expense (income)
+| (7) | | | (36) | | | (16) | | | (43) | |
+Interest and other financial charges
+| 60 | | | 2 | | | 112 | | | 5 | |
+Total costs, expenses and other
+| 934 | | | 796 | | | 2,761 | | | 2,338 | |
+Income before taxes
+| 112 | | | 173 | | | 424 | | | 561 | |
+Income tax expense
+| 24 | | | 182 | | | 98 | | | 330 | |
+Net income (loss)
+| 88 | | | (9) | | | 326 | | | 231 | |
+Less: Net income attributable to noncontrolling interest
+| 8 | | | 26 | | | 43 | | | 35 | |
+Net income (loss) attributable to Solstice Advanced Materials
+| $ | 80 | | | $ | (35) | | | $ | 283 | | | $ | 196 | |
+| | | | | | | |
+Basic earnings (loss) per share | $ | 0.50 | | | $ | (0.22) | | | $ | 1.79 | | | $ | 1.23 | |
+Diluted earnings (loss) per share | $ | 0.50 | | | $ | (0.22) | | | $ | 1.78 | | | $ | 1.23 | |
+| | | | | | | |
+Weighted average number of common shares outstanding - basic | 158.7 | | | 158.7 | | | 158.7 | | | 158.7 | |
+Weighted average number of common shares outstanding - diluted | 159.0 | | | 158.7 | | | 159.2 | | | 158.7 | |
+7
+| | | | | |
+| |
+SOLSTICE ADVANCED MATERIALS INC.
+CONSOLIDATED BALANCE SHEETS (UNAUDITED)
+(DOLLARS IN MILLIONS, EXCEPT PER SHARE AMOUNTS)
+| | | | | | | | | | | |
+| As of |
+| September 30, 2026 | | December 31, 2025 |
+ASSETS
+| | | |
+Current assets:
+| | | |
+Cash and cash equivalents
+| $ | 714 | | | $ | 534 | |
+Accounts receivable, less allowances of $6 and $10, respectively
+| 667 | | | 645 | |
+Inventories
+| 664 | | | 715 | |
+Product loans receivable, current | 331 | | | 300 | |
+Other current assets
+| 300 | | | 193 | |
+Total current assets
+| 2,677 | | | 2,388 | |
+Property, plant and equipment – net
+| 2,180 | | | 2,055 | |
+Goodwill
+| 818 | | | 820 | |
+Intangible assets – net
+| 47 | | | 49 | |
+Deferred income taxes
+| 6 | | | 6 | |
+Equity method investments | 178 | | | 162 | |
+Other noncurrent assets
+| 168 | | | 192 | |
+Total assets
+| $ | 6,074 | | | $ | 5,673 | |
+LIABILITIES
+| | | |
+Current liabilities:
+| | | |
+Accounts payable
+| $ | 957 | | | $ | 909 | |
+Current portion of long-term debt | 5 | | | 4 | |
+Product loans payable, current | 332 | | | 320 | |
+Finance lease liabilities, current | 14 | | | 14 | |
+Accrued and other liabilities, current
+| 629 | | | 467 | |
+Total current liabilities
+| 1,936 | | | 1,713 | |
+Long-term debt | 1,962 | | | 1,968 | |
+Deferred income taxes
+| 247 | | | 233 | |
+Product loans payable, noncurrent
+| 14 | | | 16 | |
+Finance lease liabilities, noncurrent | 91 | | | 104 | |
+Other noncurrent liabilities
+| 249 | | | 262 | |
+Total liabilities
+| 4,500 | | | 4,296 | |
+Commitments and Contingencies | | | |
+EQUITY
+| | | |
+Common stock (par value $0.01 per share; 500,000,000 shares authorized; 158,895,394 shares issued and 157,210,055 shares outstanding at September 30, 2026; 158,747,196 shares issued and outstanding at December 31, 2025)
+| 2 | | | 2 | |
+Additional paid-in capital | 1,507 | | | 1,495 | |
+Treasury stock, at cost (1,685,339 shares at September 30, 2026; 0 shares at December 31, 2025)
+| (101) | | | — | |
+Accumulated other comprehensive loss | (131) | | | (127) | |
+Retained earnings | 288 | | | 41 | |
+Total Solstice Advanced Materials shareowners’ equity
+| 1,565 | | | 1,411 | |
+Noncontrolling interest | 9 | | | (34) | |
+Total equity
+| 1,574 | | | 1,377 | |
+Total liabilities and equity
+| $ | 6,074 | | | $ | 5,673 | |
+8
+| | | | | |
+| |
+SOLSTICE ADVANCED MATERIALS INC.
+SUMMARIZED CASH FLOW INFORMATION (UNAUDITED)
+(DOLLARS IN MILLIONS)
+| | | | | | | | | | | |
+| For The Nine Months Ended September 30, |
+| 2026 | | 2025 |
+Net cash provided by operating activities | $ | 693 | | | $ | 289 | |
+Net cash used for investing activities: | | | |
+Capital expenditures paid | $ | (325) | | | $ | (248) | |
+Net cash used for financing activities: | | | |
+Repurchases of common stock | $ | (100) | | | $ | — | |
+Dividends | $ | (36) | | | $ | — | |
+9
+| | | | | |
+| |
+Non-GAAP Financial Measures
+The Company uses non-GAAP financial measures to supplement the financial measures prepared in accordance with U.S. GAAP. These include (1) Organic sales percentage, (2) Adjusted EBITDA, (3) Adjusted EBITDA Margin, (4) Adjusted Standalone EBITDA, (5) Adjusted Standalone EBITDA margin, (6) Adjusted Net Income attributable to Solstice, (7) Adjusted diluted EPS, (8) Free cash flow, (9) Net debt, (10) Total leverage ratio, and (11) Net leverage ratio.
+Below are definitions and reconciliations of certain non-GAAP financial measures to the most directly comparable financial measures calculated and presented in accordance with U.S. GAAP. Management believes that, when considered together with reported amounts, these measures are useful to investors and management in understanding our ongoing operations and in the analysis of ongoing operating trends. Management believes these non-GAAP financial measures provide investors with a meaningful measure of its performance period to period, align the measures to how management evaluates performance internally, and make it easier for investors to compare our performance to peers. These measures should be considered in addition to, and not as replacements for, the most directly comparable U.S. GAAP measure. The non-GAAP financial measures we use are as follows:
+• Organic sales percentage: The Company defines organic sales percentage as the year-over-year change in reported sales relative to the comparable period, excluding the impact on sales from foreign currency translation and acquisitions, net of divestitures, for the first 12 months following the transaction date. We believe this measure is useful to investors and management in understanding our ongoing operations and in analysis of ongoing operating trends.
+• Adjusted EBITDA, Adjusted EBITDA margin, Adjusted Standalone EBITDA, and Adjusted Standalone EBITDA margin: The Company defines Adjusted EBITDA as net income excluding income taxes, depreciation, amortization, interest and other financial charges, remeasurement of foreign currencies, stock-based compensation expense, nonoperating pension expense (income), transaction-related costs, repositioning charges, environmental reserves, asset retirement obligations accretion, asset impairment charges, litigation costs and insurance settlements (net of recoveries), gains and losses on disposal of assets, and certain other items that are otherwise of an unusual or non-recurring nature. The Company defines Adjusted EBITDA margin as Adjusted EBITDA divided by Net sales. The Company defines Adjusted Standalone EBITDA as Adjusted EBITDA less, for fiscal year 2025, estimated recurring and ongoing costs required to operate a new independent public company, and autonomous entity adjustments as well as adjustments for certain other employee compensation expense for employees that have historically been shared with other Honeywell businesses and were transferred to the Company in connection with the spin-off. The Company defines Adjusted Standalone EBITDA Margin as Adjusted Standalone EBITDA divided by Net sales. We believe these measures are useful to investors as they provide greater transparency with respect to supplemental information used by management in its financial and operational decision making, as well as understanding ongoing operating trends.
+• Adjusted net income attributable to Solstice and Adjusted diluted EPS: The Company defines Adjusted net income attributable to Solstice as Net income attributable to Solstice Advanced Materials excluding the after-tax impact - based on the tax rates by jurisdiction, net of discrete items - of amortization of acquired intangibles, amortization and write-off of bridge loan fees, remeasurement of foreign currencies, nonoperating pension expense (income), transaction-related costs, repositioning charges, environmental reserves, asset retirement obligations accretion, asset impairment charges, litigation costs and insurance settlements (net of recoveries), gains and losses on disposal of assets, and certain other items that are otherwise of an unusual or non-recurring nature. We believe Adjusted net income attributable to Solstice is useful to investors as it provides greater transparency with respect to supplemental information used by management in its financial and operational decision making, as well as in understanding ongoing operational trends. The Company defines Adjusted diluted EPS as Adjusted net income attributable to Solstice divided by diluted weighted average shares outstanding to reflect shares that are dilutive or anti-dilutive based on the amount of Adjusted net income attributable to Solstice. The weighted average common shares outstanding used to calculate Adjusted diluted earnings (loss) per share will differ from such shares used to calculate diluted earnings (loss) per share (GAAP) when the inclusion of dilutive shares has an anti-dilutive effect for
+10
+| | | | | |
+| |
+one calculation but not for the other. We believe Adjusted diluted EPS is useful to investors as it provides greater transparency with respect to supplemental information used by management in its financial and operational decision making, as well as in understanding ongoing operational trends.
+• Free cash flow: The Company defines free cash flow as net cash provided by operating activities less net capital expenditures. Net capital expenditures include capital expenditures paid less proceeds from the disposals of property, plant, and equipment. We believe this measure is useful to investors and management as a measure of cash generated by operations that can be used to invest in future growth through new business development activities or acquisitions, pay dividends, repurchase stock, or repay debt obligations prior to their maturities. This measure can also be used to evaluate our ability to generate cash flow from operations and the impact that this cash flow has on our liquidity.
+• Net debt, total leverage ratio and net leverage ratio: The Company defines net debt as total debt less cash. The Company defines total leverage ratio as total debt divided by Adjusted EBITDA. The Company defines net leverage ratio as net debt divided by Adjusted EBITDA. For purposes of showing total leverage ratio and net leverage ratio, we use Adjusted Standalone EBITDA instead of Adjusted EBITDA. We believe these measures are useful to investors and management in understanding our overall financial condition.
+11
+| | | | | |
+| |
+Organic Sales Percentage
+| | | | | | | | | | | | |
+| For The Three Months Ended September 30, | For The Nine Months Ended September 30, |
+| 2026 vs. 2025 | | | 2026 vs. 2025 |
+Total % change in net sales | 7.9 | % | | | 9.9 | % |
+Foreign currency translation | 0.4 | % | | | (0.9) | % |
+Acquisitions, divestitures and other, net | — | % | | | — | % |
+Organic sales percentage | 8.3 | % | | | 9.0 | % |
+Adjusted EBITDA, Adjusted Standalone EBITDA, Adjusted EBITDA margin and Adjusted Standalone EBITDA margin
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| For The Three Months Ended September 30, | | For The Nine Months Ended September 30, | | For The LTM (1) Ended September 30,
+|
+(Dollars in millions) | 2026 | | 2025 | | 2026 | | 2025 | | 2026 |
+Net income (loss) attributable to Solstice Advanced Materials (GAAP) | $ | 80 | | $ | (35) | | $ | 283 | | $ | 196 | | $ | 324 |
+Net income attributable to noncontrolling interest
+| 8 | | 26 | | 43 | | 35 | | 56 |
+Net income (loss) (GAAP) | $ | 88 | | $ | (9) | | $ | 326 | | $ | 231 | | $ | 380 |
+Depreciation | 54 | | 46 | | 160 | | 151 | | 201 |
+Amortization | 4 | | 4 | | 14 | | 15 | | 28 |
+Interest and other financial charges (2)
+| 60 | | 2 | | 112 | | 5 | | 135 |
+Other adjustments (3)
+| (2) | | (29) | | (2) | | (30) | | (9) |
+Stock-based compensation expense | 6 | | 8 | | 17 | | 19 | | 25 |
+Transaction-related costs
+| 31 | | 32 | | 78 | | 90 | | 105 |
+Income tax expense | 24 | | 182 | | 98 | | 330 | | 129 |
+Adjusted EBITDA (Non-GAAP) | $ | 265 | | $ | 236 | | $ | 804 | | $ | 811 | | $ | 993 |
+Less - Standalone adjustments | — | | | (1) | | — | | | (43) | | — |
+Adjusted Standalone EBITDA (Non-GAAP) | $ | 265 | | $ | 235 | | $ | 804 | | $ | 768 | | $ | 993 |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Net Sales | $ | 1,046 | | $ | 969 | | | $ | 3,185 | | $ | 2,899 | | | $ | 4,172 | |
+Adjusted EBITDA Margin (Non-GAAP) | 25.3 | % | | 24.4% | | 25.2 | % | | 28.0% | | 23.8% |
+Adjusted Standalone EBITDA Margin (Non-GAAP) | 25.3 | % | | 24.3% | | 25.2 | % | | 26.5% | | 23.8% |
+_________________
+1. LTM stands for “last twelve months.”
+2. Includes $34 million of amortization and write-off of fees related to a bridge loan facility and backstop revolving credit facility associated with the terminated merger of Element Solutions Inc for the three and nine months ended September 30, 2026.
+3. Other adjustments primarily consisted of gains and losses from disposal of long-lived assets, remeasurement of foreign currencies, environmental reserves, asset retirement obligations, nonoperating pension expense (income), and certain legal costs, net of recoveries.
+12
+| | | | | |
+| |
+Adjusted net income attributable to Solstice and Adjusted diluted EPS
+| | | | | | | | | | | |
+| For The Three Months Ended September 30, 2026 | | For The Nine Months Ended September 30, 2026 |
+Net income attributable to Solstice Advanced Materials (GAAP) | $ | 80 | | $ | 283 |
+Transaction-related costs
+| 31 | | 78 |
+Amortization of acquired intangible assets | 1 | | 2 |
+Amortization and write-off of bridge loan fees (1)
+| 34 | | 34 |
+Other adjustments (2)
+| (2) | | (2) |
+Tax effect of above adjusting items | (17) | | (29) |
+Adjusted net income attributable to Solstice (Non-GAAP) | $ | 127 | | $ | 367 |
+| | | |
+Diluted weighted average shares outstanding | 159.0 | | 159.2 |
+| | | |
+Diluted EPS (GAAP) | $ | 0.50 | | $ | 1.78 |
+Adjusted diluted EPS (Non-GAAP) | $ | 0.80 | | $ | 2.31 |
+_________________
+1. Represents the amortization and write-off of fees related to a bridge loan facility and backstop revolving credit facility associated with the terminated merger of Element Solutions Inc, which was recorded within Interest and other financial charges in the Consolidated Statements of Operations.
+2. Other adjustments primarily consisted of gains and losses from disposal of long-lived assets, remeasurement of foreign currencies, environmental reserves, asset retirement obligations, nonoperating pension expense (income), and certain legal costs, net of recoveries.
+Free cash flow
+| | | | | |
+(Dollars in millions) | For The Nine Months Ended September 30, 2026 |
+Net cash provided by operating activities (GAAP) | $ | 693 |
+| |
+| |
+| |
+Less: capital expenditures paid | (325) |
+Free cash flow (Non-GAAP) | $ | 368 |
+Net debt, total leverage ratio and net leverage ratio as of September 30, 2026
+| | | | | |
+(Dollars in millions) | |
+| |
+| |
+| |
+Total Debt
+| $ | 1,968 | |
+Less: Cash and Cash Equivalents | (714) | |
+Net Debt (Non-GAAP) | $ | 1,254 | |
+| |
+LTM Adjusted Standalone EBITDA (Non-GAAP)
+| $ | 993 | |
+| |
+Total Leverage Ratio (Non-GAAP) | 2.0 | x |
+Net Leverage Ratio (Non-GAAP) | 1.3 | x |
+13
+| | | | | |
+| |
+Reconciliation of Segment Adjusted EBITDA to Adjusted Standalone EBITDA
+| | | | | | | | | | | | | | | | | | | | | | | |
+| For The Three Months Ended September 30, | | For The Nine Months Ended September 30, |
+(Dollars in millions) | 2026 | | 2025 | | 2026 | | 2025 |
+RAS Segment Adjusted EBITDA
+| $ | 251 | | $ | 243 | | $ | 773 | | $ | 791 |
+ESM Segment Adjusted EBITDA
+| 68 |
+| 47 | | 191 |
+| 152 |
+Segment Adjusted EBITDA | $ | 319 |
+| $ | 290 | | $ | 964 |
+| $ | 943 |
+Less: | | | | | | | |
+Corporate and All Other | (53) |
+| (54) | | (160) |
+| (132) |
+Standalone Adjustments | — | | (1) | | — | | (43) |
+Adjusted Standalone EBITDA (Non-GAAP) | $ | 265 | | $ | 235 | | $ | 804 | | $ | 768 |
+14

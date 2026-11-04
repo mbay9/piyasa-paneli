@@ -1,0 +1,73 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm
+SEMBOL: ANET
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0001596532-26-000254
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(Unaudited, in millions)
+Nine Months Ended September 30, |
+2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net income | $ | 3,796.2 | $ | 2,555.6 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 70.3 | 49.8 |
+Stock-based compensation | 379.4 | 306.1 |
+Deferred income taxes | 369.3 | ( 202.5 ) |
+Other | ( 148.2 ) | ( 23.5 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 440.9 ) | ( 348.9 ) |
+Inventories | ( 962.8 ) | ( 321.1 ) |
+Other assets | ( 604.2 ) | ( 683.7 ) |
+Accounts payable | 19.9 | 98.1 |
+Deferred revenue | 1,467.1 | 1,765.7 |
+Income taxes, net | ( 159.9 ) | ( 105.2 ) |
+Other liabilities | 191.2 | 19.6 |
+Net cash provided by operating activities | 3,977.4 | 3,110.0 |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Proceeds from maturities of marketable securities | 2,437.7 | 2,590.3 |
+Proceeds from sale of marketable securities | 598.0 | 41.4 |
+Purchases of marketable securities | ( 6,449.9 ) | ( 4,816.3 ) |
+Purchases of property and equipment | ( 184.9 ) | ( 82.5 ) |
+Cash paid for business combinations, net of cash acquired | — | ( 300.0 ) |
+Other | ( 60.0 ) | ( 10.0 ) |
+Net cash used in investing activities | ( 3,659.1 ) | ( 2,577.1 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Proceeds from issuance of common stock under equity plans | 62.9 | 56.9 |
+Tax withholding paid on behalf of employees for net share settlement | ( 49.7 ) | ( 44.3 ) |
+Repurchases of common stock | — | ( 983.0 ) |
+Other | ( 3.7 ) | — |
+Net cash provided by (used in) financing activities | 9.5 | ( 970.4 ) |
+Effect of exchange rate changes | ( 3.5 ) | 1.7 |
+NET INCREASE (DECREASE) IN CASH, CASH EQUIVALENTS AND RESTRICTED CASH | 324.3 | ( 435.8 ) |
+CASH, CASH EQUIVALENTS AND RESTRICTED CASH —Beginning of period | 1,965.3 | 2,763.8 |
+CASH, CASH EQUIVALENTS AND RESTRICTED CASH —End of period | $ | 2,289.6 | $ | 2,328.0 |
+The accompanying notes are an integral part of these condensed consolidated financial statements (unaudited).
+5
+Table of Contents
+ARISTA NETWORKS, INC.
+Notes to Condensed Consolidated Financial Statements
+(Unaudited)
+1. Organization and Summary of Significant Accounting Policies
+Organization
+Arista Networks, Inc. (together with our subsidiaries, “we,” “our,” "Arista," "Company" or “us”) is an industry leader in data-driven, client-to-cloud networking for large AI, data center, campus and routing environments. Our cloud networking solutions consist of our Extensible Operating System ("EOS®"), a set of network applications and our Ethernet switching and routing platforms. We are incorporated in the state of Delaware. Our corporate headquarters are located in Santa Clara, California, and we have wholly-owned subsidiaries throughout the world, including North America, Europe, Asia and Australia.
+Basis of Presentation and Principles of Consolidation
+The accompanying unaudited condensed consolidated financial statements include the accounts of Arista Networks, Inc. and our wholly-owned subsidiaries and have been prepared in accordance with U.S. Generally Accepted Accounting Principles (“GAAP”) and the requirements of the U.S. Securities and Exchange Commission (the “SEC”) for interim reporting. As permitted under those rules, certain footnotes or other financial information that are normally required by GAAP can be condensed or omitted. In management’s opinion, the unaudited condensed consolidated financial statements have been prepared on the same basis as the audited consolidated financial statements and include all adjustments, which include only normal recurring adjustments, necessary for the fair presentation of our financial information. The results for the three and nine months ended September 30, 2026, are not necessarily indicative of the results expected for the full fiscal year. The condensed consolidated balance sheet as of December 31, 2025 has been derived from the audited consolidated financial statements at that date but does not include all of the information and notes required by GAAP for complete financial statements. All significant inter-company accounts and transactions have been eliminated.
+Our condensed consolidated financial statements and related financial information in this Quarterly Report on Form 10-Q should be read in conjunction with the audited consolidated financial statements and related footnotes included in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025.
+Use of Estimates
+The preparation of the accompanying consolidated financial statements in conformity with GAAP requires us to make estimates and assumptions that affect the amounts reported and disclosed in the consolidated financial statements and accompanying notes. Those estimates and assumptions include, but are not limited to, valuation of inventory and contract manufacturer/supplier liabilities, accounting for income taxes, including the recognition of deferred tax assets and liabilities, valuation allowance on deferred tax assets and reserves for uncertain tax positions, and revenue recognition and deferred revenue. We evaluate our estimates and assumptions based on historical experience and other factors and adjust these estimates and assumptions when facts and circumstances dictate. Actual results could differ materially from these estimates.
+Recent Accounting Pronouncements Not Yet Effective
+In November 2024, the FASB issued ASU 2024-03, Disaggregation of Income Statement Expenses (Subtopic 220-40). The ASU requires the disaggregated disclosure of specific expense categories, including purchases of inventory, employee compensation, depreciation, and amortization, within relevant income statement captions, and also requires disclosure of the total amount of selling expenses along with the definition of selling expenses. The ASU is effective for annual periods beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027. Adoption of this ASU can either be applied prospectively to consolidated financial statements issued for reporting periods after the effective date of this ASU or retrospectively to any or all prior periods presented in the consolidated financial statements. Early adoption is also permitted. This ASU will result in the required additional disclosures being included in our consolidated financial statements, once adopted. We are currently evaluating the provisions of this ASU.
+In December 2025, the FASB issued ASU 2025-11, Interim Reporting (Topic 270) which is intended to streamline the guidance in ASC 270, Interim Reporting, and clarify when it applies. Under the amendments, an entity is subject to ASC 270 if it provides interim financial statements and notes in accordance with GAAP. ASU 2025-11 also addresses the form and content of such financial statements, interim disclosures requirements, and establishes a principle under which an entity must disclose events since the end of the last annual reporting period that have a material impact on the entity. ASU 2025-11 is effective for interim reporting periods within annual reporting periods beginning after December 15, 2027, and early adoption is permitted. We are currently evaluating the provisions of this ASU.
+6
+Table of Contents
+2. Fair Value Measurements
+Assets measured at fair values on a recurring basis
+We measure and report our cash equivalents, restricted cash, and available-for-sale marketable securities at fair value on a recurring basis. We use a fair value hierarchy to measure fair value, maximizing the use of observable inputs. The three-tiers of the fair value hierarchy are as follows: Level I —Inputs are unadjusted, quoted prices in active markets for identical assets or liabilities at the measurement date, Level II —Inputs are observable, unadjusted quoted prices in active markets for similar assets or liabilities, unadjusted quoted prices for identical or similar assets or liabilities in markets that are not active, or other inputs that are observable or can be corroborated by observable market data for substantially the full term of the related assets or liabilities, and Level III —Inputs that are generally unobservable and typically reflect management's estimate of assumptions that market participants would use in pricing the asset or liability. We don't have any level III financial assets measured at fair value on a recurring basis. The following tables summarize the fair value of these financial assets by significant investment category and their levels within the fair value hierarchy (in millions):
+September 30, 2026 | December 31, 2025 |
+Level I | Level II | Level III | Total | Level I | Level II | Level III | Total |
+Financial Assets: |
+Cash Equivalents: |
+Money market funds | $ | 394.9 | $ | — | $ | — | $ | 394.9 | $ | 1,174.8 | $ | — | $ | — | $ | 1,174.8 |
+Commercial paper | — | 50.3 | — | 50.3 | — | 29.8 | — | 29.8 |
+Corporate bonds | — | — | — | — | — | 6.6
