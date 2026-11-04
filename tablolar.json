@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-04T01:16:45Z",
+ "guncelleme": "2026-11-04T01:40:27Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -1936,21 +1936,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 191.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 189.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "191,922"
-       ]
+       ],
+       "bg": "AAOI prior-quarter release (2026-05-07): $180 million to $198 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 86.4,
-       "bek": null,
-       "sonuc": null,
+       "bek": 83.6,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "191.9 / 103.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "191.9 / 103.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "AAOI prior-quarter release (2026-05-07): $180 million to $198 million"
       },
       {
        "ad": "EPS* ($)",
@@ -2032,7 +2034,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ADI": {
    "tarih": "2026-08-19",
@@ -2255,21 +2257,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1990.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 2000.0,
+       "sonuc": "Miss",
        "vurgu": 0,
        "kanit": [
         "1,990,557"
-       ]
+       ],
+       "bg": "AMKR prior-quarter release (2026-07-27): $1.95 billion to $2.05 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 0.2,
-       "bek": null,
-       "sonuc": null,
+       "bek": 0.7,
+       "sonuc": "Miss",
        "vurgu": 1,
-       "hesap": "1,990.6 / 1,987.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "1,990.6 / 1,987.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "AMKR prior-quarter release (2026-07-27): $1.95 billion to $2.05 billion"
       },
       {
        "ad": "EPS ($)",
@@ -2341,10 +2345,37 @@
        "hesap": "-61.6 / 1,990.6"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1950.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1.9 billion to $2.0 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 3.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,950.0 / 1,888.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "APLD": {
    "tarih": "2026-10-07",
@@ -2715,6 +2746,24 @@
        "hesap": "-476.7 / 180.1"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 215.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$214 to $216 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
@@ -2797,21 +2846,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1671.1,
-       "bek": null,
-       "sonuc": null,
+       "bek": 1625.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "1,671,129"
-       ]
+       ],
+       "bg": "CIEN prior-quarter release (2026-06-04): $1.625 billion plus or minus"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 37.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 33.3,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "1,671.1 / 1,219.4 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "1,671.1 / 1,219.4 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "CIEN prior-quarter release (2026-06-04): $1.625 billion plus or minus"
       },
       {
        "ad": "EPS* ($)",
@@ -2903,10 +2954,37 @@
        "hesap": "116.3 / 1,671.1"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1750.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1.75 billion plus or minus"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 29.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,750.0 / 1,352.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CLS": {
    "tarih": "2026-10-26",
@@ -3116,21 +3194,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 479.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 470.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "479,003"
-       ]
+       ],
+       "bg": "CRDO prior-quarter release (2026-06-01): $465.0 million and $475.0 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 114.7,
-       "bek": null,
-       "sonuc": null,
+       "bek": 110.7,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "479.0 / 223.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "479.0 / 223.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "CRDO prior-quarter release (2026-06-01): $465.0 million and $475.0 million"
       },
       {
        "ad": "EPS* ($)",
@@ -3232,7 +3312,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CRWV": {
    "tarih": "2026-08-11",
@@ -3300,21 +3380,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 17252.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 16800.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "17,252"
-       ]
+       ],
+       "bg": "CSCO prior-quarter release (2026-05-13): $16.7 billion to $16.9 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 17.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 14.5,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "17,252.0 / 14,673.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "17,252.0 / 14,673.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "CSCO prior-quarter release (2026-05-13): $16.7 billion to $16.9 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -3366,10 +3448,37 @@
        "hesap": "4,996.0 / 17,252.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 18100.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$18.0 billion to $18.2 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 21.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "18,100.0 / 14,883.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "DELL": {
    "tarih": "2026-09-01",
@@ -3384,21 +3493,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 46971.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 44500.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "46,971"
-       ]
+       ],
+       "bg": "DELL prior-quarter release (2026-05-28): $44.0 billion and $45.0 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 57.7,
-       "bek": null,
-       "sonuc": null,
+       "bek": 49.4,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "46,971.0 / 29,776.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "46,971.0 / 29,776.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "DELL prior-quarter release (2026-05-28): $44.0 billion and $45.0 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -3473,7 +3584,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ENPH": {
    "tarih": "2026-10-27",
@@ -3621,21 +3732,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1005.7,
-       "bek": null,
-       "sonuc": null,
+       "bek": 920.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "1,005.7"
-       ]
+       ],
+       "bg": "ENTG prior-quarter release (2026-08-04): $905 million to $935 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 24.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 14.0,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "1,005.7 / 807.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "1,005.7 / 807.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "ENTG prior-quarter release (2026-08-04): $905 million to $935 million"
       },
       {
        "ad": "EPS* ($)",
@@ -3727,10 +3840,37 @@
        "hesap": "223.6 / 1,005.7"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1040.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1,025 million to $1,055 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 26.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,040.0 / 823.9 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "EROC": {
    "tarih": "2026-08-11",
@@ -3882,21 +4022,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 12642.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 14750.0,
+       "sonuc": "Miss",
        "vurgu": 0,
        "kanit": [
         "12,642"
-       ]
+       ],
+       "bg": "GEV prior-quarter release (2026-07-22): $14.5-$15.0 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 26.8,
-       "bek": null,
-       "sonuc": null,
+       "bek": 48.0,
+       "sonuc": "Miss",
        "vurgu": 1,
-       "hesap": "12,642.0 / 9,969.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "12,642.0 / 9,969.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "GEV prior-quarter release (2026-07-22): $14.5-$15.0 billion"
       },
       {
        "ad": "EPS ($)",
@@ -3928,10 +4070,37 @@
        "hesap": "5,410.0 / 12,642.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 14750.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$14.5-$15.0 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 34.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "14,750.0 / 10,956.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "HPE": {
    "tarih": "2026-09-02",
@@ -3946,21 +4115,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 12213.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 11800.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "12,213"
-       ]
+       ],
+       "bg": "HPE prior-quarter release (2026-06-01): $11.5 billion to $12.1 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 33.7,
-       "bek": null,
-       "sonuc": null,
+       "bek": 29.2,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "12,213.0 / 9,136.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "12,213.0 / 9,136.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "HPE prior-quarter release (2026-06-01): $11.5 billion to $12.1 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -4042,7 +4213,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "INIO": {
    "tarih": "2026-10-27",
@@ -4451,21 +4622,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 4136.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 4000.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "4,136,015"
-       ]
+       ],
+       "bg": "KLAC prior-quarter release (2026-07-28): $4.0 billion +/-"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 28.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 24.6,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "4,136.0 / 3,209.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "4,136.0 / 3,209.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "KLAC prior-quarter release (2026-07-28): $4.0 billion +/-"
       },
       {
        "ad": "EPS* ($)",
@@ -4497,10 +4670,37 @@
        "hesap": "1,336.2 / 4,136.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 4700.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$4.7 billion +/-"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 42.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "4,700.0 / 3,297.1 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "KLIC": {
    "tarih": "2026-08-05",
@@ -4619,21 +4819,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 82.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 78.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "82,591"
-       ]
+       ],
+       "bg": "LASR prior-quarter release (2026-05-07): $75 million to $81 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 33.8,
-       "bek": null,
-       "sonuc": null,
+       "bek": 26.3,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "82.6 / 61.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "82.6 / 61.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "LASR prior-quarter release (2026-05-07): $75 million to $81 million"
       },
       {
        "ad": "EPS* ($)",
@@ -4735,7 +4937,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "LEU": {
    "tarih": "2026-08-05",
@@ -4958,21 +5160,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1484.7,
-       "bek": null,
-       "sonuc": null,
+       "bek": 1455.5,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "1,484.7"
-       ]
+       ],
+       "bg": "MCHP prior-quarter release (2026-05-07): $1.442 billion to $1.469 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 38.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 35.3,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "1,484.7 / 1,075.5 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "1,484.7 / 1,075.5 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "MCHP prior-quarter release (2026-05-07): $1.442 billion to $1.469 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -5044,10 +5248,37 @@
        "hesap": "497.6 / 1,484.7"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1603.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1.589 to $1.618 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 40.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,603.5 / 1,140.4 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "META": {
    "tarih": "2026-10-21",
@@ -5239,21 +5470,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 342.2,
-       "bek": null,
-       "sonuc": null,
+       "bek": 335.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "342,237"
-       ]
+       ],
+       "bg": "MTSI prior-quarter release (2026-05-07): $331 million to $339 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 35.8,
-       "bek": null,
-       "sonuc": null,
+       "bek": 32.9,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "342.2 / 252.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "342.2 / 252.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "MTSI prior-quarter release (2026-05-07): $331 million to $339 million"
       },
       {
        "ad": "EPS* ($)",
@@ -5387,7 +5620,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MU": {
    "tarih": "2026-09-30",
@@ -5838,21 +6071,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 343.1,
-       "bek": null,
-       "sonuc": null,
+       "bek": 325.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "343,129"
-       ]
+       ],
+       "bg": "ONTO prior-quarter release (2026-05-05): $320 million to $330 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 35.3,
-       "bek": null,
-       "sonuc": null,
+       "bek": 28.2,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "343.1 / 253.6 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "343.1 / 253.6 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "ONTO prior-quarter release (2026-05-05): $320 million to $330 million"
       },
       {
        "ad": "EPS* ($)",
@@ -5904,10 +6139,37 @@
        "hesap": "57.9 / 343.1"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 390.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$380 million to $400 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 78.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "390.0 / 218.2 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ORCL": {
    "tarih": "2026-09-10",
@@ -6194,21 +6456,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 346.2,
-       "bek": null,
-       "sonuc": null,
+       "bek": 340.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "346,245"
-       ]
+       ],
+       "bg": "SEDG prior-quarter release (2026-05-06): $325 million to $355 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 19.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 17.5,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "346.2 / 289.4 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "346.2 / 289.4 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "SEDG prior-quarter release (2026-05-06): $325 million to $355 million"
       },
       {
        "ad": "EPS ($)",
@@ -6263,7 +6527,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SEI": {
    "tarih": "2026-08-05",
@@ -6278,21 +6542,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 219.4,
-       "bek": null,
-       "sonuc": null,
+       "bek": 196.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "219,400"
-       ]
+       ],
+       "bg": "SEI prior-quarter release (2026-04-27): $196 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 46.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 31.3,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "219.4 / 149.3 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "219.4 / 149.3 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "SEI prior-quarter release (2026-04-27): $196 million"
       },
       {
        "ad": "EPS* ($)",
@@ -6364,10 +6630,37 @@
        "hesap": "-305.4 / 219.4"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 219.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$219 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 31.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "219.0 / 166.8 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SITM": {
    "tarih": "2026-08-05",
@@ -6839,21 +7132,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1148.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 1080.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "1,148"
-       ]
+       ],
+       "bg": "SOLS prior-quarter release (2026-05-06): $1.06 billion to $1.1 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 11.1,
-       "bek": null,
-       "sonuc": null,
+       "bek": 4.5,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "1,148.0 / 1,033.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "1,148.0 / 1,033.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "SOLS prior-quarter release (2026-05-06): $1.06 billion to $1.1 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -6908,7 +7203,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SPCX": {
    "tarih": "2026-10-20",
@@ -7215,21 +7510,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 1203.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 1120.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "1,203,855"
-       ]
+       ],
+       "bg": "TTMI prior-quarter release (2026-08-06): $1.10 billion to $1.14 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 59.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 48.8,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "1,203.9 / 752.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "1,203.9 / 752.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "TTMI prior-quarter release (2026-08-06): $1.10 billion to $1.14 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -7281,10 +7578,37 @@
        "hesap": "72.3 / 1,203.9"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 1430.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1.42 billion to $1.44 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 84.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,430.0 / 774.3 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "TXN": {
    "tarih": "2026-10-21",
@@ -7424,21 +7748,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 443.1,
-       "bek": null,
-       "sonuc": null,
+       "bek": 432.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "443.1"
-       ]
+       ],
+       "bg": "VIAV prior-quarter release (2026-04-29): $427 million to $437 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 52.5,
-       "bek": null,
-       "sonuc": null,
+       "bek": 48.7,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "443.1 / 290.5 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "443.1 / 290.5 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "VIAV prior-quarter release (2026-04-29): $427 million to $437 million"
       },
       {
        "ad": "EPS* ($)",
@@ -7540,7 +7866,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "VICR": {
    "tarih": "2026-10-20",
@@ -7931,21 +8257,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 149.6,
-       "bek": null,
-       "sonuc": null,
+       "bek": 150.0,
+       "sonuc": "Miss",
        "vurgu": 0,
        "kanit": [
         "149.6"
-       ]
+       ],
+       "bg": "WOLF prior-quarter release (2026-05-05): $150 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": -24.1,
-       "bek": null,
-       "sonuc": null,
+       "bek": -23.9,
+       "sonuc": "Miss",
        "vurgu": 1,
-       "hesap": "149.6 / 197.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "149.6 / 197.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "WOLF prior-quarter release (2026-05-05): $150 million"
       },
       {
        "ad": "EBITDA* ($M)",
@@ -7981,7 +8309,7 @@
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "$140 million and $160 million"
+        "$150 million"
        ],
        "hesap": "aralığın orta noktası"
       },
@@ -7998,7 +8326,7 @@
     }
    ],
    "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "WULF": {
    "tarih": "2026-08-05",
@@ -8066,21 +8394,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 280.5,
-       "bek": null,
-       "sonuc": null,
+       "bek": 270.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "280,547"
-       ]
+       ],
+       "bg": "FORM prior-quarter release (2026-07-29): $270 million +/-"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 38.4,
-       "bek": null,
-       "sonuc": null,
+       "bek": 33.2,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "280.5 / 202.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "280.5 / 202.7 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "FORM prior-quarter release (2026-07-29): $270 million +/-"
       },
       {
        "ad": "EPS* ($)",
@@ -8134,10 +8464,37 @@
        "hesap": "94.1 / 280.5"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 285.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$285 million +/-"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 32.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "285.0 / 215.2 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
-   "uretici": "toplu"
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "FTAI": {
    "tarih": "2026-10-29",
@@ -8191,8 +8548,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
-   "uretici": "toplu"
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "GLW": {
    "tarih": "2026-10-27",
@@ -8207,21 +8564,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 4855.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 4950.0,
+       "sonuc": "Miss",
        "vurgu": 0,
        "kanit": [
         "4,855"
-       ]
+       ],
+       "bg": "GLW prior-quarter release (2026-07-28): $4.9 billion to $5 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 18.4,
-       "bek": null,
-       "sonuc": null,
+       "bek": 20.7,
+       "sonuc": "Miss",
        "vurgu": 1,
-       "hesap": "4,855.0 / 4,100.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "4,855.0 / 4,100.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "GLW prior-quarter release (2026-07-28): $4.9 billion to $5 billion"
       },
       {
        "ad": "EPS ($)",
@@ -8235,10 +8594,37 @@
        ]
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 5250.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$5.2 billion to $5.3 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 24.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "5,250.0 / 4,215.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
-   "uretici": "toplu"
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MPWR": {
    "tarih": "2026-10-29",
@@ -8352,8 +8738,395 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
-   "uretici": "toplu"
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+  },
+  "ARM": {
+   "tarih": "2026-07-29",
+   "basvuru": "0001973239-26-000114",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000114/0001973239-26-000114.txt",
+   "bolumler": [
+    {
+     "baslik": "ARM",
+     "etiket": "Quarter ended Jun 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 1289.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,289.0"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 22.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,289.0 / 1,053.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+      },
+      {
+       "ad": "Gross Profit ($M)",
+       "fmt": "m",
+       "ger": 1253.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,253.0"
+       ]
+      },
+      {
+       "ad": "Gross Margin %",
+       "fmt": "p",
+       "ger": 97.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,253.0 / 1,289.0"
+      },
+      {
+       "ad": "Operating Income ($M)",
+       "fmt": "m",
+       "ger": 98.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "98.0"
+       ]
+      },
+      {
+       "ad": "Operating Margin %",
+       "fmt": "p",
+       "ger": 7.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "98.0 / 1,289.0"
+      },
+      {
+       "ad": "FCF ($M)",
+       "fmt": "m",
+       "ger": 694.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "902.0 operating cash flow - 208.0 capital expenditures (Yahoo Finance cash flow statement)"
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": 53.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "694.0 / 1,289.0"
+      }
+     ]
+    }
+   ],
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+  },
+  "GFS": {
+   "tarih": "2026-08-05",
+   "basvuru": "0001709048-26-000219",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000219/gfs-20260630_d2.htm",
+   "bolumler": [
+    {
+     "baslik": "GFS",
+     "etiket": "Quarter ended Jun 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 1786.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,786"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 5.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,786.0 / 1,688.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+      },
+      {
+       "ad": "FCF ($M)",
+       "fmt": "m",
+       "ger": -6.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "405.0 operating cash flow - 411.0 capital expenditures (Yahoo Finance cash flow statement)"
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": -0.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "-6.0 / 1,786.0"
+      }
+     ]
+    }
+   ],
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+  },
+  "NBIS": {
+   "tarih": "2026-08-12",
+   "basvuru": "0001104659-26-094844",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d1.htm",
+   "bolumler": [
+    {
+     "baslik": "NBIS",
+     "etiket": "Quarter ended Jun 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 582.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "582.3"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 454.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "582.3 / 105.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+      },
+      {
+       "ad": "FCF ($M)",
+       "fmt": "m",
+       "ger": -3411.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "2,246.1 operating cash flow - 5,657.4 capital expenditures (Yahoo Finance cash flow statement)"
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": -585.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "-3,411.3 / 582.3"
+      }
+     ]
+    }
+   ],
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+  },
+  "SIMO": {
+   "tarih": "2026-10-29",
+   "basvuru": "0001193125-26-436478",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1329394/000119312526436478/d135156dex991.htm",
+   "bolumler": [
+    {
+     "baslik": "SIMO",
+     "etiket": "Quarter ended Sep 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 560.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "560,216"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 131.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "560.2 / 242.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 4.35,
+       "bek": 3.33,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "4.35"
+       ]
+      },
+      {
+       "ad": "Gross Profit ($M)",
+       "fmt": "m",
+       "ger": 300.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "300,419"
+       ]
+      },
+      {
+       "ad": "Gross Margin %",
+       "fmt": "p",
+       "ger": 53.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "300.4 / 560.2"
+      },
+      {
+       "ad": "Operating Income ($M)",
+       "fmt": "m",
+       "ger": 162.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "162,551"
+       ]
+      },
+      {
+       "ad": "Operating Margin %",
+       "fmt": "p",
+       "ger": 29.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "162.6 / 560.2"
+      },
+      {
+       "ad": "FCF ($M)",
+       "fmt": "m",
+       "ger": -279.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "-256.1 operating cash flow - 23.0 capital expenditures (Yahoo Finance cash flow statement)"
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": -49.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "-279.1 / 560.2"
+      }
+     ]
+    }
+   ],
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+  },
+  "STM": {
+   "tarih": "2026-10-29",
+   "basvuru": "0000932787-26-000086",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000086/0000932787-26-000086.txt",
+   "bolumler": [
+    {
+     "baslik": "STM",
+     "etiket": "Quarter ended Sep 30, 2026",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 3757.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "3,757"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 17.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "3,757.0 / 3,187.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+      },
+      {
+       "ad": "EPS ($)",
+       "fmt": "d",
+       "ger": 0.37,
+       "bek": 0.41,
+       "sonuc": "Miss",
+       "vurgu": 0,
+       "kanit": [
+        "0.37"
+       ]
+      },
+      {
+       "ad": "Gross Profit ($M)",
+       "fmt": "m",
+       "ger": 1401.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,401"
+       ]
+      },
+      {
+       "ad": "Gross Margin %",
+       "fmt": "p",
+       "ger": 37.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,401.0 / 3,757.0"
+      },
+      {
+       "ad": "FCF ($M)",
+       "fmt": "m",
+       "ger": 362.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "hesap": "-227.0 operating cash flow - 649.0 capital expenditures (Yahoo Finance cash flow statement)"
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": 9.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "362.0 / 3,757.0"
+      }
+     ]
+    }
+   ],
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   }
  }
 }
