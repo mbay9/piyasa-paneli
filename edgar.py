@@ -80,7 +80,7 @@ def bulten(cik, acc, birincil=""):
     return None, None
 
 
-def ana(semboller, cikti="bildirim", bugun=None):
+def ana(semboller, cikti="bildirim", bugun=None, gun=GUN):
     bugun = bugun or dt.date.today()
     tick = {v["ticker"].upper(): v["cik_str"] for v in json.loads(al("https://www.sec.gov/files/company_tickers.json")).values()}
     yeni, hata = 0, {}
@@ -91,7 +91,7 @@ def ana(semboller, cikti="bildirim", bugun=None):
         if not cik:
             continue
         try:
-            for tarih, acc, bir, tur in basvurular(cik, bugun):
+            for tarih, acc, bir, tur in basvurular(cik, bugun, gun):
                 yol = os.path.join(cikti, s, f"{tarih}_{acc}.txt" if tur == "8-K" else f"{tarih}_{acc}_{tur}_nakit.txt")
                 if os.path.exists(yol):
                     continue
@@ -126,4 +126,4 @@ if __name__ == "__main__":
     syms = [x["symbol"] for x in json.load(open("hisseler.json", encoding="utf-8"))["items"]]
     if len(sys.argv) > 1:
         syms = sys.argv[1].split(",")
-    ana(syms)
+    ana(syms, gun=int(sys.argv[2]) if len(sys.argv) > 2 else GUN)

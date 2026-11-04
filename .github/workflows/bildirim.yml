@@ -7,7 +7,11 @@ on:
     - cron: "10 14 * * 1-5"   # sabah (ET 09:10 civarı): gece ve piyasa öncesi açıklananlar
     - cron: "50 21 * * 1-5"   # akşam (ET 16:50 civarı): kapanıştan hemen sonra gelenler
     - cron: "40 23 * * 1-5"   # gece (ET 18:40 civarı): geç gelenler
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      gun:
+        description: "Kaç gün geriye bakılsın (önceki çeyrek rehberliği için 120)"
+        default: "4"
 
 permissions:
   contents: write
@@ -34,7 +38,7 @@ jobs:
           fi
           mkdir -p bildirim && [ -d /tmp/onceki/bildirim ] && cp -r /tmp/onceki/bildirim/. bildirim/ || true
       - name: EDGAR'dan indir
-        run: python edgar.py
+        run: python edgar.py "$(python -c "import json;print(','.join(x['symbol'] for x in json.load(open('hisseler.json',encoding='utf-8'))['items']))")" "${{ github.event.inputs.gun || '4' }}"
       - name: bildirim dalına yaz
         run: |
           git config user.name "github-actions[bot]"
