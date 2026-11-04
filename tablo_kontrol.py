@@ -61,6 +61,8 @@ def denetle(veri, bildirim=None):
                         hata.append(q + f"sonuç tutarsız: gerçek {r['ger']} beklenti {r['bek']} -> {sonuc_beklenen(r['ger'], r['bek'], r['fmt'])}")
                 elif r.get("bek") is not None:
                     hata.append(q + "beklenti var ama sonuç yok")
+                if "bg" in r and (not r["bg"] or r.get("bek") is None):
+                    hata.append(q + "bg (şirket rehberliği) kaynağı boş ya da beklenti yok")
                 if not r.get("kanit") and not r.get("hesap"):
                     hata.append(q + "kanıt ya da hesap açıklaması yok")
                 if metin is not None:

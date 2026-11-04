@@ -216,10 +216,11 @@
        "ad": "Gross Margin %*",
        "fmt": "p",
        "ger": 55.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 56.0,
+       "sonuc": "In line",
        "vurgu": 0,
-       "hesap": "7,483 / 13,377"
+       "hesap": "7,483 / 13,377",
+       "bg": "AMD Q2 2026 release (2026-08-04): non-GAAP gross margin approximately 56%"
       },
       {
        "ad": "Operating Income* ($M)",
@@ -324,7 +325,7 @@
      ]
     }
    ],
-   "dipnot": "* Non-GAAP. Estimates: Yahoo Finance consensus recorded before the release (revenue 13,093.9; EPS 1.945; next-quarter revenue 16,143.5); no estimate available for the other rows. Segment YoY and FCF figures per the company release; FCF as defined by the company."
+   "dipnot": "* Non-GAAP. Estimates: Yahoo Finance consensus recorded before the release (revenue 13,093.9; EPS 1.945; next-quarter revenue 16,143.5); no estimate available for the other rows. Segment YoY and FCF figures per the company release; FCF as defined by the company. † Estimate is the company's own guidance from the prior-quarter release, not analyst consensus."
   },
   "ALAB": {
    "tarih": "2026-11-03",
@@ -379,12 +380,13 @@
        "ad": "Gross Margin %*",
        "fmt": "p",
        "ger": 72.4,
-       "bek": null,
-       "sonuc": null,
+       "bek": 72.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "72.4%"
-       ]
+       ],
+       "bg": "ALAB Q2 2026 release (2026-08-04): non-GAAP gross margin approximately 72%"
       },
       {
        "ad": "Operating Income* ($M)",
@@ -462,7 +464,7 @@
      ]
     }
    ],
-   "dipnot": "* Non-GAAP. Estimates: Yahoo Finance consensus recorded before the release (revenue 550.8; EPS 1.192; next-quarter revenue 655.7, EPS 1.421); no estimate available for the other rows. Operating cash flow in the release is nine-month only, so FCF is not shown."
+   "dipnot": "* Non-GAAP. Estimates: Yahoo Finance consensus recorded before the release (revenue 550.8; EPS 1.192; next-quarter revenue 655.7, EPS 1.421); no estimate available for the other rows. Operating cash flow in the release is nine-month only, so FCF is not shown. † Estimate is the company's own guidance from the prior-quarter release, not analyst consensus."
   },
   "FN": {
    "tarih": "2026-11-02",

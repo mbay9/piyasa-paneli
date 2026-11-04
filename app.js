@@ -242,7 +242,7 @@
       out += '<table class="bt"><colgroup><col style="width:46%"><col style="width:18%"><col style="width:18%"><col style="width:18%"></colgroup><thead><tr><th>' + esc(b.baslik) + "</th><th></th><th>" + esc(b.etiket || "") + "</th><th></th></tr>" +
         (i === 0 ? "<tr><th>Metric</th><th>Estimate</th><th>Actual</th><th>Result</th></tr>" : "") + "</thead><tbody>" +
         b.satirlar.map(function (r) {
-          return '<tr' + (r.vurgu ? ' class="y"' : "") + "><td>" + esc(r.ad) + "</td><td>" + f(r.bek, r.fmt) + "</td><td>" + f(r.ger, r.fmt) + "</td><td" + (r.sonuc === "Beat" ? ' class="bb"' : r.sonuc === "Miss" ? ' class="bm"' : "") + ">" + esc(r.sonuc || "") + "</td></tr>";
+          return '<tr' + (r.vurgu ? ' class="y"' : "") + "><td>" + esc(r.ad) + "</td><td>" + f(r.bek, r.fmt) + (r.bg ? "†" : "") + "</td><td>" + f(r.ger, r.fmt) + "</td><td" + (r.sonuc === "Beat" ? ' class="bb"' : r.sonuc === "Miss" ? ' class="bm"' : "") + ">" + esc(r.sonuc || "") + "</td></tr>";
         }).join("") + "</tbody></table>";
     });
     return out + '<p class="vn">' + esc(fmtShort(t.tarih)) + " · " + (t.dipnot ? esc(t.dipnot) + " " : "") + 'Source: company press release (<a href="' + esc(t.kaynak) + '" target="_blank" rel="noopener">SEC 8-K</a>).</p></div>';
