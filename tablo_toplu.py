@@ -56,6 +56,108 @@ def etiket(metin, k):
     return f"Quarter ended {AYLAR[d.month - 1]} {d.day}, {d.year}"
 
 
+def birim_faktoru(kg, gel):
+    """Gelir bültende hangi birimle yazılmışsa (bin/milyon) o birimin çarpanı; milyar yazımında None."""
+    if "billion" in kg:
+        return None
+    n = float(kg.replace(",", ""))
+    return 1e3 if abs(n * 1e3 - gel) < abs(n * 1e6 - gel) else 1e6
+
+
+def satir_sayisi(metin, etiketler, faktor, gecerli):
+    """Etiketle başlayan tablo satırındaki ilk sayı (bültendeki yazılışı, dolar değeri); geçerli(v) sağlanmazsa None."""
+    for m in re.finditer(r"(?im)^(?:" + etiketler + r")[^|\n]{0,40}\|(.*)$", metin):
+        for tok in re.finditer(r"(\(?)\$?\s*(\d[\d,]*(?:\.\d+)?)(\)?)\s*(%?)", m.group(1)):
+            if tok.group(4) or re.match(r"\s*(\|\s*)?%", m.group(1)[tok.end():]):
+                break
+            v = float(tok.group(2).replace(",", "")) * faktor
+            if tok.group(1) and tok.group(3):
+                v = -v
+            if gecerli(v):
+                return tok.group(2), v
+            break
+    return None
+
+
+def ce_yakin(ce, d, gun):
+    for x in ce:
+        if abs((d - dt.date.fromisoformat(x)).days - gun) <= 12:
+            return x
+    return None
+
+
+_ARALIK = r"\$\s*([\d.,]+)\s*(million|billion)?\s*(?:to|and|-|–|—)\s*\$?\s*([\d.,]+)\s*(million|billion)"
+_BAGLAM = re.compile(r"(?i)outlook|guidance|expect|forecast|anticipate|range|between")
+
+
+def _para(x, birim):
+    return float(x.replace(",", "")) * (1000.0 if birim.lower() == "billion" else 1.0)
+
+
+def rehberlik_gelir(metin):
+    for satir in metin.split("\n"):
+        if not _BAGLAM.search(satir):
+            continue
+        for m in re.finditer(r"(?i)revenues?[^.\n]{0,110}?" + _ARALIK, satir):
+            try:
+                u2 = m.group(4)
+                u1 = m.group(2) or u2
+                lo, hi = _para(m.group(1), u1), _para(m.group(3), u2)
+            except ValueError:
+                continue
+            if 0 < lo < hi:
+                return {"orta": (lo + hi) / 2, "kanit": m.group(0)[m.group(0).index("$"):]}
+    return None
+
+
+def rehberlik_eps(metin, yildizli):
+    adaylar = []
+    for satir in metin.split("\n"):
+        if not _BAGLAM.search(satir):
+            continue
+        for m in re.finditer(r"(?i)(?:earnings|income) per (?:diluted )?share[^.\n]{0,120}?\$\s*(\d+\.\d\d)\s*(?:to|and|-|–|—)\s*\$?\s*(\d+\.\d\d)", satir):
+            lo, hi = float(m.group(1)), float(m.group(2))
+            if lo < hi:
+                ng = bool(re.search(r"(?i)non-gaap|adjusted", satir[max(0, m.start() - 60): m.end()]))
+                adaylar.append((ng, (lo + hi) / 2, m.group(0)[m.group(0).index("$"):]))
+    for ng, orta, kanit in adaylar:
+        if ng == yildizli:
+            return {"orta": orta, "kanit": kanit}
+    return None
+
+
+def onceki_bulten(dosya, tarih):
+    d = dt.date.fromisoformat(tarih)
+    en = None
+    for f in sorted(glob.glob(os.path.join(os.path.dirname(dosya), "*.txt"))):
+        if "nakit" in f:
+            continue
+        g = (d - dt.date.fromisoformat(os.path.basename(f)[:10])).days
+        if 55 <= g <= 125:
+            en = f
+    return en
+
+
+def gelir_bulten(metin, onceki_gelir):
+    """Yahoo'da çeyrek geliri yoksa: bülten tablosundaki gelir satırı (birim, tablonun üstündeki 'in thousands/millions' ibaresinden)."""
+    for m in re.finditer(r"(?im)^((?:total )?(?:net )?(?:revenues?|sales))\s*\|(.*)$", metin):
+        sayilar = [t for t in re.finditer(r"\d[\d,]*(?:\.\d+)?", m.group(2))]
+        if not sayilar or re.match(r"\s*(\|\s*)?%", m.group(2)[sayilar[0].end():]):
+            continue
+        u = None
+        for x in re.finditer(r"(?i)in (thousands|millions)", metin[: m.start()]):
+            u = x.group(1).lower()
+        if not u:
+            continue
+        f = 1e3 if u == "thousands" else 1e6
+        txt = sayilar[0].group(0)
+        v = float(txt.replace(",", "")) * f
+        if onceki_gelir and not (0.5 <= v / onceki_gelir <= 2.5):
+            continue
+        return {"gel": v, "kg": txt, "f": f, "sat": [float(t.group(0).replace(",", "")) * f for t in sayilar]}
+    return None
+
+
 def tablo(sym, dosya, metin, b):
     tarih = os.path.basename(dosya)[:10]
     acc = os.path.basename(dosya)[11:-4]
@@ -63,15 +165,30 @@ def tablo(sym, dosya, metin, b):
         return None, "para birimi USD değil"
     ce = b.get("ceyrekler") or {}
     k = ceyrek_anahtari(ce, tarih)
+    if not k or not (ce.get(k) or {}).get("gelir"):
+        k2 = ceyrek_anahtari({x["donem"]: {} for x in (b.get("surpriz") or []) if x.get("donem")}, tarih)
+        k = k2 or k
     if not k:
         return None, "Yahoo tablolarında bu çeyrek yok"
-    c = ce[k]
+    c = dict(ce.get(k) or {})
     gel = c.get("gelir")
+    yedek = None
     if not gel:
-        return None, "gelir yok"
-    kg = bul(metin, gel)
-    if not kg:
-        return None, "gelir bültende bulunamadı (çeyrek eşleşmedi)"
+        oncekiler = [ce[x].get("gelir") for x in sorted(ce) if x < k and ce[x].get("gelir")]
+        yedek = gelir_bulten(metin, oncekiler[-1] if oncekiler else None)
+        if not yedek:
+            return None, "gelir ne Yahoo'da ne bültende bulunamadı"
+        gel, kg = yedek["gel"], yedek["kg"]
+        c = {"gelir": gel}
+        for an, et in (("brut", r"gross (?:profit|income)"), ("faaliyet", r"operating income|income from operations|operating profit")):
+            r_ = satir_sayisi(metin, et, yedek["f"], lambda v: -gel < v < gel)
+            if r_:
+                c[an] = r_[1]
+    else:
+        kg = bul(metin, gel)
+        if not kg:
+            return None, "gelir bültende bulunamadı (çeyrek eşleşmedi)"
+    from tablo_kontrol import sonuc_beklenen
     M = lambda x: round(x / 1e6, 1)
     kaynak = metin.split("\n")[0].replace("KAYNAK:", "").strip()
     S = []
@@ -87,6 +204,10 @@ def tablo(sym, dosya, metin, b):
         S.append(r)
     sat("Revenue ($M)", "m", M(gel), kanit=[kg])
     ky = gecen_yil(ce, k)
+    if yedek and ky and ce[ky].get("gelir"):
+        bul_ky = [x for x in yedek["sat"][1:] if abs(x - ce[ky]["gelir"]) <= 0.0006 * ce[ky]["gelir"] + 1000]
+        if not bul_ky:
+            ky = None
     if ky and ce[ky].get("gelir"):
         sat("Revenue Change YoY", "p", round((gel / ce[ky]["gelir"] - 1) * 100, 1), vurgu=1,
             hesap=f"{M(gel):,} / {M(ce[ky]['gelir']):,} - 1 (Yahoo Finance quarterly statements, {ky[:4]} same quarter)")
@@ -103,22 +224,79 @@ def tablo(sym, dosya, metin, b):
             bek = s.get("tahmin")
             sat("EPS* ($)" if yild else "EPS ($)", "d", round(g, 2), round(bek, 2) if bek is not None else None, kanit=[ks])
             break
-    for ad, an, oad in (("Gross Profit ($M)", "brut", "Gross Margin %"), ("Operating Income ($M)", "faaliyet", "Operating Margin %")):
+    faktor = birim_faktoru(kg, gel)
+    brut, faal = c.get("brut"), c.get("faaliyet")
+    ng = {}
+    if faktor:
+        ng["gp"] = satir_sayisi(metin, r"(?:non-gaap|adjusted)(?: \(non-gaap\))? gross (?:profit|income|margin)|gross (?:profit|income|margin) (?:\(non-gaap\)|on (?:a )?non-gaap basis|- non-gaap)|total non-gaap gross (?:profit|margin)", faktor,
+                                lambda v: 0 < v < gel and (brut is None or brut * 0.98 <= v <= brut * 1.35))
+        ng["op"] = satir_sayisi(metin, r"(?:non-gaap|adjusted)(?: \(non-gaap\))? (?:operating income|income from operations|operating profit|income \(loss\) from operations|operating income \(loss\))|(?:operating income|income from operations|operating profit) (?:\(non-gaap\)|on (?:a )?non-gaap basis|- non-gaap)", faktor,
+                                lambda v: -gel < v < gel and (faal is None or abs(v - faal) <= 0.4 * gel))
+        ng["eb"] = satir_sayisi(metin, r"adjusted ebitda|non-gaap ebitda|ebitda \(non-gaap\)|ebitda, as adjusted", faktor,
+                                lambda v: -gel < v < gel and (faal is None or v >= faal - 0.02 * gel))
+    def blok(ad, oad, an, kod):
+        if ng.get(kod):
+            txt, v = ng[kod]
+            sat(ad.replace(" (", "* (", 1), "m", M(v), kanit=[txt])
+            sat(oad.replace(" %", " %*", 1) if oad.endswith(" %") else oad, "p", round(v / gel * 100, 1), vurgu=1, hesap=f"{M(v):,} / {M(gel):,}")
+            return
         v = c.get(an)
-        if v:
+        if v and an in ("brut", "faaliyet"):
             kk = bul(metin, v)
             if kk:
                 sat(ad, "m", M(v), kanit=[kk])
                 sat(oad, "p", round(v / gel * 100, 1), vurgu=1, hesap=f"{M(v):,} / {M(gel):,}")
+    blok("Gross Profit ($M)", "Gross Margin %", "brut", "gp")
+    blok("Operating Income ($M)", "Operating Margin %", "faaliyet", "op")
+    if ng.get("eb"):
+        txt, v = ng["eb"]
+        sat("EBITDA* ($M)", "m", M(v), kanit=[txt])
+        sat("EBITDA Margin % *", "p", round(v / gel * 100, 1), vurgu=1, hesap=f"{M(v):,} / {M(gel):,}")
     fcf, on, cx = c.get("fcf"), c.get("isletme_nakit"), c.get("capex")
     if fcf is not None and on is not None and cx is not None:
         sat("FCF ($M)", "m", M(fcf), hesap=f"{M(on):,} operating cash flow - {M(abs(cx)):,} capital expenditures (Yahoo Finance cash flow statement)")
         sat("FCF Margin %", "p", round(fcf / gel * 100, 1), vurgu=1, hesap=f"{M(fcf):,} / {M(gel):,}")
+    # önceki çeyrek şirket rehberliği: gelir için beklenti (†)
+    bg_kullanildi = False
+    onceki = onceki_bulten(dosya, tarih)
+    if onceki:
+        rg = rehberlik_gelir(open(onceki, encoding="utf-8").read())
+        if rg and 0.65 * gel <= rg["orta"] * 1e6 <= 1.35 * gel:
+            ptar = os.path.basename(onceki)[:10]
+            bgm = f"{sym} prior-quarter release ({ptar}): " + rg["kanit"]
+            for r in S:
+                if r["ad"] == "Revenue ($M)":
+                    r["bek"] = round(rg["orta"], 1); r["sonuc"] = sonuc_beklenen(r["ger"], r["bek"], "m"); r["bg"] = bgm; bg_kullanildi = True
+                if r["ad"] == "Revenue Change YoY" and ky and ce[ky].get("gelir"):
+                    r["bek"] = round((rg["orta"] * 1e6 / ce[ky]["gelir"] - 1) * 100, 1); r["sonuc"] = sonuc_beklenen(r["ger"], r["bek"], "p"); r["bg"] = bgm
+    bolumler = [{"baslik": sym, "etiket": etiket(metin, k), "satirlar": S}]
+    # sonraki çeyrek rehberliği
+    rn = rehberlik_gelir(metin)
+    if rn and 0.6 * gel <= rn["orta"] * 1e6 <= 1.6 * gel:
+        G = []
+        G.append({"ad": "Revenue Guidance ($M)", "fmt": "m", "ger": round(rn["orta"], 1), "bek": None, "sonuc": None, "vurgu": 0, "kanit": [rn["kanit"]], "hesap": "aralığın orta noktası"})
+        kn = ce_yakin(ce, dt.date.fromisoformat(k), 274)
+        if kn and ce[kn].get("gelir"):
+            G.append({"ad": "Revenue Change YoY", "fmt": "p", "ger": round((rn["orta"] * 1e6 / ce[kn]["gelir"] - 1) * 100, 1), "bek": None, "sonuc": None, "vurgu": 1,
+                      "hesap": f"{rn['orta']:,.1f} / {M(ce[kn]['gelir']):,} - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"})
+        yildizli = any(r["ad"].startswith("EPS*") for r in S)
+        re_ = rehberlik_eps(metin, yildizli)
+        if re_ and any(r["ad"].startswith("EPS") for r in S):
+            G.append({"ad": "EPS* Guidance ($)" if yildizli else "EPS Guidance ($)", "fmt": "d", "ger": round(re_["orta"], 2), "bek": None, "sonuc": None, "vurgu": 0, "kanit": [re_["kanit"]], "hesap": "aralığın orta noktası"})
+        bolumler.append({"baslik": "Next Quarter Guidance", "etiket": "Next quarter", "satirlar": G})
+    yild = any("*" in r["ad"] for r in S)
+    dip = []
+    if yild:
+        dip.append("* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported.")
+    if any(r["ad"].startswith("EPS") and r["bek"] is not None for r in S):
+        dip.append("EPS estimate: Yahoo Finance consensus for that quarter.")
+    if bg_kullanildi:
+        dip.append("† Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus.")
+    dip.append("No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.")
     sonuc = {
         "tarih": tarih, "basvuru": acc, "kaynak": kaynak,
-        "bolumler": [{"baslik": sym, "etiket": etiket(metin, k), "satirlar": S}],
-        "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; "
-                  "EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures.",
+        "bolumler": bolumler,
+        "dipnot": " ".join(dip),
     }
     return sonuc, None
 

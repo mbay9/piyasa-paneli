@@ -21,6 +21,7 @@ GÜNLÜK KURALI: Bu görev hangi yoldan biterse bitsin (yazdı, yazmadı, hata v
  - bek null ise sonuc null. bek varsa sonuc: görüntülenen duyarlılıkta (m ve p için 1 ondalık, d için 2) ger > bek ise "Beat", < ise "Miss", eşitse "In line".
  - dipnot: "* Non-GAAP. Estimate: ..." biçiminde, hangi beklentilerin hangi kaynaktan geldiğini (Yahoo Finance consensus, bülten öncesi kaydı) ve hangi satırlarda beklenti bulunmadığını kısa İngilizce yaz; bilmediğin hiçbir şeyi söyleme.
 
+4b) TOPLU ÜRETİCİ: Yahoo kaydı (bilanco dalı) hazır olduğunda, elle hazırlanmamış hisseler için `python tablo_toplu.py /tmp/b/bildirim /tmp/bl/bilanco tablolar.json` çalıştırılabilir (aynı başvurulu mevcut tabloları değiştirmez; Yahoo ile bülteni çapraz doğrular). Elle hazırladığın tablo aynı bülten için varsa onu koru.
 5) DENETLE: `python tablo_kontrol.py tablolar.json /tmp/b/bildirim` çalıştır. Hata varsa düzelt ve yeniden çalıştır; 0 hata olmadan GÖNDERME. Hatayı çözemediğin sembolü tablolar.json'a ekleme, günlüğe nedenini yaz.
 
 6) Gönder: `git add tablolar.json && git commit -m "Bilanço tabloları: <semboller>"` (commit mesajı sonuna: Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com> ve Claude-Session satırları, oturum bağlantısı oturumdan alınır), `git pull --rebase`, `git push origin main`. Push, kısmi yayın iş akışını tetikler ve tablo siteye çıkar. 3-5 dakika sonra `git fetch -q origin +veri:refs/remotes/origin/veri` ile durum.json'a bak (build/deploy success); başarısızsa nedenini günlüğe yaz.
