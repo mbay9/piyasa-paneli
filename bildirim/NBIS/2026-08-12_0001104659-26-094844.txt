@@ -1,0 +1,976 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1513845/000110465926094844/nbis-20260812xex99d1.htm
+SEMBOL: NBIS
+BASVURU_TARIHI: 2026-08-12
+BASVURU: 0001104659-26-094844
+
+EX-99.1
+2
+nbis-20260812xex99d1.htm
+EX-99.1
+Exhibit 99.1
+​
+Operating and Financial Review and Prospects
+​
+Three and Six Months Ended June 30, 2025 and 2026
+You should read the following discussion and analysis of our financial condition and results of operations for the three and six months ended June 30, 2025 and 2026 in conjunction with our unaudited condensed consolidated financial statements and related notes appearing elsewhere in this Report on Form 6-K, as well as our audited consolidated financial statements and the “Operating and Financial Review and Prospects” section of our 2025 Annual Report on Form 20-F, filed with the Securities and Exchange Commission on April 30, 2026. In addition to historical information, this discussion contains forward-looking statements based on our current expectations that involve risks, uncertainties and assumptions. Our actual results may differ materially from those anticipated in these forward-looking statements as a result of various factors, including those set forth in the “Risk Factors” and “Forward-Looking Statements” sections of our 2025 Annual Report. The historical results described below relate to the results of our continuing operations.
+Overview
+Nebius, a global AI cloud platform, the core business of Nebius Group N.V., the parent company (the “Company”), together with its consolidated subsidiaries (collectively “Nebius Group” or the “Group”), delivers a unified full-stack AI cloud that spans the complete AI journey – from compute capacity to software and services – that enables fast and efficient training and inference at scale. Founded around deep in-house technological expertise, Nebius offers a comprehensive and integrated suite of AI and ML cloud solutions, including both hardware and software built in-house. This combination of AI-optimized hardware and software enables us to deliver high-performance GPU compute clusters, storage, managed services, and advanced tools for AI model training and inference at enterprise-scale.
+Nebius offers one of the few global, at scale, multi-tenant clouds purpose-built for AI, with a significant presence in Europe, the U.S., and other geographies around the world.
+In addition, Nebius Group includes two distinct businesses that operate under separate brands: Avride, a leading developer of autonomous vehicles and delivery robots; and TripleTen, a leading edtech platform focused on reskilling people for careers in tech.
+Nebius Group also owns significant equity stakes in ClickHouse and Toloka, both of which were previously spun out of the Group.
+Nebius Group is headquartered in Amsterdam, and its Class A ordinary shares are listed on the Nasdaq Global Select Market.
+A detailed description of our business and key trends impacting our results of operations is contained in the “Operating and Financial Review and Prospects” section of our 2025 Annual Report.
+Operating Segments
+Our primary business, Nebius, delivers a unified full-stack AI cloud platform that spans the complete AI journey – from compute capacity to software and services that enable fast and efficient AI application deployment and inference at scale.
+In addition to our Nebius AI cloud business, Nebius Group also holds two distinct businesses that operate under separate brands:
+| ● | Avride – a developer of autonomous driving technology for self-driving vehicles and delivery robotics. |
+| ● | TripleTen – a leading edtech platform focused on re-skilling individuals for careers in technology. |
+1
+Components of Results of Operations
+Revenue
+Our Nebius AI cloud business generates revenue by providing our customers with a comprehensive and integrated AI cloud platform, underpinned by high-performance GPU compute capacity, storage, and networking resources, as well as value-add software solutions. The Nebius AI cloud business is designed to support the entire AI lifecycle - from building and deploying AI models, to managing large-scale AI applications and producing inference tokens. Revenue from the cloud platform is recognized as services provided in accordance with customer contract due dates and the applicable contract model. We offer both on-demand “pay-as-you-go” pricing and fixed “reserved capacity” contracts.
+TripleTen generates revenue from educational services to individual customers (students) through boot camps and project-based learning opportunities by providing online educational products.
+Avride has made only a limited contribution to the total revenue to date.
+Operating costs and expenses
+We classify operating costs and expenses as follows: cost of revenues; product development; sales, general and administrative; and depreciation and amortization.
+Cost of Revenues
+Cost of revenues primarily consists of costs of operation and co-location of data center facilities, electricity, utility and maintenance costs in data centers, personnel costs, payment processing and students’ tuition fees and other related expenses. The Group’s owned Finland data center together with rented data center facilities and co-location agreements are significant components of the Group’s cost of revenues.
+Product development
+Product development expenses consist primarily of personnel costs, including share-based compensation expenses, incurred for the development of, enhancement to and maintenance of the Group’s technology platforms, from infrastructure to software. Product development expenses also include rent and utilities attributable to office spaces occupied by development staff.
+Sales, general and administrative
+Sales, general and administrative expenses include expenses for personnel engaged in sales and promotion of products to the market, or performing general or administrative functions, including share-based compensation expenses; rental of office space and related utilities in proportion to the number of employees performing these functions; training and hiring expenses; advertising and marketing expenses, including the costs of organizing promotions; legal and audit services; and other expenses related to the Group’s wider operating activities.
+Depreciation and amortization
+Depreciation and amortization expenses relate to the depreciation of property and equipment, mainly servers and networking equipment, data center related infrastructure equipment and office furniture, and the amortization of intangible assets.
+Share-based compensation
+In the consolidated statements of operations, share-based compensation expense is recorded in the same functional area as the expense for the recipient’s cash compensation. As a result, share-based compensation expense is allocated among the cost of revenues; product development expenses; and sales, general and administrative expenses.
+Interest income
+Interest income is mainly generated from short-term bank deposits and cash account balances.
+2
+Interest expense
+Interest expense primarily consists of contractual interest and the amortization of debt discounts and issuance costs associated with our outstanding debt obligations. It also includes interest accretion related to significant financing components arising from differences between the timing of the transfer of goods or services to customers and the timing of customer payments. Interest expense is reflected net of capitalized interest.
+Gain from revaluation of investments in equity securities
+Gain from revaluation of investments in equity securities includes primarily the remeasurement of our investment in ClickHouse, following a third-party investment in that company.
+Income / (loss) from equity method investments
+Income / (loss) from equity method investments includes the results of Toloka, which was deconsolidated in the second quarter of 2025 and subsequently accounted for under the equity method, and minor stakes in venture capital funds.
+Other income, net
+Other income, net consists of gains from investments in money market funds and foreign exchange gains and losses. Dynamics of foreign exchange gains and losses reflect changes in the U.S. dollar value (the Group’s reporting currency) of monetary assets and liabilities that are denominated in other currencies (primarily the euro), as well as changes in the functional currencies of foreign subsidiaries' monetary assets and liabilities that are denominated in currencies different from their respective local currencies.
+Results of Operations
+Comparative financial information appearing elsewhere in this report has been recast to reflect the results of Toloka within discontinued operations. The following table presents our historical consolidated results of continuing operations for the periods indicated:
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+|
+Revenues
+| 105.1
+| ​
+| 582.3
+| ​
+| 156.0
+| ​
+| 981.3
+|
+Operating costs and expenses:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cost of revenues (1)
+| 30.1
+| ​
+| 133.6
+| ​
+| 54.8
+| ​
+| 237.4
+|
+Product development (1)
+| 42.8
+| ​
+| 191.0
+| ​
+| 79.3
+| ​
+| 258.4
+|
+Sales, general and administrative (1)
+| 68.2
+| ​
+| 173.9
+| ​
+| 129.1
+| ​
+| 317.7
+|
+Depreciation and amortization
+| 75.2
+| ​
+| 259.7
+| ​
+| 124.3
+| ​
+| 471.7
+|
+Total operating costs and expenses
+| 216.3
+| ​
+| 758.2
+| ​
+| 387.5
+| ​
+| 1,285.2
+|
+Loss from operations
+| (111.2)
+| ​
+| (175.9)
+| ​
+| (231.5)
+| ​
+| (303.9)
+|
+Interest income
+| 3.6
+| ​
+| 24.1
+| ​
+| 12.1
+| ​
+| 38.3
+|
+Interest expense
+| (4.8)
+| ​
+| (119.1)
+| ​
+| (4.8)
+| ​
+| (182.8)
+|
+Gain from revaluation of investment in equity securities
+| 597.4
+| ​
+| —
+| ​
+| 597.4
+| ​
+| 780.6
+|
+Income / (loss) from equity method investments
+| (6.3)
+| ​
+| 12.7
+| ​
+| (6.2)
+| ​
+| 5.1
+|
+Other income, net
+| 24.6
+| ​
+| 81.5
+| ​
+| 32.9
+| ​
+| 101.4
+|
+Net income / (loss) before income taxes
+| 503.3
+| ​
+| (176.7)
+| ​
+| 399.9
+| ​
+| 438.7
+|
+Income tax expense
+| 0.8
+| ​
+| 13.7
+| ​
+| 1.7
+| ​
+| 7.9
+|
+Net income / (loss) from continuing operations
+| 502.5
+| ​
+| (190.4)
+| ​
+| 398.2
+| ​
+| 430.8
+|
+(1) These balances exclude depreciation and amortization expenses, which are presented separately.
+Net loss from continuing operations was $190.4 million in the second quarter of 2026, compared with net income of $502.5 million in the comparative period in 2025. The change in net income/(loss) was primarily due to the gain from the revaluation of our investment in ClickHouse of $597.4 million recognized in the second quarter of 2025, which did not recur in the second quarter of 2026, increase in loss from operations from $111.2 million to $175.9 million, primarily reflecting the continuing expansion of our Nebius AI cloud business, as well as increase in interest
+3
+expense. These effects were partially offset by increases in other income, net, interest income and income from equity method investments.
+Net income from continuing operations was $430.8 million in the six months ended June 30, 2026, compared with net income of $398.2 million in the comparative period in 2025. The change in net income/(loss) was primarily due to the increase in loss from operations from $231.5 million to $303.9 million, reflecting the continuing expansion of our core infrastructure business, as well as an increase in interest expense, largely offset by the higher gain from the revaluation of our investment in ClickHouse and increases in other income, net and interest income.
+Revenues
+The table below presents information about revenues by operating segment:
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| Three months ended June 30,
+| ​
+| YoY growth
+| ​
+| Six months ended June 30,
+| ​
+| YoY growth
+| ​
+|
+​
+| ​
+| 2025
+| ​
+| 2026
+| ​
+| 2025 to 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+| 2025 to 2026
+| ​
+|
+|
+​
+| ​
+| (in millions of U.S. dollars)
+| ​
+| (%)
+| ​
+| (in millions of U.S. dollars)
+| ​
+| (%)
+| ​
+|
+Nebius AI cloud
+| ​
+| 93.7
+| ​
+| 574.9
+| ​
+| 514
+| %
+| 135.1
+| ​
+| 964.6
+| ​
+| 614
+| %
+|
+Avride
+| ​
+| 0.2
+| ​
+| 1.0
+| ​
+| 400
+| %
+| 0.4
+| ​
+| 1.9
+| ​
+| 375
+| %
+|
+TripleTen
+| ​
+| 12.3
+| ​
+| 10.0
+| ​
+| (19)
+| %
+| 22.8
+| ​
+| 21.6
+| ​
+| (5)
+| %
+|
+Total segment revenues
+| ​
+| 106.2
+| ​
+| 585.9
+| ​
+| 452
+| %
+| 158.3
+| ​
+| 988.1
+| ​
+| 524
+| %
+|
+Eliminations
+| ​
+| (1.1)
+| ​
+| (3.6)
+| ​
+| 227
+| %
+| (2.3)
+| ​
+| (6.8)
+| ​
+| 196
+| %
+|
+Total revenues
+| ​
+| 105.1
+| ​
+| 582.3
+| ​
+| 454
+| %
+| 156.0
+| ​
+| 981.3
+| ​
+| 529
+| %
+|
+​
+Eliminations represent the elimination of transactions between the operating segments, including use of our Nebius cloud platform by other segments within the Group.
+Revenues by operating segment:
+Total revenues increased by $477.2 million, or 454%, from $105.1 million in the second quarter of 2025 to $582.3 million in the second quarter of 2026. Total revenues increased by $825.3 million, or 529%, from $156.0 million in the six months ended June 30, 2025 to $981.3 million in the same period in 2026. This increase was predominantly driven by the revenues generated by our AI cloud business, Nebius.
+Revenues for the Nebius AI cloud business grew by $481.2 million, or 514%, from $93.7 million in the second quarter of 2025 to $574.9 million in the second quarter of 2026. Revenues for the Nebius AI cloud business grew by $829.5 million, or 614%, from $135.1 million in the six months ended June 30, 2025 to $964.6 million in the same period in 2026. Growth was driven by capacity scaling and supported by strong pricing and utilization.
+Revenues from TripleTen decreased by $2.3 million, or 19%, from $12.3 million in the second quarter of 2025 to $10.0 million in the second quarter of 2026. Revenues from TripleTen decreased by $1.2 million, or 5%, from $22.8 million in the six months ended June 30, 2025 to $21.6 million in the same period in 2026. The decrease in TripleTen’s revenues was primarily driven by lower U.S. student volumes as TripleTen transitions away from legacy offerings, partially offset by continued B2C growth in Latin America.
+The Avride business had only a limited contribution to the total revenue for the Group.
+Operating c osts and e xpenses
+Cost of revenues
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+| ​
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+| ​
+|
+Cost of revenues
+| 30.1
+|
+| 133.6
+| ​
+| 54.8
+|
+| 237.4
+| ​
+|
+as a percentage of revenues
+| 29
+| %
+| 23
+| %
+| 35
+| %
+| 24
+| %
+|
+as a percentage of operating expenses
+| 14
+| %
+| 18
+| %
+| 14
+| %
+| 18
+| %
+|
+​
+4
+Cost of revenues increased by $103.5 million, or 344%, from $30.1 million in the second quarter of 2025 to $133.6 million in the second quarter of 2026. The increase was primarily driven by the expansion of our Nebius AI cloud business, including a $73.8 million increase of expenses related to co-location arrangements and operating lease agreements as we scaled our infrastructure capacity, a $22.0 million increase in outsourced services and data center utilities, and a $7.7 million increase in other expenses.
+Cost of revenues increased by $182.6 million, or 333%, from $54.8 million in the first half of 2025 to $237.4 million in the first half of 2026. The increase was primarily driven by the expansion of our Nebius AI cloud business, including a $136.4 million increase of expenses related to co-location arrangements and operating lease agreements as we scaled our infrastructure capacity, a $32.5 million increase in outsourced services and data center utilities, and a $13.7 million increase in other expenses.
+As a percentage of revenue, cost of revenues was 23% and 24% in the three and six months ended June 30, 2026, respectively, down from 29% and 35% in the three and six months ended June 30, 2025, respectively, primarily reflecting operating leverage as we scaled capacity. As a percentage of total operating expenses, cost of revenues increased from 14% in each of the three and six months ended June 30, 2025 to 18% in each of the three and six months ended June 30, 2026, reflecting the continued scaling of our AI cloud business.
+Avride and TripleTen had a limited contribution to the overall increase in cost of revenues.
+Product development
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+| ​
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+| ​
+|
+Product development expenses
+| 42.8
+|
+| 191.0
+| ​
+| 79.3
+|
+| 258.4
+| ​
+|
+as a percentage of operating expenses
+| 20
+| %
+| 25
+| %
+| 20
+| %
+| 20
+| %
+|
+Product development expenses increased by $148.2 million, or 346%, from $42.8 million in the second quarter of 2025 to $191.0 million in the second quarter of 2026. The increase was primarily driven by $74.9 million of share-based compensation expense and $41.0 million of post-combination compensation expense recognized in connection with the acquisition of MagicByte AI, Inc. (d/b/a Eigen AI Labs) (Note 3) as well as higher personnel-related expenses, including salaries, benefits and share-based compensation, reflecting increased hiring across our engineering and development teams to build and enhance our product offerings.
+Product development expenses increased by $179.1 million, or 226%, from $79.3 million in the first half of 2025 to $258.4 million in the first half of 2026. The increase was primarily driven by $74.9 million of share-based compensation expense and $41.0 million of post-combination compensation expense recognized in connection with the acquisition of MagicByte AI, Inc. (d/b/a Eigen AI Labs) (Note 3), as well as higher personnel-related expenses, including salaries, benefits and share-based compensation, reflecting increased hiring across our engineering and development teams to build and enhance our product offerings.
+As a percentage of total operating expenses, product development expenses increased from 20% to 25% for the three months ended June 30, 2026 from the same period in the prior year, primarily reflecting the non-recurring acquisition-related expense in the second quarter of 2026, and remained unchanged at 20% for the six months ended June 30, 2026 compared to the same period in the prior year.
+Sales, general and administrative
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+| ​
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+| ​
+|
+Sales, general and administrative expenses
+| 68.2
+|
+| 173.9
+| ​
+| 129.1
+|
+| 317.7
+| ​
+|
+as a percentage of operating expenses
+| 32
+| %
+| 23
+| %
+| 33
+| %
+| 25
+| %
+|
+​
+Sales, general and administrative expenses increased by $105.7 million, or 155%, from $68.2 million in the second quarter of 2025 to $173.9 million in the second quarter of 2026. This increase was primarily due to a $46.8 million increase in personnel-related expenses, primarily reflecting higher salary expense and other employee-related expenses associated with increased headcount, a $36.0 million increase in consulting, legal and other professional fees primarily incurred in connection with acquisition-related activities and financing transactions, a $10.2 million increase in
+5
+taxes other than income tax, a $6.1 million increase in share-based compensation expenses allocated to personnel engaged in sales, general and administrative activities, and a $6.6 million increase in other expenses.
+Sales, general and administrative expenses increased by $188.6 million, or 146%, from $129.1 million in the first half of 2025 to $317.7 million in the first half of 2026. This increase was primarily due to a $72.9 million increase in personnel-related expenses, primarily reflecting higher salary expense and business travel costs associated with increased headcount, a $53.7 million increase in consulting, legal and other professional fees primarily incurred in connection with acquisition-related activities and financing transactions, a $26.9 million increase in taxes other than income tax, a $18.2 million increase in share-based compensation expenses allocated to personnel engaged in sales, general and administrative activities, and a $16.9 million increase in other expenses.
+As a percentage of total operating expenses, sales, general and administrative expenses decreased from 32% and 33% for the three and six months ended June 30, 2025, respectively, to 23% and 25% for the three and six months ended June 30, 2026, respectively, reflecting operating leverage as other cost categories, particularly depreciation and infrastructure-related expenses, grew at a faster pace.
+Depreciation and amortization
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+| ​
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+| ​
+|
+Depreciation and amortization expenses
+| 75.2
+| ​
+| 259.7
+| ​
+| 124.3
+| ​
+| 471.7
+| ​
+|
+as a percentage of operating expenses
+| 35
+| %
+| 34
+| %
+| 32
+| %
+| 37
+| %
+|
+​
+Depreciation and amortization expenses increased by $184.5 million, or 245%, from $75.2 million in the second quarter of 2025 to $259.7 million in the second quarter of 2026, and by $347.4 million, or 279%, from $124.3 million in the six months ended June 30, 2025 to $471.7 million in the comparative period of 2026. The increase in both periods was primarily driven by the continued investments in acquisition of GPUs and related data center hardware supporting the expansion of the Nebius AI cloud business. Starting in the first quarter of 2026, we revised the useful life for our server and network equipment from four years to five years to reflect usage patterns and current utilization commitments. The change in accounting estimate has been applied prospectively from 2026 and partially offset the increase in depreciation expense during the period.
+Share-based compensation
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+| ​
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+| ​
+|
+Share‑based compensation expense included within:
+| ​
+|
+| ​
+| ​
+| ​
+|
+| ​
+| ​
+|
+Cost of revenues
+| 0.1
+| ​
+| 0.6
+| ​
+| 0.3
+| ​
+| 1.2
+| ​
+|
+Product development
+| 3.3
+| ​
+| 84.5
+| ​
+| 9.6
+| ​
+| 96.2
+| ​
+|
+Sales, general and administrative expenses
+| 11.3
+| ​
+| 17.4
+| ​
+| 22.2
+| ​
+| 40.4
+| ​
+|
+Total share ‑ based compensation expense
+| 14.7
+| ​
+| 102.5
+| ​
+| 32.1
+| ​
+| 137.8
+| ​
+|
+as a percentage of operating expenses
+| 7
+| %
+| 14
+| %
+| 8
+| %
+| 11
+| %
+|
+​
+Share-based compensation expense increased by $87.8 million, or 597%, from $14.7 million in the second quarter of 2025 to $102.5 million in the second quarter of 2026. Share-based compensation expense increased by $105.7 million, or 329%, from $32.1 million in the six months ended June 30, 2025 to $137.8 million in the six months ended June 30, 2026. The increase in both periods was primarily driven by share-based compensation expense of $74.9 million recognized in connection with the acquisition of MagicByte AI, Inc. (d/b/a Eigen AI Labs) (Note 3), as well as the full-period effect of share options granted to the Group's senior management in the second quarter of 2025 and new RSU grants with higher grant date fair values.
+Interest income
+Interest income increased by $20.5 million, or 569%, from $3.6 million in the second quarter of 2025 to $24.1 million in the second quarter of 2026. Interest income increased by $26.2 million, or 217%, from $12.1 million in the six months ended June 30, 2025 to $38.3 million in the six months ended June 30, 2026. The increase in both periods was
+6
+primarily driven by higher cash balances following funds raised through various debt instruments, a substantial portion of which was invested in highly liquid, interest-bearing financial instruments.
+Interest expense
+Interest expense was $4.8 million and $119.1 million in the second quarter of 2025 and 2026, respectively. Interest expense was $4.8 million and $182.8 million in the six months ended June 30, 2025 and 2026, respectively. The interest expense in 2026 is primarily attributable to convertible notes issued by the Company in June 2025, September 2025 and March 2026.
+See Note 12 — “ Convertible debt ” of our unaudited condensed consolidated financial statements included elsewhere in this Report on Form 6-K.
+Gain from revaluation of investment in equity securities
+​
+Gain from revaluation of investments in equity securities was $780.6 million in the six months ended June 30, 2026, attributable to the remeasurement of our investments in ClickHouse Inc. based on observable price changes from ClickHouse’s January 2026 Series D preferred stock financing, which raised $400 million at a reported valuation of approximately $15 billion.
+​
+Gain from revaluation of investments in equity securities was $597.4 million in the six months ended June 30, 2025, attributable to the remeasurement of our investments in ClickHouse based on observable price changes from ClickHouse's May 2025 Series C convertible preferred stock financing. Each financing represented an orderly transaction involving equity securities of the same issuer that are similar to our investment.
+See Note 5 — “ Investments in equity securities and equity method investments ” of our unaudited condensed consolidated financial statements included elsewhere in this Report on Form 6-K.
+Income / (loss) from equity method investments
+Income from equity method investments was $12.7 million and $5.1 million in the three and six months ended June 30, 2026, respectively, compared to losses of $6.3 million and $6.2 million in the comparative periods of 2025, respectively. Income in the second quarter of 2026 primarily reflected cash distributions received from our stakes in venture capital funds, partially offset in the six-month period by a loss in relation to our remaining stake in Toloka, which was deconsolidated in the second quarter of 2025 and has subsequently been accounted for under the equity method.
+See Note 5 — “ Investments in equity securities and equity method investments ” of our unaudited condensed consolidated financial statements included elsewhere in this Report on Form 6-K.
+Other income, net
+The following table presents the components of other income, net in absolute terms for the periods presented:
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+|
+Gain from investments in money market funds
+| 10.8
+| ​ ​
+| 61.4
+| ​
+| 21.9
+| ​ ​
+| 78.7
+|
+Foreign currency exchange gain
+| 14.2
+| ​
+| 21.1
+| ​
+| 10.8
+| ​
+| 22.8
+|
+Other income / (loss), net
+| (0.4)
+| ​
+| (1.0)
+| ​
+| 0.2
+| ​
+| (0.1)
+|
+Total other income, net
+| 24.6
+| ​
+| 81.5
+| ​
+| 32.9
+| ​
+| 101.4
+|
+​
+Other income, net was $24.6 million and $81.5 million for the three months ended June 30, 2025 and 2026, respectively. Other income, net was $32.9 million and $101.4 million for the six months ended June 30, 2025 and 2026, respectively. The increases were primarily due to higher gains from investments in money market funds resulting from higher average balances invested in such funds, as well as favorable movements in currency exchange rates.
+The functional currency of Nebius Group N.V. is the U.S. dollar, which is also the Group’s reporting currency. Foreign exchange gains and losses reflect changes in the U.S. dollar value of the Group’s monetary assets and liabilities denominated in foreign currencies (primarily the euro), as well as remeasurement effects in subsidiaries with non-U.S. dollar functional currencies.
+7
+Adjusted EBITDA / (loss) by operating segments
+Our management uses Adjusted EBITDA / (loss) as a financial measure of performance of our businesses. Adjusted EBITDA / (loss) means U.S. GAAP net income / (loss) from continuing operations before (1) depreciation and amortization, (2) share-based compensation expense, (3) acquisition and other corporate transaction-related costs, (4) interest income, (5) interest expense, (6) income / (loss) from equity method investments, (7) gain from revaluation of investments in equity securities, (8) other income / (loss), net, (9) income tax expense / (benefit). For a reconciliation between between net income / (loss) and adjusted EBITDA / (loss) see Note 15 — “ Information about segments & geographic areas ” of our unaudited condensed consolidated financial statements included elsewhere in this Report on Form 6-K.
+The table below presents information about the Adjusted EBITDA / (loss) of the operating segments:
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| Three months ended June 30,
+| ​ ​ ​
+| Six months ended June 30,
+|
+​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+|
+|
+​
+| (in millions of U.S. dollars)
+| ​
+| (in millions of U.S. dollars)
+|
+Nebius AI cloud
+| 9.5
+|
+| 285.7
+| ​
+| (17.9)
+|
+| 459.7
+|
+Avride
+| (17.3)
+| ​
+| (40.1)
+| ​
+| (34.2)
+| ​
+| (74.2)
+|
+TripleTen
+| (13.2)
+| ​
+| (9.4)
+| ​
+| (22.6)
+| ​
+| (19.8)
+|
+Total adjusted EBITDA / (loss)
+| (21.0)
+| ​
+| 236.2
+| ​
+| (74.7)
+| ​
+| 365.7
+|
+​
+Adjusted EBITDA / (loss) by operating segments:
+Total Adjusted EBITDA loss for the Group improved by $257.2 million in the second quarter of 2026 compared to the same period of 2025. Total Adjusted EBITDA / (loss) for the Group improved by $440.4 million in the six months ended June 30, 2026, compared to the same period of 2025. These improvements were primarily due to the increase in revenues, partially offset by growth in cost of revenues, which increased from $30.1 million to $133.6 million in the three months and from $54.8 million to $237.4 million in the six months ended June 30, 2026 compared to the same period of 2025, represented by direct costs of our data center facilities, as well as an increase in other operating expense categories.
+Adjusted EBITDA for the Nebius AI cloud business improved by $276.2 million and $477.6 million in the three months of 2026 and six months ended June 30, 2026, respectively, compared to the same periods of 2025. These significant improvements were primarily attributable to a more than sixfold increase in revenue in the second quarter and a more than sevenfold increase in the six months ended June 30, 2026, partially offset by corresponding increases in significant segment expenses, including employee compensation expenses, which increased from $46.6 million to $147.8 million in the second quarter and from $83.1 million to $222.3 million in the six months ended June 30, 2026 compared to the same periods of 2025, and other costs and expenses, which increased from $37.6 million to $141.4 million in the second quarter and from $69.9 million to $282.6 million in the six months ended June 30, 2026 compared to the same periods of 2025, primarily reflecting higher cost of revenues associated with the rapid scaling of our AI cloud infrastructure and business expansion.
+Adjusted EBITDA loss of Avride increased by $22.8 million in the second quarter of 2026 compared to the same period of 2025. Adjusted EBITDA loss of Avride increased by $40.0 million in the six months ended June 30, 2026 compared to the same period of 2025. The increase was primarily due to higher costs and expenses, which increased from $17.5 million to $41.1 million in the second quarter and from $34.6 million to $76.1 million in the six months ended June 30, 2026, reflecting growth in both employee compensation expenses and other costs and expenses associated with the rapid scaling of the autonomous vehicle fleet and business expansion.
+Adjusted EBITDA loss for TripleTen was relatively stable at $9.4 million and $19.8 million in the three and six months ended June 30, 2026 compared to the same periods of 2025.
+Liquidity and Capital Resources
+The Group’s principal sources of liquidity to date have been a combination of equity and debt financing, including convertible notes issued in June 2025, September 2025 and March 2026, a public equity offering completed in September 2025, advances received under strategic customer contracts, an investment from NVIDIA Corporation and proceeds from sale of shares under the Group’s at-the-market equity program in May and June 2026.
+As of June 30, 2026, $8,042.1 million was recorded in cash and cash equivalents. Cash equivalents mainly consist of bank deposits with original maturities of three months or less and investments in money market funds.
+8
+The Group’s main cash outflows are as follows: acquisitions of server and infrastructure equipment, investments in construction of new capacities at our greenfield data centers (including land acquisition), in build-to-suit facilities, lease payments for co-location agreements and other general corporate activities. Our businesses expect to fund their operations, to the extent required, through debt or equity financing, as well as maintaining positive operating cash flow.
+Cash Flows
+Set out below is a summary of cash flows from continuing operations for the six months ended June 30, 2025 and 2026.
+​
+| ​
+| ​
+| ​
+|
+​
+| Six months ended June 30,
+|
+​
+| 2025
+| ​
+| 2026
+|
+|
+​
+| (in millions of U.S. dollars)
+|
+Net cash provided by / (used in) operating activities
+| (352.0)
+| ​ ​
+| 4,504.1
+|
+Net cash used in investing activities
+| (1,146.2)
+| ​
+| (8,288.8)
+|
+Net cash provided by financing activities
+| 818.5
+| ​
+| 9,160.4
+|
+​
+| ​
+| ​
+| ​
+|
+Cash flows provided by / ( used in) operating activities
+Net cash provided by operating activities was $4,504.1 million for the six months ended June 30, 2026. The increase was primarily driven by advance payments received from customers, resulting in an increase in deferred revenue of $4,395.0 million, as well as a decrease in accounts receivable, partially offset by increases in other assets and prepaid expenses.
+Net cash used in operating activities in the six months ended June 30, 2025 was $352.0 million. Changes in operating assets and liabilities resulted in a net cash outflow of $325.6 million, primarily driven by increases in VAT reclaimable and other assets, a decrease in accounts payable, accrued and other liabilities and non-income taxes payable, and an increase in accounts receivable.
+Cash flows used in investing activities
+Net cash used in investing activities in the six months ended June 30, 2026 was $8,288.8 million and consisted primarily of the purchases of property and equipment and intangible assets related to our Nebius AI cloud business in amount of $8,130.3 million, as well as $251.6 million of consideration paid for the acquisitions of Tavily, ClarifAI and Eigen AI, net of cash acquired, partially offset by proceeds from maturity of term deposits in amount of $75.0 million.
+Net cash used in investing activities in the six months ended June 30, 2025 was $1,146.2 million and consisted primarily of the purchases of property and equipment and intangible assets related to our Nebius AI cloud business.
+The table below presents information about our capital expenditures:
+​
+| ​
+| ​
+| ​
+|
+​
+| Six months ended June 30,
+|
+​
+| 2025
+| ​
+| 2026
+|
+|
+​
+| (in millions of U.S. dollars)
+|
+Purchases of property and equipment and intangible assets
+| (1,054.5)
+| ​ ​
+| (8,130.3)
+|
+​
+Purchases of property and equipment and intangible assets relate primarily to our investments in GPUs and GPU-related hardware, and our data center expansion activities. We substantially increased the pace of our investments in this area during the period to support the growth of our Nebius AI cloud business.
+Cash flows provided by financing activities
+Net cash provided by financing activities in the six months ended June 30, 2026 was $9,160.4 million, primarily consisting of aggregate gross proceeds of $4,337.5 million from the issuance of convertible notes, $2,846.7 million in proceeds from the sale of treasury shares and $2,000.0 million in proceeds from the issuance of prefunded warrants, partially offset by $43.8 million of convertible notes issuance costs and $35.6 million of treasury shares issuance costs.
+9
+Net cash provided by financing activities in the six months ended June 30, 2025 was $818.5 million, primarily consisting of $1,000.0 million in gross proceeds from the issuance of convertible notes in June 2025, partially offset by the payment of Dutch dividend withholding tax of $181.5 million. Refer to our 2025 Annual Report on Form 20-F for further details regarding this payment.
+Contractual Obligations
+Our significant contractual obligations as of June 30, 2026 consisted of:
+| ● | our convertible notes that are included in our condensed consolidated balance sheet and the related periodic interest payments; |
+| ● | lease liabilities that are included in our condensed consolidated balance sheet; |
+| ● | lease commitments that have not yet commenced; and |
+| ● | other contractual commitments associated with agreements that are enforceable and legally binding, such as routine commitments for the purchase of goods or services entered into in the ordinary course of business including the purchase of technology equipment and enterprise software and service arrangements. |
+See Note 8 — “ Leases ”, Note 11 — “ Commitments and contingencies ” and Note 12 — “ Convertible debt ” of our unaudited condensed consolidated financial statements included elsewhere in this Report on Form 6-K.
+10

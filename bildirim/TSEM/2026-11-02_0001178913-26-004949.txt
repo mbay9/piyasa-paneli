@@ -1,0 +1,694 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/928876/000117891326004949/exhibit_99-1.htm
+SEMBOL: TSEM
+BASVURU_TARIHI: 2026-11-02
+BASVURU: 0001178913-26-004949
+
+EX-99.1
+2
+exhibit_99-1.htm
+EXHIBIT 99.1
+Exhibit 99.1
+Tower
+Semiconductor Reports Third Quarter Record Results,
+Providing
+Record Fourth Quarter Guidance Resulting in 2026
+$2
+Billion Annual Revenue
+Third
+quarter revenue of $526 million, representing 33% year-over-year growth;
+Guiding fourth quarter revenue of $600 million, 36% year-over-year growth
+MIGDAL HAEMEK, ISRAEL – November
+2, 2026 – Tower Semiconductor (NASDAQ/TASE: TSEM) reports today its results for the third quarter ended September 30, 2026.
+Third Quarter of 2026 Results Overview
+Record revenue for the third quarter of 2026
+of $526 million, representing revenue growth of 33% year over year, as compared to $396 million in the third quarter of 2025.
+Record gross profit for the third quarter
+of 2026 of $179 million, 92% higher than $93 million in the third quarter of 2025.
+Operating profit for the third quarter of
+2026 was a record of $127 million (excluding non-recurring items), a multiple of 2.5X as compared to the $51 million operating profit
+for the third quarter of 2025.
+Net profit for the third quarter of 2026
+was a record of $120 million (excluding non-recurring items), representing 23% net margin and reflecting $1.06 basic and $1.05 diluted
+earnings per share. This net profit is a multiple of 2.2X of the $54 million net profit in the third quarter of 2025.
+Cash from operating activities in the third
+quarter of 2026 was $185 million and investments in property and equipment, net, were $191 million. In the third quarter of 2025,
+cash flow generated from operating activities was $139 million and investments in property and equipment, net, were $103 million.
+Business Outlook
+The Company provides revenue guidance of
+$600 million for the fourth quarter of 2026, with an upward or downward range of 5%. Mid-range revenue guidance represents an increase
+of 36% year-over-year and 14% quarter-over-quarter.
+Russell Ellwanger, Chief Executive Officer
+of Tower Semiconductor, said: “We are entering the strongest growth phase in our history, according to fourth quarter guidance,
+closing the year at $2 billion annual revenue and a $2.4 billion annualized revenue run rate. We target to begin 2027 avoiding first quarter’s
+typical industry seasonality, with clear visibility to incremental sequential revenues with accompanying margins’ growth.”
+Ellwanger further added: “With a background
+of growth and strong increasing demand in each of our core businesses, infrastructure (SiPho and SiGe) demand specifically is driving
+exceptional growth in our high-speed connectivity business. We target to achieve an annualized $1.1 billion run rate in the fourth quarter
+of 2026 of SiPho revenue alone, namely 5X of the 2025 SiPho annual revenue. Our on-going capacity investments, including the announced
+Track-1 Japan 300mm buildout, are progressing ahead of schedule, supported by customer contracts which are being extended through 2029,
+providing great assurance to achieve our 2028 revenue and margins model, and a well-defined path for accretive margins thereafter. The
+combination of Tower’s technology leadership, expanding capacity and deep alignment with our customers, positions Tower to deliver
+significant long-term growth and shareholder value.”
+Teleconference and Webcast
+Tower Semiconductor will host an investor conference
+call today, Monday, November 2, 2026, at 10:00 a.m. Eastern time (9:00 a.m. Central time, 8:00 a.m. Mountain time, 7:00 a.m. Pacific time
+and 5:00 p.m. Israel time) to discuss the Company’s financial results for the third quarter of 2026 and its business outlook.
+The call will be webcast and available through
+the Investor Relations section of Tower Semiconductor’s website at ir.towersemi.com. The pre-registration form required for dial-in
+participation is accessible here . Upon completing the registration, participants will receive the dial-in details, a unique
+PIN, and a confirmation email with all necessary information. To access the webcast, click here . The teleconference will
+be available for replay for 90 days.
+Non-GAAP Financial Measures
+The Company presents its financial statements
+in accordance with U.S. generally accepted accounting principles (“GAAP”). The financial information in the tables below includes
+unaudited condensed financial data. Some of the financial information, which may be used and/or presented in this release and/or prior
+earnings related filings and/or in related public disclosures or filings with respect to the financial statements and/or results of the
+Company, which we may describe as adjusted financial measures and/or reconciled financial measures, are non-GAAP financial measures as
+defined in Regulation G and related reporting requirements promulgated by the Securities and Exchange Commission (the “SEC”)
+as they apply to our Company. These adjusted financial measures are calculated excluding the following: (i) amortization of acquired intangible
+assets as included in our costs and expenses, and (ii) compensation expenses in respect of equity grants to directors, officers, and employees
+as included in our costs and expenses. These adjusted financial measures should be evaluated in conjunction with, and are not a substitute
+for, GAAP financial measures. The tables also present the GAAP financial measures, which are most comparable to the adjusted financial
+measures used and/or presented in this release, as well as a reconciliation between the adjusted financial measures and the comparable
+GAAP financial measures. As used and/or presented in this release and/or prior earnings related filings and/or in related public disclosures
+or filings with respect to the financial statements and/or results of the Company, as well as may be included and calculated in the tables
+herein, the term Earnings Before Interest Taxes, Depreciation and Amortization which we define as EBITDA consists of operating profit
+in accordance with GAAP, excluding (i) depreciation expenses, which include depreciation recorded in cost of revenue and in operating
+cost and expenses lines (e.g. , research and development related equipment and/or fixed other assets depreciation), (ii) stock-based
+compensation expense, and (iii) amortization of acquired intangible assets. EBITDA is reconciled in the tables below and/or prior earnings-related
+filings and/or in related public disclosures or filings with respect to the financial statements and/or results of the Company from GAAP
+operating profit. EBITDA and the adjusted financial information presented herein and/or prior earnings-related filings and/or in related
+public disclosures or filings with respect to the financial statements and/or results of the Company, are not a required GAAP financial
+measure and may not be comparable to a similarly titled measure employed by other companies. EBITDA and the adjusted financial information
+presented herein and/or prior earnings-related filings and/or in related public disclosures or filings with respect to the financial statements
+and/or results of the Company, should not be considered in isolation or as a substitute for operating profit, net profit or loss, cash
+flows provided by operating, investing and financing activities, per share data or other profit or cash flow statement data prepared in
+accordance with GAAP. The term Net Cash, as may be used and/or presented in this release and/or prior earnings-related filings and/or
+in related public disclosures or filings with respect to the financial statements and/or results of the Company, is comprised of cash,
+cash equivalents and short-term deposits less debt amounts as presented in the balance sheets included herein. The term Net Cash is not
+a required GAAP financial measure, may not be comparable to a similarly titled measure employed by other companies and should not be considered
+in isolation or as a substitute for cash, debt, operating profit, net profit or loss, cash flows provided by operating, investing and
+financing activities, per share data or other profit or cash flow statement data prepared in accordance with GAAP. The term Free Cash
+Flow, as used and/or presented in this release and/or prior earnings related filings and/or in related public disclosures or filings with
+respect to the financial statements and/or results of the Company, is calculated to be net cash provided by operating activities (in the
+amounts of: $185 million for the three months period ended September 30, 2026 that includes $23 million increase in customers’ advances;
+$177 million for the three months period ended June 30, 2026; $139 million for the three months period ended September 30, 2025; $872
+million for the nine months period ended September 30, 2026 that includes $305 million increase in customers’ advances, net; 356
+million for the nine months period ended September 30, 2025) less cash used for investments in property and equipment, net (in the amounts
+of $191 million, $187 million and $103 million for the three months periods ended September 30, 2026, June 30, 2026 and September 30,
+2025, respectively and in the amounts of $534 million and $326 million for the nine months periods ended September 30, 2026 and September
+30, 2025, respectively). The term Free Cash Flow is not a required GAAP financial measure, may not be comparable to a similarly titled
+measure employed by other companies and should not be considered in isolation or as a substitute for operating profit, net profit or loss,
+cash flows provided by operating, investing, and financing activities, per share data or other profit or cash flow statement data prepared
+in accordance with GAAP.
+About Tower Semiconductor
+Tower Semiconductor Ltd. (NASDAQ/TASE: TSEM)
+is a leading foundry of high-value analog semiconductor solutions, serving growing markets including industrial, automotive, mobile,
+infrastructure, medical, and aerospace & defense. The company offers a broad portfolio of advanced and innovative analog technologies,
+including silicon photonics (SiPho), SiGe, RF CMOS, CMOS image sensors, power management, and mixed-signal, supported by world-class
+design enablement and process transfer services. Tower operates a global manufacturing network with 200mm and 300mm fabs in Israel, the
+U.S., Japan, and Italy, providing customers with scalable capacity and multi-fab sourcing. Learn more at www.towersemi.com .
+CONTACT :
+Liat Avraham | Investor Relations | +972-4-6506154
+| liatavra@towersemi.com
+Forward-Looking Statements |
+This release, as well as other statements and reports filed, stated and published, include certain “forward-looking”
+statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended. These forward-looking statements include,
+among others, projections and statements with respect to our future business, financial performance and activities. The use of words such
+as “projects”, “expects”, “may”, “targets”, “plans”, “forecast”,
+“intends”, “committed to”, “tracking”, or variations or words of similar import, may identify a statement
+as “forward-looking.” However, the absence of these words does not mean that a statement is not forward-looking. Actual results
+may vary from those projected or implied by such forward-looking statements and you should not unduly rely on such forward-looking statements,
+which speak only as of the date of this release. Factors that could cause actual results to differ materially from those projected or
+implied by such forward-looking statements include, without limitation, risks and uncertainties associated with: (i) fluctuating demand
+in our customers’ end markets and/or SiPho, SiGe and other customer demand may not increase to the levels currently forecasted by
+the Company, (ii) reliance on acquisitions, establishing new fabs and/or gaining additional capacity for growth, (iii) difficulties in
+achieving acceptable operational metrics and indices as a result of operational, technological or process-related problems, (iv) identifying
+and negotiating with third-party buyers for the sale of any excess and/or unused equipment, inventory and/or other assets, (v) maintaining
+current key customers and attracting new key customers, (vi) over demand for our foundry services and/ or products that may result in
+operational bottlenecks, extend cycle times, reduce yield, delay delivery schedules, that may result in compensation, penalties and/ or
+prepayment repayments, loss of customers, revenues, profits and/ or reputation, including with respect to SiPho customer prepayments received
+for certain minimum capacity commitments, due to inability to fulfill, in whole or in part, all such demand and commitments in a timely
+manner or at all, (vii) fluctuation of our financial results from quarter to quarter, (viii) the additional 300mm manufacturing facility
+the Company plans to establish adjacent to Fab 7 and maximization of the Company’s Fab 7 300mm output (including risks associated
+with the repurposing of the Arai facility), including risks associated with delays in construction period and cost, obtaining necessary
+equipment and/ or obtaining necessary permits, Government of Japan and/or METI grants terms and covenants relating thereto (which may
+result in loss of a portion or all of the grant funds), and/ or other consents required, and the negotiation of definitive agreements
+with vendors and others, that may result in lower profitability than currently expected and/ or added costs and losses, longer return
+on investment period, including risks associated with the ability to obtain any financing required to fund the establishment, facilities
+and machinery cost net investments on favorable terms, or at all, (ix) our debt and other liabilities may impact our financial position
+and operations, (x) our ability to successfully execute acquisitions, integrate them into our business, utilize our expanded capacity
+and find new business, (xi) fluctuations in cash flow, (xii) our ability to satisfy the covenants stipulated in our agreements with our
+debt holders and/ or possible incurrence of additional indebtedness, (xiii) pending litigation, (xiv) meeting the conditions set in approval
+certificates and other regulations under which we received grants and/or royalties and/or any type of funding from the Israeli, US and/or
+Japan governmental agencies, (xv) receipt of orders that are lower than the customer purchase commitments or forecast and/or failure to
+receive customer orders currently expected, (xvi) the effects of global recession, credit crisis and/or unfavorable macro-economic conditions,
+such as the imposition of regulatory requirements, tariffs, import and export restrictions and other trade barriers and restrictions,
+including the timing and availability of export licenses and permits, (xvii) our ability to accurately forecast financial performance,
+which is affected by limited order backlog and lengthy sales cycles which may cause financial results to fluctuate from quarter to quarter,
+(xviii) possible situations of obsolete inventory or overcapacity if forecasted demand exceeds actual demand when we create inventory
+before receipt of customer orders, (xix) the cyclical nature of the semiconductor industry and the resulting periodic overcapacity, fluctuations
+in operating results and future average selling price erosion, (xx) capacity and capability expansion and acquisition related transactions
+in our existing fabrications, strategic and/or other in-organic capacity and/ or capability growth and/ or M&A transactions and opportunities,
+and/ or the acquisition of and/ or the establishment of a new factory or factories, including the additional 300mm manufacturing facility
+the Company plans to establish adjacent to Fab 7 and maximization of the Company’s Fab 7 300mm output (including risks associated
+with the repurposing of the Arai facility), which could require funding needs beyond our existing cash, the availability of which cannot
+be assured on favorable terms, if at all, and which may have adverse impact on the market value of the Company and the price of the Company’s
+ordinary shares, (xxi) operating our facilities at sufficient utilization rates necessary to generate and maintain positive and sustainable
+gross, operating and net profit, (xxii) the purchase of equipment and/or raw material (including purchases under committed contracts),
+the timely completion of the equipment installation, technology transfer and raising the funds therefor, (xxiii) product returns and defective
+products, (xxiv) our ability to maintain and develop our technology processes and services to keep pace with new technology, including
+artificial intelligence, evolving standards, changing customer and end-user requirements, new product introductions and short product
+life cycles, (xxv) competing effectively, (xxvi) our dependence on increased use of outsourced foundry services for specialty process
+technologies, (xxvii) our dependence on intellectual property rights of others, our ability to operate our business without infringing
+others’ intellectual property rights and our ability to enforce our intellectual property against infringement, including risks
+and uncertainties associated with the infringement claims that the Company is currently party to, brought by GlobalFoundries and certain
+affiliate alleging infringement of certain of its patents, (xxviii) Fab 3 landlord’s alleged claims regarding noise abatement and
+request for judicial declaration of material non-curable breach of the Fab3 lease, and in addition, alleged claims by a third-party with
+whom the landlord is engaged pertaining to the Fab3 site, to enforce certain rights with respect to the lease extension, (xxix) retention
+of key employees and recruitment and retention of skilled qualified personnel, (xxx) exposure to inflation, currency rates (mainly the
+Israeli Shekel and the Japanese Yen) and interest rate fluctuations and risks associated with doing business locally and internationally,
+as well as fluctuations in the market price of our traded securities, (xxxi) meeting regulatory requirements worldwide, including export,
+environmental and governmental regulations, as well as risks related to international operations, (xxxii) engagements for fab establishment,
+joint venture and/or capital lease transactions for capacity enhancement in advanced technologies, including risks and uncertainties associated
+with the Agrate fab, such as its qualification schedule, technology, equipment and process qualification, facility operational ramp-up,
+customer engagements, cost structure, required investments and other terms, which may require additional funding to cover significant
+capacity investment needs and other payments, (xxxiii) potential liabilities, cost and other impact due to reorganization and consolidation
+of fabrication facilities, or cessation of operations, (xxxiv) potential security, cyber and privacy breaches, (xxxv) workforce that is
+not unionized which may become unionized, and/or workforce that is unionized and may take action such as strikes that may create increased
+cost and operational risks, (xxxvi) the issuance of ordinary shares as a result of exercise and/or vesting of any of our employee equity,
+as well as any sale of shares by any of our shareholders, or any market expectation thereof, as well as the issuance of additional employees’
+restricted stock units, or any market expectation thereof, which may depress the market value of the Company and the price of the Company’s
+ordinary shares, and in addition may impair our ability to raise future capital, (xxxvii) the dispute resolution process regarding Intel’s
+determination not to perform its agreement to build a capacity corridor to enable Intel to manufacture wafers for Tower’s customers,
+which process may be costly and/ or may result in losses and/or other adverse impact, (xxxviii) Pillar Two tax rules and regulations previously
+released by the OECD, which require a minimum effective corporate income tax rate of 15% applicable in every jurisdiction in which the
+company operates, which will result in additional income tax expenses for the years 2026 and beyond, mainly with respect to the Company’s
+Israeli operations in which the Company was subject to 7.5% preferred tax rate until 2025 under Israeli laws, and (xxxix) climate change,
+business interruptions due to floods, fires, pandemics, earthquakes and other natural disasters, the security situation in Israel and
+global trade “war”, including the potential inability to continue uninterrupted operations of the Israeli fab, impact on global
+supply chain to and from the Israeli fab, delays in the delivery, installation and qualification of equipment, power interruptions, chemicals
+or other leaks or damages as a result therefrom, absence of workforce due to military service as well as risk that certain countries will
+restrict doing business with Israeli companies, including imposing restrictions due to hostilities in Israel or political instability
+in the region that may continue or exacerbate, and other events beyond our control. Due to hostilities and instability in neighboring
+states, Israel could be subject to additional political, economic, and military confines, and our Israeli facility’s operations
+could be materially adversely affected. Any current or future hostilities involving Israel or the interruption or curtailment of trade
+between Israel and its present trading partners, or a significant downturn in the economic or financial condition of Israel, could have
+a material adverse effect on our business, financial condition and results of operations. |
+A more complete discussion of risks and
+uncertainties that may affect the forward-looking statements included in this release or which may otherwise affect our business is included
+under the heading "Risk Factors" in the Company’s most recent filings on Forms 20-F and 6-K, as were filed with the SEC
+and the Israel Securities Authority. Future results may differ materially from those previously reported. The Company does not intend
+to update and expressly disclaims any obligation to update or revise any forward-looking information contained in this release to reflect
+any changes in expectations with regard thereto, or any change in events, conditions or circumstances on which any such statement is based.
+# # #
+(Financial tables follow)
+TOWER SEMICONDUCTOR LTD. AND SUBSIDIARIES |
+CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED) |
+(dollars in thousands) |
+| |
+September 30, | | |
+December 31, | |
+| |
+2026 | | |
+2025 | |
+ASSETS | |
+| | | |
+| | |
+CURRENT ASSETS | |
+| | | |
+| | |
+Cash and cash equivalents | |
+$ | 250,748 | | |
+$ | 235,369 | |
+Short-term deposits | |
+| 1,222,124 | | |
+| 916,541 | |
+Trade accounts receivable | |
+| 226,845 | | |
+| 222,795 | |
+Inventories | |
+| 263,448 | | |
+| 256,855 | |
+Other current assets | |
+| 47,548 | | |
+| 78,062 | |
+Total current assets | |
+| 2,010,713 | | |
+| 1,709,622 | |
+PROPERTY AND EQUIPMENT, NET | |
+| 1,825,403 | | |
+| 1,463,056 | |
+OTHER LONG-TERM ASSETS, NET | |
+| 181,091 | | |
+| 149,612 | |
+TOTAL ASSETS | |
+$ | 4,017,207 | | |
+$ | 3,322,290 | |
+LIABILITIES AND SHAREHOLDERS' EQUITY | |
+| | | |
+| | |
+CURRENT LIABILITIES | |
+| | | |
+| | |
+Short-term debt | |
+$ | 13,452 | | |
+$ | 28,112 | |
+Trade accounts payable | |
+| 193,858 | | |
+| 123,915 | |
+Deferred revenue and customers' advances | |
+| 248,930 | | |
+| 25,581 | |
+Other current liabilities | |
+| 84,673 | | |
+| 86,139 | |
+Total current liabilities | |
+| 540,913 | | |
+| 263,747 | |
+LONG-TERM DEBT | |
+| 140,275 | | |
+| 133,406 | |
+LONG-TERM CUSTOMERS' ADVANCES | |
+| 92,052 | | |
+| 1,932 | |
+OTHER LONG-TERM LIABILITIES | |
+| 35,843 | | |
+| 18,622 | |
+TOTAL LIABILITIES | |
+| 809,083 | | |
+| 417,707 | |
+TOTAL SHAREHOLDERS' EQUITY | |
+| 3,208,124 | | |
+| 2,904,583 | |
+TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY | |
+$ | 4,017,207 | | |
+$ | 3,322,290 | |
+TOWER SEMICONDUCTOR LTD. AND SUBSIDIARIES |
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED) |
+(dollars and share count in thousands, except per share data) |
+| |
+Three months ended | |
+| |
+September 30, | | |
+June 30, | |
+| |
+2026 | | |
+2026 | |
+REVENUE | |
+$ | 526,161 | | |
+$ | 460,079 | |
+COST OF REVENUE | |
+| 347,402 | | |
+| 322,307 | |
+GROSS PROFIT | |
+| 178,759 | | |
+| 137,772 | |
+OPERATING COSTS AND EXPENSES: | |
+| | | |
+| | |
+Research and development | |
+| 26,625 | | |
+| 23,569 | |
+Marketing, general and administrative | |
+| 24,999 | | |
+| 23,913 | |
+| |
+| 51,624 | | |
+| 47,482 | |
+| |
+| | | |
+| | |
+OPERATING PROFIT | |
+| 127,135 | | |
+| 90,290 | |
+FINANCING AND OTHER INCOME, NET | |
+| 11,943 | | |
+| 15,902 | |
+PROFIT BEFORE INCOME TAX | |
+| 139,078 | | |
+| 106,192 | |
+INCOME TAX EXPENSE, NET | |
+| (19,193 | ) | |
+| (15,573 | ) |
+NET PROFIT | |
+| 119,885 | | |
+| 90,619 | |
+Net loss attributable to non-controlling interest | |
+| 371 | | |
+| 150 | |
+NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 120,256 | | |
+$ | 90,769 | |
+BASIC EARNINGS PER SHARE | |
+$ | 1.06 | | |
+$ | 0.80 | |
+Weighted average number of shares | |
+| 113,324 | | |
+| 112,910 | |
+DILUTED EARNINGS PER SHARE | |
+$ | 1.05 | | |
+$ | 0.79 | |
+Weighted average number of shares | |
+| 114,463 | | |
+| 114,427 | |
+RECONCILIATION FROM GAAP NET PROFIT ATTRIBUTABLE TO THE COMPANY TO ADJUSTED NET PROFIT ATTRIBUTABLE TO THE COMPANY: | |
+| | | |
+| | |
+GAAP NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 120,256 | | |
+$ | 90,769 | |
+Stock based compensation and amortization
+of acquired intangible assets | |
+| 11,042 | | |
+| 9,941 | |
+ADJUSTED NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 131,298 | | |
+$ | 100,710 | |
+ADJUSTED EARNINGS PER SHARE: | |
+| | | |
+| | |
+Basic | |
+$ | 1.16 | | |
+$ | 0.89 | |
+Diluted | |
+$ | 1.15 | | |
+$ | 0.88 | |
+TOWER SEMICONDUCTOR LTD. AND SUBSIDIARIES |
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED) |
+(dollars and share count in thousands, except per share data) |
+| |
+Three months ended | |
+| |
+September 30, | | |
+September 30, | |
+| |
+2026 | | |
+2025 | |
+REVENUE | |
+$ | 526,161 | | |
+$ | 395,667 | |
+COST OF REVENUE | |
+| 347,402 | | |
+| 302,622 | |
+GROSS PROFIT | |
+| 178,759 | | |
+| 93,045 | |
+OPERATING COSTS AND EXPENSES: | |
+| | | |
+| | |
+Research and development | |
+| 26,625 | | |
+| 22,056 | |
+Marketing, general and administrative | |
+| 24,999 | | |
+| 20,409 | |
+| |
+| 51,624 | | |
+| 42,465 | |
+| |
+| | | |
+| | |
+OPERATING PROFIT | |
+| 127,135 | | |
+| 50,580 | |
+FINANCING AND OTHER INCOME, NET | |
+| 11,943 | | |
+| 10,491 | |
+PROFIT BEFORE INCOME TAX | |
+| 139,078 | | |
+| 61,071 | |
+INCOME TAX EXPENSE, NET | |
+| (19,193 | ) | |
+| (7,625 | ) |
+NET PROFIT | |
+| 119,885 | | |
+| 53,446 | |
+Net loss attributable to non-controlling interest | |
+| 371 | | |
+| 199 | |
+NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 120,256 | | |
+$ | 53,645 | |
+BASIC EARNINGS PER SHARE | |
+$ | 1.06 | | |
+$ | 0.48 | |
+Weighted average number of shares | |
+| 113,324 | | |
+| 112,132 | |
+DILUTED EARNINGS PER SHARE | |
+$ | 1.05 | | |
+$ | 0.47 | |
+Weighted average number of shares | |
+| 114,463 | | |
+| 113,751 | |
+RECONCILIATION FROM GAAP NET PROFIT ATTRIBUTABLE TO THE COMPANY TO ADJUSTED NET PROFIT ATTRIBUTABLE TO THE COMPANY: | |
+| | | |
+| | |
+GAAP NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 120,256 | | |
+$ | 53,645 | |
+Stock based compensation and amortization
+of acquired intangible assets | |
+| 11,042 | | |
+| 9,111 | |
+ADJUSTED NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 131,298 | | |
+$ | 62,756 | |
+ADJUSTED EARNINGS PER SHARE: | |
+| | | |
+| | |
+Basic | |
+$ | 1.16 | | |
+$ | 0.56 | |
+Diluted | |
+$ | 1.15 | | |
+$ | 0.55 | |
+TOWER SEMICONDUCTOR LTD. AND SUBSIDIARIES |
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED) |
+(dollars and share count in thousands, except per share data) |
+| |
+Nine months ended | |
+| |
+September 30, | | |
+September 30, | |
+| |
+2026 | | |
+2025 | |
+REVENUE | |
+$ | 1,399,871 | | |
+$ | 1,125,898 | |
+COST OF REVENUE | |
+| 972,389 | | |
+| 879,656 | |
+GROSS PROFIT | |
+| 427,482 | | |
+| 246,242 | |
+OPERATING COSTS AND EXPENSES: | |
+| | | |
+| | |
+Research and development | |
+| 73,724 | | |
+| 61,646 | |
+Marketing, general and administrative | |
+| 71,768 | | |
+| 61,253 | |
+| |
+| 145,492 | | |
+| 122,899 | |
+| |
+| | | |
+| | |
+OPERATING PROFIT | |
+| 281,990 | | |
+| 123,343 | |
+FINANCING AND OTHER INCOME , NET | |
+| 37,363 | | |
+| 35,476 | |
+PROFIT BEFORE INCOME TAX | |
+| 319,353 | | |
+| 158,819 | |
+INCOME TAX EXPENSE, NET | |
+| (41,284 | ) | |
+| (20,064 | ) |
+NET PROFIT | |
+| 278,069 | | |
+| 138,755 | |
+Net loss (profit) attributable to non-controlling interest | |
+| (2,012 | ) | |
+| 1,583 | |
+NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 276,057 | | |
+$ | 140,338 | |
+BASIC EARNINGS PER SHARE | |
+$ | 2.44 | | |
+$ | 1.25 | |
+Weighted average number of shares | |
+| 112,935 | | |
+| 111,841 | |
+DILUTED EARNINGS PER SHARE | |
+$ | 2.41 | | |
+$ | 1.24 | |
+Weighted average number of shares | |
+| 114,383 | | |
+| 113,397 | |
+RECONCILIATION FROM GAAP NET PROFIT ATTRIBUTABLE TO THE COMPANY TO ADJUSTED NET PROFIT ATTRIBUTABLE TO THE COMPANY: | |
+| | | |
+| | |
+GAAP NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 276,057 | | |
+$ | 140,338 | |
+Stock based compensation and amortization
+of acquired intangible assets | |
+| 30,424 | | |
+| 30,041 | |
+ADJUSTED NET PROFIT ATTRIBUTABLE TO THE COMPANY | |
+$ | 306,481 | | |
+$ | 170,379 | |
+ADJUSTED EARNINGS PER SHARE: | |
+| | | |
+| | |
+Basic | |
+$ | 2.71 | | |
+$ | 1.52 | |
+Diluted | |
+$ | 2.68 | | |
+$ | 1.50 | |
+TOWER SEMICONDUCTOR LTD. AND SUBSIDIARIES |
+CONSOLIDATED SOURCES AND USES REPORT (UNAUDITED) |
+(dollars in thousands) |
+| |
+Three months ended | |
+| |
+September 30, | | |
+September 30, | |
+| |
+2026 | | |
+2025 | |
+CASH AND CASH EQUIVALENTS - BEGINNING OF PERIOD | |
+$ | 231,188 | | |
+$ | 265,293 | |
+Net cash provided by operating activities, excluding customers' advances, net | |
+| 162,311 | | |
+| 142,005 | |
+Increase (decrease) in customers' advances, net | |
+| 22,848 | | |
+| (2,582 | ) |
+Investments in property and equipment, net | |
+| (190,683 | ) | |
+| (103,490 | ) |
+Debt repaid, net | |
+| (7,301 | ) | |
+| (6,875 | ) |
+Effect of foreign currency exchange rate change | |
+| 2,385 | | |
+| (1,609 | ) |
+Proceeds from (investments in) deposits | |
+| 30,000 | | |
+| (20,000 | ) |
+CASH AND CASH EQUIVALENTS - END OF PERIOD | |
+$ | 250,748 | | |
+$ | 272,742 | |
+TOWER SEMICONDUCTOR LTD. AND SUBSIDIARIES |
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED) |
+(dollars in thousands) |
+| |
+Three months ended | |
+| |
+September 30, | | |
+September 30, | |
+| |
+2026 | | |
+2025 | |
+CASH FLOWS - OPERATING ACTIVITIES | |
+| | | |
+| | |
+Net profit for the period | |
+$ | 119,885 | | |
+$ | 53,446 | |
+Adjustments to reconcile net profit for the period | |
+| | | |
+| | |
+to net cash provided by operating activities: | |
+| | | |
+| | |
+Income and expense items not involving cash flows: | |
+| | | |
+| | |
+Depreciation and amortization * | |
+| 90,461 | | |
+| 76,456 | |
+Other expense (income), net | |
+| 3,512 | | |
+| (122 | ) |
+Changes in assets and liabilities, net: | |
+| | | |
+| | |
+Trade accounts receivable | |
+| (23,270 | ) | |
+| 1,853 | |
+Other current assets | |
+| 8,182 | | |
+| 6,770 | |
+Inventories | |
+| (16,573 | ) | |
+| (1,983 | ) |
+Other long term assets | |
+| (41,337 | ) | |
+| -- | |
+Trade accounts payable | |
+| 22,615 | | |
+| (6,516 | ) |
+Deferred revenue | |
+| (3,278 | ) | |
+| 6,805 | |
+Other current liabilities | |
+| (8,016 | ) | |
+| 2,958 | |
+Other long-term liabilities | |
+| 10,130 | | |
+| 2,338 | |
+Increase (decrease) in customers' advances, net | |
+| 22,848 | | |
+| (2,582 | ) |
+Net cash provided by operating activities | |
+| 185,159 | | |
+| 139,423 | |
+CASH FLOWS - INVESTING ACTIVITIES | |
+| | | |
+| | |
+Investments in property and equipment, net | |
+| (190,683 | ) | |
+| (103,490 | ) |
+Proceeds from (investments in) deposits | |
+| 30,000 | | |
+| (20,000 | ) |
+Net cash used in investing activities | |
+| (160,683 | ) | |
+| (123,490 | ) |
+CASH FLOWS - FINANCING ACTIVITIES | |
+| | | |
+| | |
+Debt repaid, net | |
+| (7,301 | ) | |
+| (6,875 | ) |
+Net cash used in financing activities | |
+| (7,301 | ) | |
+| (6,875 | ) |
+EFFECT OF FOREIGN CURRENCY EXCHANGE RATE CHANGE | |
+| 2,385 | | |
+| (1,609 | ) |
+| |
+| | | |
+| | |
+INCREASE IN CASH AND CASH EQUIVALENTS | |
+| 19,560 | | |
+| 7,449 | |
+CASH AND CASH EQUIVALENTS - BEGINNING OF PERIOD | |
+| 231,188 | | |
+| 265,293 | |
+CASH AND CASH EQUIVALENTS - END OF PERIOD | |
+$ | 250,748 | | |
+$ | 272,742 | |
+*Includes stock based compensation and amortization of acquired intangible assets in the amounts of $11,042 and
+$9,111 for the 3 months periods ended September 30, 2026 and September 30, 2025, respectively.

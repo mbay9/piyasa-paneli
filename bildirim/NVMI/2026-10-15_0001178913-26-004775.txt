@@ -1,0 +1,213 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1109345/000117891326004775/0001178913-26-004775.txt
+SEMBOL: NVMI
+BASVURU_TARIHI: 2026-10-15
+BASVURU: 0001178913-26-004775
+
+0001178913-26-004775.txt : 20261015
+0001178913-26-004775.hdr.sgml : 20261015
+20261015080015
+ACCESSION NUMBER: 0001178913-26-004775
+CONFORMED SUBMISSION TYPE: 6-K
+PUBLIC DOCUMENT COUNT: 2
+CONFORMED PERIOD OF REPORT: 20261015
+FILED AS OF DATE: 20261015
+DATE AS OF CHANGE: 20261015
+FILER:
+COMPANY DATA:
+COMPANY CONFORMED NAME: NOVA LTD.
+CENTRAL INDEX KEY: 0001109345
+STANDARD INDUSTRIAL CLASSIFICATION: OPTICAL INSTRUMENTS & LENSES [3827]
+ORGANIZATION NAME: 08 Industrial Applications and Services
+EIN: 000000000
+FISCAL YEAR END: 1231
+FILING VALUES:
+FORM TYPE: 6-K
+SEC ACT: 1934 Act
+SEC FILE NUMBER: 000-30668
+FILM NUMBER: 261461364
+BUSINESS ADDRESS:
+STREET 1: 5 DAVID FIKES STREET
+CITY: REHOVOT
+STATE: L3
+ZIP: 7610201
+BUSINESS PHONE: 972-73-229-5600
+MAIL ADDRESS:
+STREET 1: 5 DAVID FIKES STREET
+CITY: REHOVOT
+STATE: L3
+ZIP: 7610201
+FORMER COMPANY:
+FORMER CONFORMED NAME: NOVA MEASURING INSTRUMENTS LTD
+DATE OF NAME CHANGE: 20000315
+6-K
+1
+zk2636227.htm
+6-K
+UNITED STATES
+SECURITIES AND
+EXCHANGE COMMISSION
+Washington, DC 20549
+FORM 6-K
+REPORT
+OF FOREIGN PRIVATE ISSUER
+PURSUANT
+TO RULE 13a-16 OR 15d-16 OF
+THE SECURITIES
+EXCHANGE ACT OF 1934
+For the month of October 2026
+Commission File No.: 000-30668
+NOVA LTD.
+(Translation of registrant’s name into English)
+5 David Fikes Street, Rehovot, Israel
+(Address of principal executive offices)
+Indicate by check mark whether
+the registrant files or will file annual reports under cover Form 20-F or Form 40-F.
+Form 20-F ☒ Form
+40-F ☐
+Attached hereto
+and incorporated by way of reference herein is a press release issued by the Registrant and entitled: “Nova to Report Third Quarter
+2026 Financial Results on November 5”.
+SIGNATURES
+Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto
+duly authorized.
+Date: October 15, 2026
+|
+NOVA
+LTD.
+(Registrant)
+By: /s/ Guy Kizner
+——————————————
+Guy Kizner
+Chief Financial Officer
+|
+Company Contact:
+Guy Kizner, Chief Financial Officer
+Tel: +972-73-229-5760
+E-mail - investors@novami.com
+Nova website link - https://www.novami.com/
+Investor Relations Contact:
+Miri Segal MS-IR LLC
+E-mail - msegal@ms-ir.com
+Nova to Report
+Third Quarter 2026 Financial Results on November 5
+Conference call to be held on
+the same day at 8:30 a.m. Eastern Time
+Rehovot,
+Israel, October 15, 2026 - Nova (Nasdaq: NVMI) , a leading innovator and a key provider of advanced metrology and process
+control solutions used in semiconductor manufacturing, today announced that it expects to release its financial results for the third
+quarter of 2026 before the Nasdaq market opens on Thursday, November 5, 2026.
+Q3 2026 Conference Call Details:
+Gaby Waisman, President and Chief Executive Officer,
+and Guy Kizner, Chief Financial Officer, will host a conference call to review the Company’s third quarter 2026 financial results
+on November 5, 2026, at 8:30 a.m. Eastern Time.
+To attend the conference call, please dial one
+of the following numbers at least five minutes before the conference call commences. If you are unable to connect using the toll-free
+numbers, please try the international dial-in number.
+U.S. TOLL-FREE : 1-833-816-1427
+ISRAEL : +972 3-374-1008
+INTERNATIONAL : 1-412-317-0519
+WEBCAST LINK : https://event.choruscall.com/mediaframe/webcast.html?webcastid=YkWZRXLb
+At:
+8:30 a.m. Eastern Time
+5:30 a.m. Pacific Time
+The conference call will also be available via a live webcast from
+a link on Nova’s Investor Relations website - https://www.novami.com/investors/events/ . A replay of the conference
+call will be available from November 5, 2026, to November 12, 2026. To access the replay, please dial one of the following numbers:
+Replay TOLL-FREE : 1-855-669-9658
+Replay TOLL/INTERNATIONAL : 1-412-317-0088
+Replay Pin Number : 4753512
+About Nova
+Nova is a leading innovator and key provider of
+material, optical and chemical solutions for advanced metrology and process control in semiconductor manufacturing. Nova delivers continuous
+innovation by providing state-of-the-art, high-performance metrology solutions for effective process control throughout the semiconductor
+fabrication lifecycle. Nova’s product portfolio, which combines high-precision hardware and cutting-edge software, provides its
+customers with deep insight into developing and producing the most advanced semiconductor devices. Nova’s unique capability to deliver
+innovative solutions enables its customers to improve performance, enhance product yields, and accelerate time to market. Nova acts as
+a partner to semiconductor manufacturers from its offices worldwide. Additional information may be found on Nova’s website link
+– https://www.novami.com/.
+Nova is traded on the Nasdaq and TASE, Nasdaq ticker symbol NVMI.
+Forward-Looking Statements
+This press release contains forward-looking statements
+within the meaning of safe harbor provisions of the Private Securities Litigation Reform Act of 1995 relating to future events or our
+future performance, such as statements regarding, but not limited to, anticipated growth opportunities and projections about our business
+and its future revenues, expenses and profitability. Forward-looking statements involve known and unknown risks, uncertainties and other
+factors that may cause our actual results, levels of activity, performance or achievements to differ materially from any future results,
+levels of activity, performance or achievements expressed or implied in those forward-looking statements. Factors that may affect our
+results, performance, circumstances or achievements include, but are not limited to, the following: risks related to information technology
+security threats, sophisticated computer crime, and data privacy; foreign political and economic risks including supply-chain difficulties;
+regulations that could restrict our operations such as economic sanctions and export restrictions; changes in U.S. trade policies
+and taxation; market instability including inflation and recessionary pressures; risks related to doing business with China; catastrophic
+events; inability to protect our intellectual property; open source technology exposure; risks related to the use of artificial intelligence
+technologies; challenges related to implementing our new ERP system; failure to compete effectively or to respond to rapid technological
+changes; consolidation in our industry; difficulty in predicting the length and strength of any downturn or expansion period of the market
+we target; factors that adversely affect the pricing and demand for our product lines; dependency on a small number of large customers;
+dependency on a single manufacturing facility per product line; dependency on a limited number of suppliers; difficulty in integrating
+current or future acquisitions; lengthy sales cycle and customer delays in orders; risks related to conditions in Israel, including Israel’s
+conflicts with certain parties in the region; risks related to our convertible senior notes and capped call transactions;
+currency fluctuations and quarterly fluctuations in our operating results; and risks related to additional costs and expenses
+if there is a change in our status as a foreign private issuer. We cannot guarantee future results, levels of activity, performance
+or achievements. The matters discussed in this press release also involve risks and uncertainties summarized under the heading “Risk
+Factors” in Nova’s Annual Report on Form 20-F for the year ended December 31, 2025, filed with the Securities and Exchange
+Commission on February 17, 2026. These factors are updated from time to time through the filing of reports and registration statements
+with the Securities and Exchange Commission. Nova Ltd. does not assume any obligation to update the forward-looking information contained
+in this press release.
+GRAPHIC
+2
+image_001.jpg
+GRAPHIC
+begin 644 image_001.jpg
+M_]C_X 02D9)1@ ! 0$ 8 !@ #_VP!# @&!@ 7J#A(6&AXB)BI*3E)66EYB9FJ*CI*6FIZBIJK*SM+6VM[BYNL+#Q,7&
+MQ\C)RM+3U-76U]C9VN'BX^3EYN?HZ>KQ\O/T]?;W^/GZ_\0 'P$ P$! 0$!
+M 0$! 0 $" P0%!@ 'EZ@H.$
+MA8:'B(F*DI.4E9:7F)F:HJ.DI::GJ*FJLK.TM;:WN+FZPL/$Q ;GZ.GJ\O/T]?;W^/GZ_]H # ,! (1 Q$ /P#RW_A)];_Z
+M"5Q_WU7K_P -_C&6,.C^)I>3A8KQOY/_ (UX56[XB\):MX8DA^WP$13QK)%,
+MO*L",]?6OHZM*E- YTLG 8G+P_3U%?1]AJ%IJEE'>64Z3V\@RKH '?\ D9-/_P"NZ_SK[13_ %:_05Z.8)*4
+M;&-'9E+6=9L=!TR;4-0G6&WB&22>OL/4U\\^+OC7K6KSO!HK'3K,$@,O^L;W
+M)[?2H_C+XQEUSQ*^DV\A^P6)VX!X=^[?KC\*7X7_ N/BS_B:ZH7CTM&PJC@
+MS$=?PJJ-&G2I^UJBE.4GRQ/.[S4+W4IC+=W$D\AZLYR:MZ7XFUK1'#:=J,]L
+M0>B-BOKG3_"NA:7;B"STJU1 , ?\ @+XV"\GBTSQ*$CD Q5.;ORR.M^( ?Q9ID4F
+MHSLC7"@@MU&:^C?B3_R3_5O^N)KY@\&_\CCI7_7RO\ZTP:3HSO\ UH*J_>1]
+ME4445Y1T!5>]OK;3;.2[O)TA@C&6=S@"L_Q)XGTOPMICWVIW"QJ!\B#[SGT
+MKYC\=_$74_&EX59FM].0_NK93Q]6]3730PTJS\C. 0^@%?+_C/QWJOC/4#+=2&.U4GR;9#\JCW]37)0
+MP\Z[N]NYK.:@K'1>//BYJ7B*Z-MI,DEGIJ'Y=IP\GNW^%6?@[K6IWWQ M8;F
+M^FEC, E=)\$_\ DHUK_P! UCZCE3M'(/8U
+M\ VS'CZCT-?6-S;0WEM);W$2RPR#:Z,,@BOGS
+MXC_!^;23+JWA^-YK'EI+8#+1?3U'\J5'%1JKV=8)4W%\T3W#PWXGTOQ3IB7V
+MF7 D0_?0_>C/H15?QQ_R).K_ /7N?Z5\I>&_$^J>%-52^TV8HX.'C/W7'H17
+MOZ_$#3/&OP\U7R6$-^EL?-M6/(Z )9[1H7^ZZ;3]"
+M*VS'XHDT-F?%-V6O-9G+L=TL[9)]VK[$\+V$.F>%],M(%"HELG3N=HR?SKY#
+M\06$VC^);ZTE!26&=OPYR/TQ7U-\./$D'B3P;931N#-!&L$R9Y5E&,GZXS58
+M]-TXM;"H[M'6T445Y)TGD_QZTV&X\)VM\5 FM[@ -WVD'BO-?@G=R6WQ#A12
+M=LT+HP_*NR^/GB6$P6GA^"0-,'\^?!^Z,$ '\\USGP(TE[OQE+J!4F&T@()]
+M&;I_(UZ].ZPCYO,YI:U58]H^)/\ R3_5O^N)KY@\&_\ (XZ5_P!?*_SKZ?\
+MB3_R3_5O^N)KY@\&?\CCI7_7PM+!_P &?]= J_&C[*KC?'7Q$TSP79E787&H
+MNN8K93S]6]!7-_$?XN6WA\2Z7HCI :C.TKDX2,?=0>BBO3/AM\'I;\Q:O
+MXCB,=KPT5J>&D]"WH*Z;X;_"!%JNO(D^H?>C@/*P_7U->M\ >@%7B,6DO
+M9TMOZV%"GUD ]\,^'(ETBW6*$_NC(@P(AC@ 5Y?X=^(M[X7LM1+1O>&
+M4;T5FZ2?WC^E='\4_BGI]K9W.@:6L5Y 4B^GJ?Y5Y%:WBW ]@9T*U*6'EI+O_ %V,W6=;U7Q5K#7=]+) 6Z%JFH0-.6V! W.[TK0E_U+_P"Z
+M:\[TC1]5U6Q^S&WM(;$7;/YY&9 #[UQ4*4)IN;M8[(I/ ZOI^G>7]LNXX?,^YN/6O.[F/44T35/+M(&L9+LQS2-&6
+MEC0A07'KCK6O936&D^)9I-38F&2VC6QN91E3&$&1GL203BNEX2"5TV_)6\ON
+MW\]"N1'8IJ-G)8_;4N8VM ,!M[!?[I)!]ZW=2U'0[[3[\:>L H 7!M[>]BDE )*
+MJ?3K7,Z->) >.M7Z\]T
+M"]%CJ.E:?9RP:E:%3'&1"5GME&.7.?Z5Z%6&(HJE*RV_K^O\R9QLSX8K[9T7
+M_D!:?_U[1_\ H(KYQ_X49XO]++_O\?\ "OI+38'M=+M+>3&^*%$;'3( %=..
+MJPFH\KN :;GCGQ(^#\6I";5_#T:Q7>"TMJ.%D]U
+M]#7@;B[TZYDB;S;>9 S?X
+MUZ.&QG+[E38PG2OK$^;/#G_(QZ?_ -=U_G7VBG^K7Z"OG+2/@MXKLM8M+F46
+M?EQ2JS8E)X!^E?1RC" 'L*6.J0G) E0EYD7%U
+M$HY8#^(>IKQ[POXMU;P?J7VK39BN>)87^ZX]"*^R" 001D'J#7FWB[X-:'XA
+MEDN[)CIUXW+&- *0BWGL9H\\$R$'\L5
+M H6UO%W\DEV_4"M>3!I\UR;U7H>81QZGXFUK:HEO+^Z?D]2
+MQ/\ 2OJGX>>#H_!OAJ.T;:UY+A[F0=V]/H*E\)> =#\'P_Z!;A[DC#W$@RY^
+MGH/:NHKFQ.*]K[L=$:4Z?+J]SE/B3_R3_5O^N)KY%CE>&021N4 @ZIXHU9++3X'GGD.68]%]2QKZ9\ _#73?!EJLSA;G4W'[R=A
+M]WV7T%;?A7PAI7A#3%L].A 8C][,P^>0^I/]*WJPQ.+=7W8Z(N%-1U>Y'//%
+M:P///(L /_#OQ \83
+MO:6OV6UTE3\L0F(:3W;C]*XS2O@/X@FU&)=2GM8+3.9'C I-?1NC?"CP_IGAI]+DB\Z>49E
+MNC]_=ZCTQ73^'_#NF^&=+CT_3+=8HE'S''S.?4GN:U:FMC)SE>#LD72A[-\R
+MW/G'Q9\/]5\-2M*J- Q':J6@>.= E>[AL[HU(>RQL+KO;\U
+M^J/5CC5./+65SRCQUX_;QGX933GLA# 7D +=N='SG*D
+M =G9V5WOZ-&-2EAI+GB]3V,G )KF;KQGIVG/9+/#)%%=3O"'
+M &U"I )..W-=,PRI ]*XP>'+J>_T\7-O'):I) 2 /T[U7_ +:#:=- 7RQ-V;Q"OVB/3]/TZ2ZE\E99$7:J
+MQ*1D D\?A4MKJ5N([59=-^QO=EE,;!1MQZXX/6LF73M3T^YF,=G]JL[V"-)E
+MBD*R1NJXX([=:AMO#%U>6-E#J,
