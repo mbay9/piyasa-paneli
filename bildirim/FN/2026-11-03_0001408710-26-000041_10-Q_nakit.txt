@@ -1,0 +1,95 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1408710/000140871026000041/fn-20260925.htm
+SEMBOL: FN
+BASVURU_TARIHI: 2026-11-03
+BASVURU: 0001408710-26-000041
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (unaudited)
+Three Months Ended |
+(in thousands of U.S. dollars) | September 25,
+2026 | September 26,
+2025 |
+Cash flows from operating activities |
+Net income for the period | $ | 103,497 | $ | 95,926 |
+Adjustments to reconcile net income to net cash provided by operating activities |
+Depreciation and amortization | 21,700 | 14,860 |
+(Gain) loss on disposal of property, plant and equipment and intangibles | ( 124 ) | ( 6 ) |
+(Gain) loss on non-marketable equity securities | 21,456 | — |
+(Gain) loss from sales and maturities of available-for-sale securities | ( 73 ) | — |
+Amortization of discount (premium) of short-term investments | ( 707 ) | ( 1,222 ) |
+Inventory obsolescence impairment | 6,333 | 2,290 |
+(Reversal of) allowance for expected credit losses | ( 8 ) | ( 45 ) |
+Unrealized loss (gain) on exchange rate and fair value of foreign currency forward contracts | 4,095 | 461 |
+Share-based compensation | 11,225 | 9,071 |
+Customer warrant | 2,455 | 286 |
+Deferred income tax expense (benefit) | 608 | ( 106 ) |
+Other non-cash expenses | 135 | 66 |
+Changes in operating assets and liabilities |
+Trade accounts receivable | ( 143,301 ) | 51,821 |
+Inventories | ( 178,192 ) | ( 143,469 ) |
+Other current assets and non-current assets | ( 81,171 ) | ( 13,579 ) |
+Trade accounts payable | 262,069 | 59,508 |
+Income tax payable | 22,038 | 2,993 |
+Accrued expenses | ( 19,791 ) | ( 2,539 ) |
+Other payables | ( 15,425 ) | 23,284 |
+Severance liabilities | 1,112 | 826 |
+Other current liabilities and non-current liabilities | 3,356 | 2,142 |
+Net cash provided by operating activities | 21,287 | 102,568 |
+Cash flows from investing activities |
+Purchase of short-term investments | ( 996 ) | ( 110,329 ) |
+Proceeds from sales of short-term investments | 111,848 | — |
+Proceeds from maturities of short-term investments | 50,700 | 74,789 |
+Purchase of property, plant and equipment | ( 158,698 ) | ( 45,266 ) |
+Purchase of intangibles | ( 239 ) | ( 169 ) |
+Proceeds from disposal of property, plant and equipment | 150 | 15 |
+Net cash provided by (used in) investing activities | 2,765 | ( 80,960 ) |
+Cash flows from financing activities |
+Proceeds from long-term borrowings | 74,828 | — |
+Repurchase of ordinary shares | ( 29,143 ) | ( 268 ) |
+Withholding tax related to net share settlement of restricted share units | ( 23,910 ) | ( 22,697 ) |
+Net cash provided by (used in) financing activities | 21,775 | ( 22,965 ) |
+Net increase (decrease) in cash, cash equivalents and restricted cash | $ | 45,827 | $ | ( 1,357 ) |
+Movement in cash, cash equivalents and restricted cash |
+Cash, cash equivalents and restricted cash at the beginning of period | $ | 347,415 | $ | 306,425 |
+Increase (decrease) in cash, cash equivalents and restricted cash | 45,827 | ( 1,357 ) |
+Effect of exchange rate on cash, cash equivalents and restricted cash | 2 | ( 67 ) |
+Cash, cash equivalents and restricted cash at the end of period | $ | 393,244 | $ | 305,001 |
+Non-cash investing and financing activities |
+Construction, software and equipment-related payables | $ | 96,037 | $ | 50,941 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+8
+Table of Contents
+FABRINET
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (unaudited) (Continued)
+The following table provides a reconciliation of cash, cash equivalents and restricted cash reported within the unaudited condensed consolidated balance sheets that sum to the total of the same amounts shown in the unaudited condensed consolidated statements of cash flows:
+(in thousands of U.S. dollars) | As of
+September 25, 2026
+| As of
+September 26, 2025
+|
+Cash and cash equivalents | $ | 392,326 | $ | 305,001 |
+Restricted cash | 918 | — |
+Cash, cash equivalents and restricted cash | $ | 393,244 | $ | 305,001 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+9
+Table of Contents
+FABRINET
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (unaudited)
+(in thousands of U.S. dollars unless otherwise noted)
+1. Business and organization
+General
+Fabrinet (“Fabrinet” or the “Parent Company”) was incorporated on August 12, 1999, and commenced operations on January 1, 2000. The Parent Company is an exempted company incorporated in the Cayman Islands, British West Indies. The “Company” refers to Fabrinet and its subsidiaries as a group.
+The Company provides advanced optical packaging and precision optical, electro-mechanical and electronic manufacturing services to original equipment manufacturers of complex products, such as optical communication components, modules and sub-systems, automotive components, industrial lasers, medical devices and sensors. The Company offers a broad range of advanced optical and electro-mechanical capabilities across the entire manufacturing process, including process design and engineering, supply chain management, manufacturing, complex printed circuit board assembly, advanced packaging, integration, final assembly and testing. The Company is capable of producing a wide variety of high complexity products in any mix and any volume. The principal subsidiaries of Fabrinet include Fabrinet Co., Ltd. (“Fabrinet Thailand”), Casix, Inc. (“Casix”), Fabrinet West, Inc. (“Fabrinet West”) and Fabrinet Israel Ltd. (“Fabrinet Israel”).
+2. Accounting policies
+Basis of presentation
+The accompanying unaudited condensed consolidated financial statements for Fabrinet as of September 25, 2026 and for the three months ended September 25, 2026 and September 26, 2025 include normal recurring adjustments necessary for a fair statement of the financial statements set forth herein, in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP” or "GAAP") for interim financial information and the rules and regulations of the Securities and Exchange Commission (“SEC”). Accordingly, such information does not include all of the information and footnotes required by U.S. GAAP for annual financial statements. For further information, please refer to the consolidated financial statements and footnotes thereto included in Fabrinet’s Annual Report on Form 10-K for the year ended June 26, 2026.
+The balance sheet as of June 26, 2026 has been derived from the audited financial statements at that date but does not include all of the information and footnotes required by U.S. GAAP for complete financial statements.
+The results for the three months ended September 25, 2026 may not be indicative of results for the year ending June 25, 2027 or any future periods.
+Use of Estimates
+The preparation of the Company’s unaudited condensed consolidated financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent liabilities at the date of the financial statements and the reported amount of total revenues and expenses during the year. The Company bases estimates on historical experience and various assumptions about the future that are believed to be reasonable based on available information. The Company’s reported financial position or results of operations may be materially different under different conditions or when using different estimates and assumptions, particularly with respect to significant accounting policies, which are discussed below. Significant assumptions are used in accounting for share-based compensation, the fair value of warrant shares at grant date, allowance for expected credit losses, income taxes, inventory obsolescence, and non-marketable equity securities. Due to the inherent uncertainty involved in making estimates, actual results reported in future periods may be different from these estimates. In the event that the Company's estimates or assumptions prove to be different from actual results, adjustments will be made in subsequent periods to reflect more current information.
+Fiscal years
+The Company utilizes a 52-53 week fiscal year ending on the Friday in June closest to June 30. The three months ended September 25, 2026 and September 26, 2025 consisted of 13 weeks. Fiscal year 2027 will comprise 52 weeks and will end on June 25, 2027.
+10
+Table of Contents
+New Accounting Standards—not yet adopted by the Company
+In November 2024, the FASB issued ASU 2024-03, “Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40), Disaggregation of Income Statement Expenses,” which requires additional disclosure, in notes to financial statements, of specified information about certain costs and expenses in the same tabular format disclosure as the other disaggregation requirements in the amendments in this ASU. This ASU is effective for all entities for fiscal years beginning after December 15, 2026, and interim reporting periods beginning after December 15, 2027, with early adoption permitted. This ASU is effective 

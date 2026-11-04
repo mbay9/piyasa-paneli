@@ -1,0 +1,69 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm
+SEMBOL: PLTR
+BASVURU_TARIHI: 2026-11-03
+BASVURU: 0001321655-26-000048
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(in thousands)
+(unaudited)
+Nine Months Ended
+September 30, |
+2026 | 2025 |
+Operating activities |
+Net income | $ | 3,076,805 | $ | 1,023,037 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 22,031 | 19,127 |
+Stock-based compensation | 785,690 | 487,628 |
+Unrealized and realized (gain) loss from marketable securities, net | ( 34,997 ) | 5,005 |
+Other operating activities | ( 97,557 ) | ( 16,220 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 843,438 ) | ( 422,977 ) |
+Prepaid expenses and other assets | ( 162,110 ) | 50,343 |
+Accounts payable and accrued liabilities | 204,240 | 90,582 |
+Contract liabilities | 396,996 | 160,154 |
+Other liabilities | ( 27,758 ) | ( 39,501 ) |
+Net cash provided by operating activities | 3,319,902 | 1,357,178 |
+Investing activities |
+Purchases of property and equipment | ( 29,969 ) | ( 20,610 ) |
+Purchases of marketable securities | ( 5,137,861 ) | ( 6,091,513 ) |
+Proceeds from sales and redemption of marketable securities | 4,079,225 | 4,360,327 |
+Other investing activities | ( 50,000 ) | ( 73,924 ) |
+Net cash used in investing activities | ( 1,138,605 ) | ( 1,825,720 ) |
+Financing activities |
+Proceeds from the exercise of common stock options | 22,606 | 120,839 |
+Other financing activities | ( 2,491 ) | ( 136,851 ) |
+Net cash provided by (used in) financing activities | 20,115 | ( 16,012 ) |
+Effect of foreign exchange on cash, cash equivalents, and restricted cash | ( 20 ) | 9,444 |
+Net increase (decrease) in cash, cash equivalents, and restricted cash | 2,201,392 | ( 475,110 ) |
+Cash, cash equivalents, and restricted cash - beginning of period | 1,451,425 | 2,119,936 |
+Cash, cash equivalents, and restricted cash - end of period | $ | 3,652,817 | $ | 1,644,826 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+Table of contents
+Palantir Technologies Inc.
+Notes to Unaudited Condensed Consolidated Financial Statements
+1. Organization
+Palantir Technologies Inc. (including its subsidiaries, “Palantir” or the “Company”) was incorporated in Delaware on May 6, 2003. The Company builds and deploys software platforms that serve as the central operating systems for its customers.
+2. Significant Accounting Policies
+Basis of Presentation and Consolidation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with United States (“U.S.”) generally accepted accounting principles (“GAAP”) and applicable rules and regulations of the Securities and Exchange Commission (“SEC”) regarding interim financial reporting. The accompanying condensed consolidated financial statements include the accounts of Palantir Technologies Inc. and its consolidated subsidiaries. All significant intercompany balances and transactions have been eliminated in consolidation. Investments in entities where the Company holds at least a 20% ownership interest and has the ability to exercise significant influence over, but does not control, the investee are accounted for using the equity method of accounting. Certain prior year balances have been reclassified to conform to the current year presentation. Such reclassifications did not affect total revenues, income from operations, net income, or cash flows. The Company's fiscal year ends on December 31.
+The unaudited condensed consolidated balance sheet as of December 31, 2025 included herein was derived from the audited consolidated financial statements as of that date, but does not include all disclosures, including certain notes required by GAAP on an annual reporting basis. In management’s opinion, the unaudited condensed consolidated financial statements reflect all normal recurring adjustments necessary to present fairly the balance sheets and statements of operations, comprehensive income, stockholders’ equity, and cash flows for the interim periods, but are not necessarily indicative of the results of operations to be anticipated for the full fiscal year or any future period.
+These unaudited condensed consolidated financial statements should be read in conjunction with the Company's audited consolidated financial statements and notes included in its Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the SEC on February 17, 2026.
+Use of Estimates
+The preparation of the condensed consolidated financial statements in conformity with GAAP requires management to make certain estimates, judgments, and assumptions that affect the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the condensed consolidated financial statements, and the reported amounts of revenue and expenses during the reporting periods.
+Significant estimates and assumptions made in the accompanying condensed consolidated financial statements include, but are not limited to, the identification of performance obligations in customer contracts, the valuation of deferred tax assets and uncertain tax positions, and the valuation and recognition of stock-based compensation awards. Estimates and judgments are based on historical experience, forecasted events, and various other assumptions that management believes to be reasonable under the circumstances. Actual results could differ from those estimates and such differences could affect the Company’s financial position and results of operations.
+Summary of Significant Accounting Policies
+The Company’s significant accounting policies are discussed in Note 2. Significant Accounting Policies in the notes to consolidated financial statements in its Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the SEC on February 17, 2026. There have been no significant changes to these policies during the nine months ended September 30, 2026, except for the changes noted below.
+Concentrations of Credit Risk
+Financial instruments that potentially subject the Company to significant concentrations of credit risk consist primarily of cash, cash equivalents, restricted cash, accounts receivable, marketable securities, and privately-held equity securities. Cash equivalents primarily consist of money market funds with original maturities of three months or less, which are invested primarily with U.S. financial institutions. Cash deposits with financial institutions, including restricted cash, generally exceed federally insured limits. Management believes minimal credit risk exists with respect to these financial institutions and the Company has not experienced any losses on such amounts.
+9
+Table of contents
+Palantir Technologies Inc.
+Notes to Unaudited Condensed Consolidated Financial Statements
+The Company is exposed to concentrations of credit risk with respect to accounts receivable presented on the condensed consolidated balance sheets. The Company’s accounts receivable balances as of September 30, 2026 and December 31, 2025 were $ 1.9 billion and $ 1.0 billion, respectively. Customer I represented 27 % and 25 % of total accounts receivable as of September 30, 2026 and December 31, 2025, respectively. No other customer represented more than 10% of total accounts receivable as of September 30, 2026 or December 31, 2025.
+For the three and nine months ended September 30, 2026 and 2025, no customer represented more than 10% of total revenue.
+Stock-Based Compensation
+The Company accounts for stock-based compensation expense in accordance with the fair value recognition and measurement provisions of GAAP, which require compensation cost for the grant-date fair value of stock-based awards to be recognized over the requisite service period. The Company determines the fair value of stock-based awards granted or modified on the grant date or modification date using appropriate valuation techniques. The assumptions used to determine the grant-date fair value of the awards represent management’s best estimates. These estimates involve inherent uncertainties and the application of management’s judgment. The Company recognizes forfeitures as they occur.
+Service-Based Awards
+The Company grants awards, including RSUs, stock option awards, and SARs, which vest based upon the satisfaction of a service condition. For such awards, the Company records stock-based compensation expense on a straight-line basis over the requisite service periods. The Company determines the grant-date fair value of the RSUs based on the fair value of the Company’s common stock on the grant date. For stock option awards and SARs that vest over an explicit service period and are exercisable at expiration, during a limited window, the Company uses the Black-Scholes-Merton (“Black-Scholes”) option pricing model to determine the grant-date fair value of the awards. The Black-Scholes option pricing model requires the input of highly subjective assumptions, including the expected term of the award, the e
