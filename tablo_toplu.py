@@ -296,6 +296,7 @@ def tablo(sym, dosya, metin, b):
     sonuc = {
         "tarih": tarih, "basvuru": acc, "kaynak": kaynak,
         "bolumler": bolumler,
+        "uretici": "toplu",
         "dipnot": " ".join(dip),
     }
     return sonuc, None
@@ -315,8 +316,8 @@ def ana(bdir, ldir, cikti="tablolar.json", gun=100, bugun=None):
         if (bugun - dt.date.fromisoformat(tarih)).days > gun:
             atla[sym] = "bülten eski"
             continue
-        if sym in v["tablolar"] and v["tablolar"][sym].get("basvuru") == os.path.basename(f)[11:-4]:
-            continue
+        if sym in v["tablolar"] and v["tablolar"][sym].get("basvuru") == os.path.basename(f)[11:-4] and v["tablolar"][sym].get("uretici") != "toplu":
+            continue  # elle (görev) hazırlanmış tabloya dokunma; toplu üretici kendi tablolarını yeniler
         if sym in v["tablolar"] and v["tablolar"][sym].get("tarih", "") > tarih:
             continue
         bp = os.path.join(ldir, f"{sym}.json")

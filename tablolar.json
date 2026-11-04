@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-04T01:16:31Z",
+ "guncelleme": "2026-11-04T01:16:45Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -2002,9 +2002,37 @@
        "hesap": "-274.1 / 191.9"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 272.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$255 million to $290 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 129.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "272.5 / 118.6 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ADI": {
    "tarih": "2026-08-19",
@@ -2047,24 +2075,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 2707.5,
+       "ger": 2916.7,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "2,707,544"
+        "2,916,736"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 67.3,
+       "ger": 72.5,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "2,707.5 / 4,021.9"
+       "hesap": "2,916.7 / 4,021.9"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 2.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "2,010"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 0.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "2.0 / 4,021.9"
       },
       {
        "ad": "FCF ($M)",
@@ -2087,7 +2135,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "AMAT": {
    "tarih": "2026-08-13",
@@ -2130,44 +2179,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 4586.0,
+       "ger": 4597.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "4,586"
+        "4,597"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 50.3,
+       "ger": 50.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "4,586.0 / 9,115.0"
+       "hesap": "4,597.0 / 9,115.0"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 3075.0,
+       "ger": 2673.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "3,075"
+        "2,673"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 33.7,
+       "ger": 29.3,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "3,075.0 / 9,115.0"
+       "hesap": "2,673.0 / 9,115.0"
       },
       {
        "ad": "FCF ($M)",
@@ -2190,7 +2239,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "AMKR": {
    "tarih": "2026-10-26",
@@ -2293,7 +2343,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "APLD": {
    "tarih": "2026-10-07",
@@ -2325,6 +2376,46 @@
        "hesap": "341.9 / 80.9 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
       },
       {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 37.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "37,816"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 11.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "37.8 / 341.9"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 64.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "64,412"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 18.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "64.4 / 341.9"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": -2010.8,
@@ -2345,7 +2436,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "AVGO": {
    "tarih": "2026-09-02",
@@ -2388,24 +2480,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 20456.0,
+       "ger": 22191.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "20,456"
+        "22,191"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 69.1,
+       "ger": 75.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "20,456.0 / 29,591.0"
+       "hesap": "22,191.0 / 29,591.0"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 20095.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "20,095"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 67.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "20,095.0 / 29,591.0"
       },
       {
        "ad": "FCF ($M)",
@@ -2428,7 +2540,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "BE": {
    "tarih": "2026-10-22",
@@ -2531,7 +2644,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CBRS": {
    "tarih": "2026-08-12",
@@ -2603,7 +2717,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CDNS": {
    "tarih": "2026-10-26",
@@ -2666,7 +2781,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CIEN": {
    "tarih": "2026-09-03",
@@ -2709,24 +2825,64 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 759.3,
+       "ger": 775.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "759,265"
+        "775,758"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 45.4,
+       "ger": 46.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "759.3 / 1,671.1"
+       "hesap": "775.8 / 1,671.1"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 375.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "375,728"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 22.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "375.7 / 1,671.1"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 411.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "411,054"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 24.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "411.1 / 1,671.1"
       },
       {
        "ad": "FCF ($M)",
@@ -2749,7 +2905,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CLS": {
    "tarih": "2026-10-26",
@@ -2792,24 +2949,24 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 640.8,
+       "ger": 652.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "640.8"
+        "652.4"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 11.0,
+       "ger": 11.2,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "640.8 / 5,829.7"
+       "hesap": "652.4 / 5,829.7"
       },
       {
        "ad": "FCF ($M)",
@@ -2832,7 +2989,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "COHR": {
    "tarih": "2026-08-12",
@@ -2913,9 +3071,37 @@
        "hesap": "-493.4 / 2,045.5"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 2300.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$2.2 billion and $2.4 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 45.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "2,300.0 / 1,581.4 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CRDO": {
    "tarih": "2026-09-01",
@@ -2958,24 +3144,24 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 309.1,
+       "ger": 325.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "309,080"
+        "325,795"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 64.5,
+       "ger": 68.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "309.1 / 479.0"
+       "hesap": "325.8 / 479.0"
       },
       {
        "ad": "Operating Income ($M)",
@@ -3016,9 +3202,37 @@
        "hesap": "82.9 / 479.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 530.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$525 million and $535 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 97.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "530.0 / 268.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CRWV": {
    "tarih": "2026-08-11",
@@ -3070,7 +3284,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "CSCO": {
    "tarih": "2026-08-12",
@@ -3153,7 +3368,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "DELL": {
    "tarih": "2026-09-01",
@@ -3196,24 +3412,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 9830.0,
+       "ger": 9929.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "9,830"
+        "9,929"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 20.9,
+       "ger": 21.1,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "9,830.0 / 46,971.0"
+       "hesap": "9,929.0 / 46,971.0"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 5929.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "5,929"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 12.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "5,929.0 / 46,971.0"
       },
       {
        "ad": "FCF ($M)",
@@ -3236,7 +3472,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ENPH": {
    "tarih": "2026-10-27",
@@ -3251,21 +3488,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 293.3,
-       "bek": null,
-       "sonuc": null,
+       "bek": 305.0,
+       "sonuc": "Miss",
        "vurgu": 0,
        "kanit": [
         "293,329"
-       ]
+       ],
+       "bg": "ENPH prior-quarter release (2026-07-28): $290.0 million to $320.0 million"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": -28.5,
-       "bek": null,
-       "sonuc": null,
+       "bek": -25.7,
+       "sonuc": "Miss",
        "vurgu": 1,
-       "hesap": "293.3 / 410.4 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "293.3 / 410.4 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "ENPH prior-quarter release (2026-07-28): $290.0 million to $320.0 million"
       },
       {
        "ad": "EPS* ($)",
@@ -3279,24 +3518,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 127.1,
+       "ger": 132.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "127,118"
+        "132,012"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 43.3,
+       "ger": 45.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "127.1 / 293.3"
+       "hesap": "132.0 / 293.3"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 53.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "53,575"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 18.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "53.6 / 293.3"
       },
       {
        "ad": "FCF ($M)",
@@ -3317,9 +3576,37 @@
        "hesap": "-11.4 / 293.3"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 240.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$225.0 million to $255.0 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": -30.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "240.0 / 343.3 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ENTG": {
    "tarih": "2026-10-29",
@@ -3362,44 +3649,64 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 500.2,
+       "ger": 492.1,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "500.2"
+        "492.1"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 49.7,
+       "ger": 48.9,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "500.2 / 1,005.7"
+       "hesap": "492.1 / 1,005.7"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 230.6,
+       "ger": 269.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "230.6"
+        "269.4"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 22.9,
+       "ger": 26.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "230.6 / 1,005.7"
+       "hesap": "269.4 / 1,005.7"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 303.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "303.3"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 30.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "303.3 / 1,005.7"
       },
       {
        "ad": "FCF ($M)",
@@ -3422,7 +3729,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "EROC": {
    "tarih": "2026-08-11",
@@ -3474,7 +3782,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "FIX": {
    "tarih": "2026-10-22",
@@ -3557,7 +3866,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "GEV": {
    "tarih": "2026-10-28",
@@ -3620,7 +3930,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "HPE": {
    "tarih": "2026-09-02",
@@ -3663,24 +3974,24 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 4899.0,
+       "ger": 4928.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "4,899"
+        "4,928"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 40.1,
+       "ger": 40.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "4,899.0 / 12,213.0"
+       "hesap": "4,928.0 / 12,213.0"
       },
       {
        "ad": "FCF ($M)",
@@ -3701,9 +4012,37 @@
        "hesap": "896.0 / 12,213.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 14350.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$13.9 billion to $14.8 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 48.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "14,350.0 / 9,679.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "INIO": {
    "tarih": "2026-10-27",
@@ -3786,6 +4125,26 @@
        "hesap": "193.6 / 1,167.9"
       },
       {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 780.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "780"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 66.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "780.0 / 1,167.9"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 200.4,
@@ -3806,7 +4165,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "INTC": {
    "tarih": "2026-10-29",
@@ -3821,21 +4181,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 16513.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 16300.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "16,513"
-       ]
+       ],
+       "bg": "INTC prior-quarter release (2026-07-23): $15.8 billion to $16.8 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 20.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 19.4,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "16,513.0 / 13,653.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "16,513.0 / 13,653.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "INTC prior-quarter release (2026-07-23): $15.8 billion to $16.8 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -3849,24 +4211,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 7096.0,
+       "ger": 7284.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "7,096"
+        "7,284"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 43.0,
+       "ger": 44.1,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "7,096.0 / 16,513.0"
+       "hesap": "7,284.0 / 16,513.0"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 3234.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "3,234"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 19.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "3,234.0 / 16,513.0"
       },
       {
        "ad": "FCF ($M)",
@@ -3887,9 +4269,37 @@
        "hesap": "1,058.0 / 16,513.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 15500.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$15.0 billion to $16.0 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 13.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "15,500.0 / 13,674.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "IONQ": {
    "tarih": "2026-08-05",
@@ -3941,7 +4351,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "JBL": {
    "tarih": "2026-09-30",
@@ -4024,7 +4435,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "KLAC": {
    "tarih": "2026-10-28",
@@ -4087,7 +4499,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "KLIC": {
    "tarih": "2026-08-05",
@@ -4150,24 +4563,24 @@
        "hesap": "157.9 / 330.4"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 68.3,
+       "ger": 75.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "68,266"
+        "75,808"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 20.7,
+       "ger": 22.9,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "68.3 / 330.4"
+       "hesap": "75.8 / 330.4"
       },
       {
        "ad": "FCF ($M)",
@@ -4190,7 +4603,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "LASR": {
    "tarih": "2026-08-06",
@@ -4253,6 +4667,26 @@
        "hesap": "25.7 / 82.6"
       },
       {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 10.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "10,731"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 13.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "10.7 / 82.6"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 15.9,
@@ -4271,9 +4705,37 @@
        "hesap": "15.9 / 82.6"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 68.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$63 million to $73 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 1.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "68.0 / 66.7 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "LEU": {
    "tarih": "2026-08-05",
@@ -4376,7 +4838,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "LRCX": {
    "tarih": "2026-10-21",
@@ -4419,44 +4882,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 4298.9,
+       "ger": 4305.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "4,298,853"
+        "4,305,019"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 52.3,
+       "ger": 52.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "4,298.9 / 8,219.4"
+       "hesap": "4,305.0 / 8,219.4"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 3283.7,
+       "ger": 3300.7,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "3,283,727"
+        "3,300,739"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 40.0,
+       "ger": 40.2,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "3,283.7 / 8,219.4"
+       "hesap": "3,300.7 / 8,219.4"
       },
       {
        "ad": "FCF ($M)",
@@ -4479,7 +4942,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MCHP": {
    "tarih": "2026-08-06",
@@ -4522,24 +4986,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 938.9,
+       "ger": 947.6,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "938.9"
+        "947.6"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 63.2,
+       "ger": 63.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "938.9 / 1,484.7"
+       "hesap": "947.6 / 1,484.7"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 521.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "521.1"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 35.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "521.1 / 1,484.7"
       },
       {
        "ad": "FCF ($M)",
@@ -4562,7 +5046,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "META": {
    "tarih": "2026-10-21",
@@ -4577,21 +5062,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 64601.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 62500.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "64,601"
-       ]
+       ],
+       "bg": "META prior-quarter release (2026-07-29): $61-64 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 26.1,
-       "bek": null,
-       "sonuc": null,
+       "bek": 22.0,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "64,601.0 / 51,242.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "64,601.0 / 51,242.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "META prior-quarter release (2026-07-29): $61-64 billion"
       },
       {
        "ad": "EPS ($)",
@@ -4643,9 +5130,37 @@
        "hesap": "-1,157.0 / 64,601.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 74500.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$73-76 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 24.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "74,500.0 / 59,893.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MKSI": {
    "tarih": "2026-08-05",
@@ -4708,7 +5223,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MTSI": {
    "tarih": "2026-08-06",
@@ -4751,44 +5267,64 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 199.6,
+       "ger": 204.2,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "199,552"
+        "204,247"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 58.3,
+       "ger": 59.7,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "199.6 / 342.2"
+       "hesap": "204.2 / 342.2"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 77.1,
+       "ger": 107.7,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "77,115"
+        "107,714"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 22.5,
+       "ger": 31.5,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "77.1 / 342.2"
+       "hesap": "107.7 / 342.2"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 116.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "116,735"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 34.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "116.7 / 342.2"
       },
       {
        "ad": "FCF ($M)",
@@ -4809,9 +5345,49 @@
        "hesap": "-2.8 / 342.2"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 420.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$415 million to $425 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 60.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "420.0 / 261.2 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      },
+      {
+       "ad": "EPS* Guidance ($)",
+       "fmt": "d",
+       "ger": 2.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$1.97 and $2.03"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MU": {
    "tarih": "2026-09-30",
@@ -4854,44 +5430,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 47047.0,
+       "ger": 47204.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "47,047"
+        "47,204"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 86.8,
+       "ger": 87.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "47,047.0 / 54,229.0"
+       "hesap": "47,204.0 / 54,229.0"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 43751.0,
+       "ger": 44636.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "43,751"
+        "44,636"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 80.7,
+       "ger": 82.3,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "43,751.0 / 54,229.0"
+       "hesap": "44,636.0 / 54,229.0"
       },
       {
        "ad": "FCF ($M)",
@@ -4914,7 +5490,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "MXL": {
    "tarih": "2026-10-22",
@@ -4957,24 +5534,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 128.1,
+       "ger": 130.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "128,070"
+        "130,805"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 58.7,
+       "ger": 60.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "128.1 / 218.1"
+       "hesap": "130.8 / 218.1"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 64.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "64,290"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 29.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "64.3 / 218.1"
       },
       {
        "ad": "FCF ($M)",
@@ -4997,7 +5594,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "NVDA": {
    "tarih": "2026-08-26",
@@ -5040,44 +5638,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 72142.0,
+       "ger": 72188.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "72,142"
+        "72,188"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
        "ger": 75.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "72,142.0 / 96,221.0"
+       "hesap": "72,188.0 / 96,221.0"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 63734.0,
+       "ger": 63956.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "63,734"
+        "63,956"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 66.2,
+       "ger": 66.5,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "63,734.0 / 96,221.0"
+       "hesap": "63,956.0 / 96,221.0"
       },
       {
        "ad": "FCF ($M)",
@@ -5100,7 +5698,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "NXPI": {
    "tarih": "2026-10-27",
@@ -5143,24 +5742,64 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 2189.0,
+       "ger": 2217.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "2,189"
+        "2,217"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 57.8,
+       "ger": 58.6,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "2,189.0 / 3,786.0"
+       "hesap": "2,217.0 / 3,786.0"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 1406.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,406"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 37.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,406.0 / 3,786.0"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 1416.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,416"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 37.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,416.0 / 3,786.0"
       },
       {
        "ad": "FCF ($M)",
@@ -5183,7 +5822,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ONTO": {
    "tarih": "2026-08-06",
@@ -5266,7 +5906,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "ORCL": {
    "tarih": "2026-09-10",
@@ -5329,7 +5970,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "PENG": {
    "tarih": "2026-10-06",
@@ -5372,24 +6014,64 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 155.9,
+       "ger": 163.3,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "155,900"
+        "163,275"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 27.5,
+       "ger": 28.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "155.9 / 566.7"
+       "hesap": "163.3 / 566.7"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 89.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "89,796"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 15.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "89.8 / 566.7"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 93.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "93,268"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 16.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "93.3 / 566.7"
       },
       {
        "ad": "FCF ($M)",
@@ -5412,7 +6094,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "QCOM": {
    "tarih": "2026-07-29",
@@ -5495,7 +6178,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SEDG": {
    "tarih": "2026-08-05",
@@ -5578,7 +6262,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SEI": {
    "tarih": "2026-08-05",
@@ -5641,6 +6326,26 @@
        "hesap": "56.5 / 219.4"
       },
       {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 108.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "108,279"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 49.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "108.3 / 219.4"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": -305.4,
@@ -5661,7 +6366,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SITM": {
    "tarih": "2026-08-05",
@@ -5704,24 +6410,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 99.1,
+       "ger": 105.6,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "99,142"
+        "105,585"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 63.0,
+       "ger": 67.1,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "99.1 / 157.4"
+       "hesap": "105.6 / 157.4"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 53.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "53,461"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 34.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "53.5 / 157.4"
       },
       {
        "ad": "FCF ($M)",
@@ -5744,7 +6470,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SMTC": {
    "tarih": "2026-08-25",
@@ -5807,6 +6534,46 @@
        "hesap": "183.8 / 341.9"
       },
       {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 83.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "83.6"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 24.5,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "83.6 / 341.9"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 91.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "91.1"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 26.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "91.1 / 341.9"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 60.7,
@@ -5827,7 +6594,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SNDK": {
    "tarih": "2026-10-29",
@@ -5842,21 +6610,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 11031.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 10550.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "11,031"
-       ]
+       ],
+       "bg": "SNDK prior-quarter release (2026-08-05): $10.30 billion to $10.80 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 377.9,
-       "bek": null,
-       "sonuc": null,
+       "bek": 357.1,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "11,031.0 / 2,308.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "11,031.0 / 2,308.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "SNDK prior-quarter release (2026-08-05): $10.30 billion to $10.80 billion"
       },
       {
        "ad": "EPS* ($)",
@@ -5870,44 +6640,44 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 9378.0,
+       "ger": 9384.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "9,378"
+        "9,384"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 85.0,
+       "ger": 85.1,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "9,378.0 / 11,031.0"
+       "hesap": "9,384.0 / 11,031.0"
       },
       {
-       "ad": "Operating Income ($M)",
+       "ad": "Operating Income* ($M)",
        "fmt": "m",
-       "ger": 8780.0,
+       "ger": 8871.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "8,780"
+        "8,871"
        ]
       },
       {
-       "ad": "Operating Margin %",
+       "ad": "Operating Margin %*",
        "fmt": "p",
-       "ger": 79.6,
+       "ger": 80.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "8,780.0 / 11,031.0"
+       "hesap": "8,871.0 / 11,031.0"
       },
       {
        "ad": "FCF ($M)",
@@ -5928,9 +6698,49 @@
        "hesap": "6,309.0 / 11,031.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 12400.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$12.2 billion to $12.6 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 309.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "12,400.0 / 3,025.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      },
+      {
+       "ad": "EPS* Guidance ($)",
+       "fmt": "d",
+       "ger": 56.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$55.00 to $57.00"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SNPS": {
    "tarih": "2026-08-26",
@@ -6013,7 +6823,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SOLS": {
    "tarih": "2026-07-30",
@@ -6056,6 +6867,26 @@
        ]
       },
       {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 975.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "975"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 84.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "975.0 / 1,148.0"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 123.0,
@@ -6076,7 +6907,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "SPCX": {
    "tarih": "2026-10-20",
@@ -6139,7 +6971,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "STRL": {
    "tarih": "2026-10-28",
@@ -6202,6 +7035,26 @@
        "hesap": "377.3 / 1,563.9"
       },
       {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 2.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "2026"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 0.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "2.0 / 1,563.9"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 53.3,
@@ -6222,7 +7075,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "STX": {
    "tarih": "2026-10-27",
@@ -6265,24 +7119,64 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 2427.0,
+       "ger": 2447.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "2,427"
+        "2,447"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 57.3,
+       "ger": 57.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "2,427.0 / 4,233.0"
+       "hesap": "2,447.0 / 4,233.0"
+      },
+      {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 2147.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "2,147"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 50.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "2,147.0 / 4,233.0"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 2092.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "2,092"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 49.4,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "2,092.0 / 4,233.0"
       },
       {
        "ad": "FCF ($M)",
@@ -6305,7 +7199,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "TTMI": {
    "tarih": "2026-10-22",
@@ -6388,7 +7283,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "TXN": {
    "tarih": "2026-10-21",
@@ -6403,21 +7299,23 @@
        "ad": "Revenue ($M)",
        "fmt": "m",
        "ger": 6055.0,
-       "bek": null,
-       "sonuc": null,
+       "bek": 5900.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
         "6,055"
-       ]
+       ],
+       "bg": "TXN prior-quarter release (2026-07-22): $5.65 billion to $6.15 billion"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
        "ger": 27.7,
-       "bek": null,
-       "sonuc": null,
+       "bek": 24.4,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "6,055.0 / 4,742.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "6,055.0 / 4,742.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
+       "bg": "TXN prior-quarter release (2026-07-22): $5.65 billion to $6.15 billion"
       },
       {
        "ad": "EPS ($)",
@@ -6469,9 +7367,49 @@
        "hesap": "2,956.0 / 6,055.0"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 6050.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$5.80 billion to $6.30 billion"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 36.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "6,050.0 / 4,423.0 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      },
+      {
+       "ad": "EPS Guidance ($)",
+       "fmt": "d",
+       "ger": 2.62,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$2.45 and $2.79"
+       ],
+       "hesap": "aralığın orta noktası"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "VIAV": {
    "tarih": "2026-08-05",
@@ -6534,6 +7472,26 @@
        "hesap": "261.7 / 443.1"
       },
       {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": 116.3,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "116.3"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": 26.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "116.3 / 443.1"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 55.6,
@@ -6552,9 +7510,37 @@
        "hesap": "55.6 / 443.1"
       }
      ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 455.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$450 million to $460 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 52.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "455.0 / 299.1 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+      }
+     ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "VICR": {
    "tarih": "2026-10-20",
@@ -6657,7 +7643,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "VRT": {
    "tarih": "2026-10-28",
@@ -6700,6 +7687,26 @@
        ]
       },
       {
+       "ad": "Operating Income* ($M)",
+       "fmt": "m",
+       "ger": 1086.9,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "1,086.9"
+       ]
+      },
+      {
+       "ad": "Operating Margin %*",
+       "fmt": "p",
+       "ger": 25.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "1,086.9 / 4,312.8"
+      },
+      {
        "ad": "FCF ($M)",
        "fmt": "m",
        "ger": 652.2,
@@ -6720,7 +7727,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "WDC": {
    "tarih": "2026-10-22",
@@ -6763,24 +7771,24 @@
        ]
       },
       {
-       "ad": "Gross Profit ($M)",
+       "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 2534.0,
+       "ger": 2544.0,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "2,534"
+        "2,544"
        ]
       },
       {
-       "ad": "Gross Margin %",
+       "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 57.8,
+       "ger": 58.1,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "2,534.0 / 4,381.0"
+       "hesap": "2,544.0 / 4,381.0"
       },
       {
        "ad": "FCF ($M)",
@@ -6803,7 +7811,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "WLDN": {
    "tarih": "2026-08-06",
@@ -6906,7 +7915,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "WOLF": {
    "tarih": "2026-08-19",
@@ -6936,11 +7946,59 @@
        "sonuc": null,
        "vurgu": 1,
        "hesap": "149.6 / 197.0 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+      },
+      {
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": -83.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "83.2"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
+       "fmt": "p",
+       "ger": -55.6,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "-83.2 / 149.6"
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "Next quarter",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 150.0,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "$140 million and $160 million"
+       ],
+       "hesap": "aralığın orta noktası"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": -23.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "150.0 / 196.8 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
       }
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "WULF": {
    "tarih": "2026-08-05",
@@ -6992,7 +8050,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release. Revenue, gross profit and operating income are as reported (GAAP) and appear in the company release; EPS estimate is the Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures."
+   "uretici": "toplu",
+   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
   },
   "FORM": {
    "tarih": "2026-10-28",
@@ -7077,7 +8136,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
+   "uretici": "toplu"
   },
   "FTAI": {
    "tarih": "2026-10-29",
@@ -7131,7 +8191,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
+   "uretici": "toplu"
   },
   "GLW": {
    "tarih": "2026-10-27",
@@ -7176,7 +8237,8 @@
      ]
     }
    ],
-   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "EPS estimate: Yahoo Finance consensus for that quarter. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
+   "uretici": "toplu"
   },
   "MPWR": {
    "tarih": "2026-10-29",
@@ -7290,7 +8352,8 @@
      ]
     }
    ],
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement.",
+   "uretici": "toplu"
   }
  }
 }
