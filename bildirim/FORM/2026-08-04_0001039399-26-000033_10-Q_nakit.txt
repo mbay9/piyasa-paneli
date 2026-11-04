@@ -1,0 +1,119 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1039399/000103939926000033/form-20260627.htm
+SEMBOL: FORM
+BASVURU_TARIHI: 2026-08-04
+BASVURU: 0001039399-26-000033
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Six Months Ended |
+June 27,
+2026 | June 28,
+2025 |
+Cash flows from operating activities: |
+Net income | $ | 76,591 | $ | 15,487 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 18,143 | 18,390 |
+Reduction in the carrying amount of right-of-use assets | 3,286 | 3,593 |
+Stock-based compensation expense | 16,721 | 19,187 |
+Deferred income tax benefit | ( 1,640 ) | ( 2,639 ) |
+Provision for excess and obsolete inventories | 7,938 | 6,695 |
+Non-cash restructuring charges | 15,736 | 2,160 |
+Loss (income) from equity investment | ( 3,759 ) | 3,484 |
+Other adjustments to reconcile net income to net cash provided by operating activities | ( 320 ) | ( 1,559 ) |
+Changes in assets and liabilities: |
+Accounts receivable | ( 30,705 ) | ( 9,570 ) |
+Inventories | ( 19,617 ) | ( 12,367 ) |
+Prepaid expenses and other current assets | 461 | ( 5,717 ) |
+Other assets | ( 147 ) | 460 |
+Accounts payable | 14,510 | 9,649 |
+Accrued liabilities | 5,190 | ( 4,409 ) |
+Other liabilities | 4,843 | 2,487 |
+Deferred revenues | 3,441 | 1,133 |
+Operating lease liabilities | ( 3,908 ) | ( 4,032 ) |
+Net cash provided by operating activities | 106,764 | 42,432 |
+Cash flows from investing activities: |
+Acquisition of property, plant and equipment | ( 24,791 ) | ( 84,840 ) |
+Proceeds from sale of assets | 576 | 103 |
+Purchase of equity investment | — | ( 67,156 ) |
+Purchases of marketable securities | ( 128,665 ) | ( 73,823 ) |
+Proceeds from maturities and sales of marketable securities | 64,169 | 62,503 |
+Net cash used in investing activities | ( 88,711 ) | ( 163,213 ) |
+Cash flows from financing activities: |
+Proceeds from issuances of common stock | 5,836 | 21,576 |
+Purchase of common stock through stock repurchase program | — | ( 24,586 ) |
+Tax withholdings related to net share settlements of equity awards | ( 15,994 ) | ( 3,619 ) |
+Payments on term loan | ( 564 ) | ( 549 ) |
+Net cash used in financing activities | ( 10,722 ) | ( 7,178 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | ( 1,231 ) | 1,658 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 6,100 | ( 126,301 ) |
+Cash, cash equivalents and restricted cash, beginning of year | 107,047 | 197,206 |
+Cash, cash equivalents and restricted cash, end of period | $ | 113,147 | $ | 70,905 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+7
+FORMFACTOR, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Six Months Ended |
+June 27,
+2026 | June 28,
+2025 |
+Non-cash investing and financing activities: |
+Increase (decrease) in accounts payable and accrued liabilities related to property, plant and equipment purchases | $ | 15,817 | $ | ( 13,010 ) |
+Operating lease, right-of-use assets obtained in exchange for lease obligations | 2,685 | 733 |
+Supplemental disclosure of cash flow information: |
+Cash paid for income taxes, net | $ | 3,040 | $ | 5,443 |
+Cash paid for interest | 168 | 187 |
+Operating cash outflows from operating leases | 4,632 | 4,893 |
+Reconciliation of cash, cash equivalents and restricted cash: |
+Cash and cash equivalents | $ | 109,761 | $ | 67,380 |
+Restricted cash, current | 765 | 1,061 |
+Restricted cash | 2,621 | 2,464 |
+Total cash, cash equivalents and restricted cash | $ | 113,147 | $ | 70,905 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+FORMFACTOR, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1 — Basis of Presentation and Significant Accounting Policies
+Basis of Presentation
+The accompanying condensed consolidated financial information of FormFactor, Inc. is unaudited and has been prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and pursuant to the rules and regulations of the Securities and Exchange Commission (“SEC”). However, such information reflects all adjustments, consisting only of normal recurring adjustments, which are, in the opinion of management, necessary for a fair presentation of the financial position, results of operations and cash flows for the interim periods. The condensed consolidated financial statements included herein should be read in conjunction with the consolidated financial statements and the notes thereto included in our 2025 Annual Report on Form 10-K filed with the SEC on February 20, 2026. The results of operations for the interim periods presented are not necessarily indicative of the results to be expected for the full year.
+Fiscal Year
+We operate on a 52/53 week fiscal year, whereby the fiscal year ends on the last Saturday of December. Fiscal 2026 and 2025 each contain 52 weeks and the six months ended June 27, 2026 and June 28, 2025 each contained 26 weeks. Fiscal 2026 will end on December 26 , 2026.
+Significant Accounting Policies
+Our significant accounting policies have not changed during the six months ended June 27, 2026 from those disclosed in our Annual Report on Form 10-K for the year ended December 27, 2025.
+New Accounting Pronouncements
+ASU 2024-03
+In November 2024, the Financial Accounting Standards Board (the “FASB”) issued Accounting Standards Update (“ASU”) No. 2024-03, “ Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses .” This ASU requires an entity to disclose, in tabular format in the notes to the financial statements, specific information about certain costs and expenses. Although the ASU does not change the expense captions an entity presents on the face of the income statement, it requires disaggregation of certain expense captions into specified categories. The amendments in the ASU are effective for annual reporting periods beginning after December 15, 2026 and interim reporting periods beginning after December 15, 2027, with early adoption permitted. An entity may apply the amendments prospectively for reporting periods after the effective date or retrospectively to any or all prior periods presented in the financial statements. This ASU will impact only our disclosures and not our financial condition and results of operations. We are currently evaluating the effect the adoption of this ASU may have on our disclosures.
+Reclassifications
+Certain immaterial reclassifications were made to prior-year amounts to conform to the current-year presentation. These reclassifications included presenting factory start-up costs separately from selling, general and administrative expenses in the Condensed Consolidated Statements of Income, combining depreciation and amortization into a single line item in the Condensed Consolidated Statements of Cash Flows, and presenting accrued restructuring charges separately from other accrued liabilities in Note 6, Accrued Liabilities . These reclassifications had no impact on previously reported results of operations, financial position, or cash flows.
+Note 2 — Concentration of Credit and Other Risks
+Each of the following customers accounted for 10 % or more of our revenues for the periods indicated:
+Three Months Ended | Six Months Ended |
+June 27,
+2026 | June 28,
+2025 | June 27,
+2026 | June 28,
+2025 |
+SK hynix Inc. | 24.3 | % | 25.0 | % | 26.8 | % | 24.2 | % |
+Intel Corporation | * | 12.4 | % | * | 12.2 | % |
+Taiwan Semiconductor Manufacturing Company Ltd. | 11.0 | % | 10.4 | % | 10.3 | % | * |
+35.3 | % | 47.8 | % | 37.1 | % | 36.4 | % |
+* Less than 10% of revenues.
+9
+At June 27, 2026, three customers accounted for 17.1 %, 16.9 %, and 12.9 % of gross accounts receivable, compared with two customers that accounted for 15.8 % and 10.8 % at December 27, 2025.
+Note 3 — Inventories, net
+Inventories are stated at the lower of cost (principally standard cost, which approximates actual cost on a first in, first out basis) or net realizable value.
+Inventories, net, consisted of the following (in thousands):
+June 27,
+2026 | December 27,
+2025 |
+Raw materials | $ | 55,920 | $ | 47,969 |
+Work-in-progress | 45,305 | 42,812 |
+Finished goods | 20,184 | 20,103 |
+$ | 121,409 | $ | 110,884 |
+Note 4 — Acquisition
+On December 15, 2025, we acquired 100 % of the shares of Keystone Photonics for total consideration of $ 20.6 million, net of cash acquired of $ 1.7 million. Keystone Photonics provides optical probing technology used in the testing of silicon photonics (“SiPh”) and co‑packaged optics (“CPO”) devices. The acquisition expands the Company’s testing capabilities in these areas and supports customers as SiPh and CPO technologies transition from development into high‑volume manufacturing, including applications related to artificial intelligence data-center infrastructure.
+The acquisition was accounted for under the acquisition method of accounting, which requires that assets acquired and liabilities assumed be recognized on the co

@@ -1,0 +1,75 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1616533/000161653326000043/peng-20260529.htm
+SEMBOL: PENG
+BASVURU_TARIHI: 2026-07-07
+BASVURU: 0001616533-26-000043
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(In thousands)
+(Unaudited)
+Nine Months Ended | May 29,
+2026 | May 30,
+2025 |
+Cash flows from operating activities |
+Net income | $ | 90,779 | $ | 18,285 |
+Adjustments to reconcile net income from continuing operations to net cash provided by operating activities: |
+Depreciation expense and amortization of intangible assets | 37,877 | 43,010 |
+Amortization of debt issuance costs | 1,892 | 2,819 |
+Stock-based compensation expense | 25,195 | 33,362 |
+Impairment of goodwill | — | 11,373 |
+Loss on impairment of non-marketable equity investment | 10,000 | — |
+Gain on disposition of equity investment | ( 30,928 ) | — |
+Deferred income taxes, net | 321 | 1,122 |
+Other | 526 | ( 2,468 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 396,365 ) | ( 40,760 ) |
+Inventories | ( 243,136 ) | ( 30,776 ) |
+Other assets | 9,899 | 13,741 |
+Accounts payable and accrued expenses and other liabilities | 505,162 | 133,908 |
+Net cash provided by operating activities from continuing operations | 11,222 | 183,616 |
+Net cash used for operating activities from discontinued operations | — | ( 4,099 ) |
+Net cash provided by operating activities | 11,222 | 179,517 |
+Cash flows from investing activities |
+Capital expenditures and deposits on equipment | ( 7,297 ) | ( 6,087 ) |
+Proceeds from sales and maturities of investment securities | — | 27,485 |
+Purchases of held-to-maturity investment securities | — | ( 46,127 ) |
+Proceeds from disposition of equity investments | 71,738 | — |
+Other | ( 1,332 ) | ( 1,015 ) |
+Net cash provided by (used for) investing activities from continuing operations | 63,109 | ( 25,744 ) |
+Net cash provided by investing activities from discontinued operations | — | 28,350 |
+Net cash provided by investing activities | 63,109 | 2,606 |
+Cash flows from financing activities |
+Proceeds from issuance of preferred shares, net of $ 8,818 paid issuance costs
+| — | 191,182 |
+Repayments of debt | ( 20,000 ) | — |
+Payments to acquire common stock | ( 68,886 ) | ( 49,240 ) |
+Proceeds from restricted cash advances | 38,000 | — |
+Payment of preferred stock cash dividends | ( 9,100 ) | ( 5,100 ) |
+Proceeds from issuance of common stock | 10,202 | 7,745 |
+Net cash (used for) provided by financing activities | ( 49,784 ) | 144,587 |
+Net increase in cash, cash equivalents and restricted cash | 24,547 | 326,710 |
+Cash, cash equivalents and restricted cash at beginning of period | 454,070 | 383,477 |
+Cash, cash equivalents and restricted cash at end of period | $ | 478,617 | $ | 710,187 |
+The accompanying notes are an integral part of these consolidated financial statements.
+10
+|
+|
+Penguin Solutions, Inc.
+Notes to Consolidated Financial Statements
+(Tabular amounts in thousands, except per share amounts)
+(Unaudited)
+Significant Accounting Policies
+Basis of Presentation
+U.S. Domestication : On June 30, 2025, we consummated the redomiciliation of the parent company of our corporate group, Penguin Solutions (Cayman), Inc., formerly known as Penguin Solutions, Inc., a Cayman Islands exempted company (“Penguin Solutions Cayman”), from the Cayman Islands to the State of Delaware in the United States, resulting in Penguin Solutions, Inc., a Delaware corporation (“Penguin Solutions Delaware”), becoming our publicly traded parent company (the “U.S. Domestication”). The U.S. Domestication was approved by the shareholders of Penguin Solutions Cayman and effected via a court-sanctioned scheme of arrangement under Cayman Islands law, pursuant to which each ordinary share of Penguin Solutions Cayman was exchanged for one share of common stock of Penguin Solutions Delaware, and each convertible preferred share of Penguin Solutions Cayman was exchanged for one share of convertible preferred stock of Penguin Solutions Delaware.
+The accompanying consolidated financial statements include the accounts of Penguin Solutions Cayman and its consolidated subsidiaries prior to the consummation of the U.S. Domestication, and the accounts of Penguin Solutions Delaware and its consolidated subsidiaries after the consummation of the U.S. Domestication. Unless stated otherwise or the context otherwise requires, references to “Penguin Solutions,” “we,” “us,” “our,” and the “Company” in the accompanying consolidated financial statements (i) for periods prior to the consummation of the U.S. Domestication refer to Penguin Solutions Cayman and its consolidated subsidiaries and (ii) for periods at or after the consummation of the U.S. Domestication refer to Penguin Solutions Delaware and its consolidated subsidiaries.
+The accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”) consistent in all material respects with those applied in our Annual Report on Form 10-K for the fiscal year ended August 29, 2025 (the “2025 Annual Report”) and the applicable rules and regulations of the SEC regarding interim financial information. Certain information and disclosures normally included in consolidated financial statements prepared in accordance with GAAP have been condensed or omitted pursuant to such rules and regulations. In the opinion of our management, the accompanying unaudited consolidated financial statements contain all necessary adjustments, consisting of a normal recurring nature, to fairly state the financial information set forth herein. These consolidated interim financial statements should be read in conjunction with the consolidated financial statements and accompanying notes included in the 2025 Annual Report.
+Fiscal Year : Our fiscal year is the 52- or 53-week period ending on the last Friday in August. Fiscal years 2026 and 2025 each contain 52 weeks. All period references are to our fiscal periods unless otherwise indicated.
+Recently Adopted Accounting Standards
+In September 2025, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2025-07, Derivatives and Hedging and Revenue from Contracts with Customers , which refines the scope of the guidance on derivatives in Accounting Standards Codification (“ASC”) 815, Derivatives and Hedging , and clarifies the guidance on share-based payments from a customer in ASC 606, Revenue from Contracts with Customers . We adopted this standard at the beginning of the second quarter of fiscal 2026 on a prospective basis. ASU 2025-07 clarified the rules surrounding the scope exception under ASC 815. Upon adoption, we applied this guidance to a transaction involving our non-marketable equity investment in Celestial AI. Specifically, the right to receive contingent consideration in this transaction met the definition of a derivative and was evaluated in accordance with ASC 815. The adoption of this standard did not result in the recognition of any amounts in our consolidated financial statements presented. For further details regarding this transaction and the related
+11
+|
+|
+contingent consideration, refer to footnote section below “Cash and Investments - Non-Marketable Equity Investments - Celestial AI.”
+Recently Issued Accounting Standards
+In September 2025, the FASB issued ASU 2025-06, Intangibles—Goodwill and Other—Internal-Use Software (Subtopic 350-40): Improvements to the Accounting for and Disclosure of Internal-Use Software , which replaces the previous stage-based model for capitalizing internal-use software development costs with a principles-based approach. Under the new guidance, capitalization begins when management authorizes and commits to funding a project and it is probable the project will be completed and used as intended. The ASU also incorporates website development guidance into ASC 350-40 and introduces the concept of “significant development uncertainty,” which, if present, would delay capitalization. ASU 2025-06 is effective for fiscal years beginning after December 15, 2027, including interim periods within those years, with early adoption permitted at the beginning of an annual period. The new guidance may be applied prospectively, retrospectively, or using a modified prospective approach. We are currently evaluating the impact of this guidance on our consolidated financial statements and related disclosures, though we do not expect there to be a material impact.
+In July 2025, the FASB issued ASU 2025-05, Financial Instruments – Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets . ASU 2025-05 provides a practical expedient that all entities can use when estimating expected credit losses for current accounts receivable and current contract assets arising from transactions accounted for under ASC 606, Revenue from Contracts with Customers . Under this practical expedient, an entity is allowed to assume that the current conditions it has applied in determining credit loss allowances for current accounts receivable and current contract assets remain unchanged for the remaining life o

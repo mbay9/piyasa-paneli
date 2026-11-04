@@ -1,0 +1,125 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm
+SEMBOL: CBRS
+BASVURU_TARIHI: 2026-08-12
+BASVURU: 0001628280-26-056357
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+(in thousands)
+| Six Months Ended June 30, |
+| 2026 | 2025 |
+Cash flows from operating activities:
+|
+Net income (loss)
+| $ | ( 464,534 ) | $ | 285,645 |
+Adjustments to reconcile net income (loss) to net cash flows used in operating activities:
+|
+Stock-based compensation
+| 386,601 | 22,435 |
+Amortization of customer warrants | 46,315 | — |
+Depreciation and amortization
+| 42,551 | 9,315 |
+Non-cash lease expense
+| 39,104 | 5,872 |
+Non-cash interest expense | 38,602 | — |
+Provision for product warranties
+| 8,430 | 9,000 |
+Extinguishment of forward contract liability | — | ( 363,336 ) |
+Other
+| ( 2,110 ) | ( 835 ) |
+Changes in operating assets and liabilities:
+|
+Accounts receivable
+| ( 72,938 ) | 125,508 |
+Inventories
+| 31,116 | 74,929 |
+Prepaid expenses and other assets
+| ( 182,311 ) | ( 3,003 ) |
+Accounts payable
+| 565 | 6,314 |
+Deferred revenue
+| 126,440 | 16,525 |
+Customer deposits
+| ( 111,788 ) | ( 320,558 ) |
+Other liabilities
+| 66,469 | 8,346 |
+Net cash flows used in operating activities
+| $ | ( 47,488 ) | $ | ( 123,843 ) |
+Cash flows from investing activities:
+|
+Purchases of property and equipment
+| $ | ( 548,873 ) | $ | ( 185,094 ) |
+Purchases of investments
+| ( 1,275,515 ) | ( 20,175 ) |
+Maturities and sales of investments
+| 514,455 | 117,973 |
+Net cash flows used in investing activities
+| $ | ( 1,309,933 ) | $ | ( 87,296 ) |
+Cash flows from financing activities:
+|
+Proceeds from initial public offering, net of underwriting discounts and commissions | $ | 6,232,511 | $ | — |
+Proceeds from sale of shares of Series H redeemable convertible preferred stock | 1,014,249 | — |
+Costs incurred in connection with the sale of shares of Series H redeemable convertible preferred stock | ( 218 ) | — |
+Proceeds from Working Capital Loan | 1,004,571 | — |
+Proceeds from exercise of stock options
+| 20,221 | 5,176 |
+Proceeds from issuance of shares of Class N common stock
+| 15,036 | — |
+Fees paid for revolving credit facility | ( 3,801 ) | — |
+Repurchases of early exercised stock options
+| — | ( 28 ) |
+Tax withholding from tender offer and initial public offering
+| ( 416,660 ) | — |
+Payments of deferred offering costs and other financing activities
+| ( 12,667 ) | — |
+Net cash flows provided by financing activities
+| $ | 7,853,242 | $ | 5,148 |
+Effect of exchange rate on cash
+| 638 | 912 |
+Increase (decrease) in cash, cash equivalents, and restricted cash
+| $ | 6,496,459 | $ | ( 205,079 ) |
+Cash, cash equivalents, and restricted cash beginning of period
+| 930,378 | 581,965 |
+Cash, cash equivalents, and restricted cash end of period
+| $ | 7,426,837 | $ | 376,886 |
+11
+Table of Contents
+Supplemental disclosures of cash flow information:
+|
+Income taxes paid | $ | 8,760 | $ | 1,427 |
+Non-cash investing and financing activities:
+|
+Conversion of redeemable convertible preferred stock in connection with initial public offering | $ | 2,947,379 | $ | — |
+Right-of-use assets obtained in exchange for lease obligations
+| $ | 318,429 | $ | — |
+Billed amounts offsetting Working Capital Loan balance | $ | 86,327 | $ | — |
+Purchases of property and equipment included in accounts payable and accrued and other current liabilities
+| $ | 58,560 | $ | 4,992 |
+Transfer of property and equipment into inventories
+| $ | 8,443 | $ | 16,772 |
+Unpaid deferred offering costs included in accrued and other current liabilities
+| $ | 2,390 | $ | — |
+Vesting of early exercised options
+| $ | 1,436 | $ | 2,410 |
+Transfer to property and equipment out of inventories
+| $ | — | $ | 67,303 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+12
+Table of Contents
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1 - Nature of Operations
+Cerebras Systems Inc. (the “Company” or “Cerebras”) was incorporated in Delaware in April 2016. Cerebras is an artificial intelligence (“AI”) infrastructure company that designs and manufactures an AI compute platform comprised of proprietary systems and software that is delivered in standard racks for deployment in our, and our customers’ data centers up to supercomputer scale. The Company’s pioneering Wafer-Scale Engine (“WSE”), a chip encompassing an entire silicon wafer, was specifically designed to enable higher performance and speeds than GPUs for the computational demands of inference, Generative AI (“GenAI”), and other AI applications. Since its inception, Cerebras has dedicated resources to research and development activities that support its current projects and future development efforts. The Company is headquartered in Sunnyvale, California.
+Note 2 - Basis of Presentation and Summary of Significant Accounting Policies
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) and the applicable rules and regulations of the Securities and Exchange Commission (the “SEC”) for interim financial information, but do not include all the information and notes required by GAAP for complete financial statements. These interim unaudited condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements and notes thereto for the year ended December 31, 2025 contained in the Company’s final prospectus filed with the SEC on May 14, 2026 (the “Prospectus”), pursuant to Rule 424(b)(4) under the Securities Act of 1933, as amended (the “Securities Act”). The condensed consolidated balance sheet at December 31, 2025 has been derived from the audited consolidated financial statements at that date, but does not include all disclosures, including notes, required by GAAP for complete financial statements.
+During the three and six months ended June 30, 2026, the significant accounting policies used in the preparation of the unaudited condensed consolidated financial statements are consistent with those discussed in Note 4 – Significant Accounting Policies to the audited consolidated financial statements in the Prospectus. There have been no significant changes in the Company’s significant accounting policies or critical accounting estimates since December 31, 2025 that have had a material impact on the Company’s unaudited condensed consolidated financial statements and related notes. In the opinion of management, these financial statements include all adjustments, which are of a normal recurring nature, necessary for a fair statement of the financial position, results of operations, cash flows, and the changes in equity for the periods presented. The results of operations for the three and six months ended June 30, 2026 shown in this report are not necessarily indicative of the results to be expected for the full year ending December 31, 2026 or any other period.
+Certain prior period amounts reported in the Company’s condensed consolidated financial statements and notes thereto have been reclassified to conform to the current period presentation.
+Initial Public Offering
+On May 15, 2026, the Company completed its initial public offering (the “IPO”), in which it issued and sold 34,500,000 shares of its Class A common stock at $ 185.00 per share, which includes the exercise in full by the underwriters of their option to purchase from the Company an additional 4,500,000 shares of Class A common stock. The Company received net proceeds of approximately $ 6.2 billion from the IPO, after deducting underwriting discounts and commissions and estimated offering expenses. Immediately prior to the completion of the IPO, all outstanding shares of the Company’s redeemable convertible preferred stock converted into 124,652,775 shares of Class B common stock on a one -for-one basis. In addition, certain shares of the Company's then-outstanding Class A common stock, including shares issued upon the vesting and settlement of certain restricted stock units (“RSUs”) that vested upon completion of the IPO, were reclassified into Class B common stock on a one -for-one basis, and certain shares and equity awards were converted into, or amended to provide for issuance or settlement in, shares of Class A common stock.
+Pursuant to the Company’s 2016 Equity Incentive Plan (as amended, the “2016 Plan”), the Company’s RSUs issued under the 2016 Plan vest upon the satisfaction of both service-based and liquidity-based vesting conditions. The service-based vesting condition for these awards is generally satisfied by rendering continuous service through the applicable vesting period, which is generally four years. The liquidity-based vesting condition was satisfied in connection with the IPO on May 13, 2026. During the three and six months ended June 30, 2026, the Company recognized $ 273.6 million of stock-based compensation expense related to these RSUs following the satisfaction of the liquidity-based vesting condition in connection with the IPO.
+13
+Table of Contents
+Use of Estimates
+The prepara

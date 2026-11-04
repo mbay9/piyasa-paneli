@@ -1,0 +1,215 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/24741/000002474126000279/glw-20260930.htm
+SEMBOL: GLW
+BASVURU_TARIHI: 2026-10-29
+BASVURU: 0000024741-26-000279
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 6
+|
+Consolidated Statements of Changes in Shareholders’ Equity
+| 7
+|
+Notes to Consolidated Financial Statements
+| 8
+|
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 24
+|
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+| 44
+|
+Item 4. Controls and Procedures
+| 44
+|
+PART II – OTHER INFORMATION
+|
+Item 1. Legal Proceedings
+| 45
+|
+Item 1A. Risk Factors
+| 45
+|
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+| 45
+|
+Item 5. Other Information
+| 45
+|
+Item 6. Exhibits
+| 46
+|
+Signatures
+| 47
+|
+2
+Table of Contents
+Consolidated Statements of Income | Corning Incorporated and Subsidiary Companies |
+(Unaudited; in millions, except per share amounts) |
+Three months ended
+September 30, | Nine months ended
+September 30, |
+2026 | 2025 | 2026 | 2025 |
+Net sales | $ | 4,855 | $ | 4,100 | $ | 13,504 | $ | 11,414 |
+Cost of sales | 3,045 | 2,580 | 8,538 | 7,288 |
+Gross margin | 1,810 | 1,520 | 4,966 | 4,126 |
+Operating expenses: |
+Selling, general and administrative expenses | 563 | 624 | 1,759 | 1,610 |
+Research, development and engineering expenses | 314 | 280 | 891 | 826 |
+Amortization of purchased intangibles | 22 | 27 | 68 | 83 |
+Operating income | 911 | 589 | 2,248 | 1,607 |
+Interest income | 17 | 10 | 38 | 27 |
+Interest expense | ( 87 ) | ( 78 ) | ( 273 ) | ( 243 ) |
+Translated earnings contract gain, net (Note 9) | 138 | 33 | 212 | 63 |
+Other expense, net | ( 11 ) | ( 4 ) | ( 79 ) | ( 80 ) |
+Income before income taxes | 968 | 550 | 2,146 | 1,374 |
+Provision for income taxes (Note 11) | ( 222 ) | ( 80 ) | ( 383 ) | ( 219 ) |
+Net income | 746 | 470 | 1,763 | 1,155 |
+Net income attributable to non-controlling interest | ( 66 ) | ( 40 ) | ( 153 ) | ( 99 ) |
+Net income attributable to Corning Incorporated | $ | 680 | $ | 430 | $ | 1,610 | $ | 1,056 |
+Earnings per common share available to common shareholders: |
+Basic (Note 13) | $ | 0.79 | $ | 0.50 | $ | 1.87 | $ | 1.24 |
+Diluted (Note 13) | $ | 0.78 | $ | 0.50 | $ | 1.85 | $ | 1.21 |
+The accompanying notes are an integral part of these consolidated financial statements.
+3
+Table of Contents
+Consolidated Statements of Comprehensive Income | Corning Incorporated and Subsidiary Companies |
+(Unaudited; in millions) |
+Three months ended
+September 30, | Nine months ended
+September 30, |
+2026 | 2025 | 2026 | 2025 |
+Net income | $ | 746 | $ | 470 | $ | 1,763 | $ | 1,155 |
+Foreign currency translation adjustments and other (Note 12) | 416 | ( 92 ) | 231 | 460 |
+Unamortized losses and prior service costs for postretirement benefit plans
+| ( 4 ) | ( 7 ) | ( 34 ) | ( 23 ) |
+Realized and unrealized (losses) gains on derivatives | ( 23 ) | 16 | ( 24 ) | 89 |
+Other comprehensive income (loss), net of tax | 389 | ( 83 ) | 173 | 526 |
+Comprehensive income | 1,135 | 387 | 1,936 | 1,681 |
+Comprehensive income attributable to non-controlling interest | ( 66 ) | ( 40 ) | ( 153 ) | ( 99 ) |
+Comprehensive income attributable to Corning Incorporated | $ | 1,069 | $ | 347 | $ | 1,783 | $ | 1,582 |
+The accompanying notes are an integral part of these consolidated financial statements.
+4
+Table of Contents
+Consolidated Balance Sheets | Corning Incorporated and Subsidiary Companies |
+(Unaudited; in millions, except share and per share amounts) |
+September 30,
+2026 | December 31,
+2025 |
+Assets |
+Current assets: |
+Cash and cash equivalents | $ | 2,537 | $ | 1,526 |
+Trade accounts receivable, net of doubtful accounts - $ 28 and $ 27
+| 3,101 | 2,779 |
+Inventories (Note 3) | 3,646 | 3,077 |
+Other current assets (Note 5) | 2,058 | 1,554 |
+Total current assets | 11,342 | 8,936 |
+Property, plant and equipment, net of accumulated depreciation - $ 15,990 and $ 15,229
+| 15,517 | 14,825 |
+Goodwill | 2,484 | 2,489 |
+Other intangible assets, net | 587 | 657 |
+Deferred income taxes (Note 11) | 1,615 | 1,515 |
+Other assets (Note 5) | 2,581 | 2,554 |
+Total Assets | $ | 34,126 | $ | 30,976 |
+Liabilities and Equity |
+Current liabilities: |
+Current portion of long-term debt and short-term borrowings (Note 6) | $ | 933 | $ | 804 |
+Accounts payable | 2,492 | 1,979 |
+Other accrued liabilities (Notes 5 and 8) | 3,160 | 2,845 |
+Total current liabilities | 6,585 | 5,628 |
+Long-term debt (Note 6) | 7,267 | 7,630 |
+Postretirement benefits other than pensions (Note 7) | 324 | 314 |
+Other liabilities (Notes 5 and 8) | 5,662 | 5,097 |
+Total liabilities | 19,838 | 18,669 |
+Commitments and contingencies (Note 8) | | |
+Shareholders’ equity: (Note 12) |
+Common stock – Par value $ 0.50 per share; Shares authorized 3.8 billion;
+Shares issued: 1.9 billion and 1.8 billion
+| 927 | 924 |
+Additional paid-in capital | 18,687 | 17,580 |
+Retained earnings | 17,427 | 16,551 |
+Treasury stock, at cost; Shares held: 994 million and 992 million
+| ( 21,438 ) | ( 21,143 ) |
+Accumulated other comprehensive loss | ( 1,932 ) | ( 2,105 ) |
+Total Corning Incorporated shareholders’ equity | 13,671 | 11,807 |
+Non-controlling interest | 617 | 500 |
+Total equity | 14,288 | 12,307 |
+Total Liabilities and Equity | $ | 34,126 | $ | 30,976 |
+The accompanying notes are an integral part of these consolidated financial statements.
+5
+Table of Contents
+Consolidated Statements of Cash Flows | Corning Incorporated and Subsidiary Companies |
+(Unaudited; in millions) |
+Nine months ended
+September 30, |
+2026 | 2025 |
+Cash Flows from Operating Activities: |
+Net income | $ | 1,763 | $ | 1,155 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation | 1,073 | 913 |
+Amortization of purchased intangibles | 68 | 83 |
+Loss on disposal of assets, net | 58 | 20 |
+Share-based compensation expense | 298 | 216 |
+Translation (gain) loss on foreign denominated debt, net | ( 1 ) | 66 |
+Deferred tax benefit | ( 45 ) | ( 149 ) |
+Translated earnings contract gain, net | ( 212 ) | ( 63 ) |
+Changes in assets and liabilities: |
+Trade accounts receivable | ( 416 ) | ( 429 ) |
+Inventories | ( 571 ) | ( 266 ) |
+Other current assets | ( 156 ) | ( 256 ) |
+Accounts payable and other current liabilities | 659 | 391 |
+Customer deposits and government incentives | 639 | ( 49 ) |
+Deferred income | ( 145 ) | ( 108 ) |
+Other, net | 128 | 119 |
+Net cash provided by operating activities | 3,140 | 1,643 |
+Cash Flows from Investing Activities: |
+Capital expenditures | ( 1,299 ) | ( 850 ) |
+Proceeds from government incentives | 8 | |
+Realized gains on translated earnings contracts and other | 423 | 192 |
+Premiums paid on hedging contracts | ( 145 ) | ( 83 ) |
+Other, net | 8 | ( 24 ) |
+Net cash used in investing activities | ( 1,005 ) | ( 765 ) |
+Cash Flows from Financing Activities: |
+Repayments of debt | ( 961 ) | ( 282 ) |
+Proceeds from issuance of debt and short-term borrowings | 449 | 285 |
+Repayment of acquisition related debt | ( 2 ) | ( 33 ) |
+Proceeds from cross currency swap | | 24 |
+Proceeds from warrants | 500 | |
+Principal payments on finance leases | ( 106 ) | ( 24 ) |
+Payments of employee withholding tax on stock awards | ( 294 ) | ( 87 ) |
+Proceeds from exercise of stock options | 24 | 31 |
+Purchases of common stock for treasury | | ( 158 ) |
+Dividends paid | ( 757 ) | ( 744 ) |
+Other, net | ( 20 ) | ( 32 ) |
+Net cash used in financing activities | ( 1,167 ) | ( 1,020 ) |
+Effect of exchange rates on cash | 17 | 22 |
+Net increase (decrease) in cash and cash equivalents and restricted cash | 985 | ( 120 ) |
+Cash and cash equivalents and restricted cash at beginning of period | 1,566 | 1,768 |
+Cash and cash equivalents and restricted cash at end of period | $ | 2,551 | $ | 1,648 |
+Restricted cash included in other current assets | 14 | |
+Cash and cash equivalents at end of period | $ | 2,537 | $ | 1,648 |
+The accompanying notes are an integral part of these consolidated financial statements.
+6
+Table of Contents
+Consolidated Statements of Changes in Shareholders’ Equity | Corning Incorporated and Subsidiary Companies |
+(Unaudited; in millions, except per share amounts) |
+Common stock | Additional paid-in capital | Retained earnings | Treasury stock | Accumulated other
+comprehensive loss | Total Corning Incorporated
+shareholders’ equity
+| Non-controlling interest | Total |
+Balance as of December 31, 2025 | $ | 924 | $ | 17,580 | $ | 16,551 | $ | ( 21,143 ) | $ | ( 2,105 ) | $ | 11,807 | $ | 500 | $ | 12,307 |
+Net income | 371 | 371 | 37 | 408 |
+Other comprehensive loss | ( 186 ) | ( 186 ) | ( 186 ) |
+Shares issued to benefit plans and for option exercises | 1 | 124 | 125 | 125 |
+Common dividends ($ 0.28 per share)
+| ( 242 ) | ( 242 ) | ( 242 ) |
+Other, net (1)
+| ( 63 ) | ( 63 ) | ( 63 ) |
+Balance as of March 31, 2026 | $ | 925 | $ | 17,704 | $ | 16,680 | $ | ( 21,206 ) | $ | ( 2,291 ) | $ | 11,812 | $ | 537 | $ | 12,349 |
+Net income | 559 | 559 | 50 | 609 |
+Other comprehensive loss | ( 30 ) | ( 30 ) | ( 1 ) | ( 31 ) |
+Shares issued to benefit plans and for option exercises | 2 | 136 | 138 | 138 |
+Issuance of warrants (2)
+| 796 | 796 | 796 |
+Common dividends ($ 0.56 per share)
+

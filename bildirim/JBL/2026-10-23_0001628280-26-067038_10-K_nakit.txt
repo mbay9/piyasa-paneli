@@ -1,0 +1,54 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/898293/000162828026067038/jbl-20260831.htm
+SEMBOL: JBL
+BASVURU_TARIHI: 2026-10-23
+BASVURU: 0001628280-26-067038
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows, and have been excluded from the table above.
+In the ordinary course of business, we have letters of credit and surety bonds with banks and insurance companies outstanding of $137 million as of August 31, 2026. Unused letters of credit were immaterial as of August 31, 2026. Letters of credit and surety bonds are generally available for draw down in the event we do not perform.
+We have a shelf registration statement with the SEC registering the potential sale of an indeterminate amount of debt and equity securities in the future to augment our liquidity and capital resources.
+Our Senior Notes and our credit facilities contain various financial and nonfinancial covenants. A violation of these covenants could negatively impact our liquidity by restricting our ability to borrow under the notes payable and credit facilities and potentially causing acceleration of amounts due under these notes payable and credit facilities. As of August 31, 2026, and 2025, we were in compliance with our debt covenants. See Note 7 – “Notes Payable and Long-Term Debt” to the Consolidated Financial Statements for further details.
+42
+Table of Contents
+Global Asset-Backed Securitization Program
+Certain Jabil entities participating in the global asset-backed securitization program continuously sell designated pools of trade accounts receivable to a special purpose entity, which in turn sells certain of the receivables at a discount to conduits administered by an unaffiliated financial institution on a monthly basis. In addition, a foreign entity participating in the global asset-backed securitization program sells certain receivables at a discount to conduits administered by an unaffiliated financial institution on a daily basis. As these accounts receivable are sold without recourse, we do not retain the associated risks following the transfer of such accounts receivable to the respective financial institutions.
+We continue servicing the receivables sold and in exchange receive an immaterial servicing fee under the global asset-backed securitization program. In conjunction with our global asset-backed securitization program, we are required to remit amounts collected as a servicer under the global asset-backed securitization program to a special purpose entity. We do not record a servicing asset or liability on the Consolidated Balance Sheets as we estimate that the fee we receive to service these receivables approximates the fair market compensation to provide the servicing activities.
+The special purpose entity in the global asset-backed securitization program is a wholly owned subsidiary of the Company and is included in our Consolidated Financial Statements. Certain unsold receivables covering up to the maximum amount of net cash proceeds available under the domestic, or U.S., portion of the global asset-backed securitization program are pledged as collateral to the unaffiliated financial institution as of August 31, 2026.
+The global asset-backed securitization program expires in January 2028. Effective August 17, 2026, the terms of the global asset-backed securitization program were amended to increase the maximum amount of net cash proceeds available at any one time from $700 million to $800 million through September 2026 and to $900 million starting in October 2026.
+The outstanding balance of receivables sold and not yet collected on accounts where we have continuing involvement was approximately $378 million and $372 million as of August 31, 2026, and 2025, respectively. During the fiscal year ended August 31, 2026, we sold $4.5 billion of trade accounts receivable, and we received cash proceeds of $4.5 billion. The receivables that were sold were removed from the Consolidated Balance Sheets and the cash received was included as cash provided by operating activities on the Consolidated Statements of Cash Flows.
+The global asset-backed securitization program requires compliance with several covenants including compliance with the interest ratio and debt to EBITDA ratio of the Revolving Credit Facility. As of August 31, 2026, and 2025, we were in compliance with all covenants under our global asset-backed securitization program. See Note 8 – “Asset-Backed Securitization Program” to the Consolidated Financial Statements for further details on the program.
+Trade Accounts Receivable Sale Programs
+We regularly sell designated pools of high credit quality trade accounts receivable under uncommitted trade accounts receivable sale programs to unaffiliated financial institutions without recourse. In conjunction with our trade accounts receivable sale programs, we are required to remit amounts collected as a servicer under the trade accounts receivable sale programs to the unaffiliated financial institutions that purchased the receivables. The outstanding balance of receivables sold and not yet collected on accounts where we have continuing involvement was approximately $677 million and $927 million as of August 31, 2026, and 2025, respectively. During the fiscal year ended August 31, 2026, we sold $18.3 billion of trade accounts receivable under these programs and we received cash proceeds of $18.3 billion. The receivables that were sold were removed from the Consolidated Balance Sheets and the cash received was included as cash provided by operating activities on the Consolidated Statements of Cash Flows.
+Cash Flows
+The following table sets forth selected consolidated cash flow information (in millions):
+Fiscal Year Ended August 31, |
+2026 | 2025 | 2024 |
+Net cash provided by operating activities
+| $ | 2,002 | $ | 1,640 | $ | 1,716 |
+Net cash (used in) provided by investing activities
+| (1,335) | (714) | 1,351 |
+Net cash used in financing activities
+| (866) | (1,204) | (2,668) |
+Effect of exchange rate changes on cash and cash equivalents
+| 5 | 10 | (2) |
+Net (decrease) increase in cash and cash equivalents
+| $ | (194) | $ | (268) | $ | 397 |
+43
+Table of Contents
+Operating Activities
+Net cash provided by operating activities during the fiscal year ended August 31, 2026, was primarily due to an increase in accounts payable, accrued expenses and other liabilities and non-cash expenses and net income. Net cash provided by operating activities was partially offset by an increase in inventories, an increase in prepaid expenses and other current assets, an increase in accounts receivable, and an increase in contract assets. The increase in accounts payable, accrued expenses and other liabilities is primarily due to the timing of purchases and cash payments in the Intelligent Infrastructure segment. The increase in inventories is primarily driven by timing of customer shipments in the Intelligent Infrastructure segment. The increase in prepaid expenses and other current assets is primarily driven by the timing of shipments of customer-controlled consignment components in the Intelligent Infrastructure segment. The increase in accounts receivable is primarily driven by the timing of collections. The increase in contract assets is primarily due to the timing of revenue recognition for the over time customers.
+Investing Activities
+Net cash used in investing activities during the fiscal year ended August 31, 2026, consisted primarily of the acquisition of Hanley and Rebound Technologies and capital expenditures, principally to support ongoing business in the Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce segments, partially offset by proceeds and advances from the sale of property, plant and equipment.
+Financing Activities
+Net cash used in financing activities during the fiscal year ended August 31, 2026, was primarily due to (i) payments for debt agreements, (ii) the repurchase of our common stock under our share repurchase authorization, (iii) treasury stock minimum tax withholding related to vesting of restricted stock, and (iv) dividend payments. Net cash used in financing activities was partially offset by (i) borrowings under debt agreements and (ii) net proceeds from exercise of stock options and issuance of common stock under employee stock purchase plan.
+Capital Expenditures
+For Fiscal Year 2027, we anticipate our net capital expenditures to be in the range of 1.5% to 2.0% of net revenue. In general, our capital expenditures support ongoing maintenance and growth in our Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce segments and investments in capabilities and targeted end markets. The amount of actual capital expenditures may be affected by general economic, financial, competitive, legislative, and regulatory factors, among other things.
+Dividends and Share Repurchases
+Following is a summary of the dividends and share repurchases for the fiscal years indicated below (in millions):
+Dividends Paid (1)
+| Share Repurchases (2)
+| Total |
+Fiscal years 2016 – 2023
+| $ | 426 | $ | 3,079 | $ | 3,505 |
+Fiscal year 2024 | $ | 42 | $ | 2,500 | $ | 2,542 |
+F

@@ -1,0 +1,205 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/936395/000162828026060361/cien-20260801.htm
+SEMBOL: CIEN
+BASVURU_TARIHI: 2026-09-03
+BASVURU: 0001628280-26-060361
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the Nine Months Ended August 1, 2026 and August 2, 2025
+| 6
+|
+Condensed Consolidated Statements of Changes in Stockholders’ Equity for the Nine Months Ended August 1, 2026 and August 2, 2025
+| 7
+|
+Notes to Condensed Consolidated Financial Statements
+| 8
+|
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 28
+|
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+| 39
+|
+Item 4. Controls and Procedures
+| 39
+|
+PART II — OTHER INFORMATION
+|
+Item 1. Legal Proceedings
+| 40
+|
+Item 1A. Risk Factors
+| 40
+|
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+| 40
+|
+Item 3. Defaults Upon Senior Securities
+| 40
+|
+Item 4. Mine Safety Disclosures
+| 40
+|
+Item 5. Other Information
+| 40
+|
+Item 6. Exhibits
+| 42
+|
+Signatures
+| 43
+|
+2
+PART I – FINANCIAL INFORMATION
+Item 1. Financial Statements
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per share data)
+(unaudited)
+Quarter Ended | Nine Months Ended |
+August 1, | August 2, | August 1, | August 2, |
+2026 | 2025 | 2026 | 2025 |
+Revenue: |
+Products | $ | 1,390,274 | $ | 976,801 | $ | 3,881,632 | $ | 2,730,167 |
+Services | 280,855 | 242,584 | 787,278 | 687,356 |
+Total revenue | 1,671,129 | 1,219,385 | 4,668,910 | 3,417,523 |
+Cost of goods sold: |
+Products | 768,661 | 580,028 | 2,171,342 | 1,620,816 |
+Services | 143,203 | 136,278 | 421,229 | 368,969 |
+Total cost of goods sold | 911,864 | 716,306 | 2,592,571 | 1,989,785 |
+Gross profit | 759,265 | 503,079 | 2,076,339 | 1,427,738 |
+Operating expenses: |
+Research and development | 236,673 | 211,898 | 696,036 | 619,429 |
+Selling and marketing | 153,969 | 148,724 | 452,875 | 424,911 |
+General and administrative | 62,844 | 60,596 | 183,308 | 171,450 |
+Significant asset impairments and restructuring costs | 887 | 1,770 | 3,190 | 5,262 |
+Amortization of intangible assets | 3,713 | 6,556 | 12,162 | 19,646 |
+Acquisition and integration costs | — | — | 306 | — |
+Total operating expenses | 458,086 | 429,544 | 1,347,877 | 1,240,698 |
+Income from operations | 301,179 | 73,535 | 728,462 | 187,040 |
+Interest and other income, net | 22,388 | 15,090 | 49,456 | 34,539 |
+Interest expense | ( 5,803 ) | ( 22,806 ) | ( 47,979 ) | ( 67,421 ) |
+Loss on extinguishment and modification of debt | ( 7,143 ) | — | ( 7,143 ) | ( 729 ) |
+Income before income taxes | 310,621 | 65,819 | 722,796 | 153,429 |
+Provision for income taxes | 44,203 | 15,511 | 87,875 | 49,580 |
+Net income | $ | 266,418 | $ | 50,308 | $ | 634,921 | $ | 103,849 |
+Basic net income per common share | $ | 1.88 | $ | 0.35 | $ | 4.46 | $ | 0.73 |
+Diluted net income per potential common share | $ | 1.83 | $ | 0.35 | $ | 4.34 | $ | 0.72 |
+Weighted average basic common shares outstanding | 142,061 | 141,846 | 142,229 | 142,437 |
+Weighted average dilutive potential common shares outstanding | 145,967 | 144,499 | 146,227 | 145,158 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+3
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in thousands)
+(unaudited)
+Quarter Ended | Nine Months Ended |
+August 1, | August 2, | August 1, | August 2, |
+2026 | 2025 | 2026 | 2025 |
+Net income | $ | 266,418 | $ | 50,308 | $ | 634,921 | $ | 103,849 |
+Unrealized loss on available-for-sale securities, net of tax | ( 717 ) | ( 31 ) | ( 1,290 ) | ( 430 ) |
+Unrealized gain (loss) on foreign currency forward contracts, net of tax | ( 7,011 ) | ( 882 ) | ( 3,257 ) | 5,803 |
+Unrealized gain (loss) on interest rate swaps, net of tax | ( 3,225 ) | ( 2,229 ) | 1,054 | ( 9,110 ) |
+Change in cumulative translation adjustments | ( 13,994 ) | ( 2,092 ) | ( 6,500 ) | 5,619 |
+Other comprehensive income (loss) | ( 24,947 ) | ( 5,234 ) | ( 9,993 ) | 1,882 |
+Total comprehensive income | $ | 241,471 | $ | 45,074 | $ | 624,928 | $ | 105,731 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+4
+CIENA CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in thousands, except share data)
+(unaudited)
+August 1,
+2026 | November 1,
+2025 |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 2,445,708 | $ | 1,091,952 |
+Short-term investments | 184,293 | 216,148 |
+Accounts receivable, net of allowance for credit losses of $ 9.6 million and $ 11.2 million as of August 1, 2026 and November 1, 2025, respectively
+| 1,233,610 | 975,856 |
+Inventories, net | 871,987 | 826,235 |
+Prepaid expenses and other | 527,014 | 455,316 |
+Total current assets | 5,262,612 | 3,565,507 |
+Long-term investments | 213,553 | 57,142 |
+Equipment, building, furniture and fixtures, net | 491,656 | 386,779 |
+Operating right-of-use assets | 45,667 | 38,613 |
+Goodwill | 513,340 | 521,204 |
+Other intangible assets, net | 188,824 | 224,210 |
+Deferred tax asset, net | 1,092,726 | 884,889 |
+Other long-term assets | 188,862 | 186,323 |
+Total assets | $ | 7,997,240 | $ | 5,864,667 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 654,070 | $ | 542,841 |
+Accrued liabilities and other short-term obligations | 508,149 | 531,081 |
+Deferred revenue | 211,453 | 208,936 |
+Operating lease liabilities | 12,261 | 13,956 |
+Current portion of long-term debt | — | 11,580 |
+Total current liabilities | 1,385,933 | 1,308,394 |
+Long-term deferred revenue | 99,828 | 94,850 |
+Other long-term obligations | 186,265 | 175,426 |
+Long-term operating lease liabilities | 38,633 | 32,516 |
+Long-term debt, net | 3,229,843 | 1,524,158 |
+Total liabilities | 4,940,502 | 3,135,344 |
+Commitments and contingencies (Note 20)
+| | |
+Stockholders’ equity: |
+Preferred stock – par value $ 0.01 ; 20,000,000 shares authorized; zero shares issued and outstanding
+| — | — |
+Common stock – par value $ 0.01 ; 290,000,000 shares authorized; 141,897,511 and 141,016,300 shares issued and outstanding
+| 1,419 | 1,410 |
+Additional paid-in capital | 5,655,535 | 5,953,057 |
+Accumulated other comprehensive loss | ( 65,028 ) | ( 55,035 ) |
+Accumulated deficit | ( 2,535,188 ) | ( 3,170,109 ) |
+Total stockholders’ equity | 3,056,738 | 2,729,323 |
+Total liabilities and stockholders’ equity | $ | 7,997,240 | $ | 5,864,667 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+5
+CIENA CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands) (unaudited)
+Nine Months Ended |
+August 1, | August 2, |
+2026 | 2025 |
+Cash flows provided by operating activities: |
+Net income | $ | 634,921 | $ | 103,849 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Loss on extinguishment of debt | 7,143 | 159 |
+Depreciation of equipment, building, furniture and fixtures, and amortization of leasehold improvements | 102,347 | 76,637 |
+Share-based compensation expense | 163,178 | 135,696 |
+Amortization of intangible assets | 35,386 | 26,343 |
+Deferred taxes | 49,266 | ( 21,709 ) |
+Provision for inventory excess and obsolescence | 72,428 | 34,185 |
+Provision for warranty | 30,050 | 16,302 |
+Other | ( 724 ) | ( 1,997 ) |
+Changes in assets and liabilities: |
+Accounts receivable | ( 251,531 ) | ( 116,887 ) |
+Inventories | ( 118,334 ) | ( 73,493 ) |
+Prepaid expenses and other | ( 111,567 ) | 137,440 |
+Operating lease right-of-use assets | 7,956 | 8,759 |
+Accounts payable, accruals and other obligations | 66,956 | 83,354 |
+Deferred revenue | 6,764 | 38,246 |
+Short- and long-term operating lease liabilities | ( 10,633 ) | ( 11,868 ) |
+Net cash provided by operating activities | 683,606 | 435,016 |
+Cash flows used in investing activities: |
+Payments for equipment, furniture and fixtures | ( 194,893 ) | ( 95,373 ) |
+Purchases of investments | ( 325,629 ) | ( 191,335 ) |
+Proceeds from sales and maturities of investments | 203,097 | 261,611 |
+Settlement of foreign currency forward contracts, net | 2,259 | ( 2,635 ) |
+Net cash used in investing activities | ( 315,166 ) | ( 27,732 ) |
+Cash flows provided by (used in) financing activities: |
+Proceeds from modification of debt, net | — | 19,175 |
+Cash paid for extinguishment of debt | ( 1,140,930 ) | ( 19,175 ) |
+Payment of long-term debt | ( 5,790 ) | ( 8,685 ) |
+Payment for convertible bond hedge | ( 988,425 ) | — |
+Proceeds from sale of warrants | 873,425 | — |
+Proceeds from issuance of convertible notes | 2,875,000 | — |
+Payment of debt issuance costs | ( 43,622 ) | ( 12 ) |
+Payment of finance lease obligations | ( 3,572 ) | ( 3,244 ) |
+Shares repurchased for tax withholdings on vesting of stock unit awards | ( 278,338 ) | ( 60,043 ) |
+Repurchases of common stock - repurchase program, net | ( 337,914 ) | ( 250,035 ) |
+Proceeds from issuance of common stock | 38,025 | 35,874 |
+Net cash provided by (used in) financing activities | 987,859 | ( 286,145 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | ( 2,554 ) | 60 |
+Net increase in cash, cash equivalents and restricted cash | 1,353,745 | 121,199 |
+Cash, cash equivalents and

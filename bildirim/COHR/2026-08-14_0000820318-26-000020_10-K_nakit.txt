@@ -1,0 +1,91 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm
+SEMBOL: COHR
+BASVURU_TARIHI: 2026-08-14
+BASVURU: 0000820318-26-000020
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows
+($000)
+Year Ended June 30, | 2026 | 2025 | 2024 |
+Cash Flows from Operating Activities |
+Net earnings (loss) | $ | 786,884 | $ | 30,057 | $ | ( 158,764 ) |
+Adjustments to reconcile net earnings (loss) to net cash provided by operating activities: |
+Depreciation | 241,561 | 250,810 | 271,601 |
+Amortization | 280,334 | 302,788 | 288,160 |
+Share-based compensation expense | 186,468 | 160,239 | 126,049 |
+Non-cash restructuring and impairment charges | 87,563 | 140,912 | 16,557 |
+Amortization of debt issuance costs | 17,560 | 19,774 | 17,652 |
+Loss on disposals of property, plant & equipment | 599 | 782 | 758 |
+Unrealized losses (gains) on foreign currency remeasurements and transactions | ( 24,792 ) | 33,122 | ( 10,556 ) |
+Loss (earnings) from equity investments | ( 690 ) | ( 1,316 ) | 51 |
+Deferred income taxes | ( 198,732 ) | ( 95,434 ) | ( 112,096 ) |
+Gain on sale of business | ( 124,133 ) | — | — |
+Gain on sale of equity investment | ( 73,998 ) | — | — |
+Loss on debt extinguishment | 3,056 | — | 1,978 |
+Increase (decrease) in cash from changes in: |
+Accounts receivable | ( 367,631 ) | ( 170,444 ) | 60,581 |
+Inventories | ( 1,183,000 ) | ( 202,728 ) | ( 23,196 ) |
+Accounts payable | 748,533 | 217,357 | 205,044 |
+Contract liabilities | ( 9,307 ) | 3,182 | ( 72,818 ) |
+Income taxes | 18,175 | ( 22,118 ) | 12,251 |
+Accrued compensation and benefits | 99,397 | 62,960 | 36,894 |
+Other operating net assets (liabilities) | ( 408,333 ) | ( 96,343 ) | ( 114,415 ) |
+Net cash provided by operating activities | 79,514 | 633,600 | 545,731 |
+Cash Flows from Investing Activities |
+Additions to property, plant & equipment | ( 1,102,909 ) | ( 440,836 ) | ( 346,816 ) |
+Purchases of intangible assets | ( 7,174 ) | — | — |
+Proceeds from sale of equity investment | 89,384 | — | — |
+Proceeds from the sale of business, net of fees | 436,992 | 27,000 | — |
+Purchases of short-term investments | ( 1,025,000 ) | — | — |
+Proceeds from sales/maturities of short-term investments | 200,000 | — | — |
+Other investing activities | ( 5,017 ) | ( 379 ) | ( 3,897 ) |
+Net cash used in investing activities | ( 1,413,724 ) | ( 414,215 ) | ( 350,713 ) |
+Cash Flows from Financing Activities |
+Sale of shares to noncontrolling interests | — | — | 1,000,000 |
+Proceeds from borrowings of Term A Facility | 1,250,000 | — | — |
+Proceeds from borrowings of Term B Facility | 3,267 | — | — |
+Proceeds from borrowings of revolving credit facilities | 640,075 | 53,729 | 18,966 |
+Proceeds from borrowings of other credit facilities | 28,004 | — | — |
+Proceeds from issuance of common shares | 1,998,552 | — | — |
+Payments on existing debt | ( 1,723,437 ) | ( 436,986 ) | ( 228,802 ) |
+Payments on borrowings under revolving credit facilities | ( 676,211 ) | ( 51,661 ) | ( 19,027 ) |
+Debt issuance costs | ( 9,101 ) | — | — |
+Equity issuance costs | — | — | ( 31,840 ) |
+Proceeds from exercises of stock options and purchases of stock under employee stock purchase plan | 53,814 | 49,570 | 42,297 |
+Payments in satisfaction of employees’ minimum tax obligations | ( 77,419 ) | ( 53,992 ) | ( 22,315 ) |
+Cash dividends paid | ( 11,438 ) | ( 11,438 ) | — |
+Other financing activities | 970 | ( 948 ) | ( 1,007 ) |
+58
+Table of Contents
+Net cash provided by (used in) financing activities | 1,477,076 | ( 451,726 ) | 758,272 |
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | ( 7,383 ) | 75,568 | ( 1,170 ) |
+Net increase (decrease) in cash, cash equivalents, and restricted cash | 135,483 | ( 156,773 ) | 952,120 |
+Cash, Cash Equivalents, and Restricted Cash at Beginning of Period | 1,632,913 | 1,789,686 | 837,566 |
+Cash, Cash Equivalents, and Restricted Cash at End of Period | $ | 1,768,396 | $ | 1,632,913 | $ | 1,789,686 |
+Supplemental Information |
+Cash paid for interest | $ | 189,256 | $ | 256,704 | $ | 312,879 |
+Cash paid for income taxes | $ | 208,129 | $ | 166,849 | $ | 97,295 |
+Non-Cash Investing and Financing Activities: |
+Additions to property, plant & equipment included in accounts payable | $ | 371,779 | $ | 67,146 | $ | 63,286 |
+Conversion of Series A and B preferred stock to common stock | $ | 2,506,885 | $ | — | $ | 445,319 |
+See Notes to Consolidated Financial Statements.
+The following table provides a reconciliation of cash, cash equivalents and restricted cash reported within the Consolidated Balance Sheets that sum to the total of the same amounts shown in the Consolidated Statements of Cash Flows.
+Year Ended June 30, | 2026 | 2025 |
+($000) |
+Cash and cash equivalents | $ | 1,162,018 | $ | 909,200 |
+Restricted cash, current | 35,156 | 8,897 |
+Restricted cash, non-current | 571,222 | 714,816 |
+Total cash, cash equivalents, and restricted cash shown in the Consolidated Statements of Cash Flows | $ | 1,768,396 | $ | 1,632,913 |
+59
+Table of Contents
+Coherent Corp. and Subsidiaries
+Notes to Consolidated Financial Statements
+Note 1. Nature of Business and Summary of Significant Accounting Policies
+Nature of Business. Coherent Corp. (“Coherent,” the “Company,” “we,” “us” or “our”) is a vertically integrated manufacturing company that develops, manufactures and markets lasers, transceivers, and other optical and optoelectronic devices, modules, and systems, as well as engineered materials, for use in data center and communications, as well as industrial applications, including precision manufacturing, energy, semiconductor & display capital equipment, and instrumentation. We generate nearly all of our revenues, earnings, and cash flows from developing, manufacturing, and marketing a wide range of products and services for our end markets. Coherent has broad technical expertise and a deep technology stack in areas of importance to our products, including materials growth and fabrication of specialty materials, lasers including semiconductor and high power lasers, passive optics including isolators, transceivers, transport equipment, high power lasers for semiconductor capital equipment, display manufacturing, precision manufacturing, consumer electronics, life sciences applications, and scientific research. Many of our products include custom integrated software that we develop internally, leveraging our deep domain expertise. The Company markets its products through its direct sales force and through distributors and agents.
+The Company uses certain uncommon materials and compounds to manufacture its products. Some of these materials are available from only one proven outside source. The continued high quality of these materials is critical to the stability of our manufacturing yields.
+Consolidation. The Consolidated Financial Statements include the accounts of the Company and all of its subsidiaries. All significant intercompany accounts and transactions have been eliminated in consolidation. Certain prior year amounts have been reclassified for consistency with the current year presentation.
+Use of Estimates. The preparation of financial statements in conformity with generally accepted accounting principles in the United States (“U.S. GAAP”) requires management to make estimates and assumptions that affect the amounts reported in the consolidated financial statements and accompanying notes. Although these estimates are based on management’s best knowledge of current events and actions Coherent may undertake in the future, actual results may ultimately differ from the estimates.
+Foreign Currency Translation. For all foreign subsidiaries whose functional currency is not the U.S. dollar, the functional currency is the local currency. Assets and liabilities of those operations are translated into U.S. dollars using period-end exchange rates while income and expenses are translated using the average exchange rates for the reporting period. Translation adjustments are recorded as Accumulated other comprehensive income (loss) within Shareholders’ equity in the accompanying Consolidated Balance Sheets.
+Cash, Cash Equivalents, and Restricted Cash. We consider highly liquid investment instruments with an original maturity of three months or less to be cash equivalents. As of June 30, 2026, we had restricted cash of $ 606 million that is restricted for a specific purpose, with $ 35 million and $ 571 million recorded in Restricted cash, current and Restricted cash, non-current, respectively, on our Consolidated Balance Sheet.
+Allowance for Expected Credit Losses. We recognize expected credit losses resulting from the inability of our customers to make required payments through an allowance account that is measured each reporting date. We estimate credit losses over the life of our trade accounts receivable using a combination of historical loss data, current credit conditions, specific customer circumstances, and reasonable and supportable forecasts of future economic conditions.
+Inventories. Inventories are valued at the lower of cost or net realizable value, with cost determined on the first-in, first-out basis. Inventory costs include material, lab

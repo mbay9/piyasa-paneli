@@ -1,0 +1,102 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1590364/000162828026051412/ftai-20260630.htm
+SEMBOL: FTAI
+BASVURU_TARIHI: 2026-07-31
+BASVURU: 0001628280-26-051412
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (unaudited)
+(Dollars in thousands)
+Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 262,993 | $ | 267,784 |
+Adjustments to reconcile net income to net cash used in operating activities: |
+Equity in losses of unconsolidated entities (1)
+| ( 7,607 ) | 12,617 |
+Gain on sale of assets | ( 177,937 ) | ( 226,116 ) |
+Gain on sale of assets to the 2025 Partnership | ( 17,633 ) | ( 45,474 ) |
+Gain on insurance recoveries | ( 49,545 ) | ( 54,325 ) |
+Security deposits and maintenance claims included in earnings | ( 5,140 ) | ( 31,167 ) |
+Equity-based compensation | 13,679 | 10,404 |
+Depreciation and amortization | 99,275 | 114,798 |
+Deferred income taxes | 15,199 | 47,799 |
+Change in fair value of guarantees | 817 | 2,071 |
+Amortization of lease intangibles and incentives | 12,356 | 19,266 |
+Amortization of deferred financing costs | 6,035 | 5,749 |
+Other | 2,920 | 275 |
+Change in: |
+Accounts receivable | 36,117 | ( 18,459 ) |
+Inventory | ( 453,059 ) | ( 268,771 ) |
+Other assets | ( 68,665 ) | 13,922 |
+Accounts payable and accrued liabilities | 44,757 | 17,618 |
+Management fees payable to affiliate | — | ( 760 ) |
+Other liabilities | 20,135 | ( 3,515 ) |
+Net cash used in operating activities | ( 265,303 ) | ( 136,284 ) |
+Cash flows from investing activities: |
+Investment in unconsolidated entities | ( 99,251 ) | ( 118,727 ) |
+Return of capital from unconsolidated entities | 19,210 | — |
+Principal collections on finance leases | — | 950 |
+Principal collections on notes receivable | 2,384 | 2,010 |
+Acquisition of leasing equipment | ( 163,054 ) | ( 412,136 ) |
+Investments in financing receivables | — | ( 2,764 ) |
+Investment in promissory notes
+| ( 1,907 ) | — |
+Acquisition of property, plant and equipment | ( 24,016 ) | ( 11,085 ) |
+Acquisition of lease intangibles | ( 1,034 ) | 2,757 |
+Deposits for acquisition of leasing equipment (2)
+| ( 63,380 ) | ( 50,221 ) |
+Proceeds from sale of assets | 617,342 | 589,337 |
+Proceeds from sale of assets to the 2025 Partnership | 175,657 | 397,148 |
+Proceeds from settlement of insurance claims | 48,333 | 54,325 |
+Proceeds from deposits on sale of leasing equipment | — | 251 |
+Return of deposits for acquisition of leasing equipment (2)
+| 5,430 | 44,303 |
+Net cash provided by investing activities | $ | 515,714 | $ | 496,148 |
+See accompanying notes to consolidated financial statements.
+9
+FTAI AVIATION LTD.
+CONSOLIDATED STATEMENTS OF CASH FLOWS (unaudited)
+(Dollars in thousands)
+Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from financing activities: |
+Proceeds from debt | $ | 625,000 | $ | 430,000 |
+Repayment of debt | ( 625,000 ) | ( 430,000 ) |
+Payment of deferred financing costs | ( 11,970 ) | ( 517 ) |
+Receipt of security deposits under operating lease agreements | 100 | 2,606 |
+Return of security deposits under operating lease agreements | ( 1,091 ) | ( 2,434 ) |
+Receipt of maintenance deposits under operating lease agreements | 12,558 | 28,162 |
+Release of maintenance deposits under operating lease agreements | ( 5,720 ) | ( 5,361 ) |
+Settlement of equity-based compensation | ( 7,464 ) | — |
+Redemption of preferred shares | ( 105,493 ) | ( 124,167 ) |
+Cash dividends - ordinary shares | ( 87,194 ) | ( 61,534 ) |
+Cash dividends - preferred shares | ( 7,418 ) | ( 9,824 ) |
+Net cash used in financing activities | $ | ( 213,692 ) | $ | ( 173,069 ) |
+Net increase in cash and cash equivalents and restricted cash | 36,719 | 186,795 |
+Cash and cash equivalents and restricted cash, beginning of period | 300,626 | 115,266 |
+Cash and cash equivalents and restricted cash, end of period | $ | 337,345 | $ | 302,061 |
+Supplemental disclosure of non-cash investing and financing activities
+(see Note 2 for additional non-cash information): |
+Receipt of notes receivable in connection with the sale of leasing equipment | $ | 48,028 | $ | 12,102 |
+Acquisition of leasing equipment in accrued liabilities | ( 19,548 ) | ( 18,587 ) |
+Purchase deposits reclassified to leasing equipment from other assets upon acquisition | — | ( 47,017 ) |
+Accounts receivable settled with maintenance deposits | ( 6,692 ) | ( 9,248 ) |
+(1) Includes the profit elimination of $( 16,597 ) for the six months ended June 30, 2026 (2025 - $( 11,885 )) for sales to the 2025 Partnership within the Aerospace Products segment.
+(2) Includes deposits for acquisition of leasing equipment paid on behalf of the 2025 Partnership of $ 0 for the six months ended June 30, 2026 (2025 - $ 23,473 ), and return of deposits for the acquisition of leasing equipment reimbursed from the 2025 Partnership of $ 0 for the six months ended June 30, 2026 (2025 - $ 42,813 ).
+See accompanying notes to consolidated financial statements.
+10
+FTAI AVIATION LTD.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (unaudited)
+(Dollars in tables in thousands, unless otherwise noted)
+1. ORGANIZATION
+This report on Form 10-Q should be read in conjunction with the FTAI Aviation Ltd. (“FTAI”, “FTAI Aviation” or “the Company”) Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (“Form 10-K”).
+FTAI Aviation is a Cayman Islands exempted company which, through its subsidiaries, is a leading independent engine maintenance platform focused on the CFM56-5B, CFM56-7B and V2500 aircraft engines which power the 737NG and A320ceo aircraft. The Company repairs and rebuilds engines and aftermarket components of engines as well as develops and manufactures Parts Manufacturer Approval (“PMA”) parts through a joint venture. Additionally, the Company owns and manages leased aircraft and engines to airlines and asset owners globally. On December 30, 2025, the Company announced the launch of FTAI Power, a platform focused on converting CFM56 aircraft engines to aeroderivative power turbines. The Company has two reportable segments, (i) Aerospace Products and (ii) Aviation Leasing (see Note 11).
+The Company conducts engine maintenance at its 100% owned facilities in Montréal, Miami, Lisbon, and Orange, as well as through its 50 % equity ownership in QuickTurn Europe, located in Rome, and 50 % equity ownership in Prime Engine Accessories, located in Bristol. Collectively, these facilities span over one million square feet and are equipped with advanced tooling, engine test cells, and engineering capabilities to support a wide range of component repairs and service requirements. In addition, the Company also supports global operations through exclusive arrangements and strategic partnerships at key locations worldwide. The Company’s principal corporate location is in New York City, and has a global presence through offices in Cardiff, Dubai, Dublin and Singapore, in addition to Montréal, Miami, Orange, Lisbon, Rome, Bristol and Indianapolis.
+The majority of FTAI’s target customers are small and medium sized airlines which have narrowbody fleets powered by CFM56-5B, CFM56-7B and V2500 engines. There are hundreds of these operators worldwide, which creates a large addressable market in which FTAI focuses and can provide significant value versus competitors.
+2. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Basis of Accounting — The accompanying consolidated financial statements are prepared in accordance with U.S. generally accepted accounting principles (“U.S. GAAP”) and include the accounts of the Company and its subsidiaries.
+Principles of Consolidation — The Company consolidates all entities in which it has a controlling financial interest and control over significant operating decisions. All adjustments (consisting of normal recurring accruals) considered necessary for a fair presentation have been included.
+The Company uses the equity method of accounting for investments in entities in which it exercises significant influence, but which does not meet the requirements for consolidation. Under the equity method, the Company records its proportionate share of the underlying net income (loss) of these entities.
+Use of Estimates — The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, the disclosure of contingent assets and liabilities at the date of the consolidated financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from those estimates.
+Reclassifications — Certain amounts from prior periods in the Company’s consolidated financial statements have been reclassified to align with the presentation in the current period.
+Risks and Uncertainties — In the normal course of business, the Company encounters several significant types of economic risk including credit, market, and capital market risks. Credit risk is the risk of the inability or unwillingness of a lessee or customer to make contractually required payments or to fulfill its other contractual obligations. Market risk reflects the risk of a downturn or volatility in the u

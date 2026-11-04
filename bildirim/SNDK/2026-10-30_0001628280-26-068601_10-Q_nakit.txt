@@ -1,0 +1,107 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm
+SEMBOL: SNDK
+BASVURU_TARIHI: 2026-10-30
+BASVURU: 0001628280-26-068601
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+Three Months Ended |
+October 2,
+2026 | October 3,
+2025 |
+Cash flows from operating activities |
+Net income | $ | 8,101 | $ | 112 |
+Adjustments to reconcile net income to net cash provided by operations: |
+Depreciation and amortization | 43 | 36 |
+Stock-based compensation | 91 | 53 |
+Deferred income taxes | ( 20 ) | 3 |
+Gain on equity securities, net | ( 513 ) | — |
+Unrealized foreign exchange (gain) loss | ( 15 ) | 1 |
+Loss on business divestiture | — | 10 |
+Amortization of debt issuance costs and discounts | 1 | 2 |
+Equity loss in investees, net of dividends received | 18 | 27 |
+Other non-cash operating activities, net | 4 | ( 6 ) |
+Changes in: |
+Accounts receivable, net | ( 1,877 ) | ( 125 ) |
+Inventories | ( 318 ) | 172 |
+Accounts payable | 197 | 30 |
+Accounts payable to related parties | 89 | 86 |
+Accrued expenses | ( 24 ) | ( 65 ) |
+Accrued compensation | ( 215 ) | 35 |
+Refund liability | 97 | 25 |
+Contract liabilities | 287 | ( 3 ) |
+Income taxes payable | 403 | ( 40 ) |
+Other assets and liabilities, net | 14 | 135 |
+Net cash provided by operating activities | 6,363 | 488 |
+Cash flows from investing activities |
+Purchases of short-term investments | ( 70 ) | — |
+Purchases of property, plant and equipment | ( 54 ) | ( 50 ) |
+Proceeds from dispositions of business | 34 | 25 |
+Notes receivable issuances to Flash Ventures | ( 151 ) | ( 87 ) |
+Notes receivable proceeds from Flash Ventures | 3 | 97 |
+Net cash used in investing activities | ( 238 ) | ( 15 ) |
+Cash flows from financing activities |
+Taxes paid on vested stock awards under employee stock plans | ( 755 ) | ( 15 ) |
+Repurchases of common stock | ( 5,000 ) | — |
+Repayment of debt | — | ( 500 ) |
+Net cash used in financing activities | ( 5,755 ) | ( 515 ) |
+Effect of exchange rate changes on cash | 4 | 3 |
+Net increase (decrease) in cash and cash equivalents | 374 | ( 39 ) |
+Cash and cash equivalents, beginning of year | 4,762 | 1,481 |
+Cash and cash equivalents, end of period | $ | 5,136 | $ | 1,442 |
+Supplemental disclosure of cash flow information: |
+Cash paid for interest | $ | 2 | $ | 48 |
+Cash received for interest | 51 | 16 |
+Cash paid for income taxes | 865 | 39 |
+Accrued purchases of long-lived assets | 20 | — |
+Unpaid taxes relating to vested stock awards and repurchases of common stock | 47 | — |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+8
+Table of Contents
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
+(in millions)
+(Unaudited)
+Common Stock* | Treasury Stock |
+Shares | Amount | Shares | Amount | Additional Paid in Capital | Retained Earnings | Accumulated Other Comprehensive Loss | Total* |
+Balance at July 3, 2026 | 149 | $ | 1 | ( 3 ) | $ | ( 4,537 ) | $ | 10,879 | $ | 9,649 | $ | ( 256 ) | $ | 15,736 |
+Net income | — | — | — | — | — | 8,101 | — | 8,101 |
+Employee stock plans | 1 | — | — | — | ( 759 ) | — | — | ( 758 ) |
+Repurchases of common stock | — | — | ( 3 ) | ( 5,044 ) | — | — | — | ( 5,044 ) |
+Foreign currency translation adjustment | — | — | — | — | — | — | 8 | 8 |
+Net unrealized gain on derivative contracts | — | — | — | — | — | — | — | — |
+Stock-based compensation | — | — | — | — | 91 | — | — | 91 |
+Balance at October 2, 2026* | 150 | $ | 2 | ( 6 ) | $ | ( 9,581 ) | $ | 10,211 | $ | 17,750 | $ | ( 248 ) | $ | 18,134 |
+* Amounts may not sum due to rounding.
+Common Stock | Treasury Stock |
+Shares | Amount | Shares | Amount | Additional Paid in Capital | Accumulated Deficit | Accumulated Other Comprehensive Loss | Total |
+Balance at June 27, 2025 | 146 | $ | 1 | — | $ | — | $ | 11,248 | $ | ( 1,784 ) | $ | ( 249 ) | $ | 9,216 |
+Net income | — | — | — | — | — | 112 | — | 112 |
+Employee stock plans | 1 | — | — | — | ( 15 ) | — | — | ( 15 ) |
+Repurchases of common stock | — | — | — | — | — | — | — | — |
+Foreign currency translation adjustment | — | — | — | — | — | — | ( 14 ) | ( 14 ) |
+Net unrealized gain on derivative contracts | — | — | — | — | — | — | 29 | 29 |
+Stock-based compensation | — | — | — | — | 53 | — | — | 53 |
+Balance at October 3, 2025 | 147 | $ | 1 | — | $ | — | $ | 11,286 | $ | ( 1,672 ) | $ | ( 234 ) | $ | 9,381 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+9
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Organization, Basis of Presentation and Summary of Significant Accounting Policies
+Description of the Company
+Sandisk Corporation (“Sandisk” or the “Company”) is a leading global semiconductor memory company with more than 30 years of innovation in NAND flash technology. Sandisk is a vertically integrated solutions provider with ownership of chip-level design and IP, front and back-end manufacturing, as well as systems engineering and design. Sandisk’s broad and ever-expanding portfolio delivers powerful flash storage solutions for artificial intelligence (“AI”) workloads in datacenters, edge devices, and consumer applications. Sandisk’s technologies enable everyone from students, gamers, and home offices to the largest enterprises and public clouds to produce, analyze, and store data. The Company’s solutions include a broad range of solid-state drives, embedded products, removable cards, universal serial bus drives and wafers and components. The Company’s broad portfolio of technology and products addresses multiple end markets of “Datacenter”, “Edge”, and “Consumer.” The Company operates primarily in the United States (“U.S.”), and also internationally, with a significant concentration in the Asia Pacific region.
+On October 30, 2023, Western Digital Corporation (“WDC”) announced that its board of directors (the “WDC Board of Directors”) authorized WDC management to pursue a plan to separate the Company into an independent public company (the “separation” or the “spin-off”). The separation was completed on February 21, 2025. Prior to February 21, 2025, the Company was wholly owned by WDC.
+On February 21, 2025, WDC executed the spin-off of the Company through WDC’s pro rata distribution of 116,035,464 , or 80.1 %, of the Company’s then-outstanding shares of common stock to holders of WDC’s common stock. Following the distribution, the Company became an independent publicly listed company, and on February 24, 2025, the Company began trading under the stock symbol “SNDK” on Nasdaq. Each WDC stockholder received one-third (1/3) of one share of the Company’s common stock for each share of WDC’s common stock held by such WDC stockholder as of February 12, 2025, the record date of the distribution, and WDC retained ownership of 19.9 % of the outstanding shares of the Company’s common stock. As of July 3, 2026, WDC has sold or exchanged all of such shares of the Company’s common stock.
+In connection with the separation, on February 21, 2025 the Company entered into definitive agreements with WDC that set forth the terms and conditions of the spin-off and provided a framework for the relationship between WDC and the Company following the separation. These agreements include the Separation and Distribution Agreement, which contains certain key provisions related to the spin-off, as well as a Transition Services Agreement, a Tax Matters Agreement, an Employee Matters Agreement, an Intellectual Property Cross-License Agreement, a Transitional Trademark License Agreement, and a Stockholder and Registration Rights Agreement. The Tax Matters Agreement and Employee Matters Agreement remain in effect for the current and comparative periods, as disclosed in Note 10, Related Parties and Related Commitments and Contingencies—Transactions with Western Digital Corporation.
+Basis of Presentation
+On February 21, 2025, the Company became a standalone publicly traded company, and the Company’s financial statements are now presented on a condensed consolidated basis. Prior to the separation, the Company’s historical condensed consolidated financial information was derived from WDC’s condensed consolidated financial statements and accounting records and prepared as if the Company existed on a standalone basis. The financial statements for all periods presented, including the historical results of the Company prior to February 21, 2025, are now referred to as “Condensed Consolidated Financial Statements” and have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) and the policies and practices that are generally accepted in the industry in which it operates.
+Reclassifications
+Certain prior period presentations in the Condensed Consolidated Financial Statements have been reclassified to conform to the current period presentation. The prior period presentation in Note 9, Segment Reporting, was reclassified to conform with current period presentation. These changes in presentation do not affect any previously reported results.
+10
+Table of Contents
+SANDISK CORPORATION
+NOTES TO 

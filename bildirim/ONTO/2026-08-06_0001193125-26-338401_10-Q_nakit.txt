@@ -1,0 +1,1668 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/704532/000119312526338401/onto-20260630.htm
+SEMBOL: ONTO
+BASVURU_TARIHI: 2026-08-06
+BASVURU: 0001193125-26-338401
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the six months ended June 30, 2026 and June 28, 2025
+|
+4
+|
+|
+Condensed Consolidated Statements of Stockholders’ Equity for the three and six months ended June 30, 2026 and June 28, 2025
+|
+5
+|
+|
+Notes to Condensed Consolidated Financial Statements
+|
+7
+|
+Item 2.
+|
+Management’s Discussion and Analysis of Financial Condition and Results of Operations
+|
+22
+|
+Item 3.
+|
+Quantitative and Qualitative Disclosures about Market Risk
+|
+29
+|
+Item 4.
+|
+Controls and Procedures
+|
+29
+|
+|
+|
+|
+|
+PART II OTHER INFORMATION
+|
+|
+|
+|
+|
+Item 1.
+|
+Legal Proceedings
+|
+29
+|
+Item 1A.
+|
+Risk Factors
+|
+29
+|
+Item 2.
+|
+Unregistered Sales of Equity Securities and Use of Proceeds
+|
+31
+|
+Item 3.
+|
+Defaults Upon Senior Securities
+|
+32
+|
+Item 4.
+|
+Mine Safety Disclosures
+|
+32
+|
+Item 5.
+|
+Other Information
+|
+32
+|
+Item 6.
+|
+Exhibits
+|
+34
+|
+Signatures
+Table of Contents
+PART I FINANCIAL INFORMATION
+Item 1. Financial Statements
+ONTO INNOVATION INC.
+CONDENSED CONSOLIDATED S TATEMENTS OF OPERATIONS
+(In thousands, except per share data)
+(Unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+Six Months Ended
+|
+|
+|
+|
+June 30,
+|
+|
+|
+June 28,
+|
+|
+|
+June 30,
+|
+|
+|
+June 28,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Revenue
+|
+|
+$
+|
+343,129
+|
+|
+|
+$
+|
+253,597
+|
+|
+|
+$
+|
+635,078
+|
+|
+|
+$
+|
+520,204
+|
+|
+Cost of revenue
+|
+|
+|
+159,875
+|
+|
+|
+|
+131,475
+|
+|
+|
+|
+305,435
+|
+|
+|
+|
+254,849
+|
+|
+Gross profit
+|
+|
+|
+183,254
+|
+|
+|
+|
+122,122
+|
+|
+|
+|
+329,643
+|
+|
+|
+|
+265,355
+|
+|
+Operating expenses:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Research and development
+|
+|
+|
+38,879
+|
+|
+|
+|
+35,292
+|
+|
+|
+|
+73,977
+|
+|
+|
+|
+63,322
+|
+|
+Sales and marketing
+|
+|
+|
+23,105
+|
+|
+|
+|
+14,910
+|
+|
+|
+|
+44,564
+|
+|
+|
+|
+34,626
+|
+|
+General and administrative
+|
+|
+|
+34,260
+|
+|
+|
+|
+25,003
+|
+|
+|
+|
+65,669
+|
+|
+|
+|
+47,788
+|
+|
+Amortization
+|
+|
+|
+19,699
+|
+|
+|
+|
+8,446
+|
+|
+|
+|
+39,399
+|
+|
+|
+|
+16,891
+|
+|
+Restructuring and other
+|
+|
+|
+3,761
+|
+|
+|
+|
+6,224
+|
+|
+|
+|
+8,970
+|
+|
+|
+|
+7,347
+|
+|
+Total operating expenses
+|
+|
+|
+119,704
+|
+|
+|
+|
+89,875
+|
+|
+|
+|
+232,579
+|
+|
+|
+|
+169,974
+|
+|
+Operating income
+|
+|
+|
+63,550
+|
+|
+|
+|
+32,247
+|
+|
+|
+|
+97,064
+|
+|
+|
+|
+95,381
+|
+|
+Other income, net
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Interest income, net
+|
+|
+|
+5,245
+|
+|
+|
+|
+8,631
+|
+|
+|
+|
+10,347
+|
+|
+|
+|
+17,897
+|
+|
+Foreign currency exchange losses
+|
+|
+|
+( 139
+|
+)
+|
+|
+|
+( 1,149
+|
+)
+|
+|
+|
+( 600
+|
+)
+|
+|
+|
+( 1,911
+|
+)
+|
+Other (expense) income, net
+|
+|
+|
+( 160
+|
+)
+|
+|
+|
+12
+|
+|
+|
+|
+( 263
+|
+)
+|
+|
+|
+31
+|
+|
+Total other income, net
+|
+|
+|
+4,946
+|
+|
+|
+|
+7,494
+|
+|
+|
+|
+9,484
+|
+|
+|
+|
+16,017
+|
+|
+Income before provision for income taxes
+|
+|
+|
+68,496
+|
+|
+|
+|
+39,741
+|
+|
+|
+|
+106,548
+|
+|
+|
+|
+111,398
+|
+|
+Provision for income taxes
+|
+|
+|
+8,394
+|
+|
+|
+|
+5,830
+|
+|
+|
+|
+12,696
+|
+|
+|
+|
+13,392
+|
+|
+Net income
+|
+|
+$
+|
+60,102
+|
+|
+|
+$
+|
+33,911
+|
+|
+|
+$
+|
+93,852
+|
+|
+|
+$
+|
+98,006
+|
+|
+Earnings per share:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$
+|
+1.22
+|
+|
+|
+$
+|
+0.69
+|
+|
+|
+$
+|
+1.89
+|
+|
+|
+$
+|
+2.00
+|
+|
+Diluted
+|
+|
+$
+|
+1.21
+|
+|
+|
+$
+|
+0.69
+|
+|
+|
+$
+|
+1.88
+|
+|
+|
+$
+|
+1.99
+|
+|
+Weighted average number of shares outstanding:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+49,412
+|
+|
+|
+|
+48,925
+|
+|
+|
+|
+49,575
+|
+|
+|
+|
+49,053
+|
+|
+Diluted
+|
+|
+|
+49,682
+|
+|
+|
+|
+49,016
+|
+|
+|
+|
+49,841
+|
+|
+|
+|
+49,213
+|
+|
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+1
+Table of Contents
+ONTO INNOVATION INC.
+CONDENSED CONSOLIDATED STATEM ENTS OF COMPREHENSIVE INCOME
+(In thousands)
+(Unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+Six Months Ended
+|
+|
+|
+|
+June 30,
+|
+|
+|
+June 28,
+|
+|
+|
+June 30,
+|
+|
+|
+June 28,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Net income
+|
+|
+$
+|
+60,102
+|
+|
+|
+$
+|
+33,911
+|
+|
+|
+$
+|
+93,852
+|
+|
+|
+$
+|
+98,006
+|
+|
+Other comprehensive (loss) income, net of tax:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Change in net unrealized (losses) gains on available-for-sale marketable securities
+|
+|
+|
+( 342
+|
+)
+|
+|
+|
+( 106
+|
+)
+|
+|
+|
+( 1,001
+|
+)
+|
+|
+|
+232
+|
+|
+Change in currency translation adjustments
+|
+|
+|
+( 167
+|
+)
+|
+|
+|
+6,868
+|
+|
+|
+|
+( 2,027
+|
+)
+|
+|
+|
+8,881
+|
+|
+Total other comprehensive (loss) income, net of tax
+|
+|
+|
+( 509
+|
+)
+|
+|
+|
+6,762
+|
+|
+|
+|
+( 3,028
+|
+)
+|
+|
+|
+9,113
+|
+|
+Total comprehensive income
+|
+|
+$
+|
+59,593
+|
+|
+|
+$
+|
+40,673
+|
+|
+|
+$
+|
+90,824
+|
+|
+|
+$
+|
+107,119
+|
+|
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+2
+Table of Contents
+ONTO INNOVATION INC.
+CONDENSED CONSOLIDA TED BALANCE SHEETS
+(In thousands)
+(Unaudited)
+|
+|
+June 30,
+2026
+|
+|
+|
+January 3,
+2026
+|
+|
+ASSETS
+|
+|
+|
+|
+|
+|
+|
+Current Assets:
+|
+|
+|
+|
+|
+|
+|
+Cash and cash equivalents
+|
+|
+$
+|
+1,253,205
+|
+|
+|
+$
+|
+346,119
+|
+|
+Marketable securities
+|
+|
+|
+628,945
+|
+|
+|
+|
+293,503
+|
+|
+Accounts receivable, net of allowance of $ 2,476 at June 30, 2026 and $ 2,462 at January 3, 2026.
+|
+|
+|
+337,384
+|
+|
+|
+|
+268,932
+|
+|
+Inventories, net
+|
+|
+|
+379,243
+|
+|
+|
+|
+298,264
+|
+|
+Prepaid expenses and other current assets, net
+|
+|
+|
+43,164
+|
+|
+|
+|
+61,217
+|
+|
+Total current assets
+|
+|
+|
+2,641,941
+|
+|
+|
+|
+1,268,035
+|
+|
+Property, plant and equipment, net
+|
+|
+|
+123,717
+|
+|
+|
+|
+127,184
+|
+|
+Goodwill
+|
+|
+|
+643,468
+|
+|
+|
+|
+644,015
+|
+|
+Identifiable intangible assets, net
+|
+|
+|
+258,699
+|
+|
+|
+|
+298,098
+|
+|
+Deferred income taxes
+|
+|
+|
+4,408
+|
+|
+|
+|
+3,864
+|
+|
+Other assets
+|
+|
+|
+26,809
+|
+|
+|
+|
+26,545
+|
+|
+Total assets
+|
+|
+$
+|
+3,699,042
+|
+|
+|
+$
+|
+2,367,741
+|
+|
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+|
+|
+|
+|
+|
+|
+|
+Current liabilities:
+|
+|
+|
+|
+|
+|
+|
+Accounts payable
+|
+|
+$
+|
+139,430
+|
+|
+|
+$
+|
+107,685
+|
+|
+Accrued liabilities
+|
+|
+|
+55,286
+|
+|
+|
+|
+48,544
+|
+|
+Deferred revenue
+|
+|
+|
+35,916
+|
+|
+|
+|
+31,781
+|
+|
+Other current liabilities
+|
+|
+|
+41,013
+|
+|
+|
+|
+30,936
+|
+|
+Total current liabilities
+|
+|
+|
+271,645
+|
+|
+|
+|
+218,946
+|
+|
+2031 Notes, net
+|
+|
+|
+1,471,731
+|
+|
+|
+―
+|
+|
+Deferred and other tax liabilities
+|
+|
+|
+2,102
+|
+|
+|
+|
+20,401
+|
+|
+Other non-current liabilities
+|
+|
+|
+30,906
+|
+|
+|
+|
+27,747
+|
+|
+Total liabilities
+|
+|
+|
+1,776,384
+|
+|
+|
+|
+267,094
+|
+|
+Commitments and contingencies
+|
+|
+|
+|
+|
+|
+|
+Stockholders’ equity:
+|
+|
+|
+|
+|
+|
+|
+Common stock, $ 0.001 par value, 97,000 shares authorized, 49,033 and 49,702 issued and outstanding at June 30, 2026 and January 3, 2026, respectively.
+|
+|
+|
+50
+|
+|
+|
+|
+50
+|
+|
+Additional paid-in capital
+|
+|
+|
+1,098,020
+|
+|
+|
+|
+1,366,833
+|
+|
+Accumulated other comprehensive loss
+|
+|
+|
+( 13,049
+|
+)
+|
+|
+|
+( 10,021
+|
+)
+|
+Accumulated earnings
+|
+|
+|
+837,637
+|
+|
+|
+|
+743,785
+|
+|
+Total stockholders’ equity
+|
+|
+|
+1,922,658
+|
+|
+|
+|
+2,100,647
+|
+|
+Total liabilities and stockholders’ equity
+|
+|
+$
+|
+3,699,042
+|
+|
+|
+$
+|
+2,367,741
+|
+|
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+3
+Table of Contents
+ONTO INNOVATION INC.
+CONDENSED CONSOLIDATED S TATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+|
+|
+Six Months Ended
+|
+|
+|
+|
+June 30,
+|
+|
+|
+June 28,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+$
+|
+93,852
+|
+|
+|
+$
+|
+98,006
+|
+|
+Adjustments to reconcile net income to net cash and cash equivalents provided by operating activities:
+|
+|
+|
+|
+|
+|
+|
+Amortization of intangibles
+|
+|
+|
+39,399
+|
+|
+|
+|
+16,891
+|
+|
+Accretion of discount on marketable securities
+|
+|
+|
+( 1,199
+|
+)
+|
+|
+|
+( 3,030
+|
+)
+|
+Depreciation
+|
+|
+|
+11,611
+|
+|
+|
+|
+10,237
+|
+|
+Share-based compensation
+|
+|
+|
+17,026
+|
+|
+|
+|
+13,492
+|
+|
+Provision for inventory valuation
+|
+|
+|
+2,689
+|
+|
+|
+|
+18,060
+|
+|
+Deferred income taxes
+|
+|
+|
+1,257
+|
+|
+|
+|
+( 7,272
+|
+)
+|
+Other, net
+|
+|
+|
+( 382
+|
+)
+|
+|
+|
+4,733
+|
+|
+Changes in operating assets and liabilities
+|
+|
+|
+( 76,424
+|
+)
+|
+|
+|
+( 1,194
+|
+)
+|
+Net cash and cash equivalents provided by operating activities
+|
+|
+|
+87,829
+|
+|
+|
+|
+149,923
+|
+|
+Cash flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+Purchases of marketable securities
+|
+|
+|
+( 652,144
+|
+)
+|
+|
+|
+( 419,312
+|
+)
+|
+Proceeds from maturities and sales of marketable securities
+|
+|
+|
+316,622
+|
+|
+|
+|
+384,554
+|
+|
+Purchases of property, plant and equipment
+|
+|
+|
+( 7,242
+|
+)
+|
+|
+|
+( 22,005
+|
+)
+|
+Purchases of non-marketable equity securities
+|
+|
+|
+—
+|
+|
+|
+|
+( 8,000
+|
+)
+|
+Acquisition related adjustments
+|
+|
+|
+—
+|
+|
+|
+|
+( 57
+|
+)
+|
+Net cash and cash equivalents used in investing activities
+|
+|
+|
+( 342,764
+|
+)
+|
+|
+|
+( 64,820
+|
+)
+|
+Cash flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+Purchases and retirement of common stock
+|
+|
+|
+( 204,979
+|
+)
+|
+|
+|
+( 75,015
+|
+)
+|
+Tax payments related to shares withheld for share-based compensation plans
+|
+|
+|
+( 15,062
+|
+)
+|
+|
+|
+( 12,390
+|
+)
+|
+Issuance of shares through share-based compensation plans
+|
+|
+|
+5,927
+|
+|
+|
+|
+4,179
+|
+|
+Payment for bridge commitment fees
+|
+|
+|
+( 3,750
+|
+)
+|
+|
+|
+—
+|
+|
+Proceeds from issuance of 2031 Notes, net of issuance costs
+|
+|
+|
+1,469,779
+|
+|
+|
+|
+—
+|
+|
+Payment for capped call options
+|
+|
+|
+( 88,950
+|
+)
+|
+|
+|
+—
+|
+|
+Net cash and cash equivalents provided by (used in) financing activities
+|
+|
+|
+1,162,965
+|
+|
+|
+|
+( 83,226
+|
+)
+|
+Effect of exchange rate changes on cash and cash equivalents
+|
+|
+|
+( 944
+|
+)
+|
+|
+|
+2,648
+|
+|
+Net increase in cash and cash equivalents
+|
+|
+|
+907,086
+|
+|
+|
+|
+4,525
+|
+|
+Cash and cash equivalents at beginning of period
+|
+|
+|
+346,119
+|
+|
+|
+|
+212,945
+|
+|
+Cash and cash equivalents at 

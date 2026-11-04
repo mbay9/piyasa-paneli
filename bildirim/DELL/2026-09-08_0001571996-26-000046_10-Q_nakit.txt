@@ -1,0 +1,224 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm
+SEMBOL: DELL
+BASVURU_TARIHI: 2026-09-08
+BASVURU: 0001571996-26-000046
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the six months ended July 31, 2026 and August 1, 2025
+| 8
+|
+Condensed Consolidated Statements of S hare holders’ Equity (Deficit) for the three and six months ended July 31, 2026 and August 1, 2025
+| 9
+|
+Notes to the Condensed Consolidated Financial Statements
+| 11
+|
+Note 1 — Overview and Basis of Presentation
+| 11
+|
+Note 2 — Fair Value Measurements
+| 13
+|
+Note 3 — Investments
+| 15
+|
+Note 4 — Financial Services
+| 16
+|
+Note 5 — Leases
+| 22
+|
+Note 6 — Debt
+| 24
+|
+Note 7 — Derivative Instruments and Hedging Activities
+| 26
+|
+Note 8 — Goodwill and Intangible Assets
+| 30
+|
+Note 9 — Deferred Revenue
+| 32
+|
+Note 10 — Commitments and Contingencies
+| 33
+|
+Note 11 — Income and Other Taxes
+| 35
+|
+Note 12 — Capitalization
+| 36
+|
+Note 13 — Earnings Per Share
+| 38
+|
+Note 14 — Segment Information
+| 39
+|
+Note 15 — Supplemental Consolidated Financial Information
+| 42
+|
+Note 16 — Subsequent Events
+| 44
+|
+4
+Table of Contents
+DELL TECHNOLOGIES INC.
+CONDENSED CONSOLIDATED STATEMENTS OF FINANCIAL POSITION
+(in millions; unaudited)
+July 31, 2026 | January 30, 2026 |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 11,569 | $ | 11,528 |
+Accounts receivable, net of allowance of $ 56 and $ 77
+| 22,918 | 17,585 |
+Short-term financing receivables, net of allowance of $ 186 and $ 121
+| 12,805 | 8,458 |
+Inventories | 21,290 | 10,437 |
+Other current assets | 11,965 | 9,594 |
+Total current assets | 80,547 | 57,602 |
+Property, plant, and equipment, net | 7,417 | 6,676 |
+Long-term investments | 2,679 | 1,730 |
+Long-term financing receivables, net of allowance of $ 128 and $ 92
+| 7,625 | 5,822 |
+Goodwill | 19,448 | 19,547 |
+Intangible assets, net | 4,347 | 4,533 |
+Other non-current assets | 5,330 | 5,376 |
+Total assets | $ | 127,393 | $ | 101,286 |
+LIABILITIES AND SHAREHOLDERS’ EQUITY |
+Current liabilities: |
+Short-term debt | $ | 8,481 | $ | 7,990 |
+Accounts payable | 49,723 | 33,630 |
+Accrued and other | 10,738 | 8,315 |
+Short-term deferred revenue | 14,761 | 13,334 |
+Total current liabilities | 83,703 | 63,269 |
+Long-term debt | 25,985 | 23,513 |
+Long-term deferred revenue | 14,957 | 13,596 |
+Other non-current liabilities | 4,175 | 3,378 |
+Total liabilities | $ | 128,820 | $ | 103,756 |
+Commitments and contingencies (Note 10)
+| | |
+Shareholders’ equity (deficit): |
+Common stock and capital in excess of $ 0.01 par value
+| $ | 9,277 | $ | 9,457 |
+Treasury stock at cost | ( 20,010 ) | ( 14,533 ) |
+Retained earnings | 10,065 | 3,325 |
+Accumulated other comprehensive loss | ( 759 ) | ( 719 ) |
+Total shareholders' equity (deficit) | ( 1,427 ) | ( 2,470 ) |
+Total liabilities and shareholders' equity | $ | 127,393 | $ | 101,286 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements .
+5
+Table of Contents
+DELL TECHNOLOGIES INC.
+CONDENSED CONSOLIDATED STATEMENTS OF INCOME
+(in millions, except per share amounts ; unaudited)
+Three Months Ended | Six Months Ended |
+July 31, 2026 | August 1, 2025 | July 31, 2026 | August 1, 2025 |
+Net revenue: |
+Products | $ | 41,112 | $ | 23,935 | $ | 79,217 | $ | 41,534 |
+Services | 5,859 | 5,841 | 11,596 | 11,620 |
+Total net revenue | 46,971 | 29,776 | 90,813 | 53,154 |
+Cost of net revenue: |
+Products | 33,990 | 21,044 | 66,842 | 36,160 |
+Services | 3,151 | 3,285 | 6,359 | 6,610 |
+Total cost of net revenue | 37,141 | 24,329 | 73,201 | 42,770 |
+Gross margin | 9,830 | 5,447 | 17,612 | 10,384 |
+Operating expenses: |
+Selling, general, and administrative | 3,336 | 2,889 | 6,479 | 5,853 |
+Research and development | 1,109 | 785 | 2,092 | 1,593 |
+Total operating expenses | 4,445 | 3,674 | 8,571 | 7,446 |
+Operating income | 5,385 | 1,773 | 9,041 | 2,938 |
+Interest and other, net | ( 254 ) | ( 333 ) | 38 | ( 415 ) |
+Income before income taxes | 5,131 | 1,440 | 9,079 | 2,523 |
+Income tax expense | 998 | 276 | 1,508 | 394 |
+Net income | $ | 4,133 | $ | 1,164 | $ | 7,571 | $ | 2,129 |
+Earnings per share: |
+Basic | $ | 6.41 | $ | 1.72 | $ | 11.70 | $ | 3.11 |
+Diluted | $ | 6.34 | $ | 1.70 | $ | 11.58 | $ | 3.07 |
+Weighted-average shares outstanding:
+|
+Basic | 645 | 678 | 647 | 685 |
+Diluted | 652 | 686 | 654 | 694 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements .
+6
+Table of Contents
+DELL TECHNOLOGIES INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in millions ; unaudited)
+Three Months Ended | Six Months Ended |
+July 31, 2026 | August 1, 2025 | July 31, 2026 | August 1, 2025 |
+Net income | $ | 4,133 | $ | 1,164 | $ | 7,571 | $ | 2,129 |
+Other comprehensive income (loss), net of tax: |
+Foreign currency translation adjustments and actuarial gains (losses) | ( 73 ) | 58 | ( 146 ) | 309 |
+Cash flow hedges: |
+Change in unrealized gains (losses) | 78 | ( 4 ) | 153 | ( 261 ) |
+Reclassification adjustment for net (gains) losses included in net income | ( 55 ) | 162 | ( 47 ) | 173 |
+Net change in cash flow hedges | 23 | 158 | 106 | ( 88 ) |
+Total other comprehensive income (loss), net of tax expense (benefit) of $ 5 and $ 13 , respectively, and $ 11 and $( 9 ), respectively
+| ( 50 ) | 216 | ( 40 ) | 221 |
+Comprehensive income, net of tax | $ | 4,083 | $ | 1,380 | $ | 7,531 | $ | 2,350 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+7
+Table of Contents
+DELL TECHNOLOGIES INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions ; unaudited)
+Six Months Ended |
+July 31, 2026 | August 1, 2025 |
+Cash flows from operating activities: |
+Net income | $ | 7,571 | $ | 2,129 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 1,512 | 1,500 |
+Stock-based compensation expense | 373 | 369 |
+Deferred income taxes | 23 | ( 127 ) |
+Other, net (a) | ( 454 ) | 389 |
+Changes in assets and liabilities: |
+Accounts receivable | ( 5,428 ) | ( 4,574 ) |
+Financing receivables | ( 6,404 ) | ( 569 ) |
+Inventories | ( 10,940 ) | ( 615 ) |
+Other assets and liabilities | 761 | 612 |
+Accounts payable | 16,203 | 6,615 |
+Deferred revenue | 3,089 | ( 390 ) |
+Change in cash from operating activities | 6,306 | 5,339 |
+Cash flows from investing activities: |
+Purchases of investments | ( 335 ) | ( 125 ) |
+Sales of equity and other investments | 90 | 59 |
+Capital expenditures and capitalized software development costs | ( 2,202 ) | ( 1,243 ) |
+Divestitures of businesses and assets, net | — | 533 |
+Other | 43 | 33 |
+Change in cash from investing activities | ( 2,404 ) | ( 743 ) |
+Cash flows from financing activities: |
+Repurchases of common stock | ( 5,424 ) | ( 2,920 ) |
+Repurchases of common stock for employee tax withholdings | ( 555 ) | ( 357 ) |
+Payments of dividends and dividend equivalents | ( 869 ) | ( 762 ) |
+Proceeds from debt | 6,851 | 7,270 |
+Repayments of debt | ( 3,805 ) | ( 3,424 ) |
+Debt-related costs and other, net | ( 34 ) | ( 35 ) |
+Change in cash from financing activities | ( 3,836 ) | ( 228 ) |
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | ( 35 ) | 104 |
+Change in cash, cash equivalents, and restricted cash | 31 | 4,472 |
+Cash, cash equivalents, and restricted cash at beginning of the period | 11,706 | 3,819 |
+Cash, cash equivalents, and restricted cash at end of the period | $ | 11,737 | $ | 8,291 |
+____________________
+(a) During the six months ended July 31, 2026, other, net, includes $ 0.6 billion of gains recognized within the Company’s strategic investments portfolio.
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+8
+Table of Contents
+DELL TECHNOLOGIES INC.
+CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY (DEFICIT)
+(in millions, except per share amounts ; unaudited; continued on next page)
+Common Stock and Capital in Excess of Par Value | Treasury Stock |
+Three Months Ended July 31, 2026 | Issued Shares | Amount | Shares | Amount | Retained Earnings | Accumulated Other Comprehensive Income (Loss) | Dell Technologies
+Shareholders' Equity (Deficit) | Non-Controlling Interests | Total Shareholders' Equity (Deficit) |
+Balances as of May 1, 2026 | 852 | $ | 9,111 | 203 | $ | ( 16,149 ) | $ | 6,343 | $ | ( 709 ) | $ | ( 1,404 ) | $ | — | $ | ( 1,404 ) |
+Net income | — | — | — | — | 4,133 | — | 4,133 | — | 4,133 |
+Dividends and dividend equivalents declared
+($ 0.630 per common share)
+| — | — | — | — | ( 411 ) | — | ( 411 ) | — | ( 411 ) |
+Other comprehensive loss, net | — | — | — | — | — | ( 50 ) | ( 50 ) | — | ( 50 ) |
+Issuance of common stock, net of shares repurchased for employee tax withholding | — | ( 18 ) | — | — | — | — | ( 18 ) | — | ( 18 ) |
+Stock-based compensation expense | — | 184 | — | — | — | — | 184 | — | 184 |
+Treasury stock repurchases | — | — | 9 | ( 3,861 ) | — | — | ( 3,861 ) | — | ( 3,861 ) |
+Balances as of July 31, 2026 | 852 | $ | 9,277 | 212 | $ | ( 20,010 ) | $ | 10,065 | $ | ( 759 ) | $ | ( 1,427 ) | $ | — | $ | ( 1,427 ) |
+Common Stock and Capital in Excess of Par Value | Treasury Stock |
+Six M

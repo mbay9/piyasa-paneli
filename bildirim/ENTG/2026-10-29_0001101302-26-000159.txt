@@ -1,0 +1,449 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1101302/000110130226000159/entgq32026ex991.htm
+SEMBOL: ENTG
+BASVURU_TARIHI: 2026-10-29
+BASVURU: 0001101302-26-000159
+
+EX-99.1
+2
+entgq32026ex991.htm
+EX-99.1
+Document
+| | | | | | | | | | | | | | |
+| | | PRESS RELEASE
+Jeffrey Schnell
+Vice President, Investor Relations
+T + 1 201 207 3029
+jeffrey.schnell@entegris.com
+|
+Exhibit 99.1
+ENTEGRIS REPORTS RESULTS FOR THIRD QUARTER OF 2026
+• Net sales of $1,006 million.
+• GAAP diluted EPS of $1.03.
+• Non-GAAP diluted EPS of $1.23.
+BILLERICA, Mass., October 29, 2026 - Entegris, Inc. (NASDAQ: ENTG), today reported its financial results for the Company’s third quarter ended September 26, 2026.
+Dave Reeder, Entegris’ President and Chief Executive Officer, said: “Entegris is executing well against an attractive long-term opportunity, driven by increasing semiconductor complexity, rising materials intensity, and investment in leading-edge technologies. Our ability to deliver the performance, quality, and reliability our customers require is helping us expand plans of record and secure new design wins, driving strong revenue growth across our unit and capex businesses. That growth, combined with disciplined execution, drove another strong quarter, highlighted by record revenue, continued margin expansion and strong earnings growth, all of which exceeded our guidance range. We also delivered record cash flow, enabling us to accelerate debt repayment and further strengthen our balance sheet. We look forward to discussing the significant opportunities ahead for Entegris and our long-term strategy in more detail at our Capital Markets Day on November 9, 2026.”
+Quarterly Financial Results Summary
+(in millions, except percentages and per share data) | | | | | | | | | | | |
+GAAP Results | Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 |
+Net sales | $1,005.7 | $807.1 | $883.2 |
+Gross margin - as a % of net sales | 49.7 | % | 43.5 | % | 47.6 | % |
+| | | |
+Operating margin - as a % of net sales | 22.9 | % | 15.2 | % | 18.6 | % |
+Net income | $157.8 | $70.5 | $93.6 |
+Diluted earnings per common share | $1.03 | $0.46 | $0.61 |
+| | | |
+| | | |
+Non-GAAP Results | Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 |
+| | | |
+Adjusted gross margin - as a % of net sales | 48.9 | % | 43.6 | % | 47.6 | % |
+Adjusted operating margin - as a % of net sales | 26.8 | % | 21.1 | % | 24.5 | % |
+Adjusted EBITDA - as a % of net sales | 30.2 | % | 27.3 | % | 28.4 | % |
+| | | |
+Diluted non-GAAP earnings per common share | $1.23 | $0.72 | $0.93 |
+Fourth Quarter of 2026 Outlook
+For the Company’s guidance for the fourth quarter ending December 31, 2026, the Company expects sales of $1,025 million to $1,055 million. The Company expects GAAP net income to be between $168 million and $181 million and diluted earnings per common share is expected to be between $1.09 and $1.17. On a non-GAAP basis, the Company expects diluted earnings per common share to range from $1.32 to $1.40, reflecting net income on a non-GAAP basis in the range of $203 million to $215 million. The Company also expects Adjusted EBITDA of approximately 30.7% to 31.2% of sales.
+Segment Results
+The Company currently operates in two segments:
+Materials Solutions (MS ): MS provides materials-based solutions, such as chemical vapor and atomic layer deposition materials, chemical mechanical planarization slurries and pads, ion implantation specialty gases, formulated etch and clean materials, and other specialty materials that enable our customers to achieve better device performance and faster time to yield, while providing for lower total cost of ownership.
+Advanced Purity Solutions (APS) : APS offers filtration, purification and contamination-control solutions that improve customers’ yield, device reliability and cost by ensuring the purity of critical liquid chemistries and gases and the cleanliness of wafers and other substrates used throughout semiconductor manufacturing processes, the semiconductor ecosystem and other high-technology industries.
+Third Quarter Results Conference Call
+Entegris will hold a conference call to discuss its results for the third quarter on Thursday, October 29 2026, at 8:00 a.m. Eastern Time. Participants should dial 833-316-1983 or +1 785-838-9310, referencing confirmation ID: ENTGQ326. Participants are asked to dial in 10 minutes prior to the start of the call. For the live webcast and replay of the call, please Click Here.
+Management’s slide presentation concerning the results for the third quarter will be posted on the Investor Relations section of www.entegris.com.
+About Entegris
+Entegris is a leading supplier of critical advanced materials and process solutions for the semiconductor and other high-technology industries. Entegris has approximately 7,700 employees throughout its global operations and is ISO 9001 certified. It has manufacturing, customer service and/or research facilities in the United States, Canada, China, Germany, Israel, Japan, Malaysia, Singapore, South Korea, and Taiwan. Additional information can be found at www.entegris.com.
+Non-GAAP Information
+The Company’s condensed consolidated financial statements are prepared in conformity with accounting principles generally accepted in the United States (GAAP). Adjusted Net Sales, Adjusted EBITDA, Adjusted Gross Profit, Adjusted Segment Profit, Adjusted Operating Income, non-GAAP Net Income, non-GAAP Adjusted Operating Margin and diluted non-GAAP Earnings Per Common Share, together with related measures thereof, are considered “non-GAAP financial measures” under the rules and regulations of the Securities and Exchange Commission. The presentation of this financial information is not intended to be considered in isolation or as a substitute for, or superior to, the financial information prepared and presented in accordance with GAAP. The Company provides supplemental non-GAAP financial measures to better understand and manage its business and believes these measures provide investors and analysts additional and meaningful information for the assessment of the Company’s ongoing results. Management also uses these non-GAAP measures to assist in the evaluation of the performance of its business segments and to make operating decisions. Management believes that the Company’s non-GAAP measures help indicate the Company’s baseline performance before certain gains, losses or other charges that may not be indicative of the Company’s business or future outlook, and that non-GAAP measures offer a more consistent view of business performance. The Company believes the non-GAAP measures aid investors’ overall understanding of the Company’s results by providing a higher degree of transparency for such items and providing a level of disclosure that will help investors generally understand how management plans, measures and evaluates the Company’s business performance. Management believes that the inclusion of non-GAAP measures provides greater consistency in its financial reporting and facilitates investors’ understanding of the Company’s historical operating trends by providing an additional basis for comparisons to prior periods. The reconciliations of GAAP net sales to Adjusted Net Sales (excluding divestiture), GAAP gross profit to Adjusted Gross Profit, GAAP segment profit to Adjusted Operating Income, GAAP net income to Adjusted Operating Income and Adjusted EBITDA, GAAP net income and diluted earnings per common share to non-GAAP Net Income and diluted non-GAAP Earnings Per Common Share and GAAP outlook to non-GAAP outlook are included elsewhere in this release.
+Entegris, Inc. - page 2 of 13
+Cautionary Note on Forward-Looking Statements
+This news release contains “forward-looking statements”. The words “believe,” “expect,” “anticipate,” “intend,” “estimate,” “forecast,” “project,” “should,” “may,” “will,” “would” or the negative thereof and similar expressions are intended to identify such forward-looking statements. These forward-looking statements are based on current management expectations and assumptions only as of the date of this news release. They are not guarantees of future performance and they involve substantial risks and uncertainties that are difficult to predict and that could cause actual results to differ materially from the results expressed in, or implied by, these forward-looking statements. Some factors that could cause actual results to differ include, but are not limited to, fluctuations in demand for semiconductors and volume of semiconductor manufacturing; global economic uncertainty, including volatile financial markets, inflation and increased costs, trade wars, fluctuations in interest rates, economic recessions, and national debt and bank failures; supply chain risks, including partial reliance on sole, single or limited source suppliers; challenges inherent in operating a global business, including managing complex political, legal, regulatory, and operational environments across the jurisdictions in which the Company operates; the impact of export controls, economic sanctions and other similar restrictions; customer concentration; the need for continuing innovation and introduction of new products; manufacturing interruptions or delays and other operational disruptions; information technology system failures, network disruptions, data breaches, and other cybersecurity threats; the impact of tariffs and a volatile trade environment; the use of hazardous materials in the Company’s operations; goodwill impairment; loss of key employees; the Company’s ability to obtain, protect, and enforce intellectual property rights; the Company’s use, and its competitors’ use, of AI; environmental, social, and governance commitments; the impact of being subject to numerous rapidly evolving environmental laws and regulations across many jurisdictions; risks related to the regulatory environment, including compliance costs and being subject to potentially inconsistent or conflicting regulations; changes in taxation or adverse tax rulings; the impact of government incentives, including added operational complexity and competition; the impact of the Company’s indebtedness, including its ability to obtain future financing; risks related to the Company’s ability to generate sufficient cash to service its indebtedness; restrictions on the Company’s operations as a result of the terms of the Amended Credit Agreement and the Indentures; the volatility of the price of the Company’s common stock; changes in capital allocation strategy; provisions in the Company’s charter documents and Delaware law may delay or prevent the Company from being acquired; significant competition; the Company’s ability to successfully acquire or integrate other businesses, form joint ventures, or divest businesses; the impact of climate change, including changes in market dynamics and stakeholder expectations, and unexpected operational disruptions; and the other factors and additional information described in the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025, filed with the Securities and Exchange Commission (the “SEC”) on February 11, 2026, including under the heading “Risk Factors” in Part I, Item 1A, and in the Company’s other periodic filings with the SEC. Except as required under the federal securities laws and the rules and regulations of the SEC, the Company undertakes no obligation to update any forward-looking statements or information contained herein, which speak as of their respective dates.
+Entegris, Inc. - page 3 of 13
+Entegris, Inc. and Subsidiaries
+Condensed Consolidated Statements of Operations
+(In millions, except per share data)
+(Unaudited) | | | | | | | | | | | | | | |
+| | Three months ended |
+| | Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 |
+Net sales | $1,005.7 | $807.1 | $883.2 |
+Cost of sales | 505.5 | 455.8 | 463.2 |
+Gross profit | 500.2 | 351.3 | 420.0 |
+Selling, general and administrative expenses | 136.5 | 101.8 | 126.5 |
+Engineering, research and development expenses | 87.5 | 80.9 | 82.8 |
+Amortization of intangible assets | 45.6 | 46.0 | 46.1 |
+| | | |
+| | | |
+Operating income | 230.6 | 122.6 | 164.6 |
+Interest expense, net | 43.9 | 46.1 | 46.7 |
+Other expense (income), net | 0.2 | 4.2 | 7.8 |
+Income before income tax expense | 186.5 | 72.3 | 110.1 |
+Income tax expense | 28.7 | 1.5 | 16.5 |
+Equity in net loss of affiliates | — | 0.3 | — |
+Net income | $157.8 | $70.5 | $93.6 |
+| | | | |
+Basic earnings per common share | $1.03 | $0.46 | $0.61 |
+Diluted earnings per common share | $1.03 | $0.46 | $0.61 |
+| | | |
+Weighted average shares outstanding: | | | |
+Basic | 153.1 | 151.8 | 152.8 |
+Diluted | 153.9 | 152.3 | 153.6 |
+Entegris, Inc. - page 4 of 13
+Entegris, Inc. and Subsidiaries
+Condensed Consolidated Statements of Operations
+(In millions, except per share data)
+(Unaudited)
+| | | | | | | | | | | | |
+| | Nine months ended | |
+| | Sep 26, 2026 | Sep 27, 2025 | |
+Net sales | $2,700.8 | $2,372.7 | |
+Cost of sales | 1,399.8 | | 1,313.4 | | |
+Gross profit | 1,301.0 | | 1,059.3 | | |
+Selling, general and administrative expenses | 380.6 | | 320.2 | | |
+Engineering, research and development expenses | 245.6 | | 250.0 | | |
+Amortization of intangible assets | 138.0 | | 138.1 | | |
+| | | |
+| | | |
+Operating income | 536.8 | | 351.0 | | |
+Interest expense, net | 137.6 | | 146.2 | | |
+Other expense, net | 9.4 | | 5.3 | | |
+Income before income tax expense | 389.8 | | 199.5 | | |
+Income tax expense | 46.2 | | 12.5 | | |
+Equity in net loss of affiliates | 0.2 | | 0.8 | | |
+Net income | $343.4 | $186.2 | |
+| | | | |
+Basic earnings per common share: | $2.25 | $1.23 | |
+Diluted earnings per common share: | $2.24 | $1.22 | |
+| | | | |
+Weighted average shares outstanding: | | | |
+Basic | 152.7 | | 151.6 | | |
+Diluted | 153.6 | | 152.1 | | |
+Entegris, Inc. - page 5 of 13
+Entegris, Inc. and Subsidiaries
+Condensed Consolidated Balance Sheets
+(In millions)
+(Unaudited) | | | | | | | | | | | | | | | | | |
+| Sep 26, 2026 | Dec 31, 2025 |
+ASSETS | | |
+Current assets: | | |
+Cash and cash equivalents | $356.5 | $360.4 |
+Trade accounts and notes receivable, net | 625.2 | 458.7 |
+Inventories, net | 769.0 | 643.2 |
+Deferred tax charges and refundable income taxes | 35.1 | 35.1 |
+| | |
+Other current assets | 134.9 | 140.8 |
+Total current assets | 1,920.7 | 1,638.2 |
+Property, plant and equipment, net | 1,621.8 | 1,636.1 |
+Right-of-use assets | 111.5 | 108.7 |
+Goodwill | 3,950.0 | 3,946.7 |
+Intangible assets, net | 769.1 | 906.9 |
+Deferred tax assets and other noncurrent tax assets | 126.8 | 91.6 |
+Other noncurrent assets | 40.7 | 22.3 |
+Total assets | $8,540.6 | $8,350.5 |
+LIABILITIES AND EQUITY | | |
+Current liabilities | | |
+| | |
+Accounts payable | $262.4 | $171.5 |
+Accrued liabilities | 404.2 | 234.7 |
+| | |
+Income taxes payable | 55.5 | 82.4 |
+Total current liabilities | 722.1 | 488.6 |
+Long-term debt | 3,260.6 | 3,697.6 |
+Long-term lease liabilities | 100.4 | 98.6 |
+Other liabilities | 124.6 | 112.3 |
+Shareholders’ equity | 4,332.9 | 3,953.4 |
+Total liabilities and equity | $8,540.6 | $8,350.5 |
+Entegris, Inc. - page 6 of 13
+Entegris, Inc. and Subsidiaries
+Condensed Consolidated Statements of Cash Flows
+(In millions)
+(unaudited)
+| | | | | | | | | | | | | | |
+| Three months ended | Nine months ended |
+| Sep 26, 2026 | Sep 27, 2025 | Sep 26, 2026 | Sep 27, 2025 |
+Operating activities: | | | | |
+Net income | $157.8 | $70.5 | $343.4 | $186.2 |
+Adjustments to reconcile net income to net cash provided by operating activities: | | | | |
+Depreciation | 33.9 | 50.4 | 102.4 | 151.6 |
+Amortization | 45.6 | 46.0 | 138.0 | 138.1 |
+Share-based compensation expense | 19.7 | 18.4 | 54.8 | 50.4 |
+Provision for deferred income taxes | 0.4 | (19.4) | (23.2) | (54.8) |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+Other | 14.4 | 14.8 | 56.4 | 56.8 |
+Changes in operating assets and liabilities: | | | | |
+Trade accounts and notes receivable | (66.3) | (1.3) | (167.5) | 7.5 |
+Inventories | (69.9) | 41.7 | (153.2) | (34.4) |
+Accounts payable and accrued liabilities | 152.2 | 60.2 | 266.7 | 34.5 |
+Income taxes payable and refundable income taxes | (15.7) | (28.9) | (24.0) | (41.5) |
+Other | (5.3) | (2.9) | 12.2 | 9.0 |
+Net cash provided by operating activities | 266.8 | 249.5 | 606.0 | 503.4 |
+Investing activities: | | | | |
+Acquisition of property, plant and equipment | (43.2) | (66.7) | (124.0) | (241.2) |
+| | | | |
+Proceeds from government incentives
+| — | 8.2 | 5.4 | 8.2 |
+| | | | |
+Other | (6.1) | (1.2) | (5.3) | (1.5) |
+Net cash used in investing activities | (49.3) | (59.7) | (123.9) | (234.5) |
+Financing activities: | | | | |
+Proceeds from debt | — | 25.0 | 65.0 | 532.0 |
+Payments of debt | (200.0) | (175.0) | (515.0) | (682.0) |
+Payments for debt issuance costs | — | — | (2.0) | — |
+Payments for dividends | (15.4) | (15.1) | (46.2) | (45.7) |
+Issuance of common stock | 1.1 | 2.1 | 33.6 | 3.6 |
+Taxes paid related to net share settlement of equity awards | (2.0) | (0.5) | (20.8) | (10.6) |
+| | | | |
+| | | | |
+Other | (0.4) | (0.4) | (1.4) | (1.4) |
+Net cash used in financing activities | (216.7) | (163.9) | (486.8) | (204.1) |
+Effect of exchange rate changes on cash and cash equivalents | 2.1 | (2.9) | 0.8 | 5.8 |
+Increase (decrease) in cash and cash equivalents | 2.9 | 23.0 | (3.9) | 70.6 |
+Cash and cash equivalents at beginning of period | 353.6 | 376.8 | 360.4 | 329.2 |
+Cash and cash equivalents at end of period | $356.5 | $399.8 | $356.5 | $399.8 |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+Entegris, Inc. - page 7 of 13
+Entegris, Inc. and Subsidiaries
+Segment Information
+(In millions)
+(Unaudited)
+| | | | | | | | | | | | | | | | | |
+| Three months ended | Nine months ended |
+Net sales | Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 | Sep 26, 2026 | Sep 27, 2025 |
+Materials Solutions | $404.1 | $348.6 | $371.3 | $1,126.5 | $1,044.9 |
+Advanced Purity Solutions | 604.9 | 460.8 | 514.6 | 1,583.1 | | 1,334.6 | |
+| | | | | |
+Inter-segment elimination | (3.3) | (2.3) | (2.7) | (8.8) | (6.8) |
+Total net sales | $1,005.7 | $807.1 | $883.2 | $2,700.8 | $2,372.7 |
+| | | | | | | | | | | | | | | | | |
+| Three months ended | Nine months ended |
+Segment profit | Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 | Sep 26, 2026 | Sep 27, 2025 |
+Materials Solutions | $84.3 | $65.2 | $77.7 | $237.9 | $212.7 |
+Advanced Purity Solutions | 212.7 | 118.2 | 150.9 | 497.2 | 322.2 |
+| | | | | |
+Total segment profit | 297.0 | 183.4 | 228.6 | 735.1 | 534.9 |
+Amortization of intangibles | (45.6) | (46.0) | (46.1) | (138.0) | (138.1) |
+Unallocated expenses | (20.8) | (14.8) | (17.9) | (60.3) | (45.8) |
+Total operating income | $230.6 | $122.6 | $164.6 | $536.8 | $351.0 |
+Entegris, Inc. - page 8 of 13
+Entegris, Inc. and Subsidiaries
+Reconciliation of GAAP Gross Profit to Adjusted Gross Profit
+(In millions)
+(Unaudited)
+| | | | | | | | | | | | | | | | | |
+| Three months ended | Nine months ended |
+| Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 | Sep 26, 2026 | Sep 27, 2025 |
+Net sales | $1,005.7 | $807.1 | $883.2 | $2,700.8 | $2,372.7 |
+Gross profit-GAAP | $500.2 | $351.3 | $420.0 | $1,301.0 | $1,059.3 |
+Adjustments to gross profit: | | | | | |
+IEEPA Tariff refunds (1)
+| (8.3) | — | — | (8.3) | — |
+Restructuring costs (2)
+| 0.2 | 0.3 | 0.2 | 0.7 | 2.6 |
+| | | | | |
+Adjusted gross profit | $492.1 | $351.6 | $420.2 | $1,293.4 | $1,061.9 |
+| | | | | |
+Gross margin - as a % of net sales | 49.7 | % | 43.5 | % | 47.6 | % | 48.2 | % | 44.6 | % |
+Adjusted gross margin - as a % of net sales | 48.9 | % | 43.6 | % | 47.6 | % | 47.9 | % | 44.8 | % |
+| | | | | |
+(1) In the three months ended September 26, 2026, the Company received $8.3 million of refunds of International Emergency Economic Powers Act (IEEPA) tariffs that were recognized in cost of goods sold as incurred from April 2025 through February 2026 and were not excluded from the Company's non-GAAP results in those periods. The Company excluded the IEEPA tariff refunds from non-GAAP results because they represent a discrete, non-recurring, out-of-period recovery arising from a legal and regulatory development rather than ongoing operating performance.
+(2) Restructuring charges resulting from discrete cost saving initiatives inclusive of employee termination benefit and asset impairment charges, primarily related to (i) an internal reorganization, combining two complementary divisions into one and realigning our customer-facing organization, (ii) workforce reductions and (iii) the planned wind-down of the Company’s Life Sciences Fluid Management business.
+Entegris, Inc. - page 9 of 13
+Entegris, Inc. and Subsidiaries
+Reconciliation of GAAP Segment Profit to Adjusted Operating Income
+(In millions)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | |
+| Three months ended | Nine months ended | |
+Adjusted segment profit | Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 | Sep 26, 2026 | Sep 27, 2025 | |
+MS segment profit | $84.3 | $65.2 | $77.7 | $237.9 | $212.7 | |
+IEEPA tariff refunds (1)
+| (2.1) | | — | — | (2.1) | — | |
+Restructuring costs (2)
+| 0.1 | | 0.7 | — | 1.3 | 3.8 | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+MS adjusted segment profit | $82.3 | $65.9 | $77.7 | $237.1 | $216.5 | |
+| | | | | | |
+APS segment profit | $212.7 | $118.2 | $150.9 | $497.2 | $322.2 | |
+IEEPA tariff refunds (1)
+| (6.2) | | — | | — | | (6.2) | | — | | |
+Restructuring costs (2)
+| 1.7 | | 1.0 | | 4.9 | | 8.1 | | 13.2 | | |
+| | | | | | |
+APS adjusted segment profit | $208.2 | $119.2 | $155.8 | $499.1 | $335.4 | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+Unallocated general and administrative expenses | $20.8 | $14.8 | $17.9 | $60.3 | $45.8 | |
+| | | | | | |
+Less: unallocated restructuring costs (2)
+| 0.3 | — | (0.7) | (1.8) | (0.4) | |
+| | | | | | |
+Adjusted unallocated general and administrative expenses | $21.1 | $14.8 | $17.2 | $58.5 | $45.4 | |
+| | | | | | |
+Total adjusted segment profit | $290.5 | $185.1 | $233.5 | $736.2 | $551.9 | |
+| | | | | | |
+Less: adjusted unallocated general and administrative expenses | (21.1) | (14.8) | (17.2) | (58.5) | (45.4) | |
+Total adjusted operating income | $269.4 | $170.3 | $216.3 | $677.7 | $506.5 | |
+(1) In the three months ended September 26, 2026, the Company received $8.3 million of refunds of International Emergency Economic Powers Act (IEEPA) tariffs that were recognized in cost of goods sold as incurred from April 2025 through February 2026 and were not excluded from the Company's non-GAAP results in those periods. The Company excluded the IEEPA tariff refunds from non-GAAP results because they represent a discrete, non-recurring, out-of-period recovery arising from a legal and regulatory development rather than ongoing operating performance.
+(2) Restructuring charges resulting from discrete cost saving initiatives inclusive of employee termination benefit and asset impairment charges, primarily related to (i) an internal reorganization, combining two complementary divisions into one and realigning our customer-facing organization, (ii) workforce reductions and (iii) the planned wind-down of the Company’s Life Sciences Fluid Management business.
+Entegris, Inc. - page 10 of 13
+Entegris, Inc. and Subsidiaries
+Reconciliation of GAAP Net Income to Adjusted Operating Income and Adjusted EBITDA
+(In millions)
+(Unaudited)
+| | | | | | | | | | | | | | | | | |
+| Three months ended | Nine months ended |
+| Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 | Sep 26, 2026 | Sep 27, 2025 |
+Net sales | $1,005.7 | $807.1 | $883.2 | $2,700.8 | $2,372.7 |
+Net income | $157.8 | $70.5 | $93.6 | $343.4 | $186.2 |
+Net income - as a % of net sales | 15.7 | % | 8.7 | % | 10.6 | % | 12.7 | % | 7.8 | % |
+Adjustments to net income: | | | | | |
+Equity in net loss of affiliates | — | 0.3 | — | 0.2 | 0.8 |
+Income tax expense | 28.7 | 1.5 | 16.5 | 46.2 | 12.5 |
+Interest expense, net | 43.9 | 46.1 | 46.7 | 137.6 | 146.2 |
+Other expense, net | 0.2 | 4.2 | 7.8 | 9.4 | 5.3 |
+GAAP - Operating income | 230.6 | 122.6 | 164.6 | 536.8 | 351.0 |
+Operating margin - as a % of net sales | 22.9 | % | 15.2 | % | 18.6 | % | 19.9 | % | 14.8 | % |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+IEEPA tariff refunds (1)
+| (8.3) | — | — | (8.3) | — |
+Restructuring costs (2)
+| 1.5 | 1.7 | 5.6 | 11.2 | 17.4 |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+Amortization of intangible assets (3)
+| 45.6 | 46.0 | 46.1 | 138.0 | 138.1 |
+Adjusted operating income | 269.4 | 170.3 | 216.3 | 677.7 | 506.5 |
+Adjusted operating margin - as a % of net sales | 26.8 | % | 21.1 | % | 24.5 | % | 25.1 | % | 21.3 | % |
+Depreciation | 33.9 | 50.4 | 34.4 | 102.4 | 151.6 |
+Adjusted EBITDA | $303.3 | $220.7 | $250.7 | $780.1 | $658.1 |
+Adjusted EBITDA - as a % of net sales | 30.2 | % | 27.3 | % | 28.4 | % | 28.9 | % | 27.7 | % |
+(1) In the three months ended September 26, 2026, the Company received $8.3 million of refunds of International Emergency Economic Powers Act (IEEPA) tariffs that were recognized in cost of goods sold as incurred from April 2025 through February 2026 and were not excluded from the Company's non-GAAP results in those periods. The Company excluded the IEEPA tariff refunds from non-GAAP results because they represent a discrete, non-recurring, out-of-period recovery arising from a legal and regulatory development rather than ongoing operating performance.
+(2) Restructuring charges resulting from discrete cost saving initiatives inclusive of employee termination benefit and asset impairment charges, primarily related to (i) an internal reorganization, combining two complementary divisions into one and realigning our customer-facing organization, (ii) workforce reductions and (iii) the planned wind-down of the Company’s Life Sciences Fluid Management business.
+(3) Non-cash amortization expense associated with intangibles acquired in acquisitions.
+Entegris, Inc. - page 11 of 13
+Entegris, Inc. and Subsidiaries
+Reconciliation of GAAP Net Income and Diluted Earnings per Common Share to Non-GAAP Net Income and Diluted Non-GAAP Earnings per Common Share
+(In millions, except per share data)
+(Unaudited)
+| | | | | | | | | | | | | | | | | |
+| Three months ended | Nine months ended |
+| Sep 26, 2026 | Sep 27, 2025 | Jun 27, 2026 | Sep 26, 2026 | Sep 27, 2025 |
+GAAP net income | $157.8 | $70.5 | $93.6 | $343.4 | $186.2 |
+Adjustments to net income: | | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+IEEPA tariff refunds (1)
+| (8.3) | — | — | (8.3) | — |
+Restructuring costs (2)
+| 1.5 | 1.7 | 5.6 | 11.2 | 17.4 |
+| | | | | |
+| | | | | |
+Equity investment impairment (3)
+| — | — | 6.7 | 6.7 | — |
+Loss on extinguishment of debt (4)
+| 1.7 | 1.7 | 1.7 | 3.9 | 1.7 |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+Amortization of intangible assets (5)
+| 45.6 | 46.0 | 46.1 | 138.0 | 138.1 |
+Tax effect of adjustments to net income and discrete tax items (6)
+| (8.6) | (10.0) | (11.0) | (30.0) | (31.4) |
+Non-GAAP net income | $189.7 | $109.9 | $142.7 | $464.9 | $312.0 |
+| | | | | |
+Diluted earnings per common share | $1.03 | $0.46 | $0.61 | $2.24 | $1.22 |
+Effect of adjustments to net income | $0.21 | $0.26 | $0.32 | $0.79 | $0.83 |
+Diluted non-GAAP earnings per common share (7)
+| $1.23 | $0.72 | $0.93 | $3.03 | $2.05 |
+| | | | | |
+Diluted weighted averages shares outstanding | 153.9 | 152.3 | 153.6 | 153.6 | 152.1 |
+| | | | | |
+| | | | | |
+(1) In the three months ended September 26, 2026, the Company received $8.3 million of refunds of International Emergency Economic Powers Act (IEEPA) tariffs that were recognized in cost of goods sold as incurred from April 2025 through February 2026 and were not excluded from the Company's non-GAAP results in those periods. The Company excluded the IEEPA tariff refunds from non-GAAP results because they represent a discrete, non-recurring, out-of-period recovery arising from a legal and regulatory development rather than ongoing operating performance.
+(2) Restructuring charges resulting from discrete cost saving initiatives inclusive of employee termination benefit and asset impairment charges, primarily related to (i) an internal reorganization, combining two complementary divisions into one and realigning our customer-facing organization, (ii) workforce reductions and (iii) the planned wind-down of the Company’s Life Sciences Fluid Management business.
+(3) Equity investment impairment loss in 2026 that reduced our carrying basis to zero.
+(4) Loss on extinguishment of debt of our Term Loan Facility in 2026.
+(5) Non-cash amortization expense associated with intangibles acquired in acquisitions.
+(6) The tax effect of pre-tax adjustments to net income was calculated using the applicable marginal tax rate for each respective year.
+(7) As a result of displaying amounts in millions, the per-share components may not sum due to rounding.
+Entegris, Inc. - page 12 of 13
+Entegris, Inc. and Subsidiaries
+Reconciliation of GAAP Outlook to Non-GAAP Outlook *
+(In millions, except per share data)
+(Unaudited)
+| | | | | |
+| Fourth Quarter Outlook
+|
+Reconciliation GAAP Operating Margin to non-GAAP Operating Margin and Adjusted EBITDA Margin | December 31, 2026 |
+Net sales | $1,025 - $1,055 |
+GAAP - Operating income | $235 - $250 |
+Operating margin - as a % of net sales | 23.0% - 23.7% |
+| |
+| |
+| |
+Amortization of intangible assets | 45 | |
+Adjusted operating income | $281 - $295 |
+Adjusted operating margin - as a % of net sales | 27.4% - 27.9% |
+Depreciation | 34 | |
+Adjusted EBITDA | $315- $329 |
+Adjusted EBITDA - as a % of net sales | 30.7% - 31.2% |
+| | | | | |
+| Fourth Quarter Outlook |
+Reconciliation GAAP net income to non-GAAP net income | December 31, 2026 |
+GAAP net income | $168 - $181 |
+Adjustments to net income: | |
+| |
+| |
+| |
+Amortization of intangible assets | 45 | |
+| |
+Income tax effect | (11) | |
+Non-GAAP net income | $203- $215 |
+| |
+| |
+| |
+| | | | | |
+| Fourth Quarter Outlook |
+Reconciliation GAAP diluted earnings per share to non-GAAP diluted earnings per share | December 31, 2026 |
+Diluted earnings per common share | $1.09 - $1.17 |
+Adjustments to earnings per share: | |
+| |
+| |
+| |
+Amortization of intangible assets | 0.29 | |
+| |
+Income tax effect | (0.06) | |
+Diluted non-GAAP earnings per common share | $1.32 - $1.40 |
+| |
+*As a result of displaying amounts in millions, rounding differences may exist in the tables. | |
+### END ###
+Entegris, Inc. - page 13 of 13

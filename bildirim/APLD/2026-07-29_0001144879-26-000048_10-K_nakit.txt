@@ -1,0 +1,105 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1144879/000114487926000048/apld-20260531.htm
+SEMBOL: APLD
+BASVURU_TARIHI: 2026-07-29
+BASVURU: 0001144879-26-000048
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows (in thousands)
+Fiscal Year Ended |
+May 31, 2026 | May 31, 2025 | May 31, 2024 |
+CASH FLOW FROM OPERATING ACTIVITIES |
+Net loss | $ | ( 184,339 ) | $ | ( 231,065 ) | $ | ( 149,671 ) |
+Adjustments to reconcile net loss to net cash provided by (used in) operating activities: |
+Depreciation and amortization | 67,387 | 97,945 | 79,360 |
+Stock-based compensation | 220,135 | 22,704 | 17,362 |
+Lease expense | 10,106 | 31,661 | 13,944 |
+Gain on change in fair value of derivatives | ( 75,818 ) | — | — |
+Gain on change in fair value of investments | ( 10,840 ) | — | — |
+Loss on extinguishment of debt | — | 1,177 | — |
+Loss on extinguishment of related party debt | — | — | 2,507 |
+Loss on legal settlement | — | — | 2,380 |
+Amortization of debt issuance costs | 6,323 | 9,563 | 5,214 |
+Loss (gain) on classification of held for sale | 59,650 | ( 24,616 ) | 15,417 |
+Loss on conversion of debt | — | 33,612 | — |
+Loss on change in fair value of debt | — | 85,439 | 7,401 |
+Loss on change in fair value of related party debt | — | — | 13,812 |
+Loss on change in fair value of warrants issued | 2,212 | 6,421 | — |
+Loss on abandonment of assets | 2,398 | 1,138 | — |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 49,268 ) | ( 2,934 ) | ( 3,765 ) |
+Prepaid expenses and other current assets | ( 36,164 ) | ( 8,309 ) | 899 |
+Other assets | ( 51,483 ) | 2,979 | 327 |
+Customer deposits | 627 | 2,306 | ( 8,770 ) |
+Related party customer deposits | — | ( 1,549 ) | ( 2,261 ) |
+Deferred revenue | 947 | ( 34,080 ) | ( 9,494 ) |
+Related party deferred revenue | — | ( 1,692 ) | 168 |
+Accounts payable | ( 1,182 ) | ( 78,256 ) | 41,840 |
+Accrued liabilities | 106,223 | ( 12,127 ) | 21,601 |
+Due to customer | 5,258 | ( 8,195 ) | 13,002 |
+Lease assets and liabilities | 17,513 | ( 7,524 ) | ( 47,479 ) |
+CASH FLOW PROVIDED BY (USED IN) OPERATING ACTIVITIES | 89,685 | ( 115,402 ) | 13,794 |
+CASH FLOW USED IN INVESTING ACTIVITIES |
+Purchases of property and equipment and other assets | ( 2,865,765 ) | ( 681,603 ) | ( 141,809 ) |
+Proceeds from sale of investments | 5,000 | — | — |
+Proceeds from sale of assets | — | 25,000 | 19,852 |
+Finance lease prepayments | — | ( 6,178 ) | ( 50,089 ) |
+Loans to related parties | ( 58,632 ) | — | — |
+Purchases of investments | ( 17,000 ) | ( 4,873 ) | ( 391 ) |
+CASH FLOW USED IN INVESTING ACTIVITIES | ( 2,936,397 ) | ( 667,654 ) | ( 172,437 ) |
+CASH FLOW PROVIDED BY FINANCING ACTIVITIES |
+Repayment of finance leases | ( 99,455 ) | ( 125,073 ) | ( 59,967 ) |
+Borrowings of long-term debt | 4,955,327 | 650,083 | 116,554 |
+Borrowings of related party debt | — | — | 28,000 |
+Repayment of long-term debt | ( 521,512 ) | ( 293,045 ) | ( 21,714 ) |
+Repayment of related party debt | — | — | ( 45,500 ) |
+Payment of deferred financing costs | ( 171,885 ) | ( 42,398 ) | ( 320 ) |
+Tax payments for restricted stock upon vesting | ( 36,282 ) | ( 4,116 ) | ( 861 ) |
+Proceeds from issuance of common stock | 196,366 | 191,590 | 130,849 |
+Common stock issuance costs | ( 5,950 ) | ( 10,305 ) | ( 284 ) |
+77
+Proceeds from issuance of preferred stock | 814,998 | 198,205 | — |
+Preferred stock issuance costs | ( 11,897 ) | ( 13,812 ) | — |
+Redemption of preferred stock | ( 1,187 ) | ( 2,615 ) | — |
+Dividends issued on preferred stock | ( 6,259 ) | — | — |
+Issuance of warrants, at fair value | ( 8,250 ) | — | — |
+Exercise of warrants | 6,265 | — | — |
+Issuance of warrants by subsidiary | 4,451 | — | — |
+Proceeds from issuance of SAFE agreement included in long-term debt | — | 12,000 | — |
+Repurchase of shares | — | ( 31,342 ) | — |
+Proceeds from convertible notes | — | 450,000 | — |
+Purchase of capped call options | — | ( 51,750 ) | — |
+Purchase of prepaid forward contract | — | ( 52,736 ) | — |
+Redeemable noncontrolling interest contributions | 1,825,000 | — | — |
+Redeemable noncontrolling interest issuance costs | ( 62,904 ) | — | — |
+CASH FLOW PROVIDED BY FINANCING ACTIVITIES | $ | 6,876,826 | $ | 874,686 | $ | 146,757 |
+NET INCREASE (DECREASE) IN CASH, CASH EQUIVALENTS, AND RESTRICTED CASH | $ | 4,030,114 | $ | 91,630 | $ | ( 11,886 ) |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD, INCLUDING CASH FROM DISCONTINUED OPERATIONS | 123,318 | 31,688 | 43,574 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, END OF PERIOD, INCLUDING CASH FROM DISCONTINUED OPERATIONS | 4,153,432 | 123,318 | 31,688 |
+Less: CASH, CASH EQUIVALENTS, AND RESTRICTED CASH FROM DISCONTINUED OPERATIONS | 2 | — | — |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH FROM CONTINUED OPERATIONS | $ | 4,153,430 | $ | 123,318 | $ | 31,688 |
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION |
+Interest paid | $ | 263,402 | $ | 62,712 | $ | 17,782 |
+Income taxes paid | $ | 241 | $ | 105 | $ | 5 |
+SUPPLEMENTAL DISCLOSURE OF NON-CASH ACTIVITIES |
+Operating right-of-use assets obtained by lease obligation | $ | — | $ | 20,280 | $ | 159,153 |
+Finance right-of-use assets obtained by lease obligation | $ | 25,214 | $ | 113,674 | $ | 227,047 |
+Property and equipment in accounts payable and accrued liabilities | $ | 556,446 | $ | 246,472 | $ | 85,019 |
+Extinguishment of non-controlling interest | $ | — | $ | — | $ | 9,765 |
+Conversion of debt to common stock | $ | — | $ | 104,945 | $ | 52,060 |
+Conversion of preferred stock to common stock | $ | 875,185 | $ | 48,350 | $ | — |
+Consideration for guarantee of an affiliate's obligations | $ | 2,000 | $ | — | $ | — |
+Loss on legal settlement | $ | — | $ | — | $ | 2,380 |
+Issuance of warrants, at fair value | $ | 104,705 | $ | 136,292 | $ | 5,696 |
+Cashless exercise of warrants | $ | 1 | $ | 5 | $ | — |
+Non-cash dividends paid in-kind | $ | 62,726 | $ | — | $ | — |
+Acquisition of ChronoScale | $ | 18,110 | $ | — | $ | — |
+See accompanying notes to the consolidated financial statements
+78
+APPLIED DIGITAL CORPORATION AND SUBSIDIARIES
+Notes to the Consolidated Financial Statements
+For the Fiscal Year Ended May 31, 2026
+1. Business and Basis of Presentation
+Applied Digital Corporation (the “Company”) is a designer, builder, and operator of high-performance, sustainably engineered data centers and colocation services for artificial intelligence, cloud, networking, and blockchain workloads. The Company has two reportable segments. Financial information for each segment is contained in Note 19 - Business Segments . Previously, the Company had three reportable segments as of the fiscal quarter ended February 28, 2026. Following the May 2026 transaction as defined in Note 3 - Business Combination , ChronoScale no longer meets the criteria to be considered a reportable segment as its operating results are managed and evaluated by ChronoScale's Chief Operating Decision Maker ("CODM") rather than the Company's CODM (as described below). All references to “Applied Digital Corporation,” “we,” “us,” “our” or the “Company” mean Applied Digital Corporation and its subsidiaries.
+Principles of Consolidation and Basis of Presentation
+The consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America ("GAAP"). The consolidated financial statements include the accounts of the Company, its subsidiaries and investment products that are consolidated.
+The Company evaluates any variable interest entity ("VIE") in which the Company has a variable interest for consolidation. A VIE is an entity in which either (i) the equity investment at risk is not sufficient to permit the entity to finance its own activities without additional financial support, or (ii) where, as a group, the holders of the equity investment at risk do not possess any one of the following: (a) the power through voting or similar rights to direct the activities that most significantly impact the entity's economic performance, (b) the obligation to absorb expected losses or the right to receive expected residual returns of the entity, or (c) proportionate voting and economic interests and where substantially all of the entity's activities either involve or are conducted on behalf of an investor with disproportionately fewer voting rights. If an entity has any of these characteristics, it is considered a VIE and is required to be consolidated by its primary beneficiary. The primary beneficiary is the entity that has both the power to direct the activities that most significantly impact the VIE's economic performance and has the obligation to absorb losses of, or the right to receive benefits from, the VIE that could potentially be significant to the VIE. In evaluating whether the Company is the primary beneficiary, the Company evaluates its power to direct the most significant activities of the VIE by considering the purpose and design of the entity and the risks the entity was designed to create and pass through to its variable interest holders. A voting interest entity ("VOE") is consolidated when the Company is considered to have a controlling financial interest, which is typically present

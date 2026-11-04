@@ -1,0 +1,2433 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1370450/000110465926092028/wldn-20260806xex99d1.htm
+SEMBOL: WLDN
+BASVURU_TARIHI: 2026-08-06
+BASVURU: 0001104659-26-092028
+
+EX-99.1
+2
+wldn-20260806xex99d1.htm
+EX-99.1
+Exhibit 99.1
+​
+Willdan Group Reports
+Second Quarter Results
+​
+ANAHEIM, Calif. –August 6, 2026 – Willdan Group, Inc. (“Willdan”) (Nasdaq: WLDN) today announced its financial results for the second quarter ended July 3, 2026.
+​
+Second Quarter 2026 Highlights a
+| ● | Contract revenue of $231.0 million, up 33.2%. |
+| ● | Net revenue b of $117.2 million, up 23.5%. |
+| ● | Net income of $24.3 million, up 57.7%. |
+| ● | Adjusted EBITDA b of $33.0 million, up 50.6%. |
+| ● | GAAP Diluted EPS of $1.58, up 53.4%. |
+| ● | Adjusted Diluted EPS b of $2.07, up 38.0%. |
+​
+The first half of fiscal 2026 had one fewer week than the first half of fiscal 2025, thus normalized results are also presented.
+​
+Six Months Year to Date 2026 Highlights a
+| ● | Contract revenue of $386.1 million, up 18.5% (up 23.1% normalized). |
+| ● | Net revenue b of $209.7 million, up 16.3% (up 20.8% normalized). |
+| ● | Net income of $32.9 million, up 63.4% (up 69.7% normalized). |
+| ● | Adjusted EBITDA b of $51.1 million, up 40.6% (up 46.0% normalized). |
+| ● | GAAP Diluted EPS of $2.13, up 56.6%. |
+| ● | Adjusted Diluted EPS b of $2.98, up 39.3%. |
+​
+​
+Executive Management Comments
+“We delivered strong performance in the second quarter of 2026,” said Mike Bieber, Willdan's President and Chief Executive Officer. "Net revenue grew 23% year over year, including 18% organic growth, reflecting strong demand for our energy solutions. Margin expansion was driven by favorable business mix, operating leverage, and growth in our commercial business. We see compelling long-term opportunities from customers investing to meet growing electricity demand while improving grid reliability, resiliency, and affordability. Reflecting our strong performance and confidence in the opportunities ahead, we are raising our FY2026 financial targets.”
+​
+Fiscal Year 2026 Financial Targets
+| ● | Net Revenue b between $415 million and $430 million. |
+| ● | Adjusted EBITDA b between $103 million and $107 million. |
+| ● | Adjusted Diluted EPS b between $5.00 per share and $5.15 per share. |
+​
+Assumes 15.9 million diluted shares, 0% effective tax rate, and no future acquisitions.
+​
+Long-Term Financial Goals
+| ● | Revenue and Net Revenue 15%-20% annual growth including acquisitions. |
+| ● | Annual Adjusted EBITDA to Net Revenue margin in the high 20s%. |
+​
+a. As compared to the same period of fiscal year 2025.
+Normalized to reflect the 26-week first quarter of fiscal 2026 versus the 27-week first quarter of fiscal 2025.
+b. See “Use of Non-GAAP Financial Measures” below.
+​
+​
+Second Quarter 2026 Conference Call
+​
+Willdan will be hosting a conference call to discuss its second quarter financial results today, at 5:30 p.m. Eastern/2:30 p.m. Pacific. To access the call, listeners should dial 877-407-2988 (or 201-389-0923). The conference call will be webcast simultaneously on Willdan’s website at https://edge.media-server.com/mmc/p/qyujt8ei/.
+​
+A replay of the conference call will be available through Willdan’s website at https://ir.willdangroup.com/events-presentations.
+​
+About Willdan Group, Inc.
+​
+Willdan Group, Inc. is a technical services company focused on energy and infrastructure solutions. The Company’s solutions include energy planning and analytics, consulting, software, public finance, engineering, and program implementation. Willdan serves utilities, state and local governments, and commercial customers in the United States and Canada. For additional information, visit Willdan's website at www.willdan.com.
+​
+Use of Non-GAAP Financial Measures
+​
+“Net Revenue,” defined as contract revenue as reported in accordance with U.S. generally accepted accounting principles (“GAAP”) minus subcontractor services and other direct costs, is a non-GAAP financial measure. Net Revenue is a supplemental measure that Willdan believes enhances investors’ ability to analyze Willdan’s business trends and performance because it substantially measures the work performed by Willdan’s employees. In the course of providing services, Willdan routinely subcontracts various services. Generally, these subcontractor services and other direct costs are passed through to Willdan’s clients and, in accordance with GAAP and industry practice, are included in Willdan’s revenue when it is Willdan’s contractual responsibility to procure or manage such subcontracted activities. Because subcontractor services and other direct costs can vary significantly from project to project and period to period, changes in revenue may not necessarily be indicative of Willdan’s business trends. Accordingly, Willdan segregates subcontractor services and other direct costs from revenue to promote a better understanding of Willdan’s business by evaluating revenue exclusive of subcontract services and other direct costs associated with external service providers. A reconciliation of Willdan’s contract revenue as reported in accordance with GAAP to Net Revenue is provided at the end of this press release. A reconciliation of targeted contract revenue for fiscal year 2026 as reported in accordance with GAAP to targeted Net Revenues for fiscal year 2026, which is a forward-looking non-GAAP financial measure, is not provided because Willdan is unable to provide such reconciliation without unreasonable effort. The inability to provide a reconciliation is due to the uncertainty and inherent difficulty of predicting the subcontractor services and other director costs that are subtracted from contract revenues in order to derive Net Revenues. While subcontractor costs have increased recently, subcontractor costs can vary significantly from period to period. Subcontractor costs and other direct costs were 45.7% and 44.7% of contract revenue for the six months ended July 3, 2026 and July 4, 2025, respectively, and 46.5% of contract revenue for the fiscal year 2025.
+​
+“Adjusted EBITDA,” defined as net income plus interest expense, income tax expense, stock-based compensation, interest accretion, depreciation and amortization, transaction costs, and gain on sale of equipment, is a non-GAAP financial measure. Adjusted EBITDA is a supplemental measure used by Willdan’s management to measure Willdan’s operating performance. Willdan believes Adjusted EBITDA is useful because it allows Willdan’s management to evaluate its operating performance and compare the results of its operations from period to period and against its peers without regard to its financing methods, capital structure and non-operating expenses. Willdan uses Adjusted EBITDA to evaluate its performance for, among other things, budgeting, forecasting and incentive compensation purposes.
+​
+2
+​
+Certain items excluded from Adjusted EBITDA are significant components in understanding and assessing a company’s financial performance, such as a company’s costs of capital and stock-based compensation, as well as the historical costs of depreciable assets. A reconciliation of net income as reported in accordance with GAAP to Adjusted EBITDA is provided at the end of this press release. A reconciliation of targeted net income for fiscal year 2026 as reported in accordance with GAAP to Adjusted EBITDA for fiscal year 2026, which is a forward-looking non-GAAP financial measure, is not provided because Willdan is unable to provide such reconciliation without unreasonable effort. The inability to provide a reconciliation is due to the uncertainty and inherent difficulty of predicting the interest expense, income tax expense, stock-based compensation, interest accretion, depreciation and amortization, and gain on sale of equipment that are subtracted from net income in order to derive Adjusted EBITDA.
+​
+“Adjusted Net Income,” defined as net income plus stock-based compensation, intangible amortization, interest accretion, and transaction costs, each net of tax, is a non-GAAP financial measure.
+​
+“Adjusted Diluted EPS,” defined as net income plus stock-based compensation, intangible amortization, interest accretion, and transaction costs, each net of tax, all divided by the diluted weighted-average shares outstanding, is a non-GAAP financial measure. Adjusted Net Income and Adjusted Diluted EPS are supplemental measures used by Willdan’s management to measure its operating performance. Willdan believes Adjusted Net Income and Adjusted Diluted EPS are useful because they allow Willdan’s management to more closely evaluate and explain the operating results of Willdan’s business by removing certain non-operating expenses.
+​
+Reconciliations of net income as reported in accordance with GAAP to Adjusted Net Income and diluted EPS as reported in accordance with GAAP to Adjusted Diluted EPS are provided at the end of this press release. Reconciliations of targeted net income as reported in accordance with GAAP to targeted Adjusted Net Income for fiscal year 2026, which is a forward-looking non-GAAP financial measure, and targeted diluted EPS as reported in accordance with GAAP to targeted Adjusted Diluted EPS for fiscal year 2026, which is a forward-looking non-GAAP financial measure, are not provided because Willdan is unable to provide such reconciliations without unreasonable effort. The inability to provide such reconciliations is due to the uncertainty and inherent difficulty of predicting the stock-based compensation, intangible amortization, and interest accretion, each net of tax, that are subtracted from net income and diluted EPS in order to derive Adjusted Net Income and Adjusted Diluted EPS, respectively.
+​
+Willdan’s definitions of Net Revenue, Adjusted EBITDA, Adjusted Net Income and Adjusted Diluted EPS have limitations as analytical tools and may differ from other companies reporting similarly named measures or from similarly named measures Willdan has reported in prior periods. These measures should be considered in addition to, and not as a substitute for, or superior to, other measures of financial performance prepared in accordance with GAAP, such as contract revenue, net income and diluted EPS.
+​
+Forward Looking Statements
+​
+Statements in this press release that are not purely historical, including statements regarding Willdan’s intentions, hopes, beliefs, expectations, representations, projections, estimates, assumptions, aims, plans or predictions of the future are forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, as amended, including statements regarding electricity demand, the expected benefits of the acquisition of Burton Energy Group, LLC., and financial targets for fiscal year 2026 and long term financial goals. All statements other than statements of historical fact included in this press release are forward-looking statements. It is important to note that Willdan’s actual results could differ materially from those in any such forward-looking statements. Important factors that could cause actual results to differ materially from its expectations include, but are not limited to, Willdan’s ability to adequately complete projects in a timely manner, Willdan’s ability to compete successfully in the highly competitive energy services market, Willdan’s reliance on work from its top ten clients; changes in state, local and regional economies and government budgets; Willdan’s ability to win new contracts, to renew existing contracts and to compete effectively for contracts awarded through bidding processes; Willdan’s ability to realize the full amount of our backlog; Willdan’s ability to make principal and interest payments on its outstanding debt as they come due and to comply with financial covenants contained in its debt agreements; Willdan’s ability to manage supply chain constraints, labor shortages, elevated interest rates, and elevated inflation; Willdan’s ability to obtain financing and to refinance its outstanding debt as it matures; Willdan’s ability to successfully integrate its acquisitions and execute on its growth strategy; and Willdan’s ability to attract and retain managerial, technical, and administrative talent.
+​
+3
+​
+All written and oral forward-looking statements attributable to Willdan, or persons acting on its behalf, are expressly qualified in their entirety by the cautionary statements and risk factors disclosed from time to time in Willdan’s reports filed with the Securities and Exchange Commission, including, but not limited to, the Annual Report on Form 10-K filed for the year ended January 2, 2026, as such disclosures may be amended, supplemented or superseded from time to time by other reports Willdan files with the Securities and Exchange Commission, including subsequent Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q or Current Reports on Form 8-K. Willdan cautions investors not to place undue reliance on the forward-looking statements contained in this press release. Willdan disclaims any obligation to, and does not undertake to, update or revise any forward-looking statements in this press release unless required by law.
+​
+4
+​
+WILLDAN GROUP, INC. AND SUBSIDIARIES
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in thousands, except par value)
+(Unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| July 3,
+| ​ ​ ​
+| January 2,
+| ​
+|
+​
+| ​
+| 2026
+| ​
+| 2026
+| ​
+|
+Assets
+| ​
+|
+Current assets:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash and cash equivalents
+| ​
+| $
+| 34,870
+| ​
+| $
+| 65,919
+| ​
+|
+Restricted cash
+| ​
+| ​
+| 4,349
+| ​
+| ​
+| —
+| ​
+|
+Accounts receivable, net of allowance for doubtful accounts of $266 and $340 at July 3, 2026 and January 2, 2026, respectively
+| ​
+|
+| 84,250
+| ​
+|
+| 64,604
+| ​
+|
+Contract assets
+| ​
+|
+| 134,433
+| ​
+|
+| 107,296
+| ​
+|
+Other receivables
+| ​
+|
+| 1,668
+| ​
+|
+| 6,330
+| ​
+|
+Prepaid expenses and other current assets
+| ​
+|
+| 10,296
+| ​
+|
+| 7,528
+| ​
+|
+Total current assets
+| ​
+|
+| 269,866
+| ​
+|
+| 251,677
+| ​
+|
+Equipment and leasehold improvements, net
+| ​
+|
+| 29,595
+| ​
+|
+| 31,491
+| ​
+|
+Goodwill
+| ​
+| ​
+| 212,169
+| ​
+| ​
+| 179,530
+| ​
+|
+Right-of-use assets
+| ​
+| ​
+| 18,173
+| ​
+| ​
+| 16,600
+| ​
+|
+Other intangible assets, net
+| ​
+| ​
+| 68,933
+| ​
+| ​
+| 35,521
+| ​
+|
+Other assets
+| ​
+|
+| 1,891
+| ​
+|
+| 2,762
+| ​
+|
+Deferred income taxes, net
+| ​
+| ​
+| 34,248
+| ​
+| ​
+| 26,630
+| ​
+|
+Total assets
+| ​
+| $
+| 634,875
+| ​
+| $
+| 544,211
+| ​
+|
+Liabilities and Stockholders’ Equity
+| ​
+|
+Current liabilities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Accounts payable
+| ​
+| $
+| 62,916
+| ​
+| $
+| 45,628
+| ​
+|
+Accrued liabilities
+| ​
+|
+| 79,156
+| ​
+|
+| 82,434
+| ​
+|
+Contingent consideration payable
+| ​
+| ​
+| 15,792
+| ​
+| ​
+| 3,732
+| ​
+|
+Contract liabilities
+| ​
+|
+| 30,271
+| ​
+|
+| 21,565
+| ​
+|
+Notes payable
+| ​
+|
+| 2,500
+| ​
+|
+| 2,500
+| ​
+|
+Finance lease obligations
+| ​
+| ​
+| 1,102
+| ​
+| ​
+| 1,225
+| ​
+|
+Lease liability
+| ​
+| ​
+| 4,927
+| ​
+| ​
+| 4,670
+| ​
+|
+Total current liabilities
+| ​
+|
+| 196,664
+| ​
+|
+| 161,754
+| ​
+|
+Contingent consideration payable, less current portion
+| ​
+| ​
+| 7,015
+| ​
+| ​
+| 16,651
+| ​
+|
+Notes payable, less current portion
+| ​
+| ​
+| 64,745
+| ​
+| ​
+| 45,962
+| ​
+|
+Finance lease obligations, less current portion
+| ​
+|
+| 935
+| ​
+|
+| 1,162
+| ​
+|
+Lease liability, less current portion
+| ​
+| ​
+| 14,982
+| ​
+| ​
+| 13,762
+| ​
+|
+Other noncurrent liabilities
+| ​
+| ​
+| 69
+| ​
+| ​
+| 69
+| ​
+|
+Total liabilities
+| ​
+|
+| 284,410
+| ​
+|
+| 239,360
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Commitments and contingencies
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Stockholders’ equity:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Preferred stock, $0.01 par value, 10,000 shares authorized, no shares issued and outstanding
+| ​
+|
+| —
+| ​
+|
+| —
+| ​
+|
+Common stock, $0.01 par value, 40,000 shares authorized; 15,197 and 14,762 shares issued and outstanding at July 3, 2026 and January 2, 2026, respectively
+| ​
+|
+| 152
+| ​
+|
+| 148
+| ​
+|
+Additional paid-in capital
+| ​
+|
+| 227,805
+| ​
+|
+| 215,269
+| ​
+|
+Accumulated other comprehensive income (loss)
+| ​
+| ​
+| (71)
+| ​
+| ​
+| (270)
+| ​
+|
+Retained earnings
+| ​
+|
+| 122,579
+| ​
+|
+| 89,704
+| ​
+|
+Total stockholders’ equity
+| ​
+|
+| 350,465
+| ​
+|
+| 304,851
+| ​
+|
+Total liabilities and stockholders’ equity
+| ​
+| $
+| 634,875
+| ​
+| $
+| 544,211
+| ​
+|
+​
+​
+5
+​
+​
+WILLDAN GROUP, INC. AND SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+(in thousands, except per share amounts)
+(Unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three Months Ended
+| ​
+| Six Months Ended
+|
+​
+| ​
+| July 3,
+| ​
+| July 4,
+| ​
+| July 3,
+| ​
+| July 4,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Contract revenue
+| ​
+| $
+| 231,028
+| ​
+| $
+| 173,473
+| ​
+| $
+| 386,142
+| ​
+| $
+| 325,859
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Direct costs of contract revenue (inclusive of directly related depreciation and amortization):
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Salaries and wages
+| ​
+|
+| 29,788
+| ​
+|
+| 26,643
+| ​
+| ​
+| 59,064
+| ​
+| ​
+| 54,320
+|
+Subcontractor services and other direct costs
+| ​
+|
+| 113,786
+| ​
+|
+| 78,505
+| ​
+| ​
+| 176,468
+| ​
+| ​
+| 145,553
+|
+Total direct costs of contract revenue
+| ​
+|
+| 143,574
+| ​
+|
+| 105,148
+| ​
+| ​
+| 235,532
+| ​
+| ​
+| 199,873
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Gross profit
+| ​
+|
+| 87,454
+| ​
+|
+| 68,325
+| ​
+| ​
+| 150,610
+| ​
+| ​
+| 125,986
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+General and administrative expenses:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Salaries and wages, payroll taxes and employee benefits
+| ​
+|
+| 40,467
+| ​
+|
+| 32,576
+| ​
+| ​
+| 73,468
+| ​
+| ​
+| 63,684
+|
+Facilities and facility related
+| ​
+|
+| 2,535
+| ​
+|
+| 2,369
+| ​
+| ​
+| 4,893
+| ​
+| ​
+| 4,993
+|
+Stock-based compensation
+| ​
+|
+| 4,811
+| ​
+|
+| 3,182
+| ​
+| ​
+| 8,503
+| ​
+| ​
+| 5,608
+|
+Depreciation and amortization
+| ​
+|
+| 6,971
+| ​
+|
+| 5,504
+| ​
+| ​
+| 12,417
+| ​
+| ​
+| 9,944
+|
+Other
+| ​
+|
+| 12,936
+| ​
+|
+| 12,878
+| ​
+| ​
+| 24,303
+| ​
+| ​
+| 22,905
+|
+Total general and administrative expenses
+| ​
+|
+| 67,720
+| ​
+|
+| 56,509
+| ​
+| ​
+| 123,584
+| ​
+| ​
+| 107,134
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income (Loss) from operations
+| ​
+|
+| 19,734
+| ​
+|
+| 11,816
+| ​
+| ​
+| 27,026
+| ​
+| ​
+| 18,852
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Other income (expense):
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Interest expense, net
+| ​
+|
+| (1,086)
+| ​
+|
+| (2,186)
+| ​
+| ​
+| (1,921)
+| ​
+| ​
+| (3,988)
+|
+Other, net
+| ​
+|
+| 439
+| ​
+|
+| 551
+| ​
+| ​
+| 1,234
+| ​
+| ​
+| 510
+|
+Total other expense, net
+| ​
+|
+| (647)
+| ​
+|
+| (1,635)
+| ​
+| ​
+| (687)
+| ​
+| ​
+| (3,478)
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Income (Loss) before income taxes
+| ​
+|
+| 19,087
+| ​
+|
+| 10,181
+| ​
+| ​
+| 26,339
+| ​
+| ​
+| 15,374
+|
+Income tax (benefit) expense
+| ​
+|
+| (5,258)
+| ​
+|
+| (5,255)
+| ​
+| ​
+| (6,536)
+| ​
+| ​
+| (4,749)
+|
+Net income (loss)
+| ​
+| ​
+| 24,345
+| ​
+| ​
+| 15,436
+| ​
+| ​
+| 32,875
+| ​
+| ​
+| 20,123
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Other comprehensive income (loss):
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Unrealized gain (loss) on derivative contracts, net of tax
+| ​
+| ​
+| 80
+| ​
+| ​
+| 188
+| ​
+| ​
+| 199
+| ​
+| ​
+| 3
+|
+Comprehensive income (loss)
+| ​
+| $
+| 24,425
+| ​
+| $
+| 15,624
+| ​
+| $
+| 33,074
+| ​
+| $
+| 20,126
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Earnings (Loss) per share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic
+| ​
+| $
+| 1.62
+| ​
+| $
+| 1.07
+| ​
+| $
+| 2.21
+| ​
+| $
+| 1.41
+|
+Diluted
+| ​
+| $
+| 1.58
+| ​
+| $
+| 1.03
+| ​
+| $
+| 2.13
+| ​
+| $
+| 1.36
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Weighted-average shares outstanding:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic
+| ​
+|
+| 15,043
+| ​
+|
+| 14,444
+| ​
+| ​
+| 14,891
+| ​
+| ​
+| 14,298
+|
+Diluted
+| ​
+|
+| 15,423
+| ​
+|
+| 14,917
+| ​
+| ​
+| 15,404
+| ​
+| ​
+| 14,778
+|
+​
+​
+​
+​
+​
+6
+​
+WILLDAN GROUP, INC. AND SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands)
+(Unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Six Months Ended
+|
+​
+| ​
+| July 3,
+| ​
+| July 4,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Cash flows from operating activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income (loss)
+| ​
+| $
+| 32,875
+| ​
+| $
+| 20,123
+|
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operating activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Depreciation and amortization
+| ​
+|
+| 12,417
+| ​
+|
+| 9,944
+|
+Other non-cash items
+| ​
+| ​
+| (218)
+| ​
+| ​
+| 657
+|
+Deferred income taxes, net
+| ​
+|
+| (7,618)
+| ​
+|
+| (4,332)
+|
+(Gain) loss on sale/disposal of equipment
+| ​
+|
+| (43)
+| ​
+|
+| (23)
+|
+Provision for doubtful accounts
+| ​
+|
+| 25
+| ​
+|
+| 279
+|
+Stock-based compensation
+| ​
+|
+| 8,503
+| ​
+|
+| 5,608
+|
+Accretion and fair value adjustments of contingent consideration
+| ​
+| ​
+| 1,828
+| ​
+| ​
+| 1,254
+|
+Changes in operating assets and liabilities, net of effects from business acquisitions:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Accounts receivable
+| ​
+|
+| (12,143)
+| ​
+|
+| 16,898
+|
+Contract assets
+| ​
+|
+| (27,117)
+| ​
+|
+| (18,062)
+|
+Other receivables
+| ​
+|
+| 4,651
+| ​
+|
+| (2,346)
+|
+Prepaid expenses and other current assets
+| ​
+|
+| 3,265
+| ​
+|
+| (1,376)
+|
+Other assets
+| ​
+|
+| 895
+| ​
+|
+| (888)
+|
+Accounts payable
+| ​
+|
+| 7,150
+| ​
+|
+| 4,569
+|
+Accrued liabilities
+| ​
+|
+| (6,628)
+| ​
+|
+| (1,662)
+|
+Contract liabilities
+| ​
+|
+| 1,862
+| ​
+|
+| (2,364)
+|
+Right-of-use assets
+| ​
+|
+| (189)
+| ​
+|
+| 445
+|
+Net cash (used in) provided by operating activities
+| ​
+|
+| 19,515
+| ​
+|
+| 28,724
+|
+Cash flows from investing activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Purchase of equipment, software, and leasehold improvements
+| ​
+|
+| (3,671)
+| ​
+|
+| (4,517)
+|
+Proceeds from sale of equipment
+| ​
+| ​
+| 51
+| ​
+| ​
+| 28
+|
+Cash paid for acquisitions, net of cash acquired
+| ​
+| ​
+| (50,467)
+| ​
+| ​
+| (35,140)
+|
+Net cash (used in) provided by investing activities
+| ​
+|
+| (54,087)
+| ​
+|
+| (39,629)
+|
+Cash flows from financing activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Payments on contingent consideration
+| ​
+|
+| (8,807)
+| ​
+|
+| —
+|
+Receipt of restricted cash
+| ​
+| ​
+| 7,242
+| ​
+| ​
+| —
+|
+Payment on restricted cash
+| ​
+| ​
+| (2,893)
+| ​
+| ​
+| —
+|
+Payments on notes payable
+| ​
+| ​
+| —
+| ​
+| ​
+| (137)
+|
+Payments on debt issuance costs
+| ​
+| ​
+| —
+| ​
+| ​
+| (332)
+|
+Payments made to retire prior credit agreement
+| ​
+| ​
+| —
+| ​
+| ​
+| (90,000)
+|
+Borrowing to fund new credit agreement
+| ​
+| ​
+| —
+| ​
+| ​
+| 88,414
+|
+Borrowing under revolving credit facility
+| ​
+| ​
+| 30,000
+| ​
+| ​
+| —
+|
+Payments under revolving credit facility
+| ​
+| ​
+| (10,000)
+| ​
+| ​
+| —
+|
+Principal payments on outstanding debt
+| ​
+| ​
+| (1,250)
+| ​
+| ​
+| (28,414)
+|
+Principal payments on finance leases
+| ​
+|
+| (885)
+| ​
+|
+| (737)
+|
+Proceeds from stock option exercise
+| ​
+|
+| 1,593
+| ​
+|
+| 1,909
+|
+Proceeds from sales of common stock under employee stock purchase plan
+| ​
+|
+| 1,921
+| ​
+|
+| 1,485
+|
+Cash used to pay taxes on stock grants
+| ​
+| ​
+| (9,049)
+| ​
+| ​
+| (3,093)
+|
+Net cash (used in) provided by financing activities
+| ​
+|
+| 7,872
+| ​
+|
+| (30,905)
+|
+Net increase (decrease) in cash, cash equivalents and restricted cash
+| ​
+|
+| (26,700)
+| ​
+|
+| (41,810)
+|
+Cash, cash equivalents and restricted cash at beginning of period
+| ​
+|
+| 65,919
+| ​
+|
+| 74,158
+|
+Cash, cash equivalents and restricted cash at end of period
+| ​
+| $
+| 39,219
+| ​
+| $
+| 32,348
+|
+Supplemental disclosures of cash flow information:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash paid (received) during the period for:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Interest
+| ​
+| $
+| 2,032
+| ​
+| $
+| 3,915
+|
+Income taxes
+| ​
+|
+| 1,265
+| ​
+|
+| 2,471
+|
+Supplemental disclosures of noncash investing and financing activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Issuance of common stock related to business acquisitions
+| ​
+| $
+| 9,572
+| ​
+| $
+| 5,557
+|
+Contingent consideration related to business acquisitions
+| ​
+| ​
+| 9,394
+| ​
+| ​
+| 12,040
+|
+Other working capital adjustment
+| ​
+| ​
+| 1,336
+| ​
+| ​
+| —
+|
+Equipment acquired under finance leases
+| ​
+| ​
+| 535
+| ​
+| ​
+| 855
+|
+​
+​
+​
+7
+​
+Willdan Group, Inc. and Subsidiaries
+Reconciliation of GAAP Revenue to Net Revenue
+(in thousands)
+(Non-GAAP Measure)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three Months Ended
+| ​
+| Six Months Ended
+|
+​
+| ​
+| July 3,
+| ​
+| July 4,
+| ​
+| July 3,
+| ​
+| July 4,
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+Consolidated
+| ​ ​ ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Contract revenue
+| ​
+| $
+| 231,028
+| ​
+| $
+| 173,473
+| ​
+| $
+| 386,142
+| ​
+| $
+| 325,859
+|
+Subcontractor services and other direct costs
+| ​
+| ​
+| 113,786
+| ​
+| ​
+| 78,505
+| ​
+| ​
+| 176,468
+| ​
+| ​
+| 145,553
+|
+Net Revenue
+| ​
+| $
+| 117,242
+| ​
+| $
+| 94,968
+| ​
+| $
+| 209,674
+| ​
+| $
+| 180,306
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Energy segment
+| ​ ​ ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Contract revenue
+| ​
+| $
+| 202,589
+| ​
+| $
+| 146,749
+| ​
+| $
+| 330,557
+| ​
+| $
+| 272,997
+|
+Subcontractor services and other direct costs
+| ​
+| ​
+| 111,411
+| ​
+| ​
+| 76,794
+| ​
+| ​
+| 172,399
+| ​
+| ​
+| 142,874
+|
+Net Revenue
+| ​
+| $
+| 91,178
+| ​
+| $
+| 69,955
+| ​
+| $
+| 158,158
+| ​
+| $
+| 130,123
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Engineering and Consulting segment
+| ​ ​ ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Contract revenue
+| ​
+| $
+| 28,439
+| ​
+| $
+| 26,724
+| ​
+| $
+| 55,585
+| ​
+| $
+| 52,862
+|
+Subcontractor services and other direct costs
+| ​
+| ​
+| 2,375
+| ​
+| ​
+| 1,711
+| ​
+| ​
+| 4,069
+| ​
+| ​
+| 2,679
+|
+Net Revenue
+| ​
+| $
+| 26,064
+| ​
+| $
+| 25,013
+| ​
+| $
+| 51,516
+| ​
+| $
+| 50,183
+|
+​
+​
+8
+​
+Willdan Group, Inc. and Subsidiaries
+Reconciliation of GAAP Net Income to Adjusted EBITDA
+(in thousands)
+(Non-GAAP Measure)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three Months Ended
+| ​
+| Six Months Ended
+|
+​
+| ​
+| July 3,
+| ​ ​ ​
+| July 4,
+| ​
+| July 3,
+| ​ ​ ​
+| July 4,
+|
+​
+| ​ ​ ​
+| 2026
+| ​
+| 2025
+| ​
+| 2026
+| ​
+| 2025
+|
+Net income (loss)
+| ​ ​ ​
+| $
+| 24,345
+| ​
+| $
+| 15,436
+| ​
+| $
+| 32,875
+| ​
+| $
+| 20,123
+|
+Interest expense
+| ​
+| ​
+| 1,086
+| ​
+| ​
+| 2,186
+| ​
+| ​
+| 1,921
+| ​
+| ​
+| 3,988
+|
+Income tax expense (benefit)
+| ​
+| ​
+| (5,258)
+| ​
+| ​
+| (5,255)
+| ​
+| ​
+| (6,536)
+| ​
+| ​
+| (4,749)
+|
+Stock-based compensation
+| ​
+| ​
+| 4,811
+| ​
+| ​
+| 3,182
+| ​
+| ​
+| 8,503
+| ​
+| ​
+| 5,608
+|
+Interest accretion (1)
+| ​
+| ​
+| 925
+| ​
+| ​
+| 875
+| ​
+| ​
+| 1,828
+| ​
+| ​
+| 1,254
+|
+Depreciation and amortization
+| ​
+| ​
+| 6,971
+| ​
+| ​
+| 5,504
+| ​
+| ​
+| 12,417
+| ​
+| ​
+| 9,944
+|
+Transaction costs (2)
+| ​
+| ​
+| 156
+| ​
+| ​
+| —
+| ​
+| ​
+| 156
+| ​
+| ​
+| 219
+|
+(Gain) Loss on sale of equipment
+| ​
+| ​
+| (21)
+| ​
+| ​
+| (6)
+| ​
+| ​
+| (43)
+| ​
+| ​
+| (23)
+|
+Adjusted EBITDA
+| ​
+| $
+| 33,015
+| ​
+| $
+| 21,922
+| ​
+| $
+| 51,121
+| ​
+| $
+| 36,364
+|
+(1) | Interest accretion represents the imputed interest and fair value adjustments to estimated contingent consideration. |
+(2) | Transaction costs represents acquisition and acquisition related costs. |
+​
+​
+9
+​
+Willdan Group, Inc. and Subsidiaries
+Reconciliation of GAAP Net Income to Adjusted Net Income and Adjusted Diluted EPS
+(in thousands, except per share amounts )
+(Non-GAAP Measure)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three Months Ended
+| ​
+| Six Months Ended
+|
+​
+| ​
+| July 3,
+| ​ ​ ​
+| July 4,
+| ​
+| July 3,
+| ​ ​ ​
+| July 4,
+|
+​
+| ​ ​ ​
+| 2026
+| ​
+| 2025
+| ​ ​ ​
+| 2026
+| ​
+| 2025
+|
+Net income (loss)
+| ​ ​ ​
+| $
+| 24,345
+| ​
+| $
+| 15,436
+| ​
+| $
+| 32,875
+| ​
+| $
+| 20,123
+|
+Adjustment for stock-based compensation
+| ​
+| ​
+| 4,811
+| ​
+| ​
+| 3,182
+| ​
+| ​
+| 8,503
+| ​
+| ​
+| 5,608
+|
+Tax effect of stock-based compensation
+| ​
+| ​
+| (1,084)
+| ​
+| ​
+| (528)
+| ​
+| ​
+| (1,916)
+| ​
+| ​
+| (930)
+|
+Adjustment for intangible amortization
+| ​
+| ​
+| 3,909
+| ​
+| ​
+| 3,419
+| ​
+| ​
+| 6,327
+| ​
+| ​
+| 5,899
+|
+Tax effect of intangible amortization
+| ​
+| ​
+| (881)
+| ​
+| ​
+| (568)
+| ​
+| ​
+| (1,425)
+| ​
+| ​
+| (979)
+|
+Adjustment for interest accretion (1)
+| ​
+| ​
+| 925
+| ​
+| ​
+| 875
+| ​
+| ​
+| 1,828
+| ​
+| ​
+| 1,254
+|
+Tax effect of interest accretion (1)
+| ​
+| ​
+| (208)
+| ​
+| ​
+| (145)
+| ​
+| ​
+| (412)
+| ​
+| ​
+| (208)
+|
+Adjustment for refinancing costs
+| ​
+| ​
+| —
+| ​
+| ​
+| 789
+| ​
+| ​
+| —
+| ​
+| ​
+| 789
+|
+Tax effect of refinancing costs
+| ​
+| ​
+| —
+| ​
+| ​
+| (131)
+| ​
+| ​
+| —
+| ​
+| ​
+| (131)
+|
+Adjustment for transaction costs (2)
+| ​
+| ​
+| 156
+| ​
+| ​
+| —
+| ​
+| ​
+| 156
+| ​
+| ​
+| 219
+|
+Tax effect of transaction costs (2)
+| ​
+| ​
+| (35)
+| ​
+| ​
+| —
+| ​
+| ​
+| (35)
+| ​
+| ​
+| (36)
+|
+Adjusted Net Income (Loss)
+| ​
+| $
+| 31,938
+| ​
+| $
+| 22,329
+| ​
+| $
+| 45,901
+| ​
+| $
+| 31,608
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Diluted weighted-average shares outstanding
+| ​
+| ​
+| 15,423
+| ​
+| ​
+| 14,917
+| ​
+| ​
+| 15,404
+| ​
+| ​
+| 14,778
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Diluted earnings (loss) per share
+| ​
+| $
+| 1.58
+| ​
+| $
+| 1.03
+| ​
+| $
+| 2.13
+| ​
+| $
+| 1.36
+|
+Impact of adjustment:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Stock-based compensation per share
+| ​
+| ​
+| 0.31
+| ​
+| ​
+| 0.21
+| ​
+| ​
+| 0.55
+| ​
+| ​
+| 0.38
+|
+Tax effect of stock-based compensation per share
+| ​
+| ​
+| (0.07)
+| ​
+| ​
+| (0.03)
+| ​
+| ​
+| (0.12)
+| ​
+| ​
+| (0.06)
+|
+Intangible amortization per share
+| ​
+| ​
+| 0.25
+| ​
+| ​
+| 0.23
+| ​
+| ​
+| 0.41
+| ​
+| ​
+| 0.40
+|
+Tax effect of intangible amortization per share
+| ​
+| ​
+| (0.06)
+| ​
+| ​
+| (0.03)
+| ​
+| ​
+| (0.09)
+| ​
+| ​
+| (0.06)
+|
+Interest accretion per share (1)
+| ​
+| ​
+| 0.06
+| ​
+| ​
+| 0.06
+| ​
+| ​
+| 0.12
+| ​
+| ​
+| 0.08
+|
+Tax effect of interest accretion per share (1)
+| ​
+| ​
+| (0.01)
+| ​
+| ​
+| (0.01)
+| ​
+| ​
+| (0.03)
+| ​
+| ​
+| (0.01)
+|
+Refinancing costs per share
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.05
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.05
+|
+Tax effect of refinancing cost per share
+| ​
+| ​
+| —
+| ​
+| ​
+| (0.01)
+| ​
+| ​
+| —
+| ​
+| ​
+| (0.01)
+|
+Transaction costs per share (2)
+| ​
+| ​
+| 0.01
+| ​
+| ​
+| —
+| ​
+| ​
+| 0.01
+| ​
+| ​
+| 0.01
+|
+Tax effect of transaction costs per share (2)
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+| ​
+| ​
+| —
+|
+Adjusted Diluted EPS
+| ​
+| $
+| 2.07
+| ​
+| $
+| 1.50
+| ​
+| $
+| 2.98
+| ​
+| $
+| 2.14
+|
+(1) | Interest accretion represents the imputed interest and fair value adjustments to estimated contingent consideration. |
+(2) | Transaction costs represents acquisition and acquisition related costs. |
+​
+10
+​
+Contact:
+​
+Willdan Group, Inc.
+Al Kaschalk
+Vice President
+Tel: 310-922-5643
+akaschalk@willdan.com
+11
+​

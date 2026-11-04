@@ -1,0 +1,515 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1040470/000165495426006919/aehr_10k.htm
+SEMBOL: AEHR
+BASVURU_TARIHI: 2026-07-27
+BASVURU: 0001654954-26-006919
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows
+|
+| Year Ended
+|
+|
+|
+| May 29,
+|
+|
+| May 30,
+|
+|
+| May 31,
+|
+|
+(In thousands)
+|
+| 2026
+|
+|
+| 2025
+|
+|
+| 2024
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income (loss) |
+| $ | ( 7,126 | ) |
+| $ | ( 3,910 | ) |
+| $ | 33,156 |
+|
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operating activities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Stock-based compensation expense |
+|
+| 6,761 |
+|
+|
+| 5,162 |
+|
+|
+| 2,518 |
+|
+Depreciation and amortization |
+|
+| 2,799 |
+|
+|
+| 2,312 |
+|
+|
+| 657 |
+|
+Deferred income taxes |
+|
+| ( 4,715 | ) |
+|
+| ( 421 | ) |
+|
+| ( 20,773 | ) |
+Amortization of operating lease right-of-use assets |
+|
+| 731 |
+|
+|
+| 1,076 |
+|
+|
+| 706 |
+|
+Impairment of assets |
+|
+| - |
+|
+|
+| 584 |
+|
+|
+| - |
+|
+Accretion of investment discount |
+|
+| - |
+|
+|
+| - |
+|
+|
+| ( 130 | ) |
+Changes in operating assets and liabilities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable |
+|
+| ( 3,307 | ) |
+|
+| ( 3,037 | ) |
+|
+| 6,790 |
+|
+Inventories |
+|
+| 11 |
+|
+|
+| ( 2,441 | ) |
+|
+| ( 13,732 | ) |
+Prepaid expenses and other assets |
+|
+| ( 2,763 | ) |
+|
+| ( 5,012 | ) |
+|
+| ( 875 | ) |
+Accounts payable |
+|
+| 991 |
+|
+|
+| ( 714 | ) |
+|
+| ( 3,891 | ) |
+Accrued expenses |
+|
+| 1,020 |
+|
+|
+| ( 378 | ) |
+|
+| ( 792 | ) |
+Deferred revenue |
+|
+| 3,209 |
+|
+|
+| 143 |
+|
+|
+| ( 1,469 | ) |
+Operating lease liabilities |
+|
+| ( 979 | ) |
+|
+| ( 699 | ) |
+|
+| ( 423 | ) |
+Income taxes payable |
+|
+| 58 |
+|
+|
+| ( 65 | ) |
+|
+| 14 |
+|
+Net cash provided by (used in) operating activities |
+|
+| ( 3,310 | ) |
+|
+| ( 7,400 | ) |
+|
+| 1,756 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash flows from investing activities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Purchases of property and equipment |
+|
+| ( 2,066 | ) |
+|
+| ( 4,992 | ) |
+|
+| ( 749 | ) |
+Proceeds from maturities of investments |
+|
+| - |
+|
+|
+| - |
+|
+|
+| 18,000 |
+|
+Payments for business acquisition, net of cash and cash equivalents acquired |
+|
+| ( 1,801 | ) |
+|
+| ( 11,075 | ) |
+|
+| - |
+|
+Net cash provided by (used in) investing activities |
+|
+| ( 3,867 | ) |
+|
+| ( 16,067 | ) |
+|
+| 17,251 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash flows from financing activities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Proceeds from issuance of common stock from public offerings, net of issuance costs |
+|
+| 97,395 |
+|
+|
+| - |
+|
+|
+| ( 72 | ) |
+Proceeds from issuance of common stock under employee plans |
+|
+| 2,200 |
+|
+|
+| 1,409 |
+|
+|
+| 1,807 |
+|
+Shares repurchased for tax withholdings on vesting of restricted stock units |
+|
+| ( 2,384 | ) |
+|
+| ( 784 | ) |
+|
+| ( 1,596 | ) |
+Net cash provided by financing activities |
+|
+| 97,211 |
+|
+|
+| 625 |
+|
+|
+| 139 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Effect of exchange rate changes on cash, cash equivalents and restricted cash |
+|
+| ( 6 | ) |
+|
+| 13 |
+|
+|
+| ( 41 | ) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net increase (decrease) in cash, cash equivalents and restricted cash |
+|
+| 90,028 |
+|
+|
+| ( 22,829 | ) |
+|
+| 19,105 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash, cash equivalents and restricted cash, beginning of period (1) |
+|
+| 26,480 |
+|
+|
+| 49,309 |
+|
+|
+| 30,204 |
+|
+Cash, cash equivalents and restricted cash, end of period (1) |
+| $ | 116,508 |
+|
+| $ | 26,480 |
+|
+| $ | 49,309 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental cash flow information: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Income taxes paid |
+| $ | 60 |
+|
+| $ | 100 |
+|
+| $ | 90 |
+|
+Interest paid |
+| $ | - |
+|
+| $ | - |
+|
+| $ | - |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental disclosure of non-cash flow information: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net transfer of equipment between inventory and property and equipment |
+| $ | 702 |
+|
+| $ | 458 |
+|
+| $ | 357 |
+|
+Purchases of property and equipment included in accounts payable and accrued liabilities |
+| $ | - |
+|
+| $ | 1,259 |
+|
+| $ | 53 |
+|
+Common stock issuance costs included in accounts payable |
+| $ | 296 |
+|
+| $ | - |
+|
+| $ | - |
+|
+(1) Includes restricted cash equivalents in prepaid expenses and other current assets and other non-current assets.
+The accompanying notes are an integral part of these consolidated financial statements.
+|
+39 |
+|
+Table of Contents |
+AEHR TEST SYSTEMS
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+1. ORGANIZATION AND SIGNIFICANT ACCOUNTING POLICIES
+Organization
+Aehr Test Systems (the “Company”) was incorporated in California in May 1977 and primarily designs, engineers and manufactures test and burn-in equipment used in the semiconductor industry. The Company’s principal products are the FOX-XP, FOX-NP, and FOX-CP wafer contact parallel test and burn-in systems; the Sonoma, Tahoe and Echo package-level burn-in products; the WaferPak full wafer contactor; the DiePak Carrier; the WaferPak Aligner; the DiePak Autoloader; and test fixtures.
+Principles of Consolidation
+The consolidated financial statements include the accounts of the Company and its wholly-owned subsidiaries. Intercompany accounts and transactions have been eliminated.
+Change in Fiscal Year
+On April 2, 2026, the Company’s board of directors approved a change in the Company’s fiscal year-end from the 52- or 53-week period ending on the Friday nearest May 31 to the 52- or 53-week period ending on the Friday nearest June 30. The change will be effective beginning in fiscal year 2027, which begins on June 27, 2026 and ends on June 25, 2027.
+Foreign Currency Translation and Transactions
+Assets and liabilities of the Company’s foreign subsidiaries are translated into U.S. Dollars from their functional currencies using the exchange rate in effect at the balance sheet date. Additionally, revenues and expenses are translated using exchange rates approximating average rates prevailing during the fiscal year. Translation adjustments that arise from translating their financial statements from their local currencies to U.S. Dollar are accumulated and reflected as a separate component of shareholders’ equity.
+Transaction gains and losses that arise from exchange rate changes denominated in currencies other than the local currency are included in the consolidated statements of operations as incurred.
+Use of Estimates
+The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America (“GAAP”) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from those estimates. Significant estimates in the Company’s consolidated financial statements include revenue recognition, inventory valuation, business combination, impairment of goodwill and long-lived assets, and accounting for income taxes.
+Cash and Cash Equivalents
+Cash equivalents consist of money market instruments purchased with an original maturity of three months or less. These investments are reported at fair value.
+Accounts Receivable and Allowance for Credit Losses
+Accounts receivable are derived from the sale of products throughout the world to semiconductor manufacturers, semiconductor contract assemblers, electronics manufacturers and burn-in and test service companies. Accounts receivable are recorded at the invoiced amount and are not interest bearing.
+|
+40 |
+|
+Table of Contents |
+The Company maintains an allowance for credit losses for expected uncollectible accounts receivable and assess collectibility by reviewing accounts receivable on a collective basis where similar risk characteristics exist and on an individual basis when specific customers with known disputes or collectibility issues are identified. The estimate of expected credit losses considers historical credit loss information that is adjusted for current conditions and reasonable and supportable forecasts. Changes in circumstances, such as an unexpected material adverse change in a major customer’s ability to meet its financial obligation to the Company, may require the Company to further adjust its estimates of the recoverability of accounts receivable. The credit losses recognized on accounts receivable during the years ended May 29, 2026, May 30, 2025 and May 31, 2024, were not significant and management has determined that no allowance for credit losses was required as of May 29, 2026 and May 30, 2025.
+Concentration of Credit Risk
+Financial instruments which subject the Company to concentrations of credit risk consist principally of cash and cash equivalents and accounts receivable. The Company’s cash and cash equivalents are generally deposited with major financial institutions in the United States, Philippines, Germany and Taiwan. The Company invests its excess cash in money market funds. The Company’s cash and investment balances held at banks and brokerage firms may at time exceed federally insured levels. The Company has not experienced any material losses on its money market funds or short-term cash deposits.
+The Company performs credit evaluations of its customers’ financial condition and generally requires no collatera

@@ -1,0 +1,142 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm
+SEMBOL: INTC
+BASVURU_TARIHI: 2026-10-30
+BASVURU: 0000050863-26-000191
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+|
+| Nine Months Ended |
+(In Millions; Unaudited) | Sep 26, 2026 | Sep 27, 2025 |
+Cash, cash equivalents, and restricted cash, beginning of period | $ | 14,712 | $ | 8,249 |
+Cash flows provided by (used for) operating activities: |
+Net income (loss) | ( 11,609 ) | 359 |
+Adjustments to reconcile net income (loss) to net cash provided by operating activities: |
+Depreciation | 8,933 | 7,971 |
+Share-based compensation | 1,894 | 1,896 |
+Restructuring and other charges | 3,969 | 372 |
+Amortization of intangibles | 659 | 708 |
+(Gains) losses on equity investments, net | ( 219 ) | ( 611 ) |
+Mark-to-market (gains) losses on Escrowed Shares | 12,614 | 1,687 |
+(Gains) losses on divestitures | 18 | ( 5,355 ) |
+Deferred taxes | 56 | 123 |
+Impairments and net (gain) loss on retirement of property, plant, and equipment | 140 | 465 |
+Changes in assets and liabilities: |
+Accounts receivable | ( 281 ) | 162 |
+Inventories | ( 1,450 ) | ( 9 ) |
+Accounts payable | 821 | ( 281 ) |
+Accrued compensation and benefits | ( 207 ) | 541 |
+Income taxes | ( 405 ) | ( 1,196 ) |
+Other assets and liabilities | ( 1,749 ) | ( 1,423 ) |
+Total adjustments | 24,793 | 5,050 |
+Net cash provided by (used for) operating activities | 13,184 | 5,409 |
+Cash flows provided by (used for) investing activities: |
+Additions to property, plant, and equipment | ( 10,216 ) | ( 11,158 ) |
+Proceeds from capital-related government incentives | 215 | 1,018 |
+Acquisitions, net of cash acquired | ( 596 ) | — |
+Purchases of short-term investments | ( 32,151 ) | ( 16,401 ) |
+Maturities of short-term investments | 10,767 | 8,236 |
+Sales of short-term investments | 11,911 | 2,728 |
+Sales of equity investments | 401 | 642 |
+Proceeds from divestitures, net | — | 6,186 |
+Other investing | ( 590 ) | 494 |
+Net cash provided by (used for) investing activities | ( 20,259 ) | ( 8,255 ) |
+Cash flows provided by (used for) financing activities: |
+Issuance of commercial paper, net of issuance costs | — | 3,493 |
+Repayment of commercial paper | — | ( 3,493 ) |
+Payments on finance leases | ( 951 ) | ( 103 ) |
+Partner contributions | 5,032 | 3,652 |
+Partner distributions | ( 14,442 ) | ( 159 ) |
+Net proceeds from sales of subsidiary shares | — | 922 |
+Additions to property, plant, and equipment | ( 1,618 ) | ( 2,493 ) |
+Issuance of term debt, net of issuance costs | 13,000 | — |
+Repayments of term debt | ( 9,000 ) | ( 3,750 ) |
+Proceeds from sales of common stock through employee equity incentive plans | 736 | 777 |
+Net proceeds attributed to common stock and warrants issued, and Escrowed Shares | 440 | 7,682 |
+Net proceeds from public offering of common stock | 22,617 | — |
+Restricted stock unit withholdings | ( 907 ) | ( 286 ) |
+Other financing | ( 146 ) | ( 504 ) |
+Net cash provided by (used for) financing activities | 14,761 | 5,738 |
+Net increase (decrease) in cash, cash equivalents, and restricted cash | 7,686 | 2,892 |
+Cash, cash equivalents, and restricted cash, end of period | $ | 22,398 | $ | 11,141 |
+| Financial Statements | Consolidated Condensed Statements of Cash Flows | 6
+|
+Table of Contents
+| Nine Months Ended |
+(In Millions; Unaudited) | Sep 26, 2026 | Sep 27, 2025 |
+Non-cash supplemental disclosures: |
+Acquisition of property, plant, and equipment 1
+| $ | 3,215 | $ | 5,068 |
+Recognition of capital-related government incentives | $ | 1,925 | $ | 6,094 |
+Cash paid during the period for: |
+Interest, net of capitalized interest | $ | 1,088 | $ | 1,156 |
+Income taxes, net of refunds | $ | 1,127 | $ | 1,939 |
+1 Includes $ 854 million with extended payment terms of greater than 90 days in the nine months ended September 26, 2026 ($ 1.3 billion in th e nine months ended September 27, 2025).
+See accompanying notes.
+| Financial Statements | Consolidated Condensed Statements of Cash Flows | 7
+|
+Table of Contents
+Consolidated Condensed Statements of Stockholders' Equity
+|
+(In Millions, Except Per Share Amounts; Unaudited) | Common Stock and Capital in Excess of Par Value | Accumulated Other Comprehensive Income (Loss) | Retained Earnings | Non-Controlling Interests | Total |
+Number of Shares | Amount |
+Three Months Ended |
+Balance as of June 27, 2026 | 5,043 | $ | 53,780 | $ | ( 80 ) | $ | 33,842 | $ | 15,601 | $ | 103,143 |
+Net income (loss) | — | — | — | 3,320 | 200 | 3,520 |
+Other comprehensive income (loss) | — | — | ( 152 ) | — | — | ( 152 ) |
+Net proceeds attributed to common stock issued | 242 | 22,617 | — | — | — | 22,617 |
+Net proceeds attributed to Escrowed Shares issued | 11 | 1,075 | — | — | — | 1,075 |
+Partner contributions | — | — | — | — | 950 | 950 |
+Partner distributions declared and repurchase of subsidiary shares | — | — | — | — | ( 212 ) | ( 212 ) |
+Employee equity incentive plans | 17 | 309 | — | — | — | 309 |
+Share-based compensation | — | 493 | — | — | 103 | 596 |
+Restricted stock unit withholdings | ( 3 ) | ( 97 ) | — | ( 193 ) | — | ( 290 ) |
+Balance as of September 26, 2026 | 5,310 | $ | 78,177 | $ | ( 232 ) | $ | 36,969 | $ | 16,642 | $ | 131,556 |
+Balance as of June 28, 2025 | 4,377 | $ | 52,334 | $ | 65 | $ | 45,484 | $ | 7,868 | $ | 105,751 |
+Net income (loss) | — | — | — | 4,063 | 207 | 4,270 |
+Other comprehensive income (loss) | — | — | ( 46 ) | — | — | ( 46 ) |
+Net proceeds from stock issuances and warrants 2
+| 362 | 3,758 | — | — | — | 3,758 |
+Net proceeds from sales of subsidiary shares and partner contributions | — | 60 | — | — | 2,276 | 2,336 |
+Partner distributions declared | — | — | — | — | ( 68 ) | ( 68 ) |
+Employee equity incentive plans and other | 32 | 286 | — | — | — | 286 |
+Share-based compensation | — | 477 | — | — | 71 | 548 |
+Restricted stock unit withholdings | ( 5 ) | ( 160 ) | — | 55 | — | ( 105 ) |
+Balance as of September 27, 2025 | 4,766 | $ | 56,755 | $ | 19 | $ | 49,602 | $ | 10,354 | $ | 116,730 |
+Nine Months Ended |
+Balance as of December 27, 2025 | 4,994 | $ | 65,185 | $ | 113 | $ | 48,983 | $ | 12,079 | $ | 126,360 |
+Net income (loss) | — | — | — | ( 11,441 ) | ( 168 ) | ( 11,609 ) |
+Other comprehensive income (loss) | — | — | ( 345 ) | — | — | ( 345 ) |
+Net proceeds attributed to common stock issued | 242 | 22,617 | — | — | — | 22,617 |
+Net proceeds attributed to Escrowed Shares issued | 24 | 2,024 | — | — | — | 2,024 |
+Partner contributions and issuance of subsidiary shares | — | — | — | — | 5,059 | 5,059 |
+Partner distributions declared and repurchase of subsidiary shares | — | ( 13,545 ) | — | — | ( 602 ) | ( 14,147 ) |
+Employee equity incentive plans | 62 | 736 | — | — | — | 736 |
+Share-based compensation | — | 1,494 | — | — | 274 | 1,768 |
+Restricted stock unit withholdings | ( 12 ) | ( 334 ) | — | ( 573 ) | — | ( 907 ) |
+Balance as of September 26, 2026 | 5,310 | $ | 78,177 | $ | ( 232 ) | $ | 36,969 | $ | 16,642 | $ | 131,556 |
+Balance as of December 28, 2024 | 4,330 | $ | 50,949 | $ | ( 711 ) | $ | 49,032 | $ | 5,762 | $ | 105,032 |
+Opening balance adjustment 1
+| — | — | — | 49 | — | 49 |
+Net income (loss) | — | — | — | 324 | 35 | 359 |
+Other comprehensive income (loss) | — | — | 730 | — | — | 730 |
+Net proceeds from stock issuances and warrants 2
+| 362 | 3,758 | — | — | — | 3,758 |
+Net proceeds from sales of subsidiary shares and partner contributions | — | 58 | — | — | 4,516 | 4,574 |
+Partner distributions declared | — | — | — | — | ( 159 ) | ( 159 ) |
+Employee equity incentive plans and other | 88 | 777 | — | — | — | 777 |
+Share-based compensation | — | 1,696 | — | — | 200 | 1,896 |
+Restricted stock unit withholdings | ( 14 ) | ( 483 ) | — | 197 | — | ( 286 ) |
+Balance as of September 27, 2025 | 4,766 | $ | 56,755 | $ | 19 | $ | 49,602 | $ | 10,354 | $ | 116,730 |
+1 We made a cumulative-effect adjustment to the opening balance of retained earnings upon adopting ASU 2023-08 in 2025.
+2 Includes $ 110 million of allocated proceeds to warrants from the Warrant and Common Stock Agreement with the U.S. government.
+See accompanying notes.
+| Financial Statements | Consolidated Condensed Statements of Stockholders' Equity | 8
+|
+Table of Contents
+Notes to Consolidated Condensed Financial Statements
+|
+Note 1 : | Basis of Presentation |
+We prepared our interim Consolidated Condensed Financial Statements that accompany these notes in conformity with U.S. GAAP, consistent in all material respects with those applied in our 2025 Form 10-K.
+We have made estimates and judgments affecting the amounts reported in our Consolidated Condensed Financial Statements and the accompanying notes. The actual results that we experience may differ materially from our estimates. The interim financial information is unaudited, and reflects all normal adjustments that are, in our opinion, necessary to provide a fair statement of results for the interim periods presented. This report should be read in conjunction with our 2025 Form 10-K where we include additional information on our accounting policies and the methods and assumptions used in our estimates.
+We made certain reclassifications within our Consolidated Condensed Financial Statemen

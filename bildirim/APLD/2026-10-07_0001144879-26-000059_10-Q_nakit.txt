@@ -1,0 +1,103 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm
+SEMBOL: APLD
+BASVURU_TARIHI: 2026-10-07
+BASVURU: 0001144879-26-000059
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows (Unaudited) (In thousands)
+For the Three Months ended August 31, 2026 and August 31, 2025
+Three Months Ended |
+August 31, 2026 | August 31, 2025 |
+CASH FLOW FROM OPERATING ACTIVITIES |
+Net loss | $ | ( 184,055 ) | $ | ( 16,926 ) |
+Adjustments to reconcile net loss to net cash provided by (used in) operating activities: |
+Depreciation and amortization | 41,912 | 4,152 |
+Stock-based compensation | 66,499 | 15,465 |
+Lease expense | 6,517 | 5,381 |
+Loss on change in fair value of derivatives | 49,511 | — |
+Loss on change in fair value of investment | 11,352 | — |
+Amortization of debt issuance costs | 5,896 | 4,851 |
+Loss on classification of held for sale | 14,126 | — |
+Loss on abandonment of assets | — | 2,243 |
+Gain on change in fair value of warrants | ( 22 ) | — |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 56,977 ) | ( 29,525 ) |
+Prepaid expenses and other current assets | ( 47,786 ) | ( 6,962 ) |
+Customer deposits | 107 | 627 |
+Deferred revenue | 34,480 | ( 2,316 ) |
+Accounts payable | ( 7,981 ) | ( 77,784 ) |
+Accrued liabilities | 106,701 | 28,684 |
+Due to customer | 1,383 | ( 1,753 ) |
+Lease assets and liabilities | 5,856 | ( 9,598 ) |
+Other current liabilities | 1,886 | — |
+Other assets | 14,516 | 1,930 |
+CASH FLOW PROVIDED BY (USED IN) OPERATING ACTIVITIES | 63,921 | ( 81,531 ) |
+CASH FLOW FROM INVESTING ACTIVITIES |
+Purchases of property and equipment and other assets | ( 2,074,698 ) | ( 249,914 ) |
+Investment in companies
+| ( 8,181 ) | — |
+CASH FLOW USED IN INVESTING ACTIVITIES | ( 2,082,879 ) | ( 249,914 ) |
+CASH FLOW FROM FINANCING ACTIVITIES |
+Repayment of finance leases | ( 14,252 ) | ( 29,932 ) |
+Borrowings of long-term debt | 1,648,500 | 65 |
+Draw on revolver | 82,390 | — |
+Repayments of long-term debt | ( 315,932 ) | ( 2,416 ) |
+Payment of deferred financing costs | ( 28,879 ) | ( 1 ) |
+Tax payments for restricted stock upon vesting | ( 99,413 ) | ( 4,497 ) |
+Noncontrolling interest issuance contributions | 1,349 | — |
+Proceeds from issuance of common stock | — | 196,366 |
+Common stock issuance costs | — | ( 5,945 ) |
+Proceeds from issuance of preferred stock | 274,999 | 175,000 |
+Preferred stock issuance costs | ( 149 ) | ( 4,604 ) |
+Redemption of preferred stock
+| ( 6,996 ) | ( 225 ) |
+Dividends issued on preferred stock | ( 1,543 ) | ( 1,576 ) |
+Exercise of warrants
+| — | 1 |
+Issuance of equity by subsidiary, net of costs | 3,398 | — |
+CASH FLOW PROVIDED BY FINANCING ACTIVITIES | $ | 1,543,472 | $ | 322,236 |
+NET DECREASE IN CASH, CASH EQUIVALENTS, AND RESTRICTED CASH | $ | ( 475,486 ) | $ | ( 9,209 ) |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD, INCLUDING CASH FROM DISCONTINUED OPERATIONS | 4,153,431 | 123,318 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, END OF PERIOD, INCLUDING CASH FROM DISCONTINUED OPERATIONS | 3,677,945 | 114,109 |
+Less: CASH, CASH EQUIVALENTS, AND RESTRICTED CASH FROM DISCONTINUED OPERATIONS | 2 | — |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH FROM CONTINUED OPERATIONS | $ | 3,677,943 | $ | 114,109 |
+5
+APPLIED DIGITAL CORPORATION AND SUBSIDIARIES
+Condensed Consolidated Statements of Cash Flows (Unaudited) (In thousands)
+For the Three Months ended August 31, 2026 and August 31, 2025
+Three Months Ended |
+August 31, 2026 | August 31, 2025 |
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION |
+Interest paid | $ | 242,852 | $ | 9,039 |
+SUPPLEMENTAL DISCLOSURE OF NON-CASH ACTIVITIES |
+Operating right-of-use assets obtained by lease obligation | $ | 5,497 | $ | — |
+Finance right-of-use assets obtained by lease obligation | $ | — | $ | 3,966 |
+Property and equipment in accounts payable and accrued liabilities | $ | 142,284 | $ | 132,113 |
+Conversion of preferred stock to common stock | $ | 149,921 | $ | 242,480 |
+Issuance of warrants, at fair value | $ | — | $ | 121,204 |
+Non-cash dividends paid in-kind
+| $ | 60,051 | $ | — |
+See accompanying notes to the unaudited condensed consolidated financial statements
+6
+Table of Contents
+APPLIED DIGITAL CORPORATION AND SUBSIDIARIES
+Notes to the Condensed Consolidated Financial Statements (Unaudited)
+For the Three Months Ended August 31, 2026
+1. Business and Basis of Presentation
+Applied Digital Corporation (the “Company”) is a designer, builder, and operator of high-performance, sustainably engineered data centers and colocation services for artificial intelligence, cloud, networking, and blockchain workloads. The Company has two reportable segments. Financial information for each segment is contained in Note 19 - Business Segments .
+All references to “Applied Digital Corporation,” “we,” “us,” “our” or the “Company” mean Applied Digital Corporation and its subsidiaries.
+Principles of Consolidation
+The accompanying interim unaudited condensed consolidated financial statements have been prepared pursuant to the rules and regulations of the Securities and Exchange Commission (the "SEC"), including the instructions to Form 10-Q and Article 10 of Regulation S-X. Certain information and footnote disclosures normally included in the Company's annual consolidated financial statements on Form 10-K have been condensed or omitted. The unaudited condensed consolidated balance sheet as of May 31, 2026 has been derived from the audited consolidated financial statements as of that date, but does not include all disclosures required for audited annual financial statements.
+The unaudited condensed consolidated financial statements include the accounts of the Company and its consolidated subsidiaries and entities that meet the definition of a variable interest entity (“VIE”) for which the Company is considered the primary beneficiary or entities that meet the definition of a voting interest entity (“VOE”). The Company consolidates a VIE where it has been determined that the Company is the primary beneficiary of the entity's operation in accordance with ASC Topic 810, Consolidations. The primary beneficiary is the party that has both the power to direct the activities that most significantly impact the VIE's economic performance and the obligation to absorb losses or the right to receive benefits of the VIE that could potentially be significant to the VIE. In evaluating whether the Company is the primary beneficiary, the Company evaluates its power to direct the most significant activities of the VIE by considering the purpose and design of the entity and the risks the entity was designed to create and pass through to its variable interest holders. The Company also evaluates its economic interests in the VIE. See Note 12 - Variable Interest Entities for additional information related to the consolidation of investments. Intercompany accounts and transactions have been eliminated.
+The Company consolidates the results of ChronoScale Holdings Corporation, the Company’s majority owned subsidiary (“ChronoScale”) under the voting interest model because the Company holds a controlling financial interest in ChronoScale. The ownership interests in ChronoScale not attributable to the Company are presented as noncontrolling interests in the unaudited condensed consolidated financial statements. All intercompany balances and transactions have been eliminated in consolidation.
+In the Company’s opinion, all necessary adjustments have been made for the fair presentation of the results of the interim periods presented. The results of operations for such interim periods are not necessarily indicative of the results to be expected for the full year. For further information, please refer to and read these interim unaudited condensed consolidated financial statements in conjunction with the Company's audited consolidated financial statements included in the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2026 filed with the SEC on July 29, 2026.
+2. Significant Accounting Policies
+There have been no material changes to the Company’s significant accounting policies included in the Annual Report on Form 10-K for the year ended May 31, 2026, except as disclosed herein.
+Use of Estimates
+The preparation of financial statements in conformity with generally accepted accounting principles in the United States (“GAAP”) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the balance sheet and the reported amounts of revenue and expenses during the reporting periods. On an on-going basis, the Company evaluates its estimates, including those related to stock-based compensation, specifically the likelihood of timing and achievement of performance conditions to its performance stock units, contingencies, and those related to the fair value of warrants and the fair value of the
+7
+Table of Content s
+APPLIED DIGITAL CORPORATION AND SUBSIDIARIES
+Notes to the Condensed Consolidated Financial Statements (Unaudited)
+For the Three Months Ended August 31, 2026
+redeemable noncontrolling interest. 

@@ -1,0 +1,98 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1280452/000162828026053275/mpwr-20260630.htm
+SEMBOL: MPWR
+BASVURU_TARIHI: 2026-08-05
+BASVURU: 0001628280-26-053275
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 450,524 | $ | 270,061 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 32,173 | 24,569 |
+Amortization of discount on available-for-sale securities | ( 484 ) | ( 2,885 ) |
+Gain on deferred compensation plan investments | ( 7,343 ) | ( 4,230 ) |
+Deferred taxes, net | ( 125 ) | 14,496 |
+Stock-based compensation expense | 94,282 | 112,904 |
+Other | ( 1,102 ) | 29 |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 88,002 ) | ( 22,264 ) |
+Inventories | ( 111,194 ) | ( 71,018 ) |
+Other assets | 17,320 | 83,395 |
+Accounts payable | 33,276 | 36,627 |
+Accrued compensation and related benefits | 6,983 | 15,584 |
+Income tax liabilities | 32,640 | 33,798 |
+Other accrued liabilities | 19,211 | 2,958 |
+Net cash provided by operating activities | 478,159 | 494,024 |
+Cash flows from investing activities: |
+Purchases of property and equipment | ( 153,272 ) | ( 88,485 ) |
+Purchases of investments | ( 263,797 ) | ( 393,010 ) |
+Maturities and sales of investments | 14,591 | 211,227 |
+Other | 5,621 | ( 3,015 ) |
+Net cash used in investing activities | ( 396,857 ) | ( 273,283 ) |
+Cash flows from financing activities: |
+Property and equipment purchased on extended payment terms | ( 897 ) | ( 1,902 ) |
+Proceeds from common stock issued | 5,830 | 5,335 |
+Repurchases of common stock | ( 4,048 ) | ( 3,687 ) |
+Dividends and dividend equivalents paid | ( 179,496 ) | ( 135,073 ) |
+Net cash used in financing activities | ( 178,611 ) | ( 135,327 ) |
+Effect of change in exchange rates | 3,591 | 10,169 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | ( 93,718 ) | 95,583 |
+Cash, cash equivalents and restricted cash, beginning of period | 1,099,521 | 691,941 |
+Cash, cash equivalents and restricted cash, end of period | $ | 1,005,803 | $ | 787,524 |
+Reconciliation of cash, cash equivalents, and restricted cash to the condensed consolidated balance sheets: |
+Cash and cash equivalents | $ | 1,005,587 | $ | 787,382 |
+Restricted cash included in other long-term assets | 216 | 142 |
+Total cash, cash equivalents, and restricted cash | $ | 1,005,803 | $ | 787,524 |
+Supplemental disclosures for cash flow information: |
+Cash paid for income taxes, net | $ | 88,705 | $ | 17,007 |
+Non-cash investing and financing activities: |
+Liability accrued for property and equipment purchases | $ | 26,997 | $ | 6,108 |
+Liability accrued for dividends and dividend equivalents | $ | 100,326 | $ | 77,193 |
+See accompanying notes to unaudited condensed consolidated financial statements.
+7
+Table of Contents
+MONOLITHIC POWER SYSTEMS, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+1. BASIS OF PRESENTATION
+The accompanying unaudited condensed consolidated financial statements of Monolithic Power Systems, Inc., a Delaware corporation, and its wholly owned subsidiaries (the “Company” or “MPS”) have been prepared in accordance with the rules and regulations of the Securities and Exchange Commission (the “SEC”). Certain information and disclosures normally included in financial statements prepared in accordance with U.S. generally accepted accounting principles (“U.S. GAAP”) have been condensed or omitted in accordance with these accounting principles, rules and regulations. All intercompany accounts and transactions have been eliminated. The information in this report should be read in conjunction with the Company’s audited consolidated financial statements and notes thereto included in the Annual Report on Form 10-K for the year ended December 31, 2025, filed with the SEC on February 27, 2026.
+In the opinion of management, the accompanying unaudited condensed consolidated financial statements reflect all adjustments, consisting only of normal recurring adjustments, necessary to present fairly the Company’s financial position, results of operations and cash flows for the interim periods presented. The financial statements contained in this Quarterly Report on Form 10-Q are not necessarily indicative of the results that may be expected for the year ending December 31, 2026 or for any other future periods.
+Summary of Significant Accounting Policies
+There have been no changes to the Company’s significant accounting policies during the three and six months ended June 30, 2026 from those described in the Company’s audited consolidated financial statements included in the Annual Report on Form 10-K for the year ended December 31, 2025.
+Use of Estimates
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements, and reported amounts of revenue and expenses during the reporting period. Significant estimates and assumptions used in these condensed consolidated financial statements primarily include those related to income tax valuation allowances and stock-based compensation. Actual results could differ from these estimates and assumptions, and any such differences may be material to the Company’s condensed consolidated financial statements.
+New Accounting Pronouncements Not Yet Adopted as of June 30, 2026
+In November 2024, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2024-03, Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses , which aims to provide more detailed information about the types of expenses in commonly presented expense captions. The Company will adopt this standard in its Form 10-K for the fiscal year ending December 31, 2027. The Company is evaluating the impact of adoption on its Consolidated Financial Statements.
+8
+Table of Contents
+2. REVENUE RECOGNITION
+Revenue from Product Sales
+The Company generates revenue primarily from product sales, which include assembled and tested integrated circuits (“ICs”), power modules as well as dies in wafer form. The remaining revenue, which primarily consists of royalty revenue from licensing arrangements with value-added resellers and revenue from wafer testing services performed for third parties, was not significant in any of the periods presented.
+The following is a summary of revenue by geographic region based on the direct customers’ ship-to locations for the periods presented (in thousands):
+Three Months Ended June 30, | Six Months Ended June 30, |
+Country or Region | 2026 | 2025 | 2026 | 2025 |
+China | $ | 501,973 | $ | 397,951 | $ | 913,126 | $ | 761,671 |
+Taiwan | 260,487 | 104,970 | 442,103 | 221,311 |
+South Korea | 87,887 | 63,501 | 169,693 | 127,865 |
+Southeast Asia | 48,960 | 34,867 | 89,709 | 67,573 |
+Europe | 34,832 | 26,497 | 70,631 | 51,489 |
+U.S. | 26,212 | 18,127 | 55,986 | 33,376 |
+Japan | 20,171 | 18,536 | 43,355 | 38,637 |
+Other | 120 | 125 | 224 | 206 |
+Total | $ | 980,642 | $ | 664,574 | $ | 1,784,827 | $ | 1,302,128 |
+The Company’s direct customers are primarily third-party distributors and value-added resellers. For each of the three and six months ended June 30, 2026, 88 % of the Company’s total sales were made through distribution arrangements. For each of the three and six months ended June 30, 2025, 83 % of the Company’s total sales were made through distribution arrangements. These distribution arrangements contain enforceable rights and obligations specific to those distributors and value-added resellers and not the end customers.
+The following table summarizes the direct customers with sales equal to 10% or more of the Company’s total revenue for the periods presented:
+Three Months Ended June 30, | Six Months Ended June 30, |
+Customer | 2026 | 2025 | 2026 | 2025 |
+Distributor A | 28 | % | 25 | % | 27 | % | 25 | % |
+Distributor B | 15 | % | 17 | % | 15 | % | 18 | % |
+Distributor C | * | 11 | % | * | 11 | % |
+Distributor D | 10 | % | * | * | * |
+____________________________
+* Represents less than 10%.
+The Company’s agreements with these third-party distributors were made in the ordinary course of business and may be terminated with or without cause by these distributors with advance notice. Although the Company may experience a short-term disruption in the distribution of its products and a short-term decline in revenue if its agreement with any of the distributors were terminated, the Company believes that such termination would not have a material adverse effect on its financial statements because it would be able to engage alternative distributors, resellers and other distribution channels to deliver its products to end customers within a relatively short period following any termination of the agreement with a distributor.
+Purchase orders, which are generally governed by sales agreemen

@@ -1,0 +1,504 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1616533/000161653326000046/pengq4-26form8xkxex991.htm
+SEMBOL: PENG
+BASVURU_TARIHI: 2026-10-06
+BASVURU: 0001616533-26-000046
+
+EX-99
+2
+pengq4-26form8xkxex991.htm
+EX-99
+Document
+Exhibit 99.1
+Press Release
+FOR IMMEDIATE RELEASE
+Penguin Solutions Announces
+Fourth-Quarter and Full-Year Fiscal 2026 Results
+Record Results Across Key Financial Metrics Reflecting AI-Driven Data Center Demand; Raising Fiscal 2027 Outlook Supported by Accelerating AI Infrastructure Business
+Fremont, Calif. – October 6, 2026 – Penguin Solutions, Inc. (“Penguin Solutions,” “Penguin,” “we,” “us,” “our,” or the “Company”) (Nasdaq: PENG), the AI Factory Platform Company, today announced financial results for its fiscal fourth quarter and full year 2026 ended August 28, 2026. The Company also raised its outlook for its fiscal 2027 full year as compared to the preliminary view provided last quarter.
+Fourth Quarter Financial Highlights
+• Record net sales of $567 million, up 68% year over year
+• Record operating income of $69 million, up 458% year over year
+• Record Non-GAAP operating income of $90 million, up 129% year over year
+• Record net income of $93 million, up 888% year over year
+• Record adjusted EBITDA of $93 million, up 115% year over year
+• Diluted EPS of $1.29 versus $0.11 in the year-ago quarter, up 1,073% year over year
+• Non-GAAP diluted EPS of $1.00 versus $0.43 in the year-ago quarter, up 133% year over year
+“Our company performance accelerated significantly in the second half of fiscal 2026 following the launch of our AI Factory Platform and increased focus on the data center market. We prioritized and aligned our AI Infrastructure and Memory businesses with strong AI-driven data center demand, increased investment in product innovation, and sharpened go-to-market execution with a focus on making neocloud and enterprise customers successful,” said Kash Shaikh, president and CEO of Penguin Solutions.
+“The proof is in the results. After relatively flat year-over-year net sales in the first half, growth accelerated to 48% in Q3 and 68% in Q4, driving second-half growth of 58%. As we enter fiscal 2027, our memory business remains strong, and our AI Infrastructure business is accelerating further. Based on this continued momentum, particularly the strength in AI Infrastructure, we are increasing our fiscal 2027 expectations for both net sales and non-GAAP diluted EPS beyond the preliminary growth view shared during the third-quarter earnings call, as we continue to drive strong operating leverage across the business.”
+Recent Business Highlights
+Neocloud Momentum and Customer Expansion Across AI Infrastructure
+• Won six new AI Infrastructure data center customers in the fourth quarter, including four neocloud providers, reflecting a surge in demand from neocloud customers for our full-stack AI Factory Platform.
+• Continued to execute our land-and-expand strategy. Across fiscal 2026, we added seventeen new AI Infrastructure customers, and twelve customers expanded their business with Penguin in the same period.
+• Won a neocloud customer backed by a leading South Korean technology company that selected Penguin to design, build, deploy, and manage an NVIDIA GB300 NVL72-based platform.
+• Won a publicly traded neocloud customer with more than $3 billion in signed, multi-year contracts to provide AI infrastructure deployment and 24x7 operations services, supported by ClusterWareAI™, our AI factory operating system software.
+• Won a neocloud customer with $10 billion in contracted compute from a leading AI lab. The customer selected Penguin to deploy and operate a 36,000-GPU AI factory in Norway. This multi-year engagement demonstrates the scale and capabilities of our AI Factory Platform.
+• Won another neocloud customer, Lektra, which selected our AI Factory Platform to deploy and optimize distributed AI micro data centers powered by existing carbon-free energy. We provide validated reference designs, NVIDIA-based AI compute, and expert services with ClusterWareAI and support.
+Key Product Innovation and Company Milestones
+• Advanced ClusterWareAI with new self-managing agentic AI capabilities, building on the AI Factory Operations Agent introduced last quarter. ClusterWareAI now automatically detects and remediates GPU performance issues across inference environments, helping customers maintain higher uptime and reduce operational overhead as they scale AI workloads.
+• Continued investment in new CXL memory expansion products to support strengthening bookings.
+• Closed an oversubscribed $750 million convertible senior notes offering due 2031, with favorable economic terms including a 0% coupon.
+• Established a new relationship with an additional AI Infrastructure supplier to improve component availability and support growing demand.
+• Established a new supply arrangement with a leading memory supplier to improve supply availability and support growing AI-driven memory demand in the data center.
+Fiscal 2026 Highlights
+• Net sales of $1.73 billion, up 26% year over year
+• Operating income of $166 million, up 185% year over year
+• Record Non-GAAP operating income of $241 million, up 44% year over year
+• Record net income of $181 million, up 611% year over year
+• Record adjusted EBITDA of $256 million, up 37% year over year
+• Diluted EPS of $2.60 versus $0.28 in the prior year, up 829% year over year
+• Non-GAAP diluted EPS of $2.87 versus $1.90 in the prior year, up 51% year over year
+Raising Fiscal 2027 Outlook
+Penguin Solutions is providing an updated financial outlook for full-year fiscal 2027 that exceeds the preliminary view provided during its third-quarter fiscal 2026 earnings call, which called for net sales and non-GAAP diluted EPS growth of approximately 30% year over year from the midpoint of the then-current fiscal 2026 outlook, representing fiscal 2027 net sales of $2.17 billion at the midpoint.
+Penguin Solutions now expects fiscal 2027 net sales of approximately $2.43 billion at the midpoint, representing growth of approximately 40%, plus or minus 10 percentage points. The Company also expects diluted EPS of $3.50 and non-GAAP diluted EPS of $4.45, representing year-over-year growth of approximately 35% and 55%, respectively.
+Annual Financial Results
+| | | | | | | | | | | | | | | | | | | | | | | |
+| GAAP (1)
+| | Non-GAAP (2)
+|
+(in thousands, except per share amounts) | FY26 | | FY25 | | FY26 | | FY25 |
+Net sales: | | | | | | | |
+Advanced Computing | $ | 558,789 | | | $ | 648,417 | | | $ | 558,789 | | | $ | 648,417 | |
+Integrated Memory | 924,001 | | | 464,249 | | | 924,001 | | | 464,249 | |
+Optimized LED | 248,678 | | | 256,128 | | | 248,678 | | | 256,128 | |
+Total net sales | $ | 1,731,468 | | | $ | 1,368,794 | | | $ | 1,731,468 | | | $ | 1,368,794 | |
+| | | | | | | |
+Gross profit | $ | 478,925 | | | $ | 394,274 | | | $ | 507,862 | | | $ | 424,600 | |
+Operating income | 165,596 | | | 58,135 | | | 240,962 | | | 167,652 | |
+Net income attributable to Penguin Solutions | 180,615 | | | 25,391 | | | 190,182 | | | 120,325 | |
+Diluted earnings per share | $ | 2.60 | | | $ | 0.28 | | | $ | 2.87 | | | $ | 1.90 | |
+Quarterly Financial Results
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| GAAP (1)
+| | Non-GAAP (2)
+|
+(in thousands, except per share amounts) | Q4-26 | | Q3-26 | | Q4-25 | | Q4-26 | | Q3-26 | | Q4-25 |
+Net sales: | | | | | | | | | | | |
+Advanced Computing | $ | 154,039 | | | $ | 137,583 | | | $ | 138,336 | | | $ | 154,039 | | | $ | 137,583 | | | $ | 138,336 | |
+Integrated Memory | 340,784 | | | 275,067 | | | 132,159 | | | 340,784 | | | 275,067 | | | 132,159 | |
+Optimized LED | 71,862 | | | 66,063 | | | 67,427 | | | 71,862 | | | 66,063 | | | 67,427 | |
+Total net sales | $ | 566,685 | | | $ | 478,713 | | | $ | 337,922 | | | $ | 566,685 | | | $ | 478,713 | | | $ | 337,922 | |
+| | | | | | | | | | | |
+Gross profit | $ | 155,900 | | | $ | 133,214 | | | $ | 96,731 | | | $ | 163,275 | | | $ | 134,750 | | | $ | 104,317 | |
+Operating income | 69,462 | | | 50,863 | | | 12,448 | | | 89,796 | | | 64,384 | | | 39,170 | |
+Net income attributable to Penguin Solutions | 93,204 | | | 44,689 | | | 9,431 | | | 71,438 | | | 52,246 | | | 28,843 | |
+Diluted earnings per share | $ | 1.29 | | | $ | 0.68 | | | $ | 0.11 | | | $ | 1.00 | | | $ | 0.84 | | | $ | 0.43 | |
+(1) GAAP represents U.S. Generally Accepted Accounting Principles.
+(2) Non-GAAP represents GAAP excluding the impact of certain activities. Further information regarding the Company’s use of non-GAAP measures and reconciliations between GAAP and non-GAAP measures are included within this press release.
+Business Outlook
+As of October 6, 2026, Penguin Solutions is providing the following financial outlook for fiscal year 2027:
+| | | | | | | | | | | | | | |
+Outlook | GAAP
+Outlook
+| Adjustments | Non-GAAP
+Outlook
+|
+Net sales | 40% YoY Growth +/-10% | — | 40% YoY Growth +/-10% |
+Gross margin | 27% +/- 2% | 1% | (A) | 28% +/- 2% |
+Operating expenses | $329 million +/- $10 million | ($54) million | (B)(C) | $275 million +/- $10 million |
+Diluted earnings per share | $3.50 +/- $0.70 | $0.95 | (A)(B)(C)(D)(E) | $4.45 +/- $0.70 |
+Diluted shares | 63 million | — | 63 million |
+| | | | | |
+Non-GAAP adjustments (in millions) | |
+(A) Stock-based compensation and amortization of acquisition-related intangibles included in cost of sales | $ | 30 | |
+(B) Stock-based compensation and amortization of acquisition-related intangibles included in R&D and SG&A | 46 | |
+(C) Other operating adjustments | 8 | |
+| |
+(D) Estimated income tax effects
+| (17) | |
+(E) Estimated effect of allocation of earnings to participating securities
+| (7) | |
+| $ | 60 | |
+Fourth Quarter and Full-Year Fiscal 2026 Earnings Conference Call and Webcast Details
+Penguin Solutions will hold a conference call and webcast to discuss the fourth quarter and full-year fiscal 2026 results and related matters today, October 6, 2026, at 1:30 p.m. Pacific Time (4:30 p.m. Eastern Time). Interested parties may access the call by registering online at https://events.q4inc.com/attendee/198397741, at which time registrants will receive dial-in information as well as a conference ID. The live webcast will also be accessible from the Penguin Solutions investor relations website https://ir.penguinsolutions.com/investors/default.aspx on the Events page, along with the related earnings press release and slide presentation. The webcast replay will be
+made available on the Quarterly Results page after the call concludes. An archived version of the webcast will be available on the Penguin Solutions investor relations website for approximately one year after the webcast date.
+Use of Forward-Looking Statements
+This press release contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, Section 21E of the Securities Exchange Act of 1934, as amended, and the Private Securities Litigation Reform Act of 1995 that are not historical in nature, that are predictive or that depend upon or refer to future events or conditions. These statements may include, but are not limited to, statements concerning or regarding future events and the future financial and operating performance of Penguin Solutions; statements regarding the extent and timing of and expectations regarding Penguin Solutions’ future net sales, sales mix, profitability, operating leverage, and expenses; statements regarding Penguin Solutions’ business momentum and emerging leadership position; statements regarding AI-related demand, customer pipeline, bookings, backlog and the conversion of backlog to net sales, the expected scope, timing, and benefits of customer engagements and deployments, market opportunities, industry trends and product development, roadmap, capabilities and performance; statements regarding supply arrangements and component availability; statements regarding working capital, liquidity, capital expenditures and capital structure; statements regarding projected demand for fiscal year 2027 and beyond; statements regarding long-term effective tax rates; and statements regarding the business and financial outlook for fiscal year 2027, including the information under “Business Outlook” above.
+These statements can be identified by the fact that they do not relate strictly to historical or current facts. Forward-looking statements often use words such as “anticipate,” “target,” “expect,” “estimate,” “intend,” “plan,” “goal,” “believe,” “could,” and other words of similar meaning. Forward-looking statements provide our current expectations or forecasts of future events, circumstances, results or aspirations and are subject to a number of significant risks, uncertainties and other factors, many of which are outside of our control, including but not limited to: global business and economic conditions, including the impact on the financial condition of our customers, particularly in challenging macroeconomic environments; growth and demand trends in technology industries (including trends and markets related to artificial intelligence), our customer markets and various geographic regions; uncertainties in the geopolitical environment, including those related to global conflicts, such as those in the Middle East and Ukraine, and the global effects thereof on international relations, transport, and trade; our ability to manage our cost structure; disruptions in our operations or supply chain as a result of global pandemics, tariffs, disruptions at our suppliers, or other factors; changes in trade regulations and tariffs or adverse developments in international trade relations and agreements; changes in currency exchange rates; overall information technology spending, including changes in customer spending on our products and services; appropriations for government spending; the success of our strategic initiatives including the U.S. Domestication (as defined below) and our ability to realize the anticipated benefits thereof, our rebranding and related strategy, any existing or potential collaborations and additional investments in new products and additional capacity; acquisitions of companies or technologies and the failure to successfully integrate and operate them or customers’ negative reactions to them; failure to achieve the intended benefits of the sale of Zilia Technologies Indústria e Comércio de Componentes Eletrônicos Ltda. (formerly SMART Modular Technologies do Brasil - Indústria e Comércio de Componentes Ltda.) and its business; the impact of and expected timing of winding down the manufacturing and discontinuing the sale of products offered through our Penguin Edge business; limitations on or changes in the availability of supply of materials and components; fluctuations in material costs; the temporary or volatile nature of pricing trends in memory or elsewhere; deterioration in customer relationships; our dependence on a select number of customers, and the timing and volume of customer orders and renewals; the impact of customer churn rates, including discounting and churn of significant customers from whom we derive a significant percentage of our revenue; changes in customer demand and sales mix; production or manufacturing difficulties; competitive factors; technological changes; difficulties with, or delays in, the introduction of new products; slowing or contraction of growth in the memory market, LED market or other markets in which we participate; changes to applicable tax regimes or rates; changes to the valuation allowance for our deferred tax assets, including any potential inability to realize these assets in the future; prices for the end products of our customers; strikes or labor disputes; deterioration in or loss of relations with any of our limited number of key vendors; the inability to maintain or expand government business; potential sales of our common stock by the holder of our issued convertible preferred stock or the anticipation of such sales; and the continuing availability of
+borrowings under revolving lines of credit or other debt arrangements and our ability to raise capital through debt or equity financings.
+These and other risks, uncertainties and factors are described in greater detail under the sections titled “Risk Factors,” “Critical Accounting Estimates,” “Results of Operations,” “Quantitative and Qualitative Disclosures About Market Risk” and “Liquidity and Capital Resources” contained in the Annual Report on Form 10-K for the fiscal year ended August 29, 2025, as updated by the risk factors, if any, contained in our Quarterly Reports on Form 10-Q and in our other filings with the U.S. Securities and Exchange Commission (the “SEC”). Such risks, uncertainties and factors as outlined above and in such filings could cause our actual results to be materially different from such forward-looking statements. Accordingly, investors are cautioned not to place undue reliance on any forward-looking statements. Any forward-looking statements that we make in this press release speak only as of the date of this press release. Except as required by law, we do not undertake to update the forward-looking statements contained in this press release to reflect the impact of circumstances or events that may arise after the date that the forward-looking statements were made.
+Statement Regarding Use of Non-GAAP Financial Measures
+This press release and the accompanying tables contain the following non-GAAP financial measures: non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP operating income, non-GAAP operating margin, non-GAAP effective tax rate, non-GAAP net income attributable to Penguin Solutions, non-GAAP income available for distribution, non-GAAP net income available to common stockholders, non-GAAP weighted-average shares outstanding, non-GAAP diluted earnings per share and adjusted EBITDA. Penguin Solutions’ management uses these non-GAAP measures to supplement Penguin Solutions’ financial results under GAAP. Management uses these measures to analyze its operations and make decisions as to future operational plans and believes that this supplemental non-GAAP information is useful to investors in analyzing and assessing the Company’s past and future operating performance. These non-GAAP measures exclude certain items, such as stock-based compensation expense; amortization of acquisition-related intangible assets (consisting of amortization of developed technology, customer relationships and trademarks/trade names and backlog acquired in connection with business combinations); inventory write-off, stolen in-transit shipment, net of insurance recovery; cost of sales-related restructuring; diligence, acquisition and integration expense; redomiciliation costs; restructuring charges; (gain) loss on disposition of equity investments; (gain) loss on non-marketable equity investments; impairment of goodwill; (gains) losses from changes in foreign currency exchange rates; amortization of debt issuance costs; (gain) loss on extinguishment or prepayment of debt; inducement expense associated with conversions of the 2029 and 2030 Notes; other infrequent or unusual items and related tax effects and other tax adjustments. While amortization of acquisition-related intangible assets is excluded, the revenues from acquired companies are reflected in the Company’s non-GAAP measures and these intangible assets contribute to revenue generation. Management believes the presentation of operating results that exclude certain items provides useful supplemental information to investors and facilitates the analysis of the Company’s core operating results and comparison of operating results across reporting periods. Management also uses adjusted EBITDA, which represents GAAP net income (loss), adjusted for net interest expense; income tax provision (benefit); depreciation expense and amortization of intangible assets; stock-based compensation expense; inventory write-off, stolen in-transit shipment, net of insurance recovery; cost of sales-related restructuring; diligence, acquisition and integration expense; redomiciliation costs; (gain) loss on dispositions of equity investments; (gain) loss on non-marketable equity investments; impairment of goodwill; restructuring charges; loss on extinguishment or prepayment of debt; inducement expense associated with conversions of the 2029 and 2030 Notes and other infrequent or unusual items.
+Our GAAP effective tax rate can vary significantly from quarter to quarter based on a variety of factors, including, but not limited to, discrete items which are recorded in the period they occur, the tax effects of certain items of income or expense, significant changes in our geographic earnings mix or changes to our strategy or business operations. We are unable to predict the timing and amounts of these items, which could significantly impact our GAAP effective tax rate, and therefore we are unable to reconcile our forward-looking non-GAAP effective tax rate measure to our GAAP effective tax rate.
+Non-GAAP financial measures should not be considered as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP, as they exclude important information about Penguin Solutions’ financial results, as noted above. The presentation of these adjusted amounts varies from amounts presented in accordance with GAAP and therefore may not be comparable to amounts reported by other companies. In addition, adjusted EBITDA does not purport to represent cash flow provided by, or used for, operating activities in accordance with GAAP and should not be used as a measure of liquidity. Investors are encouraged to review the “Reconciliation of GAAP to Non-GAAP Measures” tables below.
+Explanatory Note
+On June 30, 2025, we completed the redomiciliation of the parent company of our corporate group, Penguin Solutions (Cayman), Inc. (formerly known as Penguin Solutions, Inc.), a Cayman Islands exempted company (“Penguin Solutions Cayman”), from the Cayman Islands to the State of Delaware in the United States, resulting in Penguin Solutions, Inc., a Delaware corporation (“Penguin Solutions Delaware”), becoming our publicly traded parent company (the “U.S. Domestication”). Penguin Solutions Delaware is the successor issuer to Penguin Solutions Cayman. The U.S. Domestication was approved by the shareholders of Penguin Solutions Cayman and effected via a court-sanctioned scheme of arrangement under Cayman Islands law, pursuant to which each ordinary share of Penguin Solutions Cayman was exchanged for one share of common stock of Penguin Solutions Delaware, and each convertible preferred share of Penguin Solutions Cayman was exchanged for one share of convertible preferred stock of Penguin Solutions Delaware. Additional information about the U.S. Domestication was included in Penguin Solutions Cayman’s definitive proxy statement on Schedule 14A, filed with the SEC on May 2, 2025.
+As used in this press release, unless stated otherwise or the context requires otherwise, the terms “Penguin Solutions,” “Company,” “we,” “our,” “us” or similar terms (i) for periods prior to the consummation of the U.S. Domestication, refer to Penguin Solutions Cayman and its consolidated subsidiaries and (ii) for periods at or after the consummation of the U.S. Domestication, refer to Penguin Solutions Delaware and its consolidated subsidiaries. Throughout this press release, we refer to our equity securities (i) for periods prior to the consummation of the U.S. Domestication, as ordinary shares and/or convertible preferred shares and (ii) for periods at or after the consummation of the U.S. Domestication, as shares of common stock and/or shares of convertible preferred stock.
+About Penguin Solutions
+Penguin Solutions is the AI Factory Platform Company. We design, build, and manage next-generation data centers for enterprises, sovereign AI initiatives, and neocloud providers.
+With deep design expertise at the intersection of data center AI infrastructure and memory solutions, our Full-Stack AI Factory Platform combines differentiated infrastructure software, advanced memory, compute systems, end-to-end services, and industry-leading partner technologies to help customers accelerate deployment, optimize token economics, and maximize the return on their AI investments.
+Learn more at PenguinSolutions.com.
+Penguin Solutions, Inc.
+Consolidated Statements of Operations
+(In thousands, except per share amounts)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Year Ended |
+| August 28,
+2026 | | May 29,
+2026 | | August 29,
+2025 | | August 28,
+2026 | | August 29,
+2025 |
+Net sales: | | | | | | | | | |
+Advanced Computing | $ | 154,039 | | | $ | 137,583 | | | $ | 138,336 | | | $ | 558,789 | | | $ | 648,417 | |
+Integrated Memory | 340,784 | | | 275,067 | | | 132,159 | | | 924,001 | | | 464,249 | |
+Optimized LED | 71,862 | | | 66,063 | | | 67,427 | | | 248,678 | | | 256,128 | |
+Total net sales | 566,685 | | | 478,713 | | | 337,922 | | | 1,731,468 | | | 1,368,794 | |
+Cost of sales | 410,785 | | | 345,499 | | | 241,191 | | | 1,252,543 | | | 974,520 | |
+Gross profit | 155,900 | | | 133,214 | | | 96,731 | | | 478,925 | | | 394,274 | |
+| | | | | | | | | |
+Operating expenses: | | | | | | | | | |
+Research and development | 22,024 | | | 21,984 | | | 19,861 | | | 81,677 | | | 79,801 | |
+Selling, general and administrative | 59,927 | | | 59,404 | | | 58,602 | | | 220,412 | | | 238,177 | |
+Impairment of goodwill | — | | | — | | | 4,690 | | | — | | | 16,063 | |
+| | | | | | | | | |
+Other operating expense | 4,487 | | | 963 | | | 1,130 | | | 11,240 | | | 2,098 | |
+Total operating expenses | 86,438 | | | 82,351 | | | 84,283 | | | 313,329 | | | 336,139 | |
+Operating income | 69,462 | | | 50,863 | | | 12,448 | | | 165,596 | | | 58,135 | |
+| | | | | | | | | |
+Non-operating (income) expense: | | | | | | | | | |
+Interest (income) expense, net | (980) | | | 650 | | | 153 | | | 438 | | | 7,305 | |
+Other non-operating (income) expense | 33,028 | | | (3,485) | | | 2,941 | | | 13,235 | | | 1,929 | |
+Total non-operating (income) expense | 32,048 | | | (2,835) | | | 3,094 | | | 13,673 | | | 9,234 | |
+Income before taxes | 37,414 | | | 53,698 | | | 9,354 | | | 151,923 | | | 48,901 | |
+| | | | | | | | | |
+Income tax (benefit) provision | (57,595) | | | 7,515 | | | (1,196) | | | (33,865) | | | 20,066 | |
+| | | | | | | | | |
+| | | | | | | | | |
+Net income | 95,009 | | | 46,183 | | | 10,550 | | | 185,788 | | | 28,835 | |
+Net income attributable to noncontrolling interest | 1,805 | | | 1,494 | | | 1,119 | | | 5,173 | | | 3,444 | |
+Net income attributable to Penguin Solutions | 93,204 | | | 44,689 | | | 9,431 | | | 180,615 | | | 25,391 | |
+| | | | | | | | | |
+Preferred stock dividends | 3,034 | | | 3,033 | | | 3,034 | | | 12,133 | | | 8,667 | |
+Income available for distribution | 90,170 | | | 41,656 | | | 6,397 | | | 168,482 | | | 16,724 | |
+Income allocated to participating securities | 8,903 | | | 4,448 | | | 666 | | | 17,394 | | | 1,263 | |
+Net income available to common stockholders | $ | 81,267 | | | $ | 37,208 | | | $ | 5,731 | | | $ | 151,088 | | | $ | 15,461 | |
+| | | | | | | | | |
+Earnings per share: | | | | | | | | | |
+Basic | $ | 1.46 | | | $ | 0.73 | | | $ | 0.11 | | | $ | 2.85 | | | $ | 0.29 | |
+Diluted | $ | 1.29 | | | $ | 0.68 | | | $ | 0.11 | | | $ | 2.60 | | | $ | 0.28 | |
+| | | | | | | | | |
+Common stock used in per share calculations: | | | | | | | | | |
+Basic | 55,645 | | | 50,998 | | | 52,553 | | | 52,952 | | | 53,154 | |
+Diluted | 64,040 | | | 55,063 | | | 54,371 | | | 58,825 | | | 54,368 | |
+Penguin Solutions, Inc.
+Reconciliation of GAAP to Non-GAAP Measures
+(In thousands, except percentages)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Year Ended |
+| August 28,
+2026 | | May 29,
+2026 | | August 29,
+2025 | | August 28,
+2026 | | August 29,
+2025 |
+GAAP gross profit | $ | 155,900 | | | $ | 133,214 | | | $ | 96,731 | | | $ | 478,925 | | | $ | 394,274 | |
+Stock-based compensation expense | 1,463 | | | 1,411 | | | 1,324 | | | 5,782 | | | 6,136 | |
+Amortization of acquisition-related intangibles | 5,912 | | | 5,908 | | | 5,920 | | | 23,638 | | | 23,644 | |
+Inventory write-off, stolen in-transit shipment, net of insurance recovery | — | | | (5,783) | | | — | | | — | | | — | |
+Cost of sales-related restructuring | — | | | — | | | 342 | | | (483) | | | 746 | |
+Other | — | | | — | | | — | | | — | | | (200) | |
+Non-GAAP gross profit | $ | 163,275 | | | $ | 134,750 | | | $ | 104,317 | | | $ | 507,862 | | | $ | 424,600 | |
+| | | | | | | | | |
+GAAP gross margin | 27.5 | % | | 27.8 | % | | 28.6 | % | | 27.7 | % | | 28.8 | % |
+Effect of adjustments | 1.3 | % | | 0.3 | % | | 2.3 | % | | 1.6 | % | | 2.2 | % |
+Non-GAAP gross margin | 28.8 | % | | 28.1 | % | | 30.9 | % | | 29.3 | % | | 31.0 | % |
+| | | | | | | | | |
+GAAP operating expenses | $ | 86,438 | | | $ | 82,351 | | | $ | 84,283 | | | $ | 313,329 | | | $ | 336,139 | |
+Stock-based compensation expense | (5,157) | | | (8,585) | | | (6,490) | | | (26,033) | | | (35,040) | |
+Amortization of acquisition-related intangibles | (1,316) | | | (1,316) | | | (1,885) | | | (5,831) | | | (11,194) | |
+Diligence, acquisition and integration expense | (858) | | | (1,058) | | | (133) | | | (1,916) | | | (1,829) | |
+Redomiciliation costs | — | | | — | | | (2,734) | | | — | | | (10,038) | |
+Impairment of goodwill | — | | | — | | | (4,690) | | | — | | | (16,063) | |
+| | | | | | | | | |
+Restructuring charges | (4,487) | | | (963) | | | (1,130) | | | (11,240) | | | (2,098) | |
+Other | (1,141) | | | (63) | | | (2,074) | | | (1,409) | | | (2,929) | |
+Non-GAAP operating expenses | $ | 73,479 | | | $ | 70,366 | | | $ | 65,147 | | | $ | 266,900 | | | $ | 256,948 | |
+| | | | | | | | | |
+GAAP operating income | $ | 69,462 | | | $ | 50,863 | | | $ | 12,448 | | | $ | 165,596 | | | $ | 58,135 | |
+Stock-based compensation expense | 6,620 | | | 9,996 | | | 7,814 | | | 31,815 | | | 41,176 | |
+Amortization of acquisition-related intangibles | 7,228 | | | 7,224 | | | 7,805 | | | 29,469 | | | 34,838 | |
+Inventory write-off, stolen in-transit shipment, net of insurance recovery | — | | | (5,783) | | | — | | | — | | | — | |
+Cost of sales-related restructuring | — | | | — | | | 342 | | | (483) | | | 746 | |
+Diligence, acquisition and integration expense | 858 | | | 1,058 | | | 133 | | | 1,916 | | | 1,829 | |
+Redomiciliation costs | — | | | — | | | 2,734 | | | — | | | 10,038 | |
+Impairment of goodwill | — | | | — | | | 4,690 | | | — | | | 16,063 | |
+| | | | | | | | | |
+Restructuring charges | 4,487 | | | 963 | | | 1,130 | | | 11,240 | | | 2,098 | |
+Other
+| 1,141 | | | 63 | | | 2,074 | | | 1,409 | | | 2,729 | |
+Non-GAAP operating income | $ | 89,796 | | | $ | 64,384 | | | $ | 39,170 | | | $ | 240,962 | | | $ | 167,652 | |
+| | | | | | | | | |
+GAAP operating margin | 12.3 | % | | 10.6 | % | | 3.7 | % | | 9.6 | % | | 4.2 | % |
+Effect of adjustments | 3.5 | % | | 2.8 | % | | 7.9 | % | | 4.3 | % | | 8.0 | % |
+Non-GAAP operating margin | 15.8 | % | | 13.4 | % | | 11.6 | % | | 13.9 | % | | 12.2 | % |
+|
+Penguin Solutions, Inc.
+Reconciliation of GAAP to Non-GAAP Measures, Continued
+(In thousands, except percentages)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Year Ended |
+| August 28,
+2026 | | May 29,
+2026 | | August 29,
+2025 | | August 28,
+2026 | | August 29,
+2025 |
+GAAP effective tax rate | (153.9) | % | | 14.0 | % | | (12.8) | % | | (22.3) | % | | 41.0 | % |
+Effect of adjustments | 173.9 | % | | 3.3 | % | | 37.8 | % | | 42.3 | % | | (16.0) | % |
+Non-GAAP effective tax rate | 20.0 | % | | 17.3 | % | | 25.0 | % | | 20.0 | % | | 25.0 | % |
+| | | | | | | | | |
+GAAP net income attributable to Penguin Solutions | $ | 93,204 | | | $ | 44,689 | | | $ | 9,431 | | | $ | 180,615 | | | $ | 25,391 | |
+Stock-based compensation expense | 6,620 | | | 9,996 | | | 7,814 | | | 31,815 | | | 41,176 | |
+Amortization of acquisition-related intangibles | 7,228 | | | 7,224 | | | 7,805 | | | 29,469 | | | 34,838 | |
+| | | | | | | | | |
+Inventory write-off, stolen in-transit shipment, net of insurance recovery | — | | | (5,783) | | | — | | | — | | | — | |
+Cost of sales-related restructuring | — | | | — | | | 342 | | | (483) | | | 746 | |
+Diligence, acquisition and integration expense | 858 | | | 1,058 | | | 133 | | | 1,916 | | | 1,829 | |
+Redomiciliation costs | — | | | — | | | 2,734 | | | — | | | 10,038 | |
+Loss on non-marketable equity investment | — | | | — | | | — | | | 10,000 | | | — | |
+Impairment of goodwill | — | | | — | | | 4,690 | | | — | | | 16,063 | |
+Gain on disposition of equity investment | (14) | | | (3,892) | | | — | | | (30,942) | | | — | |
+Restructuring charges | 4,487 | | | 963 | | | 1,130 | | | 11,240 | | | 2,098 | |
+Amortization of debt issuance costs | 836 | | | 576 | | | 674 | | | 2,728 | | | 3,493 | |
+Loss on extinguishment or prepayment of debt | — | | | — | | | 2,908 | | | — | | | 2,908 | |
+Inducement expense associated with conversions of 2029 and 2030 Notes | 33,248 | | | — | | | — | | | 33,248 | | | — | |
+Foreign currency (gains) losses | (263) | | | 1,080 | | | 287 | | | 1,014 | | | 205 | |
+Other | 1,141 | | | 63 | | | 2,074 | | | 2,266 | | | 2,729 | |
+Income tax effects (1)
+| (75,907) | | | (3,728) | | | (11,179) | | | (82,704) | | | (21,189) | |
+Non-GAAP net income attributable to Penguin Solutions | 71,438 | | | 52,246 | | | 28,843 | | | 190,182 | | | 120,325 | |
+| | | | | | | | | |
+Preferred stock dividends | 3,034 | | | 3,033 | | | 3,034 | | | 12,133 | | | 8,667 | |
+Non-GAAP income available for distribution | 68,404 | | | 49,213 | | | 25,809 | | | 178,049 | | | 111,658 | |
+Income allocated to participating securities | 6,124 | | | 5,091 | | | 2,639 | | | 17,486 | | | 8,250 | |
+Non-GAAP net income available to common stockholders | $ | 62,280 | | | $ | 44,122 | | | $ | 23,170 | | | $ | 160,563 | | | $ | 103,408 | |
+| | | | | | | | | |
+Weighted-average shares outstanding - Diluted: | | | | | | | | | |
+GAAP weighted-average shares outstanding | 64,040 | | | 55,063 | | | 54,371 | | | 58,825 | | | 54,368 | |
+Adjustment for dilutive securities and capped calls | (2,040) | | | (2,226) | | | (838) | | | (2,848) | | | — | |
+Non-GAAP weighted-average shares outstanding | 62,000 | | | 52,837 | | | 53,533 | | | 55,977 | | | 54,368 | |
+(1) The three months and year ended August 29, 2025 include ($8,249) as a one-time tax effect of the U.S. Domestication completed in the fourth quarter of fiscal 2025.
+|
+|
+Penguin Solutions, Inc.
+Reconciliation of GAAP to Non-GAAP Measures, Continued
+(In thousands, except per share amounts)
+(Unaudited) | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Year Ended |
+| August 28,
+2026 | | May 29,
+2026 | | August 29,
+2025 | | August 28,
+2026 | | August 29,
+2025 |
+Diluted earnings per share: | | | | | | | | | |
+GAAP diluted earnings per share | $ | 1.29 | | | $ | 0.68 | | | $ | 0.11 | | | $ | 2.60 | | | $ | 0.28 | |
+Effect of adjustments | (0.29) | | | 0.16 | | | 0.32 | | | 0.27 | | | 1.62 | |
+Non-GAAP diluted earnings per share | $ | 1.00 | | | $ | 0.84 | | | $ | 0.43 | | | $ | 2.87 | | | $ | 1.90 | |
+| | | | | | | | | |
+Net income attributable to Penguin Solutions | $ | 93,204 | | | $ | 44,689 | | | $ | 9,431 | | | $ | 180,615 | | | $ | 25,391 | |
+Interest (income) expense, net | (980) | | | 650 | | | 153 | | | 438 | | | 7,305 | |
+Income tax (benefit) provision | (57,595) | | | 7,515 | | | (1,196) | | | (33,865) | | | 20,066 | |
+Depreciation expense and amortization of intangible assets | 12,299 | | | 12,307 | | | 13,206 | | | 50,176 | | | 56,216 | |
+Stock-based compensation expense | 6,620 | | | 9,996 | | | 7,814 | | | 31,815 | | | 41,176 | |
+Inventory write-off, stolen in-transit shipment, net of insurance recovery | — | | | (5,783) | | | — | | | — | | | — | |
+Cost of sales-related restructuring | — | | | — | | | 342 | | | (483) | | | 746 | |
+Diligence, acquisition and integration expense | 858 | | | 1,058 | | | 133 | | | 1,916 | | | 1,829 | |
+Redomiciliation costs
+| — | | | — | | | 2,734 | | | — | | | 10,038 | |
+Impairment of goodwill | — | | | — | | | 4,690 | | | — | | | 16,063 | |
+Gain on disposition of equity investment | (14) | | | (3,892) | | | — | | | (30,942) | | | — | |
+Restructuring charges | 4,487 | | | 963 | | | 1,130 | | | 11,240 | | | 2,098 | |
+Loss on extinguishment or prepayment of debt | — | | | — | | | 2,908 | | | — | | | 2,908 | |
+Inducement expense associated with conversions of 2029 and 2030 Notes | 33,248 | | | — | | | — | | | 33,248 | | | — | |
+Loss on non-marketable equity investment | — | | | — | | | — | | | 10,000 | | | — | |
+Other
+| 1,141 | | | 63 | | | 2,074 | | | 2,266 | | | 2,729 | |
+Adjusted EBITDA | $ | 93,268 | | | $ | 67,566 | | | $ | 43,419 | | | $ | 256,424 | | | $ | 186,565 | |
+Penguin Solutions, Inc.
+Consolidated Balance Sheets
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | |
+As of | August 28,
+2026 | | August 29,
+2025 |
+Assets | | | |
+Cash and cash equivalents | $ | 647,208 | | | $ | 453,754 | |
+| | | |
+Accounts receivable, net (including $683 and $— due from related party as of August 28, 2026 and August 29, 2025, respectively)
+| 796,264 | | | 307,904 | |
+| | | |
+Inventories | 748,785 | | | 255,182 | |
+Other current assets | 56,249 | | | 47,387 | |
+| | | |
+Total current assets | 2,248,506 | | | 1,064,227 | |
+Property and equipment, net | 84,244 | | | 92,603 | |
+Operating lease right-of-use assets | 54,237 | | | 58,847 | |
+Intangible assets, net | 59,856 | | | 87,754 | |
+Goodwill | 145,895 | | | 145,895 | |
+Deferred tax assets | 173,389 | | | 99,107 | |
+Other noncurrent assets | 12,007 | | | 68,767 | |
+| | | |
+Total assets | $ | 2,778,134 | | | $ | 1,617,200 | |
+| | | |
+Liabilities, Temporary Equity and Stockholders' Equity | | | |
+Accounts payable and accrued expenses | $ | 890,476 | | | $ | 318,761 | |
+Current debt | 53,418 | | | 19,945 | |
+Deferred revenue | 123,283 | | | 73,893 | |
+| | | |
+Other current liabilities | 128,770 | | | 61,300 | |
+| | | |
+Total current liabilities | 1,195,947 | | | 473,899 | |
+Long-term debt | 735,532 | | | 441,893 | |
+Noncurrent operating lease liabilities | 57,896 | | | 62,736 | |
+| | | |
+Other noncurrent liabilities | 48,863 | | | 30,445 | |
+| | | |
+Total liabilities | 2,038,238 | | | 1,008,973 | |
+| | | |
+| | | |
+| | | |
+| | | |
+Temporary equity | 202,710 | | | 202,710 | |
+| | | |
+Penguin Solutions stockholders’ equity: | | | |
+Common stock | 2,215 | | | 1,883 | |
+| | | |
+Additional paid-in capital | 583,628 | | | 551,712 | |
+Retained earnings | 215,191 | | | 46,709 | |
+Treasury stock | (280,503) | | | (206,076) | |
+Accumulated other comprehensive income | 211 | | | 18 | |
+Total Penguin Solutions stockholders’ equity | 520,742 | | | 394,246 | |
+Noncontrolling interest in subsidiary | 16,444 | | | 11,271 | |
+Total stockholders' equity | 537,186 | | | 405,517 | |
+Total liabilities, temporary equity and stockholders' equity | $ | 2,778,134 | | | $ | 1,617,200 | |
+Penguin Solutions, Inc.
+Consolidated Statements of Cash Flows
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Year Ended |
+| August 28,
+2026 | | May 29,
+2026 | | August 29,
+2025 | | August 28,
+2026 | | August 29,
+2025 |
+Cash flows from operating activities | | | | | | | | | |
+Net income | $ | 95,009 | | | $ | 46,183 | | | $ | 10,550 | | | $ | 185,788 | | | $ | 28,835 | |
+| | | | | | | | | |
+| | | | | | | | | |
+Adjustments to reconcile net income from continuing operations to cash provided by (used for) operating activities | | | | | | | | | |
+Depreciation expense and amortization of intangible assets | 12,299 | | | 12,307 | | | 13,206 | | | 50,176 | | | 56,216 | |
+Amortization of debt issuance costs | 836 | | | 576 | | | 674 | | | 2,728 | | | 3,493 | |
+Stock-based compensation expense | 6,620 | | | 9,996 | | | 7,814 | | | 31,815 | | | 41,176 | |
+Loss on impairment of non-marketable equity investment | — | | | — | | | — | | | 10,000 | | | — | |
+Impairment of goodwill | — | | | — | | | 4,690 | | | — | | | 16,063 | |
+Gain on disposition of equity investment | (14) | | | (3,892) | | | — | | | (30,942) | | | — | |
+Loss on extinguishment of debt | — | | | — | | | 2,908 | | | — | | | 2,908 | |
+Inducement expense related to the conversion of the 2029 and 2030 Notes | 33,248 | | | — | | | — | | | 33,248 | | | — | |
+Deferred income taxes, net | (62,981) | | | 291 | | | (15,234) | | | (62,660) | | | (14,112) | |
+Other | 1,443 | | | (377) | | | 176 | | | 1,969 | | | (2,293) | |
+Changes in operating assets and liabilities: | | | | | | | | | |
+Accounts receivable | (91,995) | | | (333,660) | | | (15,400) | | | (488,360) | | | (56,160) | |
+Inventories | (250,467) | | | (175,958) | | | (70,834) | | | (493,603) | | | (101,610) | |
+Other assets | (8,935) | | | 12,708 | | | (6,088) | | | 964 | | | 7,653 | |
+Accounts payable and accrued expenses and other liabilities | 101,801 | | | 357,038 | | | (2,894) | | | 606,963 | | | 131,014 | |
+| | | | | | | | | |
+Net cash provided by (used for) operating activities from continuing operations | (163,136) | | | (74,788) | | | (70,432) | | | (151,914) | | | 113,183 | |
+Net cash used for operating activities from discontinued operations | — | | | — | | | — | | | — | | | (4,099) | |
+Net cash provided by (used for) operating activities | (163,136) | | | (74,788) | | | (70,432) | | | (151,914) | | | 109,084 | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Penguin Solutions, Inc.
+Consolidated Statements of Cash Flows, Continued
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Year Ended |
+| August 28,
+2026 | | May 29,
+2026 | | August 29,
+2025 | | August 28,
+2026 | | August 29,
+2025 |
+Cash flows from investing activities | | | | | | | | | |
+Capital expenditures and deposits on equipment | (4,272) | | | (2,841) | | | (2,925) | | | (11,569) | | | (9,012) | |
+Proceeds from disposition of equity investments | 14 | | | 39,552 | | | — | | | 71,752 | | | — | |
+| | | | | | | | | |
+Purchases of held-to-maturity investment securities | — | | | — | | | (12,939) | | | — | | | (59,066) | |
+| | | | | | | | | |
+Proceeds from sales and maturities of investment securities | — | | | — | | | 38,876 | | | — | | | 66,361 | |
+Other | (761) | | | (492) | | | (645) | | | (2,093) | | | (1,660) | |
+Net cash provided by (used for) investing activities from continuing operations | (5,019) | | | 36,219 | | | 22,367 | | | 58,090 | | | (3,377) | |
+Net cash provided by investing activities from discontinued operations | — | | | — | | | — | | | — | | | 28,350 | |
+Net cash provided by (used for) investing activities | (5,019) | | | 36,219 | | | 22,367 | | | 58,090 | | | 24,973 | |
+| | | | | | | | | |
+Cash flows from financing activities | | | | | | | | | |
+Proceeds from issuance of convertible preferred stock, net of issuance costs | — | | | — | | | — | | | — | | | 191,182 | |
+Repayments of debt | (295,454) | | | — | | | (300,015) | | | (315,454) | | | (300,015) | |
+| | | | | | | | | |
+Payments to acquire common stock | (5,541) | | | (11,752) | | | (3,080) | | | (74,427) | | | (52,320) | |
+Proceeds from restricted cash advances | 55,000 | | | 38,000 | | | — | | | 93,000 | | | — | |
+Payment of preferred stock cash dividends | (3,133) | | | (2,900) | | | (2,760) | | | (12,233) | | | (7,860) | |
+Net cash paid for purchase of capped calls | (49,125) | | | — | | | — | | | (49,125) | | | — | |
+| | | | | | | | | |
+Repayments of borrowings under line of credit | (100,000) | | | — | | | — | | | (100,000) | | | — | |
+Proceeds from debt | 750,000 | | | — | | | — | | | 750,000 | | | — | |
+Payment of debt issuance costs | (14,841) | | | — | | | — | | | (14,841) | | | — | |
+Proceeds from issuance of common stock | 156 | | | 4,350 | | | 1,058 | | | 10,358 | | | 8,804 | |
+Proceeds from borrowing under line of credit | — | | | — | | | 100,000 | | | — | | | 100,000 | |
+| | | | | | | | | |
+Other | — | | | — | | | (3,255) | | | — | | | (3,255) | |
+| | | | | | | | | |
+| | | | | | | | | |
+Net cash provided by (used for) financing activities | 337,062 | | | 27,698 | | | (208,052) | | | 287,278 | | | (63,464) | |
+| | | | | | | | | |
+| | | | | | | | | |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 168,907 | | | (10,871) | | | (256,117) | | | 193,454 | | | 70,593 | |
+Cash, cash equivalents and restricted cash at beginning of period | 478,617 | | | 489,488 | | | 710,187 | | | 454,070 | | | 383,477 | |
+Cash, cash equivalents and restricted cash at end of period | $ | 647,524 | | | $ | 478,617 | | | $ | 454,070 | | | $ | 647,524 | | | $ | 454,070 | |
+| | | | | |
+Investor Contact | PR Contact |
+Lana Adair | Lerin O’Neill |
+Investor Relations | Corporate Communications & Public Relations |
+ir@penguinsolutions.com | 408-832-7083 |
+| pr@penguinsolutions.com
+|

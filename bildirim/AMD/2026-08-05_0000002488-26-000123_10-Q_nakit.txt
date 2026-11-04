@@ -1,0 +1,250 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm
+SEMBOL: AMD
+BASVURU_TARIHI: 2026-08-05
+BASVURU: 0000002488-26-000123
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 6
+|
+Condensed Consolidated Statements of Stockholders’ Equity
+| 8
+|
+Notes to Condensed Consolidated Financial Statements
+| 9
+|
+Item 2
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 22
+|
+Item 3
+| Quantitative and Qualitative Disclosures about Market Risk
+| 30
+|
+Item 4
+| Controls and Procedures
+| 30
+|
+Part II Other Information
+|
+Item 1
+| Legal Proceedings
+| 31
+|
+Item 1A
+| Risk Factors
+| 31
+|
+Item 2
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 59
+|
+Item 5
+| Other Information
+| 59
+|
+Item 6
+| Exhibits
+| 59
+|
+Signature
+| 61
+|
+2
+Table of Contents
+PART I. FINANCIAL INFORMATION
+ITEM 1. | CONDENSED CONSOLIDATED FINANCIAL STATEMENTS |
+Advanced Micro Devices, Inc.
+Condensed Consolidated Statements of Operations
+(Unaudited)
+Three Months Ended | Six Months Ended |
+June 27,
+2026 | June 28,
+2025 | June 27,
+2026 | June 28,
+2025 |
+(In millions, except per share amounts) |
+Net revenue | $ | 11,536 | $ | 7,685 | $ | 21,789 | $ | 15,123 |
+Cost of sales | 5,073 | 4,366 | 9,649 | 7,817 |
+Amortization of acquisition-related intangibles | 260 | 260 | 521 | 511 |
+Total cost of sales | 5,333 | 4,626 | 10,170 | 8,328 |
+Gross profit | 6,203 | 3,059 | 11,619 | 6,795 |
+Research and development | 2,528 | 1,894 | 4,925 | 3,622 |
+Marketing, general and administrative | 1,401 | 991 | 2,654 | 1,877 |
+Amortization of acquisition-related intangibles | 284 | 308 | 574 | 624 |
+Total operating expenses | 4,213 | 3,193 | 8,153 | 6,123 |
+Operating income (loss) | 1,990 | ( 134 ) | 3,466 | 672 |
+Interest expense | ( 37 ) | ( 38 ) | ( 74 ) | ( 58 ) |
+Other income (expense), net | 598 | 98 | 763 | 137 |
+Income (loss) from continuing operations before income taxes and equity income | 2,551 | ( 74 ) | 4,155 | 751 |
+Income tax provision (benefit) | 252 | ( 834 ) | 490 | ( 711 ) |
+Equity income in investee | 6 | 8 | 12 | 15 |
+Income from continuing operations, net of tax | 2,305 | 768 | 3,677 | 1,477 |
+Income (loss) from discontinued operations, net of tax | ( 8 ) | 104 | 3 | 104 |
+Net income | $ | 2,297 | $ | 872 | $ | 3,680 | $ | 1,581 |
+Earnings per share |
+Basic earnings from continuing operations | $ | 1.41 | $ | 0.47 | $ | 2.25 | $ | 0.91 |
+Basic earnings (loss) from discontinued operations | ( 0.01 ) | 0.07 | 0.01 | 0.07 |
+Basic earnings per share | $ | 1.40 | $ | 0.54 | $ | 2.26 | $ | 0.98 |
+Diluted earnings from continuing operations | $ | 1.39 | $ | 0.47 | $ | 2.22 | $ | 0.91 |
+Diluted earnings (loss) from discontinued operations | ( 0.01 ) | 0.07 | — | 0.06 |
+Diluted earnings per share | $ | 1.38 | $ | 0.54 | $ | 2.22 | $ | 0.97 |
+Shares used in per share calculation |
+Basic | 1,632 | 1,623 | 1,631 | 1,621 |
+Diluted | 1,659 | 1,630 | 1,655 | 1,628 |
+See accompanying notes.
+3
+Table of Contents
+Advanced Micro Devices, Inc.
+Condensed Consolidated Statements of Comprehensive Income
+(Unaudited)
+Three Months Ended | Six Months Ended |
+June 27,
+2026 | June 28,
+2025 | June 27,
+2026 | June 28,
+2025 |
+(In millions) |
+Net income | $ | 2,297 | $ | 872 | $ | 3,680 | $ | 1,581 |
+Other comprehensive income, net of tax:
+|
+Net change in unrealized gains (losses) on cash flow hedges | ( 1 ) | 50 | ( 44 ) | 76 |
+Net change in unrealized gains (losses) on available-for-sale securities
+| ( 1 ) | — | ( 27 ) | 3 |
+Total comprehensive income | $ | 2,295 | $ | 922 | $ | 3,609 | $ | 1,660 |
+See accompanying notes.
+4
+Table of Contents
+Advanced Micro Devices, Inc.
+Condensed Consolidated Balance Sheets
+(Unaudited)
+June 27,
+2026 | December 27,
+2025 |
+(In millions, except par value amounts) |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 5,086 | $ | 5,539 |
+Short-term investments | 8,025 | 5,013 |
+Accounts receivable, net | 7,281 | 6,315 |
+Inventories | 8,468 | 7,920 |
+Prepaid expenses and other current assets | 2,662 | 2,160 |
+Total current assets | 31,522 | 26,947 |
+Property and equipment, net | 3,439 | 2,312 |
+Goodwill | 25,470 | 25,126 |
+Acquisition-related intangibles, net | 15,635 | 16,705 |
+Deferred tax assets | 494 | 384 |
+Other non-current assets | 7,904 | 5,452 |
+Total assets | $ | 84,464 | $ | 76,926 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 5,359 | $ | 2,929 |
+Accrued liabilities | 5,546 | 5,250 |
+Current portion of long-term debt, net
+| 875 | 874 |
+Other current liabilities | 301 | 402 |
+Total current liabilities | 12,081 | 9,455 |
+Long-term debt, net
+| 2,351 | 2,348 |
+Long-term operating lease liabilities | 1,050 | 625 |
+Deferred tax liabilities | 300 | 313 |
+Other long-term liabilities | 1,458 | 1,186 |
+Commitments and contingencies (See Note 10)
+| | |
+Stockholders’ equity: |
+Capital stock: |
+Common stock, par value $ 0.01 ; shares authorized: 4,000 ; shares issued: 1,632 and 1,695 ; shares outstanding: 1,632 and 1,630
+| 16 | 17 |
+Additional paid-in capital | 61,373 | 63,365 |
+Treasury stock, at cost (shares held: — and 65 )
+| — | ( 7,079 ) |
+Retained earnings
+| 5,909 | 6,699 |
+Accumulated other comprehensive loss
+| ( 74 ) | ( 3 ) |
+Total stockholders’ equity | 67,224 | 62,999 |
+Total liabilities and stockholders’ equity | $ | 84,464 | $ | 76,926 |
+See accompanying notes.
+5
+Table of Contents
+Advanced Micro Devices, Inc.
+Condensed Consolidated Statements of Cash Flows
+(Unaudited)
+Six Months Ended |
+June 27,
+2026 | June 28,
+2025 |
+(In millions) |
+Cash flows from operating activities: |
+Net income | $ | 3,680 | $ | 1,581 |
+Income from discontinued operations, net of tax | ( 3 ) | ( 104 ) |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 427 | 364 |
+Amortization of acquisition-related intangibles | 1,095 | 1,135 |
+Stock-based compensation | 990 | 733 |
+Gains from long-term investments, net
+| ( 549 ) | ( 36 ) |
+Deferred income taxes | ( 106 ) | ( 1,053 ) |
+Other | 61 | 65 |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 966 ) | 1,078 |
+Inventories | ( 548 ) | ( 943 ) |
+Prepaid expenses and other assets | ( 991 ) | ( 377 ) |
+Accounts payable | 2,170 | 547 |
+Accrued and other liabilities | 61 | ( 589 ) |
+Net cash provided by operating activities of continuing operations | 5,321 | 2,401 |
+Net cash provided by operating activities of discontinued operations | — | 549 |
+Net cash provided by operating activities | 5,321 | 2,950 |
+Cash flows from investing activities: |
+Purchases of property and equipment | ( 1,197 ) | ( 494 ) |
+Purchases of short-term investments | ( 4,555 ) | ( 796 ) |
+Proceeds from maturity of short-term investments | 1,267 | 683 |
+Proceeds from sale of short-term investments | 286 | 48 |
+Purchases of long-term investments | ( 844 ) | ( 358 ) |
+Acquisitions, net of cash acquired | ( 129 ) | ( 1,716 ) |
+Net cash used in investing activities of continuing operations | ( 5,172 ) | ( 2,633 ) |
+Purchases of property and equipment | — | ( 22 ) |
+Payment for working capital adjustment on divestiture | ( 243 ) | — |
+Net cash used in investing activities of discontinued operations | ( 243 ) | ( 22 ) |
+Net cash used in investing activities | ( 5,415 ) | ( 2,655 ) |
+Cash flows from financing activities: |
+Proceeds from debt and commercial paper issuance, net of issuance costs | — | 2,441 |
+Repayment of debt and commercial paper | — | ( 950 ) |
+Proceeds from sales of common stock through employee equity plans | 205 | 159 |
+Repurchases of common stock | ( 221 ) | ( 1,227 ) |
+Stock repurchases for tax withholding on employee equity plans | ( 341 ) | ( 76 ) |
+Other | ( 8 ) | — |
+Net cash provided by (used in) financing activities of continuing operations | ( 365 ) | 347 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | ( 459 ) | 642 |
+Cash, cash equivalents and restricted cash at beginning of period | 5,556 | 3,811 |
+Cash, cash equivalents and restricted cash at end of period | $ | 5,097 | $ | 4,453 |
+6
+Table of Contents
+Advanced Micro Devices, Inc.
+Condensed Consolidated Statements of Cash Flows
+(Unaudited)
+Six Months Ended |
+June 27,
+2026 | June 28,
+2025 |
+(In millions) |
+Supplemental cash flow information: |
+Cash paid during the period for: |
+Income taxes, net of refunds | $ | 777 | $ | 760 |
+Non-cash investing and financing activities: |
+Purchases of property and equipment, accrued but not paid | $ | 421 | $ | 333 |
+Reissuance of treasury stock for acquisitions | $ | — | $ | 860 |
+Contingent consideration liability for acquisitions | $ | — | $ | 361 |
+Non-cash lease activities: |
+Operating lease right-of-use assets acquired by assuming related liabilities | $ | 514 | $ | 231 |
+Reconciliation of cash, cash equivalents and restricted cash |
+Cash and cash equivalents | $ | 5,086 | $ | 4,442 |
+Restricted cash included in Prepaid expenses and other current assets | 11 | 11 |
+Cash, cash equivalents and restricted cash at end of period | $ | 5,097 | $ | 4,453 |
+See accompanying notes.
+7
+Table of Contents
+Advanced Micro Devices, Inc.
+Condensed Consolidated Statements of Stockholders’ Equity
+(Unaudited)
+Three Months Ended | Six Mon

@@ -1,0 +1,133 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm
+SEMBOL: LITE
+BASVURU_TARIHI: 2026-08-17
+BASVURU: 0001628280-26-057358
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+Years Ended |
+June 27, 2026 | June 28, 2025 | June 29, 2024 |
+OPERATING ACTIVITIES: |
+Net (loss) income | $ | ( 6,935.1 ) | $ | 25.9 | $ | ( 546.5 ) |
+Adjustments to reconcile net (loss) income to net cash provided by operating activities: |
+Depreciation expense | 128.8 | 104.3 | 110.6 |
+Stock-based compensation | 170.2 | 177.2 | 128.8 |
+Bad debt expense | 0.1 | 3.4 | — |
+Changes in income tax valuation allowance | ( 236.3 ) | ( 153.1 ) | 150.1 |
+Amortization and write-off of acquired intangible assets | 138.2 | 152.4 | 179.7 |
+Write-off of right-of-use assets | — | 7.8 | — |
+Write-down and loss on sales and dispositions of property, plant and equipment | 21.7 | 5.2 | 2.6 |
+Loss on debt extinguishment | 7,756.6 | — | — |
+Amortization of debt issuance costs | 3.8 | 3.0 | 14.6 |
+Amortization of inventory fair value adjustment in connection with acquisition | — | — | 8.3 |
+Inducement expense on partial repurchase of 2026 Notes | 5.9 | — | — |
+Gain on sale of facility | — | ( 34.9 ) | — |
+Other non-cash income, net | ( 10.5 ) | ( 3.5 ) | ( 12.2 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 270.4 ) | ( 58.7 ) | 72.3 |
+Inventories | ( 228.4 ) | ( 71.3 ) | 73.8 |
+Operating lease right-of-use assets, net | ( 1.3 ) | 5.1 | 3.4 |
+Prepayments and other current and non-currents assets | ( 96.2 ) | ( 35.1 ) | 30.6 |
+Income taxes, net | ( 47.9 ) | ( 65.1 ) | ( 72.4 ) |
+Accounts payable | 221.6 | 69.2 | ( 89.7 ) |
+Accrued payroll and related expenses | 88.4 | 22.0 | ( 8.9 ) |
+Operating lease liabilities | ( 1.2 ) | ( 5.7 ) | ( 4.3 ) |
+Accrued expenses and other current and non-current liabilities | 43.4 | ( 21.8 ) | ( 16.1 ) |
+Net cash provided by operating activities | 751.4 | 126.3 | 24.7 |
+INVESTING ACTIVITIES: |
+Payments for acquisition of property, plant and equipment | ( 451.3 ) | ( 231.0 ) | ( 133.0 ) |
+Acquisition of businesses, net of cash acquired | ( 38.0 ) | — | ( 700.9 ) |
+Payment for acquisition of intangible assets | — | — | ( 4.0 ) |
+Purchases of short-term investments | ( 603.4 ) | ( 365.9 ) | ( 278.7 ) |
+Proceeds from maturities and sales of short-term investments | 264.8 | 464.7 | 1,001.5 |
+Proceeds from sale of facility, net of cash and selling costs | — | 47.8 | — |
+Proceeds from the sales of property and equipment | 42.4 | 0.3 | 0.8 |
+Net cash used in investing activities | ( 785.5 ) | ( 84.1 ) | ( 114.3 ) |
+FINANCING ACTIVITIES: |
+Proceeds from the issuance of Series A Convertible Preferred Stock | 1,999.7 | — | — |
+Proceeds from the issuance of 2032 Notes, net of issuance costs | 1,254.7 | — | — |
+Proceeds from term loans | 47.9 | 76.5 | — |
+Proceeds from employee stock plans | 17.1 | 16.1 | 14.4 |
+Payment for partial repurchase of 2026 Notes | ( 843.1 ) | — | — |
+Cash paid for conversions of convertible notes | ( 520.0 ) | — | — |
+Payment, repurchase and conversion of 2024 Notes | — | — | ( 323.1 ) |
+66
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+Payment for 2032 capped call options | ( 102.0 ) | — | — |
+Principal payments on term loans | ( 14.0 ) | ( 8.1 ) | — |
+Payment of withholding taxes related to net share settlement of restricted stock units | ( 281.0 ) | ( 41.7 ) | ( 24.0 ) |
+Payment of acquisition related holdback | — | ( 1.0 ) | — |
+Payment for financing costs related to revolving credit facility | ( 2.4 ) | — | — |
+Net cash provided by (used in) financing activities | 1,556.9 | 41.8 | ( 332.7 ) |
+Increase (decrease) in cash and cash equivalents | 1,522.8 | 84.0 | ( 422.3 ) |
+Cash and cash equivalents at beginning of period | 520.7 | 436.7 | 859.0 |
+Cash and cash equivalents at end of period | $ | 2,043.5 | $ | 520.7 | $ | 436.7 |
+Supplemental disclosure of cash flow information: |
+Cash paid for taxes, net | $ | 46.7 | $ | 20.6 | $ | 61.2 |
+Cash paid for interest | 15.7 | 19.1 | 19.7 |
+Supplemental disclosure of non-cash transactions: |
+Unpaid property, plant and equipment in accounts payable and accrued expenses | $ | 181.4 | $ | 43.4 | $ | 11.8 |
+Right-of-use assets obtained in exchange for new operating lease liabilities | 12.0 | 6.4 | 16.0 |
+Net transfer of assets from property, plant, and equipment to assets-held-for-sale | 4.2 | — | — |
+Holdback receivable from sale of property, plant, and equipment | 3.0 | — | — |
+Unpaid intangible assets in accrued expense | — | — | 1.0 |
+Share-based purchase price consideration in connection with the Cloud Light acquisition | — | — | 23.5 |
+Aggregate principal amount of the convertible notes settled through issuance of common stock (equitization) | 1,124.9 | — | — |
+See accompanying Notes to Consolidated Financial Statements.
+67
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+(in millions)
+Series A Convertible Preferred Stock | Common Stock | Additional Paid-In Capital | Retained Earnings (Accumulated Deficit) | Accumulated
+Other Comprehensive
+Income | Total Stockholders’ Equity |
+Shares | Amount | Shares | Amount |
+Balance as of July 1, 2023 | — | $ | — | 66.4 | $ | 0.1 | $ | 1,692.2 | $ | ( 340.6 ) | $ | 4.1 | $ | 1,355.8 |
+Net loss | — | — | — | — | — | ( 546.5 ) | — | ( 546.5 ) |
+Other comprehensive income | — | — | — | — | — | — | 5.2 | 5.2 |
+Issuance of shares in connection with vesting of restricted stock units and performance stock units | — | — | 1.5 | — | — | — | — | — |
+Withholding taxes related to net share settlement of restricted stock units | — | — | ( 0.4 ) | — | ( 24.0 ) | — | — | ( 24.0 ) |
+ESPP shares issued | — | — | 0.4 | — | 14.4 | — | — | 14.4 |
+Equity awards pursuant to merger agreement | — | — | — | — | 23.5 | — | — | 23.5 |
+Stock-based compensation | — | — | — | — | 128.9 | — | — | 128.9 |
+Balance as of June 29, 2024 | — | $ | — | 67.9 | $ | 0.1 | $ | 1,835.0 | $ | ( 887.1 ) | $ | 9.3 | $ | 957.3 |
+Net income | — | — | — | — | — | 25.9 | — | 25.9 |
+Other comprehensive income | — | — | — | — | — | — | ( 0.3 ) | ( 0.3 ) |
+Issuance of shares in connection with vesting of restricted stock units and performance stock units | — | — | 2.0 | — | — | — | — | — |
+Withholding taxes related to net share settlement of restricted stock units | — | — | ( 0.7 ) | — | ( 41.7 ) | — | — | ( 41.7 ) |
+Exercise of stock options | — | — | 0.3 | — | 3.3 | — | — | 3.3 |
+ESPP shares issued | — | — | 0.3 | — | 12.8 | — | — | 12.8 |
+Stock-based compensation | — | — | — | — | 177.4 | — | — | 177.4 |
+Balance as of June 28, 2025 | — | $ | — | 69.8 | $ | 0.1 | $ | 1,986.8 | $ | ( 861.2 ) | $ | 9.0 | $ | 1,134.7 |
+Net loss | — | — | — | — | — | ( 6,935.1 ) | — | ( 6935.1 ) |
+Other comprehensive income | — | — | — | — | — | — | 1.0 | 1.0 |
+Issuance of Series A Convertible Preferred Stock, net of issuance costs | 2.9 | 0.0 | — | — | 1,999.7 | — | — | 1,999.7 |
+Issuance of shares in exchange for convertible notes (equitization) | — | — | 10.6 | — | 8,876.9 | — | — | 8,876.9 |
+Issuance of shares in connection with vesting of restricted stock units and performance stock units | — | — | 2.4 | — | — | — | — | — |
+Withholding taxes related to net share settlement of restricted stock units | — | — | ( 0.8 ) | — | ( 281.0 ) | — | — | ( 281.0 ) |
+Exercise of stock options | — | — | 0.4 | — | 2.9 | — | — | 2.9 |
+ESPP shares issued | — | — | 0.2 | — | 14.2 | — | — | 14.2 |
+Stock-based compensation | — | — | — | — | 165.2 | — | — | 165.2 |
+Fair value of incremental consideration on partial repurchase of 2026 Notes | — | — | — | — | ( 256.9 ) | — | — | ( 256.9 ) |
+68
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+(in millions)
+2032 capped call options, net of tax | — | — | — | — | ( 77.0 ) | — | — | ( 77.0 ) |
+Conversion of convertible notes for conversion value in excess of principal amount | — | — | 6.0 | — | ( 0.7 ) | — | — | ( 0.7 ) |
+Balance as of June 27, 2026 | 2.9 | $ | 0.0 | 88.6 | $ | 0.1 | $ | 12,430.1 | $ | ( 7,796.3 ) | $ | 10.0 | $ | 4,643.9 |
+See accompanying Notes to Consolidated Financial Statements.
+69
+Table of Contents
+LUMENTUM HOLDINGS INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+Note 1. Description of Business and Summary of Significant Accounting Policies
+Description of Business
+Lumentum Holdings Inc. (“we,” “us,” “our”, “Lumentum” or the “Company”) is a global leader in optical and photonic technologies and an industry-leading provider of optical and photonic products based on revenue and market share. Our products are essential to a range of cloud, artificial intelligence and machine learning (“AI/ML”), telecommunications, consumer, and industrial end-market applications. We operate in one reportable segment as a single, integrated enterprise. See “Note 17. Operating Segments and Geographic Information”.
+We disaggregate revenue by type of product, which are Components and Systems, and by geography. A Components product is defined as one of the individual building blocks that goes into creating a larger solution. It is typically not a complete solution on its own but

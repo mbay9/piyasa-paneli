@@ -1,0 +1,208 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/827054/000082705426000038/mchp-20260630.htm
+SEMBOL: MCHP
+BASVURU_TARIHI: 2026-08-06
+BASVURU: 0000827054-26-000038
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows – Three Months Ended June 3 0 , 202 6 and 202 5
+| 7
+|
+Condensed Consolidated Statements of Changes in Equity - Three Months Ended June 3 0 , 202 6 and 20 25
+| 8
+|
+Notes to Condensed Consolidated Financial Statements
+| 9
+|
+Item 2.
+| Management's Discussion and Analysis of Financial Condition and Results of Operations
+| 23
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 35
+|
+Item 4.
+| Controls and Procedures
+| 35
+|
+PART II. OTHER INFORMATION |
+Item 1.
+| Legal Proceedings
+| 36
+|
+Item 1A.
+| Risk Factors
+| 36
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 64
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 64
+|
+Item 4.
+| Mine Safety Disclosures
+| 64
+|
+Item 5.
+| Other Information
+| 64
+|
+Item 6.
+| Exhibits
+| 65
+|
+Signatures
+|
+2
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+Defined Terms (1)
+Term | Definition |
+4.900% 2028 Notes | 2028 Senior Unsecured Notes, maturing on March 15, 2028 |
+5.050% 2029 Notes | 2029 Senior Unsecured Notes, maturing on March 15, 2029 |
+5.050% 2030 Notes | 2030 Senior Unsecured Notes, maturing on February 15, 2030 |
+2017 Senior Convertible Debt | 2017 Senior Subordinated Convertible Debt, maturing on February 15, 2027 |
+2020 Senior Convertible Debt | 2020 Senior Subordinated Convertible Debt, matured on November 15, 2024 |
+2024 Senior Convertible Debt | 2024 Senior Convertible Debt, maturing on June 1, 2030 |
+2026 Senior Convertible Debt | 2026 Senior Convertible Debt, maturing on February 15, 2030 |
+AI/ML | Artificial Intelligence and Machine Learning |
+ASU | Accounting Standards Update |
+CEMs | Client engagement managers |
+Commercial Paper | Short-term unsecured promissory notes, of up to $2.75 billion outstanding at any one time, further updated to $2.25 billion outstanding at any one time pursuant to the Credit Agreement, as amended in March 2025 |
+Convertible Debt | 2017 Senior Convertible Debt, 2020 Senior Convertible Debt, 2024 Senior Convertible Debt and 2026 Senior Convertible Debt |
+Credit Agreement | Amended and Restated Credit Agreement, dated as of December 16, 2021, among the Company, as borrower, the lenders from time to time party thereto, and J.P. Morgan Chase Bank, N.A., as administrative agent, as amended by the Second Amended and Restated Credit Agreement, dated as of March 25, 2025 |
+Depositary Shares | Depositary Shares, each representing a 1/20th interest in a share of Series A Preferred Stock |
+ESG | Environmental, social and governance |
+Exchange Act | Securities Exchange Act of 1934, as amended |
+FAEs | Field applications engineers |
+FASB | Financial Accounting Standards Board |
+FPGA | Field-programmable gate array |
+IoT | Internet of Things
+|
+LTSAs | Long-term supply agreements |
+OEMs | Original equipment manufacturers |
+R&D | Research and development |
+Revolving Credit Facility | $2.75 billion revolving credit facility created pursuant to the Credit Agreement, reduced to $2.25 billion pursuant to the Second Amended and Restated Credit Agreement, dated as of March 25, 2025 |
+RSUs | Restricted stock units |
+SEC | U.S. Securities and Exchange Commission |
+Senior Indebtedness | Revolving Credit Facility, Commercial Paper, 4.900% 2028 Notes, 5.050% 2029 Notes, and 5.050% 2030 Notes |
+Senior Notes | 4.900% 2028 Notes, 5.050% 2029 Notes, and 5.050% 2030 Notes |
+Series A Preferred Stock | 7.50% Series A Mandatory Convertible Preferred Stock, issued on March 25, 2025, $0.001 par value per share |
+TSS | Total System Solution
+|
+U.S. GAAP | U.S. Generally Accepted Accounting Principles |
+(1) Certain terms used within this Form 10-Q are defined in the above table.
+3
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1 . Financial Statements
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions, except share and per share amounts; unaudited)
+ASSETS |
+June 30, | March 31, |
+2026 | 2026 |
+Cash and cash equivalents | $ | 272.3 | $ | 240.3 |
+Accounts receivable, net | 967.7 | 894.7 |
+Inventories | 1,047.3 | 1,035.4 |
+Other current assets | 198.9 | 207.2 |
+Total current assets | 2,486.2 | 2,377.6 |
+Property, plant and equipment, net | 1,084.4 | 1,106.7 |
+Goodwill | 6,695.5 | 6,695.5 |
+Intangible assets, net | 2,001.4 | 2,033.4 |
+Long-term deferred tax assets | 1,781.8 | 1,792.5 |
+Other assets | 358.1 | 364.4 |
+Total assets | $ | 14,407.4 | $ | 14,370.1 |
+LIABILITIES AND STOCKHOLDERS' EQUITY |
+Accounts payable | $ | 228.9 | $ | 205.6 |
+Accrued liabilities | 1,065.5 | 930.7 |
+Total current liabilities | 1,294.4 | 1,136.3 |
+Long-term debt | 5,361.3 | 5,496.4 |
+Long-term income tax payable | 580.2 | 570.9 |
+Long-term deferred tax liability | 25.4 | 25.1 |
+Other long-term liabilities | 695.1 | 709.0 |
+Stockholders' equity: |
+Preferred stock, $ 0.001 par value per share; authorized 5,000,000 shares; 7.50% Series A mandatory convertible preferred stock, 1,485,000 shares issued and outstanding at June 30, 2026 and March 31, 2026, with a liquidation preference of $ 1,000 per share, or $ 1,485.0 million in the aggregate
+| — | — |
+Common stock, $ 0.001 par value per share; authorized 900,000,000 shares; 578,424,252 shares issued and 543,008,365 shares outstanding at June 30, 2026; 578,423,967 shares issued and 542,079,011 shares outstanding at March 31, 2026
+| 0.6 | 0.6 |
+Additional paid-in capital | 4,115.7 | 4,071.5 |
+Common stock held in treasury: 35,415,887 shares at June 30, 2026; 36,344,956 shares at March 31, 2026
+| ( 2,532.6 ) | ( 2,551.4 ) |
+Accumulated other comprehensive loss | ( 3.7 ) | ( 4.2 ) |
+Retained earnings | 4,871.0 | 4,915.9 |
+Total stockholders' equity | 6,451.0 | 6,432.4 |
+Total liabilities and stockholders' equity | $ | 14,407.4 | $ | 14,370.1 |
+See accompanying notes to condensed consolidated financial statements
+4
+Table of Contents
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions, except per share amounts; unaudited)
+Three Months Ended June 30, |
+2026 | 2025 |
+Net sales | $ | 1,484.7 | $ | 1,075.5 |
+Cost of sales | 545.8 | 498.8 |
+Gross profit | 938.9 | 576.7 |
+Research and development | 308.9 | 255.5 |
+Selling, general and administrative | 184.3 | 159.3 |
+Amortization of acquired intangible assets | 90.0 | 107.6 |
+Special charges and other, net | 18.9 | 22.2 |
+Operating expenses | 602.1 | 544.6 |
+Operating income | 336.8 | 32.1 |
+Interest income | 1.4 | 4.9 |
+Interest expense | ( 48.8 ) | ( 57.4 ) |
+Other income, net | 0.5 | 4.6 |
+Income (loss) before income taxes | 289.9 | ( 15.8 ) |
+Income tax provision | 60.1 | 2.8 |
+Net income (loss) | 229.8 | ( 18.6 ) |
+Dividends on Series A Preferred Stock | ( 27.8 ) | ( 27.8 ) |
+Net income (loss) attributable to common stockholders | $ | 202.0 | $ | ( 46.4 ) |
+Basic net income (loss) per common share | $ | 0.37 | $ | ( 0.09 ) |
+Diluted net income (loss) per common share | $ | 0.37 | $ | ( 0.09 ) |
+Dividends declared per common share | $ | 0.455 | $ | 0.455 |
+Basic common shares outstanding | 542.5 | 539.2 |
+Diluted common shares outstanding | 550.5 | 539.2 |
+See accompanying notes to condensed consolidated financial statements
+5
+Table of Contents
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+(in millions; unaudited)
+Three Months Ended June 30, |
+2026 | 2025 |
+Net income (loss) | $ | 229.8 | $ | ( 18.6 ) |
+Components of other comprehensive income (loss): |
+Actuarial gains (losses) related to defined benefit pension plans, net of tax effect | 0.5 | ( 4.7 ) |
+Other comprehensive income (loss), net of tax effect | 0.5 | ( 4.7 ) |
+Comprehensive income (loss) | $ | 230.3 | $ | ( 23.3 ) |
+See accompanying notes to condensed consolidated financial statements
+6
+Table of Contents
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions; unaudited)
+Three Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income (loss) | $ | 229.8 | $ | ( 18.6 ) |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 156.7 | 171.1 |
+Deferred income taxes | 11.4 | ( 3.0 ) |
+Share-based compensation expense related to equity incentive plans | 75.0 | 52.9 |
+Amortization of debt discount | 3.9 | 1.4 |
+Amortization of debt issuance costs | 2.3 | 1.4 |
+Impairment of intangible assets | 0.1 | 2.2 |
+Other | ( 3.7 ) | ( 0.6 ) |
+Changes in operating assets and liabilities, excluding impact of acquisitions: |
+Increase in accounts receivable | ( 73.1 ) | ( 75.8 ) |
+(Increase) decrease in inventories | ( 9.2 ) | 125.0 |
+Increase in accounts payable and accrued liabilities | 116.9 | 27.6 |
+Change in other assets and liabilities | ( 28.0 ) | ( 3.4 ) |
+Change in income tax payable | 29.4 | ( 4.6 ) |
+Net cash provided by operating activities | 511.5 | 275.6 |
+Cash flows from investing activities: |
+Proceeds from capital-related government incentives | 0.1 | 4.8 |
+Investments in other ass

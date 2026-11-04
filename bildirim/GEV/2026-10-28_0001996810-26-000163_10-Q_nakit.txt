@@ -1,0 +1,743 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm
+SEMBOL: GEV
+BASVURU_TARIHI: 2026-10-28
+BASVURU: 0001996810-26-000163
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENT OF CASH FLOWS (UNAUDITED)
+| Nine months ended September 30
+|
+(In millions)
+| 2026
+| 2025
+|
+Net income (loss)
+| $ 6,687
+| $ 1,209
+|
+Adjustments to reconcile net income (loss) to cash from (used for) operating activities
+|
+Depreciation and amortization of property, plant, and equipment (Note 6 )
+| 548
+| 446
+|
+Amortization of intangible assets (Note 8 )
+| 650
+| 177
+|
+(Gains) losses on purchases and sales of business interests
+| ( 4,463 )
+| ( 66 )
+|
+Principal pension plans – net (Note 13 )
+| ( 786 )
+| ( 268 )
+|
+Other postretirement benefit plans – net (Note 13 )
+| ( 634 )
+| ( 167 )
+|
+Provision (benefit) for income taxes (Note 16 )
+| 1,123
+| 514
+|
+Cash recovered (paid) during the year for income taxes
+| ( 2,681 )
+| ( 489 )
+|
+Changes in operating working capital:
+|
+Decrease (increase) in current receivables
+| ( 1,667 )
+| 563
+|
+Decrease (increase) in inventories, including deferred inventory costs
+| ( 2,052 )
+| ( 1,047 )
+|
+Decrease (increase) in current contract assets
+| ( 345 )
+| ( 656 )
+|
+Increase (decrease) in accounts payable and equipment project payables
+| 1,522
+| 566
+|
+Increase (decrease) in contract liabilities and current deferred income
+| 19,511
+| 2,419
+|
+All other operating activities
+| ( 675 )
+| ( 693 )
+|
+Cash from (used for) operating activities
+| 16,737
+| 2,508
+|
+Additions to property, plant, and equipment and internal-use software
+| ( 1,430 )
+| ( 606 )
+|
+Dispositions of property, plant, and equipment
+| 208
+| 33
+|
+Purchases of and contributions to equity method investments
+| ( 39 )
+| ( 57 )
+|
+Sales of and distributions from equity method investments
+| 85
+| 248
+|
+Net cash paid for principal businesses purchased
+| ( 4,877 )
+| ( 164 )
+|
+Proceeds from principal business dispositions
+| 600
+| 60
+|
+All other investing activities
+| 724
+| 105
+|
+Cash from (used for) investing activities
+| ( 4,729 )
+| ( 381 )
+|
+Newly issued debt (maturities longer than 90 days)
+| 2,567
+| —
+|
+Dividends paid to stockholders
+| ( 406 )
+| ( 207 )
+|
+Purchases of common stock for treasury
+| ( 5,296 )
+| ( 2,241 )
+|
+All other financing activities
+| ( 949 )
+| ( 187 )
+|
+Cash from (used for) financing activities
+| ( 4,084 )
+| ( 2,635 )
+|
+Effect of currency exchange rate changes on cash, cash equivalents, and restricted cash
+| ( 9 )
+| 250
+|
+Increase (decrease) in cash, cash equivalents, and restricted cash , including cash classified
+within assets held for sale
+| 7,915
+| ( 258 )
+|
+Less: Net increase (decrease) in cash classified within assets held for sale
+| ( 2 )
+| 2
+|
+Increase (decrease) in cash, cash equivalents, and restricted cash
+| 7,917
+| ( 259 )
+|
+Cash, cash equivalents, and restricted cash at beginning of year
+| 8,848
+| 8,205
+|
+Cash, cash equivalents, and restricted cash as of September 30
+| $ 16,764
+| $ 7,945
+|
+2026 3Q FORM 10-Q 8
+CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME (LOSS) (UNAUDITED)
+|
+Three months ended September 30
+| Nine months ended September 30
+|
+(In millions)
+| 2026
+| 2025
+| 2026
+| 2025
+|
+Net income (loss) attributable to GE Vernova
+| $ 1,291
+| $ 452
+| $ 6,704
+| $ 1,220
+|
+Net loss (income) attributable to noncontrolling interests
+| 2
+| ( 1 )
+| 17
+| 11
+|
+Net income (loss)
+| $ 1,289
+| $ 453
+| $ 6,687
+| $ 1,209
+|
+Other comprehensive income (loss):
+|
+Currency translation adjustments – net of taxes
+| 1
+| 31
+| ( 155 )
+| 471
+|
+Benefit plans – net of taxes
+| ( 93 )
+| ( 50 )
+| ( 180 )
+| ( 209 )
+|
+Cash flow hedges – net of taxes
+| ( 70 )
+| 27
+| ( 151 )
+| 62
+|
+Other comprehensive income (loss)
+| $ ( 162 )
+| $ 7
+| $ ( 485 )
+| $ 324
+|
+Comprehensive income (loss)
+| $ 1,126
+| $ 460
+| $ 6,202
+| $ 1,534
+|
+Comprehensive loss (income) attributable to noncontrolling
+interests
+| 22
+| ( 1 )
+| 36
+| 7
+|
+Comprehensive income (loss) attributable to GE Vernova
+| $ 1,148
+| $ 459
+| $ 6,238
+| $ 1,540
+|
+2026 3Q FORM 10-Q 9
+CONSOLIDATED STATEMENT OF CHANGES IN EQUITY (UNAUDITED)
+|
+Common stock
+|
+(In millions)
+| Common
+shares
+outstanding
+| Par
+value
+| Additional
+paid-in
+capital
+| Retained
+earnings
+| Treasury
+common
+stock
+| Accumulated
+other
+comprehensive
+income (loss) –
+net
+| Equity
+attributable to
+noncontrolling
+interests
+| Total
+equity
+|
+Balances as of July 1, 2026
+| 266
+| $ 3
+| $ 9,445
+| $ 11,296
+| $ ( 7,057 )
+| $ ( 1,731 )
+| $ 1,158
+| $ 13,115
+|
+Issuance of shares in connection with equity
+awards
+| —
+| —
+| ( 5 )
+| —
+| —
+| —
+| —
+| ( 5 )
+|
+Share-based compensation expense
+| —
+| —
+| 59
+| —
+| —
+| —
+| —
+| 59
+|
+Dividends declared ( $ 0.50 per common share)
+| —
+| —
+| —
+| ( 132 )
+| —
+| —
+| —
+| ( 132 )
+|
+Repurchase of common stock
+| ( 2 )
+| —
+| —
+| —
+| ( 1,645 )
+| —
+| —
+| ( 1,646 )
+|
+Net income (loss)
+| —
+| —
+| —
+| 1,291
+| —
+| —
+| ( 2 )
+| 1,289
+|
+Currency translation adjustments – net of taxes
+| —
+| —
+| —
+| —
+| —
+| 15
+| ( 14 )
+| 1
+|
+Benefit plans – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 88 )
+| ( 5 )
+| ( 93 )
+|
+Cash flow hedges – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 70 )
+| —
+| ( 70 )
+|
+Changes attributable to noncontrolling interests
+| —
+| —
+| —
+| —
+| —
+| —
+| 20
+| 20
+|
+Balances as of September 30, 2026
+| 265
+| $ 3
+| $ 9,500
+| $ 12,455
+| $ ( 8,702 )
+| $ ( 1,874 )
+| $ 1,156
+| $ 12,538
+|
+Balances as of July 1, 2025
+| 272
+| $ 3
+| $ 9,714
+| $ 2,241
+| $ ( 1,636 )
+| $ ( 1,445 )
+| $ 1,070
+| $ 9,947
+|
+Issuance of shares in connection with equity
+awards
+| —
+| —
+| ( 13 )
+| —
+| —
+| —
+| —
+| ( 13 )
+|
+Share-based compensation expense
+| —
+| —
+| 54
+| —
+| —
+| —
+| —
+| 54
+|
+Dividends declared ( $ 0.25 per common share)
+| —
+| —
+| —
+| ( 68 )
+| —
+| —
+| —
+| ( 68 )
+|
+Repurchase of common stock
+| ( 1 )
+| —
+| —
+| —
+| ( 663 )
+| —
+| —
+| ( 663 )
+|
+Net income (loss)
+| —
+| —
+| —
+| 452
+| —
+| —
+| 1
+| 453
+|
+Currency translation adjustments – net of taxes
+| —
+| —
+| —
+| —
+| —
+| 30
+| —
+| 31
+|
+Benefit plans – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 50 )
+| —
+| ( 50 )
+|
+Cash flow hedges – net of taxes
+| —
+| —
+| —
+| —
+| —
+| 27
+| —
+| 27
+|
+Changes attributable to noncontrolling interests
+| —
+| —
+| —
+| —
+| —
+| —
+| 12
+| 12
+|
+Balances as of September 30, 2025
+| 271
+| $ 3
+| $ 9,755
+| $ 2,626
+| $ ( 2,300 )
+| $ ( 1,438 )
+| $ 1,083
+| $ 9,729
+|
+2026 3Q FORM 10-Q 10
+CONSOLIDATED STATEMENT OF CHANGES IN EQUITY (UNAUDITED)
+|
+Common stock
+|
+(In millions)
+| Common
+shares
+outstanding
+| Par
+value
+| Additional
+paid-in
+capital
+| Retained
+earnings
+| Treasury
+common
+stock
+| Accumulated
+other
+comprehensive
+income (loss) –
+net
+| Equity
+attributable to
+noncontrolling
+interests
+| Total
+equity
+|
+Balances as of January 1, 2026
+| 270
+| $ 3
+| $ 9,813
+| $ 6,154
+| $ ( 3,385 )
+| $ ( 1,407 )
+| $ 1,118
+| $ 12,296
+|
+Issuance of shares in connection with equity
+awards
+| 1
+| —
+| ( 507 )
+| —
+| —
+| —
+| —
+| ( 507 )
+|
+Share-based compensation expense
+| —
+| —
+| 194
+| —
+| —
+| —
+| —
+| 194
+|
+Dividends declared ( $ 1.50 per common share)
+| —
+| —
+| —
+| ( 403 )
+| —
+| —
+| —
+| ( 403 )
+|
+Repurchase of common stock
+| ( 6 )
+| —
+| —
+| —
+| ( 5,317 )
+| —
+| —
+| ( 5,317 )
+|
+Net income (loss)
+| —
+| —
+| —
+| 6,704
+| —
+| —
+| ( 17 )
+| 6,687
+|
+Currency translation adjustments – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 140 )
+| ( 15 )
+| ( 155 )
+|
+Benefit plans – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 176 )
+| ( 4 )
+| ( 180 )
+|
+Cash flow hedges – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 151 )
+| —
+| ( 151 )
+|
+Changes attributable to noncontrolling interests
+| —
+| —
+| —
+| —
+| —
+| —
+| 74
+| 74
+|
+Balances as of September 30, 2026
+| 265
+| $ 3
+| $ 9,500
+| $ 12,455
+| $ ( 8,702 )
+| $ ( 1,874 )
+| $ 1,156
+| $ 12,538
+|
+Balances as of January 1, 2025
+| 276
+| $ 3
+| $ 9,733
+| $ 1,611
+| $ ( 43 )
+| $ ( 1,759 )
+| $ 1,047
+| $ 10,593
+|
+Issuance of shares in connection with equity
+awards
+| 2
+| —
+| ( 159 )
+| —
+| —
+| —
+| —
+| ( 159 )
+|
+Share-based compensation expense
+| —
+| —
+| 180
+| —
+| —
+| —
+| —
+| 180
+|
+Dividends declared ( $ 0.75 per common share)
+| —
+| —
+| —
+| ( 205 )
+| —
+| —
+| —
+| ( 205 )
+|
+Repurchase of common stock
+| ( 6 )
+| —
+| —
+| —
+| ( 2,257 )
+| —
+| —
+| ( 2,257 )
+|
+Net income (loss)
+| —
+| —
+| —
+| 1,220
+| —
+| —
+| ( 11 )
+| 1,209
+|
+Currency translation adjustments – net of taxes
+| —
+| —
+| —
+| —
+| —
+| 468
+| 3
+| 471
+|
+Benefit plans – net of taxes
+| —
+| —
+| —
+| —
+| —
+| ( 210 )
+| 1
+| ( 209 )
+|
+Cash flow hedges – net of taxes
+| —
+| —
+| —
+| —
+| —
+| 62
+| —
+| 62
+|
+Changes attributable to noncontrolling interests
+| —
+| —
+| —
+| —
+| —
+| —
+| 42
+| 42
+|
+Balances as of September 30, 2025
+| 271
+| $ 3
+| $ 9,755
+| $ 2,626
+| $ ( 2,300 )
+| $ ( 1,438 )
+| $ 1,083
+| $ 9,729
+|
+2026 3Q FORM 10-Q 11
+NOTE 1 . ORGANIZATION AND BASIS OF PRESENTATION
+Organization. GE Vernova Inc. (the Company, GE Vernova, our, we, or us) is a global leader in the electric power industry, with products
+and services that generate, transfer, orchestrate, convert, and store electricity. We design, manufacture, deliver, and service technologies
+to create a more reliable, secure, and sustainable electric power system, enabling electrification and decarbonization, underpinning the
+progress and prosperity of the communities we serve. We report our financial results across three business segments:
+• Our Power segment includes the design, manufacture, and servicing of gas, nuclear, and hydro technologies, providing a critical
+foundation of dispatchable, flex

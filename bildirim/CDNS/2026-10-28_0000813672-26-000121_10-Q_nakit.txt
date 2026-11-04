@@ -1,0 +1,81 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/813672/000081367226000121/cdns-20260930.htm
+SEMBOL: CDNS
+BASVURU_TARIHI: 2026-10-28
+BASVURU: 0000813672-26-000121
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Nine Months Ended |
+September 30,
+2026 | September 30,
+2025 |
+Cash and cash equivalents at beginning of period | $ | 3,001,317 | $ | 2,644,030 |
+Cash flows from operating activities: |
+Net income | 992,483 | 720,752 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 320,159 | 163,269 |
+Stock-based compensation | 429,836 | 342,011 |
+Gain on divestitures and investments, net | ( 88,611 ) | ( 22,135 ) |
+Deferred income taxes | 118,684 | 89,756 |
+ROU asset amortization and change in operating lease liabilities | ( 2,105 ) | 1,702 |
+Other non-cash items | 7,266 | 4,713 |
+Changes in operating assets and liabilities, net of effect of acquired businesses: |
+Receivables | ( 84,285 ) | ( 90,666 ) |
+Inventories | ( 172,927 ) | ( 60,858 ) |
+Prepaid expenses and other | 39,812 | ( 14,834 ) |
+Other assets | ( 38,982 ) | 5,811 |
+Accounts payable and accrued liabilities | ( 263,024 ) | ( 23,237 ) |
+Deferred revenue | 148,835 | 44,456 |
+Other long-term liabilities | 7,295 | 14,546 |
+Net cash provided by operating activities | 1,414,436 | 1,175,286 |
+Cash flows from investing activities: |
+Purchases of investments | ( 98,481 ) | ( 35,182 ) |
+Proceeds from the sale and maturity of investments | 166,529 | 3,493 |
+Proceeds from the sale of IP and other assets
+| — | 11,500 |
+Purchases of property, plant and equipment | ( 163,254 ) | ( 100,830 ) |
+Purchases of intangible assets | ( 6,975 ) | — |
+Cash paid in business combinations, net of cash acquired | ( 2,143,429 ) | ( 250,695 ) |
+Net cash used for investing activities | ( 2,245,610 ) | ( 371,714 ) |
+Cash flows from financing activities: |
+Proceeds from revolving credit facility
+| 875,000 | — |
+Payments on revolving credit facility | ( 725,000 ) | — |
+Proceeds from issuance of common stock | 139,073 | 138,069 |
+Stock received for payment of employee taxes on vesting of restricted stock | ( 195,608 ) | ( 148,130 ) |
+Payments for repurchases of common stock | ( 800,025 ) | ( 725,025 ) |
+Net cash used for financing activities | ( 706,560 ) | ( 735,086 ) |
+Effect of exchange rate changes on cash and cash equivalents | ( 11,563 ) | 40,730 |
+Increase (decrease) in cash and cash equivalents
+| ( 1,549,297 ) | 109,216 |
+Cash and cash equivalents at end of period | $ | 1,452,020 | $ | 2,753,246 |
+Supplemental cash flow information: |
+Cash paid for interest | $ | 119,991 | $ | 111,711 |
+Cash paid for income taxes, net
+| 448,605 | 198,770 |
+See notes to condensed consolidated financial statements.
+CADENCE DESIGN SYSTEMS, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+NOTE 1. BASIS OF PRESENTATION AND SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Basis of Presentation
+The condensed consolidated financial statements included in this Quarterly Report on Form 10-Q have been prepared by Cadence Design Systems, Inc. (“Cadence”) without audit, pursuant to the rules and regulations of the United States Securities and Exchange Commission (the “SEC”). Certain information and footnote disclosures normally included in consolidated financial statements prepared in accordance with United States generally accepted accounting principles (“U.S. GAAP”) have been condensed or omitted pursuant to such rules and regulations. However, Cadence believes that the disclosures contained in this Quarterly Report on Form 10-Q comply with the requirements of Section 13(a) of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), for a Quarterly Report on Form 10-Q and are adequate to make the information presented not misleading. These condensed consolidated financial statements are meant to be, and should be, read in conjunction with the consolidated financial statements and the notes thereto included in Cadence’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the "Annual Report").
+The unaudited condensed consolidated financial statements included in this Quarterly Report on Form 10-Q reflect all adjustments (which include only normal, recurring adjustments and those items discussed in these notes) that are, in the opinion of management, necessary to state fairly the results of operations, cash flows and financial position for the periods and dates presented. The results for such periods are not necessarily indicative of the results to be expected for the full fiscal year or other periods. Certain prior period amounts have been reclassified to conform to the current period presentation. Management has evaluated subsequent events through the issuance date of the unaudited condensed consolidated financial statements.
+Fiscal Year End
+Cadence’s fiscal year end is December 31, and its fiscal quarters end on March 31, June 30, and September 30.
+Use of Estimates
+Preparation of the condensed consolidated financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the condensed consolidated financial statements and the reported amounts of revenue and expenses during the reporting period. Actual results could differ from those estimates.
+Risks and Uncertainties
+Because Cadence operates globally, its business is subject to the effects of economic downturns or recessions in the regions in which it does business, volatility in foreign currency exchange rates relative to the U.S. dollar, inflation, increased energy costs, supply chain constraints, changing interest rates, expanded trade control laws and regulations, imposition of new or higher tariffs and geopolitical instability.
+Trade control laws and regulations have been amended over the past years, including through the imposition of certain export control restrictions concerning advanced node IC production in China and the inclusion of additional Chinese technology companies on the Entity List maintained by the U.S. Department of Commerce's Bureau of Industry and Security (“BIS”) and regulations governing the sale of certain technologies. In furtherance of these regulations, effective September 29, 2025, BIS issued an interim final rule that extended the export restrictions imposed on entities identified on the Entity List or the Military End-User List and other certain sanctioned parties, to entities that are 50% or more owned by one or more such entities. However, BIS subsequently suspended the rule for one year, through November 9, 2026. In September 2026, the United States and China announced an extension of their trade arrangements through January 10, 2027, which is expected to extend the suspension; however, as of the date of this Quarterly Report, BIS has not formally extended the suspension. These laws, regulations and rules are subject to change.
+Recently Adopted Accounting Standards
+Measurements of Credit Losses for Accounts Receivable and Contract Assets
+In July 2025, the Financial Accounting Standards Board ("FASB") issued Accounting Standards Update ("ASU") No. 2025-05, “Financial Instruments - Credit Losses (Topic 326) Measurement of Credit Losses for Accounts Receivable and Contract Assets.” This ASU provides a practical expedient that allows entities to assume that current conditions as of the balance sheet date do not change for the remaining life of the asset when estimating expected credit losses for current accounts receivable and current contract assets. Cadence adopted this ASU on the first day of fiscal 2026. The adoption of this ASU did not have a material impact on Cadence’s consolidated financial statements and disclosures.
+7
+New Accounting Standards Not Yet Adopted
+Disaggregation of Income Statement Expenses
+In November 2024, the FASB issued ASU No. 2024-03, “Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures,” which requires additional disclosure of certain costs and expenses in the notes to the financial statements. The updated standard is effective for annual periods beginning after December 15, 2026 and interim periods beginning after December 15, 2027. Early adoption is permitted and will be applied prospectively with the option for retrospective application. Cadence is currently evaluating the impact of adopting this ASU on its consolidated financial statements and disclosures.
+Accounting for Internal-Use Software
+In September 2025, the FASB issued ASU No. 2025‑06, “Intangibles—Goodwill and Other—Internal‑Use Software (Subtopic 350‑40): Simplifying the Accounting for Internal‑Use Software.” The updated guidance changes the capitalization criteria for internal‑use software by replacing the existing stage‑based model with a principles‑based approach focused on the point at which management authorizes the software project, funding is approved, and it is probable that the software will be completed and used as intended. Costs that do not directly relate to the development of internal‑use softwar

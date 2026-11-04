@@ -1,0 +1,105 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1408710/000140871026000028/fn-20260626.htm
+SEMBOL: FN
+BASVURU_TARIHI: 2026-08-18
+BASVURU: 0001408710-26-000028
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+Years Ended |
+(in thousands of U. S. dollars) | June 26,
+2026 | June 27,
+2025 | June 28,
+2024 |
+Cash flows from operating activities |
+Net income | $ | 473,027 | $ | 332,527 | $ | 296,181 |
+Adjustments to reconcile net income to net cash provided by operating activities |
+Depreciation and amortization | 68,371 | 53,433 | 49,017 |
+(Gain) loss on disposal of property, plant and equipment and intangibles | ( 693 ) | ( 70 ) | 62 |
+(Gain) loss on non-marketable equity securities | ( 56,743 ) | — | — |
+Amortization of discount (premium) of short-term investments | ( 4,724 ) | ( 4,563 ) | ( 3,399 ) |
+Inventory obsolescence impairment | 2,681 | — | — |
+(Reversal of) allowance for expected credit losses | ( 294 ) | ( 285 ) | 664 |
+Unrealized loss (gain) on exchange rate and fair value of foreign currency forward contracts | 268 | 4,963 | ( 849 ) |
+Amortization of fair value at hedge inception of interest rate swaps | — | — | ( 220 ) |
+Share-based compensation | 34,630 | 33,004 | 28,374 |
+Customer warrant | 4,800 | 4,109 | — |
+Deferred income tax expense (benefit) | ( 5,107 ) | ( 5,726 ) | 1,672 |
+Other non-cash expenses | 409 | 131 | 310 |
+Changes in operating assets and liabilities |
+Trade accounts receivable | ( 259,258 ) | ( 165,657 ) | ( 61,279 ) |
+Inventories | ( 442,901 ) | ( 117,809 ) | 56,370 |
+Other current assets and non-current assets | ( 108,114 ) | ( 33,595 ) | ( 46,715 ) |
+Trade accounts payable | 370,753 | 194,236 | 60,040 |
+Income tax payable | 55,530 | 4,029 | ( 1,960 ) |
+Accrued expenses | 16,675 | 13,036 | 1,398 |
+Other payables | 94,753 | 11,522 | 30,959 |
+Severance liabilities | 3,743 | 3,799 | 2,771 |
+Other current liabilities and non-current liabilities | 8,919 | 1,281 | ( 250 ) |
+Net cash provided by operating activities | 256,725 | 328,365 | 413,146 |
+Cash flows from investing activities |
+Purchase of short-term investments | ( 276,207 ) | ( 444,149 ) | ( 435,905 ) |
+Proceeds from sales of short-term investments | 12,000 | — | 40,000 |
+Proceeds from maturities of short-term investments | 365,289 | 279,417 | 271,877 |
+Purchases of non-marketable equity securities | ( 32,360 ) | — | — |
+Purchase of property, plant and equipment | ( 252,503 ) | ( 121,078 ) | ( 47,528 ) |
+Purchase of intangibles | ( 1,181 ) | ( 738 ) | ( 889 ) |
+Proceeds from disposal of property, plant and equipment | 1,387 | 252 | 2,694 |
+Net cash used in investing activities | ( 183,575 ) | ( 286,296 ) | ( 169,751 ) |
+Cash flows from financing activities |
+Repayment of long-term borrowings | — | — | ( 12,188 ) |
+Repurchase of ordinary shares | ( 5,231 ) | ( 125,733 ) | ( 39,490 ) |
+Withholding tax related to net share settlement of restricted share units | ( 25,456 ) | ( 21,275 ) | ( 13,175 ) |
+Net cash used in financing activities | ( 30,687 ) | ( 147,008 ) | ( 64,853 ) |
+Net increase (decrease) in cash, cash equivalents and restricted cash | $ | 42,463 | $ | ( 104,939 ) | $ | 178,542 |
+Movement in cash, cash equivalents and restricted cash |
+57
+Table of Contents
+FABRINET
+CONSOLIDATED STATEMENTS OF CASH FLOWS (Continued)
+Years Ended |
+(in thousands of U. S. dollars) | June 26,
+2026 | June 27,
+2025 | June 28,
+2024 |
+Cash, cash equivalents and restricted cash at the beginning of period | $ | 306,425 | $ | 409,973 | $ | 231,368 |
+Increase (decrease) in cash, cash equivalents and restricted cash | 42,463 | ( 104,939 ) | 178,542 |
+Effect of exchange rate on cash, cash equivalents and restricted cash | ( 1,473 ) | 1,391 | 63 |
+Cash, cash equivalents and restricted cash at the end of period | $ | 347,415 | $ | 306,425 | $ | 409,973 |
+Supplemental disclosures |
+Cash paid for |
+Interest | $ | — | $ | — | $ | 312 |
+Taxes | $ | 29,405 | $ | 24,302 | $ | 16,452 |
+Cash received for interest | $ | 33,462 | $ | 33,718 | $ | 29,783 |
+Non-cash investing and financing activities |
+Construction, software and equipment related payables | $ | 86,018 | $ | 40,781 | $ | 14,380 |
+The following table provides a reconciliation of cash, cash equivalents and restricted cash reported within the consolidated balance sheets that sums to the total of the same amounts shown in the consolidated statements of cash flows:
+As of |
+(in thousands of U. S. dollars) | June 26,
+2026 | June 27,
+2025 | June 28,
+2024 |
+Cash and cash equivalents | $ | 346,711 | $ | 306,425 | $ | 409,973 |
+Restricted cash | 704 | — | — |
+Cash, cash equivalents and restricted cash | $ | 347,415 | $ | 306,425 | $ | 409,973 |
+The accompanying notes are an integral part of these consolidated financial statements.
+58
+Table of contents
+FABRINET
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(in thousands of U.S. dollars unless otherwise noted)
+1. Business and organization
+General
+Fabrinet (“Fabrinet” or the “Parent Company”) was incorporated on August 12, 1999, and commenced operations on January 1, 2000. The Parent Company is an exempted company incorporated in the Cayman Islands, British West Indies. The “Company” refers to Fabrinet and its subsidiaries as a group.
+The Company provides advanced optical packaging and precision optical, electro-mechanical and electronic manufacturing services to original equipment manufacturers of complex products, such as optical communication components, modules and sub-systems, automotive components, industrial lasers, medical devices and sensors. The Company offers a broad range of advanced optical and electro-mechanical capabilities across the entire manufacturing process, including process design and engineering, supply chain management, manufacturing, complex printed circuit board assembly, advanced packaging, integration, final assembly and testing. The Company is capable of producing a wide variety of high complexity products in any mix and any volume. The principal subsidiaries of Fabrinet include Fabrinet Co., Ltd. (“Fabrinet Thailand”), Casix, Inc. (“Casix”), Fabrinet West, Inc. (“Fabrinet West”) and Fabrinet Israel Ltd. (“Fabrinet Israel”).
+2. Summary of significant accounting policies
+Principles of consolidation
+The Company utilizes a 52-53 week fiscal year ending on the last Friday in June. Fiscal years 2026, 2025, and 2024 ended on June 26, 2026, June 27, 2025, and June 28, 2024, respectively, and each consisted of 52 weeks.
+The consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP”) and include Fabrinet and its subsidiaries. All inter-company accounts and transactions have been eliminated.
+Use of estimates
+The preparation of the Company’s consolidated financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent liabilities at the date of the financial statements and the reported amount of total revenues and expenses during the year. The Company bases estimates on historical experience and various assumptions about the future that are believed to be reasonable based on available information. The Company’s reported financial position or results of operations may be materially different under different conditions or when using different estimates and assumptions, particularly with respect to significant accounting policies, which are discussed below. Significant assumptions are used in accounting for share-based compensation, the fair value of warrant shares at grant date, allowance for expected credit losses, income taxes, and inventory obsolescence. Due to the inherent uncertainty involved in making estimates, actual results reported in future periods may be different from these estimates. In the event that the Company's estimates or assumptions prove to be different from actual results, adjustments will be made in subsequent periods to reflect more current information.
+Foreign currency transactions and translation
+The consolidated financial statements are presented in United States dollars (“$” or “USD”). The functional currency of Fabrinet and most of its subsidiaries is the USD.
+With respect to subsidiaries that use USD as their functional currency, transactions denominated in a currency other than USD are translated into USD at the rates of exchange in effect at the date of the transaction. Monetary assets and liabilities denominated in foreign currencies are translated into the functional currency at the exchange rate prevailing at the consolidated balance sheet dates. Transaction gains and losses are included in foreign exchange gain (loss) in the accompanying consolidated statements of operations and comprehensive income.
+59
+Table of contents
+Fabrinet translates the assets and liabilities of its subsidiaries that do not use USD as their functional currency into USD using exchange rates in effect at the end of each period. Revenue and expenses for such subsidiaries are translated using rates that approximate those in effect during the period. Gains and losses from these translations are recognized in foreign c

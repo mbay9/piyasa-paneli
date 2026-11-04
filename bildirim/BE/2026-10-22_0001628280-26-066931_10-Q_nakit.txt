@@ -1,0 +1,126 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm
+SEMBOL: BE
+BASVURU_TARIHI: 2026-10-22
+BASVURU: 0001628280-26-066931
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(in thousands)
+(unaudited)
+Nine Months Ended |
+September 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income (loss)
+| $ | 521,523 | $ | ( 88,566 ) |
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operating activities:
+|
+Depreciation and amortization | 40,830 | 37,382 |
+Non-cash lease expense | 25,888 | 24,509 |
+Equity in loss of unconsolidated affiliates | 15,553 | 19,599 |
+Stock-based compensation expense | 157,641 | 96,593 |
+Amortization of debt issuance costs
+| 9,978 | 5,537 |
+Loss on extinguishment of debt | — | 32,340 |
+Net gain on failed sale-and-leaseback transactions
+| ( 22,927 ) | ( 827 ) |
+Share-based consideration payable to customer’s customer (Note 3 ) 12
+| 1,402 | — |
+Allowance for credit losses | 3,080 | 340 |
+Inventory reserve and asset impairments | 3,143 | 21,846 |
+Unrealized foreign currency exchange loss (gain)
+| 1,391 | ( 2,092 ) |
+Other 11
+| 879 | 452 |
+Changes in operating assets and liabilities: |
+Accounts receivable 1
+| ( 264,825 ) | ( 75,681 ) |
+Contract assets 2
+| ( 618,002 ) | ( 113,722 ) |
+Inventories | ( 285,458 ) | ( 179,162 ) |
+Deferred cost of revenue 3
+| ( 82,697 ) | 34,409 |
+Prepaid expenses and other current assets 4
+| ( 128,439 ) | 1,461 |
+Other long-term assets 5
+| ( 274,668 ) | 1,728 |
+Operating lease right-of-use assets and operating lease liabilities | ( 25,699 ) | ( 25,235 ) |
+Financing lease liabilities | 469 | 1,188 |
+Accounts payable | 285,086 | 76,175 |
+Accrued warranty 6
+| 50,254 | ( 1,877 ) |
+Accrued expenses and other current liabilities 7
+| 248,149 | 27,723 |
+Deferred revenue and customer deposits 8
+| 610,565 | ( 198,100 ) |
+Deferred profit with equity method investees and other long-term liabilities 9
+| ( 221 ) | ( 144 ) |
+Net cash provided by (used in) operating activities | 272,895 | ( 304,124 ) |
+Cash flows from investing activities: |
+Purchase of property, plant and equipment | ( 231,310 ) | ( 33,805 ) |
+Proceeds from sale of property, plant and equipment | 187 | 76 |
+Investments in unconsolidated affiliates 10
+| ( 26,577 ) | ( 24,570 ) |
+Net cash used in investing activities | ( 257,700 ) | ( 58,299 ) |
+Cash flows from financing activities: |
+Payment of debt issuance costs | ( 787 ) | ( 3,348 ) |
+Repayment of debt | ( 1,347 ) | — |
+Repayment of financing obligations | ( 17,195 ) | ( 8,404 ) |
+Proceeds from issuance of common stock | 33,941 | 50,035 |
+Dividend paid
+| ( 925 ) | ( 947 ) |
+Other | ( 38 ) | 150 |
+Net cash provided by financing activities | 13,649 | 37,486 |
+Effect of exchange rate changes on cash, cash equivalent, and restricted cash | ( 2,278 ) | 981 |
+Net increase (decrease) in cash, cash equivalents, and restricted cash
+| 26,566 | ( 323,956 ) |
+Cash, cash equivalents, and restricted cash:
+|
+Beginning of period | 2,481,580 | 950,971 |
+End of period | $ | 2,508,146 | $ | 627,015 |
+Supplemental disclosure of cash flow information: |
+Cash paid during the period for interest | $ | 14,635 | $ | 30,576 |
+Cash paid for amounts included in the measurement of lease liabilities: |
+Operating cash flows from operating leases | 25,699 | 24,979 |
+Operating cash flows from finance leases | 326 | 256 |
+Cash paid during the period for income taxes | 5,689 | 1,122 |
+Non-cash investing and financing activities: |
+Liabilities recorded for property, plant and equipment, net | $ | 18,138 | $ | 2,266 |
+Derecognition of financing obligations | 42,635 | — |
+Recognition of operating lease right-of-use asset during the year-to-date period | 7,867 | 3,878 |
+Recognition of finance lease right-of-use asset during the year-to-date period | 452 | 1,162 |
+Unfunded investment commitment (Note 11) 13
+| 1,438 | 720 |
+Conversions of the Green Notes (Note 8)
+| 149,481 | 2,230 |
+Premium on convertible debt | — | 28,247 |
+Face value of 2.5 % Green Convertible Senior Notes due August 2025 exchanged
+| — | 112,769 |
+Face value of additional 3.0 % Green Notes due June 2029 issued in the Debt Exchange
+| — | 115,725 |
+1 Including changes in related party balances of $ 43.6 million and $ 55.0 million for the nine months ended September 30, 2026 and 2025, respectively .
+2 Including changes in related party balances of $ 73.7 million and $ 87.4 million for the nine months ended September 30, 2026 and 2025, respectively .
+3 Including changes in related party balances of $ 20.5 million for the nine months ended September 30, 2026. There were no changes in related party balances for the nine months ended September 30, 2025.
+4 Including changes in related party balances of $ 1.2 million and $ 1.2 million for the nine months ended September 30, 2026 and 2025, respectively .
+5 Including changes in related party balances of $ 6.0 million and $ 8.8 million for the nine months ended September 30, 2026 and 2025, respectively .
+6 Including changes in related party balances of $ 4.2 million and $ 1.2 million for the nine months ended September 30, 2026 and 2025, respectively .
+7 Including changes in related party balances of $ 2.0 million and $ 0.5 million for the nine months ended September 30, 2026 and 2025, respectively .
+8 Including changes in related party balances of $ 1.2 million and $ 12.2 million for the nine months ended September 30, 2026 and 2025, respectively .
+9 Including changes in related party balances of $ 6.1 million for the nine months ended September 30, 2026. There were no changes in related party balances for the nine months ended September 30, 2025.
+10 Represent related party investments in unconsolidated affiliates (see Note 7— Investments in Unconsolidated Affiliates in this Quarterly Report on Form 10-Q) .
+11 Includes $ 1.0 million related party distributions received from unconsolidated affiliates for the nine months ended September 30, 2026 (see Note 7— Investments in Unconsolidated Affiliates in this Quarterly Report on Form 10-Q) .
+12 Represent related party consideration payable to customer’s customer (see Note 3— Revenue Recognition in this Quarterly Report on Form 10-Q) .
+13 Represents related party unfunded investment commitment pertaining to unconsolidated affiliates (see Note 7— Investments in Unconsolidated Affiliates in this Quarterly Report on Form 10-Q) .
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+Bloom Energy Corporation
+Notes to Unaudited Condensed Consolidated Financial Statements
+The unaudited condensed consolidated financial statements reflect all normal and recurring adjustments that are, in the opinion of management, necessary for a fair presentation of the results for the interim periods presented.
+The unaudited condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements, including the notes thereto, included in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the “2025 Form 10-K”).
+1. Nature of Business, Liquidity and Basis of Presentation
+Nature of Business
+For information on the nature of our business, see Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of Presentation, section Nature of Business in our 2025 Form 10-K.
+Liquidity
+We generated $ 272.9 million of positive operating cash flow and $ 479.9 million of operating income for the nine months ended September 30, 2026. As of September 30, 2026, we had $ 2,473.5 million and $ 3.0 million of total outstanding recourse and non-recourse debt, respectively, $ 3.0 million and $ 2,473.5 million of which was classified as short-term debt and long-term debt, respectively. As of December 31, 2025, we had $ 2,613.7 million and $ 4.2 million of total outstanding recourse and non-recourse debt, respectively, $ 4.2 million and $ 2,613.7 million of which was classified as short-term debt and long-term debt, respectively.
+For information regarding our prior issuances of convertible debt, related exchange and extinguishment transactions, and our entry into a senior secured multicurrency revolving credit facility (the “Revolving Credit Facility”), refer to Part I, Item 1, Note 8— Outstanding Loans and Security Agreements in this Quarterly Report on Form 10-Q and Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of Presentation, section Liquidity in our 2025 Form 10-K.
+Our future capital requirements depend on many factors, including the market acceptance of our products, our rate of revenue growth, the timing and extent of spending on research and development efforts and other business initiatives, the rate of growth in the volume of system builds and the need for additional working capital, our purchase commitments with suppliers and third-party manufacturers, the expansion of sales and marketing activities both in domestic and international markets, our ability to secure financing for customer use of our products, the timing of installations, inventory buildup and increase in factory capacity in anticipation of future sales and installations, and overall economic conditions. In or

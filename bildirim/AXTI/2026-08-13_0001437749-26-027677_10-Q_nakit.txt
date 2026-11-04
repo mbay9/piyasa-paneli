@@ -1,0 +1,305 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1051627/000143774926027677/axti20260630_10q.htm
+SEMBOL: AXTI
+BASVURU_TARIHI: 2026-08-13
+BASVURU: 0001437749-26-027677
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the six months ended June 30, 2026 and 2025
+|
+6
+|
+Notes To Condensed Consolidated Financial Statements
+|
+7
+|
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+|
+30
+|
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+|
+56
+|
+Item 4. Controls and Procedures
+|
+57
+|
+PART II. OTHER INFORMATION
+|
+|
+Item 1. Legal Proceedings
+|
+58
+|
+Item 1A. Risk Factors
+|
+58
+|
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+|
+87
+|
+Item 3. Defaults upon Senior Securities
+|
+87
+|
+Item 4. Mine Safety Disclosures
+|
+87
+|
+Item 5. Other Information
+|
+87
+|
+Item 6. Exhibits
+|
+87
+|
+Signatures
+|
+88
+|
+2
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements (unaudited)
+AXT, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(Unaudited, in thousands, except per share data)
+| | June 30,
+| | | December 31,
+| |
+| | 2026
+| | | 2025
+| |
+| | | | | | | | |
+ASSETS
+| | | | | | | | |
+Current assets:
+| | | | | | | | |
+Cash and cash equivalents
+| | $ | 412,167 | | | $ | 120,266 | |
+Restricted cash
+| | | 33,050 | | | | 8,100 | |
+Short-term investments
+| | | 5,031 | | | | — | |
+Accounts receivable, net of allowances for credit losses of $ 230 and $ 164 as of June 30, 2026 and December 31, 2025
+| | | 36,675 | | | | 26,849 | |
+Inventories
+| | | 96,322 | | | | 81,651 | |
+Prepaid expenses and other current assets
+| | | 15,558 | | | | 9,690 | |
+Total current assets
+| | | 598,803 | | | | 246,556 | |
+Long-term investments
+| | | 298,600 | | | | — | |
+Property, plant and equipment, net
+| | | 174,924 | | | | 161,860 | |
+Operating lease right-of-use assets
+| | | 1,766 | | | | 1,982 | |
+Other assets
+| | | 23,099 | | | | 23,353 | |
+Total assets
+| | $ | 1,097,192 | | | $ | 433,751 | |
+LIABILITIES, REDEEMABLE NONCONTROLLING INTERESTS AND STOCKHOLDERS’ EQUITY
+| | | | | | | | |
+Current liabilities:
+| | | | | | | | |
+Accounts payable
+| | $ | 14,373 | | | $ | 12,947 | |
+Accrued liabilities
+| | | 27,052 | | | | 14,798 | |
+Short-term loans
+| | | 84,233 | | | | 62,796 | |
+Total current liabilities
+| | | 125,658 | | | | 90,541 | |
+Noncurrent operating lease liabilities
+| | | 1,164 | | | | 1,441 | |
+Other long-term liabilities
+| | | 18,522 | | | | 7,138 | |
+Total liabilities
+| | | 145,344 | | | | 99,120 | |
+Commitments and contingencies (Note 12)
+| | | | | | | | |
+Redeemable noncontrolling interests (Note 18)
+| | | 39,735 | | | | 38,056 | |
+Stockholders’ equity:
+| | | | | | | | |
+Preferred stock Series A, $ 0.001 par value; 2,000 shares authorized; 883 shares issued and outstanding as of June 30, 2026 and December 31, 2025 (Liquidation preference of $ 8,317 and $ 8,229 as of June 30, 2026 and December 31, 2025)
+| | | 3,532 | | | | 3,532 | |
+Common stock, $ 0.001 par value; 120,000 and 70,000 shares authorized as of June 30, 2026 and December 31, 2025; 65,570 and 55,337 shares issued and outstanding as of June 30, 2026 and December 31, 2025
+| | | 66 | | | | 55 | |
+Additional paid-in capital
+| | | 943,758 | | | | 339,922 | |
+Accumulated deficit
+| | | ( 55,416 | ) | | | ( 64,924 | ) |
+Accumulated other comprehensive loss
+| | | ( 4,666 | ) | | | ( 5,295 | ) |
+Total AXT, Inc. stockholders’ equity
+| | | 887,274 | | | | 273,290 | |
+Noncontrolling interests
+| | | 24,839 | | | | 23,285 | |
+Total stockholders’ equity
+| | | 912,113 | | | | 296,575 | |
+Total liabilities, redeemable noncontrolling interests and stockholders’ equity
+| | $ | 1,097,192 | | | $ | 433,751 | |
+See accompanying notes to condensed consolidated financial statements.
+3
+Table of Contents
+AXT, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(Unaudited, in thousands, except per share data)
+| | Three Months Ended
+| | | Six Months Ended
+| |
+| | June 30,
+| | | June 30,
+| |
+| | 2026
+| | | 2025
+| | | 2026
+| | | 2025
+| |
+| | | | | | | | | | | | | | | | |
+Revenue
+| | $ | 47,589 | | | $ | 17,974 | | | $ | 74,513 | | | $ | 37,330 | |
+Cost of revenue
+| | | 26,223 | | | | 16,541 | | | | 45,169 | | | | 37,138 | |
+Gross profit
+| | | 21,366 | | | | 1,433 | | | | 29,344 | | | | 192 | |
+Operating expenses:
+| | | | | | | | | | | | | | | | |
+Selling, general and administrative
+| | | 7,292 | | | | 5,653 | | | | 13,843 | | | | 11,569 | |
+Research and development
+| | | 3,651 | | | | 2,525 | | | | 6,663 | | | | 5,643 | |
+Total operating expenses
+| | | 10,943 | | | | 8,178 | | | | 20,506 | | | | 17,212 | |
+Income (loss) from operations
+| | | 10,423 | | | | ( 6,745 | ) | | | 8,838 | | | | ( 17,020 | ) |
+Interest income (expense), net
+| | | 4,728 | | | | ( 202 | ) | | | 4,829 | | | | ( 471 | ) |
+Equity in income (loss) of unconsolidated joint ventures
+| | | 417 | | | | ( 171 | ) | | | 770 | | | | 77 | |
+Other income (expense), net
+| | | ( 436 | ) | | | 23 | | | | ( 360 | ) | | | 377 | |
+Income (loss) before provision for income taxes
+| | | 15,132 | | | | ( 7,095 | ) | | | 14,077 | | | | ( 17,037 | ) |
+Provision for income taxes
+| | | 2,102 | | | | 579 | | | | 2,532 | | | | 653 | |
+Net income (loss)
+| | | 13,030 | | | | ( 7,674 | ) | | | 11,545 | | | | ( 17,690 | ) |
+Less: Net (income) loss attributable to noncontrolling interests and redeemable noncontrolling interests
+| | | ( 1,902 | ) | | | 666 | | | | ( 2,037 | ) | | | 1,884 | |
+Net income (loss) attributable to AXT, Inc.
+| | $ | 11,128 | | | $ | ( 7,008 | ) | | $ | 9,508 | | | $ | ( 15,806 | ) |
+Net income (loss) attributable to AXT, Inc. per common share:
+| | | | | | | | | | | | | | | | |
+Basic
+| | $ | 0.18 | | | $ | ( 0.16 | ) | | $ | 0.16 | | | $ | ( 0.36 | ) |
+Diluted
+| | $ | 0.17 | | | $ | ( 0.16 | ) | | $ | 0.16 | | | $ | ( 0.36 | ) |
+Weighted-average number of common shares outstanding:
+| | | | | | | | | | | | | | | | |
+Basic
+| | | 61,227 | | | | 43,710 | | | | 57,274 | | | | 43,630 | |
+Diluted
+| | | 63,474 | | | | 43,710 | | | | 59,642 | | | | 43,630 | |
+See accompanying notes to condensed consolidated financial statements.
+4
+Table of Contents
+AXT, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+(Unaudited, in thousands)
+| | Three Months Ended
+| | | Six Months Ended
+| |
+| | June 30,
+| | | June 30,
+| |
+| | 2026
+| | | 2025
+| | | 2026
+| | | 2025
+| |
+| | | | | | | | | | | | | | | | |
+Net income (loss)
+| | $ | 13,030 | | | $ | ( 7,674 | ) | | $ | 11,545 | | | $ | ( 17,690 | ) |
+Other comprehensive income, net of tax:
+| | | | | | | | | | | | | | | | |
+Change in foreign currency translation income, net of tax
+| | | 1,667 | | | | 1,312 | | | | 3,114 | | | | 1,849 | |
+Change in unrealized loss on available-for-sale debt investments, net of tax
+| | | ( 1,387 | ) | | | — | | | | ( 1,856 | ) | | | — | |
+Total other comprehensive income, net of tax
+| | | 280 | | | | 1,312 | | | | 1,258 | | | | 1,849 | |
+Comprehensive income (loss)
+| | | 13,310 | | | | ( 6,362 | ) | | | 12,803 | | | | ( 15,841 | ) |
+Less: Comprehensive (income) loss attributable to noncontrolling interests and redeemable noncontrolling interests
+| | | ( 2,243 | ) | | | 410 | | | | ( 2,665 | ) | | | 1,522 | |
+Comprehensive income (loss) attributable to AXT, Inc.
+| | $ | 11,067 | | | $ | ( 5,952 | ) | | $ | 10,138 | | | $ | ( 14,319 | ) |
+See accompanying notes to condensed consolidated financial statements.
+5
+Table of Contents
+AXT, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(Unaudited, in thousands)
+| | Six Months Ended
+| |
+| | June 30,
+| |
+| | 2026
+| | | 2025
+| |
+Cash flows from operating activities:
+| | | | | | | | |
+Net income (loss)
+| | $ | 11,545 | | | $ | ( 17,690 | ) |
+Adjustments to reconcile net loss to net cash used in operating activities:
+| | | | | | | | |
+Depreciation and amortization
+| | | 4,941 | | | | 4,483 | |
+Amortization of marketable securities premium
+| | | 78 | | | | — | |
+Stock-based compensation
+| | | 1,797 | | | | 1,279 | |
+Gain on disposal of equipment
+| | | ( 12 | ) | | | ( 7 | ) |
+Return of equity method investments as dividends
+| | | 1,956 | | | | 868 | |
+Equity in income of unconsolidated joint ventures
+| | | ( 770 | ) | | | ( 77 | ) |
+Deferred tax assets
+| | | 62 | | | | ( 38 | ) |
+Changes in operating assets and liabilities:
+| | | | | | | | |
+Accounts receivable
+| | | ( 9,199 | ) | | | 3,185 | |
+Inventories
+| | | ( 12,170 | ) | | | 6,219 | |
+Prepaid expenses and other current assets
+| | | ( 10,039 | ) | | | 5,334 | |
+Other assets
+| | | ( 609 | ) | | | ( 2,941 | ) |
+Accounts payable
+| | | 1,053 | | | | ( 1,290 | ) |
+Accrued liabilities
+| | | 11,910 | | | | ( 2,265 | ) |
+Other long-term liabilities
+| | | ( 1,443 | ) | | | ( 4,982 | ) |
+Net cash used in operating activities
+| | | ( 900 | ) | | | ( 7,922 | ) |
+Cash flows from investing activities:
+| | | | | | | | |
+Purchases of property, plant and equipment
+| | | ( 8,598 | ) | | | ( 789 | ) |
+Purchases of available-for-sale debt securities
+| | | ( 305,565 | ) | | | — | |
+Investments in non-marketable equity investments
+| | | — | | | | ( 837 | ) |
+Net cash used in investing activities
+| | | ( 314,163 | ) | | | ( 1,626 | ) |
+Cash flows from financing activities:
+| | | | | | | | |
+Proceeds from issuance of common stock and o

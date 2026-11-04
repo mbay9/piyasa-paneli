@@ -1,0 +1,1670 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/751978/000119312526322462/vicr-20260630.htm
+SEMBOL: VICR
+BASVURU_TARIHI: 2026-07-29
+BASVURU: 0001193125-26-322462
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the six months ended June 30, 2026 and 2025
+|
+4
+|
+Condensed Consolidated Statements of Equity for the three and six months ended June 30, 2026 and 2025
+|
+5
+|
+Notes to Condensed Consolidated Financial Statements
+|
+7
+|
+Item 2 — Management’s Discussion and Analysis of Financial Condition and Results of Operations
+|
+17
+|
+Item 3 — Quantitative and Qualitative Disclosures About Market Risk
+|
+27
+|
+Item 4 — Controls and Procedures
+|
+28
+|
+Part II — Other Information:
+|
+29
+|
+Item 1 — Legal Proceedings
+|
+29
+|
+Item 1A — Risk Factors
+|
+29
+|
+Item 2 — Unregistered Sales of Equity Securities and Use of Proceeds
+|
+29
+|
+Item 5 — Other Information
+|
+29
+|
+Item 6 — Exhibits
+|
+30
+|
+Signatures
+|
+31
+|
+|
+|
+|
+|
+Table of Contents
+VICOR CORPORATION
+Pa rt I – Financial Information
+Item 1 – Fin ancial Statements
+Condensed Consoli dated Balance Sheets
+(In thousands, except share data)
+(Unaudited)
+|
+|
+June 30, 2026
+|
+|
+|
+December 31, 2025
+|
+|
+Assets
+|
+|
+|
+|
+|
+|
+|
+Current assets:
+|
+|
+|
+|
+|
+|
+|
+Cash and cash equivalents
+|
+|
+$
+|
+453,582
+|
+|
+|
+$
+|
+402,805
+|
+|
+Accounts receivable, net
+|
+|
+|
+78,929
+|
+|
+|
+|
+60,716
+|
+|
+Inventories
+|
+|
+|
+104,489
+|
+|
+|
+|
+91,340
+|
+|
+Other current assets
+|
+|
+|
+33,346
+|
+|
+|
+|
+32,502
+|
+|
+Total current assets
+|
+|
+|
+670,346
+|
+|
+|
+|
+587,363
+|
+|
+Long-term deferred tax assets, net
+|
+|
+|
+38,746
+|
+|
+|
+|
+27,463
+|
+|
+Long-term investment, net
+|
+|
+|
+2,525
+|
+|
+|
+|
+2,462
+|
+|
+Property, plant and equipment, net
+|
+|
+|
+162,536
+|
+|
+|
+|
+147,690
+|
+|
+Other assets
+|
+|
+|
+20,009
+|
+|
+|
+|
+20,853
+|
+|
+Total assets
+|
+|
+$
+|
+894,162
+|
+|
+|
+$
+|
+785,831
+|
+|
+Liabilities and Equity
+|
+|
+|
+|
+|
+|
+|
+Current liabilities:
+|
+|
+|
+|
+|
+|
+|
+Accounts payable
+|
+|
+$
+|
+20,415
+|
+|
+|
+$
+|
+12,290
+|
+|
+Accrued compensation and benefits
+|
+|
+|
+15,321
+|
+|
+|
+|
+12,031
+|
+|
+Accrued litigation
+|
+|
+|
+—
+|
+|
+|
+|
+28,275
+|
+|
+Accrued expenses
+|
+|
+|
+7,662
+|
+|
+|
+|
+3,691
+|
+|
+Short-term lease liabilities
+|
+|
+|
+1,767
+|
+|
+|
+|
+1,568
+|
+|
+Sales allowances
+|
+|
+|
+4,414
+|
+|
+|
+|
+3,136
+|
+|
+Income taxes payable
+|
+|
+|
+141
+|
+|
+|
+|
+904
+|
+|
+Short-term deferred revenue and customer prepayments
+|
+|
+|
+875
+|
+|
+|
+|
+3,426
+|
+|
+Total current liabilities
+|
+|
+|
+50,595
+|
+|
+|
+|
+65,321
+|
+|
+Long-term income taxes payable
+|
+|
+|
+3,132
+|
+|
+|
+|
+3,086
+|
+|
+Long-term lease liabilities
+|
+|
+|
+5,841
+|
+|
+|
+|
+5,608
+|
+|
+Total liabilities
+|
+|
+|
+59,568
+|
+|
+|
+|
+74,015
+|
+|
+Commitments and contingencies (Note 11)
+|
+|
+|
+|
+|
+|
+|
+Equity:
+|
+|
+|
+|
+|
+|
+|
+Vicor Corporation stockholders’ equity:
+|
+|
+|
+|
+|
+|
+|
+Class B Common Stock: 10 votes per share, $ .01 par value, 14,000,000 shares
+authorized, 11,717,718 shares issued and outstanding in 2026
+and 11,726,718 shares issued and outstanding in 2025
+|
+|
+|
+118
+|
+|
+|
+|
+118
+|
+|
+Common Stock: 1 vote per share, $ .01 par value, 62,000,000 shares authorized
+45,955,940 shares issued and 34,383,481 shares outstanding in 2026;
+45,910,601 shares issued and 33,532,377 shares outstanding in 2025
+|
+|
+|
+460
+|
+|
+|
+|
+460
+|
+|
+Additional paid-in capital
+|
+|
+|
+509,849
+|
+|
+|
+|
+462,227
+|
+|
+Retained earnings
+|
+|
+|
+491,795
+|
+|
+|
+|
+421,359
+|
+|
+Accumulated other comprehensive loss
+|
+|
+|
+( 1,733
+|
+)
+|
+|
+|
+( 1,672
+|
+)
+|
+Treasury stock at cost: 11,572,459 shares in 2026 and 12,378,224 shares in 2025
+|
+|
+|
+( 166,170
+|
+)
+|
+|
+|
+( 170,935
+|
+)
+|
+Total Vicor Corporation stockholders’ equity
+|
+|
+|
+834,319
+|
+|
+|
+|
+711,557
+|
+|
+Noncontrolling interest
+|
+|
+|
+275
+|
+|
+|
+|
+259
+|
+|
+Total equity
+|
+|
+|
+834,594
+|
+|
+|
+|
+711,816
+|
+|
+Total liabilities and equity
+|
+|
+$
+|
+894,162
+|
+|
+|
+$
+|
+785,831
+|
+|
+See accompanying notes.
+- 1 -
+Table of Contents
+VICOR CORPORATION
+Condensed Consolidated Statements of Operations
+(In thousands, except per share amounts)
+(Unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+Six Months Ended
+|
+|
+|
+|
+June 30,
+|
+|
+|
+June 30,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Product revenue
+|
+|
+$
+|
+112,926
+|
+|
+|
+$
+|
+85,693
+|
+|
+|
+$
+|
+210,930
+|
+|
+|
+$
+|
+168,899
+|
+|
+Royalty revenue
+|
+|
+|
+30,426
+|
+|
+|
+|
+10,353
+|
+|
+|
+|
+45,391
+|
+|
+|
+|
+21,115
+|
+|
+Total net revenues
+|
+|
+|
+143,352
+|
+|
+|
+|
+96,046
+|
+|
+|
+|
+256,321
+|
+|
+|
+|
+190,014
+|
+|
+Patent litigation settlement
+|
+|
+|
+—
+|
+|
+|
+|
+45,000
+|
+|
+|
+|
+—
+|
+|
+|
+|
+45,000
+|
+|
+Total net revenues and patent litigation settlement
+|
+|
+|
+143,352
+|
+|
+|
+|
+141,046
+|
+|
+|
+|
+256,321
+|
+|
+|
+|
+235,014
+|
+|
+Cost of product revenues
+|
+|
+|
+60,232
+|
+|
+|
+|
+48,918
+|
+|
+|
+|
+110,835
+|
+|
+|
+|
+98,521
+|
+|
+Gross margin
+|
+|
+|
+83,120
+|
+|
+|
+|
+92,128
+|
+|
+|
+|
+145,486
+|
+|
+|
+|
+136,493
+|
+|
+Operating expenses:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Selling, general and administrative
+|
+|
+|
+27,601
+|
+|
+|
+|
+27,952
+|
+|
+|
+|
+50,793
+|
+|
+|
+|
+53,089
+|
+|
+Research and development
+|
+|
+|
+20,641
+|
+|
+|
+|
+18,791
+|
+|
+|
+|
+42,931
+|
+|
+|
+|
+38,168
+|
+|
+Total operating expenses
+|
+|
+|
+48,242
+|
+|
+|
+|
+46,743
+|
+|
+|
+|
+93,724
+|
+|
+|
+|
+91,257
+|
+|
+Income from operations
+|
+|
+|
+34,878
+|
+|
+|
+|
+45,385
+|
+|
+|
+|
+51,762
+|
+|
+|
+|
+45,236
+|
+|
+Other income (expense), net:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total unrealized gains (losses) on available-for-sale
+securities, net
+|
+|
+|
+17
+|
+|
+|
+|
+( 80
+|
+)
+|
+|
+|
+63
+|
+|
+|
+|
+( 57
+|
+)
+|
+Less: portion of (gains) losses recognized in other
+comprehensive income
+|
+|
+|
+( 17
+|
+)
+|
+|
+|
+80
+|
+|
+|
+|
+( 63
+|
+)
+|
+|
+|
+57
+|
+|
+Net credit gains recognized in earnings
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+Other income (expense), net
+|
+|
+|
+4,045
+|
+|
+|
+|
+3,657
+|
+|
+|
+|
+7,564
+|
+|
+|
+|
+6,791
+|
+|
+Total other income (expense), net
+|
+|
+|
+4,045
+|
+|
+|
+|
+3,657
+|
+|
+|
+|
+7,564
+|
+|
+|
+|
+6,791
+|
+|
+Income before income taxes
+|
+|
+|
+38,923
+|
+|
+|
+|
+49,042
+|
+|
+|
+|
+59,326
+|
+|
+|
+|
+52,027
+|
+|
+Less: (Benefit) provision for income taxes
+|
+|
+|
+( 10,863
+|
+)
+|
+|
+|
+7,842
+|
+|
+|
+|
+( 11,136
+|
+)
+|
+|
+|
+8,266
+|
+|
+Consolidated net income
+|
+|
+|
+49,786
+|
+|
+|
+|
+41,200
+|
+|
+|
+|
+70,462
+|
+|
+|
+|
+43,761
+|
+|
+Less: Net income attributable to
+noncontrolling interest
+|
+|
+|
+14
+|
+|
+|
+|
+8
+|
+|
+|
+|
+26
+|
+|
+|
+|
+30
+|
+|
+Net income attributable to Vicor Corporation
+|
+|
+$
+|
+49,772
+|
+|
+|
+$
+|
+41,192
+|
+|
+|
+$
+|
+70,436
+|
+|
+|
+$
+|
+43,731
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income per common share attributable to
+Vicor Corporation:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$
+|
+1.08
+|
+|
+|
+$
+|
+0.92
+|
+|
+|
+$
+|
+1.54
+|
+|
+|
+$
+|
+0.97
+|
+|
+Diluted
+|
+|
+$
+|
+1.04
+|
+|
+|
+$
+|
+0.91
+|
+|
+|
+$
+|
+1.48
+|
+|
+|
+$
+|
+0.97
+|
+|
+Shares used to compute net income per common share
+attributable to Vicor Corporation:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+45,936
+|
+|
+|
+|
+45,007
+|
+|
+|
+|
+45,703
+|
+|
+|
+|
+45,112
+|
+|
+Diluted
+|
+|
+|
+47,708
+|
+|
+|
+|
+45,077
+|
+|
+|
+|
+47,481
+|
+|
+|
+|
+45,286
+|
+|
+See accompanying notes.
+- 2 -
+Table of Contents
+VICOR CORPORATION
+Condensed Consolidated Statem ents of Comprehensive Income
+(In thousands)
+(Unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+Six Months Ended
+|
+|
+|
+|
+June 30,
+|
+|
+|
+June 30,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Consolidated net income
+|
+|
+$
+|
+49,786
+|
+|
+|
+$
+|
+41,200
+|
+|
+|
+$
+|
+70,462
+|
+|
+|
+$
+|
+43,761
+|
+|
+Foreign currency translation (losses) gains, net of tax (1)
+|
+|
+|
+( 57
+|
+)
+|
+|
+|
+109
+|
+|
+|
+|
+( 134
+|
+)
+|
+|
+|
+282
+|
+|
+Unrealized gains (losses) on available-for-sale
+securities, net of tax (1)
+|
+|
+|
+17
+|
+|
+|
+|
+( 80
+|
+)
+|
+|
+|
+63
+|
+|
+|
+|
+( 57
+|
+)
+|
+Other comprehensive (loss) income
+|
+|
+|
+( 40
+|
+)
+|
+|
+|
+29
+|
+|
+|
+|
+( 71
+|
+)
+|
+|
+|
+225
+|
+|
+Consolidated comprehensive income
+|
+|
+|
+49,746
+|
+|
+|
+|
+41,229
+|
+|
+|
+|
+70,391
+|
+|
+|
+|
+43,986
+|
+|
+Less: Comprehensive income attributable to
+noncontrolling interest
+|
+|
+|
+10
+|
+|
+|
+|
+16
+|
+|
+|
+|
+16
+|
+|
+|
+|
+51
+|
+|
+Comprehensive income attributable to
+Vicor Corporation
+|
+|
+$
+|
+49,736
+|
+|
+|
+$
+|
+41,213
+|
+|
+|
+$
+|
+70,375
+|
+|
+|
+$
+|
+43,935
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+(1) The deferred tax assets associated with foreign currency translation (losses) gains and unrealized gains (losses) on available-for-sale securities are completely offset by a tax valuation allowance as of June 30, 2026 and 2025 . Therefore, there is no income tax benefit (provision) recognized for the three and six months ended June 30, 2026 and 2025 .
+See accompanying notes.
+- 3 -
+Table of Contents
+VICOR CORPORATION
+Condensed Consolidated Statements of Cash Flows
+(In thousands)
+(Unaudited)
+|
+|
+Six Months Ended
+|
+|
+|
+|
+June 30,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Operating activities:
+|
+|
+|
+|
+|
+|
+|
+Consolidated net income
+|
+|
+$
+|
+70,462
+|
+|
+|
+$
+|
+43,761
+|
+|
+Adjustments to reconcile consolidated net income to net cash provided by
+operating activities:
+|
+|
+|
+|
+|
+|
+|
+Depreciation and amortization
+|
+|
+|
+10,760
+|
+|
+|
+|
+10,379
+|
+|
+Stock-based compensation expense
+|
+|
+|
+8,032
+|
+|
+|
+|
+8,058
+|
+|
+Provision for doubtful accounts
+|
+|
+|
+—
+|
+|
+|
+|
+7
+|
+|
+Litigation payment
+|
+|
+|
+( 28,557
+|
+)
+|
+|
+|
+—
+|
+|
+Decrease in other assets
+|
+|
+|
+245
+|
+|
+|
+|
+991
+|
+|
+Deferred income taxes
+|
+|
+|
+( 11,287
+|
+)
+|
+|
+|
+( 4
+|
+)
+|
+Increase in long-term income taxes payable
+|
+|
+|
+46
+|
+|
+|
+|
+1,422
+|
+|
+Other changes in current assets and liabilities, net
+|
+|
+|
+( 19,504
+|
+)
+|
+|
+|
+20,739
+|
+|
+Net cash provided by operating activities
+|
+|
+|
+30,197
+|
+|
+|
+|
+85,353
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Investing activities:
+|
+|
+|
+|
+|
+|
+|
+Additions to property, plant and equipment and internal-use software
+|
+|
+|
+( 23,560
+|
+)
+|
+|
+|
+( 10,754
+|
+)
+|
+Net cash used for investing activities
+|
+|
+|
+( 23,560
+|
+)
+|
+|
+|
+( 10,754
+|
+)
+|
+|
+|
