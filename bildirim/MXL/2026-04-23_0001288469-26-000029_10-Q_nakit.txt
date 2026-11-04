@@ -1,0 +1,244 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1288469/000128846926000029/mxl-20260331.htm
+SEMBOL: MXL
+BASVURU_TARIHI: 2026-04-23
+BASVURU: 0001288469-26-000029
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the Three Months Ended March 31, 2026 and 2025
+| 9
+|
+Notes to Consolidated Financial Statements
+| 10
+|
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 34
+|
+Item 3. | Quantitative and Qualitative Disclosures about Market Risk
+| 43
+|
+Item 4. | Controls and Procedures
+| 43
+|
+Part II | OTHER INFORMATION
+| 44
+|
+Item 1. | Legal Proceedings
+| 44
+|
+Item 1A. | Risk Factors
+| 47
+|
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds
+| 82
+|
+Item 3. | Defaults Upon Senior Securities
+| 83
+|
+Item 4. | Mine Safety Disclosures
+| 83
+|
+Item 5. | Other Information
+| 83
+|
+Item 6. | Exhibits
+| 84
+|
+Signatures
+| 85
+|
+2
+Table of Contents
+PART I — FINANCIAL INFORMATION
+3
+Table of Contents
+ITEM 1. FINANCIAL STATEMENTS
+MAXLINEAR, INC.
+CONSOLIDATED BALANCE SHEETS
+(in thousands, except par value amounts)
+March 31,
+2026 | December 31,
+2025 |
+Assets | (unaudited) |
+Current assets: |
+Cash and cash equivalents | $ | 61,077 | $ | 72,806 |
+Short-term restricted cash | 1,426 | 1,419 |
+Accounts receivable, net | 40,855 | 46,122 |
+Inventory | 85,839 | 78,104 |
+Prepaid expenses and other current assets | 60,253 | 50,390 |
+Total current assets | 249,450 | 248,841 |
+Long-term restricted cash | 27,429 | 27,187 |
+Property and equipment, net | 44,362 | 48,873 |
+Leased right-of-use assets | 21,938 | 15,506 |
+Intangible assets, net | 46,412 | 48,892 |
+Goodwill | 318,588 | 318,588 |
+Deferred tax assets | 52,132 | 77,268 |
+Other long-term assets | 10,956 | 11,241 |
+Total assets | $ | 771,267 | $ | 796,396 |
+Liabilities and stockholders’ equity |
+Current liabilities: |
+Accounts payable | $ | 32,893 | $ | 37,916 |
+Accrued price protection liability | 27,532 | 26,493 |
+Accrued expenses and other current liabilities | 59,712 | 72,392 |
+Accrued compensation | 26,521 | 49,219 |
+Total current liabilities | 146,658 | 186,020 |
+Long-term lease liabilities | 17,987 | 12,313 |
+Long-term debt | 123,773 | 123,618 |
+Other long-term liabilities | 28,658 | 22,550 |
+Total liabilities | 317,076 | 344,501 |
+Commitments and contingencies | | |
+Stockholders’ equity: |
+Preferred stock, $ 0.0001 par value; 25,000 shares authorized, no shares issued or outstanding
+| — | — |
+Common stock, $ 0.0001 par value; 550,000 shares authorized; 89,529 shares issued and outstanding at March 31, 2026 and 86,451 shares issued and outstanding December 31, 2025
+| 9 | 9 |
+Additional paid-in capital | 999,604 | 951,262 |
+Accumulated other comprehensive income | 121 | 1,030 |
+Accumulated deficit | ( 545,543 ) | ( 500,406 ) |
+Total stockholders’ equity | 454,191 | 451,895 |
+Total liabilities and stockholders’ equity | $ | 771,267 | $ | 796,396 |
+See accompanying notes.
+4
+Table of Contents
+MAXLINEAR, INC.
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(unaudited; in thousands, except per share data)
+Three Months Ended March 31, |
+2026 | 2025 |
+Net revenue | $ | 137,188 | $ | 95,933 |
+Cost of net revenue | 58,304 | 42,102 |
+Gross profit | 78,884 | 53,831 |
+Operating expenses: |
+Research and development | 53,162 | 55,457 |
+Selling, general and administrative | 42,457 | 36,589 |
+Restructuring charges | 474 | 7,879 |
+Total operating expenses | 96,093 | 99,925 |
+Loss from operations | ( 17,209 ) | ( 46,094 ) |
+Interest income | 633 | 864 |
+Interest expense | ( 2,197 ) | ( 2,504 ) |
+Other income (expense), net | 121 | ( 1,268 ) |
+Total other income (expense), net | ( 1,443 ) | ( 2,908 ) |
+Loss before income taxes | ( 18,652 ) | ( 49,002 ) |
+Income tax provision | 26,485 | 711 |
+Net loss | $ | ( 45,137 ) | $ | ( 49,713 ) |
+Net loss per share: |
+Basic | $ | ( 0.52 ) | $ | ( 0.58 ) |
+Diluted | $ | ( 0.52 ) | $ | ( 0.58 ) |
+Shares used to compute net loss per share: |
+Basic | 87,595 | 85,271 |
+Diluted | 87,595 | 85,271 |
+See accompanying notes.
+5
+Table of Contents
+MAXLINEAR, INC.
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE LOSS
+(unaudited; in thousands)
+Three Months Ended March 31, |
+2026 | 2025 |
+Net loss | $ | ( 45,137 ) | $ | ( 49,713 ) |
+Other comprehensive income (loss), net of tax: |
+Foreign currency translation adjustments, net of tax benefit of $ 24 for the three months ended March 31, 2026, and net of tax benefit of $ 5 for the three months ended March 31, 2025
+| ( 909 ) | 857 |
+Total comprehensive loss | $ | ( 46,046 ) | $ | ( 48,856 ) |
+See accompanying notes.
+6
+Table of Contents
+MAXLINEAR, INC.
+CONSOLIDATED STATEMENT OF STOCKHOLDERS’ EQUITY
+FISCAL QUARTER ENDED MARCH 31, 2026
+(unaudited; in thousands)
+Common Stock | Additional
+Paid-In
+Capital | Accumulated
+Other
+Comprehensive
+Income (Loss) | Accumulated
+Deficit | Total
+Stockholders’
+Equity |
+Shares | Amount |
+Balance at December 31, 2025 | 86,451 | $ | 9 | $ | 951,262 | $ | 1,030 | $ | ( 500,406 ) | $ | 451,895 |
+Common stock issued pursuant to equity awards, net | 3,078 | — | 28,360 | — | — | 28,360 |
+Stock-based compensation | — | — | 19,982 | — | — | 19,982 |
+Other comprehensive loss | — | — | — | ( 909 ) | — | ( 909 ) |
+Net loss | — | — | — | — | ( 45,137 ) | ( 45,137 ) |
+Balance at March 31, 2026 | 89,529 | $ | 9 | $ | 999,604 | $ | 121 | $ | ( 545,543 ) | $ | 454,191 |
+7
+Table of Contents
+MAXLINEAR, INC.
+CONSOLIDATED STATEMENT OF STOCKHOLDERS’ EQUITY
+FISCAL QUARTER ENDED MARCH 31, 2025
+(unaudited; in thousands)
+Common Stock | Additional
+Paid-In
+Capital | Accumulated
+Other
+Comprehensive
+Income (Loss) | Accumulated
+Deficit | Total
+Stockholders’
+Equity |
+Shares | Amount |
+Balance at December 31, 2024 | 84,613 | $ | 8 | $ | 886,823 | $ | ( 6,823 ) | $ | ( 363,725 ) | $ | 516,283 |
+Common stock issued pursuant to equity awards, net | 1,761 | 1 | 2,876 | — | — | 2,877 |
+Stock-based compensation | — | — | 22,871 | — | — | 22,871 |
+Other comprehensive income | — | — | — | 857 | — | 857 |
+Net loss | — | — | — | — | ( 49,713 ) | ( 49,713 ) |
+Balance at March 31, 2025 | 86,374 | $ | 9 | $ | 912,570 | $ | ( 5,966 ) | $ | ( 413,438 ) | $ | 493,175 |
+See accompanying notes.
+8
+Table of Contents
+MAXLINEAR, INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(unaudited; in thousands)
+Three Months Ended March 31, |
+2026 | 2025 |
+Operating Activities |
+Net loss | $ | ( 45,137 ) | $ | ( 49,713 ) |
+Adjustments to reconcile net loss to cash provided by (used in) operating activities: |
+Amortization and depreciation | 10,939 | 11,149 |
+Amortization of debt issuance costs and accretion of discounts | 414 | 510 |
+Stock-based compensation | 20,027 | 22,911 |
+Deferred income taxes | 25,133 | ( 678 ) |
+Impairment of leased right-of-use assets | 233 | ( 22 ) |
+(Gain) loss on foreign currency | ( 219 ) | 1,184 |
+Excess tax deficiencies on stock-based awards | 970 | 1,575 |
+Changes in operating assets and liabilities: |
+Accounts receivable | 5,267 | ( 13,461 ) |
+Inventory | ( 7,735 ) | 4,338 |
+Prepaid expenses and other assets | ( 7,738 ) | ( 3,724 ) |
+Accounts payable, accrued expenses and other current liabilities | ( 18,960 ) | 4,189 |
+Accrued compensation | 9,521 | 8,717 |
+Accrued price protection liability | 1,039 | 4,282 |
+Lease liabilities | ( 2,737 ) | ( 2,817 ) |
+Other long-term liabilities | 111 | 160 |
+Net cash used in operating activities | ( 8,872 ) | ( 11,400 ) |
+Investing Activities |
+Purchases of property and equipment | ( 1,384 ) | ( 1,989 ) |
+Purchases of intangible assets | ( 855 ) | — |
+Proceeds under convertible notes receivable | ( 2,000 ) | — |
+Net cash used in investing activities | ( 4,239 ) | ( 1,989 ) |
+Financing Activities |
+Proceeds from funding arrangement
+| 6,000 | — |
+Net proceeds from issuance of common stock, net of costs
+| — | ( 10 ) |
+Minimum tax withholding paid on behalf of employees for restricted stock units | ( 3,722 ) | ( 2,130 ) |
+Net cash provided by (used in) financing activities | 2,278 | ( 2,140 ) |
+Effect of exchange rate changes on cash and cash equivalents | ( 647 ) | ( 9 ) |
+Decrease in cash, cash equivalents and restricted cash | ( 11,480 ) | ( 15,538 ) |
+Cash, cash equivalents and restricted cash at beginning of period | 101,412 | 119,603 |
+Cash, cash equivalents and restricted cash at end of period | $ | 89,932 | $ | 104,065 |
+Supplemental disclosures of cash flow information: |
+Cash paid for interest | $ | 1,935 | $ | 2,145 |
+Cash paid for income taxes | $ | 1,992 | $ | 1,228 |
+Supplemental disclosures of non-cash activities: |
+Issuance of shares for payment of bonuses | $ | 32,090 | $ | 5,017 |
+See accompanying notes.
+9
+Table of Contents
+| MAXLINEAR, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited) |
+1. Organization and Summary of Significant Accounting Policies
+Description of Business
+MaxLinear, Inc. was incorporated in Delaware in September 2003. MaxLinear, Inc., together with its directly and indirectly wholly-owned subsidiaries, collectively referred to as MaxLinear, or the Company, is a provider of communications systems-on-chips, or SoCs, solutions used in broadband, mobile and wireline infrastructure, data center, and industrial and multi-market applications. MaxLinear is a fabless integrated circuit design company whose products integrate all o

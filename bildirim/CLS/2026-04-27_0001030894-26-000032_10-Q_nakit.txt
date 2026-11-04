@@ -1,0 +1,256 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1030894/000103089426000032/cls-20260331.htm
+SEMBOL: CLS
+BASVURU_TARIHI: 2026-04-27
+BASVURU: 0001030894-26-000032
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the Three Months Ended March 31, 2026 and 2025
+| 5
+|
+Notes to Condensed Consolidated Financial Statemen ts
+| 6
+|
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 21
+|
+Item 3. Quantitative and Qualitative Disclosures Regarding Market Risk
+| 43
+|
+Item 4. Controls and Procedures
+| 44
+|
+Part II. Other Information
+| 45
+|
+Item 1. Legal Proceedings
+| 45
+|
+Item 1A. Risk Factors
+| 45
+|
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+| 45
+|
+Item 3. Defaults Upon Senior Securities
+| 45
+|
+Item 5. Other Information
+| 45
+|
+Item 6. Exhibits
+| 46
+|
+Signatures
+| 47
+|
+i
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements
+CELESTICA INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions of U.S. dollars)
+(unaudited)
+Note | March 31
+2026 | December 31
+2025 |
+Assets | | |
+Current assets: | | |
+Cash and cash equivalents | $ | 378.0 | $ | 595.6 |
+Accounts receivable, net | 4 | 3,167.4 | 2,638.1 |
+Inventories | 5 | 2,672.9 | 2,188.0 |
+Other current assets | 14 | 178.6 | 251.5 |
+Total current assets | 6,396.9 | 5,673.2 |
+Property, plant and equipment, net | 711.3 | 586.0 |
+Operating lease right-of-use assets
+| 6 | 149.8 | 124.1 |
+Goodwill | 333.0 | 333.1 |
+Intangible assets, net
+| 255.6 | 266.2 |
+Deferred income taxes | 182.3 | 156.4 |
+Other non-current assets
+| 231.1 | 74.1 |
+Total assets
+| $ | 8,260.0 | $ | 7,213.1 |
+Liabilities and Equity | | |
+Current liabilities: | | |
+Current portion of borrowings under credit facility and finance lease obligations | 7 | $ | 25.9 | $ | 26.0 |
+Accounts payable | 3,087.9 | 1,866.1 |
+Accrued and other current liabilities and provisions | 6 &14
+| 1,792.4 | 1,896.8 |
+Income taxes payable | 174.4 | 150.7 |
+Total current liabilities | 5,080.6 | 3,939.6 |
+Long-term portion of borrowings under credit facility and finance lease obligations | 7 | 746.5 | 750.5 |
+Pension and non-pension post-employment benefit obligations | 89.3 | 89.5 |
+Other non-current liabilities and provisions | 14 | 205.3 | 176.0 |
+Deferred income taxes | 40.1 | 41.2 |
+Total liabilities | 6,161.8 | 4,996.8 |
+Equity: | | |
+Total equity
+| 2,098.2 | 2,216.3 |
+Total liabilities and equity
+| $ | 8,260.0 | $ | 7,213.1 |
+Contingencies (note 16); subsequent event (note 7)
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+1
+CELESTICA INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions of U.S. dollars, except per share amounts)
+(unaudited)
+Three months ended |
+March 31 |
+| Note | 2026 | 2025 |
+Revenue | 3 | $ | 4,047.0 | $ | 2,648.6 |
+Cost of sales | 5 | 3,609.8 | 2,374.7 |
+Gross profit | 437.2 | 273.9 |
+Selling, general and administrative expenses | 117.4 | 112.5 |
+Research and development | 41.2 | 17.6 |
+Amortization of intangible assets | 10.9 | 11.1 |
+Restructuring and other charges (recoveries)
+| 10 | ( 4.4 ) | 3.9 |
+Earnings from operations | 272.1 | 128.8 |
+Finance costs | 16.0 | 13.7 |
+Miscellaneous expense (income)
+| 11 | ( 0.2 ) | 1.4 |
+Earnings before income taxes | 256.3 | 113.7 |
+Income tax expense (recovery) | 13 | | |
+Current | 70.6 | 27.6 |
+Deferred | ( 26.6 ) | ( 0.1 ) |
+| 44.0 | 27.5 |
+Net earnings | $ | 212.3 | $ | 86.2 |
+Earnings per share: |
+Basic | $ | 1.85 | $ | 0.74 |
+Diluted | $ | 1.83 | $ | 0.74 |
+Weighted-average shares used in computing per share amounts (in millions): | | |
+Basic | 15 | 114.9 | 115.9 |
+Diluted | 15 | 115.7 | 116.9 |
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+2
+CELESTICA INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in millions of U.S. dollars)
+(unaudited)
+Three months ended |
+March 31 |
+| Note | 2026 | 2025 |
+Net earnings | $ | 212.3 | $ | 86.2 |
+Other comprehensive income (loss), net of tax | 9 | | |
+Loss related to defined benefit pension and non-pension post-employment benefit plans
+| ( 1.1 ) | ( 3.0 ) |
+Currency translation differences for foreign operations | ( 2.2 ) | 0.7 |
+Unrealized gain (loss) on currency forward derivative hedges
+| ( 15.2 ) | 6.3 |
+Unrealized gain (loss) on interest rate swap derivative hedges
+| 2.4 | ( 2.1 ) |
+Total other comprehensive income (loss), net of tax | ( 16.1 ) | 1.9 |
+Total comprehensive income
+| $ | 196.2 | $ | 88.1 |
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+3
+CELESTICA INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY
+(in millions of U.S. dollars)
+( unaudited)
+Note | Capital stock | Treasury stock | Additional paid-in capital | Retained earnings (accumulated deficit)
+| Accumulated other comprehensive
+income (loss) (a)
+| Total
+equity |
+Balance -- January 1, 2025 | $ | 1,632.8 | $ | ( 92.9 ) | $ | 797.5 | $ | ( 423.8 ) | $ | ( 17.6 ) | $ | 1,896.0 |
+Capital transactions: | 8 |
+Issuance of capital stock | 5.1 | — | ( 5.1 ) | — | — | — |
+Repurchase of capital stock for cancellation (b)
+| ( 9.2 ) | — | ( 67.0 ) | — | — | ( 76.2 ) |
+Purchase of treasury stock for stock-based compensation (SBC) plans | — | ( 221.6 ) | — | — | — | ( 221.6 ) |
+SBC | — | 108.9 | ( 238.4 ) | — | — | ( 129.5 ) |
+Total comprehensive income: |
+Net earnings for the period
+| — | — | — | 86.2 | — | 86.2 |
+Other comprehensive income
+| — | — | — | — | 1.9 | 1.9 |
+Balance -- March 31, 2025 | $ | 1,628.7 | $ | ( 205.6 ) | $ | 487.0 | $ | ( 337.6 ) | $ | ( 15.7 ) | $ | 1,556.8 |
+Balance -- January 1, 2026 | $ | 1,619.8 | $ | ( 153.8 ) | $ | 343.3 | $ | 408.7 | $ | ( 1.7 ) | $ | 2,216.3 |
+Capital transactions: | 8 |
+Issuance of capital stock | 4.9 | — | ( 4.9 ) | — | — | — |
+Repurchase of capital stock for cancellation | ( 1.0 ) | — | ( 19.0 ) | — | — | ( 20.0 ) |
+SBC | — | 132.9 | ( 319.4 ) | ( 107.8 ) | — | ( 294.3 ) |
+Total comprehensive income: |
+Net earnings for the period
+| — | — | — | 212.3 | — | 212.3 |
+Other comprehensive loss
+| — | — | — | — | ( 16.1 ) | ( 16.1 ) |
+Balance -- March 31, 2026 | $ | 1,623.7 | $ | ( 20.9 ) | $ | — | $ | 513.2 | $ | ( 17.8 ) | $ | 2,098.2 |
+(a) Accumulated other comprehensive income (loss) is net of tax (see note 9).
+(b) Consists of $ 75.0 paid to repurchase common shares for cancellation during the first quarter of 2025 and accrued share buyback taxes (see note 8).
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+4
+CELESTICA INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions of U.S. dollars)
+(unaudited)
+Three months ended |
+March 31 |
+Cash provided by (used in): | Note | 2026 | 2025 |
+Operating activities: | | |
+Net earnings | $ | 212.3 | $ | 86.2 |
+Adjustments to reconcile net earnings to net cash flows provided by operating activities:
+|
+Depreciation and amortization | 39.6 | 37.4 |
+SBC | 8 | 30.5 | 26.0 |
+Total return swap (TRS) fair value adjustments | 8 | 17.0 | 19.1 |
+Restructuring and other recoveries
+| 10 | ( 10.0 ) | — |
+Unrealized losses on hedge derivatives
+| — | 1.3 |
+Deferred income taxes
+| ( 26.6 ) | ( 0.1 ) |
+Other | 6.5 | 6.2 |
+Changes in non-cash working capital items: |
+Accounts receivable | ( 529.3 ) | ( 66.9 ) |
+Inventories | ( 484.9 ) | ( 27.7 ) |
+Other current assets | 29.8 | 3.0 |
+Accounts payable, accrued and other current liabilities, provisions and income taxes payable
+| 1,071.4 | 45.8 |
+Net cash provided by operating activities
+| 356.3 | 130.3 |
+Investing activities: |
+Purchase of property, plant and equipment
+| ( 229.5 ) | ( 36.7 ) |
+Proceeds from sale of assets
+| 11.1 | — |
+Net cash used in investing activities
+| ( 218.4 ) | ( 36.7 ) |
+Financing activities: |
+Borrowings under revolving loans | 7 | 170.0 | 310.0 |
+Repayments under revolving loans | 7 | ( 170.0 ) | ( 160.0 ) |
+Repayments under term loans | 7 | ( 4.4 ) | ( 4.4 ) |
+Principal payments of finance leases
+| ( 3.0 ) | ( 2.6 ) |
+Repurchase of capital stock for cancellation | 8 | ( 22.6 ) | ( 77.7 ) |
+Purchase of treasury stock for SBC plans | 8 | — | ( 221.6 ) |
+Proceeds from TRS settlement
+| 14 | — | 98.6 |
+SBC cash settlement | 8 | ( 325.5 ) | ( 156.0 ) |
+Debt issuance costs paid
+| — | ( 0.2 ) |
+Net cash used in financing activities
+| ( 355.5 ) | ( 213.9 ) |
+Net decrease in cash and cash equivalents
+| ( 217.6 ) | ( 120.3 ) |
+Cash and cash equivalents, beginning of period
+| 595.6 | 423.3 |
+Cash and cash equivalents, end of period
+| $ | 378.0 | $ | 303.0 |
+Supplemental disclosure information: |
+Interest paid | $ | 18.5 | $ | 14.8 |
+Net income taxes paid
+| $ | 70.8 | $ | 5.6 |
+Non-cash investing activity: |
+Unpaid purchases of property, plant and equipment at end of period | $ | 108.1 | $ | 17.1 |
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+5
+CELESTICA INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+1. REPORTING ENTITY
+Celestica Inc. (referred to herein as Celestica, the Company, we, us, or our) is

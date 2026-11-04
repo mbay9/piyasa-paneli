@@ -1,0 +1,203 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm
+SEMBOL: PLTR
+BASVURU_TARIHI: 2026-05-05
+BASVURU: 0001321655-26-000028
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 7
+|
+Notes to Unaudited Condensed Consolidated Financial Statements
+| 8
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 20
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 31
+|
+Item 4.
+| Controls and Procedures
+| 32
+|
+PART II. OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 33
+|
+Item 1A.
+| Risk Factors
+| 33
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 84
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 84
+|
+Item 4.
+| Mine Safety Disclosures
+| 84
+|
+Item 5.
+| Other Information
+| 85
+|
+Item 6.
+| Exhibits
+| 86
+|
+2
+Table of contents
+PART I - FINANCIAL INFORMATION
+ITEM 1. FINANCIAL STATEMENTS (UNAUDITED)
+Palantir Technologies Inc.
+Condensed Consolidated Balance Sheets
+(in thousands, except per share amounts)
+(unaudited)
+As of March 31,
+2026 | As of December 31,
+2025 |
+Assets |
+Current assets: |
+Cash and cash equivalents | $ | 2,291,631 | $ | 1,423,796 |
+Marketable securities | 5,734,782 | 5,753,247 |
+Accounts receivable, net | 1,405,588 | 1,042,065 |
+Prepaid expenses and other current assets | 119,703 | 139,066 |
+Total current assets | 9,551,704 | 8,358,174 |
+Property and equipment, net | 55,726 | 51,960 |
+Operating lease right-of-use assets | 228,980 | 200,105 |
+Other assets | 362,773 | 290,153 |
+Total assets | 10,199,183 | 8,900,392 |
+Liabilities and Equity |
+Current liabilities: |
+Accounts payable, accrued liabilities, and other | 495,962 | 409,552 |
+Deferred revenue | 516,868 | 408,963 |
+Customer deposits | 370,119 | 357,066 |
+Total current liabilities | 1,382,949 | 1,175,581 |
+Deferred revenue, noncurrent | 41,128 | 46,216 |
+Customer deposits, noncurrent | 1,175 | 18 |
+Operating lease liabilities, noncurrent | 211,977 | 183,474 |
+Other noncurrent liabilities | 5,673 | 7,092 |
+Total liabilities | 1,642,902 | 1,412,381 |
+Commitments and Contingencies (Note 7) | | |
+Palantir's stockholders’ equity: |
+Common stock, $ 0.001 par value: 20,000,000 Class A shares authorized as of March 31, 2026 and December 31, 2025; 2,295,892 and 2,290,987 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively; 2,700,000 Class B shares authorized as of March 31, 2026 and December 31, 2025; 100,236 and 99,200 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively; and 1,005 Class F shares authorized, issued, and outstanding as of March 31, 2026 and December 31, 2025
+| 2,397 | 2,391 |
+Additional paid-in capital | 11,138,528 | 10,933,325 |
+Accumulated other comprehensive income, net | 601 | 13,942 |
+Accumulated deficit | ( 2,691,863 ) | ( 3,562,390 ) |
+Total Palantir's stockholders’ equity | 8,449,663 | 7,387,268 |
+Noncontrolling interests | 106,618 | 100,743 |
+Total equity | 8,556,281 | 7,488,011 |
+Total liabilities and equity | $ | 10,199,183 | $ | 8,900,392 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+3
+Table of contents
+Palantir Technologies Inc.
+Condensed Consolidated Statements of Operations
+(in thousands, except per share amounts)
+(unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Revenue | $ | 1,632,583 | $ | 883,855 |
+Cost of revenue | 215,798 | 172,970 |
+Gross profit | 1,416,785 | 710,885 |
+Operating expenses: |
+Sales and marketing | 319,220 | 236,309 |
+Research and development | 160,981 | 134,889 |
+General and administrative | 182,586 | 163,639 |
+Total operating expenses | 662,787 | 534,837 |
+Income from operations | 753,998 | 176,048 |
+Interest income | 66,394 | 50,441 |
+Other income (expense), net | 68,209 | ( 3,173 ) |
+Income before provision for income taxes | 888,601 | 223,316 |
+Provision for income taxes | 12,199 | 5,599 |
+Net income | 876,402 | 217,717 |
+Less: Net income attributable to noncontrolling interests | 5,875 | 3,686 |
+Net income attributable to common stockholders | $ | 870,527 | $ | 214,031 |
+Earnings per share attributable to common stockholders, basic | $ | 0.36 | $ | 0.09 |
+Earnings per share attributable to common stockholders, diluted | $ | 0.34 | $ | 0.08 |
+Weighted-average shares of common stock outstanding used in computing earnings per share attributable to common stockholders, basic | 2,393,869 | 2,348,679 |
+Weighted-average shares of common stock outstanding used in computing earnings per share attributable to common stockholders, diluted | 2,570,924 | 2,552,818 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+4
+Table of contents
+Palantir Technologies Inc.
+Condensed Consolidated Statements of Comprehensive Income
+(in thousands)
+(unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Net income | $ | 876,402 | $ | 217,717 |
+Other comprehensive income (loss), net of tax |
+Foreign currency translation adjustments | ( 3,327 ) | 3,853 |
+Net unrealized loss on available-for-sale securities | ( 10,014 ) | ( 1,236 ) |
+Comprehensive income | 863,061 | 220,334 |
+Less: Comprehensive income attributable to noncontrolling interests | 5,875 | 3,686 |
+Comprehensive income attributable to common stockholders | $ | 857,186 | $ | 216,648 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+5
+Table of contents
+Palantir Technologies Inc.
+Condensed Consolidated Statements of Equity
+(in thousands)
+(unaudited)
+Common Stock | Additional Paid-in Capital | Accumulated Other Comprehensive Income, Net | Accumulated Deficit | Total Palantir’s Stockholders’ Equity | Noncontrolling Interests | Total Equity |
+Shares | Amount |
+Balance as of December 31, 2025 | 2,391,192 | $ | 2,391 | $ | 10,933,325 | $ | 13,942 | $ | ( 3,562,390 ) | $ | 7,387,268 | $ | 100,743 | $ | 7,488,011 |
+Issuance of common stock from the exercise of stock options | 1,038 | 1 | 4,898 | — | — | 4,899 | — | 4,899 |
+Issuance of common stock upon release of restricted stock units (“RSUs”) and performance-based RSUs (“P-RSUs”) | 4,911 | 5 | ( 5 ) | — | — | — | — | — |
+Repurchases of common stock | ( 8 ) | — | ( 1,500 ) | — | — | ( 1,500 ) | — | ( 1,500 ) |
+Stock-based compensation | — | — | 201,810 | — | — | 201,810 | — | 201,810 |
+Other comprehensive loss | — | — | — | ( 13,341 ) | — | ( 13,341 ) | — | ( 13,341 ) |
+Net income | — | — | — | — | 870,527 | 870,527 | 5,875 | 876,402 |
+Balance as of March 31, 2026 | 2,397,133 | $ | 2,397 | $ | 11,138,528 | $ | 601 | $ | ( 2,691,863 ) | $ | 8,449,663 | $ | 106,618 | $ | 8,556,281 |
+Common Stock | Additional Paid-in Capital | Accumulated Other Comprehensive Loss, Net | Accumulated Deficit | Total Palantir’s Stockholders’ Equity | Noncontrolling Interests | Total Equity |
+Shares | Amount |
+Balance as of December 31, 2024 | 2,338,795 | $ | 2,339 | $ | 10,193,970 | $ | ( 5,611 ) | $ | ( 5,187,423 ) | $ | 5,003,275 | $ | 91,132 | $ | 5,094,407 |
+Issuance of common stock from the exercise of stock options | 13,574 | 14 | 66,570 | — | — | 66,584 | — | 66,584 |
+Issuance of common stock upon release of RSUs and P-RSUs | 7,505 | 7 | ( 7 ) | — | — | — | — | — |
+Repurchases of common stock | ( 211 ) | — | ( 17,998 ) | — | — | ( 17,998 ) | — | ( 17,998 ) |
+Stock-based compensation | — | — | 155,646 | — | — | 155,646 | — | 155,646 |
+Other comprehensive income | — | — | — | 2,617 | — | 2,617 | — | 2,617 |
+Net income | — | — | — | — | 214,031 | 214,031 | 3,686 | 217,717 |
+Balance as of March 31, 2025 | 2,359,663 | $ | 2,360 | $ | 10,398,181 | $ | ( 2,994 ) | $ | ( 4,973,392 ) | $ | 5,424,155 | $ | 94,818 | $ | 5,518,973 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+6
+Table of contents
+Palantir Technologies Inc.
+Condensed Consolidated Statements of Cash Flows
+(in thousands)
+(unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Operating activities |
+Net income | $ | 876,402 | $ | 217,717 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 6,765 | 6,622 |
+Stock-based compensation | 201,592 | 155,339 |
+Other operating activities | ( 53,959 ) | ( 3,094 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 360,973 ) | ( 134,959 ) |
+Prepaid expenses and other assets | 49,062 | 40,730 |
+Accounts payable and accrued liabilities | 80,788 | 22,395 |
+Contract liabilities | 112,386 | 18,760 |
+Other liabilities | ( 12,898 ) | ( 13,247 ) |
+Net cash provided by operating activities | 899,165 | 310,263 |
+Investing activities |
+Purchases of property and equipment | ( 7,401 ) | ( 6,184 ) |
+Purchases of marketable securities | ( 810,856 ) | ( 1,704,720 ) |
+Proceeds from sales and redemption of marketable securities | 791,533 | 350,627 |
+Other investing activities | — | ( 30,000 ) |
+Net cash used in investing activities | ( 26,724 ) | ( 1,390,277 ) |
+Financing activities |
+Proceeds from the exercise of common stock options | 4,899 | 66,584 |
+Other financing activities | ( 1,502 ) | ( 95,481 ) |
+Net cash provided by (used in) financing activities | 3,397 | ( 28,897 ) |
+Effect of

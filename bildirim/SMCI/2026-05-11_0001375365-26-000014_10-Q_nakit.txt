@@ -1,0 +1,102 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1375365/000137536526000014/smci-20260331.htm
+SEMBOL: SMCI
+BASVURU_TARIHI: 2026-05-11
+BASVURU: 0001375365-26-000014
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited)
+Nine Months Ended March 31, |
+| 2026 | 2025 |
+OPERATING ACTIVITIES: |
+Net income | $ | 1,052,236 | $ | 853,700 |
+Reconciliation of net income to net cash (used in) provided by operating activities: |
+Depreciation and amortization
+| 38,959 | 29,467 |
+Amortization of right-of-use (“ROU”) assets
+| 26,997 | 10,241 |
+Amortization of debt discount and issuance costs | 17,162 | 6,367 |
+Inventory valuation adjustment write-down | 239,255 | 159,050 |
+Stock-based compensation expense | 305,558 | 230,840 |
+Impairment loss
+| 13,747 | — |
+Share of loss (income) from equity investee | 1,293 | ( 2,053 ) |
+Unrealized foreign currency exchange (gain) loss | ( 4,428 ) | 2,742 |
+Loss on extinguishment of convertible notes | — | 30,251 |
+Deferred income taxes, net | ( 30,920 ) | ( 134,401 ) |
+Other non-cash income, net
+| ( 8,302 ) | ( 790 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable, net (including changes in related party balances of $( 240 ) and $ 5,878 during the nine months ended March 31, 2026 and 2025, respectively)
+| ( 6,209,831 ) | 94,782 |
+Inventories | ( 6,669,560 ) | 298,847 |
+Prepaid expenses and other assets (including changes in related party balances of $( 15,028 ) and $( 2,782 ) during the nine months ended March 31, 2026 and 2025, respectively)
+| ( 381,738 ) | ( 284,356 ) |
+Accounts payable (including changes in related party balances of $ 4,300 and $( 49,991 ) during the nine months ended March 31, 2026 and 2025, respectively)
+| 2,406,930 | ( 811,690 ) |
+Accrued liabilities (including changes in related party balances of $ 286 and $ 571 during the nine months ended March 31, 2026 and 2025, respectively)
+| 232,916 | 52,714 |
+Income taxes payable | ( 11,576 ) | 5,365 |
+Deferred revenue | 1,404,262 | 249,421 |
+Other long-term liabilities (including changes in related party balances of $( 114 ) and $ 729 during the nine months ended March 31, 2026 and 2025, respectively)
+| 20,193 | 5,414 |
+Net cash (used in) provided by operating activities | ( 7,556,847 ) | 795,911 |
+INVESTING ACTIVITIES: |
+Purchases of property, plant, and equipment (including payments to related parties of $ 9,366 and $ 10,508 during the nine months ended March 31, 2026 and 2025, respectively)
+| ( 133,769 ) | ( 104,536 ) |
+Investment in equity securities
+| ( 42,000 ) | — |
+Net cash used in investing activities | ( 175,769 ) | ( 104,536 ) |
+FINANCING ACTIVITIES: |
+Proceeds from lines of credit and term loans | 4,235,265 | 1,357,991 |
+Repayment of lines of credit and term loans | ( 225,068 ) | ( 1,731,366 ) |
+Payment of debt issuance costs | ( 23,483 ) | — |
+Proceeds from exercise of stock options | 18,347 | 14,452 |
+Payment for withholding taxes related to settlement of equity awards | ( 102,391 ) | ( 118,960 ) |
+Debt issuance costs in connection with amended 2029 Convertibles Notes | — | ( 31,217 ) |
+Proceeds from issuance of 2028 Convertible Notes, net of issuance costs of $ 16,304
+| — | 683,696 |
+Proceeds related to Receivables Purchase Agreement, net | 4,191 | — |
+Other | ( 26 ) | 22 |
+Net cash provided by financing activities | 3,906,835 | 174,618 |
+SMCI | Q3 2026 Form 10-Q | 6
+Table of Contents
+Nine Months Ended March 31, |
+| 2026 | 2025 |
+Effect of exchange rate fluctuations on cash | ( 6,554 ) | 826 |
+Net (decrease) increase in cash, cash equivalents and restricted cash | ( 3,832,335 ) | 866,819 |
+Cash, cash equivalents and restricted cash at the beginning of the period | 5,172,301 | 1,670,273 |
+Cash, cash equivalents and restricted cash at the end of the period | $ | 1,339,966 | $ | 2,537,092 |
+Supplemental disclosure of cash flow information: |
+Cash paid for interest | $ | 81,293 | $ | 24,046 |
+Cash paid for taxes, net of refunds | $ | 270,394 | $ | 270,392 |
+Non-cash investing and financing activities: |
+Unpaid property, plant and equipment purchases (including due to related parties of $ 2,591 and $ 7,111 as of March 31, 2026 and 2025, respectively)
+| $ | 16,778 | $ | 18,283 |
+ROU assets obtained in exchange for operating lease commitments
+| $ | 94,907 | $ | 128,617 |
+Transfer of inventory to property, plant and equipment
+| $ | 7,304 | $ | 4,889 |
+See accompanying notes to condensed consolidated financial statements.
+SMCI | Q3 2026 Form 10-Q | 7
+Table of Contents
+SUPER MICRO COMPUTER, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Organization and Summary of Significant Accounting Policies
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States (“U.S. GAAP”) and applicable rules and regulations of the Securities and Exchange Commission regarding interim financial reporting. Certain information and note disclosures normally included in the financial statements prepared in accordance with U.S. GAAP have been condensed or omitted pursuant to such rules and regulations. As such, the information included in this Quarterly Report on Form 10-Q should be read in conjunction with the consolidated financial statements and accompanying notes included in the Annual Report on Form 10-K for the fiscal year ended June 30, 2025, of Super Micro Computer, Inc., a Delaware corporation, and its consolidated entities (collectively, the “Company”). The condensed consolidated balance sheet as of June 30, 2025 included herein was derived from the audited financial statements as of that date but does not include all disclosures including notes required by U.S. GAAP.
+The unaudited condensed consolidated financial statements included herein reflect all adjustments, including normal recurring adjustments, which are, in the opinion of management, necessary for a fair presentation of the consolidated financial condition, results of operations, and cash flows for the periods presented. All intercompany balances and transactions have been eliminated. Interim results are not necessarily indicative of the results for the full year ending June 30, 2026.
+Significant Accounting Policies
+Revenue Recognition
+We generate revenues from the sale of server and storage systems, subsystems, accessories and services.
+Product sales . We recognize revenue from sales of products as control is transferred to customers, which generally happens at the point of shipment or upon delivery, unless customer acceptance is required. Determining the point in time that control transfers to the customer requires judgment. Products sold by us are shipped from our facilities or drop shipped from our vendors. We may use distributors or channel partners to sell products to end customers. Revenue from distributors is recognized when the distributor obtains control of the product, which generally happens at the point of shipment or upon delivery.
+We apply judgment in determining the transaction price as our contracts may include forms of variable consideration, including customer rebates, returns, and cash discounts for prompt payment. Variable consideration is estimated using either the expected value or most likely amount method, depending on which method better predicts the amount of consideration to which we expect to be entitled. We include estimated variable consideration in the transaction price only to the extent it is probable that a significant reversal of cumulative revenue recognized will not occur when the uncertainty associated with the variable consideration is resolved. Estimates of variable consideration are reassessed each reporting period and recorded as an adjustment to revenue, as applicable.
+Services sales . Our sale of services mainly consists of extended warranty and on-site services as well as system rack installation and integration services. Revenue related to extended warranty commences upon the expiration of the standard warranty period and is recognized ratably over the contractual period as we stand ready to perform any required warranty service. Revenue related to on-site services commences upon recognition of the product sale and is recognized ratably over the contractual period as the on-site services are made available to the customer. These service contracts are typically one to five years in length. Revenue related to system rack installation and integration services is recognized when we perform the services and the customer receives and consumes the benefits.
+SMCI | Q3 2026 Form 10-Q | 8
+Table of Contents
+SUPER MICRO COMPUTER, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+(Unaudited)
+Contracts with multiple promised goods and services. Certain of our contracts contain multiple promised goods and services. We assess whether each promised good or service is distinct for the purpose of identifying the performance obligations in the contract. This assessment requires management to make judgments about the individual promised goods or services and whether such goods or services are separable from the other aspects of the c

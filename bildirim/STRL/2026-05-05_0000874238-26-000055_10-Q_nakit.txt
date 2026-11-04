@@ -1,0 +1,211 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/874238/000087423826000055/strl-20260331.htm
+SEMBOL: STRL
+BASVURU_TARIHI: 2026-05-05
+BASVURU: 0000874238-26-000055
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 5
+|
+Statements of Changes in Stockholders’ Equity
+| 6
+|
+Notes to the Condensed Consolidated Financial Statements
+| 7
+|
+Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 21
+|
+| |
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+| 26
+|
+| |
+Item 4. Controls and Procedures
+| 27
+|
+| |
+PART II—OTHER INFORMATION
+|
+| |
+Item 1. Legal Proceedings
+| 28
+|
+| |
+Item 1A. Risk Factors
+| 28
+|
+| |
+Item 2. Unregistered Sales of Equity Securities and Use of Proceeds
+| 28
+|
+| |
+Item 5. Other Information
+| 28
+|
+Item 6. Exhibits
+| 29
+|
+| |
+Signatures
+| 30
+|
+2
+PART I—FINANCIAL INFORMATION
+Item 1. Condensed Consolidated Financial Statements
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(In thousands, except per share data)
+(Unaudited)
+| Three Months Ended March 31, |
+| 2026 | 2025 |
+Revenues | $ | 825,675 | $ | 430,949 |
+Cost of revenues | ( 631,379 ) | ( 336,109 ) |
+Gross profit | 194,296 | 94,840 |
+General and administrative expense | ( 47,850 ) | ( 34,631 ) |
+Intangible asset amortization | ( 7,093 ) | ( 4,503 ) |
+Acquisition related costs | ( 1,407 ) | ( 179 ) |
+Earn-out expense | ( 2,488 ) | ( 1,343 ) |
+Other operating income, net | 2,356 | 1,892 |
+Operating income | 137,814 | 56,076 |
+Interest income | 3,638 | 6,827 |
+Interest expense | ( 4,014 ) | ( 5,232 ) |
+Income before income taxes | 137,438 | 57,671 |
+Income tax expense | ( 33,673 ) | ( 15,080 ) |
+Net income, including noncontrolling interests | 103,765 | 42,591 |
+Less: Net income attributable to noncontrolling interests | ( 7,796 ) | ( 3,114 ) |
+Net income attributable to Sterling common stockholders | $ | 95,969 | $ | 39,477 |
+Net income per share attributable to Sterling common stockholders: |
+Basic | $ | 3.13 | $ | 1.29 |
+Diluted | $ | 3.09 | $ | 1.28 |
+Weighted average common shares outstanding: |
+Basic | 30,652 | 30,547 |
+Diluted | 31,038 | 30,881 |
+The accompanying Notes are an integral part of these Condensed Consolidated Financial Statements.
+3
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In thousands, except per share data)
+(Unaudited)
+March 31, | December 31, |
+| 2026 | 2025 |
+Assets |
+Current assets: |
+Cash and cash equivalents ($ 105,397 and $ 76,154 related to variable interest entities (“VIEs”))
+| $ | 511,858 | $ | 390,721 |
+Accounts receivable ($ 15,049 and $ 29,196 related to VIEs)
+| 513,903 | 501,163 |
+Contract assets ($ 0 and $ 5,057 related to VIEs)
+| 131,724 | 101,154 |
+Receivables from and equity in construction joint ventures | 7,229 | 6,179 |
+Other current assets | 29,977 | 35,245 |
+Total current assets | 1,194,691 | 1,034,462 |
+Property and equipment, net | 284,303 | 278,269 |
+Investment in unconsolidated subsidiary | 100,482 | 105,813 |
+Operating lease right-of-use assets, net | 53,941 | 58,167 |
+Goodwill | 584,821 | 585,221 |
+Other intangibles, net | 548,009 | 554,702 |
+Other non-current assets, net | 17,425 | 17,197 |
+Total assets | $ | 2,783,672 | $ | 2,633,831 |
+Liabilities and Stockholders’ Equity |
+Current liabilities: |
+Accounts payable ($ 14,855 and $ 22,104 related to VIEs)
+| $ | 234,475 | $ | 226,810 |
+Contract liabilities ($ 90,513 and $ 89,630 related to VIEs)
+| 695,617 | 652,357 |
+Current maturities of long-term debt | 15,138 | 15,146 |
+Current portion of long-term lease obligations | 16,200 | 18,679 |
+Accrued compensation | 51,218 | 62,657 |
+Other current liabilities | 71,102 | 46,805 |
+Total current liabilities | 1,083,750 | 1,022,454 |
+Long-term debt | 272,321 | 275,903 |
+Long-term lease obligations | 38,527 | 40,186 |
+Deferred tax liability, net | 125,055 | 123,145 |
+Other long-term liabilities | 68,750 | 65,708 |
+Total liabilities | 1,588,403 | 1,527,396 |
+Commitments and contingencies (Note 11)
+| | |
+Stockholders’ equity: |
+Common stock, par value $ 0.01 per share; 58,000 shares authorized, 31,455 and 31,455 shares issued and 30,681 and 30,682 shares outstanding
+| 315 | 315 |
+Additional paid in capital | 367,469 | 366,101 |
+Treasury stock, at cost: 774 and 773 shares
+| ( 146,846 ) | ( 130,547 ) |
+Retained earnings | 968,617 | 872,648 |
+Total Sterling stockholders’ equity | 1,189,555 | 1,108,517 |
+Noncontrolling interests | 5,714 | ( 2,082 ) |
+Total stockholders’ equity | 1,195,269 | 1,106,435 |
+Total liabilities and stockholders’ equity | $ | 2,783,672 | $ | 2,633,831 |
+The accompanying Notes are an integral part of these Condensed Consolidated Financial Statements.
+4
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 103,765 | $ | 42,591 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 23,034 | 16,991 |
+Amortization of debt issuance costs and non-cash interest | 169 | 256 |
+Gain on disposal of property and equipment | ( 739 ) | ( 782 ) |
+Distribution of earnings from unconsolidated subsidiary | 6,999 | — |
+Equity in earnings from unconsolidated subsidiary | ( 1,668 ) | ( 1,892 ) |
+Deferred taxes | 1,909 | 650 |
+Stock-based compensation | 7,497 | 6,683 |
+Changes in operating assets and liabilities (Note 15)
+| 24,602 | 20,386 |
+Net cash provided by operating activities | 165,568 | 84,883 |
+Cash flows from investing activities: |
+Acquisitions, net of cash acquired | — | ( 37,860 ) |
+Capital expenditures | ( 19,629 ) | ( 17,924 ) |
+Proceeds from sale of property and equipment | 1,945 | 1,573 |
+Net cash used in investing activities | ( 17,684 ) | ( 54,211 ) |
+Cash flows from financing activities: |
+Repayments of debt | ( 3,793 ) | ( 6,606 ) |
+Repurchase of common stock | ( 12,275 ) | ( 43,846 ) |
+Withholding taxes paid on net share settlement of equity awards | ( 10,679 ) | ( 5,768 ) |
+Net cash used in financing activities | ( 26,747 ) | ( 56,220 ) |
+Net change in cash, cash equivalents, and restricted cash | 121,137 | ( 25,548 ) |
+Cash, cash equivalents and restricted cash at beginning of period | 390,721 | 664,195 |
+Cash, cash equivalents and restricted cash at end of period | 511,858 | 638,647 |
+Less: restricted cash | — | — |
+Cash and cash equivalents at end of period | $ | 511,858 | $ | 638,647 |
+Non-cash items: |
+Accrued capital expenditures | $ | 3,551 | $ | 1,519 |
+The accompanying Notes are an integral part of these Condensed Consolidated Financial Statements.
+5
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS’ EQUITY
+(In thousands)
+(Unaudited)
+Three Months Ended March 31, 2026 |
+Common Stock | Additional Paid in Capital | Treasury Stock | Retained Earnings | Total Sterling Stockholders’ Equity | Noncontrolling Interests | Total Stockholders’ Equity |
+Shares | Amount | Shares | Amount |
+Balance at December 31, 2025 | 30,682 | $ | 315 | $ | 366,101 | 773 | $ | ( 130,547 ) | $ | 872,648 | $ | 1,108,517 | $ | ( 2,082 ) | $ | 1,106,435 |
+Net income | — | — | — | — | — | 95,969 | 95,969 | 7,796 | 103,765 |
+Stock-based compensation | — | — | 8,023 | — | — | — | 8,023 | — | 8,023 |
+Repurchase of common stock | ( 40 ) | — | — | 40 | ( 12,275 ) | — | ( 12,275 ) | — | ( 12,275 ) |
+Issuance of stock | 63 | — | ( 6,655 ) | ( 63 ) | 6,655 | — | — | — | — |
+Shares withheld for taxes | ( 24 ) | — | — | 24 | ( 10,679 ) | — | ( 10,679 ) | — | ( 10,679 ) |
+Balance at March 31, 2026 | 30,681 | $ | 315 | $ | 367,469 | 774 | $ | ( 146,846 ) | $ | 968,617 | $ | 1,189,555 | $ | 5,714 | $ | 1,195,269 |
+Three Months Ended March 31, 2025 |
+Common Stock | Additional Paid in Capital | Treasury Stock | Retained Earnings | Total Sterling Stockholders’ Equity | Noncontrolling Interests | Total Stockholders’ Equity |
+Shares | Amount | Shares | Amount |
+Balance at December 31, 2024 | 30,669 | $ | 312 | $ | 288,395 | 501 | $ | ( 63,121 ) | $ | 582,495 | $ | 808,081 | $ | 18,397 | $ | 826,478 |
+Net income | — | — | — | — | — | 39,477 | 39,477 | 3,114 | 42,591 |
+Stock-based compensation | — | — | 6,976 | — | — | — | 6,976 | — | 6,976 |
+Repurchase of common stock | ( 340 ) | — | — | 340 | ( 43,846 ) | — | ( 43,846 ) | — | ( 43,846 ) |
+Issuance of stock | 129 | — | ( 12,321 ) | ( 129 ) | 12,817 | — | 496 | — | 496 |
+Shares withheld for taxes | ( 47 ) | — | — | 47 | ( 5,768 ) | — | ( 5,768 ) | — | ( 5,768 ) |
+Balance at March 31, 2025 | 30,411 | $ | 312 | $ | 283,050 | 759 | $ | ( 99,918 ) | $ | 621,972 | $ | 805,416 | $ | 21,511 | $ | 826,927 |
+The accompanying Notes are an integral part of these Condensed Consolidated Financial Statements.
+6
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+March 31, 2026
+(Unaudited)
+1. | NATURE OF OPERATIONS |
+Business Summary
+Sterling Infrastructure, Inc. (“Sterling,” “the Company,” “we,” “our” or “us”), a Delaware corporation, operates through a variety of subsidiaries within three segments specializing in E-Infrastructure, Tr

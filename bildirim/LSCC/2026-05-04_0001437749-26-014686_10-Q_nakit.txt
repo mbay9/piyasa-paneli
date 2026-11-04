@@ -1,0 +1,1036 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/855658/000143774926014686/lscc20260404_10q.htm
+SEMBOL: LSCC
+BASVURU_TARIHI: 2026-05-04
+BASVURU: 0001437749-26-014686
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+|
+April 4,
+|
+|
+|
+March 29,
+|
+|
+(In thousands)
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+$ |
+21,817 |
+|
+|
+$ |
+5,022 |
+|
+Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Depreciation and amortization
+|
+|
+|
+9,357 |
+|
+|
+|
+8,880 |
+|
+Stock-based compensation expense
+|
+|
+|
+28,072 |
+|
+|
+|
+20,373 |
+|
+Change in deferred income tax provision
+|
+|
+|
+3,508 |
+|
+|
+|
+822 |
+|
+Amortization of right-of-use assets
+|
+|
+|
+1,867 |
+|
+|
+|
+1,909 |
+|
+Other non-cash adjustments
+|
+|
+|
+89 |
+|
+|
+|
+103 |
+|
+Changes in assets and liabilities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable, net
+|
+|
+|
+( 15,829 |
+) |
+|
+|
+( 3,485 |
+) |
+Inventories, net
+|
+|
+|
+971 |
+|
+|
+|
+8,520 |
+|
+Prepaid expenses and other assets
+|
+|
+|
+( 949 |
+) |
+|
+|
+13,196 |
+|
+Accounts payable
+|
+|
+|
+2,246 |
+|
+|
+|
+( 4,494 |
+) |
+Accrued liabilities
+|
+|
+|
+5,577 |
+|
+|
+|
+( 15,085 |
+) |
+Accrued payroll obligations
+|
+|
+|
+( 4,094 |
+) |
+|
+|
+( 1,801 |
+) |
+Operating lease liabilities, current and long-term portions
+|
+|
+|
+( 2,377 |
+) |
+|
+|
+( 2,068 |
+) |
+Net cash provided by (used in) operating activities
+|
+|
+|
+50,255 |
+|
+|
+|
+31,892 |
+|
+Cash flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Capital expenditures
+|
+|
+|
+( 10,533 |
+) |
+|
+|
+( 8,616 |
+) |
+Cash paid for software and intellectual property licenses
+|
+|
+|
+( 4,891 |
+) |
+|
+|
+( 3,462 |
+) |
+Net cash provided by (used in) investing activities
+|
+|
+|
+( 15,424 |
+) |
+|
+|
+( 12,078 |
+) |
+Cash flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Restricted stock unit tax withholdings
+|
+|
+|
+( 13,776 |
+) |
+|
+|
+( 6,011 |
+) |
+Proceeds from issuance of common stock
+|
+|
+|
+— |
+|
+|
+|
+2,232 |
+|
+Repurchase of common stock
+|
+|
+|
+( 15,000 |
+) |
+|
+|
+( 25,000 |
+) |
+Net cash provided by (used in) financing activities
+|
+|
+|
+( 28,776 |
+) |
+|
+|
+( 28,779 |
+) |
+Effect of exchange rate change on cash
+|
+|
+|
+15 |
+|
+|
+|
+238 |
+|
+Net increase (decrease) in cash and cash equivalents
+|
+|
+|
+6,070 |
+|
+|
+|
+( 8,727 |
+) |
+Beginning cash and cash equivalents
+|
+|
+|
+133,886 |
+|
+|
+|
+136,291 |
+|
+Ending cash and cash equivalents
+|
+|
+$ |
+139,956 |
+|
+|
+$ |
+127,564 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental disclosure of cash flow information and non-cash investing and financing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Income taxes paid, net of refunds
+|
+|
+$ |
+1,719 |
+|
+|
+$ |
+1,440 |
+|
+Operating lease payments
+|
+|
+$ |
+2,621 |
+|
+|
+$ |
+2,403 |
+|
+Accrued purchases of plant and equipment
+|
+|
+$ |
+1,508 |
+|
+|
+$ |
+1,322 |
+|
+Operating lease right-of-use assets obtained in exchange for lease obligations
+|
+|
+$ |
+170 |
+|
+|
+$ |
+8,611 |
+|
+See Accompanying Notes to Unaudited Consolidated Financial Statements.
+- 7 -
+Table of Contents
+LATTICE SEMICONDUCTOR CORPORATION
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+(unaudited)
+The following summarizes the changes in total equity for the three-month period ended April 4, 2026:
+|
+|
+Common Stock |
+|
+|
+Additional |
+|
+|
+|
+|
+|
+Accumulated Other |
+|
+|
+|
+|
+|
+|
+|
+($.01 par value)
+|
+|
+|
+Paid-in
+|
+|
+|
+Retained
+|
+|
+|
+Comprehensive
+|
+|
+|
+|
+|
+|
+(In thousands, except par value data)
+|
+|
+Shares
+|
+|
+|
+Amount
+|
+|
+|
+Capital
+|
+|
+|
+Earnings
+|
+|
+|
+Loss
+|
+|
+|
+Total
+|
+|
+Balances, January 3, 2026
+|
+|
+|
+136,771 |
+|
+|
+$ |
+1,368 |
+|
+|
+$ |
+503,647 |
+|
+|
+$ |
+212,182 |
+|
+|
+$ |
+( 3,143 |
+) |
+|
+$ |
+714,054 |
+|
+Components of comprehensive income, net of tax:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income for the three months ended April 4, 2026
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+21,817 |
+|
+|
+|
+— |
+|
+|
+|
+21,817 |
+|
+Other comprehensive income (loss)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+( 777 |
+) |
+|
+|
+( 777 |
+) |
+Total comprehensive income
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+21,040 |
+|
+Employee equity incentive award stock issuance, net of tax withholding
+|
+|
+|
+223 |
+|
+|
+|
+2 |
+|
+|
+|
+( 13,778 |
+) |
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+( 13,776 |
+) |
+Stock-based compensation expense
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+28,072 |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+28,072 |
+|
+Prior year incentive compensation settled in equity
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+5,769 |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+5,769 |
+|
+Repurchase of common stock
+|
+|
+|
+( 166 |
+) |
+|
+|
+( 2 |
+) |
+|
+|
+( 14,998 |
+) |
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+( 15,000 |
+) |
+Balances, April 4, 2026
+|
+|
+|
+136,828 |
+|
+|
+$ |
+1,368 |
+|
+|
+$ |
+508,712 |
+|
+|
+$ |
+233,999 |
+|
+|
+$ |
+( 3,920 |
+) |
+|
+$ |
+740,159 |
+|
+The following summarizes the changes in total equity for the three-month period ended March 29, 2025:
+|
+|
+Common Stock |
+|
+|
+Additional |
+|
+|
+|
+|
+|
+Accumulated Other |
+|
+|
+|
+|
+|
+|
+|
+($.01 par value)
+|
+|
+|
+Paid-in
+|
+|
+|
+Retained
+|
+|
+|
+Comprehensive
+|
+|
+|
+|
+|
+|
+(In thousands, except par value data)
+|
+|
+Shares
+|
+|
+|
+Amount
+|
+|
+|
+Capital
+|
+|
+|
+Earnings
+|
+|
+|
+Loss
+|
+|
+|
+Total
+|
+|
+Balances, December 28, 2024
+|
+|
+|
+137,704 |
+|
+|
+$ |
+1,377 |
+|
+|
+$ |
+504,299 |
+|
+|
+$ |
+209,098 |
+|
+|
+$ |
+( 3,842 |
+) |
+|
+$ |
+710,932 |
+|
+Components of comprehensive income, net of tax:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income for the three months ended March 29, 2025
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+5,022 |
+|
+|
+|
+— |
+|
+|
+|
+5,022 |
+|
+Other comprehensive income (loss)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+363 |
+|
+|
+|
+363 |
+|
+Total comprehensive income
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+5,385 |
+|
+Employee equity incentive award stock issuance, net of tax withholding
+|
+|
+|
+194 |
+|
+|
+|
+2 |
+|
+|
+|
+( 3,781 |
+) |
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+( 3,779 |
+) |
+Stock-based compensation expense
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+20,373 |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+20,373 |
+|
+Repurchase of common stock
+|
+|
+|
+( 394 |
+) |
+|
+|
+( 4 |
+) |
+|
+|
+( 24,996 |
+) |
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+( 25,000 |
+) |
+Balances, March 29, 2025
+|
+|
+|
+137,504 |
+|
+|
+$ |
+1,375 |
+|
+|
+$ |
+495,895 |
+|
+|
+$ |
+214,120 |
+|
+|
+$ |
+( 3,479 |
+) |
+|
+$ |
+707,911 |
+|
+See Accompanying Notes to Unaudited Consolidated Financial Statements.
+- 8 -
+Table of Contents
+LATTICE SEMICONDUCTOR CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+Note 1 - Basis of Presentation
+Lattice Semiconductor Corporation and its subsidiaries (“Lattice,” the “Company,” “we,” “us,” or “our”) develop technologies that we monetize through differentiated programmable logic semiconductor products, silicon-enabling products, system solutions, design services, and technology licenses.
+Basis of Presentation and Use of Estimates
+The accompanying Consolidated Financial Statements are unaudited and have been prepared in accordance with U.S. Generally Accepted Accounting Principles ("U.S. GAAP") and pursuant to the rules and regulations of the U.S. Securities and Exchange Commission ("SEC"). In our opinion, they include all adjustments, consisting only of normal recurring adjustments, necessary for the fair presentation of results for the interim periods. Certain information and footnote disclosures normally included in financial statements prepared in accordance with U.S. GAAP have been condensed or omitted as permitted by the SEC's rules and regulations for interim reporting. These Consolidated Financial Statements should be read in conjunction with our audited financial statements and notes thereto included in our Annual Report on Form 10 -K for the year ended January 3, 2026 (" 2025 10 -K").
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and judgments affecting the amounts reported in our consolidated condensed financial statements and the accompanying notes. We base our estimates and judgments on historical experience, knowledge of current conditions, and our beliefs of what could occur in the future considering available information. While we believe that our estimates, assumptions, and judgments are reasonable, they are based on information available when made, and because of the uncertainty inherent in these matters, the actual results that we experience may differ materially from these estimates under different assumptions or conditions. We evaluate our estimates and judgments on an ongoing basis.
+We describe our accounting methods and practices in more detail in our 2025 10 -K. Other than as described below, there have been no changes to the significant accounting policies, procedures, or general information described in our 2025 10 -K that have had a material impact on our consolidated condensed financial statements and the accompanying notes. Certain prior year balances have been reclassified to conform to the current year’s presentation.
+During 2026, we initiated foreign currency hedging activities and, as a result, include the below additional accounting policies related to fair value and financial instruments:
+Fair Value Accounting Policy
+We apply the provisions of ASC 820, Fair Value Measurement (ASC 820 ) , to our assets and liabilities that we are required to measure at fair value pursuant to other accounting standards, including our derivative financial instruments. When determining fair value, we consider the principal or most advantageous

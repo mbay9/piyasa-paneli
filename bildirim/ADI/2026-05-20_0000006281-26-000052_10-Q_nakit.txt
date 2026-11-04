@@ -1,0 +1,129 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/6281/000000628126000052/adi-20260502.htm
+SEMBOL: ADI
+BASVURU_TARIHI: 2026-05-20
+BASVURU: 0000006281-26-000052
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited)
+(in thousands)
+| Six Months Ended |
+| May 2, 2026 | May 3, 2025 |
+Cash flows from operating activities: |
+Net income | $ | 2,007,176 | $ | 961,086 |
+Adjustments to reconcile net income to net cash provided by operations: |
+Depreciation | 210,843 | 198,781 |
+Amortization of intangibles | 770,593 | 817,429 |
+Stock-based compensation expense | 167,396 | 150,405 |
+Deferred income taxes | ( 120,930 ) | ( 149,370 ) |
+Other | 4,727 | 4,203 |
+Changes in operating assets and liabilities | ( 799,249 ) | ( 36,247 ) |
+Total adjustments | 233,380 | 985,201 |
+Net cash provided by operating activities | 2,240,556 | 1,946,287 |
+Cash flows from investing activities: |
+Maturities of short-term available-for-sale investments | 147,817 | 372,778 |
+Additions to property, plant and equipment, net | ( 247,015 ) | ( 239,246 ) |
+Proceeds from sale of property, plant and equipment, net
+| — | 58,892 |
+Payments for acquisitions, net of cash acquired | ( 35,875 ) | ( 45,652 ) |
+Other | ( 23,882 ) | ( 12,880 ) |
+Net cash (used for) provided by investing activities | ( 158,955 ) | 133,892 |
+Cash flows from financing activities: |
+Debt repayments | — | ( 399,998 ) |
+Proceeds from commercial paper notes | 7,154,789 | 4,316,340 |
+Payments of commercial paper notes | ( 7,051,230 ) | ( 4,315,358 ) |
+Repurchase of common stock | ( 1,289,401 ) | ( 409,014 ) |
+Dividend payments to shareholders | ( 1,020,719 ) | ( 947,360 ) |
+Proceeds from employee stock plans | 59,487 | 61,562 |
+Other | 2,983 | ( 1,458 ) |
+Net cash used for financing activities | ( 2,144,091 ) | ( 1,695,286 ) |
+Net (decrease) increase in cash and cash equivalents | ( 62,490 ) | 384,893 |
+Cash and cash equivalents at beginning of period | 2,499,406 | 1,991,342 |
+Cash and cash equivalents at end of period | $ | 2,436,916 | $ | 2,376,235 |
+See accompanying notes.
+6
+ANALOG DEVICES, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+FOR THE THREE AND SIX MONTHS ENDED MAY 2, 2026 (UNAUDITED)
+(all tabular amounts in thousands except per share amounts and percentages)
+Note 1 – Basis of Presentation
+In the opinion of management, the information furnished in the accompanying condensed consolidated financial statements reflects all normal recurring adjustments that are necessary to fairly state the results for these interim periods and should be read in conjunction with Analog Devices, Inc.’s (the Company) Annual Report on Form 10-K for the fiscal year ended November 1, 2025 (fiscal 2025) and related notes. The results of operations for the interim periods shown in this report are not necessarily indicative of the results that may be expected for the fiscal year ending October 31, 2026 (fiscal 2026) or any future period.
+The Company has a 52 - 53 week fiscal year that ends on the Saturday closest to the last day in October. Certain prior-year amounts have been reclassified to conform to the fiscal 2026 presentation.
+Note 2 – Shareholders’ Equity
+As of May 2, 2026, the Company’s Board of Directors had authorized the repurchase of an aggregate of $ 26.7 billion of its common stock under its common stock repurchase program and $ 8.5 billion remained available for repurchases under the program.
+Note 3 – Accumulated Other Comprehensive (Loss) Income
+The following table provides the changes in accumulated other comprehensive (loss) income (AOCI) by component and the related tax effects during the first six months of fiscal 2026.
+Foreign currency translation adjustment | Unrealized holding gains/losses on derivatives
+| Pension plans | Total |
+November 1, 2025 | $ | ( 71,700 ) | $ | ( 69,777 ) | $ | ( 13,105 ) | $ | ( 154,582 ) |
+Other comprehensive income before reclassifications | 1,324 | ( 6,694 ) | — | ( 5,370 ) |
+Amounts reclassified out of other comprehensive income | — | 8,517 | 395 | 8,912 |
+Tax effects | — | ( 1,203 ) | — | ( 1,203 ) |
+Other comprehensive income | 1,324 | 620 | 395 | 2,339 |
+May 2, 2026 | $ | ( 70,376 ) | $ | ( 69,157 ) | $ | ( 12,710 ) | $ | ( 152,243 ) |
+The amounts reclassified out of AOCI into the Condensed Consolidated Statements of Income and the Condensed Consolidated Statements of Shareholders’ Equity with presentation location during each period were as follows:
+Three Months Ended | Six Months Ended |
+Comprehensive (Loss) Income Component | May 2, 2026 | May 3, 2025 | May 2, 2026 | May 3, 2025 | Location |
+Unrealized holding gains/losses on derivatives:
+|
+Currency forwards | $ | ( 552 ) | $ | 446 | $ | 72 | $ | ( 1,133 ) | Cost of sales |
+( 42 ) | 118 | 676 | ( 729 ) | Research and development |
+( 513 ) | 36 | 307 | ( 2,048 ) | Selling, marketing, general and administrative |
+Interest rate derivatives | 3,731 | 3,731 | 7,462 | 7,462 | Interest expense |
+2,624 | 4,331 | 8,517 | 3,552 | Total before tax |
+( 667 ) | ( 850 ) | ( 1,690 ) | ( 1,008 ) | Tax |
+Total amounts reclassified out of AOCI, net of tax | $ | 1,957 | $ | 3,481 | $ | 6,827 | $ | 2,544 |
+7
+Note 4 – Earnings Per Share
+The following table sets forth the computation of basic and diluted earnings per share:
+| Three Months Ended | Six Months Ended |
+| May 2, 2026 | May 3, 2025 | May 2, 2026 | May 3, 2025 |
+Net income | $ | 1,176,350 | $ | 569,770 | $ | 2,007,176 | $ | 961,086 |
+Basic shares: |
+Weighted-average shares outstanding | 487,605 | 496,173 | 488,239 | 496,145 |
+Earnings per common share basic: | $ | 2.41 | $ | 1.15 | $ | 4.11 | $ | 1.94 |
+Diluted shares: |
+Weighted-average shares outstanding | 487,605 | 496,173 | 488,239 | 496,145 |
+Assumed exercise of common stock equivalents | 2,853 | 2,028 | 2,818 | 2,289 |
+Weighted-average common and common equivalent shares | 490,458 | 498,201 | 491,057 | 498,434 |
+Earnings per common share diluted: | $ | 2.40 | $ | 1.14 | $ | 4.09 | $ | 1.93 |
+Anti-dilutive shares related to: |
+Outstanding stock-based awards | 21 | 52 | 63 | 121 |
+Note 5 – Special Charges, Net
+Liabilities related to special charges, net are included in Accrued liabilities in the Condensed Consolidated Balance Sheets. The activity is detailed below:
+Accrued Special Charges | Global Repositioning Actions |
+Balance at November 1, 2025 | $ | 4,115 |
+Employee severance costs, net
+| 29,085 |
+Severance payments
+| ( 1,952 ) |
+Balance at January 31, 2026 | $ | 31,248 |
+Severance payments
+| ( 17,858 ) |
+Balance at May 2, 2026 | $ | 13,390 |
+The Company recorded net special charges of $ 32.4 million as part of its Global Repositioning Actions in the six months ended May 2, 2026. The Global Repositioning Actions were part of a transformation initiative aimed at aligning the Company’s enterprise strategy and organizational design and streamlining its operations to achieve its long-term strategic plan. The special charges include severance costs, in accordance with the Company’s ongoing benefit plan or statutory requirements at foreign locations, related to the termination of certain employees in manufacturing, engineering and selling, marketing, general and administrative roles.
+During the first quarter of fiscal 2026, the Company entered into a sublease agreement for its leased property in San Jose, California. As a result of the sublease transaction, the Company recorded an impairment charge of $ 15.6 million in net special charges, which represented the excess carrying value of the associated asset group over its estimated fair value. The Company estimated fair value using cash flows from the estimated net sublease rental income discounted at a market rate.
+8
+Note 6 – Industry and Segment Information
+The Company’s Chief Executive Officer and Chair has been identified as its Chief Operating Decision Maker (CODM). The following table presents a summary of consolidated net income inclusive of significant segment expenses and other expense information provided to the CODM:
+Three Months Ended | Six Months Ended |
+May 2, 2026 | May 3, 2025 | May 2, 2026 | May 3, 2025 |
+Revenue
+| $ | 3,623,465 | $ | 2,640,068 | $ | 6,783,728 | $ | 5,063,242 |
+Less: |
+Cost of sales, including human capital expenses therein | 1,183,667 | 1,028,458 | 2,298,955 | 2,021,329 |
+Operating expenses: |
+Employee compensation costs | 640,791 | 531,119 | 1,243,278 | 998,715 |
+Amortization of acquired intangible assets | 187,985 | 187,415 | 375,300 | 374,830 |
+Research and development related costs (excluding employee compensation costs) | 150,186 | 132,443 | 279,035 | 263,925 |
+Special charges, net | — | 1,745 | 47,982 | 65,632 |
+Other operating expense (excluding employee compensation costs) (1)
+| 81,156 | 80,944 | 162,473 | 169,554 |
+Nonoperating expense (income)
+| 54,852 | 52,016 | 106,006 | 107,753 |
+Provision for income taxes | 148,478 | 56,158 | 263,523 | 100,418 |
+Net income | $ | 1,176,350 | $ | 569,770 | $ | 2,007,176 | $ | 961,086 |
+_______________________________________
+(1) Includes depreciation and amortization expenses, facilities expenses, legal expenses and other discretionary expenses.
+Revenue Trends by End Market
+The following tables summarize revenue by end market. The categorization of revenue 

@@ -1,0 +1,80 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1101302/000110130226000102/entg-20260328.htm
+SEMBOL: ENTG
+BASVURU_TARIHI: 2026-04-30
+BASVURU: 0001101302-26-000102
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited)
+| Three months ended |
+(In millions) | March 28, 2026 | March 29, 2025 |
+Operating activities: |
+Net income | $ | 92.0 | $ | 62.9 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation | 34.1 | 49.9 |
+Amortization | 46.3 | 46.1 |
+Share-based compensation expense | 16.7 | 13.4 |
+Provision for deferred income taxes | ( 18.5 ) | ( 16.2 ) |
+Loss on extinguishment of debt | 0.5 | — |
+Charge for excess and obsolete inventory | 13.9 | 11.8 |
+Amortization of debt issuance costs and original issuance discounts | 3.3 | 3.5 |
+Other | 2.5 | 3.9 |
+Changes in operating assets and liabilities: |
+Trade accounts receivable | ( 72.1 ) | ( 1.5 ) |
+Inventories | ( 15.3 ) | ( 45.2 ) |
+Accounts payable and accrued liabilities | 63.8 | 9.6 |
+Other current assets | ( 3.3 ) | ( 3.6 ) |
+Income taxes payable and refundable income taxes | 14.4 | 5.6 |
+Other | 4.7 | 0.2 |
+Net cash provided by operating activities | 183.0 | 140.4 |
+Investing activities: |
+Acquisition of property, plant and equipment | ( 41.5 ) | ( 108.0 ) |
+Proceeds from government incentives | 2.0 | — |
+Other | 1.1 | ( 0.3 ) |
+Net cash used in investing activities | ( 38.4 ) | ( 108.3 ) |
+Financing activities: |
+Proceeds from revolving credit facility | 65.0 | 180.0 |
+Payments of revolving credit facility | ( 65.0 ) | ( 180.0 ) |
+Payments of long-term debt | ( 50.0 ) | — |
+Payments for dividends | ( 15.4 ) | ( 15.4 ) |
+Proceeds from issuance of common stock | 14.3 | 1.4 |
+Taxes paid related to net share settlement of equity awards | ( 10.1 ) | ( 8.0 ) |
+Other | ( 0.4 ) | ( 0.4 ) |
+Net cash used in financing activities | ( 61.6 ) | ( 22.4 ) |
+Effect of exchange rate changes on cash and cash equivalents | ( 0.7 ) | 2.0 |
+Increase in cash and cash equivalents | 82.3 | 11.7 |
+Cash and cash equivalents at beginning of period | 360.4 | 329.2 |
+Cash and cash equivalents at end of period | $ | 442.7 | $ | 340.9 |
+See the accompanying notes to condensed consolidated financial statements.
+8
+Table of Contents
+ENTEGRIS, INC. AND SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (CONTINUED)
+(Unaudited)
+Supplemental Cash Flow Information | Three months ended |
+(In millions) | March 28, 2026 | March 29, 2025 |
+Non-cash transactions: |
+Equipment purchases in accounts payable | $ | 18.6 | $ | 27.2 |
+Dividend payable | 0.8 | 0.6 |
+Schedule of interest and income taxes paid: |
+Interest paid, net of capitalized interest | 4.6 | — |
+Income taxes paid, net of refunds received | 2.1 | 19.2 |
+See the accompanying notes to condensed consolidated financial statements.
+9
+Table of Contents
+ENTEGRIS, INC. AND SUBSIDIARIES
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+1. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Nature of Operations Entegris, Inc. (“Entegris”, the “Company”, “us”, “we”, or “our”) is a leading supplier of critical advanced materials and process solutions for the semiconductor and other high-technology industries.
+Principles of Consolidation The condensed consolidated financial statements include the accounts of the Company and its subsidiaries. Intercompany profits, transactions and balances have been eliminated in consolidation.
+Use of Estimates The preparation of condensed consolidated financial statements in conformity with accounting principles generally accepted in the United States requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, particularly receivables, inventories, property, plant and equipment, right-of-use assets, goodwill, intangibles, accrued expenses, short-term and long-term lease liabilities, income taxes and related accounts, and disclosure of contingent assets and liabilities at the date of the condensed consolidated financial statements and the reported amounts of net sales and expenses during the reporting period. Actual results could differ from those estimates.
+Basis of Presentation The condensed consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States and contain all adjustments considered necessary, and are of a normal recurring nature, to present fairly the Company’s financial position as of March 28, 2026 and December 31, 2025, the results of operations and comprehensive income for the three months ended March 28, 2026 and March 29, 2025, the equity statements as of and for the three months ended March 28, 2026 and March 29, 2025, and cash flows for the three months ended March 28, 2026 and March 29, 2025.
+The condensed consolidated financial statements and accompanying notes are presented as permitted by Form 10-Q and do not contain certain information included in the Company’s annual consolidated financial statements and notes. The information included in this Quarterly Report should be read in conjunction with Part II, Item 7 “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and consolidated financial statements and notes thereto included in the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025. The results of operations for the three months ended March 28, 2026 are not necessarily indicative of the results to be expected for the full year.
+The unit captions to certain tables in the Notes to Consolidated Financial Statements included in the Company's Annual Report on Form 10-K for the year ended December 31, 2025 referenced amounts in thousands. Such amounts are in millions, consistent with the Company's narrative presentation of its financial results elsewhere in that report. The underlying amounts are unchanged, and no revision to any reported balance, result, or cash flow is necessary. Prior-period amounts presented herein are shown in millions.
+Property, Plant and Equipment Property, plant and equipment are carried at cost and are depreciated using the straight-line method over their estimated useful lives. When assets are retired or disposed of, the cost and related accumulated depreciation are removed from the accounts, and any resulting gain or loss is recognized in the period incurred. Maintenance and repairs are expensed as incurred, while significant additions and improvements are capitalized. Long-lived assets, including property, plant and equipment, are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset or group of assets may not be recoverable based on estimated future undiscounted cash flows. The amount of impairment, if any, is measured as the difference between the net book value and the estimated fair value of the asset(s).
+In January 2026, we completed an assessment of the useful lives of our property, plant and equipment and adjusted the estimated useful lives of certain property, plant and equipment to more closely reflect the expected economic lives of these assets. These adjustments followed an analysis of our actual usage of assets, including the technological and physical obsolescence of these assets, our ability to continue to use equipment, historical usage trends, and anticipated capital plans and technology roadmaps, as well as industry trends and practices. Based on this analysis, we determined that the increase in useful lives was warranted and consistent with the Company’s historical and anticipated use of these assets. The updated estimated useful lives of certain assets for financial reporting purposes are as follows: buildings and improvements, 5 to 35 years increased to 12 to 40 years; manufacturing equipment, 5 to 10 years increased to 14 years; canisters and cylinders, 3 to 12 years increased to 3 to 19 years; molds, 3 to 5 years increased to 9 years and lab equipment, 3 to 8 years increased to 9 years. The effect of this change in estimate on assets in service as of December 31, 2025 during the three months ended March 28, 2026 was a reduction in depreciation expense of $ 19.0 million and a benefit to net income of approximately $ 8.0 million, or $ 0.05 per basic and diluted share.
+Recently Adopted Accounting Pronouncements The Company currently has no material recently adopted accounting pronouncements.
+10
+Table of Contents
+Recently Issued Accounting Pronouncements In November 2024, the Financial Accounting Standards Board issued Accounting Standards Update (“ASU”) 2024-03, Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses, which requires public companies to disclose, in interim and annual reporting periods, additional information about certain expenses in the notes to financial statements. Prospective or retrospective application of the amendments in this ASU is permitted. The updated standard is effective for our annual reporting periods beginning in fiscal year 2027 and interim reporting periods beginning in the first quarter of fiscal year 2028, with early ado

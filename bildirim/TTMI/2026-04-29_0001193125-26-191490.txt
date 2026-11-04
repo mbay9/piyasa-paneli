@@ -1,0 +1,1665 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1116942/000119312526191490/d103788dex991.htm
+SEMBOL: TTMI
+BASVURU_TARIHI: 2026-04-29
+BASVURU: 0001193125-26-191490
+
+EX-99.1
+2
+d103788dex991.htm
+EX-99.1
+EX-99.1
+Exhibit 99.1
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Contact:
+Sean K.F. Hannan,
+Vice President, Investor Relations
+Sean.Hannan@ttmtech.com
++1 339 466 7737
+|
+TTM Technologies, Inc. Reports First Quarter 2026 Results
+Santa Ana, CA – April 29, 2026 – TTM Technologies, Inc. (NASDAQ: TTMI) (“TTM”), a leading global manufacturer of technology
+products, including mission systems, radio frequency (“RF”) components, RF microwave/microelectronic assemblies, and technologically advanced interconnect products, including printed circuit boards (“PCB”s) and substrates,
+today reported results for the first quarter of 2026, which ended on March 30, 2026.
+First Quarter 2026 Highlights
+|
+• |
+|
+Net sales were $846 million, up 30% year on year, and an all-time
+quarterly record
+|
+|
+• |
+|
+GAAP net income of $50.0 million, or $0.47 per diluted share
+|
+|
+• |
+|
+Adjusted EBITDA of $132.9 million, or 15.7% of net sales
+|
+|
+• |
+|
+Non-GAAP net income of $80.1 million, or $0.75 per diluted share, an
+all-time quarterly record
+|
+|
+• |
+|
+Cash flow from operations of $21.7 million, or 2.6% of net sales
+|
+|
+• |
+|
+Total book to bill of 1.41
+|
+|
+• |
+|
+A&D end market was 40% of total net sales; and total program backlog was $1.6 billion
+|
+|
+• |
+|
+Data Center and Networking end market was 36% of total net sales driven by continued AI demand
+|
+First Quarter 2026 GAAP Financial Results
+Net sales in the first quarter of 2026 were $846.0 million, compared to $648.7 million in the first quarter of 2025.
+GAAP operating income in the first quarter of 2026 was $72.4 million. This compared to GAAP operating income in the first quarter of 2025 of
+$50.3 million.
+GAAP net income in the first quarter of 2026 was $50.0 million, or $0.47 per diluted share. This compared to GAAP net income in
+the first quarter of 2025 of $32.2 million, or $0.31 per diluted share.
+First Quarter 2026 Non-GAAP
+Financial Results
+Adjusted EBITDA in the first quarter of 2026 was $132.9 million, or 15.7% of net sales, compared to adjusted EBITDA of
+$99.5 million, or 15.3% of net sales, in the first quarter of 2025.
+Non-GAAP net income in the first quarter
+of 2026 was $80.1 million, or $0.75 per diluted share. This compares to non-GAAP net income of $52.4 million, or $0.50 per diluted share, in the first quarter of 2025.
+“Our delivery of record high quarterly net sales and non-GAAP EPS reflected both the strength of the
+markets’ demand for our advanced technology and the high level of execution from our employees. Revenues grew 30% year on year, driven by continued robust demand in the Data Center and Networking end market supporting AI and data center
+buildouts. Our Medical, Industrial and Instrumentation end market also experienced strong double-digit year on year revenue growth, and our Aerospace and Defense end market grew in the double-digits year on year, which was above our
+expectations,” said Edwin Roks, President & CEO of TTM Technologies, Inc. “Adjusted EBITDA margin was a healthy 15.7% and cash from operations was $21.7 million, enabling the company to maintain a solid balance sheet with a net
+leverage ratio of 1.0x.” concluded Dr. Roks.
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Contact:
+Sean K.F. Hannan,
+Vice President, Investor Relations
+Sean.Hannan@ttmtech.com
++1 339 466 7737
+|
+Business Outlook
+For the
+second quarter of 2026, TTM estimates that net sales will be in the range of $930 million to $970 million, and non-GAAP net income will be in the range of $0.82 to $0.88 per diluted share. For fiscal
+year 2026, TTM currently believes that the growth trajectory projected for the first half of 2026 can continue at approximately the same pace in the second half of 2026.
+With respect to TTM’s outlook for non-GAAP net income per diluted share, we are unable to predict with
+reasonable certainty or without unreasonable effort certain items that may affect a comparable measure calculated and presented in accordance with GAAP. Our expected non-GAAP net income per diluted share
+excludes primarily the future impact of restructuring actions, impairment charges, unusual gains and losses including but not limited to unrealized foreign exchange translation, and tax adjustments. These reconciling items are highly variable and
+difficult to predict due to various factors outside of management’s control and could have a material impact on our future period net income per diluted share calculated and presented in accordance with GAAP. Accordingly, a reconciliation of non-GAAP net income per diluted share to a comparable measure calculated and presented in accordance with GAAP has not been provided because TTM is unable to provide such reconciliation without unreasonable effort.
+For the same reasons, TTM is unable to address the probable significance of the information.
+Live Webcast/Conference Call
+TTM will host a conference call and webcast to discuss first quarter 2026 results and the second quarter 2026 outlook on Wednesday, April 29, 2026, at
+4:30 p.m. Eastern Time (1:30 p.m. Pacific Time). The conference call will include forward-looking statements.
+Access to the conference call will be
+available by clicking on the registration link TTM Technologies, Inc. First Quarter 2026 Conference Cal l. Registering participants will receive dial in information and a unique PIN to join the call. Participants can register at any time up to
+the start of the conference call. The conference call will also be simulcast on the company’s website for those who would like to view the live webcast, and this can be accessed by clicking on the link TTM Technologies First Quarter 2026
+Webcast .
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Contact:
+Sean K.F. Hannan,
+Vice President, Investor Relations
+Sean.Hannan@ttmtech.com
++1 339 466 7737
+|
+To Access a Replay of the Webcast
+The replay of the webcast will remain accessible for one week following the live event on TTM’s website at TTM Technologies First Quarter 2026
+Webcast.
+About TTM
+TTM Technologies, Inc. is a
+leading global manufacturer of technology products, including mission systems, radio frequency (“RF”) components, RF microwave/microelectronic assemblies, and technologically advanced interconnect products, including PCBs and substrates.
+TTM stands for time-to-market, representing how TTM’s time-critical, one-stop design, engineering and manufacturing
+services enable customers to reduce the time required to develop new products and bring them to market. Additional information can be found at www.ttm.com .
+Forward-Looking Statements
+The preliminary financial
+results included in this press release represent the most current information available to management. TTM’s actual results when disclosed in its Form 10-Q may differ from these preliminary results as a
+result of the completion of TTM’s financial closing procedures, final adjustments, completion of the review by TTM’s independent registered accounting firm, and other developments that may arise between now and the disclosure of the
+final results. This release contains forward-looking statements that relate to future events or performance. TTM cautions you that such statements are simply predictions and actual events or results may differ materially. These statements reflect
+TTM’s current expectations, and TTM does not undertake to update or revise these forward-looking statements, even if experience or future changes make it clear that any projected results expressed or implied in this or other TTM statements
+will not be realized. Further, these statements involve risks and uncertainties, many of which are beyond TTM’s control, which could cause actual results to differ materially from the forward-looking statements. These risks and uncertainties
+include, but are not limited to, general market and economic conditions, including interest rates, currency exchange rates, and consumer spending, demand for TTM’s products, market pressures on prices of TTM’s products, warranty claims,
+changes in product mix, contemplated significant capital expenditures and related financing requirements, TTM’s dependence upon a small number of customers, and other factors set forth in the “Risk Factors” and
+“Management’s Discussion and Analysis of Financial Condition and Results of Operations” sections of TTM’s public reports filed with the SEC.
+About Our Non-GAAP Financial Measures
+To supplement our consolidated condensed financial statements presented on a GAAP basis, this release includes information about TTM’s adjusted EBITDA, non-GAAP net income, and non-GAAP earnings per diluted share (“EPS”), all of which are non-GAAP financial measures. TTM
+presents non-GAAP financial information to enable investors to see TTM through the eyes of management and to provide better insight into TTM’s ongoing financial performance.
+A material limitation associated with the use of the above non-GAAP financial measures is that they have no
+standardized measurement prescribed by GAAP and may not be comparable to similar non-GAAP financial measures used by other companies. TTM compensates for these limitations by providing full disclosure of each non-GAAP financial measure and reconciliations below to the most directly comparable GAAP financial measure. However, the non-GAAP financial measures should not be considered
+in isolation from, or as a substitute for, financial information prepared in accordance with GAAP.
+- Tables Follow -
+TTM TECHNOLOGIES, INC.
+Selected Unaudited Financial Information
+(In thousands, except per share data)
+CONSOLIDATED CONDENSED STATEMENTS OF OPERATIONS
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+First Quarter |
+|
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Net sales
+|
+|
+$ |
+845,976 |
+|
+|
+$ |
+648,668 |
+|
+Cost of goods sold
+|
+|
+|
+664,795 |
+|
+|
+|
+517,696 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Gross profit
+|
+|
+|
+181,181 |
+|
+|
+|
+130,972 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Operating expenses:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Selling and marketing
+|
+|
+|
+24,994 |
+|
+|
+|
+21,271 |
+|
+General and administrative
+|
+|
+|
+68,745 |
+|
+|
+|
+43,774 |
+|
+Research and development
+|
+|
+|
+7,808 |
+|
+|
+|
+8,064 |
+|
+Amortization of definite-lived intangibles
+|
+|
+|
+6,889 |
+|
+|
+|
+6,889 |
+|
+Restructuring charges
+|
+|
+|
+296 |
+|
+|
+|
+714 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total operating expenses
+|
+|
+|
+108,732 |
+|
+|
+|
+80,712 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Operating income
+|
+|
+|
+72,449 |
+|
+|
+|
+50,260 |
+|
+Interest expense
+|
+|
+|
+(10,600 |
+) |
+|
+|
+(11,464 |
+) |
+Other, net
+|
+|
+|
+(3,324 |
+) |
+|
+|
+2,195 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Income before income taxes
+|
+|
+|
+58,525 |
+|
+|
+|
+40,991 |
+|
+Income tax provision
+|
+|
+|
+(8,537 |
+) |
+|
+|
+(8,813 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+$ |
+49,988 |
+|
+|
+$ |
+32,178 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Earnings per share:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$ |
+0.48 |
+|
+|
+$ |
+0.32 |
+|
+Diluted
+|
+|
+|
+0.47 |
+|
+|
+|
+0.31 |
+|
+Weighted-average shares used in computing per share amounts:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+103,832 |
+|
+|
+|
+101,866 |
+|
+Diluted
+|
+|
+|
+107,084 |
+|
+|
+|
+104,530 |
+|
+Reconciliation of the denominator used to calculate basic earnings per share and diluted earnings
+per share:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Weighted-average shares outstanding
+|
+|
+|
+103,832 |
+|
+|
+|
+101,866 |
+|
+Dilutive effect of performance-based stock units, restricted stock units and stock
+options
+|
+|
+|
+3,252 |
+|
+|
+|
+2,664 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Diluted shares
+|
+|
+|
+107,084 |
+|
+|
+|
+104,530 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+SELECTED BALANCE SHEET DATA
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+March 30, 2026 |
+|
+|
+December 29, 2025 |
+|
+Cash and cash equivalents
+|
+|
+$ |
+410,049 |
+|
+|
+$ |
+501,234 |
+|
+Accounts receivable, net
+|
+|
+|
+618,082 |
+|
+|
+|
+563,741 |
+|
+Contract assets
+|
+|
+|
+513,029 |
+|
+|
+|
+468,006 |
+|
+Inventories
+|
+|
+|
+280,210 |
+|
+|
+|
+250,057 |
+|
+Total current assets
+|
+|
+|
+1,913,806 |
+|
+|
+|
+1,855,406 |
+|
+Property, plant and equipment, net
+|
+|
+|
+1,067,253 |
+|
+|
+|
+1,010,710 |
+|
+Total assets
+|
+|
+|
+3,981,030 |
+|
+|
+|
+3,840,331 |
+|
+Short-term debt, including current portion of long-term debt
+|
+|
+$ |
+3,851 |
+|
+|
+$ |
+3,815 |
+|
+Accounts payable
+|
+|
+|
+607,896 |
+|
+|
+|
+543,538 |
+|
+Contract liabilities
+|
+|
+|
+174,529 |
+|
+|
+|
+175,627 |
+|
+Total current liabilities
+|
+|
+|
+1,015,495 |
+|
+|
+|
+962,197 |
+|
+Long-term debt, net of discount and issuance costs
+|
+|
+|
+911,842 |
+|
+|
+|
+912,336 |
+|
+Total long-term liabilities
+|
+|
+|
+1,127,874 |
+|
+|
+|
+1,115,881 |
+|
+Total stockholders’ equity
+|
+|
+|
+1,837,661 |
+|
+|
+|
+1,762,253 |
+|
+Total liabilities and stockholders’ equity
+|
+|
+|
+3,981,030 |
+|
+|
+|
+3,840,331 |
+|
+SUPPLEMENTAL DATA
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+First Quarter |
+|
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Gross margin
+|
+|
+|
+21.4 |
+% |
+|
+|
+20.2 |
+% |
+Operating margin
+|
+|
+|
+8.6 |
+% |
+|
+|
+7.7 |
+% |
+|
+|
+|
+|
+First Quarter |
+|
+|
+|
+2026 |
+|
+|
+2025 |
+|
+End market breakdown 1 :
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Aerospace and Defense
+|
+|
+|
+40 |
+% |
+|
+|
+48 |
+% |
+Automotive
+|
+|
+|
+8 |
+% |
+|
+|
+11 |
+% |
+Data Center and Networking
+|
+|
+|
+36 |
+% |
+|
+|
+28 |
+% |
+Medical, Industrial, and Instrumentation
+|
+|
+|
+16 |
+% |
+|
+|
+13 |
+% |
+|
+|
+|
+|
+First Quarter |
+|
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Operating segment data 1 :
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net sales:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Aerospace & Defense
+|
+|
+$ |
+351,664 |
+|
+|
+$ |
+316,250 |
+|
+Commercial
+|
+|
+|
+495,043 |
+|
+|
+|
+332,705 |
+|
+Intersegment eliminations
+|
+|
+|
+(731 |
+) |
+|
+|
+(287 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total net sales
+|
+|
+$ |
+845,976 |
+|
+|
+$ |
+648,668 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Segment operating income:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Aerospace & Defense
+|
+|
+|
+54,779 |
+|
+|
+|
+42,369 |
+|
+Commercial
+|
+|
+|
+81,568 |
+|
+|
+|
+43,649 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total segment operating income
+|
+|
+$ |
+136,347 |
+|
+|
+$ |
+86,018 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Unallocated amounts:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Restructuring
+|
+|
+|
+(296 |
+) |
+|
+|
+(714 |
+) |
+Acquisition-related and other charges
+|
+|
+|
+(197 |
+) |
+|
+|
+— |
+|
+Stock-based compensation
+|
+|
+|
+(24,356 |
+) |
+|
+|
+(8,787 |
+) |
+Other corporate expenses
+|
+|
+|
+(29,825 |
+) |
+|
+|
+(17,033 |
+) |
+Amortization of definite-lived intangibles
+|
+|
+|
+(9,224 |
+) |
+|
+|
+(9,224 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total operating income
+|
+|
+$ |
+72,449 |
+|
+|
+$ |
+50,260 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+RECONCILIATIONS 2
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+First Quarter |
+|
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Non-GAAP gross profit reconciliation 3 :
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP gross profit
+|
+|
+$ |
+181,181 |
+|
+|
+$ |
+130,972 |
+|
+Add back item:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Amortization of definite-lived intangibles
+|
+|
+|
+2,335 |
+|
+|
+|
+2,335 |
+|
+Stock-based compensation
+|
+|
+|
+3,667 |
+|
+|
+|
+2,673 |
+|
+Unrealized (gain) loss on commodity hedge
+|
+|
+|
+1,494 |
+|
+|
+|
+(776 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Non-GAAP gross profit
+|
+|
+$ |
+188,677 |
+|
+|
+$ |
+135,204 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Non-GAAP gross margin
+|
+|
+|
+22.3 |
+% |
+|
+|
+20.8 |
+% |
+Non-GAAP operating income reconciliation 4 :
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP operating income
+|
+|
+$ |
+72,449 |
+|
+|
+$ |
+50,260 |
+|
+Add back items:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Amortization of definite-lived intangibles
+|
+|
+|
+9,224 |
+|
+|
+|
+9,224 |
+|
+Stock-based compensation
+|
+|
+|
+24,356 |
+|
+|
+|
+8,787 |
+|
+Unrealized (gain) loss on commodity hedge
+|
+|
+|
+1,494 |
+|
+|
+|
+(776 |
+) |
+Restructuring, acquisition-related and other charges
+|
+|
+|
+493 |
+|
+|
+|
+714 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Non-GAAP operating income
+|
+|
+$ |
+108,016 |
+|
+|
+$ |
+68,209 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Non-GAAP operating margin
+|
+|
+|
+12.8 |
+% |
+|
+|
+10.5 |
+% |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+First Quarter |
+|
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Non-GAAP net income and EPS reconciliation 5 :
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP net income
+|
+|
+$ |
+49,988 |
+|
+|
+$ |
+32,178 |
+|
+Add back items:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Amortization of definite-lived intangibles
+|
+|
+|
+9,224 |
+|
+|
+|
+9,224 |
+|
+Stock-based compensation
+|
+|
+|
+24,356 |
+|
+|
+|
+8,787 |
+|
+Non-cash interest expense
+|
+|
+|
+554 |
+|
+|
+|
+531 |
+|
+Unrealized (gain) loss on commodity hedge
+|
+|
+|
+1,494 |
+|
+|
+|
+(776 |
+) |
+Unrealized (gain) loss on foreign exchange
+|
+|
+|
+(983 |
+) |
+|
+|
+2,214 |
+|
+Restructuring, acquisition-related and other charges
+|
+|
+|
+493 |
+|
+|
+|
+714 |
+|
+Income taxes 6
+|
+|
+|
+(5,044 |
+) |
+|
+|
+(440 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Non-GAAP net income
+|
+|
+$ |
+80,082 |
+|
+|
+$ |
+52,432 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Non-GAAP earnings per diluted share
+|
+|
+$ |
+0.75 |
+|
+|
+$ |
+0.50 |
+|
+Adjusted EBITDA reconciliation 7 :
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP net income
+|
+|
+$ |
+49,988 |
+|
+|
+$ |
+32,178 |
+|
+Add back items:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Income tax provision
+|
+|
+|
+8,537 |
+|
+|
+|
+8,813 |
+|
+Interest expense
+|
+|
+|
+10,600 |
+|
+|
+|
+11,464 |
+|
+Amortization of definite-lived intangibles
+|
+|
+|
+9,224 |
+|
+|
+|
+9,224 |
+|
+Depreciation expense
+|
+|
+|
+29,292 |
+|
+|
+|
+26,863 |
+|
+Stock-based compensation
+|
+|
+|
+24,356 |
+|
+|
+|
+8,787 |
+|
+Unrealized (gain) loss on commodity hedge
+|
+|
+|
+1,494 |
+|
+|
+|
+(776 |
+) |
+Unrealized (gain) loss on foreign exchange
+|
+|
+|
+(983 |
+) |
+|
+|
+2,214 |
+|
+Restructuring, acquisition-related and other charges
+|
+|
+|
+374 |
+|
+|
+|
+714 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Adjusted EBITDA
+|
+|
+$ |
+132,882 |
+|
+|
+$ |
+99,481 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Adjusted EBITDA margin
+|
+|
+|
+15.7 |
+% |
+|
+|
+15.3 |
+% |
+Free cash flow reconciliation:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Operating cash flow
+|
+|
+$ |
+21,743 |
+|
+|
+$ |
+(10,655 |
+) |
+Capital expenditures, net
+|
+|
+|
+(106,801 |
+) |
+|
+|
+(63,220 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Free cash flow
+|
+|
+$ |
+(85,058 |
+) |
+|
+$ |
+(73,875 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+1 |
+Prior year end market revenue and operating segment data has been recasted in connection with the
+Company’s previously disclosed change in organization structure - refer to the recasted historical selected unaudited financial information in the Form 8-K filed on July 30, 2025 for further
+information. The prior year end market revenue has been recasted also due to merged Data Center Computing and Networking end markets. The operating segment data has been recasted also due to strategically realigning the RF and Specialty Components
+(RF&S Components) segment within the A&D segment during the quarter ended March 30, 2026.
+|
+2 |
+This information provides a reconciliation of non-GAAP gross profit, non-GAAP operating income, non-GAAP net income, non-GAAP EPS, and adjusted EBITDA to the financial information in our consolidated
+condensed statements of operations.
+|
+3 |
+Non-GAAP gross profit and gross margin measures exclude amortization of
+definite-lived intangibles, stock-based compensation, and unrealized (gain) loss on commodity hedge.
+|
+4 |
+Non-GAAP operating income and operating margin measures exclude
+amortization of definite-lived intangibles, stock-based compensation, unrealized (gain) loss on commodity hedge, restructuring, acquisition-related, and other charges.
+|
+5 |
+This information provides non-GAAP net income and non-GAAP EPS, which are non-GAAP financial measures. Management believes that both measures — which add back amortization of definite-lived intangibles, stock-based
+compensation, non-cash interest expense, unrealized (gain) loss on commodity hedge, unrealized (gain) loss on foreign exchange, restructuring, acquisition-related, and other charges as well as the associated
+tax impact of these charges and discrete tax items — provide additional useful information to investors regarding the Company’s ongoing financial condition and results of operations.
+|
+6 |
+Income tax adjustments reflect the difference between income taxes based on a
+non-GAAP tax rate and a forecasted annual GAAP tax rate.
+|
+7 |
+Adjusted EBITDA is defined as earnings before income taxes provision, interest expense, amortization of
+definite-lived intangibles, depreciation expense, stock-based compensation, unrealized (gain) loss on commodity hedge, unrealized (gain) loss on foreign exchange, restructuring, acquisition-related, and other charges. We present adjusted EBITDA to
+enhance the understanding of our operating results, and it is a key measure we use to evaluate our operations. In addition, we provide our adjusted EBITDA because we believe that investors and securities analysts will find adjusted EBITDA to be a
+useful measure for evaluating our operating performance and comparing our operating performance with that of similar companies that have different capital structures and for evaluating our ability to meet our future debt service, capital
+expenditures, and working capital requirements. However, adjusted EBITDA should not be considered as an alternative to cash flows from operating activities as a measure of liquidity or as an alternative to net income as a measure of operating
+results in accordance with accounting principles generally accepted in the United States of America.
+|

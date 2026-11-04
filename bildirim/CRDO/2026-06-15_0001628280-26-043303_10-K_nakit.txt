@@ -1,0 +1,74 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1807794/000162828026043303/crdo-20260502.htm
+SEMBOL: CRDO
+BASVURU_TARIHI: 2026-06-15
+BASVURU: 0001628280-26-043303
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows
+(in thousands)
+Year Ended |
+May 2, 2026 | May 3, 2025 | April 27, 2024 |
+Cash flows from operating activities: |
+Net income (loss) | $ | 472,279 | $ | 52,183 | $ | ( 28,369 ) |
+Adjustments to reconcile net income (loss) to net cash provided by operating activities: |
+Depreciation and amortization | 34,637 | 21,938 | 13,771 |
+Amortization of acquired intangible assets | 400 | — | — |
+Share-based compensation | 182,638 | 77,355 | 39,022 |
+Warrant contra revenue | — | 13,186 | 3,925 |
+Write-downs for excess and obsolete inventory | 15,116 | 7,952 | 4,354 |
+Impairment of assets | 1,500 | 873 | 765 |
+Changes in operating assets and liabilities |
+Accounts receivable | ( 70,798 ) | ( 102,482 ) | ( 10,121 ) |
+Inventories | ( 174,036 ) | ( 70,470 ) | 15,762 |
+Other current assets | ( 44,801 ) | 4,596 | ( 19,836 ) |
+Other non-current assets | ( 26,453 ) | 2,089 | ( 654 ) |
+Accounts payable | 48,752 | 41,930 | 8,806 |
+Accrued compensation and benefits, other current liabilities and other non-current liabilities | 25,058 | 15,933 | 5,312 |
+Net cash provided by operating activities | 464,292 | 65,083 | 32,737 |
+Cash flows from investing activities: |
+Purchases of property and equipment | ( 57,296 ) | ( 36,061 ) | ( 15,652 ) |
+Purchases of short-term investments | ( 393,334 ) | ( 258,726 ) | ( 403,587 ) |
+Maturities of short-term investments | 310,010 | 406,777 | 169,754 |
+Business acquisitions, net of cash acquired | ( 112,908 ) | — | — |
+Net cash provided by (used in) investing activities | ( 253,528 ) | 111,990 | ( 249,485 ) |
+Cash flows from financing activities: |
+Proceeds from issuance of ordinary shares in connection with public offerings, net of offering costs | 736,327 | — | 173,431 |
+Payments on technology license obligations | ( 6,624 ) | ( 6,306 ) | ( 3,052 ) |
+Proceeds from equity incentive plans | 7,083 | 7,831 | 7,055 |
+Tax withheld related to RSU settlement | ( 19,157 ) | ( 9,253 ) | ( 2,158 ) |
+Net cash provided by (used in) financing activities | 717,629 | ( 7,728 ) | 175,276 |
+Effect of exchange rate changes on cash | 231 | 41 | ( 169 ) |
+Net increase (decrease) in cash and cash equivalents | 928,624 | 169,386 | ( 41,641 ) |
+Cash and cash equivalents at beginning of the year | 236,328 | 66,942 | 108,583 |
+Cash and cash equivalents at end of the year | $ | 1,164,952 | $ | 236,328 | $ | 66,942 |
+Supplemental cash flow information: |
+Income taxes paid | $ | 2,472 | $ | 1,447 | $ | 1,054 |
+Purchases of property and equipment included in accounts payable, other current liabilities and other non-current liabilities | $ | 16,106 | $ | 8,877 | $ | 8,287 |
+The accompanying notes are an integral part of these consolidated financial statements.
+79
+Credo Technology Group Holding Ltd
+Notes to Consolidated Financial Statements
+1. Description of Business and Basis of Presentation
+Credo Technology Group Holding Ltd was formed as an exempted company under the laws of the Cayman Islands in September 2014. Credo Technology Group Holding Ltd directly owns Credo Technology Group Ltd., which owns, directly and indirectly, all of the shares of its subsidiaries in the United States (U.S.), Singapore, mainland China, Hong Kong, Taiwan and Canada. References to the “Company” in these notes refer to Credo Technology Group Holding Ltd and its subsidiaries on a consolidated basis, unless otherwise specified.
+The Company’s mission is to transform connectivity at scale through fast, reliable and energy-efficient system solutions. The Company’s highspeed copper and optical interconnect products deliver industry-leading power and performance at up to 1.6T to meet the ever-expanding data infrastructure demands of AI. The Company’s product portfolio includes ZeroFlap (ZF) Active Electrical Cables (AECs) and ZF optical transceivers, OmniConnect memory solutions and a suite of retimers and DSPs for optical and copper Ethernet and PCIe, all leveraging the Company’s PILOT diagnostic and analytics software platform. The Company’s innovations enable our customers to connect the systems that connect the world.
+Basis of Presentation
+These consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States (GAAP). The consolidated financial statements include the results of Credo Technology Group Holding Ltd and its wholly-owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation.
+The Company’s fiscal year is a 52- or 53-week period ending on the Saturday closest to April 30. The additional week in a 53-week year is added to the first quarter, making such quarter consist of 14 weeks. Accordingly, every fifth or sixth fiscal year will have a 53-week period. The fiscal years ended May 2, 2026 (fiscal year 2026) and April 27, 2024 (fiscal year 2024) were both 52-week fiscal years. The fiscal year ended May 3, 2025 (fiscal year 2025) was a 53-week fiscal year.
+Reclassifications
+Certain prior period balances were reclassified to conform to the current period’s presentation. None of these reclassifications had an impact on reported net income (loss) or cash flows for any of the periods presented.
+ATM Offering
+In October 2025, the Company entered into an equity distribution agreement with Goldman Sachs & Co. LLC related to the sale from time to time of the Company’s ordinary shares for an aggregate offering price of up to $ 750 million (the ATM Offering). During the fiscal year ended May 2, 2026, the Company completed the ATM Offering and received $ 736.3 million in net proceeds through an issuance of 4.8 million ordinary shares. The total issuance costs were $ 13.7 million.
+2. Significant Accounting Policies
+Use of Estimates
+The preparation of these consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported in the Company’s consolidated financial statements and accompanying notes.
+The Company bases its estimates and judgments on historical experience, knowledge of current conditions and beliefs of what could occur in the future, given the available information. Estimates are used for, but not limited to, write-down for excess and obsolete inventories, variable consideration from
+80
+Credo Technology Group Holding Ltd
+Notes to Consolidated Financial Statements
+revenue contracts, determination of the fair value of share-based awards, the realizability of tax assets and estimates of tax reserves, valuation of acquired intangible assets, impairment of long-lived assets and goodwill (as applicable) and incremental borrowing rate used in the Company’s operating lease calculations. Actual results may differ from those estimates and such differences may be material to the financial statements. As new events continue to evolve and additional information becomes available, any changes to these estimates and assumptions will be recognized in the consolidated financial statements as soon as they become known.
+Foreign Currency
+All of the Company’s subsidiaries use U.S. dollars as their functional currency, except for its entities located in Taiwan, Canada and mainland China. The functional currencies of these entities are their respective local currency. Foreign currency assets and liabilities are remeasured into the functional currencies at the end-of-period exchange rates except for non-monetary assets and liabilities, which are remeasured at historical exchange rates. Revenue and expenses are remeasured at the exchange rates in effect during the period the transactions occurred, except for those expenses related to balance sheet amounts, which are remeasured at historical exchange rates. Gains or losses from foreign currency transactions are included in the consolidated statements of operations as part of ‘other income, net’. Translation gains and losses are recorded in accumulated other comprehensive income as a component of shareholders' equity.
+Cash, Cash Equivalents and Short-term Investments
+Cash and cash equivalents are highly liquid investments with insignificant interest rate risk and maturities of three months or less at the time of acquisition. Cash and cash equivalents consist primarily of cash balances in the Company’s bank checking and savings accounts, and government and institutional money market funds.
+Investments not considered cash equivalents and with maturities of one year or less from the consolidated balance sheet date are classified as short-term investments. Short-term investments consist of certificates of deposit with original maturity dates between three and twelve months.
+The classification of our short-term investments is determined at the time of purchase, and such determination is reevaluated at each balance sheet date. Our short-term investments include certificates of deposit, which are classified as held-to-maturity. These investments are recorded at amortized cost basis. If the cost of an individual investment exceeds its fair value,

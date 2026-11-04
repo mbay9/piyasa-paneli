@@ -1,0 +1,217 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1633978/000162828026030777/lite-20260328.htm
+SEMBOL: LITE
+BASVURU_TARIHI: 2026-05-06
+BASVURU: 0001628280-26-030777
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the Nine Months Ended March 28, 2026 and March 2 9 , 2025
+| 5
+|
+Condensed Consolidated Statements of Stockholders’ Equity for the Three and Nine Months Ended March 2 8 , 202 6 and March 2 9 , 2 025
+| 7
+|
+Notes to Condensed Consolidated Financial Statements
+| 9
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 48
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 65
+|
+Item 4.
+| Controls and Procedures
+| 67
+|
+PART II - OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 68
+|
+Item 1A.
+| Risk Factors
+| 69
+|
+Item 5.
+| Other Information
+| 104
+|
+Item 6.
+| Exhibits
+| 105
+|
+SIGNATURES
+| 106
+|
+1
+PART I - FINANCIAL INFORMATION
+ITEM 1. FINANCIAL STATEMENTS (UNAUDITED)
+LUMENTUM HOLDINGS INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions, except per share data)
+( Unaudited )
+Three Months Ended | Nine Months Ended |
+| March 28, 2026 | March 29, 2025 | March 28, 2026 | March 29, 2025 |
+Net revenue | $ | 808.4 | $ | 425.2 | $ | 2,007.7 | $ | 1,164.3 |
+Cost of sales | 432.1 | 283.7 | 1,170.7 | 801.4 |
+Amortization of acquired developed intangibles | 19.3 | 19.0 | 58.4 | 62.9 |
+Gross profit | 357.0 | 122.5 | 778.6 | 300.0 |
+Operating expenses: |
+Research and development | 90.6 | 75.9 | 252.1 | 224.4 |
+Selling, general and administrative | 90.8 | 112.0 | 272.0 | 264.6 |
+Restructuring and related charges | 1.1 | 7.2 | 9.0 | 17.6 |
+Gain on sale of facility | — | ( 34.9 ) | — | ( 34.9 ) |
+Total operating expenses | 182.5 | 160.2 | 533.1 | 471.7 |
+Income (loss) from operations | 174.5 | ( 37.7 ) | 245.5 | ( 171.7 ) |
+Other income (expense), net: |
+Escrow settlement | — | — | 27.5 | — |
+Interest expense | ( 6.2 ) | ( 5.7 ) | ( 18.2 ) | ( 16.8 ) |
+Other income, net | 15.5 | 4.2 | 30.7 | 27.8 |
+Total other income (expense), net | 9.3 | ( 1.5 ) | 40.0 | 11.0 |
+Income (loss) before income taxes | 183.8 | ( 39.2 ) | 285.5 | ( 160.7 ) |
+Income tax provision | 39.6 | 4.9 | 58.9 | 26.7 |
+Net income (loss) | 144.2 | ( 44.1 ) | 226.6 | ( 187.4 ) |
+Income allocated to participating securities | ( 1.7 ) | — | ( 0.9 ) | — |
+Net income (loss) available to common shareholders | $ | 142.5 | $ | ( 44.1 ) | $ | 225.7 | $ | ( 187.4 ) |
+Net income (loss) per common share: |
+Basic | $ | 1.99 | $ | ( 0.64 ) | $ | 3.18 | $ | ( 2.72 ) |
+Diluted | $ | 1.50 | $ | ( 0.64 ) | $ | 2.59 | $ | ( 2.72 ) |
+Shares used to compute net income (loss) per common share: |
+Basic | 71.5 | 69.3 | 71.0 | 68.8 |
+Diluted | 96.2 | 69.3 | 87.4 | 68.8 |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+2
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (LOSS)
+(in millions)
+(Unaudited)
+| Three Months Ended | Nine Months Ended |
+| March 28, 2026 | March 29, 2025 | March 28, 2026 | March 29, 2025 |
+Net income (loss) | $ | 144.2 | $ | ( 44.1 ) | $ | 226.6 | $ | ( 187.4 ) |
+Other comprehensive income (loss), net of tax: |
+Foreign currency translation adjustments | — | 0.3 | ( 0.3 ) | — |
+Net change in unrealized gain on available-for-sale securities | ( 2.4 ) | 0.6 | ( 1.7 ) | 1.8 |
+Other comprehensive income (loss), net of tax | ( 2.4 ) | 0.9 | ( 2.0 ) | 1.8 |
+Comprehensive income (loss), net of tax | $ | 141.8 | $ | ( 43.2 ) | $ | 224.6 | $ | ( 185.6 ) |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+3
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions, except par value)
+( Unaudited )
+March 28, 2026 | June 28, 2025 |
+ASSETS | | |
+Current assets: | |
+Cash and cash equivalents | $ | 2,617.8 | $ | 520.7 |
+Short-term investments | 554.5 | 356.4 |
+Accounts receivable, net | 441.6 | 250.0 |
+Inventories | 632.8 | 470.1 |
+Prepayments and other current assets | 149.0 | 120.1 |
+Total current assets | 4,395.7 | 1,717.3 |
+Property, plant and equipment, net | 964.3 | 726.4 |
+Operating lease right-of-use assets, net | 27.0 | 27.9 |
+Goodwill | 1,066.3 | 1,060.9 |
+Other intangible assets, net | 362.9 | 465.1 |
+Deferred tax asset | 197.9 | 210.3 |
+Other non-current assets | 13.8 | 10.8 |
+Total assets | $ | 7,027.9 | $ | 4,218.7 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 392.7 | $ | 225.2 |
+Accrued payroll and related expenses | 109.7 | 57.9 |
+Accrued expenses | 48.9 | 34.6 |
+Current portion of long-term debt | 3,238.6 | 10.6 |
+Operating lease liabilities, current | 12.5 | 11.4 |
+Other current liabilities | 62.9 | 53.1 |
+Total current liabilities | 3,865.3 | 392.8 |
+Long-term debt | 43.2 | 2,562.6 |
+Operating lease liabilities, non-current | 19.4 | 23.6 |
+Deferred tax liability | 5.4 | 7.2 |
+Other non-current liabilities | 121.2 | 97.8 |
+Total liabilities | 4,054.5 | 3,084.0 |
+Commitments and contingencies (Note 14) | | |
+Stockholders’ equity: |
+Preferred stock, $ 0.001 par value, 10 authorized shares, 2.9 shares and zero shares issued and outstanding as of March 28, 2026 and June 28, 2025, respectively
+| — | — |
+Common stock, $ 0.001 par value, 990 authorized shares, 71.7 shares and 69.8 shares issued and outstanding as of March 28, 2026 and June 28, 2025, respectively
+| 0.1 | 0.1 |
+Additional paid-in capital | 3,600.9 | 1,986.8 |
+Accumulated deficit | ( 634.6 ) | ( 861.2 ) |
+Accumulated other comprehensive income | 7.0 | 9.0 |
+Total stockholders’ equity | 2,973.4 | 1,134.7 |
+Total liabilities and stockholders’ equity | $ | 7,027.9 | $ | 4,218.7 |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+4
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+Nine Months Ended |
+March 28, 2026 | March 29, 2025 |
+OPERATING ACTIVITIES: |
+Net income (loss) | $ | 226.6 | $ | ( 187.4 ) |
+Adjustments to reconcile net income (loss) to net cash provided by operating activities: |
+Depreciation expense | 91.2 | 77.9 |
+Stock-based compensation | 129.4 | 137.2 |
+Bad debt expense (recovery) | ( 0.1 ) | 3.4 |
+Gain on sale of facility | — | ( 34.9 ) |
+Amortization and write-off of acquired intangibles | 102.2 | 117.7 |
+Write-down and loss on sales and dispositions of property, plant and equipment | 13.4 | 5.2 |
+Amortization of debt issuance costs | 3.0 | 2.3 |
+Inducement expense on partial repurchase of 2026 Notes | 5.9 | — |
+Write-off of right-of-use assets | — | 6.2 |
+Other non-cash items | ( 9.1 ) | ( 5.6 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 191.5 ) | ( 64.4 ) |
+Inventories | ( 165.2 ) | ( 25.7 ) |
+Operating lease right-of-use assets, net | 0.9 | 2.4 |
+Prepayments and other current and non-current assets | ( 22.5 ) | ( 21.7 ) |
+Income taxes, net | 17.9 | 16.8 |
+Accounts payable | 109.4 | 44.9 |
+Accrued payroll and related expenses | 51.8 | 6.9 |
+Operating lease liabilities | ( 3.1 ) | ( 3.6 ) |
+Accrued expenses and other current and non-current liabilities | 28.2 | ( 15.3 ) |
+Net cash provided by operating activities | 388.4 | 62.3 |
+INVESTING ACTIVITIES: |
+Payments for acquisition of property, plant and equipment | ( 284.5 ) | ( 177.1 ) |
+Payment for acquisition of business | ( 38.0 ) | — |
+Proceeds from sale of facility, net of cash and selling costs | — | 47.8 |
+Purchases of short-term investments | ( 379.2 ) | ( 280.2 ) |
+Proceeds from maturities and sales of short-term investments | 181.0 | 384.5 |
+Proceeds from the sales of property, plant and equipment | 39.6 | 0.3 |
+Net cash used in investing activities | ( 481.1 ) | ( 24.7 ) |
+FINANCING ACTIVITIES: |
+Proceeds from issuance of Series A Convertible Preferred Stock | 1,999.7 | — |
+Proceeds from the issuance of 2032 Notes, net of issuance costs | 1,254.7 | — |
+Proceeds from term loans | 47.9 | 76.5 |
+Proceeds from employee stock plans | 9.2 | 8.3 |
+Payment for partial repurchase of 2026 Notes | ( 843.1 ) | — |
+Payment for 2032 Notes capped call options | ( 102.0 ) | — |
+Payment of withholding taxes related to net share settlement of restricted stock units | ( 164.2 ) | ( 36.3 ) |
+Principal payments on term loans | ( 9.2 ) | ( 5.4 ) |
+Payment for financing costs related to revolving credit facility | ( 2.4 ) | — |
+Payment for conversions of convertible notes | ( 0.8 ) | — |
+Payment of acquisition related holdback | — | ( 1.0 ) |
+Net cash provided by financing activities | 2,189.8 | 42.1 |
+Increase in cash and cash equivalents | 2,097.1 | 79.7 |
+5
+Table of Contents
+LUMENTUM HOLDINGS INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+Cash and cash equivalents at beginning of period | 520.7 | 436.7 |
+Cash and cash equivalents at end of period | $ | 2,617.8 | $ | 516.4 |
+Supplemental disclosure of cash flow information: |
+Cash paid for taxes, net | $ | 41.1 | $ | 10.5 |
+Cash paid for interest | 12.8 | 9.7 |
+Supplemental disclosure of non-cash investing and financing activities: |
+Right-of-use assets obtained in exchange for new operating lease liabilities | 6.8 | 6.4 |
+Net transfer of assets from property, plant, and equipment to assets held-for-sale
+| 3.3

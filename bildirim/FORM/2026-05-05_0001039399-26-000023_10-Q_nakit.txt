@@ -1,0 +1,251 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1039399/000103939926000023/form-20260328.htm
+SEMBOL: FORM
+BASVURU_TARIHI: 2026-05-05
+BASVURU: 0001039399-26-000023
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the three months ended March 28, 2026 and March 29, 2025
+| 7
+|
+| |
+| Notes to Condensed Consolidated Financial Statements
+| 9
+|
+| |
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 22
+|
+| |
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 31
+|
+| |
+Item 4.
+| Controls and Procedures
+| 31
+|
+| |
+Part II.
+| Other Information
+| 31
+|
+| |
+Item 1A.
+| Risk Factors
+| 32
+|
+Item 2.
+| Unregistered Sales of Equity Securities and use of proceeds
+| 32
+|
+Item 5.
+| Other Information
+| 32
+|
+Item 6.
+| Exhibits
+| 33
+|
+| |
+Signatures
+| | 34
+|
+2
+PART I - FINANCIAL INFORMATION
+Item 1. Financial Statements
+FORMFACTOR, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In thousands, except share and per share amounts)
+(Unaudited)
+| March 28,
+2026 | December 27,
+2025 |
+ASSETS | |
+Current assets: | | |
+Cash and cash equivalents | $ | 123,539 | $ | 103,330 |
+Marketable securities | 179,742 | 171,842 |
+Accounts receivable, net of allowance for credit losses of $ 6 and $ 29
+| 132,155 | 125,416 |
+Inventories, net | 112,877 | 110,884 |
+Restricted cash | 897 | 1,063 |
+Prepaid expenses and other current assets | 51,596 | 44,519 |
+Total current assets | 600,806 | 557,054 |
+Restricted cash | 2,012 | 2,654 |
+Operating lease, right-of-use-assets | 16,404 | 17,202 |
+Property, plant and equipment, net of accumulated depreciation | 248,444 | 259,068 |
+Equity investment | 64,247 | 64,096 |
+Goodwill | 215,412 | 216,029 |
+Intangible assets, net | 15,482 | 16,302 |
+Deferred tax assets | 90,632 | 89,524 |
+Other assets | 2,411 | 2,433 |
+Total assets | $ | 1,255,850 | $ | 1,224,362 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY | |
+Current liabilities: | |
+Accounts payable | $ | 54,226 | $ | 47,436 |
+Accrued liabilities | 42,123 | 47,535 |
+Current portion of long-term debt, net of unamortized issuance costs | 1,145 | 1,137 |
+Deferred revenue | 26,291 | 20,091 |
+Operating lease liabilities | 8,326 | 7,662 |
+Total current liabilities | 132,111 | 123,861 |
+Long-term debt, less current portion, net of unamortized issuance costs | 10,782 | 11,071 |
+Deferred tax liabilities | 1,568 | 1,600 |
+Long-term operating lease liabilities | 11,638 | 12,488 |
+Deferred grant | 18,000 | 18,000 |
+Other liabilities | 22,952 | 21,939 |
+Total liabilities | 197,051 | 188,959 |
+|
+Stockholders’ equity: | |
+Common stock, $ 0.001 par value:
+| |
+250,000,000 shares authorized; 77,954,440 and 77,647,935 shares issued and outstanding
+| 78 | 78 |
+Additional paid-in capital | 870,689 | 863,547 |
+Accumulated other comprehensive loss | ( 7,658 ) | ( 3,528 ) |
+Accumulated income | 195,690 | 175,306 |
+Total stockholders’ equity | 1,058,799 | 1,035,403 |
+Total liabilities and stockholders’ equity | $ | 1,255,850 | $ | 1,224,362 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+3
+FORMFACTOR, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF INCOME
+(In thousands, except per share amounts)
+(Unaudited)
+| Three Months Ended |
+| March 28,
+2026 | March 29,
+2025 |
+Revenues | $ | 226,144 | $ | 171,356 |
+Cost of revenues | 139,350 | 106,833 |
+Gross profit | 86,794 | 64,523 |
+Operating expenses: |
+Research and development | 30,780 | 27,800 |
+Selling, general and administrative | 32,292 | 33,454 |
+Factory start-up costs | 7,074 | — |
+Total operating expenses | 70,146 | 61,254 |
+Operating income | 16,648 | 3,269 |
+Interest income, net | 2,174 | 3,317 |
+Other income, net
+| 441 | 890 |
+Income before income taxes and equity investment
+| 19,263 | 7,476 |
+Provision for income taxes | 396 | 1,075 |
+Income from equity investment
+| 1,517 | — |
+Net income | $ | 20,384 | $ | 6,401 |
+Net income per share: |
+Basic | $ | 0.26 | $ | 0.08 |
+Diluted | $ | 0.26 | $ | 0.08 |
+Weighted-average number of shares used in per share calculations: |
+Basic | 77,825 | 77,345 |
+Diluted | 79,415 | 77,884 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+4
+FORMFACTOR, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(In thousands)
+(Unaudited)
+Three Months Ended |
+March 28,
+2026 | March 29,
+2025 |
+Net income | $ | 20,384 | $ | 6,401 |
+Other comprehensive income (loss), net of tax: |
+Foreign currency translation adjustments | ( 3,479 ) | 3,339 |
+Unrealized gains (losses) on available-for-sale marketable securities | ( 699 ) | 370 |
+Unrealized gains on derivative instruments | 48 | 1,094 |
+Other comprehensive income (loss), net of tax: | ( 4,130 ) | 4,803 |
+Comprehensive income | $ | 16,254 | $ | 11,204 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+5
+FORMFACTOR, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+(In thousands, except shares)
+(Unaudited)
+| Shares of
+Common
+Stock | Common
+Stock | Additional
+Paid-in
+Capital | Accumulated
+Other
+Comprehensive
+Loss
+| Accumulated
+Income
+| Total |
+Three Months Ended March 28, 2026
+|
+Balances, December 27, 2025
+| 77,647,935 | $ | 78 | $ | 863,547 | $ | ( 3,528 ) | $ | 175,306 | $ | 1,035,403 |
+Issuance of common stock under the Employee Stock Purchase Plan | 176,570 | — | 5,836 | — | — | 5,836 |
+Issuance of common stock pursuant to vesting of restricted stock units, net of stock withheld for tax | 129,935 | — | ( 6,751 ) | — | — | ( 6,751 ) |
+Stock-based compensation | — | — | 8,057 | — | — | 8,057 |
+Other comprehensive loss | — | — | — | ( 4,130 ) | — | ( 4,130 ) |
+Net income | — | — | — | — | 20,384 | 20,384 |
+Balances, March 28, 2026
+| 77,954,440 | $ | 78 | $ | 870,689 | $ | ( 7,658 ) | $ | 195,690 | $ | 1,058,799 |
+Three Months Ended March 29, 2025
+|
+Balances, December 28, 2024 | 77,114,633 | $ | 77 | $ | 837,586 | $ | ( 10,840 ) | $ | 120,945 | $ | 947,768 |
+Issuance of common stock under the Employee Stock Purchase Plan | 197,051 | — | 6,576 | — | — | 6,576 |
+Issuance of common stock pursuant to vesting of restricted stock units, net of stock withheld for tax | 93,981 | — | ( 2,132 ) | — | — | ( 2,132 ) |
+Issuance of common stock pursuant to private placement
+| 334,971 | — | 15,000 | — | — | 15,000 |
+Purchase and retirement of common stock through repurchase program | ( 665,000 ) | — | ( 22,207 ) | — | — | ( 22,207 ) |
+Stock-based compensation | — | — | 9,665 | — | — | 9,665 |
+Other comprehensive income | — | — | — | 4,803 | — | 4,803 |
+Net income | — | — | — | — | 6,401 | 6,401 |
+Balances, March 29, 2025
+| 77,075,636 | $ | 77 | $ | 844,488 | $ | ( 6,037 ) | $ | 127,346 | $ | 965,874 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+6
+FORMFACTOR, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+| Three Months Ended |
+| March 28,
+2026 | March 29,
+2025 |
+Cash flows from operating activities: | | |
+Net income | $ | 20,384 | $ | 6,401 |
+Adjustments to reconcile net income to net cash provided by operating activities: | |
+Depreciation and amortization | 9,172 | 8,830 |
+Reduction in the carrying amount of right-of-use assets | 1,566 | 1,803 |
+Stock-based compensation expense | 8,063 | 9,796 |
+Deferred income tax benefit | ( 1,136 ) | ( 691 ) |
+Provision for excess and obsolete inventories | 4,804 | 2,879 |
+Non-cash restructuring charges | 15,994 | 2,102 |
+Income from equity investment
+| ( 1,517 ) | — |
+Other adjustments to reconcile net income to net cash provided by operating activities | 25 | ( 1,024 ) |
+Changes in assets and liabilities: |
+Accounts receivable | ( 7,014 ) | 6,293 |
+Inventories | ( 7,428 ) | ( 10,196 ) |
+Prepaid expenses and other current assets | ( 5,743 ) | ( 3,794 ) |
+Other assets | 32 | 469 |
+Accounts payable | 7,525 | 10,535 |
+Accrued liabilities | ( 5,264 ) | ( 7,926 ) |
+Other liabilities | 1,389 | 712 |
+Deferred revenues | 5,981 | ( 620 ) |
+Operating lease liabilities | ( 1,872 ) | ( 2,030 ) |
+Net cash provided by operating activities | 44,961 | 23,539 |
+Cash flows from investing activities: | | |
+Acquisition of property, plant and equipment | ( 15,192 ) | ( 18,584 ) |
+Proceeds from sale of assets | 76 | — |
+Purchase of equity investment | — | ( 67,156 ) |
+Purchases of marketable securities | ( 37,110 ) | ( 26,330 ) |
+Proceeds from maturities and sales of marketable securities | 28,819 | 27,410 |
+Net cash used in investing activities | ( 23,407 ) | ( 84,660 ) |
+Cash flows from financing activities: | | |
+Proceeds from issuances of common stock | 5,836 | 21,576 |
+Purchase of common stock through stock repurchase program | — | ( 22,135 ) |
+Tax withholdings related to net share settlements of equity awards | ( 6,751 ) | ( 2,132 ) |
+Payments on term loan | ( 281 ) | ( 273 ) |
+Net cash used in financing activities | ( 1,196 ) | ( 2,964 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | ( 957 ) | 180 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 19,401 | ( 63,905 ) |
+Cash, cash equivalents and restricted cash, beginning of year | 107,047 | 197,206 |
+Cash, cash equivalents and restricted cash, end of period | $ 

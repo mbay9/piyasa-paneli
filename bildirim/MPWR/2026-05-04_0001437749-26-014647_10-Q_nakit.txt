@@ -1,0 +1,813 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1280452/000143774926014647/mpwr20260331_10q.htm
+SEMBOL: MPWR
+BASVURU_TARIHI: 2026-05-04
+BASVURU: 0001437749-26-014647
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+|
+8
+|
+|
+Notes to Condensed Consolidated Financial Statements
+|
+9
+|
+Item 2.
+|
+Management ’ s Discussion and Analysis of Financial Condition and Results of Operations
+|
+21
+|
+Item 3.
+|
+Quantitative and Qualitative Disclosures About Market Risk
+|
+28
+|
+Item 4.
+|
+Controls and Procedures
+|
+28
+|
+|
+|
+PART II. OTHER INFORMATION
+|
+29
+|
+Item 1.
+|
+Legal Proceedings
+|
+29
+|
+Item 1A.
+|
+Risk Factors
+|
+29
+|
+Item 2.
+|
+Unregistered Sales of Equity Securities and Use of Proceeds
+|
+30
+|
+Item 3.
+|
+Defaults Upon Senior Securities
+|
+30
+|
+Item 4.
+|
+Mine Safety Disclosures
+|
+30
+|
+Item 5.
+|
+Other Information
+|
+30
+|
+Item 6.
+|
+Exhibits
+|
+31
+|
+3
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements
+MONOLITHIC POWER SYSTEMS, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In thousands, except par value)
+(Unaudited)
+| | March 31,
+| | December 31,
+|
+| | 2026
+| | 2025
+|
+ASSETS
+| | | | | | | | |
+Current assets:
+| | | | | | | | |
+Cash and cash equivalents
+| | $ | 1,062,930 | | | $ | 1,099,302 | |
+Short-term investments
+| | | 304,179 | | | | 157,243 | |
+Accounts receivable, net
+| | | 302,138 | | | | 255,626 | |
+Inventories
+| | | 619,159 | | | | 564,649 | |
+Other current assets
+| | | 42,689 | | | | 106,982 | |
+Total current assets
+| | | 2,331,095 | | | | 2,183,802 | |
+Property and equipment, net
+| | | 693,864 | | | | 627,689 | |
+Acquisition-related intangible assets, net
+| | | 8,503 | | | | 8,790 | |
+Goodwill
+| | | 25,944 | | | | 25,944 | |
+Deferred tax assets, net
+| | | 1,182,845 | | | | 1,182,883 | |
+Other long-term assets
+| | | 206,615 | | | | 165,091 | |
+Total assets
+| | $ | 4,448,866 | | | $ | 4,194,199 | |
+| | | | | | | | |
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+| | | | | | | | |
+Current liabilities:
+| | | | | | | | |
+Accounts payable
+| | $ | 174,499 | | | $ | 138,272 | |
+Accrued compensation and related benefits
+| | | 98,768 | | | | 85,963 | |
+Other accrued liabilities
+| | | 213,691 | | | | 145,130 | |
+Total current liabilities
+| | | 486,958 | | | | 369,365 | |
+Income tax liabilities
+| | | 75,022 | | | | 75,022 | |
+Deferred tax liabilities
+| | | 90,316 | | | | 90,480 | |
+Other long-term liabilities
+| | | 119,160 | | | | 127,835 | |
+Total liabilities
+| | | 771,456 | | | | 662,702 | |
+Commitments and contingencies (Note 7)
+| | | | | | | | |
+Stockholders’ equity:
+| | | | | | | | |
+Common stock and additional paid-in capital: $ 0.001 par value; shares authorized: 150,000 ; shares issued and outstanding: 49,129 and 48,709 , respectively
+| | | 983,926 | | | | 936,998 | |
+Retained earnings
+| | | 2,703,596 | | | | 2,609,651 | |
+Accumulated other comprehensive loss
+| | | ( 10,112 | ) | | | ( 15,152 | ) |
+Total stockholders’ equity
+| | | 3,677,410 | | | | 3,531,497 | |
+Total liabilities and stockholders’ equity
+| | $ | 4,448,866 | | | $ | 4,194,199 | |
+See accompanying notes to unaudited condensed consolidated financial statements.
+4
+Table of Contents
+MONOLITHIC POWER SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(In thousands, except per-share amounts)
+(Unaudited)
+|
+|
+Three Months Ended March 31,
+|
+|
+|
+2026
+|
+|
+2025
+|
+Revenue
+|
+|
+$ |
+804,185 |
+|
+|
+$ |
+637,554 |
+|
+Cost of revenue
+|
+|
+|
+359,120 |
+|
+|
+|
+284,324 |
+|
+Gross profit
+|
+|
+|
+445,065 |
+|
+|
+|
+353,230 |
+|
+Operating expenses:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Research and development
+|
+|
+|
+100,566 |
+|
+|
+|
+92,227 |
+|
+Selling, general and administrative
+|
+|
+|
+103,347 |
+|
+|
+|
+92,244 |
+|
+Total operating expenses
+|
+|
+|
+203,913 |
+|
+|
+|
+184,471 |
+|
+Operating income
+|
+|
+|
+241,152 |
+|
+|
+|
+168,759 |
+|
+Other income, net
+|
+|
+|
+6,030 |
+|
+|
+|
+5,131 |
+|
+Income before income taxes
+|
+|
+|
+247,182 |
+|
+|
+|
+173,890 |
+|
+Income tax expense
+|
+|
+|
+53,956 |
+|
+|
+|
+38,838 |
+|
+Net income
+|
+|
+$ |
+193,226 |
+|
+|
+$ |
+135,052 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income per share:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$ |
+3.94 |
+|
+|
+$ |
+2.82 |
+|
+Diluted
+|
+|
+$ |
+3.92 |
+|
+|
+$ |
+2.81 |
+|
+Weighted-average shares outstanding:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+49,097 |
+|
+|
+|
+47,851 |
+|
+Diluted
+|
+|
+|
+49,242 |
+|
+|
+|
+48,006 |
+|
+See accompanying notes to unaudited condensed consolidated financial statements.
+5
+Table of Contents
+MONOLITHIC POWER SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(In thousands)
+(Unaudited)
+|
+|
+Three Months Ended March 31,
+|
+|
+|
+2026
+|
+|
+2025
+|
+Net income
+|
+|
+$ |
+193,226 |
+|
+|
+$ |
+135,052 |
+|
+Other comprehensive income, net of tax
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Foreign currency translation adjustments
+|
+|
+|
+5,039 |
+|
+|
+|
+5,139 |
+|
+Net change in unrealized gains and losses on available-for-sale securities
+|
+|
+|
+1 |
+|
+|
+|
+48 |
+|
+Other comprehensive income, net of tax
+|
+|
+|
+5,040 |
+|
+|
+|
+5,187 |
+|
+Comprehensive income
+|
+|
+$ |
+198,266 |
+|
+|
+$ |
+140,239 |
+|
+See accompanying notes to unaudited condensed consolidated financial statements.
+6
+Table of Contents
+MONOLITHIC POWER SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS ’ EQUITY
+(In thousands, except per-share amounts)
+(Unaudited)
+| | | | | | | | | | | | | | Accumulated
+| | | | |
+| | Common Stock and
+| | | | | | Other
+| | Total
+|
+| | Additional Paid-in Capital
+| | Retained
+| | Comprehensive
+| | Stockholders’
+|
+Three Months Ended March 31, 2026
+| | Shares
+| | Amount
+| | Earnings
+| | Loss
+| | Equity
+|
+Balance as of January 1, 2026
+| | | 48,709 | | | $ | 936,998 | | | $ | 2,609,651 | | | $ | ( 15,152 | ) | | $ | 3,531,497 | |
+Net income
+| | | - | | | | - | | | | 193,226 | | | | - | | | | 193,226 | |
+Other comprehensive income
+| | | - | | | | - | | | | - | | | | 5,040 | | | | 5,040 | |
+Dividends and dividend equivalents declared ($ 2.00 per share)
+| | | - | | | | - | | | | ( 99,281 | ) | | | - | | | | ( 99,281 | ) |
+Common stock issued
+| | | 420 | | | | 5,830 | | | | - | | | | - | | | | 5,830 | |
+Stock-based compensation expense
+| | | - | | | | 41,098 | | | | - | | | | - | | | | 41,098 | |
+Balance as of March 31, 2026
+| | | 49,129 | | | $ | 983,926 | | | $ | 2,703,596 | | | $ | ( 10,112 | ) | | $ | 3,677,410 | |
+| | | | | | | | | | | | | | Accumulated
+| | | | |
+| | Common Stock and
+| | | | | | Other
+| | Total
+|
+| | Additional Paid-in Capital
+| | Retained
+| | Comprehensive
+| | Stockholders’
+|
+Three Months Ended March 31, 2025
+| | Shares
+| | Amount
+| | Earnings
+| | Loss
+| | Equity
+|
+Balance as of January 1, 2025
+| | | 47,823 | | | $ | 706,817 | | | $ | 2,292,819 | | | $ | ( 48,511 | ) | | $ | 2,951,125 | |
+Net income
+| | | - | | | | - | | | | 135,052 | | | | - | | | | 135,052 | |
+Other comprehensive income
+| | | - | | | | - | | | | - | | | | 5,187 | | | | 5,187 | |
+Dividends and dividend equivalents declared ($ 1.56 per share)
+| | | - | | | | - | | | | ( 75,877 | ) | | | - | | | | ( 75,877 | ) |
+Common stock issued
+| | | 54 | | | | 5,335 | | | | - | | | | - | | | | 5,335 | |
+Stock-based compensation expense
+| | | - | | | | 52,807 | | | | - | | | | - | | | | 52,807 | |
+Balance as of March 31, 2025
+| | | 47,877 | | | $ | 764,959 | | | $ | 2,351,994 | | | $ | ( 43,324 | ) | | $ | 3,073,629 | |
+See accompanying notes to unaudited condensed consolidated financial statements.
+7
+Table of Contents
+MONOLITHIC POWER SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+|
+|
+Three Months Ended March 31,
+|
+|
+|
+2026
+|
+|
+2025
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+$ |
+193,226 |
+|
+|
+$ |
+135,052 |
+|
+Adjustments to reconcile net income to net cash provided by operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Depreciation and amortization
+|
+|
+|
+15,106 |
+|
+|
+|
+11,449 |
+|
+Loss on deferred compensation plan investments
+|
+|
+|
+1,588 |
+|
+|
+|
+1,350 |
+|
+Deferred taxes, net
+|
+|
+|
+( 152 |
+) |
+|
+|
+7,170 |
+|
+Stock-based compensation expense
+|
+|
+|
+41,098 |
+|
+|
+|
+52,806 |
+|
+Other
+|
+|
+|
+( 696 |
+) |
+|
+|
+( 748 |
+) |
+Changes in operating assets and liabilities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable
+|
+|
+|
+( 46,512 |
+) |
+|
+|
+( 42,338 |
+) |
+Inventories
+|
+|
+|
+( 54,507 |
+) |
+|
+|
+( 35,180 |
+) |
+Other assets
+|
+|
+|
+17,525 |
+|
+|
+|
+78,005 |
+|
+Accounts payable
+|
+|
+|
+29,730 |
+|
+|
+|
+21,296 |
+|
+Accrued compensation and related benefits
+|
+|
+|
+12,576 |
+|
+|
+|
+10,609 |
+|
+Income tax liabilities
+|
+|
+|
+25,973 |
+|
+|
+|
+21,471 |
+|
+Other accrued liabilities
+|
+|
+|
+15,298 |
+|
+|
+|
+( 4,555 |
+) |
+Net cash provided by operating activities
+|
+|
+|
+250,253 |
+|
+|
+|
+256,387 |
+|
+Cash flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Purchases of property and equipment
+|
+|
+|
+( 70,849 |
+) |
+|
+|
+( 40,342 |
+) |
+Sales of property and equipment
+|
+|
+|
+6,422 |
+|
+|
+|
+- |
+|
+Purchases of investments
+|
+|
+|
+( 161,809 |
+) |
+|
+|
+( 357,633 |
+) |
+Maturities and sales of investments
+|
+|
+|
+14,437 |
+|
+|
+|
+141,065 |
+|
+Contributions to deferred compensation plan
+|
+|
+|
+( 523 |
+) |
+|
+|
+( 575 |
+) |
+Net cash used in investing activities
+|
+|
+|
+( 212,322 |
+) |
+|
+|
+( 257,485 |
+) |
+Cash flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Property and equipment purchased on extended payment terms
+|
+|
+|
+( 2,697 |
+) |
+|
+|
+( 1,243 |
+) |
+Proceeds from common stock issued
+|
+|
+|
+5,830 |
+|
+|
+|
+5,335 |
+|
+Dividends and dividend equivalents paid
+|
+|
+|
+( 78,399 |
+) |
+|
+|
+( 60,008 |
+) |
+Net cash used in finan

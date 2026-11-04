@@ -1,0 +1,271 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2080126/000208012626000017/exhibit991earningsrelease_.htm
+SEMBOL: FPS
+BASVURU_TARIHI: 2026-05-14
+BASVURU: 0002080126-26-000017
+
+EX-99.1
+2
+exhibit991earningsrelease_.htm
+EX-99.1
+Document
+Exhibit 99.1
+Forgent Reports Third Quarter 2026 Results, Raises Fiscal 2026 Guidance
+on Record Orders, Backlog and Sequential Margin Expansion
+Fiscal Third Quarter 2026 Highlights
+• Revenues of $379 million , an increase of 103% year-over-year
+• Bookings of $867 million, an increase of 308% year-over-year; Book-to-bill ra tio of 2.3x
+• Backlog of $1.98 billion , an increase of 157% year-over-year and 33% quarter-over-quarter, respectively
+• Net Income of $24 million, an increase of 190% year-over-year
+• Net Income margin of 6.5% , an increase of ~650 bps quarter-over-quarter
+• Adjusted EBITDA of $85 million, an increase of 96% year-over-year
+• Adjusted EBITDA margin of 22.4% , an increase of ~200 bps quarter-over-quarter
+• Adjusted Net Income of $55 million, an increase of 132% year-over-year
+• Cash flow from operations of $29 million , an increase of $37 million year-over-year
+Updated Full Year Fiscal 2026 Guidance
+• Revenues in the range of $1,350 to $1,390 million, representing 82% YoY growth at the midpoint
+• Adjusted EBITDA in the range of $310 to $320 million, representing 86% YoY growth at the midpoint
+• Adjusted Net Income in the range of $197 to $207 million, representing 128% YoY growth at the midpoint
+DAYTON, MN - May 14, 2026 - Forgent Power Solutions, Inc. ("Forgent" or the "Company") (NYSE: FPS), a leading designer and manufacturer of electrical distribution equipment used in data centers, the power grid and energy-intensive industrial facilities, today announced financial results for its fiscal third quarter ended March 31, 2026.
+Forgent reported fiscal third quarter revenues of $379 million, an increase of $192 million, or 103%, compared to the prior year’s quarter. Bookings in the quarter were the highest in the Company’s history at $867 million, representing an increase of 308% year-over-year and 14% quarter-over-quarter. The Company’s book-to-bill ratio was 2.3x, compared with 1.1x in the prior year’s quarter. As of March 31, 2026, Forgent’s backlog reached a record $1.98 billion, representing an increase of 157% and 33%, versus March 31, 2025 and December 31, 2025, respectively.
+“Demand for our products continues to outpace our expectations. Year-over-year growth in both revenues and orders was higher in the third quarter than in the second, despite growing off a larger base. These results reflect the success of our manufacturing expansion, robust demand across our data center and grid end markets, and our differentiated ability to deliver customized solutions at scale with some of the shortest lead times in the industry,” said Gary Niederpruem, Chief Executive Officer of Forgent. Mr. Niederpruem added, “In an environment where speed-to-power and technical agility are defining project success, customers are increasingly choosing Forgent for our ability to deliver highly customized solutions with greater timeline certainty, supported by our vertical integration, agile manufacturing model and deep engineering expertise.”
+Net Income for the fiscal third quarter was $24 million, an increase of $16 million or 190%, compared to the prior year’s quarter. Adjusted Net Income for the fiscal third quarter was $55 million, an increase of $31 million or 132%, compared to the prior year’s quarter. Net Income and Adjusted Net Income increased primarily due to higher gross profit, partially offset by higher selling, general and administrative costs. Net Income margin was 6.5% in the third quarter, approximately 650 basis points higher sequentially, as the second quarter included the write-off of $10 million of deferred financing costs related to the refinancing of the Company’s term loan.
+Adjusted EBITDA for the fiscal third quarter was $85 million, an increase of $41 million or 96%, compared to the prior year’s quarter. Adjusted EBITDA increased primarily due to higher gross profit, partially offset by higher selling, general and administrative costs. Adjusted EBITDA margin was 22.4% in the quarter, representing an increase of approximately 200 basis points quarter-over-quarter. Adjusted EBITDA margin expanded sequentially as revenue growth outpaced operating cost growth. Gross margin expanded modestly in the quarter, but was impacted by under-absorbed labor costs
+related to accelerated headcount growth, under-absorbed fixed overhead relating to new campuses ramping toward their target production rates and one-time startup costs at new campuses.
+“We are raising our guidance to reflect the accelerating demand we are seeing across our business, and we are fully booked against our fourth quarter plan. While our margins continue to be impacted by accelerated hiring and one-time costs at our new facilities, the pace of revenue growth is enabling us to absorb investments in headcount and facilities more quickly,” said Ryan Fiedler, Chief Financial Officer of Forgent. Mr. Fiedler added, “Those items had less of an impact this quarter than last quarter, falling from approximately 2.0% of revenues in the second quarter to 1.8% of revenues this quarter. We expect sequential expansion in Adjusted EBITDA margin again in the fourth quarter as higher production volumes continue to drive greater SG&A leverage and absorption of labor and overhead.”
+Cash flow from operations improved $37 million year-over-year to $29 million in the third quarter, despite continued working capital investment to support higher planned production volumes in coming quarters. Capital expenditures in the quarter were $28 million and related almost entirely to the Company’s capacity expansion plan, which remains on track to be substantially completed by the end of fiscal 2026. Following completion of the capacity expansion plan, the Company expects it will have the footprint to support up to $5 billion of annual revenues and expects capital expenditures to fall significantly.
+“Our third quarter results—across record orders and backlog, accelerating revenue growth, margin expansion, and the transition toward cash generation—reinforces our confidence in the trajectory of the business. We have clear line of sight to closing out a strong fiscal 2026 and entering fiscal 2027 with positive momentum,” concluded Mr. Niederpruem.
+Summary of Key Performance Indicators
+The table below summarizes our key performance indicators for the quarters ended March 31, 2026 and 2025: | | | | | | | | | | | | | | | | | |
+| (in thousands) |
+| Three Months Ended |
+| March 31, |
+| 2026 | | 2025 | | % Change |
+Revenues | $378,709 | | $186,224 | | 103% |
+Net Income | $24,475 | | $8,439 | | 190% |
+Adjusted EBITDA (1)
+| $84,682 | | $43,254 | | 96% |
+Adjusted Net Income (1)
+| $55,272 | | $23,797 | | 132% |
+(1) Represents non-GAAP measures. See “Non-GAAP Measures” below for more information.
+Updated Fiscal 2026 Guidance
+Forgent is raising its fiscal 2026 guidance from the outlook previously provided on March 16, 2026 to reflect accelerating demand for its products, record orders and backlog, and strong execution. Based on backlog, expected production schedules, current business conditions and other factors, the Company now expects its fourth quarter and full year fiscal 2026 results to be within the following ranges:
+| | | | | | | | | | | |
+| (in millions) |
+| Fourth Quarter
+Fiscal 2026 Guidance | | Full Year
+Fiscal 2026 Guidance |
+Revenues | $392 - $432 | | $1,350 - $1,390 |
+Adjusted EBITDA (2)
+| $100 - $110 | | $310 - $320 |
+Adjusted Net Income (2)
+| $67 - $77 | | $197 - $207 |
+(2) Represents forward-looking non-GAAP financial measures. See “Non-GAAP Measures” below for more information.
+Conference Call Information
+The Company will host a conference call on May 14, 2026 at 11:00 a.m. Eastern Time to discuss its fiscal third quarter 2026 financial results and outlook. A webcast of the live conference call will be available on the Investor Relations section of the Company's website at ir.forgentpower.com . A replay of the conference call will be available for one year following the webcast.
+About Forgent Power Solutions
+Forgent (NYSE: FPS) is a leading U.S. designer and manufacturer of electrical distribution equipment used in data centers, the power grid and energy-intensive industrial facilities. The Company specializes in manufacturing custom products that are “engineered-to-order” for technically demanding applications. We believe Forgent is one of a small number of companies that can manufacture all of the electrical distribution equipment required for a data center or large manufacturing facility's powertrain with some of the highest levels of customization and shortest lead times available in the industry. For more information about Forgent, please visit us at forgentpower.com .
+Investor Contact
+Kate Africk - Investor Relations, VP
+kate.africk@forgentpower.com
+Media Contact
+media@forgentpower.com
+Cautionary Note Regarding Forward-Looking Statements
+This press release and accompanying audio webcast contain forward-looking statements that are based on our management’s beliefs, expectations and assumptions and currently available information. Forward-looking statements include information concerning our possible or assumed future results of operations, business strategies, technology developments, financing and investment plans, dividend policy, competitive position, industry and regulatory environment, potential growth opportunities and the effects of competition. Forward-looking statements include statements that are not historical facts and may be identified by terms such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “will,” “would” and similar expressions. Because forward-looking statements relate to the future, by their nature, they are subject to inherent risks, uncertainties and other changes in circumstances we cannot predict. As a result, our actual results may differ materially from those contemplated by the forward-looking statements and you should not place undue reliance on such statements.
+Important factors that could cause actual results to differ materially from our expectations include if there is less demand for, or greater supply of, electrical distribution equipment in the future, the price of electrical distribution equipment could decline which would adversely impact both our revenue growth and profit margins; if the prices of raw materials, such as electrical steel, carbon steel, aluminum or copper, or labor costs increase in the future and we are unable to pass those increases on to our customers, our profit margins could be significantly impacted; our cost of and access to raw materials and components from international vendors could be adversely impacted by changes in government policies, including the imposition of additional duties, tariffs and other charges on imports and exports or restrictions on purchases of components from certain foreign countries; significant disruptions to our supply chain, including the high cost or unavailability of raw materials and components required to manufacture our products, and significant disruptions to our distribution networks could have a material adverse effect on our business, financial condition and results of operations; our growth depends in part on continued investment in new data centers, which depends in part on continued interest in developing artificial intelligence; demand for our products depends, in large part, on new construction activity which has declined significantly during past recessions; any delay or interruption in the operations of any of our manufacturing campuses could impair our ability to provide products to customers; if we are unable to complete our expansion in the timeframe we anticipate or the expansion does not give us the additional capacity that we expect, we may not be able to achieve our anticipated level of growth; amounts included in our backlog may not result in the revenue or generate profits in the amount we expect or on the timeframe that we anticipate; we operate in competitive environments, and our failure
+to compete successfully could cause us to lose market share; any failure of our products could subject us to substantial liability, including product liability claims, which could damage our reputation or the reputation of one or more of our brands; the long sales cycles for certain of our electrical distribution equipment, as well as unpredictable placing or canceling of customer orders, particularly large orders, may cause our revenues and operating results to vary significantly from quarter-to-quarter, which could make our future results of operations less predictable; if changing efficiency standards for transformers increases the cost of producing our transformer products and we are unable to pass these higher costs on to our customers, margins on our transformer products could decline; if we fail to motivate and retain our key personnel or if we fail to attract additional qualified personnel, we may not be able to achieve our anticipated level of growth; changes in technology or customer preferences could result in less demand for certain categories of electrical distribution equipment; large companies often require more favorable terms and conditions in our contracts, which could result in downward pricing pressures on our business, less desirable payment terms or greater warranty and contractual obligations; our strategy to increase our sales of Powertrain Solutions could result in a concentration of our sales with fewer customers and a significant reduction in orders from any one of these customers could adversely impact our business; our operations and quality control could be disrupted if we encounter problems with outside vendors, subcontractors and third-party suppliers; unexpected events, such as natural disasters, geopolitical conflicts, pandemics, a volatile global economic environment, inflation, high interest rates, a potential recession and other events beyond our control, may increase our cost of doing business or disrupt our operations; the integration of the business acquisitions poses risks to the operation of our business; environmental, health and safety laws and regulations could result in substantial costs and liabilities; the impact of import or export laws could have a material adverse effect on our business, financial condition and results of operations; our indebtedness may restrict our current and future operations; our organizational structure, including the Tax Receivable Agreement (as defined in our filings with the SEC), confers certain benefits upon the Continuing Equity Owners (as defined in our filings with the SEC) that will not benefit certain holders of our Class A common stock to the same extent it will benefit the Continuing Equity Owners; in certain cases, payments under the Tax Receivable Agreement to the Continuing Equity Owners may be accelerated or significantly exceed any actual benefits we realize in respect of the tax attributes subject to the Tax Receivable Agreement; our status as a “controlled company” and ability to rely on exemptions from certain corporate governance requirements; Neos Partners, LP will have significant influence over us and its interests may conflict with our interests and the interest of other stockholders; Delaware law and anti-takeover provisions in our governing documents may have the effect of delaying or preventing a change of control or changes in our management and may deprive our investors of the opportunity to receive a premium for their shares; the requirements of being a public company may strain our resources, divert management’s attention and affect our ability to attract and retain qualified board members and officers; and the other factors discussed in the Company’s filings with the SEC .
+The forward-looking statements included in this document represent our management’s beliefs and assumptions only as of the date hereof. Except as required by law, we assume no obligation to update or revise these forward-looking statements as a result of new information, future events or otherwise.
+Non-GAAP Measures
+This press release contains certain financial measures that are not calculated in accordance with generally accepted accounting principles (GAAP). These non-GAAP financial measures are presented as supplemental information to provide additional insight into our operating performance and to enhance the overall understanding of our financial results. We believe these non-GAAP measures are useful to investors because they facilitate comparisons of our core operating results across reporting periods and provide a clearer understanding of the factors and trends affecting our business.
+These non-GAAP financial measures should not be considered in isolation or as a substitute for financial information prepared in accordance with GAAP. There are limitations associated with the use of non-GAAP financial measures, including that they may not be comparable to similarly titled measures used by other companies. Reconciliations of these non-GAAP financial measures to the most directly comparable GAAP measures are provided within this press release. The Company does not reconcile its forward-looking non-GAAP financial measures to the corresponding U.S. GAAP measures, due to variability and difficulty in making accurate forecasts and projections and/or certain information not
+being ascertainable or accessible; and because not all of the information, such as foreign currency impacts necessary for a quantitative reconciliation of these forward-looking non-GAAP financial measures to the most directly comparable U.S. GAAP financial measure, is available to the Company without unreasonable efforts. For the same reasons, the Company is unable to address the probable significance of the unavailable information. The Company provides non-GAAP financial measures that it believes will be achieved, however it cannot accurately predict all of the components of the adjusted calculations and the U.S. GAAP measures may be materially different than the non-GAAP measures.
+FORGENT INTERMEDIATE LLC
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in thousands; unaudited)
+| | | | | | | | | | | |
+| March 31,
+2026 | | June 30,
+2025 |
+Assets | | | |
+Current Assets | | | |
+Cash and cash equivalents | $93,831 | | $111,322 |
+Accounts receivable, net | 274,592 | | 159,970 |
+Inventory, net | 179,496 | | 117,577 |
+Prepaid and other current assets | 59,528 | | 56,278 |
+Total Current Assets | 607,447 | | 445,147 |
+Property and equipment, net | 179,374 | | 108,170 |
+Operating lease right of use assets | 110,779 | | 117,769 |
+Goodwill | 516,629 | | 516,629 |
+Other intangible assets, net | 300,265 | | 337,271 |
+Deferred tax assets | 131,675 | | — |
+Other assets | 7,172 | | 11,700 |
+Total Assets | $1,853,341 | | $1,536,686 |
+| | | |
+Liabilities and Stockholders’s Equity / Member's Equity | | | |
+Current Liabilities | | | |
+Accounts payable | $104,693 | | $61,943 |
+Accrued expenses | 116,612 | | 79,541 |
+Payables pursuant to the acquisitions | 1,081 | | 17,226 |
+Deferred revenue | 133,514 | | 110,895 |
+Operating lease liabilities, current portion | 8,346 | | 6,879 |
+Long-term debt, current portion | 6,000 | | 5,173 |
+Total Current Liabilities | 370,246 | | 281,657 |
+Long-term debt, net of discount and deferred financing costs, less current portion | 578,129 | | 496,934 |
+Payable pursuant to the Tax Receivable Agreement | 207,286 | | — |
+Deferred tax liability, net | — | | 63,318 |
+Operating lease liabilities, less current portion | 115,084 | | 121,491 |
+Total Liabilities | 1,270,745 | | 963,400 |
+| | | |
+Stockholder's Equity / Member's Equity | | | |
+Member’s equity | — | | 374,534 |
+Preferred stock, $0.00001 par value; 20,000,000 shares authorized; none issued and outstanding | — | | — |
+Class A common stock, $0.00001 par value; 2,000,000,000 shares authorized; 244,118,850 issued and outstanding | 2 | | — |
+Class B common stock, $0.00001 par value; 100,000,000 shares authorized; 60,310,039 issued and outstanding | 1 | | — |
+Additional paid-in capital | 420,457 | | — |
+Retained earnings | 26,021 | | — |
+Total Stockholder's Equity Attributable to Forgent Power Solutions, Inc. / Member's Equity | 446,481 | | 374,534 |
+Non-controlling interests | 136,115 | | 198,752 |
+Total Stockholder’s Equity / Member's Equity | 582,596 | | 573,286 |
+Total Liabilities and Stockholder’s Equity / Member's Equity | $1,853,341 | | $1,536,686 |
+FORGENT INTERMEDIATE LLC
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands; unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended
+March 31, | | Nine Months Ended
+March 31, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Revenues | $378,709 | | $186,224 | | $958,387 | | $515,575 |
+Cost of Revenues | 247,513 | | 118,059 | | 627,483 | | 317,210 |
+Gross Profit | 131,196 | | 68,165 | | 330,904 | | 198,365 |
+Operating Expenses | | | | | | | |
+Selling, general, and administrative expenses | 78,518 | | 32,108 | | 200,246 | | 87,911 |
+Depreciation and amortization | 13,342 | | 13,657 | | 40,069 | | 46,508 |
+Total Operating Expenses | 91,860 | | 45,765 | | 240,315 | | 134,419 |
+Income from Operations | 39,336 | | 22,400 | | 90,589 | | 63,946 |
+Other Income (Expense) | | | | | | | |
+Interest expense | (10,839) | | (13,219) | | (45,704) | | (41,833) |
+Interest income | 701 | | 1,285 | | 2,088 | | 4,509 |
+Other expense | (319) | | (131) | | (95) | | (462) |
+Total Other Expense, net | (10,457) | | (12,065) | | (43,711) | | (37,786) |
+Income Before Tax Expense | 28,879 | | 10,335 | | 46,878 | | 26,160 |
+Income Tax Expense | (4,404) | | (1,896) | | (6,938) | | (3,953) |
+Net Income | 24,475 | | 8,439 | | 39,940 | | 22,207 |
+Less: net income attributable to non-controlling interests | 6,188 | | 1,557 | | 11,394 | | 4,451 |
+Net Income Attributable to Forgent Power Solutions, Inc. | $18,287 | | $6,882 | | $28,546 | | $17,756 |
+| | | | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+FORGENT INTERMEDIATE LLC
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands; unaudited)
+| | | | | | | | | | | |
+| Nine Months Ended
+March 31, |
+| 2026 | | 2025 |
+Cash Flows from Operating Activities | | | |
+Net income | $39,940 | | $22,207 |
+Adjustments to reconcile net income to net cash provided by operating activities: | | | |
+Depreciation and amortization | 50,406 | | 49,775 |
+Amortization / write off of discounts and deferred financing costs | 11,682 | | 1,955 |
+Deferred taxes | 3,646 | | (2,909) |
+Provision (recovery) for credit losses | 1,552 | | (446) |
+Provision for slowing-moving and excess inventory | 3,898 | | 353 |
+Equity-based compensation | 5,544 | | 1,272 |
+Reduction in carrying amount of ROU asset, operating leases | 6,990 | | 6,037 |
+Changes in assets and liabilities: | | | |
+Accounts receivable | (116,174) | | (49,811) |
+Inventory | (65,817) | | (26,689) |
+Prepaid and other assets | (3,987) | | (16,044) |
+Accounts payable | 42,750 | | 24,717 |
+Accrued expenses | 37,071 | | 8,689 |
+Deferred revenue | 22,619 | | 34,823 |
+Lease liabilities, operating leases | (4,940) | | (1,698) |
+Net Cash Provided by Operating Activities | 35,180 | | 52,231 |
+Cash Flows from Investing Activities | | | |
+Purchases of property and equipment | (84,604) | | (43,088) |
+Net Cash Used in Investing Activities | (84,604) | | (43,088) |
+Cash Flows from Financing Activities | | | |
+Proceeds from issuance of Class A common stock sold in an IPO, net of underwriting discounts and commissions | 491,833 | | — |
+Purchase of OpCo LLC Interests from Existing Shareholders with proceeds from IPO | (491,833) | | — |
+Proceeds from issuance of Class A common stock sold in follow-on offering, net of underwriting discounts and commissions | 308,561 | | — |
+Purchase of OpCo LLC Interests from Existing Shareholders with proceeds from follow-on offering | (308,561) | | — |
+Proceeds from long-term debt | 594,000 | | — |
+Payments on long-term debt | (511,110) | | (3,879) |
+Debt financing costs | (11,757) | | — |
+Distribution to member | (1,440) | | — |
+Payment of payable pursuant to the acquisitions | (16,145) | | (13,066) |
+Deferred offering costs | (21,615) | | (3,310) |
+Net Cash Provided by (Used in) Financing Activities | 31,933 | | (20,255) |
+Net Decrease in Cash and Cash Equivalents | (17,491) | | (11,112) |
+Cash and Cash Equivalents - Beginning of Period | 111,322 | | 186,396 |
+Cash and Cash Equivalents - End of Period | $93,831 | | $175,284 |
+Adjusted EBITDA
+Non-GAAP Financial Measures
+(Unaudited)
+The table below reconciles Net Income (the most directly comparable GAAP measure) to Adjusted EBITDA (a non-GAAP measure) for the periods presented (in thousands):
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended March 31, | | Nine Months Ended
+March 31, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Net Income | $24,475 | | $8,439 | | $39,940 | | $22,207 |
+Interest expense | 10,839 | | 13,219 | | 45,704 | | 41,833 |
+Interest income | (701) | | (1,285) | | (2,088) | | (4,509) |
+Income tax expense | 4,404 | | 1,896 | | 6,938 | | 3,953 |
+Depreciation expense | 6,423 | | 1,444 | | 13,400 | | 3,976 |
+Amortization of intangibles | 11,732 | | 13,432 | | 37,006 | | 45,799 |
+Equity-based compensation | 3,357 | | 367 | | 5,544 | | 1,272 |
+Sponsor fees and expenses (1)
+| 1,680 | | 2,885 | | 18,818 | | 7,310 |
+Public company readiness costs (2)
+| 16,884 | | 1,648 | | 20,965 | | 2,095 |
+Earnout expenses (3)
+| — | | — | | 5,400 | | — |
+Non-recurring integration and consulting fees (4)
+| 5,589 | | 1,209 | | 18,538 | | 2,412 |
+Adjusted EBITDA | $84,682 | | $43,254 | | $210,165 | | $126,348 |
+| | | | | | | |
+Net Income | $24,475 | | $8,439 | | $39,940 | | $22,207 |
+Revenues | 378,709 | | 186,224 | | 958,387 | | 515,575 |
+Net Income Margin | 6.5% | | 4.5% | | 4.2% | | 4.3% |
+| | | | | | | |
+Adjusted EBITDA | $84,682 | | $43,254 | | $210,165 | | $126,348 |
+Revenues | 378,709 | | 186,224 | | 958,387 | | 515,575 |
+Adjusted EBITDA Margin | 22.4% | | 23.2% | | 21.9% | | 24.5% |
+(1) Represents fees and expense reimbursements paid to our Sponsor.
+(2) Represents non-recurring professional services fees we incurred in connection with readying the Company for our initial public offering and statutory SEC reporting, as well as IPO-related bonuses and certain non-recurring recruiting costs.
+(3) Represents non-recurring earnout amounts accrued to certain sellers in connection with business acquisitions.
+(4) Represents non-recurring professional services fees we incurred in connection with certain post-acquisition activities, including valuation, technical accounting and integration consulting services.
+Adjusted Net Income
+Non-GAAP Financial Measures
+(Unaudited)
+The table below reconciles Net Income (the most directly comparable GAAP measure) to Adjusted Net Income (a non-GAAP measure) for the periods presented (in thousands):
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended March 31, | | Nine Months Ended
+March 31, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Net Income | $24,475 | | $8,439 | | $39,940 | | $22,207 |
+Amortization of intangibles | 11,732 | | 13,432 | | 37,006 | | 45,799 |
+Amortization / write off of discounts and deferred financing costs | 672 | | 624 | | 11,682 | | 1,955 |
+Equity-based compensation | 3,357 | | 367 | | 5,544 | | 1,272 |
+Sponsor fees and expenses (1)
+| 1,680 | | 2,885 | | 18,818 | | 7,310 |
+Public company readiness costs (2)
+| 16,884 | | 1,648 | | 20,965 | | 2,095 |
+Earnout expenses (3)
+| — | | — | | 5,400 | | — |
+Non-recurring integration and consulting fees (4)
+| 5,589 | | 1,209 | | 18,538 | | 2,412 |
+Tax impact of adjustments (5)
+| (9,117) | | (4,807) | | (27,534) | | (14,464) |
+Adjusted Net Income | $55,272 | | $23,797 | | $130,359 | | $68,586 |
+(1) Represents fees and expense reimbursements paid to our Sponsor.
+(2) Represents non-recurring professional services fees we incurred in connection with readying the Company for our initial public offering and statutory SEC reporting, as well as IPO-related bonuses and certain non-recurring recruiting costs.
+(3) Represents non-recurring earnout amounts accrued to certain sellers in connection with business acquisitions.
+(4) Represents non-recurring professional services fees we incurred in connection with certain post-acquisition activities, including valuation, technical accounting and integration consulting services.
+(5) Represents the estimated tax impact of all Adjusted Net Income add-backs, excluding those which represent permanent differences between book versus tax.

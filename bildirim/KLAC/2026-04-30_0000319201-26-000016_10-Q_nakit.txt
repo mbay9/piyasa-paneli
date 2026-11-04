@@ -1,0 +1,78 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm
+SEMBOL: KLAC
+BASVURU_TARIHI: 2026-04-30
+BASVURU: 0000319201-26-000016
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(Unaudited)
+| Nine Months Ended March 31, |
+(In thousands) | 2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 3,467,712 | $ | 2,858,794 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Impairment of goodwill and purchased intangible assets | — | 239,100 |
+Depreciation and amortization | 295,372 | 297,836 |
+Unrealized foreign exchange loss and other | 382 | 23,622 |
+Stock-based compensation expense | 228,067 | 193,742 |
+Net gain on sale of assets | ( 683 ) | ( 161 ) |
+Deferred income taxes | ( 27,254 ) | ( 186,095 ) |
+Changes in assets and liabilities: |
+Accounts receivable | ( 55,365 ) | ( 300,289 ) |
+Inventories | ( 253,659 ) | ( 106,651 ) |
+Other assets | ( 78,129 ) | 76,105 |
+Accounts payable | 64,569 | 42,390 |
+Deferred system revenue | ( 195,991 ) | ( 117,512 ) |
+Deferred service revenue | ( 68,789 ) | 64,610 |
+Other liabilities | ( 139,583 ) | ( 168,579 ) |
+Net cash provided by operating activities | 3,236,649 | 2,916,912 |
+Cash flows from investing activities: |
+Capital expenditures | ( 286,657 ) | ( 234,851 ) |
+Proceeds from capital-related government assistance | 16,782 | 315 |
+Purchases of available-for-sale and equity securities | ( 2,850,686 ) | ( 2,024,564 ) |
+Proceeds from maturity and sale of available-for-sale securities | 2,113,329 | 2,392,560 |
+Purchases of trading securities | ( 229,727 ) | ( 88,275 ) |
+Proceeds from sale of trading securities | 217,530 | 79,384 |
+Other, net | 2,451 | ( 1,705 ) |
+Net cash provided by (used in) investing activities | ( 1,016,978 ) | 122,864 |
+Cash flows from financing activities: |
+Payment of debt issuance costs | ( 1,602 ) | — |
+Repayment of debt | — | ( 750,000 ) |
+Common stock repurchases | ( 1,718,772 ) | ( 1,724,249 ) |
+Payment of dividends to stockholders | ( 752,498 ) | ( 650,629 ) |
+Issuance of common stock | 55,543 | 47,538 |
+Tax withholding payments related to vested and released restricted stock units | ( 91,201 ) | ( 78,534 ) |
+Net cash used in financing activities | ( 2,508,530 ) | ( 3,155,874 ) |
+Effect of exchange rate changes on cash and cash equivalents | ( 3,039 ) | ( 3,009 ) |
+Net decrease in cash and cash equivalents | ( 291,898 ) | ( 119,107 ) |
+Cash and cash equivalents at beginning of period | 2,078,908 | 1,977,129 |
+Cash and cash equivalents at end of period | $ | 1,787,010 | $ | 1,858,022 |
+Supplemental cash flow disclosures: |
+Income taxes paid, net | $ | 582,446 | $ | 655,822 |
+Interest paid, net of capitalized interest | $ | 270,586 | $ | 284,999 |
+Non-cash activities: |
+Dividends payable - financing activities | $ | 6,730 | $ | 6,360 |
+Unsettled common stock repurchase - financing activities | $ | 5,499 | $ | 5,499 |
+Accrued purchases of land, property and equipment - investing activities | $ | 31,941 | $ | 24,322 |
+See accompanying notes to Condensed Consolidated Financial Statements (unaudited).
+7
+Table of Contents
+KLA CORPORATION
+Notes to Condensed Consolidated Financial Statements
+(Unaudited)
+NOTE 1 – BASIS OF PRESENTATION
+Basis of Presentation. For purposes of this report, “KLA,” “Company,” “we,” “our,” “us” or similar references mean KLA Corporation and its majority-owned subsidiaries unless the context requires otherwise. The Condensed Consolidated Financial Statements have been prepared by us pursuant to the rules and regulations of the U.S. Securities and Exchange Commission. Certain information and footnote disclosures normally included in financial statements prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”) have been condensed or omitted pursuant to such rules and regulations.
+The unaudited interim Condensed Consolidated Financial Statements do not include all of the information and footnotes required by GAAP for audited financial statements. The balance sheet as of June 30, 2025 was derived from the Company’s audited Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended June 30, 2025, but does not include all disclosures required by GAAP for audited financial statements. The unaudited interim Condensed Consolidated Financial Statements reflect all adjustments (consisting only of normal, recurring adjustments) necessary for a fair statement of the financial position, results of operations, comprehensive income, stockholders’ equity and cash flows for the periods indicated. These Condensed Consolidated Financial Statements and notes, however, should be read in conjunction with Item 8 “Financial Statements and Supplementary Data” included in our Annual Report on Form 10-K for the fiscal year ended June 30, 2025.
+The Condensed Consolidated Financial Statements include the accounts of KLA and its majority-owned subsidiaries. All significant intercompany balances and transactions have been eliminated.
+The results of operations for the three and nine months ended March 31, 2026 are not necessarily indicative of the results that may be expected for any other interim period or for the full fiscal year ending June 30, 2026.
+Management Estimates. The preparation of the Condensed Consolidated Financial Statements in conformity with GAAP requires management to make estimates and assumptions in applying our accounting policies that affect the reported amounts of assets and liabilities (and related disclosure of contingent assets and liabilities) at the dates of the Condensed Consolidated Financial Statements and the reported amounts of revenues and expenses during the reporting periods. Actual results could differ from those estimates.
+Reclassifications . The Company has reclassified certain prior period balances to conform to the current year presentation. These reclassifications did not impact any prior amounts of reported total assets, total liabilities, stockholders’ equity, results of operations or cash flows.
+Significant Accounting Policies. Except for the below change, there have been no changes to our significant accounting policies summarized in Note 1 “Description of Business and Summary of Significant Accounting Policies” to our Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended June 30, 2025.
+Change in Annual Impairment Testing Date . During the second quarter of fiscal 2026, the Company changed the annual goodwill impairment testing date for all reporting units from February 28 to December 31 to better align with the timing of our budgeting and strategic planning process. We believe that the change in our annual impairment test date is preferable as it allows us to evaluate any potential impact strategic decisions may have on the recoverability of goodwill as those decisions are reached. This will also enable us to use the most current information available in the assessment process. The change in the annual impairment testing date did not delay, accelerate or avoid an impairment charge.
+Recent Accounting Pronouncements
+Recently Adopted
+In November 2023, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2023-07, Segment Reporting (Topic 280), Improvements to Reportable Segment Disclosures . The new guidance requires enhanced disclosures about significant segment expenses. This standard update is effective for our annual reports beginning in the fiscal year ended June 30, 2025, and interim period reports beginning in the first quarter of the fiscal year ending June 30, 2026. We adopted ASU 2023-07 starting with our annual report for the fiscal year ended June 30, 2025, for annual reporting and from July 1, 2025, for interim periods on a retrospective basis.
+In September 2025, the FASB issued ASU 2025-06, Intangibles - Goodwill and Other - Internal-Use Software (Subtopic
+Table of Contents
+350-40): Targeted Improvements to the Accounting for Internal-Use Software. The new guidance removes all references to prescriptive and sequential software development stages or project stages throughout Subtopic 350-40. Therefore, an entity is required to start capitalizing software costs when management has authorized and committed to funding the software project and it is probable that the project will be completed, and the software will be used to perform the function intended. The standard update is effective for our annual and interim reports beginning in the first quarter of our fiscal year ending June 30, 2028. Early adoption is permitted as of the beginning of an annual reporting period. We adopted ASU 2025-06 for our first quarter of the fiscal year ending June 30, 2026 using a prospective transition approach, and the effect was immaterial to our Consolidated Financial Statements.
+In July 2025, the FASB issued ASU 2025-05, Financial Instruments – Credit Losses (Topic 326), Measurement of Credit Losses for Accounts Receivable and Contract Assets. The ASU provides a practical expedient to measure credit losses on current accounts receivable and contract assets aris

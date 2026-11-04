@@ -1,0 +1,440 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1720635/000162828026029098/q12026nvtpressrelease.htm
+SEMBOL: NVT
+BASVURU_TARIHI: 2026-05-01
+BASVURU: 0001628280-26-029098
+
+EX-99.1
+2
+q12026nvtpressrelease.htm
+EX-99.1
+Document
+| | |
+|
+Exhibit 99.1
+News Release
+nVent Delivers Record Sales, Orders and Backlog in Q1 2026
+Q1 results exceeded guidance
+Raising full-year sales and EPS guidance
+• Reported sales of $1.2 billion up 53%, organically up 34%
+• Reported EPS of $0.86 up 65%; Adjusted EPS of $1.09 up 63%
+• Cash Flows of $90 million up 41%; Free Cash Flow of $54 million up 21%
+• Raising full-year sales and EPS guidance:
+◦ Reported sales growth of 26% to 28%; Organic sales growth of 21% to 23%
+◦ Reported EPS of $3.68 to $3.78; Adjusted EPS of $4.45 to $4.55
+Reconciliations of GAAP (reported) to Non-GAAP measures are in the attached financial tables. All results referenced throughout this release are on a continuing operations basis unless otherwise stated.
+LONDON, UNITED KINGDOM – May 1, 2026 – nVent Electric plc (NYSE:NVT) (“nVent”), a global leader in electrical connection and protection solutions, today announced strong financial results for the first quarter of 2026, provided second quarter guidance and raised full-year 2026 guidance.
+"We had a tremendous start to the year with record sales and orders, and our backlog increased to $2.6 billion," said Beth Wozniak, nVent chair and chief executive officer. "We saw growth across all verticals, with infrastructure leading, driven by broad-based data center growth in both the gray and white space. Our investments in new products and capacity have been key to our ability to scale and respond to customer demand. As a result of our strong first-quarter performance and significant momentum in data centers, we are raising our full-year sales and EPS guidance. I want to recognize the hard work and dedication of our nVent team to deliver these outstanding results."
+Reported sales in the first quarter totaled $1.2 billion. This performance represents an increase of 53 percent. Organically, sales grew 34 percent, which excludes the impact from acquisitions and currency fluctuations.
+First quarter 2026 earnings per diluted share (“EPS”) were $0.86, up 65 percent, while on an adjusted basis, the company had EPS of $1.09, up 63 percent. Adjusted EPS, adjusted operating income, adjusted net income and free cash flow are non-GAAP financial measures described in the attached Non-GAAP Financial Measures section of this press release.
+First quarter 2026 operating income was $196 million, up 51 percent, compared to $130 million in the first quarter of 2025. Adjusted operating income was $249 million, up 53 percent, compared to $162 million in the first quarter of 2025.
+nVent had net cash provided by operating activities of $90 million in the first quarter compared to $64 million in the first quarter of 2025. Free cash flow was $54 million in the first quarter compared to $44 million in the first quarter of 2025.
+(more)
+2
+FIRST QUARTER PERFORMANCE ($ in millions) (1) | | | | | | | | | | | |
+nVent Electric plc | | | |
+| Three months ended |
+| March 31, 2026 | March 31, 2025 | % / point
+change |
+Net Sales | $1,242 | $809 | 53% |
+Organic | | | 34% |
+Operating Income | $196 | $130 | 51% |
+Reported ROS | 15.8% | 16.1% | -30 bps |
+Adjusted Operating Income | $249 | $162 | 53% |
+Adjusted ROS | 20.0% | 20.0% | flat |
+| | | | | | | | | | | |
+Systems Protection | | | |
+| Three months ended |
+| March 31, 2026 | March 31, 2025 | % / point
+change |
+Net Sales | $895 | $508 | 76% |
+Organic | | | 50% |
+Adjusted ROS | 22.7% | 20.5% | 220 bps |
+| | | |
+Electrical Connections | | | |
+| Three months ended |
+| March 31, 2026 | March 31, 2025 | % / point
+change |
+Net Sales | $347 | $301 | 15% |
+Organic | | | 8% |
+Adjusted ROS | 24.4% | 28.3% | -390 bps |
+| | | |
+| | | |
+| |
+| | | |
+| | | |
+| | | |
+| | | |
+(1) Certain figures presented in the tables are rounded.
+(more)
+3
+GUIDANCE FOR FULL-YEAR AND SECOND QUARTER 2026
+The company now estimates reported sales growth for full-year 2026 of 26 to 28 percent versus prior guidance of 15 to 18 percent. This new guidance range represents 21 to 23 percent organic sales growth versus prior guidance of 10 to 13 percent. The company now expects full-year 2026 EPS of $3.68 to $3.78 on a GAAP basis and adjusted EPS of $4.45 to $4.55, versus prior guidance of $3.27 to $3.42 on a GAAP basis and adjusted EPS of $4.00 to $4.15.
+The company estimates second quarter 2026 reported sales growth of 28 to 30 percent and organic sales growth of 23 to 25 percent. The company estimates second quarter 2026 EPS on a GAAP basis of $0.93 to $0.96 and adjusted EPS of $1.12 to $1.15.
+DIVIDENDS
+nVent previously announced on February 16, 2026 that its Board of Directors approved a regular cash dividend of $0.21 per share, payable during the second quarter on May 8, 2026.
+EARNINGS CONFERENCE CALL
+nVent’s management team will discuss the company’s first quarter performance on a conference call with analysts and investors at 9:00 a.m. ET today. A live audio webcast of the conference call and materials will be available through the “Investor Relations” section of the company’s website (http://investors.nvent.com). To participate, please dial 1-833-630-1071 or 1-412-317-1832 approximately ten minutes before the 9:00 a.m. ET start. A replay of the conference call will be made accessible once it becomes available and will remain accessible through May 15, 2026 by dialing 1-855-669-9658 or 1-412-317-0088, along with the access code 3392967.
+About nVent
+nVent is a leading global provider of electrical connection and protection solutions. We believe our inventive electrical solutions enable safer systems and ensure a more secure world. We design, manufacture, market, install and service high performance products and solutions that connect and protect some of the world's most sensitive equipment, buildings and critical processes. We offer a comprehensive range of systems protection and electrical connections solutions across industry-leading brands that are recognized globally for quality, reliability and innovation. Our principal office is in London and our management office in the United States is in Minneapolis. Our robust portfolio of leading electrical product brands dates back more than 100 years and includes nVent CADDY, ERICO, HOFFMAN, ILSCO, SCHROFF and TRACHTE.
+nVent, CADDY, ERICO, HOFFMAN, ILSCO, SCHROFF and TRACHTE are trademarks owned or licensed by nVent Services GmbH or its affiliates.
+(more)
+4
+CAUTION CONCERNING FORWARD-LOOKING STATEMENTS
+This press release contains statements that we believe to be “forward-looking statements” within the meaning of the Private Securities Litigation Reform Act of 1995. All statements, other than statements of historical fact are forward looking statements. Without limitation, any statements preceded or followed by or that include the words “targets,” “plans,” “believes,” “expects,” “intends,” “will,” “likely,” “may,” “anticipates,” “estimates,” “projects,” “forecasts,” “should,” “would,” “could,” “positioned,” “strategy,” “future,” “are confident,” or words, phrases or terms of similar substance or the negative thereof, are forward-looking statements. All projections in this press release are also forward-looking statements. These forward-looking statements are not guarantees of future performance and are subject to risks, uncertainties, assumptions and other factors, some of which are beyond our control, which could cause actual results to differ materially from those expressed or implied by such forward-looking statements. Among these factors are adverse effects on our business operations or financial results, including the overall global economic and business conditions impacting our business; the ability to achieve the benefits of our restructuring plans; the ability to successfully identify, finance, complete and integrate acquisitions, including the Electrical Products Group acquisition; competition and pricing pressures in the markets we serve; the impacts of tariffs; volatility in currency exchange rates, interest rates and commodity prices; inability to generate savings from excellence in operations initiatives consisting of lean enterprise, supply management and cash flow practices; inability to mitigate material and other cost inflation; risks related to the availability of, and cost inflation in, supply chain inputs, including labor, raw materials, commodities, packaging and transportation; increased risks associated with operating foreign businesses; risks associated with or arising from military conflicts; the ability to deliver backlog and win future project work; failure of markets to accept new product introductions and enhancements; the impact of changes in laws and regulations, including those that limit U.S. tax benefits; the outcome of litigation and governmental proceedings; and the ability to achieve our long-term strategic operating goals. Additional information concerning these and other factors is contained in our filings with the U.S. Securities and Exchange Commission, including our Annual Report on Form 10-K and our Quarterly Reports on Form 10-Q. All forward-looking statements speak only as of the date of this press release. nVent assumes no obligation, and disclaims any obligation, to update the information contained in this press release.
+Investor Contact
+Tony Riter
+Vice President, Investor Relations
+nVent
+763.204.7750
+Tony.Riter@nVent.com
+Media Contact
+Kevin H. King
+Vice President, Global Communications
+nVent
+763.291.0526
+Kevin.King@nVent.com
+(more)
+5
+| | | | | | | | | | | |
+nVent Electric plc |
+Condensed Consolidated Statements of Income (Unaudited) |
+| | | | | |
+| Three months ended | | |
+In millions, except per share data | March 31,
+2026 | March 31,
+2025 | | | |
+Net sales | $ | 1,242.0 | | $ | 809.3 | | | | |
+Cost of goods sold | 796.4 | | 495.6 | | | | |
+Gross profit | 445.6 | | 313.7 | | | | |
+% of net sales | 35.9 | % | 38.8 | % | | | |
+Selling, general and administrative | 227.2 | | 166.2 | | | | |
+% of net sales | 18.3 | % | 20.5 | % | | | |
+Research and development | 22.7 | | 17.5 | | | | |
+% of net sales | 1.8 | % | 2.2 | % | | | |
+| | | | | |
+| | | | | |
+Operating income | 195.7 | | 130.0 | | | | |
+% of net sales | 15.8 | % | 16.1 | % | | | |
+Other expense | | | | | |
+| | | | | |
+| | | | | |
+Net interest expense | 17.5 | | 17.4 | | | | |
+| | | | | |
+| | | | | |
+Other expense | 1.3 | | 1.1 | | | | |
+Income before income taxes
+| 176.9 | | 111.5 | | | | |
+Provision for income taxes | 36.5 | | 24.5 | | | | |
+Effective tax rate | 20.6 | % | 22.0 | % | | | |
+Net income from continuing operations | 140.4 | | 87.0 | | | | |
+| | | | | |
+| | | | | |
+Income from discontinued operations, net of tax | 2.0 | | 273.7 | | | | |
+| | | | | |
+| | | | | |
+Net income | $ | 142.4 | | $ | 360.7 | | | | |
+Earnings per ordinary share | | | | | |
+Basic | | | | | |
+Continuing operations | $ | 0.87 | | $ | 0.53 | | | | |
+Discontinued operations | 0.01 | | 1.65 | | | | |
+Basic earnings per ordinary share | $ | 0.88 | | $ | 2.18 | | | | |
+Diluted | | | | | |
+Continuing operations | $ | 0.86 | | $ | 0.52 | | | | |
+Discontinued operations | 0.01 | | 1.64 | | | | |
+Diluted earnings per ordinary share | $ | 0.87 | | $ | 2.16 | | | | |
+Weighted average ordinary shares outstanding | | | | | |
+Basic | 161.7 | | 165.1 | | | | |
+Diluted | 164.0 | | 167.3 | | | | |
+Cash dividends paid per ordinary share | $ | 0.21 | | $ | 0.20 | | | | |
+(more)
+6
+| | | | | | | | | |
+nVent Electric plc | |
+Condensed Consolidated Balance Sheets (Unaudited) | |
+| | | |
+| March 31,
+2026 | December 31,
+2025 | |
+In millions |
+Assets | |
+Current assets | | | |
+Cash and cash equivalents | $ | 190.0 | | $ | 237.5 | | |
+Accounts and notes receivable, net | 828.5 | | 693.0 | | |
+Inventories | 512.0 | | 471.9 | | |
+Other current assets | 257.8 | | 237.2 | | |
+| | | |
+Total current assets | 1,788.3 | | 1,639.6 | | |
+Property, plant and equipment, net | 440.1 | | 434.5 | | |
+Other assets | | | |
+Goodwill | 2,675.5 | | 2,678.0 | | |
+Intangibles, net | 1,834.7 | | 1,876.5 | | |
+Other non-current assets | 223.0 | | 223.3 | | |
+| | | |
+Total other assets | 4,733.2 | | 4,777.8 | | |
+Total assets | $ | 6,961.6 | | $ | 6,851.9 | | |
+Liabilities and Equity | |
+Current liabilities | | | |
+Current maturities of long-term debt and short-term borrowings | $ | 13.8 | | $ | 13.8 | | |
+Accounts payable | 422.0 | | 358.9 | | |
+Employee compensation and benefits | 104.9 | | 156.6 | | |
+Other current liabilities | 514.3 | | 474.2 | | |
+| | | |
+Total current liabilities | 1,055.0 | | 1,003.5 | | |
+Other liabilities | | | |
+Long-term debt | 1,542.9 | | 1,546.0 | | |
+Pension and other post-retirement compensation and benefits | 132.9 | | 135.6 | | |
+Deferred tax liabilities | 231.6 | | 232.0 | | |
+Other non-current liabilities | 202.7 | | 204.6 | | |
+| | | |
+Total liabilities | 3,165.1 | | 3,121.7 | | |
+Equity | 3,796.5 | | 3,730.2 | | |
+Total liabilities and equity | $ | 6,961.6 | | $ | 6,851.9 | | |
+(more)
+7
+| | | | | | | | |
+nVent Electric plc |
+Condensed Consolidated Statements of Cash Flows (Unaudited)
+|
+|
+| Three months ended |
+In millions | March 31,
+2026 | March 31,
+2025 |
+Operating activities | | |
+Net income | $ | 142.4 | | $ | 360.7 | |
+Less: Income from discontinued operations, net of tax | 2.0 | | 273.7 | |
+Net income from continuing operations | 140.4 | | 87.0 | |
+Adjustments to reconcile net income from continuing operations to net cash provided by (used for) operating activities | | |
+| | |
+Depreciation | 16.8 | | 13.8 | |
+Amortization | 41.1 | | 28.2 | |
+Deferred income taxes | (0.2) | | 0.4 | |
+Share-based compensation | 16.4 | | 8.5 | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+Changes in assets and liabilities, net of effects of business acquisitions | | |
+Accounts and notes receivable | (138.4) | | (75.9) | |
+Inventories | (42.6) | | (10.6) | |
+Other current assets | 5.9 | | 11.3 | |
+Contract assets and liabilities | (38.4) | | (1.7) | |
+Accounts payable | 72.9 | | 13.7 | |
+Employee compensation and benefits | (50.7) | | (15.2) | |
+Other current liabilities | 63.0 | | 5.8 | |
+Other non-current assets and liabilities | 3.7 | | (1.4) | |
+Net cash provided by (used for) operating activities of continuing operations | 89.9 | | 63.9 | |
+Net cash provided by (used for) operating activities of discontinued operations | (4.7) | | (3.7) | |
+Net cash provided by (used for) operating activities | 85.2 | | 60.2 | |
+Investing activities | | |
+Capital expenditures | (36.1) | | (21.1) | |
+Proceeds from sale of property and equipment | — | | 1.6 | |
+| | |
+| | |
+| | |
+Acquisitions, net of cash acquired | — | | 3.8 | |
+| | |
+Net cash provided by (used for) investing activities of continuing operations | (36.1) | | (15.7) | |
+Net cash provided by (used for) investing activities of discontinued operations | 1.7 | | 1,583.1 | |
+Net cash provided by (used for) investing activities | (34.4) | | 1,567.4 | |
+Financing activities | | |
+| | |
+| | |
+| | |
+| | |
+Repayments of long-term debt | (3.5) | | (392.5) | |
+| | |
+| | |
+| | |
+| | |
+| | |
+Dividends paid | (34.2) | | (33.4) | |
+Shares issued to employees, net of shares withheld | (11.1) | | (4.6) | |
+Repurchases of ordinary shares | (50.4) | | (53.1) | |
+| | |
+Net cash provided by (used for) financing activities | (99.2) | | (483.6) | |
+Effect of exchange rate changes on cash and cash equivalents | 0.9 | | 9.1 | |
+Change in cash and cash equivalents | (47.5) | | 1,153.1 | |
+Cash and cash equivalents, beginning of period | 237.5 | | 131.2 | |
+Cash and cash equivalents within assets held for sale, beginning of period | — | | 58.7 | |
+Less: Cash and cash equivalents within assets held for sale, end of period | — | | — | |
+Cash and cash equivalents, end of period | $ | 190.0 | | $ | 1,343.0 | |
+(more)
+8
+| | | | | | | | | | | | | | | | |
+nVent Electric plc |
+Supplemental Financial Information by Reportable Segment (Unaudited) |
+| | | | | | | | |
+| 2026 | | 2025 |
+In millions | First
+Quarter | | | | | First
+Quarter | | |
+Net sales | | | | | | | | |
+Systems Protection | $ | 894.8 | | | | | | $ | 508.2 | | | |
+Electrical Connections | 347.2 | | | | | | 301.1 | | | |
+| | | | | | | | |
+Total | $ | 1,242.0 | | | | | | $ | 809.3 | | | |
+Reportable segment income | | | | | | | | |
+Systems Protection | $ | 203.1 | | | | | | $ | 104.2 | | | |
+Electrical Connections | 84.8 | | | | | | 85.1 | | | |
+| | | | | | | | |
+Reportable segment income | 287.9 | | | | | | 189.3 | | | |
+Enterprise and other | (39.4) | | | | | | (27.1) | | | |
+Adjusted operating income | $ | 248.5 | | | | | | $ | 162.2 | | | |
+Return on sales | | | | | | | | |
+Systems Protection | 22.7 | % | | | | | 20.5 | % | | |
+Electrical Connections | 24.4 | % | | | | | 28.3 | % | | |
+| | | | | | | | |
+Adjusted return on sales | 20.0 | % | | | | | 20.0 | % | | |
+(more)
+9
+NON-GAAP FINANCIAL MEASURES
+This press release refers to certain non-GAAP financial measures (organic sales, adjusted operating income, adjusted return on sales, adjusted net income, adjusted diluted earnings per share and free cash flow) and a reconciliation of those non-GAAP financial measures to the corresponding financial measures contained in the Company's financial statements prepared in accordance with generally accepted accounting principles. These non-GAAP measures may not be comparable to similarly titled measures reported by other companies.
+As a result of the previously announced agreement to sell the Thermal Management business, the Company is reporting the results of that business as discontinued operations and has reclassified all prior periods presented. Results referenced herein reflect continuing operations.
+The 2026 and 2025 adjusted operating income, adjusted return on sales, adjusted net income and adjusted diluted earnings per share eliminate, where applicable:
+• Expense related to certain targeted restructuring activities.
+• Expense related to certain acquisition and integration activities associated with our business acquisitions, and transaction costs associated with our business divestiture.
+• Amortization of all intangible assets associated with our business acquisitions, including inventory step-up amortization, associated with those acquisitions. The Company excludes these non-cash expenses because the Company believes it (i) enhances management’s and investors’ ability to analyze underlying business performance, (ii) facilitates comparisons of our financial results over multiple periods, and (iii) provides more relevant comparisons of the Company's results with the results of other companies as the amortization expense, inventory step-up amortization, and acquisition related expenses may fluctuate significantly from period to period based on the timing, size, nature, and number of acquisitions. Although the Company excludes amortization of these acquired intangible assets and inventory step-up from its non-GAAP results, the Company believe that it is important for investors to understand that revenue generated, in part, from such intangibles is included within revenue in determining adjusted results.
+• Pension and other postretirement mark-to-market loss (gain). The Company recognizes changes in the fair value of plan assets and net actuarial gains or losses for pension and other post-retirement benefits as a mark-to-market adjustment. Net actuarial gains and losses occur when the actual experience differs from any of the various assumptions used to value the Company's pension and other post-retirement plans or when assumptions change. This accounting method also results in the potential for volatile and difficult to forecast mark-to-market adjustments. The Company believes that the exclusion of pension and other postretirement mark-to-market loss (gain) better reflects the ongoing costs of providing pension and postretirement benefits to its employees.
+• Income tax effects of the above adjustments, which are calculated using the Company's estimated non-GAAP tax rate. This non-GAAP tax approach eliminates the effects of period specific items, which can vary in size and frequency and do not necessarily reflect our long-term operations. The non-GAAP tax rate could be subject to change for a variety of reasons, including the rapidly evolving global tax environment, significant changes in the Company's geographic earnings mix including due to acquisition activity or other changes in our strategy or business operations.
+The Company uses the term "organic sales" to refer to GAAP net sales excluding 1) the impact of currency translation and 2) the impact of revenue from acquired businesses recorded prior to the first anniversary of the acquisition less the amount of sales attributable to divested product lines not considered discontinued operations ("acquisition sales"). The portion of GAAP net sales attributable to currency translation is calculated as the difference between (a) the period-to-period change in net sales (excluding acquisition sales) and (b) the period-to-period change in net sales (excluding acquisition sales) after applying prior period foreign exchange rates to the current year period. The Company uses the term "organic sales growth" to refer to the measure of comparing current period organic net sales with the corresponding period of the prior year.
+Management utilizes these adjusted financial measures to assess the run-rate of its continuing operations against those of prior periods without the distortion of these factors that the Company does not consider components of our core operating performance. The Company believes that these non-GAAP financial measures will be useful to investors as well to assess the continuing strength of the Company's underlying operations. In addition, adjusted diluted earnings per share is used as a criterion to measure and pay long-term incentive compensation and adjusted operating income is used as a criterion to measure and pay annual incentive compensation.
+The Company uses free cash flow to assess its cash flow performance. The Company believes free cash flow is an important measure of liquidity because it provides the Company and its investors useful information regarding the Company's ability to generate cash without reliance on external financing. Management uses free cash flow to evaluate the resources available to pay dividends, make acquisitions, repay debt, repurchase shares and make investments in the business. In addition, free cash flow is used as criterion to measure and pay annual incentive compensation.
+(more)
+10
+| | | | | | | | | | | | | | | | |
+nVent Electric plc |
+Reconciliation of GAAP to non-GAAP financial measures for continuing operations
+for the year ending December 31, 2026
+|
+excluding the effect of adjustments (Unaudited) |
+| | | | | | |
+| Actual | | Forecast (1)
+|
+In millions, except per share data | First Quarter | | | | Second Quarter | Full Year |
+Net sales | $ | 1,242.0 | | | | | | |
+Operating income | 195.7 | | | | | | |
+Return on sales | 15.8 | % | | | | | |
+Adjustments: | | | | | | |
+Restructuring and other | 8.9 | | | | | | |
+Acquisition transaction and integration costs | 2.8 | | | | | | |
+Intangible amortization | 41.1 | | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+Adjusted operating income (non-GAAP measure) | $ | 248.5 | | | | | | |
+Adjusted return on sales (non-GAAP measure) | 20.0 | % | | | | | |
+| | | | | | |
+Net income from continuing operations | $ | 140.4 | | | | | $ | 155 | | $ | 613 | |
+Adjustments to operating income | 52.8 | | | | | 41 | | 166 | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+Income tax adjustments | (14.0) | | | | | (9) | | (39) | |
+Adjusted net income from continuing operations (non-GAAP measure) | $ | 179.2 | | | | | $ | 187 | | $ | 740 | |
+Earnings per ordinary share - diluted | | | | | | |
+Diluted earnings per ordinary share from continuing operations | $ | 0.86 | | | | | $0.93 - $0.96 | $3.68 - $3.78 |
+Adjustments | 0.23 | | | | | 0.19 | | 0.77 | |
+Adjusted diluted earnings per ordinary share from continuing operations (non-GAAP measure) | $ | 1.09 | | | | | $1.12 - $1.15 | $4.45 - $4.55 |
+(1) Forecast information represents an approximation
+| | | | | | |
+(more)
+11
+| | | | | | | | | | | | | | | | | |
+nVent Electric plc |
+Reconciliation of GAAP to non-GAAP financial measures for continuing operations for the year ended December 31, 2025
+|
+excluding the effect of adjustments (Unaudited) |
+| | | | | |
+In millions, except per-share data | First
+Quarter | Second
+Quarter | Third
+Quarter | Fourth
+Quarter | Full
+Year |
+Net sales | $ | 809.3 | | $ | 963.1 | | $ | 1,054.0 | | $ | 1,066.7 | | $ | 3,893.1 | |
+Operating income | 130.0 | | 156.7 | | 166.3 | | 163.8 | | 616.8 | |
+Return on sales | 16.1 | % | 16.3 | % | 15.8 | % | 15.4 | % | 15.8 | % |
+Adjustments: | | | | | |
+Restructuring and other | 0.9 | | 3.1 | | 2.7 | | 0.8 | | 7.5 | |
+Acquisition transaction and integration costs | 3.1 | | 4.3 | | 2.4 | | 4.6 | | 14.4 | |
+Intangible amortization | 28.2 | | 35.9 | | 41.9 | | 41.1 | | 147.1 | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+Adjusted operating income (non-GAAP measure) | $ | 162.2 | | $ | 200.0 | | $ | 213.3 | | $ | 210.3 | | $ | 785.8 | |
+Adjusted return on sales (non-GAAP measure) | 20.0 | % | 20.8 | % | 20.2 | % | 19.7 | % | 20.2 | % |
+| | | | | |
+Net income from continuing operations | $ | 87.0 | | $ | 106.7 | | $ | 119.0 | | $ | 115.8 | | $ | 428.5 | |
+Adjustments to operating income | 32.2 | | 43.3 | | 47.0 | | 46.5 | | 169.0 | |
+Pension and post-retirement mark-to-market gain | — | | — | | — | | (12.9) | | (12.9) | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+Income tax adjustments | (7.1) | | (9.4) | | (16.8) | | (1.3) | | (33.8) | |
+Adjusted net income from continuing operations (non-GAAP measure) | $ | 112.1 | | $ | 140.6 | | $ | 149.2 | | $ | 148.1 | | $ | 550.8 | |
+Earnings per ordinary share - diluted | | | | | |
+Diluted earnings per ordinary share from continuing operations | $ | 0.52 | | $ | 0.65 | | $ | 0.73 | | $ | 0.71 | | $ | 2.60 | |
+Adjustments | 0.15 | | 0.21 | | 0.18 | | 0.19 | | 0.75 | |
+Adjusted diluted earnings per ordinary share from continuing operations (non-GAAP measure) | $ | 0.67 | | $ | 0.86 | | $ | 0.91 | | $ | 0.90 | | $ | 3.35 | |
+(more)
+12
+| | | | | | | | | | | | | | | | | | | |
+nVent Electric plc |
+Reconciliation of Net Sales Growth (GAAP measure) to Organic Net Sales Growth (non-GAAP measure) by Segment |
+for the quarter ended March 31, 2026 (Unaudited)
+|
+| | | | | |
+| | | | | | |
+| Q1 Net Sales Growth
+| | |
+| Organic | Currency | Acq./Div. | Total | | | | | |
+nVent | 34.4 | % | 2.1 | % | 17.0 | % | 53.5 | % | | | | | |
+Systems Protection | 50.1 | % | 2.2 | % | 23.8 | % | 76.1 | % | | | | | |
+Electrical Connections | 7.9 | % | 1.8 | % | 5.6 | % | 15.3 | % | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+Reconciliation of Net Sales Growth (GAAP measure) to Organic Net Sales Growth (non-GAAP measure) |
+for the quarter ending June 30, 2026 and year ending December 31, 2026 (Unaudited)
+|
+| | | | | |
+| | | | | | |
+| Forecast (1)
+|
+| Q2 Net Sales Growth | | Full Year Net Sales Growth |
+| Organic | Currency | Acq./Div. | Total | | Organic | Currency | Acq./Div. | Total |
+nVent | 23 - 25% | —% | 5% | 28 - 30% | | 21 - 23% | —% | 5% | 26 - 28% |
+(1) Forecast information represents an approximation
+| | | | | | |
+| | | | | | | | | | | |
+nVent Electric plc |
+Reconciliation of cash from operating activities to free cash flow (Unaudited)
+|
+| |
+| Three months ended | | |
+In millions | March 31,
+2026 | March 31,
+2025 | | | |
+Net cash provided by (used for) operating activities of continuing operations | $ | 89.9 | | $ | 63.9 | | | | |
+Capital expenditures | (36.1) | | (21.1) | | | | |
+Proceeds from sale of property and equipment | — | | 1.6 | | | | |
+Free cash flow (non-GAAP measure) | $ | 53.8 | | $ | 44.4 | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |

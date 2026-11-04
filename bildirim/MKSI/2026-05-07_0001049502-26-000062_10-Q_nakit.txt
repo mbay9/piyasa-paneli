@@ -1,0 +1,1900 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1049502/000104950226000062/mksi-20260331.htm
+SEMBOL: MKSI
+BASVURU_TARIHI: 2026-05-07
+BASVURU: 0001049502-26-000062
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows – Three Months Ended March 31, 2026 and 2025
+|
+6
+|
+|
+|
+|
+Notes to Unaudited Condensed Consolidated Financial Statements
+|
+7
+|
+|
+|
+ITEM 2.
+|
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+|
+29
+|
+|
+|
+ITEM 3.
+|
+QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
+|
+44
+|
+|
+|
+ITEM 4.
+|
+CONTROLS AND PROCEDURES
+|
+44
+|
+|
+PART II. OTHER INFORMATION
+|
+|
+|
+ITEM 1A.
+|
+RISK FACTORS
+|
+45
+|
+|
+|
+|
+|
+|
+ITEM 5.
+|
+OTHER INFORMATION
+|
+45
+|
+|
+|
+|
+|
+|
+ITEM 6.
+|
+EXHIBITS
+|
+46
+|
+|
+|
+|
+|
+SIGNATURES
+|
+47
+|
+2
+PART I. FINANCI AL INFORMATION
+ITEM 1. FINANCI AL STATEMENTS.
+MKS INC.
+CONDENSED CONSOLIDA TED BALANCE SHEETS
+(in millions, except per share data)
+(Unaudited)
+ASSETS
+|
+|
+March 31, 2026
+|
+|
+|
+December 31, 2025
+|
+|
+Current assets:
+|
+|
+|
+|
+|
+|
+|
+Cash and cash equivalents
+|
+|
+$
+|
+569
+|
+|
+|
+$
+|
+675
+|
+|
+Trade accounts receivable, net of allowance for doubtful accounts of $ 5 at both March 31, 2026 and December 31, 2025
+|
+|
+|
+775
+|
+|
+|
+|
+651
+|
+|
+Inventories
+|
+|
+|
+949
+|
+|
+|
+|
+921
+|
+|
+Other current assets
+|
+|
+|
+252
+|
+|
+|
+|
+263
+|
+|
+Total current assets
+|
+|
+|
+2,545
+|
+|
+|
+|
+2,510
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Property, plant and equipment, net
+|
+|
+|
+795
+|
+|
+|
+|
+810
+|
+|
+Right-of-use assets
+|
+|
+|
+267
+|
+|
+|
+|
+270
+|
+|
+Goodwill
+|
+|
+|
+2,565
+|
+|
+|
+|
+2,574
+|
+|
+Intangible assets, net
+|
+|
+|
+2,065
+|
+|
+|
+|
+2,140
+|
+|
+Other assets
+|
+|
+|
+491
+|
+|
+|
+|
+492
+|
+|
+Total assets
+|
+|
+$
+|
+8,728
+|
+|
+|
+$
+|
+8,796
+|
+|
+|
+|
+|
+|
+|
+|
+|
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+|
+|
+|
+|
+|
+|
+|
+Current liabilities:
+|
+|
+|
+|
+|
+|
+|
+Short-term debt
+|
+|
+$
+|
+1,398
+|
+|
+|
+$
+|
+51
+|
+|
+Accounts payable
+|
+|
+|
+448
+|
+|
+|
+|
+407
+|
+|
+Other current liabilities
+|
+|
+|
+445
+|
+|
+|
+|
+469
+|
+|
+Total current liabilities
+|
+|
+|
+2,291
+|
+|
+|
+|
+927
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Long-term debt, net
+|
+|
+|
+2,650
+|
+|
+|
+|
+4,150
+|
+|
+Non-current deferred taxes
+|
+|
+|
+450
+|
+|
+|
+|
+474
+|
+|
+Non-current accrued compensation
+|
+|
+|
+146
+|
+|
+|
+|
+149
+|
+|
+Non-current lease liabilities
+|
+|
+|
+244
+|
+|
+|
+|
+246
+|
+|
+Other non-current liabilities
+|
+|
+|
+136
+|
+|
+|
+|
+131
+|
+|
+Total liabilities
+|
+|
+|
+5,917
+|
+|
+|
+|
+6,077
+|
+|
+Commitments and contingencies (Note 17)
+|
+|
+|
+|
+|
+|
+|
+Stockholders’ equity:
+|
+|
+|
+|
+|
+|
+|
+Preferred stock, $ 0.01 par value, 2 shares authorized; no shares issued and outstanding
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+Common stock, no par value, 200 shares authorized; 67.3 and 67.2 shares issued and outstanding at March 31, 2026 and December 31, 2025, respectively
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+Additional paid-in capital
+|
+|
+|
+2,104
+|
+|
+|
+|
+2,101
+|
+|
+Retained earnings
+|
+|
+|
+778
+|
+|
+|
+|
+711
+|
+|
+Accumulated other comprehensive (loss) income
+|
+|
+|
+( 71
+|
+)
+|
+|
+|
+( 93
+|
+)
+|
+Total stockholders’ equity
+|
+|
+|
+2,811
+|
+|
+|
+|
+2,719
+|
+|
+Total liabilities and stockholders’ equity
+|
+|
+$
+|
+8,728
+|
+|
+|
+$
+|
+8,796
+|
+|
+The accompanying notes are an integral part of the unaudited condensed consolidated financial statements.
+3
+MKS INC.
+CONDENSED CONSOLIDATED S TATEMENTS OF OPERATIONS
+AND COMPREHENSIVE INCOME (LOSS)
+(in millions, except per share data)
+(Unaudited)
+|
+|
+Three Months Ended
+March 31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Net revenues:
+|
+|
+|
+|
+|
+|
+|
+Products
+|
+|
+$
+|
+954
+|
+|
+|
+$
+|
+819
+|
+|
+Services
+|
+|
+|
+124
+|
+|
+|
+|
+117
+|
+|
+Total net revenues
+|
+|
+|
+1,078
+|
+|
+|
+|
+936
+|
+|
+Cost of revenues:
+|
+|
+|
+|
+|
+|
+|
+Products
+|
+|
+|
+514
+|
+|
+|
+|
+437
+|
+|
+Services
+|
+|
+|
+57
+|
+|
+|
+|
+55
+|
+|
+Total cost of revenues (exclusive of amortization shown separately below)
+|
+|
+|
+571
+|
+|
+|
+|
+492
+|
+|
+Gross profit
+|
+|
+|
+507
+|
+|
+|
+|
+444
+|
+|
+Research and development
+|
+|
+|
+81
+|
+|
+|
+|
+70
+|
+|
+Selling, general and administrative
+|
+|
+|
+190
+|
+|
+|
+|
+185
+|
+|
+Restructuring and other
+|
+|
+|
+3
+|
+|
+|
+|
+16
+|
+|
+Legal settlement
+|
+|
+|
+3
+|
+|
+|
+|
+—
+|
+|
+Fees and expenses related to debt activities
+|
+|
+|
+18
+|
+|
+|
+|
+2
+|
+|
+Amortization of intangible assets
+|
+|
+|
+63
+|
+|
+|
+|
+60
+|
+|
+Income from operations
+|
+|
+|
+149
+|
+|
+|
+|
+111
+|
+|
+Interest income
+|
+|
+|
+( 2
+|
+)
+|
+|
+|
+( 3
+|
+)
+|
+Interest expense
+|
+|
+|
+45
+|
+|
+|
+|
+53
+|
+|
+Loss on extinguishment of debt
+|
+|
+|
+5
+|
+|
+|
+|
+3
+|
+|
+Other (income) expense, net
+|
+|
+|
+( 1
+|
+)
+|
+|
+|
+( 1
+|
+)
+|
+Income before income taxes
+|
+|
+|
+102
+|
+|
+|
+|
+59
+|
+|
+Provision for income taxes
+|
+|
+|
+18
+|
+|
+|
+|
+7
+|
+|
+Net income
+|
+|
+$
+|
+84
+|
+|
+|
+$
+|
+52
+|
+|
+Other comprehensive income (loss), net of tax:
+|
+|
+|
+|
+|
+|
+|
+Changes in value of financial instruments designated as cash flow
+hedges
+|
+|
+$
+|
+4
+|
+|
+|
+$
+|
+( 16
+|
+)
+|
+Foreign currency translation adjustments
+|
+|
+|
+( 34
+|
+)
+|
+|
+|
+54
+|
+|
+Change in net investment hedges
+|
+|
+|
+49
+|
+|
+|
+|
+( 19
+|
+)
+|
+Unrecognized pension gain
+|
+|
+|
+3
+|
+|
+|
+|
+4
+|
+|
+Total comprehensive income
+|
+|
+$
+|
+106
+|
+|
+|
+$
+|
+75
+|
+|
+Net income per share:
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$
+|
+1.24
+|
+|
+|
+$
+|
+0.77
+|
+|
+Diluted
+|
+|
+$
+|
+1.18
+|
+|
+|
+$
+|
+0.77
+|
+|
+Weighted average common shares outstanding:
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+67.4
+|
+|
+|
+|
+67.4
+|
+|
+Diluted
+|
+|
+|
+71.1
+|
+|
+|
+|
+67.7
+|
+|
+The accompanying notes are an integral part of the unaudited condensed consolidated financial statements.
+4
+MKS INC.
+CONDENSED CONSOLIDATED STATEM ENTS OF STOCKHOLDERS’ EQUITY
+(in millions, except per share data)
+(Unaudited)
+|
+|
+Common Stock
+|
+|
+|
+Additional
+Paid-In
+|
+|
+|
+Retained
+|
+|
+|
+Accumulated
+Other
+Comprehensive
+|
+|
+|
+Total
+Stockholders’
+|
+|
+|
+|
+Shares
+|
+|
+|
+Amount
+|
+|
+|
+Capital
+|
+|
+|
+Earnings
+|
+|
+|
+(Loss) Income
+|
+|
+|
+Equity
+|
+|
+Balance at December 31, 2025
+|
+|
+|
+67.2
+|
+|
+|
+$
+|
+0.1
+|
+|
+|
+$
+|
+2,101
+|
+|
+|
+$
+|
+711
+|
+|
+|
+$
+|
+( 93
+|
+)
+|
+|
+$
+|
+2,719
+|
+|
+Net issuance under stock-based plans
+|
+|
+|
+0.1
+|
+|
+|
+|
+|
+|
+|
+( 16
+|
+)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+( 16
+|
+)
+|
+Stock-based compensation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+19
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+19
+|
+|
+Cash dividend ($ 0.25 per common share)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+( 17
+|
+)
+|
+|
+|
+|
+|
+|
+( 17
+|
+)
+|
+Comprehensive income (loss) (net of tax):
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+84
+|
+|
+|
+|
+|
+|
+|
+84
+|
+|
+Other comprehensive income
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+22
+|
+|
+|
+|
+22
+|
+|
+Balance at March 31, 2026
+|
+|
+|
+67.3
+|
+|
+|
+$
+|
+0.1
+|
+|
+|
+$
+|
+2,104
+|
+|
+|
+$
+|
+778
+|
+|
+|
+$
+|
+( 71
+|
+)
+|
+|
+$
+|
+2,811
+|
+|
+|
+|
+Common Stock
+|
+|
+|
+Additional
+Paid-In
+|
+|
+|
+Retained
+|
+|
+|
+Accumulated
+Other
+Comprehensive
+|
+|
+|
+Total
+Stockholders’
+|
+|
+|
+|
+Shares
+|
+|
+|
+Amount
+|
+|
+|
+Capital
+|
+|
+|
+Earnings
+|
+|
+|
+(Loss) Income
+|
+|
+|
+Equity
+|
+|
+Balance at December 31, 2024
+|
+|
+|
+67.4
+|
+|
+|
+$
+|
+0.1
+|
+|
+|
+$
+|
+2,067
+|
+|
+|
+$
+|
+503
+|
+|
+|
+$
+|
+( 248
+|
+)
+|
+|
+$
+|
+2,322
+|
+|
+Net issuance under stock-based plans
+|
+|
+|
+—
+|
+|
+|
+|
+|
+|
+|
+( 5
+|
+)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+( 5
+|
+)
+|
+Stock-based compensation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+22
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+22
+|
+|
+Stock repurchase
+|
+|
+|
+( 0.5
+|
+)
+|
+|
+|
+|
+|
+|
+( 17
+|
+)
+|
+|
+|
+( 28
+|
+)
+|
+|
+|
+|
+|
+|
+( 45
+|
+)
+|
+Cash dividend ($ 0.22 per common share)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+( 15
+|
+)
+|
+|
+|
+|
+|
+|
+( 15
+|
+)
+|
+Comprehensive income (loss) (net of tax):
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+52
+|
+|
+|
+|
+|
+|
+|
+52
+|
+|
+Other comprehensive income
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+23
+|
+|
+|
+|
+23
+|
+|
+Balance at March 31, 2025
+|
+|
+|
+66.9
+|
+|
+|
+$
+|
+0.1
+|
+|
+|
+$
+|
+2,067
+|
+|
+|
+$
+|
+512
+|
+|
+|
+$
+|
+( 225
+|
+)
+|
+|
+$
+|
+2,354
+|
+|
+The accompanying notes are an integral part of the unaudited condensed consolidated financial statements.
+5
+MKS INC.
+CONDENSED CONSOLIDATED S TATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+|
+|
+Three Months Ended March 31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+$
+|
+84
+|
+|
+|
+$
+|
+52
+|
+|
+Adjustments to reconcile net income to net cash provided by operating activities:
+|
+|
+|
+|
+|
+|
+|
+Depreciation and amortization
+|
+|
+|
+85
+|
+|
+|
+|
+85
+|
+|
+Unrealized loss (gain) on foreign currency and derivative instruments
+|
+|
+|
+—
+|
+|
+|
+|
+2
+|
+|
+Amortization of debt issuance costs and original issue discount
+|
+|
+|
+4
+|
+|
+|
+|
+6
+|
+|
+Loss on extinguishment of debt
+|
+|
+|
+5
+|
+|
+|
+|
+3
+|
+|
+Stock-based compensation
+|
+|
+|
+19
+|
+|
+|
+|
+22
+|
+|
+Provision for excess and obsolete inventory
+|
+|
+|
+13
+|
+|
+|
+|
+17
+|
+|
+Deferred income taxes
+|
+|
+|
+( 24
+|
+)
+|
+|
+|
+( 37
+|
+)
+|
+Other
+|
+|
+|
+1
+|
+|
+|
+|
+1
+|
+|
+Changes in operating assets and liabilities:
+|
+|
+|
+|
+|
+|
+|
+Trade accounts receivable
+|
+|
+|
+( 129
+|
+)
+|
+|
+|
+( 19
+|
+)
+|
+Inventories
+|
+|
+|
+( 49
+|
+)
+|
+|
+|
+( 12
+|
+)
+|
+Other current and non-current assets
+|
+|
+|
+21
+|
+|
+|
+|
+17
+|
+|
+Accounts payable
+|
+|
+|
+45
+|
+|
+|
+|
+( 20
+|
+)
+|
+Current and non-current accrued compensation
+|
+|
+|
+( 68
+|
+)
+|
+|
+|
+17
+|
+|
+Income taxes payable
+|
+|
+|
+10
+|
+|
+|
+|
+12
+|
+|
+Other current and non-current liabilities
+|
+|
+|
+36
+|
+|
+|
+|
+( 5
+|
+)
+|
+Net cash provided by operating activities
+|
+|
+|
+53
+|
+|
+|
+|
+141
+|
+|
+Cash flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+Purchases of property, plant and equipment
+|
+|
+|
+( 25
+|
+)
+|
+|
+|
+( 18
+|
+)
+|
+Net cash used in investing activities
+|
+|
+|
+( 25
+|
+)
+|
+|
+|
+( 18
+|
+)
+|
+Cash flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+Repurchase of common stock
+|
+|
+|
+—
+|
+|
+|
+|
+( 45
+|
+)
+|
+Proceeds from borrowing
+|
+|
+|
+1,192
+|
+|
+|
+|
+—
+|
+|
+Payments of borrowings
+|
+|
+|
+( 1,274
+|
+)
+|
+|
+|
+( 113
+|
+)
+|
+Payments of deferred financing fees
+|
+|
+|
+( 22
+|
+)
+|
+|
+|
+—
+|
+|
+Dividend payments
+|
+|
+|
+( 17
+|
+)
+|
+|
+|
+( 15
+|
+)
+|
+Net payments related to employee stock awa

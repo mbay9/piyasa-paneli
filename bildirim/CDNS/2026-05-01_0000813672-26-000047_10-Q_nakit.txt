@@ -1,0 +1,231 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/813672/000081367226000047/cdns-20260331.htm
+SEMBOL: CDNS
+BASVURU_TARIHI: 2026-05-01
+BASVURU: 0000813672-26-000047
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the three months ended March 31, 2026 and March 31, 2025
+| 5
+|
+Notes to Condensed Consolidated Financial Statements
+| 6
+|
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 22
+|
+Item 3. | Quantitative and Qualitative Disclosures About Market Risk
+| 32
+|
+Item 4. | Controls and Procedures
+| 34
+|
+PART II. | OTHER INFORMATION |
+Item 1. | Legal Proceedings
+| 35
+|
+Item 1A. | Risk Factors
+| 35
+|
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds
+| 37
+|
+Item 3. | Defaults Upon Senior Securities
+| 37
+|
+Item 4. | Mine Safety Disclosures
+| 37
+|
+Item 5. | Other Information
+| 37
+|
+Item 6. | Exhibits
+| 38
+|
+Signatures
+| 40
+|
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements
+CADENCE DESIGN SYSTEMS, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In thousands)
+(Unaudited)
+As of |
+March 31,
+2026 | December 31,
+2025 |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 1,406,668 | $ | 3,001,317 |
+Receivables, net | 1,033,814 | 944,939 |
+Inventories | 317,951 | 303,545 |
+Prepaid expenses and other | 421,967 | 419,872 |
+Total current assets | 3,180,400 | 4,669,673 |
+Property, plant and equipment, net | 536,903 | 517,004 |
+Goodwill | 4,929,581 | 2,749,143 |
+Acquired intangibles, net | 1,933,262 | 718,223 |
+Deferred taxes | 843,209 | 917,733 |
+Other assets | 674,999 | 581,372 |
+Total assets | $ | 12,098,354 | $ | 10,153,148 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Revolving credit facility | $ | 425,000 | $ | — |
+Accounts payable and accrued liabilities | 863,910 | 856,856 |
+Current portion of deferred revenue | 873,598 | 778,435 |
+Total current liabilities | 2,162,508 | 1,635,291 |
+Long-term liabilities: |
+Long-term portion of deferred revenue | 146,574 | 155,997 |
+Long-term debt | 2,481,170 | 2,480,150 |
+Other long-term liabilities | 746,639 | 407,529 |
+Total long-term liabilities | 3,374,383 | 3,043,676 |
+Commitments and contingencies (Note 14)
+| | |
+Stockholders’ equity: |
+Common stock and capital in excess of par value | 5,700,929 | 4,719,443 |
+Treasury stock, at cost | ( 6,535,792 ) | ( 6,344,213 ) |
+Retained earnings | 7,436,416 | 7,100,756 |
+Accumulated other comprehensive loss
+| ( 40,090 ) | ( 1,805 ) |
+Total stockholders’ equity | 6,561,463 | 5,474,181 |
+Total liabilities and stockholders’ equity | $ | 12,098,354 | $ | 10,153,148 |
+See notes to condensed consolidated financial statements.
+CADENCE DESIGN SYSTEMS, INC.
+CONDENSED CONSOLIDATED INCOME STATEMENTS
+(In thousands, except per share amounts)
+(Unaudited)
+| Three Months Ended |
+| March 31,
+2026 | March 31,
+2025 |
+Revenue: |
+Product and maintenance | $ | 1,348,922 | $ | 1,110,850 |
+Services | 125,298 | 131,516 |
+Total revenue | 1,474,220 | 1,242,366 |
+Costs and expenses: |
+Cost of product and maintenance | 153,312 | 116,672 |
+Cost of services | 61,235 | 50,461 |
+Marketing and sales | 211,485 | 202,700 |
+Research and development | 508,437 | 439,102 |
+General and administrative | 88,217 | 63,098 |
+Amortization of acquired intangibles | 20,210 | 8,922 |
+Restructuring | ( 5 ) | ( 109 ) |
+Total costs and expenses | 1,042,891 | 880,846 |
+Income from operations | 431,329 | 361,520 |
+Interest expense | ( 31,613 ) | ( 29,118 ) |
+Other income, net
+| 28,387 | 23,290 |
+Income before provision for income taxes | 428,103 | 355,692 |
+Provision for income taxes | 92,443 | 82,113 |
+Net income | $ | 335,660 | $ | 273,579 |
+Net income per share – basic | $ | 1.23 | $ | 1.01 |
+Net income per share – diluted | $ | 1.23 | $ | 1.00 |
+Weighted average common shares outstanding – basic | 272,061 | 271,973 |
+Weighted average common shares outstanding – diluted | 273,725 | 273,631 |
+See notes to condensed consolidated financial statements.
+CADENCE DESIGN SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(In thousands)
+(Unaudited)
+| Three Months Ended |
+| March 31,
+2026 | March 31,
+2025 |
+Net income | $ | 335,660 | $ | 273,579 |
+Other comprehensive income (loss), net of tax effects:
+|
+Foreign currency translation adjustments | ( 37,498 ) | 66,150 |
+Changes in defined benefit plan liabilities | ( 499 ) | 355 |
+Reclassification of losses on derivatives designated as hedging instruments
+| 204 | 195 |
+Unrealized gains (losses) on available-for-sale debt securities
+| ( 492 ) | 571 |
+Total other comprehensive income (loss), net of tax effects
+| ( 38,285 ) | 67,271 |
+Comprehensive income | $ | 297,375 | $ | 340,850 |
+See notes to condensed consolidated financial statements.
+CADENCE DESIGN SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(In thousands)
+(Unaudited)
+Three Months Ended March 31, 2026 |
+Common Stock |
+Par Value | Accumulated |
+and Capital | Other |
+in Excess | Treasury | Retained | Comprehensive |
+Shares | of Par | Stock | Earnings | Loss
+| Total |
+Balance, December 31, 2025
+| 271,799 | $ | 4,719,443 | $ | ( 6,344,213 ) | $ | 7,100,756 | $ | ( 1,805 ) | $ | 5,474,181 |
+Net income | — | — | — | 335,660 | — | $ | 335,660 |
+Other comprehensive loss, net of taxes
+| — | — | — | — | ( 38,285 ) | $ | ( 38,285 ) |
+Purchase of treasury stock | ( 671 ) | — | ( 200,000 ) | — | — | $ | ( 200,000 ) |
+Issuance of common stock and reissuance of treasury stock under equity incentive plans, net of forfeitures | 1,547 | 39,731 | 32,879 | — | — | $ | 72,610 |
+Issuance of common stock in a business combination | 3,224 | 902,208 | — | — | — | $ | 902,208 |
+Stock received for payment of employee taxes on vesting of restricted stock | ( 83 ) | ( 98,636 ) | ( 24,458 ) | — | — | $ | ( 123,094 ) |
+Stock-based compensation expense | — | 138,183 | — | — | — | $ | 138,183 |
+Balance, March 31, 2026
+| 275,816 | $ | 5,700,929 | $ | ( 6,535,792 ) | $ | 7,436,416 | $ | ( 40,090 ) | $ | 6,561,463 |
+Three Months Ended March 31, 2025 |
+Common Stock |
+Par Value | Accumulated |
+and Capital | Other |
+in Excess | Treasury | Retained | Comprehensive |
+Shares | of Par | Stock | Earnings | Loss | Total |
+Balance, December 31, 2024
+| 273,851 | $ | 4,181,737 | $ | ( 5,309,579 ) | $ | 5,991,868 | $ | ( 190,448 ) | $ | 4,673,578 |
+Net income | — | — | — | 273,579 | — | $ | 273,579 |
+Other comprehensive income, net of taxes
+| — | — | — | — | 67,271 | $ | 67,271 |
+Purchase of treasury stock | ( 1,361 ) | — | ( 350,007 ) | — | — | $ | ( 350,007 ) |
+Issuance of common stock and reissuance of treasury stock under equity incentive plans, net of forfeitures | 700 | 67,220 | 9,569 | — | — | $ | 76,789 |
+Stock received for payment of employee taxes on vesting of restricted stock | ( 148 ) | ( 29,383 ) | ( 43,183 ) | — | — | $ | ( 72,566 ) |
+Stock-based compensation expense | — | 107,613 | — | — | — | $ | 107,613 |
+Balance, March 31, 2025
+| 273,042 | $ | 4,327,187 | $ | ( 5,693,200 ) | $ | 6,265,447 | $ | ( 123,177 ) | $ | 4,776,257 |
+See notes to condensed consolidated financial statements.
+CADENCE DESIGN SYSTEMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+| Three Months Ended |
+| March 31,
+2026 | March 31,
+2025 |
+Cash and cash equivalents at beginning of period | $ | 3,001,317 | $ | 2,644,030 |
+Cash flows from operating activities: |
+Net income | 335,660 | 273,579 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 84,622 | 52,916 |
+Stock-based compensation | 138,183 | 107,613 |
+(Gain) loss on divestitures and investments, net
+| ( 13,925 ) | 1,791 |
+Deferred income taxes | 73,128 | ( 1,861 ) |
+ROU asset amortization and change in operating lease liabilities | ( 250 ) | ( 1,446 ) |
+Other non-cash items | 1,629 | 862 |
+Changes in operating assets and liabilities, net of effect of acquired businesses: |
+Receivables | ( 18,548 ) | 102,136 |
+Inventories | ( 31,376 ) | 15,018 |
+Prepaid expenses and other | 9,100 | 10,316 |
+Other assets | ( 1,870 ) | 12,237 |
+Accounts payable and accrued liabilities | ( 232,568 ) | ( 69,621 ) |
+Deferred revenue | 20,422 | ( 14,377 ) |
+Other long-term liabilities | ( 8,425 ) | ( 2,142 ) |
+Net cash provided by operating activities | 355,782 | 487,021 |
+Cash flows from investing activities: |
+Purchases of investments | ( 29,064 ) | ( 11,469 ) |
+Proceeds from the sale and maturity of investments | 40,443 | 1,246 |
+Proceeds from the sale of IP and other assets
+| — | 11,500 |
+Purchases of property, plant and equipment | ( 48,820 ) | ( 23,061 ) |
+Cash paid in business combinations, net of cash acquired | ( 2,074,534 ) | — |
+Net cash used for investing activities | ( 2,111,975 ) | ( 21,784 ) |
+Cash flows from financing activities: |
+Proceeds from revolving credit facility
+| 425,000 | — |
+Proceeds from issuance of common stock | 72,610 | 76,789 |
+Stock received for payment of employee taxes on vesting of restricted stock | ( 123,094 ) | ( 72,566 ) |
+Payments for repurchases of common stock | ( 200,000 ) | ( 350,007 ) |
+Net cash provided by (used for) financing activities
+| 174,516 | ( 345,784 ) |
+Effect of exchange rate changes on cash and cash equivalents | ( 12,972 ) | 14,

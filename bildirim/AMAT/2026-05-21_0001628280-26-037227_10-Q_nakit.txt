@@ -1,0 +1,159 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm
+SEMBOL: AMAT
+BASVURU_TARIHI: 2026-05-21
+BASVURU: 0001628280-26-037227
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+( In millions)
+Six Months Ended |
+April 26, 2026 | April 27, 2025 |
+(Unaudited) |
+Cash flows from operating activities: |
+Net income | $ | 4,832 | $ | 3,322 |
+Adjustments required to reconcile net income to cash provided by operating activities: |
+Depreciation and amortization | 262 | 208 |
+Restructuring charges | 12 | — |
+(Gain) / loss and impairment on investments | ( 1,138 ) | 24 |
+Share-based compensation | 376 | 354 |
+Deferred income taxes | 74 | 672 |
+Other | 4 | ( 38 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 1,188 ) | ( 953 ) |
+Inventories | ( 401 ) | ( 235 ) |
+Other current and non-current assets | ( 394 ) | ( 30 ) |
+Accounts payable and accrued expenses | ( 221 ) | ( 92 ) |
+Contract liabilities | ( 3 ) | ( 358 ) |
+Income taxes payable | 325 | ( 373 ) |
+Other liabilities | ( 9 ) | ( 5 ) |
+Cash provided by operating activities | 2,531 | 2,496 |
+Cash flows from investing activities: |
+Capital expenditures | ( 1,281 ) | ( 891 ) |
+Cash paid for acquisitions, net of cash acquired | ( 175 ) | ( 29 ) |
+Proceeds from asset sale | 6 | 33 |
+Proceeds from sales and maturities of investments | 3,234 | 3,144 |
+Purchases of investments | ( 3,523 ) | ( 2,933 ) |
+Cash used in investing activities | ( 1,739 ) | ( 676 ) |
+Cash flows from financing activities: |
+Proceeds from issuance of commercial paper | 300 | 300 |
+Repayments of commercial paper | ( 400 ) | ( 300 ) |
+Proceeds from common stock issuances | 131 | 129 |
+Common stock repurchases | ( 737 ) | ( 2,988 ) |
+Tax withholding payments for vested equity awards | ( 309 ) | ( 177 ) |
+Payments of dividends to stockholders | ( 730 ) | ( 651 ) |
+Payments of debt issuance costs | — | ( 2 ) |
+Cash used in financing activities | ( 1,745 ) | ( 3,689 ) |
+Increase (decrease) in cash, cash equivalents and restricted cash equivalents | ( 953 ) | ( 1,869 ) |
+Cash, cash equivalents and restricted cash equivalents — beginning of period | 7,312 | 8,113 |
+Cash, cash equivalents and restricted cash equivalents — end of period | $ | 6,359 | $ | 6,244 |
+Reconciliation of cash, cash equivalents and restricted cash equivalents |
+Cash and cash equivalents | $ | 6,301 | $ | 6,169 |
+Restricted cash equivalents included in deferred income taxes and other assets | 58 | 75 |
+Total cash, cash equivalents and restricted cash equivalents | $ | 6,359 | $ | 6,244 |
+8
+Table of Contents
+APPLIED MATERIALS, INC.
+CONSOLIDATED CONDENSED STATEMENTS OF CASH FLOWS (Continued)
+( In millions)
+Six Months Ended |
+April 26, 2026 | April 27, 2025 |
+(Unaudited) |
+Supplemental cash flow information: |
+Cash payments for income taxes | $ | 650 | $ | 833 |
+Cash refunds from income taxes | $ | 16 | $ | 75 |
+Cash payments for interest | $ | 119 | $ | 120 |
+See accompanying Notes to Consolidated Condensed Financial Statements.
+9
+Table of Contents
+APPLIED MATERIALS, INC.
+NOTES TO CONSOLIDATED CONDENSED FINANCIAL STATEMENTS
+Note 1 Basis of Presentation and Recently Adopted Accounting Standards
+Basis of Presentation
+In the opinion of our management, the unaudited interim consolidated condensed financial statements of Applied Materials, Inc. and its subsidiaries (we, us, and our) included herein have been prepared on a basis consistent with the October 26, 2025 audited consolidated financial statements and include all material adjustments, consisting of normal recurring adjustments, necessary to fairly state the information set forth therein. These unaudited interim consolidated condensed financial statements should be read in conjunction with the audited consolidated financial statements and notes thereto included in our Annual Report on Form 10-K for the fiscal year ended October 26, 2025 (2025 Form 10-K).
+The preparation of financial statements in conformity with accounting principles generally accepted in the United States of America requires management to make judgments, estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Actual results could differ materially from those estimates. Our results of operations for the three and six months ended April 26, 2026 are not necessarily indicative of future operating results. Our fiscal year ends on the last Sunday in October of each year. Fiscal 2026 and 2025 contain 52 weeks each and the first six months of fiscal 2026 and 2025 each contained 26 weeks.
+Certain prior-year amounts have been reclassified to conform to current-year presentation.
+Note 2 Earnings Per Share
+Basic earnings per share is determined using the weighted average number of common shares outstanding during the period. Diluted earnings per share is determined using the weighted average number of common shares and potential common shares (representing the dilutive effect of restricted stock units and employees’ stock purchase plan shares) outstanding during the period. Our net income has not been adjusted for any period presented for purposes of computing basic or diluted earnings per share due to our non-complex capital structure.
+Three Months Ended | Six Months Ended |
+April 26,
+2026 | April 27,
+2025 | April 26,
+2026 | April 27,
+2025 |
+| (In millions, except per share amounts) |
+Numerator: |
+Net income | $ | 2,806 | $ | 2,137 | $ | 4,832 | $ | 3,322 |
+Denominator: |
+Weighted average common shares outstanding | 794 | 809 | 794 | 811 |
+Effect of weighted dilutive restricted stock units and employees’ stock purchase plan shares
+| 5 | 3 | 5 | 4 |
+Denominator for diluted earnings per share | 799 | 812 | 799 | 815 |
+Basic earnings per share | $ | 3.53 | $ | 2.64 | $ | 6.09 | $ | 4.10 |
+Diluted earnings per share | $ | 3.51 | $ | 2.63 | $ | 6.05 | $ | 4.08 |
+Potentially weighted dilutive securities | — | — | — | — |
+Excluded from the calculation of diluted earnings per share are securities attributable to outstanding restricted stock units where the combined exercise price and average unamortized fair value are greater than the average market price of our common stock, and therefore their inclusion would be anti-dilutive.
+10
+APPLIED MATERIALS, INC.
+NOTES TO CONSOLIDATED CONDENSED FINANCIAL STATEMENTS - (Continued)
+Note 3 Cash, Cash Equivalents and Investments
+Summary of Cash, Cash Equivalents and Investments
+The following tables summarize our cash, cash equivalents and investments by security type:
+April 26, 2026 | Cost | Gross
+Unrealized
+Gains | Gross
+Unrealized
+Losses | Estimated
+Fair Value |
+| (In millions) |
+Cash | $ | 1,497 | $ | — | $ | — | $ | 1,497 |
+Cash equivalents: |
+Money market funds *
+| 2,428 | — | — | 2,428 |
+Bank certificates of deposit and time deposits | 180 | — | — | 180 |
+Municipal securities | 5 | — | — | 5 |
+Commercial paper, corporate bonds and medium-term notes | 2,191 | — | — | 2,191 |
+Total cash equivalents | 4,804 | — | — | 4,804 |
+Total cash and cash equivalents | $ | 6,301 | $ | — | $ | — | $ | 6,301 |
+Short-term and long-term investments: |
+Bank certificates of deposit and time deposits | $ | 6 | $ | — | $ | — | $ | 6 |
+U.S. Treasury and agency securities | 2,247 | — | 4 | 2,243 |
+Municipal securities | 477 | 2 | 1 | 478 |
+Commercial paper, corporate bonds and medium-term notes | 1,174 | 3 | 1 | 1,176 |
+Asset-backed and mortgage-backed securities | 553 | 1 | 2 | 552 |
+Total fixed income securities | 4,457 | 6 | 8 | 4,455 |
+Publicly traded equity securities | 965 | 1,284 | 1 | 2,248 |
+Equity investments in privately held companies | 348 | 107 | 76 | 379 |
+Total equity investments | 1,313 | 1,391 | 77 | 2,627 |
+Total short-term and long-term investments | $ | 5,770 | $ | 1,397 | $ | 85 | $ | 7,082 |
+Total cash, cash equivalents and investments | $ | 12,071 | $ | 1,397 | $ | 85 | $ | 13,383 |
+_________________________
+*Excludes $ 58 million of restricted cash equivalents invested in money market funds related to deferred compensation plans.
+11
+APPLIED MATERIALS, INC.
+NOTES TO CONSOLIDATED CONDENSED FINANCIAL STATEMENTS - (Continued)
+October 26, 2025 | Cost | Gross
+Unrealized
+Gains | Gross
+Unrealized
+Losses | Estimated
+Fair Value |
+| (In millions) |
+Cash | $ | 1,419 | $ | — | $ | — | $ | 1,419 |
+Cash equivalents: |
+Money market funds *
+| 2,193 | — | — | 2,193 |
+Bank certificates of deposit and time deposits | 180 | — | — | 180 |
+U.S. Treasury and agency securities | 1,196 | — | — | 1,196 |
+Municipal securities | 5 | — | — | 5 |
+Commercial paper, corporate bonds and medium-term notes | 2,248 | — | — | 2,248 |
+Total cash equivalents | 5,822 | — | — | 5,822 |
+Total cash and cash equivalents | $ | 7,241 | $ | — | $ | — | $ | 7,241 |
+Short-term and long-term investments: |
+Bank certificates of deposit and time deposits | $ | 4 | $ | — | $ | — | $ | 4 |
+U.S. Treasury and agency securities | 1,229 | 3 | — | 1,232 |
+Non-U.S. government securities **
+| 5 | — | — | 5 |
+Municipal securities | 463 | 5 | — | 468 |
+Commercial paper, corporate bonds and medium-term notes | 848 | 6 | — | 854 |
+Asset-backed and mortgage-backed securities | 614 | 4 | 2 | 616 |
+Total fixed income securities | 3,163 | 18 | 2 | 3,17

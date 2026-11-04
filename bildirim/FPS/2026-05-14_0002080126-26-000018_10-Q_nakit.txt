@@ -1,0 +1,89 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2080126/000208012626000018/fps-20260331.htm
+SEMBOL: FPS
+BASVURU_TARIHI: 2026-05-14
+BASVURU: 0002080126-26-000018
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (UNAUDITED)
+(in thousands)
+Nine Months Ended
+March 31, |
+2026 | 2025 |
+Cash Flows from Operating Activities |
+Net income | $ | 39,940 | $ | 22,207 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 50,406 | 49,775 |
+Amortization / write off of discounts and deferred financing costs | 11,682 | 1,955 |
+Deferred taxes | 3,646 | ( 2,909 ) |
+Provision (recovery) for credit losses | 1,552 | ( 446 ) |
+Provision for slowing-moving and excess inventory | 3,898 | 353 |
+Equity-based compensation | 5,544 | 1,272 |
+Reduction in carrying amount of ROU asset, operating leases | 6,990 | 6,037 |
+Changes in assets and liabilities: |
+Accounts receivable | ( 116,174 ) | ( 49,811 ) |
+Inventory | ( 65,817 ) | ( 26,689 ) |
+Prepaid and other assets | ( 3,987 ) | ( 16,044 ) |
+Accounts payable | 42,750 | 24,717 |
+Accrued expenses | 37,071 | 8,689 |
+Deferred revenue | 22,619 | 34,823 |
+Lease liabilities, operating leases | ( 4,940 ) | ( 1,698 ) |
+Net Cash Provided by Operating Activities | 35,180 | 52,231 |
+Cash Flows from Investing Activities |
+Purchases of property and equipment | ( 84,604 ) | ( 43,088 ) |
+Net Cash Used in Investing Activities | ( 84,604 ) | ( 43,088 ) |
+Cash Flows from Financing Activities |
+Proceeds from issuance of Class A common stock sold in an IPO, net of underwriting discounts and commissions | 491,833 | — |
+Purchase of OpCo LLC Interests from Existing Shareholders with proceeds from IPO | ( 491,833 ) | — |
+Proceeds from issuance of Class A common stock sold in follow-on offering, net of underwriting discounts and commissions | 308,561 | — |
+Purchase of OpCo LLC Interests from Existing Shareholders with proceeds from follow-on offering | ( 308,561 ) | — |
+Proceeds from long-term debt | 594,000 | — |
+Payments on long-term debt | ( 511,110 ) | ( 3,879 ) |
+Debt financing costs | ( 11,757 ) | — |
+Distribution to member | ( 1,440 ) | — |
+Payment of payable pursuant to the acquisitions | ( 16,145 ) | ( 13,066 ) |
+Deferred offering costs | ( 21,615 ) | ( 3,310 ) |
+Net Cash Provided by (Used in) Financing Activities | 31,933 | ( 20,255 ) |
+Net Decrease in Cash and Cash Equivalents | ( 17,491 ) | ( 11,112 ) |
+Cash and Cash Equivalents - Beginning of Period | 111,322 | 186,396 |
+Cash and Cash Equivalents - End of Period | $ | 93,831 | $ | 175,284 |
+5
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED) (continued)
+(in thousands)
+Nine Months Ended
+March 31, |
+2026 | 2025 |
+Supplemental Cash Flows Information: |
+Cash paid for interest | $ | 34,525 | $ | 42,431 |
+Cash paid for taxes | $ | 1,960 | $ | 1,879 |
+Non-cash financing activities: |
+Recording of deferred tax assets related to exchanges of Class B common stock to Class A common stock | $ | 196,324 | $ | — |
+Recording of amounts payable pursuant to tax receivable agreement | $ | 207,286 | $ | — |
+Capital contribution related to tax receivable agreement exchanges of Class B common stock to Class A common stock | $ | 8,647 | $ | — |
+Reclassification of deferred offering costs to additional paid-in capital | $ | 4,472 | $ | — |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+6
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+1. Organization and Nature of Business
+Forgent Power Solutions, Inc. (the “Company”) was incorporated in Delaware on July 21, 2025 for the purpose of completing an initial public offering (“IPO”) of its Class A common stock, par value $ 0.00001 per share (“Class A common stock”) and related transactions in order to continue the business of Forgent Power Solutions LLC (“Opco”). After the IPO, the Company became a holding company in an umbrella partnership C corporation (“Up-C”) structure and a sole managing member of Opco with its only material asset consisting of limited liability company interests of Opco (“Opco LLC Interests”).
+The Company designs, manufactures and sells electrical distribution equipment used in data centers, the power grid and industrial facilities. The Company specializes in producing custom products that are “engineered-to-order” for technically demanding applications. Major product categories of electrical distribution equipment that the Company sells include automatic transfer switches, dry type transformers, electrical houses, generator connection cabinets, liquid filled transformers, panelboards, power distribution units, power skids, remote power panels, switchboards, switchgear and tap boxes. The Company also provides on-site commissioning and maintenance services for its products.
+Initial Public Offering
+On February 6, 2026, the Company closed an IPO of 19,074,391 shares of Class A common stock sold by the Company and 45,325,609 shares of Class A common stock sold by parent entities of Opco (collectively, the “Selling Stockholders”), in each case, at an IPO price of $ 27.00 per share.
+From the IPO, the Company received $ 491.8 million in proceeds, net of underwriting discounts and commissions, which was used to indirectly purchase 19,074,391 Opco LLC Interests, and Opco utilized the net proceeds it received from the sale of Opco LLC Interests to the Company to redeem Opco LLC Interests from Forgent Parent II LP and Forgent Parent III LP (the “Existing Opco LLC Owners”). The Company did not receive any of the proceeds from the sale of Class A common stock by the Selling Stockholders. Immediately prior to the IPO and following the IPO, Forgent Intermediate LLC was and is a wholly owned subsidiary of the Company and is the managing member and owns all of the limited liability company units of Forgent Intermediate II LLC. In turn, Forgent Intermediate II LLC is the managing member of Opco. Forgent Intermediate LLC and Forgent Intermediate II LLC collectively own a majority of the Opco LLC Interests, and the remaining Opco LLC Interests are owned by the Existing Opco LLC Owners.
+As a result of the IPO, the related reorganization transactions that occurred in connection with the IPO, and the Follow-On Offering (described below), the Company is the indirect sole managing member of Opco and indirectly owns 80.19 % of the economic interests of Opco. Accordingly, the Company consolidates the financial results of Opco and reports a non-controlling interest in the Company's condensed consolidated financial statements related to the interest held by the Existing Opco LLC Owners.
+Reorganization Transactions
+In connection with the IPO, the Company and Opco completed a series of transactions (the “Reorganization Transactions”), including the following:
+• the limited liability company agreement of Opco (the “Amended and Restated Opco LLC Agreement”) was amended and restated to, among other things, (i) provide for a new single class of capital ownership interests of Opco LLC Interests in Opco, (ii) exchange all of the then existing membership interests of the holders of Opco capital ownership interests for Opco LLC Interests and (iii) appoint Forgent Intermediate II LLC, a wholly-owned, indirect subsidiary of the Company, as the sole managing member of Opco;
+• the Company's certificate of incorporation (the “Amended and Restated Certificate of Incorporation”) was amended and restated to, among other things, (i) provide for Class A common stock with voting and economic rights (ii) provide for Class B common stock, par value $ 0.00001 per share (“Class B common stock”) with voting rights but no economic rights and (iii) issue 90,167,635 shares of Class B common stock to the former Existing Opco LLC Owners on a one -to-one basis with the number of Opco LLC Interests they owned prior to the IPO;
+• Forgent Parent I LP contributed 100 % of the equity interests of Forgent Intermediate LLC to the Company in exchange for 210,055,933 shares of Class A common stock of the Company, and Forgent Intermediate LLC merged with and into Forgent Intermediate Merger Sub LLC, with Forgent Intermediate Sub LLC surviving and renamed Forgent Intermediate LLC;
+7
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+• the acquisition by Forgent Intermediate LLC, by merger, of Opco LLC Interests held by Forgent Blocker I LLC and Forgent Blocker II LLC (each, a “Blocker”), for which the Company issued 4,205,321 shares of Class A common stock as merger consideration (the “Blocker Merger”).
+Follow-On Offering
+On March 30, 2026, the Company completed a follow-on offering (the “Follow-On Offering”) consisting of 10,783,205 shares of Class A common stock offered by the Company and 23,716,795 shares of Class A common stock offered by the Selling Stockholders, including the exercise in full of the underwriters' option to purchase additional shares, at a public offering price of $ 29.50 per share.
+From the Follow-On offering, the Company received $ 308.6 million in proceeds, net of underwriting discounts a

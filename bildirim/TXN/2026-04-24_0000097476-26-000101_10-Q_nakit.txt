@@ -1,0 +1,108 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/97476/000009747626000101/txn-20260331.htm
+SEMBOL: TXN
+BASVURU_TARIHI: 2026-04-24
+BASVURU: 0000097476-26-000101
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows | March 31, |
+(In millions) | 2026 | 2025 |
+Cash flows from operating activities | | |
+Net income | $ | 1,545 | $ | 1,179 |
+Adjustments to net income: |
+Depreciation | 541 | 424 |
+Amortization of capitalized software | 21 | 20 |
+Stock compensation | 109 | 116 |
+Gains on sales of assets | ( 5 ) | — |
+Deferred taxes | ( 4 ) | ( 87 ) |
+Increase (decrease) from changes in: |
+Accounts receivable | ( 282 ) | ( 141 ) |
+Inventories | 109 | ( 160 ) |
+Prepaid expenses and other current assets | ( 9 ) | ( 7 ) |
+Accounts payable and accrued expenses | ( 125 ) | ( 121 ) |
+Accrued compensation | ( 447 ) | ( 427 ) |
+Income taxes payable | 130 | 132 |
+Changes in funded status of retirement plans | 4 | ( 9 ) |
+Other | ( 67 ) | ( 70 ) |
+Cash flows from operating activities | 1,520 | 849 |
+Cash flows from investing activities | | |
+Capital expenditures | ( 676 ) | ( 1,123 ) |
+Proceeds from U.S. CHIPS and Science Act (CHIPS Act) incentives | 555 | 260 |
+Proceeds from asset sales | 5 | — |
+Purchases of short-term investments | ( 935 ) | ( 647 ) |
+Proceeds from short-term investments | 1,043 | 2,807 |
+Other | ( 39 ) | ( 44 ) |
+Cash flows from investing activities | ( 47 ) | 1,253 |
+Cash flows from financing activities | | |
+Repayment of debt | — | ( 750 ) |
+Dividends paid | ( 1,291 ) | ( 1,238 ) |
+Stock repurchases | ( 158 ) | ( 653 ) |
+Proceeds from common stock transactions | 309 | 118 |
+Other | ( 9 ) | ( 16 ) |
+Cash flows from financing activities | ( 1,149 ) | ( 2,539 ) |
+Net change in cash and cash equivalents | 324 | ( 437 ) |
+Cash and cash equivalents at beginning of period | 3,225 | 3,200 |
+Cash and cash equivalents at end of period | $ | 3,549 | $ | 2,763 |
+Supplemental cash flow information |
+Investment tax credit (ITC) used to reduce income taxes payable | $ | — | $ | — |
+Proceeds from CHIPS Act incentives | 555 | 260 |
+Total cash benefit related to the CHIPS Act | $ | 555 | $ | 260 |
+See accompanying notes. | | |
+5
+Notes to financial statements
+1. Description of business, including segment and geographic area information
+We design and manufacture semiconductors that we sell to electronics designers and manufacturers all over the world. We have two reportable segments, Analog and Embedded Processing, each of which represents groups of products that have similar design and development requirements, product characteristics and manufacturing processes. Our segments reflect how our chief operating decision maker (CODM), which is our chief executive officer, allocates resources and measures results.
+• Analog semiconductors change real-world signals, such as sound, temperature, pressure or light, by conditioning them, amplifying them and often converting them to a stream of digital data that can be processed by other semiconductors, such as embedded processors. Analog semiconductors are also used to manage power in all electronic equipment by converting, distributing, storing, discharging, isolating and measuring electrical energy, whether the equipment is plugged into a wall or using a battery. Our Analog segment consists of two major product lines: Power and Signal Chain.
+• Embedded Processing products are the digital “brains” of many types of electronic equipment. They are designed to handle specific tasks and can be optimized for various combinations of performance, power and cost, depending on the application.
+We report the results of our remaining business activities in Other. Other includes DLP ® products and calculators, which are operating segments that do not meet the quantitative thresholds for individually reportable segments and cannot be aggregated with other operating segments.
+In Other, we also include items that are not used in evaluating the results of or in allocating resources to our segments. Examples of these items include acquisition, integration and restructuring charges, and certain corporate-level items, such as litigation expenses, environmental costs, insurance settlements, and gains and losses from other activities, including asset dispositions. We allocate the remainder of our expenses associated with corporate activities to our operating segments based on specific methodologies, such as percentage of operating expenses or headcount.
+Costs incurred by our centralized manufacturing and support organizations, including depreciation, are charged to the operating segments, including those in Other, on a per-unit basis. Consequently, depreciation expense is not an independently identifiable component within the segments’ results and, therefore, is not provided.
+With the exception of goodwill, we do not identify or allocate assets by operating segment, nor does the CODM evaluate operating segments using discrete asset information. We have no material intersegment revenue. The accounting policies of the segments are consistent with those described in the significant accounting policies and practices.
+Segment information
+For Three Months Ended March 31, |
+2026 | 2025 |
+Analog | Embedded Processing | Other | Total | Analog | Embedded Processing | Other | Total |
+Revenue | $ | 3,924 | $ | 723 | $ | 178 | $ | 4,825 | $ | 3,210 | $ | 647 | $ | 212 | $ | 4,069 |
+Cost of revenue | 1,589 | 374 | 63 | 2,026 | 1,296 | 375 | 85 | 1,756 |
+Gross profit | 2,335 | 349 | 115 | 2,799 | 1,914 | 272 | 127 | 2,313 |
+R&D | 369 | 123 | 18 | 510 | 369 | 128 | 20 | 517 |
+SG&A | 328 | 104 | 32 | 464 | 339 | 104 | 29 | 472 |
+Acquisition charges | — | — | 17 | 17 | — | — | — | — |
+Operating profit | $ | 1,638 | $ | 122 | $ | 48 | $ | 1,808 | $ | 1,206 | $ | 40 | $ | 78 | $ | 1,324 |
+6
+TEXAS INSTRUMENTS INCORPORATED AND SUBSIDIARIES
+Geographic area information
+Our estimate for revenue based on the geographic location of our end customers’ headquarters, which represents where critical decisions are made, is as follows:
+For Three Months Ended |
+March 31, |
+2026 | 2025 |
+Revenue: |
+United States | $ | 1,796 | 37 | % | $ | 1,518 | 37 | % |
+China | 1,024 | 21 | 826 | 20 |
+Rest of Asia | 555 | 12 | 438 | 11 |
+Europe, Middle East and Africa (a) | 1,070 | 22 | 936 | 23 |
+Japan | 289 | 6 | 275 | 7 |
+Rest of world | 91 | 2 | 76 | 2 |
+Total revenue | $ | 4,825 | 100 | % | $ | 4,069 | 100 | % |
+(a) Revenue from end customers headquartered in Germany was 10 % and 11 % in the first quarters of 2026 and 2025, respectively.
+2. Basis of presentation and significant accounting policies and practices
+Basis of presentation
+The consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States (GAAP) and on the same basis as the audited financial statements included in our annual report on Form 10-K for the year ended December 31, 2025. The Consolidated Statements of Income, Comprehensive Income and Cash Flows for the periods ended March 31, 2026 and 2025, and the Consolidated Balance Sheet as of March 31, 2026, are not audited but reflect all adjustments that are of a normal recurring nature and are necessary for a fair statement of the results of the periods shown. Certain information and note disclosures normally included in annual consolidated financial statements have been omitted pursuant to the rules and regulations of the U.S. Securities and Exchange Commission. Because the consolidated interim financial statements do not include all of the information and notes required by GAAP for a complete set of financial statements, they should be read in conjunction with the audited consolidated financial statements and notes included in our annual report on Form 10-K for the year ended December 31, 2025. The results for the three-month periods are not necessarily indicative of a full year’s results.
+Significant accounting policies and practices
+Earnings per share (EPS)
+We use the two-class method for calculating EPS because the restricted stock units (RSUs) we grant are participating securities containing nonforfeitable rights to receive dividend equivalents. Under the two-class method, a portion of net income is allocated to RSUs and excluded from the calculation of income allocated to common stock.
+7
+TEXAS INSTRUMENTS INCORPORATED AND SUBSIDIARIES
+Computation and reconciliation of earnings per common share are as follows:
+| For Three Months Ended March 31, |
+| 2026 | 2025 |
+Net Income | Shares | EPS | Net Income | Shares | EPS |
+Basic EPS: | | | | | | |
+Net income | $ | 1,545 | | | $ | 1,179 | | |
+Income allocated to RSUs | ( 9 ) | | | ( 6 ) | | |
+Income allocated to common stock | $ | 1,536 | 909 | $ | 1.69 | $ | 1,173 | 910 | $ | 1.29 |
+Dilutive effect of stock compensation plans | 5 | | 6 |
+Diluted EPS: | |
+Net income | $ | 1,545 | | $ | 1,179 |
+Income allocated to RSUs | ( 9 ) | | ( 6 ) |
+Income allocated to common stock | $ | 1,536 | 914 | $ | 1.68 | $ | 1,173 | 916 | $ | 1.28 |
+Potentially dilutive securities representing 6 million and 10 million shares of common stock that were outstanding during the first quarters of 2026 and 2025, respectively, were excluded from the com

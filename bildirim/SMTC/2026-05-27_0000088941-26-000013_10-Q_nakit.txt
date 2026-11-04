@@ -1,0 +1,89 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/88941/000008894126000013/smtc-20260426.htm
+SEMBOL: SMTC
+BASVURU_TARIHI: 2026-05-27
+BASVURU: 0000088941-26-000013
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited)
+Three Months Ended |
+| April 26, 2026 | April 27, 2025 |
+Cash flows from operating activities: |
+Net income | $ | 26,563 | $ | 19,345 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 9,161 | 10,190 |
+Amortization of right-of-use assets | 1,574 | 1,346 |
+Accretion of deferred financing costs | 1,090 | 1,254 |
+Write-off of deferred financing costs | — | 152 |
+Interest rate swap termination | — | 14 |
+Deferred income taxes | 1,844 | 2,411 |
+Share-based compensation | 26,446 | 6,835 |
+Loss on disposition of business operations and assets | 8 | 26 |
+Equity method income | ( 1,621 ) | ( 1,046 ) |
+Gain from sale of investments | ( 100 ) | — |
+Corporate-owned life insurance, net | 2,393 | 655 |
+Changes in assets and liabilities: |
+Accounts receivable, net | ( 14,055 ) | ( 3,107 ) |
+Inventories | ( 7,180 ) | ( 6,627 ) |
+Other assets | ( 3,155 ) | 2,281 |
+Accounts payable | 8,044 | 9,805 |
+Accrued liabilities | ( 13,681 ) | ( 15,444 ) |
+Other liabilities | ( 1,148 ) | ( 266 ) |
+Net cash provided by operating activities | 36,183 | 27,824 |
+Cash flows from investing activities: |
+Proceeds from sales of property, plant and equipment | 42 | — |
+Purchase of property, plant and equipment | ( 8,172 ) | ( 1,650 ) |
+Proceeds from sale of investments | 100 | 536 |
+Purchase of intangibles | ( 5,274 ) | ( 529 ) |
+Acquisition, net of cash acquired | ( 29,188 ) | — |
+Premiums paid for corporate-owned life insurance | — | ( 3,428 ) |
+Net cash used in investing activities | ( 42,492 ) | ( 5,071 ) |
+Cash flows from financing activities: |
+Proceeds from revolving line of credit | 50,000 | — |
+Payments of revolving line of credit | ( 50,000 ) | — |
+Payments of term loans | — | ( 10,000 ) |
+Deferred financing costs | — | ( 492 ) |
+Payments for employee share-based compensation payroll taxes | ( 26,585 ) | ( 8,901 ) |
+Proceeds from exercise of stock options | 787 | 32 |
+Net cash used in financing activities | ( 25,798 ) | ( 19,361 ) |
+Effect of foreign exchange rate changes on cash and cash equivalents | 238 | 1,339 |
+Net (decrease) increase in cash and cash equivalents | ( 31,869 ) | 4,731 |
+Cash and cash equivalents at beginning of period | 195,179 | 151,743 |
+Cash and cash equivalents at end of period | $ | 163,310 | $ | 156,474 |
+8
+SEMTECH CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (CONTINUED)
+(in thousands)
+(unaudited)
+Three Months Ended |
+April 26, 2026 | April 27, 2025 |
+Supplemental disclosure of cash flow information: |
+Interest paid | $ | 346 | $ | 3,526 |
+Income taxes paid | $ | 6,735 | $ | 1,335 |
+Non-cash investing and financing activities: |
+Accounts payable related to capital expenditures | $ | 97 | $ | 247 |
+Accrued deferred financing costs | $ | — | $ | 72 |
+Accrued purchases of intangibles | $ | 172 | $ | 5,130 |
+Acquisition-related holdback amount | $ | 3,400 | $ | — |
+The accompanying notes are an integral part of these interim unaudited condensed consolidated financial statements.
+9
+SEMTECH CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1: Organization and Basis of Presentation
+Nature of Business
+Semtech Corporation (together with its consolidated subsidiaries, the "Company" or "Semtech") is a leading provider of high-performance semiconductors powering data center networking, Internet of Things ("IoT") connectivity and cellular infrastructure solutions. The end customers for the Company's silicon solutions are primarily original equipment manufacturers that produce and sell technology solutions. The Company's IoT module, router, gateway and managed connectivity solutions ship to IoT device makers, enterprises and solution providers to provide IoT connectivity to end devices.
+The Company designs, develops, manufactures and markets a diverse portfolio of products for commercial applications, addressing the global infrastructure, high-end consumer and industrial end markets.
+Basis of Presentation
+The Company reports results on the basis of 52 and 53-week periods and ends its fiscal year on the last Sunday in January. The other quarters generally end on the last Sunday of April, July and October. All quarters consist of 13 weeks except for one 14-week period in the fourth quarter of 53-week years. The first quarter of fiscal years 2027 and 2026 each consisted of 13 weeks. Fiscal year 2027 will consist of 53 weeks and will end on January 31 , 2027.
+Principles of Consolidation
+The accompanying interim unaudited condensed consolidated financial statements include the accounts of the Company and its majority-owned subsidiaries and have been prepared in accordance with generally accepted accounting principles in the United States ("GAAP") and on the same basis as the audited consolidated financial statements included in the Company's Annual Report on Form 10-K for the fiscal year ended January 25, 2026 ("Annual Report"). The Company's interim unaudited condensed consolidated statements of operations are referred to herein as the "Statements of Operations," the Company's interim unaudited condensed consolidated balance sheets are referred to herein as the "Balance Sheets," and the Company's interim unaudited condensed consolidated statements of cash flows are referred to herein as the "Statements of Cash Flows." In the opinion of the Company, these interim unaudited condensed consolidated financial statements contain all adjustments (consisting of normal recurring adjustments) necessary to present fairly, in all material respects, the financial position and results of operations of the Company for the interim periods presented. All intercompany balances have been eliminated. Because the interim unaudited condensed consolidated financial statements do not include all of the information and notes required by GAAP for a complete set of consolidated financial statements, they should be read in conjunction with the audited consolidated financial statements and notes included in the Company's Annual Report. The results reported in these interim unaudited condensed consolidated financial statements should not be regarded as indicative of results that may be expected for any subsequent period or for the entire year.
+Use of Estimates
+The preparation of the consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Actual results could differ from those estimates.
+Recently Adopted Accounting Standards
+In July 2025, the Financial Accounting Standards Board ("FASB") issued Accounting Standards Update ("ASU") 2025-05, Financial Instruments—Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets , which allows public business entities a practical expedient. Under this practical expedient, an entity is allowed to assume that the current conditions it has applied in determining credit loss allowances for current accounts receivable and current contract assets remain unchanged for the remaining life of those assets. ASU 2025-05 is effective for the Company for fiscal years beginning after December 15, 2025, and interim reporting periods in those years. Early adoption is permitted in both interim and annual reporting periods in which financial statements have not yet been issued or made available for issuance. Entities that elect the practical expedient are required to apply the amendments prospectively. The Company adopted ASU 2025-05 on a prospective basis during the fiscal quarter ended April 26, 2026. While this ASU was adopted, the Company did not elect the practical expedient permitted under the ASU. Therefore, the adoption of this standard did not have a material impact on the Company’s consolidated financial statements.
+Future Accounting Standards
+In September 2025, the FASB issued ASU 2025-06, Intangibles—Goodwill and Other—Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software , which removes all references to prescriptive and sequential software development stages, or "project stages", throughout Subtopic 350-40, and instead specifies that an entity is
+10
+required to start capitalizing software costs when management has authorized and committed to funding the software project and it is probable that the project will be completed and the software will be used to perform the function intended. The amendments are effective for the Company for annual reporting periods beginning after December 15, 2027, and interim periods within those annual reporting periods. Early adoption is permitted. ASU 2025-06 may be applied using the prospective, modified, or retrospective transition methods. The Company is currently evaluati

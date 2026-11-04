@@ -1,0 +1,552 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/103145/000110465926055672/veco-20260331x10q.htm
+SEMBOL: VECO
+BASVURU_TARIHI: 2026-05-05
+BASVURU: 0001104659-26-055672
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(in thousands)
+(unaudited)
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three months ended March 31,
+| ​
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​ ​ ​
+|
+Cash Flows from Operating Activities
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income (loss)
+| ​
+| $
+| ( 324 )
+| ​
+| $
+| 11,947
+| ​
+|
+Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Depreciation and amortization
+| ​
+|
+| 5,037
+| ​
+|
+| 5,035
+| ​
+|
+Non-cash interest expense
+| ​
+| ​
+| 244
+| ​
+| ​
+| 257
+| ​
+|
+Deferred income taxes
+| ​
+|
+| ( 1,088 )
+| ​
+|
+| 1,567
+| ​
+|
+Share-based compensation expense
+| ​
+|
+| 8,511
+| ​
+|
+| 9,208
+| ​
+|
+Changes in operating assets and liabilities:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Accounts receivable and contract assets
+| ​
+|
+| ( 26,721 )
+| ​
+|
+| ( 14,011 )
+| ​
+|
+Inventories
+| ​
+|
+| ( 6,933 )
+| ​
+|
+| ( 7,316 )
+| ​
+|
+Prepaid expenses and other current assets
+| ​
+|
+| ( 859 )
+| ​
+|
+| ( 2,434 )
+| ​
+|
+Accounts payable and accrued expenses
+| ​
+|
+| 12,519
+| ​
+|
+| 21,874
+| ​
+|
+Contract liabilities
+| ​
+|
+| 18,570
+| ​
+|
+| ( 7,776 )
+| ​
+|
+Income taxes receivable and payable, net
+| ​
+|
+| ( 1,269 )
+| ​
+|
+| 2,475
+| ​
+|
+Other, net
+| ​
+|
+| 248
+| ​
+|
+| ( 834 )
+| ​
+|
+Net cash provided by (used in) operating activities
+| ​
+|
+| 7,935
+| ​
+|
+| 19,992
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash Flows from Investing Activities
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Capital expenditures
+| ​
+|
+| ( 5,103 )
+| ​
+|
+| ( 6,755 )
+| ​
+|
+Proceeds from the sale of investments
+| ​
+|
+| 35,640
+| ​
+|
+| 66,200
+| ​
+|
+Payments for purchases of investments
+| ​
+|
+| ( 12,846 )
+| ​
+|
+| ( 44,922 )
+| ​
+|
+Net cash provided by (used in) investing activities
+| ​
+| ​
+| 17,691
+| ​
+| ​
+| 14,523
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Cash Flows from Financing Activities
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Restricted stock tax withholdings
+| ​
+| ​
+| ( 11,041 )
+| ​
+| ​
+| ( 6,675 )
+| ​
+|
+Proceeds (net of tax withholdings) from option exercises and employee stock purchase plan
+| ​
+|
+| 1,483
+| ​
+|
+| 1,399
+| ​
+|
+Net cash provided by (used in) financing activities
+| ​
+|
+| ( 9,558 )
+| ​
+|
+| ( 5,276 )
+| ​
+|
+Effect of exchange rate changes on cash and cash equivalents
+| ​
+|
+| 1
+| ​
+|
+| 9
+| ​
+|
+Net increase (decrease) in cash and cash equivalents
+| ​
+|
+| 16,069
+| ​
+|
+| 29,248
+| ​
+|
+Cash and cash equivalents - beginning of period
+| ​
+|
+| 163,466
+| ​
+|
+| 145,819
+| ​
+|
+Cash and cash equivalents - end of period
+| ​
+| $
+| 179,535
+| ​
+| $
+| 175,067
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Supplemental Disclosure of Cash Flow Information
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Interest paid
+| ​
+| $
+| 143
+| ​
+| $
+| 712
+| ​
+|
+Income taxes paid, net of refunds received
+| ​
+| ​
+| 714
+| ​
+| ​
+| ( 1,671 )
+| ​
+|
+Non-cash activities
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Capital expenditures included in accounts payable and accrued expenses
+| ​
+| ​
+| 857
+| ​
+| ​
+| 2,455
+| ​
+|
+Right-of-use assets obtained in exchange for lease obligations
+| ​
+| ​
+| —
+| ​
+| ​
+| 127
+| ​
+|
+​
+See accompanying Notes to the Consolidated Financial Statements .
+​
+7
+Table of Contents
+Note 1 — Basis of Presentation
+​
+The accompanying unaudited Consolidated Financial Statements of Veeco have been prepared in accordance with U.S. GAAP as defined in Financial Accounting Standards Board (“FASB”) Accounting Standards Codification 270 for interim financial information and with the instructions to Rule 10-01 of Securities and Exchange Commission Regulation S-X. Accordingly, they do not include all of the information and footnotes required by U.S. GAAP for complete financial statements as the interim information is an update of the information that was presented in Veeco’s most recent annual financial statements. For further information, refer to Veeco’s Consolidated Financial Statements and Notes thereto included in the Annual Report on Form 10-K for the year ended December 31, 2025 (“2025 Form 10-K”). In the opinion of management, all adjustments considered necessary for a fair presentation have been included. All such adjustments are of a normal, recurring nature.
+​
+Veeco reports interim quarters on a 13 -week basis ending on the last Sunday of each quarter. The fourth quarter always ends on the last day of the calendar year, December 31. The 2026 interim quarters end on March 29, June 28, and September 27, and the 2025 interim quarters end on March 30, June 29, and September 28. These interim quarters are reported as March 31, June 30, and September 30 in Veeco’s interim consolidated financial statements.
+​
+The preparation of financial statements in conformity with U.S. GAAP requires the Company’s management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. Although these estimates are based on management’s knowledge of current events and actions it may undertake in the future, actual results may differ from these estimates.
+​
+Recent Accounting Standards Not Yet Adopted
+​
+In November 2024, the FASB issued ASU 2024-03, “Disaggregation of Income Statements Expenses (Subtopic 220-40),” to improve income statement expenses disclosure. The standard requires more detailed information related to the types of expenses, including (among other items) the amounts of purchases of inventory, employee compensation, depreciation and intangible asset amortization included within each interim and annual income statement’s expense caption, as applicable. This authoritative guidance can be applied prospectively or retrospectively and will be effective for financial statements issued for annual periods beginning after December 15, 2026, and interim reporting periods within annual reporting periods beginning after December 15, 2027, with early adoption permitted. The Company is currently in the process of evaluating the impact of adoption on its consolidated financial statements.
+​
+Pending Merger with Axcelis Technologies, Inc.
+​
+On September 30, 2025, the Company entered into an Agreement and Plan of Merger (the “Merger Agreement”) with Axcelis Technologies, Inc., a Delaware corporation (“Axcelis”), and Victory Merger Sub, Inc., a Delaware corporation and a wholly-owned subsidiary of Axcelis (“Merger Sub”). Pursuant to the Merger Agreement, and subject to the satisfaction or waiver of the conditions specified therein, Merger Sub will merge with and into Veeco (the “Merger”), with Veeco surviving as a wholly-owned subsidiary of Axcelis. See Note 10 Merger for additional information.
+​
+8
+Table of Contents
+Note 2 — Income Per Common Share
+​
+Basic income per share is calculated by dividing net income by the weighted average number of shares outstanding during the period. Diluted income per share is calculated by dividing net income available to common shareholders by the weighted average number of shares used to calculate basic income per share plus the weighted average number of common share equivalents outstanding during the period. The dilutive effect of outstanding options to purchase common stock and share-based awards is considered in diluted income per share by application of the treasury stock method. The dilutive effect of performance share units is included in diluted income per common share if the performance targets have been achieved, or would have been achieved if the reporting date was the end of the contingency period. Finally, the Company includes the dilutive effect of shares issuable upon conversion of its Notes in the calculation of diluted income per share using the if-converted method. The Company must settle the principal amount of the 2029 Notes in cash, and has the option to settle any excess of the conversion value over the principal amount in any combination of cash or shares. As such, the Company only includes the excess shares that may be issuable above the principal amount of the 2029 Notes in the dilutive share count, if the effect would be dilutive.
+​
+The computations of basic and diluted income per share for the three months ended March 31, 2026 and 2025 are as follows:
+​
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Three months ended March 31,
+| ​
+| ​
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+| ​ ​ ​
+| ​ ​ ​
+|
+​
+| ​
+| (in thousands, except per share amounts)
+| ​
+|
+Numerator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income (loss)
+| ​
+| $
+| ( 324 )
+| ​
+| $
+| 11,947
+| ​
+| ​
+|
+Interest expense associated with convertible notes
+| ​
+| ​
+| —
+| ​
+| ​
+| 253
+| ​
+| ​
+|
+Net income (loss) available to common shareholders
+| ​
+| $
+| ( 324 )
+| ​
+| $
+| 12,200
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Denominator:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basic weighted average shares outstanding
+| ​
+|
+| 60,414
+| ​
+|
+| 57,753
+| ​
+| ​
+|
+Effect of potentially dilutive share-based awards
+| ​
+| ​
+| —
+| ​
+| ​
+| 693
+| ​
+| ​
+|
+Dilutive effect of convertible notes
+| ​
+|
+| —
+| ​
+|
+| 1,788
+| ​
+| ​
+|
+Diluted weighted average shares outstanding
+| ​
+|
+| 60,414
+| ​
+|
+| 60,234
+| ​
+| ​
+|
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income (loss) per common share:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Basi

@@ -1,0 +1,224 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/912093/000162828026028926/viav-20260328.htm
+SEMBOL: VIAV
+BASVURU_TARIHI: 2026-04-30
+BASVURU: 0001628280-26-028926
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the Nine Months Ended March 28, 2026 and March 29, 2025
+| 5
+|
+Consolidated Statements of Stockholders’ Equity for the Three and Nine Months Ended March 28, 2026 and March 29, 2025
+| 6
+|
+Notes to Consolidated Financial Statements
+| 8
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 37
+|
+Item 3 .
+| Quantitative and Qualitative Disclosure About Market Risks
+| 53
+|
+Item 4.
+| Controls and Procedures
+| 54
+|
+PART II - OTHER INFORMATION
+| 55
+|
+Item 1.
+| Legal Proceedings
+| 55
+|
+Item 1A.
+| Risk Factors
+| 56
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 71
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 71
+|
+Item 4.
+| Mine Safety Disclosures
+| 71
+|
+Item 5.
+| Other Information
+| 71
+|
+Item 6.
+| Exhibits
+| 71
+|
+SIGNATURES
+| 72
+|
+1
+Table of Contents
+PART I—FINANCIAL INFORMATION
+Item 1. Financial Statements
+VIAVI SOLUTIONS INC.
+CONSOLIDATED STATEMENTS OF OPERATIONS
+(in millions, except per share data)
+(unaudited)
+| Three Months Ended | Nine Months Ended |
+| March 28, 2026 | March 29, 2025 | March 28, 2026 | March 29, 2025 |
+Revenues: |
+Product revenue | $ | 357.0 | $ | 241.5 | $ | 931.7 | $ | 664.7 |
+Service revenue | 49.8 | 43.3 | 143.5 | 129.1 |
+Total net revenue | 406.8 | 284.8 | 1,075.2 | 793.8 |
+Cost of revenues: |
+Product cost of revenue | 141.6 | 96.7 | 377.7 | 265.9 |
+Service cost of revenue | 18.1 | 21.3 | 51.4 | 57.6 |
+Amortization of acquired technologies | 13.0 | 6.1 | 32.4 | 12.7 |
+Total cost of revenues | 172.7 | 124.1 | 461.5 | 336.2 |
+Gross profit | 234.1 | 160.7 | 613.7 | 457.6 |
+Operating expenses: |
+Research and development | 71.0 | 50.0 | 192.9 | 151.5 |
+Selling, general and administrative | 113.6 | 101.3 | 344.9 | 259.7 |
+Amortization of other intangibles | 7.4 | 1.2 | 15.2 | 3.3 |
+Restructuring and related charges (benefits) | 17.3 | ( 0.3 ) | 16.9 | 0.9 |
+Total operating expenses | 209.3 | 152.2 | 569.9 | 415.4 |
+Income from operations | 24.8 | 8.5 | 43.8 | 42.2 |
+Loss on debt extinguishment (Note 11) | ( 3.7 ) | — | ( 46.2 ) | — |
+Interest and other income, net | 7.0 | 2.2 | 12.2 | 9.3 |
+Interest expense | ( 14.3 ) | ( 7.5 ) | ( 37.0 ) | ( 22.5 ) |
+Income (loss) before income taxes and equity investment earnings | 13.8 | 3.2 | ( 27.2 ) | 29.0 |
+Provision for (benefit from) income taxes | 7.4 | ( 16.3 ) | 36.1 | 2.2 |
+Equity investment earnings | — | — | 0.2 | — |
+Net income (loss) | $ | 6.4 | $ | 19.5 | $ | ( 63.1 ) | $ | 26.8 |
+Net income (loss) per share: |
+Basic | $ | 0.03 | $ | 0.09 | $ | ( 0.28 ) | $ | 0.12 |
+Diluted | $ | 0.03 | $ | 0.09 | $ | ( 0.28 ) | $ | 0.12 |
+Shares used in per share calculations: |
+Basic | 232.0 | 222.6 | 226.2 | 222.2 |
+Diluted | 249.5 | 226.9 | 226.2 | 225.2 |
+The accompanying Notes to the Consolidated Financial Statements are an integral part of these statements.
+2
+Table of Contents
+VIAVI SOLUTIONS INC.
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE (LOSS) INCOME
+(in millions)
+(unaudited)
+Three Months Ended | Nine Months Ended |
+March 28, 2026 | March 29, 2025 | March 28, 2026 | March 29, 2025 |
+Net income (loss) | $ | 6.4 | $ | 19.5 | $ | ( 63.1 ) | $ | 26.8 |
+Other comprehensive (loss) income: |
+Net change in cumulative translation adjustment, net of tax | ( 7.5 ) | 13.9 | ( 6.3 ) | 2.9 |
+Amortization of net actuarial losses and other pension adjustments | — | — | 0.1 | 0.2 |
+Net change in accumulated other comprehensive (loss) income | ( 7.5 ) | 13.9 | ( 6.2 ) | 3.1 |
+Comprehensive (loss) income | $ | ( 1.1 ) | $ | 33.4 | $ | ( 69.3 ) | $ | 29.9 |
+The accompanying Notes to the Consolidated Financial Statements are an integral part of these statements.
+3
+Table of Contents
+VIAVI SOLUTIONS INC.
+CONSOLIDATED BALANCE SHEETS
+(in millions, except share and par value data)
+(unaudited)
+March 28, 2026 | June 28, 2025 |
+ASSETS | |
+Current assets: | | |
+Cash and cash equivalents | $ | 499.0 | $ | 423.6 |
+Short-term investments | 1.8 | 1.7 |
+Restricted cash | 7.2 | 3.7 |
+Accounts receivable, net | 320.3 | 261.0 |
+Inventories, net | 147.9 | 117.9 |
+Prepayments and other current assets | 77.5 | 77.3 |
+Total current assets | 1,053.7 | 885.2 |
+Property, plant and equipment, net | 222.5 | 231.9 |
+Goodwill, net | 701.8 | 595.7 |
+Intangibles, net | 398.0 | 131.6 |
+Deferred income taxes | 79.7 | 87.2 |
+Other non-current assets | 72.1 | 62.2 |
+Total assets | $ | 2,527.8 | $ | 1,993.8 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 81.7 | $ | 68.8 |
+Accrued payroll and related expenses | 72.8 | 63.6 |
+Deferred revenue | 85.2 | 74.1 |
+Accrued expenses | 27.8 | 28.7 |
+Short-term debt | 244.5 | 246.2 |
+Other current liabilities | 140.5 | 108.3 |
+Total current liabilities | 652.5 | 589.7 |
+Long-term debt | 836.3 | 396.3 |
+Other non-current liabilities | 192.5 | 227.6 |
+Total liabilities | 1,681.3 | 1,213.6 |
+Commitments and contingencies (Note 18) | | |
+Stockholders’ equity: |
+Preferred stock, $ 0.001 par value; 1 million shares authorized, no shares issued or outstanding at March 28, 2026 and June 28, 2025
+| — | — |
+Common stock, $ 0.001 par value; 1 billion shares authorized; 234 million shares at March 28, 2026 and 223 million shares at June 28, 2025, issued and outstanding
+| 0.2 | 0.2 |
+Additional paid-in capital | 70,683.5 | 70,517.9 |
+Accumulated deficit | ( 69,721.2 ) | ( 69,628.1 ) |
+Accumulated other comprehensive loss | ( 116.0 ) | ( 109.8 ) |
+Total stockholders’ equity | 846.5 | 780.2 |
+Total liabilities and stockholders’ equity | $ | 2,527.8 | $ | 1,993.8 |
+The accompanying Notes to the Consolidated Financial Statements are an integral part of these statements.
+4
+Table of Contents
+VIAVI SOLUTIONS INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+(unaudited)
+Nine Months Ended |
+March 28, 2026 | March 29, 2025 |
+OPERATING ACTIVITIES: |
+Net (loss) income | $ | ( 63.1 ) | $ | 26.8 |
+Adjustments to reconcile net (loss) income to net cash provided by operating activities: |
+Depreciation expense | 30.1 | 28.8 |
+Amortization of acquired technologies and other intangibles | 47.6 | 16.0 |
+Stock-based compensation | 41.2 | 40.5 |
+Loss on debt extinguishment | 46.2 | — |
+Amortization of debt issuance costs | 4.9 | 5.5 |
+Net change in fair value of contingent liabilities | 24.3 | ( 4.9 ) |
+Deferred taxes, net | 9.5 | ( 29.9 ) |
+Amortization of inventory step-up | 6.1 | 1.7 |
+Restructuring | 16.9 | 0.9 |
+Other | 6.9 | ( 4.6 ) |
+Changes in operating assets and liabilities, net of acquisitions: |
+Accounts receivable | ( 62.5 ) | ( 31.9 ) |
+Inventories | ( 37.3 ) | ( 0.3 ) |
+Other current and non-current assets | ( 5.7 ) | ( 1.5 ) |
+Accounts payable | 13.4 | 15.7 |
+Income taxes payable | 3.4 | 5.6 |
+Deferred revenue, current and non-current | ( 13.2 ) | ( 0.9 ) |
+Accrued payroll and related expenses | 9.1 | 6.8 |
+Accrued expenses and other current and non-current liabilities | ( 30.6 ) | ( 8.3 ) |
+Net cash provided by operating activities | $ | 47.2 | $ | 66.0 |
+INVESTING ACTIVITIES: |
+Purchases of short-term investments | $ | ( 64.6 ) | $ | ( 147.7 ) |
+Maturities of short-term investments | 64.7 | 145.5 |
+Capital expenditures | ( 20.0 ) | ( 22.3 ) |
+Proceeds from the sale of assets | 2.6 | 4.7 |
+Acquisitions, net of acquired cash and holdbacks | ( 399.3 ) | ( 117.9 ) |
+Purchase price adjustment related to business acquisition | ( 0.7 ) | — |
+Other investing activities | — | ( 3.0 ) |
+Net cash used in investing activities | $ | ( 417.3 ) | $ | ( 140.7 ) |
+FINANCING ACTIVITIES: |
+Proceeds from issuance of debt | $ | 749.1 | $ | — |
+Repayment of debt | ( 199.0 ) | — |
+Payment of debt issuance costs | ( 23.4 ) | — |
+Repurchase and retirement of common stock | ( 30.0 ) | ( 16.4 ) |
+Withholding tax payment on vesting of restricted stock and performance- based awards | ( 23.0 ) | ( 13.1 ) |
+Cash paid to third parties in convertible note extinguishment | ( 1.0 ) | — |
+Payment of financing obligations | ( 0.2 ) | ( 0.2 ) |
+Proceeds from employee stock purchase plan | 6.5 | 6.0 |
+Payment of acquisition related contingent consideration | ( 29.8 ) | — |
+Other financing activities | — | 0.2 |
+Net cash provided by (used in) financing activities | $ | 449.2 | $ | ( 23.5 ) |
+Effect of exchange rates on cash, cash equivalents and restricted cash | $ | 0.1 | $ | ( 0.9 ) |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 79.2 | ( 99.1 ) |
+Cash, cash equivalents and restricted cash at the beginning of the period (1)
+| 432.1 | 481.8 |
+Cash, cash equivalents and restricted cash at the end of the period (2)
+| $ | 511.3 | $ | 382.7 |
+(1) These amounts include both current and non-current balances of restricted cash totaling $ 8.5 million and $ 10.5 million as of June 28, 2025 and June 29, 2024, respectively.
+(2) These amounts include both current and non-current balances of restricted cash totaling $ 12.3 million and $ 8.5 million as of March 28, 2026 and March 29, 2025, respectively.
+The accompanying Notes to the Consolidated Financial Statements are an integral part of t

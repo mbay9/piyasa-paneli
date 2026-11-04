@@ -1,0 +1,73 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1451809/000145180926000041/sitm-20260331.htm
+SEMBOL: SITM
+BASVURU_TARIHI: 2026-05-07
+BASVURU: 0001451809-26-000041
+TUR: 10-Q nakit akışı tablosu
+
+Statements Of Cash Flows
+(In thousands )
+(Unaudited )
+Three Months Ended March 31, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net loss | $ | ( 5,217 ) | $ | ( 23,877 ) |
+Adjustments to reconcile net loss to net cash provided by operating activities
+|
+Depreciation and amortization expense | 12,390 | 9,037 |
+Stock-based compensation expense | 30,800 | 25,046 |
+Net change in unrealized interest on held to maturity securities | 4,258 | 14 |
+Change in fair value of sales-based earnout liability | ( 1,364 ) | 927 |
+Accretion of acquisition consideration payable | — | 634 |
+Inventory write-down | 934 | 1,037 |
+Changes in assets and liabilities: |
+Accounts receivable, net | ( 9,957 ) | 10,095 |
+Inventories | ( 10,500 ) | ( 6,953 ) |
+Prepaid expenses and other assets | ( 1,235 ) | 451 |
+Accounts payable | 6,880 | ( 2,673 ) |
+Accrued expenses and other liabilities | 4,196 | 1,296 |
+Net cash provided by operating activities | 31,185 | 15,034 |
+Cash flows from investing activities |
+Purchase of held to maturity securities | ( 113,580 ) | ( 124,454 ) |
+Proceeds from maturity of held to maturity securities | 610,782 | 177,089 |
+Purchase of property and equipment | ( 13,316 ) | ( 16,310 ) |
+Cash paid for intangibles | ( 207 ) | ( 132 ) |
+Net cash provided by investing activities | 483,679 | 36,193 |
+Cash flows from financing activities |
+Tax withholding paid on behalf of employees for net share settlement | ( 27,831 ) | ( 13,479 ) |
+Payments for debt financing costs | ( 1,350 ) | — |
+Payment of contingent consideration towards earnouts | ( 3,966 ) | ( 5,013 ) |
+Net cash used in financing activities | ( 33,147 ) | ( 18,492 ) |
+Net increase in cash and cash equivalents | 481,717 | 32,735 |
+Cash and cash equivalents |
+Beginning of period | 16,759 | 6,106 |
+End of period | $ | 498,476 | $ | 38,841 |
+Supplemental disclosure of cash flow information |
+Income taxes paid | 34 | 83 |
+Supplemental disclosure of noncash investing and financing activities |
+Liabilities recorded for property, plant and equipment, net | 3,656 | 13,492 |
+Accrued deferred financing costs | 650 | — |
+Right-of-use assets acquired under operating leases | 113 | 405 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+6
+Table of Contents
+SiTime Corporation
+Notes To Unaudited Condensed Consolidated Financial Statements
+Note 1. The Company and Basis of Presentation
+SiTime Corporation (the “Company” or "SiTime") was incorporated in the State of Delaware in December 2003. The Company is a leading provider of Precision timing ("Precision Timing") solutions to the global electronics industry, providing the timing functionality that is needed for electronics to operate reliably and accurately. The Company's products have been designed to address a wide range of applications across a broad array of end markets. The Company operates a fabless business model and leverages its global network of distributors to address the broad set of end markets that it serves.
+The accompanying interim condensed consolidated financial statements have been prepared in conformity with United States ("U.S.") generally accepted accounting principles ("GAAP") for interim financial information and the instructions to Form 10-Q and Article 10 of Regulation S-X, and should be read in conjunction with the Company's audited consolidated financial statements and related notes thereto filed with the U.S. Securities and Exchange Commission ("SEC") on Form 10-K for the fiscal year ended December 31, 2025. The interim financial statements are unaudited, but reflect all adjustments which are, in the opinion of management, of a normal, recurring nature necessary to provide a fair statement of results for the interim periods presented. The results of operations for the interim periods shown in this report are not necessarily indicative of the results that may be expected for the fiscal year ending December 31, 2026, for any future year, or for any other future interim period.
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. The significant areas requiring the use of management estimates and assumptions include revenue recognition, fair value of earnout liabilities, estimate of write-downs for excess and obsolete inventories, and sales reserves. Actual results could differ from those estimates.
+Principles of Consolidation
+The condensed consolidated financial statements include the accounts of the Company and its wholly-owned subsidiaries. All intercompany transactions and balances have been eliminated in consolidation.
+Significant Accounting Policies
+The Company’s significant accounting policies are disclosed in the Company’s audited consolidated financial statements and related notes thereto included in the Annual Report on Form 10-K for the year ended December 31, 2025. There have been no changes to these accounting policies through March 31, 2026.
+Recent Accounting Pronouncements
+Recently issued accounting pronouncements not yet adopted
+In November 2024, the FASB issued ASU No. 2024-03, Disaggregation of Income Statement Expenses (Subtopic 220-40). The ASU requires the disaggregated disclosure of specific expense categories, including purchases of inventory, employee compensation, depreciation, and amortization, within relevant income statement captions. This ASU also requires disclosure of the total amount of selling expenses along with the definition of selling expenses. The ASU is effective for annual periods beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027. Adoption of this ASU can either be applied prospectively to consolidated financial statements issued for reporting periods after the effective date of this ASU or retrospectively to any or all prior periods presented in the consolidated financial statements. Early adoption is also permitted. This ASU will likely result in the required additional disclosures being included in our consolidated financial statements, once adopted. We are currently evaluating the provisions of this ASU.
+Note 2. Acquisitions
+Proposed acquisition of certain assets ("Timing business") from Renesas Electronics America Inc. ("Renesas")
+On February 4, 2026, we entered into an asset purchase agreement (the “Asset Purchase Agreement”) with Renesas, pursuant to which Renesas will and will cause certain of its affiliates to sell, transfer, assign and convey to SiTime all of their right, title and interest in, to and under certain assets related to the timing business of Renesas Electronics Corporation for an aggregate purchase price of approximately $ 1,500.0 million in cash (“Cash Consideration”) and 4.13 million shares of our common stock (such consideration, the “Stock Consideration”), subject to certain adjustments as set forth in the Asset Purchase Agreement (the “Acquisition”). As described in greater detail in the Asset Purchase Agreement, the Stock Consideration will be determined based on the volume-weighted average price of our common stock for the period of 10
+7
+Table of Contents
+consecutive trading days ending on the third full trading day prior to the consummation of the Acquisition (the “Closing”), subject to a floor price of $ 308.6686 and a ceiling price of $ 417.6104 , which could result in approximately 3.59 million shares to 4.86 million shares being issued. Mr. Hidetoshi Shibata, CEO of Renesas, will join SiTime’s Board of Directors after the close of the transaction.
+The Closing is subject to the satisfaction of certain customary conditions, including the accuracy of each party’s representations and warranties as of the Closing, subject in certain instances, to certain materiality and other thresholds, the performance by each party of its obligations and covenants under the Asset Purchase Agreement in all material respects, the expiration or termination of the applicable waiting periods under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, and the receipt of other governmental approvals in certain foreign jurisdictions.
+Also on February 4, 2026, in connection with our entry into the Asset Purchase Agreement, we entered into a debt financing commitment letter (the “Commitment Letter”) with Wells Fargo Securities, LLC and Wells Fargo Bank, National Association (collectively, “Wells Fargo”), pursuant to which Wells Fargo has committed to provide us with debt financing to fund a portion of the Cash Consideration in an aggregate principal amount of up to $ 900.0 million in the form of a 364 -day senior secured bridge loan facility (the “Bridge Facility”), subject to customary conditions. Subject to market conditions and other factors, in lieu of all or a portion of the Bridge Facility, we may fund a portion of the Acquisition consideration through one or more bank financing or capital 

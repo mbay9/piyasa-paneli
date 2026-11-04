@@ -1,0 +1,87 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/56978/000005697826000020/klic-20260404.htm
+SEMBOL: KLIC
+BASVURU_TARIHI: 2026-05-07
+BASVURU: 0000056978-26-000020
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (Unaudited)
+(in thousands)
+Six months ended |
+April 4, 2026 | March 29, 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net income (loss) | $ | 51,944 | $ | ( 2,877 ) |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 7,937 | 10,024 |
+Impairment charges | — | 39,817 |
+Equity-based compensation | 12,321 | 13,634 |
+Adjustment for doubtful accounts | — | 16 |
+Adjustment for inventory valuation | 4,054 | 33,443 |
+Deferred taxes | ( 675 ) | ( 195 ) |
+Gain on disposal of property, plant and equipment | ( 75 ) | ( 128 ) |
+Gain on disposal of a subsidiary | — | ( 3,154 ) |
+Dividend income from equity investment | ( 409 ) | — |
+Realized gain on equity investment | ( 363 ) | — |
+Unrealized fair value changes on equity investment | ( 502 ) | ( 526 ) |
+Unrealized foreign currency transactions | 587 | ( 3,895 ) |
+Changes in operating assets and liabilities, net of businesses acquired or sold: |
+Accounts and other receivable | ( 72,133 ) | 20,091 |
+Inventories | ( 50,322 ) | ( 11,290 ) |
+Prepaid expenses and other current assets | 14,424 | 7,422 |
+Accounts payable, accrued expenses and other current liabilities | 39,492 | 3,306 |
+Income taxes payable | ( 3,667 ) | ( 5,818 ) |
+Other, net | ( 1,275 ) | ( 1,091 ) |
+Net cash provided by operating activities | $ | 1,338 | $ | 98,779 |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Disposal of a subsidiary, net of cash disposed of | — | 2,535 |
+Purchases of property, plant and equipment | ( 6,753 ) | ( 12,156 ) |
+Proceeds from sales of property, plant and equipment | 75 | 60 |
+Investment in private equity fund | — | ( 1,815 ) |
+Proceeds from private equity fund | 371 | — |
+Purchase of short-term investments | ( 184,000 ) | ( 250,000 ) |
+Maturity of short-term investments | 329,000 | 305,000 |
+Net cash provided by investing activities | $ | 138,693 | $ | 43,624 |
+6
+Table of Contents
+KULICKE AND SOFFA INDUSTRIES, INC.
+CONSOLIDATED CONDENSED STATEMENTS OF CASH FLOWS (Unaudited)(continued)
+(in thousands)
+Six months ended |
+April 4, 2026 | March 29, 2025 |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Payment for finance lease | ( 232 ) | ( 207 ) |
+Repurchase of common stock/treasury stock | ( 6,877 ) | ( 58,487 ) |
+Payments related to tax on vested equity compensation | ( 335 ) | ( 327 ) |
+Payment of excise tax for share repurchases | — | ( 1,156 ) |
+Common stock cash dividends paid | ( 10,727 ) | ( 21,781 ) |
+Net cash used in financing activities | $ | ( 18,171 ) | $ | ( 81,958 ) |
+Effect of exchange rate changes on cash and cash equivalents | 296 | ( 1,073 ) |
+Changes in cash and cash equivalents | 122,156 | 59,372 |
+Cash and cash equivalents at beginning of period | 215,708 | 227,147 |
+Cash and cash equivalents at end of period | $ | 337,864 | $ | 286,519 |
+SUPPLEMENTAL DISCLOSURE OF NON-CASH ACTIVITIES: |
+Capital distribution reinvested in private equity fund | 907 | — |
+Lease liabilities arising from obtaining right-of-use assets | 4,556 | — |
+Dividends payable | 10,727 | — |
+CASH PAID FOR: |
+Interest | $ | 77 | $ | 63 |
+Income taxes, net of refunds | $ | 15,796 | $ | 17,860 |
+The accompanying notes are an integral part of these consolidated condensed financial statements.
+7
+Table of Contents
+KULICKE AND SOFFA INDUSTRIES, INC.
+NOTES TO CONSOLIDATED CONDENSED FINANCIAL STATEMENTS (Unaudited)
+NOTE 1. BASIS OF PRESENTATION
+These consolidated condensed financial statements include the accounts of Kulicke and Soffa Industries, Inc. and its subsidiaries (“K&S,” “we,” “us,” “our,” or the “Company”), with appropriate elimination of intercompany balances and transactions.
+The interim consolidated condensed financial statements are unaudited and, in management’s opinion, include all adjustments (consisting only of normal and recurring adjustments) necessary for a fair statement of results for these interim periods. The interim consolidated condensed financial statements do not include all of the information and footnote disclosures normally included in financial statements prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) and should be read in conjunction with the consolidated financial statements and notes thereto included in the Company’s Annual Report on Form 10-K for the fiscal year ended October 4, 2025 (the “2025 Annual Report”) filed with the Securities and Exchange Commission on November 20, 2025, which includes the Consolidated Balance Sheets as of October 4, 2025 and September 28, 2024, and the related Consolidated Statements of Operations, Statements of Comprehensive Income, Changes in Shareholders’ Equity and Cash Flows for each of the years in the three-year period ended October 4, 2025. The results of operations for any interim period are not necessarily indicative of the results of operations for any other interim period or for a full year.
+Fiscal Year
+Each of the Company’s first three fiscal quarters end on the Saturday that is 13 weeks after the end of the immediately preceding fiscal quarter. The fourth quarter of each fiscal year ends on the Saturday closest to September 30. Fiscal 2026 quarters end on January 3, 2026, April 4, 2026, July 4, 2026 and October 3, 2026. In fiscal years consisting of 53 weeks, the fourth quarter will consist of 14 weeks. Fiscal 2025 quarters ended on December 28, 2024, March 29, 2025, June 28, 2025 and October 4, 2025.
+Nature of Business
+The Company designs, develops, manufactures and sells capital equipment and tools as well as services, maintains, repairs and upgrades equipment, all used to assemble semiconductor devices. The Company’s operating results depend upon the capital and operating expenditures of integrated device manufacturers (“IDMs”), outsourced semiconductor assembly and test providers (“OSATs”), foundry service providers, and other electronics manufacturers and automotive electronics suppliers worldwide which, in turn, depend on the current and anticipated market demand for semiconductors and products utilizing semiconductors. The semiconductor industry is highly volatile and experiences downturns and slowdowns which can have a severe negative effect on the semiconductor industry’s demand for semiconductor capital equipment, including assembly equipment manufactured and sold by the Company and, to a lesser extent, tools, solutions and services, including those sold or provided by the Company. These downturns and slowdowns have in the past adversely affected the Company’s operating results. The Company believes such volatility will continue to characterize the industry and the Company’s operations in the future.
+On March 25, 2025, the Board of Directors of the Company approved a strategic plan related to the cessation of the Company's Electronics Assembly ("EA") equipment business. As part of the plan, the Company began the process of winding down the EA equipment business in an effort to prioritize core semiconductor assembly business opportunities and enhance overall through-cycle financial performance. The cessation of the EA equipment business is subject to a consultation process with the applicable works council and union representatives, which the Company initiated in the third fiscal quarter of 2025 and, as of April 4, 2026, has substantially completed. The wind down activities remain ongoing and are expected to be substantially completed by the end of fiscal 2026, after which there will be some service support activities to serve out the remaining customer obligations.
+In connection with the cessation of the EA equipment business, the Company has reclassified a product line previously included in the Aftermarket Products and Services (“APS”) segment. This product line is now reported within “All Others,” consistent with how the Chief Operating Decision Maker (“CODM”) evaluates the financial information of the EA equipment aftermarket spares and services product line together with the EA capital equipment business as one operating segment for performance assessment and resource allocation purposes. Refer to Note 3: Goodwill and Intangible Assets and Note 15: Segment Information for additional details.
+8
+Table of Contents
+KULICKE AND SOFFA INDUSTRIES, INC.
+NOTES TO CONSOLIDATED CONDENSED FINANCIAL STATEMENTS (Unaudited) (continued)
+Use of Estimates
+The preparation of consolidated condensed financial statements requires management to make assumptions, estimates and judgments that affect the reported amounts of assets and liabilities, net revenue and expenses during the reporting periods, and disclosures of contingent assets and liabilities as of the date of the consolidated condensed financial statements. On an ongoing basis, management evaluates estimates, including but not limited to, those related to accounts receivable, reserves for excess and obsolete inventory and inventory valuation, carrying value and lives of fixed assets, goodwill and intangible assets, accrual for customer credit programs, the valuation estimates and a

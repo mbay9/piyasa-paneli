@@ -1,0 +1,154 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/895419/000089541926000030/wolf-20260329.htm
+SEMBOL: WOLF
+BASVURU_TARIHI: 2026-05-07
+BASVURU: 0000895419-26-000030
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+Successor | Predecessor |
+| Period from September 30, 2025 to March 29, 2026 | Period from June 30, 2025 to September 29, 2025 | Nine months ended March 30, 2025 |
+(in millions of U.S. Dollars) |
+Operating activities: |
+Net (loss) income | ($ 270.5 ) | $ 420.2 | ($ 939.9 ) |
+Adjustments to reconcile net (loss) income to cash used in operating activities from continuing operations: |
+Non-cash reorganization items | — | ( 625.6 ) | — |
+Depreciation and amortization | 68.3 | 69.3 | 191.7 |
+Gain on sale of property | ( 2.9 ) | ( 5.7 ) | ( 1.0 ) |
+Gain on RTP Fab Transfer | — | ( 25.4 ) | — |
+Amortization and write-off of deferred financing costs | 10.5 | — | 34.7 |
+Stock-based compensation | 17.9 | 13.6 | 62.7 |
+Loss on equity investment | — | 10.9 | 9.2 |
+Inventory write-off | 29.1 | 29.0 | — |
+Loss on disposal or impairment of property and equipment | 2.9 | 0.2 | 153.7 |
+Impairment of right-of-use assets | — | — | 4.8 |
+Loss on debt extinguishment | 2.8 | — | — |
+Gain on contingent cash | ( 10.0 ) | — | — |
+Amortization of premium on investments, net | ( 1.1 ) | ( 1.2 ) | ( 7.8 ) |
+Change in fair value of liability classified derivative contracts | ( 87.8 ) | — | — |
+Paid-in-kind interest on long-term debt | 21.8 | — | 75.5 |
+Deferred income taxes | 1.1 | 1.0 | — |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | 58.8 | 23.2 | ( 17.2 ) |
+Inventories | 77.2 | 0.7 | ( 20.8 ) |
+Prepaid expenses and other assets | 40.7 | 42.2 | 7.3 |
+Accounts payable | ( 33.0 ) | 28.2 | ( 16.7 ) |
+Accrued salaries, wages and other liabilities | ( 38.6 ) | ( 25.8 ) | 22.5 |
+Contract liabilities and distributor-related reserves | ( 13.6 ) | 22.8 | ( 27.9 ) |
+Cash used in operating activities | ( 126.4 ) | ( 22.4 ) | ( 469.2 ) |
+Investing activities: |
+Purchases of property and equipment | ( 67.8 ) | ( 104.0 ) | ( 1,059.5 ) |
+Purchases of patent and licensing rights | ( 1.8 ) | ( 1.4 ) | ( 3.9 ) |
+Proceeds from sale of property and equipment | 26.9 | 13.9 | 1.0 |
+Proceeds from sale of MACOM Shares | — | 92.7 | — |
+Purchases of short-term investments | ( 301.7 ) | ( 83.4 ) | ( 243.2 ) |
+Proceeds from maturities of short-term investments | 186.3 | 151.8 | 773.1 |
+Proceeds from sale of short-term investments | 1.0 | 67.2 | 39.4 |
+Reimbursement of capital expenditures from incentives and investment credits | 733.1 | 0.1 | 238.6 |
+Cash provided by (used in) investing activities | 576.0 | 136.9 | ( 254.5 ) |
+Financing activities: |
+Proceeds from Existing Senior Secured Notes | — | — | 240.0 |
+Proceeds from issuance of 2L Convertible Notes through the rights offering | — | 275.0 | — |
+Proceeds from issuance of 1.5L Convertible Notes | 379.0 | — | — |
+Proceeds from issuance of New Common Stock and Pre-Funded Warrants | 96.9 | — | — |
+Payment of Existing Senior Secured Notes (principal and pre-petition accrued interest) | — | ( 308.5 ) | — |
+Payments of deferred financing costs | ( 4.8 ) | ( 3.5 ) | ( 40.2 ) |
+Payment of Contingent Cash | — | ( 10.0 ) | — |
+Proceeds from contingent consideration | 10.0 | — | — |
+Proceeds from issuance of Old Common Stock | — | — | 203.9 |
+Adequate protection payments on Existing Senior Secured Notes | — | ( 38.4 ) | — |
+Tax withholding on vested equity awards | — | ( 0.6 ) | ( 3.9 ) |
+Payments on long-term debt borrowings, including finance lease obligations | ( 716.4 ) | — | ( 0.4 ) |
+10
+Table of Contents
+Incentive-related escrow refunds | — | — | 10.0 |
+Payment of Existing Senior Secured Notes commitment fees | — | ( 15.5 ) | — |
+Payment of unused capacity fee on pre-emergence debt | — | — | ( 1.5 ) |
+Cash (used in) provided by financing activities | ( 235.3 ) | ( 101.5 ) | 407.9 |
+Effects of foreign exchange changes on cash and cash equivalents | ( 0.2 ) | 0.8 | 0.1 |
+Net change in cash, cash equivalents and restricted cash | 214.1 | 13.8 | ( 315.7 ) |
+Cash, cash equivalents and restricted cash, beginning of period | 481.0 | 467.2 | 1,045.9 |
+Cash, cash equivalents and restricted cash, end of period | $ 695.1 | $ 481.0 | $ 730.2 |
+Supplemental cash flow information |
+Non-cash investing and financing activities |
+Accrued property and equipment | ($ 35.8 ) | ($ 82.4 ) | ($ 146.3 ) |
+The accompanying notes are an integral part of the consolidated financial statements
+11
+Table of Contents
+WOLFSPEED, INC.
+NOTES TO UNAUDITED CONSOLIDATED FINANCIAL STATEMENTS
+Note 1
+| Basis of Presentation and New Accounting Standards
+| 13
+|
+Note 2
+| Emergence from Voluntary Reorganization under Chapter 11
+| 13
+|
+Note 3
+| Fresh Start Accounting
+| 27
+|
+Note 4
+| Discontinued Operations
+| 33
+|
+Note 5
+| Revenue Recognition
+| 34
+|
+Note 6
+| Leases
+| 36
+|
+Note 7
+| Commitments and Contingencies
+| 37
+|
+Note 8
+| Investments
+| 39
+|
+Note 9
+| Fair Value of Financial Instruments
+| 41
+|
+Note 10
+| Intangible Assets
+| 42
+|
+Note 11
+| Long-term Debt
+| 43
+|
+Note 12
+| Loss Per Share
+| 46
+|
+Note 13
+| Stock-Based Compensation
+| 47
+|
+Note 14
+| Income Taxes
+| 49
+|
+Note 15
+| Restructuring
+| 49
+|
+Note 16
+| Stockholders' Equity and Pre-Funded Warrants
+| 51
+|
+12
+Table of Contents
+Note 1 – Basis of Presentation and New Accounting Standards
+Overview
+Wolfspeed, Inc. (the "Company") is an innovator of wide bandgap semiconductors, focused on silicon carbide materials and devices for power applications. The Company’s product families include silicon carbide materials and power devices targeted for various applications in the Automotive domains including electric vehicles and fast charging, as well as existing and emerging applications in the Industrial & Energy domain such as AI data centers, grid modernization and renewable energy and storage.
+As further discussed below, upon the Company’s emergence from the Chapter 11 Cases (as defined below) on the first day of the second quarter of fiscal 2026 (the "Effective Date"), the Company adopted fresh start accounting, which resulted in a new basis of accounting, and the Company becoming a new entity for financial reporting purposes. References to “Successor” relate to the financial position and results of operations of the Company after the Effective Date. References to “Predecessor” refer to the financial position and results of operations of the Company on or before the Effective Date.
+Due to the lack of comparability with historical consolidated financial statements, the Company’s unaudited consolidated financial statements and related footnotes are presented with a “black line” that separates the Predecessor and Successor periods to emphasize the lack of comparability between amounts presented after the Effective Date and amounts presented for all prior periods.
+The Successor’s financial results for future periods following the adoption of fresh start accounting will be different from historical trends and the differences may be material. Refer to Note 3 “Fresh Start Accounting” for additional information. All estimates, assumptions, valuations and financial projections related to fresh start accounting, including the fair value adjustments, the enterprise value and equity value projections, are inherently subject to significant uncertainties and the resolution of contingencies beyond the Company’s control. Accordingly, no assurances can be provided that the estimates, assumptions, valuations or financial projections will be realized, and actual results could vary materially.
+Basis of Presentation
+The consolidated financial statements presented herein have been prepared by the Company and have not been audited. In the opinion of management, all normal and recurring adjustments necessary to fairly state the consolidated financial position, results of operations, comprehensive loss, stockholders' equity and cash flows at March 29, 2026, and for all periods presented, have been made. All intercompany accounts and transactions have been eliminated. The consolidated balance sheet at June 29, 2025 has been derived from the audited financial statements as of that date.
+Certain prior period amounts in the accompanying consolidated financial statements and notes have been reclassified to conform to the current year's presentation, which include the moving of amounts related to "Long-term receivables" and "Deferred tax assets" to "Other assets," "Deferred tax liabilities" to "Other long-term liabilities," impairments previously presented in "Loss/gain on disposal or impairment," and "Amortization of acquired intangibles" to "Restructuring and other expenses," and to separate "Interest expense, net of capitalized interest" out of "Non-operating income, net." These reclassifications had no effect on previously reported net loss or stockholders’ equity.
+These financial statements have been prepared in accordance with accounting principles generally accepted in the United States of America ("U.S. GAAP") for interim information and with the instructions to Form 10-Q and Regulation S-X. Accordingly, they do not include all of the information and footnotes required by U.S. GAAP for annual financial sta

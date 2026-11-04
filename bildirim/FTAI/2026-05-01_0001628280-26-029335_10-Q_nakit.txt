@@ -1,0 +1,256 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1590364/000162828026029335/ftai-20260331.htm
+SEMBOL: FTAI
+BASVURU_TARIHI: 2026-05-01
+BASVURU: 0001628280-26-029335
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the three months ended March 31, 2026 and 2025
+| 8
+|
+Notes to Consolidated Financial Statements
+| 10
+|
+Note 1: Organization
+| 10
+|
+Note 2: Summary of Significant Accounting Policies
+| 10
+|
+Note 3: Leasing Equipment, net
+| 14
+|
+Note 4: Investments
+| 15
+|
+Note 5: Intangible Assets and Liabilities, net
+| 16
+|
+Note 6: Debt, net
+| 17
+|
+Note 7: Fair Value Measurements
+| 17
+|
+Note 8: Equity-Based Compensation
+| 18
+|
+Note 9: Income Taxes
+| 19
+|
+Note 10: Affiliate Transactions and Former Management Agreement
+| 20
+|
+Note 11: Segment Information
+| 22
+|
+Note 12: Earnings per Share and Equity
+| 27
+|
+Note 13: Commitments and Contingencies
+| 27
+|
+Note 14: Subsequent Events
+| 27
+|
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 28
+|
+Item 3. | Quantitative and Qualitative Disclosures About Market Risk
+| 41
+|
+Item 4. | Controls and Procedures
+| 42
+|
+PART II - OTHER INFORMATION |
+Item 1. | Legal Proceedings
+| 42
+|
+Item 1A. | Risk Factors
+| 42
+|
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds
+| 58
+|
+Item 3. | Defaults Upon Senior Securities
+| 58
+|
+Item 4. | Mine Safety Disclosures
+| 58
+|
+Item 5. | Other Information
+| 58
+|
+Item 6. | Exhibits
+| 59
+|
+4
+PART I—FINANCIAL INFORMATION
+Item 1. Financial Statements
+FTAI AVIATION LTD.
+CONSOLIDATED BALANCE SHEETS
+(Dollars in thousands, except share and per share data)
+(Unaudited) |
+Notes | March 31, 2026 | December 31, 2025 |
+Assets |
+Current Assets |
+Cash and cash equivalents | 2 | $ | 412,240 | $ | 300,476 |
+Accounts receivable, net (1)
+| 2 | 176,873 | 209,907 |
+Inventory, net | 2 | 1,364,256 | 1,193,773 |
+Assets held for sale | 2 | 75,703 | — |
+Other current assets (2)
+| 2 | 561,202 | 408,364 |
+Total current assets | 2,590,274 | 2,112,520 |
+Leasing equipment, net | 3 | 1,248,793 | 1,545,804 |
+Property, plant, and equipment, net | 2 | 122,136 | 120,068 |
+Investments | 4 | 313,039 | 314,156 |
+Intangible assets, net | 5 | 12,872 | 19,929 |
+Goodwill | 2 | 94,221 | 94,221 |
+Other non-current assets | 147,576 | 167,060 |
+Total assets | $ | 4,528,911 | $ | 4,373,758 |
+Liabilities |
+Current Liabilities |
+Accounts payable | $ | 203,751 | $ | 208,224 |
+Accrued liabilities | 136,503 | 90,009 |
+Current maintenance deposits | 2 | 21,546 | 25,439 |
+Current security deposits | 12,354 | 14,001 |
+Liabilities held for sale | 2 | 23,420 | — |
+Other current liabilities | 2 | 96,774 | 62,202 |
+Total current liabilities | 494,348 | 399,875 |
+Long-term debt, net | 6 | 3,451,087 | 3,448,891 |
+Non-current maintenance deposits | 2 | 21,764 | 46,237 |
+Non-current security deposits | 2 | 9,003 | 15,211 |
+Other non-current liabilities | 121,033 | 129,370 |
+Total liabilities | $ | 4,097,235 | $ | 4,039,584 |
+Commitments and contingencies | 13 | | |
+Equity |
+Ordinary shares ($ 0.01 par value per share; 2,000,000,000 shares authorized; 102,580,660 and 102,573,283 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively)
+| $ | 1,026 | $ | 1,026 |
+Preferred shares ($ 0.01 par value per share; 200,000,000 shares authorized; 6,800,000 and 6,800,000 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively)
+| 68 | 68 |
+Additional paid in capital | 54,911 | 50,567 |
+Retained earnings | 375,671 | 282,513 |
+Shareholders' equity | 431,676 | 334,174 |
+Total liabilities and equity | $ | 4,528,911 | $ | 4,373,758 |
+(1) Includes accounts receivable from the 2025 Partnership of $ 35,422 and $ 47,294 as of March 31, 2026 and December 31, 2025, respectively.
+(2) Includes receivables from the 2025 Partnership of $ 18,908 and $ 20,681 as of March 31, 2026 and December 31, 2025, respectively.
+See accompanying notes to consolidated financial statements.
+5
+FTAI AVIATION LTD.
+CONSOLIDATED STATEMENTS OF OPERATIONS (unaudited)
+(Dollars in thousands, except share and per share data)
+Three Months Ended March 31, |
+Notes | 2026 | 2025 |
+Revenues |
+Aerospace products revenue | 2 | $ | 522,585 | $ | 264,425 |
+MRE Contract revenue | 2, 10 | 221,230 | 100,638 |
+Lease income | 2 | 39,892 | 68,440 |
+Maintenance revenue | 2 | 30,599 | 49,607 |
+Asset sales revenue | 2 | 10,184 | 18,939 |
+Other revenue (1)
+| 6,207 | 31 |
+Total revenues | 11 | 830,697 | 502,080 |
+Expenses |
+Cost of sales | 524,268 | 248,714 |
+Operating expenses | 2 | 64,987 | 32,438 |
+General and administrative | 2,413 | 3,116 |
+Acquisition and transaction expenses | 16,361 | 7,292 |
+Depreciation and amortization | 3, 5 | 52,289 | 59,562 |
+Total expenses | 660,318 | 351,122 |
+Other (expense) income |
+Interest expense | ( 61,407 ) | ( 62,040 ) |
+Equity in losses of unconsolidated entities (2)
+| 4 | ( 2,363 ) | ( 7,614 ) |
+Gain on sale to the 2025 Partnership | 15,168 | 10,870 |
+Other income | 47,582 | 33,071 |
+Total other expense | ( 1,020 ) | ( 25,713 ) |
+Income before income taxes
+| 169,359 | 125,245 |
+Provision for income taxes
+| 9 | 31,460 | 22,859 |
+Net income
+| 137,899 | 102,386 |
+Less: Dividends on preferred shares | 3,709 | 6,115 |
+Less: Loss on redemption of preferred shares | — | 6,327 |
+Net income attributable to shareholders
+| $ | 134,190 | $ | 89,944 |
+Earnings per share:
+| 12 |
+Basic | $ | 1.31 | $ | 0.88 |
+Diluted | $ | 1.29 | $ | 0.87 |
+Weighted average shares outstanding: |
+Basic | 102,575,500 | 102,552,436 |
+Diluted | 104,255,902 | 103,159,051 |
+(1) Includes servicing fees of $ 5,861 and $ 0 for the three months ended March 31, 2026 and 2025, respectively, from the 2025 Partnership.
+(2) Includes the profit elimination of $( 10,000 ) and $( 6,950 ) for the three months ended March 31, 2026 and 2025, respectively, for sales to the 2025 Partnership.
+See accompanying notes to consolidated financial statements.
+6
+FTAI AVIATION LTD.
+CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY ( unaudited)
+(Dollars in thousands)
+Three Months Ended March 31, 2026 |
+Ordinary Shares | Preferred Shares | Additional Paid In Capital | Retained Earnings
+| Total Equity |
+Equity - December 31, 2025 | $ | 1,026 | $ | 68 | $ | 50,567 | $ | 282,513 | $ | 334,174 |
+Net income | 137,899 | 137,899 |
+Total comprehensive income | 137,899 | 137,899 |
+Issuance of ordinary shares | 140 | 140 |
+Dividends declared - ordinary shares | ( 41,032 ) | ( 41,032 ) |
+Dividends declared - preferred shares | ( 3,709 ) | ( 3,709 ) |
+Equity-based compensation | 6,347 | 6,347 |
+Net settlement on vesting of equity awards | ( 2,143 ) | ( 2,143 ) |
+Equity - March 31, 2026 | $ | 1,026 | $ | 68 | $ | 54,911 | $ | 375,671 | $ | 431,676 |
+Three Months Ended March 31, 2025 |
+Ordinary Shares | Preferred Shares | Additional Paid In Capital | (Accumulated Deficit) Retained Earnings
+| Total Equity |
+Equity - December 31, 2024 | $ | 1,026 | $ | 117 | $ | 153,328 | $ | ( 73,103 ) | $ | 81,368 |
+Net income
+| 102,386 | 102,386 |
+Total comprehensive income | 102,386 | 102,386 |
+Redemption of preferred shares | ( 49 ) | ( 117,791 ) | ( 117,840 ) |
+Loss on redemption of preferred shares
+| ( 6,327 ) | ( 6,327 ) |
+Issuance of ordinary shares | 739 | 739 |
+Dividends declared - ordinary shares | ( 30,767 ) | ( 30,767 ) |
+Dividends declared - preferred shares | ( 6,115 ) | ( 6,115 ) |
+Equity-based compensation | 4,889 | 4,889 |
+Equity - March 31, 2025 | $ | 1,026 | $ | 68 | $ | ( 2,044 ) | $ | 29,283 | $ | 28,333 |
+See accompanying notes to consolidated financial statements.
+7
+FTAI AVIATION LTD.
+CONSOLIDATED STATEMENTS OF CASH FLOWS (unaudited)
+(Dollars in thousands)
+Three Months Ended March 31, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 137,899 | $ | 102,386 |
+Adjustments to reconcile net income to net cash used in operating activities: |
+Equity in losses of unconsolidated entities (1)
+| 2,363 | 7,614 |
+Gain on sale of assets | ( 92,533 ) | ( 8,549 ) |
+Gain on sale of assets to the 2025 Partnership | ( 15,168 ) | ( 10,870 ) |
+Gain on insurance recoveries | ( 44,595 ) | ( 30,125 ) |
+Security deposits and maintenance claims included in earnings | ( 1,783 ) | ( 3,559 ) |
+Equity-based compensation | 6,347 | 4,889 |
+Depreciation and amortization | 52,289 | 59,562 |
+Deferred income taxes | 12,208 | 20,683 |
+Change in fair value of guarantees | 411 | 316 |
+Amortization of lease intangibles and incentives | 7,224 | 8,825 |
+Amortization of deferred financing costs | 3,054 | 2,830 |
+Other | 1,649 | 210 |
+Change in: |
+Accounts receivable | 28,787 | ( 73,088 ) |
+Inventory | ( 186,896 ) | ( 127,211 ) |
+Other assets | ( 121,135 ) | ( 41,410 ) |
+Accounts payable and accrued liabilities | 26,267 | 65,251 |
+Management fees payable to affiliate | — | ( 260 ) |
+Other liabilities | 23,536 | ( 3,460 ) |
+Net cash used in operating activities | ( 160,076 ) | ( 25,966 ) |
+Cash flows from investing activities: |
+Investment in unconsolidated entities | ( 1,246 ) | ( 19,967 ) |
+Principal collections on notes receivable | 1,565 | 989 |
+Acquisition of leasing equipment | ( 87,793 ) | ( 267,417 ) |
+Investments in financing receivables | — | ( 2,764 ) |
+Investment in promissory notes
+| ( 801 ) | — |
+Acquisition of

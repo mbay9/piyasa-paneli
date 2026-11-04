@@ -1,0 +1,223 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm
+SEMBOL: LRCX
+BASVURU_TARIHI: 2026-04-23
+BASVURU: 0000707549-26-000022
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the nine months ended Mar ch 29 , 202 6 , and Mar ch 30 , 202 5
+| 6
+|
+Condensed Consolidated Statements of Stockholders’ Equity for the three and n ine months ended March 29 , 202 6 , and March 30 , 202 5
+| 7
+|
+Notes to Condensed Consolidated Financial Statements
+| 9
+|
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 17
+|
+Item 3. | Quantitative and Qualitative Disclosures about Market Risk
+| 24
+|
+Item 4. | Controls and Procedures
+| 25
+|
+PART II. Other Information
+|
+Item 1. | Legal Proceedings
+| 26
+|
+Item 1A. | Risk Factors
+| 26
+|
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds
+| 39
+|
+Item 3. | Defaults Upon Senior Securities
+| 39
+|
+Item 4. | Mine Safety Disclosures
+| 39
+|
+Item 5. | Other Information
+| 39
+|
+Item 6. | Exhibits
+| 41
+|
+Signatures
+| 42
+|
+Table of Contents
+PART I. FINANCIAL INFORMATION
+ITEM 1. Financial Statements
+LAM RESEARCH CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(in thousands, except per share data)
+(unaudited)
+Three Months Ended | Nine Months Ended |
+March 29,
+2026 | March 30,
+2025 | March 29,
+2026 | March 30,
+2025 |
+Revenue | $ | 5,841,488 | $ | 4,720,175 | $ | 16,510,452 | $ | 13,264,198 |
+Cost of goods sold | 2,930,961 | 2,406,489 | 8,263,884 | 6,874,848 |
+Gross margin | 2,910,527 | 2,313,686 | 8,246,568 | 6,389,350 |
+Research and development | 583,200 | 525,904 | 1,732,951 | 1,516,209 |
+Selling, general, and administrative | 280,311 | 226,023 | 827,310 | 713,301 |
+Total operating expenses | 863,511 | 751,927 | 2,560,261 | 2,229,510 |
+Operating income | 2,047,016 | 1,561,759 | 5,686,307 | 4,159,840 |
+Other income (expense), net | ( 35,460 ) | ( 25,035 ) | 21,024 | 19,308 |
+Income before income taxes | 2,011,556 | 1,536,724 | 5,707,331 | 4,179,148 |
+Income tax expense | ( 186,096 ) | ( 206,057 ) | ( 719,217 ) | ( 541,019 ) |
+Net income | $ | 1,825,460 | $ | 1,330,667 | $ | 4,988,114 | $ | 3,638,129 |
+Net income per share: |
+Basic | $ | 1.46 | $ | 1.04 | $ | 3.97 | $ | 2.82 |
+Diluted | $ | 1.45 | $ | 1.03 | $ | 3.95 | $ | 2.81 |
+Number of shares used in per share calculations: |
+Basic | 1,249,728 | 1,283,779 | 1,256,343 | 1,290,041 |
+Diluted | 1,257,325 | 1,288,100 | 1,262,792 | 1,294,545 |
+See Notes to Condensed Consolidated Financial Statements
+Lam Research Corporation 2026 Q3 10-Q 3
+Table of Contents
+LAM RESEARCH CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in thousands)
+(unaudited)
+Three Months Ended | Nine Months Ended |
+March 29,
+2026 | March 30,
+2025 | March 29,
+2026 | March 30,
+2025 |
+Net income | $ | 1,825,460 | $ | 1,330,667 | $ | 4,988,114 | $ | 3,638,129 |
+Other comprehensive income (loss), net of tax: |
+Foreign currency translation adjustment | ( 13,629 ) | 8,686 | ( 47,794 ) | 5,199 |
+Cash flow hedges: |
+Net unrealized gains during the period | 5,874 | 4,132 | 26,628 | 6,248 |
+Net gains reclassified into net income | ( 15,003 ) | ( 2,826 ) | ( 38,029 ) | ( 5,190 ) |
+( 9,129 ) | 1,306 | ( 11,401 ) | 1,058 |
+Defined benefit plans, net change in unrealized component | 67 | 182 | 226 | 260 |
+Other comprehensive income (loss), net of tax | ( 22,691 ) | 10,174 | ( 58,969 ) | 6,517 |
+Comprehensive income | $ | 1,802,769 | $ | 1,340,841 | $ | 4,929,145 | $ | 3,644,646 |
+See Notes to Condensed Consolidated Financial Statements
+Lam Research Corporation 2026 Q3 10-Q 4
+Table of Contents
+LAM RESEARCH CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in thousands, except per share data)
+March 29,
+2026 | June 29,
+2025 |
+(unaudited) | (1) |
+ASSETS |
+Cash and cash equivalents | $ | 4,750,936 | $ | 6,390,659 |
+Accounts receivable, less allowance of $ 8,348 as of March 29, 2026, and $ 6,496 as of June 29, 2025
+| 4,132,890 | 3,378,071 |
+Inventories | 3,999,992 | 4,307,991 |
+Prepaid expenses and other current assets | 413,099 | 440,274 |
+Total current assets | 13,296,917 | 14,516,995 |
+Property and equipment, net | 2,853,614 | 2,428,744 |
+Goodwill and intangible assets, net | 1,882,017 | 1,808,685 |
+Other assets | 2,759,362 | 2,590,836 |
+Total assets | $ | 20,791,910 | $ | 21,345,260 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Trade accounts payable | $ | 1,071,605 | $ | 854,208 |
+Accrued expenses and other current liabilities | 2,075,421 | 2,394,366 |
+Deferred profit | 2,091,277 | 2,565,540 |
+Current portion of long-term debt and finance lease obligations | 4,095 | 754,311 |
+Total current liabilities | 5,242,398 | 6,568,425 |
+Long-term debt and finance lease obligations | 3,730,384 | 3,730,194 |
+Income taxes payable | 621,572 | 603,412 |
+Other long-term liabilities | 612,777 | 581,610 |
+Total liabilities | 10,207,131 | 11,483,641 |
+Commitments and contingencies (refer to Note 13) | | |
+Stockholders’ equity: |
+Preferred stock, at par value of $ 0.001 per share; authorized, 5,000 shares, none outstanding
+| — | — |
+Common stock, at par value of $ 0.001 per share; authorized, 4,000,000 shares as of March 29, 2026 and June 29, 2025; issued and outstanding, 1,250,539 shares as of March 29, 2026, and 1,268,740 shares as of June 29, 2025
+| 1,251 | 1,268 |
+Additional paid-in capital | 9,054,217 | 8,697,290 |
+Treasury stock, at cost; 1,710,665 shares as of March 29, 2026, and 1,687,582 shares as of June 29, 2025
+| ( 31,347,671 ) | ( 27,763,430 ) |
+Accumulated other comprehensive loss | ( 121,392 ) | ( 62,423 ) |
+Retained earnings | 32,998,374 | 28,988,914 |
+Total stockholders’ equity | 10,584,779 | 9,861,619 |
+Total liabilities and stockholders’ equity | $ | 20,791,910 | $ | 21,345,260 |
+(1) Derived from audited financial statements
+See Notes to Condensed Consolidated Financial Statements
+Lam Research Corporation 2026 Q3 10-Q 5
+Table of Contents
+LAM RESEARCH CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited)
+Nine Months Ended |
+March 29,
+2026 | March 30,
+2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net income | $ | 4,988,114 | $ | 3,638,129 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 321,891 | 287,838 |
+Deferred income taxes | ( 113,310 ) | ( 211,568 ) |
+Equity-based compensation expense | 282,396 | 249,085 |
+Other, net | ( 24,706 ) | ( 7,395 ) |
+Changes in operating assets and liabilities | ( 1,053,956 ) | ( 337,013 ) |
+Net cash provided by operating activities | 4,400,429 | 3,619,076 |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Capital expenditures and intangible assets | ( 777,604 ) | ( 586,995 ) |
+Other, net | ( 807 ) | 8,154 |
+Net cash used for investing activities | ( 778,411 ) | ( 578,841 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Principal payments on debt, including finance lease obligations and payments for debt issuance costs | ( 754,073 ) | ( 506,003 ) |
+Treasury stock purchases, including excise tax payments | ( 3,604,783 ) | ( 2,130,044 ) |
+Dividends paid | ( 945,317 ) | ( 854,335 ) |
+Reissuance of treasury stock related to employee stock purchase plan | 67,185 | 60,557 |
+Proceeds from issuance of common stock, net issuance costs | 13,021 | 1,756 |
+Other, net | ( 13,511 ) | 963 |
+Net cash used for financing activities | ( 5,237,478 ) | ( 3,427,106 ) |
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | ( 25,375 ) | ( 960 ) |
+Net change in cash, cash equivalents, and restricted cash | ( 1,640,835 ) | ( 387,831 ) |
+Cash, cash equivalents, and restricted cash at beginning of period (1)
+| 6,407,656 | 5,850,803 |
+Cash, cash equivalents, and restricted cash at end of period (1)
+| $ | 4,766,821 | $ | 5,462,972 |
+Schedule of non-cash transactions: |
+Accrued payables for stock repurchases, including applicable excise tax | $ | 23,675 | $ | 16,967 |
+Accrued payables for capital expenditures | 84,720 | 87,291 |
+Dividends payable | 325,318 | 295,423 |
+Transfers of finished goods inventory to property and equipment | 83,772 | 74,560 |
+Reconciliation of cash, cash equivalents, and restricted cash | March 29,
+2026 | March 30,
+2025 |
+Cash and cash equivalents | $ | 4,750,936 | $ | 5,450,718 |
+Restricted cash and cash equivalents (1)
+| 15,885 | 12,254 |
+Total cash, cash equivalents, and restricted cash | $ | 4,766,821 | $ | 5,462,972 |
+(1) Restricted cash is reported within Other assets in the Condensed Consolidated Balance Sheets
+See Notes to Condensed Consolidated Financial Statements
+Lam Research Corporation 2026 Q3 10-Q 6
+Table of Contents
+LAM RESEARCH CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(in thousands)
+(unaudited)
+Three Months Ended |
+March 29, 2026 |
+Common
+Stock
+Shares | Common
+Stock | Additional
+Paid-in
+Capital | Treasury
+Stock | Accumulated
+Other
+Comprehensive
+Loss | Retained
+Earnings | Total |
+Balance at December 28, 2025 | 1,251,180 | $ | 1,251 | $ | 8,948,439 | $ | ( 30,203,796 ) | $ | ( 98,701 ) | $ | 31,498,233 | $ | 10,145,426 |
+Issuance of common stock | 4,362 | 5 | 9,162 | — | — | — | 9,167 |
+Purchase of treasury stock | ( 5,003 ) | ( 5 ) | — | ( 1,143,875 ) | — | — | ( 1,143,880 ) |
+Equity-based compens

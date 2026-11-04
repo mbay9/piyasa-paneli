@@ -1,0 +1,232 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm
+SEMBOL: INTC
+BASVURU_TARIHI: 2026-04-24
+BASVURU: 0000050863-26-000079
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+|
+| Three Months Ended |
+(In Millions; Unaudited)
+| Mar 28, 2026 | Mar 29, 2025 |
+Cash, cash equivalents, and restricted cash, beginning of period
+| $ | 14,712 | $
+| 8,249
+|
+|
+Cash flows provided by (used for) operating activities:
+|
+Net income (loss)
+| ( 4,281 ) | ( 887 )
+|
+|
+Adjustments to reconcile net income (loss) to net cash provided by operating activities:
+|
+Depreciation
+| 2,902 | 2,425
+|
+|
+Share-based compensation
+| 621 | 684
+|
+|
+Restructuring and other charges
+| 3,965 | —
+|
+|
+Amortization of intangibles
+| 234 | 249
+|
+|
+(Gains) losses on equity investments, net
+| 72 | 112
+|
+|
+Mark-to-market (gains) losses on Escrowed Shares
+| 1,090 | —
+|
+|
+Deferred taxes
+| ( 9 ) | 19
+|
+|
+Changes in assets and liabilities:
+|
+Accounts receivable
+| ( 217 ) | 414
+|
+|
+Inventories
+| ( 808 ) | ( 83 )
+|
+|
+Accounts payable
+| ( 142 ) | ( 240 )
+|
+|
+Accrued compensation and benefits
+| ( 1,175 ) | ( 741 )
+|
+|
+Income taxes
+| 169 | 67
+|
+|
+Other assets and liabilities
+| ( 1,325 ) | ( 1,206 )
+|
+|
+Total adjustments
+| 5,377 | 1,700 |
+Net cash provided by (used for) operating activities
+| 1,096 | 813 |
+Cash flows provided by (used for) investing activities:
+|
+Additions to property, plant, and equipment
+| ( 3,636 ) | ( 5,183 )
+|
+|
+Proceeds from capital-related government incentives
+| 107 | 803
+|
+|
+Acquisitions, net of cash acquired
+| ( 596 ) | —
+|
+|
+Purchases of short-term investments
+| ( 7,190 ) | ( 3,386 )
+|
+|
+Sales of short-term investments
+| 9,221 | 416
+|
+|
+Maturities of short-term investments
+| 5,227 | 4,911
+|
+|
+Proceeds from divestitures, net
+| — | 1,935
+|
+|
+Other investing
+| ( 40 ) | 585
+|
+|
+Net cash provided by (used for) investing activities
+| 3,093 | 81
+|
+|
+Cash flows provided by (used for) financing activities:
+|
+Issuance of commercial paper, net of issuance costs
+| — | 1,496
+|
+|
+Partner contributions
+| 2,064 | 955
+|
+|
+Additions to property, plant, and equipment
+| ( 1,327 ) | ( 1,020 )
+|
+|
+Repayment of debt
+| ( 1,500 ) | ( 1,500 )
+|
+|
+Proceeds from sales of common stock through employee equity incentive plans
+| 427 | 491
+|
+|
+Other financing
+| ( 870 ) | ( 618 )
+|
+|
+Net cash provided by (used for) financing activities
+| ( 1,206 ) | ( 196 )
+|
+|
+Net increase (decrease) in cash, cash equivalents, and restricted cash
+| 2,983 | 698
+|
+|
+Cash, cash equivalents, and restricted cash, end of period
+| $ | 17,695 | $
+| 8,947
+|
+|
+Non-cash supplemental disclosures: |
+Acquisition of property, plant, and equipment 1
+| $ | 1,949 | $ | 3,932 |
+Recognition of capital-related government incentives | $ | 639 | $ | 985 |
+Cash paid during the period for: |
+Interest, net of capitalized interest | $ | 600 | $ | 635 |
+Income taxes, net of refunds | $ | 261 | $ | 221 |
+1 Includes $ 204 million with extended payment terms of greater than 90 days in the three months ended March 28, 2026 ($ 451 million in the three months ended March 29, 2025).
+See accompanying notes.
+| Financial Statements | Consolidated Condensed Statements of Cash Flows | 6
+|
+Table of Contents
+Consolidated Condensed Statements of Stockholders' Equity
+|
+(In Millions, Except Per Share Amounts; Unaudited) | Common Stock and Capital in Excess of Par Value | Accumulated Other Comprehensive Income (Loss) | Retained Earnings
+| Non-Controlling Interests | Total |
+Number of Shares
+| Amount
+|
+Three Months Ended |
+Balance as of December 27, 2025 | 4,994 | $ | 65,185 | $ | 113 | $ | 48,983 | $ | 12,079 | $ | 126,360 |
+Net income (loss) | — | — | — | ( 3,728 ) | ( 553 ) | ( 4,281 ) |
+Other comprehensive income (loss) | — | — | ( 157 ) | — | — | ( 157 ) |
+Net proceeds attributed to Escrowed Shares issued | 6 | 261 | — | — | — | 261 |
+Partner contributions and issuance of subsidiary shares | — | — | — | — | 2,090 | 2,090 |
+Partner distributions | — | — | — | — | ( 105 ) | ( 105 ) |
+Employee equity incentive plans | 28 | 427 | — | — | — | 427 |
+Share-based compensation | — | 531 | — | — | 84 | 615 |
+Restricted stock unit withholdings | ( 5 ) | ( 145 ) | — | ( 76 ) | — | ( 221 ) |
+Balance as of March 28, 2026 | 5,023 | $ | 66,259 | $ | ( 44 ) | $ | 45,179 | $ | 13,595 | $ | 124,989 |
+Balance as of December 28, 2024 | 4,330 | $ | 50,949 | $ | ( 711 ) | $ | 49,032 | $ | 5,762 | $ | 105,032 |
+Opening balance adjustment 1
+| — | — | — | 49 | — | 49 |
+Net income (loss) | — | — | — | ( 821 ) | ( 66 ) | ( 887 ) |
+Other comprehensive income (loss) | — | — | 225 | — | — | 225 |
+Partner contributions | — | ( 2 ) | — | — | 957 | 955 |
+Partner distributions | — | — | — | — | ( 58 ) | ( 58 ) |
+Employee equity incentive plans | 36 | 491 | — | — | — | 491 |
+Share-based compensation | — | 622 | — | — | 62 | 684 |
+Restricted stock unit withholdings | ( 4 ) | ( 140 ) | — | 62 | — | ( 78 ) |
+Balance as of March 29, 2025 | 4,362 | $ | 51,920 | $ | ( 486 ) | $ | 48,322 | $ | 6,657 | $ | 106,413 |
+1 We made a cumulative-effect adjustment to the opening balance of retained earnings upon adopting ASU 2023-08 in 2025.
+| Financial Statements | Consolidated Condensed Statements of Stockholders' Equity | 7
+|
+Table of Contents
+Notes to Consolidated Condensed Financial Statements
+|
+Note 1 : | Basis of Presentation |
+We prepared our interim Consolidated Condensed Financial Statements that accompany these notes in conformity with U.S. GAAP, consistent in all material respects with those applied in our 2025 Form 10-K.
+We have made estimates and judgments affecting the amounts reported in our Consolidated Condensed Financial Statements and the accompanying notes. The actual results that we experience may differ materially from our estimates. The interim financial information is unaudited, and reflects all normal adjustments that are, in our opinion, necessary to provide a fair statement of results for the interim periods presented. This report should be read in conjunction with our 2025 Form 10-K where we include additional information on our accounting policies and the methods and assumptions used in our estimates.
+We made certain reclassifications within our Consolidated Condensed Financial Statements, and, in certain cases, adjusted prior periods to conform to the current period presentation. These reclassifications had no impact on previously reported net income (loss) or stockholders' equity.
+Note 2 : | Operating Segments |
+We organize and manage our business as follows:
+▪ Intel Products:
+▪ Client Computing Group (CCG)
+▪ Data Center and AI (DCAI)
+▪ Intel Foundry
+▪ All Other
+▪ M obileye
+▪ Other
+CCG, DCAI and Intel Foundry are our reportable operating segments. In addition to these reportable segments, we present an "all other" category, which is not a reportable segment. When we enter into federal contracts, they are aligned to the sponsoring operating segment.
+The accounting policies applied to our segments follow those used by Intel as a whole. A summary of the basis for which we report our operating segment revenues and operating margin is as follows:
+Intel Products: CCG and DCAI
+▪ Segment revenue: consists of revenues from external customers. Our Intel Products operating segments represent most of Intel consolidated revenue and are derived from our principal products that incorporate various components and technologies, including a microprocessor and chipset, a stand-alone SoC, or a multichip package, which are based on Intel architecture.
+▪ Segment expenses: consists of intersegment charges for product manufacturing and related services from Intel Foundry, external foundry and other manufacturing expenses, product development costs, allocated expenses as described below and direct operating expenses.
+Intel Foundry
+▪ Segment revenue : consists substantially of intersegment product and services revenue for wafer fabrication, substrates and other related products and services sold to Intel Products and certain other Intel internal businesses. We recognize intersegment revenue based on the completion of performance obligations. Product revenue is recognized upon transfer of ownership, which is generally at the completion of wafer sorting. Backend service revenue is recognized upon the completion of assembly and test milestones, which approximates the recognition of revenue over the service period. Intersegment sales are recorded at prices that are intended to approximate market pricing. Intel Foundry also includes certain third-party foundry and assembly and test revenues from external customers that totaled $ 174 million in the first three months of 2026 and $ 31 million in the first three months of 2025.
+▪ Segment expenses: consists of direct expenses for technology development, product manufacturing and services provided by Intel Foundry to internal and external customers, allocated expenses as described below and direct operating expenses. Direct expenses for product manufacturing include excess capacity charges, if any.
+| Financial Statements | Notes to Financial Statements | 8
+|
+Table of Contents
+All Other
+Our "all other" category includes the results of operations from non-reportable segments, including our Mobileye busine

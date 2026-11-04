@@ -1,0 +1,929 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1419612/000117891326002432/zk2635169.htm
+SEMBOL: SEDG
+BASVURU_TARIHI: 2026-05-07
+BASVURU: 0001178913-26-002432
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (Unaudited)
+(in
+thousands, except per share data)
+|
+|
+Three
+Months Ended
+March
+31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash
+flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+Net loss
+|
+|
+$
+|
+( 57,366
+|
+)
+|
+|
+$
+|
+( 98,523
+|
+)
+|
+Adjustments
+to reconcile net loss to net cash provided by operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Depreciation
+and amortization
+|
+|
+|
+5,941
+|
+|
+|
+|
+12,001
+|
+|
+Stock-based
+compensation expenses
+|
+|
+|
+19,852
+|
+|
+|
+|
+31,426
+|
+|
+Loss
+from business disposition
+|
+|
+|
+7,600
+|
+|
+|
+|
+-
+|
+|
+Loss
+(gain) from exchange rate fluctuations
+|
+|
+|
+659
+|
+|
+|
+|
+( 2,930
+|
+)
+|
+Other
+items
+|
+|
+|
+( 939
+|
+)
+|
+|
+|
+1,242
+|
+|
+Changes
+in assets and liabilities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Trade
+receivables, net
+|
+|
+|
+43,559
+|
+|
+|
+|
+29,247
+|
+|
+Inventories,
+net
+|
+|
+|
+( 38,339
+|
+)
+|
+|
+|
+12,285
+|
+|
+Prepaid
+expenses and other assets
+|
+|
+|
+( 88,163
+|
+)
+|
+|
+|
+100,361
+|
+|
+Operating
+lease right-of-use assets, net
+|
+|
+|
+3,288
+|
+|
+|
+|
+3,659
+|
+|
+Trade
+payables
+|
+|
+|
+132,556
+|
+|
+|
+|
+30,275
+|
+|
+Employees
+and payroll accruals
+|
+|
+|
+9,625
+|
+|
+|
+|
+208
+|
+|
+Warranty
+obligations
+|
+|
+|
+( 36,064
+|
+)
+|
+|
+|
+( 19,745
+|
+)
+|
+Deferred
+revenues and customers advances
+|
+|
+|
+( 11,168
+|
+)
+|
+|
+|
+( 51,970
+|
+)
+|
+Operating
+lease liabilities
+|
+|
+|
+( 3,805
+|
+)
+|
+|
+|
+( 3,571
+|
+)
+|
+Accrued
+expenses and other liabilities
+|
+|
+|
+37,192
+|
+|
+|
+|
+( 10,142
+|
+)
+|
+Net
+cash provided by operating activities
+|
+|
+|
+24,428
+|
+|
+|
+|
+33,823
+|
+|
+Cash
+flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Investment
+in available-for-sale marketable securities
+|
+|
+|
+-
+|
+|
+|
+|
+( 72,465
+|
+)
+|
+Proceeds
+from maturities of available-for-sale marketable securities
+|
+|
+|
+8,811
+|
+|
+|
+|
+142,931
+|
+|
+Purchase
+of property, plant and equipment
+|
+|
+|
+( 3,701
+|
+)
+|
+|
+|
+( 10,109
+|
+)
+|
+Business
+dispositions, net of cash sold
+|
+|
+|
+( 2,631
+|
+)
+|
+|
+|
+-
+|
+|
+Repayment
+related to governmental grant
+|
+|
+|
+-
+|
+|
+|
+|
+( 6,643
+|
+)
+|
+Withdrawal
+from restricted bank deposits
+|
+|
+|
+2,700
+|
+|
+|
+|
+80
+|
+|
+Payments
+made before lease commencement
+|
+|
+|
+( 26,162
+|
+)
+|
+|
+|
+-
+|
+|
+Proceeds
+from loan receivables
+|
+|
+|
+56
+|
+|
+|
+|
+13,653
+|
+|
+Other
+investing activities
+|
+|
+|
+487
+|
+|
+|
+|
+150
+|
+|
+Net
+cash provided by (used in) investing activities
+|
+|
+$
+|
+( 20,440
+|
+)
+|
+|
+$
+|
+67,597
+|
+|
+SOLAREDGE
+TECHNOLOGIES INC. | 2026 Form 10-Q | F - 6
+SOLAREDGE
+TECHNOLOGIES, INC.
+CONDENSED
+CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited) (Cont.)
+(in
+thousands, except per share data)
+|
+|
+Three
+Months Ended
+March 31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash
+flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+Repurchase
+of convertible debt
+|
+|
+$
+|
+-
+|
+|
+|
+$
+|
+( 5,093
+|
+)
+|
+Issuance
+of common stock upon exercise of stock-based awards
+|
+|
+|
+3,850
+|
+|
+|
+|
+10
+|
+|
+Tax
+withholding in connection with stock-based awards, net
+|
+|
+|
+( 1,487
+|
+)
+|
+|
+|
+( 338
+|
+)
+|
+Other
+financing activities
+|
+|
+|
+( 375
+|
+)
+|
+|
+|
+( 816
+|
+)
+|
+Net cash provided by
+(used in) financing activities
+|
+|
+|
+1,988
+|
+|
+|
+|
+( 6,237
+|
+)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Effect of exchange rate
+changes on cash, cash equivalents and restricted cash
+|
+|
+|
+( 1,146
+|
+)
+|
+|
+|
+701
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Increase in cash, cash
+equivalents and restricted cash including cash classified within current held-for-sale assets
+|
+|
+|
+4,830
+|
+|
+|
+|
+95,884
+|
+|
+Change in cash classified
+within current held-for-sale assets
+|
+|
+|
+8,690
+|
+|
+|
+|
+-
+|
+|
+Increase in cash, cash
+equivalents and restricted cash
+|
+|
+|
+13,520
+|
+|
+|
+|
+95,884
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash, cash equivalents
+and restricted cash, beginning of period
+|
+|
+|
+539,846
+|
+|
+|
+|
+409,939
+|
+|
+Cash, cash equivalents
+and restricted cash, end of period
+|
+|
+$
+|
+553,366
+|
+|
+|
+$
+|
+505,823
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental
+disclosure of non-cash activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Right-of-use asset recognized
+with a corresponding lease liability
+|
+|
+$
+|
+5,258
+|
+|
+|
+$
+|
+10,881
+|
+|
+Purchase of property,
+plant and equipment
+|
+|
+$
+|
+4,938
+|
+|
+|
+$
+|
+1,731
+|
+|
+The
+accompanying notes are an integral part of the condensed consolidated financial statements.
+The
+following table reconciles cash, cash equivalents and restricted cash per the statement of cash flows to the balance sheet:
+|
+|
+Three
+Months Ended
+March
+31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash and cash equivalents
+|
+|
+$
+|
+512,381
+|
+|
+|
+$
+|
+401,364
+|
+|
+Restricted cash
+|
+|
+|
+40,985
+|
+|
+|
+|
+104,459
+|
+|
+Cash, cash equivalents
+and restricted cash, end of period
+|
+|
+$
+|
+553,366
+|
+|
+|
+$
+|
+505,823
+|
+|
+SOLAREDGE
+TECHNOLOGIES INC. | 2026 Form 10-Q | F - 7
+SOLAREDGE
+TECHNOLOGIES, INC.
+NOTES
+TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (Unaudited)
+(in
+thousands, except per share data )
+NOTE
+1: GENERAL
+|
+a. |
+SolarEdge
+Technologies, Inc. (together with its subsidiaries, the “Company” or “SolarEdge”) is a global smart energy technology
+company. The Company develops, manufactures, and sells products that address a broad range of energy market segments through its diversified
+product offering, including residential, commercial and large scale photovoltaic “PV”, energy storage and backup solutions,
+electric vehicle “EV” charging capabilities, home energy management, grid services and virtual power plants. By leveraging
+engineering capabilities and focusing on innovation, safety and reliability, SolarEdge creates smart energy solutions that power our lives
+and drive future progress.
+|
+The
+Company sells products worldwide through large distributors and electrical equipment wholesalers directly to large solar installers and
+engineering, procurement, and construction firms. The Company's products are carried and actively sold by most of the top PV distributors
+as well as some of the largest electrical distribution companies. The Company has expanded its activity to other areas of smart energy
+technology both organically and through acquisitions.
+|
+b. |
+Basis of Presentation:
+|
+The
+unaudited condensed consolidated financial statements and accompanying notes have been prepared in accordance with U.S. generally accepted
+accounting principles (“U.S. GAAP”). In management’s opinion, the unaudited condensed consolidated financial statements
+reflect all adjustments of a normal recurring nature that are necessary for a fair presentation of the results for the interim periods
+presented. The Company’s interim period results do not necessarily indicate the results that may be expected for any other interim
+period or for the full fiscal year.
+The
+significant accounting policies applied in the annual consolidated financial statements of the Company as of December 31, 2025, contained
+in the Company’s Annual Report on Form 10-K/A filed with the Securities and Exchange Commission (the “SEC”) on March
+23, 2026 have been applied consistently in these unaudited condensed consolidated financial statements. Certain prior year amounts have
+been reclassified to conform to current year presentation.
+|
+c. |
+Trade receivables:
+|
+Trade
+receivables are stated net of credit losses allowance. The Company is exposed to credit losses primarily through the sale of products.
+The allowance against gross trade receivables reflects the current expected credit loss inherent in the receivables portfolio determined
+based on the Company’s methodology. The Company’s methodology is based on historical collection experience, customer creditworthiness
+and current economic condition. Additionally, specific allowance amounts are established to record the appropriate provision for customers
+that have a higher probability of default. Trade receivables are written off after all reasonable means to collect the full amount have
+been exhausted.
+The
+following table provides a roll-forward of the allowance for credit losses that is deducted from the amortized cost basis of trade receivables
+to present the net amount expected to be collected:
+|
+|
+Three
+Months Ended
+March
+31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Balance,
+at the beginning of the period
+|
+|
+$
+|
+17,224
+|
+|
+|
+$
+|
+43,038
+|
+|
+Additions
+to allowance for credit losses not previously recorded
+|
+|
+|
+17,320
+|
+|
+|
+|
+7,049
+|
+|
+Recoveries
+collected
+|
+|
+|
+( 4,035
+|
+)
+|
+|
+|
+( 14,791
+|
+)
+|
+Foreign
+currency translation
+|
+|
+|
+( 31
+|
+)
+|
+|
+|
+674
+|
+|
+Balance,
+at the end of the period
+|
+|
+$
+|
+30,478
+|
+|
+|
+$
+|
+35,970
+|
+|
+SOLAREDGE TECHNOLOGIES INC. | 2026 Form 10-Q | F - 8
+SOLAREDGE TECHNOLOGIES, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL
+STATEMENTS (Unaudited)
+(in
+thousands, except per share data )
+|
+d. |
+Use of estimates:
+|
+The
+preparation of financial statements, in conformity with U.S. GAAP, requires management to make estimates and assumptions that affect the
+reported amounts of assets, liabilities, revenues, costs and expenses, government grants, income taxes and related disclosures in the
+accompanying notes. Actual results could differ from those estimates.
+In
+preparing the Company’s condensed consolidated financial statements, management considered the economic implications of inflation,
+geopolitical developments, including the conflict in Israel, currency fluctuation, and the Company's ability to benefit from certain tax
+credits in evaluating assumptions used in key accounting es
