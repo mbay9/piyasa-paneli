@@ -1,0 +1,94 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1451809/000145180926000077/sitm-20260930.htm
+SEMBOL: SITM
+BASVURU_TARIHI: 2026-11-05
+BASVURU: 0001451809-26-000077
+TUR: 10-Q nakit akışı tablosu
+
+Statements Of Cash Flows
+(In thousands )
+(Unaudited )
+7
+Table of Contents
+Nine Months Ended September 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income (loss) | $ | 17,292 | $ | ( 52,070 ) |
+Adjustments to reconcile net income (loss) to net cash provided by operating activities
+|
+Depreciation and amortization expense | 95,188 | 28,758 |
+Stock-based compensation expense | 96,813 | 79,128 |
+Net change in unrealized interest on held to maturity securities | 7,818 | ( 3,191 ) |
+Change in fair value of sales-based earnout liability | 372 | 2,492 |
+Accretion of acquisition consideration payable | — | 1,068 |
+Inventory write-down | 5,846 | 3,882 |
+Amortization of inventory step-up costs | 3,020 | — |
+Amortization of financing related transaction costs | 7,023 | — |
+Changes in assets and liabilities: |
+Accounts receivable, net | ( 157,840 ) | 15,705 |
+Inventories | ( 33,340 ) | ( 14,305 ) |
+Prepaid expenses and other assets | ( 8,665 ) | ( 3,371 ) |
+Accounts payable | 12,257 | 1,850 |
+Accrued expenses and other liabilities | 18,623 | 1,832 |
+Net cash provided by operating activities | 64,407 | 61,778 |
+Cash flows from investing activities |
+Purchase of securities | ( 133,579 ) | ( 929,421 ) |
+Proceeds from maturity of securities | 897,409 | 562,874 |
+Acquisition of business | ( 1,499,259 ) | — |
+Purchase of property and equipment | ( 35,959 ) | ( 39,639 ) |
+Purchase of intangibles | ( 1,610 ) | ( 208 ) |
+Net cash used in investing activities | ( 772,998 ) | ( 406,394 ) |
+Cash flows from financing activities |
+Proceeds from issuance of convertible senior notes | 1,350,000 | — |
+Payments for capped call transactions | ( 121,500 ) | — |
+Payments for debt financing costs | ( 39,576 ) | — |
+Proceeds from issuance of common stock | — | 433,091 |
+Payments for offering costs | — | ( 16,059 ) |
+Tax withholding paid on behalf of employees for net share settlement | ( 160,979 ) | ( 41,269 ) |
+Payment of contingent consideration towards earnouts | ( 11,763 ) | ( 9,143 ) |
+Payment of deferred acquisition consideration payable | — | ( 1,000 ) |
+Net cash provided by financing activities | 1,016,182 | 365,620 |
+Net increase in cash and cash equivalents | 307,591 | 21,004 |
+Cash and cash equivalents |
+Beginning of period | 16,759 | 6,106 |
+End of period | $ | 324,350 | $ | 27,110 |
+Supplemental disclosure of cash flow information |
+Income taxes paid | 332 | 177 |
+Supplemental disclosure of noncash investing and financing activities |
+Liabilities recorded for property, plant and equipment, net | 3,561 | 3,076 |
+Right-of-use assets acquired under operating leases | 13,831 | 405 |
+8
+Table of Contents
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+9
+Table of Contents
+SiTime Corporation
+Notes To Unaudited Condensed Consolidated Financial Statements
+Note 1. The Company and Basis of Presentation
+SiTime Corporation (the “Company” or "SiTime") was incorporated in the State of Delaware in December 2003. The Company is a leading provider of Precision timing ("Precision Timing") solutions to the global electronics industry, providing the timing functionality that is needed for electronics to operate reliably and accurately. The Company's products have been designed to address a wide range of applications across a broad array of end markets. The Company operates a fabless business model and leverages its global network of distributors to address the broad set of end markets that it serves.
+The accompanying interim condensed consolidated financial statements have been prepared in conformity with United States ("U.S.") generally accepted accounting principles ("GAAP") for interim financial information and the instructions to Form 10-Q and Article 10 of Regulation S-X, and should be read in conjunction with the Company's audited consolidated financial statements and related notes thereto filed with the U.S. Securities and Exchange Commission ("SEC") on Form 10-K for the fiscal year ended December 31, 2025. The interim financial statements are unaudited, but reflect all adjustments which are, in the opinion of management, of a normal, recurring nature necessary to provide a fair statement of results for the interim periods presented. The results of operations for the interim periods shown in this report are not necessarily indicative of the results that may be expected for the fiscal year ending December 31, 2026, for any future year, or for any other future interim period.
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the amounts reported in the financial statements and accompanying notes. The significant areas requiring the use of management estimates and assumptions include revenue recognition, fair value of earnout liabilities, estimate of write-downs for excess and obsolete inventories, and sales reserves. Actual results could differ from those estimates.
+Principles of Consolidation
+The condensed consolidated financial statements include the accounts of the Company and its wholly-owned subsidiaries. All intercompany transactions and balances have been eliminated in consolidation.
+Significant Accounting Policies
+The Company’s significant accounting policies are disclosed in the Company’s audited consolidated financial statements and related notes thereto included in the Annual Report on Form 10-K for the year ended December 31, 2025. There have been no changes to these accounting policies through September 30, 2026.
+Recent Accounting Pronouncements
+Recently issued accounting pronouncements not yet adopted
+In November 2024, the FASB issued ASU No. 2024-03, Disaggregation of Income Statement Expenses (Subtopic 220-40). The ASU requires the disaggregated disclosure of specific expense categories, including purchases of inventory, employee compensation, depreciation, and amortization, within relevant income statement captions. This ASU also requires disclosure of the total amount of selling expenses along with the definition of selling expenses. The ASU is effective for annual periods beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027. Adoption of this ASU can either be applied prospectively to consolidated financial statements issued for reporting periods after the effective date of this ASU or retrospectively to any or all prior periods presented in the consolidated financial statements. Early adoption is also permitted. This ASU will likely result in the required additional disclosures being included in our consolidated financial statements, once adopted. We are currently evaluating the provisions of this ASU.
+Note 2. Acquisitions
+10
+Table of Contents
+Acquisition of certain assets ("Timing business" or "TPD") from Renesas Electronics America Inc. ("Renesas")
+On July 1, 2026, (the “Closing Date”), the Company completed the acquisition of certain assets and assumed certain liabilities related to the Timing business from Renesas, a subsidiary of Renesas Electronics Corporation (the “Acquisition”) pursuant to an Asset Purchase Agreement dated February 4, 2026 (the "Asset Purchase Agreement").
+The Timing business consists of technologies, assets and personnel involved in the research and development, fabrication, testing and sales of crystal oscillators, clock buffers, clock generators and jitter attenuators. The Acquisition expands the Company’s clocking product portfolio.
+On July 1, 2026, the Company paid cash consideration of 1,499.3 million and issued 3,558,691 shares of its common stock as stock consideration. The acquisition-date fair value of the shares issued was 2,504.7 million, based on the closing market price of $ 703.84 per share on July 1, 2026. The cash consideration was funded with a combination of cash on hand and net proceeds from the $ 1,350.0 million aggregate principal amount of 0 % Convertible Senior Notes due 2031 (the “Notes”) issued in May 2026. See “Note 3. Long-term Debt”, for additional information on the Notes.
+The Company has performed a preliminary evaluation of the acquired set of activities and assets and concluded that the Acquisition constitutes a business within the scope of ASC 805, Business Combinations. Accordingly, the transaction was accounted for as a business combination using the acquisition method of accounting, with SiTime identified as the accounting acquirer.
+The purchase consideration transferred consists of the following:
+Amount |
+(in thousands) |
+Cash consideration | $ | 1,499,259 |
+Stock consideration, 3,558,691 shares at $ 703.84 per share
+| 2,504,749 |
+Settlement of pre-existing relationships (a) | 2,089 |
+Acquirer's transaction expenses borne by Renesas (b) | ( 76 ) |
+Fair value of purchase consideration transferred | $ | 4,006,021 |
+(a) Represents the contract-based royalty intangible asset arising from a pre-existing arrangement related to intellectual property of Aura Semiconductor Pvt. Ltd. (“Aura”)
