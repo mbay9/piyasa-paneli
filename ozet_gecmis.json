@@ -515,6 +515,12 @@
       "sanayi"
     ],
     "ai": "cok zayif",
-    "not": "Üst üste ikinci yükseliş, toparlanma geniş piyasaya yayıldı; küçük şirketler ve eşit ağırlık güçlü, korku endeksi sert düştü; çip ve yapay zeka dünkü toparlanmayı geri verdi"
+    "not": "Üst üste ikinci yükseliş, toparlanma geniş piyasaya yayıldı; küçük şirketler ve eşit ağırlık güçlü, korku endeksi sert düştü; çip ve yapay zeka dünkü toparlanmayı geri verdi",
+    "asya": {
+      "kospi": "asagi",
+      "nikkei": "asagi",
+      "btc": null,
+      "not": "Kore belirgin, Japonya sınırlı düştü; ABD'de çip ve bellek şirketleri yeniden sert satılırken geniş piyasa yükselmişti; Kore haftalık ve aylık tabloda çok zayıf, Japonya uzun vadeli ortalamasının üzerinde; Bitcoin verisi güncel değildi (son tarih 3 Kas), yön yazılmadı"
+    }
   }
 ]
