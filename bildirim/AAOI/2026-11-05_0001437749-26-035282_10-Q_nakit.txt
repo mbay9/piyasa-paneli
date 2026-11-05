@@ -1,0 +1,148 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1158114/000143774926035282/aaoi20260930_10q.htm
+SEMBOL: AAOI
+BASVURU_TARIHI: 2026-11-05
+BASVURU: 0001437749-26-035282
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited, in thousands)
+​
+| | Nine months ended September 30,
+| |
+| | 2026
+| | | 2025
+| |
+Operating activities:
+| | | | | | |
+Net loss
+| | $ | ( 30,762 | ) | | $ | ( 36,206 | ) |
+Adjustments to reconcile net loss to net cash used in operating activities:
+| | | | | | | |
+Allowance for bad debt
+| | | 49 | | | | 5 | |
+Inventory reserve adjustment
+| | | ( 2,678 | ) | | | 5,383 | |
+Depreciation and amortization
+| | | 34,450 | | | | 19,491 | |
+Amortization of debt issuance costs and premium
+| | | ( 788 | ) | | | ( 771 | ) |
+Deferred tax asset
+| | | 5,864 | | | | — | |
+Loss on disposal of assets
+| | | 711 | | | | 31 | |
+Share-based compensation
+| | | 14,939 | | | | 8,842 | |
+Warrants contra revenue
+| | | 4,060 | | | | 91 | |
+Unrealized foreign exchange loss (gain)
+| | | ( 364 | ) | | | 485 | |
+Changes in operating assets and liabilities:
+| | | | | | | | |
+Accounts receivable, trade
+| | | ( 169,803 | ) | | | ( 107,232 | ) |
+Inventories, net
+| | | ( 186,621 | ) | | | ( 84,612 | ) |
+Other current assets
+| | | ( 102,960 | ) | | | ( 11,342 | ) |
+Operating right of use asset
+| | | ( 21,301 | ) | | | ( 31,851 | ) |
+Accounts payable
+| | | 347,473 | | | | 45,176 | |
+Accrued liabilities
+| | | 7,216 | | | | 15,667 | |
+Lease liability
+| | | 23,862 | | | | 31,992 | |
+Net cash used in operating activities
+| | | ( 76,653 | ) | | | ( 144,851 | ) |
+Investing activities:
+| | | | | | | | |
+Purchase of property, plant and equipment
+| | | ( 702,149 | ) | | | ( 104,113 | ) |
+Proceeds from disposal of equipment
+| | | 3 | | | | — | |
+Prepayment for equipment and others
+| | | ( 406,943 | ) | | | ( 21,289 | ) |
+Purchase of intangible assets
+| | | ( 444 | ) | | | ( 270 | ) |
+Net cash used in investing activities
+| | | ( 1,109,533 | ) | | | ( 125,672 | ) |
+Financing activities:
+| | | | | | | | |
+Proceeds from issuance of notes payable and long-term debt
+| | | 40,380 | | | | — | |
+Principal payment on long term debt
+| | | ( 326 | ) | | | — | |
+Proceeds from line of credit borrowings
+| | | 66,569 | | | | 51,325 | |
+Repayments of line of credit borrowings
+| | | ( 46,083 | ) | | | ( 50,778 | ) |
+Proceeds from bank acceptance payable
+| | | 119,618 | | | | 88,628 | |
+Repayments of bank acceptance payable
+| | | ( 103,136 | ) | | | ( 74,226 | ) |
+Repayment of convertible notes payable
+| | | ( 80 | ) | | | ( 81 | ) |
+Payments of tax withholding on behalf of employees related to share-based compensation
+| | | ( 76,024 | ) | | | ( 9,181 | ) |
+Changes in ADPI
+| | | 80 | | | | 0 | |
+Proceeds from common stock offering, net
+| | | 1,590,647 | | | | 342,561 | |
+Net cash provided by financing activities
+| | | 1,591,645 | | | | 348,248 | |
+Effect of exchange rate changes on cash
+| | | ( 37 | ) | | | ( 6,141 | ) |
+Net increase in cash, cash equivalents and restricted cash
+| | | 405,422 | | | | 71,584 | |
+Cash, cash equivalents and restricted cash at beginning of period
+| | | 216,035 | | | | 79,133 | |
+Cash, cash equivalents and restricted cash at end of period
+| | $ | 621,457 | | | $ | 150,717 | |
+Supplemental disclosure of cash flow information:
+| | | | | | | | |
+Cash paid for:
+| | | | | | | | |
+Interest, net of amounts capitalized
+| | $ | 4,582 | | | $ | 2,387 | |
+Income taxes
+| | | 1 | | | | — | |
+Non-cash investing and financing activities:
+| | | | | | | | |
+Net change in accounts payable related to property and equipment additions
+| | $ | 39,004 | | | $ | 5,432 | |
+Net change in deposits and prepaid for equipment related to property and equipment additions
+| | | ( 263 | ) | | | ( 15,056 | ) |
+Non-cash operating and financing activities:
+| | | | | | | | |
+Warrant issued and vested to customer
+| | | 3,383 | | | | 16,739 | |
+​
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+Table of Contents
+Applied Optoelectronics, Inc. and Subsidiaries
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Description of Business​
+​
+Business Overview
+​
+Applied Optoelectronics, Inc. ("AOI" or the "Company") is a Delaware corporation. The Company is a leading, vertically integrated provider of fiber-optic networking products, primarily for four networking end-markets: internet and AI data centers, cable television ("CATV"), telecommunications ("telecom") and fiber-to-the-home ("FTTH"). The Company designs and manufactures a wide range of optical communications products at varying levels of integration, from components, subassemblies and modules to complete turn-key equipment.
+​
+The Company has manufacturing and research and development facilities located in the U.S., Taiwan and China. In the U.S., at its corporate headquarters and manufacturing facilities in Sugar Land, Texas, the Company primarily manufactures lasers and laser components as well as certain of its data center transceivers and performs research and development activities for laser component and optical module products and certain data center transceiver products. In addition, the Company has a research and development facility in Duluth, Georgia. The Company operates in Taipei, Taiwan and Ningbo, China through its wholly-owned subsidiary Prime World International Holdings, Ltd. ("Prime World", incorporated in the British Virgin Islands). Prime World operates a branch in Taipei, Taiwan, which primarily manufactures certain of its data center transceivers and certain CATV systems and equipment and performs research and development activities for the transceiver products. Prime World is the parent of Global Technology, Inc. ("Global", incorporated in the People’s Republic of China). Through Global, the Company primarily manufactures certain of its data center transceiver products, including subassemblies, as well as CATV systems and equipment, and performs research and development activities for CATV and certain data center transceiver products.
+​
+Interim Financial Statements
+​
+The accompanying unaudited condensed consolidated financial statements of the Company as of September 30, 2026 and December 31, 2025 and for the three and nine months ended September 30, 2026 and September 30, 2025 , have been prepared in accordance with accounting principles generally accepted in the United States of America ("GAAP") for interim information and with the instructions on Form 10 -Q and Rule 10 - 01 of Regulation S- X pursuant to the rules and regulations of the Securities and Exchange Commission ("SEC"). In accordance with those rules and regulations, the Company has omitted certain information and notes required by GAAP for annual consolidated financial statements. In the opinion of management, the condensed consolidated financial statements contain all adjustments, necessary for the fair statement of the Company’s financial position and results of operations for the periods presented. The year-end condensed balance sheet data was derived from audited financial statements. These condensed consolidated financial statements should be read in conjunction with the Consolidated Financial Statements and Notes thereto included in the Company’s Annual Report on Form 10 -K ("Annual Report") for the fiscal year ended December 31, 2025 . The results of operations for the three and nine months ended September 30, 2026 are not necessarily indicative of the results expected for the entire fiscal year. All significant inter-company accounts and transactions have been eliminated.
+​
+Use of Estimates
+​
+The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported. Actual results could differ materially from those estimates in the consolidated financial statement s and accompanying notes. Significant estimates and assumptions that impact these financial statements and the accompanying notes relate to, among other things, revenue recognition, allowance for credit losses, inventory reserve, valuation of long-lived assets, service and product warranty costs, share-based compensation expense, estimated useful lives of tangible and intangible assets, and taxes.
+9
+Table of Contents
+Note 2. Significant Accounting Policies
+​
+There have been no changes in the Company’s significant accounting policies for the three and nine months ended September 30, 2026 , as compared to the significant accounting policies described in its 2025 Annual Report.
+​
+Recent Accounting Pronouncements Adopted
+In November 2024, the Financial Accounting Standard Board ("FASB") issued Accounting Standard update ("ASU") 2024 - 04, Debt-Debt with Conversion and Other Options (Subtopic 470 - 20 ): Induced Conversions of Convertible Debt Instruments. The amendments clarify the accounting for certain induced conversions of convertible debt instruments. The Company adopted this ASU effective January 1, 2026. The adoption did not have a material impact on the Company’s consolidated financial statements and related disclosures because the Company did not enter into any transactions within the scope of the standard during th
