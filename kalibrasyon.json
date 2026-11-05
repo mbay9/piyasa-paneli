@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "kayitlar": [
   {
    "olcu": "nasdaq_oneq",
@@ -44,6 +44,18 @@
    "resmi": 1.5,
    "fark": -0.063,
    "fark_pct": -0.063,
+   "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
+   "olcu": "nasdaq_oneq",
+   "tarih": "2026-11-05",
+   "bizim": -5.523,
+   "resmi": -5.558,
+   "fark": 0.035,
+   "fark_pct": 0.035,
    "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
    "url": null,
    "kayma_gun": 0,
@@ -134,6 +146,18 @@
    "not": "fark yüzde puan"
   },
   {
+   "olcu": "spx_spy",
+   "tarih": "2026-11-05",
+   "bizim": -4.356,
+   "resmi": -4.409,
+   "fark": 0.053,
+   "fark_pct": 0.053,
+   "kaynak": "SPY günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
    "olcu": "vix_cboe",
    "tarih": "2026-10-30",
    "bizim": 19.42,
@@ -168,15 +192,27 @@
    "url": null,
    "kayma_gun": 0,
    "not": null
+  },
+  {
+   "olcu": "vix_cboe",
+   "tarih": "2026-11-04",
+   "bizim": 16.61,
+   "resmi": 16.61,
+   "fark": 0.0,
+   "fark_pct": 0.0,
+   "kaynak": "Cboe VIX_History (resmi)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": null
   }
  ],
  "ozet": {
   "nasdaq_oneq": {
-   "n": 4,
-   "ort_fark_pct": -0.02,
+   "n": 5,
+   "ort_fark_pct": -0.01,
    "std_pct": 0.06,
-   "son_fark_pct": -0.063,
-   "son_tarih": "2026-11-04",
+   "son_fark_pct": 0.035,
+   "son_tarih": "2026-11-05",
    "durum": "iyi",
    "sistematik": false
   },
@@ -208,20 +244,20 @@
    "sistematik": false
   },
   "spx_spy": {
-   "n": 4,
-   "ort_fark_pct": -0.02,
+   "n": 5,
+   "ort_fark_pct": -0.01,
    "std_pct": 0.05,
-   "son_fark_pct": -0.071,
-   "son_tarih": "2026-11-04",
+   "son_fark_pct": 0.053,
+   "son_tarih": "2026-11-05",
    "durum": "iyi",
    "sistematik": false
   },
   "vix_cboe": {
-   "n": 3,
+   "n": 4,
    "ort_fark_pct": 0.0,
    "std_pct": 0.0,
    "son_fark_pct": 0.0,
-   "son_tarih": "2026-11-03",
+   "son_tarih": "2026-11-04",
    "durum": "iyi",
    "sistematik": false
   }
