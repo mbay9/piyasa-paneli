@@ -1,7 +1,7 @@
 {
  "sembol": "SOLS",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 1033000000.0,
@@ -331,6 +331,12 @@
    "tahmin": 0.7736,
    "gercek": 0.88,
    "yuzde": 13.8
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.69439,
+   "gercek": 0.8,
+   "yuzde": 15.2
   }
  ]
 }

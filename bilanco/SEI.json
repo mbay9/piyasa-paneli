@@ -1,7 +1,7 @@
 {
  "sembol": "SEI",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 149328000.0,
@@ -301,12 +301,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.24587,
-   "gercek": 0.32,
-   "yuzde": 30.2
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.273,
    "gercek": 0.35,
@@ -323,6 +317,12 @@
    "tahmin": 0.31035,
    "gercek": 0.39,
    "yuzde": 25.7
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.28353,
+   "gercek": 0.45,
+   "yuzde": 58.7
   }
  ]
 }

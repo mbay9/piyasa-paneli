@@ -1,7 +1,7 @@
 {
  "sembol": "VIAV",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 290500000.0,
@@ -317,12 +317,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.13134,
-   "gercek": 0.15,
-   "yuzde": 14.2
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.1877,
    "gercek": 0.22,
@@ -339,6 +333,12 @@
    "tahmin": 0.29847,
    "gercek": 0.34,
    "yuzde": 13.9
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.40704,
+   "gercek": 0.47,
+   "yuzde": 15.5
   }
  ]
 }

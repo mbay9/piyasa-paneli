@@ -1,7 +1,7 @@
 {
  "sembol": "WOLF",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-03-31": {
    "eps": -1.86
@@ -230,12 +230,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": -0.75,
-   "gercek": -0.55,
-   "yuzde": 26.7
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": -0.735,
    "gercek": -6.11,
@@ -252,6 +246,12 @@
    "tahmin": -2.45,
    "gercek": -2.26,
    "yuzde": 7.8
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": -1.985,
+   "gercek": -2.03,
+   "yuzde": -2.3
   }
  ]
 }

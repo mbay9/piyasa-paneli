@@ -1,7 +1,7 @@
 {
  "sembol": "GFS",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 1688000000.0,
@@ -316,12 +316,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.38888,
-   "gercek": 0.41,
-   "yuzde": 5.4
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.4733,
    "gercek": 0.55,
@@ -338,6 +332,12 @@
    "tahmin": 0.43181,
    "gercek": 0.46,
    "yuzde": 6.5
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.51203,
+   "gercek": 0.53,
+   "yuzde": 3.5
   }
  ]
 }

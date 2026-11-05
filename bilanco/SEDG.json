@@ -1,7 +1,7 @@
 {
  "sembol": "SEDG",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 289429000.0,
@@ -315,12 +315,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": -0.42349,
-   "gercek": -0.31,
-   "yuzde": 26.8
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": -0.2352,
    "gercek": -0.14,
@@ -337,6 +331,12 @@
    "tahmin": 0.00386,
    "gercek": 0.05,
    "yuzde": 1195.3
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.03608,
+   "gercek": 0.29,
+   "yuzde": 703.8
   }
  ]
 }

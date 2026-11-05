@@ -1,7 +1,7 @@
 {
  "sembol": "QCOM",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 10365000000.0,
@@ -315,12 +315,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 2.87578,
-   "gercek": 3.0,
-   "yuzde": 4.3
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 3.40235,
    "gercek": 3.5,
@@ -337,6 +331,12 @@
    "tahmin": 2.22643,
    "gercek": 2.21,
    "yuzde": -0.7
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 2.15954,
+   "gercek": 2.17,
+   "yuzde": 0.5
   }
  ]
 }

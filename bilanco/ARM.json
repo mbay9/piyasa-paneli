@@ -1,7 +1,7 @@
 {
  "sembol": "ARM",
  "para": "USD",
- "guncelleme": "2026-11-04",
+ "guncelleme": "2026-11-05",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 1053000000.0,
@@ -301,12 +301,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.33134,
-   "gercek": 0.39,
-   "yuzde": 17.7
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.40919,
    "gercek": 0.43,
@@ -323,6 +317,12 @@
    "tahmin": 0.4038,
    "gercek": 0.45,
    "yuzde": 11.4
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.47564,
+   "gercek": 0.52,
+   "yuzde": 9.3
   }
  ]
 }
