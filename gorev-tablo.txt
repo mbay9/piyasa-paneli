@@ -1,21 +1,11 @@
-
-== 2026-11-04 00:35 UTC / 2026-11-03 19:35 ET
+ZAMAN_UTC: 2026-11-05 15:30
+ZAMAN_ET: 2026-11-05 10:30
 SONUC: YAZILDI
-Neden: 11 yeni sonuc bulteni icin tablo eklendi, push edildi (7eae158); build/deploy success (durum.json 00:34Z).
-Islenen: FN 2026-11-02, ANET 2026-11-03, PLTR 2026-11-02, ON 2026-11-02, NVT 2026-10-30, MOD 2026-11-03, SMCI 2026-11-03, LSCC 2026-11-02, AEHR 2026-11-02, OUST 2026-11-03, NVTS 2026-11-03.
-Atlanan: MRVL 2026-11-02 (birlesme duyurusu + on bilgi gelir; sonuc bulteni degil).
-Bek bulunan: EPS - FN 4.20, PLTR 0.41, ON 0.88, NVT 1.40, LSCC 0.55, AEHR 0.13 (bilanco surpriz kaydi, donem 2026-09-30). Hepsi Beat.
-Bek bulunamayan: tum gelir satirlari (est.qh kaydi 2026-11-03 tarihli, bulten tarihinden once degil; MarketBeat sayfasi aramada bulunamadi, dogrudan acma izni alinamadi); ANET, MOD, SMCI, OUST, NVTS EPS (surpriz kaydinda ilgili donem yok); tum rehberlik beklentileri. NVTS'te eski donem kaydi yanlis eslesti, null yapildi.
-FCF: FN, PLTR, ON, NVT, LSCC, SMCI bultenden/nakit akisindan; ANET, MOD, AEHR, OUST, NVTS yalniz 9 aylik/belirsiz oldugu icin eklenmedi.
-Denetim: tablo_kontrol: tamam (0 hata).
-
-=== 2026-11-05 00:32 UTC / 2026-11-04 19:32 ET ===
-SONUC: YAZILDI
-Neden: 14 yeni bültenin tablosu elle hazırlandı, denetim 0 hata, main'e gönderildi (18b013c); build/deploy success (durum.json 2026-11-05T00:30:27Z).
-Islenen: SITM 2026-11-04, QCOM 2026-11-04, ARM 2026-11-04 (yalnız GAAP 6-K), COHR 2026-11-04, GFS 2026-11-04, LEU 2026-11-04, MKSI 2026-11-04, SEDG 2026-11-04, SEI 2026-11-04, SOLS 2026-11-04, VECO 2026-11-04, VIAV 2026-11-04, WOLF 2026-11-04, TSEM 2026-11-02.
-Atlanan: MRVL 2026-11-02 (sonuç bildirisi değil, Lumentum birleşme duyurusu).
-Bek bulunan: SITM gelir/YoY/EPS; QCOM gelir/YoY/EPS + gelecek çeyrek gelir/EPS; ARM gelir/YoY; COHR gelir/YoY/EPS/brüt marj(rehberlik †) + gelecek çeyrek gelir/EPS; GFS gelir/YoY/EPS/brüt marj(†) + gelecek çeyrek gelir/EPS; LEU gelir/YoY; MKSI gelir/YoY/EPS/brüt marj(†)/EBITDA(†) + gelecek çeyrek gelir/EPS; SEDG gelir/YoY/brüt marj(†); SEI EBITDA(†); SOLS gelir/YoY/EPS + gelecek çeyrek gelir/EPS; VECO gelir/YoY/EPS + gelecek çeyrek gelir/EPS; VIAV gelir/YoY/EPS + gelecek çeyrek gelir/EPS; WOLF gelir/YoY/EPS + gelecek çeyrek gelir.
-Bek bulunamayan: TSEM tüm satırlar (bülten öncesi kayıt yok, surpriz EPS 1.15 bülten 1.05 ile uyuşmadı); ARM EPS (konsensüs non-GAAP, bülten GAAP); LEU EPS; SEDG EPS ve gelecek çeyrek gelir (sınır dışı); SEI gelir/EPS (sınır dışı); diğer gelir dışı satırlar (brüt kar, EBITDA marjı, FCF vb.) beklentisiz.
-Not: MarketBeat ikinci kaynağı kullanılmadı (kayıtlı veri yeterliydi). FCF yalnız bültende ya da çeyreklik nakit tablosunda olanlar için yazıldı (COHR 10-Q'dan hesap; GFS, SEDG, WOLF bültenden; TSEM bülten tanımından). tablo_toplu.py: 59 mevcut tabloyu değiştirmedi, yeni 23 sembolü Yahoo kaydı olmadığı için atladı.
-Denetim: tablo_kontrol: tamam
-Deploy: build success, deploy success, canli_dogrulandi true.
+NEDEN: Son 5 günde yeni sonuç bülteni olan MTSI ve NVMI için tablolar hazırlanıp main'e gönderildi; MRVL (2026-11-02) birleşme duyurusu olduğundan atlandı.
+ISLENEN: MTSI 2026-11-05 (0001493594-26-000041, 2026/4F); NVMI 2026-11-05 (0001178913-26-005034, 2026/3F)
+ATLANAN: MRVL 2026-11-02 0001193125-26-442714 (Marvell-Lumentum birleşme duyurusu, sonuç bildirisi değil)
+BEK_BULUNAN: MTSI Revenue, Revenue YoY, EPS*, Gross Margin %* (sirket rehberligi, bg), Guidance Revenue, Guidance EPS; NVMI Revenue, Revenue YoY, EPS*, Guidance Revenue, Guidance EPS (Yahoo est.qh, bulten oncesi kayit)
+BEK_BULUNAMAYAN: MTSI Gross Profit, EBITDA, EBITDA Margin, Guidance YoY; NVMI Gross Profit, Gross Margin, FCF, FCF Margin, Guidance YoY. MTSI FCF yazilmadi (bultende yalniz 12 aylik nakit akisi var). MarketBeat ikinci kaynagi kullanilmadi.
+DENETIM: tablo_kontrol: tamam (0 hata)
+YAYIN: push b95ad9b; durum.json build success, deploy success, canli_dogrulandi true (run 42055037467)
+NOT: tablo_toplu.py MTSI/NVMI icin Yahoo'da bu ceyrek olmadigindan tablo uretmedi; tablolar elle hazirlandi.
