@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-05T00:29:01Z",
+ "guncelleme": "2026-11-05T15:26:14Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -5521,169 +5521,135 @@
    "dipnot": "* Non-GAAP. Estimate: EPS, revenue and next-quarter guidance estimates from Yahoo Finance consensus on record before the release (our pre-release record); gross margin and EBITDA estimates are the company's own guidance from the prior-quarter release, not analyst consensus (†); no estimate found for the other rows. Fourth-quarter guidance excludes the pending sale of the Ophir Optics business."
   },
   "MTSI": {
-   "tarih": "2026-08-06",
-   "basvuru": "0001493594-26-000036",
-   "kaynak": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000036/ex99_1earningsreleaseq3fy26.htm",
+   "tarih": "2026-11-05",
+   "basvuru": "0001493594-26-000041",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1493594/000149359426000041/ex99_1earningsreleaseq4fy26.htm",
    "bolumler": [
     {
      "baslik": "MTSI",
-     "etiket": "Quarter ended Jun 30, 2026",
+     "etiket": "2026/4F",
      "satirlar": [
       {
        "ad": "Revenue ($M)",
        "fmt": "m",
-       "ger": 342.2,
-       "bek": 335.0,
+       "ger": 424.8,
+       "bek": 420.4,
        "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
-        "342,237"
-       ],
-       "bg": "MTSI prior-quarter release (2026-05-07): $331 million to $339 million"
+        "424,819"
+       ]
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
-       "ger": 35.8,
-       "bek": 32.9,
+       "ger": 62.7,
+       "bek": 61.0,
        "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "342.2 / 252.1 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)",
-       "bg": "MTSI prior-quarter release (2026-05-07): $331 million to $339 million"
+       "kanit": [
+        "62.7%"
+       ],
+       "hesap": "Company-reported; estimate = 420.4 / 261.2 - 1 (261,170 prior-year quarter revenue in release)"
       },
       {
        "ad": "EPS* ($)",
        "fmt": "d",
-       "ger": 1.4,
-       "bek": 1.35,
+       "ger": 2.09,
+       "bek": 2.0,
        "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
-        "1.40"
+        "$2.09"
        ]
       },
       {
        "ad": "Gross Profit* ($M)",
        "fmt": "m",
-       "ger": 204.2,
+       "ger": 260.3,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "204,247"
+        "260,334"
        ]
       },
       {
        "ad": "Gross Margin %*",
        "fmt": "p",
-       "ger": 59.7,
-       "bek": null,
-       "sonuc": null,
+       "ger": 61.3,
+       "bek": 60.5,
+       "sonuc": "Beat",
        "vurgu": 1,
-       "hesap": "204.2 / 342.2"
-      },
-      {
-       "ad": "Operating Income* ($M)",
-       "fmt": "m",
-       "ger": 107.7,
-       "bek": null,
-       "sonuc": null,
-       "vurgu": 0,
        "kanit": [
-        "107,714"
-       ]
-      },
-      {
-       "ad": "Operating Margin %*",
-       "fmt": "p",
-       "ger": 31.5,
-       "bek": null,
-       "sonuc": null,
-       "vurgu": 1,
-       "hesap": "107.7 / 342.2"
+        "61.3%"
+       ],
+       "bg": "MTSI Q4 FY26 outlook, release of 2026-08-06: adjusted gross margin 60.0% to 61.0% (midpoint)"
       },
       {
        "ad": "EBITDA* ($M)",
        "fmt": "m",
-       "ger": 116.7,
+       "ger": 171.5,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "116,735"
+        "171,494"
        ]
       },
       {
        "ad": "EBITDA Margin % *",
        "fmt": "p",
-       "ger": 34.1,
+       "ger": 40.4,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "116.7 / 342.2"
-      },
-      {
-       "ad": "FCF ($M)",
-       "fmt": "m",
-       "ger": -2.8,
-       "bek": null,
-       "sonuc": null,
-       "vurgu": 0,
-       "hesap": "80.0 operating cash flow - 82.8 capital expenditures (Yahoo Finance cash flow statement)"
-      },
-      {
-       "ad": "FCF Margin %",
-       "fmt": "p",
-       "ger": -0.8,
-       "bek": null,
-       "sonuc": null,
-       "vurgu": 1,
-       "hesap": "-2.8 / 342.2"
+       "hesap": "171.5 / 424.8"
       }
      ]
     },
     {
      "baslik": "Next Quarter Guidance",
-     "etiket": "Next quarter",
+     "etiket": "2027/1F",
      "satirlar": [
       {
        "ad": "Revenue Guidance ($M)",
        "fmt": "m",
-       "ger": 420.0,
-       "bek": null,
-       "sonuc": null,
+       "ger": 455.0,
+       "bek": 431.0,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
-        "$415 million to $425 million"
+        "$450 million to $460 million"
        ],
-       "hesap": "aralığın orta noktası"
+       "hesap": "midpoint of range"
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
-       "ger": 60.8,
+       "ger": 67.5,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "420.0 / 261.2 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
+       "hesap": "455.0 / 271.6 - 1 (guidance midpoint vs. same quarter a year earlier, Yahoo Finance quarterly statements)"
       },
       {
        "ad": "EPS* Guidance ($)",
        "fmt": "d",
-       "ger": 2.0,
-       "bek": null,
-       "sonuc": null,
+       "ger": 2.25,
+       "bek": 2.031,
+       "sonuc": "Beat",
        "vurgu": 0,
        "kanit": [
-        "$1.97 and $2.03"
+        "$2.21 and $2.29"
        ],
-       "hesap": "aralığın orta noktası"
+       "hesap": "midpoint of range"
       }
      ]
     }
    ],
-   "uretici": "toplu",
-   "dipnot": "* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported. EPS estimate: Yahoo Finance consensus for that quarter. † Estimate is the company's own guidance from the prior-quarter release (midpoint), not analyst consensus. No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "uretici": "elle",
+   "dipnot": "* Non-GAAP (adjusted) per the company release. Estimates: Revenue and EPS = Yahoo Finance consensus recorded before the release; Revenue Change YoY estimate derived from the revenue estimate; Next Quarter Guidance estimates = consensus for next quarter recorded before the release. † Estimate is the company's own guidance from the prior-quarter release, not analyst consensus. No estimate available for Gross Profit, EBITDA or the margin rows other than Gross Margin. FCF not shown: the release gives cash flow for the twelve months only."
   },
   "MU": {
    "tarih": "2026-09-30",
@@ -9705,6 +9671,135 @@
     }
    ],
    "dipnot": "* Non-GAAP (excluding non-recurring items): diluted EPS. No estimate shown: our pre-release record had no consensus entry dated before the release, and the earnings-surprise record did not match the reported EPS. Gross profit is as stated in the release."
+  },
+  "NVMI": {
+   "tarih": "2026-11-05",
+   "basvuru": "0001178913-26-005034",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1109345/000117891326005034/0001178913-26-005034.txt",
+   "bolumler": [
+    {
+     "baslik": "NVMI",
+     "etiket": "2026/3F",
+     "satirlar": [
+      {
+       "ad": "Revenue ($M)",
+       "fmt": "m",
+       "ger": 287.8,
+       "bek": 282.8,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "287,841"
+       ]
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 28.2,
+       "bek": 25.9,
+       "sonuc": "Beat",
+       "vurgu": 1,
+       "hesap": "287.8 / 224.6 - 1 (224,608 prior-year quarter revenue in release); estimate = 282.8 / 224.6 - 1"
+      },
+      {
+       "ad": "EPS* ($)",
+       "fmt": "d",
+       "ger": 2.86,
+       "bek": 2.782,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$2.86"
+       ]
+      },
+      {
+       "ad": "Gross Profit* ($M)",
+       "fmt": "m",
+       "ger": 170.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "170,199"
+       ]
+      },
+      {
+       "ad": "Gross Margin %*",
+       "fmt": "p",
+       "ger": 59.1,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "170.2 / 287.8"
+      },
+      {
+       "ad": "FCF* ($M)",
+       "fmt": "m",
+       "ger": 131.7,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "138,082",
+        "6,353"
+       ],
+       "hesap": "138.1 net cash provided by operating activities - 6.4 purchase of property and equipment (press release cash flow statement, three months ended Sep 30, 2026)"
+      },
+      {
+       "ad": "FCF Margin %",
+       "fmt": "p",
+       "ger": 45.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "131.7 / 287.8"
+      }
+     ]
+    },
+    {
+     "baslik": "Next Quarter Guidance",
+     "etiket": "2026/4F",
+     "satirlar": [
+      {
+       "ad": "Revenue Guidance ($M)",
+       "fmt": "m",
+       "ger": 310.0,
+       "bek": 305.7,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$305",
+        "$315 million"
+       ],
+       "hesap": "midpoint of range $305 million to $315 million"
+      },
+      {
+       "ad": "Revenue Change YoY",
+       "fmt": "p",
+       "ger": 39.2,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 1,
+       "hesap": "310.0 / 222.6 - 1 (guidance midpoint vs. Q4 2025 revenue, Yahoo Finance quarterly statements)"
+      },
+      {
+       "ad": "EPS* Guidance ($)",
+       "fmt": "d",
+       "ger": 3.105,
+       "bek": 3.069,
+       "sonuc": "Beat",
+       "vurgu": 0,
+       "kanit": [
+        "$3.03",
+        "$3.18"
+       ],
+       "hesap": "midpoint of range $3.03 to $3.18"
+      }
+     ]
+    }
+   ],
+   "uretici": "elle",
+   "dipnot": "* Non-GAAP per the company release. Estimates: Revenue and EPS = Yahoo Finance consensus recorded before the release; Revenue Change YoY estimate derived from the revenue estimate; Next Quarter Guidance estimates = consensus for next quarter recorded before the release. FCF = operating cash flow - capital expenditures (press release cash flow statement). No estimate available for Gross Profit, Gross Margin and FCF rows."
   }
  }
 }
