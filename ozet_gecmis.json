@@ -522,5 +522,24 @@
       "btc": null,
       "not": "Kore belirgin, Japonya sınırlı düştü; ABD'de çip ve bellek şirketleri yeniden sert satılırken geniş piyasa yükselmişti; Kore haftalık ve aylık tabloda çok zayıf, Japonya uzun vadeli ortalamasının üzerinde; Bitcoin verisi güncel değildi (son tarih 3 Kas), yön yazılmadı"
     }
+  },
+  {
+    "date": "2026-11-05",
+    "gun": "asagi",
+    "trend": "karisik",
+    "vix": "yuksek",
+    "vix_yon": "yukseldi",
+    "katilim": "orta",
+    "katilim_yon": "daraldi",
+    "sektor_onde": [
+      "iletisim",
+      "elektrik-su"
+    ],
+    "sektor_geride": [
+      "teknoloji",
+      "sanayi"
+    ],
+    "ai": "cok zayif",
+    "not": "Sert düşüş: iki günlük toparlanma silindi, Nasdaq uzun vadeli ortalamanın altına indi, korku endeksi sert yükseldi, katılım daraldı; geniş endeks uzun vadeli ortalamanın çok az üzerinde"
   }
 ]
