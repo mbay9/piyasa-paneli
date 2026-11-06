@@ -1,7 +1,7 @@
 {
  "sembol": "AAOI",
  "para": "USD",
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-06",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 102952000.0,
@@ -316,12 +316,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": -0.088,
-   "gercek": -0.09,
-   "yuzde": -2.3
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": -0.112,
    "gercek": -0.01,
@@ -338,6 +332,12 @@
    "tahmin": 0.015,
    "gercek": 0.06,
    "yuzde": 300.0
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.14333,
+   "gercek": 0.17,
+   "yuzde": 18.6
   }
  ]
 }

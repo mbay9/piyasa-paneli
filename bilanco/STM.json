@@ -1,7 +1,7 @@
 {
  "sembol": "STM",
  "para": "USD",
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-06",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 3187000000.0,
@@ -84,19 +84,19 @@
    "brut": 1401000000.0,
    "faaliyet": 408000000.0,
    "net": 291000000.0,
-   "ebitda": 879000000.0,
+   "ebitda": 375000000.0,
    "eps": 0.31,
    "arge": 545000000.0,
    "fgy": 448000000.0,
    "nakit": 5312000000.0,
-   "borc": 3206000000.0,
+   "borc": 3427000000.0,
    "ozkaynak": 17877000000.0,
    "varlik": 26664000000.0,
    "stok": 3248000000.0,
    "alacak": 2190000000.0,
-   "isletme_nakit": 1020000000.0,
-   "capex": -649000000.0,
-   "fcf": 371000000.0
+   "isletme_nakit": 809000000.0,
+   "capex": -514000000.0,
+   "fcf": 295000000.0
   }
  },
  "analiz": {
@@ -146,10 +146,10 @@
      "k": "ebitda",
      "ad": "FAVÖK",
      "once": 499000000.0,
-     "simdi": 879000000.0,
-     "fark": 76.2,
+     "simdi": 375000000.0,
+     "fark": -24.8,
      "tur": "yuzde",
-     "sonuc": "iyileşti"
+     "sonuc": "kötüleşti"
     },
     {
      "k": "eps",
@@ -173,8 +173,8 @@
      "k": "borc",
      "ad": "Toplam borç",
      "once": 3582000000.0,
-     "simdi": 3206000000.0,
-     "fark": -10.5,
+     "simdi": 3427000000.0,
+     "fark": -4.3,
      "tur": "yuzde",
      "sonuc": "iyileşti"
     },
@@ -200,8 +200,8 @@
      "k": "isletme_nakit",
      "ad": "İşletme nakit akışı",
      "once": 713000000.0,
-     "simdi": 1020000000.0,
-     "fark": 43.1,
+     "simdi": 809000000.0,
+     "fark": 13.5,
      "tur": "yuzde",
      "sonuc": "iyileşti"
     },
@@ -209,8 +209,8 @@
      "k": "fcf",
      "ad": "Serbest nakit akışı",
      "once": 41000000.0,
-     "simdi": 371000000.0,
-     "fark": 804.9,
+     "simdi": 295000000.0,
+     "fark": 619.5,
      "tur": "yuzde",
      "sonuc": "iyileşti"
     },
@@ -218,8 +218,8 @@
      "k": "net_nakit",
      "ad": "Net nakit (nakit − borç)",
      "once": 2482000000.0,
-     "simdi": 2106000000.0,
-     "fark": -15.1,
+     "simdi": 1885000000.0,
+     "fark": -24.1,
      "tur": "yuzde",
      "sonuc": "kötüleşti"
     },
@@ -254,8 +254,8 @@
      "k": "fcf_marj",
      "ad": "FCF marjı",
      "once": 1.18,
-     "simdi": 9.87,
-     "fark": 8.69,
+     "simdi": 7.85,
+     "fark": 6.67,
      "tur": "puan",
      "sonuc": "iyileşti"
     },
@@ -263,8 +263,8 @@
      "k": "capex",
      "ad": "Yatırım harcaması (capex)",
      "once": 672000000.0,
-     "simdi": 649000000.0,
-     "fark": -3.4,
+     "simdi": 514000000.0,
+     "fark": -23.5,
      "tur": "yuzde",
      "sonuc": "azaldı"
     },
@@ -306,8 +306,8 @@
     }
    ],
    "ozet": {
-    "iyi": 16,
-    "kotu": 4,
+    "iyi": 15,
+    "kotu": 5,
     "n": 22
    }
   },

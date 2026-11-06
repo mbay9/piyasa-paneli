@@ -1,7 +1,7 @@
 {
  "sembol": "IONQ",
  "para": "USD",
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-06",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 20694000.0,
@@ -317,12 +317,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": -0.44,
-   "gercek": -3.58,
-   "yuzde": -713.6
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": -0.4725,
    "gercek": 1.93,
@@ -339,6 +333,12 @@
    "tahmin": -0.59865,
    "gercek": -5.08,
    "yuzde": -748.6
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": -0.79,
+   "gercek": 1.35,
+   "yuzde": 270.9
   }
  ]
 }

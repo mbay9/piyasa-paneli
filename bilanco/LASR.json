@@ -1,7 +1,7 @@
 {
  "sembol": "LASR",
  "para": "USD",
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-06",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 61735000.0,
@@ -317,12 +317,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.01571,
-   "gercek": 0.08,
-   "yuzde": 409.2
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.11,
    "gercek": 0.14,
@@ -339,6 +333,12 @@
    "tahmin": 0.14111,
    "gercek": 0.15,
    "yuzde": 6.3
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.04667,
+   "gercek": 0.16,
+   "yuzde": 242.8
   }
  ]
 }

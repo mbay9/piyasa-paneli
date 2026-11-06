@@ -1,7 +1,7 @@
 {
  "sembol": "WULF",
  "para": "USD",
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-06",
  "ceyrekler": {
   "2025-03-31": {
    "eps": -0.16
@@ -289,12 +289,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": -0.0475,
-   "gercek": -0.038,
-   "yuzde": 20.0
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": -0.16,
    "gercek": -0.2652,
@@ -311,6 +305,12 @@
    "tahmin": -0.27,
    "gercek": -0.3337,
    "yuzde": -23.6
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": -0.375,
+   "gercek": -0.1393,
+   "yuzde": 62.9
   }
  ]
 }

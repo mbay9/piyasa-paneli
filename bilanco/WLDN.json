@@ -1,7 +1,7 @@
 {
  "sembol": "WLDN",
  "para": "USD",
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-06",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 173473000.0,
@@ -289,12 +289,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.81,
-   "gercek": 1.21,
-   "yuzde": 49.4
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 0.79,
    "gercek": 1.57,
@@ -311,6 +305,12 @@
    "tahmin": 1.215,
    "gercek": 2.07,
    "yuzde": 70.4
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 1.065,
+   "gercek": 1.2,
+   "yuzde": 12.7
   }
  ]
 }
