@@ -1,0 +1,97 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/smci-20260930.htm
+SEMBOL: SMCI
+BASVURU_TARIHI: 2026-11-06
+BASVURU: 0001375365-26-000027
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited)
+Three Months Ended September 30, |
+2026 | 2025 |
+OPERATING ACTIVITIES: |
+Net income | $ | 1,594,205 | $ | 168,285 |
+Reconciliation of net income to net cash used in operating activities: |
+Depreciation and amortization | 15,040 | 12,341 |
+Amortization of right-of-use (“ROU”) assets | 13,791 | 8,266 |
+Amortization of debt discount and issuance costs | 8,789 | 4,743 |
+Inventory valuation adjustment write-down | 14,241 | 36,199 |
+Stock-based compensation expense | 100,223 | 89,139 |
+Impairment loss | — | 12,000 |
+Share of loss from equity investee | 979 | 106 |
+Unrealized foreign currency exchange loss (gain) | 2,121 | ( 1,017 ) |
+Deferred income taxes, net | ( 6,881 ) | ( 12,201 ) |
+Other non-cash expense (income), net | 5,533 | ( 7,539 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable, net (including changes in related party balances of $( 100 ) and $( 1,671 ) during the three months ended September 30, 2026 and 2025, respectively)
+| ( 3,559,839 ) | ( 321,244 ) |
+Inventories | ( 2,477,392 ) | ( 1,087,010 ) |
+Prepaid expenses and other assets (including changes in related party balances of $( 3,494 ) and $ 12,543 during the three months ended September 30, 2026 and 2025, respectively)
+| ( 349,754 ) | 134,087 |
+Accounts payable (including changes in related party balances of $ 31,777 and $( 24,173 ) during the three months ended September 30, 2026 and 2025, respectively)
+| 473,879 | 901 |
+Accrued liabilities (including changes in related party balances of $( 65 ) and $ 554 during the three months ended September 30, 2026 and 2025, respectively)
+| 445,557 | ( 259,350 ) |
+Income taxes payable | 222,971 | 4,978 |
+Deferred revenue | 3,053,678 | 296,622 |
+Other long-term liabilities (including changes in related party balances of $( 79 ) and $( 151 ) during the three months ended September 30, 2026 and 2025, respectively)
+| 8,838 | 3,171 |
+Net cash used in operating activities | ( 434,021 ) | ( 917,523 ) |
+INVESTING ACTIVITIES: |
+Purchases of property, plant, and equipment (including payments to related parties of $ 4,753 and $ 3,887 during the three months ended September 30, 2026 and 2025, respectively)
+| ( 41,588 ) | ( 32,270 ) |
+Investment in equity securities
+| ( 5,000 ) | — |
+Net cash used in investing activities | ( 46,588 ) | ( 32,270 ) |
+FINANCING ACTIVITIES: |
+Proceeds from lines of credit and term loans | 162,236 | 28,588 |
+Repayment of lines of credit and term loans | ( 244,168 ) | ( 11,540 ) |
+Proceeds from exercise of stock options | 3,109 | 7,922 |
+Payment for withholding taxes related to settlement of equity awards
+| ( 32,561 ) | ( 43,642 ) |
+Proceeds related to Receivables Purchase Agreement, net | 43,376 | — |
+Payments of equity issuance costs | ( 3,546 ) | — |
+Dividends declared and paid on preferred stock | ( 63,729 ) | — |
+Other | ( 9 ) | 7 |
+Net cash used in financing activities | ( 135,292 ) | ( 18,665 ) |
+Effect of exchange rate fluctuations on cash | ( 15 ) | ( 4,588 ) |
+Net decrease in cash, cash equivalents, and restricted cash | ( 615,916 ) | ( 973,046 ) |
+SMCI | Q1 2027 Form 10-Q | 7
+Table of Contents
+Three Months Ended September 30, |
+2026 | 2025 |
+Cash, cash equivalents, and restricted cash at the beginning of period | 7,631,536 | 5,172,301 |
+Cash, cash equivalents, and restricted cash at the end of period | $ | 7,015,620 | $ | 4,199,255 |
+Supplemental disclosure of cash flow information: |
+Cash paid for interest | $ | 110,394 | $ | 39,244 |
+Cash paid for income taxes, net of refunds | $ | 208,392 | $ | 38,502 |
+Non-cash investing and financing activities: |
+Unpaid property, plant, and equipment purchases (including due to related parties of $ 2,636 and $ 1,796 as of September 30, 2026 and 2025, respectively)
+| $ | 29,636 | $ | 11,127 |
+ROU assets obtained in exchange for operating lease commitments
+| $ | 1,977 | $ | 90,542 |
+Series A Mandatory Convertible Preferred Stock accrued dividends | $ | 25,155 | $ | — |
+Transfer of inventory to property, plant, and equipment, net | $ | — | $ | 1,184 |
+See accompanying notes to condensed consolidated financial statements.
+SMCI | Q1 2027 Form 10-Q | 8
+Table of Contents
+SUPER MICRO COMPUTER, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Organization and Summary of Significant Accounting Policies
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States (“U.S. GAAP”) and applicable rules and regulations of the Securities and Exchange Commission regarding interim financial reporting. Certain information and note disclosures normally included in the financial statements prepared in accordance with U.S. GAAP have been condensed or omitted pursuant to such rules and regulations. As such, the information included in this Quarterly Report on Form 10-Q should be read in conjunction with the consolidated financial statements and accompanying notes included in the Annual Report on Form 10-K for the fiscal year ended June 30, 2026, of Super Micro Computer, Inc., a Delaware corporation, and its consolidated entities (collectively, the “Company”). The condensed consolidated balance sheet as of June 30, 2026 included herein was derived from the audited financial statements as of that date but does not include all disclosures including notes required by U.S. GAAP.
+The unaudited condensed consolidated financial statements included herein reflect all adjustments, including normal recurring adjustments, which are, in the opinion of management, necessary for a fair presentation of the consolidated financial condition, results of operations, and cash flows for the periods presented. All intercompany balances and transactions have been eliminated. Interim results are not necessarily indicative of the results for the full fiscal year ending June 30, 2027.
+Significant Accounting Policies
+There have been no material changes to our significant accounting policies included in our Annual Report on Form 10-K for the fiscal year ended June 30, 2026.
+Concentration of Credit Risk and Significant Customers
+Financial instruments that potentially subject us to a significant concentration of credit risk consist of cash and cash equivalents, restricted cash, and accounts receivable. Cash and cash equivalents are maintained with high-quality financial institutions, the composition and maturities of which are regularly monitored by management. We maintain cash and cash equivalents with financial institutions that, at times, may exceed federally insured limits. We have not experienced any losses on such balances and believe that our credit risk is mitigated by maintaining deposits with financial institutions of high credit quality.
+We believe that the concentration of credit risk in our trade receivables is substantially mitigated by our credit evaluation process, relatively short collection terms and the high level of credit worthiness of our customers. For customers including distributors and direct customers, we perform ongoing credit evaluations of their financial conditions and limit the amount of credit extended when deemed necessary based upon payment history and their current credit worthiness, but we generally require no collateral other than the products that we deliver to them, in which we sometimes hold a purchase money security interest under our standard terms. We regularly review the allowance for credit losses by considering factors such as historical experience, credit quality, reasonable and supportable forecasts, age of the accounts receivable balances and current economic conditions that may affect a customer’s ability to pay.
+As of September 30, 2026, two customers accounted for 49.0 % and 16.8 % of our accounts receivable balance. As of June 30, 2026, three customers accounted for 23.0 %, 17.1 % and 12.5 % of our accounts receivable balance.
+SMCI | Q1 2027 Form 10-Q | 9
+Table of Contents
+SUPER MICRO COMPUTER, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS—(Continued)
+(Unaudited)
+Accounting Pronouncements Recently Adopted
+In July 2025, the Financial Accounting Standards Board (the “FASB”) issued Accounting Standards Update (“ASU”) 2025-05, Financial Instruments–Credit Losses (Topic 326): Measurement of Credit Losses for Accounts Receivable and Contract Assets, which provides all entities with a practical expedient and entities other than public business entities with an accounting policy election when applying the guidance in Topic 326, Financial Instruments–Credit Losses, to current accounts receivable and current contract assets arising from transactions accounted for under Topic 606, Revenue from Contracts with Customers. The ASU is effective for annual reporting periods beginning after December 15, 2025, and interim reporting periods within those annual reporting periods. Early adoption is permitted. The ASU is effective for our fisca
