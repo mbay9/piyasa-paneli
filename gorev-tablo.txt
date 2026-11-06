@@ -1,11 +1,11 @@
-ZAMAN_UTC: 2026-11-05 15:30
-ZAMAN_ET: 2026-11-05 10:30
+UTC: 2026-11-06T00:29:28Z
+ET: 2026-11-05 19:29 ET
 SONUC: YAZILDI
-NEDEN: Son 5 günde yeni sonuç bülteni olan MTSI ve NVMI için tablolar hazırlanıp main'e gönderildi; MRVL (2026-11-02) birleşme duyurusu olduğundan atlandı.
-ISLENEN: MTSI 2026-11-05 (0001493594-26-000041, 2026/4F); NVMI 2026-11-05 (0001178913-26-005034, 2026/3F)
-ATLANAN: MRVL 2026-11-02 0001193125-26-442714 (Marvell-Lumentum birleşme duyurusu, sonuç bildirisi değil)
-BEK_BULUNAN: MTSI Revenue, Revenue YoY, EPS*, Gross Margin %* (sirket rehberligi, bg), Guidance Revenue, Guidance EPS; NVMI Revenue, Revenue YoY, EPS*, Guidance Revenue, Guidance EPS (Yahoo est.qh, bulten oncesi kayit)
-BEK_BULUNAMAYAN: MTSI Gross Profit, EBITDA, EBITDA Margin, Guidance YoY; NVMI Gross Profit, Gross Margin, FCF, FCF Margin, Guidance YoY. MTSI FCF yazilmadi (bultende yalniz 12 aylik nakit akisi var). MarketBeat ikinci kaynagi kullanilmadi.
-DENETIM: tablo_kontrol: tamam (0 hata)
-YAYIN: push b95ad9b; durum.json build success, deploy success, canli_dogrulandi true (run 42055037467)
-NOT: tablo_toplu.py MTSI/NVMI icin Yahoo'da bu ceyrek olmadigindan tablo uretmedi; tablolar elle hazirlandi.
+Neden: 5 yeni bilanço bülteni için tablolar elle hazırlanıp main'e gönderildi (commit 8d17c6b).
+Semboller: AAOI, IONQ, LASR, MCHP, WLDN (hepsi 2026-11-05). MRVL (2026-11-02) birleşme duyurusu, sonuç bildirisi değil, atlandı.
+Beklenti bulunan: AAOI gelir/EPS/brüt marj(rehberlik)/sonraki çeyrek gelir+EPS; LASR gelir/brüt marj(rehberlik)/EBITDA(rehberlik)/sonraki çeyrek gelir; MCHP gelir/EPS/brüt marj(rehberlik)/sonraki çeyrek gelir+EPS; WLDN gelir/EPS.
+Beklenti bulunamayan: IONQ tümü (kayıt aralık dışı, MarketBeat sayfası yalnız öncesi önizleme); LASR EPS (aralık dışı); diğer tüm satırlar.
+FCF: AAOI 10-Q nakit (9A-6A); MCHP bülten; LASR/WLDN/IONQ için çeyreklik veri yok, yazılmadı.
+Denetim: tablo_kontrol: tamam (0 hata).
+Deploy: durum.json build=success deploy=success (kayıt 2026-11-06T00:28Z; push sonrası kaydı doğrulanamadı olabilir).
+Not: toplu üretici bu bültenleri üretemedi (Yahoo kaydı yok); çalıştırıldığında mevcut bir tabloyu değiştirdiği için geri alındı.
