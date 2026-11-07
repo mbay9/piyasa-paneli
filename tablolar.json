@@ -1,6 +1,6 @@
 {
  "v": 1,
- "guncelleme": "2026-11-06T00:26:54Z",
+ "guncelleme": "2026-11-07T00:24:20Z",
  "tablolar": {
   "LITE": {
    "tarih": "2026-11-02",
@@ -8518,57 +8518,69 @@
    "dipnot": "* Non-GAAP. Estimate: EPS, revenue and next-quarter guidance estimates from Yahoo Finance consensus on record before the release (our pre-release record); no estimate found for the other rows. The company applied fresh start accounting after emerging from Chapter 11 (current quarter is Successor, prior-year quarter is Predecessor). FCF is the company's free cash flow (operating cash flow less PP&E and patents spending)."
   },
   "WULF": {
-   "tarih": "2026-08-05",
-   "basvuru": "0001083301-26-000162",
-   "kaynak": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000162/a_wulfearningsreleaseq22026.htm",
+   "tarih": "2026-11-06",
+   "basvuru": "0001628280-26-071306",
+   "kaynak": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026071306/a_wulfearningsreleaseq32026.htm",
    "bolumler": [
     {
      "baslik": "WULF",
-     "etiket": "Quarter ended Jun 30, 2026",
+     "etiket": "Quarter ended Sep 30, 2026",
      "satirlar": [
       {
        "ad": "Revenue ($M)",
        "fmt": "m",
-       "ger": 44.8,
+       "ger": 76.2,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
        "kanit": [
-        "44,767"
+        "76,230"
        ]
       },
       {
        "ad": "Revenue Change YoY",
        "fmt": "p",
-       "ger": -6.0,
+       "ger": 50.7,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "44.8 / 47.6 - 1 (Yahoo Finance quarterly statements, 2025 same quarter)"
+       "hesap": "76,230 / 50,578 - 1 (both from the release, three months ended Sep 30, 2026 vs 2025, $ thousands)"
       },
       {
-       "ad": "FCF ($M)",
-       "fmt": "m",
-       "ger": -992.3,
+       "ad": "EPS ($)",
+       "fmt": "d",
+       "ger": -0.03,
        "bek": null,
        "sonuc": null,
        "vurgu": 0,
-       "hesap": "-136.7 operating cash flow - 855.6 capital expenditures (Yahoo Finance cash flow statement)"
+       "kanit": [
+        "(0.03)"
+       ]
       },
       {
-       "ad": "FCF Margin %",
+       "ad": "EBITDA* ($M)",
+       "fmt": "m",
+       "ger": -12.8,
+       "bek": null,
+       "sonuc": null,
+       "vurgu": 0,
+       "kanit": [
+        "(12,801)"
+       ]
+      },
+      {
+       "ad": "EBITDA Margin % *",
        "fmt": "p",
-       "ger": -2216.5,
+       "ger": -16.8,
        "bek": null,
        "sonuc": null,
        "vurgu": 1,
-       "hesap": "-992.3 / 44.8"
+       "hesap": "-12,801 / 76,230 (Non-GAAP Adjusted EBITDA / total revenue, from the release)"
       }
      ]
     }
    ],
-   "uretici": "toplu",
-   "dipnot": "No estimate available for the other rows. Margins and growth are calculated from reported figures; FCF from the Yahoo Finance cash flow statement."
+   "dipnot": "* Non-GAAP Adjusted EBITDA as defined in the release. EPS is GAAP diluted (no non-GAAP EPS in the release). No estimate shown: no matching analyst consensus was found for this release (Yahoo Finance EPS record does not match the reported EPS; stored revenue estimate is outside the tolerance). The release gives no next-quarter or full-year guidance and no gross profit or free cash flow figures."
   },
   "FORM": {
    "tarih": "2026-10-28",
