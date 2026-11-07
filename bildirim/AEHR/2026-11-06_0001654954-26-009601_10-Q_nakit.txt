@@ -1,0 +1,553 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1040470/000165495426009601/aehr_10q.htm
+SEMBOL: AEHR
+BASVURU_TARIHI: 2026-11-06
+BASVURU: 0001654954-26-009601
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(Unaudited)
+|
+| Three Months Ended
+|
+|
+| One Month Ended |
+|
+|
+| September 25,
+|
+|
+| August 29,
+|
+|
+| June 26,
+|
+|
+(In thousands)
+|
+| 2026
+|
+|
+| 2025
+|
+|
+| 2026
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income (loss) |
+| $ | 7,181 |
+|
+| $ | ( 2,084 | ) |
+| $ | ( 2,743 | ) |
+Adjustments to reconcile net income (loss) to net cash used in operating activities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Stock-based compensation expense |
+|
+| 1,880 |
+|
+|
+| 1,671 |
+|
+|
+| 448 |
+|
+Depreciation and amortization |
+|
+| 707 |
+|
+|
+| 743 |
+|
+|
+| 228 |
+|
+Deferred income taxes |
+|
+| ( 354 | ) |
+|
+| ( 761 | ) |
+|
+| ( 937 | ) |
+Amortization of operating lease right-of-use assets |
+|
+| 200 |
+|
+|
+| 179 |
+|
+|
+| 63 |
+|
+Changes in operating assets and liabilities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable |
+|
+| ( 10,686 | ) |
+|
+| 1,140 |
+|
+|
+| 1,492 |
+|
+Inventories |
+|
+| ( 9,037 | ) |
+|
+| 218 |
+|
+|
+| ( 3,035 | ) |
+Prepaid expenses and other assets |
+|
+| ( 1,367 | ) |
+|
+| 1,576 |
+|
+|
+| ( 484 | ) |
+Accounts payable |
+|
+| 6,230 |
+|
+|
+| ( 2,401 | ) |
+|
+| ( 219 | ) |
+Accrued expenses |
+|
+| 998 |
+|
+|
+| 505 |
+|
+|
+| ( 76 | ) |
+Deferred revenue |
+|
+| 1,275 |
+|
+|
+| ( 863 | ) |
+|
+| 1,529 |
+|
+Operating lease liabilities |
+|
+| ( 164 | ) |
+|
+| ( 215 | ) |
+|
+| ( 88 | ) |
+Income taxes payable |
+|
+| 83 |
+|
+|
+| 10 |
+|
+|
+| 10 |
+|
+Net cash used in operating activities |
+|
+| ( 3,054 | ) |
+|
+| ( 282 | ) |
+|
+| ( 3,812 | ) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash flows from investing activities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Purchases of property and equipment |
+|
+| ( 49 | ) |
+|
+| ( 1,391 | ) |
+|
+| ( 4 | ) |
+Net cash used in investing activities |
+|
+| ( 49 | ) |
+|
+| ( 1,391 | ) |
+|
+| ( 4 | ) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash flows from financing activities: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Proceeds from issuance of common stock under employee plans |
+|
+| 337 |
+|
+|
+| 170 |
+|
+|
+| 13 |
+|
+Shares repurchased for tax withholdings on vesting of restricted stock units |
+|
+| ( 4,474 | ) |
+|
+| ( 328 | ) |
+|
+| ( 71 | ) |
+Payments for common stock issuance costs related to the public offering |
+|
+| ( 161 | ) |
+|
+| - |
+|
+|
+| ( 176 | ) |
+Net cash used in financing activities |
+|
+| ( 4,298 | ) |
+|
+| ( 158 | ) |
+|
+| ( 234 | ) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Effect of exchange rate changes on cash, cash equivalents and restricted cash |
+|
+| ( 5 | ) |
+|
+| 9 |
+|
+|
+| - |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net decrease in cash, cash equivalents and restricted cash |
+|
+| ( 7,406 | ) |
+|
+| ( 1,822 | ) |
+|
+| ( 4,050 | ) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash, cash equivalents and restricted cash, beginning of period (1) |
+|
+| 112,458 |
+|
+|
+| 26,480 |
+|
+|
+| 116,508 |
+|
+Cash, cash equivalents and restricted cash, end of period (1) |
+| $ | 105,052 |
+|
+| $ | 24,658 |
+|
+| $ | 112,458 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental disclosure of non-cash flow information: |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net transfer of equipment between inventory and property and equipment |
+| $ | 367 |
+|
+| $ | - |
+|
+| $ | - |
+|
+Right of use assets obtained in exchange for operating leases liabilities |
+| $ | 174 |
+|
+| $ | - |
+|
+| $ | - |
+|
+(1) Includes restricted cash within prepaid expenses and other current assets and other non-current assets.
+See accompanying Notes to Condensed Consolidated Financial Statements (unaudited)
+|
+7 |
+|
+Table of Contents |
+AEHR TEST SYSTEMS
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+1. ORGANIZATION AND SIGNIFICANT ACCOUNTING POLICIES
+Organization
+Aehr Test Systems (the “Company”) was incorporated in California in May 1977 and develops and manufactures test and burn-in equipment used in the semiconductor industry. The Company’s principal products are the FOX-XP, FOX-NP, and FOX-CP wafer contact and singulated die/module parallel test and burn-in systems, the Sonoma, Tahoe and Echo packaged parts burn-in products, the WaferPak full wafer contactor, the DiePak carrier, the WaferPak aligner, the DiePak autoloader, and test fixtures.
+Basis of Presentation
+The unaudited Condensed Consolidated Financial Statements included in this quarterly report on Form 10-Q include the accounts of the Company and its wholly-owned subsidiaries and have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) for interim financial reporting and the rules and regulations of the Securities and Exchange Commission (the “SEC”) for interim reporting. Accordingly, the unaudited Condensed Consolidated Financial Statements do not include certain information and footnote disclosures normally included in the annual Consolidated Financial Statements. In the opinion of management, the unaudited Condensed Consolidated Financial Statements for the interim periods presented have been prepared on a basis consistent with the May 29, 2026 audited Consolidated Financial Statements and reflect all adjustments, consisting of normal recurring adjustments, necessary for a fair presentation of the condensed consolidated financial position and results of operations as of and for such periods indicated. These unaudited Condensed Consolidated Financial Statements should be read in conjunction with the Consolidated Financial Statements contained in the Company's Annual Report on Form 10-K for the year ended May 29, 2026.
+Principles of Consolidation
+The Company’s Condensed Consolidated Financial Statements include the accounts of the Company and its wholly-owned subsidiaries and all significant intercompany accounts and transactions have been eliminated upon consolidation.
+Change in Fiscal Year
+On April 2, 2026, the Company’s board of directors approved a change in the Company’s fiscal year-end from the 52- or 53-week period ending on the Friday in May nearest May 31 to the 52- or 53-week period ending on the Friday in June nearest June 30. The change became effective beginning in fiscal year 2027, which began on June 27, 2026 and will end on June 25, 2027. This Quarterly Report on Form 10-Q includes unaudited financial information for the period from May 30, 2026 to June 26, 2026, which represents the one-month transition period resulting from the change in fiscal year-end. The audited financial information for this transition period will be included in the Company’s Annual Report on Form 10-K for the fiscal year ending June 25, 2027.
+Financial information for the three months ended September 26, 2025 has not been included in this Form 10-Q because: (i) the three months ended August 29, 2025 provide a meaningful comparison to the three months ended September 25, 2026; (ii) there are no significant seasonal or other factors that would materially impact comparability of information if the results for the three months ended September 26, 2025 were presented in lieu of results for the three months ended August 29, 2025; and (iii) it was not practicable or cost justified to prepare such information.
+Critical Accounting Policies and Use of Estimates
+The Company’s significant accounting policies are disclosed in the Company’s Annual Report on Form 10-K for the year ended May 29, 2026. There have been no significant changes to the Company’s critical accounting policies during the three months ended September 25, 2026. The preparation of financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, the disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenues and expenses during the reporting period. Critical accounting estimates in these Condensed Consolidated Financial Statements include valuation of inventory at the lower of cost or net realizable value, valuation of intangible assets and impairment of long-lived assets and goodwill. Actual results could differ from those estimates.
+|
+8 |
+|
+Table of Contents |
+Concentration of Credit Risk
+Financial instruments which subject the Company to concentrations of credit risk consist principally of cash and cash equivalents and accounts receivable. The Company performs credit evaluations of its customers’ financial condition and generally requires no collateral. The Company had revenues from individual customers in excess of 10% of total revenues as follows:
+|
+| Three Months Ended
+|
+|
+| One Month Ended |
+|
+|
+| September 25,
+|
+|
+| August 29,
+|
+|
+| June 26,
+|
+|
+|
+| 2026
+|
+|
+| 2025
+|
+|
+| 2026
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Customer A |
+|
+| 47.5 | % |
+| *
+|
+|
+|
+| 46.4 | % |
+Customer B |
+|
+| 25.1 | % |
+| *
+|
+|
+| *
+|
+|
+Customer C |
+| *
+|
+|
+|
+| 42.6 | % |
+| *
+|
+|
+Customer D |
+| *
+|
+|
+|
+| 21.8 | % |
+| *
+|
+|
+Customer E |
+| *
+|
+|
+|
+| 11.6 | % |
+|
+| 39.9 | % |
+The Company had gross accounts receivable from individual customers in excess of 10% of gross accounts receivable as follows:
+|
+| September 25,
+|
+|
+| June 26,
+|
+|
+| May 29,
+|
+|
+|
+| 2026
+|
+|
+| 2026
+|
+|
+| 2026
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Customer A |
+|
+| 44.3 | % |
+|
+| 17.2 | % |
+|
+| 18.8 | % |
+Customer B |
+|
+| 22.7 | % |
+|
+| 21.1 | % |
+|
+| 19.3 | % |
+Customer F |
+| *
+|
