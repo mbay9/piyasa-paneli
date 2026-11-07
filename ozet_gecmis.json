@@ -547,5 +547,24 @@
    "btc": null,
    "not": "Kore olağanüstü, Japonya çok sert düştü; ABD'de çip ve teknoloji sert satılmıştı, Kore haftalık ve aylık tabloda zaten çok zayıftı; Bitcoin verisi güncel değildi (son tarih 4 Kas), yön yazılmadı"
   }
+ },
+ {
+  "date": "2026-11-06",
+  "gun": "yukari",
+  "trend": "karisik",
+  "vix": "yuksek",
+  "vix_yon": "geriledi",
+  "katilim": "orta",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "teknoloji",
+   "iletisim"
+  ],
+  "sektor_geride": [
+   "temel tuketim",
+   "malzeme"
+  ],
+  "ai": "cok zayif",
+  "not": "Dünkü sert düşüşün ardından hafif yükseliş; büyük şirketler taşıdı, katılım üst üste ikinci gün daraldı, korku endeksi geriledi ama yüksek; Nasdaq trend etiketi yatay/karışığa döndü; çipler sert tepki verdi ama çok zayıf"
  }
 ]
