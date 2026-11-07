@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-05",
+ "guncelleme": "2026-11-07",
  "kayitlar": [
   {
    "olcu": "nasdaq_oneq",
@@ -62,6 +62,18 @@
    "not": "fark yüzde puan"
   },
   {
+   "olcu": "nasdaq_oneq",
+   "tarih": "2026-11-06",
+   "bizim": 1.087,
+   "resmi": 1.085,
+   "fark": 0.002,
+   "fark_pct": 0.002,
+   "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
    "olcu": "spx_ileri_factset",
    "tarih": "2026-10-29",
    "bizim": 18.41,
@@ -71,6 +83,18 @@
    "kaynak": "FactSet Earnings Insight",
    "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf",
    "kayma_gun": 1,
+   "not": null
+  },
+  {
+   "olcu": "spx_ileri_factset",
+   "tarih": "2026-11-05",
+   "bizim": 17.71,
+   "resmi": 17.7,
+   "fark": 0.01,
+   "fark_pct": 0.06,
+   "kaynak": "FactSet Earnings Insight",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf",
+   "kayma_gun": 0,
    "not": null
   },
   {
@@ -86,6 +110,18 @@
    "not": "FactSet son 12 ay tanımını açıklamıyor"
   },
   {
+   "olcu": "spx_son_duz_factset",
+   "tarih": "2026-11-05",
+   "bizim": 22.17,
+   "resmi": 24.7,
+   "fark": -2.53,
+   "fark_pct": -10.24,
+   "kaynak": "FactSet Earnings Insight",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf",
+   "kayma_gun": 0,
+   "not": "FactSet son 12 ay tanımını açıklamıyor"
+  },
+  {
    "olcu": "spx_son_gaap_factset",
    "tarih": "2026-10-29",
    "bizim": 24.84,
@@ -95,6 +131,18 @@
    "kaynak": "FactSet Earnings Insight",
    "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf",
    "kayma_gun": 1,
+   "not": "FactSet son 12 ay tanımını açıklamıyor"
+  },
+  {
+   "olcu": "spx_son_gaap_factset",
+   "tarih": "2026-11-05",
+   "bizim": 23.91,
+   "resmi": 24.7,
+   "fark": -0.79,
+   "fark_pct": -3.2,
+   "kaynak": "FactSet Earnings Insight",
+   "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf",
+   "kayma_gun": 0,
    "not": "FactSet son 12 ay tanımını açıklamıyor"
   },
   {
@@ -158,6 +206,18 @@
    "not": "fark yüzde puan"
   },
   {
+   "olcu": "spx_spy",
+   "tarih": "2026-11-06",
+   "bizim": 0.315,
+   "resmi": 0.312,
+   "fark": 0.003,
+   "fark_pct": 0.003,
+   "kaynak": "SPY günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
    "olcu": "vix_cboe",
    "tarih": "2026-10-30",
    "bizim": 19.42,
@@ -204,60 +264,72 @@
    "url": null,
    "kayma_gun": 0,
    "not": null
+  },
+  {
+   "olcu": "vix_cboe",
+   "tarih": "2026-11-05",
+   "bizim": 28.18,
+   "resmi": 28.18,
+   "fark": 0.0,
+   "fark_pct": 0.0,
+   "kaynak": "Cboe VIX_History (resmi)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": null
   }
  ],
  "ozet": {
   "nasdaq_oneq": {
-   "n": 5,
-   "ort_fark_pct": -0.01,
+   "n": 6,
+   "ort_fark_pct": -0.0,
    "std_pct": 0.06,
-   "son_fark_pct": 0.035,
-   "son_tarih": "2026-11-05",
+   "son_fark_pct": 0.002,
+   "son_tarih": "2026-11-06",
    "durum": "iyi",
    "sistematik": false
   },
   "spx_ileri_factset": {
-   "n": 1,
-   "ort_fark_pct": -1.55,
-   "std_pct": 0.0,
-   "son_fark_pct": -1.55,
-   "son_tarih": "2026-10-29",
+   "n": 2,
+   "ort_fark_pct": -0.74,
+   "std_pct": 0.81,
+   "son_fark_pct": 0.06,
+   "son_tarih": "2026-11-05",
    "durum": "yetersiz veri",
    "sistematik": false
   },
   "spx_son_duz_factset": {
-   "n": 1,
-   "ort_fark_pct": -11.27,
-   "std_pct": 0.0,
-   "son_fark_pct": -11.27,
-   "son_tarih": "2026-10-29",
+   "n": 2,
+   "ort_fark_pct": -10.75,
+   "std_pct": 0.51,
+   "son_fark_pct": -10.24,
+   "son_tarih": "2026-11-05",
    "durum": "izle",
    "sistematik": false
   },
   "spx_son_gaap_factset": {
-   "n": 1,
-   "ort_fark_pct": -4.09,
-   "std_pct": 0.0,
-   "son_fark_pct": -4.09,
-   "son_tarih": "2026-10-29",
+   "n": 2,
+   "ort_fark_pct": -3.65,
+   "std_pct": 0.44,
+   "son_fark_pct": -3.2,
+   "son_tarih": "2026-11-05",
    "durum": "yetersiz veri",
    "sistematik": false
   },
   "spx_spy": {
-   "n": 5,
-   "ort_fark_pct": -0.01,
+   "n": 6,
+   "ort_fark_pct": -0.0,
    "std_pct": 0.05,
-   "son_fark_pct": 0.053,
-   "son_tarih": "2026-11-05",
+   "son_fark_pct": 0.003,
+   "son_tarih": "2026-11-06",
    "durum": "iyi",
    "sistematik": false
   },
   "vix_cboe": {
-   "n": 4,
+   "n": 5,
    "ort_fark_pct": 0.0,
    "std_pct": 0.0,
    "son_fark_pct": 0.0,
-   "son_tarih": "2026-11-04",
+   "son_tarih": "2026-11-05",
    "durum": "iyi",
    "sistematik": false
   }
@@ -265,16 +337,16 @@
  "hatalar": [
   "ChartRow: değer ya da tarih okunamadı"
  ],
- "eklenen": 6,
+ "eklenen": 9,
  "referans": {
-  "tarih": "2026-10-30",
-  "ileri": 18.7,
+  "tarih": "2026-11-06",
+  "ileri": 17.7,
   "ileri_ort5": 19.8,
   "ileri_ort10": 19.1,
-  "son": 25.9,
+  "son": 24.7,
   "son_ort5": 24.4,
   "son_ort10": 23.7,
   "kaynak": "FactSet Earnings Insight (S&P 500)",
-  "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_103026.pdf"
+  "url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_110626.pdf"
  }
 }
