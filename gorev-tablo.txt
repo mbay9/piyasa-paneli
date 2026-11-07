@@ -1,17 +1,9 @@
-UTC: 2026-11-06T00:29:28Z
-ET: 2026-11-05 19:29 ET
+UTC: 2026-11-07T00:24:39Z
+ET: 2026-11-06T19:24:39-0500
 SONUC: YAZILDI
-Neden: 5 yeni bilanço bülteni için tablolar elle hazırlanıp main'e gönderildi (commit 8d17c6b).
-Semboller: AAOI, IONQ, LASR, MCHP, WLDN (hepsi 2026-11-05). MRVL (2026-11-02) birleşme duyurusu, sonuç bildirisi değil, atlandı.
-Beklenti bulunan: AAOI gelir/EPS/brüt marj(rehberlik)/sonraki çeyrek gelir+EPS; LASR gelir/brüt marj(rehberlik)/EBITDA(rehberlik)/sonraki çeyrek gelir; MCHP gelir/EPS/brüt marj(rehberlik)/sonraki çeyrek gelir+EPS; WLDN gelir/EPS.
-Beklenti bulunamayan: IONQ tümü (kayıt aralık dışı, MarketBeat sayfası yalnız öncesi önizleme); LASR EPS (aralık dışı); diğer tüm satırlar.
-FCF: AAOI 10-Q nakit (9A-6A); MCHP bülten; LASR/WLDN/IONQ için çeyreklik veri yok, yazılmadı.
-Denetim: tablo_kontrol: tamam (0 hata).
-Deploy: durum.json build=success deploy=success (kayıt 2026-11-06T00:28Z; push sonrası kaydı doğrulanamadı olabilir).
-Not: toplu üretici bu bültenleri üretemedi (Yahoo kaydı yok); çalıştırıldığında mevcut bir tabloyu değiştirdiği için geri alındı.
-== 2026-11-06T15:24:07Z (ET 2026-11-06 10:24:07 EST)
-SONUC: YAZILMADI
-NEDEN: Son 5 gunde yeni basvurulu tek bulten MRVL 2026-11-02 (0001193125-26-442714) Marvell-Lumentum birlesme duyurusu; sonuc bildirisi degil (Marvell yalniz rakamsiz on gelir notu verdi), atlandi.
-ISLENEN: yok (MRVL 2026-11-02 atlandi)
-BEK: yok
-DENETIM: calistirilmadi (tablolar.json degismedi)
+Neden: WULF (2026-11-06, 0001628280-26-071306) Q3 sonuc bulteni icin yeni tablo eklendi.
+Islenen: WULF 2026-11-06. Atlanan: MRVL 2026-11-02 (Marvell-Lumentum birlesme duyurusu, sonuc bulteni degil).
+Bek bulunan satirlar: yok. Bulunamayan: Revenue (est.qh 64.1, bulten 76.2'nin -15.9%'u = tolerans disi; MarketBeat Q3 2026 sayfasi bulunamadi), EPS (Yahoo surpriz gercek -0.1393 bulten -0.03 ile uyusmuyor; est.qh -0.375 +-35% disi), diger satirlar.
+Rehberlik / brut kar / FCF: bultende yok (10-Q nakit dosyasi henuz yok), yazilmadi.
+Denetim: tablo_kontrol: tamam
+Push: main d48d49c. Deploy durumu bu kosuda kontrol edilmedi.
