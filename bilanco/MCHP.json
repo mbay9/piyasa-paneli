@@ -1,7 +1,7 @@
 {
  "sembol": "MCHP",
  "para": "USD",
- "guncelleme": "2026-11-06",
+ "guncelleme": "2026-11-07",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 1075500000.0,
@@ -334,9 +334,9 @@
   },
   {
    "donem": "2026-09-30",
-   "tahmin": 0.93814,
+   "tahmin": 0.93632,
    "gercek": 0.97,
-   "yuzde": 3.4
+   "yuzde": 3.6
   }
  ]
 }

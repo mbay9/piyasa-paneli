@@ -1,7 +1,7 @@
 {
  "sembol": "ON",
  "para": "USD",
- "guncelleme": "2026-11-06",
+ "guncelleme": "2026-11-07",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 1550900000.0,
@@ -328,9 +328,9 @@
   },
   {
    "donem": "2026-09-30",
-   "tahmin": 0.87916,
+   "tahmin": 0.87844,
    "gercek": 0.9,
-   "yuzde": 2.4
+   "yuzde": 2.5
   }
  ]
 }

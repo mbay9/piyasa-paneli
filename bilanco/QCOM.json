@@ -1,11 +1,8 @@
 {
  "sembol": "QCOM",
  "para": "USD",
- "guncelleme": "2026-11-06",
+ "guncelleme": "2026-11-07",
  "ceyrekler": {
-  "2025-06-30": {
-   "eps": 2.43
-  },
   "2025-09-30": {
    "gelir": 11271000000.0,
    "brut": 6237000000.0,
@@ -88,6 +85,7 @@
    "faaliyet": 1356000000.0,
    "net": 1251000000.0,
    "ebitda": 1771000000.0,
+   "eps": 1.17,
    "arge": 2684000000.0,
    "fgy": 963000000.0,
    "nakit": 7681000000.0,
@@ -103,7 +101,7 @@
  },
  "analiz": {
   "donem": "2026-09-30",
-  "kalem_sayisi": 21,
+  "kalem_sayisi": 22,
   "qoq": {
    "donem": "2026-06-30",
    "satirlar": [
@@ -149,6 +147,15 @@
      "once": 3036000000.0,
      "simdi": 1771000000.0,
      "fark": -41.7,
+     "tur": "yuzde",
+     "sonuc": "kötüleşti"
+    },
+    {
+     "k": "eps",
+     "ad": "Hisse başı kâr",
+     "once": 1.87,
+     "simdi": 1.17,
+     "fark": -37.4,
      "tur": "yuzde",
      "sonuc": "kötüleşti"
     },
@@ -299,8 +306,8 @@
    ],
    "ozet": {
     "iyi": 8,
-    "kotu": 8,
-    "n": 21
+    "kotu": 9,
+    "n": 22
    }
   },
   "uyari": [],

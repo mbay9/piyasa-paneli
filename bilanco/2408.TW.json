@@ -1,7 +1,7 @@
 {
  "sembol": "2408.TW",
  "para": "TWD",
- "guncelleme": "2026-11-06",
+ "guncelleme": "2026-11-07",
  "ceyrekler": {
   "2025-03-31": {
    "gelir": 7187940000.0,
@@ -330,6 +330,12 @@
    "tahmin": 12.94536,
    "gercek": 14.66,
    "yuzde": 13.2
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 24.67998,
+   "gercek": 25.4,
+   "yuzde": 2.9
   }
  ]
 }
