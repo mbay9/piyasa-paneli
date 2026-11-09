@@ -7,3 +7,8 @@ Bek bulunan satirlar: yok. Bulunamayan: Revenue (est.qh 64.1, bulten 76.2'nin -1
 Rehberlik / brut kar / FCF: bultende yok (10-Q nakit dosyasi henuz yok), yazilmadi.
 Denetim: tablo_kontrol: tamam
 Push: main d48d49c. Deploy durumu bu kosuda kontrol edilmedi.
+
+[2026-11-09T15:24:50Z UTC / 2026-11-09T10:24:50-0500 ET]
+SONUC: YAZILMADI
+Neden: Son 5 günde başvuru numarası tablolar.json ile farklı yeni bülten yok (21 sembolün tümü zaten kayıtlı).
+Islenen semboller: yok. Bek bulunan/bulunamayan satır: yok. Denetim: çalıştırılmadı (değişiklik yok).
