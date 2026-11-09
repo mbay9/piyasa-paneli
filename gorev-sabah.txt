@@ -1,9 +1,8 @@
-UTC 2026-11-09 09:37 / ET 2026-11-09 04:37
+UTC 2026-11-09 11:38 / ET 2026-11-09 06:38 (YEDEK calisma)
 SONUC: YAZILMADI
-Neden: 120 dakika (07:36-09:35 UTC, 3 dk arayla) beklenmesine ragmen KOSPI ve NIKKEI date degerleri bugunun UTC tarihine (2026-11-09) esitlenmedi; Asya kapanislarini getiren kismi yenileme gelmedi.
-Depo: /home/claude/piyasa-paneli mevcuttu, git pull -q --rebase origin main basarili (add_repo/clone gerekmedi).
-veri dali data.json: KOSPI date 2026-11-06, NIKKEI date 2026-11-06, BTC date 2026-11-07 (BTC de bir onceki UTC gunu olan 11-08'e ulasmadi); meta.ref_date 2026-11-06; partial_refreshed_at 2026-11-09T06:23:31Z, partial_refreshed [BTC].
-durum.json: kayit_utc 2026-11-09T06:24:26Z, olay schedule, build success, deploy success, canli_dogrulandi true, data_ref_date 2026-11-06, hata ve kok_neden bos; bekleme boyunca degismedi.
-ozet.json date 2026-11-06 (ref_date ile ayni), "asya" alani yok; veri guncel olmadigi icin yazilmadi.
-Olasi neden: 06:23 UTC'deki kismi yenileme Asya kapanislarindan (06:30 UTC) once calisti, sonrasi gelmedi (Pazartesi icin asia.yml tetiklenmemis olabilir).
-Not: git push --force origin HEAD:gorev izin sistemi tarafindan reddedildi (Git Destructive); gunluk GitHub API ile (force'suz) gorev dalina yazildi.
+Neden: Yedek calisma 11:33 UTC'de basladi (planlanan 07:30 UTC'den cok sonra), 120 dk bekleme suresi zaten dolmustu; KOSPI ve NIKKEI date degerleri hala 2026-11-06, bugun 2026-11-09.
+Depo: /home/claude/piyasa-paneli mevcuttu, git pull -q --rebase origin main basarili.
+veri dali: KOSPI 2026-11-06, NIKKEI 2026-11-06, BTC 2026-11-08, meta.ref_date 2026-11-06. 11:35 UTC'de yeniden kontrol edildi, degismedi.
+durum.json: kayit_utc 2026-11-09T11:25:11Z, olay schedule, build success, deploy success, canli_dogrulandi true, data_ref_date 2026-11-06, hata ve kok_neden bos.
+ozet.json date 2026-11-06, "asya" alani yok. Asya kapanis yenilemesi (asia.yml) bugun icin gelmemis gorunuyor; sabah calismasi da ayni nedenle yazamamisti (onceki gunluk: 09:37 UTC).
+Not: git push --force origin HEAD:gorev izin sistemi tarafindan reddedildi; gunluk GitHub API ile (force'suz) yazildi. Onceki gunluk icerigi bu surumle degistirildi.
