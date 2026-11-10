@@ -566,5 +566,24 @@
   ],
   "ai": "cok zayif",
   "not": "Dünkü sert düşüşün ardından hafif yükseliş; büyük şirketler taşıdı, katılım üst üste ikinci gün daraldı, korku endeksi geriledi ama yüksek; Nasdaq trend etiketi yatay/karışığa döndü; çipler sert tepki verdi ama çok zayıf"
+ },
+ {
+  "date": "2026-11-09",
+  "gun": "yukari",
+  "trend": "karisik",
+  "vix": "yuksek",
+  "vix_yon": "geriledi",
+  "katilim": "orta",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "sanayi",
+   "teknoloji"
+  ],
+  "sektor_geride": [
+   "enerji",
+   "temel tuketim"
+  ],
+  "ai": "cok zayif",
+  "not": "Üst üste ikinci yükseliş, bu kez güçlü: sert düşüşün büyük kısmı geri alındı; Nasdaq uzun vadeli ortalamasının üstüne döndü, küçük şirketler ortalamalarının üstüne çıktı; katılım iki günlük daralmanın ardından genişledi, korku endeksi ikinci gün geriledi ama yüksek; çipler sert tepki verdi ama yapay zeka grubu zayıf"
  }
 ]
