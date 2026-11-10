@@ -1,7 +1,7 @@
 {
  "sembol": "SITM",
  "para": "USD",
- "guncelleme": "2026-11-07",
+ "guncelleme": "2026-11-10",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 83567000.0,
@@ -336,9 +336,9 @@
   },
   {
    "donem": "2026-09-30",
-   "tahmin": 3.55982,
+   "tahmin": 3.60799,
    "gercek": 4.01,
-   "yuzde": 12.6
+   "yuzde": 11.1
   }
  ]
 }

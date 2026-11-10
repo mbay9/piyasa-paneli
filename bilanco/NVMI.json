@@ -1,7 +1,7 @@
 {
  "sembol": "NVMI",
  "para": "USD",
- "guncelleme": "2026-11-07",
+ "guncelleme": "2026-11-10",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 224608000.0,
@@ -330,9 +330,9 @@
   },
   {
    "donem": "2026-09-30",
-   "tahmin": 2.78229,
+   "tahmin": 2.82155,
    "gercek": 2.86,
-   "yuzde": 2.8
+   "yuzde": 1.4
   }
  ]
 }
