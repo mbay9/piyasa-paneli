@@ -584,6 +584,12 @@
    "temel tuketim"
   ],
   "ai": "cok zayif",
-  "not": "Üst üste ikinci yükseliş, bu kez güçlü: sert düşüşün büyük kısmı geri alındı; Nasdaq uzun vadeli ortalamasının üstüne döndü, küçük şirketler ortalamalarının üstüne çıktı; katılım iki günlük daralmanın ardından genişledi, korku endeksi ikinci gün geriledi ama yüksek; çipler sert tepki verdi ama yapay zeka grubu zayıf"
+  "not": "Üst üste ikinci yükseliş, bu kez güçlü: sert düşüşün büyük kısmı geri alındı; Nasdaq uzun vadeli ortalamasının üstüne döndü, küçük şirketler ortalamalarının üstüne çıktı; katılım iki günlük daralmanın ardından genişledi, korku endeksi ikinci gün geriledi ama yüksek; çipler sert tepki verdi ama yapay zeka grubu zayıf",
+  "asya": {
+   "kospi": "yukari",
+   "nikkei": "yukari",
+   "btc": "yukari",
+   "not": "Asya güçlü toparlandı: Kore üç günlük düşüşü kırdı, Japonya üst üste ikinci gün yükseldi, ABD'deki güçlü günle uyumlu; haftalık ve aylık tablo hâlâ zayıf. Bitcoin hafif artıda, uzun vadeli ortalamanın üzerinde"
+  }
  }
 ]
