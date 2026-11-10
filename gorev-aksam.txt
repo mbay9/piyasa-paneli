@@ -4,3 +4,8 @@ Neden: 2026-11-09 verisi veri dalına 00:50 UTC'de geldi, özet yazılıp main'e
 Depo oturumda ekliydi, pull rc=0. NY tarihi 2026-11-09. Bekleme ~106 dk (23:04-00:50 UTC); bu sürede durum.json data_ref_date=2026-11-06, hata boş.
 Son durum.json: kayit_et 2026-11-09 19:52, olay push, build/deploy success, canli_dogrulandi true; data.json ref_date 2026-11-09.
 Commit 2aa3385 main'e push edildi; ozet_gecmis.json kaydı eklendi.
+
+=== YEDEK calisma 2026-11-10T02:05:59Z UTC / 2026-11-09 21:05:59 ET ===
+SONUC: YAZILMADI (yedek)
+Neden: ozet.json zaten ref_date 2026-11-09 icin yazilmis (commit 2aa3385, 2026-11-10 00:51 UTC).
+NY tarihi 2026-11-09; veri dali durum.json: build=success deploy=success canli_dogrulandi=true data_ref_date=2026-11-09 hata=''; data.json meta.ref_date=2026-11-09. Repo hazir (pull rc=0). Bekleme yok.
