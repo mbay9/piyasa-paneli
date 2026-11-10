@@ -314,5 +314,33 @@
     "tetik/asya.txt"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-10",
+  "olay": "Elle başlatılan güncelleme 9 Kasım verisini yayınladı; 1 dakika sonra kısmi yenileme (özet itilince tetiklenir) siteyi 6 Kasım verisine geri döndürdü ve Asya endekslerine seans içi fiyatı kapanış diye yazdı",
+  "kok_neden": "Kısmi yenileme önceki veriyi siteden okuyordu; GitHub Pages CDN'i dosyayı ~10 dakika önbellekte tuttuğu için eski kopya geldi ve yeniden yayınlandı. Ayrıca Asya seansı sürerken günün mumu anlık fiyatla geliyor",
+  "onlem": "Önceki veri önbelleği atlayan adresle okunur ve depodaki veri dalı kopyasıyla karşılaştırılıp yeni olan kullanılır; Asya seansı kapanmadan (06:35 UTC) günün mumu atılır",
+  "kanit": [
+   [
+    "update.py",
+    "def yeni_olan"
+   ],
+   [
+    "update.py",
+    "def drop_open_asia"
+   ],
+   [
+    ".github/workflows/asia.yml",
+    "VERI_DATA_FILE"
+   ],
+   [
+    ".github/workflows/update.yml",
+    "VERI_DATA_FILE"
+   ],
+   [
+    "test_guncel.py",
+    "t_yeni_olan"
+   ]
+  ]
  }
 ]

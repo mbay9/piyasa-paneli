@@ -66,8 +66,13 @@ jobs:
           if [ "$SCHED" = "15 0 * * *" ] || [ "$SCHED" = "15 3 * * *" ]; then only=BTC; elif [ -n "$INPUT" ]; then only="$INPUT"; else only="KOSPI,NIKKEI"; fi
           case "$only" in *[!A-Z0-9,]*) echo "geçersiz"; exit 1;; esac
           echo "only=$only" >> "$GITHUB_OUTPUT"
+      - name: Önceki veriyi depodaki veri dalından al (site CDN önbelleği eski kopya verebilir)
+        run: |
+          git fetch -q --depth=1 origin +veri:refs/remotes/origin/veri 2>/dev/null && git show origin/veri:data.json > "$RUNNER_TEMP/veri_data.json" || echo "veri dalı okunamadı (site kopyası kullanılacak)"
       - name: Yalnız seçilen göstergeyi yenile
         id: uret
+        env:
+          VERI_DATA_FILE: ${{ runner.temp }}/veri_data.json
         run: |
           set -o pipefail
           if ! python update.py --only "${{ steps.sel.outputs.only }}" 2>&1 | tee update.log; then

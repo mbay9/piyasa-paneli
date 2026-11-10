@@ -83,14 +83,20 @@ jobs:
       - name: Bilanço tablosu denetim testi
         run: python test_tablo.py
       - run: python test_toplu.py
+      - run: python test_guncel.py
       - name: Bilanço kayıtlarını al (alt sektör göstergeleri ve site için)
         run: |
           if git fetch -q --depth=1 origin +bilanco:refs/remotes/origin/bilanco 2>/dev/null; then
             git archive origin/bilanco bilanco | tar -x
             ls bilanco | wc -l
           fi
+      - name: Önceki veriyi depodaki veri dalından al (site CDN önbelleği eski kopya verebilir)
+        run: |
+          git fetch -q --depth=1 origin +veri:refs/remotes/origin/veri 2>/dev/null && git show origin/veri:data.json > "$RUNNER_TEMP/veri_data.json" || echo "veri dalı okunamadı (site kopyası kullanılacak)"
       - name: Veriyi üret (başarısızsa 3 kez dener)
         id: uret
+        env:
+          VERI_DATA_FILE: ${{ runner.temp }}/veri_data.json
         run: |
           for i in 1 2 3; do
             if timeout 1200 python update.py 2>&1 | tee update.log; [ "${PIPESTATUS[0]}" = 0 ]; then ok=1; break; fi

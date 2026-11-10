@@ -652,8 +652,7 @@ def earnings_dates(symbols, ref_date, budget=120):
     lim = ref + dt.timedelta(days=45)
     prev = {}
     try:
-        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-        for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
+        for x in canli_veri()["ai"]["stocks"]:
             if x.get("earn") and not x.get("earn_est") and x["earn"] > (ref + dt.timedelta(days=30)).isoformat():  # 30 günden yakın tarihler her gün yeniden sorulur (şirketler tarihi kaydırabilir)
                 prev[x["symbol"]] = (x["earn"], False)
     except Exception as e:  # noqa: BLE001
@@ -756,8 +755,7 @@ def fundamentals(symbols, ref_date, earn=None, budget=300):
     ref = pd.Timestamp(ref_date).date()
     prev = {}
     try:
-        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-        for x in json.loads(http_get(url, tries=2, timeout=30).text)["ai"]["stocks"]:
+        for x in canli_veri()["ai"]["stocks"]:
             if re.match(r"Q\d", str(x.get("fcp") or "")) and (x.get("fcf") is not None or x.get("nc") is not None):
                 prev[x["symbol"]] = {k: x.get(k) for k in FUND_KEYS}
     except Exception as e:  # noqa: BLE001
@@ -838,8 +836,7 @@ def fundamentals(symbols, ref_date, earn=None, budget=300):
 def prev_ai():
     """Canlı siteden önceki güncellemenin AI bölümü: (tarih, {sembol: satır}, değişiklik bloğu). Alınamazsa (None, {}, None)."""
     try:
-        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-        j = json.loads(http_get(url, tries=2, timeout=30).text)
+        j = canli_veri()
         a = j["ai"]
         rows = {x["symbol"]: x for x in a.get("stocks", [])}
         if (j.get("meta") or {}).get("trend_days") != TREND_DAYS:
@@ -1090,6 +1087,54 @@ def build_other_changes(cur, prev):
     return {"since": str(pref), "items": items}
 
 
+def canli_veri(tries=2, timeout=30):
+    """Yayındaki data.json (bir önceki durum). İki tuzak var, ikisi de 10 Kas 2026'da yaşandı:
+    1) GitHub Pages CDN'i dosyayı ~10 dakika önbellekte tutar: yayından hemen sonra okunursa ESKİ kopya gelir. Adres her seferinde benzersiz yapılır.
+    2) Yine de eski kopya gelebilir: VERI_DATA_FILE (depodaki `veri` dalının kopyası) verilmişse meta.generated_at'i yeni olan kullanılır."""
+    url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
+    if url.startswith("http"):
+        url += ("&" if "?" in url else "?") + "t=" + str(int(time.time() * 1000))
+    canli, dosya = None, None
+    try:
+        canli = json.loads(http_get(url, tries=tries, timeout=timeout).text)
+    except Exception as e:  # noqa: BLE001
+        log("  canlı data.json okunamadı:", repr(e)[:120])
+    yol = os.environ.get("VERI_DATA_FILE")
+    if yol and os.path.exists(yol) and os.path.getsize(yol) > 2:
+        try:
+            with open(yol, encoding="utf-8") as f:
+                dosya = json.load(f)
+        except Exception as e:  # noqa: BLE001
+            log("  veri dalı kopyası okunamadı:", repr(e)[:120])
+    return yeni_olan(canli, dosya)
+
+
+def yeni_olan(canli, dosya):
+    """İki kopyadan meta.generated_at'i yeni olanı döndürür (biri yoksa diğeri; ikisi de yoksa hata)."""
+    ga = lambda d: ((d or {}).get("meta") or {}).get("generated_at") or ""
+    if canli is None and dosya is None:
+        raise RuntimeError("önceki data.json ne siteden ne veri dalından okunabildi")
+    if dosya is not None and ga(dosya) > ga(canli):
+        if canli is not None:
+            log(f"  UYARI: sitedeki kopya eski ({ga(canli)}), veri dalındaki yeni ({ga(dosya)}) kullanıldı (CDN önbelleği)")
+        return dosya
+    return canli if canli is not None else dosya
+
+
+def drop_open_asia(frames, now=None, syms=("^KS11", "^N225")):
+    """Kore ve Japonya seansı 06:30 UTC'de kapanır. Seans sürerken Yahoo o günün mumunu anlık fiyatla verir; bu kapanış DEĞİLDİR.
+    Son mum bugünün (UTC) tarihini taşıyorsa ve saat 06:35 UTC'den önceyse o mum atılır (10 Kas 2026: 00:51 UTC'de seans içi fiyat kapanış diye yazıldı)."""
+    now = now or dt.datetime.now(dt.timezone.utc)
+    bugun = pd.Timestamp(now.strftime("%Y-%m-%d"))
+    for sym in syms:
+        f = frames.get(sym)
+        if f is None or not len(f):
+            continue
+        if f.index[-1] >= bugun and (now.hour, now.minute) < (6, 35):
+            frames[sym] = f[f.index < bugun]
+            log(f"  {sym}: {bugun:%Y-%m-%d} seansı henüz kapanmadı, seans içi mum atıldı")
+
+
 def patch_asia_close(frames, syms=("^KS11", "^N225")):
     """Yahoo, kapanmış Asya seansının günlük mumunun kapanışını (close) saatlerce boş (null) bırakabiliyor: mum yalnız open/high/low ile gelir
     ve yfinance onu atar, gösterge bir gün geride kalır. Seans resmi kapanışını (15:30 yerel = 06:30 UTC) geçmişse ve Yahoo'nun son fiyatının
@@ -1150,13 +1195,13 @@ def partial_refresh(only):
     """Yalnız verilen göstergeler (ör. KOSPI,NIKKEI veya BTC): canlı data.json indirilir, bu göstergeler kendi kapanışına göre yenilenir,
     geri kalan her şey aynen kalır."""
     now = dt.datetime.now(dt.timezone.utc)
-    url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-    d = json.loads(http_get(url, tries=3, timeout=30).text)
+    d = canli_veri(tries=3)
     keys = [x for x in INDEXES if x[0] in only]
     if not keys:
         log("HATA: bilinmeyen gösterge:", only)
         sys.exit(1)
     frames, _ = download([s for _, s, _, _ in keys] + ["^GSPC"])  # tek sembollü indirme desteklenmiyor: yanına her zaman ^GSPC eklenir
+    drop_open_asia(frames, now)
     patch_asia_close(frames, [x for x in ("^KS11", "^N225") if any(k[1] == x for k in keys)])
     patch_btc_close(frames, now)
     n = 0
@@ -1191,8 +1236,7 @@ def partial_refresh(only):
 def prev_endeks():
     """Canlı siteden önceki endeks bloğu (önbellek ve geçmiş dahil). Alınamazsa {}."""
     try:
-        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-        return json.loads(http_get(url, tries=2, timeout=30).text).get("endeks") or {}
+        return canli_veri().get("endeks") or {}
     except Exception as e:  # noqa: BLE001
         log("Önceki endeks verisi okunamadı:", repr(e)[:80])
         return {}
@@ -1275,6 +1319,7 @@ def main():
         return partial_refresh(sys.argv[sys.argv.index("--only") + 1].split(","))
     now = dt.datetime.now(dt.timezone.utc)
     macro_frames, missing_macro = download([t for _, t, _, _ in INDEXES] + [t for t, _ in ETFS] + [t for t, _ in SECTORS] + PROXY_ONLY)
+    drop_open_asia(macro_frames)
     patch_asia_close(macro_frames)
     patch_btc_close(macro_frames)
     if "^GSPC" not in macro_frames:
@@ -1405,7 +1450,7 @@ def main():
         import altsektor
         gr = json.load(open("gruplar.json", encoding="utf-8"))
         try:
-            onc = json.loads(http_get(os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json"), tries=2, timeout=30).text).get("altsektor")
+            onc = canli_veri().get("altsektor")
         except Exception as e:  # noqa: BLE001
             onc = None
             log("Önceki alt sektör verisi okunamadı:", repr(e)[:80])
@@ -1415,8 +1460,7 @@ def main():
     except Exception as e:  # noqa: BLE001
         log("Alt sektörler atlandı:", repr(e)[:120])
     try:
-        url = os.environ.get("LIVE_DATA_URL", "https://mbay9.github.io/piyasa-paneli/data.json")
-        ch = build_other_changes(out, json.loads(http_get(url, tries=2, timeout=30).text))
+        ch = build_other_changes(out, canli_veri())
         if ch is not None:
             out["changes"] = ch
         log("değişenler (genel):", "karşılaştırma yok" if ch is None else f"{len(ch['items'])} (önceki: {ch['since']})")
