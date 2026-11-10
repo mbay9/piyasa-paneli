@@ -1,14 +1,8 @@
-UTC: 2026-11-07T00:24:39Z
-ET: 2026-11-06T19:24:39-0500
+UTC: 2026-11-10 00:27 | ET: 2026-11-09 19:27
 SONUC: YAZILDI
-Neden: WULF (2026-11-06, 0001628280-26-071306) Q3 sonuc bulteni icin yeni tablo eklendi.
-Islenen: WULF 2026-11-06. Atlanan: MRVL 2026-11-02 (Marvell-Lumentum birlesme duyurusu, sonuc bulteni degil).
-Bek bulunan satirlar: yok. Bulunamayan: Revenue (est.qh 64.1, bulten 76.2'nin -15.9%'u = tolerans disi; MarketBeat Q3 2026 sayfasi bulunamadi), EPS (Yahoo surpriz gercek -0.1393 bulten -0.03 ile uyusmuyor; est.qh -0.375 +-35% disi), diger satirlar.
-Rehberlik / brut kar / FCF: bultende yok (10-Q nakit dosyasi henuz yok), yazilmadi.
-Denetim: tablo_kontrol: tamam
-Push: main d48d49c. Deploy durumu bu kosuda kontrol edilmedi.
-
-[2026-11-09T15:24:50Z UTC / 2026-11-09T10:24:50-0500 ET]
-SONUC: YAZILMADI
-Neden: Son 5 günde başvuru numarası tablolar.json ile farklı yeni bülten yok (21 sembolün tümü zaten kayıtlı).
-Islenen semboller: yok. Bek bulunan/bulunamayan satır: yok. Denetim: çalıştırılmadı (değişiklik yok).
+Neden: ONTO icin yeni bulten (2026-11-09, 0001193125-26-453582) bulundu, tablo hazirlandi ve main'e gonderildi.
+Islenen: ONTO (2026-11-09). Diger bultenler (AAOI, IONQ, LASR, MCHP, MTSI, NVMI, WLDN, WULF) zaten mevcut tablolarda.
+bek bulunan: Revenue, Revenue YoY, EPS* (Yahoo est.qh 2026-11-06 kaydi), Gross Margin % (sirket Q2 rehberligi 57.3-57.8, bg), Q4 Revenue Guidance, Q4 EPS Guidance.
+bek bulunamayan: Gross Profit, FCF, FCF Margin, Q4 YoY, Q4 Operating Margin. MarketBeat bakilmadi (kendi kayit yeterli). EBITDA ve yillik rehberlik yok (bultende Adjusted EBITDA/sayisal yillik rehberlik yok).
+Denetim: tablo_kontrol: tamam (0 hata).
+Yayin: push 65a1c83; durum.json build=success deploy=success canli_dogrulandi=true.
