@@ -362,5 +362,37 @@
     "t_us"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-10",
+  "olay": "KOSPI, Nikkei ve Bitcoin bir gün geride kaldı: Yahoo 9 Kasım mumunu hiç vermedi, yamalar yalnız son mumu tamamlıyordu; ayrıca tek fiyat kaynağı Yahoo'ydu",
+  "kok_neden": "Aradaki eksik gün için Yahoo'da kullanılabilir fiyat yok; bağımsız ikinci kaynak yoktu",
+  "onlem": "İkinci kaynaklar eklendi (Nikkei resmi dosyası, Naver/KRX, Coinbase, Nasdaq.com): Yahoo ile karşılaştırılır, uyuşuyorsa Yahoo'da olmayan günler oradan eklenir; uyuşmazlık sağlık kontrolünde uyarı verir. Bilanço ve kalibrasyon işleri de zamanlayıcıdan bağımsız tetiklenir",
+  "kanit": [
+   [
+    "update.py",
+    "def ikinci_kaynak"
+   ],
+   [
+    "ikinci.py",
+    "def karsilastir"
+   ],
+   [
+    "saglik.py",
+    "İkinci kaynak"
+   ],
+   [
+    "test_ikinci.py",
+    "t_doldur"
+   ],
+   [
+    ".github/workflows/kalibrasyon.yml",
+    "workflow_run"
+   ],
+   [
+    ".github/workflows/bilanco.yml",
+    "tetik/bilanco.txt"
+   ]
+  ]
  }
 ]

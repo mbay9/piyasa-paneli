@@ -5,6 +5,10 @@ name: Bilanço dosyaları
 on:
   schedule:
     - cron: "15 10 * * 2-6"   # 06:15 ET civarı; gece gelen bilançolar sabah işlenir
+  # GitHub zamanlayıcısı gecikir/atlar: tablo görevi dal eskiyse bu dosyayı iterek işi kendisi başlatır.
+  push:
+    branches: [main]
+    paths: [tetik/bilanco.txt]
   workflow_dispatch: {}
 
 permissions:

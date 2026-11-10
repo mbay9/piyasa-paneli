@@ -56,7 +56,7 @@ def http(url, tries=3, timeout=30, headers=None):
 
 # ------------------------------------------------------------------ onkontrol
 def onkontrol():
-    for f in ("update.py", "validate.py", "saglik.py", "test_regime.py", "edgar.py", "tablo_kontrol.py", "tablo_toplu.py"):
+    for f in ("update.py", "validate.py", "saglik.py", "test_regime.py", "edgar.py", "tablo_kontrol.py", "tablo_toplu.py", "ikinci.py"):
         try:
             ast.parse(open(yol(f), encoding="utf-8").read(), f)
             kayit(f"Python sözdizimi: {f}", True)
@@ -292,6 +292,9 @@ def veri():
     kayit("Çapraz kontroller: S&P 500 / Nasdaq ETF ile uyumlu", prox and all(x.get("status") == "ok" for x in prox), prox)
     vix = [v for v in m.get("verification", []) if v.get("status") == "ok"]
     kayit("Çapraz kontroller: VIX resmi Cboe ile uyumlu", bool(vix), m.get("verification"), uyari=True)
+    ik = m.get("ikinci_kaynak") or []
+    if ik:  # ikinci kaynak (Nikkei resmi, Naver, Coinbase, Nasdaq.com): uyuşmazlık uyarıdır, yayını durdurmaz
+        kayit("İkinci kaynak: Yahoo kapanışları bağımsız kaynakla uyumlu", not [v for v in ik if v.get("status") == "bad"], [v for v in ik if v.get("status") != "ok"], uyari=True)
     for b in ("ma50", "ma100", "ma200"):
         v = (d.get("breadth") or {}).get(b) or {}
         kayit(f"Genişlik {b}: yüzde 0-100", isinstance(v.get("pct"), (int, float)) and 0 <= v["pct"] <= 100, v)

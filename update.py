@@ -1188,6 +1188,46 @@ def patch_us_close(frames, ref_date, ad=""):
     return n
 
 
+IKINCI = (  # (kimlik, Yahoo sembolü, kaynak adı, tolerans %, tür)
+    ("NIKKEI", "^N225", "Nikkei Inc. resmi günlük dosyası", 0.05, "asya"),
+    ("KOSPI", "^KS11", "Naver Finance (KRX kapanışı)", 0.05, "asya"),
+    ("BTC", "BTC-USD", "Coinbase borsası (UTC 00:00 kapanışı)", 0.6, "btc"),
+    ("NASDAQ", "^IXIC", "Nasdaq.com (COMP)", 0.05, None),
+    ("SPY", "SPY", "Nasdaq.com", 0.6, None),   # Yahoo temettüye göre düzeltir, Nasdaq.com düzeltmez: tolerans geniş
+    ("ONEQ", "ONEQ", "Nasdaq.com", 0.6, None),
+)
+IKINCI_AD = {"NASDAQ": "COMP"}
+
+
+def ikinci_kaynak(frames, now=None, getir=None):
+    """Yahoo'nun kapanışlarını ikinci kaynakla karşılaştırır; Asya endeksleri ve Bitcoin'de Yahoo'nun hiç vermediği günleri (yalnız kaynak Yahoo ile
+    uyuşuyorsa) ikinci kaynaktan ekler. Sonuç listesi meta.ikinci_kaynak'a yazılır. Kaynak okunamazsa hiçbir şey değişmez (güncelleme durmaz)."""
+    import ikinci
+    now = now or dt.datetime.now(dt.timezone.utc)
+    getir = getir or ikinci.getir
+    out = []
+    for ad, sym, kaynak_adi, tol, tur in IKINCI:
+        f = frames.get(sym)
+        if f is None or not len(f):
+            continue
+        try:
+            k = ikinci.kapanmis(getir(IKINCI_AD.get(ad, ad), now.date()), now, asya=tur == "asya", btc=tur == "btc")
+            y = {d.strftime("%Y-%m-%d"): float(v) for d, v in f["Close"].iloc[-15:].items()}
+            item = ikinci.karsilastir(ad, kaynak_adi, y, k, tol)
+            if tur and item.get("status") == "ok":
+                ek = ikinci.eksikler(list(y), k)
+                if ek:
+                    add = pd.DataFrame({"Close": [k[g] for g in ek], "Volume": [0.0] * len(ek)}, index=[pd.Timestamp(g) for g in ek])
+                    frames[sym] = pd.concat([f, add]).sort_index()
+                    item["filled"] = ek
+                    log(f"  {sym}: Yahoo'da olmayan {ek} kapanışı ikinci kaynaktan ({kaynak_adi}) eklendi")
+        except Exception as e:  # noqa: BLE001
+            item = {"id": ad, "source": kaynak_adi, "status": "unavailable", "note": repr(e)[:120]}
+        out.append(item)
+    log("ikinci kaynak: " + ", ".join(f"{x['id']}={x['status']}" + (f"({x['diff_pct']:+.3f}%)" if "diff_pct" in x else "") for x in out))
+    return out
+
+
 def patch_asia_close(frames, syms=("^KS11", "^N225")):
     """Yahoo, kapanmış Asya seansının günlük mumunun kapanışını (close) saatlerce boş (null) bırakabiliyor: mum yalnız open/high/low ile gelir
     ve yfinance onu atar, gösterge bir gün geride kalır. Seans resmi kapanışını (15:30 yerel = 06:30 UTC) geçmişse ve Yahoo'nun son fiyatının
@@ -1257,6 +1297,8 @@ def partial_refresh(only):
     drop_open_asia(frames, now)
     patch_asia_close(frames, [x for x in ("^KS11", "^N225") if any(k[1] == x for k in keys)])
     patch_btc_close(frames, now)
+    yeni_ik = ikinci_kaynak(frames, now)
+    d["meta"]["ikinci_kaynak"] = [x for x in (d["meta"].get("ikinci_kaynak") or []) if x.get("id") not in {y["id"] for y in yeni_ik}] + yeni_ik
     n = 0
     skipped = 0
     for key, sym, name, h24 in keys:
@@ -1375,6 +1417,7 @@ def main():
     drop_open_asia(macro_frames)
     patch_asia_close(macro_frames)
     patch_btc_close(macro_frames)
+    ikinci_sonuc = ikinci_kaynak(macro_frames, now)
     if "^GSPC" not in macro_frames:
         log("HATA: S&P 500 verisi alınamadı, güncelleme iptal.")
         sys.exit(1)
@@ -1477,6 +1520,7 @@ def main():
             "warnings": warnings[:20],
             "verification": verification,
             "proxy_checks": proxies,
+            "ikinci_kaynak": ikinci_sonuc,
             "sources": [
                 {"name": "Yahoo Finance halka açık grafik verisi (yfinance)", "official": False,
                  "use": "Fiyat, hacim, endeksler, ETF'ler. VIX resmi Cboe dosyasıyla, S&P 500 SPY ile, Nasdaq Composite ONEQ ile çapraz kontrol edilir"},
