@@ -1,0 +1,31 @@
+name: tani
+on:
+  workflow_dispatch: {}
+permissions: {}
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: |
+          python - <<'PY'
+          import update as U, yfinance as yf
+          fr, miss = U.download([t for _, t, _, _ in U.INDEXES] + [t for t, _ in U.ETFS] + [t for t, _ in U.SECTORS] + U.PROXY_ONLY)
+          print("eksik", miss)
+          for s in ("^GSPC", "^IXIC", "SPY", "ONEQ", "QQQ", "^KS11"):
+              f = fr.get(s)
+              print(s, None if f is None else (len(f), [str(x) for x in f.index[-3:]], [round(float(v), 2) for v in f["Close"].iloc[-3:]]))
+          for s in ("SPY", "ONEQ", "^GSPC"):
+              h = yf.Ticker(s).history(period="5d", interval="1d", auto_adjust=False)
+              print("tek", s, [str(x) for x in h.index[-3:]], [None if v != v else round(float(v), 2) for v in h["Close"].iloc[-3:]])
+          PY
