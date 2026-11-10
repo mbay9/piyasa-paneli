@@ -891,6 +891,8 @@ def ai_block(ref_date, spy, qqq):
         uni = load_stock_list()
         etf_frames, miss_etf = download([t for t, _ in AI_ETFS], tries=2, max_seconds=90)
         stock_frames, miss = download(list(uni), batch=10, tries=2, max_seconds=180)
+        patch_us_close(etf_frames, ref_date, "AI ETF")
+        patch_us_close(stock_frames, ref_date, "AI hisse")
     except Exception as e:  # noqa: BLE001
         log("AI bölümü alınamadı:", repr(e))
         out["error"] = "Veri alınamadı"
@@ -1135,6 +1137,57 @@ def drop_open_asia(frames, now=None, syms=("^KS11", "^N225")):
             log(f"  {sym}: {bugun:%Y-%m-%d} seansı henüz kapanmadı, seans içi mum atıldı")
 
 
+def _us_sembol(sym):
+    """ABD seansında (16:00 ET kapanış) işlem gören hisse/ETF mi? Endeks (^), döviz (=X), kripto (-USD) ve yabancı borsa ekli (.KS, .T ...) semboller hariç."""
+    return not (sym.startswith("^") or sym.endswith("=X") or sym.endswith("-USD") or "." in sym)
+
+
+def us_kapanis_yamasi(sym, ref_date):
+    """Yahoo, kapanmış ABD seansının günlük mumunun kapanışını bazen saatlerce boş (null) verir (10 Kas 2026: tüm hisse ve ETF'lerde 9 Kasım kapanışı boştu;
+    yfinance o mumu atar, veri bir gün geride kalır). Mum referans güne aitse, kapanışı boşsa ve Yahoo'nun son normal seans fiyatının zamanı 16:00 ET'den
+    sonraysa (kapanıştan sonra bu fiyat değişmez) (kapanış, hacim) döndürür; koşullar sağlanmıyorsa None."""
+    j = json.loads(http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=5d&interval=1d", tries=2).text)["chart"]["result"][0]
+    return us_kapanis_coz(j, ref_date)
+
+
+def us_kapanis_coz(j, ref_date):
+    ts, q, meta = j["timestamp"], j["indicators"]["quote"][0], j["meta"]
+    i = len(ts) - 1
+    ny = ZoneInfo("America/New_York")
+    if dt.datetime.fromtimestamp(ts[i], ny).strftime("%Y-%m-%d") != ref_date:
+        return None
+    if q["close"][i] is not None or q["open"][i] is None:
+        return None
+    y, m, d = (int(x) for x in ref_date.split("-"))
+    kapanis = dt.datetime(y, m, d, 16, 0, tzinfo=ny).timestamp()
+    price, rmt = meta.get("regularMarketPrice"), meta.get("regularMarketTime")
+    if not price or not rmt or rmt < kapanis:
+        return None
+    return float(price), float(q["volume"][i] or 0)
+
+
+def patch_us_close(frames, ref_date, ad=""):
+    """Referans günün mumu eksik olan ABD hisse/ETF'lerine kapanış sonrası son fiyatı ekler (us_kapanis_yamasi). Eklenen sembol sayısını döndürür."""
+    from concurrent.futures import ThreadPoolExecutor
+    ref = pd.Timestamp(ref_date)
+    eksik = [t for t, f in frames.items() if _us_sembol(t) and len(f) and f.index[-1] < ref]
+    if not eksik:
+        return 0
+    def bir(t):
+        try:
+            return t, us_kapanis_yamasi(t, ref_date)
+        except Exception:  # noqa: BLE001
+            return t, None
+    n = 0
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        for t, v in ex.map(bir, eksik):
+            if v:
+                frames[t] = pd.concat([frames[t], pd.DataFrame({"Close": [v[0]], "Volume": [v[1]]}, index=[ref])])
+                n += 1
+    log(f"  {ad}: {len(eksik)} sembolde {ref_date} mumu eksikti (Yahoo kapanışı boş verdi); {n} tanesine kapanış sonrası son fiyat eklendi")
+    return n
+
+
 def patch_asia_close(frames, syms=("^KS11", "^N225")):
     """Yahoo, kapanmış Asya seansının günlük mumunun kapanışını (close) saatlerce boş (null) bırakabiliyor: mum yalnız open/high/low ile gelir
     ve yfinance onu atar, gösterge bir gün geride kalır. Seans resmi kapanışını (15:30 yerel = 06:30 UTC) geçmişse ve Yahoo'nun son fiyatının
@@ -1327,6 +1380,7 @@ def main():
         sys.exit(1)
     ref_date = macro_frames["^GSPC"].index[-1].strftime("%Y-%m-%d")
     ensure_market_closed(ref_date, now)
+    patch_us_close(macro_frames, ref_date, "makro")
     warnings = sanity_warnings(macro_frames, ref_date)
     if missing_macro:
         warnings.append("Eksik sembol: " + ", ".join(missing_macro))
@@ -1351,6 +1405,7 @@ def main():
     breadth, coverage, closes = {}, None, None
     if universe:
         stock_frames, missing = download(universe["tickers"])
+        patch_us_close(stock_frames, ref_date, "S&P 500")
         ratio = len(stock_frames) / len(universe["tickers"])
         closes = pd.DataFrame({t: f["Close"] for t, f in stock_frames.items()}).sort_index()
         closes = closes[closes.index <= pd.Timestamp(ref_date)]

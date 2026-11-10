@@ -342,5 +342,25 @@
     "t_yeni_olan"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-10",
+  "olay": "Kapanıştan saatler sonra bile güncelleme yayınlanamadı: S&P 500/Nasdaq ETF çapraz kontrolü 'tarihler uyuşmuyor' dedi",
+  "kok_neden": "Yahoo, tüm ABD hisse ve ETF'lerinin o günkü günlük mumunda kapanışı boş (null) verdi; yfinance mumu attı, hisseler bir gün geride kaldı (endeksler doluydu)",
+  "onlem": "Referans günün mumu eksik olan ABD sembollerine, Yahoo'nun 16:00 ET sonrası zaman damgalı son normal seans fiyatı kapanış olarak eklenir; koşul sağlanmazsa eklenmez ve çapraz kontrol yayını durdurmaya devam eder",
+  "kanit": [
+   [
+    "update.py",
+    "def patch_us_close"
+   ],
+   [
+    "update.py",
+    "def us_kapanis_coz"
+   ],
+   [
+    "test_guncel.py",
+    "t_us"
+   ]
+  ]
  }
 ]
