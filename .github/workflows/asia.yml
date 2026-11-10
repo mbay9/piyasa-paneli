@@ -36,10 +36,10 @@ jobs:
       kok: ${{ steps.on.outputs.kok }}${{ steps.vr.outputs.kok }}${{ steps.st.outputs.kok }}
       kontrol: ${{ steps.kz.outputs.kontrol }}
     steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
           cache: pip
@@ -97,7 +97,7 @@ jobs:
         run: |
           [ -f kontrol.json ] || echo '[]' > kontrol.json
           echo "kontrol=$(jq -c '[.[]|select(.durum!="ok")|{ad,durum,ayrinti}]' kontrol.json)" >> "$GITHUB_OUTPUT"
-      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: site
 
@@ -114,7 +114,7 @@ jobs:
       page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
 
   kayit:
     name: Yayın kaydı (veri dalı)
@@ -125,7 +125,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - run: bash .github/kayit.sh
