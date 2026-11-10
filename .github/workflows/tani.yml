@@ -19,13 +19,9 @@ jobs:
       - run: pip install -r requirements.txt
       - run: |
           python - <<'PY'
-          import update as U, yfinance as yf
-          fr, miss = U.download([t for _, t, _, _ in U.INDEXES] + [t for t, _ in U.ETFS] + [t for t, _ in U.SECTORS] + U.PROXY_ONLY)
-          print("eksik", miss)
-          for s in ("^GSPC", "^IXIC", "SPY", "ONEQ", "QQQ", "^KS11"):
-              f = fr.get(s)
-              print(s, None if f is None else (len(f), [str(x) for x in f.index[-3:]], [round(float(v), 2) for v in f["Close"].iloc[-3:]]))
-          for s in ("SPY", "ONEQ", "^GSPC"):
-              h = yf.Ticker(s).history(period="5d", interval="1d", auto_adjust=False)
-              print("tek", s, [str(x) for x in h.index[-3:]], [None if v != v else round(float(v), 2) for v in h["Close"].iloc[-3:]])
+          import update as U, yfinance as yf, json, datetime as dt
+          for s in ("SPY", "QQQ", "XLK", "NVDA", "MU", "AAPL"):
+              j = json.loads(U.http_get(f"https://query1.finance.yahoo.com/v8/finance/chart/{s}?range=5d&interval=1d", tries=2).text)["chart"]["result"][0]
+              m, q = j["meta"], j["indicators"]["quote"][0]
+              print(s, [dt.datetime.fromtimestamp(t, dt.timezone.utc).strftime("%m-%d %H:%M") for t in j["timestamp"][-2:]], q["close"][-2:], q["open"][-2:], "rmp", m.get("regularMarketPrice"), "rmt", dt.datetime.fromtimestamp(m.get("regularMarketTime"), dt.timezone.utc).strftime("%m-%d %H:%M"), "prev", m.get("chartPreviousClose"))
           PY
