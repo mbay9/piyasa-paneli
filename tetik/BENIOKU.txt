@@ -1,0 +1,1 @@
+Bu klasördeki dosyalar zamanlanmış görevlerin GitHub iş akışlarını elle tetiklemesi içindir (GitHub zamanlayıcısı gecikince/atlayınca). İçerik: son tetik zamanı (UTC).

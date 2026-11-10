@@ -11,7 +11,7 @@ on:
     - cron: "15 3 * * *"
   push:
     branches: [main]
-    paths: [ozet.json, tablolar.json]
+    paths: [ozet.json, tablolar.json, tetik/asya.txt]
   workflow_dispatch:
     inputs:
       only:

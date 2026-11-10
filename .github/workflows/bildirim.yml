@@ -7,6 +7,9 @@ on:
     - cron: "10 14 * * 1-5"   # sabah (ET 09:10 civarı): gece ve piyasa öncesi açıklananlar
     - cron: "50 21 * * 1-5"   # akşam (ET 16:50 civarı): kapanıştan hemen sonra gelenler
     - cron: "40 23 * * 1-5"   # gece (ET 18:40 civarı): geç gelenler
+  push:
+    branches: [main]
+    paths: [tetik/bildirim.txt]
   workflow_dispatch:
     inputs:
       gun:

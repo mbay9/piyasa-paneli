@@ -286,5 +286,33 @@
     "BİREBİR"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-09",
+  "olay": "Site güncellenmedi: GitHub zamanlayıcısı 9 Kasım kapanış güncellemesini (20:33 ve 21:33 UTC) saatlerce başlatmadı; aynı gün sağlık kontrolü ve bülten zamanlamalarının çoğu da atlandı",
+  "kok_neden": "GitHub Actions zamanlanmış (cron) tetikleri garanti değildir: yoğunlukta saatlerce gecikir ya da tamamen atlanır; tüm yayın zinciri yalnız bu tetiklere bağlıydı",
+  "onlem": "Zamanlanmış Claude görevleri (akşam, sabah, tablo) veri gelmediğinde iş akışını kendisi başlatır: gh ile dispatch, olmazsa tetik/ dosyasını iterek (push tetikleyicisi)",
+  "kanit": [
+   [
+    ".github/workflows/update.yml",
+    "tetik/guncelle.txt"
+   ],
+   [
+    ".github/workflows/asia.yml",
+    "tetik/asya.txt"
+   ],
+   [
+    ".github/workflows/bildirim.yml",
+    "tetik/bildirim.txt"
+   ],
+   [
+    "gorevler/aksam.md",
+    "tetik/guncelle.txt"
+   ],
+   [
+    "gorevler/sabah.md",
+    "tetik/asya.txt"
+   ]
+  ]
  }
 ]
