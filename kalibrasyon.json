@@ -1,5 +1,5 @@
 {
- "guncelleme": "2026-11-10",
+ "guncelleme": "2026-11-11",
  "kayitlar": [
   {
    "olcu": "nasdaq_oneq",
@@ -84,6 +84,42 @@
    "url": null,
    "kayma_gun": 0,
    "not": "fark yüzde puan"
+  },
+  {
+   "olcu": "nasdaq_oneq",
+   "tarih": "2026-11-10",
+   "bizim": -0.742,
+   "resmi": -0.743,
+   "fark": 0.001,
+   "fark_pct": 0.001,
+   "kaynak": "ONEQ günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
+   "olcu": "ndx_ileri_siblis",
+   "tarih": "2026-10-31",
+   "bizim": 20.84,
+   "resmi": 21.24,
+   "fark": -0.4,
+   "fark_pct": -1.88,
+   "kaynak": "Siblis Research (aylık, normalleştirilmiş kazanç)",
+   "url": "https://siblisresearch.com/data/nasdaq-100-pe-ratio/",
+   "kayma_gun": -1,
+   "not": null
+  },
+  {
+   "olcu": "ndx_son_siblis",
+   "tarih": "2026-10-31",
+   "bizim": 30.08,
+   "resmi": 32.76,
+   "fark": -2.68,
+   "fark_pct": -8.18,
+   "kaynak": "Siblis Research (aylık, normalleştirilmiş kazanç)",
+   "url": "https://siblisresearch.com/data/nasdaq-100-pe-ratio/",
+   "kayma_gun": -1,
+   "not": null
   },
   {
    "olcu": "spx_ileri_factset",
@@ -242,6 +278,18 @@
    "not": "fark yüzde puan"
   },
   {
+   "olcu": "spx_spy",
+   "tarih": "2026-11-10",
+   "bizim": -0.384,
+   "resmi": -0.368,
+   "fark": -0.016,
+   "fark_pct": -0.016,
+   "kaynak": "SPY günlük getiri (yakınlık kontrolü)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": "fark yüzde puan"
+  },
+  {
    "olcu": "vix_cboe",
    "tarih": "2026-10-30",
    "bizim": 19.42,
@@ -312,16 +360,46 @@
    "url": null,
    "kayma_gun": 0,
    "not": null
+  },
+  {
+   "olcu": "vix_cboe",
+   "tarih": "2026-11-09",
+   "bizim": 19.92,
+   "resmi": 19.92,
+   "fark": 0.0,
+   "fark_pct": 0.0,
+   "kaynak": "Cboe VIX_History (resmi)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": null
   }
  ],
  "ozet": {
   "nasdaq_oneq": {
-   "n": 7,
+   "n": 8,
    "ort_fark_pct": -0.01,
    "std_pct": 0.05,
-   "son_fark_pct": -0.025,
-   "son_tarih": "2026-11-09",
+   "son_fark_pct": 0.001,
+   "son_tarih": "2026-11-10",
    "durum": "iyi",
+   "sistematik": false
+  },
+  "ndx_ileri_siblis": {
+   "n": 1,
+   "ort_fark_pct": -1.88,
+   "std_pct": 0.0,
+   "son_fark_pct": -1.88,
+   "son_tarih": "2026-10-31",
+   "durum": "yetersiz veri",
+   "sistematik": false
+  },
+  "ndx_son_siblis": {
+   "n": 1,
+   "ort_fark_pct": -8.18,
+   "std_pct": 0.0,
+   "son_fark_pct": -8.18,
+   "son_tarih": "2026-10-31",
+   "durum": "izle",
    "sistematik": false
   },
   "spx_ileri_factset": {
@@ -352,20 +430,20 @@
    "sistematik": false
   },
   "spx_spy": {
-   "n": 7,
+   "n": 8,
    "ort_fark_pct": -0.01,
-   "std_pct": 0.05,
-   "son_fark_pct": -0.02,
-   "son_tarih": "2026-11-09",
+   "std_pct": 0.04,
+   "son_fark_pct": -0.016,
+   "son_tarih": "2026-11-10",
    "durum": "iyi",
    "sistematik": false
   },
   "vix_cboe": {
-   "n": 6,
+   "n": 7,
    "ort_fark_pct": 0.0,
    "std_pct": 0.0,
    "son_fark_pct": 0.0,
-   "son_tarih": "2026-11-06",
+   "son_tarih": "2026-11-09",
    "durum": "iyi",
    "sistematik": false
   }
@@ -373,7 +451,7 @@
  "hatalar": [
   "ChartRow: değer ya da tarih okunamadı"
  ],
- "eklenen": 9,
+ "eklenen": 11,
  "referans": {
   "tarih": "2026-11-06",
   "ileri": 17.7,
