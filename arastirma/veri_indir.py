@@ -34,7 +34,7 @@ def yahoo():
     for sym in ["^GSPC", "^VIX", "^VIX3M", "^TNX", "^IRX", "^FVX", "SPY", "RSP",
                 "XLB", "XLE", "XLF", "XLI", "XLK", "XLP", "XLU", "XLV", "XLY", "XLRE", "XLC", "QQQ", "IWM", "^NDX", "^RUT"]:
         try:
-            d = yf.download(sym, period="max", interval="1d", auto_adjust=False, progress=False, threads=False)
+            d = yf.download(sym, period="max", interval="1d", auto_adjust=False, progress=False, threads=False, timeout=30)
             if isinstance(d.columns, pd.MultiIndex):
                 d.columns = [c[0] for c in d.columns]
             d = d.dropna(how="all")
