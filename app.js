@@ -475,11 +475,10 @@
       return '<details class="sr"><summary class="sh"><span><b>' + esc(g.ad) + "</b> <small>" + o.n + "</small></span><span>" + pc(o.d5, 1) + "</span><span>" + pc(o.d20, 1) + "</span><span>" + pc(o.gelir_qoq, 0) + "</span><span>" + bar(u) + "</span><span>" + (o.pe == null ? "–" : num(o.pe, 1) + "x") + "</span></summary>" +
         '<div class="sd">' + ok + karar + ds + '<div class="tw"><table><thead><tr><th>Hisse</th><th>5G</th><th>20G</th><th>Gelir, çeyrek</th><th>Brüt marj</th><th>İleri F/K</th><th>Bilanço tarihi</th></tr></thead><tbody>' + body + "</tbody></table></div></div></details>";
     }).join("");
-    var out = valAlt(d) + h2("Alt sektörler") + '<div class="stb">' + head + rows + "</div>";
+    var out = valAlt(d) + h2("Alt sektörler") + '<div class="stb">' + head + rows + '</div><p class="sleg"><span><i class="g"></i>iyi</span><span><i class="y"></i>karışık</span><span><i class="r"></i>zayıf</span></p>';
     if (al.zincir && al.zincir.length) {
-      out += '<details class="sgd"><summary>Talepten üretime sıra</summary><div class="tw"><table><thead><tr><th>Halka</th><th>Yatırım harcaması</th><th>Gelir</th><th>Brüt marj</th><th>20G</th></tr></thead><tbody>' +
-        al.zincir.map(function (z) { return "<tr><td><b>" + esc(z.ad) + "</b></td><td>" + pc(z.capex_qoq, 0) + "</td><td>" + pc(z.gelir_qoq, 0) + "</td><td>" + pc(z.brut_qoq, 1, " puan") + "</td><td>" + pc(z.d20, 1) + "</td></tr>"; }).join("") + "</tbody></table></div>" +
-        '<p class="fine">Hepsi önceki çeyreğe göre. Yatırım harcaması Yahoo nakit akış tablosundaki maddi duran varlık alımıdır; finansal kiralama dahil değildir. Büyük bulut şirketleri listede yoktur.</p></details>';
+      out += h3q("Talepten üretime sıra") + '<div class="tw"><table><thead><tr><th>Halka</th><th>Yatırım harcaması</th><th>Gelir</th><th>Brüt marj</th><th>20G</th></tr></thead><tbody>' +
+        al.zincir.map(function (z) { return "<tr><td><b>" + esc(z.ad) + "</b></td><td>" + pc(z.capex_qoq, 0) + "</td><td>" + pc(z.gelir_qoq, 0) + "</td><td>" + pc(z.brut_qoq, 1, " puan") + "</td><td>" + pc(z.d20, 1) + "</td></tr>"; }).join("") + "</tbody></table></div>";
     }
     if (al.olaylar && al.olaylar.length) {
       var evs = al.olaylar.slice().reverse().slice(0, 10).map(function (o) {
@@ -488,7 +487,7 @@
         var x = o.gunler[best];
         return "<tr><td><b>" + esc(tk(o.s)) + "</b></td><td>" + fmtShort(o.tarih) + "</td><td>" + pc(x.d1, 1) + "</td><td>" + pc(x.es, 1) + "</td><td>" + x.yuk + "/" + x.n + "</td></tr>";
       }).join("");
-      out += '<details class="sgd"><summary>Bilanço açıklayan şirket gruba ne yaptırdı?</summary><div class="tw"><table><thead><tr><th>Şirket</th><th>Bilanço</th><th>Kendi hareketi</th><th>Grubun medyanı</th><th>Yükselen</th></tr></thead><tbody>' + evs + "</tbody></table></div></details>";
+      out += h3q("Bilanço açıklayan şirket gruba ne yaptırdı?") + '<div class="tw"><table><thead><tr><th>Şirket</th><th>Bilanço</th><th>Kendi hareketi</th><th>Grubun medyanı</th><th>Yükselen</th></tr></thead><tbody>' + evs + "</tbody></table></div>";
     }
     return out + (al.atanmamis && al.atanmamis.length ? '<p class="vn">Gruba atanmamış hisseler "Diğer"de: ' + al.atanmamis.map(function (x) { return esc(tk(x)); }).join(", ") + ".</p>" : "");
   }

@@ -200,6 +200,10 @@ details.chg[open] .car { transform: rotate(90deg); }
 details.chg { border: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; background: none; margin: 28px 0 8px; } details.chg > summary { padding: 14px 4px; font-size: 14px; } .ct { font-weight: 500; } .cs { background: none; border-color: #3a3a37; font-weight: 400; padding: 2px 10px; font-size: 12px; }
 h2 { margin: 48px 0 14px; } section.tab > h2:first-child { margin-top: 36px; }
 .tw th { text-transform: uppercase; letter-spacing: .06em; border-bottom: 1px solid var(--fg); padding-bottom: 8px; } .tw td { padding-block: 14px; } .tw tr + tr td { border-top: 1px solid var(--line); }
+
+.stb { border-top: 0; } .stb > .sh { border-bottom: 1px solid var(--fg); padding: 0 6px 8px; letter-spacing: .06em; } .sr > summary.sh { padding: 16px 6px; font-size: 15px; } .sr > summary b { font-weight: 400; } .sr > summary > span:first-child::before { content: "›"; display: inline-block; width: 18px; color: var(--mute); transition: transform .15s; } .sr[open] > summary > span:first-child::before { transform: rotate(90deg); }
+.sbar, .sbar i { height: 5px; } .sbar { gap: 2px; border-radius: 3px; }
+.sleg { display: flex; gap: 22px; margin: 14px 6px 0; font-size: 12px; color: var(--mute); } .sleg span { display: flex; align-items: center; gap: 8px; } .sleg i { width: 14px; height: 4px; border-radius: 2px; } .sleg .g { background: var(--up); } .sleg .y { background: var(--warn); } .sleg .r { background: var(--down); }
 </style>
 </head>
 <body>
