@@ -430,10 +430,9 @@
     if (!a || !a.etfs) return h2("Yapay zeka") + sub("Bu bölüm bu güncellemede hesaplanamadı. Bir sonraki çalışmada yeniden denenir.");
     var ok = a.etfs.filter(function (m) { return m.available; }).sort(function (x, y) { return (y.rel.spy[20] == null ? -1e9 : y.rel.spy[20]) - (x.rel.spy[20] == null ? -1e9 : x.rel.spy[20]); });
     var mx = Math.max.apply(null, ok.map(function (m) { return Math.abs(m.rel.spy[20] || 0); }).concat([2]));
-    function smaTxt(n, flag) { return n + (flag == null ? " –" : flag ? " ↑" : " ↓"); }
     var list = ok.map(function (m) {
       var r = m.rel.spy[20];
-      return { ad: m.symbol, alt: "QQQ'ya göre " + pt(m.rel.qqq[20], 1) + " · SMA " + smaTxt(50, m.above50) + " · " + smaTxt(200, m.above200), sc: "neu",
+      return { ad: m.symbol, alt: "", sc: "neu",
         bar: centered(r, mx), v: pt(r, 1), vc: cls(r), c1: pn(m.d20, 1), c1c: cls(m.d20), c2: pn(m.d5, 1), c2c: cls(m.d5) };
     });
     var miss = a.etfs.filter(function (m) { return !m.available; }).map(function (m) { return m.symbol; });
