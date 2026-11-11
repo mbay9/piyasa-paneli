@@ -1,7 +1,7 @@
 {
  "sembol": "CRWV",
  "para": "USD",
- "guncelleme": "2026-11-10",
+ "guncelleme": "2026-11-11",
  "ceyrekler": {
   "2025-06-30": {
    "gelir": 1212000000.0,
@@ -287,12 +287,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": -0.48219,
-   "gercek": -0.22,
-   "yuzde": 54.4
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": -0.68481,
    "gercek": -0.89,
@@ -309,6 +303,12 @@
    "tahmin": -1.46997,
    "gercek": -1.14,
    "yuzde": 22.4
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": -1.55218,
+   "gercek": -1.27,
+   "yuzde": 18.2
   }
  ]
 }

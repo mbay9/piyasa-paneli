@@ -1,7 +1,7 @@
 {
  "sembol": "285A.T",
  "para": "JPY",
- "guncelleme": "2026-11-10",
+ "guncelleme": "2026-11-11",
  "ceyrekler": {
   "2025-06-30": {
    "eps": 11.3,
@@ -312,8 +312,8 @@
   {
    "donem": "2026-09-30",
    "tahmin": 1192.5648,
-   "gercek": 838.31,
-   "yuzde": -29.7
+   "gercek": 836.0267,
+   "yuzde": -29.9
   }
  ]
 }
