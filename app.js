@@ -329,7 +329,7 @@
     var unk = st.length - big.length - small.length;
     return h3q("2 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
       tierRow("Tüm liste", st) + tierRow("100 Mr$ ve üstü", big) + tierRow("100 Mr$ altı", small) + '</tbody></table></div>' +
-      '<p class="fine">Her satırda grubun hisselerinin yüzde kaçı koşulu sağlıyor; ortanca getiri grubun ortadaki hissesinin 20 günlük getirisidir. Büyük ve küçük hisseler birbirinden çok ayrışıyorsa yükseliş tek bir kesime dayanıyor demektir.' + (unk ? " Piyasa değeri bilinmeyen " + unk + " hisse büyüklük satırlarına dahil değil." : "") + '</p>';
+      (unk ? '<p class="fine">Piyasa değeri bilinmeyen ' + unk + " hisse büyüklük satırlarına dahil değil.</p>" : "");
   }
 
   var OZ = null;
@@ -438,8 +438,7 @@
     var miss = a.etfs.filter(function (m) { return !m.available; }).map(function (m) { return m.symbol; });
     var e = '<div class="sxch"><span></span><span>ETF</span><span>SPY\'a göre 20G</span><span>20G</span><span class="hm">5G</span></div>' + chainRows(list) + (miss.length ? '<p class="fine neu">Veri alınamadı: ' + miss.join(", ") + ".</p>" : "");
     var ca = (a.changes && a.changes.items) || [], cs = chgFor("ai"), out = chgBox(ca.concat(cs), (a.changes && a.changes.since) || (DATA.changes && DATA.changes.since), "AI hisseleri ve ETF'leri") + h2("Yapay zeka ve yarı iletken") +
-      sub("ETF'ler SPY'a göre son 20 günde en iyiden en kötüye sıralı. Puan, ETF'in SPY'dan kaç puan fazla ya da az getiri sağladığıdır.") + e +
-      '<p class="fine">SMA 50 ve 200: fiyatın o günlük ortalamanın üstünde (↑) ya da altında (↓) olduğunu gösterir. Çubuk SPY\'dan fazla (sağa) ya da az (sola) getiriyi gösterir.</p>';
+      e;
     if (!a.available) return out + sub("Bileşen verisi yetersiz: " + esc(a.error || ""));
     out += aiTiers(a);
     return out;
