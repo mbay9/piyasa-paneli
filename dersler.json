@@ -394,5 +394,33 @@
     "tetik/bilanco.txt"
    ]
   ]
+ },
+ {
+  "tarih": "2026-11-11",
+  "olay": "10 Kasım'daki üç hatayı parça testleri yakalamadı; yayındaki veri tek kopyaydı (bozulursa yeniden indirilemeyen günlük konsensüs kayıtları giderdi); bülten dalı 27 MB'a büyüdü",
+  "kok_neden": "Testler yalnız tek tek fonksiyonları sınıyordu; arşiv ve temizlik yoktu",
+  "onlem": "Uçtan uca prova testi her kod değişikliğinde ve her güncellemede koşar; doğrulanmış her yayın arsiv dalına günlük kopya olarak yazılır (60 gün); 200 günden eski bültenler ve 120 günden eski tablolar otomatik silinir",
+  "kanit": [
+   [
+    "test_prova.py",
+    "t_kismi_yenileme_geri_almaz"
+   ],
+   [
+    ".github/workflows/kontrol.yml",
+    "test_prova.py"
+   ],
+   [
+    ".github/kayit.sh",
+    "arsiv/$ref.json.gz"
+   ],
+   [
+    "edgar.py",
+    "def temizle"
+   ],
+   [
+    "tablo_toplu.py",
+    "def temizle"
+   ]
+  ]
  }
 ]

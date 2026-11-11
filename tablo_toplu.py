@@ -23,6 +23,9 @@ def adaylar(v_usd):
     out.append(f"{m:,.1f}")                          # milyon, 1 ondalık: 6,055.0 / 392.4
     if m >= 1000:
         out.append(f"{round(m):,}")                  # milyon tam sayı: 6,055
+    if m >= 1e6:
+        out.append(f"{m / 1e6:.2f} trillion")       # KRW gibi: 24.45 trillion
+        out.append(f"{m / 1e6:.1f} trillion")
     b = m / 1000
     for x in {math.floor(b * 100) / 100, math.ceil(b * 100) / 100, round(b, 2)}:
         out.append(f"{x:.2f} billion")               # 6.06 billion (yuvarlama yönü şirkete göre değişir)
@@ -187,8 +190,8 @@ def gelir_bulten(metin, onceki_gelir):
 def tablo(sym, dosya, metin, b):
     tarih = os.path.basename(dosya)[:10]
     acc = os.path.basename(dosya)[11:-4]
-    if b.get("para") not in (None, "USD"):
-        return None, "para birimi USD değil"
+    para = b.get("para") or "USD"
+    yabanci = para != "USD"  # yabancı para: tutarlar şirketin raporlama para biriminde, etikette yazılır; "$" kalıplı rehberlik okuması yapılmaz
     ce = b.get("ceyrekler") or {}
     k = ceyrek_anahtari(ce, tarih)
     if not k or not (ce.get(k) or {}).get("gelir"):
@@ -279,12 +282,13 @@ def tablo(sym, dosya, metin, b):
         sat("EBITDA* ($M)", "m", M(v), kanit=[txt])
         sat("EBITDA Margin % *", "p", round(v / gel * 100, 1), vurgu=1, hesap=f"{M(v):,} / {M(gel):,}")
     fcf, on, cx = c.get("fcf"), c.get("isletme_nakit"), c.get("capex")
-    if fcf is not None and on is not None and cx is not None:
+    # yabancı şirkette Yahoo nakit akışı güvenilir değil (ASML 3Ç26: gelirin %97'si kadar FCF gösterdi): işletme nakit akışı bültende birebir geçmiyorsa FCF yazılmaz
+    if fcf is not None and on is not None and cx is not None and (not yabanci or bul(metin, on)):
         sat("FCF ($M)", "m", M(fcf), hesap=f"{M(on):,} operating cash flow - {M(abs(cx)):,} capital expenditures (Yahoo Finance cash flow statement)")
         sat("FCF Margin %", "p", round(fcf / gel * 100, 1), vurgu=1, hesap=f"{M(fcf):,} / {M(gel):,}")
     # önceki çeyrek şirket rehberliği: gelir için beklenti (†)
     bg_kullanildi = False
-    onceki = onceki_bulten(dosya, tarih)
+    onceki = None if yabanci else onceki_bulten(dosya, tarih)
     if onceki:
         rg = rehberlik_gelir(open(onceki, encoding="utf-8").read(), gel / 1e6)
         if rg:
@@ -297,7 +301,7 @@ def tablo(sym, dosya, metin, b):
                     r["bek"] = round((rg["orta"] * 1e6 / ce[ky]["gelir"] - 1) * 100, 1); r["sonuc"] = sonuc_beklenen(r["ger"], r["bek"], "p"); r["bg"] = bgm
     bolumler = [{"baslik": sym, "etiket": etiket(metin, k), "satirlar": S}]
     # sonraki çeyrek rehberliği
-    rn = rehberlik_gelir(metin, gel / 1e6, 0.6, 1.6)
+    rn = None if yabanci else rehberlik_gelir(metin, gel / 1e6, 0.6, 1.6)
     if rn:
         G = []
         G.append({"ad": "Revenue Guidance ($M)", "fmt": "m", "ger": round(rn["orta"], 1), "bek": None, "sonuc": None, "vurgu": 0, "kanit": [rn["kanit"]], "hesap": "aralığın orta noktası"})
@@ -311,7 +315,13 @@ def tablo(sym, dosya, metin, b):
             G.append({"ad": "EPS* Guidance ($)" if yildizli else "EPS Guidance ($)", "fmt": "d", "ger": round(re_["orta"], 2), "bek": None, "sonuc": None, "vurgu": 0, "kanit": [re_["kanit"]], "hesap": "aralığın orta noktası"})
         bolumler.append({"baslik": "Next Quarter Guidance", "etiket": "Next quarter", "satirlar": G})
     yild = any("*" in r["ad"] for r in S)
+    if yabanci:  # etiketlerde "$" yerine raporlama para birimi; EPS'in para birimi bültendeki gibidir (ADR için USD olabilir), bu yüzden yalnız "EPS"
+        for bb in bolumler:
+            for r in bb["satirlar"]:
+                r["ad"] = r["ad"].replace("($M)", f"({para} M)").replace(" ($)", "")
     dip = []
+    if yabanci:
+        dip.append(f"Amounts in {para} millions (company reporting currency); EPS as stated in the company release.")
     if yild:
         dip.append("* Adjusted/non-GAAP per the company release; rows without * are GAAP as reported.")
     if any(r["ad"].startswith("EPS") and r["bek"] is not None for r in S):
@@ -328,39 +338,68 @@ def tablo(sym, dosya, metin, b):
     return sonuc, None
 
 
+TABLO_GUN = 120  # tablo bu kadar gün gösterilir (bir sonraki bilançoya kadar); eskisi silinir
+
+
+def temizle(v, bugun, gun=TABLO_GUN):
+    """tarih alanı gun günden eski tabloları siler; silinen sembolleri döndürür."""
+    eski = [s for s, t in v.get("tablolar", {}).items() if (bugun - dt.date.fromisoformat(t.get("tarih", "1970-01-01"))).days > gun]
+    for s in eski:
+        del v["tablolar"][s]
+    return eski
+
+
 def ana(bdir, ldir, cikti="tablolar.json", gun=100, bugun=None):
     bugun = bugun or dt.date.today()
     v = json.load(open(cikti, encoding="utf-8")) if os.path.exists(cikti) else {"v": 1, "tablolar": {}}
+    eski = temizle(v, bugun)
+    if eski:
+        print("eski tablolar silindi:", " ".join(eski))
     yaz, atla = [], {}
     for sd in sorted(glob.glob(os.path.join(bdir, "*"))):
         sym = os.path.basename(sd)
         fs = sorted(f for f in glob.glob(os.path.join(sd, "*.txt")) if "nakit" not in f)
         if not fs:
             continue
-        f = fs[-1]
-        tarih = os.path.basename(f)[:10]
-        if (bugun - dt.date.fromisoformat(tarih)).days > gun:
-            atla[sym] = "bülten eski"
-            continue
-        if sym in v["tablolar"] and v["tablolar"][sym].get("basvuru") == os.path.basename(f)[11:-4] and v["tablolar"][sym].get("uretici") != "toplu":
-            continue  # elle (görev) hazırlanmış tabloya dokunma; toplu üretici kendi tablolarını yeniler
-        if sym in v["tablolar"] and v["tablolar"][sym].get("tarih", "") > tarih:
-            continue
         bp = os.path.join(ldir, f"{sym}.json")
         if not os.path.exists(bp):
             atla[sym] = "bilanco kaydı yok"
             continue
-        t, neden = tablo(sym, f, open(f, encoding="utf-8").read(), json.load(open(bp, encoding="utf-8")))
-        if t:
-            v["tablolar"][sym] = t
-            yaz.append(sym)
-        else:
+        bil = json.load(open(bp, encoding="utf-8"))
+        mevcut = v["tablolar"].get(sym)
+        neden = "bülten eski"
+        # En yeni bültenden eskiye: son bülten sonuç bildirisi olmayabilir (ön açıklama, birleşme duyurusu); tablo çıkaran ilk bülten kullanılır.
+        for f in reversed(fs):
+            tarih = os.path.basename(f)[:10]
+            if (bugun - dt.date.fromisoformat(tarih)).days > gun:
+                break
+            acc = os.path.basename(f)[11:-4]
+            if mevcut and mevcut.get("basvuru") == acc and mevcut.get("uretici") != "toplu":
+                neden = None  # elle (görev) hazırlanmış tabloya dokunma; toplu üretici kendi tablolarını yeniler
+                break
+            if mevcut and (mevcut.get("tarih", "") > tarih or (mevcut.get("tarih", "") == tarih and mevcut.get("uretici") != "toplu")):
+                neden = None
+                break
+            t, neden = tablo(sym, f, open(f, encoding="utf-8").read(), bil)
+            if t:
+                v["tablolar"][sym] = t
+                yaz.append(sym)
+                neden = None
+                break
+        if neden:
             atla[sym] = neden
     v["guncelleme"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return v, yaz, atla
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == "--temizle":
+    _yol = sys.argv[2] if len(sys.argv) > 2 else "tablolar.json"
+    _v = json.load(open(_yol, encoding="utf-8"))
+    _e = temizle(_v, dt.date.today())
+    if _e:
+        json.dump(_v, open(_yol, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("silinen eski tablo:", len(_e), " ".join(_e))
+elif __name__ == "__main__":
     v, yaz, atla = ana(sys.argv[1], sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "tablolar.json")
     json.dump(v, open(sys.argv[3] if len(sys.argv) > 3 else "tablolar.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("yazıldı:", len(yaz), " ".join(yaz))

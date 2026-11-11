@@ -82,8 +82,36 @@ def bulten(cik, acc, birincil=""):
     return None, None
 
 
+SAKLA_GUN = 200  # bültenler bu kadar gün saklanır (önceki çeyreğin rehberliği ~110 gün geriye bakar); eskisi silinir, dal büyümez
+
+
+def temizle(cikti, bugun, gun=SAKLA_GUN):
+    """cikti/<SEMBOL>/<YYYY-AA-GG>_... dosyalarından gun günden eski olanları siler; boş kalan klasörü de. Silinen dosya sayısı."""
+    n = 0
+    if not os.path.isdir(cikti):
+        return 0
+    for s in sorted(os.listdir(cikti)):
+        d = os.path.join(cikti, s)
+        if not os.path.isdir(d):
+            continue
+        for f in sorted(os.listdir(d)):
+            try:
+                eski = (bugun - dt.date.fromisoformat(f[:10])).days > gun
+            except ValueError:
+                continue
+            if eski:
+                os.remove(os.path.join(d, f))
+                n += 1
+        if not os.listdir(d):
+            os.rmdir(d)
+    return n
+
+
 def ana(semboller, cikti="bildirim", bugun=None, gun=GUN):
     bugun = bugun or dt.date.today()
+    silinen = temizle(cikti, bugun)
+    if silinen:
+        print(f"{silinen} eski bülten dosyası silindi ({SAKLA_GUN} günden eski)")
     tick = {v["ticker"].upper(): v["cik_str"] for v in json.loads(al("https://www.sec.gov/files/company_tickers.json")).values()}
     yeni, hata = 0, {}
     for s in semboller:

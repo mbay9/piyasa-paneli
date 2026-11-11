@@ -13,4 +13,9 @@ def t_ceyrek():
     assert T.ceyrek_anahtari(ce, "2027-02-01") is None  # 110 günden eski çeyrek kullanılmaz
     assert T.gecen_yil(ce, "2026-09-30") == "2025-09-30"
 
-t_bul(); t_ceyrek(); print("test_toplu: tamam")
+def t_temizle():
+    import datetime as dt
+    v = {"tablolar": {"A": {"tarih": "2026-07-01"}, "B": {"tarih": "2026-08-20"}}}
+    assert T.temizle(v, dt.date(2026, 11, 10)) == ["A"] and list(v["tablolar"]) == ["B"]
+
+t_bul(); t_ceyrek(); t_temizle(); print("test_toplu: tamam")

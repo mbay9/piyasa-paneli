@@ -48,18 +48,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp -r bildirim /tmp/cikti
           rm -rf bildirim
-          if git rev-parse -q --verify origin/bildirim >/dev/null; then
-            git checkout -q -B bildirim origin/bildirim
-          else
-            git checkout -q --orphan bildirim
-            git rm -rqf . >/dev/null 2>&1 || true
-          fi
+          # Dal her seferinde tek commit olarak yeniden yazılır: silinen eski bültenler geçmişte de kalmaz, depo büyümez.
+          if [ -d /tmp/onceki/bildirim ] && diff -rq /tmp/onceki/bildirim /tmp/cikti >/dev/null; then echo "değişiklik yok"; exit 0; fi
+          git checkout -q --orphan yeni
+          git rm -rqf . >/dev/null 2>&1 || true
           rm -rf bildirim && cp -r /tmp/cikti bildirim
           git add bildirim
-          if git diff --cached --quiet; then echo "değişiklik yok"; else
-            git commit -q -m "Bülten"
-            for i in 1 2 3 4; do
-              git push -q origin bildirim && break
-              git fetch -q origin bildirim && git rebase -q origin/bildirim || { git rebase --abort; exit 1; }
-            done
-          fi
+          git commit -q -m "Bülten"
+          git push -q --force origin yeni:bildirim

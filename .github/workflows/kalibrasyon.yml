@@ -19,8 +19,34 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  kapi:
+    # Güncelleme iş akışı çoğu kez "veri zaten yayında" diye hiçbir şey yayınlamadan biter; kalibrasyon yalnız gerçekten yayın yapıldıysa çalışır.
+    name: Yayın yapıldı mı
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      actions: read
+    outputs:
+      calis: ${{ steps.k.outputs.calis }}
+    steps:
+      - id: k
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+          RUN: ${{ github.event.workflow_run.id }}
+          REPO: ${{ github.repository }}
+        run: |
+          calis=true
+          if [ "$EVENT" = "workflow_run" ]; then
+            d=$(gh api "repos/$REPO/actions/runs/$RUN/jobs" --jq '[.jobs[]|select(.name=="deploy")|.conclusion][0] // ""' || echo hata)
+            echo "güncelleme çalışması $RUN deploy sonucu: $d"
+            if [ "$d" != "success" ] && [ "$d" != "hata" ]; then calis=false; fi
+          fi
+          echo "calis=$calis" >> "$GITHUB_OUTPUT"
+
   kalibre:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    needs: kapi
+    if: needs.kapi.outputs.calis == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

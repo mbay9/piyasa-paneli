@@ -42,5 +42,27 @@ git add -A
 git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Yayın kaydı ${GITHUB_RUN_ID:-}"
 git push -q --force origin yeni:veri
 echo "veri dalı yazıldı: canlı doğrulandı=$live_ok, data ref_date=$ref"
+
+# Günlük arşiv ('arsiv' dalı): doğrulanmış her yayının data.json'ı arsiv/<referans gün>.json.gz olarak saklanır, son 60 gün tutulur.
+# Neden: veri dalı tek kopyadır; içindeki günlük konsensüs kayıtları (est.qh) ve endeks çarpanı geçmişi yeniden indirilemez. Bozuk bir yayın bunları silerse
+# önceki günün kopyasından geri alınır:  git show origin/arsiv:arsiv/<gün>.json.gz | gunzip > data.json
+# Dal her seferinde tek commit olarak yeniden yazılır (depo büyümez). Arşiv yazılamazsa yayın kaydı yine başarılı sayılır.
+if [ "$live_ok" = true ] && [ -n "$ref" ]; then
+  (
+    set -e
+    cd ..
+    rm -rf a && git init -q a && cd a
+    git remote add origin "${ORIGIN:-https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git}"
+    if git fetch -q --depth 1 origin arsiv 2>/dev/null; then git checkout -q -b onceki FETCH_HEAD; fi
+    mkdir -p arsiv
+    gzip -9 -n -c ../live.json > "arsiv/$ref.json.gz"
+    ls arsiv/*.json.gz | sort | head -n -"${ARSIV_GUN:-60}" | xargs -r rm -f
+    git checkout -q --orphan yeni
+    git add -A
+    git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "Arşiv $ref"
+    git push -q --force origin yeni:arsiv
+    echo "arşiv yazıldı: arsiv/$ref.json.gz ($(ls arsiv | wc -l) gün)"
+  ) || echo "::warning title=Arşiv yazılamadı::günlük arşiv bu çalışmada güncellenemedi"
+fi
 # canlı sayfa kontrolü başarısızsa iş de kırmızı olsun (GitHub e-posta ile haber verir); kayıt zaten yazıldı
 if [ -n "$canli_hata" ]; then echo "::error title=Yayın sağlık kontrolü başarısız::$canli_hata"; exit 1; fi

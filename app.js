@@ -220,15 +220,21 @@
     else b2 = '<p class="vn">Bilanço öncesi F/K kaydı yok; bir sonraki bilançodan itibaren kaydedilir.</p>';
     fk += '<div class="blk"><h3>Bilançodan beri</h3>' + b2 + '</div>' + vspark(e.eh) + '</div>';
     tah += '</div>';
-    var tabs = [["fiyat", "Fiyat", vchart(s)], ["tahmin", "Tahminler", tah], ["fk", "F/K", fk], ["bilanco", "Bilanço", btable(s.symbol) + bilPanel(s.symbol)]];
     var cur = VTAB[s.symbol] || ((s.h && s.h.length >= 25) ? "fiyat" : "tahmin");
+    var tabs = [["fiyat", "Fiyat", vchart(s)], ["tahmin", "Tahminler", tah], ["fk", "F/K", fk], ["bilanco", "Bilanço", cur === "bilanco" ? btable(s.symbol) + bilPanel(s.symbol) : ""]];
     var bar = tabs.map(function (t) { return '<button type="button" class="vt' + (cur === t[0] ? " on" : "") + '" data-vt="' + t[0] + '" data-s="' + esc(s.symbol) + '">' + t[1] + "</button>"; }).join("");
     var body = tabs.filter(function (t) { return t[0] === cur; })[0][2];
     return '<div class="vtabs">' + bar + "</div>" + body + '<p class="vn">Kaynak: Yahoo Finance fiyat ve analist tahminleri. "Mevcut yıl", şirketin içinde bulunduğu mali yıldır; takvim yılı olmayabilir (örneğin NVDA için Ocak ayında biter).</p>';
   }
-  var TAB = null;
+  var TAB = null, TABLOAD = false;
+  function tabYukle() {  // tablolar.json (~240 KB) sayfa açılışında değil, ilk kez bir hissenin Bilanço sekmesi açılınca indirilir
+    if (TAB || TABLOAD) return;
+    TABLOAD = true;
+    fetch("tablolar.json?v=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (j) { TAB = (j && j.tablolar) ? j : { tablolar: {} }; if (DATA) draw(); });
+  }
   function btable(sym) {
-    var t = TAB && TAB.tablolar && TAB.tablolar[sym];
+    if (!TAB) { tabYukle(); return ""; }
+    var t = TAB.tablolar && TAB.tablolar[sym];
     if (!t) return "";
     function f(v, m) {
       if (v === null || v === undefined) return "–";
@@ -587,7 +593,6 @@
   });
   window.addEventListener("scroll", hideTip, { passive: true });
   window.addEventListener("hashchange", show);
-  fetch("tablolar.json?v=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { if (j && j.tablolar) { TAB = j; if (DATA) draw(); } }).catch(function () {});
   fetch("ozet.json?v=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { if (j && j.paragraphs) { OZ = j; if (DATA) draw(); } }).catch(function () {});
   fetch("data.json?v=" + Date.now()).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(render).catch(function (e) {
     document.getElementById("app").innerHTML = '<div class="err">Veri yüklenemedi (' + esc(e.message) + '). Birkaç dakika sonra yenile.</div>';

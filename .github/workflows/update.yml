@@ -85,6 +85,7 @@ jobs:
       - run: python test_toplu.py
       - run: python test_guncel.py
       - run: python test_ikinci.py
+      - run: python test_prova.py
       - name: Bilanço kayıtlarını al (alt sektör göstergeleri ve site için)
         run: |
           if git fetch -q --depth=1 origin +bilanco:refs/remotes/origin/bilanco 2>/dev/null; then
