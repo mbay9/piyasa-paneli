@@ -591,5 +591,24 @@
    "btc": "yukari",
    "not": "Asya güçlü toparlandı: Kore üç günlük düşüşü kırdı, Japonya üst üste ikinci gün yükseldi, ABD'deki güçlü günle uyumlu; haftalık ve aylık tablo hâlâ zayıf. Bitcoin hafif artıda, uzun vadeli ortalamanın üzerinde"
   }
+ },
+ {
+  "date": "2026-11-11",
+  "gun": "yukari",
+  "trend": "karisik",
+  "vix": "normal",
+  "vix_yon": "geriledi",
+  "katilim": "orta",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "teknoloji",
+   "enerji"
+  ],
+  "sektor_geride": [
+   "dongusel tuketim",
+   "saglik"
+  ],
+  "ai": "cok zayif",
+  "not": "Dünkü hafif gerilemenin ardından güçlü yükseliş; Nasdaq uzun vadeli ortalamanın üstüne geri döndü, küçük şirketler kısa vadeli ortalamanın üstüne döndü; korku endeksi çok sert geriledi ve uzun vadeli ortalamanın altına indi; katılım genişledi; çipler çok sert tepki verdi ama yapay zeka hisseleri zayıf; 10 Kasım için kayıt yok"
  }
 ]
