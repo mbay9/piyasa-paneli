@@ -22,3 +22,10 @@ Sitedeki bazı göstergeler tahmin iddiası taşımaz (ör. ortalamaya uzaklık)
 - Tek hisselik kesit testleri (52 hafta zirvesi, PEAD, kısa pozisyon, analist dağılımı) ücretsiz veride hayatta kalma yanlılığı taşır (bugünün endeks üyeleri). Bu yüzden TEST EDİLEMEDİ sayılır; yerine ileriye dönük kayıt önerilir.
 - Piyasa düzeyi testler Ken French veri kütüphanesi (toplam getiri, 1926 sonrası), Yahoo (^GSPC, ^VIX, ^VIX3M, faiz, sektör ETF'leri) ve FRED serileriyle yapılır.
 - Veri kaynağına ulaşılamazsa o test atlanır ve raporda "veri alınamadı" yazılır; vekil veri uydurulmaz.
+
+## Ek (testler çalıştırılmadan önce eklendi)
+- Strateji iddiaları iki ayrı hüküm alır: (a) risk azaltma: en büyük düşüş ve yıllık oynaklık al-tut'tan düşük mü; oynaklık oranının %95 blok bootstrap güven aralığı 1'in altında kalmalı; (b) getiri/Sharpe: Sharpe farkının blok bootstrap p değeri < 0,01 (K1 karşılığı), K2-K4 aynen geçerli.
+- Strateji karşılaştırmalarında kıyas al-tut (aynı piyasa), nakit getirisi French RF serisi; işlem maliyeti her pozisyon değişiminde 10 baz puan.
+- Tahmin regresyonlarında bağımlı değişken sonraki dönem getirisi; bağımsız değişken yalnızca sinyal tarihindeki bilgiyle hesaplanır (ileriye bakış yok); örtüşen ufuklarda Newey-West gecikmesi en az ufuk kadar.
+- Yayın tarihi ayrımı: Faber 2007, Jegadeesh-Titman 1993, Fama-French 5 faktör 2015, Bollerslev ve diğ. 2009, Moreira-Muir 2017, Daniel-Moskowitz 2016, Estrella-Mishkin 1996 (getiri eğrisi), Rapach ve diğ. 2016 (kısa pozisyon), Baker-Wurgler 2006, Halloween için Bouman-Jacobsen 2002.
+- Sitenin kendi sinyalleri (rejim kuralı, VIX yüzdelik dilimi, genişlik vekili, sektör göreceli gücü) siteyle aynı tanımla sınanır.
