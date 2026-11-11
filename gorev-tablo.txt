@@ -1,8 +1,8 @@
-UTC: 2026-11-10 00:27 | ET: 2026-11-09 19:27
+ZAMAN: 2026-11-11 15:34:31 UTC / 2026-11-11 10:34:31 EST
 SONUC: YAZILDI
-Neden: ONTO icin yeni bulten (2026-11-09, 0001193125-26-453582) bulundu, tablo hazirlandi ve main'e gonderildi.
-Islenen: ONTO (2026-11-09). Diger bultenler (AAOI, IONQ, LASR, MCHP, MTSI, NVMI, WLDN, WULF) zaten mevcut tablolarda.
-bek bulunan: Revenue, Revenue YoY, EPS* (Yahoo est.qh 2026-11-06 kaydi), Gross Margin % (sirket Q2 rehberligi 57.3-57.8, bg), Q4 Revenue Guidance, Q4 EPS Guidance.
-bek bulunamayan: Gross Profit, FCF, FCF Margin, Q4 YoY, Q4 Operating Margin. MarketBeat bakilmadi (kendi kayit yeterli). EBITDA ve yillik rehberlik yok (bultende Adjusted EBITDA/sayisal yillik rehberlik yok).
-Denetim: tablo_kontrol: tamam (0 hata).
-Yayin: push 65a1c83; durum.json build=success deploy=success canli_dogrulandi=true.
+NEDEN: Yeni bulten CRWV ve VELO (2026-11-10) icin tablolar elle hazirlandi, denetim 0 hata, main'e gonderildi (7add0f0).
+TETIK: bildirim dali 3 saatten eskiydi; bildirim.yml gh ile tetiklendi, ~5 dk beklendi, dal yenilenmedi (is success, yeni commit yok). bilanco dali 21.5 saat, tetiklenmedi.
+ISLENEN: CRWV 2026-11-10, VELO 2026-11-10 (toplu uretici bunlari yazmadi: Yahoo kaydinda 2026-09-30 ceyregi yok)
+BEK BULUNAN: CRWV Revenue, Revenue YoY, EPS (est.qh 2026-11-09); VELO Revenue, EPS* (est.qh 2026-11-09). MarketBeat denenmedi.
+BEK YOK: diger tum satirlar; FCF satiri iki sirkette de yok (CRWV: nakit dosyasi yok; VELO: yalniz 9 aylik); VELO brut marj rehberligi (2H >%30) ceyrek rehberligi olmadigi icin kullanilmadi.
+DENETIM: tablo_kontrol: tamam
