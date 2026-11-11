@@ -82,13 +82,13 @@
     function oi(x) { var i = ORD.indexOf(x[0]); return i < 0 ? 99 : i; }
     rows.sort(function (x, y) { return oi(x) - oi(y); });
     function cc(k, v) { return v == null ? "neu" : cls(k === "VIX" ? -v : v); }
-    function dot(f) { return f == null ? "" : '<i class="dt ' + (f ? "u" : "d") + '" aria-hidden="true"></i>'; }
+    function dot(f) { return '<i class="dt ' + (f == null ? "n" : f ? "u" : "d") + '" aria-hidden="true"></i>'; }
     var last = rows.length - 1;
     var body = rows.map(function (x, i) {
       var k = x[0], m = x[1];
-      var nm = esc(m.name || "") + (k === "VIX" ? " · korku endeksi" : "") + esc(dtag(m, ref));
+      var nm = esc(dtag(m, ref)).replace(/^\s*·\s*/, "");
       return '<div class="gxr gxl"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
-        '<span class="sxcm"><b>' + k + vtext(m) + '</b><small class="neu"><span class="mc">' + num(m.close, 2) + " · </span>" + nm + '</small>' +
+        '<span class="sxcm"><b>' + k + vtext(m) + '</b><small class="neu"><span class="mc">' + num(m.close, 2) + (nm ? " · " : "") + "</span>" + nm + '</small>' +
         '<small class="gxm neu"><span class="nw">5G <span class="' + cc(k, m.d5) + '">' + pc(m.d5) + '</span></span> · <span class="nw">20G <span class="' + cc(k, m.d20) + '">' + pc(m.d20) + '</span></span>' + (k === "VIX" ? "" : ' · <span class="nw">zirve <span class="' + cls(m.from_high) + '">' + pc(m.from_high, 1) + "</span></span>") + '<br><span class="nw">SMA 50 <span class="' + (m.above50 ? "pos" : "neg") + '">' + pc(m.dist50, 1) + '</span></span> · <span class="nw">SMA 200 <span class="' + (m.above200 ? "pos" : "neg") + '">' + pc(m.dist200, 1) + '</span></span>' + "</small></span>" +
         '<span class="gxd r">' + num(m.close, 2) + "</span>" +
         '<span class="gxd r ' + cc(k, m.d1) + '">' + pc(m.d1) + "</span>" +
@@ -97,7 +97,7 @@
         '<span class="gxd sm ' + (m.above50 == null ? "neu" : m.above50 ? "pos" : "neg") + '">' + (m.dist50 == null ? "–" : pc(m.dist50, 1)) + dot(m.above50) + '</span><span class="gxd sm ' + (m.above200 == null ? "neu" : m.above200 ? "pos" : "neg") + '">' + (m.dist200 == null ? "–" : pc(m.dist200, 1)) + dot(m.above200) + "</span>" +
         '<span class="gxt r ' + cc(k, m.d1) + '">' + pc(m.d1) + "<small>bugün</small></span></div>";
     }).join("");
-    return '<div class="gxh gxr gxl"><span></span><span>Gösterge</span><span class="r">Kapanış</span><span class="r">Bugün</span><span class="r">5G</span><span class="r">20G</span><span class="r">Zirveye uzaklık</span><span class="r">SMA 50</span><span class="r">SMA 200</span></div>' + body;
+    return '<div class="gxh gxr gxl"><span></span><span>Gösterge</span><span class="r">Kapanış</span><span class="r">Bugün</span><span class="r">5G</span><span class="r">20G</span><span class="r">Zirveye uzaklık</span><span class="r sm">SMA 50</span><span class="r sm">SMA 200</span></div>' + body;
   }
 
   function chainRows(list) {
@@ -147,7 +147,7 @@
       var r = s.rel20 || 0, w = (Math.abs(r) / mx * 50).toFixed(1);
       var bar = '<span class="sxcb"><i class="' + (r >= 0 ? "g" : "r") + '" style="width:' + w + "%;" + (r >= 0 ? "left:50%" : "right:50%") + '"></i></span>';
       return '<div class="sxcr"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
-        '<span class="sxcm"><b>' + esc(s.symbol) + " " + esc(s.name) + '</b><small class="' + sc + '">' + esc(s.status) + " · " + esc(s.trend || "–") + "</small></span>" +
+        '<span class="sxcm"><b>' + esc(s.symbol) + '</b><small class="' + sc + '">' + esc(s.status) + " · " + esc(s.trend || "–") + "</small></span>" +
         '<span class="sxcv">' + bar + '<span class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</span></span>' +
         '<span class="sxcx ' + cls(s.d20) + '">' + pn(s.d20, 1) + '</span><span class="sxcx hm ' + cls(s.d5) + '">' + pn(s.d5, 1) + "</span></div>";
     }).join("");
@@ -433,7 +433,7 @@
     function smaTxt(n, flag) { return n + (flag == null ? " –" : flag ? " ↑" : " ↓"); }
     var list = ok.map(function (m) {
       var r = m.rel.spy[20];
-      return { ad: m.symbol + ' <span class="mute" style="font-weight:400">' + esc(m.name) + "</span>", alt: "QQQ'ya göre " + pt(m.rel.qqq[20], 1) + " · SMA " + smaTxt(50, m.above50) + " · " + smaTxt(200, m.above200), sc: "neu",
+      return { ad: m.symbol, alt: "QQQ'ya göre " + pt(m.rel.qqq[20], 1) + " · SMA " + smaTxt(50, m.above50) + " · " + smaTxt(200, m.above200), sc: "neu",
         bar: centered(r, mx), v: pt(r, 1), vc: cls(r), c1: pn(m.d20, 1), c1c: cls(m.d20), c2: pn(m.d5, 1), c2c: cls(m.d5) };
     });
     var miss = a.etfs.filter(function (m) { return !m.available; }).map(function (m) { return m.symbol; });
