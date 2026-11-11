@@ -191,6 +191,15 @@ details.chg[open] .car { transform: rotate(90deg); }
 .vbar::after { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, transparent 0, transparent calc(5% - 2px), var(--bg) calc(5% - 2px), var(--bg) 5%); }
 .meta { margin-top: 56px; opacity: .8; } .meta span { display: flex; align-items: baseline; }
 @media (max-width: 640px) { .mc { display: inline; } .vrow { grid-template-columns: minmax(0, 1fr) auto; row-gap: 10px; } .vbar { grid-column: 1 / -1; grid-row: 2; } .gxd.sm .dt { margin-left: 5px; } }
+
+/* tasarım: düz sıra numaraları, çizgili satırlar, düz değişiklik şeridi */
+.sxcn i { display: none; } .sxcn { align-items: flex-start; justify-content: center; } .sxcn b { width: auto; height: auto; border: 0; background: none; font-size: 13px; font-weight: 400; color: var(--mute); }
+.sxcr, .gxr.gxl:not(.gxh) { border-bottom: 1px solid var(--line); } .sxch, .gxh { border-bottom: 1px solid var(--fg); }
+.sxcr { height: auto; min-height: 60px; padding-block: 12px; } .gxr .sxcn { height: auto; }
+.sxch { padding-bottom: 8px; margin-top: 10px; } .gxh { padding-bottom: 8px; margin-top: 10px; }
+details.chg { border: 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; background: none; margin: 28px 0 8px; } details.chg > summary { padding: 14px 4px; font-size: 14px; } .ct { font-weight: 500; } .cs { background: none; border-color: #3a3a37; font-weight: 400; padding: 2px 10px; font-size: 12px; }
+h2 { margin: 48px 0 14px; } section.tab > h2:first-child { margin-top: 36px; }
+.tw th { text-transform: uppercase; letter-spacing: .06em; border-bottom: 1px solid var(--fg); padding-bottom: 8px; } .tw td { padding-block: 14px; } .tw tr + tr td { border-top: 1px solid var(--line); }
 </style>
 </head>
 <body>

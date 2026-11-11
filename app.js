@@ -41,7 +41,8 @@
   function num(v, dec) { return v === null || v === undefined ? "–" : Number(v).toLocaleString("tr-TR", { minimumFractionDigits: dec, maximumFractionDigits: dec }); }
   function sgn(v) { return v > 0 ? "+" : v < 0 ? "−" : ""; }
   function pc(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 2 : dec) + "%"; }
-  function pt(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 1 : dec) + " puan"; }
+  function pn(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 1 : dec); }
+  function pt(v, dec) { return v === null || v === undefined ? "–" : sgn(v) + num(Math.abs(v), dec === undefined ? 1 : dec) + " p"; }
   function cls(v) { if (v === null || v === undefined || v === 0) return "neu"; return v > 0 ? "pos" : "neg"; }
   function esc(s) { return String(s === null || s === undefined ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function h2(t) { return '<h2>' + t + '</h2>'; }
@@ -130,7 +131,7 @@
       if (!x.available) return { ad: nm, alt: "Veri alınamadı", bar: "", v: "–", c1: "", c2: "" };
       var vc = x.verdict === "GENİŞ" ? "pos" : x.verdict === "DAR" ? "rsk" : "neu";
       var vt = x.verdict === "GENİŞ" ? "GENİŞ · herkes yükseliyor" : x.verdict === "DAR" ? "DAR · büyükler taşıyor" : esc(x.verdict || "–");
-      return { ad: nm, alt: vt, sc: vc, bar: centered(x.ret20_diff, mx), v: pt(x.ret20_diff, 1), vc: cls(x.ret20_diff), c1: pc(x.ret20_a, 1), c1c: cls(x.ret20_a), c2: pc(x.ret20_b, 1), c2c: cls(x.ret20_b) };
+      return { ad: nm, alt: vt, sc: vc, bar: centered(x.ret20_diff, mx), v: pt(x.ret20_diff, 1), vc: cls(x.ret20_diff), c1: pn(x.ret20_a, 1), c1c: cls(x.ret20_a), c2: pn(x.ret20_b, 1), c2c: cls(x.ret20_b) };
     });
     return h3q("Büyük hisseler mi taşıyor, herkes mi?") +
       '<div class="sxch"><span></span><span>Endeks</span><span>Eşit − ağırlıklı, 20G</span><span>Eşit ağırlıklı</span><span class="hm">Ağırlıklı</span></div>' + chainRows(list);
@@ -148,7 +149,7 @@
       return '<div class="sxcr"><span class="sxcn"><i class="' + (i === 0 ? "e" : "") + '"></i><b>' + (i + 1) + '</b><i class="' + (i === last ? "e" : "") + '"></i></span>' +
         '<span class="sxcm"><b>' + esc(s.symbol) + " " + esc(s.name) + '</b><small class="' + sc + '">' + esc(s.status) + " · " + esc(s.trend || "–") + "</small></span>" +
         '<span class="sxcv">' + bar + '<span class="' + cls(s.rel20) + '">' + pt(s.rel20, 1) + '</span></span>' +
-        '<span class="sxcx ' + cls(s.d20) + '">' + pc(s.d20, 1) + '</span><span class="sxcx hm ' + cls(s.d5) + '">' + pc(s.d5, 1) + "</span></div>";
+        '<span class="sxcx ' + cls(s.d20) + '">' + pn(s.d20, 1) + '</span><span class="sxcx hm ' + cls(s.d5) + '">' + pn(s.d5, 1) + "</span></div>";
     }).join("");
     return h2("Sektör liderliği") +
       '<div class="sxch"><span></span><span>Sektör</span><span>SPY\'a göre 20G</span><span>20G</span><span class="hm">5G</span></div>' + body;
@@ -322,12 +323,12 @@
     function pct(f) { return "%" + num(100 * list.filter(f).length / n, 0); }
     var d = list.map(function (s) { return s.d20; }).filter(function (v) { return v !== null && v !== undefined; }).sort(function (x, y) { return x - y; });
     var med = d.length ? (d.length % 2 ? d[(d.length - 1) / 2] : (d[d.length / 2 - 1] + d[d.length / 2]) / 2) : null;
-    return '<tr><td><b>' + name + '</b><small>' + n + ' hisse</small></td><td>' + pct(function (s) { return s.above50; }) + '</td><td>' + pct(function (s) { return s.above200; }) + '</td><td>' + pct(function (s) { return s.d20 > 0; }) + '</td><td class="' + cls(med) + '">' + pc(med) + '</td><td>' + pct(function (s) { return s.from_high !== null && s.from_high !== undefined && s.from_high >= -5; }) + '</td></tr>';
+    return '<tr><td><b>' + name + '</b><small>' + n + ' hisse</small></td><td>' + pct(function (s) { return s.above50; }) + '</td><td>' + pct(function (s) { return s.above200; }) + '</td><td>' + pct(function (s) { return s.d20 > 0; }) + '</td><td class="' + cls(med) + '">' + pc(med, 1) + '</td><td>' + pct(function (s) { return s.from_high !== null && s.from_high !== undefined && s.from_high >= -5; }) + '</td></tr>';
   }
   function aiTiers(a) {
     var st = a.stocks || [], big = st.filter(function (s) { return s.mcap >= 1e11; }), small = st.filter(function (s) { return s.mcap !== null && s.mcap !== undefined && s.mcap < 1e11; });
     var unk = st.length - big.length - small.length;
-    return h3q("2 · Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
+    return h3q("Listendeki hisseler büyüklüğe göre nasıl?") + '<div class="tw"><table><thead><tr><th>Grup</th><th>SMA 50 üstü</th><th>SMA 200 üstü</th><th>20 günde artıda</th><th>20G ortanca getiri</th><th>Zirveye %5 içinde</th></tr></thead><tbody>' +
       tierRow("Tüm liste", st) + tierRow("100 Mr$ ve üstü", big) + tierRow("100 Mr$ altı", small) + '</tbody></table></div>' +
       (unk ? '<p class="fine">Piyasa değeri bilinmeyen ' + unk + " hisse büyüklük satırlarına dahil değil.</p>" : "");
   }
@@ -433,7 +434,7 @@
     var list = ok.map(function (m) {
       var r = m.rel.spy[20];
       return { ad: m.symbol + ' <span class="mute" style="font-weight:400">' + esc(m.name) + "</span>", alt: "QQQ'ya göre " + pt(m.rel.qqq[20], 1) + " · SMA " + smaTxt(50, m.above50) + " · " + smaTxt(200, m.above200), sc: "neu",
-        bar: centered(r, mx), v: pt(r, 1), vc: cls(r), c1: pc(m.d20, 1), c1c: cls(m.d20), c2: pc(m.d5, 1), c2c: cls(m.d5) };
+        bar: centered(r, mx), v: pt(r, 1), vc: cls(r), c1: pn(m.d20, 1), c1c: cls(m.d20), c2: pn(m.d5, 1), c2c: cls(m.d5) };
     });
     var miss = a.etfs.filter(function (m) { return !m.available; }).map(function (m) { return m.symbol; });
     var e = '<div class="sxch"><span></span><span>ETF</span><span>SPY\'a göre 20G</span><span>20G</span><span class="hm">5G</span></div>' + chainRows(list) + (miss.length ? '<p class="fine neu">Veri alınamadı: ' + miss.join(", ") + ".</p>" : "");
