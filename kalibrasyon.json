@@ -372,6 +372,18 @@
    "url": null,
    "kayma_gun": 0,
    "not": null
+  },
+  {
+   "olcu": "vix_cboe",
+   "tarih": "2026-11-10",
+   "bizim": 19.46,
+   "resmi": 19.46,
+   "fark": 0.0,
+   "fark_pct": 0.0,
+   "kaynak": "Cboe VIX_History (resmi)",
+   "url": null,
+   "kayma_gun": 0,
+   "not": null
   }
  ],
  "ozet": {
@@ -439,11 +451,11 @@
    "sistematik": false
   },
   "vix_cboe": {
-   "n": 7,
+   "n": 8,
    "ort_fark_pct": 0.0,
    "std_pct": 0.0,
    "son_fark_pct": 0.0,
-   "son_tarih": "2026-11-09",
+   "son_tarih": "2026-11-10",
    "durum": "iyi",
    "sistematik": false
   }
