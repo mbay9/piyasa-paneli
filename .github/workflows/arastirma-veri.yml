@@ -1,0 +1,35 @@
+name: Araştırma verisi
+
+# Göstergeleri sınamak için uzun geçmiş verileri indirir ve `arastirma` dalına yazar. Siteyi değiştirmez.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  veri:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python arastirma/veri_indir.py /tmp/veri
+      - name: Veriyi arastirma dalına yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch -q origin arastirma && git checkout -q -B arastirma origin/arastirma || git checkout -q --orphan arastirma
+          git rm -rq --cached . 2>/dev/null || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          mkdir veri && cp -r /tmp/veri/. veri/
+          git add veri
+          git commit -q -m "Araştırma verisi" || echo "değişiklik yok"
+          for i in 1 2 3 4; do
+            git push -q origin arastirma && break
+            git fetch -q origin arastirma && git rebase -q origin/arastirma || { git rebase --abort; exit 1; }
+          done
