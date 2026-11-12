@@ -609,6 +609,12 @@
    "saglik"
   ],
   "ai": "cok zayif",
-  "not": "Dünkü hafif gerilemenin ardından güçlü yükseliş; Nasdaq uzun vadeli ortalamanın üstüne geri döndü, küçük şirketler kısa vadeli ortalamanın üstüne döndü; korku endeksi çok sert geriledi ve uzun vadeli ortalamanın altına indi; katılım genişledi; çipler çok sert tepki verdi ama yapay zeka hisseleri zayıf; 10 Kasım için kayıt yok"
+  "not": "Dünkü hafif gerilemenin ardından güçlü yükseliş; Nasdaq uzun vadeli ortalamanın üstüne geri döndü, küçük şirketler kısa vadeli ortalamanın üstüne döndü; korku endeksi çok sert geriledi ve uzun vadeli ortalamanın altına indi; katılım genişledi; çipler çok sert tepki verdi ama yapay zeka hisseleri zayıf; 10 Kasım için kayıt yok",
+  "asya": {
+   "kospi": "asagi",
+   "nikkei": "asagi",
+   "btc": "yatay",
+   "not": "Kore iki günlük yükselişin ardından, Japonya dünkü toparlanmanın ardından geriledi; ikisi de aylık tabloda zayıf ve ortalamalarının altında, ABD'deki güçlü günü Asya sabahı sürdürmedi. Bitcoin hafif artıda, uzun vadeli ortalamanın üzerinde"
+  }
  }
 ]
