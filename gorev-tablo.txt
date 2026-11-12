@@ -1,8 +1,8 @@
-ZAMAN: 2026-11-11 15:34:31 UTC / 2026-11-11 10:34:31 EST
-SONUC: YAZILDI
-NEDEN: Yeni bulten CRWV ve VELO (2026-11-10) icin tablolar elle hazirlandi, denetim 0 hata, main'e gonderildi (7add0f0).
-TETIK: bildirim dali 3 saatten eskiydi; bildirim.yml gh ile tetiklendi, ~5 dk beklendi, dal yenilenmedi (is success, yeni commit yok). bilanco dali 21.5 saat, tetiklenmedi.
-ISLENEN: CRWV 2026-11-10, VELO 2026-11-10 (toplu uretici bunlari yazmadi: Yahoo kaydinda 2026-09-30 ceyregi yok)
-BEK BULUNAN: CRWV Revenue, Revenue YoY, EPS (est.qh 2026-11-09); VELO Revenue, EPS* (est.qh 2026-11-09). MarketBeat denenmedi.
-BEK YOK: diger tum satirlar; FCF satiri iki sirkette de yok (CRWV: nakit dosyasi yok; VELO: yalniz 9 aylik); VELO brut marj rehberligi (2H >%30) ceyrek rehberligi olmadigi icin kullanilmadi.
-DENETIM: tablo_kontrol: tamam
+UTC: 2026-11-12T00:32:57Z
+ET: 2026-11-11T19:32:57-0500
+SONUC: YAZILMADI
+NEDEN: Son 5 günde tablolar.json'dakinden farklı başvuru numaralı yeni bülten yok.
+Tetik: bildirim dalı 13 saatten eskiydi; bildirim.yml gh api ile tetiklendi (rc=0), 9 dk beklendi, dal yenilenmedi. bilanco dalı 17.5 saat eski (<30s), tetiklenmedi.
+Islenen semboller: yok
+Bek bulunan/bulunamayan satirlar: -
+Denetim: calistirilmadi (yazilacak tablo yok)
