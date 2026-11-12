@@ -7,24 +7,29 @@ import requests
 OUT = sys.argv[1] if len(sys.argv) > 1 else "veri"
 os.makedirs(OUT, exist_ok=True)
 DURUM = {}
+GRUP = []
 UA = {"User-Agent": "Mozilla/5.0 (research; piyasa-paneli)"}
 
 
 def kayit(ad, ok, ayr=""):
     DURUM[ad] = {"ok": ok, "ayrinti": str(ayr)[:300]}
     print(("OK  " if ok else "FAIL"), ad, str(ayr)[:200], flush=True)
+    json.dump(DURUM, open(f"{OUT}/_durum.json", "w"), ensure_ascii=False, indent=1)
+    GRUP.append(ok)
+    if len(GRUP) >= 3 and not any(GRUP[-3:]):
+        raise StopIteration("art arda 3 başarısızlık, grup atlandı")
 
 
 def get(url, **kw):
-    for i in range(3):
+    for i in range(2):
         try:
-            r = requests.get(url, headers=UA, timeout=60, **kw)
+            r = requests.get(url, headers=UA, timeout=(8, 25), **kw)
             if r.status_code == 200:
                 return r
             err = r.status_code
         except Exception as e:  # noqa
             err = repr(e)
-        time.sleep(2 + i * 3)
+        time.sleep(2)
     raise RuntimeError(f"{url} -> {err}")
 
 
@@ -104,7 +109,8 @@ def digerleri():
 
 
 if __name__ == "__main__":
-    for f in (yahoo, fred, french, digerleri):
+    for f in (french, digerleri, fred, yahoo):
+        GRUP.clear()
         try:
             f()
         except Exception:
