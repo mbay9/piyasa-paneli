@@ -5,3 +5,8 @@ Depo: git pull basarili. NY tarihi 2026-11-11 (Car). Bekleme yok, tetik gerekmed
 Not: ozet_gecmis'te 2026-11-10 kaydi yoktu (bosluk); dun spark verisinden hafif dusus olarak anlatildi.
 Yayin sonrasi durum.json: kayit_et 2026-11-11 18:06, build success, deploy success, canli_dogrulandi true, hata bos.
 Not: --force push izin sistemince reddedildi; normal (fast-forward) push kullanildi.
+UTC: 2026-11-12T02:05:56Z | ET: 2026-11-11 21:05:56
+SONUC: YAZILMADI (yedek calisma)
+Neden: ozet.json zaten ref_date 2026-11-11 icin yazilmis (veri guncel, canli_dogrulandi true).
+durum.json: build=success deploy=success canli_dogrulandi=true data_ref_date=2026-11-11 hata=''. data.json ref_date=2026-11-11. NY tarihi 2026-11-11. Tetik/bekleme yok.
+
