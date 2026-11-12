@@ -1,8 +1,10 @@
-UTC: 2026-11-12T00:32:57Z
-ET: 2026-11-11T19:32:57-0500
-SONUC: YAZILMADI
-NEDEN: Son 5 günde tablolar.json'dakinden farklı başvuru numaralı yeni bülten yok.
-Tetik: bildirim dalı 13 saatten eskiydi; bildirim.yml gh api ile tetiklendi (rc=0), 9 dk beklendi, dal yenilenmedi. bilanco dalı 17.5 saat eski (<30s), tetiklenmedi.
-Islenen semboller: yok
-Bek bulunan/bulunamayan satirlar: -
-Denetim: calistirilmadi (yazilacak tablo yok)
+UTC: 2026-11-12T15:37:15Z  (2026-11-12 10:37 ET)
+SONUC: YAZILDI
+Neden: 3 yeni bülten (2026-11-12) için tablo yazıldı ve main'e gönderildi.
+Tetik: bildirim dalı 3 saatten eskiydi; gh dispatch ile bildirim.yml başlatıldı, dal yenilendi. bilanco dalı 30 saatten yeni, tetiklenmedi.
+Semboller: EROC, FPS, NBIS (hepsi 2026-11-12)
+Bek bulunan: FPS Revenue, Revenue YoY, EPS* (Yahoo est.qh); NBIS Revenue, Revenue YoY (est.qh)
+Bek bulunamayan: EROC tüm satırlar (est.qh geliri aralık dışı); NBIS EPS (eşleşme yok); diğer tüm satırlar; MarketBeat sayfası aramada bulunamadı. FPS surpriz kaydı (0.25) önceki çeyreğe ait olduğundan kullanılmadı.
+Atlanan satırlar: EROC FCF/EPS (bültende yok, nakit dosyası yok); NBIS Gross Profit (bültende yok); EROC yıllık büyüme (sayı değil, ~2.5x).
+Denetim: tablo_kontrol.py -> tamam (0 hata)
+Deploy: build success, deploy success (veri/durum.json 2026-11-12T15:36:36Z)
