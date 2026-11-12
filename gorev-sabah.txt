@@ -1,8 +1,8 @@
-UTC: 2026-11-11T11:40Z | ET: 2026-11-11 06:40 (YEDEK calisma)
-SONUC: YAZILMADI
-Neden: ozet.json date (2026-11-09) veri dalindaki meta.ref_date (2026-11-10) ile farkli; aksam ozeti henuz yazilmamis, asya eki yazilmadi.
+UTC: 2026-11-12T07:46Z | ET: 2026-11-12 02:46
+SONUC: YAZILDI
+Neden: KOSPI ve NIKKEI 2026-11-12 tarihine gecince (asia.yml workflow_dispatch ile bir kez tetiklendi) Asya ve Bitcoin eki yazildi.
 Depo: /home/claude/piyasa-paneli mevcuttu, git pull --rebase basarili.
-Bugun UTC: 2026-11-11. KOSPI date 2026-11-11, NIKKEI 2026-11-11, BTC 2026-11-10 (guncel; tetik/bekleme gerekmedi).
-durum.json: kayit_utc 2026-11-11T11:03:50Z, olay workflow_dispatch, build success, deploy success, canli_dogrulandi true, data_ref_date 2026-11-10, hata/kok_neden bos.
-ozet.json date: 2026-11-09 (mevcut asya alani 2026-11-09 icin).
+Bugun UTC: 2026-11-12. Ilk kontrolde (07:36Z) KOSPI/NIKKEI date 2026-11-11 (guncel degil), BTC 2026-11-11 (guncel sayilir). gh api dispatch basarili; ~3 dk sonra KOSPI/NIKKEI 2026-11-12.
+ozet.json date 2026-11-11 = meta.ref_date; asya alani yoktu. Yazildi, ozet_gecmis.json 2026-11-11 kaydina asya eklendi (kospi asagi, nikkei asagi, btc yatay).
+Push main basarili. durum.json (07:41Z): olay push, build success, deploy success, canli_dogrulandi true, hata bos.
 Not: git push --force origin HEAD:gorev otomatik mod siniflandiricisi tarafindan reddedildi (Git Destructive); log GitHub API ile normal commit olarak yazildi.
