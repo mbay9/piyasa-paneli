@@ -32,14 +32,17 @@ def dilimler(idx, yayin):
     return out
 
 
-def strateji_degerlendir(rs, rb, per, blok, yayin, ad):
+def strateji_degerlendir(rs, rb, per, blok, yayin, ad, rf=None):
     """rs: strateji getirisi (maliyet dahil), rb: al-tut. Hem risk azaltma hem Sharpe hükmü için sayılar."""
     d = pd.concat([rs, rb], axis=1).dropna()
     d.columns = ["s", "b"]
     out = {"strateji": ozet(d["s"], per), "al_tut": ozet(d["b"], per)}
-    fark, se, p = blok_bootstrap_fark(d["s"], d["b"], per, blok)
+    # Sharpe: aşırı getiri (getiri − nakit) üzerinden; getiri/düşüş toplam getiri üzerinden
+    rfx = rf.reindex(d.index) if rf is not None else 0.0
+    e = pd.DataFrame({"s": d["s"] - rfx, "b": d["b"] - rfx}, index=d.index)
+    out["strateji"]["sharpe"] = round(float(sharpe(e["s"], per)), 3); out["al_tut"]["sharpe"] = round(float(sharpe(e["b"], per)), 3)
+    fark, se, p = blok_bootstrap_fark(e["s"], e["b"], per, blok)
     out["sharpe_fark"] = {"fark": round(fark, 3), "se": round(se, 3), "p": round(p, 4)}
-    # oynaklık oranı için bootstrap güven aralığı
     rng = np.random.default_rng(11)
     T = len(d); nb = int(np.ceil(T / blok)); oran = []
     v = d.values
@@ -53,8 +56,8 @@ def strateji_degerlendir(rs, rb, per, blok, yayin, ad):
     alt = {}
     for k, ix in dl.items():
         if len(ix) > 24:
-            x = d.loc[ix]
-            alt[k] = {"s_sharpe": round(sharpe(x["s"], per), 3), "b_sharpe": round(sharpe(x["b"], per), 3),
+            x = d.loc[ix]; xe = e.loc[ix]
+            alt[k] = {"s_sharpe": round(sharpe(xe["s"], per), 3), "b_sharpe": round(sharpe(xe["b"], per), 3),
                       "s_dd": round(100 * maxdd(x["s"]), 1), "b_dd": round(100 * maxdd(x["b"]), 1), "n": int(len(x))}
     out["alt_donem"] = alt
     return out
@@ -90,7 +93,7 @@ def t01_trend_aylik():
         sw = sig.diff().abs().fillna(0)
         rs = sig * mk + (1 - sig) * rf - sw * MALIYET
         rs = rs[sma.shift(1).notna()]
-        o = strateji_degerlendir(rs, mk.loc[rs.index], 12, 12, pd.Period("2007-01", "M"), f"SMA{n}")
+        o = strateji_degerlendir(rs, mk.loc[rs.index], 12, 12, pd.Period("2007-01", "M"), f"SMA{n}", rf=rf)
         o["piyasada_kalma_orani"] = round(float(sig.loc[rs.index].mean()), 3)
         o["ayda_gecis"] = round(float(sw.loc[rs.index].mean()), 3)
         o["hukum"] = hukum_strateji(o)
@@ -120,7 +123,7 @@ def t02_site_rejimi():
         pos = pd.Series(pos, index=lvl.index).shift(1)  # bir gün sonra uygulanır
         sw = pos.diff().abs().fillna(0)
         rs = (pos * mk + (1 - pos) * rf - sw * MALIYET)[pos.notna()]
-        o = strateji_degerlendir(rs, mk.loc[rs.index], 252, 63, pd.Timestamp("2007-01-01"), ad)
+        o = strateji_degerlendir(rs, mk.loc[rs.index], 252, 63, pd.Timestamp("2007-01-01"), ad, rf=rf)
         yil = (rs.index[-1] - rs.index[0]).days / 365.25
         o["gecis_yilda"] = round(float(sw.loc[rs.index].sum() / yil), 2)
         o["piyasada_kalma_orani"] = round(float(pos.loc[rs.index].mean()), 3)
@@ -163,14 +166,14 @@ def t03_tsmom():
     pos = (sum(sigs) / 3).shift(1)
     sw = pos.diff().abs().fillna(0)
     rs = (pos * mk + (1 - pos) * rf - sw * MALIYET).dropna()
-    o = strateji_degerlendir(rs, mk.loc[rs.index], 12, 12, pd.Period("2017-01", "M"), "HOP_1_3_12")
+    o = strateji_degerlendir(rs, mk.loc[rs.index], 12, 12, pd.Period("2017-01", "M"), "HOP_1_3_12", rf=rf)
     o["hukum"] = hukum_strateji(o)
     out["strateji_1_3_12_uzun_nakit"] = o
     # 12 ay
     p12 = ((1 + mk).rolling(12).apply(np.prod, raw=True) - (1 + rf).rolling(12).apply(np.prod, raw=True) > 0).astype(float).shift(1)
     sw = p12.diff().abs().fillna(0)
     rs = (p12 * mk + (1 - p12) * rf - sw * MALIYET).dropna()
-    o = strateji_degerlendir(rs, mk.loc[rs.index], 12, 12, pd.Period("2017-01", "M"), "TSMOM12")
+    o = strateji_degerlendir(rs, mk.loc[rs.index], 12, 12, pd.Period("2017-01", "M"), "TSMOM12", rf=rf)
     o["hukum"] = hukum_strateji(o)
     out["strateji_12_ay_uzun_nakit"] = o
     kaydet("T03_zaman_serisi_momentumu", out)
@@ -182,7 +185,7 @@ def t04_cape():
         kaydet("T04_CAPE", {"hukum": "TEST EDİLEMEDİ", "neden": "Shiller verisi indirilemedi"}); return
     raw = pd.read_excel(yol("shiller_ie_data.xls"), sheet_name="Data", header=None, skiprows=8)
     raw = raw.iloc[:, :14]
-    raw.columns = ["date", "P", "D", "E", "CPI", "frac", "GS10", "RealP", "RealD", "RealTR", "RealE", "CAPE", "x", "y"]
+    raw.columns = ["date", "P", "D", "E", "CPI", "frac", "GS10", "RealP", "RealD", "RealTR", "RealE", "RealEs", "CAPE", "x"]
     raw = raw[pd.to_numeric(raw["P"], errors="coerce").notna()].copy()
     raw["date"] = raw["date"].astype(float)
     yr = raw["date"].astype(int); mo = ((raw["date"] - yr) * 100).round().astype(int).clip(1, 12)
@@ -218,17 +221,24 @@ def t04_cape():
 
 # ---------------------------------------------------------------- T05 getiri eğrisi
 def t05_getiri_egrisi():
-    if not (var("fred_T10Y3M.csv") and var("fred_USREC.csv")):
-        kaydet("T05_getiri_egrisi", {"hukum": "TEST EDİLEMEDİ", "neden": "FRED serisi yok"}); return
-    sp = fred("T10Y3M"); rec = fred("USREC")
+    if not (var("yahoo_TNX.csv") and var("yahoo_IRX.csv")):
+        kaydet("T05_getiri_egrisi", {"hukum": "TEST EDİLEMEDİ", "neden": "getiri verisi yok"}); return
+    # FRED erişilemedi: eğim = 10 yıllık (^TNX) − 3 aylık bono (^IRX) Yahoo'dan; resesyon: NBER tepe/dip aylarının kamuya açık tarihleri
+    sp = (yahoo("TNX", "Close") - yahoo("IRX", "Close")).dropna()
     spm = sp.resample("ME").last()
-    recm = rec.resample("MS").last(); recm.index = recm.index + pd.offsets.MonthEnd(0)
-    y = pd.Series(0.0, index=spm.index)
-    for t in spm.index:
-        w = recm[(recm.index > t) & (recm.index <= t + pd.DateOffset(months=12) + pd.offsets.MonthEnd(0))]
-        y.loc[t] = float((w == 1).any()) if len(w) else np.nan
+    NBER = [("1960-04", "1961-02"), ("1969-12", "1970-11"), ("1973-11", "1975-03"), ("1980-01", "1980-07"), ("1981-07", "1982-11"),
+            ("1990-07", "1991-03"), ("2001-03", "2001-11"), ("2007-12", "2009-06"), ("2020-02", "2020-04")]
+    recm = pd.Series(0.0, index=spm.index)
+    for pk, tr in NBER:
+        m0 = pd.Period(pk, "M") + 1; m1 = pd.Period(tr, "M")
+        recm[(recm.index.to_period("M") >= m0) & (recm.index.to_period("M") <= m1)] = 1.0
+    y = pd.Series(np.nan, index=spm.index)
+    for i, t in enumerate(spm.index):
+        w = recm.iloc[i + 1:i + 13]
+        if len(w) == 12:
+            y.iloc[i] = float((w == 1).any())
     d = pd.concat([y.rename("y"), spm.rename("sp")], axis=1).dropna()
-    out = {"ornek": f"{d.index[0].date()}..{d.index[-1].date()}", "n": int(len(d)), "aylik_yatay_ortusme_var": True}
+    out = {"ornek": f"{d.index[0].date()}..{d.index[-1].date()}", "n": int(len(d)), "not": "eğim=TNX-IRX (Yahoo), resesyon=NBER tarihleri; 12 aylık pencereler yatay örtüşür, p-değerleri bunu düzeltmez"}
     from sklearn.metrics import roc_auc_score
     from sklearn.linear_model import LogisticRegression
     auc_tum = roc_auc_score(d["y"], -d["sp"])
@@ -341,7 +351,7 @@ def t08_volyonetim():
         w = (c_exp / rv).clip(upper=cap)
         dw = w.diff().abs().fillna(0)
         rs = (w * ex + rf - dw * MALIYET)[w.notna()]
-        o = strateji_degerlendir(rs, mk.loc[rs.index], 252, 63, pd.Timestamp("2017-01-01"), ad)
+        o = strateji_degerlendir(rs, mk.loc[rs.index], 252, 63, pd.Timestamp("2017-01-01"), ad, rf=rf)
         o["ort_agirlik"] = round(float(w.loc[rs.index].mean()), 3)
         # alfa: rs_excess ~ ex
         d = pd.concat([(rs - rf.loc[rs.index]).rename("y"), ex.loc[rs.index].rename("x")], axis=1)
@@ -408,7 +418,7 @@ def t10_halloween():
     pos = win; rf = ff["RF"]
     sw = pos.diff().abs().fillna(0)
     rs = pos * mk + (1 - pos) * rf - sw * MALIYET
-    o = strateji_degerlendir(rs, mk, 12, 12, pd.Period("2002-01", "M"), "halloween")
+    o = strateji_degerlendir(rs, mk, 12, 12, pd.Period("2002-01", "M"), "halloween", rf=rf)
     o["hukum"] = hukum_strateji(o)
     out["strateji_mayis_ekim_nakit"] = o
     kaydet("T10_mevsimsellik_halloween", out)
@@ -516,11 +526,25 @@ def t13_faktorler():
 def t14_bw():
     if not var("bw_sentiment.xlsx"):
         kaydet("T14_baker_wurgler", {"hukum": "TEST EDİLEMEDİ", "neden": "Baker-Wurgler verisi indirilemedi"}); return
-    x = pd.read_excel(yol("bw_sentiment.xlsx"), sheet_name=None)
-    nm = list(x.keys())[0]
-    df = x[nm]
-    cols = [str(c) for c in df.columns]
-    kaydet("T14_baker_wurgler_hamsutunlar", {"sayfalar": list(x.keys()), "sutunlar": cols[:20], "ilk": df.head(3).astype(str).values.tolist()})
+    x = pd.read_excel(yol("bw_sentiment.xlsx"), sheet_name="DATA")
+    x = x[["yearmo", "SENT"]].copy()
+    x["SENT"] = pd.to_numeric(x["SENT"], errors="coerce")
+    x.index = pd.PeriodIndex([f"{str(int(v))[:4]}-{str(int(v))[4:]}" for v in x["yearmo"]], freq="M")
+    sent = x["SENT"].dropna()
+    ff = french("F-F_Research_Data_Factors_CSV"); ex = ff["Mkt-RF"]
+    out = {"ornek": f"{sent.index[0]}..{sent.index[-1]}", "n": int(len(sent))}
+    for H in (1, 12):
+        fwd = (1 + ex).rolling(H).apply(np.prod, raw=True).shift(-H) - 1
+        d = pd.concat([fwd.rename("y"), sent.rename("x")], axis=1).dropna()
+        xs = (d["x"] - d["x"].mean()) / d["x"].std()
+        m = hac(d["y"], xs.rename("x"), lags=max(H, 3))
+        h = {}
+        a_, b_ = yarilar(d.index)
+        for k, ix in (("ilk_yari", a_), ("son_yari", b_), ("2006_sonrasi", d.index[d.index >= pd.Period("2006-01", "M")])):
+            mm = hac(d.loc[ix, "y"], xs.loc[ix].rename("x"), lags=max(H, 3))
+            h[k] = {"b_pp_per_sd": round(float(mm.params["x"] * 100), 2), "t": round(float(mm.tvalues["x"]), 2), "n": int(mm.nobs)}
+        out[f"ileri_{H}ay"] = {"b_pp_per_sd": round(float(m.params["x"] * 100), 2), "t": round(float(m.tvalues["x"]), 2), "n": int(m.nobs), "alt_donem": h}
+    kaydet("T14_baker_wurgler_piyasa_duzeyi", out)
 
 
 if __name__ == "__main__":
