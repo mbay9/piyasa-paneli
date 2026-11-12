@@ -616,5 +616,24 @@
    "btc": "yatay",
    "not": "Kore iki günlük yükselişin ardından, Japonya dünkü toparlanmanın ardından geriledi; ikisi de aylık tabloda zayıf ve ortalamalarının altında, ABD'deki güçlü günü Asya sabahı sürdürmedi. Bitcoin hafif artıda, uzun vadeli ortalamanın üzerinde"
   }
+ },
+ {
+  "date": "2026-11-12",
+  "gun": "asagi",
+  "trend": "karisik",
+  "vix": "normal",
+  "vix_yon": "yukseldi",
+  "katilim": "orta",
+  "katilim_yon": "daraldi",
+  "sektor_onde": [
+   "enerji",
+   "elektrik-su"
+  ],
+  "sektor_geride": [
+   "malzeme",
+   "sanayi"
+  ],
+  "ai": "cok zayif",
+  "not": "Dünkü güçlü günün ardından hafif düşüş; küçük şirketler kısa ve uzun vadeli ortalamaların altına geri indi, korku endeksi uzun vadeli ortalamanın üstüne döndü, katılım daraldı; iki büyük çip şirketi zirve yaptı ama yapay zeka grubu geneli zayıf"
  }
 ]
