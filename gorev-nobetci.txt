@@ -1,0 +1,12 @@
+Nöbetçi görevi
+UTC: 2026-11-12T00:11:12Z
+ET: 2026-11-11 19:11:12
+Sonuç: Sorun yok: 2026-11-11 verisi ve özeti yayında.
+Okunan değerler:
+- Bugün (New York): 2026-11-11 (gün 3, tatil değil)
+- data.json meta.ref_date: 2026-11-11
+- data.json meta.generated_at: 2026-11-11T23:43:46Z
+- meta.ikinci_kaynak: NIKKEI ok, KOSPI ok, BTC ok, NASDAQ ok, SPY ok, ONEQ ok (bad yok)
+- durum.json: build=success, deploy=success, canli_dogrulandi=true, data_ref_date=2026-11-11, hata="", kok_neden=""
+- ozet.json date: 2026-11-11
+- Tetik: gerekmedi
