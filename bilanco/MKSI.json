@@ -1,7 +1,7 @@
 {
  "sembol": "MKSI",
  "para": "USD",
- "guncelleme": "2026-11-11",
+ "guncelleme": "2026-11-12",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 988000000.0,
@@ -334,7 +334,7 @@
   },
   {
    "donem": "2026-09-30",
-   "tahmin": 3.64856,
+   "tahmin": 3.64594,
    "gercek": 4.18,
    "yuzde": 14.6
   }

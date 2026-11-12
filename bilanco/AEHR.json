@@ -1,7 +1,7 @@
 {
  "sembol": "AEHR",
  "para": "USD",
- "guncelleme": "2026-11-11",
+ "guncelleme": "2026-11-12",
  "ceyrekler": {
   "2025-08-31": {
    "gelir": 10969000.0,
@@ -107,12 +107,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-08-31",
-   "tahmin": 0.0,
-   "gercek": 0.01,
-   "yuzde": null
-  },
-  {
    "donem": "2025-11-30",
    "tahmin": -0.03667,
    "gercek": -0.04,
@@ -123,6 +117,12 @@
    "tahmin": -0.07,
    "gercek": -0.05,
    "yuzde": 28.6
+  },
+  {
+   "donem": "2026-05-31",
+   "tahmin": -0.0075,
+   "gercek": 0.11,
+   "yuzde": 1566.7
   },
   {
    "donem": "2026-09-30",

@@ -1,7 +1,7 @@
 {
  "sembol": "TSEM",
  "para": "USD",
- "guncelleme": "2026-11-11",
+ "guncelleme": "2026-11-12",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 460079000.0,
@@ -315,16 +315,22 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.5425,
-   "gercek": 0.55,
-   "yuzde": 1.4
+   "donem": "2025-12-31",
+   "tahmin": 0.68333,
+   "gercek": 0.78,
+   "yuzde": 14.1
   },
   {
    "donem": "2026-03-31",
    "tahmin": 0.562,
    "gercek": 0.65,
    "yuzde": 15.7
+  },
+  {
+   "donem": "2026-06-30",
+   "tahmin": 0.758,
+   "gercek": 0.88,
+   "yuzde": 16.1
   },
   {
    "donem": "2026-09-30",

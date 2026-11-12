@@ -1,7 +1,7 @@
 {
  "sembol": "LSCC",
  "para": "USD",
- "guncelleme": "2026-11-11",
+ "guncelleme": "2026-11-12",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 133349000.0,
@@ -315,16 +315,10 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 0.27917,
-   "gercek": 0.28,
-   "yuzde": 0.3
-  },
-  {
    "donem": "2025-12-31",
-   "tahmin": 0.068,
-   "gercek": -0.06,
-   "yuzde": -188.2
+   "tahmin": 0.31769,
+   "gercek": 0.32,
+   "yuzde": 0.7
   },
   {
    "donem": "2026-03-31",
@@ -334,9 +328,9 @@
   },
   {
    "donem": "2026-06-30",
-   "tahmin": 0.235,
-   "gercek": 0.14,
-   "yuzde": -40.4
+   "tahmin": 0.44516,
+   "gercek": 0.53,
+   "yuzde": 19.1
   },
   {
    "donem": "2026-09-30",

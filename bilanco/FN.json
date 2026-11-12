@@ -1,7 +1,7 @@
 {
  "sembol": "FN",
  "para": "USD",
- "guncelleme": "2026-11-11",
+ "guncelleme": "2026-11-12",
  "ceyrekler": {
   "2025-09-30": {
    "gelir": 978128000.0,
@@ -301,12 +301,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-09-30",
-   "tahmin": 2.81866,
-   "gercek": 2.92,
-   "yuzde": 3.6
-  },
-  {
    "donem": "2025-12-31",
    "tahmin": 3.25034,
    "gercek": 3.36,
@@ -314,9 +308,9 @@
   },
   {
    "donem": "2026-03-31",
-   "tahmin": 3.34,
-   "gercek": 3.45,
-   "yuzde": 3.3
+   "tahmin": 3.56263,
+   "gercek": 3.72,
+   "yuzde": 4.4
   },
   {
    "donem": "2026-06-30",

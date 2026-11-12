@@ -1,7 +1,7 @@
 {
  "sembol": "ONTO",
  "para": "USD",
- "guncelleme": "2026-11-11",
+ "guncelleme": "2026-11-12",
  "ceyrekler": {
   "2025-06-30": {
    "borc": 13409000.0
@@ -327,12 +327,6 @@
    "tahmin": 1.41571,
    "gercek": 1.42,
    "yuzde": 0.3
-  },
-  {
-   "donem": "2026-06-30",
-   "tahmin": 1.69079,
-   "gercek": 1.93,
-   "yuzde": 14.1
   },
   {
    "donem": "2026-09-30",
