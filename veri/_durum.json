@@ -1,0 +1,162 @@
+{
+ "french F-F_Research_Data_Factors_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_Research_Data_Factors.csv 52533 bayt"
+ },
+ "french F-F_Research_Data_Factors_daily_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_Research_Data_Factors_daily.csv 1211963 bayt"
+ },
+ "french F-F_Momentum_Factor_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_Momentum_Factor.csv 21656 bayt"
+ },
+ "french F-F_Momentum_Factor_daily_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_Momentum_Factor_daily.csv 473140 bayt"
+ },
+ "french F-F_Research_Data_5_Factors_2x3_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_Research_Data_5_Factors_2x3.csv 51371 bayt"
+ },
+ "french F-F_Research_Data_5_Factors_2x3_daily_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_Research_Data_5_Factors_2x3_daily.csv 1019175 bayt"
+ },
+ "french 49_Industry_Portfolios_CSV": {
+  "ok": true,
+  "ayrinti": "49_Industry_Portfolios.csv 2264554 bayt"
+ },
+ "french 10_Portfolios_Prior_12_2_CSV": {
+  "ok": true,
+  "ayrinti": "10_Portfolios_Prior_12_2.csv 484517 bayt"
+ },
+ "french Portfolios_Formed_on_ME_CSV": {
+  "ok": true,
+  "ayrinti": "Portfolios_Formed_on_ME.csv 943919 bayt"
+ },
+ "french F-F_ST_Reversal_Factor_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_ST_Reversal_Factor.csv 21842 bayt"
+ },
+ "french F-F_LT_Reversal_Factor_CSV": {
+  "ok": true,
+  "ayrinti": "F-F_LT_Reversal_Factor.csv 20831 bayt"
+ },
+ "shiller_ie_data.xls": {
+  "ok": true,
+  "ayrinti": "http://www.econ.yale.edu/~shiller/data/ie_data.xls 1628672 bayt"
+ },
+ "bw_sentiment.xlsx": {
+  "ok": true,
+  "ayrinti": "https://people.stern.nyu.edu/jwurgler/data/Investor_Sentiment_Data_20190327_POST.xlsx 362725 bayt"
+ },
+ "aaii_sentiment.xls": {
+  "ok": false,
+  "ayrinti": "https://www.aaii.com/files/surveys/sentiment.xls -> 403"
+ },
+ "fred T10Y3M": {
+  "ok": false,
+  "ayrinti": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y3M -> ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\"))"
+ },
+ "fred T10Y2Y": {
+  "ok": false,
+  "ayrinti": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y -> ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\"))"
+ },
+ "fred USREC": {
+  "ok": false,
+  "ayrinti": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=USREC -> ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=25)\"))"
+ },
+ "yahoo ^GSPC": {
+  "ok": true,
+  "ayrinti": "1927-12-30..2026-11-11 n=24834"
+ },
+ "yahoo ^VIX": {
+  "ok": true,
+  "ayrinti": "1990-01-02..2026-11-11 n=9286"
+ },
+ "yahoo ^VIX3M": {
+  "ok": true,
+  "ayrinti": "2006-07-17..2026-11-11 n=5114"
+ },
+ "yahoo ^TNX": {
+  "ok": true,
+  "ayrinti": "1962-01-02..2026-11-11 n=16204"
+ },
+ "yahoo ^IRX": {
+  "ok": true,
+  "ayrinti": "1960-01-04..2026-11-11 n=16701"
+ },
+ "yahoo ^FVX": {
+  "ok": true,
+  "ayrinti": "1962-01-02..2026-11-11 n=16204"
+ },
+ "yahoo SPY": {
+  "ok": true,
+  "ayrinti": "1993-01-29..2026-11-11 n=8505"
+ },
+ "yahoo RSP": {
+  "ok": true,
+  "ayrinti": "2003-05-01..2026-11-11 n=5922"
+ },
+ "yahoo XLB": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLE": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLF": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLI": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLK": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLP": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLU": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLV": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLY": {
+  "ok": true,
+  "ayrinti": "1998-12-22..2026-11-11 n=7015"
+ },
+ "yahoo XLRE": {
+  "ok": true,
+  "ayrinti": "2015-10-08..2026-11-11 n=2790"
+ },
+ "yahoo XLC": {
+  "ok": true,
+  "ayrinti": "2018-06-19..2026-11-11 n=2112"
+ },
+ "yahoo QQQ": {
+  "ok": true,
+  "ayrinti": "1999-03-10..2026-11-11 n=6963"
+ },
+ "yahoo IWM": {
+  "ok": true,
+  "ayrinti": "2000-05-26..2026-11-11 n=6655"
+ },
+ "yahoo ^NDX": {
+  "ok": true,
+  "ayrinti": "1985-10-01..2026-11-11 n=10359"
+ },
+ "yahoo ^RUT": {
+  "ok": true,
+  "ayrinti": "1987-09-10..2026-11-11 n=9868"
+ }
+}
