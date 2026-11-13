@@ -1,7 +1,7 @@
 {
  "sembol": "FPS",
  "para": "USD",
- "guncelleme": "2026-11-12",
+ "guncelleme": "2026-11-13",
  "ceyrekler": {
   "2025-03-31": {
    "eps": 0.029773
@@ -307,6 +307,12 @@
    "tahmin": 0.23776,
    "gercek": 0.25,
    "yuzde": 5.1
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": 0.19819,
+   "gercek": 0.24,
+   "yuzde": 21.1
   }
  ]
 }

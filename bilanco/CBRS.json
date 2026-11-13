@@ -1,7 +1,7 @@
 {
  "sembol": "CBRS",
  "para": "USD",
- "guncelleme": "2026-11-12",
+ "guncelleme": "2026-11-13",
  "ceyrekler": {
   "2025-03-31": {
    "gelir": 99512000.0,
@@ -293,9 +293,15 @@
   },
   {
    "donem": "2026-06-30",
-   "tahmin": -0.1801,
-   "gercek": -0.0458,
-   "yuzde": 74.6
+   "tahmin": -1.67449,
+   "gercek": -2.98,
+   "yuzde": -78.0
+  },
+  {
+   "donem": "2026-09-30",
+   "tahmin": -0.1435,
+   "gercek": 0.1248,
+   "yuzde": 187.0
   }
  ]
 }

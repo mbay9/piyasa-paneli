@@ -1,7 +1,7 @@
 {
  "sembol": "AMAT",
  "para": "USD",
- "guncelleme": "2026-11-12",
+ "guncelleme": "2026-11-13",
  "ceyrekler": {
   "2025-07-31": {
    "gelir": 7302000000.0,
@@ -315,12 +315,6 @@
  },
  "surpriz": [
   {
-   "donem": "2025-10-31",
-   "tahmin": 2.09366,
-   "gercek": 2.17,
-   "yuzde": 3.6
-  },
-  {
    "donem": "2026-01-31",
    "tahmin": 2.206,
    "gercek": 2.38,
@@ -337,6 +331,12 @@
    "tahmin": 3.3944,
    "gercek": 3.5,
    "yuzde": 3.1
+  },
+  {
+   "donem": "2026-10-31",
+   "tahmin": 4.0544,
+   "gercek": 4.16,
+   "yuzde": 2.6
   }
  ]
 }
