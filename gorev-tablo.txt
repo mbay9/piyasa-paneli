@@ -8,3 +8,14 @@ Bek bulunamayan: EROC tüm satırlar (est.qh geliri aralık dışı); NBIS EPS (
 Atlanan satırlar: EROC FCF/EPS (bültende yok, nakit dosyası yok); NBIS Gross Profit (bültende yok); EROC yıllık büyüme (sayı değil, ~2.5x).
 Denetim: tablo_kontrol.py -> tamam (0 hata)
 Deploy: build success, deploy success (veri/durum.json 2026-11-12T15:36:36Z)
+
+== 2026-11-13T00:30:08Z (2026-11-12 19:30 ET) ==
+SONUC: YAZILDI
+Neden: 3 yeni bulten icin tablo yazildi (commit 3840912, main'e push; build/deploy success, durum.json 2026-11-13T00:27:49Z).
+Islenen: AMAT 2026-11-12 (0001628280-26-073360), CSCO 2026-11-12 (0000858877-26-000170), CBRS 2026-11-12 (0001628280-26-073366).
+Atlanan: NBIS 0001104659-26-126238 (MD&A eki; ayni sonuclar 0001104659-26-126008 ile tabloda zaten var).
+Tetik: bildirim dali 2.5 saat eski, bilanco dali 6 saat eski -> tetik gerekmedi.
+Bek bulunan: AMAT gelir/YoY/EPS + gelecek ceyrek gelir/EPS (est.qh 2026-11-11); CSCO gelir/YoY/EPS + gelecek ceyrek gelir/EPS (est.qh); CBRS gelecek ceyrek gelir (est.qh 274.9).
+Bek bulunamayan: AMAT/CSCO/CBRS diger satirlar; CBRS bu ceyrek gelir (GAAP/Core esas belirsiz, bilerek null) ve EPS (-0.67 vs kayit -0.143, +-35% disi); MarketBeat denenmedi.
+Not: CBRS FCF yazilmadi (bultende yalniz 9 aylik nakit akisi, ceyreklik yok). toplu uretici yeni ceyrek Yahoo kaydi olmadigi icin uretmedi; elle hazirlandi. --temizle: 0 silindi.
+Denetim: tablo_kontrol: tamam (0 hata).
