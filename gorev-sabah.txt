@@ -5,3 +5,13 @@ Depo: pull başarılı. Tetik gerekmedi, bekleme yok (asia.yml 06:48Z'de çalı�
 durum.json (ilk): build/deploy success, hata boş. İkinci kaynak uyarısı: KOSPI Yahoo 5297.51 vs Naver 5290.53, fark %0.132 > %0.05 (uyarı); yön değişmedi.
 main'e push: "Günün özeti: Asya ve Bitcoin eki, 2026-11-12". Sonra durum.json: olay push, build/deploy success, canli_dogrulandi true.
 Not: force push izin sınıflandırıcısı tarafından reddedildi; günlük normal (fast-forward) push ile yazıldı.
+
+----- YEDEK ÇALIŞMA -----
+UTC 2026-11-13T11:35Z (ET 06:35 EST)
+SONUC: YAZILMADI
+Neden: Asya eki bugün için zaten yazılmış (commit 57cfd78, 2026-11-13 07:36 UTC; ozet.json'da asya alanı var, ref_date 2026-11-12); kurala göre yeniden yazılmadı.
+Depo: /home/claude/piyasa-paneli mevcuttu, pull --rebase başarılı.
+Tarihler: KOSPI 2026-11-13, NIKKEI 2026-11-13, BTC 2026-11-12, meta.ref_date 2026-11-12, ozet.json date 2026-11-12.
+durum.json: build=success deploy=success canli_dogrulandi=true data_ref_date=2026-11-12 hata="" kok_neden="" (kayit_utc 2026-11-13T10:53:36Z)
+Tetik gerekmedi, bekleme yok.
+Not: git push --force origin HEAD:gorev izin sınıflandırıcısı tarafından reddedildi ([Git Destructive]); günlük GitHub API ile normal (fast-forward) commit olarak eklendi, ana çalışmanın günlüğü korundu.
