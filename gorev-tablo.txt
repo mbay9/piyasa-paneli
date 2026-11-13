@@ -1,7 +1,7 @@
 UTC: 2026-11-12T15:37:15Z  (2026-11-12 10:37 ET)
 SONUC: YAZILDI
 Neden: 3 yeni bülten (2026-11-12) için tablo yazıldı ve main'e gönderildi.
-Tetik: bildirim dalı 3 saatten eskiydi; gh dispatch ile bildirim.yml başlatıldı, dal yenilendi. bilanco dalı 30 saatten yeni, tetiklenmedi.
+Tetik: bildirim dali son commit 02:10Z (13 saat once, 3 saati asiyor) ancak yeni bulten zaten indirilmis; tetik gonderilmedi. bilanco dali 18:21Z dun (<30 saat), tetik gerekmedi.
 Semboller: EROC, FPS, NBIS (hepsi 2026-11-12)
 Bek bulunan: FPS Revenue, Revenue YoY, EPS* (Yahoo est.qh); NBIS Revenue, Revenue YoY (est.qh)
 Bek bulunamayan: EROC tüm satırlar (est.qh geliri aralık dışı); NBIS EPS (eşleşme yok); diğer tüm satırlar; MarketBeat sayfası aramada bulunamadı. FPS surpriz kaydı (0.25) önceki çeyreğe ait olduğundan kullanılmadı.
@@ -14,8 +14,14 @@ SONUC: YAZILDI
 Neden: 3 yeni bulten icin tablo yazildi (commit 3840912, main'e push; build/deploy success, durum.json 2026-11-13T00:27:49Z).
 Islenen: AMAT 2026-11-12 (0001628280-26-073360), CSCO 2026-11-12 (0000858877-26-000170), CBRS 2026-11-12 (0001628280-26-073366).
 Atlanan: NBIS 0001104659-26-126238 (MD&A eki; ayni sonuclar 0001104659-26-126008 ile tabloda zaten var).
-Tetik: bildirim dali 2.5 saat eski, bilanco dali 6 saat eski -> tetik gerekmedi.
+Tetik: bildirim dali son commit 02:10Z (13 saat once, 3 saati asiyor) ancak yeni bulten zaten indirilmis; tetik gonderilmedi. bilanco dali 18:21Z dun (<30 saat), tetik gerekmedi.
 Bek bulunan: AMAT gelir/YoY/EPS + gelecek ceyrek gelir/EPS (est.qh 2026-11-11); CSCO gelir/YoY/EPS + gelecek ceyrek gelir/EPS (est.qh); CBRS gelecek ceyrek gelir (est.qh 274.9).
 Bek bulunamayan: AMAT/CSCO/CBRS diger satirlar; CBRS bu ceyrek gelir (GAAP/Core esas belirsiz, bilerek null) ve EPS (-0.67 vs kayit -0.143, +-35% disi); MarketBeat denenmedi.
 Not: CBRS FCF yazilmadi (bultende yalniz 9 aylik nakit akisi, ceyreklik yok). toplu uretici yeni ceyrek Yahoo kaydi olmadigi icin uretmedi; elle hazirlandi. --temizle: 0 silindi.
 Denetim: tablo_kontrol: tamam (0 hata).
+=== 2026-11-13T15:24:18Z (ET 2026-11-13T10:24:18-0500) ===
+SONUC: YAZILMADI
+Neden: Yeni sonuc bulteni yok; tek aday NBIS 0001104659-26-126238 (2026-11-12) 6-K MD&A (operating and financial review), sonuc bildirisi degil; tablo mevcut 0001104659-26-126008 bultenindeki kalir.
+Tetik: bildirim dali son commit 02:10Z (13 saat once, 3 saati asiyor) ancak yeni bulten zaten indirilmis; tetik gonderilmedi. bilanco dali 18:21Z dun (<30 saat), tetik gerekmedi.
+Islenen semboller: yok. Bek: degisiklik yok.
+Eski tablo temizligi: silinen 0. Denetim: calistirilmadi (yazilacak tablo yok).
