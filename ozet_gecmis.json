@@ -641,5 +641,24 @@
    "btc": "asagi",
    "not": "Kore üst üste ikinci gün geriledi, Japonya dünkü kaybı geri alıp yükseldi; ikisi haftalıkta artıda, aylıkta eksi ve ortalamalarının altında. Bitcoin belirgin düştü, uzun vadeli ortalamanın altına indi. Not: Kore kapanışı ikinci kaynakla küçük bir fark gösterdi (uyarı)"
   }
+ },
+ {
+  "date": "2026-11-13",
+  "gun": "asagi",
+  "trend": "karisik",
+  "vix": "normal",
+  "vix_yon": "yukseldi",
+  "katilim": "orta",
+  "katilim_yon": "genisledi",
+  "sektor_onde": [
+   "temel tuketim",
+   "iletisim"
+  ],
+  "sektor_geride": [
+   "teknoloji",
+   "dongusel tuketim"
+  ],
+  "ai": "cok zayif",
+  "not": "Üst üste ikinci hafif düşüş, teknoloji ve çipler yönlendirdi; Nasdaq uzun vadeli ortalamanın altına indi, küçük şirketler uzun vadeli ortalamanın altına geçti; eşit ağırlıklı hisseler büyüklerden iyi, katılım endekse rağmen genişledi; korku endeksi ikinci gün yükseldi ama normal"
  }
 ]
