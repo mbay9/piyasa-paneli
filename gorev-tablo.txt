@@ -25,3 +25,10 @@ Neden: Yeni sonuc bulteni yok; tek aday NBIS 0001104659-26-126238 (2026-11-12) 6
 Tetik: bildirim dali son commit 02:10Z (13 saat once, 3 saati asiyor) ancak yeni bulten zaten indirilmis; tetik gonderilmedi. bilanco dali 18:21Z dun (<30 saat), tetik gerekmedi.
 Islenen semboller: yok. Bek: degisiklik yok.
 Eski tablo temizligi: silinen 0. Denetim: calistirilmadi (yazilacak tablo yok).
+
+== 2026-11-14 00:25:29 UTC / 2026-11-13 19:25:29 EST ==
+SONUC: YAZILMADI
+Neden: Yeni sonuc bultenı yok; tek yeni basvuru NBIS 0001104659-26-126238 (2026-11-12) ayni ceyregin MD&A/Operating Review eki (sonuc bildirisi degil), tabloda 0001104659-26-126008 zaten var.
+Tetik 1b: bildirim dali son commit 2026-11-13T02:10Z (>3 saat) -> gh api dispatch ile bildirim.yml baslatildi (basarili); dal 2026-11-14T00:25Z'de yenilendi, yeniden tarandi.
+Tetik 1c: bilanco dali son commit 2026-11-13T17:45Z (<30 saat) -> gerek yok (bugun cumartesi).
+Islenen semboller: yok. bek bulunan/bulunamayan satirlar: yok. Denetim: calistirilmadi (yazilacak tablo yok).
