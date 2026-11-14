@@ -1,0 +1,131 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/827054/000082705426000016/mchp-20260331.htm
+SEMBOL: MCHP
+BASVURU_TARIHI: 2026-05-21
+BASVURU: 0000827054-26-000016
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+| Fiscal Year Ended March 31, |
+| 2026 | 2025 | 2024 |
+Cash flows from operating activities: | | |
+Net income (loss) | $ | 230.0 | $ | ( 0.5 ) | $ | 1,906.9 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 689.3 | 750.1 | 879.5 |
+Deferred income taxes | ( 64.6 ) | ( 143.3 ) | ( 27.2 ) |
+Share-based compensation expense related to equity incentive plans | 255.4 | 180.4 | 177.5 |
+Loss on settlement of debt | — | 1.7 | 12.2 |
+Amortization of debt discount | 27.2 | 64.8 | 37.5 |
+Amortization of debt issuance costs | 5.9 | 7.8 | 7.3 |
+Impairment of intangible assets | 4.1 | — | 1.8 |
+Other | ( 17.5 ) | ( 63.0 ) | ( 26.1 ) |
+Changes in operating assets and liabilities, excluding impact of acquisitions: |
+(Increase) decrease in accounts receivable | ( 204.5 ) | 454.0 | 161.6 |
+Decrease in inventories | 264.3 | 31.6 | 12.8 |
+Increase (decrease) in accounts payable and accrued liabilities | 26.0 | ( 345.6 ) | ( 148.4 ) |
+Change in other assets and liabilities | ( 105.8 ) | ( 38.1 ) | ( 64.2 ) |
+Change in income tax payable | ( 147.7 ) | ( 1.8 ) | ( 38.5 ) |
+Net cash provided by operating activities | 962.1 | 898.1 | 2,892.7 |
+Cash flows from investing activities: | | |
+Other investing | 1.3 | 2.4 | 0.4 |
+Proceeds from capital-related government incentives | 5.1 | 0.4 | 6.0 |
+Investments in other assets | ( 110.8 ) | ( 164.6 ) | ( 113.4 ) |
+Capital expenditures | ( 91.1 ) | ( 126.0 ) | ( 285.1 ) |
+Net cash used in investing activities | ( 195.5 ) | ( 287.8 ) | ( 392.1 ) |
+Cash flows from financing activities: | | |
+Proceeds from borrowings on Revolving Credit Facility | — | 68.0 | 6,271.0 |
+Repayments of Revolving Credit Facility | — | ( 68.0 ) | ( 6,371.0 ) |
+Proceeds from borrowings on 2025 Term Loan Facility | — | — | 750.0 |
+Repayments of 2025 Term Loan Facility | — | ( 750.0 ) | — |
+Proceeds from issuance of Commercial Paper | 6,416.3 | 13,937.5 | 9,039.1 |
+Repayments of Commercial Paper | ( 6,242.6 ) | ( 15,113.9 ) | ( 7,688.7 ) |
+Proceeds from issuance of senior notes | — | 1,992.2 | 994.7 |
+Repayment of senior notes | ( 1,200.0 ) | ( 1,000.0 ) | ( 3,400.0 ) |
+Proceeds from issuance of convertible debt | 900.0 | 1,250.0 | — |
+Payments on settlement of convertible debt | — | ( 672.2 ) | ( 132.8 ) |
+Issuance of Series A Preferred Stock | — | 1,449.5 | — |
+Deferred financing costs | ( 16.6 ) | ( 19.7 ) | ( 3.0 ) |
+Purchase of capped call options | ( 68.0 ) | ( 160.1 ) | — |
+Proceeds from sale of common stock | 61.7 | 65.4 | 82.1 |
+Tax payments related to shares withheld for vested RSUs | ( 51.4 ) | ( 57.6 ) | ( 61.1 ) |
+Repurchase of common stock | — | ( 96.5 ) | ( 982.1 ) |
+Payment of cash dividends on Series A Preferred Stock | ( 108.5 ) | — | — |
+Payment of cash dividends on common stock | ( 984.0 ) | ( 975.7 ) | ( 911.5 ) |
+Capital lease payments | ( 1.6 ) | ( 1.6 ) | ( 1.6 ) |
+Other Financing | ( 3.3 ) | ( 5.6 ) | — |
+Net cash used in financing activities | ( 1,298.0 ) | ( 158.3 ) | ( 2,414.9 ) |
+Net (decrease) increase in cash and cash equivalents | ( 531.4 ) | 452.0 | 85.7 |
+Cash and cash equivalents, at beginning of period | 771.7 | 319.7 | 234.0 |
+F-7
+Table of Contents
+| Fiscal Year Ended March 31, |
+| 2026 | 2025 | 2024 |
+Cash and cash equivalents, at end of period | $ | 240.3 | $ | 771.7 | $ | 319.7 |
+Supplemental disclosure of cash flow information: |
+Non-cash activities: |
+ROU assets obtained in exchange of lease liabilities | $ | 28.9 | $ | 10.2 | $ | 28.0 |
+Cash paid for: |
+Interest | $ | 211.1 | $ | 236.2 | $ | 191.2 |
+Income taxes (1) :
+| $ | 175.2 | $ | 517.1 |
+U.S. federal | $ | 166.4 |
+U.S. state and local | $ | 3.4 |
+Foreign: |
+Germany | $ | 15.1 |
+Malta | $ | 13.3 |
+Other foreign jurisdictions | $ | 46.3 |
+Operating lease payments in operating cash flows | $ | 42.3 | $ | 40.0 | $ | 39.0 |
+(1) The Company adopted ASU 2023-09 on a prospective basis. As such, cash paid for income taxes for the years ended March 31, 2025 and March 31, 2024 were not adjusted to reflect current year presentation.
+See accompanying notes to consolidated financial statements
+F-8
+Table of Contents
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY
+(in millions)
+Preferred Stock Par Value | Common Stock Par Value | Additional Paid-in-Capital | Common Stock Held in Treasury | Accumulated Other Comprehensive Loss | Retained Earnings | Total Equity |
+Balance at March 31, 2023 | $ | — | $ | 0.5 | $ | 2,413.3 | $ | ( 1,660.2 ) | $ | ( 4.1 ) | $ | 5,764.1 | $ | 6,513.6 |
+Net income | — | — | — | — | — | 1,906.9 | 1,906.9 |
+Other comprehensive income | — | — | — | — | 0.6 | — | 0.6 |
+Proceeds from sales of common stock through employee equity incentive plans | — | — | 82.1 | — | — | — | 82.1 |
+RSU withholdings | — | — | ( 61.1 ) | — | — | — | ( 61.1 ) |
+Treasury stock used for new issuances | — | — | ( 67.5 ) | 67.5 | — | — | — |
+Repurchase of common stock | — | — | — | ( 988.9 ) | — | — | ( 988.9 ) |
+Settlement of convertible debt | — | — | ( 65.3 ) | — | — | — | ( 65.3 ) |
+Share-based compensation | — | — | 181.4 | — | — | — | 181.4 |
+Dividends on common stock | — | — | — | — | — | ( 911.5 ) | ( 911.5 ) |
+Balance at March 31, 2024 | — | 0.5 | 2,482.9 | ( 2,581.6 ) | ( 3.5 ) | 6,759.5 | 6,657.8 |
+Net (loss) | — | — | — | — | — | ( 0.5 ) | ( 0.5 ) |
+Other comprehensive income | — | — | — | — | 1.8 | — | 1.8 |
+Issuance of Series A Preferred Stock | — | — | 1,449.5 | — | — | — | 1,449.5 |
+Proceeds from sales of common stock through employee equity incentive plans | — | — | 65.4 | — | — | — | 65.4 |
+RSU withholdings | — | — | ( 57.6 ) | — | — | — | ( 57.6 ) |
+Treasury stock used for new issuances | — | 0.1 | ( 59.7 ) | 59.6 | — | — | — |
+Repurchase of common stock | — | — | — | ( 89.6 ) | — | — | ( 89.6 ) |
+Purchase of capped call options | — | — | ( 160.1 ) | — | — | — | ( 160.1 ) |
+Share-based compensation | — | — | 189.5 | — | — | — | 189.5 |
+Dividends on Series A Preferred Stock | — | — | — | — | — | ( 2.2 ) | ( 2.2 ) |
+Dividends on common stock | — | — | — | — | — | ( 975.7 ) | ( 975.7 ) |
+Balance at March 31, 2025 | — | 0.6 | 3,909.9 | ( 2,611.6 ) | ( 1.7 ) | 5,781.1 | 7,078.3 |
+Net income | — | — | — | — | — | 230.0 | 230.0 |
+Other comprehensive loss | — | — | — | — | ( 2.5 ) | — | ( 2.5 ) |
+Common stock issued for acquisition | — | — | 19.1 | — | — | — | 19.1 |
+Proceeds from sales of common stock through employee equity incentive plans | — | — | 61.7 | — | — | — | 61.7 |
+RSU withholdings | — | — | ( 51.4 ) | — | — | — | ( 51.4 ) |
+Treasury stock used for new issuances | — | — | ( 60.2 ) | 60.2 | — | — | — |
+Purchase of capped call options | — | — | ( 68.0 ) | — | — | — | ( 68.0 ) |
+Share-based compensation | — | — | 260.4 | — | — | — | 260.4 |
+Dividends on Series A Preferred Stock | — | — | — | — | — | ( 111.2 ) | ( 111.2 ) |
+Dividends on common stock | — | — | — | — | — | ( 984.0 ) | ( 984.0 ) |
+Balance at March 31, 2026 | $ | — | $ | 0.6 | $ | 4,071.5 | $ | ( 2,551.4 ) | $ | ( 4.2 ) | $ | 4,915.9 | $ | 6,432.4 |
+See accompanying notes to consolidated financial statements
+F-9
+Table of Contents
+MICROCHIP TECHNOLOGY INCORPORATED AND SUBSIDIARIES
+Notes to Consolidated Financial Statements
+Note 1 . Significant Accounting Policies
+Nature of Business
+Microchip Technology Incorporated (Microchip or the Company) develops, manufactures and sells smart, connected and secure embedded control solutions used by its customers for a wide variety of applications. The Company provides cost-effective embedded control solutions that also offer the advantages of small size, high performance, extreme low power usage, wide voltage range operation, mixed-signal integration, and ease of development, thus enabling timely and cost-effective integration of the Company's solutions by its customers in their end products.
+Principles of Consolidation
+The Company prepares its consolidated financial statements in accordance with U.S. GAAP. The consolidated financial statements include the accounts of Microchip and its majority-owned and controlled subsidiaries. All significant intercompany accounts and transactions have been eliminated in consolidation. All dollar amounts in the financial statements and tables in these notes, except per share amounts, are stated in millions of U.S. dollars unless otherwise noted. For comparative purposes, certain prior year amounts have been reclassified to conform to the current year presentation and such changes are not material to our consolidated financial statements.
+Revenue Recognition
+The Company generates revenue primarily from sales of semiconductor products to distributors and non-distributor customers (direct customers) and, to a lesser extent, from royalties paid by licensees of intellectual property. The Company applies the following five-step approach to determine the timing and amount of revenue recognition: (i) identify the contract with the customer, (ii) identify performanc

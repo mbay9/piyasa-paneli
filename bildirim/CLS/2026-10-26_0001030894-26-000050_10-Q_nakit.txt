@@ -1,0 +1,96 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1030894/000103089426000050/cls-20260930.htm
+SEMBOL: CLS
+BASVURU_TARIHI: 2026-10-26
+BASVURU: 0001030894-26-000050
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions of U.S. dollars)
+(unaudited)
+Three months ended | Nine months ended |
+September 30 | September 30 |
+Cash provided by (used in): | Note | 2026 | 2025 | 2026 | 2025 |
+Operating activities: |
+Net earnings | $ | 397.2 | $ | 267.8 | $ | 978.3 | $ | 565.0 |
+Adjustments to reconcile net earnings to net cash flows provided by operating activities:
+|
+Depreciation and amortization | 48.5 | 40.3 | 132.1 | 123.0 |
+SBC | 9 | 21.3 | 15.6 | 71.1 | 56.8 |
+Total return swap (TRS) fair value adjustments | 9 | 3.9 | ( 113.3 ) | ( 83.2 ) | ( 191.6 ) |
+Restructuring and other charges (recoveries) | 11 | — | 2.5 | ( 10.0 ) | 2.9 |
+Unrealized losses on hedge derivatives
+| — | 1.1 | — | 3.7 |
+Deferred income taxes
+| ( 26.2 ) | ( 1.1 ) | ( 74.8 ) | ( 16.1 ) |
+Other | 7.0 | 5.7 | 9.8 | 24.1 |
+Changes in non-cash working capital items: |
+Accounts receivable | ( 424.9 ) | ( 151.5 ) | ( 1,125.0 ) | ( 370.3 ) |
+Inventories | ( 1,108.0 ) | ( 128.6 ) | ( 2,321.7 ) | ( 286.1 ) |
+Other current assets | ( 22.9 ) | ( 0.9 ) | ( 10.2 ) | ( 7.3 ) |
+Accounts payable, accrued and other current liabilities, provisions and income taxes payable
+| 1,493.8 | 188.6 | 3,590.5 | 504.8 |
+Net cash provided by operating activities
+| 389.7 | 126.2 | 1,156.9 | 408.9 |
+Investing activities: |
+Purchase of property, plant and equipment
+| ( 274.1 ) | ( 37.3 ) | ( 767.4 ) | ( 106.5 ) |
+Proceeds from sale of assets
+| 11.9 | — | 23.0 | — |
+Other
+| — | — | ( 2.5 ) | ( 2.5 ) |
+Net cash used in investing activities
+| ( 262.2 ) | ( 37.3 ) | ( 746.9 ) | ( 109.0 ) |
+Financing activities: |
+Borrowings under revolving loans | 8 | 210.0 | — | 810.0 | 500.0 |
+Repayments under revolving loans | 8 | ( 210.0 ) | ( 90.0 ) | ( 810.0 ) | ( 500.0 ) |
+Borrowings under term loans
+| 8 | — | — | 250.0 | — |
+Repayments under term loans | 8 | ( 4.4 ) | ( 4.4 ) | ( 238.1 ) | ( 13.1 ) |
+Principal payments of finance leases
+| ( 2.3 ) | ( 2.4 ) | ( 7.3 ) | ( 7.6 ) |
+Proceeds from issuance of capital stock under SBC plans | — | — | — | 0.3 |
+Proceeds from issuance of capital stock under public offering, net of issuance costs | 9 | 3,391.3 | — | 3,391.3 | — |
+Repurchase of capital stock for cancellation | 9 | — | — | ( 22.6 ) | ( 117.7 ) |
+Purchase of treasury stock for SBC plans | 9 | ( 37.6 ) | — | ( 37.6 ) | ( 221.6 ) |
+Proceeds from TRS settlement
+| 15 | — | — | — | 98.6 |
+SBC cash settlement | 9 | ( 47.3 ) | — | ( 373.6 ) | ( 156.0 ) |
+Debt issuance costs paid
+| ( 1.6 ) | — | ( 6.4 ) | ( 0.2 ) |
+Net cash provided by (used in) financing activities
+| 3,298.1 | ( 96.8 ) | 2,955.7 | ( 417.3 ) |
+Net increase (decrease) in cash and cash equivalents | 3,425.6 | ( 7.9 ) | 3,365.7 | ( 117.4 ) |
+Cash and cash equivalents, beginning of period
+| 535.7 | 313.8 | 595.6 | 423.3 |
+Cash and cash equivalents, end of period
+| $ | 3,961.3 | $ | 305.9 | $ | 3,961.3 | $ | 305.9 |
+Supplemental disclosure information: |
+Interest paid | $ | 17.9 | $ | 13.4 | $ | 57.2 | $ | 40.7 |
+Net income taxes paid
+| $ | 138.9 | $ | 45.7 | $ | 284.4 | $ | 101.9 |
+Non-cash investing activity: |
+Unpaid purchases of property, plant and equipment at end of period | $ | 238.3 | $ | 24.4 | $ | 238.3 | $ | 24.4 |
+The accompanying notes are an integral part of these unaudited interim condensed consolidated financial statements.
+6
+CELESTICA INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+1. REPORTING ENTITY
+Celestica Inc. (referred to herein as Celestica, the Company, we, us, or our) is incorporated in Ontario with its corporate headquarters located in Toronto, Ontario, Canada. Celestica’s common shares (Common Shares) are listed on the New York Stock Exchange (NYSE) and Toronto Stock Exchange (TSX). Our operating and reportable segments consist of the Connectivity & Cloud Solutions (CCS) segment and the Advanced Technology Solutions (ATS) segment. See note 3 for further detail regarding segment information.
+2. BASIS OF PREPARATION AND SIGNIFICANT ACCOUNTING POLICIES
+Basis of preparation:
+These unaudited interim condensed consolidated financial statements for the period ended September 30, 2026 (Q3 2026 Interim Financial Statements) have been prepared in accordance with generally accepted accounting principles in the United States (GAAP) for interim financial reporting, and the instructions to Form 10-Q and Article 10 of Regulation S-X. Certain information or footnote disclosures, normally included in annual financial statements prepared in accordance with GAAP, have been condensed or omitted pursuant to the rules and regulations of the U.S. Securities and Exchange Commission for interim financial reporting. Accordingly, they do not include all of the information and footnotes required by GAAP for complete financial statements. The Q3 2026 Interim Financial Statements, in the opinion of management, reflect all normal and recurring adjustments necessary to present fairly our financial position, operating results and cash flows for the periods presented. Results for interim periods are not necessarily an indication of results to be expected for the year. The three and nine months ended September 30, 2026 are referred to herein as Q3 2026 and YTD 2026, respectively. The Q3 2026 Interim Financial Statements should be read in conjunction with our 2025 annual consolidated financial statements and related notes ( 2025 AFS) which are included in our Annual Report on Form 10-K for the year ended December 31, 2025. The Q3 2026 Interim Financial Statements are presented in United States (U.S.) dollars, which is also Celestica's functional currency. Unless otherwise noted, all financial information is presented in millions of U.S. dollars (except percentages and per share/per unit amounts). We have reclassified certain prior period information to conform with the presentation of the current period.
+Basis of consolidation:
+These consolidated financial statements include our subsidiaries, all of which are wholly owned. Any subsidiaries that are formed or acquired during the year are consolidated from their respective dates of formation or acquisition. Inter-company transactions and balances are eliminated on consolidation.
+Use of estimates and judgments:
+The preparation of financial statements requires management to make judgments, estimates and assumptions that affect the application of accounting policies, the reported amounts of assets, liabilities, revenue and expenses, and related disclosures with respect to contingent assets and liabilities. We base our judgments, estimates and assumptions on current facts, historical experience and various other factors that we believe are reasonable under the circumstances. The economic environment also impacts certain estimates and discount rates necessary to prepare our consolidated financial statements, including significant estimates and discount rates applicable to the determination of the fair values used in the impairment testing of our non-financial assets. Our assessment of these factors forms the basis for our judgments on the carrying values of our assets and liabilities, and the accrual of our costs and expenses. Actual results could differ materially from our estimates and assumptions. We review our estimates and underlying assumptions on an ongoing basis and make revisions as determined necessary by management. Revisions are recognized in the period in which the estimates are revised and may also impact future periods.
+Our review of the estimates, judgments and assumptions used in the preparation of the Q3 2026 Interim Financial Statements included those relating to, among others: our determination of the timing of revenue recognition, the determination of whether indicators of impairment existed for our assets and reporting units, our measurement of deferred tax assets and liabilities, our estimated inventory write-downs, expected credit losses, and customer creditworthiness. Any revisions to estimates, judgments or assumptions may result in, among other things, write-downs, accelerated depreciation or amortization, or impairments of our assets or our reporting units, any of which could have a material impact on our financial performance and financial condition.
+7
+CELESTICA INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(in millions of U.S. dollars, except percentages and per share amounts)
+(unaudited)
+Due to global economic conditions, including the impact of ongoing trade conflicts, tariffs, rising interest rates, and geopolitical conflicts, there has been and we expect there will continue to be uncertainty in the global economy. Management has made estimates and assumptions based on information available as of the date of issuance of the Q3 2026 Interim Financial Statements taking into consideration certain possible impacts due to the foregoing factors. These estimates may change, as new events occur, or additional information is obtained.
+Significant accounting policies:
+T

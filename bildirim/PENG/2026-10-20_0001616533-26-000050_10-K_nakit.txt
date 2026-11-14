@@ -1,0 +1,93 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1616533/000161653326000050/peng-20260828.htm
+SEMBOL: PENG
+BASVURU_TARIHI: 2026-10-20
+BASVURU: 0001616533-26-000050
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows
+(In thousands)
+Year Ended | August 28,
+2026 | August 29,
+2025 | August 30,
+2024 |
+Cash flows from operating activities |
+Net income (loss) | $ | 185,788 | $ | 28,835 | $ | ( 49,933 ) |
+Net loss from discontinued operations | — | — | ( 8,148 ) |
+Net income (loss) from continuing operations | 185,788 | 28,835 | ( 41,785 ) |
+Adjustments to reconcile net income (loss) from continuing operations to net cash provided by (used for) operating activities: |
+Depreciation expense and amortization of intangible assets | 50,176 | 56,216 | 65,716 |
+Amortization of debt issuance costs | 2,728 | 3,493 | 3,724 |
+Stock-based compensation expense | 31,815 | 41,176 | 43,160 |
+Loss on impairment of non-marketable equity investment | 10,000 | — | — |
+Impairment of goodwill | — | 16,063 | — |
+Loss on extinguishment of debt | — | 2,908 | 22,763 |
+Inducement expense related to the conversion of the 2029 and 2030 Notes | 33,248 | — | — |
+Gain on disposition of equity investment | ( 30,942 ) | — | — |
+Deferred income taxes, net | ( 62,660 ) | ( 14,112 ) | ( 11,042 ) |
+Other | 1,969 | ( 2,293 ) | ( 2,689 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable (including related party balances of $ 683 , $ — , and $ — as of August 28, 2026, August 29, 2025, and August 30, 2024, respectively)
+| ( 488,360 ) | ( 56,160 ) | ( 32,495 ) |
+Inventories | ( 493,603 ) | ( 101,610 ) | 23,765 |
+Other assets | 964 | 7,653 | 9,098 |
+Accounts payable and accrued expenses and other liabilities | 606,963 | 131,014 | 54,306 |
+Payment of acquisition-related contingent consideration | — | — | ( 29,000 ) |
+Net cash provided by (used for) operating activities from continuing operations | ( 151,914 ) | 113,183 | 105,521 |
+Net cash used for operating activities from discontinued operations | — | ( 4,099 ) | ( 28,336 ) |
+Net cash provided by (used for) operating activities | ( 151,914 ) | 109,084 | 77,185 |
+Cash flows from investing activities |
+Capital expenditures and deposits on equipment | ( 11,569 ) | ( 9,012 ) | ( 19,424 ) |
+Proceeds from sales and maturities of investment securities | — | 66,361 | 39,395 |
+Purchases of held-to-maturity investment securities | — | ( 59,066 ) | ( 19,503 ) |
+Purchases of non-marketable investments | — | — | ( 11,000 ) |
+Proceeds from disposition of equity investments | 71,752 | — | — |
+Other | ( 2,093 ) | ( 1,660 ) | ( 1,272 ) |
+Net cash provided by (used for) investing activities from continuing operations | 58,090 | ( 3,377 ) | ( 11,804 ) |
+Net cash provided by investing activities from discontinued operations | — | 28,350 | 119,389 |
+Net cash provided by (used for) investing activities | 58,090 | 24,973 | 107,585 |
+Cash flows from financing activities |
+Repayments of debt | ( 315,454 ) | ( 300,015 ) | ( 351,337 ) |
+Payments to acquire common stock | ( 74,427 ) | ( 52,320 ) | ( 21,309 ) |
+Payment of acquisition-related contingent consideration | — | — | ( 21,000 ) |
+Net cash paid for settlement and purchase of capped calls | ( 49,125 ) | — | ( 16,300 ) |
+Distribution to noncontrolling interest | — | — | ( 1,470 ) |
+Proceeds from debt, net of lender debt issuance costs | 736,500 | — | 192,694 |
+Payment of third-party debt issuance costs | ( 1,341 ) | — | — |
+Proceeds from issuance of common stock | 10,358 | 8,804 | 9,809 |
+Proceeds from restricted cash advances | 93,000 | — | — |
+Payment of preferred stock cash dividends | ( 12,233 ) | ( 7,860 ) | — |
+Repayments of borrowings under line of credit | ( 100,000 ) | — | — |
+Proceeds from issuance of convertible preferred stock, net of issuance costs | — | 191,182 | — |
+Proceeds from borrowing under line of credit | — | 100,000 | — |
+Fees paid for revolving line of credit financing | — | ( 3,255 ) | — |
+Other | — | — | ( 582 ) |
+Net cash provided by (used for) financing activities from continuing operations | 287,278 | ( 63,464 ) | ( 209,495 ) |
+Net cash used for financing activities from discontinued operations | — | — | ( 606 ) |
+Net cash provided by (used for) financing activities | 287,278 | ( 63,464 ) | ( 210,101 ) |
+Effect of changes in currency exchange rates | — | — | ( 1,256 ) |
+Net increase in cash, cash equivalents and restricted cash | 193,454 | 70,593 | ( 26,587 ) |
+Cash, cash equivalents and restricted cash at beginning of period | 454,070 | 383,477 | 410,064 |
+Cash, cash equivalents and restricted cash at end of period | $ | 647,524 | $ | 454,070 | $ | 383,477 |
+The accompanying notes are an integral part of these consolidated financial statements.
+76
+|
+|
+Penguin Solutions, Inc.
+Notes to Consolidated Financial Statements
+(Tabular amounts in thousands, except per share amounts)
+Significant Accounting Policies
+Basis of Presentation
+U.S. Domestication : On June 30, 2025, we consummated the redomiciliation of the parent company of our corporate group, Penguin Solutions (Cayman), Inc., formerly known as Penguin Solutions, Inc., a Cayman Islands exempted company (“Penguin Solutions Cayman”), from the Cayman Islands to the State of Delaware in the United States, resulting in Penguin Solutions, Inc., a Delaware corporation (“Penguin Solutions Delaware”), becoming our publicly traded parent company (the “U.S. Domestication”). The U.S. Domestication was approved by the shareholders of Penguin Solutions Cayman and effected via a court-sanctioned scheme of arrangement under Cayman Islands law, pursuant to which each ordinary share of Penguin Solutions Cayman was exchanged for one share of common stock of Penguin Solutions Delaware, and each convertible preferred share of Penguin Solutions Cayman was exchanged for one share of convertible preferred stock of Penguin Solutions Delaware.
+The accompanying consolidated financial statements include the accounts of Penguin Solutions Cayman and its consolidated subsidiaries prior to the consummation of the U.S. Domestication and the accounts of Penguin Solutions Delaware and its consolidated subsidiaries after the consummation of the U.S. Domestication, and have been prepared in accordance with accounting principles generally accepted in the United States of America. Unless stated otherwise or the context otherwise requires, references to “Penguin Solutions,” “we,” “us,” “our,” and the “Company” in the accompanying consolidated financial statements (i) for periods prior to the consummation of the U.S. Domestication refer to Penguin Solutions Cayman and its consolid ated subsidiaries and (ii) for periods at or after the consummation of the U.S. Domestication refer to Penguin Solutions Delaware and its consolidated subsidiaries. Intercompany balances and transactions have been eliminated in consolidation.
+Company Name Change : On October 15, 2024, we changed our name from SMART Global Holdings, Inc. to Penguin Solutions, Inc. The change reflects our focus on key areas such as artificial intelligence (“AI”) infrastructure deployment, advanced memory enterprise solutions and high-performance computing (“HPC”).
+Presentation of SMART Brazil as Discontinued Operations : On June 13, 2023, we entered into an agreement to divest of an 81 % interest in SMART Modular Technologies do Brasil – Indústria e Comércio de Componentes Ltda. (“SMART Brazil”). We concluded that, as of August 25, 2023, (i) the net assets of SMART Brazil met the criteria for classification as held for sale and (ii) the proposed sale represented a strategic shift that was expected to have a major effect on our operations and financial results. On November 29, 2023, we completed the divestiture. The balance sheets, results of operations and cash flows of SMART Brazil have been presented as discontinued operations for all periods presented. SMART Brazil was previously included within our Integrated Memory segment. See “Divestiture of SMART Brazil.”
+Unless otherwise noted, amounts and discussion within these notes to the consolidated financial statements relate to our continuing operations.
+Reclassifications : Certain reclassifications have been made to prior period amounts to conform to current period presentation.
+Fiscal Year : Our fiscal year is the 52- or 53-week period ending on the last Friday in August. Fiscal years 2026, 2025 and 2024 contained 52, 52 and 53 weeks, respectively. All period references are to our fiscal periods unless otherwise indicated.
+Financial information for our former subsidiaries in Brazil was included in our consolidated financial statements on a one-month lag because their fiscal years ended on July 31 of each year. In connection with the completion of the divestiture of an 81 % interest in SMART Brazil, we ceased consolidating the operations of SMART Brazil in our financial statements as of the November 29, 2023 disposal date. As a result, financial information for the first
+77
+|
+|
+quarter of 2024 included the four-month period for our SMART Brazil operations from August 1, 2023 to November 29, 2023.
+Use of Estimates
+The preparation of financial statements and related disclosures in conformity with accounting principles gener

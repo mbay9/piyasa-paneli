@@ -1,0 +1,148 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/106040/000162828026029054/wdc-20260403.htm
+SEMBOL: WDC
+BASVURU_TARIHI: 2026-05-01
+BASVURU: 0001628280-26-029054
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+Nine Months Ended |
+April 3,
+2026 | March 28,
+2025 |
+Cash flows from operating activities |
+Net income | $ | 6,229 | $ | 1,607 |
+Adjustments to reconcile net income to net cash provided by operations:
+|
+Depreciation and amortization | 276 | 365 |
+Stock-based compensation | 159 | 220 |
+Deferred income taxes | 131 | ( 682 ) |
+Gain on business divestiture
+| — | ( 113 ) |
+(Gain) loss on retained interest in Sandisk
+| ( 4,448 ) | 606 |
+Costs in connection with debt-for-equity exchange
+| 545 | — |
+Other non-cash operating activities, net | 16 | 93 |
+Changes in: |
+Accounts receivable, net | ( 408 ) | 96 |
+Inventories | ( 64 ) | ( 429 ) |
+Accounts payable | 289 | 302 |
+Accrued expenses | 29 | ( 316 ) |
+Accrued compensation | 94 | ( 131 ) |
+Income taxes payable | ( 598 ) | ( 80 ) |
+Other assets and liabilities, net | 290 | ( 593 ) |
+Net cash provided by operating activities
+| 2,540 | 945 |
+Cash flows from investing activities |
+Purchases of property, plant and equipment | ( 310 ) | ( 341 ) |
+Proceeds from the sale of property, plant and equipment | — | 5 |
+Net proceeds from business divestiture
+| — | 401 |
+Notes receivable issuances to Flash Ventures | — | ( 266 ) |
+Notes receivable proceeds from Flash Ventures | — | 239 |
+Distribution from Flash Ventures
+| — | 175 |
+Strategic investments and other, net | ( 8 ) | 7 |
+Net cash provided by (used in) investing activities | ( 318 ) | 220 |
+Cash flows from financing activities |
+Issuance of stock under employee stock plans | 32 | 69 |
+Taxes paid on vested stock awards under employee stock plans | ( 197 ) | ( 92 ) |
+Repurchases of common stock | ( 1,920 ) | — |
+Dividends paid to common shareholders
+| ( 120 ) | — |
+Dividends paid to preferred shareholders
+| ( 10 ) | — |
+Repayments of debt | ( 1,564 ) | ( 257 ) |
+Proceeds from debt
+| 1,496 | 2,150 |
+Debt issuance costs | — | ( 74 ) |
+Cash transferred to Sandisk related to Separation
+| — | ( 1,366 ) |
+Net cash provided by (used in) financing activities
+| ( 2,283 ) | 430 |
+Effect of exchange rate changes on cash | ( 3 ) | 3 |
+Net increase (decrease) in cash and cash equivalents | ( 64 ) | 1,598 |
+Cash and cash equivalents, beginning of period
+| 2,114 | 1,879 |
+Cash and cash equivalents, end of period
+| $ | 2,050 | $ | 3,477 |
+Supplemental disclosure of cash flow information: |
+Cash paid for income taxes | $ | 636 | $ | 762 |
+Cash paid for interest | $ | 144 | $ | 295 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+9
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND SHAREHOLDERS’ EQUITY
+(in millions)
+(Unaudited)
+Convertible Preferred Stock | Common Stock | Treasury Stock | Additional Paid-In Capital | Accumulated Other Comprehensive Income
+| Retained Earnings | Total Shareholders’ Equity |
+Shares | Amount | Shares | Amount | Shares | Amount |
+Balance at June 27, 2025 | 0.2 | $ | 229 | 349 | $ | 3 | ( 2 ) | $ | ( 95 ) | $ | 4,621 | $ | 20 | $ | 762 | $ | 5,311 |
+Net income | — | — | — | — | — | — | — | — | 1,182 | 1,182 |
+Employee stock plans | — | — | — | — | 1 | 69 | ( 125 ) | — | — | ( 56 ) |
+Stock-based compensation | — | — | — | — | — | — | 53 | — | — | 53 |
+Repurchases of common stock | — | — | — | — | ( 6 ) | ( 557 ) | — | — | — | ( 557 ) |
+Common stock dividends | — | — | — | — | — | — | 1 | — | ( 35 ) | ( 34 ) |
+Preferred stock dividends | — | — | — | — | — | — | — | — | ( 5 ) | ( 5 ) |
+Net unrealized loss on derivative contracts, net of taxes | — | — | — | — | — | — | — | ( 6 ) | — | ( 6 ) |
+Balance at October 3, 2025 | 0.2 | 229 | 349 | 3 | ( 7 ) | ( 583 ) | 4,550 | 14 | 1,904 | 5,888 |
+Net income | — | — | — | — | — | — | — | — | 1,842 | 1,842 |
+Employee stock plans | — | — | — | — | 2 | 93 | ( 102 ) | — | — | ( 9 ) |
+Stock-based compensation | — | — | — | — | — | — | 53 | — | — | 53 |
+Repurchases of common stock | — | — | — | — | ( 4 ) | ( 619 ) | — | — | — | ( 619 ) |
+Common stock dividends | — | — | — | — | — | — | 1 | — | ( 44 ) | ( 43 ) |
+Preferred stock dividends | — | — | — | — | — | — | — | — | ( 5 ) | ( 5 ) |
+Net unrealized gain on derivative contracts, net of taxes | — | — | — | — | — | — | — | 4 | — | 4 |
+Balance at January 2, 2026 | 0.2 | 229 | 349 | 3 | ( 9 ) | ( 1,109 ) | 4,502 | 18 | 3,697 | 7,111 |
+Net income | — | — | — | — | — | — | — | — | 3,205 | 3,205 |
+Conversion of convertible preferred stock | ( 0.2 ) | ( 229 ) | — | — | 7 | 796 | ( 567 ) | — | — | 229 |
+Employee stock plans | — | — | — | — | 1 | 139 | ( 242 ) | — | — | ( 103 ) |
+Stock-based compensation | — | — | — | — | — | — | 53 | — | — | 53 |
+Repurchases of common stock | — | — | — | — | ( 3 ) | ( 757 ) | — | — | — | ( 757 ) |
+Common stock dividends | — | — | — | — | — | — | 1 | — | ( 44 ) | ( 43 ) |
+Net unrealized loss on derivative contracts, net of taxes | — | — | — | — | — | — | — | ( 15 ) | — | ( 15 ) |
+Balance at April 3, 2026 | — | $ | — | 349 | $ | 3 | ( 4 ) | $ | ( 931 ) | $ | 3,747 | $ | 3 | $ | 6,858 | $ | 9,680 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+10
+Table of Contents
+WESTERN DIGITAL CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CONVERTIBLE PREFERRED STOCK AND SHAREHOLDERS’ EQUITY
+(in millions)
+(Unaudited)
+Convertible Preferred Stock | Common Stock | Additional Paid-In Capital | Accumulated Other Comprehensive Income (Loss) | Retained Earnings | Total Shareholders’ Equity |
+Shares | Amount | Shares | Amount |
+Balance at June 28, 2024 | 0.2 | $ | 229 | 343 | $ | 3 | $ | 4,752 | $ | ( 712 ) | $ | 6,775 | $ | 10,818 |
+Net income | — | — | — | — | — | — | 493 | 493 |
+Employee stock plans | — | — | 3 | — | ( 64 ) | — | — | ( 64 ) |
+Stock-based compensation | — | — | — | — | 84 | — | — | 84 |
+Foreign currency translation adjustment | — | — | — | — | — | 121 | — | 121 |
+Net unrealized gain on derivative contracts, net of taxes | — | — | — | — | — | 191 | — | 191 |
+Balance at September 27, 2024 | 0.2 | 229 | 346 | 3 | 4,772 | ( 400 ) | 7,268 | 11,643 |
+Net income | — | — | — | — | — | — | 594 | 594 |
+Employee stock plans | — | — | 2 | — | 36 | — | — | 36 |
+Stock-based compensation | — | — | — | — | 77 | — | — | 77 |
+Foreign currency translation adjustment | — | — | — | — | — | ( 100 ) | — | ( 100 ) |
+Net unrealized loss on derivative contracts, net of taxes | — | — | — | — | — | ( 133 ) | — | ( 133 ) |
+Balance at December 27, 2024 | 0.2 | 229 | 348 | 3 | 4,885 | ( 633 ) | 7,862 | 12,117 |
+Net income | — | — | — | — | — | — | 520 | 520 |
+Distribution in connection with the Separation | — | — | — | — | ( 307 ) | 546 | ( 7,857 ) | ( 7,618 ) |
+Employee stock plans | — | — | 1 | — | 5 | — | — | 5 |
+Stock-based compensation | — | — | — | — | 59 | — | — | 59 |
+Preferred stock dividends | — | — | — | — | — | — | ( 4 ) | ( 4 ) |
+Foreign currency translation adjustment | — | — | — | — | — | 24 | — | 24 |
+Net unrealized gain on derivative contracts, net of taxes | — | — | — | — | — | 74 | — | 74 |
+Balance at March 28, 2025 | 0.2 | $ | 229 | 349 | $ | 3 | $ | 4,642 | $ | 11 | $ | 521 | $ | 5,177 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+11
+Table of Contents
+WESTERN DIGITAL CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Organization and Basis of Presentation
+Western Digital Corporation (“Western Digital,” “WD,” or the “Company”) is a leading developer, manufacturer, and provider of data storage devices and solutions based on HDD technologies.
+The Company manufactures, markets, and sells data storage devices and solutions globally through its sales personnel, dealers, distributors, retailers, and subsidiaries. Its extensive portfolio of technology and products addresses the following key end markets: “Cloud,” “Client,” and “Consumer.” Cloud is comprised primarily of products for public or private cloud environments and enterprise customers. Through the Client end market, the Company provides its original equipment manufacturer (“OEM”) and channel customers a broad array of high-performance HDD solutions across desktop and notebooks. The Consumer end market provides a wide range of retail and other end-user products, which capitalize on the strength of the Company’s product brand recognition and vast presence around the world.
+The accounting policies followed by the Company are set forth in Part II, Item 8, Note 1, Organization and Basis of Presentation, of the Notes to Consolidated Financial Statements included in the 2025 Annual Report on Form 10-K. In the opinion of management, all adjustments necessary to fairly state the Condensed Consolidated Financial Statements prepared in accordance with accounting principles generally accepted in the United States (“U.S. GAAP”) have been made. Such adjustments consist of items of a normal, recurring nature. Certain information and disclosures normally included in the Consolidated Financial Statements ha

@@ -1,0 +1,65 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1493594/000149359426000028/mtsi-20260403.htm
+SEMBOL: MTSI
+BASVURU_TARIHI: 2026-05-07
+BASVURU: 0001493594-26-000028
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited, in thousands)
+| Six Months Ended |
+| April 3, 2026 | April 4, 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net income (loss) | $ | 95,098 | $ | ( 135,864 ) |
+Adjustments to reconcile net income (loss) to net cash provided by operating activities: |
+Depreciation and intangibles amortization | 31,017 | 30,800 |
+Share-based compensation | 44,776 | 44,287 |
+Deferred income taxes | 6,649 | ( 2,747 ) |
+Loss on extinguishment of debt | — | 193,098 |
+Amortization on marketable securities, net | ( 1,251 ) | ( 3,406 ) |
+Other adjustments, net | ( 703 ) | 1,055 |
+Change in operating assets and liabilities: |
+Accounts receivable | ( 10,954 ) | ( 24,724 ) |
+Inventories | ( 14,390 ) | ( 14,961 ) |
+Prepaid expenses and other assets | ( 10,891 ) | ( 4,300 ) |
+Accounts payable | ( 5,434 ) | 14,838 |
+Accrued and other liabilities | ( 9,058 ) | 1,647 |
+Income taxes | ( 3,270 ) | 5,623 |
+Net cash provided by operating activities | 121,589 | 105,346 |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Purchases of property and equipment | ( 26,126 ) | ( 13,498 ) |
+Purchases of software licenses and licensed technology | ( 7,420 ) | ( 8,779 ) |
+Proceeds from sales and maturities of short-term investments | 176,086 | 187,554 |
+Purchases of short-term investments | ( 70,504 ) | ( 320,530 ) |
+Acquisition of business, net of cash acquired | — | ( 12,684 ) |
+Other investing | 1,480 | 804 |
+Net cash provided by (used in) investing activities | 73,516 | ( 167,133 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Proceeds from convertible notes | — | 86,629 |
+Repayment of convertible notes | ( 161,151 ) | — |
+Payments for fee on convertible note exchange and debt issuance costs | — | ( 23,126 ) |
+Payments on finance leases and other financing activities | ( 1,286 ) | ( 498 ) |
+Proceeds from employee stock purchases | 5,212 | 4,537 |
+Common stock withheld for taxes on employee equity awards | ( 51,475 ) | ( 41,260 ) |
+Net cash (used in) provided by financing activities | ( 208,700 ) | 26,282 |
+Foreign currency effect on cash | ( 26 ) | ( 375 ) |
+NET CHANGE IN CASH AND CASH EQUIVALENTS | ( 13,621 ) | ( 35,880 ) |
+CASH AND CASH EQUIVALENTS — Beginning of period | 112,142 | 146,806 |
+CASH AND CASH EQUIVALENTS — End of period | $ | 98,521 | $ | 110,926 |
+See notes to condensed consolidated financial statements. For supplemental disclosure of cash flow information, see Note 16.
+6
+MACOM TECHNOLOGY SOLUTIONS HOLDINGS, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+1. BASIS OF PRESENTATION AND SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Unaudited Interim Financial Information —The accompanying unaudited, condensed consolidated financial statements have been prepared according to the rules and regulations of the United States (the “U.S.”) Securities and Exchange Commission (the “SEC”) and, in the opinion of management, reflect all adjustments, which include normal recurring adjustments, necessary for a fair statement of the condensed consolidated balance sheets, condensed consolidated statements of operations, comprehensive income (loss), stockholders’ equity and cash flows of MACOM Technology Solutions Holdings, Inc. (“MACOM,” the “Company,” “us,” “we” or “our”) for the periods presented. We prepare our interim financial information using the same accounting principles we use for our annual audited consolidated financial statements. Certain information and note disclosures normally included in the annual audited consolidated financial statements have been condensed or omitted in accordance with prescribed SEC rules. We believe that the disclosures made in our condensed consolidated financial statements and the accompanying notes are adequate to make the information presented not misleading.
+The condensed consolidated balance sheet as of October 3, 2025 is as reported in our audited consolidated financial statements as of that date. Our accounting policies are described in the notes to our October 3, 2025 consolidated financial statements, which were included in our Annual Report on Form 10-K for our fiscal year ended October 3, 2025 filed with the SEC on November 14, 2025 (the “2025 Annual Report on Form 10-K”). We recommend that the financial statements included in this Quarterly Report on Form 10-Q be read in conjunction with the consolidated financial statements and notes included in our 2025 Annual Report on Form 10-K.
+Principles of Consolidation and Basis of Presentation —The accompanying condensed consolidated financial statements include our accounts and the accounts of our majority-owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation. In the condensed consolidated financial statements, certain prior year amounts within the condensed consolidated statement of cash flows have been reclassified to conform to the current year presentation.
+We have a 52- or 53-week fiscal year ending on the Friday closest to the last day of September. Fiscal year 2026 includes 52 weeks and fiscal year 2025 included 53 weeks. To offset the effect of holidays, for fiscal years in which there are 53 weeks, we include the extra week arising in such fiscal years in the first fiscal quarter. Our first fiscal quarter ended January 2, 2026 included 13 weeks and the first fiscal quarter ended January 3, 2025 included 14 weeks.
+Use of Estimates —The preparation of condensed consolidated financial statements in conformity with U.S. generally accepted accounting principles (“GAAP”) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities during the reporting periods, the reported amounts of revenue and expenses during the reporting periods and the disclosure of contingent assets and liabilities at the date of the financial statements. On an ongoing basis, we base estimates and assumptions on historical experience, currently available information and various other factors that management believes to be reasonable under the circumstances. Actual results may differ materially from these estimates and assumptions. The accounting policies which our management believes involve the most significant application of judgment or involve complex estimation, are inventories and associated reserves; revenue reserves; business combinations; goodwill and intangible asset valuation; share-based compensation valuations and income taxes.
+Recent Accounting Pronouncements —Our Recent Accounting Pronouncements are described in our 2025 Annual Report on Form 10-K.
+In November 2023, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2023-07, Segment Reporting (Topic 280) Improvements to Reportable Segment Disclosures , which improves disclosures about a public entity’s reportable segments and addresses requests from investors and other allocators of capital for additional, more detailed information about a reportable segment’s expenses. The amendments in this update improve financial reporting by requiring disclosure of incremental segment information on an annual and interim basis for all public entities to enable investors to develop more decision-useful financial analyses. We adopted this ASU for the fiscal year ended October 3, 2025. This ASU was applied on a retrospective basis to all periods presented. See Note 17 - Segment Reporting and Geographic Information for additional information on our interim disclosures.
+In November 2024, the FASB issued ASU 2024-04, Debt - Debt with Conversion and Other Options (Subtopic 470-20) Induced Conversions of Convertible Debt Instruments , which clarifies the requirements for determining whether certain settlements of convertible debt instruments should be accounted for as an induced conversion. We elected to early adopt ASU 2024-04 in the first fiscal quarter of 2025 and applied the amendment when assessing the accounting treatment for our debt extinguishment (discussed in Note 10 - Debt ).
+7
+In September 2025, the FASB issued ASU 2025-06, Intangible - Goodwill and Other - Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software. The ASU requires entities to begin capitalizing software costs when management authorizes and commits to funding the software project, and it is probable that the project will be completed and the software will be used for its intended purpose. We elected to early adopt ASU 2025-06 in the second fiscal quarter of 2026 and the adoption of this update did not have a material impact on our condensed consolidated financial statements and related disclosures.
+Pronouncements for Adoption in Subsequent Periods
+In December 2023, the FASB issued ASU 2023-09, Income Taxes (Topic 740) Improvements to Income Tax Disclosures , which requires greater disaggregation of income tax disclosures. The amendments in this update improve the transparency of income tax disclosures by requiring (1) consistent categories and greater disa

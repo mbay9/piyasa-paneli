@@ -1,0 +1,235 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1590364/000162828026028390/ftai3312026earningsrelease.htm
+SEMBOL: FTAI
+BASVURU_TARIHI: 2026-04-29
+BASVURU: 0001628280-26-028390
+
+EX-99.1
+2
+ftai3312026earningsrelease.htm
+EX-99.1
+Document
+FTAI Aviation Ltd. Reports First Quarter 2026 Results, Increases Dividend to $0.45 per Ordinary Share
+______________________________________________________________________
+NEW YORK, April 29, 2026 (GLOBE NEWSWIRE) – FTAI Aviation Ltd. (NASDAQ: FTAI) (the “Company” or “FTAI”) today reported financial results for the first quarter 2026. The Company’s consolidated comparative financial statements and key performance measures are attached as an exhibit to this press release.
+Financial Overview
+| | | | | | | | | | | |
+| | | |
+(in thousands, except per share data) | | | |
+Selected Financial Results | | Q1’26
+| |
+Net Income Attributable to Shareholders | | $ | 134,190 | | |
+Basic Earnings per Ordinary Share | | $ | 1.31 | | |
+Diluted Earnings per Ordinary Share | | $ | 1.29 | | |
+Adjusted EBITDA (1)
+| | $ | 325,577 | | |
+| | | |
+(1) For definitions and reconciliations of non-GAAP measures, please refer to the exhibit to this press release.
+| |
+First Quarter 2026 Dividends
+On April 28, 2026, the Company’s Board of Directors (the “Board”) declared a cash dividend on its ordinary shares of $0.45 per share for the quarter ended March 31, 2026, payable on May 26, 2026 to the holders of record on May 13, 2026.
+Additionally, on April 28, 2026, the Board declared cash dividends on its Fixed-Rate Reset Series C Cumulative Perpetual Redeemable Preferred Shares (“Series C Preferred Shares”) and Fixed-Rate Reset Series D Cumulative Perpetual Redeemable Preferred Shares (“Series D Preferred Shares”) of $0.51563 and $0.59375 per share, respectively, for the quarter ended March 31, 2026, payable on June 15, 2026 to the holders of record on June 1, 2026.
+Business Highlights
+• Generated Aerospace Products Revenue of $743.8 million and Adjusted EBITDA of $222.6 million in Q1 2026, an increase of 104% and 70%, respectively, compared to Q1 2025. (1)
+• Amended and extended existing revolving credit facility with the support of a 15 lender syndicate, increasing total commitments from $400 million to $2.025 billion and extending maturity to April 2031.
+• Upsized SCI I warehouse financing facility from $2.5 billion to $3.5 billion to support the remaining deployment of the vehicle.
+• Announced a strategic packaging and distribution joint venture with Jereh Group, a global leader in gas turbine mobile packaging, to support the planned 2027 production target of 100 Mod-1 CFM56 aeroderivative units. (2)
+• Increased quarterly dividend for the third consecutive quarter, raising it from $0.40 to $0.45 per share, supported by continued strong free cash flow generation.
+“FTAI delivered another quarter of strong execution across all three of our platforms, led by continued momentum in our core Aerospace Products offering and an expanding, increasingly diverse customer base,” said Joe Adams, Chairman and CEO. “End market demand remains robust, and our team executed well as we continue to scale the business. With a further strengthened balance sheet and significant capital available to deploy, we are well positioned to pursue attractive opportunities we see in the market to deliver sustained growth and long-term value creation for our shareholders in 2026 and beyond.”
+(1) For definitions and reconciliations of non-GAAP measures, please refer to the exhibit to this press release.
+(2) This is a forward-looking statement. Please see Cautionary Note Regarding Forward-Looking Statements below.
+1
+Additional Information
+For additional information that management believes to be useful for investors, please refer to the presentation posted on the Investor Center section of the Company’s website, https://www.ftaiaviation.com/ , and the Company’s Annual Report on Form 10-K and Quarterly Report on Form 10-Q, when available on the Company’s website. Nothing on the Company’s website is included or incorporated by reference herein.
+Conference Call
+In addition, management will host a conference call on Thursday, April 30, 2026 at 8:00 A.M. Eastern Time. The conference call may be accessed by registering via the following link https://register-conf.media-server.com/register/BI473c73de9b164133be498d6715eae345 . Once registered, participants will receive a dial-in and unique pin to access the call.
+A simultaneous webcast of the conference call will be available to the public on a listen-only basis at https://www.ftaiaviation.com/ . Please allow extra time prior to the call to visit the site and download the necessary software required to listen to the internet broadcast.
+A replay of the conference call will be available after 11:30 A.M. on Thursday, April 30, 2026 through 11:30 A.M. on Thursday, May 7, 2026 on https://ir.ftaiaviation.com/news-events/presentations/ .
+The information contained on, or accessible through, any websites included in this press release is not incorporated by reference into, and should not be considered a part of, this press release.
+About FTAI Aviation Ltd.
+FTAI combines advanced turbine technology and asset ownership to power the world’s most essential markets. Additional information is available at https://www.ftaiaviation.com/.
+Cautionary Note Regarding Forward-Looking Statements
+Certain statements in this press release may constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, including, but not limited to, whether SCI I will be able to complete deployment of capital, FTAI Power remaining on track to deliver FTAI Mod-1 and meet planned production of 100 units on time or at all, and the ability to create sustained growth and long-term value creation for our shareholders in 2026 and beyond. These statements are based on management's current expectations and beliefs and are subject to a number of trends and uncertainties that could cause actual results to differ materially from those described in the forward-looking statements, many of which are beyond the Company’s control. The Company can give no assurance that its expectations will be attained and such differences may be material. Accordingly, you should not place undue reliance on any forward-looking statements contained in this press release. For a discussion of some of the risks and important factors that could affect such forward-looking statements, see the sections entitled “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in the Company’s most recent Annual Report on Form 10-K and Quarterly Reports on Form 10-Q, which are available on the Company’s website (www.ftaiaviation.com). In addition, new risks and uncertainties emerge from time to time, and it is not possible for the Company to predict or assess the impact of every factor that may cause its actual results to differ from those contained in any forward-looking statements. Such forward-looking statements speak only as of the date of this press release. The Company expressly disclaims any obligation to release publicly any updates or revisions to any forward-looking statements contained herein to reflect any change in the Company's expectations with regard thereto or change in events, conditions, or circumstances on which any statement is based. This release shall not constitute an offer to sell or the solicitation of an offer to buy any securities.
+| | | | | |
+For further information, please contact:
+Alan Andreini
+Investor Relations
+FTAI Aviation Ltd.
+(646) 734-9414
+aandreini@ftaiaviation.com
+| Media:
+Tim Lynch / Aaron Palash / Kelly Sullivan
+Joele Frank, Wilkinson Brimmer Katcher
+(212) 355-4449
+|
+2
+Exhibit - Financial Statements
+FTAI AVIATION LTD.
+CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)
+(Dollar amounts in thousands, except share and per share data)
+| | | | | | | | | | | | | | | |
+| Three Months Ended March 31, | | |
+| 2026 | | 2025 | | | | |
+Revenues | | | | | | | |
+Aerospace products revenue | $ | 522,585 | | | $ | 264,425 | | | | | |
+MRE Contract revenue | 221,230 | | | 100,638 | | | | | |
+Lease income | 39,892 | | | 68,440 | | | | | |
+Maintenance revenue | 30,599 | | | 49,607 | | | | | |
+Asset sales revenue | 10,184 | | | 18,939 | | | | | |
+Other revenue (1)
+| 6,207 | | | 31 | | | | | |
+Total revenues | 830,697 | | | 502,080 | | | | | |
+| | | | | | | |
+Expenses | | | | | | | |
+Cost of sales | 524,268 | | | 248,714 | | | | | |
+Operating expenses | 64,987 | | | 32,438 | | | | | |
+General and administrative | 2,413 | | | 3,116 | | | | | |
+Acquisition and transaction expenses | 16,361 | | | 7,292 | | | | | |
+| | | | | | | |
+| | | | | | | |
+Depreciation and amortization | 52,289 | | | 59,562 | | | | | |
+| | | | | | | |
+| | | | | | | |
+Total expenses | 660,318 | | | 351,122 | | | | | |
+| | | | | | | |
+Other (expense) income
+| | | | | | | |
+Interest expense | (61,407) | | | (62,040) | | | | | |
+| | | | | | | |
+Equity in losses of unconsolidated entities (2)
+| (2,363) | | | (7,614) | | | | | |
+Gain on sale to the 2025 Partnership
+| 15,168 | | | 10,870 | | | | | |
+Other income | 47,582 | | | 33,071 | | | | | |
+Total other expense | (1,020) | | | (25,713) | | | | | |
+Income before income taxes
+| 169,359 | | | 125,245 | | | | | |
+Provision for income taxes
+| 31,460 | | | 22,859 | | | | | |
+Net income
+| 137,899 | | | 102,386 | | | | | |
+Less: Dividends on preferred shares | 3,709 | | | 6,115 | | | | | |
+Less: Loss on redemption of preferred shares | — | | | 6,327 | | | | | |
+Net income attributable to shareholders
+| $ | 134,190 | | | $ | 89,944 | | | | | |
+| | | | | | | |
+Earnings per share:
+| | | | | | | |
+Basic | $ | 1.31 | | | $ | 0.88 | | | | | |
+Diluted | $ | 1.29 | | | $ | 0.87 | | | | | |
+| | | | | | | |
+Weighted average shares outstanding: | | | | | | | |
+Basic | 102,575,500 | | | 102,552,436 | | | | | |
+Diluted | 104,255,902 | | | 103,159,051 | | | | | |
+(1) Includes servicing fees of $5,861 and $0 for the three months ended March 31, 2026 and 2025, respectively, from the 2025 Partnership.
+(2) Includes the profit elimination of $(10,000) and $(6,950) for the three months ended March 31, 2026 and 2025, respectively, for sales to the 2025 Partnership.
+3
+FTAI AVIATION LTD.
+CONSOLIDATED BALANCE SHEETS
+(Dollar amounts in thousands, except share and per share data)
+| | | | | | | | | | | |
+| (Unaudited) | | |
+| March 31, 2026 | | December 31, 2025 |
+Assets | | | |
+Current Assets | | | |
+Cash and cash equivalents | $ | 412,240 | | | $ | 300,476 | |
+Accounts receivable, net (1)
+| 176,873 | | | 209,907 | |
+Inventory, net | 1,364,256 | | | 1,193,773 | |
+Assets held for sale | 75,703 | | | — | |
+Other current assets (2)
+| 561,202 | | | 408,364 | |
+Total current assets | 2,590,274 | | | 2,112,520 | |
+Leasing equipment, net | 1,248,793 | | | 1,545,804 | |
+Property, plant, and equipment, net | 122,136 | | | 120,068 | |
+Investments | 313,039 | | | 314,156 | |
+Intangible assets, net | 12,872 | | | 19,929 | |
+Goodwill | 94,221 | | | 94,221 | |
+Other non-current assets | 147,576 | | | 167,060 | |
+Total assets | $ | 4,528,911 | | | $ | 4,373,758 | |
+| | | |
+Liabilities | | | |
+Current Liabilities | | | |
+Accounts payable | $ | 203,751 | | | $ | 208,224 | |
+Accrued liabilities | 136,503 | | | 90,009 | |
+Current maintenance deposits | 21,546 | | | 25,439 | |
+Current security deposits | 12,354 | | | 14,001 | |
+Liabilities held for sale | 23,420 | | | — | |
+Other current liabilities | 96,774 | | | 62,202 | |
+Total current liabilities | 494,348 | | | 399,875 | |
+Long-term debt, net | 3,451,087 | | | 3,448,891 | |
+Non-current maintenance deposits | 21,764 | | | 46,237 | |
+Non-current security deposits | 9,003 | | | 15,211 | |
+Other non-current liabilities | 121,033 | | | 129,370 | |
+Total liabilities | $ | 4,097,235 | | | $ | 4,039,584 | |
+| | | |
+Commitments and contingencies | | | |
+| | | |
+Equity | | | |
+Ordinary shares ($0.01 par value per share; 2,000,000,000 shares authorized; 102,580,660 and 102,573,283 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively)
+| $ | 1,026 | | | $ | 1,026 | |
+Preferred shares ($0.01 par value per share; 200,000,000 shares authorized; 6,800,000 and 6,800,000 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively)
+| 68 | | | 68 | |
+Additional paid in capital | 54,911 | | | 50,567 | |
+Retained earnings | 375,671 | | | 282,513 | |
+Shareholders' equity | 431,676 | | | 334,174 | |
+Total liabilities and equity | $ | 4,528,911 | | | $ | 4,373,758 | |
+(1) Includes accounts receivable from the 2025 Partnership of $35,422 and $47,294 as of March 31, 2026 and December 31, 2025, respectively.
+(2) Includes receivables from the 2025 Partnership of $18,908 and $20,681 as of March 31, 2026 and December 31, 2025, respectively.
+4
+Key Performance Measures
+In addition to net income (loss), the Chief Operating Decision Maker (“CODM”), who is the Company’s Chief Executive Officer, utilizes Adjusted EBITDA as a key performance measure. Adjusted EBITDA is not a financial measure in accordance with U.S. generally accepted accounting principles (“U.S. GAAP”). This performance measure provides the CODM with the information necessary to assess operational performance and make resource and allocation decisions. We believe Adjusted EBITDA is a useful metric for investors and analysts for similar purposes of assessing our operational performance.
+Adjusted EBITDA is defined as net income (loss) attributable to shareholders, adjusted (a) to exclude the impact of provision for (benefit from) income taxes, equity-based compensation expense, acquisition and transaction expenses, losses on the modification or extinguishment of debt and preferred shares and capital lease obligations, asset impairment charges, incentive allocations, depreciation and amortization expense, interest expense and dividends on preferred shares, internalization fee to affiliate, (b) to include the impact of our pro-rata share of Adjusted EBITDA from unconsolidated entities and (c) to exclude the impact of equity in earnings (losses) of unconsolidated entities, if any.
+Reconciliations of forward-looking non-GAAP financial measures to their most directly comparable GAAP financial measures are not included in this press release because the most directly comparable GAAP financial measures are not available on a forward-looking basis without unreasonable effort.
+The following table sets forth a reconciliation of net income attributable to shareholders to Adjusted EBITDA for the three months ended March 31, 2026 and 2025:
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended
+March 31, | | Change | | | | |
+(in thousands) | 2026 | | 2025 | | | | | | |
+Net income attributable to shareholders
+| $ | 134,190 | | | $ | 89,944 | | | $ | 44,246 | | | | | | | |
+Add: Provision for income taxes
+| 31,460 | | | 22,859 | | | 8,601 | | | | | | | |
+Add: Equity-based compensation expense | 6,347 | | | 4,889 | | | 1,458 | | | | | | | |
+Add: Acquisition and transaction expenses | 16,361 | | | 7,292 | | | 9,069 | | | | | | | |
+Add: Losses on the modification or extinguishment of debt and preferred shares and capital lease obligations | — | | | 6,327 | | | (6,327) | | | | | | | |
+| | | | | | | | | | | |
+Add: Asset impairment charges | — | | | — | | | — | | | | | | | |
+Add: Incentive allocations | — | | | — | | | — | | | | | | | |
+Add: Depreciation and amortization expense (1)
+| 59,513 | | | 68,387 | | | (8,874) | | | | | | | |
+Add: Interest expense and dividends on preferred shares | 65,116 | | | 68,155 | | | (3,039) | | | | | | | |
+Add: Internalization fee to affiliate | — | | | — | | | — | | | | | | | |
+Add: Pro-rata share of Adjusted EBITDA from unconsolidated entities (2)
+| 20,227 | | | 41 | | | 20,186 | | | | | | | |
+Less: Equity in (earnings) losses of unconsolidated entities (3)
+| (7,637) | | | 664 | | | (8,301) | | | | | | | |
+| | | | | | | | | | | |
+Adjusted EBITDA (non-GAAP) | $ | 325,577 | | | $ | 268,558 | | | $ | 57,019 | | | | | | | |
+(1) Includes the following items for the three months ended March 31, 2026 and 2025: (i) depreciation and amortization expense of $52,289 and $59,562, (ii) lease intangible amortization of $337 and $3,206, and (iii) amortization for lease incentives of $6,887 and $5,619, respectively.
+(2) Includes the following items for the three months ended March 31, 2026 and 2025: (i) net income of $7,637 and net loss of $664, (ii) interest expense of $3,496 and $0, (iii) depreciation and amortization expense of $9,067 and $158, (iv) acquisition and transaction expenses of $0 and $547, and (v) tax expense of $27 and $0, respectively.
+(3) Excludes the profit elimination of $10,000 and $6,950 for the three months ended March 31, 2026 and 2025, respectively, for sales to the 2025 Partnership.
+5
+In addition, the following table sets forth a reconciliation of net income attributable to shareholders to Adjusted EBITDA for Aerospace Products for the three months ended March 31, 2026 and 2025:
+| | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | Three Months Ended
+March 31, | | Change |
+(in thousands) | | | | | | 2026 | | 2025 | |
+Net income attributable to shareholders | | | | | | | $ | 183,735 | | | $ | 106,643 | | | $ | 77,092 | |
+Add: Provision for income taxes | | | | | | | 33,697 | | | 19,375 | | | 14,322 | |
+Add: Equity-based compensation expense | | | | | | | 27 | | | 155 | | | (128) | |
+Add: Acquisition and transaction expenses | | | | | | | (15) | | | 1,132 | | | (1,147) | |
+Add: Losses on the modification or extinguishment of debt and preferred shares and capital lease obligations | | | | | | | — | | | — | | | — | |
+| | | | | | | | | | | |
+Add: Asset impairment charges | | | | | | | — | | | — | | | — | |
+Add: Incentive allocations | | | | | | | — | | | — | | | — | |
+Add: Depreciation and amortization expense | | | | | | | 4,678 | | | 3,584 | | | 1,094 | |
+Add: Interest expense and dividends on preferred shares | | | | | | | — | | | — | | | — | |
+Add: Internalization fee to affiliate | | | | | | | — | | | — | | | — | |
+Add: Pro-rata share of Adjusted EBITDA from unconsolidated entities (1)
+| | | | | | | 414 | | | 169 | | | 245 | |
+Less: Equity in losses (earnings) of unconsolidated entities
+| | | | | | | 40 | | | (113) | | | 153 | |
+| | | | | | | | | | | |
+Adjusted EBITDA (non-GAAP) | | | | | | | $ | 222,576 | | | $ | 130,945 | | | $ | 91,631 | |
+(1) Includes the following items for the three months ended March 31, 2026 and 2025: (i) net loss of $40 and net income of $113, (ii) depreciation and amortization expense of $427 and $56, and (iii) tax expense of $27 and $0, respectively.
+6

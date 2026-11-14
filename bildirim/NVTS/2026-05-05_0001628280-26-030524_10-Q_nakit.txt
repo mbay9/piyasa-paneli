@@ -1,0 +1,207 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1821769/000162828026030524/nvts-20260331.htm
+SEMBOL: NVTS
+BASVURU_TARIHI: 2026-05-05
+BASVURU: 0001628280-26-030524
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the Three Months Ended March 31, 2026 and 2025
+| 7
+|
+Condensed Notes to Consolidated Financial Statements
+| 8
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 20
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 24
+|
+Item 4.
+| Controls and Procedures
+| 25
+|
+Part II - Other Information
+|
+Item 1.
+| Legal Proceedings
+| 26
+|
+Item 1A.
+| Risk Factors
+| 26
+|
+Item 6.
+| Exhibits
+| 27
+|
+Signatures
+|
+TABLE OF CONTENTS
+PART I —FINANCIAL INFORMATION
+Item 1. Financial Statements.
+NAVITAS SEMICONDUCTOR CORPORATION
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(unaudited)
+(In thousands, except shares and par value) | March 31, 2026 | December 31, 2025 |
+ASSETS |
+Current assets |
+Cash and cash equivalents | $ | 221,008 | $ | 236,857 |
+Accounts receivable, net of allowance of $ 468 as of March 31, 2026 and December 31, 2025
+| 3,727 | 3,621 |
+Inventories | 14,925 | 13,283 |
+Prepaid expenses and other current assets | 4,227 | 4,399 |
+Restricted cash | 2,362 | 1,745 |
+Total current assets | 246,249 | 259,905 |
+Property and equipment, net | 9,123 | 9,779 |
+Operating lease right of use assets | 5,115 | 5,166 |
+Finance lease right of use assets | 684 | 766 |
+Intangible assets, net | 48,524 | 53,258 |
+Goodwill | 163,215 | 163,215 |
+Other assets | 8,457 | 8,380 |
+Total assets | $ | 481,367 | $ | 500,469 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities |
+Accounts payable and other accrued expenses | $ | 18,437 | $ | 22,350 |
+Accrued compensation expenses | 5,592 | 4,949 |
+Operating lease liabilities, current | 1,949 | 1,866 |
+Finance lease liabilities, current
+| 327 | 323 |
+Earnout liability | 30,546 | 22,632 |
+Total current liabilities | 56,851 | 52,120 |
+Operating lease liabilities noncurrent | 3,689 | 3,827 |
+Finance lease liabilities noncurrent | 373 | 456 |
+Deferred tax liabilities | 405 | 405 |
+Total liabilities | 61,318 | 56,808 |
+Commitments and contingencies (Note 14) | | |
+Stockholders' equity |
+Class A common stock, $ 0.0001 par value, 740,000,000 shares authorized as of March 31, 2026 and December 31, 2025, and 232,004,922 and 230,525,464 shares issued and outstanding at March 31, 2026 and December 31, 2025, respectively
+| 26 | 26 |
+Class B common stock, $ 0.0001 par value, 10,000,000 shares authorized as of March 31, 2026 and December 31, 2025, and 0 shares issued and outstanding at both March 31, 2026 and December 31, 2025
+| — | — |
+Additional paid-in capital | 955,554 | 945,381 |
+Accumulated other comprehensive loss | ( 7 ) | ( 7 ) |
+Accumulated deficit | ( 535,524 ) | ( 501,739 ) |
+Total stockholders’ equity | 420,049 | 443,661 |
+Total liabilities and stockholders’ equity | $ | 481,367 | $ | 500,469 |
+The accompanying condensed notes are an integral part of these condensed consolidated financial statements.
+4
+TABLE OF CONTENTS
+NAVITAS SEMICONDUCTOR CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(unaudited)
+Three Months Ended March 31, |
+(In thousands, except per share amounts) | 2026 | 2025 |
+Net revenues | $ | 8,598 | $ | 14,018 |
+Cost of revenues (exclusive of amortization of intangible assets included below) | 5,361 | 8,711 |
+Operating expenses: |
+Research and development | 14,567 | 12,668 |
+Selling, general and administrative | 11,252 | 11,740 |
+Amortization of intangible assets | 4,734 | 4,734 |
+Restructuring expense | 450 | 1,469 |
+Total operating expenses | 31,003 | 30,611 |
+Loss from operations | ( 27,766 ) | ( 25,304 ) |
+Other income (expense), net: |
+Interest income (expense), net | 264 | ( 38 ) |
+Dividend income | 1,688 | 744 |
+(Loss) Gain from change in fair value of earnout liabilities | ( 7,914 ) | 8,113 |
+Other income | 10 | 18 |
+Total other income (expense), net | ( 5,952 ) | 8,837 |
+Loss before income taxes | ( 33,718 ) | ( 16,467 ) |
+Income tax provision | 67 | 82 |
+Equity method investment loss | — | ( 280 ) |
+Net loss | $ | ( 33,785 ) | $ | ( 16,829 ) |
+Net loss per common share |
+Basic net loss per share attributable to common stockholders | $ | ( 0.15 ) | $ | ( 0.09 ) |
+Diluted net loss per share attributable to common stockholders | $ | ( 0.15 ) | $ | ( 0.09 ) |
+Weighted average common shares used in net loss per share attributable to common shareholders |
+Basic common shares | 229,988 | 187,784 |
+Diluted common shares | 229,988 | 187,784 |
+The accompanying condensed notes are an integral part of these condensed consolidated financial statements.
+5
+TABLE OF CONTENTS
+NAVITAS SEMICONDUCTOR CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(unaudited)
+Stockholders' Equity |
+THREE MONTHS ENDED MARCH 31, 2026 | Class A common stock | Additional
+paid in
+capital | Accumulated
+deficit | Accumulated
+comprehensive
+loss | Total |
+Shares | Amount |
+BALANCE AT DECEMBER 31, 2025 | 230,525 | $ | 26 | $ | 945,381 | $ | ( 501,739 ) | $ | ( 7 ) | $ | 443,661 |
+Issuance of common stock under employee stock option and stock award plans | 1,480 | — | 803 | — | — | 803 |
+Stock-based compensation expense related to employee and non-employee stock awards | — | — | 9,370 | — | — | 9,370 |
+Net loss | — | — | — | ( 33,785 ) | — | ( 33,785 ) |
+BALANCE AT MARCH 31, 2026 | 232,005 | $ | 26 | $ | 955,554 | $ | ( 535,524 ) | $ | ( 7 ) | $ | 420,049 |
+Stockholders' Equity |
+THREE MONTHS ENDED MARCH 31, 2025 | Class A common stock | Additional
+paid in
+capital | Accumulated
+deficit | Accumulated
+comprehensive
+loss | Total |
+Shares | Amount |
+BALANCE AT DECEMBER 31, 2024 | 188,114 | $ | 22 | $ | 732,784 | $ | ( 384,786 ) | $ | ( 7 ) | $ | 348,013 |
+Issuance of common stock under employee stock option and stock award plans | 3,649 | — | 3,979 | — | — | 3,979 |
+Costs for the issuance of common stock/At-the-market offering | — | — | ( 346 ) | — | — | ( 346 ) |
+Stock-based compensation expense related to employee and non-employee stock awards | — | — | 7,003 | — | — | 7,003 |
+Net loss | — | — | — | ( 16,829 ) | — | ( 16,829 ) |
+BALANCE AT MARCH 31, 2025 | 191,763 | $ | 22 | $ | 743,420 | $ | ( 401,615 ) | $ | ( 7 ) | $ | 341,820 |
+The accompanying condensed notes are an integral part of these condensed consolidated financial statements.
+6
+TABLE OF CONTENTS
+NAVITAS SEMICONDUCTOR CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(unaudited)
+Three Months Ended March 31, |
+(In thousands) | 2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net loss | $ | ( 33,785 ) | $ | ( 16,829 ) |
+Adjustments to reconcile net loss to net cash used in operating activities: |
+Depreciation | 978 | 807 |
+Amortization of intangible assets | 4,734 | 4,734 |
+Non-cash lease expense | 465 | 461 |
+Stock-based compensation expense | 10,338 | 6,972 |
+Allowance for expected credit losses | — | 346 |
+Loss from equity method investment | — | 280 |
+Loss (gain) from change in fair value of earnout liability | 7,914 | ( 8,113 ) |
+Deferred income taxes | — | ( 13 ) |
+Change in operating assets and liabilities: |
+Accounts receivable | ( 106 ) | 1,209 |
+Inventories | ( 1,642 ) | ( 585 ) |
+Prepaid expenses and other current assets | 173 | ( 609 ) |
+Other assets | ( 77 ) | 7 |
+Accounts payable, accrued compensation and other accrued expenses | ( 4,700 ) | ( 1,729 ) |
+Operating lease liability | ( 469 ) | ( 471 ) |
+Deferred revenue | ( 185 ) | — |
+Net cash used in operating activities | ( 16,362 ) | ( 13,533 ) |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Purchases of property and equipment | ( 388 ) | ( 41 ) |
+Net cash used in investing activities | ( 388 ) | ( 41 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Proceeds from issuance of common stock in connection stock option exercises | 804 | 131 |
+Proceeds from employee stock purchase plan | 793 | 818 |
+Payments on finance lease obligations | ( 79 ) | — |
+Net cash provided by financing activities | 1,518 | 949 |
+NET INCREASE (DECREASE) IN CASH | ( 15,232 ) | ( 12,625 ) |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT BEGINNING OF PERIOD | 238,602 | 88,240 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT END OF PERIOD | $ | 223,370 | $ | 75,615 |
+RECONCILIATION OF CASH, CASH EQUIVALENTS AND RESTRICTED CASH |
+Cash and cash equivalents | $ | 221,008 | $ | 75,132 |
+Restricted cash | 2,362 | 483 |
+TOTAL CASH, CASH EQUIVALENTS AND RESTRICTED CASH | $ | 223,370 | $ | 75,615 |
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION: |
+Cash paid for income taxes | $ | 25 | $ | 64 |
+Cash paid for interest | $ | 9 | $ | — |
+Capital expenditures in accounts payable | $ | — | $ | 314 |
+The accompanying condensed notes are an integral part of these condensed consolidated financial statements.
+7
+NAVITAS SEMICONDUCTOR CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+1. ORGANIZATION AND BASIS OF PRESENTATION
+Navitas Semiconductor Corporation (“The Company”) was founded in 2014 and has since been developing next-generation power semiconductors including gallium nitride (“GaN”) power integrated circuits (“ICs”), silicon carbide (“SiC”) and associated high-speed silicon system controllers and digital 

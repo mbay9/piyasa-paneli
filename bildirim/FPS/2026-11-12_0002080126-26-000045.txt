@@ -1,0 +1,302 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2080126/000208012626000045/exhibit991earningsrelease_.htm
+SEMBOL: FPS
+BASVURU_TARIHI: 2026-11-12
+BASVURU: 0002080126-26-000045
+
+EX-99.1
+2
+exhibit991earningsrelease_.htm
+EX-99.1
+Document
+Exhibit 99.1
+Forgent Reports Fiscal First Quarter 2027 Results Above High End of Guidance;
+Raises Full-Year Outlook on Strong Commercial and Operational Execution
+Fiscal First Quarter 2027 Highlights
+• Revenues of $479 million , an increase of 69% year-over-year
+• Net Income of $55 million, an increase of 252% year-over-year
+• Adjusted EBITDA of $105 million, an increase of 61% year-over-year
+• Net Income margin of 11.5%; Adjusted EBITDA margin of 21.9%
+• Diluted EPS of $0.18; Adjusted EPS of $0.24
+• Cash flow from operations of $136 million , an increase of $130 million year-over-year
+Updated Full Year Fiscal 2027 Guidance
+• Revenues in the range of $2,450 to $2,650 million, representing 80% YoY growth at the midpoint
+• Adjusted EBITDA in the range of $587 to $637 million, representing 90% YoY growth at the midpoint
+• Adjusted EPS in the range of $1.30 to $1.44, representing 101% YoY growth at the midpoint
+DAYTON, MN - November 12, 2026 - Forgent Power Solutions, Inc. ("Forgent" or the "Company") (NYSE: FPS), a leading designer and manufacturer of electrical distribution equipment used in data centers, the power grid and energy-intensive industrial facilities, today announced financial results for its fiscal first quarter ended September 30, 2026.
+Forgent reported first quarter revenues of $479 million, an increase of $195 million, or 69%, compared to the prior year’s quarter, the highest quarterly revenue in the Company’s history. As the Company communicated last month, first quarter results exceeded the high end of its guidance ranges for revenues and Adjusted EBITDA, as strong production ramp execution drove higher throughput and better cost absorption.
+“Based on our strong first quarter commercial and operational execution, together with backlog that fully covers our fiscal 2027 guidance, we are raising our full-year outlook,” said Gary Niederpruem, Chief Executive Officer of Forgent. “Robust customer demand and strong execution on our production ramp give us greater confidence in our higher outlook. We are also gaining meaningful traction with multiple frontier AI labs and hyperscalers through our direct sales strategy, and we expect orders from these important customers to build through fiscal 2027 and into fiscal 2028.”
+Mr. Niederpruem continued, “With much of our new manufacturing capacity now online, we are increasing our focus on performance optimization. The next phase for Forgent is about converting our expanded scale into greater operating leverage by standardizing processes, improving productivity, strengthening sourcing discipline, and driving more consistent execution across the business. With Amy Ard as Chief Financial Officer, Juan Macias as President of Solutions & Services, and Jamie Brown as President of Transformers, we have experienced financial and operational leadership in place to drive this work. As we execute these initiatives, we believe we are positioning Forgent for meaningful margin expansion over the next several years.”
+Net Income for the first quarter was $55 million, an increase of $39 million or 252%, compared to the prior year’s quarter, and Net Income margin was 11.5%. Net Income increased primarily due to higher gross profit, partially offset by higher selling, general and administrative costs. Diluted EPS for the first quarter was $0.18 and Adjusted EPS was $0.24.
+Adjusted EBITDA for the first quarter was $105 million, an increase of $40 million or 61%, compared to the prior year’s quarter. Adjusted EBITDA increased primarily due to higher gross profit, partially offset by higher selling, general and administrative costs. Adjusted EBITDA margin was 21.9% in the quarter, which was ahead of the Company’s expectations due to higher throughput and better cost absorption.
+Cash flow from operations improved $130 million year-over-year to $136 million in the first quarter and capital expenditures were $32 million . First quarter cash flow from operations benefited from higher earnings and favorable timing of customer deposits and milestone payments, while the Company continued planned investment in working capital, primarily inventory, to support the production ramp.
+Newly promoted Chief Financial Officer Amy Ard, who has helped build the Company’s finance platform since its formation, will play a key role in the Company’s focus on converting growth into stronger margins and cash flow. “Having been part of Forgent’s leadership from the beginning, I am incredibly honored to step into this role at such an important point in the Company’s evolution,” said Ms. Ard. “In my prior role as Executive Vice President of Finance, I helped build the systems, processes and financial infrastructure that support the platform we have today. This role gives me the opportunity to apply that foundation more directly to advance our performance optimization initiatives across margins, working capital and cash flow.”
+Summary of Key Performance Indicators
+The table below summarizes our key performance indicators for the quarters ended September 30, 2026 and 2025 (in thousands, except per share amounts): | | | | | | | | | | | | | | | | | |
+| Three Months Ended |
+| September 30, |
+| 2026 | | 2025 | | % Change |
+Revenues | $478,566 | | $283,274 | | 69% |
+Net Income | $54,823 | | $15,556 | | 252% |
+Adjusted EBITDA (1)
+| $104,896 | | $65,100 | | 61% |
+Diluted EPS | $0.18 | | N/A | | N/A |
+Adjusted EPS (1)
+| $0.24 | | N/A | | N/A |
+(1) Represents non-GAAP measures. See “Non-GAAP Measures” below for more information.
+Updated Fiscal 2027 Guidance
+Based on backlog, expected production schedules, current business conditions and other factors, the Company is raising its fiscal 2027 guidance as follows (in millions, except per share amounts):
+| | | | | | | | |
+| Fiscal 2027 Guidance
+(Updated) | Fiscal 2027 Guidance
+(Prior) |
+Revenues | $2,450 - $2,650 | $2,400 - $2,600 |
+Adjusted EBITDA (2)
+| $587 - $637 | $575 - $625 |
+Adjusted EPS (2)
+| $1.30 - $1.44 | $1.26 - $1.40 |
+(2) Represents forward-looking non-GAAP financial measures. See “Non-GAAP Measures” below for more information.
+Conference Call Information
+The Company will host a conference call on November 12, 2026 at 11:00 a.m. Eastern Time to discuss its fiscal first quarter 2027 financial results and outlook. A webcast of the live conference call will be available on the Investor Relations section of the Company's website at ir.forgentpower.com . A replay of the conference call will be available for one year following the webcast.
+About Forgent Power Solutions
+Forgent (NYSE: FPS) is a leading U.S. designer and manufacturer of electrical distribution equipment used in data centers, the power grid and energy-intensive industrial facilities. The Company specializes in manufacturing custom products that are “engineered-to-order” for technically demanding applications. We believe Forgent is one of a small number of companies that can manufacture all of the electrical distribution equipment required for a data center or large manufacturing facility's powertrain with some of the highest levels of customization and shortest lead times available in the industry. For more information about Forgent, please visit us at forgentpower.com .
+Investor Contact
+Kate Africk - Investor Relations, VP
+kate.africk@forgentpower.com
+Media Contact
+media@forgentpower.com
+Cautionary Note Regarding Forward-Looking Statements
+This press release and accompanying audio webcast contain forward-looking statements that are based on our management’s beliefs, expectations and assumptions and currently available information. Forward-looking statements include information concerning our projected future results of operations, business strategies, technology developments, financing and investment plans, competitive position, industry and regulatory environment, potential growth opportunities and the effects of competition. Forward-looking statements include statements that are not historical facts and may be identified by terms such as “anticipate,” “believe,” “could,” “estimate,” “expect,” “intend,” “may,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “will,” “would” and similar expressions. Because forward-looking statements relate to the future, by their nature, they are subject to inherent risks, uncertainties and other changes in circumstances we cannot predict. As a result, our actual results may differ materially from those contemplated by the forward-looking statements and you should not place undue reliance on such statements.
+Important factors that could cause actual results to differ materially from our expectations include: changes in demand for, or supply of, electrical distribution equipment and related pricing; changes in the prices of raw materials and in labor costs, and our ability to pass those changes on to our customers; the pace of investment in new data centers and construction activity, notwithstanding potential regulatory developments and opposition to data center development; changes in government policies, including the imposition of additional duties, tariffs and other charges on imports and exports; disruptions to our supply chain and distribution networks, including problems with outside vendors, subcontractors and third-party suppliers; delays or interruptions in the operations of our manufacturing campuses; completion of our expansion project; the conversion of amounts included in our backlog into revenue and profits in the amount and on the timeframe we anticipate; competition; product liability claims and other failures of our products; long sales cycles and unpredictable order changes; changing efficiency standards; doing more business with larger customers who demand contracting terms less favorable to us; concentration of our sales with fewer customers; our ability to attract and retain key personnel; changes in technology or customer preferences; unexpected events, such as natural disasters, geopolitical conflicts, pandemics, a volatile global economic environment, inflation, high interest rates and a potential recession; the integration of our business acquisitions; environmental, health and safety laws and regulations; our indebtedness; and the other factors discussed in the Company’s filings with the SEC, including in the “Risk Factors” section of the Company’s Annual Report on Form 10-K for the fiscal year ended June 30, 2026.
+The forward-looking statements included in this document represent our management’s beliefs and assumptions only as of the date hereof. Except as required by law, we assume no obligation to update or revise these forward-looking statements as a result of new information, future events or otherwise.
+Non-GAAP Measures
+This press release contains certain financial measures that are not calculated in accordance with generally accepted accounting principles (GAAP). These non-GAAP financial measures are presented as supplemental information to provide additional insight into our operating performance and to enhance the overall understanding of our financial results. We believe these non-GAAP measures are useful to investors because they facilitate comparisons of our core operating results across reporting periods and provide a clearer understanding of the factors and trends affecting our business.
+These non-GAAP financial measures should not be considered in isolation or as a substitute for financial information prepared in accordance with GAAP. There are limitations associated with the use of non-GAAP financial measures, including that they may not be comparable to similarly titled measures used by other companies. Reconciliations of these
+non-GAAP financial measures to the most directly comparable GAAP measures are provided within this press release. The Company does not reconcile its forward-looking non-GAAP financial measures to the corresponding U.S. GAAP measures, due to variability and difficulty in making accurate forecasts and projections and/or certain information not being ascertainable or accessible; and because not all of the information necessary for a quantitative reconciliation of these forward-looking non-GAAP financial measures to the most directly comparable U.S. GAAP financial measure, is available to the Company without unreasonable efforts. For the same reasons, the Company is unable to address the probable significance of the unavailable information. The Company provides non-GAAP financial measures that it believes will be achieved, however it cannot accurately predict all of the components of the adjusted calculations and the U.S. GAAP measures may be materially different than the non-GAAP measures.
+Defined Terms
+Please see the Company’s filings with the SEC for definitions of defined terms that are used but not defined in this press release.
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED)
+(in thousands, except par value)
+| | | | | | | | | | | |
+| September 30,
+2026 | | June 30,
+2026 |
+Assets | | | |
+Current Assets | | | |
+Cash and cash equivalents | $199,916 | | $97,477 |
+Accounts receivable, net | 380,161 | | 329,628 |
+Inventory, net | 346,218 | | 249,817 |
+Prepaid and other current assets | 143,598 | | 141,169 |
+Total Current Assets | 1,069,893 | | 818,091 |
+Property and equipment, net | 230,868 | | 204,957 |
+Operating lease right of use assets, net | 108,740 | | 108,432 |
+Goodwill | 516,629 | | 516,629 |
+Other intangible assets, net | 283,143 | | 289,490 |
+Deferred tax assets | 465,152 | | 280,971 |
+Other assets | 11,414 | | 12,195 |
+Total Assets | $2,685,839 | | $2,230,765 |
+| | | |
+Liabilities and Stockholders’ Equity | | | |
+Current Liabilities | | | |
+Accounts payable | $166,159 | | $130,453 |
+Accrued expenses | 126,661 | | 122,356 |
+| | | |
+Deferred revenue | 423,267 | | 263,859 |
+Operating lease liabilities, current portion | 9,594 | | 8,626 |
+Long-term debt, current portion | 6,000 | | 6,000 |
+Total Current Liabilities | 731,681 | | 531,294 |
+Long-term debt, net of discount and deferred financing costs, less current portion | 575,340 | | 576,175 |
+Payable pursuant to the Tax Receivable Agreement | 483,027 | | 338,925 |
+| | | |
+Operating lease liabilities, less current portion | 112,924 | | 112,970 |
+Total Liabilities | 1,902,972 | | 1,559,364 |
+| | | |
+Stockholders’ Equity | | | |
+Preferred stock, $0.00001 par value; 20,000,000 shares authorized; none issued and outstanding | — | | — |
+Class A common stock, $0.00001 par value; 2,000,000,000 shares authorized; 274,527,094 issued and outstanding | 3 | | 2 |
+Class B common stock, $0.00001 par value; 100,000,000 shares authorized; 29,901,795 issued and outstanding | — | | 1 |
+Additional paid-in capital | 582,802 | | 484,994 |
+Retained earnings | 127,564 | | 79,320 |
+Total Stockholders’ Equity Attributable to Forgent Power Solutions, Inc. | 710,369 | | 564,317 |
+Non-controlling interests | 72,498 | | 107,084 |
+Total Stockholders’ Equity | 782,867 | | 671,401 |
+Total Liabilities and Stockholders’ Equity | $2,685,839 | | $2,230,765 |
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED)
+(in thousands, except per share)
+| | | | | | | | | | | | | | | |
+| Three Months Ended
+September 30, | | |
+| 2026 | | 2025 | | | | |
+Revenues | $478,566 | | $283,274 | | | | |
+Cost of Revenues | 320,287 | | 185,322 | | | | |
+Gross Profit | 158,279 | | 97,952 | | | | |
+Operating Expenses | | | | | | | |
+Selling, general, and administrative expenses | 71,965 | | 53,583 | | | | |
+Depreciation and amortization | 7,132 | | 13,206 | | | | |
+Total Operating Expenses | 79,097 | | 66,789 | | | | |
+Income from Operations | 79,182 | | 31,163 | | | | |
+Other Income (Expense) | | | | | | | |
+Interest expense | (9,829) | | (13,873) | | | | |
+Interest income | 954 | | 905 | | | | |
+Other income (expense) | (148) | | 295 | | | | |
+Total Other Expense, net | (9,023) | | (12,673) | | | | |
+Income Before Tax Expense | 70,159 | | 18,490 | | | | |
+Income Tax Expense | (15,336) | | (2,934) | | | | |
+Net Income | 54,823 | | 15,556 | | | | |
+Less: net income attributable to non-controlling interests | 6,579 | | 5,543 | | | | |
+Net Income Attributable to Forgent Power Solutions, Inc. | $48,244 | | $10,013 | | | | |
+| | | | | | | |
+| Three Months Ended
+September 30, | | | | |
+| 2026 | | 2025 | | | | |
+Earnings per share of Class A common stock: | | | | | |
+Basic | $0.18 | | N/A | | | | |
+Diluted | $0.18 | | N/A | | | | |
+| | | | | | | |
+Weighted average shares of Class A common stock outstanding: | | | | | | | |
+Basic | 273,736 | | N/A | | | | |
+Diluted | 274,070 | | N/A | | | | |
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED)
+(in thousands)
+| | | | | | | | | | | |
+| Three Months Ended
+September 30, |
+| 2026 | | 2025 |
+Cash Flows from Operating Activities | | | |
+Net income | $54,823 | | $15,556 |
+Adjustments to reconcile net income to net cash provided by operating activities: | | | |
+Depreciation and amortization | 11,978 | | 15,884 |
+Amortization / write off of discounts and deferred financing costs | 714 | | 999 |
+Deferred taxes | 4,523 | | 975 |
+Provision (recovery) for credit losses | 675 | | (320) |
+Provision for slow-moving and excess inventory | 2,400 | | 1,148 |
+Equity-based compensation | 13,884 | | 560 |
+Loss on disposal/sale of assets | 165 | | — |
+Reduction in carrying amount of ROU asset, operating leases | 1,684 | | 2,264 |
+Changes in assets and liabilities: | | | |
+Accounts receivable | (51,208) | | (29,005) |
+Inventory | (98,801) | | (27,487) |
+Prepaid and other assets | (3,070) | | (4,679) |
+Accounts payable | 35,706 | | 17,826 |
+Accrued expenses | 4,304 | | 19,565 |
+Deferred revenue | 159,408 | | (5,898) |
+Lease liabilities, operating leases | (1,070) | | (1,453) |
+Net Cash Provided by Operating Activities | 136,115 | | 5,935 |
+Cash Flows from Investing Activities | | | |
+Purchases of property and equipment | (31,706) | | (29,889) |
+Net Cash Used in Investing Activities | (31,706) | | (29,889) |
+Cash Flows from Financing Activities | | | |
+| | | |
+| | | |
+Proceeds from issuance of Class A common stock sold in follow-on offering, net of underwriting discounts and commissions | 695,409 | | — |
+Purchase of Opco LLC Interests from Existing Shareholders with proceeds from follow-on offering | (695,409) | | — |
+| | | |
+Payments on long-term debt | (1,500) | | (1,293) |
+Debt financing costs | — | | (204) |
+Distribution to member | — | | (1,440) |
+| | | |
+Deferred offering costs | (1,843) | | (3,060) |
+Net Cash Used in Financing Activities | (3,343) | | (5,997) |
+Net Increase (Decrease) in Cash, Cash Equivalents, and Restricted Cash | 101,066 | | (29,951) |
+Cash, Cash Equivalents, and Restricted Cash - Beginning of Period | 121,713 | | 111,322 |
+Cash, Cash Equivalents, and Restricted Cash - End of Period | $222,779 | | $81,371 |
+Adjusted EBITDA
+Non-GAAP Financial Measures
+The table below reconciles Net Income (the most directly comparable GAAP measure) to Adjusted EBITDA (a non-GAAP measure) for the periods presented (in thousands):
+| | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | |
+| 2026 | | 2025 | | | | |
+Net Income | $54,823 | | $15,556 | | | | |
+Interest expense | 9,829 | | 13,873 | | | | |
+Interest income | (954) | | (905) | | | | |
+Income tax expense | 15,336 | | 2,934 | | | | |
+Depreciation expense | 5,631 | | 3,106 | | | | |
+Amortization of intangibles | 6,347 | | 12,778 | | | | |
+Equity-based compensation | 13,884 | | 560 | | | | |
+Sponsor fees and expenses (1)
+| — | | 6,600 | | | | |
+Public company readiness costs (2)
+| — | | 1,402 | | | | |
+Earnout expenses (3)
+| — | | 5,400 | | | | |
+Non-recurring integration and consulting fees (4)
+| — | | 3,796 | | | | |
+Adjusted EBITDA | $104,896 | | $65,100 | | | | |
+| | | | | | | |
+Net Income | $54,823 | | $15,556 | | | | |
+Revenues | 478,566 | | 283,274 | | | | |
+Net Income Margin | 11.5% | | 5.5% | | | | |
+| | | | | | | |
+Adjusted EBITDA | $104,896 | | $65,100 | | | | |
+Revenues | 478,566 | | 283,274 | | | | |
+Adjusted EBITDA Margin | 21.9% | | 23.0% | | | | |
+(1) Represents fees and expense reimbursements paid to our Sponsor.
+(2) Represents non-recurring professional services fees we incurred in connection with readying the Company for our initial public offering and statutory SEC reporting, as well as certain non-recurring recruiting costs.
+(3) Represents non-recurring earnout amounts accrued to certain sellers in connection with business acquisitions.
+(4) Represents non-recurring professional services fees we incurred in connection with certain post-acquisition activities, including valuation, technical accounting, and integration consulting services.
+Adjusted Net Income
+Non-GAAP Financial Measures
+The table below reconciles Net Income Attributable to Forgent Power Solutions, Inc. (the most directly comparable GAAP measure) to Adjusted Net Income (a non-GAAP measure) for the periods presented (in thousands):
+| | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | |
+| 2026 | | 2025 | | | | |
+Net Income Attributable to Forgent Power Solutions, Inc. | $48,244 | | $10,013 | | | | |
+Net income impact from pro forma conversion of Class B common stock to Class A common stock (1)
+| 6,579 | | 5,543 | | | | |
+Adjustment to the provision for income tax (2)
+| (1,336) | | (522) | | | | |
+Tax effected net income | 53,487 | | 15,034 | | | | |
+Amortization of intangibles | 6,347 | | 12,778 | | | | |
+Amortization / write off of discounts and deferred financing costs | 714 | | 999 | | | | |
+Equity-based compensation | 13,884 | | 560 | | | | |
+Sponsor fees and expenses (3)
+| — | | 6,600 | | | | |
+Public company readiness costs (4)
+| — | | 1,402 | | | | |
+Earnout expenses (5)
+| — | | 5,400 | | | | |
+Non-recurring integration and consulting fees (6)
+| — | | 3,796 | | | | |
+Tax impact of adjustments (7)
+| (2,428) | | (7,251) | | | | |
+Adjusted Net Income | $72,004 | | $39,318 | | | | |
+(1) Reflects net income to Class A common shares from pro forma exchange of corresponding shares of our Class B common shares held by the Existing Opco LLC Owners.
+(2) The Company is subject to U.S. Federal income taxes, in addition to state and local taxes with respect to its allocable share of any net taxable income of Opco. The adjustment to the provision for income tax reflects the effective tax rates below, assuming the Company owns 100% of the Opco LLC Interests units.
+| | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | |
+| 2026 | | 2025 | | | | |
+Statutory U.S. Federal income tax rate | 21.00% | | 21.00% | | | | |
+State and local taxes (net of federal benefit) | 2.88% | | 2.64% | | | | |
+Permanent items, including valuation adjustment | (0.28)% | | (0.23)% | | | | |
+Effective income tax rate for Adjusted Net Income | 23.60% | | 23.41% | | | | |
+(3) Represents fees and expense reimbursements paid to our Sponsor.
+(4) Represents non-recurring professional services fees we incurred in connection with readying the Company for our initial public offering and statutory SEC reporting, as well as certain non-recurring recruiting costs.
+(5) Represents non-recurring earnout amounts accrued to certain sellers in connection with business acquisitions.
+(6) Represents non-recurring professional services fees we incurred in connection with certain post-acquisition activities, including valuation, technical accounting and integration consulting services.
+(7) Represents the estimated tax impact of all Adjusted Net Income add-backs, excluding those which represent permanent differences between book versus tax.
+Adjusted Earnings Per Share
+Non-GAAP Financial Measures
+The table below reconciles Weighted Average Shares Outstanding (the most directly comparable GAAP measure) to Adjusted Diluted Weighted Average Shares Outstanding for the periods presented (in thousands, except per share):
+| | | | | | | | | | | |
+| Three Months Ended September 30, |
+| 2026 | | 2025 |
+Weighted average shares of Class A common stock outstanding - basic | 273,736 | | N/A (a)
+|
+Assumed exchange of Class B common stock to Class A common stock | 30,693 | | N/A (a)
+|
+Dilutive effect of restricted stock units | 334 | | N/A (a)
+|
+Dilutive effect of stock options | — | | N/A (a)
+|
+Adjusted diluted weighted average shares outstanding | 304,763 | | N/A (a)
+|
+| | | |
+Adjusted Net Income | $72,004 | | N/A (a)
+|
+Adjusted EPS (b)
+| $0.24 | | N/A (a)
+|
+(a) This Non-GAAP measure is not applicable for this period, which was prior to the IPO and the related reorganization transactions.
+(b) Calculated by dividing Adjusted Net Income by adjusted diluted weighted average shares outstanding.

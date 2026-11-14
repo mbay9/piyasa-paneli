@@ -1,0 +1,612 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2110029/000119312526458698/eroc-20260930.htm
+SEMBOL: EROC
+BASVURU_TARIHI: 2026-11-12
+BASVURU: 0001193125-26-458698
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows (Unaudited)
+For the nine months ended September 30, 2026 and 2025
+|
+|
+Nine Months Ended September 30,
+|
+|
+(in thousands)
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash flows from operating activities
+|
+|
+|
+|
+|
+|
+|
+Net loss
+|
+|
+$
+|
+( 76,028
+|
+)
+|
+|
+$
+|
+( 43,688
+|
+)
+|
+Adjustments to reconcile net loss to net cash provided by (used in) operating activities:
+|
+|
+|
+|
+|
+|
+|
+Depreciation and amortization expense
+|
+|
+|
+4,447
+|
+|
+|
+|
+2,682
+|
+|
+Amortization of deferred financing costs
+|
+|
+|
+2,582
+|
+|
+|
+|
+4,478
+|
+|
+Amortization of operating lease ROU asset
+|
+|
+|
+3,614
+|
+|
+|
+|
+2,409
+|
+|
+Loss on debt extinguishment
+|
+|
+|
+48,774
+|
+|
+|
+|
+18,662
+|
+|
+Amortization of sales commissions and fees
+|
+|
+|
+451
+|
+|
+|
+|
+199
+|
+|
+Paid-in-kind interest expense
+|
+|
+|
+2,431
+|
+|
+|
+|
+5,423
+|
+|
+Interest paid on long term debt
+|
+|
+|
+( 3,531
+|
+)
+|
+|
+|
+—
+|
+|
+Stock-based compensation
+|
+|
+|
+6,573
+|
+|
+|
+|
+3,559
+|
+|
+Changes in operating assets and liabilities:
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable, net
+|
+|
+|
+( 40,950
+|
+)
+|
+|
+|
+2,554
+|
+|
+Inventory
+|
+|
+|
+( 103,943
+|
+)
+|
+|
+|
+35,005
+|
+|
+Contract assets
+|
+|
+|
+9,193
+|
+|
+|
+|
+( 3,339
+|
+)
+|
+Prepaid expenses
+|
+|
+|
+( 35,197
+|
+)
+|
+|
+|
+6,228
+|
+|
+Other current assets
+|
+|
+|
+( 1,853
+|
+)
+|
+|
+|
+( 3,385
+|
+)
+|
+Other noncurrent assets
+|
+|
+|
+( 10,611
+|
+)
+|
+|
+|
+6,950
+|
+|
+Accounts payable
+|
+|
+|
+43,538
+|
+|
+|
+|
+( 12,099
+|
+)
+|
+Accrued liabilities and other payables
+|
+|
+|
+8,650
+|
+|
+|
+|
+16,576
+|
+|
+Contract liabilities
+|
+|
+|
+320,575
+|
+|
+|
+|
+21,721
+|
+|
+Operating lease liabilities
+|
+|
+|
+( 2,150
+|
+)
+|
+|
+|
+( 2,352
+|
+)
+|
+Other noncurrent liabilities
+|
+|
+|
+71,603
+|
+|
+|
+|
+( 20,936
+|
+)
+|
+Net cash provided by operating activities
+|
+|
+|
+248,168
+|
+|
+|
+|
+40,647
+|
+|
+Cash flows from investing activities
+|
+|
+|
+|
+|
+|
+|
+Capital expenditures
+|
+|
+|
+( 29,586
+|
+)
+|
+|
+|
+( 4,553
+|
+)
+|
+Net cash used in investing activities
+|
+|
+|
+( 29,586
+|
+)
+|
+|
+|
+( 4,553
+|
+)
+|
+Cash flows from financing activities
+|
+|
+|
+|
+|
+|
+|
+Proceeds received from initial public offering, net of underwriter and offering costs
+|
+|
+|
+554,000
+|
+|
+|
+|
+—
+|
+|
+Repurchases of Class B Units from pre-IPO owners
+|
+|
+|
+( 156,861
+|
+)
+|
+|
+|
+—
+|
+|
+Repurchases of Class A common stock from pre-IPO owners
+|
+|
+|
+( 27,806
+|
+)
+|
+|
+|
+—
+|
+|
+Other costs related to initial public offering
+|
+|
+|
+( 225
+|
+)
+|
+|
+|
+—
+|
+|
+Cash paid for fractional shares in connection with warrant conversion
+|
+|
+|
+( 32
+|
+)
+|
+|
+|
+—
+|
+|
+Proceeds from notes payable
+|
+|
+|
+—
+|
+|
+|
+|
+25,069
+|
+|
+Payments of notes payable
+|
+|
+|
+( 75,032
+|
+)
+|
+|
+|
+( 46,697
+|
+)
+|
+Payments of deferred financing costs
+|
+|
+|
+( 2,206
+|
+)
+|
+|
+|
+( 420
+|
+)
+|
+Net cash provided by (used in) financing activities
+|
+|
+|
+291,838
+|
+|
+|
+|
+( 22,048
+|
+)
+|
+Net change in cash and cash equivalents
+|
+|
+|
+510,420
+|
+|
+|
+|
+14,046
+|
+|
+Cash, cash equivalents and restricted cash
+|
+|
+|
+|
+|
+|
+|
+Beginning of period
+|
+|
+|
+108,097
+|
+|
+|
+|
+21,913
+|
+|
+End of period
+|
+|
+$
+|
+618,517
+|
+|
+|
+$
+|
+35,959
+|
+|
+Supplemental disclosures of cash flow information
+|
+|
+|
+|
+|
+|
+|
+Interest paid
+|
+|
+$
+|
+4,687
+|
+|
+|
+$
+|
+5,434
+|
+|
+Income taxes paid
+|
+|
+$
+|
+24
+|
+|
+|
+$
+|
+—
+|
+|
+Supplemental noncash financing and investing activities
+|
+|
+|
+|
+|
+|
+|
+Conversion of convertible notes into common units
+|
+|
+$
+|
+36,266
+|
+|
+|
+$
+|
+—
+|
+|
+Accrued capital expenditures
+|
+|
+$
+|
+479
+|
+|
+|
+$
+|
+417
+|
+|
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+9
+ERock, Inc.
+Notes to Unaudited Condensed Consolidated Financial Statements
+1. NATURE OF OPERATIONS
+ERock, Inc. (the “Company” or “ERock” ) was incorporated as a Delaware corporation on January 20, 2026 as Enchanted Rock, Inc. Effective March 17, 2026, the Company amended its certificate of incorporation to change its name to ERock, Inc. Unless otherwise indicated, the historical financial information presented in this document is that of Enchanted Rock Holdings, LLC ( “ER Holdings”). ER Holdings, together with its subsidiaries, is the predecessor to ERock.
+The Company designs, deploys, sells, operates, and maintains multi-purpose distributed power generation systems utilizing proprietary, low-emission, quick-response natural gas-fueled generators and embedded software technology. Its offerings include the design, permitting, and installation of modular power systems, as well as ongoing operations and maintenance and asset management services. These systems support a range of customer applications, including bridge power, backup power, and dispatchable power solutions.
+The Company primarily serves data centers, utilities, and commercial and industrial (“C&I”) customers across the United States. Its principal markets span eight states, with its largest operating presence in California and Texas, where demand is driven in part by growth in data center and related infrastructure needs.
+The Company manufactures key components of its power systems, including proprietary natural gas engines and generators, at facilities located in Houston, Texas, and deploys its systems throughout its U.S. operating footprint.
+Initial Public Offering and Reorganization
+On June 11, 2026 , ERock successfully completed an initial public offering ( “IPO” ) of 27,906,977 shares of its Class A common stock (the “Class A common stock”) for gross cash consideration of $ 21.50 per share. The IPO generated net proceeds of $ 554.0 million after deducting the underwriting discounts and commissions of approximately $ 37.5 million and offering expenses of approximately $ 8.5 million. Following the recapitalization of ER Holdings described below, the Company used $ 184.7 million of the net proceeds to (i) purchase Class B membership interests in ER Holdings ( “Class B Units”) from certain pre-IPO owners of ER Holdings (including Energy Impact Fund (FT-D) LP and certain of our current and former directors and executive officers) totaling $ 156.9 million, and (ii) make a cash payment of $ 27.8 million to Energy Impact Fund (FT-B) LP in connection with its merger consummated in connection with the IPO pursuant to which it first became a wholly-owned subsidiary of the Company and was then merged into the Company. The Company used a portion of the remaining $ 369.3 million of the net proceeds to purchase 18,604,652 Class A membership interests in ER Holdings ( “Class A Units”) from ER Holdings at a per interest purchase price equal to the per share price paid by the underwriters for our Class A common stock in the IPO. Subsequently, ER Holdings used a portion of the net proceeds of such purchase to repay approximately $ 30.0 million of the outstanding indebtedness under the 2025 Term Loan (as defined below) and a $ 3.0 million prepayment fee.
+In connection with the IPO, the following reorganization transactions occurred:
+• ER Holdings amended and restated its limited liability company agreement to, among other things, (i) recapitalize all existing ownership interests in ER Holdings into three classes of common units (the “Common Units”), consisting of Class A Units, Class B Units and Class M Units (defined below), and (ii) appoint ERock as the sole managing member of ER Holdings upon or prior to its acquisition of Class A Units of ER Holdings in connection with the IPO;
+• ERock amended and restated its certificate of incorporation to, among other things, provide for (i) 800,000,000 authorized shares of Class A common stock at a par value of $ 0.01 per share, (ii) 350,000,000 authorized shares of Class B common stock (the “Class B common stock”) at a par value of $ 0.01 per share and (iii) 20,000,000 authorized shares of preferred stock at a par value of $ 0.01 per share. Each share of Class A common stock and Class B common stock is entitled to one vote per share on all matters presented to our stockholders generally;
+• ERock issued 171,226,057 shares of Class B common stock to certain pre-IPO holders of common and/or preferred interests in ER Holdings that were outstanding prior to the recapitalization of ER Holdings (the “Continuing Equity Unitholders”), which is equal to the number of Class B Units held by such Continuing Equity Unitholders, for nominal consideration;
+10
+• Units issued to employees for compensatory purposes (the “Restricted Compensatory Units”) which were held by certain current or former employees of ER Holdings (the “Continuing Profits Interest Unitholders”) were recapitalized into Class M membership interests in ER Holdings (the “Class M Units”). Following the recapitalization, there were 57,065,274 Class M Units outstanding which are exchangeable into Class A common stock, subject to threshold valuation amounts, vesting schedules, and exchange windows. As of September 30, 2026, 51,247,532 shares of Class A common stock were reserved for issuance upon the exchange of Class B Units issued upon conversion of 56,745,408 Class M Units, based on the estimated exchange ratio of Class M Units to Class B Units at the end of the period; and
+• ERock contributed the net proceeds of the IPO to ER Holdings in exchange for Class A Units. As a result, ERock became a holding comp

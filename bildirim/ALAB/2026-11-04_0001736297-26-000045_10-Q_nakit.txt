@@ -1,0 +1,72 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/alab-20260930.htm
+SEMBOL: ALAB
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0001736297-26-000045
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In thousands)
+(unaudited)
+Nine Months Ended
+September 30, |
+2026 | 2025 |
+Cash flows from operating activities |
+Net income | $ | 416,342 | $ | 174,152 |
+Adjustments to reconcile net income to net cash provided by operating activities |
+Stock-based compensation | 195,495 | 118,659 |
+Depreciation and amortization | 12,681 | 3,983 |
+Warrants contra revenue | 30,397 | 4,016 |
+Accretion of discounts on marketable securities | ( 3,426 ) | ( 6,278 ) |
+Other, net | 7,312 | 2,521 |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 201,245 ) | ( 4,089 ) |
+Inventory | ( 146,173 ) | ( 7,106 ) |
+Prepaid expenses and other assets | ( 51,767 ) | ( 56,760 ) |
+Accounts payable | 38,814 | ( 1,088 ) |
+Accrued expenses and other liabilities | 43,047 | ( 3,969 ) |
+Net cash provided by operating activities | 341,477 | 224,041 |
+Cash flows from investing activities |
+Purchases of property and equipment | ( 73,363 ) | ( 18,855 ) |
+Purchases of marketable securities | ( 509,927 ) | ( 664,432 ) |
+Sales and maturities of marketable securities | 348,213 | 515,109 |
+Payments for business combinations, net of cash acquired | ( 69,214 ) | — |
+Other investing activities | ( 2,500 ) | ( 500 ) |
+Net cash used in investing activities | ( 306,791 ) | ( 168,678 ) |
+Cash flows from financing activities |
+Proceeds from exercises of stock options | 802 | 1,730 |
+Proceeds from employee stock purchase plan | 6,294 | 4,345 |
+Net cash provided by financing activities | 7,096 | 6,075 |
+Net increase in cash, cash equivalents, and restricted cash | 41,782 | 61,438 |
+Cash, cash equivalents, and restricted cash (1)
+|
+Beginning of the period | 167,684 | 80,044 |
+End of the period | $ | 209,466 | $ | 141,482 |
+(1) Restricted cash was not material and is included in Prepaid expenses and other current assets.
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+5
+Table of Contents
+ASTERA LABS, INC.
+NOTES TO UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+1. Nature of Business and Summary of Significant Accounting Policies
+Description of Business
+Astera Labs, Inc. (the “Company”) offers an Intelligent Connectivity Platform, comprised of semiconductor-based, high-speed, mixed-signal connectivity products that integrate a matrix of microcontrollers and sensors, and COSMOS, the Company’s software suite, which is embedded in its connectivity products and integrated into its customers’ systems.
+The Company’s patented software-defined platform approach delivers critical connectivity performance, enables flexibility and customization, and supports observability and predictive analytics. This approach aims to efficiently address the data, network, and memory bottlenecks, scalability, and other unique infrastructure requirements of its hyperscalers and system original equipment manufacturer (“OEM”) customers.
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements and notes have been prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and applicable rules and regulations of the SEC regarding interim financial information. Certain information and disclosures normally included in annual consolidated financial statements prepared in accordance with GAAP have been condensed or omitted. The unaudited condensed consolidated financial statements and related notes should be read in conjunction with the audited consolidated financial statements and related notes as of and for the year ended December 31, 2025, included in its Annual Report on Form 10-K for the year ended December 31, 2025 filed with the U.S. Securities and Exchange Commission (“SEC”) on February 20, 2026.
+In the opinion of management, all adjustments, including normal recurring adjustments, that are considered necessary for a fair presentation of results of operations and financial position, have been included. Operating results for the periods presented herein are not necessarily indicative of the results of operations to be anticipated for the full fiscal year or any future period.
+Principles of Consolidation
+The condensed consolidated financial statements include the accounts of Astera Labs, Inc. and its wholly owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation.
+Significant Accounting Policies
+There have been no material changes in the Company’s significant accounting policies during the three and nine months ended September 30, 2026 compared with the significant accounting policies described in its Annual Report on Form 10-K for the year ended December 31, 2025 filed with the SEC on February 20, 2026.
+Use of Estimates
+The preparation of the condensed consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting periods. The Company’s significant estimates include, but are not limited to, revenue recognition, the valuation of acquired intangible assets, the valuation and realizability of deferred tax assets, reserves for uncertain tax positions, useful life of production equipment, the valuation of warrants, and the valuation and assumptions underlying stock-based compensation. By their nature, estimates are subject to an inherent degree of uncertainty and actual results could differ from those estimates.
+6
+Table of Contents
+The Company assessed certain accounting matters and estimates that generally require consideration of forecasted information available to the Company. Management is not aware of any specific event or circumstance that would require an update to estimates or judgments or a revision to the carrying value of assets or liabilities. These estimates and judgments may change as new events occur and additional information is obtained, which may result in changes being recognized in the Company’s consolidated financial statements in future periods, and actual results could differ from these estimates.
+Reclassifications
+Certain prior period balances were reclassified to conform to the current period’s presentation. None of these reclassifications had an impact on reported net income, balance sheets, or cash flows for any of the periods presented.
+Recently Issued Accounting Pronouncements Not Yet Adopted
+In November 2024, the FASB issued Accounting Standards Update No. 2024-03, Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosure (“ASU 2024-03”), and in January 2025, the FASB issued Accounting Standards Update No. 2025-01, Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosure (Subtopic 220-40): Clarifying the Effective Date (“ASU 2025-01”). ASU 2024-03 requires additional disclosures of the nature of expenses included in the income statement and disclosures about specific expense categories included in the expense captions presented in the statements of operations. ASU 2024-03, as clarified by ASU 2025-01, is effective for annual reporting periods beginning after December 15, 2026, and interim reporting periods within annual reporting periods beginning after December 15, 2027. Both early adoption and retrospective application are permitted. The Company is currently evaluating the impact that the adoption of these new standards will have on its consolidated financial statements and related disclosures.
+In May 2025, the FASB issued Accounting Standards Update No. 2025-04, Compensation-Stock Compensation (Topic 718) and Revenue from Contracts with Customers (Topic 606): Clarifications to Share-Based Consideration Payable to a Customer (“ASU 2025-04”). ASU 2025-04 reduces diversity in practice and improves the decision usefulness and operability of the guidance for share-based consideration payable to a customer in conjunction with selling goods or services. The ASU is effective for annual reporting periods beginning after December 15, 2026 with updates to be applied on a retrospective or modified retrospective basis. Early adoption is permitted. The Company does not expect a material impact from the adoption of this ASU on its consolidated financial statements and related disclosures.
+2. Segment and Geographical Information
+The Company’s chief operating decision maker (“CODM”) is its Chief Executive Officer (“CEO”), who reviews financial information presented on a consolidated basis for purposes of making operating decisions, assessing financial performance, and allocating resources. The CODM uses net income to evaluate the return on assets and to determine investment opportunities related to product development, platform enhancements, and new technologies. The CODM also uses net income to monitor budget versus actual results. The Company manages its operati

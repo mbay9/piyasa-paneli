@@ -1,0 +1,67 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm
+SEMBOL: STX
+BASVURU_TARIHI: 2026-08-04
+BASVURU: 0001137789-26-000159
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows for the periods indicated:
+Fiscal Years Ended |
+(Dollars in millions) | July 3,
+2026 | June 27,
+2025 |
+Net cash flow provided by (used in): |
+Operating activities | $ | 3,674 | $ | 1,083 |
+Investing activities | (525) | (276) |
+Financing activities | (2,337) | (1,274) |
+Net increase (decrease) in cash, cash equivalents and restricted cash | $ | 812 | $ | (467) |
+Cash Provided by Operating Activities
+Cash provided by operating activities for fiscal year 2026 was $3.7 billion and includes the effects of net income adjusted for non-cash items including depreciation, amortization, share-based compensation, and the following major working capital related movements:
+39
+Table of Contents
+• an increase of $575 million in accounts receivable, primarily due to increased revenue;
+• an increase of $131 million in inventory, primarily due to an increase in work-in-process inventory; partially offset by
+• an increase of $528 million in accrued expenses, income taxes and warranty, primarily due to an increase in accrued income taxes and legal settlements;
+• an increase of $66 million in accounts payable, primarily due to an increase in capital expenditures.
+Cash provided by operating activities for fiscal year 2025 was $1.1 billion and includes the effects of net income adjusted for non-cash items including depreciation, amortization, share-based compensation, and the following major working capital related movements:
+• an increase of $513 million in accounts receivable, primarily due to higher revenue and lower accounts receivable factoring;
+• a decrease of $242 million in accounts payable, primarily due to timing of payments; and
+• an increase of $201 million in inventory, primarily due to an increase in purchased materials and finished goods inventory; partially offset by
+• an increase of $207 million in accrued employee compensation, primarily due to an increase in our variable compensation expense.
+Cash Used in Investing Activities
+In fiscal year 2026, we used $525 million net cash for investing activities, which was primarily due to payments for the purchase of property, equipment and leasehold improvements of $569 million, partially offset by $31 million proceeds from the sale of certain investments and $15 million proceeds from business divestiture.
+In fiscal year 2025, we used $276 million net cash for investing activities, which was primarily due to payments for the purchase of property, equipment and leasehold improvements of $265 million and net cash used in the acquisition of Intevac of $47 million, which includes proceeds from the sale of Intevac’s investments post-acquisition (refer to “Item 8. Financial Statements and Supplementary Data— Note 16. Acquisition and Divestiture ” for more details), offset by $10 million from the sale of equity investments, and $25 million from the proceeds of business divestiture.
+Cash Used in Financing Activities
+Net cash used in financing activities of $2.3 billion for fiscal year 2026 was primarily attributable to the following activities:
+• $1.4 billion redemption and repurchase of long-term debt;
+• $634 million in dividend payments;
+• $176 million in payments for repurchases of our ordinary shares;
+• $119 million taxes paid related to net share settlement of equity awards; and
+• $22 million debt fees relating to redemption and repurchase of long-term debt and debt exchange; partially offset by
+• $56 million in proceeds from the issuance of ordinary shares under employee stock plans.
+Net cash used in financing activities of $1.3 billion for fiscal year 2025 was primarily attributable to the following activities:
+• $1.1 billion repurchases of long-term debt;
+• $600 million in dividend payments;
+• $54 million taxes paid related to net share settlement of equity awards; and
+• $14 million debt fees relating to issuance and repurchase of long-term debt; partially offset by
+• $400 million in net proceeds from the issuance of long-term debt; and
+• $72 million in proceeds from the issuance of ordinary shares under employee stock plans.
+40
+Table of Contents
+Liquidity Sources
+Our primary sources of liquidity as of July 3, 2026, consist of: (1) approximately $1.7 billion in cash and cash equivalents, (2) cash we expect to generate from operations and (3) $1.3 billion available for borrowing under our senior unsecured revolving credit facility (“Revolving Credit Facility”), which is part of our Credit Agreement (as defined within “Item 8. Financial Statements and Supplementary Data— Note 4. Debt ”).
+As of July 3, 2026, no borrowings (including swing line loans) were outstanding and no commitments were utilized for letters of credit issued under the Revolving Credit Facility. The Revolving Credit Facility is available for borrowings, subject to compliance with financial covenants and other customary conditions to borrowing.
+As of July 3, 2026, the Credit Agreement includes one financial covenant, net leverage ratio of less than or equal to 6.75 to 1.00, commencing with the fiscal quarter ended June 27, 2025 and declining over time so that the maximum permitted net leverage ratio for each fiscal quarter ending after July 2, 2027 is 4.25 to 1.00. We continue to evaluate our debt portfolio and structure to comply with our financial debt covenants. As of July 3, 2026, we were in compliance with all of the covenants under our debt agreements.
+We believe that our sources of cash will be sufficient to fund our operations and meet our cash requirements for at least the next 12 months. Our ability to fund liquidity requirements beyond 12 months will depend on our future cash flows, which are determined by future operating performance, and therefore, subject to prevailing global macroeconomic conditions and financial, business and other factors, some of which are beyond our control.
+For additional information on risks and factors that could impact our ability to fund our operations and meet our cash requirements, among others, see “Part I, Item 1A. Risk Factors” of this Annual Report.
+Cash Requirements and Commitments
+Our liquidity requirements are primarily to meet our working capital, product development and capital expenditure needs, to fund scheduled payments of principal and interest on our indebtedness, quarterly dividend, share repurchase program and any future strategic investments.
+Purchase obligations
+Purchase obligations are defined as contractual obligations for the purchase of goods or services, which are enforceable and legally binding on us, and that specify all significant terms. From time to time, we enter into long-term, non-cancelable purchase commitments or make large up-front investments with certain suppliers in order to secure certain components or technologies for the production of our products or to supplement our internal manufacturing capacity for certain components. As of July 3, 2026, we had unconditional purchase obligations of approximately $2.1 billion, primarily related to purchases of inventory components with our suppliers. We expect $1.6 billion of these commitments to be paid within one year. In addition, we also had certain long-term market share based non-cancellable inventory purchase commitments as of July 3, 2026.
+Capital expenditures
+We incur material capital expenditures to design and manufacture our products that depend on advanced technologies and manufacturing techniques. As of July 3, 2026, we had unconditional commitments of $465 million primarily related to purchases of equipment, of which approximately $375 million is expected to be paid within one year. For fiscal year 2027, supporting volume ramp of hard drives utilizing HAMR technology, we expect capital expenditures to be higher than fiscal year 2026 and still within our target range of 4-6% of revenue.
+Operating leases
+We are a lessee in several operating leases related to real estate facilities for warehouse, office and lab space. As of July 3, 2026, the amount of future minimum rent expense for both occupied and vacated facilities under non-cancelable operating lease contracts was $437 million, of which $66 million is expected to be paid within one year. Refer to “Item 8. Financial Statements and Supplementary Data— Note 6. Leases ” for details.
+41
+Table of Contents
+Long-term debt and interest payments on debt
+As of July 3, 2026, the future principal payment obligation on our long-term debt was $3.6 billion, which will mature in more than one year. As of July 3, 2026, future interest payments on this outstanding debt are estimated to be approximately $1.3 billion, of which $243 million is expected to be paid within one year. On June 11, 2026, we issued a Notice of Full Provisional Redemption to holders of the 2028 Notes for the remaining principal amount of $185 million. On September 8, 2026, all then-outstanding Notes that are called for Redemption and which have not been submitted for exchange will be redeemed for cash at a price equal to the principal amount plus accrued and unpaid 

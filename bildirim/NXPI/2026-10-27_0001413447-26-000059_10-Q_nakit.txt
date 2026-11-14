@@ -1,0 +1,193 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1413447/000141344726000059/nxpi-20260927.htm
+SEMBOL: NXPI
+BASVURU_TARIHI: 2026-10-27
+BASVURU: 0001413447-26-000059
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (Unaudited)
+($ in millions, unless otherwise stated)
+For the nine months ended |
+September 27, 2026 | September 28, 2025 |
+Cash flows from operating activities: |
+Net income (loss) | 2,814 | 1,600 |
+Adjustments to reconcile net income (loss) to net cash provided by (used for) operating activities: |
+Depreciation, amortization and impairment | 555 | 617 |
+Share-based compensation | 328 | 362 |
+Amortization of discount (premium) on debt, net | 2 | 2 |
+Amortization of debt issuance costs | 5 | 5 |
+Net (gain) loss on sale of assets | ( 627 ) | ( 29 ) |
+(Gain) loss on equity security, net | 2 | 2 |
+Results relating to equity-accounted investees | 11 | 33 |
+Deferred tax expense (benefit) | ( 84 ) | ( 32 ) |
+Changes in operating assets and liabilities: |
+(Increase) decrease in receivables and other current assets | ( 90 ) | ( 81 ) |
+(Increase) decrease in inventories | 14 | ( 180 ) |
+Increase (decrease) in accounts payable and other liabilities | 291 | ( 296 ) |
+Decrease (increase) in other non-current assets | ( 327 ) | ( 98 ) |
+Exchange differences | 18 | 21 |
+Other items | ( 3 ) | 3 |
+Net cash provided by (used for) operating activities | 2,909 | 1,929 |
+Cash flows from investing activities: |
+Purchase of identified intangible assets | ( 115 ) | ( 85 ) |
+Capital expenditures on property, plant and equipment | ( 199 ) | ( 299 ) |
+Purchase of interests in businesses, net of cash acquired | — | ( 690 ) |
+Proceeds from disposals of property, plant and equipment | 1 | 2 |
+Proceeds from sale of interests in businesses, net of cash divested | 878 | — |
+Advance proceeds related to business disposition | 34 | — |
+Investment in short-term deposits | — | ( 500 ) |
+Purchase of investments | ( 505 ) | ( 319 ) |
+Net cash provided by (used for) investing activities | 94 | ( 1,891 ) |
+Cash flows from financing activities: |
+Repurchase of long-term debt | ( 1,251 ) | ( 500 ) |
+Proceeds from the issuance of long-term debt | — | 1,868 |
+Cash paid for debt issuance costs | ( 3 ) | ( 8 ) |
+Proceeds from issuance of commercial paper notes | — | 2,426 |
+Repayment of commercial paper notes | — | ( 2,411 ) |
+Dividends paid to non-controlling interests | ( 59 ) | — |
+Dividends paid to common stockholders | ( 768 ) | ( 771 ) |
+Proceeds from issuance of common stock through stock plans | 71 | 77 |
+Purchase of treasury shares and restricted stock unit withholdings | ( 309 ) | ( 561 ) |
+Other, net | ( 1 ) | ( 2 ) |
+Net cash provided by (used for) financing activities | ( 2,320 ) | 118 |
+Effect of changes in exchange rates on cash positions | ( 7 ) | 6 |
+Increase (decrease) in cash and cash equivalents | 676 | 162 |
+Cash and cash equivalents at beginning of period | 3,267 | 3,292 |
+Cash and cash equivalents at end of period | 3,943 | 3,454 |
+6
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)
+($ in millions, unless otherwise stated)
+Supplemental disclosures to the Condensed Consolidated Cash flows |
+Net cash paid during the period for: |
+Interest | 239 | 194 |
+Income taxes, net of refunds | 675 | 437 |
+Net gain (loss) on sale of assets: |
+Cash proceeds from the sale of assets | 879 | 38 |
+Non-cash consideration 1)
+| 44 | — |
+Book value of these assets and transaction costs | ( 296 ) | ( 9 ) |
+Non-cash investing activities: |
+Non-cash capital expenditures | 104 | 112 |
+1) Represents the fair value on the closing date of the earn-out receivable from the divestiture of our MEMS Sensors business
+See accompanying notes to the Condensed Consolidated Financial Statements
+7
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY (Unaudited)
+($ in millions, unless otherwise stated)
+Outstanding
+number of
+shares (in
+thousands) | Common
+stock | Capital in
+excess of
+par value | Treasury
+shares at
+cost | Accumu-
+lated
+other
+compre-
+hensive
+income
+(loss) | Accumu-
+lated
+deficit | Total
+stock-
+holders’
+equity | Non-
+con-
+trolling
+interests | Total
+equity |
+Balance as of December 31, 2025 | 252,854 | 56 | 15,424 | ( 4,283 ) | 213 | ( 1,354 ) | 10,056 | 395 | 10,451 |
+Net income (loss) | 1,122 | 1,122 | 11 | 1,133 |
+Other comprehensive income (loss) | ( 42 ) | ( 42 ) | ( 42 ) |
+Share-based compensation plans | 113 | 113 | 113 |
+Shares issued pursuant to stock awards | 232 | 44 | ( 8 ) | 36 | 36 |
+Treasury shares repurchased and retired | ( 461 ) | ( 102 ) | ( 102 ) | ( 102 ) |
+Dividends non-controlling interest | ( 59 ) | ( 59 ) |
+Dividends common stock ($ 1.014 per share)
+| ( 256 ) | ( 256 ) | ( 256 ) |
+Balance as of March 29, 2026 | 252,625 | 56 | 15,537 | ( 4,341 ) | 171 | ( 496 ) | 10,927 | 347 | 11,274 |
+Net income (loss) | 767 | 767 | 15 | 782 |
+Other comprehensive income (loss) | ( 37 ) | ( 37 ) | ( 37 ) |
+Share-based compensation plans | 101 | 101 | 101 |
+Shares issued pursuant to stock awards | 32 | 6 | ( 5 ) | 1 | 1 |
+Treasury shares repurchased and retired | ( 394 ) | ( 104 ) | ( 104 ) | ( 104 ) |
+Dividends non-controlling interests | | |
+Dividends common stock ($ 1.014 per share)
+| ( 256 ) | ( 256 ) | ( 256 ) |
+Balance as of June 28, 2026 | 252,263 | 56 | 15,638 | ( 4,439 ) | 134 | 10 | 11,399 | 362 | 11,761 |
+Net income (loss) | 884 | 884 | 15 | 899 |
+Other comprehensive income | 16 | 16 | 16 |
+Share-based compensation plans | 114 | 114 | 114 |
+Shares issued pursuant to stock awards | 209 | 40 | ( 6 ) | 34 | 34 |
+Treasury shares repurchased and retired
+| ( 420 ) | ( 103 ) | ( 103 ) | ( 103 ) |
+Change in participation | | | | |
+Dividends common stock ($ 1.014 per share)
+| ( 256 ) | ( 256 ) | ( 256 ) |
+Balance as of September 27, 2026 | 252,052 | 56 | 15,752 | ( 4,502 ) | 150 | 632 | 12,088 | 377 | 12,465 |
+8
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN EQUITY (Unaudited)
+($ in millions, unless otherwise stated)
+Outstanding
+number of
+shares (in
+thousands) | Common
+stock | Capital in
+excess of
+par value | Treasury
+shares at
+cost | Accumu-
+lated
+other
+compre-
+hensive
+income
+(loss) | Accumu-
+lated
+deficit | Total
+stock-
+holders’
+equity | Non-
+con-
+trolling
+interests | Total
+equity |
+Balance as of December 31, 2024 | 254,324 | 56 | 14,962 | ( 4,004 ) | ( 17 ) | ( 1,814 ) | 9,183 | 348 | 9,531 |
+Net income (loss) | 490 | 490 | 7 | 497 |
+Other comprehensive income (loss) | 46 | 46 | 46 |
+Share-based compensation plans | 131 | 131 | 131 |
+Shares issued pursuant to stock awards | 238 | 54 | ( 22 ) | 32 | 32 |
+Treasury shares repurchased and retired
+| ( 1,413 ) | ( 303 ) | ( 303 ) | ( 303 ) |
+Dividends common stock ($ 1.014 per share)
+| ( 257 ) | ( 257 ) | ( 257 ) |
+Balance as of March 30, 2025 | 253,149 | 56 | 15,093 | ( 4,253 ) | 29 | ( 1,603 ) | 9,322 | 355 | 9,677 |
+Net income (loss) | 445 | 445 | 12 | 457 |
+Other comprehensive income (loss) | 141 | 141 | 141 |
+Share-based compensation plans | 113 | 113 | 113 |
+Shares issued pursuant to stock awards | 70 | 16 | ( 9 ) | 7 | 7 |
+Treasury shares repurchased and retired | ( 1,105 ) | ( 204 ) | ( 204 ) | ( 204 ) |
+Dividends non-controlling interests | | |
+Dividends common stock ($ 1.014 per share)
+| ( 255 ) | ( 255 ) | ( 255 ) |
+Balance as of June 29, 2025 | 252,114 | 56 | 15,206 | ( 4,441 ) | 170 | ( 1,422 ) | 9,569 | 367 | 9,936 |
+Net income (loss) | 631 | 631 | 15 | 646 |
+Other comprehensive income | ( 3 ) | ( 3 ) | ( 3 ) |
+Share-based compensation plans | 118 | 118 | 118 |
+Shares issued pursuant to stock awards | 249 | 56 | ( 18 ) | 38 | 38 |
+Treasury shares repurchased and retired
+| ( 238 ) | ( 54 ) | ( 54 ) | ( 54 ) |
+Dividends common stock ($ 1.014 per share)
+| ( 254 ) | ( 254 ) | ( 254 ) |
+Balance as of September 28, 2025 | 252,125 | 56 | 15,324 | ( 4,439 ) | 167 | ( 1,063 ) | 10,045 | 382 | 10,427 |
+See accompanying notes to the Condensed Consolidated Financial Statements
+9
+NXP SEMICONDUCTORS N.V.
+NOTES TO THE UNAUDITED CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+All amounts in millions of $ unless otherwise stated
+1 Basis of Presentation and Overview
+We prepared our interim Condensed Consolidated Financial Statements that accompany these notes in conformity with U.S. generally accepted accounting principles, consistent in all material respects with those applied in our Annual Report on Form 10-K for the year ended December 31, 2025.
+Use of estimates
+We have made estimates and judgments affecting the amounts reported in our Condensed Consolidated Financial Statements and the accompanying notes. The actual results that we experience may differ materially from our estimates. The interim financial information is unaudited, but reflects all normal adjustments that are, in our opinion, necessary to provide a fair statement of results for the interim periods presented. This interim information should be read in conjunction with the Consolidated Financial Statements in our Annual Report on Form 10-K for the year ended December 31, 2025.
+Segment reporting
+NXP has one reportable segment representing the entity as a whole, aligning with our organizational structure and with the way our chief operating decision maker ("CODM"), the Chief Executive Officer, makes operating decisions, allocates res

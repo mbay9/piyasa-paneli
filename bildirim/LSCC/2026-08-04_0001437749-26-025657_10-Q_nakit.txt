@@ -1,0 +1,245 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/855658/000143774926025657/lscc20260704_10q.htm
+SEMBOL: LSCC
+BASVURU_TARIHI: 2026-08-04
+BASVURU: 0001437749-26-025657
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+| | Six Months Ended
+| |
+| | July 4,
+| | | June 28,
+| |
+(In thousands)
+| | 2026
+| | | 2025
+| |
+Cash flows from operating activities:
+| | | | | | | | |
+Net income
+| | $ | 41,176 | | | $ | 7,935 | |
+Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+| | | | | | | | |
+Depreciation and amortization
+| | | 18,985 | | | | 17,539 | |
+Stock-based compensation expense
+| | | 72,472 | | | | 44,459 | |
+Change in deferred income tax provision
+| | | 568 | | | | 1,136 | |
+Amortization of right-of-use assets
+| | | 3,647 | | | | 3,840 | |
+Write-off unamortized debt costs
+| | | 4,898 | | | | — | |
+Other non-cash adjustments
+| | | 1,070 | | | | 324 | |
+Changes in assets and liabilities:
+| | | | | | | | |
+Accounts receivable, net
+| | | ( 17,747 | ) | | | ( 4,599 | ) |
+Inventories, net
+| | | ( 11,299 | ) | | | 9,578 | |
+Prepaid expenses and other assets
+| | | ( 4,005 | ) | | | 13,882 | |
+Accounts payable
+| | | 24,376 | | | | ( 3,023 | ) |
+Accrued liabilities
+| | | 2,949 | | | | ( 19,624 | ) |
+Accrued payroll obligations
+| | | 6,489 | | | | 2,369 | |
+Operating lease liabilities, current and long-term portions
+| | | ( 5,022 | ) | | | ( 3,393 | ) |
+Net cash provided by (used in) operating activities
+| | | 138,557 | | | | 70,423 | |
+Cash flows from investing activities:
+| | | | | | | | |
+Capital expenditures
+| | | ( 17,553 | ) | | | ( 15,846 | ) |
+Cash paid for software and intellectual property licenses
+| | | ( 23,990 | ) | | | ( 7,782 | ) |
+Cash paid for long-term investment
+| | | ( 1,200 | ) | | | — | |
+Net cash provided by (used in) investing activities
+| | | ( 42,743 | ) | | | ( 23,628 | ) |
+Cash flows from financing activities:
+| | | | | | | | |
+Restricted stock unit tax withholdings
+| | | ( 32,868 | ) | | | ( 7,961 | ) |
+Proceeds from issuance of common stock
+| | | 3,163 | | | | 2,232 | |
+Repurchase of common stock
+| | | ( 15,000 | ) | | | ( 70,855 | ) |
+Cash paid for debt issuance costs
+| | | ( 11,749 | ) | | | — | |
+Net cash provided by (used in) financing activities
+| | | ( 56,454 | ) | | | ( 76,584 | ) |
+Effect of exchange rate change on cash
+| | | 59 | | | | 654 | |
+Net increase (decrease) in cash and cash equivalents
+| | | 39,419 | | | | ( 29,135 | ) |
+Beginning cash and cash equivalents
+| | | 133,886 | | | | 136,291 | |
+Ending cash and cash equivalents
+| | $ | 173,305 | | | $ | 107,156 | |
+| | | | | | | | |
+Supplemental disclosure of cash flow information and non-cash investing and financing activities:
+| | | | | | | | |
+Income taxes paid, net of refunds
+| | $ | 3,333 | | | $ | 4,192 | |
+Operating lease payments
+| | $ | 5,276 | | | $ | 4,187 | |
+Accrued purchases of plant and equipment
+| | $ | 2,399 | | | $ | 6,706 | |
+Operating lease right-of-use assets obtained in exchange for lease obligations
+| | $ | 997 | | | $ | 10,040 | |
+See Accompanying Notes to Unaudited Consolidated Financial Statements.
+- 7 -
+Table of Contents
+LATTICE SEMICONDUCTOR CORPORATION
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+(unaudited)
+The following summarizes the changes in total equity for the six-month period ended July 4, 2026:
+| | Common Stock
+| | | Additional
+| | | | | | | Accumulated Other
+| | | | | |
+| | ($.01 par value)
+| | | Paid-in
+| | | Retained
+| | | Comprehensive
+| | | | | |
+(In thousands, except par value data)
+| | Shares
+| | | Amount
+| | | Capital
+| | | Earnings
+| | | Loss
+| | | Total
+| |
+Balances, January 3, 2026
+| | | 136,771 | | | $ | 1,368 | | | $ | 503,647 | | | $ | 212,182 | | | $ | ( 3,143 | ) | | $ | 714,054 | |
+Components of comprehensive income, net of tax:
+| | | | | | | | | | | | | | | | | | | | | | | | |
+Net income for the six months ended July 4, 2026
+| | | — | | | | — | | | | — | | | | 41,176 | | | | — | | | | 41,176 | |
+Other comprehensive income (loss)
+| | | — | | | | — | | | | — | | | | — | | | | ( 1,239 | ) | | | ( 1,239 | ) |
+Total comprehensive income
+| | | | | | | | | | | | | | | | | | | | | | | 39,937 | |
+Employee equity incentive award stock issuance, net of tax withholding
+| | | 582 | | | | 6 | | | | ( 29,711 | ) | | | — | | | | — | | | | ( 29,705 | ) |
+Stock-based compensation expense
+| | | — | | | | — | | | | 72,472 | | | | — | | | | — | | | | 72,472 | |
+Prior year incentive compensation settled in equity
+| | | — | | | | — | | | | 5,769 | | | | — | | | | — | | | | 5,769 | |
+Repurchase of common stock
+| | | ( 166 | ) | | | ( 2 | ) | | | ( 14,998 | ) | | | — | | | | — | | | | ( 15,000 | ) |
+Balances, July 4, 2026
+| | | 137,187 | | | $ | 1,372 | | | $ | 537,179 | | | $ | 253,358 | | | $ | ( 4,382 | ) | | $ | 787,527 | |
+The following summarizes the changes in total equity for the six-month period ended June 28, 2025:
+| | Common Stock
+| | | Additional
+| | | | | | | Accumulated Other
+| | | | | |
+| | ($.01 par value)
+| | | Paid-in
+| | | Retained
+| | | Comprehensive
+| | | | | |
+(In thousands, except par value data)
+| | Shares
+| | | Amount
+| | | Capital
+| | | Earnings
+| | | Loss
+| | | Total
+| |
+Balances, December 28, 2024
+| | | 137,704 | | | $ | 1,377 | | | $ | 504,299 | | | $ | 209,098 | | | $ | ( 3,842 | ) | | $ | 710,932 | |
+Components of comprehensive income, net of tax:
+| | | | | | | | | | | | | | | | | | | | | | | | |
+Net income for the six months ended June 28, 2025
+| | | — | | | | — | | | | — | | | | 7,935 | | | | — | | | | 7,935 | |
+Other comprehensive income (loss)
+| | | — | | | | — | | | | — | | | | — | | | | 884 | | | | 884 | |
+Total comprehensive income
+| | | | | | | | | | | | | | | | | | | | | | | 8,819 | |
+Employee equity incentive award stock issuance, net of tax withholding
+| | | 288 | | | | 3 | | | | ( 5,732 | ) | | | — | | | | — | | | | ( 5,729 | ) |
+Stock-based compensation expense
+| | | — | | | | — | | | | 44,459 | | | | — | | | | — | | | | 44,459 | |
+Repurchase of common stock
+| | | ( 1,328 | ) | | | ( 13 | ) | | | ( 71,420 | ) | | | — | | | | — | | | | ( 71,433 | ) |
+Balances, June 28, 2025
+| | | 136,664 | | | $ | 1,367 | | | $ | 471,606 | | | $ | 217,033 | | | $ | ( 2,958 | ) | | $ | 687,048 | |
+See Accompanying Notes to Unaudited Consolidated Financial Statements.
+- 8 -
+Table of Contents
+LATTICE SEMICONDUCTOR CORPORATION
+CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY (continued)
+(unaudited)
+The following summarizes the changes in total equity for the three-month period ended July 4, 2026:
+| | Common Stock | | | Additional | | | | | | Accumulated Other | | | | | |
+| | ($.01 par value)
+| | | Paid-in
+| | | Retained
+| | | Comprehensive
+| | | | | |
+(In thousands, except par value data)
+| | Shares
+| | | Amount
+| | | Capital
+| | | Earnings
+| | | Loss
+| | | Total
+| |
+Balances, April 4, 2026
+| | | 136,828 | | | $ | 1,368 | | | $ | 508,712 | | | $ | 233,999 | | | $ | ( 3,920 | ) | | $ | 740,159 | |
+Components of comprehensive income, net of tax:
+| | | | | | | | | | | | | | | | | | | | | | | | |
+Net income for the three months ended July 4, 2026
+| | | — | | | | — | | | | — | | | | 19,359 | | | | — | | | | 19,359 | |
+Other comprehensive income (loss)
+| | | — | | | | — | | | | — | | | | — | | | | ( 462 | ) | | | ( 462 | ) |
+Total comprehensive income
+| | | | | | | | | | | | | | | | | | | | | | | 18,897 | |
+Employee equity incentive award stock issuance, net of tax withholding
+| | | 359 | | | | 4 | | | | ( 15,933 | ) | | | — | | | | — | | | | ( 15,929 | ) |
+Stock-based compensation expense
+| | | — | | | | — | | | | 44,400 | | | | — | | | | — | | | | 44,400 | |
+Balances, July 4, 2026
+| | | 137,187 | | | $ | 1,372 | | | $ | 537,179 | | | $ | 253,358 | | | $ | ( 4,382 | ) | | $ | 787,527 | |
+The following summarizes the changes in total equity for the three-month period ended June 28, 2025:
+| | Common Stock | | | Additional | | | | | | Accumulated Other | | | | | |
+| | ($.01 par value)
+| | | Paid-in
+| | | Retained
+| | | Comprehensive
+| | | | | |
+(In thousands, except par value data)
+| | Shares
+| | | Amount
+| | | Capital
+| | | Earnings
+| | | Loss
+| | | Total
+| |
+Balances, March 29, 2025
+| | | 137,504 | | | $ | 1,375 | | | $ | 495,895 | | | $ | 214,120 | | | $ | ( 3,479 | ) | | $ | 707,911 | |
+Components of comprehensive income, net of tax:
+| | | | | | | | | | | | | | | | | | | | | | | | |
+Net income for the three months ended June 28, 2025
+| | | — | | | | — | | | | — | | | | 2,913 | | | | — | | | | 2,913 | |
+Other comprehensive income (loss)
+| | | — | | | | — | | | | — | | | | — | | | | 521 | | | | 521 | |
+Total comprehensive income
+| | | | | | | | | | | | | | | | | | | | | | | 3,434 | |
+Employee equity incentive award stock issuance, net of tax withholding
+| | | 94 | | | | 1 | | | | ( 1,951 | ) | | | — | | | | — | | | | ( 1,950 | ) |
+Stock-based compensation expense
+| | | — | | | | — | | | | 24,086 | | | | — | | | | — | | | | 24,086 | |
+Repurchase of common stock
+| | | ( 934 | ) | | | ( 9 | ) | | | ( 46,424 | ) | | | — | | | | — | | | | ( 46,433 | ) |
+Balances, June 28, 2025
+| | | 136,664 | | | $ | 1,367 | | | $ | 471,606 | | | $ | 217,033 | | | $ | ( 2,958 | ) | | $ | 687,048 | |
+See Accompanying Notes to Unaudited Consolidated Financial Stat

@@ -1,0 +1,87 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1816581/000162828026054467/oust-20260630.htm
+SEMBOL: OUST
+BASVURU_TARIHI: 2026-08-06
+BASVURU: 0001628280-26-054467
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+(in thousands)
+Six Months Ended June 30, |
+2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES |
+Net loss | $ | ( 35,579 ) | $ | ( 42,629 ) |
+Adjustments to reconcile net loss to net cash used in operating activities: |
+Depreciation and amortization | 5,936 | 3,654 |
+Loss on write-off and disposal of property and equipment | — | 85 |
+Gain on lease termination | — | ( 65 ) |
+Stock-based compensation | 18,879 | 21,724 |
+Deferred taxes | ( 571 ) | — |
+Reduction of revenue related to stock warrant issued to customer | 2,375 | 1,021 |
+Amortization of right-of-use asset | 1,663 | 2,509 |
+Accretion on short-term investments | ( 1,115 ) | ( 1,488 ) |
+Change in fair value of warrant liabilities | — | 229 |
+(Recovery) provision for inventory write-down | ( 52 ) | 465 |
+(Recovery) provision for doubtful accounts | ( 86 ) | 137 |
+Realized gain on sale of available for sale securities | ( 14 ) | ( 4 ) |
+Changes in operating assets and liabilities, net of effects of business acquisition: |
+Accounts receivable | 10,643 | 6,471 |
+Inventory | ( 5,652 ) | 2,049 |
+Prepaid expenses and other assets | ( 9,868 ) | ( 3,640 ) |
+Accounts payable | 841 | 6,425 |
+Accrued and other liabilities | 44 | 3,978 |
+Contract liabilities | ( 5,600 ) | ( 3,836 ) |
+Operating lease liability | ( 1,883 ) | ( 3,273 ) |
+Net cash used in operating activities | ( 20,039 ) | ( 6,188 ) |
+CASH FLOWS FROM INVESTING ACTIVITIES |
+Purchases of property and equipment | ( 5,209 ) | ( 1,441 ) |
+Purchase of short-term investments | ( 122,307 ) | ( 79,686 ) |
+Proceeds from sales and maturities of short-term investments | 94,995 | 57,250 |
+Acquisition of Stereolabs, net of cash acquired | ( 27,493 ) | — |
+Net cash used in investing activities | ( 60,014 ) | ( 23,877 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES |
+Proceeds from ESPP purchase | 1,332 | 980 |
+Proceeds from exercise of stock options | 2,342 | 48 |
+Payments received to fund employees tax obligation for vested RSUs | 1,629 | 357 |
+Proceeds from the issuance of common stock under at-the-market offering, net of commissions and fees | 97,985 | 58,798 |
+At-the-market offering costs for the issuance of common stock | ( 20 ) | ( 10 ) |
+Net cash provided by financing activities | 103,268 | 60,173 |
+Effect of exchange rates on cash and cash equivalents | — | 480 |
+Net increase in cash, cash equivalents and restricted cash | 23,215 | 30,588 |
+Cash, cash equivalents and restricted cash at beginning of period | 69,980 | 48,099 |
+Cash, cash equivalents and restricted cash at end of period | $ | 93,195 | $ | 78,687 |
+8
+Table of Contents
+SUPPLEMENTAL DISCLOSURES OF OPERATING ACTIVITIES: |
+Income tax (refunds) payments, net | $ | ( 1,640 ) | $ | 75 |
+SUPPLEMENTAL DISCLOSURES OF NON-CASH INVESTING AND FINANCING INFORMATION: |
+Property and equipment purchases included in accounts payable and accrued liabilities | $ | 432 | $ | 743 |
+Right-of-use assets obtained in exchange for operating lease liability | $ | — | $ | 742 |
+Common stock shares issued in the acquisition of Stereolabs | $ | 22,780 | $ | — |
+Unpaid at-the-market offering costs | $ | 232 | $ | — |
+The accompanying notes are an integral part of these condensed consolidated financial statements
+9
+Table of Contents
+OUSTER, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+Note 1 – Description of Business and Basis of Presentation
+Description of Business
+Ouster, Inc. (“Ouster” or the “Company”) was incorporated in the Cayman Islands on June 4, 2020 as “Colonnade Acquisition Corp.” Following the closing of a business combination between the Company and Ouster Technologies, Inc. (formerly, Ouster, Inc.) in March 2021, the Company domesticated as a Delaware corporation and changed its name to “Ouster, Inc.” Ouster is a leader in sensing and perception for Physical Artificial Intelligence (Physical AI). Ouster’s product offerings enable machines to “Sense, Think, Act, and Learn” and independently execute tasks without human intervention. Physical AI allows machines to move beyond fixed, preprogrammed behavior into adaptive, intelligent action by focusing on perception, understanding, and learning from the physical world. Ouster offers a unified sensing and perception platform that combines high-performance digital lidar, cameras, AI compute, sensor fusion and perception software, and cutting-edge AI models to our customers.
+On February 4, 2026 (“Closing Date”), the Company completed the acquisition of Stereolabs SAS (“Stereolabs”), accounted for as a business combination. See Note 3.
+Basis of Presentation and Principles of Consolidation
+The unaudited condensed consolidated financial statements include the accounts of the Company and its subsidiaries (all of which are wholly owned) and have been prepared in conformity with U.S. generally accepted accounting principles (“U.S. GAAP”) applicable to interim periods. All intercompany balances and transactions have been eliminated in consolidation. The presentation of certain prior period amounts has been reclassified to conform with current period presentation.
+The unaudited condensed consolidated financial statements include all adjustments (consisting of only normal recurring adjustments) necessary for a fair statement of the results of operations for the periods shown. The unaudited condensed consolidated financial statements should be read in conjunction with the Company’s audited consolidated financial statements as of and for the year ended December 31, 2025 and the notes related thereto, included in the Company’s Annual Report on Form 10-K filed with the Securities and Exchange Commission (“SEC”) on March 2, 2026. The year-end condensed balance sheet data was derived from audited financial statements, but does not include all disclosures required by U.S. GAAP. Certain information and note disclosures normally included in the audited financial statements prepared in accordance with U.S. GAAP have been condensed or omitted from this report, as is permitted by applicable rules and regulations. The results of operations for any interim period are not necessarily indicative of the results to be expected for the year ending December 31, 2026 or for any other future years or interim periods.
+Liquidity
+The Company’s principal sources of liquidity are its cash and cash equivalents, short-term investments, cash generated from sales of the Company’s products, sales of common stock under its at-the-market equity offering program and debt financing.
+The accompanying unaudited condensed consolidated financial statements have been prepared on a going concern basis. The Company has experienced recurring losses from operations, and negative cash flows from operations. As of June 30, 2026, the Company’s existing sources of liquidity included cash, cash equivalents, restricted cash and short-term investments of $ 262.5 million. The Company has incurred losses and negative cash flows from operations since inception. If the Company continues to incur losses in the future, it may need to improve liquidity and raise additional capital through the issuance of equity and/or debt. There can be no assurance that the Company would be able to raise such capital. However, management believes that the Company’s existing sources of liquidity are adequate to fund its operations for at least twelve months from the date the unaudited condensed consolidated financial statements were available for issuance.
+Reclassification
+Certain amounts within the segment disclosure in the footnote to the condensed consolidated financial statements for the three and six months ended June 30, 2025, have been conformed to the current period presentation.
+Note 2 – Summary of Significant Accounting Policies
+During the three and six months ended June 30, 2026, except as noted below there were no significant changes to the Company’s significant accounting policies as disclosed in the Company’s Annual Report on Form 10-K filed with the SEC on March 2, 2026. The Company has consistently applied the accounting policies to all periods presented in these unaudited condensed consolidated financial statements.
+10
+Table of Contents
+Foreign Currencies
+On January 1, 2026, the Company reassessed the functional currency of its foreign subsidiaries and determined it was the U.S. Dollar for all its subsidiaries. The impact of this change was not material. Foreign currency transaction gains and losses are recorded in other income (expense), net in the condensed consolidated statements of operations and comprehensive loss.
+Tariff Refunds
+On February 20, 2026, the U.S. Supreme Court issued a ruling striking down tariffs imposed under the International Emergency Economic Powers Act (“IEEPA”). On April 20, 2026, the U.S. Customs and Border Protection (“CBP”) launched a system to process refund claims for certain invalidated IEEPA tariffs. During the quarter ended June 30, 2026, we submitted our claim for a refund of the IEEPA tariffs through the CBP portal estab

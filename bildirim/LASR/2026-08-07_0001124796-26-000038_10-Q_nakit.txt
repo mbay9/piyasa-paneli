@@ -1,0 +1,88 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1124796/000112479626000038/lasr-20260630.htm
+SEMBOL: LASR
+BASVURU_TARIHI: 2026-08-07
+BASVURU: 0001124796-26-000038
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(In thousands)
+(Unaudited)
+Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net loss | $ | ( 694 ) | $ | ( 11,684 ) |
+Adjustments to reconcile net loss to net cash provided by (used in) operating activities: |
+Depreciation | 6,322 | 6,220 |
+Amortization | 382 | 865 |
+Reduction in carrying amount of right-of-use assets | 1,411 | 169 |
+Provision for losses on (recoveries of) accounts receivable | ( 36 ) | ( 895 ) |
+Stock-based compensation | 21,849 | 12,427 |
+Deferred income taxes | 9 | 23 |
+Loss on disposal of property, plant and equipment | 47 | 98 |
+Accrued interest earned on marketable securities | ( 536 ) | ( 597 ) |
+Non-cash restructuring charges | 50 | — |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | 4,039 | ( 8,546 ) |
+Inventory | ( 2,974 ) | ( 6,949 ) |
+Prepaid expenses and other current assets | ( 8,496 ) | 1,285 |
+Other assets, net | 499 | 955 |
+Accounts payable | 2,997 | 3,461 |
+Accrued and other long-term liabilities | ( 2,180 ) | 3,165 |
+Deferred revenues | 9,238 | ( 1,132 ) |
+Lease liabilities | ( 1,327 ) | ( 252 ) |
+Non-current income taxes payable | ( 184 ) | ( 18 ) |
+Net cash provided by (used in) operating activities | 30,416 | ( 1,405 ) |
+Cash flows from investing activities: |
+Proceeds from sale of fixed assets | — | 443 |
+Purchases of property, plant and equipment | ( 6,963 ) | ( 4,674 ) |
+Purchase of marketable securities | ( 34,173 ) | ( 34,288 ) |
+Proceeds from maturities and sales of marketable securities | 34,918 | 34,136 |
+Net cash used in investing activities | ( 6,218 ) | ( 4,383 ) |
+Cash flows from financing activities: |
+Proceeds from public offering, net of underwriting discounts | 192,194 | — |
+Public offering costs | ( 919 ) | — |
+Proceeds from line of credit | — | 20,000 |
+Repayments of line of credit | ( 20,000 ) | — |
+Proceeds from employee stock plan purchases | 1,668 | 1,385 |
+Proceeds from stock option exercises | 217 | 162 |
+Tax payments related to stock award issuances | ( 190 ) | ( 3,061 ) |
+Net cash provided by financing activities | 172,970 | 18,486 |
+Effect of exchange rate changes on cash | ( 106 ) | 287 |
+Net increase in cash, cash equivalents, and restricted cash | 197,062 | 12,985 |
+Cash, cash equivalents, and restricted cash, beginning of period | 99,021 | 66,088 |
+Cash, cash equivalents, and restricted cash, end of period | $ | 296,083 | $ | 79,073 |
+Supplemental disclosures: |
+Cash paid for interest, net | $ | 486 | $ | 423 |
+Operating cash outflows from operating leases | 1,711 | 1,738 |
+Right-of-use assets obtained in exchange for lease liabilities | ( 32 ) | 1,222 |
+Accrued purchases of property, equipment and patents | 408 | 332 |
+Reconciliation of cash, cash equivalents, and restricted cash: |
+Cash and cash equivalents | $ | 295,761 | $ | 78,812 |
+Restricted cash | 322 | 261 |
+Total cash, cash equivalents, and restricted cash | $ | 296,083 | $ | 79,073 |
+See accompanying notes to consolidated financial statements.
+6
+Table of Contents
+nLIGHT, Inc.
+Notes to Consolidated Financial Statements
+Note 1 - Basis of Presentation and New Accounting Pronouncements
+Basis of Presentation
+The accompanying unaudited consolidated financial statements of nLIGHT, Inc. and our wholly-owned subsidiaries have been prepared in accordance with accounting principles generally accepted in the United States of America (U.S. GAAP) and pursuant to the rules and regulations of the Securities and Exchange Commission (SEC). The unaudited financial information reflects, in the opinion of management, all adjustments necessary for a fair presentation of financial position, results of operations, stockholders’ equity, and cash flows for the interim periods presented. The results reported for the interim period presented are not necessarily indicative of results that may be expected for the full year. These consolidated financial statements should be read in conjunction with the consolidated financial statements and notes thereto included in our Annual Report on Form 10-K for the year ended December 31, 2025.
+Critical Accounting Policies
+Our critical accounting policies have not materially changed during the six months ended June 30, 2026, from those disclosed in our Annual Report on Form 10-K for the year ended December 31, 2025.
+New Accounting Pronouncements
+ASU 2024-03
+In November 2024, the FASB issued ASU 2024-03 related to the disaggregation of certain income statement expenses. The amendments in this update require public entities to disclose incremental information related to purchases of inventory, team member compensation and depreciation, which will provide investors the ability to better understand entity expenses and make their own judgments about entity performance. The amendments in this update are effective for fiscal years beginning after December 15, 2026. We plan to adopt this pronouncement and make the necessary updates to our disclosures for the year ending December 31, 2027, and, aside from these disclosure changes, we do not expect the amendments to have a material effect on our financial position, results of operations or cash flows.
+ASU 2025-10
+In December 2025, the FASB issued ASU 2025‑10 related to government grants received by business entities. The amendments in this update establish recognition, measurement, presentation, and disclosure guidance for government grants and require such grants to be recognized only when it is probable that the entity will comply with the related conditions and that the grant will be received. The amendments in this update are effective for annual periods beginning after December 15, 2028. We are evaluating the amendments and expect to adopt the guidance when it becomes effective. We do not expect the amendments to have a material effect on our financial position, results of operations, or cash flows.
+ASU 2025-11
+In December 2025, the FASB issued ASU 2025-11 related to interim reporting. The amendments in this update clarify and streamline interim reporting disclosure requirements. The amendments are effective for interim reporting periods within fiscal years beginning after December 15, 2027 for public business entities. We are evaluating the amendments and expect to adopt the guidance when it becomes effective. We do not expect the adoption of ASU 2025‑11 to have a material impact on our financial position, results of operations or cash flows.
+Note 2 - Revenue
+We recognize revenue upon transferring control of products and services and the amounts recognized reflect the consideration we expect to be entitled to receive in exchange for these products and services. We consider customer purchase orders, which in some cases are governed by master sales agreements, to be the contracts with a customer. As part of our consideration of the contract, we evaluate certain factors, including the customer's ability to pay (or credit risk). For each contract, we consider the promise to transfer products, each of which is distinct, as the identified performance obligations.
+We allocate the transaction price to each distinct product based on its relative standalone selling price. Master sales agreements or purchase orders from customers could include a single product or multiple products. Regardless, the
+7
+Table of Contents
+contracted price with the customer is agreed to at the individual product level outlined in the customer contract or purchase order. We do not bundle prices; however, we do negotiate with customers on pricing for the same products based on a variety of factors (e.g., level of contractual volume). We have concluded that the prices negotiated with each individual customer are representative of the stand-alone selling price of the product.
+We often receive orders with multiple delivery dates that may extend across several reporting periods. We allocate the transaction price of the contract to each delivery based on the product standalone selling price and invoice for each scheduled delivery upon shipment or delivery and recognize revenues for such delivery at that point, when transfer of control has occurred. As scheduled delivery dates are generally within one year, under the optional exemption provided by ASC 606-10-50-14a, revenues allocated to future shipments of partially completed contracts are not disclosed as performance obligations for point in time revenue. Further, we recognize, over time, revenue as per ASC 606-10-55-18 (invoice practical expedient) for our cost plus contracts and, accordingly, elect not to disclose information related to those performance obligations under ASC 606-10-50-14b. As of June 30, 2026, we had
+$ 1.5 million of performance obligations relating to firm fixed price contracts that did not qualify for the aforementioned disclosure exemptions. We expect to recognize 75 % of these performance obligations by the end of 2026 and the remainder by the end of 2027.
+We have elected, per ASC 606-10-25-18B (shipping and handling practical e

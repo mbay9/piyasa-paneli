@@ -1,0 +1,90 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm
+SEMBOL: CRWV
+BASVURU_TARIHI: 2026-08-12
+BASVURU: 0001769628-26-000366
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+(unaudited)
+Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net loss | $ | ( 1,366 ) | $ | ( 605 ) |
+Adjustments to reconcile net loss to net cash provided by operating activities |
+Depreciation and amortization | 2,540 | 1,003 |
+Amortization of debt discounts and issuance costs and accretion of redemption premiums | 86 | 67 |
+Stock-based compensation expense | 318 | 329 |
+Non-cash lease expense | 365 | 144 |
+Deferred income taxes | 140 | 91 |
+Gain on fair value adjustments | — | ( 27 ) |
+Other non-cash reconciling items | 97 | 39 |
+Changes in operating assets and liabilities, net of effect of business acquisitions: |
+Accounts receivable | 607 | ( 1,505 ) |
+Prepaid expenses and other assets | ( 611 ) | ( 70 ) |
+Accounts payable and accrued expenses | 304 | ( 289 ) |
+Deferred revenue | 1,365 | 743 |
+Lease liabilities | ( 182 ) | ( 110 ) |
+Net cash provided by (used in) operating activities | $ | 3,663 | $ | ( 190 ) |
+Cash flows from investing activities: |
+Purchase of property and equipment, including capitalized internal-use software | $ | ( 14,117 ) | $ | ( 3,860 ) |
+Maturities and sales of marketable securities | 18 | 29 |
+Investments related to joint ventures | ( 550 ) | ( 32 ) |
+Purchase of strategic investments | ( 138 ) | — |
+Sales of warrants received as lease incentive | — | 101 |
+Issuance of notes receivable | — | ( 73 ) |
+Business combination, net of cash acquired | — | ( 46 ) |
+Other investing activities | ( 87 ) | 6 |
+Net cash used in investing activities | $ | ( 14,874 ) | $ | ( 3,875 ) |
+Cash flows from financing activities: |
+Proceeds from issuance of debt, net | $ | 16,747 | $ | 4,396 |
+Repayments of debt | ( 5,219 ) | ( 1,575 ) |
+Purchase of capped calls related to convertible senior notes | ( 492 ) | — |
+Issuance of common stock in private placements, net of issuance costs | 2,982 | — |
+Payment of tax withholdings on settlement of restricted stock units | — | ( 133 ) |
+Proceeds from initial public offering, net of underwriting discounts and commissions | — | 1,491 |
+Redeemable convertible preferred stock cash dividends paid | — | ( 29 ) |
+Other financing activities | ( 33 ) | ( 66 ) |
+Net cash provided by financing activities | $ | 13,985 | $ | 4,084 |
+Net increase (decrease) in cash, cash equivalents, and restricted cash | $ | 2,774 | $ | 19 |
+Cash, cash equivalents, and restricted cash—beginning of period | 4,130 | 2,035 |
+Cash, cash equivalents, and restricted cash—end of period | $ | 6,904 | $ | 2,054 |
+Supplemental disclosures of cash flow information: |
+Cash paid for interest, net of capitalized amounts | $ | 806 | $ | 362 |
+Non-cash investing and financing activities: |
+Liabilities related to property and equipment additions, including OEM financed additions | $ | 9,796 | $ | 2,155 |
+Reclassification of liabilities related to property and equipment additions to debt upon execution of OEM financing arrangements | 1,469 | — |
+Operating lease right-of-use assets acquired through lease liability | 8,359 | 969 |
+Conversion of convertible promissory notes | 195 | — |
+Conversion of redeemable convertible preferred stock in connection with initial public offering | — | 1,722 |
+Issuance of common stock, restricted stock units, and restricted stock awards for business combinations | — | 933 |
+Issuance of common stock for contract incentive | — | 350 |
+Reclassification of warrant liabilities to equity | — | 173 |
+Reclassification of customer deposit to debt | — | 230 |
+Warrants received as lease incentive | — | 90 |
+Non-cash investments | — | 72 |
+Reconciliation of cash, cash equivalents, and restricted cash to condensed consolidated balance sheets: |
+Cash and cash equivalents | $ | 5,524 | $ | 1,153 |
+Restricted cash and cash equivalents, current | 873 | 560 |
+Restricted cash and cash equivalents, non-current | 507 | 341 |
+Total cash, cash equivalents, and restricted cash | $ | 6,904 | $ | 2,054 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+11
+Table of Contents
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+1. Overview and Summary of Significant Accounting Policies
+Organization and Description of Business
+CoreWeave, Inc. (together with its subsidiaries, the "Company" or "CoreWeave"), was originally formed as a Delaware limited liability company in 2017 and then converted to a Delaware corporation in 2018. The Company is headquartered in Livingston, New Jersey. The Company is a modern cloud infrastructure technology company that offers the CoreWeave Cloud Platform that consists of proprietary software and cloud services that deliver the automation and efficiency needed to manage complex artificial intelligence ("AI") infrastructure at scale.
+Initial Public Offering
+In March 2025, the Company completed its initial public offering ("IPO"), in which the Company issued and sold 37 million shares of its Class A common stock at a public offering price of $ 40.00 per share, which resulted in net proceeds of $ 1.4 billion after deducting the underwriting discounts and commissions and before deducting offering costs payable by the Company of $ 31 million. In April 2025, the underwriters exercised a portion of their over-allotment option and purchased from the Company an additional 2 million shares of Class A common stock at the IPO price, which resulted in net proceeds to the Company of $ 68 million after deducting the underwriting discounts and commissions.
+In connection with the IPO, all outstanding shares of the Company's Series Seed, Series A, Series B, and Series B-1 redeemable convertible preferred stock automatically converted into 155 million shares of Class A common stock, and all outstanding shares of the Company's Series C redeemable convertible preferred stock were automatically converted into 30 million shares of redeemable Class A common stock. Refer to Note 11—Redeemable Convertible Preferred Stock, Redeemable Common Stock, and Stockholders' Equity (Deficit) for additional information.
+In connection with the IPO, the Company recognized $ 177 million of stock-based compensation expense, net of $ 17 million of capitalized costs, primarily related to the development of internal-use software, associated with vested restricted stock units ("RSUs") with a liquidity-event performance-based vesting condition which was satisfied in connection with the IPO and for which the service-based vesting condition had also been satisfied as of that date. Concurrently with the IPO, the Company issued shares of its Class A common stock upon settlement of RSUs subject to such performance-based vesting conditions. To meet the related tax withholding requirements for the net settlement of the vested RSUs, the Company withheld 0.4 million shares underlying such equity awards, resulting in the net issuance of 0.5 million shares of Class A common stock. Based on the IPO price of $ 40.00 per share, the Company’s related tax withholding obligation was $ 16 million and was paid during the three months ended March 31, 2025. Refer to Note 11—Redeemable Convertible Preferred Stock, Redeemable Common Stock, and Stockholders' Equity (Deficit) for additional information.
+In March 2025, the Company also entered into a commercial agreement (the "Commercial Agreement") with a strategic customer to provide AI infrastructure services. In connection with the Commercial Agreement, the Company issued 9 million shares of the Company’s Class A common stock on March 31, 2025, with an aggregate value of $ 350 million at the time of issuance based on a price per share equal to the IPO price.
+Prior to the IPO, deferred offering costs, which consisted of accounting, legal and other fees directly related to the IPO, were capitalized as other non-current assets on the condensed consolidated balance sheets. In connection with the IPO, $ 31 million of deferred offering costs were reclassified to stockholders' equity (deficit) as a reduction of the net proceeds received from the IPO.
+Basis of Presentation and Consolidation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States ("U.S. GAAP") and include the accounts of the Company and its wholly and majority-owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation.
+These unaudited interim condensed consolidated financial statements are presented in accordance with the rules and regulations of the U.S. Securities and Exchange Commission (the "SEC") and do not include all disclosures normally required in annual consolidated financial statements prepared in accordance with U.S. GAAP. Therefore, these unaudited
+12
+Table of Contents
+condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements and related notes included in the Company’s Annual Report on Form 

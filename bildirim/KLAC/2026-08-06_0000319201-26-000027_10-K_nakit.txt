@@ -1,0 +1,178 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm
+SEMBOL: KLAC
+BASVURU_TARIHI: 2026-08-06
+BASVURU: 0000319201-26-000027
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows for each of the three years in the period ended June 30, 2026
+| 53
+|
+Notes to Consolidated Financial Statements
+| 54
+|
+Report of Independent Registered Public Accounting Firm (PCAOB ID 238 )
+| 93
+|
+Schedule II Valuation and Qualifying Accounts for the three years in the period ended June 30, 2026
+| 95
+|
+48
+Table of Contents
+KLA CORPORATION
+Consolidated Balance Sheets
+As of June 30, |
+(In thousands, except par value) | 2026 | 2025 |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 1,649,842 | $ | 2,078,908 |
+Marketable securities | 3,252,566 | 2,415,715 |
+Accounts receivable, net | 2,889,208 | 2,263,915 |
+Inventories | 3,648,538 | 3,212,149 |
+Other current assets | 941,636 | 728,102 |
+Total current assets | 12,381,790 | 10,698,789 |
+Land, property and equipment, net | 1,380,550 | 1,252,775 |
+Goodwill, net | 1,788,758 | 1,792,193 |
+Deferred income taxes | 1,037,224 | 1,105,770 |
+Purchased intangible assets, net | 255,835 | 444,785 |
+Other non-current assets | 1,107,378 | 773,614 |
+Total assets | $ | 17,951,535 | $ | 16,067,926 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 623,668 | $ | 458,509 |
+Deferred system revenue | 932,901 | 816,834 |
+Deferred service revenue | 604,127 | 548,011 |
+Other current liabilities | 2,144,231 | 2,262,441 |
+Total current liabilities | 4,304,927 | 4,085,795 |
+Long-term debt | 5,887,415 | 5,884,257 |
+Deferred tax liabilities | 473,648 | 446,945 |
+Deferred service revenue | 238,111 | 348,844 |
+Other non-current liabilities | 697,614 | 609,632 |
+Total liabilities | 11,601,715 | 11,375,473 |
+Commitments and contingencies (Notes 8, 14 and 15) | | |
+Stockholders’ equity: |
+Preferred stock, $ 0.001 par value, 1,000 shares authorized, none outstanding
+| — | — |
+Common stock, $ 0.001 par value, 5,000,000 shares authorized, 2,816,579 and 2,811,758 shares issued, 1,306,983 and 1,320,227 shares outstanding, as of June 30, 2026 and June 30, 2025, respectively
+| 1,307 | 1,320 |
+Capital in excess of par value | 2,699,102 | 2,510,602 |
+Retained earnings | 3,683,864 | 2,179,330 |
+Accumulated other comprehensive income (loss) | ( 34,453 ) | 1,201 |
+Total stockholders’ equity | 6,349,820 | 4,692,453 |
+Total liabilities and stockholders’ equity | $ | 17,951,535 | $ | 16,067,926 |
+See accompanying notes to Consolidated Financial Statements.
+49
+Table of Contents
+KLA CORPORATION
+Consolidated Statements of Operations
+Year Ended June 30, |
+(In thousands, except per share amounts) | 2026 | 2025 | 2024 |
+Revenues: |
+Product | $ | 10,453,537 | $ | 9,472,854 | $ | 7,482,679 |
+Service | 3,125,939 | 2,683,308 | 2,329,568 |
+Total revenues | 13,579,476 | 12,156,162 | 9,812,247 |
+Costs and expenses: |
+Costs of revenues | 5,255,060 | 4,751,867 | 3,928,073 |
+Research and development | 1,532,118 | 1,360,334 | 1,278,981 |
+Selling, general and administrative | 1,131,518 | 1,029,734 | 969,509 |
+Impairment of goodwill and purchased intangible assets | — | 239,100 | 289,474 |
+Interest expense | 284,440 | 302,166 | 311,253 |
+Other expense (income), net | ( 229,585 ) | ( 171,487 ) | ( 155,075 ) |
+Income before income taxes | 5,605,925 | 4,644,448 | 3,190,032 |
+Provision for income taxes | 775,154 | 582,805 | 428,136 |
+Net income | 4,830,771 | 4,061,643 | 2,761,896 |
+Net income per share |
+Basic | $ | 3.68 | $ | 3.05 | $ | 2.04 |
+Diluted | $ | 3.66 | $ | 3.04 | $ | 2.03 |
+Weighted-average number of shares: |
+Basic | 1,311,516 | 1,330,299 | 1,353,452 |
+Diluted | 1,319,633 | 1,337,502 | 1,361,869 |
+See accompanying notes to Consolidated Financial Statements.
+50
+Table of Contents
+KLA CORPORATION
+Consolidated Statements of Comprehensive Income
+Year Ended June 30, |
+(In thousands) | 2026 | 2025 | 2024 |
+Net income | $ | 4,830,771 | $ | 4,061,643 | $ | 2,761,896 |
+Other comprehensive income (loss): |
+Currency translation adjustments: |
+Cumulative currency translation adjustments | ( 11,744 ) | 17,820 | ( 11,763 ) |
+Income tax (provision) benefit | ( 499 ) | 749 | 544 |
+Net change related to currency translation adjustments | ( 12,243 ) | 18,569 | ( 11,219 ) |
+Cash flow hedges: |
+Net unrealized gains arising during the period | 34,383 | 36,726 | 9,737 |
+Reclassification adjustments for net gains included in net income | ( 52,824 ) | ( 15,429 ) | ( 25,904 ) |
+Income tax (provision) benefit | 4,085 | ( 2,742 ) | 2,466 |
+Net change related to cash flow hedges | ( 14,356 ) | 18,555 | ( 13,701 ) |
+Net change related to unrecognized losses and transition obligations in connection with defined benefit plans | 3,571 | 3,706 | 3,043 |
+Available-for-sale securities: |
+Net unrealized gains (losses) arising during the period | ( 15,491 ) | 12,090 | 11,527 |
+Reclassification adjustments for net (gains) losses included in net income | ( 587 ) | ( 59 ) | 103 |
+Income tax (provision) benefit | 3,452 | ( 2,585 ) | ( 2,487 ) |
+Net change related to available-for-sale securities | ( 12,626 ) | 9,446 | 9,143 |
+Other comprehensive income (loss) | ( 35,654 ) | 50,276 | ( 12,734 ) |
+Total comprehensive income | $ | 4,795,117 | $ | 4,111,919 | $ | 2,749,162 |
+See accompanying notes to Consolidated Financial Statements.
+51
+Table of Contents
+KLA CORPORATION
+Consolidated Statements of Stockholders’ Equity
+Common Stock and Capital in Excess of Par Value | Retained Earnings | Accumulated Other Comprehensive Income (Loss) | Total Stockholders’ Equity |
+(In thousands, except per share amounts) | Shares | Amount |
+Balances as of June 30, 2023 | 1,367,496 | $ | 2,107,663 | $ | 848,431 | $ | ( 36,341 ) | $ | 2,919,753 |
+Net income | — | — | 2,761,896 | — | 2,761,896 |
+Other comprehensive loss | — | — | — | ( 12,734 ) | ( 12,734 ) |
+Net issuance under employee stock plans | 7,074 | 1,908 | — | — | 1,908 |
+Repurchase of common stock | ( 30,320 ) | ( 42,133 ) | ( 1,700,368 ) | — | ( 1,742,501 ) |
+Cash dividends ($ 0.565 per share) and dividend equivalents declared
+| — | — | ( 772,689 ) | — | ( 772,689 ) |
+Stock-based compensation expense | — | 212,695 | — | — | 212,695 |
+Balances as of June 30, 2024 | 1,344,250 | 2,280,133 | 1,137,270 | ( 49,075 ) | 3,368,328 |
+Net income | — | — | 4,061,643 | — | 4,061,643 |
+Other comprehensive income | — | — | — | 50,276 | 50,276 |
+Net issuance under employee stock plans | 6,034 | 18,853 | — | — | 18,853 |
+Repurchase of common stock | ( 30,057 ) | ( 52,075 ) | ( 2,113,560 ) | — | ( 2,165,635 ) |
+Cash dividends ($ 0.675 per share) and dividend equivalents declared
+| — | — | ( 906,023 ) | — | ( 906,023 ) |
+Stock-based compensation expense | — | 265,011 | — | — | 265,011 |
+Balances as of June 30, 2025 | 1,320,227 | 2,511,922 | 2,179,330 | 1,201 | 4,692,453 |
+Net income | — | — | 4,830,771 | — | 4,830,771 |
+Other comprehensive loss | — | — | — | ( 35,654 ) | ( 35,654 ) |
+Net issuance under employee stock plans | 4,997 | ( 86,154 ) | — | — | ( 86,154 ) |
+Repurchase of common stock | ( 18,241 ) | ( 35,530 ) | ( 2,268,405 ) | — | ( 2,303,935 ) |
+Cash dividends ($ 0.800 per share) and dividend equivalents declared
+| — | — | ( 1,057,832 ) | — | ( 1,057,832 ) |
+Stock-based compensation expense | — | 310,171 | — | — | 310,171 |
+Balances as of June 30, 2026 | 1,306,983 | $ | 2,700,409 | $ | 3,683,864 | $ | ( 34,453 ) | $ | 6,349,820 |
+See accompanying notes to Consolidated Financial Statements.
+52
+Table of Contents
+KLA CORPORATION
+Consolidated Statements of Cash Flows
+Year Ended June 30, |
+(In thousands) | 2026 | 2025 | 2024 |
+Cash flows from operating activities: |
+Net income | $ | 4,830,771 | $ | 4,061,643 | $ | 2,761,896 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Impairment of goodwill and purchased intangible assets | — | 239,100 | 289,474 |
+Depreciation and amortization | 393,978 | 394,088 | 401,730 |
+Unrealized foreign exchange (gain) loss and other | 6,725 | 14,974 | ( 12,533 ) |
+Asset impairment charges | — | — | 11,307 |
+Stock-based compensation expense | 310,171 | 265,011 | 212,695 |
+Net gain on sale of assets | ( 683 ) | ( 161 ) | — |
+Deferred income taxes | 77,795 | ( 246,577 ) | ( 155,228 ) |
+Settlement of treasury lock agreement | — | — | 415 |
+Changes in assets and liabilities, net of assets acquired and liabilities assumed in business acquisitions: |
+Accounts receivable | ( 641,824 ) | ( 367,897 ) | ( 80,894 ) |
+Inventories | ( 465,963 ) | ( 155,170 ) | ( 164,092 ) |
+Other assets | ( 501,420 ) | ( 10,459 ) | ( 289,509 ) |
+Accounts payable | 172,357 | 33,789 | 24,976 |
+Deferred system revenue | 116,071 | ( 169,027 ) | 334,136 |
+Deferred service revenue | ( 54,617 ) | 100,460 | 203,106 |
+Other liabilities | ( 100,282 ) | ( 77,871 ) | ( 228,904 ) |
+Net cash provided by operating activities | 4,143,079 | 4,081,903 | 3,308,575 |
+Cash flows from investing activities: |
+Business acquisitions, net of cash acquired | — | — | ( 3,682 ) |
+Capital expenditures | ( 375,945 ) | ( 335,259 ) | ( 277,384 ) |
+Proceeds from capital-related government assistance | 16,782 | 6,263 | — |
+Purchases of available-for-sale and equity securities | ( 3,711,093 

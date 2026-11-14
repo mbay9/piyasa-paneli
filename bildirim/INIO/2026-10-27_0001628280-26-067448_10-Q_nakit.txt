@@ -1,0 +1,65 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2109150/000162828026067448/inio-20260930.htm
+SEMBOL: INIO
+BASVURU_TARIHI: 2026-10-27
+BASVURU: 0001628280-26-067448
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(Unaudited)
+Nine Months Ended September 30, |
+(in millions of $) | Notes | 2026 | 2025 |
+Net income | $ | 83.3 | $ | 136.9 |
+Adjustments to reconcile net income to cash from operating activities |
+Depreciation of property, plant, and equipment | 6 | 50.6 | 41.4 |
+Amortization of intangible assets | 5 | 66.8 | 71.8 |
+Foreign currency losses (gains) | 37.2 | ( 11.3 ) |
+Amortization of operating lease right-of-use assets | 17.6 | 13.0 |
+Loss from repurchase of sale and lease back | — | 4.6 |
+Other non-cash expense (income) | 55.5 | 20.5 |
+Changes in assets and liabilities |
+Accounts receivable | ( 48.6 ) | ( 34.1 ) |
+Inventories | ( 484.6 ) | ( 149.3 ) |
+Prepaid expenses | ( 66.7 ) | ( 66.0 ) |
+Accounts payable | 283.9 | 37.6 |
+Contract liabilities | 797.0 | 344.7 |
+Accrued liabilities | 29.7 | ( 16.5 ) |
+All other assets and liabilities | ( 80.2 ) | ( 83.9 ) |
+Net cash provided by operating activities | 741.5 | 309.4 |
+Additions to property, plant, and equipment | 6 | ( 187.3 ) | ( 67.6 ) |
+Additions to intangible assets | ( 11.8 ) | ( 14.0 ) |
+Acquisitions, net of cash acquired | 4 | ( 44.6 ) | — |
+All other investing activities | 0.4 | 2.4 |
+Net cash used for investing activities | ( 243.3 ) | ( 79.2 ) |
+Repayment of loans and borrowings | ( 7.3 ) | ( 4.5 ) |
+Proceeds from loans and borrowings | — | 35.2 |
+Proceeds / (payments) from supplier finance programs, net | 9 | 41.0 | 51.1 |
+Payments for obligations from finance lease and sale-and-leaseback transactions | ( 7.8 ) | ( 3.4 ) |
+Payments on repurchase of sale and lease back | — | ( 52.6 ) |
+Proceeds from contribution from non controlling interest | 3.1 | 10.6 |
+Transaction costs related to new loans and refinancing of existing loans | ( 7.1 ) | — |
+All other financing activities | ( 2.8 ) | ( 2.1 ) |
+Net cash provided by financing activities | 19.1 | 34.3 |
+Effect of currency exchange rate changes on cash and cash equivalents | ( 11.0 ) | 16.4 |
+Increase in cash and cash equivalents | 506.3 | 280.9 |
+Cash and cash equivalents at the beginning of the period | 689.5 | 378.5 |
+Cash and cash equivalents at the end of the period | $ | 1,195.8 | $ | 659.4 |
+Supplemental disclosure of cash flows information |
+Cash paid during the period for interest | ( 131.3 ) | ( 127.0 ) |
+See accompanying notes to the Consolidated Financial Statements.
+9
+Table of Co n te nt s
+INNIO N.V.
+Notes to the Consolidated Financial Statements (Unaudited)
+Note 1. Operations and summary of significant accounting policies
+1.1. Organization. INNI O N.V. (the “Company,” “INNIO,” or the “Group”), formerly known as INNIO Holding GmbH, is a global provider of distributed power generation equipment and services operating primarily under the Jenbacher and Waukesha brands. Refer to section 1.2 Reorganization, below for further details. The Group designs, manufactures, and services gas-fueled reciprocating engines and related solutions for industrial, commercial, municipal and data center applications, with primary operations in Austria, the United States, and Canada, supported by a worldwide services network. The Group reports financial results through two operating segments: Equipment and Services.
+1. The Equipment segment designs, manufactures, and sells new engines, product-related equipment and related solutions addressing data center, power solutions, and compression business lines.
+2. The Services segment provides aftermarket services through an engine's lifecycle, including long-term service agreements, spare parts, overhauls, remanufacturing of engines and components, digital solutions, and service-related activities.
+1.2. Reorganization. On September 26, 2025, the Company completed a reorganization of its legal entity structure, whereby the accounting predecessor INNIO Group Holding GmbH became an indirect wholly-owned subsidiary of INNIO Holding GmbH. The Reorganization was accounted for as a transaction under common control and reflected prospectively from the date of transfer. See our audited Consolidated Financial Statements for the year ended December 31, 2025, as disclosed in our final prospectus filed with the SEC pursuant to Rule 424(b)(4) under the Securities Act of 1933, as amended, in connection with our IPO (the "Prospectus").
+On June 3, 2026, INNIO Holding GmbH was converted, without interruption of its existence as legal entity, from a German limited liability company ( Gesellschaft mit beschränkter Haftung ) into INNIO Group Holding B.V., a Dutch private company with limited liability ( besloten vennootschap met beperkte aansprakelijkheid ). Following such conversion, the nominal value of the then 25,000 outstanding common shares in INNIO Group Holding B.V. was reduced to € 0.04 , and 749,975,000 new common shares were issued to our Principal Shareholder. Thereafter, without interruption of its existence as legal entity, INNIO Group Holding B.V. was converted into a public company under Dutch law ( naamloze vennootschap ), and our legal name changed to INNIO N.V. Refer to Note 23 – Earnings (loss) per share for more information.
+1.3. Basis of presentation. The unaudited Consolidated Financial Statements have been prepared in accordance with U.S. generally accepted accounting principles ("U.S. GAAP"), pursuant to the rules and regulations of the Securities and Exchange Commission (SEC) applicable to interim financial statement and present the historical results of operations, comprehensive income (loss) and changes in equity for the three and nine months ended September 30, 2026 and 2025, the financial position as of September 30, 2026 and December 31, 2025 and cash flows for the nine months ended September 30, 2026 and 2025. Certain information related to our significant accounting policies and note disclosures have been condensed or omitted. In the opinion of management, the unaudited Consolidated Financial Statements for the interim periods presented include all adjustments necessary to present a fair statement of the results for such interim periods. These unaudited Consolidated Financial Statements should be read in conjunction with our annual audited Consolidated Financial Statements, related notes and significant accounting policies for the fiscal year ended December 31, 2025, as disclosed in our final prospectus filed with the SEC pursuant to Rule 424(b)(4) under the Securities Act of 1933, as amended, in connection with our IPO (the "Prospectus"). The unaudited Consolidated Financial Statements are presented in millions of U.S. dollars ("USD"), unless otherwise stated. Certain amounts may not sum due to rounding and percentages are calculated based on underlying amounts expressed in millions. Amounts that are non-zero but round to zero at the presented level of precision are shown as "$0.0", whereas amounts with a value of zero are presented as "$—".
+10
+Table of Co n te nt s
+1.4. Use of Estimates. The preparation of the unaudited Consolidated Financial Statements in conformity with U.S. GAAP requires management to make estimates based on assumptions about current, and for certain estimates, future, economic and market conditions that affect reported amounts and related disclosures. These assumptions are deemed to be reasonable under the circumstances and although current estimates contemplate current and expected future conditions, as applicable, it is reasonably possible that actual conditions could differ from expectations, which could materially affect the results of operations, financial position and cash flows.
+Estimates are used for, but are not limited to, determining the point in time when control transfers to the customer for revenues, contract margins and costs to complete the project when applying the percentage-of-completion method for revenues, recognition and measurement of warranty obligations, impairment assessments of goodwill and indefinite‑lived intangible assets, contingent consideration liabilities, fair‑value measurements, and the recognition and measurement of deferred tax asset valuation allowances.
+For further information on our significant accounting policies, please refer to our annual audited Consolidated Financial Statements for the fiscal year ended December 31, 2025, filed with the SEC pursuant to Rule 424(b)(4) under the Securities Act of 1933, as amended, in connection with our IPO (the "Prospectus").
+1.5 Equity method investments. Equity method investments represent investments in entities over which the Company has the ability to exercise significant influence, but not control. The initial investments in these entities are recorded at cost and subsequently adjusted for the Company's proportionate share of the investees' net income or losses. Where the Company executes transactions with its equity method investments, its proportionate share in any profits or losses of an equity method investment is eliminated until realization of the related profit and losses by the investee. Dividends received from equity method investees red

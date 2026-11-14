@@ -1,0 +1,90 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm
+SEMBOL: SPCX
+BASVURU_TARIHI: 2026-10-22
+BASVURU: 0001628280-26-066880
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(in millions)
+(unaudited)
+Nine Months Ended September 30, |
+2026 | 2025 |
+Cash flows from operating activities |
+Net loss | $ | ( 413 ) | $ | ( 2,590 ) |
+Adjustments to reconcile net loss to net cash provided by operating activities: |
+Depreciation and amortization | 8,934 | 4,784 |
+Share-based compensation | 3,833 | 1,044 |
+Deferred income taxes | ( 455 ) | 623 |
+Unrealized (gain) loss on digital assets | 64 | ( 389 ) |
+Unrealized gain on investments in unconsolidated affiliates, net | ( 532 ) | — |
+Loss on debt extinguishment | 1,545 | — |
+Other | ( 254 ) | 193 |
+Changes in operating assets and liabilities |
+Accounts receivable | ( 2,882 ) | ( 934 ) |
+Inventory | ( 1,381 ) | ( 378 ) |
+Prepaid expenses and other assets | ( 1,305 ) | ( 427 ) |
+Accounts payable | ( 970 ) | 668 |
+Deferred revenue | 4,922 | 404 |
+Other liabilities, net | 1,991 | 1,122 |
+Net cash provided by operating activities | $ | 13,097 | $ | 4,120 |
+Cash flows from investing activities |
+Purchases of property, plant, and equipment (related party of $ 480 and $ 285 for September 30, 2026 and 2025, respectively)
+| ( 48,069 ) | ( 13,846 ) |
+Capitalized interest | ( 20 ) | ( 96 ) |
+Proceeds from product rebates | 1,372 | — |
+Purchases of marketable securities | ( 46,834 ) | ( 601 ) |
+Maturities of marketable securities | 9,158 | 548 |
+Proceeds from sales of marketable securities | 77 | 1,173 |
+Payments for intangible assets | ( 866 ) | — |
+Cash received from acquisition of businesses | 514 | — |
+Other investing activities, net | 57 | ( 175 ) |
+Net cash used in investing activities | $ | ( 84,611 ) | $ | ( 12,997 ) |
+Cash flows from financing activities |
+Principal repayments on finance leases | ( 270 ) | ( 213 ) |
+Proceeds from debt and other financing obligations | 51,834 | 10,947 |
+Payment of debt issuance costs | ( 124 ) | ( 66 ) |
+Repayments on debt and other financing obligations | ( 39,845 ) | ( 6,014 ) |
+Payment of debt extinguishment premium | ( 1,153 ) | — |
+Proceeds from issuance of capital stock, net of issuance costs | 8,319 | 5,299 |
+Proceeds from employee equity award plans | 368 | 206 |
+Payments for repurchase of common and redeemable convertible preferred stock | ( 4,426 ) | ( 525 ) |
+Taxes paid related to net share settlement of equity awards | ( 559 ) | ( 194 ) |
+Proceeds from IPO, net of underwriting commissions and offering costs | 85,675 | — |
+Net cash provided by financing activities | $ | 99,819 | $ | 9,440 |
+Effect of exchange rate changes on cash and cash equivalents | ( 43 ) | 69 |
+Net change in cash and cash equivalents and restricted cash | 28,262 | 632 |
+Cash and cash equivalents and restricted cash, beginning of the period | 25,124 | 11,501 |
+Cash and cash equivalents and restricted cash, end of the period | $ | 53,386 | $ | 12,133 |
+Supplemental disclosures of cash flow information |
+Cash paid for the following: |
+Interest, net of interest capitalized | $ | 2,078 | $ | 695 |
+Income taxes, net | $ | 66 | $ | 56 |
+Supplemental schedule of noncash investing and financing activities |
+Purchases of property, plant, and equipment included in accounts payable and accrued expenses | $ | 11,827 | $ | 3,573 |
+Purchases of property, plant, and equipment financed by other financings | $ | 3,921 | $ | — |
+Share-based compensation capitalized in property, plant, and equipment, net | $ | 160 | $ | 114 |
+Acquisition of businesses through issuance of shares | $ | 42,723 | $ | — |
+The accompanying notes are an integral part of these consolidated financial statements.
+9
+Table of Contents
+SPACE EXPLORATION TECHNOLOGIES CORP.
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+(tables in millions, except per share data)
+(unaudited)
+Note 1 - Nature of Business
+Description of Business
+Space Exploration Technologies Corp. and its wholly owned subsidiaries, collectively referred to as the “Company” or “SpaceX,” operate three segments – (i) the Space segment designs, manufactures, and launches reusable rockets to provide high cadence, reliable, and affordable access to space at unprecedented scale, (ii) the Connectivity segment operates a worldwide high-speed, low-latency broadband network powered by thousands of Starlink satellites in Low-Earth Orbit, delivering connectivity to millions of consumer, enterprise, and government customers through our Starlink offering, and (iii) the Super Intelligence (“SI”) segment (formerly known as the AI segment) operates a vertically integrated SI platform spanning SI infrastructure solutions for enterprise customers, as well as a frontier LLM Grok, SI-assisted software engineering platform Cursor, and real-time information, entertainment, and free speech platform X for consumer and enterprise customers.
+Cursor Merger
+On June 16, 2026, the Company entered into an Agreement and Plan of Merger ("Cursor Merger Agreement") with Anysphere, Inc. ("Cursor") and X67 Inc., a wholly owned subsidiary of the Company ("Merger Sub"). On August 14, 2026 ("Closing Date"), the Company completed the merger with Cursor ("Cursor Merger"). Pursuant to the Cursor Merger Agreement, Merger Sub merged with and into Cursor, with Cursor surviving the merger as a wholly owned subsidiary of the Company. At the Closing Date, each share of Cursor's common stock and preferred stock outstanding immediately prior to the Closing Date was automatically converted into the right to receive shares of the Company's Class A common stock, plus cash in lieu of fractional shares. The conversion was based on an implied equity value of Cursor of $ 60 billion and the volume-weighted average closing price (“VWAP”) of the Company's Class A common stock over the seven consecutive trading days immediately preceding the closing of the Cursor Merger (“Exchange Ratio”). The results of operations of Cursor are included in the Company’s consolidated financial statements from the Closing Date and are reported within the SI segment. See Note 20 - Acquisitions for additional details.
+Initial Public Offering
+In June 2026, the Company completed its initial public offering (“IPO”), in which the Company issued and sold 638.9 million shares of its Class A common stock at a public offering price of $ 135.00 per share, including the full exercise of the underwriters’ over-allotment option, which resulted in net proceeds of $ 85,675 million after deducting the underwriting commissions and offering costs of $ 575 million. The underwriting commissions and offering costs are presented in shareholders’ equity as a reduction of the net proceeds received from the IPO.
+In connection with the IPO, all outstanding shares of the Company’s redeemable convertible preferred stock automatically converted into shares of the Company’s Class A and Class B common stock. Refer to Note 12 - Redeemable Convertible Preferred Stock and Shareholders’ Equity for additional information.
+Stock Split
+In May 2026, the Company effected a five -for-one forward stock split of its authorized, issued, and outstanding shares of Class A, Class B, and Class C common stock (“2026 Stock Split”). The conversion rate of the Company’s redeemable convertible preferred stock was proportionately adjusted to factor in the 2026 Stock Split. All share and per share information that relates to dates prior to the 2026 Stock Split has been retroactively adjusted to reflect the 2026 Stock Split for all periods presented.
+Common Control Mergers
+On February 2, 2026 (“xAI Merger Date”), the Company completed its acquisition of X.AI Holdings Corp. (“xAI”), pursuant to which xAI became a wholly-owned subsidiary of the Company (“xAI Merger”). Prior to the xAI Merger, on March 28, 2025, xAI completed its acquisition of X Holdings Corp. (“X”) and SpaceXAI Corp. (formerly known as X.AI Corp.), in which X and SpaceXAI Corp. became wholly-owned subsidiaries of xAI (“X Merger”, and collectively with xAI Merger, “Common Control Mergers”). SpaceXAI Corp. began operations in March 2023 and Twitter, Inc. (“Twitter”) was acquired by Mr. Elon Musk in October 2022. The Common Control Mergers were each effected through a share exchange. Refer to Note 12 - Redeemable Convertible Preferred Stock and Shareholders’ Equity for additional details.
+10
+Table of Contents
+Note 2 - Summary of Significant Accounting Policies
+Unaudited Interim Financial Statements
+The consolidated financial statements, including the consolidated balance sheet as of September 30, 2026, the consolidated statements of operations, the consolidated statements of comprehensive income (loss), the consolidated statements of redeemable convertible preferred stock and shareholders’ equity for the three and nine months ended September 30, 2026 and 2025, and the consolidated statements of cash flows for the nine months ended September 30, 2026 and 2025, as well as other information disclosed in the accompanying notes, are unaudited. The consolidated balance sheet as of December 31, 2025 was derived from the audited consolidated financial statements as of that date. The interim con

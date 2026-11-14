@@ -1,0 +1,202 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/895419/000089541926000081/wolf-20260927.htm
+SEMBOL: WOLF
+BASVURU_TARIHI: 2026-11-05
+BASVURU: 0000895419-26-000081
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the three months ended September 27, 2026 and September 28, 2025
+| 9
+|
+Notes to Unaudited Consolidated Financial Statements
+| 10
+|
+3
+Table of Contents
+WOLFSPEED, INC.
+UNAUDITED CONSOLIDATED BALANCE SHEETS
+Successor as of | Successor as of |
+(in millions of U.S. Dollars, except share data in thousands)
+| September 27, 2026 | June 28, 2026 |
+Assets |
+Current assets: |
+Cash and cash equivalents | $ 411.3 | $ 576.3 |
+Short-term investments | 583.8 | 512.3 |
+Total cash, cash equivalents and short-term investments | 995.1 | 1,088.6 |
+Accounts receivable, net | 109.3 | 98.2 |
+Inventories, net | 203.5 | 234.2 |
+Prepaid expenses | 38.4 | 38.8 |
+Investment tax credit receivable | 84.4 | 84.4 |
+Other current assets | 49.0 | 45.2 |
+Total current assets | 1,479.7 | 1,589.4 |
+Property and equipment, net | 695.3 | 691.4 |
+Intangible assets, net | 376.4 | 392.2 |
+Long-term investment tax credit receivable | 112.2 | 116.5 |
+Other assets | 211.9 | 215.4 |
+Total assets | $ 2,875.5 | $ 3,004.9 |
+Liabilities and Stockholders' Equity |
+Current liabilities: |
+Accounts payable and accrued expenses | $ 108.7 | $ 118.5 |
+Contract liabilities and distributor-related reserves | 58.6 | 61.1 |
+Income taxes payable | 0.6 | 0.7 |
+Finance lease liabilities | 0.1 | 0.2 |
+Other current liabilities | 70.5 | 51.1 |
+Total current liabilities | 238.5 | 231.6 |
+Long-term liabilities: |
+Long-term debt | 930.3 | 931.0 |
+Convertible notes, net | 750.3 | 756.5 |
+Finance lease liabilities - long-term | 1.9 | 1.9 |
+Other long-term liabilities | 150.5 | 153.7 |
+Total liabilities | 2,071.5 | 2,074.7 |
+Commitments and contingencies | | |
+Stockholders’ equity: |
+Preferred stock, par value $ 0.00125 and $ 0.01 ; 100,000 shares authorized at September 27, 2026 and June 28, 2026, respectively; none issued and outstanding
+| — | — |
+Common stock, par value $ 0.00125 ; 350,000 shares authorized at September 27, 2026 and June 28, 2026, respectively; 53,021 and 52,162 shares issued and outstanding at September 27, 2026 and June 28, 2026, respectively
+| 0.1 | 0.1 |
+Additional paid-in-capital | 1,364.9 | 1,345.9 |
+Accumulated other comprehensive loss | ( 1.4 ) | — |
+Accumulated deficit | ( 559.6 ) | ( 415.8 ) |
+Total stockholders' equity | 804.0 | 930.2 |
+Total liabilities and stockholders’ equity | $ 2,875.5 | $ 3,004.9 |
+The accompanying notes are an integral part of the consolidated financial statements
+4
+Table of Contents
+WOLFSPEED, INC.
+UNAUDITED CONSOLIDATED STATEMENTS OF OPERATIONS
+Successor | Predecessor |
+Three months ended | Three months ended |
+(in millions of U.S. Dollars, except share data)
+| September 27, 2026 | September 28, 2025 |
+Revenue, net | $ 155.0 | $ 196.8 |
+Cost of revenue, net | 189.0 | 273.9 |
+Gross loss | ( 34.0 ) | ( 77.1 ) |
+Operating expenses: |
+Research and development | 27.8 | 31.7 |
+Sales, general and administrative | 39.9 | 37.9 |
+Gain on sale of property and equipment | ( 3.2 ) | ( 5.7 ) |
+Restructuring and other expenses | 14.3 | 20.4 |
+Total operating expense | 78.8 | 84.3 |
+Operating loss | ( 112.8 ) | ( 161.4 ) |
+Reorganization items, net | — | 503.8 |
+Interest expense, net | 40.0 | 0.7 |
+Non-operating income, net | ( 9.1 ) | ( 22.4 ) |
+Loss before income taxes | ( 143.7 ) | ( 643.5 ) |
+Income tax expense | 0.1 | 0.1 |
+Net loss | ($ 143.8 ) | ($ 643.6 ) |
+Basic and diluted loss per share |
+Net loss | ($ 2.61 ) | ($ 4.12 ) |
+Weighted average shares (in thousands) |
+Basic and diluted | 55,000 | 156,185 |
+The accompanying notes are an integral part of the consolidated financial statements
+5
+Table of Contents
+WOLFSPEED, INC.
+UNAUDITED CONSOLIDATED STATEMENTS OF COMPREHENSIVE LOSS
+Successor | Predecessor |
+Three months ended | Three months ended |
+(in millions of U.S. Dollars) | September 27, 2026 | September 28, 2025 |
+Net loss | ($ 143.8 ) | ($ 643.6 ) |
+Other comprehensive loss: |
+Net unrealized (loss) gain on available-for-sale securities | ( 1.4 ) | 0.8 |
+Comprehensive loss | ( 145.2 ) | ( 642.8 ) |
+The accompanying notes are an integral part of the consolidated financial statements
+6
+Table of Contents
+WOLFSPEED, INC.
+UNAUDITED CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+Successor: | Common Stock | Additional Paid-in Capital | Accumulated Deficit | Accumulated Other Comprehensive (loss) income | Total Stockholders' Equity |
+(in millions of U.S. Dollars, except share data in thousands) | Number of Shares | Par Value |
+Balance at June 28, 2026 (Successor) | 52,162 | $ 0.1 | $ 1,345.9 | ($ 415.8 ) | $ — | $ 930.2 |
+Net loss | — | — | — | ( 143.8 ) | — | ( 143.8 ) |
+Net unrealized loss on available-for-sale securities | — | — | — | — | ( 1.4 ) | ( 1.4 ) |
+Tax withholding on vested equity awards | — | — | ( 0.9 ) | — | — | ( 0.9 ) |
+Conversion of convertible notes | 818 | — | 9.8 | — | — | 9.8 |
+Stock-based compensation | 41 | — | 10.1 | — | — | 10.1 |
+Balance at September 27, 2026 (Successor) | 53,021 | $ 0.1 | $ 1,364.9 | ($ 559.6 ) | ($ 1.4 ) | $ 804.0 |
+The accompanying notes are an integral part of the consolidated financial statements
+7
+Table of Contents
+WOLFSPEED, INC.
+UNAUDITED CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+Predecessor: | Common Stock | Additional Paid-in Capital | Accumulated Deficit | Accumulated Other Comprehensive Loss | Total Stockholders' Equity |
+(in millions of U.S. Dollars, except share data in thousands) | Number of Shares | Par Value |
+Balance at June 29, 2025 (Predecessor) | 155,643 | $ 0.2 | $ 4,094.1 | ($ 4,537.6 ) | ($ 3.8 ) | ($ 447.1 ) |
+Net loss | — | — | — | ( 643.6 ) | — | ( 643.6 ) |
+Net unrealized gain on available-for-sale securities | — | — | — | — | 0.8 | 0.8 |
+Tax withholding on vested equity awards | ( 382 ) | — | ( 0.6 ) | — | — | ( 0.6 ) |
+Stock-based compensation | 1,218 | — | 10.1 | — | — | 10.1 |
+Balance at September 28, 2025 (Predecessor) | 156,479 | $ 0.2 | $ 4,103.6 | ($ 5,181.2 ) | ($ 3.0 ) | ($ 1,080.4 ) |
+The accompanying notes are an integral part of the consolidated financial statements
+8
+Table of Contents
+WOLFSPEED, INC.
+UNAUDITED CONSOLIDATED STATEMENTS OF CASH FLOWS
+Successor | Predecessor |
+Three months ended September 27, 2026 | Three months ended September 28, 2025 |
+(in millions of U.S. Dollars) |
+Operating activities: |
+Net loss | ($ 143.8 ) | ($ 643.6 ) |
+Adjustments to reconcile net loss to cash (used in) provided by operating activities from continuing operations: |
+Non-cash reorganization items | — | 475.7 |
+Depreciation and amortization | 29.2 | 69.3 |
+Gain on sale of property and equipment | ( 3.2 ) | ( 5.7 ) |
+Gain on RTP Fab Transfer | — | ( 25.4 ) |
+Amortization and write-off of deferred financing costs | 2.9 | — |
+Stock-based compensation | 10.3 | 13.6 |
+Loss on equity investment | — | 10.9 |
+Inventory reserves | 6.1 | 29.0 |
+(Gain) loss on disposal or impairment of property and equipment | ( 0.2 ) | 0.2 |
+Amortization of premium on investments, net | ( 1.4 ) | ( 1.2 ) |
+Deferred income taxes | 0.2 | — |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 11.1 ) | 23.2 |
+Inventories | 24.5 | 0.7 |
+Prepaid expenses and other assets | 0.2 | 42.2 |
+Accounts payable | 3.7 | 22.4 |
+Accrued salaries, wages and other liabilities | 0.9 | ( 28.4 ) |
+Contract liabilities and distributor-related reserves | ( 2.5 ) | 22.8 |
+Cash (used in) provided by operating activities | ( 84.2 ) | 5.7 |
+Investing activities: |
+Purchases of property and equipment | ( 10.6 ) | ( 104.0 ) |
+Purchases of patent and licensing rights | ( 1.8 ) | ( 1.4 ) |
+Proceeds from sale of property and equipment | 3.7 | 13.9 |
+Proceeds from sale of MACOM Shares | — | 92.7 |
+Purchases of short-term investments | ( 257.1 ) | ( 83.4 ) |
+Proceeds from maturities of short-term investments | 177.7 | 151.8 |
+Proceeds from sale of short-term investments | 7.9 | 67.2 |
+Reimbursement of capital expenditures from incentives and investment credits | 0.1 | 0.1 |
+Cash (used in) provided by investing activities | ( 80.1 ) | 136.9 |
+Financing activities: |
+Payments of deferred financing costs | ( 0.2 ) | — |
+Adequate protection payments on Prior Senior Secured Notes | — | ( 38.4 ) |
+Tax withholding on vested equity awards | ( 0.9 ) | ( 0.6 ) |
+Payments on long-term debt borrowings, including finance lease obligations | ( 0.1 ) | — |
+Cash used in financing activities | ( 1.2 ) | ( 39.0 ) |
+Effects of foreign exchange changes on cash and cash equivalents | 0.5 | 0.8 |
+Net change in cash, cash equivalents and restricted cash | ( 165.0 ) | 104.4 |
+Cash, cash equivalents and restricted cash, beginning of period | 576.3 | 467.2 |
+Cash, cash equivalents and restricted cash, end of period | $ 411.3 | $ 571.6 |
+The accompanying notes are an integral part of the consolidated financial statements
+9
+Table of Contents
+WOLFSPEED, INC.
+NOTES TO UNAUDITED CONSOLIDATED FINANCIAL STATEMENTS
+Note 1
+| Basis of Presentation and New Accounting Standards
+| 11
+|
+Note 2
+| Discontinued Operations
+| 16
+|
+Note 3
+| Revenue Recognition
+| 17
+|
+Note 4
+| Leases
+| 18
+|
+Note 5
+| Commitments and Contingencies
+| 

@@ -1,0 +1,110 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm
+SEMBOL: CSCO
+BASVURU_TARIHI: 2026-09-02
+BASVURU: 0000858877-26-000132
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows
+(in millions)
+Years Ended | July 25, 2026 | July 26, 2025 | July 27, 2024 |
+Cash flows from operating activities: |
+Net income | $ | 13,267 | $ | 10,180 | $ | 10,320 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation, amortization, and other | 2,540 | 2,811 | 2,507 |
+Share-based compensation expense | 3,830 | 3,641 | 3,074 |
+Provision for receivables | 23 | 24 | 34 |
+Deferred income taxes | 226 | ( 1,133 ) | ( 972 ) |
+(Gains) losses on divestitures, investments and other, net | ( 1,358 ) | ( 38 ) | 215 |
+Change in operating assets and liabilities, net of effects of acquisitions and divestitures: |
+Accounts receivable | ( 832 ) | ( 22 ) | ( 289 ) |
+Inventories | ( 2,541 ) | 209 | 275 |
+Financing receivables | ( 1,835 ) | 214 | 76 |
+Other assets | ( 1,032 ) | ( 499 ) | ( 671 ) |
+Accounts payable | 842 | 257 | ( 90 ) |
+Income taxes, net | ( 2,304 ) | ( 1,839 ) | ( 4,539 ) |
+Accrued compensation | 457 | ( 53 ) | ( 696 ) |
+Deferred revenue | 1,125 | 248 | 1,220 |
+Other liabilities | 1,769 | 193 | 416 |
+Net cash provided by operating activities | 14,177 | 14,193 | 10,880 |
+Cash flows from investing activities: |
+Purchases of investments | ( 8,974 ) | ( 4,589 ) | ( 4,230 ) |
+Proceeds from sales of investments | 2,013 | 2,643 | 4,136 |
+Proceeds from maturities of investments | 6,105 | 4,943 | 6,367 |
+Acquisitions, net of cash and cash equivalents acquired and divestitures | ( 516 ) | ( 291 ) | ( 25,994 ) |
+Purchases of non-marketable equity securities | ( 946 ) | ( 383 ) | ( 284 ) |
+Return of investments in non-marketable equity securities | 270 | 306 | 202 |
+Acquisition of property and equipment | ( 1,410 ) | ( 905 ) | ( 670 ) |
+Other | ( 26 ) | 9 | ( 5 ) |
+Net cash provided by (used in) investing activities | ( 3,484 ) | 1,733 | ( 20,478 ) |
+Cash flows from financing activities: |
+Issuances of common stock | 805 | 736 | 714 |
+Repurchases of common stock - repurchase program | ( 6,106 ) | ( 6,000 ) | ( 5,787 ) |
+Shares repurchased for tax withholdings on vesting of restricted stock units | ( 1,873 ) | ( 1,222 ) | ( 992 ) |
+Short-term borrowings, original maturities of 90 days or less, net | 616 | ( 31 ) | 478 |
+Issuances of debt | 13,048 | 19,292 | 31,818 |
+Repayments of debt | ( 12,251 ) | ( 22,073 ) | ( 9,826 ) |
+Repayments of Splunk convertible debt, net of capped call proceeds | — | — | ( 3,140 ) |
+Dividends paid | ( 6,553 ) | ( 6,437 ) | ( 6,384 ) |
+Other | ( 33 ) | ( 80 ) | ( 37 ) |
+Net cash provided by (used in) financing activities | ( 12,347 ) | ( 15,815 ) | 6,844 |
+Effect of foreign currency exchange rate changes on cash, cash equivalents, restricted cash and restricted cash equivalents | ( 29 ) | ( 43 ) | ( 31 ) |
+Net increase (decrease) in cash, cash equivalents, restricted cash and restricted cash equivalents | ( 1,683 ) | 68 | ( 2,785 ) |
+Cash, cash equivalents, restricted cash and restricted cash equivalents, beginning of fiscal year | 8,910 | 8,842 | 11,627 |
+Cash, cash equivalents, restricted cash and restricted cash equivalents, end of fiscal year | $ | 7,227 | $ | 8,910 | $ | 8,842 |
+See Notes to Consolidated Financial Statements.
+59
+Table of Contents
+CISCO SYSTEMS, INC.
+Consolidated Statements of Equity
+(in millions, except per-share amounts)
+Shares of
+Common
+Stock | Common Stock
+and
+Additional
+Paid-In Capital | Retained Earnings | Accumulated
+Other
+Comprehensive
+Loss | Total Equity |
+BALANCE AT JULY 29, 2023 | 4,066 | $ | 44,289 | $ | 1,639 | $ | ( 1,575 ) | $ | 44,353 |
+Net income | 10,320 | 10,320 |
+Other comprehensive income (loss) | 145 | 145 |
+Issuance of common stock | 78 | 714 | 714 |
+Repurchase of common stock | ( 117 ) | ( 1,292 ) | ( 4,472 ) | ( 5,764 ) |
+Shares repurchased for tax withholdings on vesting of restricted stock units and other | ( 20 ) | ( 985 ) | ( 16 ) | ( 1,001 ) |
+Cash dividends declared ($ 1.58 per common share)
+| ( 6,384 ) | ( 6,384 ) |
+Share-based compensation | 3,074 | 3,074 |
+BALANCE AT JULY 27, 2024 | 4,007 | $ | 45,800 | $ | 1,087 | $ | ( 1,430 ) | $ | 45,457 |
+Net income | 10,180 | 10,180 |
+Other comprehensive income (loss) | 476 | 476 |
+Issuance of common stock | 80 | 736 | 736 |
+Repurchase of common stock | ( 105 ) | ( 1,230 ) | ( 4,765 ) | ( 5,995 ) |
+Shares repurchased for tax withholdings on vesting of restricted stock units and other | ( 22 ) | ( 1,200 ) | ( 15 ) | ( 1,215 ) |
+Cash dividends declared ($ 1.62 per common share)
+| ( 6,437 ) | ( 6,437 ) |
+Share-based compensation | 3,641 | 3,641 |
+BALANCE AT JULY 26, 2025 | 3,960 | $ | 47,747 | $ | 50 | $ | ( 954 ) | $ | 46,843 |
+Net income | 13,267 | 13,267 |
+Other comprehensive income (loss) | ( 2 ) | ( 2 ) |
+Issuance of common stock | 85 | 805 | 805 |
+Repurchase of common stock | ( 76 ) | ( 929 ) | ( 5,177 ) | ( 6,106 ) |
+Shares repurchased for tax withholdings on vesting of restricted stock units and other | ( 23 ) | ( 1,777 ) | ( 22 ) | ( 1,799 ) |
+Cash dividends declared ($ 1.66 per common share)
+| ( 6,553 ) | ( 6,553 ) |
+Share-based compensation | 3,830 | 3,830 |
+BALANCE AT JULY 25, 2026 | 3,946 | $ | 49,676 | $ | 1,565 | $ | ( 956 ) | $ | 50,285 |
+See Notes to Consolidated Financial Statements.
+60
+Table of Contents
+CISCO SYSTEMS, INC.
+Notes to Consolidated Financial Statements
+1. Basis of Presentation
+The fiscal year for Cisco Systems, Inc. (the “Company,” “Cisco,” “we,” “us,” or “our”) is the 52 or 53 weeks ending on the last Saturday in July. Fiscal 2026, fiscal 2025 and fiscal 2024 were each 52-week fiscal years. The Consolidated Financial Statements include our accounts and those of our subsidiaries and other entities in which we hold a controlling financial interest. All intercompany accounts and transactions have been eliminated. We conduct business globally and are primarily managed on a geographic basis in the following three geographic segments: the Americas; Europe, Middle East, and Africa (EMEA); and Asia Pacific, Japan, and China (APJC).
+Certain reclassifications have been made to the amounts for prior years in order to conform to the current year’s presentation.
+2. Summary of Significant Accounting Policies
+(a) Cash and Cash Equivalents We consider all highly liquid investments purchased with an original or remaining maturity of three months or less at the date of purchase to be cash equivalents.
+(b) Available-for-Sale Debt Investments We classify our investments in fixed income securities as available-for-sale debt investments. Our available-for-sale debt investments primarily consist of U.S. government, U.S. government agency, non-U.S. government and agency, corporate debt, U.S. agency mortgage-backed securities, commercial paper and certificates of deposit. These available-for-sale debt investments are primarily held in the custody of a major financial institution. A specific identification method is used to determine the cost basis of available-for-sale debt investments sold. These investments are recorded in the Consolidated Balance Sheets at fair value and unrealized gains and losses on these investments are included as a separate component of accumulated other comprehensive income (loss) (AOCI), net of tax. We classify our investments as current based on the nature of the investments and their availability for use in current operations.
+(c) Marketable equity securities Our marketable equity securities have readily determinable fair values (RDFV) and are measured at fair value, with changes recognized in other income (loss), net in the Consolidated Statements of Operations.
+(d) Non-marketable equity securities Our non-marketable equity securities are investments in privately held entities, venture funds, and publicly traded entities that do not have RDFV. Privately held entities are measured under the measurement alternative. Investments accounted for under the measurement alternative are recorded at cost, less any impairment, plus or minus changes resulting from qualifying observable price changes. We account for non-marketable equity securities, such as our investments in venture funds, where we do not control, but are able to exert significant influence over, the investee, under the equity method. For certain of our investments in venture funds, we have elected to apply the net asset value (NAV) practical expedient to estimate the fair value of these investments. Securities in publicly traded entities that possess restrictions that are at the instrument level (“restricted equity securities”) are valued based on pricing models that use observable market inputs reduced by a discount for lack of marketability (“DLOM”).
+(e) Impairments of Investments For our available-for-sale debt securities in an unrealized loss position, we determine whether a credit loss exists. In this assessment, among other factors, we consider the extent to which the fair value is less than the amortized cost, any changes to the rating of the security by a rating agency, and adverse conditions specifically related to the security. If factors indicate a cre

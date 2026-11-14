@@ -1,0 +1,218 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1124796/000112479626000028/lasr-20260331.htm
+SEMBOL: LASR
+BASVURU_TARIHI: 2026-05-08
+BASVURU: 0001124796-26-000028
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows: Three Months Ended March 31, 2026 and 2025 (unaudited)
+| 5
+|
+Notes to Consolidated Financial Statements (unaudited)
+| 6
+|
+Item 2. Management's Discussion and Analysis of Financial Condition and Results of Operations
+| 17
+|
+Item 3. Quantitative and Qualitative Disclosures About Market Risk
+| 24
+|
+Item 4. Controls and Procedures
+| 25
+|
+Part II. Other Information
+| 25
+|
+Item 1. Legal Proceedings
+| 25
+|
+Item 1A. Risk Factors
+| 25
+|
+Item 5. Other Information
+| 26
+|
+Item 6. Exhibits
+| 27
+|
+Signatures
+| 28
+|
+PART I—FINANCIAL INFORMATION
+ITEM 1. FINANCIAL STATEMENTS
+nLIGHT, Inc.
+Consolidated Balance Sheets
+(In thousands)
+(Unaudited)
+As of |
+March 31, 2026 | December 31, 2025 |
+Assets |
+Current assets: |
+Cash and cash equivalents | $ | 298,211 | $ | 98,699 |
+Marketable securities | 34,383 | 34,934 |
+Accounts receivable, net of allowances of $ 513 and $ 520
+| 48,105 | 50,836 |
+Inventory | 43,864 | 45,407 |
+Prepaid expenses and other current assets | 21,502 | 13,314 |
+Total current assets | 446,065 | 243,190 |
+Restricted cash | 322 | 322 |
+Lease right-of-use assets | 14,266 | 15,020 |
+Property, plant and equipment, net | 40,897 | 42,114 |
+Goodwill | 12,432 | 12,448 |
+Other assets, net | 1,717 | 2,116 |
+Total assets | 515,699 | 315,210 |
+Liabilities and Stockholders’ Equity |
+Current liabilities: |
+Accounts payable | 19,125 | 20,890 |
+Accrued liabilities | 16,929 | 19,052 |
+Deferred revenues | 4,093 | 1,489 |
+Current portion of lease liabilities | 2,902 | 2,776 |
+Line of credit | 20,000 | 20,000 |
+Total current liabilities | 63,049 | 64,207 |
+Non-current income taxes payable | 5,991 | 5,902 |
+Long-term lease liabilities | 12,681 | 13,431 |
+Other long-term liabilities | 4,741 | 4,921 |
+Total liabilities | 86,462 | 88,461 |
+Stockholders' equity: |
+Common stock - $ 0.0001 par value; 190,000 shares authorized, 56,406 and 51,163 shares issued and outstanding at March 31, 2026 and December 31, 2025, respectively
+| 17 | 16 |
+Additional paid-in capital | 780,482 | 578,360 |
+Accumulated other comprehensive loss | ( 3,344 ) | ( 3,064 ) |
+Accumulated deficit | ( 347,918 ) | ( 348,563 ) |
+Total stockholders’ equity | 429,237 | 226,749 |
+Total liabilities and stockholders’ equity | 515,699 | 315,210 |
+See accompanying notes to consolidated financial statements.
+1
+nLIGHT, Inc.
+Consolidated Statements of Operations
+(In thousands, except per share data)
+(Unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Revenue: |
+Products | $ | 58,202 | $ | 35,678 |
+Development | 21,979 | 15,990 |
+Total revenue | 80,181 | 51,668 |
+Cost of revenue: |
+Products | 32,810 | 23,724 |
+Development | 20,858 | 14,145 |
+Total cost of revenue | 53,668 | 37,869 |
+Gross profit | 26,513 | 13,799 |
+Operating expenses: |
+Research and development | 11,846 | 11,374 |
+Sales, general, and administrative | 15,091 | 12,035 |
+Restructuring | 295 | — |
+Total operating expenses | 27,232 | 23,409 |
+Loss from operations | ( 719 ) | ( 9,610 ) |
+Other income: |
+Interest income | 1,562 | 1,688 |
+Interest expense | ( 300 ) | ( 48 ) |
+Other income, net | 155 | 14 |
+Income (loss) before income taxes | 698 | ( 7,956 ) |
+Income tax expense | 53 | 137 |
+Net income (loss) | $ | 645 | $ | ( 8,093 ) |
+Net income (loss) per share, basic | $ | 0.01 | $ | ( 0.16 ) |
+Net income (loss) per share, diluted | $ | 0.01 | $ | ( 0.16 ) |
+Shares used in per share calculations: |
+Basic | 54,121 | 49,093 |
+Diluted | 59,975 | 49,093 |
+See accompanying notes to consolidated financial statements.
+2
+nLIGHT, Inc.
+Consolidated Statements of Comprehensive Loss
+(In thousands)
+(Unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Net income (loss) | $ | 645 | $ | ( 8,093 ) |
+Other comprehensive income (loss), net of tax: |
+Foreign currency translation adjustments | ( 240 ) | 326 |
+Change in unrealized gains on available-for-sale securities | ( 38 ) | ( 725 ) |
+Comprehensive income (loss) | $ | 365 | $ | ( 8,492 ) |
+See accompanying notes to consolidated financial statements.
+3
+nLIGHT, Inc.
+Consolidated Statements of Stockholders' Equity
+(In thousands)
+(Unaudited)
+Three Months Ended March 31, 2026 |
+Common stock | Additional paid-in capital | Accumulated other comprehensive loss | Accumulated deficit | Total stockholders' equity |
+Shares | Amount |
+Balance, December 31, 2025 | 51,163 | $ | 16 | $ | 578,360 | $ | ( 3,064 ) | $ | ( 348,563 ) | $ | 226,749 |
+Net income | — | — | — | — | 645 | 645 |
+Proceeds from follow-on offering, net of underwriting discount and offering costs | 4,574 | 1 | 191,274 | — | — | 191,275 |
+Issuance of common stock pursuant to exercise of stock options | 122 | — | 150 | — | — | 150 |
+Issuance of common stock pursuant to vesting of restricted stock awards and units, net of stock withheld for tax | 547 | — | ( 190 ) | — | — | ( 190 ) |
+Stock-based compensation | — | — | 10,886 | — | — | 10,886 |
+Change in unrealized gains on available-for-sale securities | — | — | — | ( 38 ) | — | ( 38 ) |
+Cumulative translation adjustment, net of tax | — | — | 2 | ( 242 ) | — | ( 240 ) |
+Balance, March 31, 2026 | 56,406 | $ | 17 | $ | 780,482 | $ | ( 3,344 ) | $ | ( 347,918 ) | $ | 429,237 |
+Three Months Ended March 31, 2025 |
+Common stock | Additional paid-in capital | Accumulated other comprehensive loss | Accumulated deficit | Total stockholders' equity |
+Shares | Amount |
+Balance, December 31, 2024 | 48,948 | $ | 16 | $ | 544,842 | $ | ( 3,332 ) | $ | ( 325,096 ) | $ | 216,430 |
+Net loss | — | — | — | — | ( 8,093 ) | ( 8,093 ) |
+Issuance of common stock pursuant to exercise of stock options | 148 | — | 121 | — | — | 121 |
+Issuance of common stock pursuant to vesting of restricted stock awards and units, net of stock withheld for tax | 339 | — | ( 1,356 ) | — | — | ( 1,356 ) |
+Stock-based compensation | — | — | 6,056 | — | — | 6,056 |
+Unrealized gains on available-for-sale securities | — | — | — | ( 725 ) | — | ( 725 ) |
+Cumulative translation adjustment, net of tax | — | — | — | 326 | — | 326 |
+Balance, March 31, 2025 | 49,435 | $ | 16 | $ | 549,663 | $ | ( 3,731 ) | $ | ( 333,189 ) | $ | 212,759 |
+See accompanying notes to consolidated financial statements.
+4
+Table of Contents
+nLIGHT, Inc.
+Consolidated Statements of Cash Flows
+(In thousands)
+(Unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net Income (loss) | $ | 645 | $ | ( 8,093 ) |
+Adjustments to reconcile net loss to net cash provided by (used in) operating activities: |
+Depreciation | 3,158 | 3,172 |
+Amortization | 211 | 498 |
+Reduction in carrying amount of right-of-use assets | 723 | ( 473 ) |
+Provision for losses on (recoveries of) accounts receivable | ( 9 ) | ( 466 ) |
+Stock-based compensation | 10,886 | 6,056 |
+Deferred income taxes | ( 3 ) | ( 3 ) |
+Loss on disposal of property, plant and equipment | 24 | 62 |
+Accrued interest earned on marketable securities | ( 231 ) | ( 227 ) |
+Non-cash restructuring charges | 295 | — |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | 2,736 | ( 768 ) |
+Inventory | 1,343 | ( 2,811 ) |
+Prepaid expenses and other current assets | ( 8,165 ) | ( 959 ) |
+Other assets, net | 189 | 502 |
+Accounts payable | ( 1,637 ) | 2,018 |
+Accrued and other long-term liabilities | ( 2,528 ) | 1,693 |
+Deferred revenues | 2,610 | ( 736 ) |
+Lease liabilities | ( 594 ) | 450 |
+Non-current income taxes payable | 30 | 65 |
+Net cash provided by (used in) operating activities | 9,683 | ( 20 ) |
+Cash flows from investing activities: |
+Purchases of property, plant and equipment | ( 2,113 ) | ( 2,281 ) |
+Purchase of marketable securities | ( 34,173 ) | ( 34,288 ) |
+Proceeds from maturities and sales of marketable securities | 34,918 | 34,136 |
+Net cash used in investing activities | ( 1,368 ) | ( 2,433 ) |
+Cash flows from financing activities: |
+Proceeds from public offerings, net of underwriting discounts and offering costs | 191,275 | — |
+Proceeds from line of credit | — | 20,000 |
+Proceeds from stock option exercises | 150 | 121 |
+Tax payments related to stock award issuances | ( 190 ) | ( 1,356 ) |
+Net cash provided by financing activities | 191,235 | 18,765 |
+Effect of exchange rate changes on cash | ( 38 ) | 56 |
+Net increase in cash, cash equivalents, and restricted cash | 199,512 | 16,368 |
+Cash, cash equivalents, and restricted cash, beginning of period | 99,021 | 66,088 |
+Cash, cash equivalents, and restricted cash, end of period | $ | 298,533 | $ | 82,456 |
+Supplemental disclosures: |
+Cash paid for interest, net | $ | 288 | $ | 12 |
+Operating cash outflows from operating leases | 797 | 855 |
+Right-of-use assets obtained in exchange for lease liabilities | ( 32 ) | 1,188 |
+Accrued purchases of property, equipment and patents | 222 | 337 |
+Reconciliation of cash, cash equivalents, and restricted cash: |
+Cash and cash equivalents | $ | 298,211 | $ | 82,196 |
+Restricted cash | 322 | 260 |
+Total cash, cash equivalents, and restricted cash | $ | 298,533 | $ | 82,456 |
+See accompanying notes to consolidated financial statements.
+5
+Table of Conten

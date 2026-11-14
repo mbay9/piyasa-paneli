@@ -1,0 +1,6221 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/855658/000143774926034452/0001437749-26-034452.txt
+SEMBOL: LSCC
+BASVURU_TARIHI: 2026-11-02
+BASVURU: 0001437749-26-034452
+
+0001437749-26-034452.txt : 20261102
+0001437749-26-034452.hdr.sgml : 20261102
+20261102162739
+ACCESSION NUMBER: 0001437749-26-034452
+CONFORMED SUBMISSION TYPE: 8-K
+PUBLIC DOCUMENT COUNT: 14
+CONFORMED PERIOD OF REPORT: 20261102
+ITEM INFORMATION: Results of Operations and Financial Condition
+ITEM INFORMATION: Financial Statements and Exhibits
+FILED AS OF DATE: 20261102
+DATE AS OF CHANGE: 20261102
+FILER:
+COMPANY DATA:
+COMPANY CONFORMED NAME: LATTICE SEMICONDUCTOR CORP
+CENTRAL INDEX KEY: 0000855658
+STANDARD INDUSTRIAL CLASSIFICATION: SEMICONDUCTORS & RELATED DEVICES [3674]
+ORGANIZATION NAME: 04 Manufacturing
+EIN: 930835214
+STATE OF INCORPORATION: DE
+FISCAL YEAR END: 0102
+FILING VALUES:
+FORM TYPE: 8-K
+SEC ACT: 1934 Act
+SEC FILE NUMBER: 000-18032
+FILM NUMBER: 261512755
+BUSINESS ADDRESS:
+STREET 1: 5555 NE MOORE CT
+CITY: HILLSBORO
+STATE: OR
+ZIP: 97124
+BUSINESS PHONE: 5032688000
+MAIL ADDRESS:
+STREET 1: 5555 NE MOORE CT
+CITY: HILLSBORO
+STATE: OR
+ZIP: 97124
+8-K
+1
+lscc20260903_8k.htm
+FORM 8-K
+lscc20260903_8k.htm
+false
+0000855658
+0000855658
+2026-11-02
+2026-11-02
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+Washington, DC 20549
+FORM 8-K
+CURRENT REPORT
+Pursuant to Section 13 or 15(d) of The Securities Exchange Act of 1934
+Date of Report (Date of earliest event reported)
+November 2, 2026
+Lattice Semiconductor Corporation
+(Exact name of registrant as specified in its charter)
+Delaware
+|
+000-18032
+|
+93-0835214
+|
+(State or other jurisdiction of incorporation)
+|
+(Commission File Number)
+|
+(IRS Employer Identification No.)
+|
+5555 NE Moore Court
+Hillsboro , Oregon 97124
+(Address of principal executive offices, including zip code)
+( 503 ) 268-8000
+(Registrant's telephone number, including area code)
+N/A
+(Former name or former address, if changed since last report)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+☐
+|
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+|
+☐ |
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12) |
+☐ |
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b)) |
+☐ |
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c)) |
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class
+|
+Trading Symbol
+|
+Name of each exchange on which registered
+|
+Common Stock , $.01 par value
+|
+LSCC
+|
+NASDAQ Global Select Market
+|
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Item 2.02. Results of Operations and Financial Condition.
+On November 2, 2026, the Company issued a press release announcing the Company's financial results for the quarter ended October 3, 2026. A copy of the press release is furnished (not filed) as Exhibit 99.1 to this Current Report on Form 8-K. The information in Exhibit 99.1 shall not be deemed to be “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or incorporated by reference in any filing under the Securities Act of 1933, as amended (the “Securities Act”), or the Exchange Act, except as shall be expressly set forth by specific reference in such a filing.
+Item 9.01. Financial Statements and Exhibits.
+(d) Exhibits
+The following exhibits are being furnished herewith:
+Exhibit No.
+|
+|
+Description
+|
+99.1
+|
+|
+Press Release, dated November 2, 2026 (furnished herewith).
+|
+104 |
+|
+Cover Page Interactive Data File (formatted as Inline XBRL). |
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+|
+|
+LATTICE SEMICONDUCTOR CORPORATION
+|
+|
+|
+|
+|
+|
+|
+By:
+|
+/s/ Lorenzo A. Flores
+|
+Date:
+|
+November 2, 2026
+|
+|
+Lorenzo A. Flores
+Senior Vice President, Chief Financial Officer
+|
+2
+EX-99.1
+2
+ex_1012509.htm
+EXHIBIT 99.1
+ex_1012509.htm
+Exhibit 99.1
+NEWS RELEASE
+CONTACTS
+|
+|
+MEDIA:
+|
+INVESTORS:
+|
+Sophia Hong
+|
+Rick Muscha
+|
+Lattice Semiconductor Corporation |
+Lattice Semiconductor Corporation |
+503-268-8786
+|
+408-826-6000
+|
+Sophia.Hong@latticesemi.com
+|
+Rick.Muscha@latticesemi.com
+|
+LATTICE SEMICONDUCTOR REPORTS RECORD 3Q26 REVENUE, UP 118% YOY
+Record FPGA Revenue, Up Approximately 90% YOY, Led by Compute and Communications Demand
+Expects Approximately 130% YOY Revenue Growth in 4Q26, with Industrial and Embedded Revenue Growth Accelerating to 70% YOY
+HILLSBORO, Ore. – Nov. 2, 2026 – Lattice Semiconductor Corporation (Nasdaq: LSCC), the low power programmable and platform firmware leader, announced financial results today for the fiscal third quarter ended October 3, 2026 .
+Lattice completed the acquisition of AMI on July 27, 2026 (the “acquisition date”). Lattice’s results for the third quarter of fiscal 2026 include AMI’s results from the acquisition date, while the prior periods presented do not.
+Revenue for the third quarter of 2026 was $291.0 million, with GAAP gross margin of 67.4% , and GAAP net income per diluted share of $0.08 . On a non-GAAP basis, gross margin was 70.9% , with net income per diluted share of $0.72 . GAAP net income and GAAP net income margin for the third quarter of 2026 were $11.2 million and 3.9% , respectively, with adjusted EBITDA of $131.0 million, which is a 45.0% adjusted EBITDA margin for the third quarter of 2026. GAAP net cash flow from operating activities and operating cash flow margin for the third quarter of 2026 were $95.0 million and 32.7% , respectively, which corresponds to non-GAAP free cash flow and free cash flow margin of $77.6 million and 26.7% , respectively.
+Ford Tamer, Chief Executive Officer, said, "We delivered record third quarter revenue of $291 million and non-GAAP EPS of $0.72, up 118% and approximately 160% year-over-year, respectively. FPGA revenue grew approximately 90%, fueled by accelerating data center AI demand and continued momentum across Industrial & Embedded applications. Strong bookings, backlog and design wins support our fourth-quarter revenue outlook of approximately $335 million and reinforce our confidence in growth into 2027 and beyond. The addition of AMI meaningfully expands our opportunity in security, control and management solutions. Early commercial momentum across security retrofit, rack boot, plug and play, and power and cooling demonstrates the value of our combined portfolio, positioning Lattice to capture greater content per platform, deepen strategic customer relationships and drive sustainable long-term growth."
+Lorenzo Flores, Chief Financial Officer, said, "Lattice’s operating leverage was evident in the third quarter as we translated accelerating demand into faster year-over-year earnings growth. We continue to execute against our growth strategy by investing to strengthen our leadership in small and mid-range FPGAs, expanding our combined Lattice and AMI solutions portfolio, and advancing our companion chip opportunity. Our focus remains on driving profitable growth, expanding free cash flow, reducing debt, and delivering long-term shareholder value."
+1
+Selected Third Quarter 2026 Financial Results and Comparisons (in thousands, except per share data)
+|
+|
+GAAP Financial Results (unaudited)
+|
+|
+|
+Q3 2026
+|
+|
+|
+Q2 2026
+|
+|
+|
+Q3 2025
+|
+|
+|
+Q/Q
+|
+|
+Y/Y
+|
+Revenue
+|
+|
+$ |
+291,035 |
+|
+|
+$ |
+201,079 |
+|
+|
+$ |
+133,349 |
+|
+|
+44.7%
+|
+|
+118.3%
+|
+Gross Margin %
+|
+|
+|
+67.4 |
+% |
+|
+|
+70.3 |
+% |
+|
+|
+67.9 |
+% |
+|
+(290) bps |
+|
+(50) bps
+|
+R&D Expense %
+|
+|
+|
+27.6 |
+% |
+|
+|
+31.9 |
+% |
+|
+|
+37.2 |
+% |
+|
+(430) bps |
+|
+(960) bps
+|
+SG&A Expense %
+|
+|
+|
+20.6 |
+% |
+|
+|
+25.0 |
+% |
+|
+|
+31.0 |
+% |
+|
+(440) bps |
+|
+(1040) bps
+|
+Operating Expenses
+|
+|
+$ |
+172,152 |
+|
+|
+$ |
+118,979 |
+|
+|
+$ |
+92,061 |
+|
+|
+44.7%
+|
+|
+87.0%
+|
+Income (loss) from Operations
+|
+|
+$ |
+23,968 |
+|
+|
+$ |
+22,353 |
+|
+|
+$ |
+(1,534 |
+) |
+|
+7.2% |
+|
+NM
+|
+Net Income
+|
+|
+$ |
+11,206 |
+|
+|
+$ |
+19,359 |
+|
+|
+$ |
+2,794 |
+|
+|
+(42.1)% |
+|
+301.1%
+|
+Net Income per Share - Basic
+|
+|
+$ |
+0.08 |
+|
+|
+$ |
+0.14 |
+|
+|
+$ |
+0.02 |
+|
+|
+$(0.06) |
+|
+$ 0.06
+|
+Net Income per Share - Diluted
+|
+|
+$ |
+0.08 |
+|
+|
+$ |
+0.14 |
+|
+|
+$ |
+0.02 |
+|
+|
+$(0.06) |
+|
+$ 0.06
+|
+Net Income Margin
+|
+|
+|
+3.9 |
+% |
+|
+|
+9.6 |
+% |
+|
+|
+2.1 |
+% |
+|
+(570) bps |
+|
+180 bps
+|
+Operating Cash Flow Margin
+|
+|
+|
+32.7 |
+% |
+|
+|
+43.9 |
+% |
+|
+|
+35.3 |
+% |
+|
+(1120) bps |
+|
+(260) bps
+|
+|
+|
+Non-GAAP* Financial Results (unaudited)
+|
+|
+|
+Q3 2026
+|
+|
+|
+Q2 2026
+|
+|
+|
+Q3 2025
+|
+|
+|
+Q/Q
+|
+|
+Y/Y
+|
+Revenue (GAAP)
+|
+|
+$ |
+291,035 |
+|
+|
+$ |
+201,079 |
+|
+|
+$ |
+133,349 |
+|
+|
+44.7%
+|
+|
+118.3%
+|
+Gross Margin %
+|
+|
+|
+70.9 |
+% |
+|
+|
+71.7 |
+% |
+|
+|
+69.5 |
+% |
+|
+(80) bps
+|
+|
+140 bps
+|
+R&D Expense %
+|
+|
+|
+19.0 |
+% |
+|
+|
+21.3 |
+% |
+|
+|
+24.2 |
+% |
+|
+(230) bps
+|
+|
+(520) bps
+|
+SG&A Expense %
+|
+|
+|
+10.7 |
+% |
+|
+|
+12.1 |
+% |
+|
+|
+16.2 |
+% |
+|
+(140) bps
+|
+|
+(550) bps
+|
+Operating Expenses
+|
+|
+$ |
+86,656 |
+|
+|
+$ |
+67,110 |
+|
+|
+$ |
+53,900 |
+|
+|
+29.1%
+|
+|
+60.8%
+|
+Income from Operations
+|
+|
+$ |
+119,576 |
+|
+|
+$ |
+77,102 |
+|
+|
+$ |
+38,733 |
+|
+|
+55.1%
+|
+|
+208.7%
+|
+Net Income
+|
+|
+$ |
+103,664 |
+|
+|
+$ |
+74,410 |
+|
+|
+$ |
+38,157 |
+|
+|
+39.3%
+|
+|
+171.7%
+|
+Net Income per Share - Basic
+|
+|
+$ |
+0.74 |
+|
+|
+$ |
+0.54 |
+|
+|
+$ |
+0.28 |
+|
+|
+$ 0.20
+|
+|
+$ 0.46
+|
+Net Income per Share - Diluted
+|
+|
+$ |
+0.72 |
+|
+|
+$ |
+0.53 |
+|
+|
+$ |
+0.28 |
+|
+|
+$ 0.19
+|
+|
+$ 0.44
+|
+Adjusted EBITDA Margin
+|
+|
+|
+45.0 |
+% |
+|
+|
+43.0 |
+% |
+|
+|
+35.6 |
+% |
+|
+200 bps
+|
+|
+940 bps
+|
+Free Cash Flow Margin
+|
+|
+|
+26.7 |
+% |
+|
+|
+40.4 |
+% |
+|
+|
+25.5 |
+% |
+|
+(1370) bps
+|
+|
+120 bps
+|
+* GAAP represents U.S. Generally Accepted Accounting Principles. Non-GAAP represents GAAP excluding the impact of certain activities, which the Company's management excludes in analyzing the Company's operating results and in understanding trends in the Company's earnings. Additional information relating to these measures is included below in “Non-GAAP Financial Measures.” For a reconciliation of GAAP to non-GAAP results, see accompanying tables "Reconciliation of U.S. GAAP to Non-GAAP Financial Measures."
+Third Quarter 2026 Highlights:
+|
+• |
+Achieved Record New Product Revenue Growth: Revenue from new products grew more than 70% year over year and is tracking to reach 25% of FPGA revenue in 2026, led by AI-related server demand and Industrial and Embedded accelerated recovery.
+|
+|
+• |
+Hosted Two Technical Summits in Taipei and Shenzhen with Lattice and AMI: Over 700 customers and partners attended the two events, with presentations from Advantech, Inovance, Intel, Mitsubishi Electric, NVIDIA, NXP Semiconductors, Panasonic, Qualcomm and Sony. Demonstrated over 20 solutions, showing the power of Lattice companion chip and AMI companion firmware ecosystem. |
+|
+• |
+Advanced Secure Control and Management at OCP Global Summit with Other Industry Leaders: Announced the Secure Control and Management Plane (SCMP), with AMD, Arm, ASPEED, Intel, Jabil, Microsoft, and NXP Semiconductor. Brought Lattice and AMI together with keynote, technical presentation and demonstrations. |
+|
+• |
+Expanded AI Infrastructure Collaboration with Arm: Announced a collaboration combining Arm AGI CPU server platforms, Lattice FPGAs and AMI firmware to deliver secure control, management and connectivity for next-generation AI data centers. |
+|
+• |
+Accelerated FPGA Development with AI: Launched Lattice Prompt, enabling natural-language access across the FPGA design flow and productivity gains of 10X or more on common design tasks. |
+2
+Third Quarter 2026 Highlights (continued):
+|
+• |
+Extended Secure Control FPGA Leadership: Introduced the Lattice Mach-N2 family, combining integrated flash, hardware Root of Trust and post-quantum cryptography with greater logic density and connectivity. Samples have shipped to leading Compute & Communications customers. |
+|
+• |
+Expanded Quantum-Resistant Platform Security: Released Lattice Sentry 5.0, the industry’s first PQC-enabled platform firmware resilience and attestation solution, combining Lattice FPGAs with AMI software to protect AI infrastructure and simplify secure deployment. |
+|
+• |
+Recognized for Post-Quantum Cryptography Security: Lattice MachXO5-NX TDQ FPGAs won the 2026 CyberSecurity Breakthrough Award for Post-quantum cryptography (PQC) Solution of the Year. |
+|
+• |
+Broadened AI Infrastructure Support with AMD: Announced fully validated AMI Rack Manager support for AMD Helios rackscale solutions and Aptio V and MegaRAC OneTree firmware support for 6th Gen AMD EPYC processors, simplifying deployment and enabling secure boot, monitoring and management for next-generation AI data centers. |
+|
+• |
+Launched Rack-Scale AI Infrastructure Management: Introduced AMI Rack Manager 1.0 at AMI Tech Summit 2026 in Taipei, providing centralized monitoring, management and automation across diverse rack infrastructure. Expanded visibility into rack health, power and thermal conditions to simplify deployment and optimize resource utilization. |
+|
+• |
+Strengthened Data Center Memory Resilience with SK Hynix: Announced production-ready support for the SK Hynix RAS Library in AMI MegaRAC OneTree, integrating proactive memory error management, runtime repair and page-offlining to improve server reliability, simplify maintenance and reduce total cost of ownership. |
+|
+• |
+Expanded Data Center Management Capabilities: Released AMI Data Center Manager 6.2, combining fleet-wide BIOS configuration, enhanced firmware provisioning and advanced GPU diagnostics with expanded power and thermal monitoring to simplify large-scale infrastructure operations and improve efficiency across AI and enterprise data centers. |
+Business Outlook - Fourth Quarter of 2026 :
+|
+• |
+Lattice revenue for the fourth quarter of 2026 is expected to be between $325 million and $345 million.
+|
+|
+• |
+Lattice gross margin for the fourth quarter of 2026 is expected to be 72.0% plus or minus 1% on a non-GAAP basis. |
+|
+• |
+Total operating expenses for the fourth quarter of 2026 are expected to be between $95 million and $101 million on a non-GAAP basis. |
+|
+• |
+Income tax rate for the fourth quarter of 2026 is expected to be between 4% and 6% on a non-GAAP basis. |
+|
+• |
+Net income for the fourth quarter of 2026 is expected to be between $0.82 and $0.86 per share on a non-GAAP basis. |
+Non-GAAP Financial Measures: In addition to financial measures prepared in accordance with generally accepted accounting principles (GAAP), this earnings release makes reference to non-GAAP financial measures. With respect to the outlook for the fourth quarter of 2026, certain items that affect reconciliation of non-GAAP financial measures for non-GAAP gross margin percentage, non-GAAP total operating expenses, non-GAAP income tax rate, non-GAAP EPS, and non-GAAP net income are not available on a forward-looking basis because such items cannot be reasonably calculated without unreasonable efforts due to the unpredictability of the amounts and timing of events affecting the items we exclude from non-GAAP financial measures, including certain large and/or unpredictable charges such as stock-based compensation expense; performance-based equity expense; legal expense outside the ordinary course of business; amortization of acquired intangible assets; restructuring; impairment and acquisition related charges; write-off of unamortized debt costs; and the estimated tax effect of these items, non-cash changes in net deferred income taxes, and other tax adjustments. Consequently, the Company is unable to calculate the most directly comparable GAAP measure to non-GAAP gross margin percentage, non-GAAP total operating expenses, non-GAAP income tax rate, non-GAAP EPS, and non-GAAP net income for the Company’s fourth quarter of 2026 guidance.
+Investor Conference Call / Webcast Details:
+Lattice Semiconductor will review the Company's financial results for the fiscal third quarter 2026 , and business outlook on Monday, November 2, 2026 at 5:00 p.m. Eastern Time. The dial-in number for the live audio call is 1-877-407-3982 or 1-201-493-6780 with conference identification number 13763047. A live webcast of the conference call will also be available on the investor relations section of www.latticesemi.com. The Company's financial guidance will be limited to the comments on its public quarterly earnings call and the public business outlook statements contained in this press release.
+3
+Forward-Looking Statements Notice:
+This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 and made pursuant to the safe harbor provisions of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These statements involve estimates, assumptions, risks and uncertainties. Any statements about our expectations, beliefs, plans, objectives, assumptions or future events or performance are neither historical facts nor assurances of future performance and may be forward-looking. Such forward-looking statements include, but are not limited to, statements relating to our revenue, EPS growth, and free cash flow and related drivers; future financial performance; market share; profitable growth; shareholder value, our plans to reduce debt and expand free cash flow; our business outlook and guidance for the fourth quarter of 2026, including expected revenue, non-GAAP gross margin, non-GAAP total operating expenses, non-GAAP income tax rate and non-GAAP net income per share; expected year-over-year revenue growth rates, including expected growth in our Industrial and Embedded and Compute and Communications end markets; expected growth in revenue from new products and its anticipated contribution as a percentage of FPGA revenue; the expected benefits, performance, availability and customer adoption of the products, solutions, collaborations and partnerships described in this press release; the expected benefits, performance, availability and customer adoption of our products and solutions, and the continued participation, cooperation and performance of customers, partners and other third parties involved in the collaborations and initiatives described herein; our expectations related to market recovery and growth including AI and data center-related growth; statements about operating leverage and margin expansion; statements about design win momentum, backlog strength, and our companion chip opportunity; our product and technology leadership, including in small and mid-range FPGAs; our expectations regarding the acquisition of AMI, including expected benefits, integration, and expected accretive impact on non-GAAP gross margin, adjusted EBITDA, free cash flow, and EPS; the statements under the headings “Third Quarter 2026 Highlights” and “Business Outlook - Fourth Quarter of 2026,” and the forward-looking statements contained in the headline and subheadlines of this press release and in the quotations attributed to our Chief Executive Officer and Chief Financial Officer. Other forward-looking statements may be indicated by words such as “will,” “could,” “should,” “would,” “may,” “expect,” “plan,” “project,” “anticipate,” “intend,” “forecast,” “future,” “believe,” “estimate,” “predict,” “propose,” “potential,” “continue” or the negative of these terms or other comparable terminology.
+Estimates of future revenue and other financial and operational outcomes are inherently uncertain due to factors such as: global economic conditions which may affect customer demand; the cyclical nature of the semiconductor industry including fluctuating customer and distributor purchasing patterns, inventory levels, and order timing; pricing and inflationary pressures; competitive actions including competition from customers’ internal development efforts and open-source or other alternative firmware and software solutions; international trade disputes and sanctions; the impact of tariffs, trade restrictions, export controls, license requirements or similar actions on us or our suppliers and customers, including the impact on the costs of our products, the products into which they are integrated, and the impact on demand due to costs and uncertainty; the risk that we will not successfully integrate AMI's businesses within the anticipated timeframe, or that such integration will be more difficult, costly, or time-consuming than anticipated; the risk that we may fail to realize the anticipated benefits, synergies, cost savings, or accretive impact on gross margin, adjusted EBITDA, free cash flow, and EPS on a non-GAAP basis of the AMI acquisition within the expected timeframe or at all; risks relating to the indebtedness we incurred in connection with the AMI acquisition, including our ability to service and reduce that debt, restrictions imposed by our debt agreements, and the effect of changes in interest rates; the risk of impairment of the goodwill and acquired intangible assets recorded in connection with the AMI acquisition; concentration of demand among a limited number of customers, distributors and end markets, including artificial intelligence and data center infrastructure, and the risk that anticipated demand does not materialize or is not sustained; our dependence on third-party foundry, assembly and test providers and our ability to obtain sufficient manufacturing capacity; the retention of key employees of the acquired business; cybersecurity incidents affecting us, our suppliers or our customers and risks relating to the security of our products and firmware, including vulnerabilities arising from third-party or open-source components; the rapid pace of technological change and our ability to develop and introduce new products on schedule; risks relating to intellectual property and litigation; delays, defects or other difficulties in developing, releasing, updating or supporting our firmware and software products; and other significant risks and uncertainties that are beyond our ability to predict or control.
+4
+Actual gross margin percentage, operating expenses, income tax rate, and net income on a per share basis could vary from the estimates on the basis of, among other things, changes in revenue levels, changes in product pricing and segment, product, license, and service mix (including the relative contribution of our FPGA and AMI segments), changes in wafer, assembly, test and other costs, variations in manufacturing yields, our ability to secure sufficient supply to meet customer demand; the failure to sustain operational improvements, and the actual amount of compensation charges due to stock price changes.
+Actual results may differ materially from our expectations and are subject to risks and uncertainties that relate more broadly to our overall business, including those described in our filings with the Securities and Exchange Commission, including Lattice’s most recent Annual Report on Form 10-K and Quarterly Report on Form 10-Q, especially those under the captions “Risk Factors” and “Management's Discussion and Analysis of Financial Condition and Results of Operations”, all of which are expressly incorporated herein by reference. This press release is being furnished to, and not filed with, the Securities and Exchange Commission, and nothing contained herein shall be deemed incorporated by reference into any filing under the Securities Act of 1933, as amended, or the Securities Exchange Act of 1934, as amended, except as expressly set forth by specific reference in such filing.
+Lattice believes these and other risks and uncertainties could cause actual results to differ materially from the forward-looking statements. New risk factors emerge from time to time and it is not possible for the Company to predict all risk factors. You should not rely on forward-looking statements because actual results could differ materially from those expressed in any forward-looking statements. In addition, any forward-looking statement applies only as of the date on which it is made. The Company does not intend to and undertakes no obligation to update or revise any forward-looking statements, whether as a result of events or circumstances after the date hereof or to reflect the occurrence of unanticipated events. The cautionary statements contained in this press release also apply to any forward-looking statements made by the Company during its related conference call and webcast.
+Non-GAAP Financial Measures:
+Included within this press release and the accompanying tables and notes are certain non-GAAP financial measures that supplement the Company's consolidated financial information prepared in accordance with U.S. GAAP, including non-GAAP gross margin, gross margin percentage, R&D expense percentage, SG&A expense percentage, operating expenses, income from operations, income from operations percentage, interest (expense) income, net, other (expense) income, net, income tax expense, net income, net income per share – basic, and net income per share – diluted, adjusted EBITDA, adjusted EBITDA margin, free cash flow, and free cash flow margin. The non-GAAP measures presented exclude charges and adjustments primarily related to stock-based compensation and related payroll tax effects; accruals related to the portion of our annual incentive plan that we intend to settle in shares of our common stock; transformation activities; legal expense outside the ordinary course of business; amortization of acquired intangible assets; restructuring plan and other charges; acquisition related charges, write-off of unamortized debt costs; bridge facility debt cost amortization, and the estimated tax effect of these items, non-cash changes in net deferred income taxes, change in tax law and other tax adjustments; and depreciation and other amortization. These charges and adjustments are a result of periodic or non-core operating activities of the Company. The Company describes these non-GAAP financial measures and reconciles them to the most directly comparable GAAP measures in the tables and notes attached to this press release.
+The Company's management believes that these non-GAAP financial measures provide an additional and useful way of viewing aspects of our performance that, when viewed in conjunction with our GAAP results, provide a more comprehensive understanding of the various factors and trends affecting our ongoing financial performance and operating results than GAAP measures alone. Management also uses these non-GAAP measures for strategic and business decision-making, internal budgeting, forecasting, and resource allocation processes and believes that investors should have access to similar data. The non-GAAP financial information used by the Company may differ from that used by other companies. These non-GAAP measures are included solely for informational and comparative purposes and are not meant as a substitute for GAAP and should be considered together with the consolidated financial information located in the tables attached to this press release.
+5
+About Lattice Semiconductor Corporation:
+Lattice Semiconductor (Nasdaq: LSCC) is the low power programmable and platform firmware leader. We solve customer challenges from the Edge to the Cloud, in the growing Compute, Communications, Industrial, and Embedded markets. With the addition of AMI's industry-leading, silicon-neutral platform firmware and infrastructure manageability solutions, Lattice now delivers the industry's most complete secure management and control platform for cloud and AI data center infrastructure. Our technology, long-standing relationships, and commitment to world-class support let our customers quickly and easily unleash their innovation to create a smart, secure, and connected world. For more information about Lattice, please visit www.latticesemi.com and follow us via LinkedIn, X, YouTube, Facebook, WeChat, and Weibo.
+# # #
+6
+Lattice Semiconductor Corporation
+Consolidated Statements of Operations
+(in thousands, except per share data)
+(unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+Nine Months Ended
+|
+|
+|
+|
+October 3,
+|
+|
+|
+July 4,
+|
+|
+|
+September 27,
+|
+|
+|
+October 3,
+|
+|
+|
+September 27,
+|
+|
+|
+|
+2026
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Revenue
+|
+|
+$ |
+291,035 |
+|
+|
+$ |
+201,079 |
+|
+|
+$ |
+133,349 |
+|
+|
+$ |
+663,011 |
+|
+|
+$ |
+377,470 |
+|
+Cost of revenue:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cost of product sold
+|
+|
+|
+87,928 |
+|
+|
+|
+59,747 |
+|
+|
+|
+42,822 |
+|
+|
+|
+200,940 |
+|
+|
+|
+120,464 |
+|
+Amortization of acquired intangible assets
+|
+|
+|
+6,987 |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+6,987 |
+|
+|
+|
+— |
+|
+Total cost of revenue
+|
+|
+|
+94,915 |
+|
+|
+|
+59,747 |
+|
+|
+|
+42,822 |
+|
+|
+|
+207,927 |
+|
+|
+|
+120,464 |
+|
+Gross margin
+|
+|
+|
+196,120 |
+|
+|
+|
+141,332 |
+|
+|
+|
+90,527 |
+|
+|
+|
+455,084 |
+|
+|
+|
+257,006 |
+|
+Operating expenses:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Research and development
+|
+|
+|
+80,319 |
+|
+|
+|
+64,231 |
+|
+|
+|
+49,633 |
+|
+|
+|
+195,386 |
+|
+|
+|
+134,550 |
+|
+Selling, general, and administrative
+|
+|
+|
+60,007 |
+|
+|
+|
+50,278 |
+|
+|
+|
+41,402 |
+|
+|
+|
+150,390 |
+|
+|
+|
+109,339 |
+|
+Amortization of acquired intangible assets
+|
+|
+|
+5,891 |
+|
+|
+|
+19 |
+|
+|
+|
+20 |
+|
+|
+|
+5,930 |
+|
+|
+|
+33 |
+|
+Acquisition related
+|
+|
+|
+25,881 |
+|
+|
+|
+4,429 |
+|
+|
+|
+— |
+|
+|
+|
+30,310 |
+|
+|
+|
+— |
+|
+Restructuring and other
+|
+|
+|
+54 |
+|
+|
+|
+22 |
+|
+|
+|
+1,006 |
+|
+|
+|
+679 |
+|
+|
+|
+2,938 |
+|
+Total operating expenses
+|
+|
+|
+172,152 |
+|
+|
+|
+118,979 |
+|
+|
+|
+92,061 |
+|
+|
+|
+382,695 |
+|
+|
+|
+246,860 |
+|
+Income (loss) from operations
+|
+|
+|
+23,968 |
+|
+|
+|
+22,353 |
+|
+|
+|
+(1,534 |
+) |
+|
+|
+72,389 |
+|
+|
+|
+10,146 |
+|
+Interest (expense) income, net
+|
+|
+|
+(9,640 |
+) |
+|
+|
+(88 |
+) |
+|
+|
+602 |
+|
+|
+|
+(8,459 |
+) |
+|
+|
+2,268 |
+|
+Other (expense) income, net
+|
+|
+|
+(520 |
+) |
+|
+|
+(5,048 |
+) |
+|
+|
+(22 |
+) |
+|
+|
+(5,639 |
+) |
+|
+|
+(305 |
+) |
+Income before income taxes
+|
+|
+|
+13,808 |
+|
+|
+|
+17,217 |
+|
+|
+|
+(954 |
+) |
+|
+|
+58,291 |
+|
+|
+|
+12,109 |
+|
+Income tax expense (benefit)
+|
+|
+|
+2,602 |
+|
+|
+|
+(2,142 |
+) |
+|
+|
+(3,748 |
+) |
+|
+|
+5,909 |
+|
+|
+|
+1,380 |
+|
+Net income
+|
+|
+$ |
+11,206 |
+|
+|
+$ |
+19,359 |
+|
+|
+$ |
+2,794 |
+|
+|
+$ |
+52,382 |
+|
+|
+$ |
+10,729 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income per share:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$ |
+0.08 |
+|
+|
+$ |
+0.14 |
+|
+|
+$ |
+0.02 |
+|
+|
+$ |
+0.38 |
+|
+|
+$ |
+0.08 |
+|
+Diluted
+|
+|
+$ |
+0.08 |
+|
+|
+$ |
+0.14 |
+|
+|
+$ |
+0.02 |
+|
+|
+$ |
+0.37 |
+|
+|
+$ |
+0.08 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Shares used in per share calculations:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+140,863 |
+|
+|
+|
+137,049 |
+|
+|
+|
+136,877 |
+|
+|
+|
+138,242 |
+|
+|
+|
+137,224 |
+|
+Diluted
+|
+|
+|
+143,772 |
+|
+|
+|
+140,232 |
+|
+|
+|
+138,103 |
+|
+|
+|
+141,318 |
+|
+|
+|
+138,069 |
+|
+7
+Lattice Semiconductor Corporation
+Condensed Consolidated Balance Sheets
+(in thousands)
+(unaudited)
+|
+|
+October 3,
+|
+|
+|
+January 3,
+|
+|
+|
+|
+2026
+|
+|
+|
+2026
+|
+|
+Assets
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Current assets:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash and cash equivalents
+|
+|
+$ |
+128,277 |
+|
+|
+$ |
+133,886 |
+|
+Accounts receivable, net
+|
+|
+|
+162,629 |
+|
+|
+|
+102,277 |
+|
+Inventories, net
+|
+|
+|
+120,577 |
+|
+|
+|
+89,202 |
+|
+Other current assets
+|
+|
+|
+86,149 |
+|
+|
+|
+38,509 |
+|
+Total current assets
+|
+|
+|
+497,632 |
+|
+|
+|
+363,874 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Property and equipment, net
+|
+|
+|
+99,700 |
+|
+|
+|
+77,032 |
+|
+Operating lease right-of-use assets
+|
+|
+|
+55,551 |
+|
+|
+|
+39,459 |
+|
+Intangible assets, net
+|
+|
+|
+559,718 |
+|
+|
+|
+4,143 |
+|
+Goodwill
+|
+|
+|
+1,369,498 |
+|
+|
+|
+315,358 |
+|
+Deferred income taxes
+|
+|
+|
+4,758 |
+|
+|
+|
+62,675 |
+|
+Other long-term assets
+|
+|
+|
+22,708 |
+|
+|
+|
+20,579 |
+|
+|
+|
+$ |
+2,609,565 |
+|
+|
+$ |
+883,120 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Liabilities and Stockholders' Equity
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Current liabilities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts payable
+|
+|
+$ |
+115,329 |
+|
+|
+$ |
+56,518 |
+|
+Accrued liabilities
+|
+|
+|
+86,733 |
+|
+|
+|
+30,594 |
+|
+Accrued payroll obligations
+|
+|
+|
+56,635 |
+|
+|
+|
+30,561 |
+|
+Total current liabilities
+|
+|
+|
+258,697 |
+|
+|
+|
+117,673 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Long-term debt
+|
+|
+|
+869,080 |
+|
+|
+|
+— |
+|
+Long-term operating lease liabilities, net of current portion
+|
+|
+|
+48,857 |
+|
+|
+|
+36,127 |
+|
+Other long-term liabilities
+|
+|
+|
+15,698 |
+|
+|
+|
+15,266 |
+|
+Total liabilities
+|
+|
+|
+1,192,332 |
+|
+|
+|
+169,066 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Stockholders' equity
+|
+|
+|
+1,417,233 |
+|
+|
+|
+714,054 |
+|
+|
+|
+$ |
+2,609,565 |
+|
+|
+$ |
+883,120 |
+|
+8
+Lattice Semiconductor Corporation
+Condensed Consolidated Statements of Cash Flows
+(in thousands)
+(unaudited)
+|
+|
+Nine Months Ended
+|
+|
+|
+|
+October 3,
+|
+|
+|
+September 27,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+$ |
+52,382 |
+|
+|
+$ |
+10,729 |
+|
+Adjustments to reconcile net income to net cash provided by (used in) operating activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Stock-based compensation expense
+|
+|
+|
+122,764 |
+|
+|
+|
+80,233 |
+|
+Depreciation and amortization
+|
+|
+|
+43,682 |
+|
+|
+|
+26,567 |
+|
+Other non-cash adjustments
+|
+|
+|
+12,300 |
+|
+|
+|
+4,251 |
+|
+Net changes in assets and liabilities, excluding impact of acquisition
+|
+|
+|
+2,466 |
+|
+|
+|
+(4,257 |
+) |
+Net cash provided by (used in) operating activities
+|
+|
+|
+233,594 |
+|
+|
+|
+117,523 |
+|
+Cash flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash paid for business acquisition, net of cash acquired
+|
+|
+|
+(971,346 |
+) |
+|
+|
+— |
+|
+Capital expenditures
+|
+|
+|
+(34,967 |
+) |
+|
+|
+(28,920 |
+) |
+Other investing activities
+|
+|
+|
+(36,348 |
+) |
+|
+|
+(12,213 |
+) |
+Net cash provided by (used in) investing activities
+|
+|
+|
+(1,042,661 |
+) |
+|
+|
+(41,133 |
+) |
+Cash flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Proceeds from long-term debt, net of issuance costs
+|
+|
+|
+912,731 |
+|
+|
+|
+— |
+|
+Repayment of long-term debt
+|
+|
+|
+(50,000 |
+) |
+|
+|
+— |
+|
+Repurchase of common stock
+|
+|
+|
+(15,000 |
+) |
+|
+|
+(85,855 |
+) |
+Net cash flows related to stock compensation exercises
+|
+|
+|
+(44,400 |
+) |
+|
+|
+(9,431 |
+) |
+Net cash provided by (used in) financing activities
+|
+|
+|
+803,331 |
+|
+|
+|
+(95,286 |
+) |
+Effect of exchange rate change on cash
+|
+|
+|
+127 |
+|
+|
+|
+515 |
+|
+Net increase (decrease) in cash and cash equivalents
+|
+|
+|
+(5,609 |
+) |
+|
+|
+(18,381 |
+) |
+Beginning cash and cash equivalents
+|
+|
+|
+133,886 |
+|
+|
+|
+136,291 |
+|
+Ending cash and cash equivalents
+|
+|
+$ |
+128,277 |
+|
+|
+$ |
+117,910 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental disclosure of cash flow information and non-cash investing and financing activities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Interest paid
+|
+|
+$ |
+379 |
+|
+|
+$ |
+— |
+|
+Income taxes paid, net of refunds
+|
+|
+$ |
+7,458 |
+|
+|
+$ |
+5,294 |
+|
+Operating lease payments
+|
+|
+$ |
+8,091 |
+|
+|
+$ |
+5,971 |
+|
+Accrued purchases of intellectual property licenses
+|
+|
+$ |
+15,000 |
+|
+|
+$ |
+— |
+|
+Accrued purchases of plant and equipment
+|
+|
+$ |
+4,982 |
+|
+|
+$ |
+8,071 |
+|
+Operating lease right-of-use assets obtained in exchange for lease obligations
+|
+|
+$ |
+3,638 |
+|
+|
+$ |
+10,349 |
+|
+9
+Lattice Semiconductor Corporation
+Supplemental Historical Financial Information
+(unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+|
+October 3,
+|
+|
+July 4,
+|
+|
+September 27,
+|
+|
+|
+2026
+|
+|
+2026
+|
+|
+2025
+|
+Balance Sheet Information
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+A/R Days Revenue Outstanding (DSO)
+|
+|
+|
+51 |
+|
+|
+|
+54 |
+|
+|
+|
+65 |
+|
+Inventory Days (DIO)
+|
+|
+|
+116 |
+|
+|
+|
+153 |
+|
+|
+|
+193 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Revenue % (by Geography)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Asia
+|
+|
+|
+76 |
+% |
+|
+|
+79 |
+% |
+|
+|
+65 |
+% |
+Americas
+|
+|
+|
+16 |
+% |
+|
+|
+12 |
+% |
+|
+|
+19 |
+% |
+Europe (incl. Africa)
+|
+|
+|
+8 |
+% |
+|
+|
+9 |
+% |
+|
+|
+16 |
+% |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Revenue % (by End Market) (1)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Compute and Communications
+|
+|
+|
+59 |
+% |
+|
+|
+63 |
+% |
+|
+|
+55 |
+% |
+Industrial and Embedded
+|
+|
+|
+28 |
+% |
+|
+|
+37 |
+% |
+|
+|
+45 |
+% |
+AMI
+|
+|
+|
+13 |
+% |
+|
+|
+— |
+% |
+|
+|
+— |
+% |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Revenue $M (by End Market) (1)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Compute and Communications
+|
+|
+$ |
+171.9 |
+|
+|
+$ |
+126.0 |
+|
+|
+$ |
+74.0 |
+|
+Industrial and Embedded
+|
+|
+$ |
+80.0 |
+|
+|
+$ |
+75.1 |
+|
+|
+$ |
+59.3 |
+|
+AMI
+|
+|
+$ |
+39.1 |
+|
+|
+$ |
+— |
+|
+|
+$ |
+— |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Revenue % (by Channel)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Distribution
+|
+|
+|
+81 |
+% |
+|
+|
+95 |
+% |
+|
+|
+83 |
+% |
+Direct
+|
+|
+|
+19 |
+% |
+|
+|
+5 |
+% |
+|
+|
+17 |
+% |
+(1) |
+|
+Lattice Semiconductor previously announced that it has updated its disaggregated end market reporting to better reflect how the Company views its business. Effective Q1 2026, Lattice Semiconductor began disaggregating revenue by end market into (i) Compute and Communications and (ii) Industrial and Embedded. Compute and Communications reflects a reordering of the Company's prior Communications and Computing end market, while Industrial and Embedded combines the Company's previously reported Industrial and Automotive, and Consumer end markets. This change represented a presentation-only update and had no impact on the Company’s consolidated financial results. Prior period end market information has been recast to conform to the new presentation to facilitate comparability.
+Lattice completed its acquisition of AMI on July 27, 2026. AMI revenue reflects revenue recognized following the acquisition date and is presented as a separate end market beginning in the third quarter of 2026 to enhance comparability with prior disclosures.
+|
+10
+Lattice Semiconductor Corporation
+Reconciliation of U.S. GAAP to Non-GAAP Financial Measures
+(in thousands, except per share data)
+(unaudited)
+|
+|
+Three Months Ended
+|
+|
+|
+|
+October 3, |
+|
+|
+July 4, |
+|
+|
+September 27, |
+|
+|
+|
+2026
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Gross Margin Reconciliation
+|
+GAAP Gross margin
+|
+|
+$ |
+196,120 |
+|
+|
+$ |
+141,332 |
+|
+|
+$ |
+90,527 |
+|
+Stock-based compensation - gross margin (1)
+|
+|
+|
+2,837 |
+|
+|
+|
+2,632 |
+|
+|
+|
+1,980 |
+|
+Incentive compensation to be settled in equity - gross margin (2)
+|
+|
+|
+288 |
+|
+|
+|
+248 |
+|
+|
+|
+126 |
+|
+Amortization of acquired intangible assets - gross margin
+|
+|
+|
+6,987 |
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+Non-GAAP Gross margin
+|
+|
+$ |
+206,232 |
+|
+|
+$ |
+144,212 |
+|
+|
+$ |
+92,633 |
+|
+Gross Margin % Reconciliation
+|
+GAAP Gross margin %
+|
+|
+|
+67.4 |
+% |
+|
+|
+70.3 |
+% |
+|
+|
+67.9 |
+% |
+Stock-based compensation - gross margin (1)
+|
+|
+|
+1.0 |
+% |
+|
+|
+1.3 |
+% |
+|
+|
+1.5 |
+% |
+Incentive compensation to be settled in equity - gross margin (2)
+|
+|
+|
+0.1 |
+% |
+|
+|
+0.1 |
+% |
+|
+|
+0.1 |
+% |
+Amortization of acquired intangible assets - gross margin
+|
+|
+|
+2.4 |
+% |
+|
+|
+— |
+% |
+|
+|
+— |
+% |
+Non-GAAP Gross margin %
+|
+|
+|
+70.9 |
+% |
+|
+|
+71.7 |
+% |
+|
+|
+69.5 |
+% |
+Research and Development Expense % (R&D Expense %) Reconciliation
+|
+GAAP R&D Expense %
+|
+|
+|
+27.6 |
+% |
+|
+|
+31.9 |
+% |
+|
+|
+37.2 |
+% |
+Stock-based compensation - R&D (1)
+|
+|
+|
+(7.7 |
+)% |
+|
+|
+(9.4 |
+)% |
+|
+|
+(11.4 |
+)% |
+Incentive compensation to be settled in equity - R&D (2)
+|
+|
+|
+(0.9 |
+)% |
+|
+|
+(1.2 |
+)% |
+|
+|
+(0.6 |
+)% |
+Transformation charges
+|
+|
+|
+— |
+% |
+|
+|
+— |
+% |
+|
+|
+(1.0 |
+)% |
+Non-GAAP R&D Expense %
+|
+|
+|
+19.0 |
+% |
+|
+|
+21.3 |
+% |
+|
+|
+24.2 |
+% |
+Selling, General, and Administrative Expense % (SG&A Expense %) Reconciliation
+|
+|
+|
+|
+|
+|
+GAAP SG&A Expense %
+|
+|
+|
+20.6 |
+% |
+|
+|
+25.0 |
+% |
+|
+|
+31.0 |
+% |
+Stock-based compensation - SG&A (1)
+|
+|
+|
+(8.8 |
+)% |
+|
+|
+(11.5 |
+)% |
+|
+|
+(14.1 |
+)% |
+Incentive compensation to be settled in equity - SG&A (2)
+|
+|
+|
+(1.1 |
+)% |
+|
+|
+(1.4 |
+)% |
+|
+|
+(0.7 |
+)% |
+Legal expenses (3)
+|
+|
+|
+— |
+% |
+|
+|
+— |
+% |
+|
+|
+0.0 |
+% |
+Non-GAAP SG&A Expense %
+|
+|
+|
+10.7 |
+% |
+|
+|
+12.1 |
+% |
+|
+|
+16.2 |
+% |
+Operating Expenses Reconciliation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP Operating expenses
+|
+|
+$ |
+172,152 |
+|
+|
+$ |
+118,979 |
+|
+|
+$ |
+92,061 |
+|
+Stock-based compensation - operations (1)
+|
+|
+|
+(47,910 |
+) |
+|
+|
+(42,220 |
+) |
+|
+|
+(33,998 |
+) |
+Incentive compensation to be settled in equity - operations (2)
+|
+|
+|
+(5,760 |
+) |
+|
+|
+(5,179 |
+) |
+|
+|
+(1,770 |
+) |
+Transformation charges
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+(1,347 |
+) |
+Legal expenses (3)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+(6 |
+) |
+Amortization of acquired intangible assets - operations
+|
+|
+|
+(5,891 |
+) |
+|
+|
+(19 |
+) |
+|
+|
+(20 |
+) |
+Restructuring and other
+|
+|
+|
+(54 |
+) |
+|
+|
+(22 |
+) |
+|
+|
+(1,020 |
+) |
+Acquisition related
+|
+|
+|
+(25,881 |
+) |
+|
+|
+(4,429 |
+) |
+|
+|
+— |
+|
+Non-GAAP Operating expenses
+|
+|
+$ |
+86,656 |
+|
+|
+$ |
+67,110 |
+|
+|
+$ |
+53,900 |
+|
+(1) |
+|
+Includes stock-based compensation and related payroll tax expenses. |
+(2) |
+|
+Includes accruals for the portion of our annual incentive plan that we intend to settle in equity and related payroll tax expenses. |
+(3) |
+|
+Includes legal expenses outside the ordinary course of business, including those incurred defending against claims brought against the Company by Steven A.W. De Jaray, Perienne De Jaray and Darrell R. Oswalde. |
+11
+Lattice Semiconductor Corporation
+Reconciliation of U.S. GAAP to Non-GAAP Financial Measures
+(in thousands, except per share data)
+(unaudited)
+|
+|
+Three Months Ended |
+|
+|
+|
+October 3, |
+|
+|
+July 4, |
+|
+|
+September 27, |
+|
+|
+|
+2026 |
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Income from Operations Reconciliation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP Income from operations
+|
+|
+$ |
+23,968 |
+|
+|
+$ |
+22,353 |
+|
+|
+$ |
+(1,534 |
+) |
+Stock-based compensation (1)
+|
+|
+|
+50,747 |
+|
+|
+|
+44,852 |
+|
+|
+|
+35,978 |
+|
+Incentive compensation to be settled in equity (2)
+|
+|
+|
+6,048 |
+|
+|
+|
+5,427 |
+|
+|
+|
+1,896 |
+|
+Transformation charges
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+1,347 |
+|
+Legal expenses (3)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+6 |
+|
+Amortization of acquired intangible assets
+|
+|
+|
+12,878 |
+|
+|
+|
+19 |
+|
+|
+|
+20 |
+|
+Restructuring and other
+|
+|
+|
+54 |
+|
+|
+|
+22 |
+|
+|
+|
+1,020 |
+|
+Acquisition related
+|
+|
+|
+25,881 |
+|
+|
+|
+4,429 |
+|
+|
+|
+— |
+|
+Non-GAAP Income from operations
+|
+|
+$ |
+119,576 |
+|
+|
+$ |
+77,102 |
+|
+|
+$ |
+38,733 |
+|
+Income from Operations % Reconciliation
+|
+|
+GAAP Income from operations %
+|
+|
+|
+8.2 |
+% |
+|
+|
+11.1 |
+% |
+|
+|
+(1.2 |
+)% |
+Cumulative effect of non-GAAP Gross Margin and Operating adjustments
+|
+|
+|
+32.9 |
+% |
+|
+|
+27.2 |
+% |
+|
+|
+30.2 |
+% |
+Non-GAAP Income from operations %
+|
+|
+|
+41.1 |
+% |
+|
+|
+38.3 |
+% |
+|
+|
+29.0 |
+% |
+Interest (Expense) Income Reconciliation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP Interest (expense) income, net
+|
+|
+$ |
+(9,640 |
+) |
+|
+$ |
+(88 |
+) |
+|
+$ |
+602 |
+|
+Bridge facility debt cost amortization
+|
+|
+|
+— |
+|
+|
+|
+876 |
+|
+|
+|
+— |
+|
+Non-GAAP Interest (expense) income, net
+|
+|
+$ |
+(9,640 |
+) |
+|
+$ |
+788 |
+|
+|
+$ |
+602 |
+|
+Other (Expense) Income Reconciliation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP Other (expense) income, net
+|
+|
+$ |
+(520 |
+) |
+|
+$ |
+(5,048 |
+) |
+|
+$ |
+(22 |
+) |
+Write-off unamortized debt costs
+|
+|
+|
+379 |
+|
+|
+|
+4,898 |
+|
+|
+|
+— |
+|
+Non-GAAP Other (expense) income, net
+|
+|
+$ |
+(141 |
+) |
+|
+$ |
+(150 |
+) |
+|
+$ |
+(22 |
+) |
+Income Tax Expense (Benefit) Reconciliation
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP Income tax expense
+|
+|
+$ |
+2,602 |
+|
+|
+$ |
+(2,142 |
+) |
+|
+$ |
+(3,748 |
+) |
+Estimated tax effect of non-GAAP adjustments
+|
+|
+|
+14,618 |
+|
+|
+|
+7,438 |
+|
+|
+|
+1,693 |
+|
+Non-cash changes in net deferred income taxes
+|
+|
+|
+(11,089 |
+) |
+|
+|
+(1,966 |
+) |
+|
+|
+1,532 |
+|
+Change in tax law (4)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+1,679 |
+|
+Non-GAAP Income tax expense
+|
+|
+$ |
+6,131 |
+|
+|
+$ |
+3,330 |
+|
+|
+$ |
+1,156 |
+|
+(1) |
+|
+Includes stock-based compensation and related payroll tax expenses. |
+(2) |
+|
+Includes accruals for the portion of our annual incentive plan that we intend to settle in equity and related payroll tax expenses. |
+(3) |
+|
+Includes legal expenses outside the ordinary course of business, including those incurred defending against claims brought against the Company by Steven A.W. De Jaray, Perienne De Jaray and Darrell R. Oswalde. |
+(4) |
+|
+Includes an increase in our provision for U.S. tax on foreign operations resulting from The 2017 Tax Cuts and Jobs Act and is related to the capitalization and subsequent amortization of R&D costs for tax purposes which was made permanent in the 2025 Tax Act in the third quarter of fiscal 2025. |
+12
+Lattice Semiconductor Corporation
+Reconciliation of U.S. GAAP to Non-GAAP Financial Measures
+(in thousands, except per share data)
+(unaudited)
+|
+|
+Three Months Ended |
+|
+|
+|
+October 3, |
+|
+|
+July 4, |
+|
+|
+September 27, |
+|
+|
+|
+2026 |
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Net Income Reconciliation
+|
+|
+GAAP Net income
+|
+|
+$ |
+11,206 |
+|
+|
+$ |
+19,359 |
+|
+|
+$ |
+2,794 |
+|
+Stock-based compensation (1)
+|
+|
+|
+50,747 |
+|
+|
+|
+44,852 |
+|
+|
+|
+35,978 |
+|
+Incentive compensation to be settled in equity (2)
+|
+|
+|
+6,048 |
+|
+|
+|
+5,427 |
+|
+|
+|
+1,896 |
+|
+Transformation charges
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+1,347 |
+|
+Legal expenses (3)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+6 |
+|
+Amortization of acquired intangible assets
+|
+|
+|
+12,878 |
+|
+|
+|
+19 |
+|
+|
+|
+20 |
+|
+Restructuring and other
+|
+|
+|
+54 |
+|
+|
+|
+22 |
+|
+|
+|
+1,020 |
+|
+Acquisition related
+|
+|
+|
+25,881 |
+|
+|
+|
+4,429 |
+|
+|
+|
+— |
+|
+Bridge facility debt cost amortization
+|
+|
+|
+— |
+|
+|
+|
+876 |
+|
+|
+|
+— |
+|
+Write-off unamortized debt costs
+|
+|
+|
+379 |
+|
+|
+|
+4,898 |
+|
+|
+|
+— |
+|
+Estimated tax effect of non-GAAP adjustments
+|
+|
+|
+(14,618 |
+) |
+|
+|
+(7,438 |
+) |
+|
+|
+(1,693 |
+) |
+Non-cash changes in net deferred income taxes
+|
+|
+|
+11,089 |
+|
+|
+|
+1,966 |
+|
+|
+|
+(1,532 |
+) |
+Change in tax law (4)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+(1,679 |
+) |
+Non-GAAP Net income
+|
+|
+$ |
+103,664 |
+|
+|
+$ |
+74,410 |
+|
+|
+$ |
+38,157 |
+|
+Net Income Per Share Reconciliation
+|
+|
+GAAP Net income per share - basic
+|
+|
+$ |
+0.08 |
+|
+|
+$ |
+0.14 |
+|
+|
+$ |
+0.02 |
+|
+Cumulative effect of Non-GAAP adjustments
+|
+|
+|
+0.66 |
+|
+|
+|
+0.40 |
+|
+|
+|
+0.26 |
+|
+Non-GAAP Net income per share - basic
+|
+|
+$ |
+0.74 |
+|
+|
+$ |
+0.54 |
+|
+|
+$ |
+0.28 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP Net income per share - diluted
+|
+|
+$ |
+0.08 |
+|
+|
+$ |
+0.14 |
+|
+|
+$ |
+0.02 |
+|
+Cumulative effect of Non-GAAP adjustments
+|
+|
+|
+0.64 |
+|
+|
+|
+0.39 |
+|
+|
+|
+0.26 |
+|
+Non-GAAP Net income per share - diluted
+|
+|
+$ |
+0.72 |
+|
+|
+$ |
+0.53 |
+|
+|
+$ |
+0.28 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Shares used in per share calculations:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+140,863 |
+|
+|
+|
+137,049 |
+|
+|
+|
+136,877 |
+|
+Diluted
+|
+|
+|
+143,772 |
+|
+|
+|
+140,232 |
+|
+|
+|
+138,103 |
+|
+(1) |
+|
+Includes stock-based compensation and related payroll tax expenses. |
+(2) |
+|
+Includes accruals for the portion of our annual incentive plan that we intend to settle in equity and related payroll tax expenses. |
+(3) |
+|
+Includes legal expenses outside the ordinary course of business, including those incurred defending against claims brought against the Company by Steven A.W. De Jaray, Perienne De Jaray and Darrell R. Oswalde. |
+(4) |
+|
+Includes an increase in our provision for U.S. tax on foreign operations resulting from The 2017 Tax Cuts and Jobs Act and is related to the capitalization and subsequent amortization of R&D costs for tax purposes which was made permanent in the 2025 Tax Act in the third quarter of fiscal 2025. |
+13
+Lattice Semiconductor Corporation
+Reconciliation of U.S. GAAP to Non-GAAP Financial Measures
+(in thousands, except per share data)
+(unaudited)
+|
+|
+Three Months Ended |
+|
+|
+|
+October 3, |
+|
+|
+July 4, |
+|
+|
+September 27, |
+|
+|
+|
+2026 |
+|
+|
+2026 |
+|
+|
+2025 |
+|
+Reconciliation of Net income to Adjusted EBITDA
+|
+|
+GAAP Net income
+|
+|
+$ |
+11,206 |
+|
+|
+$ |
+19,359 |
+|
+|
+$ |
+2,794 |
+|
+Interest expense (income), net
+|
+|
+|
+9,640 |
+|
+|
+|
+88 |
+|
+|
+|
+(602 |
+) |
+Income tax expense (benefit)
+|
+|
+|
+2,602 |
+|
+|
+|
+(2,142 |
+) |
+|
+|
+(3,748 |
+) |
+Amortization of acquired intangible assets
+|
+|
+|
+12,878 |
+|
+|
+|
+19 |
+|
+|
+|
+20 |
+|
+Depreciation and other amortization
+|
+|
+|
+11,613 |
+|
+|
+|
+9,414 |
+|
+|
+|
+8,734 |
+|
+Stock-based compensation (1)
+|
+|
+|
+50,747 |
+|
+|
+|
+44,852 |
+|
+|
+|
+35,978 |
+|
+Incentive compensation to be settled in equity (2)
+|
+|
+|
+6,048 |
+|
+|
+|
+5,427 |
+|
+|
+|
+1,896 |
+|
+Transformation charges
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+1,347 |
+|
+Legal expenses (3)
+|
+|
+|
+— |
+|
+|
+|
+— |
+|
+|
+|
+6 |
+|
+Restructuring and other
+|
+|
+|
+54 |
+|
+|
+|
+22 |
+|
+|
+|
+1,020 |
+|
+Acquisition related
+|
+|
+|
+25,881 |
+|
+|
+|
+4,429 |
+|
+|
+|
+— |
+|
+Write-off unamortized debt costs
+|
+|
+|
+379 |
+|
+|
+|
+4,898 |
+|
+|
+|
+— |
+|
+Adjusted EBITDA
+|
+|
+$ |
+131,048 |
+|
+|
+$ |
+86,366 |
+|
+|
+$ |
+47,445 |
+|
+Adjusted EBITDA margin
+|
+|
+|
+45.0 |
+% |
+|
+|
+43.0 |
+% |
+|
+|
+35.6 |
+% |
+Reconciliation of Net income margin to Adjusted EBITDA margin
+|
+|
+GAAP Net income margin
+|
+|
+|
+3.9 |
+% |
+|
+|
+9.6 |
+% |
+|
+|
+2.1 |
+% |
+Cumulative effect of EBITDA adjustments
+|
+|
+|
+41.1 |
+% |
+|
+|
+33.4 |
+% |
+|
+|
+33.5 |
+% |
+Adjusted EBITDA margin
+|
+|
+|
+45.0 |
+% |
+|
+|
+43.0 |
+% |
+|
+|
+35.6 |
+% |
+Reconciliation of GAAP Net Cash Provided by Operating Activities to Free Cash Flow
+|
+|
+GAAP Net cash provided by operating activities
+|
+|
+$ |
+95,037 |
+|
+|
+$ |
+88,302 |
+|
+|
+$ |
+47,100 |
+|
+Operating cash flow margin
+|
+|
+|
+32.7 |
+% |
+|
+|
+43.9 |
+% |
+|
+|
+35.3 |
+% |
+Capital expenditures
+|
+|
+|
+(17,414 |
+) |
+|
+|
+(7,020 |
+) |
+|
+|
+(13,074 |
+) |
+Free cash flow
+|
+|
+$ |
+77,623 |
+|
+|
+$ |
+81,282 |
+|
+|
+$ |
+34,026 |
+|
+Free cash flow margin
+|
+|
+|
+26.7 |
+% |
+|
+|
+40.4 |
+% |
+|
+|
+25.5 |
+% |
+(1) |
+|
+Includes stock-based compensation and related payroll tax expenses. |
+(2) |
+|
+Includes accruals for the portion of our annual incentive plan that we intend to settle in equity and related payroll tax expenses. |
+(3) |
+|
+Includes legal expenses outside the ordinary course of business, including those incurred defending against claims brought against the Company by Steven A.W. De Jaray, Perienne De Jaray and Darrell R. Oswalde. |
+14
+EX-101.SCH
+3
+lscc-20261102.xsd
+XBRL TAXONOMY EXTENSION SCHEMA
+000 - Document - Document And Entity Information
+link:calculationLink
+link:definitionLink
+link:presentationLink
+EX-101.DEF
+4
+lscc-20261102_def.xml
+XBRL TAXONOMY EXTENSION DEFINITION LINKBASE
+EX-101.LAB
+5
+lscc-20261102_lab.xml
+XBRL TAXONOMY EXTENSION LABEL LINKBASE
+Entity [Domain]
+Legal Entity [Axis]
+Document Information [Line Items]
+Document Information [Table]
+Document, Type
+Document, Period End Date
+Entity, Registrant Name
+Entity, Incorporation, State or Country Code
+Entity, File Number
+Entity, Tax Identification Number
+Entity, Address, Address Line One
+Entity, Address, City or Town
+Entity, Address, State or Province
+Entity, Address, Postal Zip Code
+City Area Code
+Local Phone Number
+Written Communications
+Soliciting Material
+Pre-commencement Tender Offer
+Pre-commencement Issuer Tender Offer
+Title of 12(b) Security
+Trading Symbol
+Security Exchange Name
+Entity, Emerging Growth Company
+Amendment Flag
+Entity, Central Index Key
+EX-101.PRE
+6
+lscc-20261102_pre.xml
+XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE
+GRAPHIC
+7
+latticelogo.jpg
+begin 644 latticelogo.jpg
+M_]C_X 02D9)1@ ! 0$ 2 !( #_X0 B17AI9@ 34T *@ @ 0$2 ,
+M ! $ #_VP!# (! 0(! 0(" @(" @(" P4# P,# P8$! ,%!P8'
+M!P 7J#A(6&
+MAXB)BI*3E)66EYB9FJ*CI*6FIZBIJK*SM+6VM[BYNL+#Q,7&Q\C)RM+3U-76
+MU]C9VN'BX^3EYN?HZ>KQ\O/T]?;W^/GZ_\0 'P$ P$! 0$! 0$! 0
+M $" P0%!@ 'EZ@H.$A8:'B(F*DI.4
+ME9:7F)F:HJ.DI::GJ*FJLK.TM;:WN+FZPL/$Q ;GZ.GJ\O/T]?;W^/GZ_]H # ,! (1 Q$ /P#]_#TKXS^-/B>3Q5\5==NE
+MFD\E;IK>'#_*$C^08]CM+?\ J^R+QF2VDVLJ-M.&;HI]37S6/V/-6;YG\2:
+M*TC' ULO"EBL,\D:*\4*S765R &
+M%U/.A('(C4\U_3A\%?V O7VMS%K2X4[KFX>8\;VQC?C&3CI
+MDXS7;X#\&X_( W2Q^.7[,W@WQ1^T?^T=X ^'NFZQJ0U#QSXCT_0+9FO)%5)+JYC@5B O?\ !1GPS\,=#UK58]#^$G@ZRL)+ .-?N-1M+6YM9?.LK3=LMK=RK;2T4"Q1DCJ4SWK]S/B3\$]$UGQ)XHUFTTR
+MPOM9OK[49DM;:WBN)'DGD=@JHHSR68@ =R:_NK_9O^$0_9__ &>O O@47TVI
+M_P#"&^'['1#>2N[O=FVMTA,A+DMEMF>2>M?AS^PC_P &B.O_ 0_;#^''CKQ
+M!\:/A_XJT+P/K]IK][I>FV4S7%XMM()4C&6P TBH"3T!)Y. ?WVO+R+3[26X
+MGD6*&!#)(['"HH&22?0"@#^5S_@\"_:6D^,O_!5O_A#(;J9M+^%/AJRTC[-Y
+MC&)+RY!OIY0I& [1W%LC$9R($YXP/W#_ .#;[]GZX_9V_P""-7P8L;SS/MOB
+M;39/% 0L FHS/=0;1N(4?9Y(3@8Y)) 8FOY:?BGX@U3_@IO_P5"U:ZL9&;
+M4OCE\23;Z:)9"HA&HZB(K:/+YVJBRQH-WW54#M7]LG@/P7I_PW\#Z-X=TFWC
+MM=*T&Q@TZR@10JPPPQK'&H X "J!@ _
+ML^_"?6I+7XK>++)3XAU>REVS>$M.F (C1A]R[N(R *)_,7:[PN/K+_@N;
+M_P %A_#_ /P24_99GU.U:QU;XJ>+(Y++P?H ,/B'>:S>?#W3=4;6O'WB2X=A/K5S*
+MYE-C%(,9N)V.7*D>5$6;AC&K@'Q_^Q!^TA=_L@?M@_#/XGV;7&[P/XCLM6FC
+M@ $$@@"2'S(SGLYK^VO]H:R\2?$G]EKQS;?#74M/M_&&O\ A6_B
+M\*ZA/+BTCOYK206 +/^"=O[2^L?"?QSJ'AS4/%G
+MA^WM9]0&B74ES;VQN($N(XR[QQG?Y4D;$!2,..3SC^YFOXC_ -M_XJ:E_P %
+M(O\ @J+X]\0>'"VIW?Q4\=267AU9"8S-#- .-.35=.@U76IH+Q;=RWEM(BV[J-Z!9!A
+MC\KKG!R!];?\$R_^#5/]HO\ 9=_;D^'_ ,2/&VI_#4:+X%O)=;B33M>NWFEO
+MH()'L4(6!,QF[$!D!;!B$@(;.UOZ O@U\+-,^!OPA\*^"M%5ET?PCI%KHUD"
+MH5O)MX4B3(4 9VH,X &:Z2@#^6WQ%_P9^_MC>+?$%]JNI:U\)[[4=3N)+NZN
+M)O$MT\EQ+(Q9W9C:Y+,Q))/))KX4_P""CG_!.#QY_P $O/CG8_#OXC:AX5O/
+M$E[I$6M%-"O9+N*WAEDEC0.SQ1X _:,;]K;_@K
+MS\;O$EJ6FM(?$1\.Z 8; V?A7Q0UR+!=7UF:WNI%@N)+=W*) X"F2)P/FR0,X
+M&17U3^Q+_P &C/[1WPJ_;"^%_BKQQJ_PUA\(>%O%&GZSJYTW7;J2\>WMKA)W
+M2$"W0^8XCV@[AM+ YXK]^/V%OV=X?V2OV,OA;\,XX8H7\$^%[#2;GRPN);F.
+M!!/(=O!9YO, O1/&7BVP\ ^$-5U[59OLVEZ+9S7]Y,1GRH8D+NV/95
+M)_"@#^4'_@[!_:?D_:!_X*^>*=!@N/.T?X5Z78^%[39*S1M+Y0NKIMI VN)[
+MEXFQU^SJ 5B64D G[J 5^JW_!Y9^V9-I_C[X9?LR^%S_9?A/PCI
+M$7B/5K2V8I#-,^^WL; &=:NA8:/I^@VWVSQ=KQWY1FFC5GAD?:I\JTP5RRF65 _X
+M,_?^";_A_P"#_P"QM)^T'K.EPW/CSXG7-S::3>2A6;3-&@E\GRXN,H\UQ%,[
+MMGYD2 8&T[OV0H _EA_X@W/VN/\ H(_"#_PHKG_Y%K]/O^"-7_!//Q=_P;]?
+M\$Y_VBO'7Q8OM$O?$:P7/B9[;1=1>ZLQ8Z;I\DD"J94C N))GN%( (8>2,D\
+M#]8*_,7_ (.W/VF!\!_^"1.L^';>4KJ7Q4UZP\,Q!)$#I K->SN5;DH4M/*)
+M7H9TY&: /YH?V4_V8_B!_P %-/VQ-+\ ^%[BSOO'OQ#O;R\:[U6Y:*!I1%-=
+MSS32A7895)"3@DL0.2:^^O\ B# ,C\ C
+MHO\ P>\^*-?UFSL;3]FG2[FZO9T@AAC\:2EY79@JJH^Q'DD@#@\FOZ!K"6:>
+MPADN(1;SO&K21!]XC8CE=W& @#S/]KOQ%_9/PBFLU_UFK7,=MU_@!\QO
+MKD)M_P"!5\KFQB'\"_\ ?(KZH_:)^'-O\3KG2H)/$NG:+_9XED:*X 8RE]@5
+ML;UQC:P_X%7FX_9:LW.T>/-#);@#REY_\BU_&GC5P;Q'G_$TZ^#H*=*G"$(O
+MVE)7TYGI*::]Z4EJEMVL?L'!> GU_F;/SG.L1/'8ZKBX)N,I.SL]EHOP2.#_X-[I+G]C7_@D3^VU^TRUP
+M;&\71?\ A$/#4ZMS%J"V[E7*G 8?:+^PP02?DD &>OXTU_5CXF_X-^FT;_@B
+M7I/[).E?&C2_#]Q=^(SX@U[Q//H6Z'7Q]I>X6%;8W*F,+BS^82-G[+T ?Y?B
+M#_B"I;_HZCPK_P"$F?\ Y/KZZICL-3ERSJ13[-I?J>3&C4DKQBW\BC_P9)_L
+MWMXC_:.^,GQ8N$9;?PGH-KX:LRR-MFFOIS/(5;H3&ED@8>EPIK]?O^"\O[1G
+M_#+?_!(OXY^)HKC[/?7GAU_#]BROMD\_472P5DY!W)]H,F0 :EXFU^77KO6H--^PI(K0PPQ0JGFR95%B+
+M9W ?\$Z?C)_P4Y_9&\(_#WX1S>&4^Q^*(]9UF+5[YK/SHXK:>
+M.+8P1@0'F)*G'.TC...F,DU=&9^%W_!JG^SI#\=_^"P'A+5[[[-_9/PPTJ^\
+M771G957=&JVMOC Q9C"WPTA+#!*>)W7(_"&IO^(1+]L[_GY^'7_A52?_ !FF!_4H/$^FL0!J
+M%B23@#SUY_6O,/VY_P!MGP)_P3U_9E\2?%/XAZC]CT/0(?W-M$5-WJ]TP/DV
+M=LA(WS2L, 9"J SL51'9?YTOA]_P:"?M:ZGX]T6W\2:QX$TOP]/?P)J=Y;>)
+M))I[6U,BB62-/)^9U3 X:!/M-S=1F-@UQYF^-6R0L*IC#/*6 /QM^)'BC]H;_@X
+M &M(MR62!9)"L %O[#\&VOC;PCHOGO=?V?HOQ-MK"U\YPH>3RHKQ
+M5WL$0%L9(5 [,QAO81!,B@G"HCV OT4_X+??\$_\
+M4O\ @I=_P3D\:?##PZNCKXRGFL]5\.W&INT=O;7EO :'JZ66M2W5S('D@FA\
+MJ,1!?,$T$>6 8L[4XR#@3SQL U?S,_\&Q?[-?_ TC_P %DOA?]HMOM&C^ _M7
+MB_4,-M,?V2%OLS#@@XO9+3(.,KNY!Q7]!W_!P_\ L$_%K_@I%^PA8?#/X13>
+M'8]3N/%5GJ.KIJ]Z;2.>QAAN#L5PC_,+AK=L''"'GL? O^#:7_@A=\2/^"5W
+MCCXI>,OBY_PBS>(/$UC9:-H2Z-J3WA@M5DDFNS+F-5&]UM-N"3^Y?( (R ?K
+M91110!Y?^VS^T+#^R;^R!\3/B9,8?^*'\-7^L0K+C9+-# [11D9&=\@1 _$_]O?\ X)O^+/A1\*)O#\6O^*+_ $[[8NKW36L4
+MMG!=1W#JDBJVU_,BB/( *AQG) /Q%_P;B?\ !OS\6/\ @F=^U?XN^)?Q>_X1
+M'S)/#;:)H<>DZDUZ_F3SQR32-F-0NU(%4'.3YI[9H _9^OAO_@X[_::D_9=_
+MX([_ !@U"UF6+5?%M@GA"Q#?Q'4'%O/CD$,+5KA@1G!0'&,U]R5^;/\ P )A&P*JL]V&
+M!P (Y%D1'C>:2/[#
+M "&!^97N_-4CD-"#QBG_ /!W;\,=9\$_\%BM=UK4(Y_[-\9>&])U'2Y&4^68
+MHK F1+;R$@=-X]:_7O_ (-I/^",'C[_ ()/>"_BIJ'Q1;PY)XM\>WMA
+M;VR:3>?;([:QM$F(^ :?JVAR27/A[Q'INQ=1T.9P ^PL"'ADVH)(6^5PBD%71'0 ^=O^#;O
+M_@I!\'_C;_P32^%_@"Q\7>&=#\>_#W2/[$U;PU>7\5K?Y@?;]KCB=@TL,H>-
+MS(@*AY&4D,"*_1E?%6ELN1J5@0>A%PG/ZU_-%\;_ /@RP_:$\(>(;H^ OB%\
+M+O&6B(1]FDOY[O1]0DZYW0^3+$N.!D3DG/05Q(_X-$?VSE&! [M9Y -Q6.56('K@'W%?SD?\'L?[3G_"5_M0_"7X1VDV
+MZW\&^'Y_$5^$D!4W-_-Y4 ()8I(;*"UA@C5HVA)1O
+MW99U!*[V -OBI\.?AEXRU[XA^(K[5K&X
+M\3>'[._NK/3XMEG%"K7",0ADMIY1MP#Y_>OT:_X=T?LK?]$)_9]_\(K2/_C-
+M?SNQ?\&AO[9D$2QQS_#A$4855\4R #Z#R:=_Q")?MG?\_/PZ_P#"JD_^,T ?
+MT7^%_P!@+]FGPUXFT[4M%^"GP,T_6=-N8[NPNK+P?I45U:SQL'CDB=(0RNK*
+M&5E(((!'(KW.OYQ?^" H>"[?P?X)\46/B'4&L/$
+M 1UK^CJ@#XU^.VN+XJ^,.O77WHX;C[+%GG"Q
+M*(_U96/_ *L?P+X:7Q5XYT731&K+>WL4 'HY-0N&>:
+MX=WE=F8E 2V[-I']&8G%1P&4.-*_[NG9>JC9&/^U'KJ^(?C)>QC:T
+M.E0Q62#' P"[?^/.1^ K@K#1FUO4K6Q@C7SKZ9+>/C^)V"C]375>/-!2Y\?:
+M]))- W9@#^%5F6#J
+M /85Z%\;M&6\^+VOR233,\
+MET 3D 44K7?+#F?FVN9_>VSZL\">'5\(^"]*T
+MM=O_ !+[6. D# 8JH!/XG)_&N(^+'QMN/!?CBWT.&XT/1UDM#=M?ZPSK"_S;
+M1'&%QN;C))/'\_3$^[7SI\5OC[XH\.?$G6M/L[Z&&SM+@)$GV:-MHV*>I4D\
+MD]:_MKQ#SFED&2T84JDZ4>:,$X14W9)OELYTVDU&W-&2DNA^+Y#A98W&2 _P ,NKV:L>N?"CQ3J7C"VN+NXUCPSJ]FI"1/I"OA'ZL'+,W8C XZ
+MUSOQ=^-USX)^(-EH=OJ/AW2DDLFNY[G5M_EC+E41=K#D[6./2MKX"^&(=(\)
+MR:GYT]UJ'B"7[=>SR[ , *%4*, 'H8;=].NF@BO)
+MF5C)%).SK&H. 6(RO''WVSZYKLS_B'&8;A?!XW+ZT
+MN:=ZKE*_,X4Z=2NXM.4[ IE@ >:XQ+,Q[N_ 7>5G)N^NETK6Z;7>YV5UKO\ PC?A234-6DC3[#;&:[>,':"JY?:.N,@X
+M'7I7'>'_ !+X]\=Z1#JVGV_AO1["^02VL%\)I[@QGE6 &[S2[P,;74(F@EV':P##&0?45\_>"/B]XET?Q]I'AM=6DFTV"]AL@)8
+M(3(T08+M+! ?N\9Z^^>:[.-N)(99FF$P6,J5%1JQ:C[)I2=3FBKSDVFHI-6Y
+M7JW+F3LC')\O>(PU6M2C%SB[OFV4;-Z+57;75:65GN>X^,_&J_#?X?7&L:LR
+MR-8P*TP@0@32' VH"3C !KIM.D2:
+M2545=Q1I0P7?@=EQGO72?%_PE:^-OAWJ-C=M-''Y?G*\3;71T^=2"01U' TI1]BJ;2_>N4HN563][E7N624E\;E&3Y4=&29:L1AGB(QC[LGS\R
+MO[J2=HK:_P 5[VZ6:U/H#P-XH_X3/P7IFL>4UN-2M4N?+8Y\O M>?_
+M Q_:%F\3>*;ZUU>WAL[&X2XNM'N$4@74$,CJX;)/SA5W [A>[3\]>5/NK];'I7P;\8:AX\^'UEK&I1P0S7^^6
+M-(5(58M[!.I)R5 )/OTKG]-\<>,/'7B?Q%'H+>';?3-&OOL,3WL,KR3.J+OY
+M1@.&)[="/2NW\(:7#H?@_3;.W!6&TM(HHP>NU4 &?RKY>^&?Q)\06+PZ+9ZK
+M-9V^I7#3SRQ0Q&8R2 \TV_ET^?R&+0R/'C+H3SM.[OW!IOA+Q]>>)_BAXFTQ4M_[)T$00+(%
+M/F/.ZEG!. "=/\ >&+?2].CD6WA!):1MTDKL ]&
+M[TOK:Z2UWWT/8O 7CZ]\8>._%5J4MUTG1+F*SMG53YDDFPF7
+M^(>LZQXZN_#GA>UT^2YTN*.74+V^9O(M3(,I&$7YF8KSU _35^%'@VU\$^$
+M8X;9[B9[QC>W,\[AI;B:3YF=B !GH. !@"O+OCOJM]\'?',VL:!?36MQXB1&
+MO8G2.2)VC78K ,I*G'H -_&'@_P 4:9:6 ZU%))
+MI+XH ZY\'_&#>"=#U.:'1H9REN988I)
+MK96;)"L4P>6)^8&O-X\XAIY L'3Q52K]7DIJ7([U927*X)RDTU&SFY-24KJ"
+M^'F.C),!+'>UE2C'VBY6N9>ZD[WT2>M[6NK6OUL>U_"#XAW_ (W76K75+>UA
+MU#0;]["=[5BUO.0 =R[N1WR#G''T&+XT^+NI6_Q1G\/Z7?\ AO38;*QCN)Y]
+M6+ &5VXC7#KSM*MWKK?AKX(L? ?A=+6S\Z0W#FZN)IWWS7,S@%Y';NQ^@Z"N
+M*^'O@?2?&WBGQY 6X&
+M%?\ ?UI-RE=J\%"=11YHI._P1 LZ]97W]DW V-U>7$EU N!T ' P !T KT. >(YXO"T,)B92G4G3=7F=MI2
+H34-[OD4U%2=W)1YI6;L
+XML
+9
+R1.htm
+IDEA: XBRL DOCUMENT
+v3.26.3
+Document And Entity Information
+|
+Nov. 02, 2026
+|
+Document Information [Line Items] |
+|
+Entity, Registrant Name |
+Lattice Semiconductor Corporation
+|
+Document, Type |
+8-K
+|
+Document, Period End Date |
+Nov. 02, 2026
+|
+Entity, Incorporation, State or Country Code |
+DE
+|
+Entity, File Number |
+000-18032
+|
+Entity, Tax Identification Number |
+93-0835214
+|
+Entity, Address, Address Line One |
+5555 NE Moore Court
+|
+Entity, Address, City or Town |
+Hillsboro
+|
+Entity, Address, State or Province |
+OR
+|
+Entity, Address, Postal Zip Code |
+97124
+|
+City Area Code |
+503
+|
+Local Phone Number |
+268-8000
+|
+Written Communications |
+false
+|
+Soliciting Material |
+false
+|
+Pre-commencement Tender Offer |
+false
+|
+Pre-commencement Issuer Tender Offer |
+false
+|
+Title of 12(b) Security |
+Common Stock
+|
+Trading Symbol |
+LSCC
+|
+Security Exchange Name |
+NASDAQ
+|
+Entity, Emerging Growth Company |
+false
+|
+Amendment Flag |
+false
+|
+Entity, Central Index Key |
+0000855658
+|
+X |
+- Definition Boolean flag that is true when the XBRL content amends previously-filed or accepted submission.
++ References No definition available.
++ Details
+Name: |
+dei_AmendmentFlag |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Area code of city
++ References No definition available.
++ Details
+Name: |
+dei_CityAreaCode |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
++ References No definition available.
++ Details
+Name: |
+dei_DocumentInformationLineItems |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:stringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition For the EDGAR submission types of Form 8-K: the date of the report, the date of the earliest event reported; for the EDGAR submission types of Form N-1A: the filing date; for all other submission types: the end of the reporting or transition period. The format of the date is YYYY-MM-DD.
++ References No definition available.
++ Details
+Name: |
+dei_DocumentPeriodEndDate |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:dateItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition The type of document being provided (such as 10-K, 10-Q, 485BPOS, etc). The document type is limited to the same value as the supporting SEC submission type, or the word 'Other'.
++ References No definition available.
++ Details
+Name: |
+dei_DocumentType |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:submissionTypeItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Address Line 1 such as Attn, Building Name, Street Name
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressAddressLine1 |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Name of the City or Town
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressCityOrTown |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Code for the postal or zip code
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressPostalZipCode |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Name of the state or province.
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressStateOrProvince |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:stateOrProvinceItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition A unique 10-digit SEC-issued value to identify entities that have filed disclosures with the SEC. It is commonly abbreviated as CIK.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityCentralIndexKey |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:centralIndexKeyItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Indicate if registrant meets the emerging growth company criteria.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityEmergingGrowthCompany |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Commission file number. The field allows up to 17 characters. The prefix may contain 1-3 digits, the sequence number may contain 1-8 digits, the optional suffix may contain 1-4 characters, and the fields are separated with a hyphen.
++ References No definition available.
++ Details
+Name: |
+dei_EntityFileNumber |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:fileNumberItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Two-character EDGAR code representing the state or country of incorporation.
++ References No definition available.
++ Details
+Name: |
+dei_EntityIncorporationStateCountryCode |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:edgarStateCountryItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityRegistrantName |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), is a unique 9-digit value assigned by the IRS.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityTaxIdentificationNumber |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:employerIdItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Local phone number for entity.
++ References No definition available.
++ Details
+Name: |
+dei_LocalPhoneNumber |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 13e
+-Subsection 4c
++ Details
+Name: |
+dei_PreCommencementIssuerTenderOffer |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 14d
+-Subsection 2b
++ Details
+Name: |
+dei_PreCommencementTenderOffer |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Title of a 12(b) registered security.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b
++ Details
+Name: |
+dei_Security12bTitle |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:securityTitleItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Name of the Exchange on which a security is registered.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection d1-1
++ Details
+Name: |
+dei_SecurityExchangeName |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:edgarExchangeCodeItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as soliciting material pursuant to Rule 14a-12 under the Exchange Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 14a
+-Subsection 12
++ Details
+Name: |
+dei_SolicitingMaterial |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Trading symbol of an instrument as listed on an exchange.
++ References No definition available.
++ Details
+Name: |
+dei_TradingSymbol |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:tradingSymbolItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as written communications pursuant to Rule 425 under the Securities Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Securities Act
+-Number 230
+-Section 425
++ Details
+Name: |
+dei_WrittenCommunications |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+XML
+10
+report.css
+IDEA: XBRL DOCUMENT
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+.report table.authRefData{
+background-color: #def;
+border: 2px solid #2F4497;
+font-size: 1em;
+position: absolute;
+}
+.report table.authRefData a {
+display: block;
+font-weight: bold;
+}
+.report table.authRefData p {
+margin-top: 0px;
+}
+.report table.authRefData .hide {
+background-color: #2F4497;
+padding: 1px 3px 0px 0px;
+text-align: right;
+}
+.report table.authRefData .hide a:hover {
+background-color: #2F4497;
+}
+.report table.authRefData .body {
+height: 150px;
+overflow: auto;
+width: 400px;
+}
+.report table.authRefData table{
+font-size: 1em;
+}
+/* Report Styles */
+.pl a, .pl a:visited {
+color: black;
+text-decoration: none;
+}
+/* table */
+.report {
+background-color: white;
+border: 2px solid #acf;
+clear: both;
+color: black;
+font: normal 8pt Helvetica, Arial, san-serif;
+margin-bottom: 2em;
+}
+.report hr {
+border: 1px solid #acf;
+}
+/* Top labels */
+.report th {
+background-color: #acf;
+color: black;
+font-weight: bold;
+text-align: center;
+}
+.report th.void {
+background-color: transparent;
+color: #000000;
+font: bold 10pt Helvetica, Arial, san-serif;
+text-align: left;
+}
+.report .pl {
+text-align: left;
+vertical-align: top;
+white-space: normal;
+width: 200px;
+white-space: normal; /* word-wrap: break-word; */
+}
+.report td.pl a.a {
+cursor: pointer;
+display: block;
+width: 200px;
+overflow: hidden;
+}
+.report td.pl div.a {
+width: 200px;
+}
+.report td.pl a:hover {
+background-color: #ffc;
+}
+/* Header rows... */
+.report tr.rh {
+background-color: #acf;
+color: black;
+font-weight: bold;
+}
+/* Calendars... */
+.report .rc {
+background-color: #f0f0f0;
+}
+/* Even rows... */
+.report .re, .report .reu {
+background-color: #def;
+}
+.report .reu td {
+border-bottom: 1px solid black;
+}
+/* Odd rows... */
+.report .ro, .report .rou {
+background-color: white;
+}
+.report .rou td {
+border-bottom: 1px solid black;
+}
+.report .rou table td, .report .reu table td {
+border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+.report .fn {
+white-space: nowrap;
+}
+/* styles for numeric types */
+.report .num, .report .nump {
+text-align: right;
+white-space: nowrap;
+}
+.report .nump {
+padding-left: 2em;
+}
+.report .nump {
+padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+.report .text {
+text-align: left;
+white-space: normal;
+}
+.report .text .big {
+margin-bottom: 1em;
+width: 17em;
+}
+.report .text .more {
+display: none;
+}
+.report .text .note {
+font-style: italic;
+font-weight: bold;
+}
+.report .text .small {
+width: 10em;
+}
+.report sup {
+font-style: italic;
+}
+.report .outerFootnotes {
+font-size: 1em;
+}
+XML
+11
+Show.js
+IDEA: XBRL DOCUMENT
+// Edgar(tm) Renderer was created by staff of the U.S. Securities and Exchange Commission. Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection. 17 U.S.C. 105.
+var Show={};Show.LastAR=null,Show.showAR=function(a,r,w){if(Show.LastAR)Show.hideAR();var e=a;while(e&&e.nodeName!='TABLE')e=e.nextSibling;if(!e||e.nodeName!='TABLE'){var ref=((window)?w.document:document).getElementById(r);if(ref){e=ref.cloneNode(!0);
+e.removeAttribute('id');a.parentNode.appendChild(e)}}
+if(e)e.style.display='block';Show.LastAR=e};Show.hideAR=function(){Show.LastAR.style.display='none'};Show.toggleNext=function(a){var e=a;while(e.nodeName!='DIV')e=e.nextSibling;if(!e.style){}else if(!e.style.display){}else{var d,p_;if(e.style.display=='none'){d='block';p='-'}else{d='none';p='+'}
+e.style.display=d;if(a.textContent){a.textContent=p+a.textContent.substring(1)}else{a.innerText=p+a.innerText.substring(1)}}}
+XML
+13
+FilingSummary.xml
+IDEA: XBRL DOCUMENT
+3.26.3
+html
+1
+22
+1
+false
+0
+0
+false
+0
+false
+false
+R1.htm
+000 - Document - Document And Entity Information
+Sheet
+http://www.lscc.com/20261102/role/statement-document-and-entity-information
+Document And Entity Information
+Cover
+1
+false
+false
+All Reports
+Book
+All Reports
+lscc-20261102.xsd
+lscc-20261102_def.xml
+lscc-20261102_lab.xml
+lscc-20261102_pre.xml
+lscc20260903_8k.htm
+http://xbrl.sec.gov/dei/2026
+true
+false
+JSON
+15
+MetaLinks.json
+IDEA: XBRL DOCUMENT
+{
+"version": "2.2",
+"instance": {
+"lscc20260903_8k.htm": {
+"nsprefix": "lscc",
+"nsuri": "http://www.lscc.com/20261102",
+"dts": {
+"schema": {
+"local": [
+"lscc-20261102.xsd"
+],
+"remote": [
+"http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+"http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
+"http://www.xbrl.org/2003/xl-2003-12-31.xsd",
+"http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
+"http://www.xbrl.org/2005/xbrldt-2005.xsd",
+"http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd",
+"http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
+"https://www.xbrl.org/dtr/type/2024-01-31/types.xsd",
+"https://xbrl.sec.gov/country/2026/country-2026.xsd",
+"https://xbrl.sec.gov/currency/2026/currency-2026.xsd",
+"https://xbrl.sec.gov/cyd/2026/cyd-2026.xsd",
+"https://xbrl.sec.gov/cyd/2026/cyd-8k-sub-2026.xsd",
+"https://xbrl.sec.gov/cyd/2026/cyd-cr-2026.xsd",
+"https://xbrl.sec.gov/dei/2026/dei-2026.xsd",
+"https://xbrl.sec.gov/exch/2026/exch-2026.xsd",
+"https://xbrl.sec.gov/sic/2026/sic-2026.xsd",
+"https://xbrl.sec.gov/stpr/2026/stpr-2026.xsd"
+]
+},
+"definitionLink": {
+"local": [
+"lscc-20261102_def.xml"
+]
+},
+"labelLink": {
+"local": [
+"lscc-20261102_lab.xml"
+]
+},
+"presentationLink": {
+"local": [
+"lscc-20261102_pre.xml"
+]
+},
+"inline": {
+"local": [
+"lscc20260903_8k.htm"
+]
+}
+},
+"keyStandard": 22,
+"keyCustom": 0,
+"axisStandard": 0,
+"axisCustom": 0,
+"memberStandard": 0,
+"memberCustom": 0,
+"hidden": {
+"total": 2,
+"http://xbrl.sec.gov/dei/2026": 2
+},
+"contextCount": 1,
+"entityCount": 1,
+"segmentCount": 0,
+"elementCount": 36,
+"unitCount": 0,
+"baseTaxonomies": {
+"http://xbrl.sec.gov/dei/2026": 22
+},
+"report": {
+"R1": {
+"role": "http://www.lscc.com/20261102/role/statement-document-and-entity-information",
+"longName": "000 - Document - Document And Entity Information",
+"shortName": "Document And Entity Information",
+"isDefault": "true",
+"groupType": "document",
+"subGroupType": "",
+"menuCat": "Cover",
+"order": "1",
+"firstAnchor": {
+"contextRef": "d20268K",
+"name": "dei:EntityRegistrantName",
+"unitRef": null,
+"xsiNil": "false",
+"lang": "en-US",
+"decimals": null,
+"ancestors": [
+"div",
+"body",
+"html"
+],
+"reportCount": 1,
+"baseRef": "lscc20260903_8k.htm",
+"first": true,
+"unique": true
+},
+"uniqueAnchor": {
+"contextRef": "d20268K",
+"name": "dei:EntityRegistrantName",
+"unitRef": null,
+"xsiNil": "false",
+"lang": "en-US",
+"decimals": null,
+"ancestors": [
+"div",
+"body",
+"html"
+],
+"reportCount": 1,
+"baseRef": "lscc20260903_8k.htm",
+"first": true,
+"unique": true
+}
+}
+},
+"tag": {
+"dei_AmendmentFlag": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "AmendmentFlag",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Amendment Flag",
+"documentation": "Boolean flag that is true when the XBRL content amends previously-filed or accepted submission."
+}
+}
+},
+"auth_ref": []
+},
+"dei_CityAreaCode": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "CityAreaCode",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "City Area Code",
+"documentation": "Area code of city"
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentInformationLineItems": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentInformationLineItems",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Document Information [Line Items]",
+"documentation": "Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentInformationTable": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentInformationTable",
+"lang": {
+"en-us": {
+"role": {
+"label": "Document Information [Table]",
+"documentation": "Container to support the formal attachment of each official or unofficial, public or private document as part of a submission package."
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentPeriodEndDate": {
+"xbrltype": "dateItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentPeriodEndDate",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Document, Period End Date",
+"documentation": "For the EDGAR submission types of Form 8-K: the date of the report, the date of the earliest event reported; for the EDGAR submission types of Form N-1A: the filing date; for all other submission types: the end of the reporting or transition period. The format of the date is YYYY-MM-DD."
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentType": {
+"xbrltype": "submissionTypeItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentType",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Document, Type",
+"documentation": "The type of document being provided (such as 10-K, 10-Q, 485BPOS, etc). The document type is limited to the same value as the supporting SEC submission type, or the word 'Other'."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressAddressLine1": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressAddressLine1",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, Address Line One",
+"documentation": "Address Line 1 such as Attn, Building Name, Street Name"
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressCityOrTown": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressCityOrTown",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, City or Town",
+"documentation": "Name of the City or Town"
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressPostalZipCode": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressPostalZipCode",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, Postal Zip Code",
+"documentation": "Code for the postal or zip code"
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressStateOrProvince": {
+"xbrltype": "stateOrProvinceItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressStateOrProvince",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, State or Province",
+"documentation": "Name of the state or province."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityCentralIndexKey": {
+"xbrltype": "centralIndexKeyItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityCentralIndexKey",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Central Index Key",
+"documentation": "A unique 10-digit SEC-issued value to identify entities that have filed disclosures with the SEC. It is commonly abbreviated as CIK."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_EntityDomain": {
+"xbrltype": "domainItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityDomain",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity [Domain]",
+"documentation": "All the names of the entities being reported upon in a document. Any legal structure used to conduct activities or to hold assets. Some examples of such structures are corporations, partnerships, limited liability companies, grantor trusts, and other trusts. This item does not include business and geographical segments which are included in the geographical or business segments domains."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityEmergingGrowthCompany": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityEmergingGrowthCompany",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Emerging Growth Company",
+"documentation": "Indicate if registrant meets the emerging growth company criteria."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_EntityFileNumber": {
+"xbrltype": "fileNumberItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityFileNumber",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, File Number",
+"documentation": "Commission file number. The field allows up to 17 characters. The prefix may contain 1-3 digits, the sequence number may contain 1-8 digits, the optional suffix may contain 1-4 characters, and the fields are separated with a hyphen."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityIncorporationStateCountryCode": {
+"xbrltype": "edgarStateCountryItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityIncorporationStateCountryCode",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Incorporation, State or Country Code",
+"documentation": "Two-character EDGAR code representing the state or country of incorporation."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityRegistrantName": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityRegistrantName",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Registrant Name",
+"documentation": "The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_EntityTaxIdentificationNumber": {
+"xbrltype": "employerIdItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityTaxIdentificationNumber",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Tax Identification Number",
+"documentation": "The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), is a unique 9-digit value assigned by the IRS."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_LegalEntityAxis": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "LegalEntityAxis",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Legal Entity [Axis]",
+"documentation": "The set of legal entities associated with a report."
+}
+}
+},
+"auth_ref": []
+},
+"dei_LocalPhoneNumber": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "LocalPhoneNumber",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Local Phone Number",
+"documentation": "Local phone number for entity."
+}
+}
+},
+"auth_ref": []
+},
+"cyd_MaterialCybersecurityIncidentAbstract": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentAbstract",
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Abstract]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentAxis": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentAxis",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Axis]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentDomain": {
+"xbrltype": "domainItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentDomain",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Domain]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentInformationNotAvailableOrUndeterminedTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentInformationNotAvailableOrUndeterminedTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Information Not Available or Undetermined [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r8"
+]
+},
+"cyd_MaterialCybersecurityIncidentLineItems": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentLineItems",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Line Items]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentMaterialImpactOrReasonablyLikelyMaterialImpactTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentMaterialImpactOrReasonablyLikelyMaterialImpactTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Material Impact or Reasonably Likely Material Impact [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentNatureTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentNatureTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Nature [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentScopeTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentScopeTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Scope [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentTable": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentTable",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Table]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentTimingTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentTimingTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Timing [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"dei_PreCommencementIssuerTenderOffer": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "PreCommencementIssuerTenderOffer",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Pre-commencement Issuer Tender Offer",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act."
+}
+}
+},
+"auth_ref": [
+"r3"
+]
+},
+"dei_PreCommencementTenderOffer": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "PreCommencementTenderOffer",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Pre-commencement Tender Offer",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act."
+}
+}
+},
+"auth_ref": [
+"r5"
+]
+},
+"dei_Security12bTitle": {
+"xbrltype": "securityTitleItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "Security12bTitle",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Title of 12(b) Security",
+"documentation": "Title of a 12(b) registered security."
+}
+}
+},
+"auth_ref": [
+"r0"
+]
+},
+"dei_SecurityExchangeName": {
+"xbrltype": "edgarExchangeCodeItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "SecurityExchangeName",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Security Exchange Name",
+"documentation": "Name of the Exchange on which a security is registered."
+}
+}
+},
+"auth_ref": [
+"r2"
+]
+},
+"dei_SolicitingMaterial": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "SolicitingMaterial",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Soliciting Material",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as soliciting material pursuant to Rule 14a-12 under the Exchange Act."
+}
+}
+},
+"auth_ref": [
+"r4"
+]
+},
+"dei_TradingSymbol": {
+"xbrltype": "tradingSymbolItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "TradingSymbol",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Trading Symbol",
+"documentation": "Trading symbol of an instrument as listed on an exchange."
+}
+}
+},
+"auth_ref": []
+},
+"dei_WrittenCommunications": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "WrittenCommunications",
+"presentation": [
+"http://www.lscc.com/20261102/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Written Communications",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as written communications pursuant to Rule 425 under the Securities Act."
+}
+}
+},
+"auth_ref": [
+"r10"
+]
+}
+}
+}
+},
+"std_ref": {
+"r0": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "12",
+"Subsection": "b"
+},
+"r1": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "12",
+"Subsection": "b-2"
+},
+"r2": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "12",
+"Subsection": "d1-1"
+},
+"r3": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "13e",
+"Subsection": "4c"
+},
+"r4": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "14a",
+"Subsection": "12"
+},
+"r5": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "14d",
+"Subsection": "2b"
+},
+"r6": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 6-K",
+"Section": "General Instruction",
+"Subsection": "B"
+},
+"r7": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 8-K",
+"Section": "1.05"
+},
+"r8": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 8-K",
+"Section": "1.05",
+"Subsection": "Instruction",
+"Paragraph": "2"
+},
+"r9": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 8-K",
+"Section": "1.05",
+"Subsection": "a"
+},
+"r10": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Securities Act",
+"Number": "230",
+"Section": "425"
+}
+}
+}
+ZIP
+16
+0001437749-26-034452-xbrl.zip
+IDEA: XBRL DOCUMENT
+begin 644 0001437749-26-034452-xbrl.zip
+M4$L#!!0 ( '.#8EV \^>3V H:/AV0WC.Y&P7V@+H7SIB2:\?U
+M#8M4B:J^T]YI=:U%.N^UUGNU1:Z_D6KU],.8^@;ICPS7H_['2N /JYU*>-4V
+MQO1C9>BX8\.O#JA/^[[IV!72=VR?VO!MGUIT,G)L^M%V*J=O/KSC)'_H.8-G
+M,C!\HVK3Q^J]6^U7O:KE& ,Z^%A1&S55JS=J]0KQ_&>+C6#[U:$Q-JWG]^0?
+M?P>.?W)GCJE'OM-' >9_Z7NBUB?^"9D8@X%I
+MW[\G==,F]9IJVB>D'[B>X[XG1N [)TCDP'R(GH .3-_H,1(,RZ,53K,QF5C/
+MO@./%UV GU8G]W8P_ECQ?,.-K@],;V(9S^RZ&EY#FOB\S3U"XG,D&7X!)( -SGY
+M\ Z>]_3-FP^3K IIR!LQB^R>T#F>9)N/ $E6N',_5C3 ALN@PFRSO:1TJ?M41HN=Q6Y*9R$\ I;[JDT^3]O_@\(:'?;>POO
+MC#<>1#=^H"ZLG6%%7-=S?-\9GY!P0IKUMUOE)QQ\YWL4=LSYC^]W9^=WM_%N
+MP8'?^8-#>/R$B$H\-?QU3R53O8:IOEU>?#E[?X@L!0__Y?O_7-[>_;BY39T
+MR5VOF^!;9S(R#?*[8]\?&F_=F/V?Y%O@@:FPA*N*G8FO'.&06SHV >(/@K[O
+MN.3 K6JM3[;0[K4/;JXTZ/+?6JK;J];I4
+M ;M0 354 ?]O:%%YL)=K?6=\:&R&*J'&5 R\F0K?ZAG]G_>N$]B#:M^QT#OEWO>,H[I"PO\_/B'3#X[B
+MBPSA?3V[N_MR?DEN+[]] ?OIXJ]S@'ODYO+ZQ\T=NA_.?]Q !77@P7-/ )[317VC-+$?\KY,U1Y9I
+MT^J( AS8L/E0O7KD@L*S##Z\,T_+- V73Q/:][VY
+MQU9U_MSA4O/I(5>N\^B/B&F3!K"! C(&WGT!K.'Y0)S%)N5RW*.# 4S6W(_.
+M^GUJH2_9M.^)[Y!V/>28 MT4;NY@9/)G?K*:*3OMM5L^%Q)A3G__
+M\O7K[: 93G]
+MCY56\RER7
+MU!OURJD_,EW8P4:XNG\'A@O;AU ;&7I^9#U]X/:R@=OS S?JW7J[ CX:W(""T- '1U-5L 0$?HH!HZ:JJMMO-KM9J-W2M
+M Y+I5ZVKUNI3T02S9 %;A#KXZNSLF@#P\[SPX9&NE>35NN0TV_6N7CEMM6N-
+MMTB-PN0[&]^F/K*U,PYG#7B3#$PK0*[T1BCT4XAJ;(.H=KO3:, R0E2:F
+MM05:.O!*Y1/3UOC$I*Y4RA)&T[0*ZU-X@GGRV]L@7V]W5.1]5:UI"ZS/&&]^
+MV,XVA@4L@,/J\0*" N!Z, 43[0 3' I_(N2 ;7@8Q=$A,L=+;-PV V] \!5"&T6USQFT,OK6_8MU&$*"2; O099$B-K]4=VB>#P8PA-::�\P#"P8CSY-X$<>N[G#R YLTW_FOX8A/. @
+M%RXH; )=A[N/8%:->XK32#P'(!*?H$O#A3L"+@$69"Z"^9F.;@8/!; 2'>.:(E3LJ^/(YL"WN.5VPK#"@CRF/'M,L#X;%N93/T;@'
+M.PA_[?I#^)D#]W:X@88\$EF ;!%PS39IX5"YBF"C >
+MU"J'V?;5 ),F]P23C(,'G.[I[^%V*"KZ.'1"
+M'H"MQH09 )%3+ :;#R?C1SG
+M'B\A8V&&9Y9J'IE53M79;-0X1W04AZFOSZXNJY]N+L_^J)Y]OKN\>4\,Z]%X
+M]DY ?;C (QASL>G,!)R0:,TT3 \-8VJ_U-E_:7&X\*.%2?_](GW2.7=L..5W
+M/\Z_FO;/N;38C'E(9_F7PKEK,GINRD,/L;66OMW2HR2W(*G[(+333;56JK6Q
+M9H0!K&B]TZZ +Z:"I\;X
+MC[1F4R'1_QR?D/2TD(5$FJWMOW Z].;;Q%(ELE6066L(/FH7K>W7YT2+D3$X
+MS!/P@@UZI\FW3 [?
+MKX/G]08@ M.679I(7I7BOPO[;@ =AJ@466"/6>Q[W=CKW(Z973
+M7Q 6J2C !Y2=5W1&YD\U!"8
+MAYJY\U#* "BE6U4],7EJ.,
+M#NM$)[($BLV)J3$TP+*MOO&,T+=%P^6LV2@01*])43%H.H-(+.H0 4YGD/>V
+M"#2]$8OM%F-OP&+Y@^T,(MOUFBX"VEZ3Q78*MC=BL=U"\ U8+'\LGBW%A #C
+M:[+83K'X)@NZ0-!VT7H:[LR@\DCKUH]);^(5 J37F+N\X75R88H$AD?-:'U*
+MZG.>3AYF 3 -?3 4F N5IOE-QC7DB6]H^X,4N(O[VBX;=,V%XC4;*M*6HS
+MTS$D$[9EPO;+/*1VE*Y,V%Z7AV3"=H*VKJ;46ZH(,%CF:Y ZDJWU1$!4J^Y
+MKM)CO1J[">:LUA2]*7("=W$(O&0^:V$ ^E*7IJHT] VNR""\.)?YOB#QHX964X\E&!<>C.MUM::6UU->2-+(%'6S
+MTPQNV6D&5?+)\,Q^T3A -" )T&4,=P;*ULASUL@=?-@S;;@^^7PFN0VE]R2)!UPM^=KP$KQ*\
+M2O JP:L$KQ*\2O JP:L$K\*"5W'\KD4WD$Y VF]LD*)1;'E2(41MH#%#I)[=
+M9DR /(BB6V?(%M*O)[*;W9Q%@-2'HOMER [2KR=2JPE1'2AHDXPR-I!NMF4#
+MZ25$%MY 6NW4]Z4;1M$ >]HCX]SP1N2SY3Q*I+V72%NKM274EE![AT0VEEAS
+M$FM+K+T-*=;,/A!(@NU2@FU5U23:%AEM'VG+^T*_@;]&SZ*G;]YD9#G,C3-#
+M7#>F[ &-9/@$/^KJC-QF D.RD8/SUG_6*E78"DL*YRQ^#TL
+M73]^;QF>!S2:]AW^M$(&AF]4?7@YN#?
+M>!=M8>;Y+C+M ;7]*/4>9KM L*P?\_CI^JV N7IV=7?]?\MFT#;MO&A:YH5Y@
+M^1XY"FPC&)@^'1RG68ME#'B]Q*]: [JCESZY\ZT>I::[GO@L/%
+M72SE!I.SG-WT76*?-=A-E^R6RF[:ZNRV@Z7 W9G'LIB;9K5D2=LLUB0GY[=V?*T0!"LXK*QV$SWT9__WNWZ^#Y^*$R_(K
+MIKBA#]0.*#E"XR?5O)'%$P)$NU)HT[JJ4M>;(@2[9/W$^CPD1/V$5@<>DHWC
+MU^4A64*1/'Q UQ6]D F[T6#G*+S
+MR*Y Y8ZUZ[),8RLL)G/',EE,S4Y/E+EC,G=L"T2VNK5,IX#,
+M'7MQ007)%\LGY:F3GO$D4]/$2DU3&[(09$L _N8?QGAR +6;
+M?9:WQ/ 2PV^C$%;-3LZ7&%YB^&VP6*,F1%LBB>'%Q_":+D%\&4#\45-;6E\B
+MOA]>M).C;J\8F#^38'Y_P'S*N3YU6=&]UH1)6/\*9EO2Y49B^U* FKT]9I*:VF$*>_RNSTDF:GM]J*JF9& NFG!8Z-_LM.?L[FOU6O=;9BU3T_(!P>#+ T'7&) 3%CBW! GK0UH./NP(HF&)1I^D3:]H[1U(1J+2C0L"AYK-E]&P[)2,Z]*3:W>
+M22F GB6A,0E@L1U76FU,D_OE)!80N*7(7%#:4@'L83$KX/$:C,S
+MOTQ"XD.$Q'HWI5N&A,1%-2_!FGGI,=X0$I,)= 5EA,=MK(9#$]
+MF\5DDPW90&\+1.K-6F:UA6RM(1OH) LQ>Z3%W9 WM;./ZS
+M2RDY-[P1^6PYCQ+&[R.,UUJR:YZ$\;N%\?6:$+DE$L;O+8S7FO(L&PGC5\(U
+M1ZK>EHVPRX#D56T9DG\#?XV>14_?O$FCY&DK$]+EF2#FZ?\E>.XY<>G$I1Y,
+MN$?^JMW6R!6UJ6M8UC,YZ_?I!'W>\ ),"M:.[MHU[;XYL:A7(]\=NSI_"_:>
+M/O6M .>8^"-*S/'$Z/O$& F@^F;R*!CR.S/V+?.W?@B_;S;QZL
+MBFW 3C%[,EQ0"O/7Y]0SHI!C/%*Y6;@)7\[P3LNHJ7QX9W(#Z,WZ
+M*4@+S)7,.2+MF@;_BZ^JVKSHQ.A8(ERW9/B7HF++\YX6!EUIS&UD7>GAL[=2
+M'YU?,8%)[3AN#2;JW WCO8X/US0>V_+"S
+M+"N4:Q\K 8?@I>EX0>C,.C'G7A.],
+MMAF:3T EH#P,F[3K;\DSZ!SBP!SP5TQ=>:"@
+MC/[/4,^XU "UJ#7?HB#_?'UU!E?X *!@4"8H0##H'-#27ZI,0 &:\YX".
+M\8[X[XL]"#S?16F/;R_'/3I 704:A%JH->$U:A_XV7,M(133O8QR^Y1G^P")
+MOSLL8^'NT2%WM#^R\0?D-AB/39_!H#O#G%"3, @IFSVQO 0;D!CT3&]DDDN+]H&#^PKY_C]?
+M+KZ .8\1KIPXC_ Y[+IH%CC60DP% ^G,ML&@ZH>;9?D(UY9A4W)T>_[M^CC TM('JB! C# P&H'X\ 4E)
+M;;"DD4MM Y@=Q@.Y>Q\ 7S&P[ %'HE#UF,1F0PRH!P21(7I]&!+B@)^SW;UA
+M LX!%*'6_Y \@%OU1\[X00;F ^E;AN=]K%Q?
+M??HCW6.P@ED/MMOLO3[?W2QU\R8&F/OM:%@%&VOQ(GHWR/75][^^5=A6KMH!
+MF#;NQXH6O@ 9%HQD^;#.Z 0Z)SY\^;#*/9L7)]=
+M758_W5R>_5$]^WQW>?.>&-:C\>R=$)"4 W>H[./SDS&"8FD@X9;*LSH^*7.
+M_H/?+21[A!\M+,#O%^D+P-U0&T[_W8_SKZ;] :%]K:D; -.1S ,V$#F,/GR*(:T(GE/"-HEDQ=>J;&
+MZ,6]#;\:,"/X&F5FR-_D/"DS9SD[*:K_]T>S^OU_R=W%GQ&/.3QZCFB%G#\#
+MY(Y^3#Z!T/WICYACB9P!_R6&31751[ 7CLEMR- DC!N@IO
+M@+P&OR>_4\MT/(*A- ^(I%,W/W U^1_N9*7WQLW9.?EATSM,"X_%
+M+:#KBMKLWI?7_SY'B8KN !9UB.0G"N.I[&0WC]T)H6CM 8A1"-C^IN^X>!V_
+ME'! X=\>4 'H,,8\-"0,YSKCQ$*S$>F=M,#NS:,5", ,D)
+M7-!.L*7A$1A] /? $* QR@2+OG(D\$-%C!U#US107,T5Q^P?Y
+M_=DVG^:U1>2"=>PJH)'!\XPD9Z&V\(?DYNR6?#5[KN$BG[+M,Z TE LX:=1YL;W)+_2\__L?2 (
+M1[MC#,04A@ H)%$9_ /$D1;QDN; Z.
+MT>9,4R IDL^@EH$-
+M(F\VR* N6M=:'=\;IHE. .[Z1;WQN!=(S
+M3-=-:%WIIJ\5IKN2WR\2GRH UY#+55Z \#>U'^DU.8?_ZIK3?X*"+:BA)Q?] $Y*%T'KICB']:WX3K9GMPVV+YB+!DUU3)1'[M-LF,.%+K:GQ! :E
+M2Y:N+E)4(__"L>$5KF)85DN ^8LX*U\0GE]>W/! !BCZH_"*>@;-OZ\A\8%%L' +9[AHM4/
+M>%D8+C1,+@GL^'/F3'% R2@D:XR1'[@O!OWP0 M\
+MPLM[PJF/:[T908\TJML.R^&R5T$)ZZ=Y9((O+/,,X6CO8(421&'.VP@_\_C3
+M&_#7=_H_JSWF" ^!H/ M C#??DN\PW[WD1R# CA@H &9'RK ;IO?,2"L^*Z'((O>!R41N[ )Y/:N$8N@4>H:[,%#N73'4S= .:SBF*.E0K$,XHE1 KNEUQOM&CGCHSR&_!OJU -8.+2A\>^V:#PB$PS1:$Q[K*_RYYXKDAK+\\#,.
+MX-5NMQFF#0Y0VKH>IM5&0MLSAA1K)F _38/WK 3Q-E036OLL&C8Q7'QS75?0
+MI (=CH%\KH3CGZJ7*3^]?.+60^(>C>0]F 9"6W4Z$Z#%'.MA:J2@;>%YP7@2
+M=F)P3>\GMS0QHX?9@S@4J% P(A+W,7IHT0+F#EU!1OC['K5,.H07$\O ]T[O
+M/ZS>8VX@U.G#@"4;A'8LSMK45.0V.369R0,+C_D+6/X^-+"CBXU=N^!F+GZ5
+M37%XKYD[L(5Z1O4ZQQDU / 0T;N@:F25C@?)GZ0;%&&DQ)&
+M&16T9=!<>L3L.Z1HB(FNS/"+ZU8C:W/@L@2_D^AAIG@A\5AL3_T$ 4FU)5]E0&9:C+$3\F1*![;]J6(CDBIK !0%A?D4LMMY
+MJ?2'7P!9@M.3V=T'WD2U2^'K9.4299R)J^B=I-W:S6QEQ+)QV%^0UN:$.RFP
+M#,SL\21^W/L)BWR^>=$)=U!$0_:H#3@%>\0D.$R)H"_W0;&JK;#4BA@#9Y(L
+M%H@(4Y+-7&:Z#\PVJ1F9$P]KK_M =X_LX)!SE[)70L#>^/(0!J;@ZK+E"6KI$G [PTW
+M;IV9= K"DI]]^Q**_A31,&74.&\5N2B4L/P[1K_O4I;%&C7EM#,D(1_&F#WU
+M2ID3TOSNH&+XGDFL .N\R2Z.>"VE%W7%7*QZ)M."YZ@M)MXV_/Y*N69,WB=_
+MS-5"IGZ=,T,YE8CY^"8->M%[CTN:>1D1-1C%GR+VC/:1SR4AMZ1Q; \$UF#^HC=*N_J8=A$&G[_$^6O^*BK\A6NN\Y^4KT[UR?PG+!%Z@0:8
+M&XJ>E(7K#+G,7V68\&'A .M_AMQT??CY$RSURN1Y=#L&+3
+M>R9EIQYYX.$QPY] )5CE15#! XH6C&TA"0"R%J2J"IZ20F:8J D^=[\\A.F 8-8$C#(*_0Q.9A[T?0P\N6H>P); LD==+QL,A9/C-B^TH.N.*
+M2*)XK%P9NF"W*UQ0&7X889YBB=A;S'H9#4Q45X'E*XQ@C/ AQ%X$VZ9
+MW\/ 2$U%CMLGA;MQJ3:PP?"T1XPZG[]YQ!CS.$
+MIQ:HR[A90\*JF:MGF4[@E/.3[!UM?X=Z;"NC/D6C'K QZPGX2)-
+MT,?&C$&;FWM5-/>PXQV@;_>9^;OH&'-!N+4"2\2K0&-+
+M.+!HF@3A3$@1B6!K3L14H3O"BIW()]@VT7A&+J RN45#LKB%C=S)V]X*5=\8D#" "/*"]$PKB1+PH0N(1*%-"#1^[/1D ?2>EW.'
+M'\;6A1)^S%'5V'PB1[.6 A?,#W36(QZJ(N8%CWK:AF-XQS/4/!I#ZDZUML)5
+M]E2",KM (2S;*C+WYE3TLTFM@:=,?8LS>)#U(4FH=Z9CV6=C2A?MXZG%@?@\
+MS,$+4 &1IFP#3D9/.
+M;!OGY(8RPQR6]S.&K=5Z]0]VYS_CQ*'%;_P)]CRF@?-YXZ1/O<> .?G4A4ZU
+M&P30G[D7*,59/"V9!Z/WPO2 I;TH?'*&IT>%AMS4Z7H>.8S8=V["186O_(AK
+MT,-Q%#3C6*H5,^W#$BCTQS"#&\R5B ?_&K/A!,R)=^BP/@=38!#![-'*J
+MP@>8=\]_C(U,T*K"OSSJ&]FA$U#_S%*?RX1.(G1DL>2]:^3?3D!XD('=!+C_
+M&:7 DB!'5.@P]\!\+C*?& &O!-Y;/J&1M- BC'TPPW-QD$!@6C%Y:ZXH \LD37HT(B2Q_1)[YU'N>X;L!QSZF
+M/XU*SV?6XDR'R;=%IICN/DF]LTZF_;*RLEQ3ZS.HSDBVGWV.+]'QB[$C-C58
+MRQ'IXK&)H:X,8T]1N&E9V5CH&P>&Y5)A-G,??=].U*QP^NOD _
+M4M .5$+-E_YA/ >1#1E^2TF8D$IJJA4#A*IZPLS$_H+9N?B] 5@X/#HS'R.8
+MNQ#/?%KL8"Z[CG^5"\=X_9)EF7B4#@K1L%@N,HIXNZ6XQ@KM(K@5;+M$VDUV
+MZ5LRIV]B/+L.",!I)1@ZY?I]%U1J,HDG//G*39JL!@?U)O.KHUV+ ?TX;C-5
+M8X#0?(L#,9S2.#P6'G7!Z#S!0)[M33?!] C8/ KPR$SM'7^0A&$=E=DMJ 7&50KP0Y+GF -&4T> /R%&;JC/)L=ENZ%H!M%(]S3,AZSB_FX+37 TWS[
+MYI29PLAO@NPHL3>+89E'.(% 8+^9#B!#$I; #1:-P1HWMM*LXGL:04^D-.*(#,+:[-MQ
+MZ.\_@9V(_>&O9@]$CDG@?A) .L.?_ YT[ 3ID+O2@.8$7&SYL]_'#H:>!
+M*.9DL>\=9IJG94(GLU@21T^SD/ ,!55T[QKC,0-BK-IAX7 4GF1?(_]B.8889XL"5GWT
+M:5.&A6/7YR6B[Q#QG5M.,% B.8NE!HG3?92Y\A@E45:CS-;5A!E!8?L:YE*(
+M.N_P[/S?O#A7M!H>(H1MG2V 1&WZ 9:YQ)]P!CK_PS3
+MES 7A64$HQ9D ]\SCNH*"?__.%8Z\,%1?'&W
+M $7!*>B_("XLEE#R AB
+M9Z.FOMC9*'Q*/G:5E=9./* Y>C4GC3:V(N>G9Z%7_6+S^50%?J0UFPJ)_N=X
+ML0$H;R:ZT'5^:\L83H=>?YO>315;1=40/M TN9C=J.RLXXQ
+M,O8-;C#RR"5F^\2"(M&8?KKZ8"B9UDZ6?[WYS.*2!(NVBF/15I)#6^7@4+4I
+M)H=^Q^KOM1ET!XO_:@9-],3>&SV@%;?)M.0FTXK:9$EJQ=L\/P"N8U6=KJRT
+M:_)?S00KZ8*PDBY9*8V5_AE8SZ2Q&A_EOY1B0%--"&0J-A_=8C-[WB.VO1HW
+MY;^@"6YJ"L)-3 &+,2^V[C4Z>"ODL%AR!\N]=98\>(-F7UBRN3>^]8.WBO:%)5>3DCM8[GT*
+M]XAA7>T+2ZXF) R"W_ 60-F+S;;VU&R83OW6-E*V
+M6/&>Q[W=CKVXB2NGORX2@F)ED0XD)+FE6%;B;FG3NJI2UYM9>Q)HM)U'UYA$
+M23KYSMQ2]: 7R$,['7L-'EJDHP@>J@,/M;M9/*0+S$.- GEHIV.OP4.+=!3
+M0ZJN*WHCDX VNG8:_#0(AT%\%"KI2MU5 WF7%&U $M^\8DT39Z:=QJ8V8R:A2&+,M$.*-F 8PT.-3JS? ,*$9#I
+MM)6NUI'Q&('B, IUI=O(=)'+,$L!89;E;"-$9$75ZDJCU9"1E1U'5JJ^,^$]:N(K S
+MQ+7HX9^2QL.30';+V =IL82[Y[D_#U6R\7\@38>OF;J#D_.QXLHV7Z,/,T?\58]-U;UJ_?
+M?+F0)\#FR]_2%VKSY>E%$&/1=^^@>/WFRX4\ 39?_@X3@4!GGIX8,99\]TZ>
+MUV^]7,@38.OE[W022N_EZ 9WF*NLCO'-RQ^X.$TCUEZQ LVE*XJ1'FI&&LNW6)BK,,AN,7$20H18\VE5TR,=3@$KY@XJ35BK+ET
+MBHFQ#H?@%-/JF$,KW6+2+2;8.AR"6TR@-*]RN,7$R2 KM K_RG4\+[PFRU/$
+M N-+.!O"Q0
+MD04JJ65-@*;JG4P(*@M49(%*:EU3LZW4ZRT1+) A5:.^N8KMT%=J/J]#.6X7VV"JVFU:A?;,*[9!5:"^L8KM>
+M%=K?JM!.5H7VK"JV.U6A?:@*[3A5:&^I8KM(2=_[-NNN;ZA'#; B=3-^J=,E+EWSZJ4 -I=G JXI99EVO :',1B;MNGYZ+I_.-@S!4M@@;3J2KTN1/ '2,A0BN\G6Z54C]!B=O@@5F(Z?Y".!/RV"DE: Q7_M9VHCE#\E$JI6M&
+M)R.^6ZYT@V7O^X&+?2$PW]3Q1]05PF^2:#=8K!NDG( '>W!)6SR?[F:Z\NZ[U5:%2]
+M1+WOUV'?W1)4SC[UFZ]]JYWIY2TTNE^BWO'K,.]N"2IGG_=7X :EJV>6X12:
+M:G! AQ(*8!?/'"?H+'1,/-2\YX.S@=6VIJC-3&,B3T-X-9)ENO7!VKRJVE&Z
+MV> K3\-W1[RZMXG>!V?C=C6EWLI,F\K3R-T1J^YMAOG!V;-Z1U-:W _.T
+M:7?$JWN;V'YXYFNCI71:0G0)VA:ORL#N.@8L#/W%[CMC2HXLQ_..R=!UQI$!
+MZ]@':[@*;Y'"WM65;BO3]R0K=F7%;BK7:(K>S"R.DE6[):G:S9EKCE2EJ6>F
+M=Q1 FAD^=:GGDZ,P
+M*'9,3&9Y*,2F\H@$<>V,HZ[2:HAZ;'&6[I XHNPZR'(5D!Q Q3! 4,+NN1X>.2T/KE/C&
+MT^'6A EO=^+AF4JG+E/K1#(8A; G;YB5"IG-D/
+M J"OM[).,"S1^-V?= D&/SA>]5>2B%S0X6_0=CKW*HN?ZZ#(4LV;&
+MX#3Z0B84YFQDN/3]"X$8"8\E/);P6,)C"8\E/);P6,)C"8_W#QZ+Y*L5)5/I
+MD^&9_8--4CJHE*1Z38R:?YF0E#>;EBK]J%Y3,U,X"BR?V1J;[F_RT4&E&H$T
+M%:*7G,PTRIM-2Y575*_IF4I?9A6)G%5T4#E$R[#IGF !16S9Y6
+MMQ"8BWY@&;[IV)XL=9%X6>)EB9 )EB9 \H6O;Y7C)U2>34I1TQ
+M)S7).)(LMI&6 E92S C)70,NXH:CW3
+M-RDM8VD9"\[ #5715=EL0EK&I;6,.TJ]M9 F/A36J@^&=PB+A% G0?/I8"=]ZP3!\NX2,=&= Q)%SLPZ3U_[P#J@"VF;^
+MO/DPBOTHUV=7E]5/-Y=G?U3//M]=WKPGAO5H/'L1CZ*'P:8S$W!"1I3/I#9Y
+M.B&A^^67.OL/?K?@F0D_6ICTWR_2)YVM_*93?O?C_*MI_YPR3LH$Q/.0[IUY
+MB7VSI%+(;?./DMN.";FD - I:DU=7UZ\>%C15OT0##QLES*K:%WV8.;R'9,[#\Q
+MIVR)\JO:+Q?'7N2?= [S!+Q@P_I5ID@P04>FXMH-_DM2F^URW_K._0$"%?0Y
+MT95XXZ8ZUSFX+&"9$CR2?XYZ.H_H!\8C_S3LP'"?5^617)>I;+FF4A:N;PNK
+M8% I*5>['W4:[*1@1K"-0"V4!0?\)A8=;Y;-QSPQL1PP9S
+M#E_0OP/SP;! RGHR/W *49RJM3)%=GX C.'_!?M;OPXSX'G%IGX)0[UE4(3;U#U6NKUL]4 6(8"22N_#AN5?[ L_!R JIMU(;IZ;8M5I5GQ@H;26VS6[AS?L*2&*HMI
+MT>BVE59VEP%I6DC3(FUA]):N=-I"G!Y;N&VQ>KKVIS1ILWJ>QP;I&9OE4&R2
+M^K!)QL(&B0:;90/((/X&R5#7KC.!AWQFL7L,VT_&H-*EKU!LA=[M*NUZ7>IS
+MJ 2%-, 3^8ON&?6]B4PHNIR7,%EU8 \[.[@TGI;64
+MUJGN5D5M9';$+*FP/CB8?>4X@T?3LJ1X%E8\JXK> F#4E0):"NCUX+3:5/1F
+M)MN45$2+@Z=)V&0-GB@A5N ZF_$:$)15(R&R" 2JVC:31&4
+MQ$JS*+%\MLN C
+M*ZJ6F156H/+(XXA4F=8KTWI+ 2URL'@S^\E^-8V>:9F^"0-@PN^M[_1_CAP+
+M-JOW&[G\.S#]9]EM=J7=*4QW4=EM5KCFB++;K/0]SG>;M::B5[: V"Y31
+M!8IHP6+ Q+.+TX+$-/$-;B&S99.:!3)?*
+M,P %Z 3L:VTVOM69;V912*3F XBB4D >.
+M NI?XS*> >T5VCU%%G9NE HHG:8T"Z59N%YGEY:B
+M:OMVA*$XP+^@>GWIR3N\*)3:5%IB=/:21?LRX/02JVHM(4X]/^RB_1P#3EH[
+M$7"2ZDE\O8/=(M6NINCR&"RAE(7P6@ 8!_V28LCWPHT*&6HZB%#386EU&&2V
+M$)Z&A?"'J 1\KUU>?_EA8HSHFZ"VR2'B%\2*[!%IR]EZ?[VZ6=C-*
+M###WV]&PZCJ/BQ?[U++(]=7WO[Y5R,#PC:H=C'O4_5CIA.\G+AV:3Q\KX5LO
+M&(9OEY"QP$@S'#DWZ\CR']X!54#;S)\W'T8QUK@^N[JL?KJY//NC>O;Y[O+F
+M/3&L1^/9BWCT/6P*F\Y,P D943Z3VN3IA(00Y9 PH\6)OWWB_1)
+MY\U.-ISRNQ_G7TW[YY1Q4B8@GH=TT_HE]EUN4)/Y1\EMQ\QTNS-\0(>4W-*Q
+MV7?L0=#W'9> _A.VNLN+HG.@@MH>'0 5-H/*AD^Q#1_\P7.W/ \$?EL.8]>[O0=F3;Q1T[@&?; .\Y_^, V@H$)4Y+SV#/,R;1(N/4_5NH5
+M@GLJ3-.+WWL3HQ^_Y[MO:-IW^--0F/GP I:DU] K^:+5=;&[1DVMC,%AGH 7[(^5
+M5F6*"1-T[+0OX*9>A%BQM)9[6+>^P[^;-B7?X% X(K:ZUBI*7KX8/
+M4JR6C=>:!P!5Q AVW5EZ0KAVW5L?
+M6S;G7BVM+/]%W^'8)6[%+1*JS3$//NPE^)WZX7';ZR;-M?8V+4+D=(?*:5-3
+M](Y,A1 )ZSR8 SH@O6=R%&! 4?B&W4M9
+M#4JU9Z 8!4D[H;;'LE0(? LQV[RCP &?0^W-0%_>Q[U/0;#9YH!TZ>^%6 Y!S''$Z//.@,;_;\#TS,/&:8?
+M7.,/36ED]W62!YV)JUP.KNG'$>HJ,0V-E9_A6)HBZYDBW] 7
+M';\K.U9)Y24,K^)9;4U-B#C'H39(+C"EWK0?J">S@60VD,P&DME Y03_JYUW
+MF.F76KSWAD2&PG5B@,(:.B[I!9YI4\]+.J^F1UVQ\ 5^X&*;A>+L GE,XE:)
+M/.JV545O".&WRB#QN A(+X](W"Z1\HC$O4#D\R&2 [A>
+M(]$D?HK9>:0WE&YVBDG!H>U"!+V,:B_G&*VC=,5H\;J,8\IH!Q0AKWD^4IH3
+MY5"E]L'Y^H_T%@!^( 6"U(+177
+M(2LN5:DW-*75RLRRE+I+ZBX15OBHH2JJH*5X,L%JA]'IH6D;=E]&IV5T6D:G
+M972ZE*@_BH]4?6?"#W:(K\2G_22N18KE*2D:GQ;D;Q[1[&O7Z5,Z"$6QY> S
+M4'=,!K3GQW%LT_,"$-&4]!VOV"*\;4UT\8'O73U!H8'RUSY45]64MBZ$J;+C
+M9 L60>U?>L5A=!? %>&_+?*NUVED>WMW=N(
+MO[AFAP#9:FG9 (=JCQR S!K@ _NA1#.4 \!?T[\!\,"S925]@/811?:55SSS4
+M4\9\#CKFD\HP:D?1.V+ZT:2)L8H$_T3AC8U.+RFP#]Z^T'6ED^U7D&V%Q=45
+M!V=CJ'I+T;I":!YI9^S>$68/I(K:: /IP(T#)^A9='X'_5H:A97]#*K64;2V
+M$%ZQ%6F6*FN'O"N@ EO"NVI;Z:I"M&K;&N_NVM":T3S+*[;39/[JU?4;%,5O
+M5LN^20GZ)I7C&Q1\;U:GO5_EU3GAFP^]T]M@,K$H%DX9%AF87M]RO,"E P5$8 \(%M N+'"9K63= F'40 IM;:71%+/-MO00
+MOLA! GC^*J=-1 (?4L?LK8Y1ZXK>
+MR,RT$%7)O(&_1L^BIV_>I,>6?YNCX;>YX:>CL\'#\?!E8@TP6I-PTT_R'VU@
+M/I"^!>+_8^7ZZM,?"_-?K[]-RW@/K\0G+OB@T6;O]?GN)KY9DNOZ%#.IIOEJ
+M,,# ?;Z[O'E/
+M#.O1>/:BE/OWF,%+9R;@A(PHGTD-8S@ADOFESOZ#WRV G/"CA4G__2)]TMG*
+M;SKE=S_.OYKVSRGCI$Q / _I>1@OL>_R7&DR_RBY[9B02UA&Y5?#!Q!)R2T=
+MFWW''@1]'X#1N>-.')=AHCC9.B^*9M+'?S X8WF! /=]['2KU"D*5#11"_]R9&/W[/F7]HVG?XTU"6^/!R
+M *MJA^V3[?%ISG6\*T!_#04; 7E%9Y/&O-
+MI N02>'2RO2^'( VXD/*VF#OI!V .@+Q$5U:H[+K8795)5HU+^L+J
+M DLG/D4;E6CMU+65ZF0=Q\W,T0DE
+MUC'KH1!!>5NK:ZV"E- R=BBA9CHH=MB!]MH>.PBATO:%'9JO4WABA'"YPLMU
+M?A?F\I-A&38Z'D>4^JDNO4*Z.ZQ0X;^?W1V68J"=-W=H"=# @"&*:5>:9-0R2&D4;U:R# %QLTO^^X
+MSQP('%U\D4I?7*6OJIN>52"U_F%J?;6I2[4OU?XZ'-/-Y)B2ZOU7==Y>(>B[
+M9G/K[77>7L\7N\J/,AIOK^7RW,!3N9&# 0UVT;>G82X
+M4=PH ]9W)%G7N06Z/G8QDVDF$C&3:282,9-I)AHU*%C9:V.IS5M;FT
+M8_%,HTA'47G*X(5R*F70V!;"KY1!W-LBW$J;=Q85JC*_$#]4%I-M6@=?))/M
+MU!.U.9/MU$FU"9/E[KK*H%&,J-5+3"8M^E?EK8PIUGJOW89'!JIR R>SS5W"$JA!(((-3RX-3(FCW9;Q21M>".)K],L!^X.3(M/M6
+MC9P-4 AS8,"4;' H7^V$QN+4_]FW+[+*9%^J3-1,NTY6F8A^T*)04&(G!\(?0I7)ZDPF"TPV
+M8[)R5IG(%BDR3>5 TE3$P=ZBI*G\^DWFJ #FWOB9[]LL,
+M&9DALY0B40!$!GEZ-UL)") >4QR0*$^.C"@0H[3I, &M7,Y'AFU32^;&R-P8F1LC SSY'0^IUJ=?GL@ND6I=J?46QDMG/1S"U_@;^&CV+
+MGKYYLP-UF?0BSRP!DA1>,>T!M1?29"9($*,, F#Z02>]4P,VP:4
+MV* "28#PX=KIN^1@>D9]_ +2B0,/9M_#
+M Y$>]6$JX=K0 C1%1LXCW)!B*='$L)_)@TD?/7:[7N"9-O6\&KD ,>O> LEV \^$,DP__FP +LP#@O8-3KH2CVUXPAF6;#N[5^*S &
+M?4_Q=B[U [9#3" /^,&QD]2RP'O[! 8
+M AS+Y,PV-&W#[B.M QP=^96/UJ/4AI_V# 2T:
+M[7&C_W=@>B:;%V#>LV]? O'7,(:9'8I8B!NX>C^+TP\>)589];]HVWLCD[../3'= _@X,%V4-
+M$(J$X4)2&SBU/[>*H!O\4;CU0&[T+ Q
+M C8=5U'A XRJG8 8A*@B%H/+P"?# S0F3(S)(_&V.N-_FZ)J2Q:@*B JW-$^X /%6W1M\.$Q'K":E[3/"6LIMT[CQ>HR701-U_,
+M S75([+-(#)>I,E8G85%[ "(/&;.[K
+M"L'_/XYIU]7E+O1Y"N;VV8R3//21+VZXQ&YD>^]NY%)*OL%O1QZV8,*BSV7)
+M9=R=LODZK3 **O\Y4# RS2L/FZ\#;3*;# ",$&X/[9*#V* N5G12P=GKQ:\=,RD:9%NYE-_GN%ZY1_,+=
+M OBC:%JA0T#DY1-7YK^$9S+2@;>'9[0DG$D7Y ) FR*0#?J1,K&,P-.TG*$R
+MDHQWQ%#IVD64F9(,M06&VKG%I 2T
+ME^_T8@H:7](/YNF5ZW@>=C*&3\BL;_##._,T; 5?$]_L=M;B?UTV@\Q/
+MRB>0?^G5*7POTOCJ1+T--MWJS2#4^?2&M"R:C2A0NRU%U3;M&[6=6=BU=?WJ
+MQ+IMKNWB:+M;VX:JZ+JV8>) A*
+MG'R5N!8]XIPS?4D&\JRR6CL=ZHN-'@=,[)W1;"Q+F'C4]RU,.[0)_3O -+UY
+MC:>]7N,MR?S(#CB\=CIW5\25/\V;:^5"'D/K;'J2M]C+L"(F$(KFU]>A% H99A1=0D%,VOKZ4KAMTW0W:%/(:*L;3MX$(!ED&4:OTB
+M,.8K:%O;PW(VQNJT_\:)UJP0Q67(TS?L>Q.3> T/X*@WAT"+09]LPM@_=1^@
+MY8JQPCU!H"L_;0N,W*VYGT1^T"(0[>9;2$BXNI4M5!I4N_K3OJHU^%XL["YQ
+M\N:;2$@0O)5-5!JLO*U-5 )8O>'"BNO5S3E])BXUE"DTN82JZBU%RPY6R @D2)UX#
+MDH3B&G'S)?8D$6(IIY ?*3ZMM+^8A
+M\F/F#&!EHG")0:Q,%%Y]_\@ E="RUTE;6
+ML9L==LM%*V6NHU1+:ZVCJF8O9"YZZ;@$GN6]RP>.U=L64H%?GDDQTG\+IW.7
+MJG9+I!_EZF_?$M&[5.F")/063N %?-MK"V#TEVS;M;/%2WX!3=PNG "Z,CMSC5L;XBN"H;8^B.X,_7RPV2[S)'-B1$+S(L5
+M[@F7YR,)BN!RR('-83\( ^(*S'45[@FWF]\JVN/E@!UWF )ZFJ
+M^Y&DVJD0UWD,$U9?F:_:UG+,5[V%=80U5,@5M:EK6 I+7#T;C$W;](#M65@P
+MD;MZ>\7 P-GZR:OSN^G3:_-ZU;=+Q 83?9\:NQR"R;[=#H'"[_4C:,N&"!=C
+M*X\!_ 1 O-7#*KI G8YH]"J-! K_2>\,BE/MR
+M/7*DYZM/90ZNS,$MQP+*'%R9@RMS HVO8.>)+I J7RUJBM/%.#5TP7V._T8+U9ZO1@X2M^
+MXC3@'Q.*N;[V?80PO+6S>GG&[503KT?K2VFVV[\ORZW=_FW#?-K-;[PLB79^
+MMC=-H7YIMK=_7S;;V[_M*U/)UYOM37.D=Y5"OJ.\\9WEBI 7%JQ@N8"] ZKG2[F341^33#%M.6$CX1.JFJ
+M9"ITL:G03:7=RE&S925%RN!:$;G0347-TVY; &VWB?!*NUU\/>X&.C3/
+M;.B\=*@ G86E:IPCI:#4X%6G1"K(HED@-PVY:^^F5)/+U*3>$*!J2)J: A3^
+M2!4I5:14D5)%2A4YHR+S/PRG)%9DWN'!L[$#3_%?;D,Z0V+T_PY,EWE?? 0L K6J>S,XV4NV41^UH.9Z+*M7.SL"#4B^?
+MYBE/GZ'=N1C/T&;R3&9"N=0R?#J0S85D :
+MA>*[&S]UN\\.UVUM=;PO=M\*!O!++ZOJ%N,8H8\( -^SZU@6\8VG&+K44K!=
+M , C Q&(5DP>P_M9L@J@3^)XYH(P3P%(T; &/' \7OA^XF#DSH$-@"1:TO#=,V_.QMYHY]D@/
+M[#(0[?%E'.( ,[GUZ0.UR5GM7S5R0 S2L 9WGIF)TZ\!\B#K)75]]^B.]&=P*F@_4T^R]/M_=Q#=+
+M8^#$ '._'0VKKO.X>!'5/;F^^O[7M["#G1V,>]@L3XU.O)ZX=&@^?:R$;[U@
+M&+Y=0L>ZL0-5_? .Z +J9OZ\^3"*5?[UV=5E]=/-Y=D?U;//=Y #M]L+6^UED/C;''&_S=$U)8M1%1*%+Q,D)2F:[?:'LNBOVFV-,! _=R*64? /:1AZY!(X;\!V;LRN^D%B*F+D7:Q5/Y%O*%&\,+8=]
+MD;;.65S\ S #($JB*PO HZ PB(/85ESMN4A+ >?\\L"7$E!O%\=* U&7.[Q[F_!ZI2E//K.X_Y')B84Y@D8>N;#G-O:ZTLQMO2D55KJX6C8;2
+MR3[^3>JF M$.CNWZ5+1E$ZVZU]Z.\OE
+M[2SXB!/IZMQ>\H^ '>$$,=[D62?[IX8*/NI$JJ M9BU*%;0?*JCX(T]$MH_D
+MN2=;+ #?B0-2@&;[^W'N24''GA2\?O(4%7F*2O83%G.(B@A;0I[)(L]D$>I,
+M%L$;P>V52V3N=!=9[9FSMU[M*LVV/.)E'\L]VVU%K4OGR3Z6>X+T;^N9E;R'
+M> EW;0J/E-1X[MQ;,TV[#Z3WRMK1N -%\/%2
+MDY^W:[?Y6=X#9 L3IKXM%C!NX1%>;-^TTS5?O;4(>?MJN+GMHU'6 :([&7MS
+M5/KZUOJS)Q+6,@'-NEAURY2]W1C [HY;"AI[ G ?CP#)8*3P=
+M#FG?Q\Q0._(^7;F.YY%O[. 50Z7787Y9..%V$A4^6TL ]M[SHG5K6TL,WQ6[
+M['^(L]-J=?7,LV1#K 08QS(F'I 9O9H[B[I\T KYY.B2MPLY
+MCO#75@\SV9UPS'7$90>@[&3 Y4>CO&K(+1R:LL-5S7/$90>M[')5=S'D%@YG
+MV>&JYCGBL@-==KFJNQA2F$-@7O44@C@:0B=#I/=HI/=,IO A^-#\SSL/-%YV]S3R>Q$4[ 7(HMU]M8+L?-$ZBW3ULI.
+MG2_8(U%@$7NYP4&8 _+)-0?WE P--'W]9S*@/9_T'4 *1J)E6)$ (2XQ2P2F
+M9.I'G@&_+3?T+.@A7E=8E3,#ES4O9( B1)[)9K9
+M# [&,MBFXU(C-+-LTL^9=K^K3J#( DH72Z8H(=F5$B,TID1HETVJR>
+M42(=-^5WW*@-4=N12,>-Z(X;M9GI])-N&^FVV0^WS1[GD#2:C;;:V-.C&/8[
+M421,#+DSGDB8+$*./E&;#DW_6*:+R'01F2XBTT5DNHA,%]DOST.RZ:D/JB_T
+M/$AG0SF E3:W;6OM[_T5F'1Z:\_0JKAH:]/,.+:3VS1I
+M/+8[_0Q1D,6W%*D0H!W=7_\>0+2LA=1B /.N8SBVG@$5QYK46H,ZZ:;1[N76]KE0
+MT*"-8%\V(,,37,I'Q!W1X![NZ 4R(H$,V)!%$9 $;VY 8$@'=(T&E>YETVAV
+M]0SU/,+HA!I0@1/3Z+7U+-=UA-8![8,>)0UHV;K&(6!UTM?1@ NE_:7RET8!
+MGSZ2$^?T6-4]UAVMCCSL)C+:'(XV)60+5C$I1%^. (PVH9IZYKU A' ]2EG A.Q,ZC4+?7^23O)'"TG6>>0MG?GGF
+MJ>M&,?4Y?"8B8L3(1!;S@9D/AR2,(P! &]+CRR,H? >@$7,F72&W/2AZ,^
+MJ*SY97F+"]BE:# E_2FY%>R!!>2\\4^#7#+RB49T:I!K> 6!&Q^22'RDL*M
+M (DW#?*5/U)_P.J&0P=QN+*#!1)"$:,*2VK3FD3A@\?E+B9WM;\;MPVU]
+M,Y",A!,6*0W'89/BL2\D[(91."9W "ZK:794YN8%@%KAYE/8Y^3 J%Q^ 5TF8;+]QK$D>3
+M4*ZDQY'GCL@CY4#88$&!I# L\G>DITQ)9[64=%*>Y)H8>=& ?(MI!#"1]QAZ
+M'.9!?785X:D\.=WJ](*96LZ%7:+* ^_A*0OZ^N/[/],9\0ZT%;CE\F]]N+N9
+M_UC*JEFLJ+_RW='P+ H?UR]*]DZN/_[U]Y ]]_?
+M)"]Y/$Q>;I!C\R"O#*\\@EEO?P&Y0+JE/S^\' G7^X
+MN[KYE5#_D4[YD[55&@R#U:8"(S8;2TL>.!(+ZH]-]1]\;\VXFKRU-NS_O4P?
+M=CEW+Q[TNZ\7G[W@WV?HI S ?!SR-[8NPC=]!W[;?_>9"MCF&+EE8\\-@T'L
+M"EC$%R$LX"C)Z$ZRN3-$_'E%N)]7Y'H62TF5""7_N2#2HD3+">5R U"[GC(#
+MPQXU-PE_ +T,GX.=X0MLF'$DX^M*%O5$;5EAS&&7A%]AWUTV$7*7(WQ$(Z:6
+MTVGY4L4!!58">WKJO0^CG$3+:CE6#M4D5G>J:FM&K$FS)OQ"98AY@3J@)HG%
+MY>G*7,$L7'M20]\7=X9-%>UV]*-LESF10-U/_6_N),2 Z44S;7W=V$L*:O1M%C)$O(-N(DRM WV"V=/,Q698U"$5[1:M:86JSG#]I
+MJ2MFVWV?CW4EK)$=@:\0_16(!-!,8AN;D+RO S#/H=O'U5?\E-G53]FGV)\2
+M9^-\[>MN*V:^MCNWBI\OI_KYN@6VR>19CEB=C;-6F+[8/'KZ;^P'3YW*T K5
+M,B>K:;4KT3"5 QABZG2UE.+?_TM; UWFQS;^8>&DGULV5Y79^7/.G:@.7]V)R1 G[LJGM&78K,Z\C?S*5?]CN:Z 2C*4
+M;[/"(E4$:?VU6!'9Q"\"8*MI=)P.*JX"9[-$7>4X1K>56PW0(]55162DOF@H
+M[9;1Z^16D[-4_72PYZI$/_TQC\I>TDXB)'V61&0/%D*R5?0[:JW 1+U9D=XL\9A9\_CALJVCYRMIU]3]%GNS]@*"!O>>3+BCG+, T
+M6D:WFULU (Y#(V,NAD9M]B9M3 8*=A >JN/ _=C7C%A3>>
+MM22035:&0^8*&?02/%7^IH/_B[D8LP##77+U8YR8CM$VJXUW.2U.)QZ1;_&D
+M8SAVB4INCXE$U^)^2])H]^Q*?8NGFA[OJDYAD(TH7,I',O$ON(
+M3]$L-O.I9S%F!59ZX#--H]G%,]\1G_E,H]=&@^D1G_E C[;LS("KTHY\+]"E
+M9:8#OK(8;"EJ]T)I6]4L#DZ'/GTDJH]@B>IUKQK&A>C:BNM"EZ#"RWK"BCRI
+M.A3VKK!V?"'T0X-%43"KT6-18+7[HA=%CD)HL"@*9GHE/:$TQ&3[#>M>GE]7
+M&T\57HA9H?=YFU$L]EY" D73-MIMS&PJ;6Y+=$5T',,Q,[-C,-4I[ZDMLYQN
+MUS!;)19:VC7Q*;4K_'RK7[EMO=H>M[M.L^GDT/=XC\ //-8O(K6H=GF_OGQP&J^JN0#D\PE8:6>A\KQ#,%7*YT#7^
+MC/0I]]Q7T\U7/,VKB>AK1K)HBIJS;,U&,[>0F9Q%>R6G+0Y A=Z[ Q?.MO/?@7)S;18*H%*M2X=#&)*XV(MX'/M4] ?G:#: @HHDF7Q\@FFGJ:Z;IY.9@1#/-49IILFMO
+MHID&S30[ ,C*K? 5X!A;6055W5PBO\A[6YMNGC@D*WKT
+MV:3;54YZ13=7DU[@O7>9](H>?3;II;K 5R>]HINK22_PWKM,.H8>U.5 #/-76X52+P0=XJL7@ UU/M953!@P^P."#K. #+0SJ&'R
+MP0=;?+IV;ATG- 3JX3(A##[ X(,C9%R[!1^@H:9FAII.YC$)#35HJ-DE_""S
+M#B@::M!0@^$'&'Z X0 HB7?^_3%GHFGF4D_SE9M.T^BV
+M,^UW: "NP "LO8,;8&-WC*:CA?,:S;X[P48+2Z]IMXUN)[?"G)H8>_$DO:[W
+M+X_;"5P+S6\;'73]HN;? FU L3Z4CQ0W'$Q9PY3PA-!B0B/FJA_J$3J/0]V>]U+_+SS#>2&'?.L^\
+MA3._///4=:.8^AP^$Q$Q8F021FKFPR$)XP@ $,#;,FP4QE#F[$Q\&L 'J2"/
+MLG>B8( 0$ ^H'0"W"1T,N(>/&JLNU;' /RUU,[FI_-VX;
+M:NN9O68@&0DG+)J%!\ FQ6-?2-@-HW!,[@! *>^7_/6I/'?0Y;( 1YX[(H^4 V$;J%!]&!;Y.[)3K9+.:BGII#S)-3'RH@'Y
+M%M,(8"+O,?0XS(/Z["K"4WERN@7I!3.UW)=DB2H/O(>G5C77']__F R.-?P%;&H+?R(C-QM*2!X[$,OIC4_T'WULS
+MFB9OK0W[?R_3AUW.W8L'_>[KQ6 BKM!_:H>0K0!]#+\#G8&;[ AAG#WE>ZJ"=JRPIC#KLD_ K[[K*)
+M6(C=DLOIM'RIXH "*X$]/?7>A]+SRVKW[ /M^56@FR:?'JI;K)W%)KF]L)7P
+M VV:,MXUEQ8VA[M1Q!CY K*-.+D"+ ]F>T3UMM$J
+MFS/7,=!J81TLC($F*W.;1,^GT4K7XHX+3*V 0
+M'O'Y/ GA#">FP+LEE&IY=90%O'2/U:6=4TX A)CMX?\L#"N'@*NB0G
+M,[9P:I" B6/E##5(W>L9[>RNY _BFJ?_W4
+MOVUT'%T+L[^ * )8)T G*^DDE'W6^Q%JORMH,&])Y,(*.?L>+OGU8 .F);1
+M[6"S7>0#>SH*-.4": _0E!!8F3;'FCH%T"204KB/32+F>L^)YZ$8L6@IYQRI
+M@+Y4P#3:)E;S12JPU\3T#,?,=/@B&T VD.I/,CHV1@D (1/0
+ME FTFD;'R:RTC4P F4#:Q#B.T6WIZB1 *J I%;!;1B_; %E3+J"/ +
+M1M0!/2SU\;!H8:7 0(M"U?\-XS"%KH@CU;/J*?02.8"V'*"5&?^$ZA_5?VH(
+M/ Q1'X)\YEYB7WE',BZ0:(SHEBG!,5F/&LEM'MFCJP!?1-
+M'+9OPC$ 8*=A .J)0_E?3L=B=356)W&QT77BGB:;#P*J.3)3V[
+M8W1[6M0CU6/*]>W34S(3UF#I54:PRWIV[7B[YCV']+%6:N"KG+6766L@=)PN
+MRMJUE[%-77*XT&FY/X:T\&!VVX;=S@Q'02]F%>2I9OUEG([A."T=",A!1C1I
+MY-- )!VUVKW
+MG.>K#[^_L=8WHV;SI_R(R@QS7C!@@7CVF!;!^K ?]7H_ZMD74MI2S^DB=J )=ZVL@!HH^R2O\2(>QSY552/9 C;$>#5&#Y;JU#3XZU48
+MU=.)NC]&T9J27S 66E/TYDGZ>$W1G%(+ #([
+MZ,D\;$_FW)=U0?F(7$?A@S B"9"\B%B;/;I
+M#W[XB.[-@R/D P
+MFU@!3B="7\/ B*,C-B@4%TA5N:\\M?S\B=DQ'%.+&O0[
+M/D7*?G!Z;!3DZ&*I3CJ;2IC7(YHJ"Z4'RW6.+IKJQ+2-9B=S,ZU'0-4IVEYR
+M\-\H!]W 7DD+7%^+-R^21"97YK7A14IT>WY 7XMT7PC>7V5F(IS,
+MZ5.N_J+%M>/"(+-(F2J7S=$90HV]P ]2EG F!X WA*D_M\?GMW=GW^\>KL_ YFY=IH>!:%C^L7)0LAUQ__^OM+DD -A
+M\C)Y])35D&&5>!J.E8& YY0Q%B 72)?V!Y[]EWXXF *?&XFQ_^[_ 5!+ P04
+M " !S@V)=P['U\G\# 9#@ $0 &QS8V,M,C R-C$Q,#(N>'-DS5=-
+M;]LP#+T/V'_0?%=DIVNQ!$V'8MV& .U6K!VPVZ!(2B+4ECQ);IM_/TK^B-TZ
+MK9/#L%-DD8]\I"B*.?WXF*7H7A@KM9I%R2B.D%!, 'R"WD_'\30^1M=7&'OXH^53R]8BHP@X*#M]7)A4SJ*U 'AY'?&6FS
+M @/Q$9'*LV BJO4M[V@_'-6Z"?EU=7D3;#?*J51W?>K)9#(A05JK6I>;1C-0
+ML(*-5OJ>>$D(IE9]9K3+V(L7U#:,N3/8;7)A^S$@)E[L7;S' V
+M[E?WDJ[U#=]A>,-#ZIK3L8QU,NTW1DQGP5R2Q.,(4>>,7!1.?-$FNQ!+6J20
+MYD+]*6@JEU)PN ^IR(1R'866V%&S$NX;S83-*1.O.*PK7V8Y7!&D>F&[ZKZ\
+M+I>:41>NZTZ(_\(U#OLMG(RAG$;@.B)[ ^S"+(&Y9D58P%B-X5>Z#?;E:;)@/T(>]_/'_.5IHB0V
+MW&K#:GLRY:@T9(8]B^,8!OJ+RD=[>:XX^AS (4CGH,+.DX9!^EM*-1@BNK#.4 9CH3,%E)T_
+M:G]6O^L$07[*],S;1^P;Y"QZ14>FT Y\ #?KQT^
+MABFQ8QB,\@(A/KD^Y_KKYHB/GY ]
+M?M_W,H%H@@BCT/$I\S]_^OVWC^^"X"M0X$A XHU7WFB6TP3X+4O!&S N$/$"
+M+XK"5MAJMCYX[]NM9KMY[0T>@D ]3C#]V58?8Y2!)VG0K/C9\6="S-MAN%@L
+M&LLQ)PW&IS)$\RK A%U DV(UE],@P^F -F*7%!A9%
+MS5984)4+7X#L1 :465\6S7S.>#&5AVI+[;& !=\JUFR0 2]. !W'$:,21\ON&JW3,RJ9>:;OC
+M[-PMXQFB4]#4>2:8TS/@+@4^E W$]NCSV&)?KM^,WY5.%(]2." )$O
+MBBK]#V;QDO^BZC1=FYN,"EB*.U* KVI>QD/6^IK*. *
+MZ/TU&SWUJT7,#IV-IOK5(1;VGHVP^E4B5?:@C:KZ51ZVMJ*-NOH5( (F*U,&TWU*T ,?JB-H/K5'=5NJLW+=%WK#0L3UD9>_0H.@Y-K(ZA^%8>%
+M#;SG-X:_:)-A?W[:W5 &ULS5OO;^HV%/T^:?^#Q[YL4M,4
+MNO>D5FV?$.U[0NL/5*@V[6F:0F+ 6N*+'-/"?S_; 4K #@G%SKZ40&[.N3GW
+MQ-=.TJLO\R1&KYBE!.AUHWEZUD"8AA 1.KYNO/2]=K_3[390R@,:!3%0?-V@
+MT/AR\^,/5S]YWC=,,0LXCM!P@0:3&8TPNX4$HQXP'L3(0\VFW_);9ZW/Z+?+
+MUMGEV2?4>_ \>7A,Z+^7\L\P2#$2:=!4?;UN3#B?7OK^V]O;Z7S(XE-@8P%Q
+M=NZOHAO+ @.]-NYBFU>7%SX:N\Z-"6Z0 ':]/]\N.^'
+M$YP$'J%2DU#FDI++5/UX#V' E9![3P$9(^0W;Q7FR9^\9LL[;Y[.TZBQ%HY!
+MC)_Q",G/E^>ND?'"EQ$^Q6-9IOM@B&.1L8*8,#S2'Q 1^R[P4;,?@+AJCYOW
+M+N1Q,Q9#%SYRQCN01\WX$1_9&=N Q\KV@#3Y;HJE 2[]Q
+MDW&A[QG;WU?^>S+Y--MLI5K PCUY+"/\$$0OG/+\.8P8) 52P3X-LE,2%$K(
+M(Q7U7EPU )KRB XH@;=MAQ8TVR-%W28\4OUMSE!(7JJKFRC:#
+M8!CC \9BDG 64/P:)S@I%80>M /)0;E8")^B=%4G:&E8$!@FAK#863="E(; I
+M,-5?^ESXKP,SRMFB Y'9$Z6..L@BA %
+M.2V:["N)\>,L&6)F=-1NR$'V>8=QY17)B#+*&BRAD0W*Z&&QV(-@WHU$4R,C
+MDCTGV%/Y/?$'V MSR#YYH;)N%KW3CB(A;[K\D OBIM$W!;$'
+M>4:#Y\HO2\[U!E)W,)YH'4VF2%:HI)=]GW3$YA,;P)OYOK4Q\B,>>4=S[A!)
+M+: /KPH(:PC_BD2U(YT993UI7&=3G
+M%I.Z.LL4RF;?-SU(>1#_1::%RY^BX(]X)@?HW#$9.Q+T=2UP"G75N:5 ,"M>
+MD0-:F^' X [=[HI^V(2P[0#52R29^WIKE8)]$MAY4BI*$_ E
+M6S#6'Y9*/J0(ZUA_&%6#,G)8J?4?C'".:0>29$:72QS=8]+"N(I5UV+9+OV2
+M%.59G9:_6$,H+8X5(_0A)B'AA(X?Q'R#D2#6N, \C'3[, ZMTZ6P?_&06:=]3[:(Z"=;H/#F6AT
+MBV9K."! T.18)@A)JM7X:_HA6]VUYCD@[*:&*EX ,6R/\M
+MZ2^2(>AF%MK]%4N=P[!>YXP,96Q.RZO7"O:*8/5*OIN'$Z$/-KPY411VX!6]
+M"65]]KCD1"M2]R].%"H(9:6Q>,/P+L%L+*SWC VF'9$ 7_9(6*5XDB&NX
+MX$TR0FE]=KRP 2_7^J^.4_4$L#!!0 ( '.#8EWA(KHA &ULW5I=;^(X%'U?:?]#)OL
+M6/#P\Z=??_GX+HJ^0@&"2,B"V2Z8+M=%!N*6YQ",N9"$!5&0)'$G[K0['X+W
+MW4Z[V[X.QO=1I*HS6OSHJI\9*2% &D6I+WOA4LI5-XXWFTUK.Q.LQ ("KTDR>*IR#K^-]X0EZT?3F2F.3FYN;6)>>H"6M F*C2?SW_6B2+B$G
+M$2V4)JGB4M)NJ6^.>$JD%K)Q"($1H:ZB(RQ2MZ*D$UTEK6V9A2?A!&?P"/-
+M';\_#I_UR,HT;:4\U[HG2;L3*U2,?"7D4,@HX^E:G^!#C?!(Y0[',^ 6%(G?7MR0W*TP;DJ:KQB$\6D,*P$E5M+0$=XXH!59)^/9
+MTX"M!(S3,RT93Y^-6'5='N.IA+2UX$]Q!E3WKTZT'%H*O/CW3G>(84_HJ2M&
+M9L!ZH:EXSX2I "[#G\]B2F8,*H@U
+M05^/(48B##&PJN2S@3MF.L7F:YB=%SMF,@9!>7979+ ( 0WDE=1JX,Y93;$M56LN-"A,U$OL %?%U+L!CPS$[6JY93W%\K@VSJ?
+M@3"2O(0X930EVV&FWO5SNE]T&^@UX)UR[6 &(F19PWV-3@.\/1!
+M3/G&O)09D:_!3T?_@Q@+_D3WV5 YO/*I]D,?AV6P[) 4S7A5ZE>6.U;G;IDM2+,"0Y]7!
+MG*X!=SF(!8KQ5?"-7&( ,E9+U0BO4IHHA(+[R+YPT=$/&*"&57I$O*LF/MN>!Y_4 ^R2.R \>2F*R!JT$
+M^ )*KU5J^=%)YDJQ;VLIT>GJ2K
+M3:ZVG1B>I*>V)KJ=*)YDJB]SZ^VD\21;K=\FL)/"DRRU9HO"3@=/DM/F?1$[
+M.;S*2BUV8>P >Q0.^=VB^WA"V";AN;
+MD>4$YM?O.9(--I@$$D(ZZ X=_OY4Z/;;+ Z8(-4QTE?N*IKT30/"] :=\0&A\_ZIOOIQKBK1[D=I'L&S,[?^G ?E*%$H%[@62>C:;]0^ &[*Q!1+8B(:9A6@LN!'(MLM S90 XE=-$*%.0F792T78BYZK,'U=E8]$ Y##T
+M'"8 J"FLRRSF#L]&3+JG'[\
+M H $#4XP,2@$, J7W+$HVBK8!/UQHAY#OS* Y@@'\?+)G5$L5W.G ^H&[*20
+MFF_3^5L>2'#:! ""NFT0V.0+FR;AU'*G)OQ4*Y7#2G4)V$?U)$D:9 ,]9P%
+M\!W=:CU0K@ 0("KNU8 7E^UNMWU]=5+HG^Y$1R*T%9+_HL$0_*WTO0-RUB1%LU*NI1 !6=HN
+M#3#O$(8=!A*SE@BS#%X\4^#ERDIY _=5!% RU:%@0?#;D'$599RI0>L+_ORZ
+M Z;1N
+MKCN]=8R0+.#Y $ZK LT_\ >1S#)M"
+MP24'D"W(3ZEWRTC#EMALU4KEM3!^1?YB]$1 KE/UJCK#N ^ @Z#1TZG0+VS,NRX!N5'K1TUI#(Z:J*&5?^
+M'1OU(04J'A"$D6W0/Z I:*2UU -D# T*S$CB-" !&-F8]KL$%A. V[+$+N C*D=?X_0TJ2I
+M5#6IE.;Q,V0.JZ@/'S]\.)&XR#X]D;!\^(!?G1CH'1.@F-2-B>K[$B0WXW.I
+M] \U!XS932:YF2_% J)H+%SR@B,9?>@__6MHLC5YDP\J\@G7? _$7>GG.7P0 (
+M10E&'FW(2+!LPZJ:I>+/S,D>G;2CZH2MV+3(ULJF^EDK&6:U5"E:Y8WX"G^5
+MFWB:MYA7WDKC"3A-];M3YN\I$\?TUY=#2)'^ UEOX'"=%T-DXTEWL/]LO?H!
+M"&[ZHQ$/ =KR/OCU4C$HI7 X?MOU3Y
+MYOF.;A,I[6VF5N@ S**JT+C];A^#C$,TB]=
+M&A(JI,%7JAT5 R0)&Y%P4C6^D($Z:T-X "HF&4SE8+$]X*/0E=1C
+M?ABX4Q* Z(+!5(V,!OA]P(7&*P]L2-35E(@)]:9QV\!W 3B.PP2!8T(?D+V
+ML>APADO:'HP-]5*FD2_F-;K[]2T5GZ*-T@6&31:V/1\LFF=6G5:M.:0_?LK 5ITG\13D9$0\L3%)/QHFMKTX(
+MFE\N5B*[DNDM+]SIVK..2/.\0XHE,P\=5R\>LVH?S]*SK2I"UW>Y#51YMY?@
+MM Q**^BQ)[I7)95FC(2- @5#?*
+MIX#X;65&/]BV7&7'^QEK+U5Z>*18'\NPAWI'.+UF>6(UVOQA"194+3B[TU'?
+M=]>BU?/O!1U#]BM"=DS6$'7B-/..Z^_K\^$J.C>@Y,YB]P,6>3_D\&1NMBM9
+M](Q]I\J/L%>Q6:4G G"*DSRL5
+M#RM@RXWN6>-_R(7K0_X$H=6%X$HNJ?C.Y-K;QS_,_MO*I*+M.9A3,;SO8JMZ
+M$,SU'?P54]O&"\4:'A#PA)"0(;A; SG$U&R,!1P:$( '#HZ5JO1N#-71ZO&>+0*2VTZOROVC6+&7%FG.&>38JXW
+M'Y>8-O]Z%;D'BJ&M%8S=:N*O=Z!B4! 5!8-N>KY*EL. J5X ,ZIEXA55KA)H?2T%>:I@N5,$?L\!-(K#
+M \J@1; ['L XT'CJV;C =\=*@0X43Z"JFLRI3+^W16::>5.4\B;C_
+MZ.63%[@-\M#EDQ>XZ[)\^20Z1'ES\=N7[.*L'FJ@ED35M>B)T%C"H]SB7.>]
+MSD.',9.8+HP=#@Q0O.6'N%@B-Q=7WRX7SC^F_R39>-.X:!F_=5J-+T;CO-?J
+MU EU[^DT6.1-BMJ8]\6->+_,S=_/LCF@H\,3Z>]=-[_B9?"'.+!+EW'2/VU+
+M-B+%O%G,DPX+0E>JC>3K,1-1]0!LDYS/S+;I@QO!AOS.;@UEWRS; Z3NSS
+M9ZB.2!/M8J]MZ0-D#:2DP>=) W1Z/-O_28.$F#T(A<>#(0S?0] &;ZI*RC&](X&FP:/\JKRZ *R&GNZ=@+T:I USD
+MLK$^':^8U\> JD2(>X%,(I T>EY.XUP$,*ZF$8X/YJ5O6W;BSU3#1:N
+M^83_4:> O']WA#>S8GK?-Z6]U-8VBVC&(QI@,_AH[N9@X YSSLJM5\D GB.B,!;;@X_G%N:V7E(^>5O3;2NUDJ6ZB
+M5G8 &3.U]ZV""_C6GEB \\89-_6Z95K)@U?'G.S 5BQ
+M"7)#(>MN8[$"V(S'H,^HI/JRRYY>U"!_(15OJY>3$7P[&7+RJ27I=Y5>_ UQ
+MAQ#)8R W\/L(>*>4)M\JT6U?7#5ZWSJM[NY?*+,FJU\DV&8?&RY7]-F /XK^?"JBC93BT?).2O2>P!5GV;>%Q]*!]C72N2W#?AN+ ?7.
+MCW=&^:RF4LRMRX4WR01\!4ZCUVLW6Z3;NFPWKZ_.OC5[UQW2O.[ IYZ\N-FRVCX=CQ\$C9?$(Z$L?[OIO]WTKBE_DX3_-JT_C6J]7S&[
+MZV"-)R3P7>X0 AXY]=&MV?,3ZMFGJ9=
+M G_P]02P$"% ,4 " !S@V)=G*PCX9>" ]A@D
+M#@ @ $ 97A?,3 Q,C4P.2YH=&U02P$"% ,4 " !S
+M@V)=P['U\G\# 9#@ $0 @ '#@@ ;'-C8RTR,#(V,3$P
+M,BYX &UL4$L! A0#% @ HL &QS8V,M,C R-C$Q,#)?;&%B
+M+GAM;%!+ 0(4 Q0 ( '.#8EWA(KHA
+XML
+17
+lscc20260903_8k_htm.xml
+IDEA: XBRL DOCUMENT
+0000855658
+2026-11-02
+2026-11-02
+false
+0000855658
+8-K
+2026-11-02
+Lattice Semiconductor Corporation
+DE
+000-18032
+93-0835214
+5555 NE Moore Court
+Hillsboro
+OR
+97124
+503
+268-8000
+false
+false
+false
+false
+Common Stock
+LSCC
+NASDAQ
+false

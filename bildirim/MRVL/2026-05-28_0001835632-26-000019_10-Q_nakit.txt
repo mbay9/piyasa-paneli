@@ -1,0 +1,215 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000019/mrvl-20260502.htm
+SEMBOL: MRVL
+BASVURU_TARIHI: 2026-05-28
+BASVURU: 0001835632-26-000019
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the three months ended May 2, 2026 and May 3, 2025
+| 6
+|
+Notes to Unaudited Condensed Consolidated Financial Statements
+| 7
+|
+Item 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 27
+|
+Item 3. | Quantitative and Qualitative Disclosures About Market Risk
+| 36
+|
+Item 4. | Controls and Procedures
+| 37
+|
+PART II. OTHER INFORMATION
+|
+Item 1. | Legal Proceedings
+| 38
+|
+Item 1A. | Risk Factors
+| 38
+|
+Item 2. | Unregistered Sales of Equity Securities and Use of Proceeds
+| 68
+|
+Item 5. | Other Information
+| 69
+|
+Item 6. | Exhibits
+| 70
+|
+Signatures
+| 74
+|
+1
+Table of Contents
+PART I: FINANCIAL INFORMATION
+Item 1. Financial Statements
+MARVELL TECHNOLOGY, INC.
+UNAUDITED CONDENSED CONSOLIDATED BALANCE SHEETS
+(In millions, except par value per share)
+May 2,
+2026 | January 31,
+2026 |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 3,843.6 | $ | 2,638.8 |
+Accounts receivable, net | 1,871.7 | 2,186.6 |
+Inventories | 1,400.9 | 1,388.0 |
+Prepaid expenses and other current assets | 347.8 | 247.2 |
+Total current assets | 7,464.0 | 6,460.6 |
+Property and equipment, net | 972.5 | 935.0 |
+Goodwill | 13,883.5 | 11,062.2 |
+Acquired intangible assets, net | 2,561.5 | 1,754.7 |
+Deferred tax assets | 319.8 | 345.9 |
+Other non-current assets | 1,743.2 | 1,726.9 |
+Total assets | $ | 26,944.5 | $ | 22,285.3 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 709.7 | $ | 1,073.8 |
+Accrued liabilities | 1,335.6 | 1,337.1 |
+Accrued employee compensation | 231.5 | 309.8 |
+Short-term debt | — | 499.8 |
+Total current liabilities | 2,276.8 | 3,220.5 |
+Long-term debt | 4,961.3 | 3,970.8 |
+Other non-current liabilities | 1,490.6 | 785.6 |
+Total liabilities | 8,728.7 | 7,976.9 |
+Commitments and contingencies (Note 9) | | |
+Stockholders’ equity: |
+Preferred stock, $ 0.002 par value; 8.0 shares authorized; 2.0 shares issued and outstanding as of May 2, 2026 of Series A Convertible Preferred Stock ( none issued and outstanding as of January 31, 2026)
+| — | — |
+Common stock, $ 0.002 par value
+| 1.8 | 1.7 |
+Additional paid-in capital | 16,877.5 | 12,950.9 |
+Retained earnings | 1,336.5 | 1,355.8 |
+Total stockholders’ equity | 18,215.8 | 14,308.4 |
+Total liabilities and stockholders’ equity | $ | 26,944.5 | $ | 22,285.3 |
+See accompanying notes to unaudited condensed consolidated financial statements
+2
+Table of Contents
+MARVELL TECHNOLOGY, INC.
+UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(In millions, except per share amounts)
+| Three Months Ended |
+| May 2,
+2026 | May 3,
+2025 |
+Net revenue | $ | 2,417.8 | $ | 1,895.3 |
+Cost of goods sold | 1,157.0 | 942.9 |
+Gross profit | 1,260.8 | 952.4 |
+Operating expenses: |
+Research and development | 652.3 | 507.7 |
+Selling, general and administrative | 258.4 | 186.4 |
+Restructuring related charges (gain), net | 10.7 | ( 12.3 ) |
+Total operating expenses | 921.4 | 681.8 |
+Operating income | 339.4 | 270.6 |
+Interest expense | ( 52.8 ) | ( 48.7 ) |
+Other expense, net | ( 203.3 ) | ( 6.0 ) |
+Interest and other loss, net | ( 256.1 ) | ( 54.7 ) |
+Income before income taxes | 83.3 | 215.9 |
+Provision for income taxes | 48.8 | 38.0 |
+Net income | $ | 34.5 | $ | 177.9 |
+Net income per share — basic | $ | 0.04 | $ | 0.21 |
+Net income per share — diluted | $ | 0.04 | $ | 0.20 |
+Weighted-average shares outstanding - common stock and preferred stock assuming conversion: |
+Basic | 882.0 | 864.8 |
+Diluted | 893.3 | 875.6 |
+See accompanying notes to unaudited condensed consolidated financial statements
+3
+Table of Contents
+MARVELL TECHNOLOGY, INC.
+UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(In millions)
+| Three Months Ended |
+May 2,
+2026 | May 3,
+2025 |
+Net income | $ | 34.5 | $ | 177.9 |
+Other comprehensive loss, net of tax |
+Net change in unrealized loss on cash flow hedges | — | ( 0.5 ) |
+Other comprehensive loss, net of tax | — | ( 0.5 ) |
+Comprehensive income, net of tax | $ | 34.5 | $ | 177.4 |
+See accompanying notes to unaudited condensed consolidated financial statements
+4
+Table of Contents
+MARVELL TECHNOLOGY, INC.
+UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(In millions, except per share amounts)
+Preferred Stock | Common Stock | Additional Paid-in Capital | Retained Earnings |
+Shares | Amount | Shares | Amount | Total |
+Balance at January 31, 2026 | — | $ | — | 847.3 | $ | 1.7 | $ | 12,950.9 | $ | 1,355.8 | $ | 14,308.4 |
+Net income | — | — | — | — | — | 34.5 | 34.5 |
+Issuance of Series A Convertible Preferred Stock in connection with a securities purchase agreement, net of issuance cost | 2.0 | — | — | — | 1,999.6 | — | 1,999.6 |
+Issuance of common stock in connection with equity incentive plans | — | — | 2.9 | — | 3.3 | — | 3.3 |
+Tax withholdings related to net share settlement of restricted stock units | — | — | — | — | ( 227.2 ) | — | ( 227.2 ) |
+Issuance of common stock in connection with acquisitions | — | — | 26.8 | 0.1 | 2,097.9 | — | 2,098.0 |
+Replacement equity awards attributable to pre-acquisition service | — | — | — | — | 33.4 | — | 33.4 |
+Vestings of common stock in connection with customer warrant | — | — | — | — | 10.9 | — | 10.9 |
+Stock-based compensation | — | — | — | — | 208.7 | — | 208.7 |
+Repurchases of common stock
+| — | — | ( 1.4 ) | — | ( 200.0 ) | — | ( 200.0 ) |
+Cash dividends declared and paid ($ 0.06 per share)
+| — | — | — | — | — | ( 53.8 ) | ( 53.8 ) |
+Balance at May 2, 2026 | 2.0 | $ | — | 875.6 | $ | 1.8 | $ | 16,877.5 | $ | 1,336.5 | $ | 18,215.8 |
+Common Stock | Additional Paid-in Capital | Accumulated Other Comprehensive Income (Loss) | Retained Earnings (Accumulated Deficit) |
+Shares | Amount | Total |
+Balance at February 1, 2025 | 866.0 | $ | 1.7 | $ | 14,534.1 | $ | 0.4 | $ | ( 1,109.2 ) | $ | 13,427.0 |
+Net income | — | — | — | — | 177.9 | 177.9 |
+Other comprehensive loss | — | — | — | ( 0.5 ) | — | ( 0.5 ) |
+Issuance of common stock in connection with equity incentive plans | 1.8 | — | 0.6 | — | — | 0.6 |
+Tax withholdings related to net share settlement of restricted stock units | — | — | ( 50.2 ) | — | — | ( 50.2 ) |
+Vestings of common stock in connection with customer warrant | — | — | 6.8 | — | — | 6.8 |
+Stock-based compensation | — | — | 142.9 | — | — | 142.9 |
+Repurchases of common stock
+| ( 5.6 ) | — | ( 340.0 ) | — | — | ( 340.0 ) |
+Cash dividends declared and paid ($ 0.06 per share)
+| — | — | — | — | ( 51.8 ) | ( 51.8 ) |
+Balance at May 3, 2025 | 862.2 | $ | 1.7 | $ | 14,294.2 | $ | ( 0.1 ) | $ | ( 983.1 ) | $ | 13,312.7 |
+See accompanying notes to unaudited condensed consolidated financial statements
+5
+Table of Contents
+MARVELL TECHNOLOGY, INC.
+UNAUDITED CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+| Three Months Ended |
+| May 2,
+2026 | May 3,
+2025 |
+Cash flows from operating activities: |
+Net income | $ | 34.5 | $ | 177.9 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 95.4 | 84.2 |
+Stock-based compensation | 207.6 | 142.1 |
+Amortization of acquired intangible assets | 225.2 | 245.7 |
+Change in fair value of contingent consideration liability | 331.8 | — |
+Change in fair value of forward stock purchase contract | ( 81.1 ) | — |
+Restructuring related charges (gains), net | — | ( 14.0 ) |
+Deferred income taxes | 13.8 | ( 4.3 ) |
+Other expense, net | 23.2 | 44.1 |
+Changes in assets and liabilities, net of acquisitions: |
+Accounts receivable | 314.9 | ( 115.6 ) |
+Prepaid expenses and other assets | ( 28.5 ) | 24.1 |
+Inventories | ( 11.4 ) | ( 69.9 ) |
+Accounts payable | ( 355.9 ) | ( 37.4 ) |
+Accrued employee compensation | ( 84.4 ) | ( 117.6 ) |
+Accrued liabilities and other non-current liabilities | ( 46.3 ) | ( 26.4 ) |
+Net cash provided by operating activities | 638.8 | 332.9 |
+Cash flows from investing activities: |
+Purchases of technology licenses | ( 0.5 ) | ( 1.1 ) |
+Purchases of property and equipment | ( 155.7 ) | ( 118.8 ) |
+Proceeds from sales of property and equipment | — | 25.9 |
+Acquisitions, net of cash acquired | ( 1,270.9 ) | — |
+Other, net | 5.7 | ( 0.1 ) |
+Net cash used in investing activities | ( 1,421.4 ) | ( 94.1 ) |
+Cash flows from financing activities: |
+Repurchases of common stock | ( 200.0 ) | ( 340.0 ) |
+Proceeds from employee stock plans | 3.3 | 0.6 |
+Proceeds from issuance of preferred stock | 2,000.0 | — |
+Tax withholding paid on behalf of employees for net share settlement | ( 227.2 ) | ( 50.2 ) |
+Dividend payments to stockholders | ( 53.8 ) | ( 51.8 ) |
+Payments on technology license obligations | ( 27.2 ) | ( 26.8 ) |
+Proceeds from borrowings | 998.9 | 200.0 |
+Principal payments of debt | ( 500.0 ) | ( 32.8 ) |
+Other, net | ( 6.6 ) | ( 0.2 ) |
+Net cash provided by (used in) financing activities | 1,987.4 | ( 301.2 ) |
+Net increase (decrease) in cash and cash equivalents | 1,204.8 | ( 62.4 ) |
+Cash and cash equivalents at beginning of period | 2,638.8 | 948.3 |
+Cash and cash equivalents at end of period 

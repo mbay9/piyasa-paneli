@@ -1,0 +1,425 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/895419/000089541926000075/ex991q1-27.htm
+SEMBOL: WOLF
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0000895419-26-000075
+
+EX-99.1
+2
+ex991q1-27.htm
+EX-99.1
+Document
+Exhibit 99.1
+Wolfspeed Reports Financial Results for the First Quarter of Fiscal 2027
+DURHAM, N.C. November 4, 2026 -- Wolfspeed, Inc. (NYSE: WOLF) today announced its results for the first quarter of fiscal 2027.
+Recent Business Highlights
+• Announced conditional 30-year, $1.5 billion loan commitment from U.S. Department of War to advance domestic wide bandgap supply chain.
+• Expanded and extended existing 150mm long-term supply silicon carbide wafer supply agreement with Infineon Technologies AG to include 200mm.
+• Announced a multiyear supply agreement for our silicon carbide devices to support BorgWarner's next-generation 800V silicon carbide-based inverter platform.
+• Awarded the Strategic Partner Award from Megmeet, an emerging customer in the AI data center market.
+• Commercially introduced our proprietary silicon carbide (TSiC TM ) technology expanding the potential of silicon carbide to enable next-generation augmented reality ("AR"), quantum computing and advanced optical applications.
+Quarterly Financial Highlights
+• Consolidated revenue of approximately $155 million, higher than the midpoint of guidance range.
+• GAAP gross margin of (22)% and Non-GAAP gross margin of (13)%.
+• GAAP net loss of ($144) million and adjusted EBITDA (non-GAAP) of ($55) million.
+• Operating cash flow of ($84) million.
+• $1 billion of cash, cash equivalents and short-term investments as of September 27, 2026.
+"We continued to build momentum across Wolfspeed and are advancing every pillar of our strategy. The conditional $1.5 billion commitment from the U.S. Department of War, coupled with the multiple long-term supply agreements we announced support our commitment to returning Wolfspeed to a path of long-term, sustainable growth." said Wolfspeed CEO Robert Feurle.
+"Our revenue results of $155 million were above the midpoint of guidance, and adjusted non-GAAP gross margin improved 710 basis points sequentially, on a slightly higher revenue base. Also, upon completion, the conditional loan commitment is expected to deliver significant annual interest savings, reinforcing our conviction that fiscal 2027 marks a turning point." said Wolfspeed CFO Gregor van Issum.
+Business Outlook:
+The Company targets to generate revenue between $155 million and $175 million for its second quarter of fiscal 2027 with sequential non-GAAP gross margin improvement approaching breakeven. The Company targets non-GAAP operating expenses between $65 million and $69 million for its second quarter of fiscal 2027. Please see "Non-GAAP Guidance" below for additional information.
+Quarterly Conference Call:
+Wolfspeed will provide additional commentary on a conference call at 5:00 p.m. Eastern time today reviewing the highlights of its first quarter results.
+The conference call will be available to the public through a live audio web broadcast via the Internet. For webcast details, visit Wolfspeed's website at investor.wolfspeed.com/events.cfm.
+1
+About Wolfspeed, Inc.
+Wolfspeed (NYSE: WOLF) leads the market in the worldwide adoption of silicon carbide technologies that power the world’s most disruptive innovations. As the pioneers of silicon carbide, and creators of the most advanced semiconductor technology on earth, we are committed to powering a better world for everyone. Through silicon carbide material, Power Modules, Discrete Power Devices and Power Die Products targeted for various applications, we will bring you The Power to Make It Real. TM Learn more at www.wolfspeed.com.
+Fresh Start Accounting:
+As a result of emerging from a voluntary proceeding under Chapter 11 and qualifying for the adoption of fresh-start accounting, on September 29, 2025 (the "Effective Date"), Wolfspeed’s assets and liabilities were recorded at their estimated fair values which, in some cases, are significantly different than amounts included in our financial statements prior to the Effective Date. Accordingly, our condensed consolidated financial statements after the Effective Date are not comparable with our condensed consolidated financial statements on or before that date.
+References to “Successor” relate to our financial position and results of operations after the Effective Date. References to “Predecessor” refer to our financial position and results of operations on or before the Effective Date.
+Non-GAAP Financial Measures:
+This press release highlights the Company's financial results on both a GAAP and a non-GAAP basis. The GAAP results include certain costs, charges and expenses that are excluded from non-GAAP results. By publishing the non-GAAP measures, management intends to provide investors with additional information to further analyze the Company's performance, core results and underlying trends. Wolfspeed's management evaluates results and makes operating decisions using both GAAP and non-GAAP measures included in this press release. Non-GAAP results are not prepared in accordance with GAAP, and non-GAAP information should be considered a supplement to, and not a substitute for, financial statements prepared in accordance with GAAP. Investors and potential investors are encouraged to review the reconciliation of non-GAAP financial measures to their most directly comparable GAAP measures attached to this press release.
+Non-GAAP Guidance:
+This press release includes guidance for Non-GAAP Operating Expenses, which is a non-GAAP financial measure. The Company is unable to provide a quantitative reconciliation of this forward-looking non-GAAP financial measure to the most directly comparable forward-looking GAAP financial measure, GAAP Operating Expenses, without unreasonable effort.
+This is due to the inherent difficulty in forecasting and quantifying certain future items that are necessary for such a reconciliation. These unavailable items include, but are not limited to, share-based compensation, project, transformation and transaction costs, and restructuring charges, the amounts of which could be material.
+For the same reasons, the Company is unable to address the probable significance of the unavailable information, which could have a significant impact on our future GAAP financial results. A reconciliation is not available for these periods because these items cannot be predicted with a reasonable degree of certainty.
+Forward Looking Statements:
+This press release contains forward-looking statements involving risks and uncertainties, both known and unknown, that may cause Wolfspeed’s actual results to differ materially from those indicated in the forward-looking statements. Forward-looking statements by their nature address matters that are, to different degrees, uncertain, including estimates, forecasts, and projections about possible or assumed future results of Wolfspeed’s business, financial condition, liquidity, results of operations, plans, and objectives and Wolfspeed’s industry and market growth. Words such as “could,” “will,” “may,” “assume,” “forecast,” “position,” “predict,” “strategy,” “expect,” “intend,” “plan,” “estimate,” “anticipate,” “believe,” “project,” “budget,” “potential,” “forward” or “continue” and similar expressions are used to identify forward-looking statements. All statements in this press release that are not historical are forward-looking statements, including statements regarding Wolfspeed’s position in the industry and long-term growth prospects; Wolfspeed’s ability to achieve its targets for the second quarter of fiscal 2027 and beyond; the anticipated benefits of the conditional loan commitment from the U.S. Department of War’s Office of Strategic Capital (the “OSC Loan Commitment”), including expected improvements to Wolfspeed’s capital structure and anticipated annual and cash interest savings, and the ability to complete the related financing; the expected benefits of Wolfspeed's long-term supply agreements; Wolfspeed’s ability to return to a path of long-term, sustainable growth; initiatives to reduce Wolfspeed's debt and cost of capital; and the expected growth in AI data center applications for Wolfspeed's products. Actual results could differ materially due to a number of factors, including but not limited to, risks and uncertainties associated with ongoing impacts from Wolfspeed’s 2025 Chapter 11 reorganization, including effects on its commercial relationships with customers, vendors, suppliers and other stakeholders; ongoing uncertainty in global economic and geopolitical conditions; the ability of Wolfspeed and its channel partners to generate and accurately forecast customer demand, convert design-ins
+2
+into design-wins and volume sales, manage product mix and inventory levels, and respond to changes in economic conditions and end-market demand; risks associated with Wolfspeed’s ability to receive and retain certain tax incentives and other government grants, loans and incentives, including with respect to the OSC Loan Commitment; production risks, including poor production process yields, quality control issues and related manufacturing inefficiencies or disruptions; Wolfspeed’s ability to obtain additional funding as needed, including, among other things, from government funding, public or private equity offerings, or debt financings, on favorable terms and on a timely basis, if at all; risks related to consummation of the financing contemplated by the OSC Loan Commitment, including completion of due diligence, negotiation of definitive agreements, receipt of required government approvals, and Wolfspeed’s ability to satisfy the conditions to closing and funding; the risk that Wolfspeed does not meet its production commitments to those customers who provide Wolfspeed with capacity reservation deposits or similar payments; risks related to production difficulties and longer manufacturing lead times that could increase costs, reduce margins, and cause customers to purchase competing products; risks related to balancing fluctuations in customer demand and manufacturing capabilities; risks associated with the ramp-up of production of Wolfspeed’s new products, and Wolfspeed’s entry into new business channels and industries different from those in which it has historically operated; the risk that the markets for Wolfspeed’s products will not develop as it expects, including risks associated with the adoption, implementation and use of artificial intelligence (AI) technologies, including the ability to successfully integrate such technologies into Wolfspeed’s business and operations and the incorporation of Wolfspeed’s technology into such uses; risks related to international sales and purchases, including the impact of tariffs, trade restrictions, retaliatory measures and related economic and political uncertainty on demand for Wolfspeed’s products and its global operations; risks resulting from the concentration of Wolfspeed’s business among few customers, including the risk that customers may reduce or cancel orders or fail to honor purchase commitments; risks posed by managing a complex supply chain, including managing the impacts of supply constraints in the semiconductor industry and meeting purchase commitments under take-or-pay arrangements with certain suppliers; the risk Wolfspeed may be required to record a significant charge to earnings if its amortizable assets become impaired; risks relating to confidential information theft or misuse, including through cyber-attacks or cyber intrusion; risks relating to the development and commercialization of new products and remaining competitive in the face of rapid technological change; risks related to customer acceptance of Wolfspeed’s products, maintenance of the Wolfspeed brand and reputation, and the ability of its products to meet customer requirements and performance expectations; risks associated with ongoing litigation, including but not limited to intellectual property litigation; risks associated with strategic transactions; and other factors discussed in Wolfspeed’s filings with the Securities and Exchange Commission (the “SEC”), including Wolfspeed’s report on Form 10-K for the fiscal year ended June 28, 2026, and subsequent reports filed with the SEC. These forward-looking statements represent Wolfspeed’s judgment as of the date of this press release. Except as required under the U.S. federal securities laws and the rules and regulations of the SEC, Wolfspeed disclaims any intent or obligation to update any forward-looking statements after the date of this press release, whether as a result of new information, future events, developments, changes in assumptions or otherwise.
+Wolfspeed ® is a registered trademark and TSIC TM is a trademark of Wolfspeed, Inc.
+3
+WOLFSPEED, INC
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(unaudited)
+| | | | | | | | | | | | | | | | | |
+| Three months ended | | |
+| Successor | | | | Predecessor | | | | |
+(in millions of U.S. Dollars, except per share data) | Three months ended September 27, 2026 | | | | Three months ended September 28, 2025 | | | | |
+Revenue, net | $155.0 | | | | | $196.8 | | | | | |
+Cost of revenue, net | 189.0 | | | | | 273.9 | | | | | |
+Gross loss | (34.0) | | | | | (77.1) | | | | | |
+Gross margin percentage | (22) | % | | | | (39) | % | | | | |
+| | | | | | | | | |
+Operating expenses: | | | | | | | | | |
+Research and development | 27.8 | | | | | 31.7 | | | | | |
+Sales, general and administrative | 39.9 | | | | | 37.9 | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Gain on disposal of property and equipment | (3.2) | | | | | (5.7) | | | | | |
+| | | | | | | | | |
+Restructuring and other expenses | 14.3 | | | | | 20.4 | | | | | |
+Total operating expense | 78.8 | | | | | 84.3 | | | | | |
+Operating loss | (112.8) | | | | | (161.4) | | | | | |
+Operating loss percentage | (73) | % | | | | (82) | % | | | | |
+Reorganization items, net | — | | | | | 503.8 | | | | | |
+Interest expense, net | 40.0 | | | | | 0.7 | | | | | |
+Non-operating (income) expense, net | (9.1) | | | | | (22.4) | | | | | |
+Loss before income taxes | (143.7) | | | | | (643.5) | | | | | |
+Income tax expense (benefit) | 0.1 | | | | | 0.1 | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Net loss | ($143.8) | | | | | ($643.6) | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Basic and diluted loss per share | | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Net loss | ($2.61) | | | | | ($4.12) | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+Weighted average shares (in thousands) | | | | | | | | | |
+Basic and diluted | 55,000 | | | | | 156,185 | | | | | |
+| | | | | | | | | |
+4
+WOLFSPEED, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(unaudited)
+| | | | | | | | | | | | | | | |
+| Successor as of | | | | |
+(in millions of U.S. Dollars) | September 27, 2026 | | June 28, 2026 | | | | |
+Assets | | | | | | | |
+| | | | | | | |
+Cash, cash equivalents, and short-term investments | $995.1 | | | $1,088.6 | | | | | |
+Accounts receivable, net | 109.3 | | | 98.2 | | | | | |
+Inventories, net | 203.5 | | | 234.2 | | | | | |
+Prepaid expenses | 38.4 | | | 38.8 | | | | | |
+Investment tax credit receivable | 84.4 | | | 84.4 | | | | | |
+Other current assets | 49.0 | | | 45.2 | | | | | |
+| | | | | | | |
+| | | | | | | |
+Total current assets | 1,479.7 | | | 1,589.4 | | | | | |
+Property and equipment, net | 695.3 | | | 691.4 | | | | | |
+| | | | | | | |
+Intangible assets, net | 376.4 | | | 392.2 | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Long-term investment tax credit receivable | 112.2 | | | 116.5 | | | | | |
+Other assets | 211.9 | | | 215.4 | | | | | |
+| | | | | | | |
+Total assets | $2,875.5 | | | $3,004.9 | | | | | |
+| | | | | | | |
+Liabilities and Stockholders' Equity | | | | | | | |
+| | | | | | | |
+Accounts payable and accrued expenses | $108.7 | | | $118.5 | | | | | |
+Contract liabilities and distributor-related reserves | 58.6 | | | 61.1 | | | | | |
+Income taxes payable | 0.6 | | | 0.7 | | | | | |
+| | | | | | | |
+Finance lease liabilities | 0.1 | | | 0.2 | | | | | |
+| | | | | | | |
+Other current liabilities | 70.5 | | | 51.1 | | | | | |
+| | | | | | | |
+Total current liabilities | 238.5 | | | 231.6 | | | | | |
+Long-term debt | 930.3 | | | 931.0 | | | | | |
+Convertible notes, net | 750.3 | | | 756.5 | | | | | |
+| | | | | | | |
+Finance lease liabilities - long-term | 1.9 | | | 1.9 | | | | | |
+Other long-term liabilities | 150.5 | | | 153.7 | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Total liabilities | 2,071.5 | | | 2,074.7 | | | | | |
+| | | | | | | |
+Stockholders’ equity: | | | | | | | |
+Common stock | 0.1 | | | 0.1 | | | | | |
+Additional paid-in-capital | 1,364.9 | | | 1,345.9 | | | | | |
+Accumulated other comprehensive loss | (1.4) | | | — | | | | | |
+Accumulated deficit | (559.6) | | | (415.8) | | | | | |
+| | | | | | | |
+| | | | | | | |
+Total equity | 804.0 | | | 930.2 | | | | | |
+Total liabilities and stockholders’ equity (deficit) | $2,875.5 | | | $3,004.9 | | | | | |
+5
+WOLFSPEED, INC.
+CONSOLIDATED STATEMENTS OF CASH FLOWS
+(unaudited)
+| | | | | | | | | | | |
+| Three months ended |
+| Successor | | Predecessor |
+(in millions of U.S. Dollars) | September 27, 2026 | | September 28, 2025 |
+Operating activities: | | | |
+Net (loss) income | ($143.8) | | | ($643.6) | |
+| | | |
+| | | |
+Adjustments to reconcile net loss to cash used in operating activities of continuing operations: | | | |
+Non-cash reorganization items | — | | | 475.7 | |
+Depreciation and amortization | 29.2 | | | 69.3 | |
+| | | |
+Gain on sale of property | (3.2) | | | (5.7) | |
+Gain on RTP Fab Transfer | — | | | (25.4) | |
+Amortization and write-off of deferred financing costs | 2.9 | | | — | |
+Stock-based compensation | 10.3 | | | 13.6 | |
+Loss on equity investment | — | | | 10.9 | |
+Inventory reserves | 6.1 | | | 29.0 | |
+(Gain) loss on disposal or impairment of property and equipment | (0.2) | | | 0.2 | |
+| | | |
+| | | |
+| | | |
+Amortization of premium on investments, net | (1.4) | | | (1.2) | |
+| | | |
+| | | |
+Deferred income taxes | 0.2 | | | — | |
+Changes in operating assets and liabilities: | 15.7 | | | 82.9 | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+Cash (used in) provided by operating activities | (84.2) | | | 5.7 | |
+| | | |
+Investing activities: | | | |
+Purchases of property and equipment | (10.6) | | | (104.0) | |
+Purchases of patent and licensing rights | (1.8) | | | (1.4) | |
+Proceeds from sale of property and equipment | 3.7 | | | 13.9 | |
+Proceeds from sale of MACOM Shares | — | | | 92.7 | |
+Purchases of short-term investments | (257.1) | | | (83.4) | |
+Proceeds from maturities of short-term investments | 177.7 | | | 151.8 | |
+Proceeds from sale of short-term investments | 7.9 | | | 67.2 | |
+Reimbursement of capital expenditures from incentives and investment credits | 0.1 | | | 0.1 | |
+| | | |
+| | | |
+| | | |
+| | | |
+Cash (used in) provided by investing activities | (80.1) | | | 136.9 | |
+| | | |
+Financing activities: | | | |
+| | | |
+| | | |
+| | | |
+Payments of deferred financing costs | (0.2) | | | — | |
+| | | |
+| | | |
+| | | |
+| | | |
+Adequate protection payments on Existing Senior Secured Notes | — | | | (38.4) | |
+Tax withholding on vested equity awards | (0.9) | | | (0.6) | |
+Payments on long-term debt borrowings, including finance lease obligations | (0.1) | | | — | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+Cash used in financing activities | (1.2) | | | (39.0) | |
+Effects of foreign exchange changes on cash and cash equivalents | 0.5 | | | 0.8 | |
+Net change in cash, cash equivalents and restricted cash | (165.0) | | | 104.4 | |
+| | | |
+Cash and cash equivalents, beginning of period | 576.3 | | | 467.2 | |
+Cash and cash equivalents, end of period | $411.3 | | | $571.6 | |
+add: Short-term Investments | $583.8 | | | $354.4 | |
+Cash, cash equivalents, and short-term investments | $995.1 | | | $926.0 | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+6
+Product Line Revenue
+| | | | | | | | | | | | | | | |
+| | | |
+| Successor | | Predecessor | | | | |
+(in millions of U.S. Dollars) | Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+Power Products | $116.8 | | | $131.8 | | | | | |
+Materials Products | 38.2 | | | 65.0 | | | | | |
+Total | $155.0 | | | $196.8 | | | | | |
+Non-GAAP Measures of Financial Performance
+To supplement the Company's consolidated financial statements presented in accordance with generally accepted accounting principles ("GAAP"), Wolfspeed uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross margin, non-GAAP operating loss, non-GAAP non-operating (expense) income, net, non-GAAP net loss, non-GAAP diluted loss per share, non-GAAP EBITDA, adjusted EBITDA and free cash flow. These measures are presented for continuing operations only.
+Reconciliation to the nearest GAAP measure of all historical non-GAAP measures included in this press release can be found in the tables included with this press release.
+Non-GAAP measures presented in this press release are not in accordance with or an alternative to measures prepared in accordance with GAAP and may be different from non-GAAP measures used by other companies. In addition, these non-GAAP measures are not based on any comprehensive set of accounting rules or principles. Non-GAAP measures have limitations in that they do not reflect all of the amounts associated with Wolfspeed's results of operations as determined in accordance with GAAP. These non-GAAP measures should only be used to evaluate Wolfspeed's results of operations in conjunction with the corresponding GAAP measures.
+Wolfspeed believes that these non-GAAP measures, when shown in conjunction with the corresponding GAAP measures, enhance investors' and management's overall understanding of the Company's current financial performance and the Company's prospects for the future, including cash flows available to pursue opportunities to enhance shareholder value. In addition, because Wolfspeed has historically reported certain non-GAAP results to investors, the Company believes the inclusion of non-GAAP measures provides consistency in the Company's financial reporting.
+For its internal budgeting process, and as discussed further below, Wolfspeed's management uses financial statements that do not include the items listed below and the income tax effects associated with the foregoing. Wolfspeed's management also uses non-GAAP measures, in addition to the corresponding GAAP measures, in reviewing the Company's financial results.
+Wolfspeed excludes the following items from one or more of its non-GAAP measures when applicable:
+Stock-based compensation expense. This expense consists of expenses for stock options, restricted stock, performance stock awards and employee stock purchases through its Employee Stock Purchase Program. Wolfspeed excludes stock-based compensation expenses from its non-GAAP measures because they are non-cash expenses that Wolfspeed does not use to evaluate core operating performance.
+Restructuring and facility closure costs. During the first quarter of fiscal 2025, the Company began a headcount reduction and facility consolidation plan (the "2025 Restructuring Plan") to incur costs to optimize its operating model and accelerate its transition to 200 mm silicon carbide offerings through facility closures and headcount reduction initiatives. Wolfspeed does not include these expenses when evaluating core operating activities for strategic decision making, forecasting future results and evaluating current performance, as these activities may be non-recurring, unusual, infrequent or directly related to an event that is distinct and non-reflective of the Company's ongoing business operations. Restructuring and facility closure costs associated with the 2025 Restructuring Plan primarily consist of severance, asset-related charges and other closure-related costs. Other closure-related costs primarily consist of contract termination costs, manufacturing transition charges and certain inventory abandonments that are directly attributable to a facility closure. Contract termination costs are directly attributable to facility closures and other restructuring-related activities. Manufacturing transition charges include non-productive manufacturing expenses incurred during the period from when shutdown activities commence to when a facility is closed. Inventory abandonments relate to identification and disposal of inventory that will not be utilized after a product line is transferred to a new manufacturing location. Loss on disposition of assets results from abandonment of non-productive assets in accordance with a restructuring plan. During the second and fourth quarters of fiscal 2026, the Company
+7
+implemented additional headcount reductions. The costs related to these initiatives, primarily severance, were recorded in the second and fourth quarters of fiscal 2026 and the first quarter of fiscal 2027, as applicable.
+Supply Contract renegotiation fee . Wolfspeed incurred a penalty to renegotiate the terms of a multi-year agreement with a supplier. Wolfspeed does not believe this is reflective of its ongoing operating results.
+Gain/loss on disposal of property and equipment. Wolfspeed sold idle equipment during the first quarter of fiscal 2027 and 2026, respectively. Wolfspeed does not believe these gains and losses are reflective of ongoing operating results.
+Idle facility costs . Wolfspeed incurred charges related to the recent closure of a facility, while tools are removed and transferred or sold during the first half of fiscal 2027. Wolfspeed does not believe this is reflective of its ongoing operating results.
+Project, transformation and transaction costs. The Company has incurred professional services fees and other costs associated with completed and potential acquisitions and divestitures, transformation programs focused on optimizing the Company's administrative processes, and certain costs associated with the 2025 Chapter 11 reorganization that are not accounted for as Reorganization items, net in accordance with ASC 852. These costs are recorded within "Restructuring and other expenses". Wolfspeed excludes these items because Wolfspeed believes they are not reflective of the ongoing operating results of Wolfspeed's business.
+Reorganization items, net. Wolfspeed has incurred significant costs incurred during and directly related to the 2025 Chapter 11 reorganization, primarily consisting of professional fees, valuation adjustments to allowed claims, gains on liabilities subject to compromise, and fair value adjustments related to the adoption of fresh start accounting were recorded as "Reorganization items, net" in accordance with applicable guidance. Wolfspeed does not believe these expenses are reflective of ongoing operating results.
+Loss on equity investment. The Company received shares of MACOM common stock in connection with the divestiture of the RF product line. These shares are accounted for utilizing the fair value option and changes in the fair value of the shares are recognized in income. The Company completed the sale of the MACOM shares received in September 2025. Wolfspeed excludes the impact of these gains or losses from its non-GAAP measures because Wolfspeed believes it is not reflective of the ongoing operating results of Wolfspeed's business.
+Gain on RTP fab transfer. Wolfspeed recognized a gain on the contracts that were connected to the sale of its Radio Frequency product line when the RTP fab transfer was completed on July 25, 2025. Wolfspeed does not believe this gain is reflective of ongoing operating results.
+Amortization of premiums, discount and debt issuance costs. net Interest expense for certain of the Company's outstanding debt obligations includes amortization of premiums/discount and debt issuance costs. Wolfspeed excludes amortization of premium/discount and debt issuance costs from its non-GAAP measures because they are non-cash expenses that Wolfspeed does not use to evaluate core operating performance.
+Wolfspeed may incur some of these same expenses, including income taxes associated with these expenses, in future periods.
+In addition to the non-GAAP measures discussed above, Wolfspeed also uses free cash flow as a measure of operating performance and liquidity. Free cash flow represents operating cash flows from continuing operations, less net purchases of property and equipment and patent and licensing rights. Wolfspeed considers free cash flow to be an operating performance and a liquidity measure that provides useful information to management and investors about the amount of cash generated by the business after the purchases of property and equipment, a portion of which can then be used to, among other things, invest in Wolfspeed's business, make strategic acquisitions and strengthen the balance sheet. A limitation of the utility of free cash flow as a measure of operating performance and liquidity is that it does not represent the residual cash flow available to the company for discretionary expenditures, as it excludes certain mandatory expenditures such as debt service.
+8
+WOLFSPEED, INC.
+Reconciliation of GAAP to Non-GAAP Measures
+(in millions of U.S. Dollars, except per share amounts and percentages)
+(unaudited)
+Non-GAAP Gross Margin | | | | | | | | | | | | | | | |
+| | | |
+| Successor | | Predecessor | | | | |
+| Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+GAAP gross loss | ($34.0) | | | ($77.1) | | | | | |
+GAAP gross margin percentage | (22) | % | | (39) | % | | | | |
+Adjustments: | | | | | | | |
+Stock-based compensation expense | 2.4 | | | 7.8 | | | | | |
+Supply contract renegotiation fee | 11.8 | | | — | | | | | |
+Restructuring and facility closure costs | — | | | 18.1 | | | | | |
+Non-GAAP gross (loss) profit | ($19.8) | | | ($51.2) | | | | | |
+Non-GAAP gross margin percentage | (13) | % | | (26) | % | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Non-GAAP Operating Loss | | | | | | | | | | | | | | | |
+| Three months ended | | |
+| Successor | | Predecessor | | | | |
+| Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+GAAP operating loss | ($112.8) | | | ($161.4) | | | | | |
+GAAP operating loss percentage | (73) | % | | (82) | % | | | | |
+Adjustments: | | | | | | | |
+Stock-based compensation expense: | | | | | | | |
+Cost of revenue, net | 2.4 | | | 7.8 | | | | | |
+Research and development | 1.1 | | | 2.2 | | | | | |
+Sales, general and administrative | 6.8 | | | 3.6 | | | | | |
+Total stock-based compensation expense | 10.3 | | | 13.6 | | | | | |
+| | | | | | | |
+Supply contract renegotiation fee | 11.8 | | | — | | | | | |
+Idle facility cost | 4.0 | | | — | | | | | |
+Project, transformation and transaction costs | 5.2 | | | 13.8 | | | | | |
+| | | | | | | |
+Restructuring and facility closure costs: | | | | | | | |
+Cost of revenue, net | — | | | 18.1 | | | | | |
+Restructuring and other expenses | 1.3 | | | 3.7 | | | | | |
+Total restructuring and other costs | 1.3 | | | 21.8 | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Gain on disposal of property and equipment | (3.2) | | | (5.3) | | | | | |
+Total adjustments to GAAP operating loss | 29.4 | | | 43.9 | | | | | |
+Non-GAAP operating loss | ($83.4) | | | ($117.5) | | | | | |
+Non-GAAP operating loss percentage | (54) | % | | (60) | % | | | | |
+9
+Non-GAAP Non-Operating Income (Expense), net | | | | | | | | | | | | | | | |
+| Three months ended | | |
+| Successor | | Predecessor | | | | |
+| Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+GAAP non-operating income (expense), net | ($30.9) | | | ($482.1) | | | | | |
+Adjustments: | | | | | | | |
+Reorganization Costs, net | — | | | 503.8 | | | | | |
+| | | | | | | |
+Loss on equity investment | — | | | 10.9 | | | | | |
+Amortization of premiums, discount and debt issuance costs, net | 3.0 | | | — | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Gain on RTP fab transfer | — | | | (25.4) | | | | | |
+| | | | | | | |
+Non-GAAP non-operating income (expense), net | ($27.9) | | | $7.2 | | | | | |
+Non-GAAP Net Loss | | | | | | | | | | | | | | | |
+| Successor | | Predecessor | | | | |
+| Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+| | | | | | | |
+| | | | | | | |
+GAAP net loss | ($143.8) | | | ($643.6) | | | | | |
+Adjustments: | | | | | | | |
+Stock-based compensation expense | 10.3 | | | 13.6 | | | | | |
+| | | | | | | |
+| | | | | | | |
+Supply contract renegotiation fee | 11.8 | | | — | | | | | |
+Idle facility cost | 4.0 | | | — | | | | | |
+Project, transformation and transaction costs | 5.2 | | | 13.8 | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Restructuring and facility closure costs | 1.3 | | | 21.8 | | | | | |
+| | | | | | | |
+| | | | | | | |
+Gain on disposal of property and equipment | (3.2) | | — | | (5.3) | | | | | |
+Reorganization Costs, net | — | | | 503.8 | | | | | |
+Loss on equity investment | — | | | 10.9 | | | | | |
+Amortization of premiums, discount and debt issuance costs, net | 3.0 | | | — | | | | | |
+| | | | | | | |
+| | | | | | | |
+Gain on RTP fab transfer | — | | | (25.4) | | | | | |
+| | | | | | | |
+| | | | | | | |
+Total adjustments to GAAP net income before provision for income taxes | 32.4 | | | 533.2 | | | | | |
+Income tax effect (expense) benefit | — | | | 25.2 | | | | | |
+Non-GAAP net loss | ($111.4) | | | ($85.2) | | | | | |
+| | | | | | | |
+Non-GAAP diluted loss per share | ($2.03) | | | ($0.55) | | | | | |
+Diluted weighted average shares (in thousands) | 55,000 | | | 156,185 | | | | | |
+10
+Adjusted EBITDA
+| | | | | | | | | | | | | | | |
+| Successor | | Predecessor | | |
+| Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+GAAP net loss | ($143.8) | | | ($643.6) | | | | | |
+Income tax (benefit) expense | 0.1 | | | 0.1 | | | | | |
+Interest expense, net | 30.7 | | | (8.2) | | | | | |
+Depreciation and amortization | 29.2 | | | 69.3 | | | | | |
+EBITDA (Non-GAAP) | (83.8) | | | (582.4) | | | | | |
+| | | | | | | |
+Reconciling items to adjusted EBITDA (Non-GAAP) | | | | | | | |
+Stock based compensation | 10.3 | | | 13.6 | | | | | |
+Project, transformation and transaction costs | 5.2 | | | 13.8 | | | | | |
+Idle facility cost (1)
+| 3.7 | | | — | | | | | |
+Gain on RTP fab transfer | — | | | (25.4) | | | | | |
+Reorganization costs, net | — | | | 503.8 | | | | | |
+Loss on equity investment | — | | | 10.9 | | | | | |
+Restructuring and facility closure costs (2)
+| 1.3 | | | 13.6 | | | | | |
+Supply contract renegotiation fee | 11.8 | | | — | | | | | |
+| | | | | | | |
+Gain on disposal of property and equipment | (3.2) | | | (5.3) | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+Adjusted EBITDA (Non-GAAP) | ($54.7) | | | ($57.4) | | | | | |
+| | | | | | | |
+(1) Excludes idle facility costs-related depreciation of $ 0.3 million and $0.0 million included in "Depreciation and amortization" for the three months ended September 27,2026 and September 28, 2025, respectively.
+(2) Excludes restructuring-related depreciation of $0.0 million and $ 8.2 million included in "Depreciation and amortization" for the three months ended September 27,2026 and September 28, 2025, respectively.
+Free Cash Flow | | | | | | | | | | | | | | | |
+| | | |
+| Successor | | Predecessor | | | | |
+| Three months ended September 27, 2026 | | Three months ended September 28, 2025 | | | | |
+Net cash used in operating activities | ($84.2) | | | $5.7 | | | | | |
+Less: PP&E spending, net of reimbursements from long-term incentive agreement | (10.5) | | | (103.9) | | | | | |
+Less: Patents spending | (1.8) | | | (1.4) | | | | | |
+Total free cash flow | ($96.5) | | | ($99.6) | | | | | |
+11
+Contact:
+Dan Whalen
+Wolfspeed, Inc.
+Vice President, Investor Relations
+investorrelations@wolfspeed.com
+Source: Wolfspeed, Inc.
+12

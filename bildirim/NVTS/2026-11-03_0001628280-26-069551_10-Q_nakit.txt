@@ -1,0 +1,95 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1821769/000162828026069551/nvts-20260930.htm
+SEMBOL: NVTS
+BASVURU_TARIHI: 2026-11-03
+BASVURU: 0001628280-26-069551
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+Nine Months Ended September 30, |
+(In thousands) | 2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net loss | $ | ( 299,111 ) | $ | ( 85,138 ) |
+Adjustments to reconcile net loss to net cash used in operating activities: |
+Depreciation | 2,599 | 2,558 |
+Amortization of intangible assets | 12,671 | 14,203 |
+Non-cash lease expense | 1,298 | 1,333 |
+Stock-based compensation expense | 27,768 | 6,526 |
+Impairment of investment | 7,249 | — |
+Allowance for expected credit losses | ( 370 ) | 982 |
+Investment (gains) losses | ( 497 ) | 827 |
+Impairment of long-lived assets | 2,876 | — |
+Loss on property and equipment | 433 | 8 |
+Loss from change in fair value of earnout liability | 210,981 | 20,695 |
+Deferred income taxes | ( 131 ) | ( 70 ) |
+Change in operating assets and liabilities: |
+Accounts receivable | ( 1,726 ) | 3,212 |
+Inventories | ( 19,105 ) | 812 |
+Prepaid expenses and other current assets | ( 12,118 ) | 236 |
+Other assets | ( 23 ) | 979 |
+Accounts payable, accrued compensation and other accrued expenses | 1,610 | ( 676 ) |
+Operating lease liability | ( 1,309 ) | ( 1,270 ) |
+Net cash used in operating activities | ( 66,905 ) | ( 34,783 ) |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Proceeds from disposition of property and equipment | — | 46 |
+Investment purchases
+| ( 6,428 ) | — |
+Purchases of property and equipment | ( 1,353 ) | ( 1,430 ) |
+Net cash used in investing activities | ( 7,781 ) | ( 1,384 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Proceeds from the issuance of shares in the At-the-market offerings | 380,731 | 100,000 |
+Costs for the issuance of common stock for the At-the-market offering | ( 7,628 ) | ( 3,250 ) |
+Payments on equipment financing obligation | ( 2,599 ) | — |
+Proceeds from issuance of common stock in connection with stock option exercises | 12 | 1,028 |
+Proceeds from employee stock purchase plan | 1,401 | 1,498 |
+Settlement of earnout shares | ( 3,750 ) | — |
+Payments on finance lease obligations | ( 241 ) | ( 128 ) |
+Net cash provided by financing activities | 367,926 | 99,148 |
+NET INCREASE IN CASH | 293,240 | 62,981 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT BEGINNING OF PERIOD | 238,602 | 88,240 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT END OF PERIOD | $ | 531,842 | $ | 151,221 |
+9
+TABLE OF CONTENTS
+RECONCILIATION OF CASH, CASH EQUIVALENTS AND RESTRICTED CASH |
+Cash and cash equivalents | $ | 531,479 | $ | 150,551 |
+Restricted cash | 363 | 670 |
+TOTAL CASH, CASH EQUIVALENTS AND RESTRICTED CASH | $ | 531,842 | $ | 151,221 |
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION: |
+Cash paid for income taxes | $ | 182 | $ | 259 |
+Cash paid for interest | $ | 24 | $ | 19 |
+Capital expenditures in accounts payable | $ | 200 | $ | 156 |
+SUPPLEMENTAL DISCLOSURE OF NON-CASH INVESTING AND FINANCING ACTIVITIES:
+|
+Shares issued in connection with Earnout Settlement | $ | 229,862 | $ | — |
+Shares issued in connection with annual bonus | $ | 497 | $ | 2,988 |
+Noncash finance lease acquisition | $ | — | $ | 985 |
+Deferred offering costs | $ | 83 | $ | — |
+The accompanying condensed notes are an integral part of these condensed consolidated financial statements.
+10
+NAVITAS SEMICONDUCTOR CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+1. ORGANIZATION AND BASIS OF PRESENTATION
+Navitas Semiconductor Corporation (the “Company”) was founded in 2014 and has since been developing next-generation power semiconductors including gallium nitride (“GaN”) power integrated circuits (“ICs”), silicon carbide (“SiC”) and associated high-speed silicon system controllers and digital isolators used in power conversion and charging. The Company presently operates as a product design house that contracts the manufacturing of its chips and packaging to partner suppliers. Navitas maintains its operations around the world, including the United States, Philippines, China, Taiwan, and South Korea, with principal executive offices in Torrance, California.
+The Company has two authorized classes of common stock: Class A common stock, par value of $ 0.0001 per share (“Class A common stock”) and Class B common stock, par value of $ 0.0001 per share (“Class B common stock”). Both classes have identical voting, dividend, and liquidation rights. There were no outstanding Class B shares as of September 30, 2026 and December 31, 2025. The Company also has authorized 1.0 million shares of preferred stock, par value of $ 0.0001 per share (“preferred stock”), with no amounts outstanding as of September 30, 2026 and December 31, 2025. The preferred stock may be issued with terms, rights, and preferences determined by the board of directors at the time of issuance.
+Execution of At-The-Market Sales Agreements
+During the three months ended June 30, 2026, the Company sold approximately 17.4 million shares of Class A common stock in at-the-market offerings, for gross proceeds of approximately $380.7 million and offering-related costs of approximately $7.6 million. The sales were made under two Sales Agreements: the first, entered into on May 11, 2026, terminated on May 12, 2026 upon completion of its $ 125.0 million offering, and the second, entered into on June 8, 2026, provides for sales of up to $ 500.0 million. No shares were sold under either agreement during the three months ended September 30, 2026, and approximately $244.3 million remained available under the second agreement as of September 30, 2026.
+11
+TABLE OF CONTENTS
+NAVITAS SEMICONDUCTOR CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+Basis of Presentation and Use of Estimates
+The accompanying condensed consolidated financial statements are unaudited and have been prepared in accordance with U.S. Generally Accepted Accounting Principles ("U.S. GAAP") and pursuant to the rules and regulations of the U.S. Securities and Exchange Commission ("SEC"). In our opinion, they include all adjustments, consisting only of normal recurring adjustments, necessary for the fair presentation of results for the interim periods. Certain information and note disclosures normally included in financial statements prepared in accordance with U.S. GAAP have been condensed or omitted as permitted by the SEC's rules and regulations for interim reporting. These condensed consolidated financial statements should be read in conjunction with our audited financial statements and notes thereto included in our annual report on Form 10-K for the year ended December 31, 2025, filed with the SEC on February 27, 2026.
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and judgments affecting the amounts reported in our condensed consolidated financial statements and the accompanying notes. We base our estimates and judgments on historical experience, knowledge of current conditions, and our beliefs of what could occur in the future considering available information. While we believe that our estimates, assumptions, and judgments are reasonable, they are based on information available when made, and because of the uncertainty inherent in these matters, the actual results that we experience may differ materially from these estimates under different assumptions or conditions. We evaluate our estimates and judgments on an ongoing basis.
+We describe our accounting methods and practices in more detail in our 2025 10-K. There have been no changes to the significant accounting policies, procedures, or general information described in our 2025 10-K that have had a material impact on our condensed consolidated financial statements and the accompanying notes, except as described in Note 15 - “Related Party Transactions and Equity Investments.”
+Reclassifications
+Certain prior period amounts have been reclassified to conform to the current period present ation for the nine months ended September 30, 2026. Equipment previously included in construction in progress has been reclassified to computers and other equipment. This reclassification had no impact on net loss or retained earnings.
+12
+TABLE OF CONTENTS
+NAVITAS SEMICONDUCTOR CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+2. RECENT ACCOUNTING PRONOUNCEMENTS
+Recently Issued Accounting Standards
+In November 2024, the Financial Accounting Standards Board (the “FASB”) issued Accounting Standards Update (“ASU”) No. 2024-03, Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures , which mandates enhanced disclosure of specific costs and expenses within the notes to the financial statements. The guidance is effective for annual reporting periods beginning after December 15, 2026, and interim periods within annual reporting periods beginning after December 15, 2027. Early adoption is permitted, and the amendments may be applied prospectively to reporting periods after the effective date or retrospectively to all periods presented in the financial statements. The Company is curre

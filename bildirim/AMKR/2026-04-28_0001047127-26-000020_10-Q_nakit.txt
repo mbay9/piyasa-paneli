@@ -1,0 +1,76 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1047127/000104712726000020/amkr-20260331.htm
+SEMBOL: AMKR
+BASVURU_TARIHI: 2026-04-28
+BASVURU: 0001047127-26-000020
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited)
+For the Three Months Ended March 31, |
+| 2026 | 2025 |
+| (In thousands) |
+Cash flows from operating activities: | | |
+Net income | $ | 83,966 | $ | 21,853 |
+Depreciation and amortization | 170,903 | 153,821 |
+Other operating activities and non-cash items | ( 5,871 ) | 5,967 |
+Changes in assets and liabilities | ( 103,911 ) | ( 157,492 ) |
+Net cash provided by operating activities | 145,087 | 24,149 |
+Cash flows from investing activities: | | |
+Payments for property, plant and equipment | ( 224,605 ) | ( 79,897 ) |
+Proceeds from sale of property, plant and equipment | 7,179 | 4,209 |
+Proceeds from foreign exchange forward contracts | 14,899 | 16,674 |
+Payments for foreign exchange forward contracts | ( 16,684 ) | ( 15,992 ) |
+Payments for short-term investments | ( 258,469 ) | ( 169,720 ) |
+Proceeds from sale of short-term investments | 14,607 | 32,345 |
+Proceeds from maturities of short-term investments | 127,318 | 147,825 |
+Other investing activities | 1,036 | 1,502 |
+Net cash used in investing activities | ( 334,719 ) | ( 63,054 ) |
+Cash flows from financing activities: | | |
+Payments of long-term debt | ( 27,737 ) | ( 25,493 ) |
+Payments of finance lease obligations | ( 14,543 ) | ( 15,659 ) |
+Payments of dividends | ( 20,694 ) | — |
+Other financing activities | ( 4,073 ) | ( 1,099 ) |
+Net cash used in financing activities | ( 67,047 ) | ( 42,251 ) |
+Effect of exchange rate fluctuations on cash, cash equivalents and restricted cash | ( 282 ) | 5,172 |
+Net decrease in cash, cash equivalents and restricted cash | ( 256,961 ) | ( 75,984 ) |
+Cash, cash equivalents and restricted cash, beginning of period | 1,446,123 | 1,134,312 |
+Cash, cash equivalents and restricted cash, end of period | $ | 1,189,162 | $ | 1,058,328 |
+Non-cash investing and financing activities: |
+Property, plant and equipment included in capital expenditures payable | $ | 381,637 | $ | 202,242 |
+Dividends declared and unpaid | — | 20,423 |
+Right of use assets acquired through operating lease liabilities
+| 239 | 395 |
+Right of use assets acquired through finance lease liabilities | 4,007 | 10,645 |
+Property, plant and equipment acquired through exchange and derecognition of right of use assets | 5,250 | 11,507 |
+Grants and incentive receivables recognized for qualified capital expenditures | 37,648 | 2,939 |
+The accompanying notes are an integral part of these statements.
+-7-
+Table of Contents
+AMKOR TECHNOLOGY, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+1. Interim Financial Statements
+Basis of Presentation. The Consolidated Financial Statements and related disclosures as of March 31, 2026, and for the three months ended March 31, 2026 and 2025, contained in this Form 10-Q (the “Consolidated Financial Statements”) are unaudited pursuant to the rules and regulations of the SEC. The December 31, 2025 Consolidated Balance Sheet data contained in this Form 10-Q was derived from audited financial statements but does not include all disclosures required by accounting principles generally accepted in the United States of America (“U.S. GAAP”). Certain information and footnote disclosures normally included in financial statements prepared in accordance with U.S. GAAP have been condensed or omitted pursuant to SEC rules and regulations. In our opinion, the Consolidated Financial Statements include all adjustments (consisting only of normal recurring adjustments) necessary for the fair statement of the results for the interim periods and should be read in conjunction with the financial statements included in the 2025 Form 10-K. The results of operations for the three months ended March 31, 2026 are not necessarily indicative of the results to be expected for the full year ending December 31, 2026. Unless the context otherwise requires, all references to “Amkor,” “we,” “us” or “our” are to Amkor Technology, Inc. and its wholly and majority-owned subsidiaries. Certain prior year amounts have been recast to conform to current year presentation.
+Use of Estimates. The Consolidated Financial Statements have been prepared in conformity with U.S. GAAP, using management’s best estimates and judgments where appropriate. These estimates and judgments affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the financial statements. The estimates and judgments will also affect the reported amounts for certain revenues and expenses during the reporting period. Actual results could differ materially from these estimates and judgments as a result of, for example, any worsening of the global business and economic environment.
+Restricted Cash. Restricted cash mainly consists of collateral to fulfill construction requirements and funds to be used exclusively for labor costs.
+Leases. Total long-term finance lease liabilities as of March 31, 2026 and December 31, 2025 were $ 94.6 million and $ 105.0 million, respectively.
+Goodwill. The balance of goodwill in the Consolidated Balance Sheets contained in this Form 10-Q reflects adjustments for foreign currency translation.
+Unbilled Receivables . Total unbilled receivables as of March 31, 2026 and December 31, 2025 were $ 276.3 million and $ 294.1 million, respectively.
+Contract Liabilities. Contract liabilities were $ 392.4 million and $ 390.8 million as of March 31, 2026 and December 31, 2025, respectively. As of March 31, 2026 and December 31, 2025, the short-term portions of the liabilities were $ 81.8 million and $ 69.6 million, respectively. Of the remaining contract liability balance as of March 31, 2026, $ 283.8 million is expected to be recognized in revenue over the next 1 - 5 years, and $ 26.8 million over the next 5 - 10 years. Revenue recognized during the three months ended March 31, 2026 and 2025 that was included in the contract liabilities balance at the beginning of the period was $ 16.8 million and $ 15.2 million, respectively. As of March 31, 2026, $ 100.0 million of standby letters of credit were issued and outstanding related to customer advance payments received.
+Grant Accounting. From time to time, we may receive grants from governmental agencies. We recognize grants in our financial statements when there is reasonable assurance that we will comply with conditions attached to the grants and the grants will be received. Investment tax credits and grants receivable recorded reduce the carrying amounts of the qualifying property, plant and equipment in our Consolidated Balance Sheets. The following table presents investment tax credits and grants receivable as of March 31, 2026 and December 31, 2025:
+-8-
+Table of Contents
+AMKOR TECHNOLOGY, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS — (Continued)
+(Unaudited)
+March 31, 2026 | December 31, 2025 |
+(In thousands) |
+Investment tax credits recorded in: |
+Other current assets | $ | 33,604 | $ | 33,604 |
+Other assets | 25,707 | — |
+Grants receivable recorded in: |
+Other current assets | 243 | — |
+Other assets | 25,073 | 13,321 |
+Recently Issued Standards. In November 2024, the FASB issued ASU 2024-03, Income Statement - Reporting Comprehensive Income - Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses (“ASU 2024-03”), which was subsequently amended and clarified. ASU 2024-03 requires disaggregation of key expense categories such as inventory purchases, employee compensation, depreciation and intangible asset amortization in the financial statements. ASU 2024-03 is effective for annual reporting periods beginning after December 15, 2026, and interim periods within annual reporting periods beginning after December 15, 2027. Early adoption is permitted. Adoption of this ASU should be applied either prospectively after the effective date or retrospectively to any or all periods presented in the financial statements. We are currently evaluating the impact of this new standard on our financial statements, which is expected to result in enhanced disclosures.
+In September 2025, the FASB issued ASU 2025-06, Intangibles—Goodwill and Other—Internal-Use Software (Subtopic 350-40) (“ASU 2025-06”). ASU 2025-06 removes all references to project stages throughout ASC 350-40 and clarifies the applicable threshold to begin capitalizing costs. ASU 2025-06 is effective for annual reporting periods beginning after December 15, 2027, and interim periods within those annual reporting periods. Early adoption is permitted as of the beginning of an annual reporting period. Adoption of this ASU should be applied using a prospective transition approach, a modified transition approach based on project status or a retrospective transition approach. We are currently evaluating the impact of this new standard on our financial statements and disclosures.
+In December 2025, the FASB issued ASU 2025-10, Government Grants (Topic 832) (“ASU 2025-10”). ASU 2025-10 provides guidance on the accounting for government grants received by a business entity, i

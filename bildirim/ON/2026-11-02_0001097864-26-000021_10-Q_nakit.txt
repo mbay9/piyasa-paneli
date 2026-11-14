@@ -1,0 +1,80 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1097864/000109786426000021/on-20261002.htm
+SEMBOL: ON
+BASVURU_TARIHI: 2026-11-02
+BASVURU: 0001097864-26-000021
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+(unaudited)
+Nine Months Ended |
+October 2,
+2026 | October 3,
+2025 |
+Cash flows from operating activities: |
+Net income (loss) | $ | 509.0 | $ | ( 58.2 ) |
+Adjustments to reconcile net income (loss) to net cash provided by operating activities: |
+Depreciation and amortization | 563.0 | 471.1 |
+Gain on sale or disposal of fixed assets | ( 4.2 ) | ( 7.1 ) |
+Gain on divestiture of a business | ( 3.1 ) | — |
+Amortization of debt discount and issuance costs | 11.0 | 8.6 |
+Share-based compensation | 111.8 | 106.5 |
+Non-cash asset impairment charges | 166.6 | 487.9 |
+Change in deferred tax balances | ( 17.2 ) | ( 113.1 ) |
+Other | ( 3.5 ) | 1.2 |
+Changes in assets and liabilities (exclusive of acquisitions and divestiture): |
+Receivables | ( 29.6 ) | 119.4 |
+Inventories | ( 85.0 ) | 214.7 |
+Other assets | ( 59.2 ) | ( 1.7 ) |
+Accounts payable | ( 24.4 ) | 95.4 |
+Accrued expenses and other current liabilities | 129.3 | ( 62.4 ) |
+Other long-term liabilities | ( 49.3 ) | ( 57.0 ) |
+Net cash provided by operating activities | 1,215.2 | 1,205.3 |
+Cash flows from investing activities: |
+Payments for acquisition of property, plant and equipment | ( 84.0 ) | ( 272.1 ) |
+Proceeds from sale of property, plant and equipment | 17.1 | 6.8 |
+Proceeds related to divestiture of businesses, net of cash transferred | 31.7 | — |
+Purchase of short-term investments | ( 760.0 ) | ( 800.0 ) |
+Proceeds from the maturity of short-term investments | 950.0 | 700.0 |
+Payments for acquisition of a business, net of cash acquired | ( 13.0 ) | ( 117.5 ) |
+Other | 2.9 | ( 5.0 ) |
+Net cash provided by (used in) investing activities | 144.7 | ( 487.8 ) |
+Cash flows from financing activities: |
+Proceeds for the issuance of common stock under the ESPP | 18.6 | 16.6 |
+Payment of tax withholding for RSUs | ( 52.0 ) | ( 27.5 ) |
+Repurchase of common stock | ( 710.4 ) | ( 927.4 ) |
+Issuance and borrowings under debt agreements | 1,473.7 | — |
+Reimbursement of debt issuance and other financing costs | 3.4 | — |
+Payment of debt issuance and other financing costs | ( 4.2 ) | — |
+Repayment of borrowings under debt agreements | ( 0.2 ) | — |
+Payment for purchase of bond hedges | ( 351.6 ) | — |
+Proceeds from issuance of warrants | 281.0 | — |
+Payment of financing lease obligations | ( 0.3 ) | ( 1.2 ) |
+Payments related to prior business acquisitions | ( 7.5 ) | ( 0.4 ) |
+Net cash provided by (used in) financing activities | 650.5 | ( 939.9 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | ( 0.3 ) | 3.0 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 2,010.1 | ( 219.4 ) |
+Cash, cash equivalents and restricted cash, beginning of period (Note 6) | 2,149.0 | 2,693.4 |
+Cash, cash equivalents and restricted cash, end of period (Note 6) | $ | 4,159.1 | $ | 2,474.0 |
+See accompanying notes to consolidated financial statements
+8
+Table of Contents
+ON SEMICONDUCTOR CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+Note 1: Background and Basis of Presentation
+ON Semiconductor Corporation ("onsemi," "we," "us," "our," or the "Company"), with its wholly and majority-owned subsidiaries, operates under the onsemi TM brand. The Company is organized into three operating and reportable segments: the Power Solutions Group ("PSG"), the Analog and Mixed-Signal Group ("AMG") and the Intelligent Sensing Group ("ISG").
+The Company's fiscal calendar year begins on January 1 and ends on December 31, with each fiscal quarter containing a thirteen-week accounting period. The quarters ended October 2, 2026 and October 3, 2025 each contained 91 days. The nine months ended October 2, 2026 and October 3, 2025 contained 275 days and 276 days, respectively.
+The accompanying unaudited financial statements as of and for the quarter and nine months ended October 2, 2026 have been prepared following generally accepted accounting principles in the United States of America ("GAAP") for interim financial reporting and the rules and regulations of the SEC for interim reporting. Accordingly, the unaudited financial statements do not include all of the information and footnotes required by GAAP for audited financial statements. The balance sheet as of December 31, 2025 was derived from the Company's audited financial statements but does not include all disclosures required by GAAP for annual financial statements. In management's opinion, the interim information contains all adjustments, which include normal recurring adjustments necessary for a fair statement of the results for the interim periods. The footnote disclosures related to the interim financial information contained herein are also unaudited. Such financial information should be read in conjunction with the consolidated financial statements and related notes thereto for the year ended December 31, 2025, included in the Company's Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the SEC on February 9, 2026 (the "2025 Form 10-K"). Certain reclassifications within revenue disaggregation by end-markets have been made to prior period amounts to conform to current period presentation. See Note 2: ''Segments and Revenue'' for additional information.
+Use of Estimates
+The preparation of financial statements in accordance with GAAP requires management to make estimates and assumptions that affect the reported amount of assets and liabilities as of the date of the financial statements and the reported amount of revenue and expenses during the reporting period. Management evaluates these estimates and judgments on an ongoing basis and bases its estimates on experience, current and expected future conditions, third-party evaluations and various other assumptions that management believes are reasonable under the circumstances. Significant estimates have been used by management in conjunction with the following: (i) calculation of future payouts for customer incentives and amounts subject to allowances and returns; (ii) valuation and obsolescence relating to inventories; (iii) measurement of valuation allowances against deferred tax assets and evaluations of uncertain tax positions; (iv) assumptions used in business combinations and the valuation of assets held-for-sale; and (v) testing for impairment of long-lived assets and goodwill. Actual results may differ from the estimates and assumptions used in the consolidated financial statements.
+Definitive Agreement to Acquire Synaptics Incorporated
+On June 25, 2026, the Company entered into an Agreement and Plan of Reorganization with Sonic Acquisition Corp., a Delaware corporation and a wholly owned subsidiary of the Company, and Synaptics Incorporated ("Synaptics"), pursuant to which Sonic Acquisition Corp. will merge with and into Synaptics, with Synaptics surviving the merger and becoming a wholly owned subsidiary of the Company (the "Merger"). On October 1, 2026, the Company, Sonic Acquisition Corp., and Synaptics entered into an Amended and Restated Agreement and Plan of Merger (the "Amended Merger Agreement") to, among other things, amend and restate in its entirety the Agreement and Plan of Reorganization. The Amended Merger Agreement revises the Merger consideration to $ 123.00 per share in cash, without interest (the "Merger Consideration"). At the effective time of the Merger, each outstanding share of Synaptics common stock (subject to limited exceptions identified in the Amended Merger Agreement) will be converted into the right to receive the per-share Merger Consideration. The Company's Board of Directors unanimously approved the Amended Merger Agreement. The transaction is expected to close in mid-2027, subject to approval by Synaptics stockholders, the receipt of required regulatory approvals and other customary conditions.
+In connection with the Amended Merger Agreement, the Company entered into a commitment letter on October 1, 2026 with Morgan Stanley Senior Funding, Inc. ("MSSF"), which was subsequently amended and restated to include JPMorgan Chase Bank, N.A. and other banks as commitment parties thereto (collectively and together with MSSF, the "Financing Parties"), pursuant to which the Financing Parties have agreed to provide, subject to satisfaction of customary closing conditions, up to
+9
+Table of Contents
+ON SEMICONDUCTOR CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - Continued
+(unaudited)
+$ 2,450.0 million of senior secured term loans for the purpose of funding a portion of the Merger Consideration, and paying fees, costs and expenses in connection with the Merger.
+The Amended Merger Agreement contains certain termination rights for each of the Company and Synaptics. In certain circumstances in which the Amended Merger Agreement is terminated, Synaptics may be required to pay the Company a termination fee of $ 235.0 million, including if the Amended Merger Agreement is terminated by the Company due to a change of recommendation by the Synaptics

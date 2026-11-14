@@ -1,0 +1,163 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm
+SEMBOL: LRCX
+BASVURU_TARIHI: 2026-10-22
+BASVURU: 0000707549-26-000054
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in thousands)
+(unaudited)
+Three Months Ended |
+September 27,
+2026 | September 28,
+2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net income | $ | 2,753,138 | $ | 1,568,660 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 122,072 | 101,644 |
+Deferred income taxes | ( 55,300 ) | ( 62,875 ) |
+Equity-based compensation expense | 114,696 | 97,241 |
+Other, net | 27,633 | ( 1,890 ) |
+Changes in operating assets and liabilities | 535,413 | 76,184 |
+Net cash provided by operating activities | 3,497,652 | 1,778,964 |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Capital expenditures and intangible assets | ( 257,697 ) | ( 185,121 ) |
+Other, net | ( 9,292 ) | ( 927 ) |
+Net cash used for investing activities | ( 266,989 ) | ( 186,048 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Principal payments on debt, including finance lease obligations and payments for debt issuance costs | ( 34,489 ) | ( 1,417 ) |
+Treasury stock purchases, including excise tax payments | ( 1,024,965 ) | ( 975,791 ) |
+Dividends paid | ( 325,402 ) | ( 291,981 ) |
+Proceeds from issuance of common stock, net of issuance costs | 4,263 | — |
+Other, net | ( 1,786 ) | ( 12,449 ) |
+Net cash used for financing activities | ( 1,382,379 ) | ( 1,281,638 ) |
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | 4,663 | ( 7,059 ) |
+Net change in cash, cash equivalents, and restricted cash | 1,852,947 | 304,219 |
+Cash, cash equivalents, and restricted cash at beginning of period (1)
+| 5,597,943 | 6,407,656 |
+Cash, cash equivalents, and restricted cash at end of period (1)
+| $ | 7,450,890 | $ | 6,711,875 |
+Schedule of non-cash transactions: |
+Accrued payables for stock repurchases, including applicable excise tax | $ | 31,512 | $ | 58,827 |
+Accrued payables for capital expenditures | 141,965 | 95,745 |
+Dividends payable | 412,218 | 327,507 |
+Transfers of finished goods inventory to property and equipment | 37,053 | 22,897 |
+Reconciliation of cash, cash equivalents, and restricted cash | September 27,
+2026 | September 28,
+2025 |
+Cash and cash equivalents | $ | 7,437,384 | $ | 6,693,046 |
+Restricted cash and cash equivalents (1)
+| 13,506 | 18,829 |
+Total cash, cash equivalents, and restricted cash | $ | 7,450,890 | $ | 6,711,875 |
+(1) Restricted cash is reported within Other assets in the Condensed Consolidated Balance Sheets
+See Notes to Condensed Consolidated Financial Statements
+Lam Research Corporation 2027 Q1 10-Q 7
+Table of Contents
+LAM RESEARCH CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(in thousands)
+(unaudited)
+Three Months Ended |
+September 27, 2026 |
+Common
+Stock
+Shares | Common
+Stock | Additional
+Paid-in
+Capital | Treasury
+Stock | Accumulated
+Other
+Comprehensive
+Loss | Retained
+Earnings | Total |
+Balance at June 28, 2026 | 1,251,278 | $ | 1,251 | $ | 9,244,449 | $ | ( 31,597,945 ) | $ | ( 127,088 ) | $ | 34,950,254 | $ | 12,470,921 |
+Issuance of common stock | 248 | — | 4,263 | — | — | — | 4,263 |
+Purchase of treasury stock | ( 2,381 ) | ( 2 ) | — | ( 1,022,127 ) | — | — | ( 1,022,129 ) |
+Equity-based compensation expense | — | — | 114,696 | — | — | — | 114,696 |
+Net income | — | — | — | — | — | 2,753,138 | 2,753,138 |
+Other comprehensive loss | — | — | — | — | ( 197 ) | — | ( 197 ) |
+Cash dividends declared ($ 0.33 per common share)
+| — | — | — | — | — | ( 412,218 ) | ( 412,218 ) |
+Balance at September 27, 2026 | 1,249,145 | $ | 1,249 | $ | 9,363,408 | $ | ( 32,620,072 ) | $ | ( 127,285 ) | $ | 37,291,174 | $ | 13,908,474 |
+Three Months Ended |
+September 28, 2025 |
+Common
+Stock
+Shares | Common
+Stock | Additional
+Paid-in
+Capital | Treasury
+Stock | Accumulated
+Other
+Comprehensive
+Loss | Retained
+Earnings | Total |
+Balance at June 29, 2025 | 1,268,740 | $ | 1,268 | $ | 8,697,290 | $ | ( 27,763,430 ) | $ | ( 62,423 ) | $ | 28,988,914 | $ | 9,861,619 |
+Issuance of common stock | 178 | — | — | — | — | — | — |
+Purchase of treasury stock | ( 9,742 ) | ( 10 ) | — | ( 996,083 ) | — | — | ( 996,093 ) |
+Equity-based compensation expense | — | — | 97,241 | — | — | — | 97,241 |
+Net income | — | — | — | — | — | 1,568,660 | 1,568,660 |
+Other comprehensive loss | — | — | — | — | ( 11,168 ) | — | ( 11,168 ) |
+Cash dividends declared ($ 0.26 per common share)
+| — | — | — | — | — | ( 327,507 ) | ( 327,507 ) |
+Balance at September 28, 2025 | 1,259,176 | $ | 1,258 | $ | 8,794,531 | $ | ( 28,759,513 ) | $ | ( 73,591 ) | $ | 30,230,067 | $ | 10,192,752 |
+See Notes to Condensed Consolidated Financial Statements
+Lam Research Corporation 2027 Q1 10-Q 8
+Table of Contents
+LAM RESEARCH CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+September 27, 2026
+(Unaudited)
+NOTE 1 — BASIS OF PRESENTATION
+The accompanying unaudited Condensed Consolidated Financial Statements have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) for interim financial information and the instructions to Article 10 of Regulation S-X. Accordingly, they do not include all of the information and footnotes required by GAAP for annual financial statements. In the opinion of management, all adjustments (consisting only of normal recurring adjustments) considered necessary for a fair presentation of the periods presented have been included. The accompanying unaudited Condensed Consolidated Financial Statements should be read in conjunction with the audited Consolidated Financial Statements of Lam Research Corporation (“Lam Research” or the “Company”) for the fiscal year ended June 28, 2026, which are included in the Company’s Annual Report on Form 10-K as of and for the year ended June 28, 2026 (the “2026 Form 10-K”).
+The Condensed Consolidated Financial Statements include the accounts of Lam Research and its wholly-owned subsidiaries. All intercompany accounts and transactions have been eliminated in consolidation. The Company’s reporting period is a 52/53-week fiscal year. The Company’s current fiscal year will end June 27, 2027 and includes 52 weeks. The quarters ended September 27, 2026 and September 28, 2025 included 13 weeks.
+NOTE 2 — RECENT ACCOUNTING PRONOUNCEMENTS
+Recently Adopted or Effective
+The Company has not adopted any new accounting standards during the three months ended September 27, 2026 that have a material impact on the Company’s Condensed Consolidated Financial Statements.
+NOTE 3 — REVENUE
+Disaggregation of Revenue
+The Company operates in seven geographic regions: United States, China, Europe, Japan, Korea, Southeast Asia, and Taiwan. For geographical reporting, revenue is attributed to the geographic location in which the customers’ facilities are located. The Company serves three primary markets: memory, foundry, and logic/integrated device manufacturing.
+The following table presents the Company’s revenues disaggregated between systems and customer support-related revenue:
+Three Months Ended |
+September 27,
+2026 | September 28,
+2025 |
+(in thousands) |
+Systems revenue | $ | 5,732,907 | $ | 3,547,565 |
+Customer support-related revenue and other | 2,486,511 | 1,776,608 |
+$ | 8,219,418 | $ | 5,324,173 |
+Systems revenue includes sales of new leading-edge equipment in deposition, etch, clean and other wafer fabrication markets.
+Customer support-related revenue includes sales of customer services, spares, upgrades, and non-leading-edge equipment from the Company’s Reliant® product line.
+Lam Research Corporation 2027 Q1 10-Q 9
+Table of Contents
+The following table presents the Company’s revenues disaggregated by geographic region:
+Three Months Ended |
+September 27,
+2026 | September 28,
+2025 |
+Revenue: | (in thousands) |
+China | $ | 2,885,608 | $ | 2,282,573 |
+Korea | 1,634,115 | 776,301 |
+Taiwan | 1,482,087 | 1,027,214 |
+Japan | 721,509 | 529,297 |
+United States | 663,102 | 304,716 |
+Southeast Asia | 531,694 | 302,254 |
+Europe | 301,303 | 101,818 |
+$ | 8,219,418 | $ | 5,324,173 |
+The following table presents the percentages of leading- and non-leading-edge equipment and upgrade revenue to each of the primary markets the Company serves:
+Three Months Ended |
+September 27,
+2026 | September 28,
+2025 |
+Foundry | 46 | % | 60 | % |
+Memory | 46 | % | 34 | % |
+Logic/integrated device manufacturing | 8 | % | 6 | % |
+Deferred Revenue
+Revenue of $ 901.2 million included in deferred profit at June 28, 2026 was recognized during the three months ended September 27, 2026, representing 37 % of the $ 2.43 billion of deferred revenue as of June 28, 2026.
+The following table summarizes the transaction price for contracts that have not yet been recognized as revenue as of September 27, 2026 and when the Company expects to recognize the amounts as revenue:
+Less than 1 Year | 1-3 Years | More than 3 Years | Total |
+(in thousands) |
+Deferred revenue | $ | 2,026,932 | $ | 539,916 | (1)
+| $ | 94,383 | (1)
+| $ | 2,661,231 |
+(1) This amount is reported in Deferred profit on the Company's Condensed Consolidated Balance Sheets as the customers can demand the p

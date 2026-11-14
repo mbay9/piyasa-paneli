@@ -1,0 +1,214 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm
+SEMBOL: COHR
+BASVURU_TARIHI: 2026-11-04
+BASVURU: 0000820318-26-000023
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows – Three Months Ended September 30, 2026 and 2025 (Unaudited)
+| 6
+|
+Condensed Consolidated Statements of Equity – Three Months Ended September 30, 2026 and 2025 (Unaudited)
+| 8
+|
+Notes to Condensed Consolidated Financial Statements (Unaudited)
+| 9
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 25
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 33
+|
+Item 4.
+| Controls and Procedures
+| 33
+|
+PART II - OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 34
+|
+Item 1A.
+| Risk Factors
+| 34
+|
+Item 5.
+| Other Information
+| 34
+|
+Item 6.
+| Exhibits
+| 35
+|
+2
+Table of Contents
+PART I - FINANCIAL INFORMATION
+Item 1. FINANCIAL STATEMENTS
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Balance Sheets (Unaudited)
+($000)
+September 30,
+2026 | June 30,
+2026 |
+Assets |
+Current Assets |
+Cash and cash equivalents | $ | 1,552,929 | $ | 1,162,018 |
+Restricted cash, current | 44,576 | 35,156 |
+Short-term investments | 200,000 | 825,000 |
+Accounts receivable - less allowance for doubtful accounts of $ 12,877 at September 30, 2026 and $ 13,193 at June 30, 2026
+| 1,604,217 | 1,343,278 |
+Inventories | 3,341,373 | 2,581,043 |
+Prepaid and refundable income taxes | 52,453 | 78,892 |
+Prepaid and other current assets | 1,128,718 | 900,112 |
+Total Current Assets | 7,924,266 | 6,925,499 |
+Property, plant & equipment, net | 3,869,814 | 2,999,343 |
+Goodwill | 4,448,341 | 4,375,597 |
+Other intangible assets, net | 2,815,867 | 2,884,474 |
+Deferred income taxes | 90,429 | 69,434 |
+Restricted cash, non-current | 538,838 | 571,222 |
+Other assets | 560,091 | 474,283 |
+Total Assets | $ | 20,247,646 | $ | 18,299,852 |
+Liabilities and Shareholders' Equity |
+Current Liabilities |
+Current portion of long-term debt | $ | 19,887 | $ | 7,916 |
+Accounts payable | 2,506,431 | 1,905,357 |
+Accrued compensation and benefits | 267,851 | 358,047 |
+Operating lease current liabilities | 68,321 | 61,371 |
+Accrued income taxes payable | 91,443 | 173,248 |
+Other accrued liabilities | 502,704 | 347,990 |
+Total Current Liabilities | 3,456,637 | 2,853,929 |
+Long-term debt | 3,980,711 | 3,214,308 |
+Deferred income taxes | 503,735 | 540,610 |
+Operating lease liabilities | 278,061 | 254,839 |
+Other liabilities | 366,769 | 197,966 |
+Total Liabilities | 8,585,913 | 7,061,652 |
+Shareholders' Equity |
+Common stock, no par value; authorized - 300,000,000 shares; issued - 214,229,027 shares at September 30, 2026; 212,615,894 shares at June 30, 2026
+| 9,880,767 | 9,790,596 |
+Accumulated other comprehensive income (AOCI) | 284,424 | 204,112 |
+Retained earnings | 1,738,943 | 1,354,270 |
+11,904,134 | 11,348,978 |
+Treasury stock, at cost; 17,297,839 shares at September 30, 2026 and 16,863,102 shares at June 30, 2026
+| ( 574,117 ) | ( 445,483 ) |
+Total Coherent Corp. Shareholders' Equity | 11,330,017 | 10,903,495 |
+Noncontrolling interests (NCI) | 331,716 | 334,705 |
+Total Equity | 11,661,733 | 11,238,200 |
+Total Liabilities and Shareholders' Equity | $ | 20,247,646 | $ | 18,299,852 |
+See accompanying Notes to Condensed Consolidated Financial Statements .
+3
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Earnings (Unaudited)
+($000, except per share data)
+Three Months Ended
+September 30, |
+2026 | 2025 |
+Revenues | $ | 2,370,324 | $ | 1,581,378 |
+Costs, Expenses, and Other Expense (Income) |
+Cost of goods sold | 1,442,559 | 1,002,178 |
+Research and development | 236,599 | 154,877 |
+Selling, general and administrative | 304,720 | 252,084 |
+Restructuring charges | 8,580 | 19,276 |
+Impairment of assets held-for-sale | — | 9,100 |
+Gain on sale of business | — | ( 115,211 ) |
+Interest expense | 46,330 | 58,721 |
+Other income, net | ( 27,218 ) | ( 16,533 ) |
+Total Costs, Expenses, & Other Expense | 2,011,570 | 1,364,492 |
+Earnings Before Income Taxes | 358,754 | 216,886 |
+Income Tax Benefit | ( 22,847 ) | ( 8,310 ) |
+Net Earnings | 381,601 | 225,196 |
+Net Loss Attributable to Noncontrolling Interests | ( 3,072 ) | ( 1,153 ) |
+Net Earnings Attributable to Coherent Corp. | 384,673 | 226,349 |
+Less: Dividends on Preferred Stock | — | 33,479 |
+Net Earnings Available to the Common Shareholders | $ | 384,673 | $ | 192,870 |
+Basic Earnings Per Share | $ | 1.96 | $ | 1.24 |
+Diluted Earnings Per Share | $ | 1.90 | $ | 1.19 |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+4
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Comprehensive Income (Unaudited)
+($000)
+Three Months Ended
+September 30, |
+2026 | 2025 |
+Net earnings | $ | 381,601 | $ | 225,196 |
+Other Comprehensive Income (Loss): |
+Foreign currency translation adjustments | 80,461 | ( 27,597 ) |
+Change in fair value of interest rate instruments, net of taxes of $( 240 ) and $( 1,188 ) for the three months ended September 30, 2026 and 2025, respectively
+| ( 877 ) | ( 4,388 ) |
+Pension adjustment, net of taxes of $ — for the three months ended September 30, 2026 and 2025, respectively
+| 811 | ( 756 ) |
+Other Comprehensive Income (Loss) | 80,395 | ( 32,741 ) |
+Comprehensive Income | 461,996 | 192,455 |
+Comprehensive Loss Attributable to Noncontrolling Interests | ( 3,072 ) | ( 1,153 ) |
+Foreign Currency Translation Adjustments Attributable to Noncontrolling Interests | 83 | ( 441 ) |
+Comprehensive Income Attributable to Coherent Corp. | $ | 464,985 | $ | 194,049 |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+5
+Table of Contents
+Coherent Corp. and Subsidiaries
+Condensed Consolidated Statements of Cash Flows (Unaudited)
+($000)
+Three Months Ended September 30, |
+2026 | 2025 |
+Cash Flows from Operating Activities |
+Net earnings | $ | 381,601 | $ | 225,196 |
+Adjustments to reconcile net earnings to net cash provided by operating activities: |
+Depreciation | 77,665 | 52,983 |
+Amortization | 69,451 | 69,446 |
+Share-based compensation expense | 74,377 | 44,134 |
+Non-cash restructuring and impairment charges | 1,154 | 9,872 |
+Amortization of debt issuance costs | 2,458 | 9,786 |
+Loss on disposals of property, plant & equipment | 1,006 | 127 |
+Unrealized gains on foreign currency remeasurements and transactions | ( 999 ) | ( 4,226 ) |
+Earnings from equity investments | ( 211 ) | ( 215 ) |
+Deferred income taxes | ( 55,657 ) | ( 83,665 ) |
+Gain on sale of business | — | ( 115,211 ) |
+Gain on sale of equity investment | — | ( 6,726 ) |
+Loss on debt extinguishment | — | 3,056 |
+Increase (decrease) in cash from changes in: |
+Accounts receivable | ( 255,278 ) | ( 66,628 ) |
+Inventories | ( 737,082 ) | ( 219,120 ) |
+Accounts payable | 429,824 | 105,357 |
+Contract liabilities | 269,276 | ( 8,022 ) |
+Income taxes | ( 32,959 ) | 37,221 |
+Accrued compensation and benefits | ( 90,196 ) | ( 48,206 ) |
+Other operating net assets (liabilities) | ( 227,111 ) | 40,796 |
+Net cash provided by (used in) operating activities | ( 92,681 ) | 45,955 |
+Cash Flows from Investing Activities |
+Additions to property, plant & equipment | ( 775,547 ) | ( 103,946 ) |
+Proceeds from sale of equity investment | — | 9,635 |
+Proceeds from the sale of business, net of fees | — | 391,127 |
+Proceeds from sales/maturities of short-term investments | 625,000 | — |
+Other investing activities | ( 50,368 ) | ( 18 ) |
+Net cash provided by (used in) investing activities | ( 200,915 ) | 296,798 |
+Cash Flows from Financing Activities |
+Proceeds from borrowings of Term A Facility | — | 1,250,000 |
+Proceeds from borrowings of Term B Facility | — | 3,267 |
+Proceeds from borrowings of revolving credit facilities | 11,660 | 88,908 |
+Proceeds from borrowings of other credit facilities | 773,355 | — |
+Payments on existing debt | ( 779 ) | ( 1,650,805 ) |
+Payments on borrowings under revolving credit facilities | ( 9,835 ) | ( 77,046 ) |
+Debt issuance costs | — | ( 8,542 ) |
+Proceeds from exercises of stock options and purchases of stock under employee stock purchase plan | 19,416 | 21,278 |
+Payments in satisfaction of employees’ minimum tax obligations | ( 128,633 ) | ( 37,443 ) |
+Cash dividends paid | — | ( 11,438 ) |
+Other financing activities | ( 572 ) | 335 |
+Net cash provided by (used in) financing activities | 664,612 | ( 421,486 ) |
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | ( 3,069 ) | ( 1,280 ) |
+Net increase (decrease) in cash, cash equivalents, and restricted cash | 367,947 | ( 80,013 ) |
+Cash, Cash Equivalents, and Restricted Cash at Beginning of Period | 1,768,396 | 1,632,913 |
+Cash, Cash Equivalents, and Restricted Cash at End of Period | $ | 2,136,343 | $ | 1,552,900 |
+6
+Table of Contents
+Supplemental Information |
+Cash paid for interest | $ | 29,398 | $ | 40,996 |
+Cash paid for income taxes | $ | 65,183 | $ | 49,375 |
+Non-Cash Investing and Financing Activities: |
+Additions to property, plant & equipment included in accounts payable | $ | 527,734 | $ | 71,647 |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+The following table provid

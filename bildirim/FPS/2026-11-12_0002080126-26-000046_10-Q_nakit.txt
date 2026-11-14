@@ -1,0 +1,237 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2080126/000208012626000046/fps-20260930.htm
+SEMBOL: FPS
+BASVURU_TARIHI: 2026-11-12
+BASVURU: 0002080126-26-000046
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 4
+|
+Notes to the Condensed Consolidated Financial Statements
+| 6
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 23
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 35
+|
+Item 4.
+| Controls and Procedures
+| 35
+|
+Part II - OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 36
+|
+Item 1A.
+| Risk Factors
+| 36
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 36
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 36
+|
+Item 4.
+| Mine Safety Disclosures
+| 36
+|
+Item 5.
+| Other Information
+| 36
+|
+Item 6.
+| Exhibits
+| 37
+|
+SIGNATURES
+| 38
+|
+Table of Contents
+Part I - FINANCIAL INFORMATION
+Item 1. Financial Statements (Unaudited)
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS (UNAUDITED)
+(in thousands, except par value)
+September 30,
+2026 | June 30,
+2026 |
+Assets |
+Current Assets |
+Cash and cash equivalents | $ | 199,916 | $ | 97,477 |
+Accounts receivable, net | 380,161 | 329,628 |
+Inventory, net | 346,218 | 249,817 |
+Prepaid and other current assets | 143,598 | 141,169 |
+Total Current Assets | 1,069,893 | 818,091 |
+Property and equipment, net | 230,868 | 204,957 |
+Operating lease right of use assets, net | 108,740 | 108,432 |
+Goodwill | 516,629 | 516,629 |
+Other intangible assets, net | 283,143 | 289,490 |
+Deferred tax assets | 465,152 | 280,971 |
+Other assets | 11,414 | 12,195 |
+Total Assets | $ | 2,685,839 | $ | 2,230,765 |
+Liabilities and Stockholders’ Equity |
+Current Liabilities |
+Accounts payable | $ | 166,159 | $ | 130,453 |
+Accrued expenses | 126,661 | 122,356 |
+Deferred revenue | 423,267 | 263,859 |
+Operating lease liabilities, current portion | 9,594 | 8,626 |
+Long-term debt, current portion | 6,000 | 6,000 |
+Total Current Liabilities | 731,681 | 531,294 |
+Long-term debt, net of discount and deferred financing costs, less current portion | 575,340 | 576,175 |
+Payable pursuant to the Tax Receivable Agreement | 483,027 | 338,925 |
+Operating lease liabilities, less current portion | 112,924 | 112,970 |
+Total Liabilities | 1,902,972 | 1,559,364 |
+Commitments and Contingencies (Note 20) | | |
+Stockholders’ Equity |
+Preferred stock, $ 0.00001 par value; 20,000 shares authorized; none issued and outstanding
+| — | — |
+Class A common stock, $ 0.00001 par value; 2,000,000 shares authorized; 274,527 issued and outstanding
+| 3 | 2 |
+Class B common stock, $ 0.00001 par value; 100,000 shares authorized; 29,902 issued and outstanding
+| — | 1 |
+Additional paid-in capital | 582,802 | 484,994 |
+Retained earnings | 127,564 | 79,320 |
+Total Stockholders’ Equity Attributable to Forgent Power Solutions, Inc. | 710,369 | 564,317 |
+Non-controlling interests | 72,498 | 107,084 |
+Total Stockholders’ Equity | 782,867 | 671,401 |
+Total Liabilities and Stockholders’ Equity | $ | 2,685,839 | $ | 2,230,765 |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+1
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (UNAUDITED)
+(in thousands, except per share)
+Three Months Ended
+September 30, |
+2026 | 2025 |
+Revenues | $ | 478,566 | $ | 283,274 |
+Cost of Revenues | 320,287 | 185,322 |
+Gross Profit | 158,279 | 97,952 |
+Operating Expenses |
+Selling, general, and administrative expenses | 71,965 | 53,583 |
+Depreciation and amortization | 7,132 | 13,206 |
+Total Operating Expenses | 79,097 | 66,789 |
+Income from Operations | 79,182 | 31,163 |
+Other Income (Expense) |
+Interest expense | ( 9,829 ) | ( 13,873 ) |
+Interest income | 954 | 905 |
+Other income (expense) | ( 148 ) | 295 |
+Total Other Expense, net | ( 9,023 ) | ( 12,673 ) |
+Income Before Tax Expense | 70,159 | 18,490 |
+Income Tax Expense | ( 15,336 ) | ( 2,934 ) |
+Net Income | 54,823 | 15,556 |
+Less: net income attributable to non-controlling interests | 6,579 | 5,543 |
+Net Income Attributable to Forgent Power Solutions, Inc. | $ | 48,244 | $ | 10,013 |
+Three Months Ended
+September 30, |
+2026 | 2025 |
+Earnings per share of Class A common stock: |
+Basic | $ | 0.18 | N/A |
+Diluted | $ | 0.18 | N/A |
+Weighted average shares of Class A common stock outstanding: |
+Basic | 273,736 | N/A |
+Diluted | 274,070 | N/A |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+2
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CHANGES IN STOCKHOLDERS’ / MEMBERS’ EQUITY (UNAUDITED)
+(in thousands, except share amounts)
+For the three months ended September 30, 2026
+Class A
+Common Stock | Class B
+Common Stock |
+Shares | Amount | Shares | Amount | Additional Paid-In Capital | Retained Earnings | Non-Controlling
+Interests | Total
+Stockholders’
+Equity |
+Balance at June 30, 2026 | 259,971,169 | $ | 2 | 44,457,720 | $ | 1 | $ | 484,994 | $ | 79,320 | $ | 107,084 | $ | 671,401 |
+Issuance of Class A common stock sold in follow-on offering, net of underwriting discounts | 14,555,925 | 1 | — | — | 695,409 | — | — | 695,410 |
+Purchase of Opco LLC Interests and Class B common stock related to follow-on offering | — | — | ( 14,555,925 ) | ( 1 ) | ( 695,409 ) | — | — | ( 695,410 ) |
+Deferred tax adjustments related to Tax Receivable Agreement related to follow-on offerings | — | — | — | — | 44,602 | — | — | 44,602 |
+Net income | — | — | — | — | — | 48,244 | 6,579 | 54,823 |
+Equity-based compensation | — | — | — | — | 13,884 | — | — | 13,884 |
+Deferred offering costs | — | — | — | — | ( 1,843 ) | — | — | ( 1,843 ) |
+Reallocation of non-controlling interests | — | — | — | — | 41,165 | — | ( 41,165 ) | — |
+Balance at September 30, 2026 | 274,527,094 | $ | 3 | 29,901,795 | $ | — | $ | 582,802 | $ | 127,564 | $ | 72,498 | $ | 782,867 |
+For the three months ended September 30, 2025
+Members’ Equity | Non-Controlling
+Interests | Total
+Members’
+Equity |
+Balance at June 30, 2025 | $ | 374,534 | $ | 198,752 | $ | 573,286 |
+Equity-based compensation | 560 | — | 560 |
+Distributions | ( 1,440 ) | — | ( 1,440 ) |
+Net income | 10,013 | 5,543 | 15,556 |
+Balance at September 30, 2025 | $ | 383,667 | $ | 204,295 | $ | 587,962 |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+3
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED)
+(in thousands)
+Three Months Ended
+September 30, |
+2026 | 2025 |
+Cash Flows from Operating Activities |
+Net income | $ | 54,823 | $ | 15,556 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 11,978 | 15,884 |
+Amortization / write off of discounts and deferred financing costs | 714 | 999 |
+Deferred taxes | 4,523 | 975 |
+Provision (recovery) for credit losses | 675 | ( 320 ) |
+Provision for slow-moving and excess inventory | 2,400 | 1,148 |
+Equity-based compensation | 13,884 | 560 |
+Loss on disposal/sale of assets | 165 | — |
+Reduction in carrying amount of ROU asset, operating leases | 1,684 | 2,264 |
+Changes in assets and liabilities: |
+Accounts receivable | ( 51,208 ) | ( 29,005 ) |
+Inventory | ( 98,801 ) | ( 27,487 ) |
+Prepaid and other assets | ( 3,070 ) | ( 4,679 ) |
+Accounts payable | 35,706 | 17,826 |
+Accrued expenses | 4,304 | 19,565 |
+Deferred revenue | 159,408 | ( 5,898 ) |
+Lease liabilities, operating leases | ( 1,070 ) | ( 1,453 ) |
+Net Cash Provided by Operating Activities | 136,115 | 5,935 |
+Cash Flows from Investing Activities |
+Purchases of property and equipment | ( 31,706 ) | ( 29,889 ) |
+Net Cash Used in Investing Activities | ( 31,706 ) | ( 29,889 ) |
+Cash Flows from Financing Activities |
+Proceeds from issuance of Class A common stock sold in follow-on offering, net of underwriting discounts and commissions | 695,409 | — |
+Purchase of Opco LLC Interests from Existing Shareholders with proceeds from follow-on offering | ( 695,409 ) | — |
+Payments on long-term debt | ( 1,500 ) | ( 1,293 ) |
+Debt financing costs | — | ( 204 ) |
+Distribution to member | — | ( 1,440 ) |
+Deferred offering costs | ( 1,843 ) | ( 3,060 ) |
+Net Cash Used in Financing Activities | ( 3,343 ) | ( 5,997 ) |
+Net Increase (Decrease) in Cash, Cash Equivalents, and Restricted Cash | 101,066 | ( 29,951 ) |
+Cash, Cash Equivalents, and Restricted Cash - Beginning of Period | 121,713 | 111,322 |
+Cash, Cash Equivalents, and Restricted Cash - End of Period | $ | 222,779 | $ | 81,371 |
+4
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (UNAUDITED) (continued)
+(in thousands)
+Three Months Ended
+September 30, |
+2026 | 2025 |
+Supplemental Cash Flows Information: |
+Cash paid for interest | $ | 9,094 | $ | 13,061 |
+Cash paid for taxes | $ | 3,448 | $ | 949 |
+Non-cash financing activities: |
+Recording of deferred tax assets related to exchanges of Class B common stock to Class A common stock | $ | 188,704 | $ | — |
+Recording of amounts payable pursuant to tax receivable agreement | $ | 144,102 | $ | — |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+5
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+NOTE

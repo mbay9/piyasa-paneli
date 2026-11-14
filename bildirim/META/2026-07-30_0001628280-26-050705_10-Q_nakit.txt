@@ -1,0 +1,112 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm
+SEMBOL: META
+BASVURU_TARIHI: 2026-07-30
+BASVURU: 0001628280-26-050705
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In millions)
+(Unaudited)
+| Six Months Ended June 30, |
+| 2026 | 2025 |
+Cash flows from operating activities |
+Net income | $ | 42,621 | $ | 34,981 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 12,355 | 8,242 |
+Share-based compensation | 13,690 | 8,981 |
+Deferred income taxes | 1,568 | ( 2,163 ) |
+Unrealized loss on equity investments | 1,185 | 320 |
+Other | ( 73 ) | ( 376 ) |
+Changes in assets and liabilities: |
+Accounts receivable | ( 2,273 ) | 1,466 |
+Prepaid expenses and other current assets | ( 3,230 ) | 686 |
+Other assets | ( 2,535 ) | ( 242 ) |
+Accounts payable | ( 354 ) | ( 574 ) |
+Accrued expenses and other current liabilities | 5,662 | ( 3,338 ) |
+Other liabilities | ( 4,528 ) | 1,604 |
+Net cash provided by operating activities | 64,088 | 49,587 |
+Cash flows from investing activities |
+Purchases of property and equipment | ( 49,113 ) | ( 29,479 ) |
+Purchases of marketable securities | ( 75,592 ) | ( 19,509 ) |
+Sales and maturities of marketable securities | 44,036 | 19,057 |
+Purchases of non-marketable equity investments | ( 1,670 ) | ( 15,214 ) |
+Payments for held-for-sale assets | ( 674 ) | ( 775 ) |
+Acquisitions of businesses and intangible assets | ( 474 ) | ( 62 ) |
+Other investing activities | 156 | 14 |
+Net cash used in investing activities | ( 83,331 ) | ( 45,968 ) |
+Cash flows from financing activities |
+Taxes paid related to net share settlement of equity awards | ( 8,704 ) | ( 8,993 ) |
+Repurchases of Class A common stock | — | ( 22,921 ) |
+Payments for dividends and dividend equivalents | ( 2,699 ) | ( 2,656 ) |
+Proceeds from issuance of long-term debt, net | 24,910 | — |
+Principal payments on finance leases | ( 1,805 ) | ( 1,225 ) |
+Other financing activities | ( 2,288 ) | 323 |
+Net cash provided by (used in) financing activities | 9,414 | ( 35,472 ) |
+Effect of exchange rate changes on cash, cash equivalents, restricted cash, and restricted cash equivalents | — | 243 |
+Net decrease in cash, cash equivalents, restricted cash, and restricted cash equivalents | ( 9,829 ) | ( 31,610 ) |
+Cash, cash equivalents, restricted cash, and restricted cash equivalents at beginning of the period | 39,100 | 45,438 |
+Cash, cash equivalents, restricted cash, and restricted cash equivalents at end of the period | $ | 29,271 | $ | 13,828 |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+10
+Table of Contents
+META PLATFORMS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+(Unaudited)
+Six Months Ended June 30, |
+2026 | 2025 |
+Reconciliation of cash, cash equivalents, restricted cash, and restricted cash equivalents to the condensed consolidated balance sheets |
+Cash and cash equivalents | $ | 15,462 | $ | 12,005 |
+Restricted cash and restricted cash equivalents, included in prepaid expenses and other current assets | 702 | 161 |
+Restricted cash and restricted cash equivalents, included in other assets | 13,107 | 1,662 |
+Total cash, cash equivalents, restricted cash, and restricted cash equivalents | $ | 29,271 | $ | 13,828 |
+Supplemental cash flow data |
+Cash paid for income taxes, net | $ | 1,999 | $ | 5,544 |
+Cash paid for interest, net of amounts capitalized | $ | 1,097 | $ | 478 |
+Non-cash investing and financing activities: |
+Property and equipment in accounts payable and accrued expenses and other current liabilities | $ | 19,502 | $ | 10,618 |
+Acquisition of businesses and intangible assets in accounts payable, accrued expenses and other current liabilities, and other liabilities | $ | 2,172 | $ | 132 |
+Non-marketable equity investments in accrued expenses and other current liabilities | $ | — | $ | 651 |
+Repurchases of Class A common stock in accrued expenses and other current liabilities | $ | — | $ | 131 |
+See Accompanying Notes to Condensed Consolidated Financial Statements.
+11
+Table of Contents
+META PLATFORMS, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Summary of Significant Accounting Policies
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with generally accepted accounting principles in the United States (GAAP) and applicable rules and regulations of the Securities and Exchange Commission regarding interim financial reporting. Certain information and note disclosures normally included in the financial statements prepared in accordance with GAAP have been condensed or omitted pursuant to such rules and regulations. As such, the information included in this quarterly report on Form 10-Q should be read in conjunction with the consolidated financial statements and accompanying notes included in our Annual Report on Form 10-K for the year ended December 31, 2025.
+The condensed consolidated balance sheet as of December 31, 2025 included herein was derived from the audited financial statements as of that date, but does not include all disclosures including notes required by GAAP.
+The condensed consolidated financial statements include the accounts of Meta Platforms, Inc. and its subsidiaries where we have controlling financial interests. All intercompany balances and transactions have been eliminated.
+The accompanying condensed consolidated financial statements reflect all normal recurring adjustments that are necessary to present fairly the results for the interim periods presented. Interim results are not necessarily indicative of the results for the full year.
+Use of Estimates
+Preparation of condensed consolidated financial statements in conformity with GAAP requires the use of estimates and judgments that affect the reported amounts in the condensed consolidated financial statements and accompanying notes. These estimates form the basis for judgments we make about the carrying values of our assets and liabilities, which are not readily apparent from other sources. We base our estimates and judgments on historical information and on various other assumptions that we believe are reasonable under the circumstances. GAAP requires us to make estimates and judgments in several areas, including, but not limited to, those related to loss contingencies, income taxes, valuation of non-marketable equity investments, valuation of long-lived assets and their associated estimated useful lives, revenue recognition, valuation of goodwill, credit losses of available-for-sale debt securities, accounts receivable, and fair value of financial instruments and leases. These estimates are based on management's knowledge about current events, interpretation of regulations, and expectations about actions we may undertake in the future. Actual results could differ materially from those estimates.
+Significant Accounting Policies
+There have been no material changes to our significant accounting policies from our Annual Report on Form 10-K for the year ended December 31, 2025.
+Accounting Pronouncements Not Yet Adopted
+In May 2026, the FASB issued Accounting Standards Update (ASU) No. 2026-02, Environmental Credits and Environmental Credit Obligations (Topic 818) . This standard establishes guidance for the recognition, measurement and disclosure of environmental credits and environmental credit obligations. The guidance will be effective for the annual periods beginning the year ending December 31, 2028 and interim periods within those annual periods. Early adoption is permitted. Upon adoption, the guidance is required to be applied on a retrospective basis. We are evaluating the effect that this guidance will have on our consolidated financial statements and related disclosures.
+12
+Table of Contents
+Note 2. Revenue
+Revenue disaggregated by revenue source and by segment consists of the following (in millions):
+| Three Months Ended June 30, | Six Months Ended June 30, |
+| 2026 | 2025 | 2026 | 2025 |
+Advertising | $ | 59,363 | $ | 46,563 | $ | 114,387 | $ | 87,955 |
+Other revenue | 1,007 | 583 | 1,891 | 1,093 |
+Family of Apps | 60,370 | 47,146 | 116,278 | 89,048 |
+Reality Labs | 431 | 370 | 833 | 782 |
+Total revenue | $ | 60,801 | $ | 47,516 | $ | 117,111 | $ | 89,830 |
+Revenue disaggregated by geography, based on the addresses of our customers, consists of the following (in millions):
+| Three Months Ended June 30, | Six Months Ended June 30, |
+| 2026 | 2025 | 2026 | 2025 |
+United States and Canada | $ | 23,863 | $ | 18,454 | $ | 45,129 | $ | 35,323 |
+Europe (1)
+| 14,009 | 11,128 | 27,249 | 20,749 |
+Asia-Pacific | 16,073 | 12,858 | 31,518 | 24,097 |
+Rest of World (1)
+| 6,856 | 5,076 | 13,215 | 9,661 |
+Total revenue | $ | 60,801 | $ | 47,516 | $ | 117,111 | $ | 89,830 |
+____________________________________
+(1) Europe includes Russia and Turkey. Rest of World includes Africa, Latin America, and the Middle East.
+Deferred revenue was $ 1.16 billion and $ 1.08 billion as of June 30, 2026 and December 31, 2025, respectively. Our deferred revenue mostly relates to advertising prepayments and credits, as we

@@ -1,0 +1,123 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1664703/000162828026028021/be-20260331.htm
+SEMBOL: BE
+BASVURU_TARIHI: 2026-04-29
+BASVURU: 0001628280-26-028021
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(in thousands)
+(unaudited)
+| Three Months Ended |
+March 31, |
+| 2026 | 2025 |
+Cash flows from operating activities: |
+Net income (loss)
+| $ | 73,691 | $ | ( 23,414 ) |
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operating activities:
+| |
+Depreciation and amortization | 13,279 | 11,986 |
+Non-cash lease expense | 8,002 | 8,068 |
+Equity in loss of unconsolidated affiliates, net of distributions
+| 17,002 | — |
+Distributions received from unconsolidated affiliates 9
+| 138 | — |
+Loss on disposal of property, plant and equipment | 115 | 102 |
+Revaluation of derivative contracts | ( 754 ) | 103 |
+Stock-based compensation expense | 48,215 | 30,054 |
+Amortization of debt issuance costs
+| 3,426 | 1,859 |
+Net gain on failed sale-and-leaseback transactions
+| ( 9,405 ) | ( 767 ) |
+Share-based consideration payable to customer’s customer (Note 3 ) 10
+| ( 3,090 ) | — |
+Unrealized foreign currency exchange loss (gain)
+| 2,827 | ( 2,208 ) |
+Other | ( 281 ) | ( 26 ) |
+Changes in operating assets and liabilities: |
+Accounts receivable 1
+| 11,782 | 2,257 |
+Contract assets 2
+| ( 64,690 ) | 1,543 |
+Inventories | ( 88,584 ) | ( 65,575 ) |
+Deferred cost of revenue
+| 7,122 | ( 4,501 ) |
+Prepaid expenses and other current assets 3
+| ( 54,155 ) | ( 5,102 ) |
+Other long-term assets 4
+| ( 25,993 ) | 2,256 |
+Operating lease right-of-use assets and operating lease liabilities
+| ( 8,526 ) | ( 8,335 ) |
+Financing lease liabilities | 89 | 451 |
+Accounts payable
+| 36,962 | 52,564 |
+Accrued warranty 5
+| 18,352 | ( 6,276 ) |
+Accrued expenses and other current liabilities 6
+| ( 1,367 ) | ( 34,881 ) |
+Deferred revenue and customer deposits 7
+| 89,539 | ( 70,802 ) |
+Deferred profit with equity method investees and other long-term liabilities
+| ( 86 ) | ( 38 ) |
+Net cash provided by (used in) operating activities | 73,610 | ( 110,682 ) |
+Cash flows from investing activities: |
+Purchase of property, plant and equipment | ( 26,182 ) | ( 14,259 ) |
+Proceeds from sale of property, plant and equipment | 91 | 43 |
+Investments in unconsolidated affiliates 8
+| ( 19,848 ) | — |
+Net cash used in investing activities | ( 45,939 ) | ( 14,216 ) |
+Cash flows from financing activities: |
+Payment of debt issuance costs | ( 806 ) | — |
+Repayment of financing obligations | ( 7,972 ) | ( 2,671 ) |
+Proceeds from issuance of common stock | 15,835 | 7,651 |
+Other | — | 150 |
+Net cash provided by financing activities
+| 7,057 | 5,130 |
+Effect of exchange rate changes on cash, cash equivalent, and restricted cash | 1,976 | 155 |
+Net increase (decrease) in cash, cash equivalents, and restricted cash
+| 36,704 | ( 119,613 ) |
+Cash, cash equivalents, and restricted cash:
+|
+Beginning of period | 2,481,580 | 950,971 |
+End of period | $ | 2,518,284 | $ | 831,358 |
+Supplemental disclosure of cash flow information: |
+Cash paid during the period for interest | $ | 4,145 | $ | 5,460 |
+Cash paid for amounts included in the measurement of lease liabilities: |
+Operating cash flows from operating leases | 8,526 | 8,254 |
+Operating cash flows from finance leases | 116 | 81 |
+Cash paid during the period for income taxes | 618 | 384 |
+Non-cash investing and financing activities: |
+Liabilities recorded for property, plant and equipment, net | $ | 4,384 | $ | 1,923 |
+Derecognition of financing obligations | 20,183 | — |
+Recognition of operating lease right-of-use asset during the year-to-date period | 5,800 | 142 |
+Recognition of finance lease right-of-use asset during the year-to-date period | 201 | 451 |
+Unfunded investment commitment (Note 11) 11
+| 1,438 | — |
+Conversion of the 3.0 % Green Notes due June 2028 to common stock (Note 8)
+| 18,163 | — |
+Accrual for dividend | 994 | 1,024 |
+1 Including changes in related party balances of $ 151.3 million and $ 6.8 million for the three months ended March 31, 2026 and 2025, respectively.
+2 Including changes in related party balances of $ 70.4 million and $ 0.1 million for the three months ended March 31, 2026 and 2025, respectively.
+3 Including changes in related party balances of $ 0.3 million and $ 0.3 million for the three months ended March 31, 2026 and 2025, respectively.
+4 Including changes in related party balances of $ 0.7 million and $ 0.4 million for the three months ended March 31, 2026 and 2025, respectively.
+5 Including changes in related party balances of $ 3.3 million for the three months ended March 31, 2026. There were no changes in related party balances for the three months ended March 31, 2025.
+6 Including changes in related party balances of $ 1.7 million and $ 1.7 million for the three months ended March 31, 2026 and 2025, respectively.
+7 Including changes in related party balances of $ 1.2 million and $ 3.6 million for the three months ended March 31, 2026 and 2025, respectively.
+8 Represent related party investments in unconsolidated affiliates (see Note 7— Investments in Unconsolidated Affiliates in this Quarterly Report on Form 10-Q) .
+9 Represent related party distributions received from unconsolidated affiliates (see Note 7— Investments in Unconsolidated Affiliates in this Quarterly Report on Form 10-Q) .
+10 Represent related party adjustment to non-cash consideration payable to customer’s customer (see Note 3— Revenue Recognition in this Quarterly Report on Form 10-Q) .
+11 Represents related party unfunded investment commitment pertaining to unconsolidated affiliates (see Note 7— Investments in Unconsolidated Affiliates in this Quarterly Report on Form 10-Q).
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+7
+Bloom Energy Corporation
+Notes to Unaudited Condensed Consolidated Financial Statements
+The unaudited condensed consolidated financial statements reflect all normal and recurring adjustments that are, in the opinion of management, necessary for a fair presentation of the results for the interim periods presented.
+The unaudited condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements, including the notes thereto, included in our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the “2025 Form 10-K”).
+Website references throughout this document are provided for convenience only, and the content on the referenced websites is not incorporated by reference into this report.
+1. Nature of Business, Liquidity and Basis of Presentation
+Nature of Business
+For information on the nature of our business, see Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of Presentation, section Nature of Business in our 2025 Form 10-K.
+Liquidity
+Although we have historically incurred operating losses and negative operating cash flows, we generated $ 73.6 million of positive operating cash flow and $ 72.2 million of operating income for the three months ended March 31, 2026. With the series of new convertible debt offerings, debt extinguishments, debt exchanges, and conversions of convertible debt to equity completed since 2021 , as of March 31, 2026, we had $ 2,598.7 million and $ 4.0 million of total outstanding recourse and non-recourse debt, respectively, $ 4.0 million and $ 2,598.7 million of which was classified as short-term debt and long-term debt, respectively. As of December 31, 2025, we had $ 2,613.7 million and $ 4.2 million of total outstanding recourse and non-recourse debt, respectively, $ 4.2 million and $ 2,613.7 million of which was classified as short-term debt and long-term debt, respectively.
+For information regarding our recent issuances of convertible debt, related exchange and extinguishment transactions, and our entry into a senior secured multicurrency revolving credit facility (the “Revolving Credit Facility”), refer to Part II, Item 8, Note 1— Nature of Business, Liquidity and Basis of Presentation, section Liquidity in our 2025 Form 10-K.
+Our future capital requirements depend on many factors, including the market acceptance of our products, our rate of revenue growth, the timing and extent of spending on research and development efforts and other business initiatives, the rate of growth in the volume of system builds and the need for additional working capital, the expansion of sales and marketing activities both in domestic and international markets, our ability to secure financing for customer use of our products, the timing of installations, inventory buildup and increase in factory capacity in anticipation of future sales and installations, and overall economic conditions. In order to support and achieve our future growth plans, we may need or seek advantageously to obtain additional funding through equity or debt financing. Failure to obtain this financing on favorable terms or at all in future quarters may affect our financial position and results of operations, including our revenues and cash flows.
+In the opinion of management, the combination of our cash and cash equivalents and cash flow to be generated by our ope

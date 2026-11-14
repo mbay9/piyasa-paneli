@@ -1,0 +1,297 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1083301/000108330126000083/a_wulfearningsreleaseq1202.htm
+SEMBOL: WULF
+BASVURU_TARIHI: 2026-05-08
+BASVURU: 0001083301-26-000083
+
+EX-99.1
+2
+a_wulfearningsreleaseq1202.htm
+EX-99.1
+Document
+TeraWulf Reports First Quarter 2026 Results
+Development timeline on track at WULF Compute
+Delivers strong execution, advances transition to recurring HPC revenue, and
+expands power-advantaged development pipeline
+Reaffirms growth strategy targeting 250–500 MW of new contracted capacity annually
+Closed $250 million revolving credit facility
+EASTON, Md. – May 8, 2026 – TeraWulf Inc. (Nasdaq: WULF) (“TeraWulf” or the “Company”), which owns and operates vertically integrated, next-generation digital infrastructure primarily powered by low-carbon energy, today announced its financial results for the first quarter ended March 31, 2026 and provided an update on its operations, development and strategy.
+First Quarter 2026 Highlights
+• Generated Q1 2026 revenue of $34.0 million, including $21.0 million of HPC lease revenue.
+• Maintained strong liquidity position, with approximately $3.1 billion of cash and restricted cash as of quarter-end.
+• 60 MW of operational critical IT HPC capacity for Core42 at Lake Mariner as of March 31, 2026.
+• Nearing completion on CB-3 construction at Lake Mariner, with energization aligned to customer hardware deployment. CB-4 and CB-5 remain on schedule for delivery and rent commencement in 2026.
+• Expanded development platform with acquisition of Hawesville, Kentucky, a large-scale site with immediate access to 480 MW of grid-connected power.
+• Closed revolving credit facility providing up to $250 million of committed capacity, supported by a syndicate of leading global financial institutions.
+Management Commentary
+Paul Prager, Chairman and Chief Executive Officer of TeraWulf, commented:
+“The first quarter of 2026 was defined by execution. We entered the year with a fully established platform, including sites, contracts, and capital, and are now converting that foundation into operating performance and recurring revenue.
+At Lake Mariner, we have 60 megawatts of energized critical IT capacity for Core42 and began generating meaningful lease revenue during the quarter. At the same time, we continue to advance construction in close coordination with our second tenant, Fluidstack, aligning infrastructure delivery with hardware deployment. CB-3 remains on schedule, and execution across the campus continues to progress well.
+More broadly, we are building a power-advantaged platform that we believe is increasingly differentiated in a market constrained by access to power. Our strategy is unchanged, and we remain focused on disciplined execution."
+Patrick Fleury, Chief Financial Officer of TeraWulf, added:
+“The first quarter reflects a more stable, contracted revenue model. HPC lease revenue contributed $21.0 million in the period, representing the initial ramp of long-term customer agreements at Lake Mariner.
+We ended the quarter with approximately $3.1 billion of cash and restricted cash, providing substantial liquidity to fund our development pipeline. Our capital structure is designed to align long-term financing with contracted cash flows, supporting disciplined growth while maintaining financial flexibility.
+As we continue to scale, we expect the business to be increasingly driven by recurring, contracted revenue, reducing exposure to the volatility historically associated with bitcoin mining.”
+Operational Update
+During the first quarter of 2026, TeraWulf continued to advance Lake Mariner, one of North America’s largest HPC campuses:
+• 60 MW of critical IT capacity energized and generating revenue as of March 31, 2026.
+• Continued progress across HPC development buildings, including delivery of CB-3 capacity in May 2026.
+• Ongoing coordination with Fluidstack and Google to align infrastructure delivery with technology deployment.
+The Company continues to repurpose portions of its legacy bitcoin mining footprint to support higher-value HPC workloads, reflecting its transition toward contracted, long-duration compute infrastructure.
+With regard to the Abernathy joint venture, which is designed to support 168 critical IT MW under a 25-year lease with annual escalators, construction is progressing with delivery targeted for the fourth quarter of 2026.
+Development Pipeline and Expansion
+TeraWulf continues to expand its national footprint with a focus on power-advantaged sites:
+Justified Data (Hawesville, Kentucky):
+• Large-scale HPC campus with approximately 480 MW of immediate grid-connected power availability
+• Over 250 buildable acres with significant expansion potential
+• Located within 300 miles of several major Midwest metropolitan areas
+Lake Hawkeye (Lansing, New York)
+• Redevelopment of a 183-acre leased area on a legacy industrial site
+• Phase I includes approximately 150 MW of power availability, expanding to 300 MW in Phase II
+• Currently in site plan review
+Chesapeake Data (Morgantown, Maryland):
+• Approximately 210 MW grid-connected generation capacity
+• Substantial electrical infrastructure and property, with ability to expand to up to 1 GW
+• Acquisition remains subject to customary regulatory approvals, including FERC
+Strategic Positioning
+TeraWulf continues to position its platform to capture opportunities across multiple pathways to power, including:
+• Near-term grid-connected capacity
+• On-site generation
+• Potential utility partnerships as interconnection dynamics evolve
+As demand for large-scale compute infrastructure accelerates, access to power has become the primary constraint across the industry. In this environment, utilities are increasingly focused on advancing projects that can be delivered by experienced, well-capitalized, and creditworthy counterparties.
+TeraWulf believes this dynamic creates a growing opportunity to partner directly with utilities to develop new power-backed infrastructure. As interconnection queues are rationalized and prioritized, the Company is well positioned to participate in this next phase of market evolution given its experience in power development, operational track record, and access to long-term capital.
+Investor Conference Call and Webcast
+The Company will host its earnings conference call and webcast for the first quarter ended March 31, 2026, today, May 8, 2026, at 8:00 a.m. Eastern Time. The call will be available for replay in the “Events & Presentations” section of the Company’s website at https://investors.terawulf.com/events-and-presentations/.
+About TeraWulf
+TeraWulf develops, owns, and operates environmentally sustainable, industrial-scale data center infrastructure in the United States, purpose-built for high-performance computing (HPC) hosting and bitcoin mining. Led by a team of veteran energy infrastructure entrepreneurs, TeraWulf is committed to innovation and operational excellence, with a mission to lead the market in large-scale digital infrastructure by serving both its own compute requirements and those of top-tier HPC clients as a trusted hosting partner.
+Forward-Looking Statements
+This press release contains forward-looking statements within the meaning of the “safe harbor” provisions of the Private Securities Litigation Reform Act of 1995, as amended. Such forward-looking statements include statements concerning anticipated future events and expectations that are not
+historical facts. All statements, other than statements of historical fact, are statements that could be deemed forward-looking statements. In addition, forward-looking statements are typically identified by words such as “plan,” “believe,” “goal,” “target,” “aim,” “expect,” “anticipate,” “intend,” “outlook,” “estimate,” “forecast,” “project,” “seek,” “continue,” “could,” “may,” “might,” “possible,” “potential,” “strategy,” “opportunity,” “predict,” “should,” “would” and other similar words and expressions, although the absence of these words or expressions does not mean that a statement is not forward-looking. Forward-looking statements are based on the current expectations and beliefs of TeraWulf’s management and are inherently subject to a number of factors, risks, uncertainties and assumptions and their potential effects. There can be no assurance that future developments will be those that have been anticipated. Actual results may vary materially from those expressed or implied by forward-looking statements based on a number of factors, risks, uncertainties and assumptions, including, among others: (1) TeraWulf’s ability to attract additional customers to lease its HPC data centers; (2) TeraWulf’s ability to complete our data center campuses and future strategic growth initiatives in a timely manner or within anticipated cost estimates; (3) operational risks associated with our data centers and our ability to perform under its existing data center lease agreements; (4) changes in applicable laws, regulations and/or permits affecting TeraWulf’s operations or the industries in which it operates; (5) failure to obtain adequate financing on a timely basis and/or on acceptable terms with regard to expansion or existing operations; (6) adverse geopolitical or economic conditions, including a high inflationary environment, the implementation of new tariffs and more restrictive trade regulations; (7) the potential of cybercrime, money-laundering, malware infections and phishing and/or loss and interference as a result of equipment malfunction or break-down, physical disaster, data security breach, computer malfunction or sabotage (and the costs associated with any of the foregoing); (8) the availability and cost of power as well as electrical infrastructure equipment necessary to maintain and grow the business and operations of TeraWulf; and (9) other risks and uncertainties detailed from time to time in TeraWulf’s filings with the Securities and Exchange Commission (“SEC”). Potential investors, stockholders and other readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date on which they were made. TeraWulf does not assume any obligation to publicly update any forward-looking statement after it was made, whether as a result of new information, future events or otherwise, except as required by law or regulation. Investors are referred to the full discussion of risks and uncertainties associated with forward-looking statements and the discussion of risk factors contained in the Company’s filings with the SEC, which are available at www.sec.gov.
+Investors :
+Investors@terawulf.com
+Media :
+media@terawulf.com
+CONDENSED CONSOLIDATED BALANCE SHEETS
+AS OF MARCH 31, 2026 AND DECEMBER 31, 2025
+(In thousands, except number of shares and par value; unaudited)
+| | | | | | | | | | | |
+| March 31, 2026 | | December 31, 2025 |
+ASSETS | | | |
+CURRENT ASSETS: | | | |
+Cash and cash equivalents | $ | 2,629,995 | | | $ | 3,266,389 | |
+Restricted cash | 196,282 | | | 189,933 | |
+Accounts receivable | 5,604 | | | 1,212 | |
+| | | | | | | | | | | |
+Digital assets | 1,237 | | | 270 | |
+Prepaid expenses | 20,573 | | | 6,272 | |
+Other current assets | 13,737 | | | 14,197 | |
+Total current assets | 2,867,428 | | | 3,478,273 | |
+Property, plant and equipment, net | 2,582,169 | | | 1,507,699 | |
+Equity in net assets of investee | 434,793 | | | 446,008 | |
+Goodwill | 55,457 | | | 55,457 | |
+Operating lease right-of-use asset | 102,866 | | | 103,975 | |
+Finance lease right-of-use asset | 118,576 | | | 119,338 | |
+Restricted cash | 266,466 | | | 266,453 | |
+Deferred charges | 572,774 | | | 572,888 | |
+Other assets | 8,257 | | | 8,091 | |
+TOTAL ASSETS | $ | 7,008,786 | | | $ | 6,558,182 | |
+| | | |
+LIABILITIES AND (DEFICIT) EQUITY
+| | | |
+CURRENT LIABILITIES: | | | |
+Accounts payable | $ | 227,598 | | | $ | 65,139 | |
+Accrued construction liabilities | 201,779 | | | 102,582 | |
+Accrued interest | 114,825 | | | 52,775 | |
+Other current liabilities
+| 87,944 | | | 74,170 | |
+Other amounts due to related parties | 459 | | | 200 | |
+Current portion of deferred rent liability | 56,683 | | | 58,184 | |
+Current portion of operating lease liability | 2,065 | | | 2,015 | |
+Current portion of finance lease liability | 2 | | | 2 | |
+Warrant liabilities | 1,061,024 | | | 844,698 | |
+Short-term debt
+| 98,573 | | | — | |
+Current portion of long-term debt | 43,564 | | | 46,316 | |
+Short-term convertible notes | 490,354 | | | 489,767 | |
+Total current liabilities | 2,384,870 | | | 1,735,848 | |
+Deferred rent liability, net of current portion | 14,035 | | | 23,285 | |
+Operating lease liability, net of current portion | 21,760 | | | 22,309 | |
+Finance lease liability, net of current portion | 289 | | | 289 | |
+Long-term debt | 3,060,194 | | | 3,052,240 | |
+Convertible notes | 1,597,266 | | | 1,582,788 | |
+Deferred tax liabilities | 104 | | | 76 | |
+Other liabilities | 7,888 | | | 902 | |
+TOTAL LIABILITIES | 7,086,406 | | | 6,417,737 | |
+| | | |
+Commitments and Contingencies (See Note 12) | | | |
+| | | |
+(DEFICIT) EQUITY:
+| | | |
+| | | | | | | | | | | |
+Preferred stock, $0.001 par value, 100,000,000 authorized at March 31, 2026 and December 31, 2025; none issued and outstanding at March 31, 2026 and December 31, 2025; aggregate liquidation preference of $0 at March 31, 2026 and December 31, 2025 | — | | | — | |
+Common stock, $0.001 par value, 950,000,000 authorized at March 31, 2026 and December 31, 2025; 449,519,078 and 444,534,694 issued at March 31, 2026 and December 31, 2025, respectively; 425,050,328 and 420,065,944 outstanding at March 31, 2026 and December 31, 2025, respectively | 450 | | | 444 | |
+Additional paid-in capital | 1,493,611 | | | 1,285,202 | |
+Treasury stock at cost, 24,468,750 at March 31, 2026 and December 31, 2025
+| (151,509) | | | (151,509) | |
+Accumulated deficit | (1,421,326) | | | (993,692) | |
+Total TeraWulf Inc. stockholders' (deficit) equity
+| (78,774) | | | 140,445 | |
+Noncontrolling interests
+| 1,154 | | | — | |
+Total (deficit) equity
+| (77,620) | | | 140,445 | |
+TOTAL LIABILITIES AND (DEFICIT) EQUITY
+| $ | 7,008,786 | | | $ | 6,558,182 | |
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+FOR THE THREE MONTHS ENDED MARCH 31, 2026 AND 2025
+(In thousands, except number of shares and loss per common share)
+| | | | | | | | | | | | | | | |
+| Three Months Ended March 31,
+| | |
+| 2026 | | 2025 | | | | |
+| | | | | | | |
+Revenue: | | | | | | | |
+Digital asset revenue | $ | 12,990 | | | $ | 34,405 | | | | | |
+HPC lease revenue | 21,022 | | | — | | | | | |
+Total revenue | 34,012 | | | 34,405 | | | | | |
+| | | | | | | |
+Costs and expenses: | | | | | | | |
+Cost of revenue (exclusive of depreciation shown below)
+| 2,361 | | | 24,553 | | | | | |
+Operating expenses | 9,016 | | | 1,144 | | | | | |
+Operating expenses – related party | 2,186 | | | 1,748 | | | | | |
+Selling, general and administrative expenses | 127,605 | | | 46,573 | | | | | |
+Selling, general and administrative expenses – related party | 159 | | | 3,571 | | | | | |
+Depreciation | 28,477 | | | 15,574 | | | | | |
+Loss on fair value of digital assets, net
+| 653 | | | 870 | | | | | |
+Impairment of property, plant, and equipment | 25,697 | | | — | | | | | |
+Total costs and expenses | 196,154 | | | 94,033 | | | | | |
+| | | | | | | |
+Operating loss | (162,142) | | | (59,628) | | | | | |
+Interest expense | (67,071) | | | (4,049) | | | | | |
+Change in fair value of warrants
+| (216,325) | | | — | | | | | |
+Interest income
+| 29,411 | | | 2,259 | | | | | |
+Loss before income tax and equity in net loss of investee
+| (416,127) | | | (61,418) | | | | | |
+Income tax provision
+| (28) | | | — | | | | | |
+Equity in net loss of investee, net of tax
+| (11,548) | | | — | | | | | |
+Net loss | (427,703) | | | (61,418) | | | | | |
+Less: net loss attributable to noncontrolling interests
+| (69) | | | — | | | | | |
+Net loss attributable to TeraWulf Inc
+| $ | (427,634) | | | $ | (61,418) | | | | | |
+| | | | | | | |
+Loss per common share: | | | | | | | |
+Basic and diluted | $ | (1.01) | | | $ | (0.16) | | | | | |
+| | | | | | | |
+Weighted average common shares outstanding: | | | | | | | |
+Basic and diluted | 422,999,671 | | | 383,149,511 | | | | | |
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+FOR THE THREE MONTHS ENDED MARCH 31, 2026 AND 2025
+(In thousands; unaudited)
+| | | | | | | | | | | |
+| Three Months Ended March 31, |
+| 2026 | | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: | | | |
+Net loss | $ | (427,703) | | | $ | (61,418) | |
+Adjustments to reconcile net loss to net cash (used in) provided by operating activities: | | | |
+Amortization of debt issuance costs, commitment fees and accretion of debt discount | 13,224 | | | 607 | |
+Stock-based compensation expense | 101,418 | | | 38,674 | |
+Depreciation | 28,477 | | | 15,574 | |
+Accretion of asset retirement obligations
+| 168 | | | — | |
+Amortization of right-of-use asset | 1,871 | | | 685 | |
+Revenue recognized from digital assets mined and hosting services | (12,990) | | | (34,417) | |
+Loss on fair value of digital assets, net
+| 653 | | | 870 | |
+Impairment of property, plant, and equipment | 25,697 | | | — | |
+Change in fair value of warrants
+| 216,325 | | | — | |
+Deferred income tax provision
+| 28 | | | — | |
+Equity in net loss of investee, net of tax | 11,548 | | | — | |
+Changes in operating assets and liabilities: | | | |
+Increase in accounts receivable | (4,503) | | | — | |
+Increase in prepaid expenses
+| (14,301) | | | (2,306) | |
+Increase in other current assets
+| (9,134) | | | (1,289) | |
+Decrease in deferred charges
+| 114 | | | — | |
+Increase in other assets | 5,807 | | | (7,700) | |
+Increase in accounts payable
+| 4,315 | | | 13,844 | |
+Increase in accrued interest and other current liabilities
+| 52,548 | | | 4,359 | |
+Increase (decrease) in other amounts due to related parties
+| 259 | | | (990) | |
+(Decrease) increase in deferred rent liability
+| (10,751) | | | 90,000 | |
+Decrease in operating lease liability | (499) | | | (6) | |
+Decrease in other liabilities
+| (162) | | | — | |
+Net cash (used in) provided by operating activities
+| (17,591) | | | 56,487 | |
+| | | |
+CASH FLOWS FROM INVESTING ACTIVITIES: | | | |
+Purchase of and deposits on plant and equipment | (522,954) | | | (93,687) | |
+Cash paid for asset acquisition | (201,350) | | | — | |
+Proceeds from sale of digital assets | 11,481 | | | 32,623 | |
+| | | | | | | | | | | |
+Net cash used in investing activities | (712,823) | | | (61,064) | |
+| | | |
+CASH FLOWS FROM FINANCING ACTIVITIES: | | | |
+Proceeds from issuance of short-term debt, net of issuance costs paid of $7,250 and $0
+| 92,750 | | | — | |
+Proceeds from issuance of common stock, net of issuance costs paid of $0 and $0 | 8,956 | | | — | |
+Proceeds from exercise of warrants | 3,983 | | | — | |
+Purchase of treasury stock | — | | | (33,292) | |
+Payments of tax withholding related to net share settlements of stock-based compensation awards | (5,307) | | | (18,034) | |
+Net cash provided by (used in) financing activities
+| 100,382 | | | (51,326) | |
+| | | |
+Net change in cash and cash equivalents | (630,032) | | | (55,903) | |
+Cash, cash equivalents and restricted cash at beginning of period | 3,722,775 | | | 274,065 | |
+Cash, cash equivalents and restricted cash at end of period | $ | 3,092,743 | | | $ | 218,162 | |
+| | | |
+Cash paid during the period for: | | | |
+Interest | $ | 5,310 | | $ | 5 |
+Income taxes | $ | — | | $ | — |
+Non-GAAP Measure
+The Company presents Adjusted EBITDA, which is not a measurement of financial performance under generally accepted accounting principles in the United States (“U.S. GAAP”). The Company defines non-GAAP “Adjusted EBITDA” as net loss adjusted for: (i) impacts of interest, taxes, depreciation and amortization; (ii) stock-based compensation expense, amortization of right-of-use asset and accretion of asset retirement obligations, which are non-cash items that the Company believes are not reflective of its general business performance, and for which the accounting requires management judgment, and the resulting expenses could vary significantly in comparison to other companies; (iii) equity in net loss of investee, net of tax, related to the Abernathy Joint Venture; (iv) interest income for which management believes is not reflective of the Company’s ongoing operating activities; (v) change in fair value of warrant liabilities, and impairment of property, plant and equipment, net, which are not reflective of the Company’s general business performance; and (vi) acquisition-related transaction costs which management believes are not reflective of the Company’s ongoing operating activities.
+Management believes that providing this non-GAAP financial measure allows for meaningful comparisons between the Company's core business operating results and those of other companies, and provides the Company with an important tool for financial and operational decision making and for evaluating its own core business operating results over different periods of time. In addition to management's internal use of non-GAAP Adjusted EBITDA, management believes that adjusted EBITDA is also useful to investors and analysts in comparing the Company’s performance across reporting periods on a consistent basis. Management believes the foregoing to be the case even though some of the excluded items involve cash outlays and some of them recur on a regular basis (although management does not believe any of such items are normal operating expenses necessary to generate
+the Company’s bitcoin related revenues). For example, the Company expects that share-based compensation expense, which is excluded from Adjusted EBITDA, will continue to be a significant recurring expense over the coming years and is an important part of the compensation provided to certain employees, officers, directors and consultants. Additionally, management does not consider any of the excluded items to be expenses necessary to generate the Company’s bitcoin related revenue.
+The Company's Adjusted EBITDA measure may not be directly comparable to similar measures provided by other companies in the Company’s industry, as other companies in the Company’s industry may calculate non-GAAP financial results differently. The Company's Adjusted EBITDA is not a measurement of financial performance under U.S. GAAP and should not be considered as an alternative to net loss or any other measure of performance derived in accordance with U.S. GAAP. Although management utilizes internally and presents Adjusted EBITDA, the Company only utilizes that measure supplementally and does not consider it to be a substitute for, or superior to, the information provided by U.S. GAAP financial results. Accordingly, Adjusted EBITDA is not meant to be considered in isolation of, and should be read in conjunction with, the information contained in the Company’s condensed consolidated financial statements, which have been prepared in accordance with U.S. GAAP.
+The following table is a reconciliation of the Company’s non-GAAP Adjusted EBITDA to its most directly comparable U.S. GAAP measure (i.e., net loss) for the periods indicated (in thousands):
+| | | | | | | | | | | | | | | |
+| Three Months Ended March 31,
+| | |
+| 2026 | | 2025 | | | | |
+Net loss attributable to TeraWulf, Inc
+| $ | (427,634) | | | $ | (61,418) | | | | | |
+Net loss attributable to non-controlling interest
+| (69) | | | — | | | | | |
+Net loss
+| (427,703) | | | (61,418) | | | | | |
+Adjustments to reconcile net loss to non-GAAP Adjusted EBITDA:
+| | | | | | | |
+Equity in net loss of investee, net of tax | 11,548 | | — | | | | |
+Income tax provision
+| 28 | | — | | | | |
+Interest income
+| (29,411) | | (2,259) | | | | |
+Change in fair value of warrants
+| 216,325 | | — | | | | |
+Interest expense | 67,071 | | 4,049 | | | | |
+Impairment of property, plant, and equipment | 25,697 | | — | | | | |
+Depreciation | 28,477 | | 15,574 | | | | |
+Accretion of asset retirement obligations
+| 168 | | — | | | | |
+Amortization of right-of-use asset | 1,871 | | 685 | | | | |
+Stock-based compensation expense | 101,418 | | 38,674 | | | | |
+Acquisition-related transaction costs | 438 | | — | | | | |
+Non-GAAP Adjusted EBITDA | $ | (4,073) | | $ | (4,695) | | | | |

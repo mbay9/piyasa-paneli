@@ -1,0 +1,115 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1097864/000109786426000014/on-20260403.htm
+SEMBOL: ON
+BASVURU_TARIHI: 2026-05-04
+BASVURU: 0001097864-26-000014
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+(unaudited)
+| Quarters Ended |
+| April 3,
+2026 | April 4,
+2025 |
+Cash flows from operating activities: |
+Net loss | $ | ( 32.9 ) | $ | ( 485.2 ) |
+Adjustments to reconcile net loss to net cash provided by operating activities: |
+Depreciation and amortization | 286.7 | 168.2 |
+(Gain) loss on sale or disposal of fixed assets | ( 1.1 ) | 0.2 |
+Amortization of debt discount and issuance costs | 2.9 | 2.9 |
+Share-based compensation | 37.3 | 33.9 |
+Non-cash asset impairment charges | 147.0 | 431.5 |
+Change in deferred tax balances | 2.7 | ( 13.7 ) |
+Other | ( 2.2 ) | 1.6 |
+Changes in assets and liabilities (exclusive of acquisitions): |
+Receivables | 26.2 | 334.1 |
+Inventories | ( 59.8 ) | 184.6 |
+Other assets | ( 38.5 ) | ( 36.8 ) |
+Accounts payable | ( 75.9 ) | 1.4 |
+Accrued expenses and other current liabilities | ( 35.5 ) | 1.3 |
+Other long-term liabilities | ( 17.8 ) | ( 21.7 ) |
+Net cash provided by operating activities | 239.1 | 602.3 |
+Cash flows from investing activities: |
+Payments for acquisition of property, plant and equipment | ( 21.9 ) | ( 147.6 ) |
+Proceeds from sale of property, plant and equipment | 1.0 | 0.2 |
+Purchase of short-term investments | ( 300.0 ) | ( 250.0 ) |
+Proceeds from the maturity of short-term investments | 300.0 | 300.0 |
+Payments for acquisition of a business, net of cash acquired | — | ( 117.5 ) |
+Other | 4.2 | — |
+Net cash used in investing activities | ( 16.7 ) | ( 214.9 ) |
+Cash flows from financing activities: |
+Proceeds for the issuance of common stock under the ESPP | 6.7 | 5.3 |
+Payment of tax withholding for RSUs | ( 26.9 ) | ( 22.4 ) |
+Repurchase of common stock | ( 345.7 ) | ( 300.1 ) |
+Payment of financing lease obligations | ( 0.1 ) | ( 0.4 ) |
+Net cash used in financing activities | ( 366.0 ) | ( 317.6 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash | ( 0.3 ) | 2.0 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | ( 143.9 ) | 71.8 |
+Cash, cash equivalents and restricted cash, beginning of period (Note 6) | 2,149.0 | 2,693.4 |
+Cash, cash equivalents and restricted cash, end of period (Note 6) | $ | 2,005.1 | $ | 2,765.2 |
+See accompanying notes to consolidated financial statements
+7
+Table of Contents
+ON SEMICONDUCTOR CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+Note 1: Background and Basis of Presentation
+ON Semiconductor Corporation ("onsemi," "we," "us," "our," or the "Company"), with its wholly and majority-owned subsidiaries, operates under the onsemi TM brand. The Company is organized into three operating and reportable segments: the Power Solutions Group ("PSG"), the Analog and Mixed-Signal Group ("AMG"), and the Intelligent Sensing Group ("ISG").
+The Company's fiscal calendar year begins on January 1 and ends on December 31, with each fiscal quarter containing a thirteen-week accounting period. The quarters ended April 3, 2026 and April 4, 2025 contained 93 days and 94 days, respectively.
+The accompanying unaudited financial statements as of and for the quarter ended April 3, 2026 have been prepared following generally accepted accounting principles in the United States of America ("GAAP") for interim financial reporting and the rules and regulations of the SEC for interim reporting. Accordingly, the unaudited financial statements do not include all of the information and footnotes required by GAAP for audited financial statements. The balance sheet as of December 31, 2025 was derived from the Company's audited financial statements but does not include all disclosures required by GAAP for annual financial statements. In management's opinion, the interim information contains all adjustments, which include normal recurring adjustments necessary for a fair statement of the results for the interim periods. The footnote disclosures related to the interim financial information contained herein are also unaudited. Such financial information should be read in conjunction with the consolidated financial statements and related notes thereto for the year ended December 31, 2025, included in the Company's Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the SEC on February 9, 2026 (the "2025 Form 10-K"). Certain reclassifications within the Statements of Cash Flows have been made to prior period amounts to conform to current period presentation.
+Use of Estimates
+The preparation of financial statements in accordance with GAAP requires management to make estimates and assumptions that affect the reported amount of assets and liabilities as of the date of the financial statements and the reported amount of revenue and expenses during the reporting period. Management evaluates these estimates and judgments on an ongoing basis and bases its estimates on experience, current and expected future conditions, third-party evaluations and various other assumptions that management believes are reasonable under the circumstances. Significant estimates have been used by management in conjunction with the following: (i) calculation of future payouts for customer incentives and amounts subject to allowances and returns; (ii) valuation and obsolescence relating to inventories; (iii) measurement of valuation allowances against deferred tax assets and evaluations of uncertain tax positions; (iv) assumptions used in business combinations and the valuation of assets held-for-sale; and (v) testing for impairment of long-lived assets and goodwill. Actual results may differ from the estimates and assumptions used in the consolidated financial statements.
+Note 2: Segments and Revenue
+Segments
+The Company is organized into three operating and reportable segments consisting of PSG, AMG and ISG. These segments represent management's view of the business for which separate financial information is available and evaluated regularly by the Chief Operating Decision Maker ("CODM"), which is the Company’s Chief Executive Officer. The CODM uses segment gross profit for evaluating product pricing, factory utilization, allocation of capital and the assessment of segment profitability.
+8
+Table of Contents
+ON SEMICONDUCTOR CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - Continued
+(unaudited)
+Revenue and gross profit for the operating and reportable segments were as follows (in millions):
+PSG | AMG | ISG | Total |
+For the quarter ended April 3, 2026:
+|
+Revenue from external customers | $ | 736.6 | $ | 540.4 | $ | 236.3 | $ | 1,513.3 |
+Cost of revenue | 536.2 | 250.8 | 143.2 | 930.2 |
+Segment gross profit | $ | 200.4 | $ | 289.6 | $ | 93.1 | $ | 583.1 |
+For the quarter ended April 4, 2025:
+|
+Revenue from external customers | $ | 645.1 | $ | 566.4 | $ | 234.2 | $ | 1,445.7 |
+Cost of revenue | 521.9 | 265.5 | 364.5 | 1,151.9 |
+Segment gross profit (loss) | $ | 123.2 | $ | 300.9 | $ | ( 130.3 ) | $ | 293.8 |
+The Company had one customer, a distributor, whose revenue accounted for approximately 12 % and 10 % of total revenue for the quarters ended April 3, 2026 and April 4, 2025, respectively, across all reportable segments. No single customer accounted for more than 10% of the Company's accounts receivable balance as of April 3, 2026, and one customer, a distributor, accounted for approximately 10 % of the Company's accounts receivable balance as of December 31, 2025.
+Revenue for the operating and reportable segments disaggregated into geographic locations based on sales billed from the respective country and sales channel was as follows (in millions):
+Quarter Ended April 3, 2026 |
+PSG | AMG | ISG | Total |
+Geographic Location: |
+United Kingdom | $ | 184.7 | $ | 118.3 | $ | 89.2 | $ | 392.2 |
+Hong Kong | 185.9 | 144.1 | 38.9 | 368.9 |
+Singapore | 193.4 | 101.9 | 26.9 | 322.2 |
+United States | 126.0 | 141.3 | 29.2 | 296.5 |
+Other | 46.6 | 34.8 | 52.1 | 133.5 |
+Total | $ | 736.6 | $ | 540.4 | $ | 236.3 | $ | 1,513.3 |
+Sales Channel: |
+Distributors | $ | 449.3 | $ | 257.4 | $ | 110.1 | $ | 816.8 |
+Direct customers | 287.3 | 283.0 | 126.2 | 696.5 |
+Total | $ | 736.6 | $ | 540.4 | $ | 236.3 | $ | 1,513.3 |
+9
+Table of Contents
+ON SEMICONDUCTOR CORPORATION
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - Continued
+(unaudited)
+Quarter Ended April 4, 2025 |
+PSG | AMG | ISG | Total |
+Geographic Location: |
+United Kingdom | $ | 165.0 | $ | 122.5 | $ | 80.0 | $ | 367.5 |
+Hong Kong | 165.1 | 143.4 | 61.6 | 370.1 |
+Singapore | 140.4 | 114.2 | 19.2 | 273.8 |
+United States | 123.0 | 142.0 | 27.6 | 292.6 |
+Other | 51.6 | 44.3 | 45.8 | 141.7 |
+Total | $ | 645.1 | $ | 566.4 | $ | 234.2 | $ | 1,445.7 |
+Sales Channel: |
+Distributors | $ | 335.6 | $ | 276.1 | $ | 97.4 | $ | 709.1 |
+Direct customers | 309.5 | 290.3 | 136.8 | 736.6 |
+Total | $ | 645.1 | $ | 566.4 | $ | 234.2 | $ | 1,445.7 |
+The Company operates in various geographic locations. Sales to external customers have little correlation to where products are manufactured or the location of the end-customer. It is, therefore, not meaningful t

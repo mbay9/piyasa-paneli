@@ -1,0 +1,128 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2080126/000208012626000035/fps-20260630.htm
+SEMBOL: FPS
+BASVURU_TARIHI: 2026-09-15
+BASVURU: 0002080126-26-000035
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in thousands)
+Successor | Predecessor |
+Year Ended
+June 30, 2026 | Year Ended June 30, 2025 | Period from Inception to June 30, 2024 | Period from
+July 1, 2023 to October 31, 2023 |
+Cash Flows from Operating Activities
+|
+Net income (loss)
+| $ | 106,035 | $ | 17,446 | $ | ( 19,202 ) | $ | 8,461 |
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operating activities:
+|
+Depreciation and amortization
+| 66,899 | 64,864 | 21,304 | 373 |
+Amortization / write off of deferred financing costs
+| 12,987 | 2,511 | 4,174 | — |
+Deferred taxes
+| 14,635 | ( 15,733 ) | ( 9,836 ) | ( 1,485 ) |
+Provision (recovery) for credit losses
+| 2,999 | ( 207 ) | ( 169 ) | ( 79 ) |
+Provision for excess or obsolete inventory
+| 10,669 | 9 | 349 | — |
+Equity-based compensation
+| 10,036 | 1,784 | 653 | — |
+Reduction in carrying amount of ROU asset, operating leases
+| 9,337 | 8,351 | 917 | 296 |
+Changes in assets and liabilities, net of business acquisitions:
+|
+Accounts receivable
+| ( 172,657 ) | ( 78,510 ) | ( 4,418 ) | ( 9,431 ) |
+Inventory
+| ( 142,909 ) | ( 34,470 ) | ( 3,261 ) | ( 4,853 ) |
+Prepaid and other assets
+| ( 66,465 ) | ( 18,493 ) | ( 19,598 ) | 5,799 |
+Accounts payable
+| 68,510 | 35,183 | 7,834 | ( 6,795 ) |
+Accrued expenses
+| 42,815 | 44,481 | 9,244 | 12,093 |
+Deferred revenue
+| 152,964 | 20,747 | 8,261 | 638 |
+Lease liabilities, operating leases
+| ( 6,774 ) | ( 2,941 ) | ( 882 ) | ( 284 ) |
+Net Cash Provided by (Used in) Operating Activities
+| 109,081 | 45,022 | ( 4,630 ) | 4,733 |
+Cash Flows from Investing Activities
+|
+Purchases of property and equipment
+| ( 115,905 ) | ( 84,115 ) | ( 2,907 ) | ( 1,759 ) |
+Acquisitions, net of cash acquired
+| — | — | ( 741,743 ) | — |
+Net Cash Used in Investing Activities
+| ( 115,905 ) | ( 84,115 ) | ( 744,650 ) | ( 1,759 ) |
+Cash Flows from Financing Activities
+|
+Proceeds from issuance of Class A common stock sold in an IPO, net of underwriting discounts and commissions | 491,833 | — | — | — |
+Purchase of Opco LLC Interests from Existing Shareholders with proceeds from IPO | ( 491,833 ) | — | — | — |
+Proceeds from issuance of Class A common stock sold in follow-on offerings, net of underwriting discounts and commissions | 1,033,131 | — | — | — |
+Purchase of Opco LLC Interests from Existing Shareholders with proceeds from follow-on offerings | ( 1,033,131 ) | — | — | — |
+Proceeds from long-term debt
+| 594,000 | — | 517,300 | — |
+Payments on long-term debt
+| ( 512,610 ) | ( 5,173 ) | ( 1,017 ) | — |
+Debt financing costs
+| ( 13,467 ) | — | ( 17,060 ) | — |
+Line of credit, net | — | — | — | 5,255 |
+Distributions to stockholders/members
+| ( 1,440 ) | ( 13,269 ) | — | ( 663 ) |
+Distribution to non-controlling Opco LLC Interests | ( 8,588 ) | — | — | — |
+Payment of payables pursuant to the acquisitions
+| ( 17,226 ) | ( 13,066 ) | — | — |
+Capital contributions
+| — | — | 436,453 | — |
+Deferred offering costs
+| ( 23,454 ) | ( 4,473 ) | — | — |
+73
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+CONSOLIDATED/COMBINED STATEMENTS OF CASH FLOWS
+(in thousands)
+Successor | Predecessor |
+Year Ended
+June 30, 2026 | Year Ended June 30, 2025 | Period from Inception to June 30, 2024 | Period from
+July 1, 2023 to October 31, 2023 |
+Net Cash Provided by (Used in) Financing Activities
+| 17,215 | ( 35,981 ) | 935,676 | 4,592 |
+Net Increase (Decrease) in Cash, Cash Equivalents, and Restricted Cash
+| 10,391 | ( 75,074 ) | 186,396 | 7,566 |
+Cash, Cash Equivalents, and Restricted Cash - Beginning of Period
+| 111,322 | 186,396 | — | 856 |
+Cash, Cash Equivalents, and Restricted Cash - End of Period
+| $ | 121,713 | $ | 111,322 | $ | 186,396 | $ | 8,422 |
+Supplemental Cash Flows Information:
+|
+Cash paid for interest
+| $ | 48,163 | $ | 54,605 | $ | 10,385 | $ | 778 |
+Cash paid for taxes
+| $ | 13,687 | $ | 7,392 | $ | 10,406 | $ | 1,000 |
+Supplemental Non-Cash Investing and Financing Activities: |
+Recording of deferred tax assets related to exchanges of Class B common stock to Class A common stock | $ | 356,608 | $ | — | $ | — | $ | — |
+Recording of amounts payable pursuant to tax receivable agreement | $ | 338,925 | $ | — | $ | — | $ | — |
+Capital contribution related to tax receivable agreement exchanges of Class B common stock to Class A common stock | $ | 2,315 | $ | — | $ | — | $ | — |
+Reclassification of deferred offering costs to additional paid-in capital | $ | 4,472 | $ | — | $ | — | $ | — |
+Equity issued for Acquisitions
+| $ | — | $ | — | $ | 175,048 | $ | — |
+Deferred taxes related to reallocation of members' equity
+| $ | — | $ | 25,627 | $ | — | $ | — |
+Payables pursuant to Acquisitions
+| $ | — | $ | — | $ | 30,292 | $ | — |
+See Accompanying Notes to Consolidated/Combined Financial Statements.
+74
+Table of Contents
+FORGENT POWER SOLUTIONS, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+1. Organization and Nature of Business
+Forgent Power Solutions, Inc. (the “Company”) was incorporated in Delaware on July 21, 2025 for the purpose of completing an initial public offering (“IPO”) of its Class A common stock, par value $ 0.00001 per share (“Class A common stock”) and related transactions in order to continue the business of Forgent Power Solutions LLC (“Opco”). After the IPO, the Company became a holding company in an umbrella partnership C corporation (“Up-C”) structure and a sole managing member of Opco with its only material asset consisting of limited liability company interests of Opco (“Opco LLC Interests”).
+The Company designs, manufactures and sells electrical distribution equipment used in data centers, the power grid and industrial facilities. The Company specializes in producing custom products that are “engineered-to-order” for technically demanding applications. Major product categories of electrical distribution equipment that the Company sells include automatic transfer switches, dry type transformers, electrical houses, generator connection cabinets, liquid filled transformers, panelboards, power distribution units, power skids, remote power panels, switchboards, switchgear and tap boxes. The Company also provides on-site commissioning and maintenance services for its products.
+Forgent Intermediate LLC, formerly MGM Transformer Intermediate, LLC, is a Delaware limited liability company that was formed by affiliates of Neos Partners, LP (“Neos”) on September 8, 2023 (such date “Inception”), for the purpose of facilitating a transaction between one of its subsidiaries, US MetalCo Holdings LLC (“US MetalCo”), and MGM Transformer Company and other related entities (“MGM”). Forgent Intermediate LLC is a wholly-owned subsidiary of Forgent Parent I LP (“Forgent Parent I”). An Equity Purchase Agreement (“MGM Agreement”) was entered into effective October 31, 2023 (“MGM Acquisition Date”) by and among (i) US MetalCo and (ii) the sellers of MGM (“MGM Sellers”), whereby the MGM Sellers sold all of the outstanding equity interest in MGM in exchange for cash, equity in Forgent Parent I, and a payable, as set forth in the MGM Agreement (the “MGM Acquisition”). For the period from Inception to the MGM Acquisition Date, Forgent Intermediate LLC’s and US MetalCo’s operations were related solely to organizational activities and the pursuit of the MGM Acquisition, for which it incurred transaction costs that were funded through equity contributions. Forgent Intermediate LLC and US MetalCo (including its subsidiaries) did not hold any other assets or liabilities prior to the MGM Acquisition Date.
+In the year ended June 30, 2024, the following acquisitions were completed (collectively, with the MGM Acquisition, the “Business Acquisitions”):
+• Affiliates of Neos formed Forgent Parent II LP (“Forgent Parent II”) on February 15, 2024 and on March 13, 2024, a wholly-owned subsidiary of Forgent Parent II acquired all of the equity and controlling financial interests in Allied Trading, Inc., Ares Energy LP (formerly Ares Energy LLC), EMK Solutions and certain other subsidiaries or their predecessor entities (collectively referred to as “PwrQ”);
+• Affiliates of Neos formed Forgent Parent III LP (“Forgent Parent III”) on May 22, 2024 and on May 31, 2024, a wholly-owned subsidiary of Forgent Parent III acquired all of the equity and controlling financial interests in States Manufacturing LLC (“States”); and
+• On June 14, 2024, a wholly-owned subsidiary of Forgent Intermediate LLC completed the acquisition of TriMagna Industries, LTD. and its subsidiary (collectively referred to as “VanTran”).
+On March 25, 2025, Forgent Intermediate LLC formed a new subsidiary, Forgent Power Solutions LLC (“Opco”). On May 7, 2025, Forgent Intermediate LLC formed a new subsidiary, Forgent Intermediate II LLC and contributed all the equity interests of its subsidiaries to Forgent Intermediate II LLC. On May 8, 2025 (the “Combination Date”), Forgent Intermediate II LLC, Forgent Parent II, and Forgent Parent III each contributed all the equity interests of their respective subsidiaries to Opco in exchange for Class A com

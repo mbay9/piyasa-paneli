@@ -1,0 +1,119 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2064953/000206495326000087/sols-20260630.htm
+SEMBOL: SOLS
+BASVURU_TARIHI: 2026-07-30
+BASVURU: 0002064953-26-000087
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS (UNAUDITED)
+(Dollars in millions)
+For The Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income
+| $ | 239 | $ | 239 |
+Adjustments to reconcile net income to net cash provided by operating activities |
+Depreciation | 107 | 105 |
+Amortization | 10 | 11 |
+Equity income of affiliated companies | ( 8 ) | ( 10 ) |
+Gain on sale of fixed assets | — | ( 15 ) |
+Stock-based compensation expense
+| 11 | 12 |
+Changes in assets and liabilities |
+Accounts receivable 1
+| ( 69 ) | ( 70 ) |
+Inventories | 45 | ( 68 ) |
+Other assets | 26 | 4 |
+Accounts payable 2
+| 56 | 87 |
+Accrued and other liabilities, current 3
+| 37 | 24 |
+Deferred income taxes | 12 | ( 7 ) |
+Deferred income and customer advances | 2 | ( 1 ) |
+Other liabilities, noncurrent 4
+| ( 6 ) | ( 1 ) |
+Net cash provided by operating activities
+| 461 | 310 |
+Cash flows from investing activities: |
+Capital expenditures paid 5
+| ( 213 ) | ( 138 ) |
+Cash paid for long-life catalysts and deferred maintenance | — | ( 1 ) |
+Proceeds from disposals of property, plant, and equipment | — | 23 |
+Capitalized software
+| ( 2 ) | ( 2 ) |
+Net cash used for investing activities
+| ( 215 ) | ( 118 ) |
+Cash flows from financing activities: |
+Dividends
+| ( 24 ) | — |
+Finance lease payments | ( 7 ) | ( 5 ) |
+Net transfers to Parent | — | ( 7 ) |
+Net cash used for financing activities
+| ( 31 ) | ( 12 ) |
+Effect of foreign exchange rate changes on cash and cash equivalents | — | 32 |
+Net increase in cash and cash equivalents
+| 215 | 212 |
+Cash and cash equivalents at beginning of period | 534 | 661 |
+Cash and cash equivalents at end of period
+| $ | 750 | $ | 873 |
+__________________
+1. Includes decrease in short term related party receivables of $ 9 million and $ 6 million for the six months ended June 30, 2026 and 2025, respectively.
+2. Includes increase in related party accounts payables of $ 5 million and $ 1 million for the six months ended June 30, 2026 and 2025, respectively.
+3. Includes increase in related party accrued liabilities of $ 4 million and $ 4 million for the six months ended June 30, 2026 and 2025, respectively.
+4. Includes decrease in related party long-term receivable of $ 0 million and $ 7 million for the six months ended June 30, 2026 and 2025, respectively.
+5. Net of reimbursements received pursuant to certain contractual arrangements of $ 2 million for the six months ended June 30, 2026.
+The Notes to the Consolidated Financial Statements are an integral part of this statement.
+6
+SOLSTICE ADVANCED MATERIALS INC.
+CONSOLIDATED STATEMENTS OF EQUITY (UNAUDITED)
+(Dollars in millions, except per share amounts)
+Common Stock 1
+| Additional Paid-in Capital | Net Parent Investment | Accumulated Other Comprehensive Loss | Retained Earnings | Noncontrolling Interest | Total Equity |
+Balance as of March 31, 2026 | $ | 2 | $ | 1,500 | $ | — | $ | ( 128 ) | $ | 113 | $ | ( 14 ) | $ | 1,473 |
+Net income | — | — | — | — | 119 | 15 | 134 |
+Dividends ($ 0.075 per share)
+| — | — | — | — | ( 12 ) | — | ( 12 ) |
+Foreign exchange translation adjustment | — | — | — | ( 11 ) | — | — | ( 11 ) |
+Changes in fair value of cash flow hedges | — | — | — | ( 2 ) | — | — | ( 2 ) |
+Stock-based compensation
+| — | 6 | — | — | — | — | 6 |
+Balance as of June 30, 2026 | $ | 2 | $ | 1,506 | $ | — | $ | ( 142 ) | $ | 220 | $ | 2 | $ | 1,588 |
+Balance as of March 31, 2025 | $ | — | $ | — | $ | 3,504 | $ | ( 203 ) | $ | — | $ | ( 72 ) | $ | 3,229 |
+Net income | — | — | 97 | — | — | 2 | 99 |
+Foreign exchange translation adjustment | — | — | — | 66 | — | — | 66 |
+Pension and other postretirement benefit adjustments | — | — | — | ( 1 ) | — | — | ( 1 ) |
+Changes in fair value of cash flow hedges | — | — | — | ( 26 ) | — | — | ( 26 ) |
+Net transfers to Parent | — | — | 105 | — | — | 1 | 106 |
+Balance as of June 30, 2025 | $ | — | $ | — | $ | 3,706 | $ | ( 164 ) | $ | — | $ | ( 69 ) | $ | 3,473 |
+7
+Common Stock 1
+| Additional Paid-in Capital | Net Parent Investment | Accumulated Other Comprehensive Loss | Retained Earnings | Noncontrolling Interest | Total Equity |
+Balance as of December 31, 2025 | $ | 2 | $ | 1,495 | $ | — | $ | ( 127 ) | $ | 41 | $ | ( 34 ) | $ | 1,377 |
+Net income | — | — | — | — | 204 | 35 | 239 |
+Dividends ($ 0.15 per share)
+| — | — | — | — | ( 24 ) | — | ( 24 ) |
+Foreign exchange translation adjustment | — | — | — | ( 15 ) | — | — | ( 15 ) |
+Stock-based compensation
+| — | 11 | — | — | — | — | 11 |
+Balance as of June 30, 2026 | $ | 2 | $ | 1,506 | $ | — | $ | ( 142 ) | $ | 220 | $ | 2 | $ | 1,588 |
+Balance as of December 31, 2024 | $ | — | $ | — | $ | 3,471 | $ | ( 213 ) | $ | — | $ | ( 76 ) | $ | 3,182 |
+Net income | — | — | 231 | — | — | 8 | 239 |
+Foreign exchange translation adjustment | — | — | — | 88 | — | — | 88 |
+Pension and other postretirement benefit adjustments | — | — | — | ( 2 ) | — | — | ( 2 ) |
+Changes in fair value of cash flow hedges | — | — | — | ( 37 ) | — | — | ( 37 ) |
+Net transfers to Parent | — | — | 4 | — | — | ( 1 ) | 3 |
+Balance as of June 30, 2025 | $ | — | $ | — | $ | 3,706 | $ | ( 164 ) | $ | — | $ | ( 69 ) | $ | 3,473 |
+__________________
+1. See Note 11 – Shareowners’ Equity of the Notes to the Consolidated Financial Statements for a rollforward of common stock.
+The Notes to the Consolidated Financial Statements are an integral part of this statement.
+8
+SOLSTICE ADVANCED MATERIALS INC.
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+(Dollars in tables in millions, unless otherwise noted)
+Note 1. Business Overview and Basis of Presentation
+About the Business
+Solstice Advanced Materials Inc. (“Solstice,” the “Business” or the “Company”) is a global specialty chemicals and advanced materials company with leading positions in refrigerants, semiconductor materials, protective fibers, and healthcare packaging. Prior to October 30, 2025, the Company was wholly owned by Honeywell International Inc. (“Honeywell” or “Parent”).
+On October 8, 2024, Honeywell announced its plan to spin off its Advanced Materials business into an independent, U.S. publicly traded company through a pro rata distribution of all of the outstanding common shares of Solstice Advanced Materials to Honeywell shareowners (the “Spin-off”) that would be tax-free for U.S. federal tax purposes. On October 30, 2025, the Spin-off was consummated by means of a pro-rata distribution (the “Distribution”), which was intended to be tax-free for U.S. federal tax purposes, of all of the issued and outstanding Solstice Advanced Materials common shares to Honeywell’s shareowners of record as of October 17, 2025 (the “Record Date”), at which time each holder of Honeywell's common shares received one Solstice Advanced Materials common share for every four Honeywell common shares held as of the close of business on the Record Date, resulting in the Distribution of 158,727,456 of the Company’s common shares to Honeywell shareowners. Upon completion of the Distribution, on October 30, 2025, the Company commenced “regular way” trading as an independent public company under the ticker symbol “SOLS” on The Nasdaq Stock Market (“Nasdaq”). Following the Distribution, Honeywell does not beneficially own any Solstice Advanced Materials common shares.
+Basis of Presentation
+We prepare our consolidated financial statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”) pursuant to the rules and regulations of the U.S. Securities and Exchange Commission (“SEC”).
+Prior to October 30, 2025 (“the Spin-off date”), the accompanying unaudited combined financial statements have been derived from Honeywell and presented on a standalone basis as if the Company’s operations had been conducted independently. The accompanying financial statements for periods prior to the Spin-off date include all revenues and costs directly attributable to the Solstice Advanced Materials business and an allocation of expenses related to certain Honeywell corporate functions. These expenses were allocated to the Solstice business based on a proportion of net sales. Solstice and Honeywell considered these allocations to be a reasonable reflection of the utilization of services or the benefits received. However, the allocations may not be indicative of the actual expense that would have been incurred had Solstice operated as an independent, standalone entity, nor are they indicative of future expenses of Solstice.
+Honeywell used a centralized approach to cash management and financing of its operations. Accordingly, for periods prior to the Spin-off, a substantial portion of the Business’s cash accounts were regularly cleared to the former Parent at Honeywell’s discretion and Honeywell funded the Business’s operating and investing activities as needed. Honeywell’s long-term debt and related interest expense were not attributed to Solstice for any of the periods presented as the Business was not the legal obligor of such borrowings and Honeywell’s borrowings were

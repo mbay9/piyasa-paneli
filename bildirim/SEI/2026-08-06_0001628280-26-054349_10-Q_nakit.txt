@@ -1,0 +1,114 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1697500/000162828026054349/sei-20260630.htm
+SEMBOL: SEI
+BASVURU_TARIHI: 2026-08-06
+BASVURU: 0001628280-26-054349
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Six Months Ended
+June 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 57,287 | $ | 37,097 |
+Adjustment to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 64,276 | 38,441 |
+Stock-based compensation | 18,485 | 12,198 |
+Loss on debt extinguishment | 16,084 | — |
+Amortization of debt financing costs | 4,693 | 1,221 |
+Deferred income tax expense | 20,216 | 9,056 |
+Other | 333 | 279 |
+Changes in assets and liabilities: |
+Accounts receivable | ( 105,689 ) | ( 41,776 ) |
+Prepaid expenses and other assets | 616 | ( 1,582 ) |
+Inventories | ( 10,568 ) | ( 780 ) |
+Accounts payable | 8,407 | 1,824 |
+Accrued liabilities | 10,046 | ( 1,318 ) |
+Deferred revenue | 181,320 | ( 1,044 ) |
+Cash settlement of stock-based compensation | — | ( 3,713 ) |
+Net cash provided by operating activities | 265,506 | 49,903 |
+Cash flows from investing activities: |
+Investment in equipment held for lease and property, plant and equipment | ( 835,200 ) | ( 329,454 ) |
+Asset acquisition, net of cash acquired | ( 107,623 ) | — |
+Other | ( 7,660 ) | ( 7,545 ) |
+Net cash used in investing activities | ( 950,483 ) | ( 336,999 ) |
+Cash flows from financing activities: |
+Borrowings from debt financing | 1,778,380 | 71,979 |
+Borrowings from convertible notes | — | 155,000 |
+Repayments of debt financing | ( 463,950 ) | — |
+Payments of fees related to debt extinguishment | ( 5,921 ) | — |
+Payments of financing costs related to debt and convertible notes | ( 44,245 ) | ( 13,242 ) |
+Distributions to non-controlling interest unitholders | ( 3,585 ) | ( 7,933 ) |
+Dividends paid to Class A common stock shareholders | ( 14,454 ) | ( 9,554 ) |
+Payments under finance leases | ( 1,704 ) | ( 1,612 ) |
+Proceeds from issuance of insurance notes payable | — | 149 |
+Payments under insurance premium financing | ( 1,630 ) | ( 717 ) |
+Cancelled shares withheld for taxes from vesting of restricted stock and restricted stock units | ( 14,715 ) | ( 10,212 ) |
+Payment of liabilities under Tax Receivable Agreement | ( 1,717 ) | ( 3,610 ) |
+Capital contributions from non-controlling interest in Stateline | — | 86,023 |
+Net cash provided by financing activities | 1,226,459 | 266,271 |
+Net increase (decrease) in cash, cash equivalents and restricted cash | 541,482 | ( 20,825 ) |
+Cash, cash equivalents and restricted cash at beginning of period | 353,319 | 159,867 |
+Cash, cash equivalents and restricted cash at end of period | $ | 894,801 | $ | 139,042 |
+Non-cash investing and financing activities: |
+Additions to equipment held for lease and property, plant and equipment not yet paid at period-end | $ | 141,570 | $ | 29,459 |
+Additions to property, plant, and equipment through finance leases | 3,130 | 1,689 |
+Unpaid capitalized interest on equipment held for leases | 5,521 | — |
+Issuance of common stock for asset acquisition | 238,377 | — |
+Asset acquisition cost incurred but not paid at period-end | 2,794 | — |
+Incurrence of debt for asset acquisition | 123,196 | — |
+Capitalized depreciation in property, plant and equipment | — | 190 |
+Capitalized stock-based compensation | — | 335 |
+Supplemental cash flow disclosure: |
+Interest paid, net of capitalized interest | 5,315 | 11,980 |
+Interest received | 7,869 | 2,068 |
+Income taxes (refunded) paid, net | ( 187 ) | 782 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+Table of Contents
+SOLARIS ENERGY INFRASTRUCTURE, INC.
+Notes to the Unaudited Condensed Consolidated Financial Statements
+(Dollars in millions, except share and per share amounts)
+1. Business and Basis of Presentation
+Business
+Solaris Energy Infrastructure, Inc. (referred to as the “Company,” “we,” “us,” “our” and “Solaris” either individually or together with its consolidated subsidiaries, as the context requires) and its consolidated subsidiaries deliver comprehensive power infrastructure solutions including generation, distribution, installation and commissioning, aftermarket support, and operations and maintenance, as well as logistics equipment and services. Headquartered in Houston, Texas, the Company serves multiple U.S. end markets, including data centers, energy, and other commercial and industrial sectors. The Company operates through two reportable business segments: Solaris Power Solutions and Solaris Logistics Solutions.
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared using generally accepted accounting principles in the United States of America (“GAAP”) for interim financial information and the instructions to Form 10-Q and Regulation S-X. Accordingly, these financial statements do not include all information or notes required by GAAP for annual financial statements and should be read together with the consolidated financial statements included in our Annual Report on Form 10-K for the year ended December 31, 2025, filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 27, 2026.
+These condensed consolidated financial statements reflect all normal recurring adjustments that are necessary for fair presentation. Operating results for the three and six months ended June 30, 2026 and 2025 are not necessarily indicative of the results that may be expected for the full year or for any interim period.
+2. Variable Interest Entities
+Stateline
+The Company holds a 50.1 % equity interest in Stateline Power, LLC (“Stateline”), a variable interest entity (“VIE”) formed on April 28, 2025. Stateline was formed to provide off-grid power generation pursuant to a long-term equipment lease arrangement with MZX Tech LLC (“MZX”). The remaining 49.9 % equity interest in Stateline is held by MZX and is presented as a non-controlling interest.
+The Company continues to consolidate Stateline in its condensed consolidated financial statements within the Solaris Power Solutions segment, as the Company remains the primary beneficiary. No reconsideration events occurred during the three and six months ended June 30, 2026 that would alter this conclusion. There have been no material changes to the nature, structure, or purpose of Stateline as previously disclosed in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025.
+Each lease with MZX commences on the date the underlying equipment is made available for use by MZX. As of June 30, 2026, no leases had commenced, and therefore no lease revenue was recognized during the three and six months ended June 30, 2026.
+On May 23, 2025, Stateline entered into a delayed draw term loan facility to finance the power generation equipment to be leased to MZX. Refer to Note 11. “Debt – Stateline Term Loan ” for additional information regarding Stateline’s delayed draw term loan facility.
+The Company did not provide any financial support to Stateline during the three and six months ended June 30, 2026 that it was not contractually required to provide, and it has no current intention to provide such support beyond its existing obligations. As of June 30, 2026, the Company’s maximum exposure to loss from its involvement with Stateline is limited to its equity investment of $ 86.4 million. The assets of Stateline may be used only to settle its obligations, and creditors of Stateline do not have recourse to the general credit of the Company.
+Refer to Note 14. “Equity and Non-controlling Interest” for a breakdown of non-controlling interest by entity, including MZX’s 49.9 % equity interest in Stateline.
+9
+Table of Contents
+The following table summarizes Stateline’s assets and liabilities included in the Company’s condensed consolidated balance sheets as of June 30, 2026 and December 31, 2025.
+June 30,
+2026 | December 31,
+2025 |
+Assets |
+Current assets: |
+Cash and cash equivalents | $ | 12.7 | $ | 27.9 |
+Accounts receivable | 28.0 | 0.6 |
+Prepaid expenses and other current assets | 0.3 | — |
+Total current assets | 41.0 | 28.5 |
+Equipment held for lease, net | 523.1 | 354.9 |
+Other assets | 2.0 | 3.7 |
+Total assets | $ | 566.1 | $ | 387.1 |
+Liabilities |
+Current liabilities: |
+Accounts payable | $ | 16.5 | $ | 1.4 |
+Accrued liabilities | — | 31.7 |
+Deferred revenue, current portion | 2.1 | — |
+Long-term debt, current portion | 11.4 | 4.0 |
+Total current liabilities | 30.0 | 37.1 |
+Deferred revenue, net of current portion | 15.6 | — |
+Long-term debt, net of current portion | 324.8 | 180.0 |
+Total liabilities | $ | 370.4 | $ | 217.1 |
+Investment in SISU SPV, LLC
+The Company has an investment in SISU SPV, LLC, a Delaware limited liability company formed to invest in an Oklahoma-based company that provides emissions-reduction solutions, including selective catalytic reduction catalyst systems.
+SISU is a VIE because its equity holders, as a group, lack the power to direct the activities that most significantly impact its economic performance. The terms of SISU’s operating agreement vest substan

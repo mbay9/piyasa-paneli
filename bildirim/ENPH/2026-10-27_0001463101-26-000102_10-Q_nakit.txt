@@ -1,0 +1,231 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1463101/000146310126000102/enph-20260930.htm
+SEMBOL: ENPH
+BASVURU_TARIHI: 2026-10-27
+BASVURU: 0001463101-26-000102
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 7
+|
+Notes to Condensed Consolidated Financial Statements
+| 8
+|
+Item 2.
+| Management's Discussion and Analysis of Financial Condition and Results of Operations
+| 34
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 47
+|
+Item 4.
+| Controls and Procedures
+| 48
+|
+PART II. OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 49
+|
+Item 1A.
+| Risk Factors
+| 51
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 52
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 53
+|
+Item 4.
+| Mine Safety Disclosures
+| 53
+|
+Item 5.
+| Other Information
+| 53
+|
+Item 6.
+| Exhibits
+| 53
+|
+Signature
+| 55
+|
+Enphase Energy, Inc. | 2026 Form 10-Q | 2
+Table of Contents
+PART I. FINANCIAL INFORMATION
+Item 1. Financial Statements (unaudited)
+ENPHASE ENERGY, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In thousands, except par value)
+(Unaudited)
+As of |
+September 30,
+2026 | December 31,
+2025 |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 380,398 | $ | 474,318 |
+Marketable securities | 551,448 | 1,038,536 |
+Accounts receivable, net of allowances of $ 1,264 and $ 580 at September 30, 2026 and December 31, 2025, respectively
+| 249,939 | 229,881 |
+Inventory | 243,707 | 288,047 |
+Prepaid expenses and other current assets | 457,335 | 576,078 |
+Total current assets | 1,882,827 | 2,606,860 |
+Property and equipment, net | 133,717 | 136,804 |
+Intangible assets, net | 8,603 | 22,288 |
+Goodwill | 213,087 | 214,760 |
+Other assets | 317,185 | 222,677 |
+Deferred tax assets, net | 321,619 | 306,403 |
+Total assets | $ | 2,877,038 | $ | 3,509,792 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 100,613 | $ | 203,039 |
+Accrued liabilities | 161,931 | 217,366 |
+Deferred revenues, current | 170,565 | 180,524 |
+Warranty obligations, current | 26,990 | 29,038 |
+Debt, current | — | 632,183 |
+Total current liabilities | 460,099 | 1,262,150 |
+Long-term liabilities: |
+Deferred revenues, non-current | 355,141 | 337,923 |
+Warranty obligations, non-current | 177,021 | 185,005 |
+Other liabilities | 69,578 | 65,497 |
+Debt, non-current | 573,163 | 572,194 |
+Total liabilities | 1,635,002 | 2,422,769 |
+Commitments and contingencies (Note 12) | | |
+Stockholders’ equity: |
+Common stock, $ 0.00001 par value, 300,000 shares authorized; and 132,301 shares and 131,080 shares issued and outstanding at September 30, 2026 and December 31, 2025, respectively
+| 1 | 1 |
+Additional paid-in capital | 1,404,986 | 1,289,164 |
+Accumulated deficit | ( 151,836 ) | ( 203,896 ) |
+Accumulated other comprehensive income (loss) | ( 11,115 ) | 1,754 |
+Total stockholders’ equity | 1,242,036 | 1,087,023 |
+Total liabilities and stockholders’ equity | $ | 2,877,038 | $ | 3,509,792 |
+See Notes to Condensed Consolidated Financial Statements.
+Enphase Energy, Inc. | 2026 Form 10-Q | 3
+Table of Contents
+ENPHASE ENERGY, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(In thousands, except per share data)
+(Unaudited)
+Three Months Ended
+September 30, | Nine Months Ended
+September 30, |
+2026 | 2025 | 2026 | 2025 |
+Net revenues | $ | 293,329 | $ | 410,427 | $ | 868,083 | $ | 1,129,664 |
+Cost of revenues | 166,211 | 214,188 | 465,558 | 594,691 |
+Gross profit | 127,118 | 196,239 | 402,525 | 534,973 |
+Operating expenses: |
+Research and development | 45,199 | 47,266 | 135,724 | 142,861 |
+Sales and marketing | 45,110 | 48,429 | 138,742 | 148,085 |
+General and administrative | 30,395 | 33,098 | 94,984 | 101,168 |
+Restructuring and asset impairment | ( 52 ) | 1,287 | 4,733 | 7,771 |
+Total operating expenses | 120,652 | 130,080 | 374,183 | 399,885 |
+Income from operations | 6,466 | 66,159 | 28,342 | 135,088 |
+Other income (expense), net |
+Interest income | 16,912 | 15,429 | 41,691 | 47,372 |
+Interest expense | ( 327 ) | ( 830 ) | ( 1,287 ) | ( 3,692 ) |
+Other expense, net | ( 26,622 ) | ( 3,739 ) | ( 24,278 ) | ( 12,651 ) |
+Total other income (expense), net | ( 10,037 ) | 10,860 | 16,126 | 31,029 |
+Income (loss) before income taxes | ( 3,571 ) | 77,019 | 44,468 | 166,117 |
+Income tax benefit (provision) | 26,958 | ( 10,381 ) | 7,592 | ( 32,697 ) |
+Net income | $ | 23,387 | $ | 66,638 | $ | 52,060 | $ | 133,420 |
+Net income per share: |
+Basic | $ | 0.18 | $ | 0.51 | $ | 0.39 | $ | 1.02 |
+Diluted | $ | 0.17 | $ | 0.50 | $ | 0.39 | $ | 1.01 |
+Shares used in per share calculation: |
+Basic | 132,222 | 130,797 | 131,844 | 131,228 |
+Diluted | 135,198 | 132,995 | 135,001 | 133,439 |
+See Notes to Condensed Consolidated Financial Statements.
+Enphase Energy, Inc. | 2026 Form 10-Q | 4
+Table of Contents
+ENPHASE ENERGY, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(In thousands)
+(Unaudited)
+Three Months Ended
+September 30, | Nine Months Ended
+September 30, |
+2026 | 2025 | 2026 | 2025 |
+Net income | $ | 23,387 | $ | 66,638 | $ | 52,060 | $ | 133,420 |
+Other comprehensive income: |
+Foreign currency translation adjustments | ( 1,479 ) | ( 3,636 ) | ( 7,938 ) | 6,168 |
+Marketable securities |
+Change in net unrealized gain (loss), net of income tax benefit (provision) of $ 687 and $ 1,626 for the three and nine months ended September 30, 2026, respectively, and $ 314 and $ 689 for the three and nine months ended September 30, 2025, respectively
+| ( 2,040 ) | 1,593 | ( 4,931 ) | 3,501 |
+Comprehensive income | $ | 19,868 | $ | 64,595 | $ | 39,191 | $ | 143,089 |
+See Notes to Condensed Consolidated Financial Statements.
+Enphase Energy, Inc. | 2026 Form 10-Q | 5
+Table of Contents
+ENPHASE ENERGY, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+(In thousands)
+(Unaudited)
+Three Months Ended
+September 30, | Nine Months Ended
+September 30, |
+2026 | 2025 | 2026 | 2025 |
+Common stock and paid-in capital |
+Balance, beginning of period | $ | 1,364,655 | $ | 1,184,498 | $ | 1,289,165 | $ | 1,084,574 |
+Issuance of common stock from exercise of equity awards | — | — | 4,171 | 5,369 |
+Payment of withholding taxes related to net share settlement of equity awards | ( 2,711 ) | ( 1,679 ) | ( 23,937 ) | ( 16,653 ) |
+Stock-based compensation expense | 43,043 | 51,469 | 135,588 | 160,998 |
+Balance, end of period | $ | 1,404,987 | $ | 1,234,288 | $ | 1,404,987 | $ | 1,234,288 |
+Accumulated deficit |
+Balance, beginning of period | $ | ( 175,223 ) | $ | ( 309,221 ) | $ | ( 203,896 ) | $ | ( 245,206 ) |
+Repurchase of common stock | — | — | — | ( 129,957 ) |
+Net income | 23,387 | 66,638 | 52,060 | 133,420 |
+Excise tax on net stock repurchases | — | — | — | ( 840 ) |
+Balance, end of period | $ | ( 151,836 ) | $ | ( 242,583 ) | $ | ( 151,836 ) | $ | ( 242,583 ) |
+Accumulated other comprehensive income (loss) |
+Balance, beginning of period | $ | ( 7,596 ) | $ | 5,360 | $ | 1,754 | $ | ( 6,352 ) |
+Foreign currency translation adjustments | ( 1,479 ) | ( 3,636 ) | ( 7,938 ) | 6,168 |
+Change in net unrealized gain (loss) on marketable securities, net of tax | ( 2,040 ) | 1,593 | ( 4,931 ) | 3,501 |
+Balance, end of period | $ | ( 11,115 ) | $ | 3,317 | $ | ( 11,115 ) | $ | 3,317 |
+Total stockholders' equity, ending balance
+| $ | 1,242,036 | $ | 995,022 | $ | 1,242,036 | $ | 995,022 |
+See Notes to Condensed Consolidated Financial Statements.
+Enphase Energy, Inc. | 2026 Form 10-Q | 6
+Table of Contents
+ENPHASE ENERGY, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+Nine Months Ended
+September 30, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net income | $ | 52,060 | $ | 133,420 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 61,116 | 60,218 |
+Discount from sale of AMPTC generated | 16,450 | — |
+Amortization of investments purchased at a premium | 5,024 | 1,513 |
+Provision for credit losses | 718 | 162 |
+Asset impairment | 122 | 1,565 |
+Non-cash interest expense | 1,287 | 3,336 |
+Decrease in fair value of debt securities and tax equity fund | 29,793 | 12,315 |
+Stock-based compensation | 135,588 | 160,998 |
+Deferred income taxes | ( 10,479 ) | 7,137 |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 13,835 ) | ( 47,539 ) |
+Inventory | 44,340 | ( 23,648 ) |
+Prepaid expenses and other assets | ( 15,472 ) | ( 218,144 ) |
+Accounts payable, accrued and other liabilities | ( 164,460 ) | 116,938 |
+Warranty obligations | ( 10,032 ) | 17,252 |
+Deferred revenues | 11,064 | ( 136,562 ) |
+Net cash provided by operating activities | 143,284 | 88,961 |
+Cash flows from investing activities: |
+Purchases of marketable securities | ( 335,198 ) | ( 601,368 ) |
+Maturities and sales of marketable securities | 810,979 | 780,099 |
+Purchases of property and equipment | ( 45,752 ) | ( 30,899 ) |
+Investment in debt securities | — | ( 6,300 ) |
+Issuance of loan receivables | ( 1,000 ) | ( 48,500 ) |
+Investment in tax equity fund | — | ( 9,752 ) |
+Receipts of loan receivables | 17,585 | — |
+Issuance of secured revolving credit facility | ( 59,000 ) | — |
+Receipts of secured revolving credit facility | 34,604 | — |
+Net cash provided by investing ac

@@ -1,0 +1,190 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm
+SEMBOL: CRWV
+BASVURU_TARIHI: 2026-05-08
+BASVURU: 0001769628-26-000222
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 10
+|
+Notes to Condensed Consolidated Financial Statements
+| 11
+|
+5
+Table of Contents
+COREWEAVE, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(in millions, except per share data)
+(unaudited)
+March 31,
+2026 | December 31,
+2025 |
+Assets |
+Current assets |
+Cash and cash equivalents | $ | 2,244 | $ | 3,127 |
+Restricted cash and cash equivalents, current | 777 | 819 |
+Marketable securities | 22 | 34 |
+Accounts receivable, net | 2,120 | 3,169 |
+Prepaid expenses and other current assets | 446 | 339 |
+Total current assets | 5,609 | 7,488 |
+Restricted cash and cash equivalents, non-current | 299 | 184 |
+Property and equipment, net | 36,424 | 30,557 |
+Operating lease right-of-use assets | 10,182 | 8,231 |
+Intangible assets, net | 224 | 235 |
+Goodwill | 1,101 | 1,101 |
+Other non-current assets
+| 1,734 | 1,506 |
+Total assets | $ | 55,573 | $ | 49,302 |
+Liabilities and stockholders' equity |
+Current liabilities |
+Accounts payable | $ | 3,371 | $ | 1,623 |
+Accrued liabilities | 2,726 | 5,773 |
+Debt, current
+| 7,547 | 6,708 |
+Deferred revenue, current | 2,130 | 1,709 |
+Operating lease liabilities, current | 487 | 427 |
+Finance lease liabilities, current | 23 | 38 |
+Other current liabilities
+| 1,534 | 162 |
+Total current liabilities | 17,818 | 16,440 |
+Debt, non-current
+| 17,312 | 14,665 |
+Deferred revenue, non-current | 5,393 | 6,476 |
+Operating lease liabilities, non-current | 9,563 | 7,768 |
+Finance lease liabilities, non-current | 215 | 216 |
+Deferred tax liabilities, non-current | 194 | 115 |
+Other non-current liabilities | 319 | 287 |
+Total liabilities | 50,814 | 45,967 |
+Commitments and contingencies ( Note 9 )
+| | |
+Stockholders' equity |
+Preferred stock, $ 0.000005 par value per share, 100 shares authorized as of March 31, 2026 and December 31, 2025; no shares issued and outstanding as of March 31, 2026 and December 31, 2025
+| — | — |
+Class A common stock, $ 0.000005 par value per share, 3,000 shares authorized as of March 31, 2026 and December 31, 2025; 435 and 401 shares issued as of March 31, 2026 and December 31, 2025, respectively; and 428 and 394 shares outstanding as of March 31, 2026 and December 31, 2025, respectively
+| — | — |
+Class B common stock, $ 0.000005 par value per share, 200 shares authorized as of March 31, 2026 and December 31, 2025; 104 and 108 shares issued and outstanding as of March 31, 2026 and December 31, 2025, respectively
+| — | — |
+Class C common stock, $ 0.000005 par value per share, 200 shares authorized as of March 31, 2026 and December 31, 2025; no shares issued and outstanding as of March 31, 2026 and December 31, 2025
+| — | — |
+Treasury stock, at cost, 7 shares as of March 31, 2026 and December 31, 2025
+| ( 34 ) | ( 34 ) |
+Additional paid-in capital | 8,171 | 6,012 |
+Accumulated other comprehensive income | 5 | — |
+Accumulated deficit | ( 3,383 ) | ( 2,643 ) |
+Total stockholders' equity | 4,759 | 3,335 |
+Total liabilities and stockholders' equity | $ | 55,573 | $ | 49,302 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+6
+Table of Contents
+COREWEAVE, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS
+(in millions, except per share data)
+(unaudited)
+Three Months Ended March 31,
+|
+2026 | 2025 |
+Revenue | $ | 2,078 | $ | 982 |
+Operating expenses: |
+Cost of revenue | 716 | 262 |
+Technology and infrastructure | 1,273 | 561 |
+Sales and marketing | 69 | 11 |
+General and administrative | 164 | 175 |
+Total operating expenses | 2,222 | 1,009 |
+Operating loss | ( 144 ) | ( 27 ) |
+Gain (loss) on fair value adjustments | — | 27 |
+Interest expense, net
+| ( 536 ) | ( 264 ) |
+Other income (expense), net | 24 | ( 5 ) |
+Loss before income taxes | ( 656 ) | ( 269 ) |
+Provision for income taxes | 84 | 46 |
+Net loss | ( 740 ) | ( 315 ) |
+Other comprehensive income | 5 | — |
+Total comprehensive loss | $ | ( 735 ) | $ | ( 315 ) |
+Net loss attributable to common stockholders, basic | $ | ( 740 ) | $ | ( 343 ) |
+Net loss attributable to common stockholders, diluted | $ | ( 740 ) | $ | ( 370 ) |
+Net loss per share attributable to common stockholders, basic | $ | ( 1.40 ) | $ | ( 1.40 ) |
+Net loss per share attributable to common stockholders, diluted | $ | ( 1.40 ) | $ | ( 1.49 ) |
+Weighted-average shares used in computing net loss per share attributable to common stockholders, basic | 527 | 246 |
+Weighted-average shares used in computing net loss per share attributable to common stockholders, diluted | 527 | 249 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+7
+Table of Contents
+COREWEAVE, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF REDEEMABLE CONVERTIBLE PREFERRED STOCK, REDEEMABLE COMMON STOCK, AND STOCKHOLDERS' EQUITY (DEFICIT)
+(in millions)
+(unaudited)
+Common Stock | Treasury
+Stock | Additional
+Paid-in
+Capital | Accumulated Other Comprehensive Income | Accumulated
+Deficit | Total Stockholders' Equity |
+Shares | Amount |
+Balance, December 31, 2025 | 502 | $ | — | $ | ( 34 ) | $ | 6,012 | $ | — | $ | ( 2,643 ) | $ | 3,335 |
+Issuance of common stock in a private placement, net of issuance costs | 23 | — | — | 1,985 | — | — | 1,985 |
+Issuance of common stock upon vesting of restricted stock units | 2 | — | — | — | — | — | — |
+Exercise of stock options | 5 | — | — | 8 | — | — | 8 |
+Stock-based compensation expense | — | — | — | 166 | — | — | 166 |
+Other comprehensive income (loss) | — | — | — | — | 5 | — | 5 |
+Net loss | — | — | — | — | — | ( 740 ) | ( 740 ) |
+Balance, March 31, 2026 | 532 | $ | — | $ | ( 34 ) | $ | 8,171 | $ | 5 | $ | ( 3,383 ) | $ | 4,759 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+8
+Table of Contents
+Redeemable
+Convertible
+Preferred Stock | Redeemable
+Class A Common
+Stock | Common Stock | Treasury
+Stock | Additional
+Paid-in
+Capital | Accumulated
+Deficit | Total Stockholders' Equity (Deficit) |
+Shares | Amount | Shares | Amount | Shares | Amount |
+Balance, December 31, 2024 | 185 | $ | 1,722 | — | $ | — | 233 | $ | — | $ | ( 34 ) | $ | 1,096 | $ | ( 1,476 ) | $ | ( 414 ) |
+Cash dividend on Series C redeemable convertible preferred stock | — | — | — | — | — | — | — | ( 29 ) | — | ( 29 ) |
+Reclassification of warrant liabilities to equity | — | — | — | — | — | — | — | 173 | — | 173 |
+Issuance of common stock in connection with initial public offering, net of underwriting discounts and commissions and offering costs | — | — | — | — | 36 | — | — | 1,392 | — | 1,392 |
+Conversion of redeemable convertible preferred stock in connection with initial public offering | ( 185 ) | ( 1,722 ) | 30 | 1,163 | 155 | — | — | 559 | — | 559 |
+Issuance of common stock for contract incentive | — | — | — | — | 9 | — | — | 350 | — | 350 |
+Tax withholdings on settlement of restricted stock units | — | — | — | — | — | — | — | ( 16 ) | — | ( 16 ) |
+Exercise of stock options | — | — | — | — | 2 | — | — | 3 | — | 3 |
+Stock-based compensation expense | — | — | — | — | — | — | — | 203 | — | 203 |
+Net loss | — | — | — | — | — | — | — | — | ( 315 ) | ( 315 ) |
+Balance, March 31, 2025 | — | $ | — | 30 | $ | 1,163 | 435 | $ | — | $ | ( 34 ) | $ | 3,731 | $ | ( 1,791 ) | $ | 1,906 |
+The accompanying notes are an integral part of these condensed consolidated financial statements.
+9
+Table of Contents
+COREWEAVE, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(in millions)
+(unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+Cash flows from operating activities: |
+Net loss | $ | ( 740 ) | $ | ( 315 ) |
+Adjustments to reconcile net loss to net cash provided by operating activities |
+Depreciation and amortization | 1,147 | 443 |
+Amortization of debt discounts and issuance costs and accretion of redemption premiums | 41 | 38 |
+Stock-based compensation expense | 153 | 184 |
+Non-cash lease expense | 167 | 67 |
+Deferred income taxes | 79 | 45 |
+Gain on fair value adjustments | — | ( 27 ) |
+Other non-cash reconciling items | 121 | 23 |
+Changes in operating assets and liabilities, net of effect of business acquisitions: |
+Accounts receivable | 1,042 | ( 639 ) |
+Prepaid expenses and other assets | ( 471 ) | 247 |
+Accounts payable and accrued expenses | 960 | 62 |
+Deferred revenue | 575 | ( 16 ) |
+Lease liabilities | ( 90 ) | ( 51 ) |
+Net cash provided by operating activities | $ | 2,984 | $ | 61 |
+Cash flows from investing activities: |
+Purchase of property and equipment, including capitalized internal-use software | $ | ( 7,695 ) | $ | ( 1,407 ) |
+Maturities and sales of marketable securities | 12 | 29 |
+Issuance of notes receivable | — | ( 55 ) |
+Other investing activities | ( 25 ) | — |
+Net cash used in investing activities | $ | ( 7,708 ) | $ | ( 1,433 ) |
+Cash flows from financing activities: |
+Proceeds from issuance of debt, net | $ | 3,290 | $ | 785 |
+Repayments of debt | ( 1,335 ) | ( 271 ) |
+Issuance of common stock in a private placement, net of issuance costs | 1,985 | — |
+Proceeds from initial public offering, net of underwriting d

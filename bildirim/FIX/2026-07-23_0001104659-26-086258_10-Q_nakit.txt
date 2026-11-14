@@ -1,0 +1,470 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1035983/000110465926086258/fix-20260630x10q.htm
+SEMBOL: FIX
+BASVURU_TARIHI: 2026-07-23
+BASVURU: 0001104659-26-086258
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In Thousands)
+(Unaudited)
+​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+​
+| ​
+| Six Months Ended
+| ​
+|
+​
+| ​
+| June 30,
+| ​
+|
+​
+| ​ ​ ​
+| 2026
+| ​ ​ ​
+| 2025
+|
+|
+CASH FLOWS FROM OPERATING ACTIVITIES:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Net income
+| ​
+| $
+| 811,980
+| ​
+| $
+| 400,137
+| ​
+|
+Adjustments to reconcile net income to net cash provided by operating activities—
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Amortization of identifiable intangible assets
+| ​
+|
+| 43,668
+| ​
+|
+| 39,906
+| ​
+|
+Depreciation expense
+| ​
+|
+| 38,602
+| ​
+|
+| 28,866
+| ​
+|
+Change in right-of-use assets
+| ​
+| ​
+| 23,719
+| ​
+| ​
+| 14,968
+| ​
+|
+Bad debt expense
+| ​
+|
+| 4,328
+| ​
+|
+| 3,688
+| ​
+|
+Deferred tax provision
+| ​
+|
+| 3,219
+| ​
+|
+| 1,097
+| ​
+|
+Amortization of debt financing costs
+| ​
+|
+| 464
+| ​
+|
+| 340
+| ​
+|
+Gain on sale of assets
+| ​
+|
+| ( 1,087 )
+| ​
+|
+| ( 998 )
+| ​
+|
+Changes in the fair value of contingent earn-out obligations
+| ​
+|
+| 12,415
+| ​
+|
+| 7,831
+| ​
+|
+Stock-based compensation
+| ​
+|
+| 28,612
+| ​
+|
+| 12,193
+| ​
+|
+Changes in operating assets and liabilities, net of effects of acquisitions and divestitures—
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+(Increase) decrease in—
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Receivables, net
+| ​
+|
+| ( 633,131 )
+| ​
+|
+| ( 239,680 )
+| ​
+|
+Inventories
+| ​
+|
+| ( 20,738 )
+| ​
+|
+| ( 11,420 )
+| ​
+|
+Prepaid expenses and other current assets
+| ​
+|
+| ( 3 )
+| ​
+|
+| 3,817
+| ​
+|
+Costs and estimated earnings in excess of billings and unbilled accounts receivable
+| ​
+|
+| ( 49,629 )
+| ​
+|
+| ( 163,567 )
+| ​
+|
+Other noncurrent assets
+| ​
+|
+| ( 3,129 )
+| ​
+|
+| 135
+| ​
+|
+Increase (decrease) in—
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Accounts payable and other current liabilities
+| ​
+|
+| 215,497
+| ​
+|
+| ( 320,130 )
+| ​
+|
+Billings in excess of costs and estimated earnings and deferred revenue
+| ​
+|
+| 1,061,506
+| ​
+|
+| 376,780
+| ​
+|
+Other long-term liabilities
+| ​
+|
+| ( 8,039 )
+| ​
+|
+| 10,582
+| ​
+|
+Net cash provided by operating activities
+| ​
+|
+| 1,528,254
+| ​
+|
+| 164,545
+| ​
+|
+CASH FLOWS FROM INVESTING ACTIVITIES:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Purchases of property and equipment
+| ​
+|
+| ( 288,837 )
+| ​
+|
+| ( 53,481 )
+| ​
+|
+Proceeds from sales of property and equipment
+| ​
+|
+| 2,132
+| ​
+|
+| 2,064
+| ​
+|
+Cash paid for acquisitions, net of cash acquired
+| ​
+|
+| ( 162,845 )
+| ​
+|
+| ( 124,093 )
+| ​
+|
+Payments for investments
+| ​
+| ​
+| ( 66,123 )
+| ​
+| ​
+| ( 7,478 )
+| ​
+|
+Proceeds from investments
+| ​
+| ​
+| 48,209
+| ​
+| ​
+| —
+| ​
+|
+Net cash used in investing activities
+| ​
+|
+| ( 467,464 )
+| ​
+|
+| ( 182,988 )
+| ​
+|
+CASH FLOWS FROM FINANCING ACTIVITIES:
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+| ​
+|
+Payments on revolving credit facility
+| ​
+|
+| ( 100,000 )
+| ​
+|
+| —
+| ​
+|
+Payments on other debt
+| ​
+|
+| ( 10,097 )
+| ​
+|
+| ( 6,015 )
+| ​
+|
+Payments of dividends to stockholders
+| ​
+|
+| ( 52,785 )
+| ​
+|
+| ( 30,033 )
+| ​
+|
+Share repurchases
+| ​
+|
+| ( 8,232 )
+| ​
+|
+| ( 111,290 )
+| ​
+|
+Shares received in lieu of tax withholding
+| ​
+|
+| ( 16,662 )
+| ​
+|
+| ( 6,599 )
+| ​
+|
+Proceeds from exercise of options
+| ​
+|
+| 383
+| ​
+|
+| 453
+| ​
+|
+Payments for contingent consideration arrangements
+| ​
+|
+| ( 501 )
+| ​
+|
+| ( 46,302 )
+| ​
+|
+Net cash used in financing activities
+| ​
+|
+| ( 187,894 )
+| ​
+|
+| ( 199,786 )
+| ​
+|
+NET INCREASE (DECREASE) IN CASH AND CASH EQUIVALENTS
+| ​
+|
+| 872,896
+| ​
+|
+| ( 218,229 )
+| ​
+|
+CASH AND CASH EQUIVALENTS, beginning of period
+| ​
+|
+| 981,898
+| ​
+|
+| 549,939
+| ​
+|
+CASH AND CASH EQUIVALENTS, end of period
+| ​
+| $
+| 1,854,794
+| ​
+| $
+| 331,710
+| ​
+|
+​
+The accompanying notes are an integral part of these consolidated financial statements.
+​
+5
+Table of Contents
+​
+COMFORT SYSTEMS USA, INC.
+​
+CONDENSED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+​
+June 30, 2026
+​
+(Unaudited)
+1. Business and Organization
+​
+Comfort Systems USA, Inc., a Delaware corporation, provides comprehensive mechanical and electrical contracting services, which principally includes heating, ventilation, and air conditioning (“HVAC”), plumbing, electrical, piping, and controls, as well as off-site construction, monitoring, and fire protection. We build, install, maintain, repair, and replace mechanical, electrical, and plumbing systems throughout the United States. The terms “Comfort Systems,” “we,” “us,” “our,” or the “Company,” refer to Comfort Systems USA, Inc. or Comfort Systems USA, Inc. and its consolidated subsidiaries, as appropriate in the context.
+​
+​
+​
+2. Summary of Significant Accounting Policies and Estimates
+​
+Basis of Presentation
+​
+These interim statements should be read in conjunction with the historical Consolidated Financial Statements and related notes of Comfort Systems included in the Annual Report on Form 10-K as filed with the Securities and Exchange Commission (“SEC”) for the year ended December 31, 2025 (the “Form 10-K”).
+​
+The accompanying unaudited consolidated financial statements were prepared using generally accepted accounting principles for interim financial information and the instructions to Form 10-Q and applicable rules of Regulation S-X of the SEC. Accordingly, these financial statements do not include all the footnotes required by generally accepted accounting principles for complete financial statements and should be read in conjunction with the Form 10-K. We believe all adjustments necessary for a fair presentation of these interim statements have been included and are of a normal and recurring nature. The results of operations for interim periods are not necessarily indicative of the results for the full fiscal year.
+​
+Use of Estimates
+​
+The preparation of financial statements in conformity with generally accepted accounting principles requires the use of estimates and assumptions by management in determining the reported amounts of assets and liabilities, revenue and expenses, and disclosures regarding contingent assets and liabilities. Actual results could differ from those estimates. The most significant estimates used in our financial statements affect revenue and cost recognition for construction contracts, self-insurance accruals, accounting for income taxes, fair value accounting for acquisitions, and the quantification of fair value for reporting units in connection with our goodwill impairment testing.
+​
+Recent Accounting Pronouncements
+​
+The Company has not identified any material developments related to recent accounting pronouncements since those disclosed in its Annual Report on Form 10-K for the year ended December 31, 2025.
+​
+Revenue Recognition
+​
+We recognize revenue over time for all of our services as we perform them because (i) control continuously transfers to the customer as work progresses, and (ii) we have the right to bill the customer as costs are incurred. The customer typically controls the work in process, as evidenced either by contractual termination clauses or by our rights to payment for work performed to date, plus a reasonable profit, for delivery of products or services that do not have an alternative use to the Company.
+​
+6
+Table of Contents
+For the reasons listed above, revenue is recognized based on the extent of progress towards completion of the performance obligation. The selection of the method to measure progress towards completion requires judgment and is based on the nature of the products or services to be provided. We generally use a cost-to-cost input method to measure our progress towards satisfaction of the performance obligation for our contracts, as it best depicts the transfer of assets to the customer that occurs as we incur costs on our contracts. Under the cost-to-cost input method, the extent of progress towards completion is measured based on the ratio of costs incurred to date to the total estimated costs at completion of the performance obligation. Revenue, including estimated fees or profits, is recorded proportionally as costs are incurred. Costs to fulfill include labor, materials, subcontractors’ costs, other direct costs, and an allocation of indirect costs.
+​
+For a small portion of our business in which our services are delivered in the form of service maintenance agreements for existing systems to be repaired and maintained, as opposed to constructed, our performance obligation is to maintain the customer’s mechanical system for a specific period of time. As with construction jobs, we recognize revenue over time; however, for service maintenance agreements in which the full cost to provide services may not be known, we generally use an input method to recognize revenue, which is based on the amount of time we have provided our services out of the total time we have been contracted to perform those services. Our revenue recognition policy is further discussed in Note 3, “Revenue from Contracts with Customers.”
+​
+Accounts Receivable and Allowance for Credit Losses
+​
+We are required to estimate and record the expected credit losses over the contractual life of our financial assets measured at amortized cost, including billed and unbilled accounts receivable, other receivables, and contract assets. Accounts recei

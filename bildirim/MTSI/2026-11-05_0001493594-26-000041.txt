@@ -1,0 +1,256 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1493594/000149359426000041/ex99_1earningsreleaseq4fy26.htm
+SEMBOL: MTSI
+BASVURU_TARIHI: 2026-11-05
+BASVURU: 0001493594-26-000041
+
+EX-99.1
+2
+ex99_1earningsreleaseq4fy26.htm
+EX-99.1
+Document
+| | | | | | | | | | | | | | |
+| | | | |
+MACOM Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results
+LOWELL, MA, November 5, 2026 – MACOM Technology Solutions Holdings, Inc. (“MACOM”) (Nasdaq: MT SI), a leading supplier of semiconductor products, t oday announced its financial results for its fiscal fourth quarter and fiscal year ended October 2, 2026.
+Fourth Quarter Fiscal Year 2026 GAAP Results
+• Revenue was $424.8 million, an increase of 62.7%, compared to $261.2 million in the previous year fiscal fourth quarter and an increase of 24.1% compared to $342.2 million in the prior fiscal quarter;
+• Gross margin was 59.9%, compared to 54.5% in the previous year fiscal fourth quarter and 58.3% in the prior fiscal quarter;
+• Income from operations was $134.2 million, or 31.6% of revenue, compared to income from operations of $39.6 million, or 15.2% of revenue, in the previous year fiscal fourth quarter and income from operations of $77.1 million, or 22.5% of revenue, in the prior fiscal quarter; and
+• Net income was $139.4 million, or $1.78 per diluted share, compared to net income of $45.1 million, or $0.59 per diluted share, in the previous year fiscal fourth quarter, and net income of $100.7 million, or $1.28 per diluted share, in the prior fiscal quarter.
+Fourth Quarter Fiscal Year 2026 Adjusted Non-GAAP Results
+• Adjusted gross margin was 61.3%, compared to 57.1% in the previous year fiscal fourth quarter and 59.7% in the prior fiscal quarter;
+• Adjusted income from operations was $162.3 million, or 38.2% of revenue, compared to adjusted income from operations of $67.0 million, or 25.6% of revenue, in the previous year fiscal fourth quarter and adjusted income from operations of $107.7 million, or 31.5% of revenue, in the prior fiscal quarter; and
+• Adjusted net income was $163.3 million, or $2.09 per diluted share, compared to adjusted net income of $71.4 million, or $0.94 per diluted share, in the previous year fiscal fourth quarter and adjusted net income of $109.8 million, or $1.40 per diluted share, in the prior fiscal quarter.
+Fiscal Year 2026 GAAP Results
+• Revenue was $1,327.6 million, an increase of 37.3%, compared to $967.3 million in fiscal year 2025;
+• Gross margin was 58.0%, compared to 54.7% in fiscal year 2025;
+• Income from operations was $305.5 million, compared to $129.7 million in fiscal year 2025; and
+• Net income was $335.3 million, or $4.31 per diluted share, compared to a net loss of $54.2 million, or $0.73 per diluted share, in fiscal year 2025, which included a primarily non-cash charge of $193.1 million for loss on extinguishment of debt related to the refinancing of a portion of the Company’s convertible senior notes due 2026.
+Fiscal Year 2026 Adjusted Non-GAAP Results
+• Adjusted gross margin was 59.5%, compared to 57.4% in fiscal year 2025;
+• Adjusted income from operations was $424.4 million, or 32.0% of revenue, compared to $245.7 million, or 25.4% of revenue, in fiscal year 2025; and
+• Adjusted net income was $435.7 million, or $5.60 per diluted share, compared to adjusted net income of $263.4 million, or $3.47 per diluted share, in fiscal year 2025.
+Management Commentary
+“We had a strong fiscal year 2026 and look forward to continued growth in fiscal 2027,” said Stephen G. Daly, President and Chief Executive Officer, MACOM.
+Business Outlook
+For the fiscal first quarter ending January 1, 2027, MACOM expects revenue to be in the range of $450 million to $460 million. Adjusted gross margin is expected to be between 62.0% and 63.0%, and adjusted earnings per diluted share is expected to be between $2.21 and $2.29 utilizing an anticipated non-GAAP income tax rate of 6% and 79.0 million fully diluted shares outstanding.
+Conference Call
+MACOM will host a conference call on Thursday, November 5, 2026, at 8:30 a.m. Eastern Time to discuss its fiscal fourth quarter and fiscal year 2026 financial results and business outlook. Investors and analysts may visit MACOM's Investor Relations website at https://ir.macom.com/events-webcasts to register for a user-specific access code for the live call or to access the live webcast. A replay of the call will be available within 24 hours and remain accessible by all interested parties for approximately 90 days.
+About MACOM
+MACOM designs and manufactures high-performance semiconductor products for the Industrial and Defense, Data Center and Telecommunications industries. MACOM services over 6,000 customers annually with a broad product portfolio that incorporates RF, Microwave, Analog and Mixed Signal and Optical semiconductor technologies. MACOM has achieved certification to the IATF16949 automotive standard, the AS9100D aerospace standard, the ISO9001 international quality standard and the ISO14001 environmental management standard. MACOM operates facilities across the United States, Europe, and Asia and is headquartered in Lowell, Massachusetts.
+Special Note Regarding Forward-Looking Statements
+This press release and the associated earnings call contain forward-looking statements. These forward-looking statements include, among others, statements about MACOM’s strategic plans, priorities and long-term growth drivers, our estimates of our serviceable addressable market, our ability to execute our long-term growth strategy, strengthen our position and drive market share gains and growth, our ability to develop new products and differentiated solutions, achieve market acceptance of those products and solutions and better address certain markets, expand our capabilities and extend our product offerings, including through our fabrication facility execution and continued improvements and the expansion of our manufacturing capacity, our team’s capabilities and technologies and expansion and growth thereof and any potential financial benefits derived by and financial impact to MACOM therefrom, strength and competitiveness of new product introductions and technology portfolio expansion, including the anticipated rate of new product introductions and technology licensing and transfer activities, the anticipated timing of our entry into new markets, including the CW laser market, the expected benefits of process technology upgrades and the expected conversion of development program awards and customer contract awards into production revenue, anticipated demand for our products, including backlog levels and book-to-bill trends, MACOM’s profitability, revenue targets and long-term revenue opportunities, gross margin and operating margin improvements, end-market-specific revenue growth expectations, prospects and growth opportunities in our three primary markets, including the anticipated timing of production programs and associated revenues, the potential impact to our business of an economic downturn or recession, tariffs and other trade restrictions, anticipated financial and business performance improvements, expectations regarding cash flow from operations and capital expenditures, our anticipated non-GAAP income tax rate and the expected impact of recent tax legislation and the utilization of our historical deferred tax assets thereon, MACOM’s strategic investment and other plans, including investments and agreements intended to further strengthen our supply chain and support our revenue growth, including the expected benefits of the Company’s recently completed investment in IQE plc, our strategic objectives, potential acquisitions, the negotiation and finalization of a definitive agreement with, and receipt of, funding from the Federal and State governments under the CHIPS Act, the estimated financial results for our 2027 fiscal first quarter and the stated business outlook and future results of operations.
+These forward-looking statements reflect MACOM’s current views about future events and are subject to risks, uncertainties, assumptions and changes in circumstances that may cause those events or our actual activities or results to differ materially from those indicated by the forward-looking statements, including our ability to develop new products and achieve market acceptance of those products; component shortages or other disruptions in our supply chain, including as a result of geopolitical unrest or otherwise; inflationary pressures; any failure to accurately anticipate demand for our products and effectively manage our inventory; our dependence on a limited number of customers; risks related to any weakening of global economic conditions, including as a result of the evolving impacts from tariffs, sanctions or other trade tensions (including implementation of new tariffs, export bans or retaliatory trade measures); that cash flows or capital expenditures may differ from our expectations; changes in applicable laws or regulations; that our investments may not yield expected benefits; our ability to compete effectively; our ability to expand our manufacturing capacity in a timely and cost-effective manner; changes in U.S. and foreign government defense budgets and spending priorities; risks associated with acquisitions; and those other factors described in “Risk Factors” in MACOM’s filings with the Securities and Exchange Commission (“SEC”), including its Annual Report on Form 10-K, its Quarterly Reports on Form 10-Q and other filings with the SEC. These forward-looking statements speak only as of the date of this press release and the associated earnings call, and MACOM undertakes no obligation to publicly update or revise any forward-looking statement, whether as a result of new information, future events or otherwise.
+Discussion Regarding the Use of Historical and Forward-Looking Non-GAAP Financial Measures
+In addition to United States Generally Accepted Accounting Principles (“GAAP”) reporting, MACOM provides investors with financial measures that have not been calculated in accordance with GAAP, such as: non-GAAP adjusted gross profit and adjusted gross margin, non-GAAP adjusted operating expenses, non-GAAP adjusted income from operations and adjusted operating margin, non-GAAP adjusted EBITDA, non-GAAP adjusted net income, non-GAAP adjusted diluted earnings per share, non-GAAP adjusted diluted shares, non-GAAP adjusted income tax rate and non-GAAP adjusted interest income. This non-GAAP information excludes the effect, where applicable, of intangible amortization expense, share-based compensation expense, non-cash interest, net, acquisition and integration related costs, loss on debt extinguishment, gain on acquired assets, gains/losses on investment fair value, net and the tax effect of each non-GAAP adjustment.
+Management believes these excluded items are not reflective of our underlying performance and uses these non-GAAP financial measures to: evaluate our ongoing operating performance and compare it against prior periods, make operating decisions, forecast future periods, evaluate potential acquisitions, compare our operating performance against peer companies and assess certain compensation programs. We believe this non-GAAP financial information provides additional insight into our ongoing performance and have therefore chosen to provide this information to investors to help them evaluate the results of our ongoing operations and enable more meaningful period-to-period comparisons. These non-GAAP measures are provided in addition to, and not as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP.
+A reconciliation between GAAP and non-GAAP financial data is included in the supplemental financial data attached to this press release. We have not provided a reconciliation with respect to any forward-looking non-GAAP financial data presented because we do not have and cannot reliably estimate certain key inputs required to calculate the most comparable GAAP financial data, such as future acquisition costs, the possibility and impact of any litigation costs, changes in our GAAP effective tax rate and impairment charges. We believe these unknown inputs are likely to have a significant impact on any estimate of the comparable GAAP financial data.
+Investors are cautioned against placing undue reliance on non-GAAP financial measures and are urged to review and consider carefully the adjustments made by management to the most directly comparable GAAP financial measures. Non-GAAP financial measures may have limited value as analytical tools because they may exclude certain expenses that some investors consider important in evaluating our operating performance or ongoing business performance. Further, non-GAAP financial measures may have limited value for purposes of drawing comparisons between companies because different companies may calculate similarly titled non-GAAP financial measures in different ways because non-GAAP measures are not based on any comprehensive set of accounting rules or principles.
+Additional information and management ’ s assessment regarding why certain items are excluded from our non-GAAP measures are summarized below:
+Amortization Expense – is related to acquired intangible assets which are based upon valuation methodologies and are generally amortized over the expected life of the intangible asset at the time of acquisition, which may result in amortization amounts that vary over time. This non-cash expense is not considered by management in making operating decisions.
+Share-Based Compensation Expense – includes share-based compensation expense for awards that are equity and liability classified on our balance sheet and the related employer tax expense at vesting. Share-based compensation expense is partially outside of our control due to factors such as stock price volatility and interest rates, which may be unrelated to our operating performance during the period in which the expense is incurred. It is an expense based upon valuation methodologies and assumptions that vary over time, and the amount of the expense can vary significantly between companies. Share-based compensation expense amounts are not considered by management in making operating decisions.
+Non-cash Interest, Net – includes amounts associated with the amortization of certain fees associated with the establishment or amendment of our convertible notes that are being amortized over the life of the agreements. We believe these amounts are non-cash in nature, are not correlated to future business operations and do not reflect our ongoing operations.
+Acquisition and Integration Related Costs – includes items such as professional fees, employee severance and other costs incurred in connection with acquisitions and integration specific activities which are not expected to have a continuing contribution to operations and the amortization of the fair market step-up value of acquired inventory and fixed assets. We believe the exclusion of these items is useful in providing management a basis to evaluate ongoing operating activities and strategic decision making.
+Loss on Debt Extinguishment – includes loss on exchange of our convertible notes. This fiscal year 2025 loss is primarily non-cash and we do not believe this amount is reflective of our ongoing operations.
+Gain on Acquired Assets – includes the gain on transfer of assets, primarily inventory, associated with the Research Triangle Park, North Carolina RF business fabrication facility that we assumed in the fiscal fourth quarter of 2025 related to the RF business acquisition completed in fiscal year 2024. We believe this gain is not correlated to future business operations and does not reflect our ongoing operations.
+Gains/Losses on Investment Fair Value, Net – includes unrealized gains or losses recognized associated with long-term investments that are recorded at fair value. These gains and losses are driven by changes in the market value of the underlying investments, are generally noncash in nature, and may vary from period to period due to factors unrelated to our operating activities. We believe these amounts are not correlated with our ongoing operations and are not considered by management in making operating decisions.
+Tax Effect of Non-GAAP Adjustments – includes adjustments to arrive at an estimate of our non-GAAP income tax rate associated with our non-GAAP income over a period of time. We determine our non-GAAP income tax rate using applicable rates in taxing jurisdictions and assessing certain factors including our historical and forecast earnings by jurisdiction, discrete items, cash taxes paid in relation to our non-GAAP net income before income taxes and our ability to realize tax assets. We generally assess this non-GAAP income tax rate quarterly and have utilized 3% for fiscal years 2026 and 2025. We expect our non-GAAP income tax rate to increase to approximately 6% for fiscal year 2027, primarily as a result of growth in our profitability and the utilization of our remaining historical deferred tax assets. Our historical effective income tax rate under GAAP has varied significantly from our non-GAAP income tax rate due primarily to income taxed in foreign jurisdictions at generally lower tax rates, research and development tax credits and acquisition expenses. We believe it is beneficial for management to review our non-GAAP income tax rate on a consistent basis over periods of time. Items such as those noted above may have a significant impact on our GAAP income tax expense and associated effective tax rate over time.
+Adjusted EBITDA – is a calculation that adds depreciation expense to our adjusted income from operations. Management reviews and utilizes this measure for operational analysis purposes. We believe competitors and others in the financial industry also utilize this measure for analysis purposes.
+Incremental Shares – is the number of potential shares of common stock issuable upon the exercise of stock options, restricted stock, restricted stock units and conversion of convertible debt which were not included in the calculation of our GAAP diluted shares. We believe competitors and others in the financial industry utilize this non-GAAP measure for analysis purposes.
+* * *
+Company Contact:
+MACOM Technology Solutions Holdings, Inc.
+Stephen Ferranti
+Senior Vice President, Corporate Development and Investor Relations
+P: 978-656-2977
+E: stephen.ferranti@macom.com
+MACOM TECHNOLOGY SOLUTIONS HOLDINGS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(unaudited and in thousands, except per share data) | | | | | | | | | | | | | | |
+| | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | | Twelve Months Ended |
+| October 2, 2026 | | July 3, 2026 | | October 3, 2025 | | October 2, 2026 | | October 3, 2025 |
+| | | | |
+Revenue | $ | 424,819 | | | $ | 342,237 | | | $ | 261,170 | | | $ | 1,327,623 | | | $ | 967,258 | |
+Cost of revenue | 170,187 | | | 142,685 | | | 118,869 | | | 557,227 | | | 438,256 | |
+Gross profit | 254,632 | | | 199,552 | | | 142,301 | | | 770,396 | | | 529,002 | |
+Operating expenses: | | | | | | | | | |
+Research and development | 76,083 | | | 74,305 | | | 62,880 | | | 285,830 | | | 244,466 | |
+Selling, general and administrative | 44,325 | | | 48,132 | | | 39,826 | | | 179,099 | | | 154,884 | |
+Total operating expenses | 120,408 | | | 122,437 | | | 102,706 | | | 464,929 | | | 399,350 | |
+Income from operations | 134,224 | | | 77,115 | | | 39,595 | | | 305,467 | | | 129,652 | |
+Other income (expense): | | | | | | | | | |
+Interest income | 7,335 | | | 6,676 | | | 8,016 | | | 29,760 | | | 29,853 | |
+Interest expense | (1,481) | | | (1,484) | | | (1,793) | | | (6,330) | | | (5,516) | |
+Gain on investment fair value | 19,446 | | | 41,543 | | | — | | | 60,989 | | | — | |
+Loss on extinguishment of debt | — | | | — | | | — | | | — | | | (193,098) | |
+Gain on acquired assets and other income, net | — | | | — | | | 10,084 | | | — | | | 10,084 | |
+Total other income (expense) | 25,300 | | | 46,735 | | | 16,307 | | | 84,419 | | | (158,677) | |
+Income (loss) before income taxes | 159,524 | | | 123,850 | | | 55,902 | | | 389,886 | | | (29,025) | |
+Income tax expense | 20,079 | | | 23,142 | | | 10,782 | | | 54,635 | | | 25,185 | |
+Net income (loss) | $ | 139,445 | | | $ | 100,708 | | | $ | 45,120 | | | $ | 335,251 | | | $ | (54,210) | |
+| | | | | | | | | |
+Net income (loss) per share: | | | | | | | | | |
+Income (loss) per share - Basic | $ | 1.83 | | | $ | 1.32 | | | $ | 0.61 | | | $ | 4.43 | | | $ | (0.73) | |
+Income (loss) per share - Diluted | $ | 1.78 | | | $ | 1.28 | | | $ | 0.59 | | | $ | 4.31 | | | $ | (0.73) | |
+Weighted average common shares: | | | | | | | | | |
+Shares - Basic | 76,372 | | | 76,331 | | | 74,473 | | | 75,702 | | | 73,986 | |
+Shares - Diluted | 78,257 | | | 78,409 | | | 76,252 | | | 77,735 | | | 73,986 | |
+MACOM TECHNOLOGY SOLUTIONS HOLDINGS, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(unaudited and in thousands) | | | | | | | | | | | | | | |
+| | | | |
+| | | | | | | | | | | |
+| October 2, 2026 | | October 3, 2025 |
+| |
+ASSETS | | | |
+Current assets: | | | |
+Cash and cash equivalents | $ | 112,011 | | | $ | 112,142 | |
+Short-term investments | 680,396 | | | 673,833 | |
+Accounts receivable, net | 209,523 | | | 148,646 | |
+Inventories | 284,311 | | | 237,844 | |
+Prepaid and other current assets | 39,141 | | | 32,623 | |
+Total current assets | 1,325,382 | | | 1,205,088 | |
+Property and equipment, net | 251,959 | | | 230,291 | |
+Goodwill and intangible assets, net | 393,625 | | | 414,885 | |
+Deferred income taxes | 182,342 | | | 207,999 | |
+Long-term investments | 121,577 | | | — | |
+Other long-term assets | 47,966 | | | 45,097 | |
+Total assets | $ | 2,322,851 | | | $ | 2,103,360 | |
+LIABILITIES AND STOCKHOLDERS ’ EQUITY
+| | | |
+Current liabilities: | | | |
+Short-term debt | $ | 340,743 | | | $ | 160,946 | |
+Accounts payable | 70,548 | | | 67,588 | |
+Accrued liabilities | 111,596 | | | 96,585 | |
+Total current liabilities | 522,887 | | | 325,119 | |
+Finance lease obligations, less current portion | 29,796 | | | 30,504 | |
+Financing obligation | 36,397 | | | 37,014 | |
+Long-term debt | — | | | 339,630 | |
+Other long-term liabilities | 37,104 | | | 43,998 | |
+Total liabilities | 626,184 | | | 776,265 | |
+Stockholders ’ equity
+| 1,696,667 | | | 1,327,095 | |
+Total liabilities and stockholders ’ equity
+| $ | 2,322,851 | | | $ | 2,103,360 | |
+MACOM TECHNOLOGY SOLUTIONS HOLDINGS, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(unaudited and in thousands) | | | | | | | | | | | | | | |
+| | | | |
+| | | | | | | | | | | |
+| Twelve Months Ended |
+| October 2, 2026 | | October 3, 2025 |
+| |
+CASH FLOWS FROM OPERATING ACTIVITIES: | | | |
+Net income (loss) | $ | 335,251 | | | $ | (54,210) | |
+Depreciation and intangible asset amortization | 62,612 | | | 63,295 | |
+Share-based compensation | 87,797 | | | 79,362 | |
+Deferred income taxes | 27,871 | | | 2,637 | |
+Gain on investment fair value | (60,989) | | | — | |
+Loss on extinguishment of debt | — | | | 193,098 | |
+Gain on acquired assets | — | | | (10,084) | |
+Other adjustments, net | (2,781) | | | (939) | |
+Accounts receivable | (60,878) | | | (41,980) | |
+Inventories | (46,617) | | | (26,562) | |
+Accounts payable | 589 | | | 22,210 | |
+Change in other operating assets and liabilities | 14,231 | | | 8,541 | |
+Net cash provided by operating activities | 357,086 | | | 235,368 | |
+CASH FLOWS FROM INVESTING ACTIVITIES: | | | |
+Sales, purchases and maturities of investments | (15,039) | | | (232,212) | |
+Purchases of long-term investments | (60,588) | | | — | |
+Purchases of property and equipment | (64,420) | | | (42,551) | |
+Purchases of software licenses and licensed technology | (10,695) | | | (10,866) | |
+Other investing | 2,810 | | | (1,200) | |
+Purchase of property under financing arrangement | — | | | (28,750) | |
+Acquisition of business, net | — | | | (12,684) | |
+Net cash used in investing activities | (147,932) | | | (328,263) | |
+CASH FLOWS FROM FINANCING ACTIVITIES: | | | |
+Repayment of convertible notes | (161,151) | | | — | |
+Payments on finance leases and other financing activities | (2,617) | | | (1,268) | |
+Proceeds from stock option exercises and employee stock purchases | 11,549 | | | 10,289 | |
+Common stock withheld for taxes on employee equity awards | (56,937) | | | (43,135) | |
+Proceeds from convertible notes | — | | | 86,629 | |
+Proceeds from financing arrangement | — | | | 28,750 | |
+Payments for fee on convertible note exchange and debt issuance costs | — | | | (23,166) | |
+Net cash (used in) provided by financing activities | (209,156) | | | 58,099 | |
+Foreign currency effect on cash | (129) | | | 132 | |
+NET CHANGE IN CASH AND CASH EQUIVALENTS | (131) | | | (34,664) | |
+CASH AND CASH EQUIVALENTS — Beginning of period | 112,142 | | | 146,806 | |
+CASH AND CASH EQUIVALENTS — End of period | $ | 112,011 | |
+| $ | 112,142 | |
+| | | |
+| | | |
+| | | |
+MACOM TECHNOLOGY SOLUTIONS HOLDINGS, INC.
+RECONCILIATIONS OF GAAP TO NON-GAAP RESULTS
+(unaudited and in thousands, except per share data) | | | | | | | | | | | | | | |
+| | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue |
+Gross profit - GAAP | $ | 254,632 | | 59.9 | | $ | 199,552 | | 58.3 | | $ | 142,301 | | 54.5 | | $ | 770,396 | | 58.0 | | $ | 529,002 | | 54.7 | |
+Amortization expense | 1,620 | | 0.4 | | 1,622 | | 0.5 | | 4,309 | | 1.6 | | 6,486 | | 0.5 | | 14,333 | | 1.5 | |
+Share-based compensation expense | 3,812 | | 0.9 | | 2,803 | | 0.8 | | 2,198 | | 0.8 | | 12,125 | | 0.9 | | 9,519 | | 1.0 | |
+Acquisition and integration related costs | 270 | | 0.1 | | 270 | | 0.1 | | 330 | | 0.1 | | 1,087 | | 0.1 | | 2,435 | | 0.3 | |
+Adjusted gross profit (Non-GAAP) | $ | 260,334 | | 61.3 | | $ | 204,247 | | 59.7 | | $ | 149,138 | | 57.1 | | $ | 790,094 | | 59.5 | | $ | 555,289 | | 57.4 | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue |
+Operating expenses - GAAP | $ | 120,408 | | 28.3 | | $ | 122,437 | | 35.8 | | $ | 102,706 | | 39.3 | | $ | 464,929 | | 35.0 | | $ | 399,350 | | 41.3 | |
+Amortization expense | (1,712) | | (0.4) | | (1,713) | | (0.5) | | (1,620) | | (0.6) | | (6,987) | | (0.5) | | (8,032) | | (0.8) | |
+Share-based compensation expense | (20,117) | | (4.7) | | (21,708) | | (6.3) | | (15,890) | | (6.1) | | (87,565) | | (6.6) | | (76,620) | | (7.9) | |
+Acquisition and integration related costs | (497) | | (0.1) | | (2,483) | | (0.7) | | (3,048) | | (1.2) | | (4,674) | | (0.4) | | (5,141) | | (0.5) | |
+Adjusted operating expenses (Non-GAAP) | $ | 98,082 | | 23.1 | | $ | 96,533 | | 28.2 | | $ | 82,148 | | 31.5 | | $ | 365,703 | | 27.5 | | $ | 309,557 | | 32.0 | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue |
+Income from operations - GAAP | $ | 134,224 | | 31.6 | | $ | 77,115 | | 22.5 | | $ | 39,595 | | 15.2 | | $ | 305,467 | | 23.0 | | $ | 129,652 | | 13.4 | |
+Amortization expense | 3,332 | | 0.8 | | 3,335 | | 1.0 | | 5,929 | | 2.3 | | 13,473 | | 1.0 | | 22,365 | | 2.3 | |
+Share-based compensation expense | 23,929 | | 5.6 | | 24,511 | | 7.2 | | 18,088 | | 6.9 | | 99,690 | | 7.5 | | 86,139 | | 8.9 | |
+Acquisition and integration related costs | 767 | | 0.2 | | 2,753 | | 0.8 | | 3,378 | | 1.3 | | 5,761 | | 0.4 | | 7,576 | | 0.8 | |
+| | | | | | | | | | |
+Adjusted income from operations (Non-GAAP) | $ | 162,252 | | 38.2 | | $ | 107,714 | | 31.5 | | $ | 66,990 | | 25.6 | | $ | 424,391 | | 32.0 | | $ | 245,732 | | 25.4 | |
+Depreciation expense | 9,242 | | 2.2 | | 9,021 | | 2.6 | | 8,716 | | 3.3 | | 35,932 | | 2.7 | | 29,115 | | 3.0 | |
+Adjusted EBITDA (Non-GAAP) | $ | 171,494 | | 40.4 | | $ | 116,735 | | 34.1 | | $ | 75,706 | | 29.0 | | $ | 460,323 | | 34.7 | | $ | 274,847 | | 28.4 | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue |
+Net income (loss) - GAAP | $ | 139,445 | | 32.8 | | $ | 100,708 | | 29.4 | | $ | 45,120 | | 17.3 | | $ | 335,251 | | 25.3 | | $ | (54,210) | | (5.6) | |
+Amortization expense | 3,332 | | 0.8 | | 3,335 | | 1.0 | | 5,929 | | 2.3 | | 13,473 | | 1.0 | | 22,365 | | 2.3 | |
+Share-based compensation expense | 23,929 | | 5.6 | | 24,511 | | 7.2 | | 18,088 | | 6.9 | | 99,690 | | 7.5 | | 86,139 | | 8.9 | |
+Non-cash interest, net | 278 | | 0.1 | | 279 | | 0.1 | | 381 | | 0.1 | | 1,318 | | 0.1 | | 1,449 | | 0.1 | |
+Acquisition and integration related costs | 767 | | 0.2 | | 2,753 | | 0.8 | | 3,378 | | 1.3 | | 5,761 | | 0.4 | | 7,576 | | 0.8 | |
+Loss on debt extinguishment | — | | — | | — | | — | | — | | — | | — | | — | | 193,098 | | 20.0 | |
+Gain on investment fair value, net | (19,446) | | (4.6) | | (41,543) | | (12.1) | | — | | — | | (60,989) | | (4.6) | | — | | — | |
+Gain on acquired assets | — | | — | | — | | — | | (10,084) | | (3.9) | | — | | — | | (10,084) | | (1.0) | |
+Tax effect of non-GAAP adjustments | 15,028 | | 3.5 | | 19,746 | | 5.8 | | 8,574 | | 3.3 | | 41,161 | | 3.1 | | 17,039 | | 1.8 | |
+Adjusted net income (Non-GAAP) | $ | 163,333 | | 38.4 | | $ | 109,789 | | 32.1 | | $ | 71,386 | | 27.3 | | $ | 435,665 | | 32.8 | | $ | 263,372 | | 27.2 | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Net income | Income per diluted share | Net income | Income per diluted share | Net income | Income per diluted share | Net income | Income per diluted share | Net income (loss) | Income (loss) per diluted share |
+| | | | | | | | | | |
+| | | | | | | | | | |
+Net income (loss) - GAAP diluted | $ | 139,445 | | $ | 1.78 | | $ | 100,708 | | $ | 1.28 | | $ | 45,120 | | $ | 0.59 | | $ | 335,251 | | $ | 4.31 | | $ | (54,210) | | $ | (0.73) | |
+| | | | | | | | | | |
+Adjusted net income (Non-GAAP) | $ | 163,333 | | $ | 2.09 | | $ | 109,789 | | $ | 1.40 | | $ | 71,386 | | $ | 0.94 | | $ | 435,665 | | $ | 5.60 | | $ | 263,372 | | $ | 3.47 | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Shares | | Shares | | Shares | | Shares | | Shares | |
+Diluted shares - GAAP | 78,257 | | | 78,409 | | | 76,252 | | | 77,735 | | | 73,986 | | |
+Incremental shares | — | | | — | | | — | | | — | | | 1,873 | | |
+Adjusted diluted shares (Non-GAAP) | 78,257 | | | 78,409 | | | 76,252 | | | 77,735 | | | 75,859 | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended | Twelve Months Ended |
+| October 2, 2026 | July 3, 2026 | October 3, 2025 | October 2, 2026 | October 3, 2025 |
+| Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue | Amount | % Revenue |
+Interest income - GAAP | $ | 7,335 | | 1.7 | | $ | 6,676 | | 2.0 | | $ | 8,016 | | 3.1 | | $ | 29,760 | | 2.2 | | $ | 29,853 | | 3.1 | |
+Interest expense - GAAP | (1,481) | | (0.3) | | (1,484) | | (0.4) | | (1,793) | | (0.7) | | (6,330) | | (0.5) | | (5,516) | | (0.6) | |
+Non-cash interest expense | 278 | | 0.1 | | 279 | | 0.1 | | 381 | | 0.1 | | 1,318 | | 0.1 | | 1,449 | | 0.1 | |
+Adjusted interest income (Non-GAAP) | $ | 6,132 | | 1.4 | | $ | 5,471 | | 1.6 | | $ | 6,604 | | 2.5 | | $ | 24,748 | | 1.9 | | $ | 25,786 | | 2.7 | |

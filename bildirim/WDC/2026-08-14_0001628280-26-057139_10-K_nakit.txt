@@ -1,0 +1,49 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm
+SEMBOL: WDC
+BASVURU_TARIHI: 2026-08-14
+BASVURU: 0001628280-26-057139
+TUR: 10-K nakit akışı tablosu
+
+statements of cash flows, which are presented on a consolidated basis. Cash flows related to discontinued operations have not been segregated. See Part II, Item 8, Note 4, Discontinued Operations , of the Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K for additional cash flow information related to our discontinued operations.
+2026 | 2025 | 2024 |
+(in millions) |
+Net cash provided by (used in): |
+Operating activities | $ | 3,929 | $ | 1,691 | $ | (294) |
+Investing activities | (429) | 150 | (27) |
+Financing activities | (4,032) | (1,612) | 187 |
+Effect of exchange rate changes on cash
+| (3) | 6 | (10) |
+Net increase (decrease) in cash and cash equivalents
+| $ | (535) | $ | 235 | $ | (144) |
+Operating Activities
+Net cash provided by or used in operating activities primarily consists of net income or loss, adjusted for non-cash charges, plus or minus changes in operating assets and liabilities. The significant improvement in cash from operating activities was driven by the improved profitability in the business during 2026. Net cash used for changes in operating assets and liabilities was $658 million for 2026, as compared to $1.03 billion of net cash used for such changes for 2025. Net cash used for changes in operating assets and liabilities in 2026 primarily consisted of a $627 million decrease in taxes payable resulting from the timing of payments, a $541 million increase in accounts receivable driven by our growth in shipments to customers, and a $218 million increase in inventories as we ramped production in response to growing demand. These uses were partially offset by a $385 million increase in accounts payable as we ramped up purchases for production as well as more favorable payment terms with suppliers, a $144 million increase in accrued compensation driven by higher performance on our variable compensation plans, and $230 million from other assets and liabilities primarily driven by recognition and payment of other taxes. Net cash used for changes in operating assets and liabilities in 2025 primarily consisted of a $409 million increase in inventories as we ramped production in response to growing demand, a $366 million decrease in accrued expenses resulting from a significant reduction in our derivative hedging activities since the Separation, and a $905 million decrease in other assets and liabilities, driven by the timing of recognition and realization of income taxes receivable. These uses were partially offset by a $307 million increase in accounts payable as we ramped up purchases for production as well as more favorable payment terms with suppliers and a $348 million increase in taxes payable resulting from the timing of payments.
+Investing Activities
+Net cash used in investing activities in 2026 primarily consisted of $418 million in capital expenditures. Net cash provided by investing activities in 2025 primarily consisted of $401 million in net proceeds from our sale of a majority interest in one of our subsidiaries and $148 million in net notes receivable proceeds from Flash Ventures, partially offset by $412 million in capital expenditures.
+Financing Activities
+During 2026, net cash used in financing activities primarily consisted of $2.59 billion for share repurchases, $1.22 billion to settle a portion of our 2028 Convertible Notes, $1.66 billion for repayments of our other debt, $376 million for taxes paid on vested stock awards under employee stock plans, and $184 million for dividends on our common stock and Preferred Shares. These uses were partially offset by $1.95 billion of proceeds from a bridge loan and a drawdown on our Revolving Credit Facility, along with $64 million of proceeds from the issuance of stock under our employee stock plans. During 2025, net cash used in financing activities primarily consisted of $2.09 billion used for the partial repayment of our 4.75% senior unsecured notes due 2026, repayment of borrowings on the Revolving Credit Facility, and scheduled principal payments on our term loans; $1.37 billion of cash transferred to Sandisk at the Separation; $149 million in share repurchases; $113 million for taxes paid on vested stock awards; $73 million in debt issuance costs; and $44 million in dividends on our common stock and our Preferred Shares. These uses were partially offset by $2.00 billion of proceeds from drawing on the Sandisk credit facilities in connection with the Separation, $150 million from the Revolving Credit Facility, and $77 million from issuances of shares under our employee stock plans.
+39
+Table of Contents
+In August 2024, we filed a shelf registration statement (the “Shelf Registration Statement”) with the SEC that expires in August 2027. The Shelf Registration Statement allows us to offer and sell shares of common stock, preferred stock, warrants, and debt securities. We may use the Shelf Registration Statement or other capital sources, including other offerings of equity or debt securities or the credit markets, to satisfy future financing needs, including planned or unanticipated capital expenditures, investments, debt repayments or other expenses. Any such additional financing will be subject to market conditions and may not be available on terms acceptable to us or at all.
+Over the next five years, we expect our capital expenditures to average between 4% to 6% of our net revenue.
+We believe our cash and cash equivalents and our available Revolving Credit Facility will be sufficient to meet our working capital, debt, dividend and capital expenditure needs and fund our share repurchases for at least the next twelve months and for the foreseeable future thereafter. We believe we can also access the various debt and equity capital markets to further supplement our liquidity position, if necessary. Our ability to sustain our working capital position is subject to a number of risks that we discuss in Part I, Item 1A, Risk Factors , in this Annual Report on Form 10-K.
+A total of $1.08 billion and $0.98 billion of our cash and cash equivalents were held outside of the U.S. as of July 3, 2026 and June 27, 2025, respectively. There are no material tax consequences that were not previously accrued for relating to the repatriation of this cash.
+Our cash equivalents are primarily invested in money market funds that invest in U.S. Treasury securities and U.S. Government agency securities. In addition, from time to time, we also invest directly in certificates of deposit, asset-backed securities and corporate and municipal notes and bonds.
+A discussion of our cash flows for 2024, including a comparison of such cash flows to 2025, is included in Part II, Item 7, Management’s Discussion and Analysis of Financial Condition and Results of Operations – Liquidity and Capital Resources , included in our Annual Report on Form 10-K for the year ended June 27, 2025 filed with the SEC on August 14, 2025.
+40
+Table of Contents
+Off-Balance Sheet Arrangements
+Other than certain indemnification provisions (see “Short- and Long-term Liquidity – Purchase Obligations and Other Commitments ” below), we do not have any other material off-balance sheet financing arrangements or liabilities, guarantee contracts, retained or contingent interests in transferred assets, or any other obligation arising out of a material variable interest in an unconsolidated entity. We do not have any majority-owned subsidiaries that are not included in the Consolidated Financial Statements. Additionally, we do not have an interest in, or relationships with, any variable interest entities.
+41
+Table of Contents
+Short- and Long-term Liquidity
+Material Cash Requirements
+The following is a summary of our known material cash requirements, including those for capital expenditures, as of July 3, 2026. In addition, see the discussions further below related to our cash dividend program, share repurchase program, liability for unrecognized tax benefits, global minimum tax, foreign exchange contracts, litigation matters and indemnifications.
+Total | 1 Year (2027) | 2-3 Years (2028-2029) | 4-5 Years (2030-2031) | More than 5 Years (Beyond 2031) |
+(in millions) |
+Debt, including interest | $ | 1,075 | $ | 1,075 | $ | — | $ | — | $ | — |
+Operating leases | 160 | 37 | 55 | 34 | 34 |
+Purchase obligations and other commitments | 310 | 65 | 77 | 97 | 71 |
+Total | $ | 1,545 | $ | 1,177 | $ | 132 | $ | 131 | $ | 105 |
+Debt
+As described in “Key Developments – Capital Allocation Actions ” above, we undertook several financing actions during 2026, to settle a substantial portion of our debt.
+As described in Part II, Item 8, Note 7, Debt , of the Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K, as of July 3, 2026, $710 million in aggregate principal amount of our 2028 Convertible Notes remained outstanding. The holders of the notes have had and continue to have the right to convert the notes through the calendar quarter ending September 30, 2026 based on 

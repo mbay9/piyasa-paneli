@@ -1,0 +1,102 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm
+SEMBOL: WULF
+BASVURU_TARIHI: 2026-11-06
+BASVURU: 0001628280-26-071671
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+FOR THE NINE MONTHS ENDED SEPTEMBER 30, 2026 AND 2025
+(In thousands; unaudited)
+Nine Months Ended September 30, |
+2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net loss | $ | ( 658,996 ) | $ | ( 534,838 ) |
+Adjustments to reconcile net loss to net cash used in operating activities: |
+Amortization of debt issuance costs, commitment fees and accretion of debt discount | 31,862 | 7,112 |
+Accretion of deferred cash consideration in asset acquisition | 1,033 | — |
+Accretion of interest income from sale of equity in net assets of investee | ( 4,136 ) | — |
+Related party expense settled with respect to common stock | — | 2,375 |
+Stock-based compensation expense | 215,376 | 44,323 |
+Stock-based charitable contribution | 14,390 | — |
+Depreciation | 79,354 | 60,862 |
+Accretion of asset retirement obligations
+| 685 | — |
+Change in asset retirement obligations estimate | ( 58 ) | — |
+Amortization of right-of-use asset | 5,646 | 2,602 |
+Revenue recognized from digital assets mined and hosting services | ( 39,069 ) | ( 125,416 ) |
+Loss (gain) on fair value of digital assets, net | 861 | ( 355 ) |
+Change in fair value of contingent consideration | — | 10,397 |
+Impairment of property, plant, and equipment | 35,421 | — |
+Loss on disposals of property, plant, and equipment | 4,293 | 5,818 |
+Change in fair value of warrant and derivative liabilities | 243,550 | 424,642 |
+Loss on extinguishment of debt | 7,116 | — |
+Deferred income tax provision
+| 84 | — |
+Other income | ( 747 ) | — |
+Equity in net loss of investee, net of tax | 23,104 | — |
+Gain on sale of equity interest in investee | ( 94,995 ) | — |
+Changes in operating assets and liabilities: |
+Increase in accounts receivable | ( 15,848 ) | ( 3,052 ) |
+Increase in prepaid expenses
+| ( 13,960 ) | ( 3,275 ) |
+Increase in other current assets
+| ( 21,121 ) | ( 4,662 ) |
+Decrease (increase) in deferred charges | 1,763 | ( 57,462 ) |
+Decrease (increase) in other assets | 215 | ( 200 ) |
+Increase (decrease) in accounts payable | 3,996 | ( 5,651 ) |
+Increase in accrued interest and other current liabilities | 50,009 | 46,957 |
+Increase (decrease) in other amounts due to related parties
+| 200 | ( 620 ) |
+(Decrease) increase in deferred rent liability
+| ( 46,966 ) | 86,157 |
+Decrease in operating lease liability | ( 1,523 ) | ( 299 ) |
+(Decrease) increase in other liabilities | ( 487 ) | 9,576 |
+Net cash used in operating activities | ( 178,948 ) | ( 35,009 ) |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Purchase of and deposits on plant and equipment | ( 2,230,788 ) | ( 445,199 ) |
+Proceeds from sales of property, plant and equipment | 445 | 8,828 |
+10
+Table of Contents
+Cash paid for asset acquisitions | ( 234,653 ) | — |
+Acquisition of a business, net of cash acquired | — | ( 21,731 ) |
+Purchase of securities by trust | ( 22,561 ) | — |
+Proceeds from sale of securities by trust | 1,997 | — |
+Proceeds from sale of digital assets | 37,011 | 125,775 |
+Proceeds from sale of equity in net assets of investee | 250,000 | — |
+Net cash used in investing activities | ( 2,198,549 ) | ( 332,327 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Proceeds from issuance of short-term debt, net of issuance costs paid of $ 7,250 and $ 0
+| 92,750 | — |
+Repayment of short-term debt
+| ( 100,075 ) | — |
+Proceeds from issuance of convertible notes, net of issuance costs paid of $ 0 and $ 24,671
+| — | 975,329 |
+Payment of debt issuance costs | ( 41,419 ) | ( 1,098 ) |
+Principal payments on finance lease | — | ( 9,158 ) |
+Proceeds from issuance of common stock, net of issuance costs paid of $ 35,864 and $ 0
+| 1,199,820 | — |
+Proceeds from exercise of warrants | 7,038 | 3,129 |
+Payment for settlement of preferred stock conversion | — | ( 12 ) |
+Purchase of capped calls | — | ( 100,600 ) |
+Purchase of treasury stock | — | ( 33,292 ) |
+Payments of tax withholding related to net share settlements of stock-based compensation awards | ( 148,072 ) | ( 28,273 ) |
+Net cash provided by financing activities | 1,010,042 | 806,025 |
+Net change in cash, cash equivalents and restricted cash | ( 1,367,455 ) | 438,689 |
+Cash, cash equivalents and restricted cash at beginning of period | 3,722,775 | 274,065 |
+Cash, cash equivalents and restricted cash at end of period | $ | 2,355,320 | $ | 712,754 |
+Cash paid during the period for: |
+Interest | $ | 136,078 | $ | 7,119 |
+Income taxes | $ | — | $ | — |
+See Notes to Condensed Consolidated Financial Statements.
+11
+Table of Contents
+TERAWULF INC. AND SUBSIDIARIES
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (unaudited)
+NOTE 1 – ORGANIZATION
+TeraWulf Inc. (“TeraWulf” or the “Company”) is a vertically integrated owner, developer and operator of digital infrastructure supporting high-performance computing (“HPC”) and artificial intelligence workloads, as well as bitcoin mining operations. The Company develops and operates large-scale data center campuses with access to reliable, cost-effective power infrastructure.
+TeraWulf derives a portion of its revenue by providing hash computation services to a mining pool operator, facilitating transaction validation of transactions on the global bitcoin network using the Company’s fleet of application-specific integrated circuit (“ASIC”) miners. Bitcoin earned as consideration is routinely converted to U.S. dollars. The Company also previously generated revenue by hosting third-party bitcoin miners. While capable of mining other digital assets, the Company has no current plans to do so.
+In 2024, the Company launched WULF Compute LLC (“WULF Compute”), which is focused on development and deployment of scalable digital infrastructure to support a broader HPC strategy. This business diversifies revenue by offering HPC leasing and colocation, cloud, and connectivity services for GPU-based workloads (see Note 8). The Company has entered into long-term data center lease agreements with customers for specified data center infrastructure at its Lake Mariner Data Campus in upstate New York (the “Lake Mariner Data Campus”) and recently at its newly acquired Hawesville site in Kentucky to support those customers’ HPC operations. With growing demand for high-density compute, TeraWulf’s assets are well-positioned to deliver low-cost, low-carbon power to support these workloads.
+As of September 30, 2026, TeraWulf owned and operated bitcoin mining activities at the Lake Mariner Data Campus, and has energized 145 MW of capacity across three buildings and supporting infrastructure at the site. During the nine months ended September 30, 2026, two miner buildings were repurposed or placed out of service to support the HPC development at the Lake Mariner Data Campus. As of September 30, 2026, TeraWulf had energized 102 critical IT MW of HPC leasing capacity at the Lake Mariner Data Campus.
+On May 21, 2025 (the “Beowulf Acquisition Date”), the Company acquired 100 % of the membership interests of each of Beowulf Electricity & Data LLC, Beowulf E&D (MD) LLC, and Beowulf E&D (NY) LLC (collectively, “Beowulf E&D”). The fair value of total consideration for the transaction was approximately $ 54.6 million, including $ 3.0 million in cash and 5.0 million shares of the Company’s common stock (“Common Stock”) issued on the Beowulf Acquisition Date. The purchase agreement also included up to $ 19.0 million in contingent cash payments and up to $ 13.0 million in additional Common Stock, subject to the achievement of several earnout milestones related to the expansion of the Company’s data center business and project financing initiative (see Note 3). As part of the acquisition, 94 employees of Beowulf E&D, including site staff at the Lake Mariner Data Campus and corporate personnel, were transitioned to TeraWulf. In addition, the existing Administrative and Infrastructure Services Agreement (the “Services Agreement”) (see Note 16) with Beowulf E&D was terminated on the Beowulf Acquisition Date.
+On October 27, 2025, the Company, through its subsidiary Big Country Wulf LLC (the “TeraWulf Member”), and Fluidstack CS I Inc. (“Fluidstack Member”) (each a “Member” and collectively the “Abernathy Members”) entered into an amended and restated limited liability company agreement (the “Abernathy Joint Venture Agreement”) to govern the terms of operation of FS CS I LLC (the “Abernathy Joint Venture”), which had the purpose of constructing and operating a 168 MW critical IT load data center campus in Abernathy, Texas (the “Abernathy HPC Campus”). The Fluidstack Member is a subsidiary of Fluidstack Ltd., a leading Artificial Intelligence (“AI”) cloud platform. In July 2026, the Company entered into a definitive agreement to sell its entire 50.1 % equity interest in the Abernathy Joint Venture to the Fluidstack Member and certain other purchasers (see Note 11).
+On February 2, 2026, the Company entered into an Agreement of Purchase and Sale for a former industrial site in Hawesville, Kentucky (the “Justified Data Campus” or “Hawesville”). The Company exercised an exclusivity

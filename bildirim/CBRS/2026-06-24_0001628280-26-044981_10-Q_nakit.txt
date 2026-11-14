@@ -1,0 +1,118 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2021728/000162828026044981/cbrs-20260331.htm
+SEMBOL: CBRS
+BASVURU_TARIHI: 2026-06-24
+BASVURU: 0001628280-26-044981
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+(in thousands)
+| Three Months Ended March 31, |
+| 2026 | 2025 |
+Cash flows from operating activities:
+|
+Net loss
+| $ | ( 14,006 ) | $ | ( 23,867 ) |
+Adjustments to reconcile net loss to net cash flows provided by (used in) operating activities:
+|
+Depreciation and amortization
+| 18,175 | 3,911 |
+Non-cash interest expense | 18,949 | — |
+Non-cash lease expense
+| 15,775 | 2,912 |
+Stock-based compensation
+| 9,593 | 9,154 |
+Provision for product warranties
+| 4,590 | 4,500 |
+Amortization of customer warrants | 2,053 | — |
+Other
+| ( 959 ) | ( 254 ) |
+Changes in operating assets and liabilities:
+|
+Accounts receivable
+| ( 12,208 ) | 56,787 |
+Inventories
+| ( 21,684 ) | 53,752 |
+Prepaid expenses and other assets
+| ( 57,603 ) | 3,688 |
+Accounts payable
+| ( 10,070 ) | ( 5,650 ) |
+Deferred revenue
+| 36,769 | 15,055 |
+Customer deposits
+| 13,966 | ( 159,599 ) |
+Other liabilities
+| 8,995 | ( 15,326 ) |
+Net cash flows provided by (used in) operating activities
+| $ | 12,335 | $ | ( 54,937 ) |
+Cash flows from investing activities:
+|
+Purchases of property and equipment
+| $ | ( 131,970 ) | $ | ( 98,244 ) |
+Purchases of investments
+| ( 308,801 ) | ( 20,175 ) |
+Maturities and sales of investments
+| 204,155 | 61,673 |
+Net cash flows used in investing activities
+| $ | ( 236,616 ) | $ | ( 56,746 ) |
+Cash flows from financing activities:
+|
+Proceeds from sale of shares of Series H redeemable convertible preferred stock | $ | 1,014,249 | $ | — |
+Costs incurred in connection with the sale of shares of Series H redeemable convertible preferred stock | ( 218 ) | — |
+Proceeds from Working Capital Loan | 1,004,571 | — |
+Proceeds from issuance of shares of Class N common stock
+| 15,019 | — |
+Proceeds from exercise of stock options
+| 5,315 | 1,552 |
+Tax withholding from tender offer
+| ( 623 ) | — |
+Payments of deferred offering costs
+| ( 207 ) | — |
+Net cash flows provided by financing activities
+| $ | 2,038,106 | $ | 1,552 |
+Effect of exchange rate on cash
+| 911 | 180 |
+Increase in cash, cash equivalents, and restricted cash
+| $ | 1,814,736 | $ | ( 109,951 ) |
+Cash, cash equivalents, and restricted cash beginning of period
+| 930,378 | 581,965 |
+Cash, cash equivalents, and restricted cash end of period
+| $ | 2,745,114 | $ | 472,014 |
+9
+Table of Contents
+Supplemental disclosures of cash flow information:
+|
+Income taxes paid (refunded) | $ | ( 574 ) | $ | 63 |
+Non-cash investing and financing activities:
+|
+Right-of-use assets obtained in exchange for lease obligations
+| $ | 120,128 | $ | — |
+Billed amounts offsetting Working Capital Loan balance | $ | 21,648 | $ | — |
+Purchases of property and equipment included in accounts payable and accrued and other current liabilities
+| $ | 36,718 | $ | 1,120 |
+Transfer of property and equipment into inventories
+| $ | 8,443 | $ | — |
+Transfer to property and equipment out of inventories
+| $ | — | $ | 40,458 |
+Unpaid deferred offering costs included in accrued and other current liabilities
+| $ | 2,653 | $ | — |
+Vesting of early exercised options
+| $ | 809 | $ | 1,715 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+10
+Table of Contents
+NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1 – Nature of Operations
+Cerebras Systems Inc. (the “Company” or “Cerebras”) was incorporated in Delaware in April 2016. Cerebras is an artificial intelligence (“AI”) infrastructure company that designs and manufactures an AI compute platform comprised of proprietary systems and software that is delivered in standard racks for deployment in our, and our customers’, data centers up to supercomputer scale. The Company’s pioneering Wafer-Scale Engine (“WSE”), a chip encompassing an entire silicon wafer, was specifically designed to enable higher performance and speeds than GPUs for the computational demands of inference, Generative AI (“GenAI”), and other AI applications. Since its inception, Cerebras has dedicated resources to research and development activities that support its current projects and future development efforts. The Company is headquartered in Sunnyvale, California.
+Note 2 – Basis of Presentation and Summary of Significant Accounting Policies
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”) and the applicable rules and regulations of the Securities and Exchange Commission (the “SEC”) for interim financial information, but do not include all the information and notes required by GAAP for complete financial statements. These interim unaudited condensed consolidated financial statements should be read in conjunction with the audited consolidated financial statements and notes for the year ended December 31, 2025 thereto contained in the Company’s final prospectus filed with the SEC on May 14, 2026 (the “Prospectus”), pursuant to Rule 424(b)(4) under the Securities Act of 1933, as amended (the “Securities Act”). The condensed consolidated balance sheet at December 31, 2025 has been derived from the audited consolidated financial statements at that date, but does not include all disclosures, including notes, required by GAAP for complete financial statements. The significant accounting policies used in preparation of the unaudited condensed consolidated financial statements for the three months ended March 31, 2026 and 2025, are consistent with those discussed in Note 4 – Significant Accounting Policies to the audited consolidated financial statements in the Prospectus. There have been no significant changes in the Company’s significant accounting policies or critical accounting estimates since December 31, 2025 that have had a material impact on the Company’s unaudited condensed consolidated financial statements and related notes. In the opinion of management, these financial statements include all adjustments, which are of a normal recurring nature, necessary for a fair statement of the financial position, results of operations, cash flows, and the changes in equity for the periods presented. The results of operations for the three months ended March 31, 2026 shown in this report are not necessarily indicative of the results to be expected for the full year ending December 31, 2026 or any other period. Certain prior period amounts reported in the Company’s condensed consolidated financial statements and notes thereto have been reclassified to conform to the current period presentation.
+Initial Public Offering
+On May 15, 2026, the Company completed its initial public offering (the “IPO”), in which it issued and sold 34,500,000 shares of its Class A common stock at $ 185.00 per share, which includes the exercise in full by the underwriters of their option to purchase from the Company an additional 4,500,000 shares of Class A common stock. The Company received net proceeds of approximately $ 6.2 billion from the IPO, after deducting underwriting discounts and commissions and estimated offering expenses. Immediately prior to the completion of the IPO, all shares of the Company’s outstanding redeemable convertible preferred stock converted into 124,652,775 shares of Class B common stock on a one -for-one basis, and 60,457,570 shares of the Company’s then-outstanding Class A common stock, including shares of Class A common stock issued upon vesting and settlement of certain restricted stock units (“RSUs”) that vested upon completion of the IPO, were reclassified into an aggregate of 185,110,345 shares of Class B common stock on a one -for-one basis. Additionally, certain shares and equity awards were converted into, or amended to provide for issuance or settlement in, shares of Class A common stock instead of shares of Class B common stock.
+The shares and proceeds from the IPO, the underwriters’ exercise of their option to purchase additional shares, the conversion of the Company’s redeemable convertible preferred stock, and the reclassification of the Company’s common stock are not reflected in the condensed consolidated financial statements as of and for the three months ended March 31, 2026. Refer to Note 17 – Subsequent Events for further discussion.
+Use of Estimates
+The preparation of unaudited condensed consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of contingent assets and liabilities at the date of the unaudited condensed consolidated financial statements and the reported amounts of revenues and expenses during the reporting period.
+11
+Table of Contents
+Areas of significant estimates include, but are not limited to, revenue recognition, including the determination of the standalone selling price (“SSP”) of performance obligations, significant financing components, useful life of property, plant and equipment, product warranty accruals, impairment o

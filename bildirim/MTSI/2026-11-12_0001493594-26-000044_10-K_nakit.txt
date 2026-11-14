@@ -1,0 +1,70 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1493594/000149359426000044/mtsi-20261002.htm
+SEMBOL: MTSI
+BASVURU_TARIHI: 2026-11-12
+BASVURU: 0001493594-26-000044
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(In thousands)
+Fiscal Years |
+2026 | 2025 | 2024 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net income (loss) | $ | 335,251 | $ | ( 54,210 ) | $ | 76,859 |
+Adjustments to reconcile net income (loss) to net cash from operating activities: |
+Depreciation and intangible amortization | 62,612 | 63,295 | 67,249 |
+Share-based compensation | 87,797 | 79,362 | 45,644 |
+Deferred financing costs amortization and write-offs | 1,318 | 1,449 | 1,146 |
+Deferred income taxes | 27,871 | 2,637 | 4,947 |
+Gain on investment fair value | ( 60,989 ) | — | — |
+Loss on extinguishment of debt | — | 193,098 | — |
+Amortization on marketable securities, net | ( 1,582 ) | ( 5,476 ) | ( 7,562 ) |
+Gain on acquired assets | — | ( 10,084 ) | — |
+Other adjustments, net | ( 2,517 ) | 3,088 | 5,387 |
+Change in operating assets and liabilities: |
+Accounts receivable | ( 60,878 ) | ( 41,980 ) | ( 16,805 ) |
+Inventories | ( 46,617 ) | ( 26,562 ) | ( 30,225 ) |
+Prepaid expenses and other assets | 2,842 | ( 6,758 ) | 3,407 |
+Accounts payable | 589 | 22,210 | 18,230 |
+Accrued and other liabilities | 9,059 | 11,811 | ( 7,325 ) |
+Income taxes | 2,330 | 3,488 | 1,688 |
+Net cash provided by operating activities | 357,086 | 235,368 | 162,640 |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Purchases of property and equipment | ( 64,420 ) | ( 42,551 ) | ( 22,440 ) |
+Purchases of software licenses and licensed technology | ( 10,695 ) | ( 10,866 ) | ( 3,188 ) |
+Proceeds from sales and maturities of short-term investments | 249,828 | 360,161 | 344,812 |
+Purchases of short-term investments | ( 264,867 ) | ( 592,373 ) | ( 426,564 ) |
+Purchases of long-term investments | ( 60,588 ) | — | — |
+Other investing | 2,810 | ( 1,200 ) | ( 1,138 ) |
+Purchase of property under financing arrangement | — | ( 28,750 ) | — |
+Acquisition of businesses, net of cash acquired | — | ( 12,684 ) | ( 72,615 ) |
+Net cash used in investing activities | ( 147,932 ) | ( 328,263 ) | ( 181,133 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Repayment of convertible notes | ( 161,151 ) | — | — |
+Payments for finance leases and other financing activities | ( 2,617 ) | ( 1,268 ) | ( 1,431 ) |
+Proceeds from stock option exercises and employee stock purchases | 11,549 | 10,289 | 6,586 |
+Common stock withheld for taxes on employee equity awards | ( 56,937 ) | ( 43,135 ) | ( 14,219 ) |
+Proceeds from convertible notes | — | 86,629 | — |
+Proceeds from financing arrangement | — | 28,750 | — |
+Payments for fee on convertible note exchange and debt issuance costs | — | ( 23,166 ) | — |
+Net cash (used in) provided by financing activities | ( 209,156 ) | 58,099 | ( 9,064 ) |
+Foreign currency effect on cash | ( 129 ) | 132 | 411 |
+NET CHANGE IN CASH AND CASH EQUIVALENTS | ( 131 ) | ( 34,664 ) | ( 27,146 ) |
+CASH AND CASH EQUIVALENTS — Beginning of year | 112,142 | 146,806 | 173,952 |
+CASH AND CASH EQUIVALENTS — End of year | $ | 112,011 | $ | 112,142 | $ | 146,806 |
+See notes to consolidated financial statements. For supplemental disclosure of cash flow information, see Note 23 .
+45
+MACOM TECHNOLOGY SOLUTIONS HOLDINGS, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+1. DESCRIPTION OF BUSINESS
+MACOM Technology Solutions Holdings, Inc. (the “Company”) was incorporated in Delaware on March 25, 2009. We design, develop and manufacture differentiated semiconductor products and solutions for the I&D, Data Center and Telecom industries for customers who demand high performance, quality and reliability. We are headquartered in Lowell, Massachusetts, with operational facilities throughout North America, Europe and Asia. Refer to Item 1 - Business, for additional information.
+2. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+Principles of Consolidation and Basis of Presentation —We have one reportable operating segment that designs, develops, manufactures and markets semiconductors and modules. The accompanying consolidated financial statements include our accounts and the accounts of our majority-owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation. In the consolidated financial statements, certain prior year balances in Note 11 - Accrued Liabilities have been reclassified to conform to the current year presentation.
+We have a 52- or 53-week fiscal year ending on the Friday closest to the last day of September. Fiscal years 2026 and 2024 included 52 weeks, and fiscal year 2025 included 53 weeks. To offset the effect of holidays, for fiscal years in which there are 53 weeks, we typically include the extra week arising in our fiscal years in the first quarter. Our first quarter of fiscal year 2025, ended January 3, 2025, included 14 weeks.
+Use of Estimates —The preparation of consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities during the reporting periods, the reported amounts of revenue and expenses during the reporting periods and the disclosure of contingent assets and liabilities at the date of the financial statements. On an ongoing basis, we base estimates and assumptions on historical experience, currently available information and various other factors that management believes to be reasonable under the circumstances. Actual results may differ materially from these estimates and assumptions. The accounting policies which our management believes involve the most significant application of judgment or involve complex estimation, are inventories and associated reserves; revenue reserves; business combinations; goodwill and intangible asset valuation; share-based compensation valuation and income taxes.
+Foreign Currency Translation and Remeasurement —Our consolidated financial statements are presented in U.S. dollars. While the majority of our foreign operations use the U.S. dollar as the functional currency, the financial statements of our foreign operations for which the functional currency is not the U.S. dollar are translated into U.S. dollars at the exchange rates in effect at the balance sheet dates (for assets and liabilities), historical rates for equity and at average exchange rates (for revenue and expenses). The unrealized translation gains and losses on the net investment in these foreign operations are accumulated as a component of other comprehensive (loss) income.
+The financial statements of our foreign operations where the functional currency is the U.S. dollar, but where the underlying transactions are transacted in a different currency, are remeasured at the exchange rate in effect at the balance sheet date with respect to monetary assets and liabilities. Nonmonetary assets and liabilities, such as inventories and property and equipment and related statements of operations accounts, such as cost of revenue and depreciation, are remeasured at historical exchange rates. Revenue and expenses, other than cost of revenue, amortization and depreciation, are translated at the average exchange rate for the period in which the transaction occurred. The net gains and losses on foreign currency remeasurement are reflected in selling, general and administrative expense in the accompanying Consolidated Statements of Operations. Net foreign exchange transaction gains and losses for all periods presented were not material.
+Cash and Cash Equivalents —Cash equivalents are primarily composed of short-term, highly-liquid instruments with an original maturity of 90 days or less and consist primarily of money market funds.
+Short-term Investments —We classify our short-term investments as available-for-sale. Our investments classified as available-for-sale are recorded at fair value at period end. We classify available-for-sale investments with maturity dates greater than twelve months as short-term investments rather than long-term investments based on the nature of the securities and the availability for use in current operations. We believe this method is more reflective of our assessment of our overall liquidity position. Unrealized gains and losses that are deemed to be unrelated to credit losses are recorded in accumulated other comprehensive (loss) income as a separate component of stockholders’ equity.
+A decline in the fair value of any debt security below cost that is deemed to be attributable to credit loss results in a charge to earnings and the corresponding establishment of an allowance for credit losses against the cost basis of the security. Premiums and discounts are amortized (accreted) over the life of the related security as an adjustment to its yield. Dividend and interest income are recognized when earned. Realized gains and losses are included in Interest income in our Consolidated Statements of Operations and are derived using the specific identification method for determining the cost of investments sold.
+46
+Inventories —Inventories are stated at the lower of cost or net realizable value. We use a combination of standard cost and moving 

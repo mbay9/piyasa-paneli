@@ -1,0 +1,214 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm
+SEMBOL: HPE
+BASVURU_TARIHI: 2026-06-02
+BASVURU: 0001645590-26-000055
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows for the six months ended April 3 0 , 2026 and 2025 (Unaudited)
+| 10
+|
+Condensed Consolidated Statements of Stockholders' Equity for the three and six months ended April 3 0 , 2026 and 2025 (Unaudited)
+| 11
+|
+Notes to Condensed Consolidated Financial Statements (Unaudited)
+| 13
+|
+Note 1: Overview and Summary of Significant Accounting Policies
+| 13
+|
+Note 2: Segment Information
+| 14
+|
+Note 3: Retirement Benefit Plans
+| 17
+|
+Note 4: Taxes on Earnings
+| 17
+|
+Note 5: Balance Sheet Details
+| 19
+|
+Note 6: Accounting for Leases as a Lessor
+| 23
+|
+Note 7: Acquisitions and Dispositions
+| 26
+|
+Note 8: Goodwill
+| 27
+|
+Note 9: Fair Value
+| 28
+|
+Note 10: Financial Instruments
+| 30
+|
+Note 11: Borrowings
+| 34
+|
+Note 12: Stockholders' Equity
+| 35
+|
+Note 13: Net Earnings (Loss) Per Share
+| 35
+|
+Note 14: Litigation, Contingencies, and Commitments
+| 36
+|
+6
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Statements of Earnings
+(Unaudited)
+| For the three months ended April 30, | For the six months ended April 30, |
+| 2026 | 2025 | 2026 | 2025 |
+| In millions, except per share amounts |
+Net Revenue: | | |
+Products | $ | 7,219 | $ | 4,769 | $ | 13,080 | $ | 9,739 |
+Services | 3,266 | 2,670 | 6,511 | 5,368 |
+Financing income | 193 | 188 | 388 | 374 |
+Total net revenue | 10,678 | 7,627 | 19,979 | 15,481 |
+Costs and Expenses: | | |
+Cost of products (exclusive of amortization shown separately below) | 4,840 | 3,631 | 8,929 | 7,393 |
+Cost of services (exclusive of amortization shown separately below) | 1,820 | 1,703 | 3,570 | 3,372 |
+Financing cost | 118 | 124 | 240 | 252 |
+Research and development | 922 | 540 | 1,666 | 1,015 |
+Selling, general and administrative | 1,830 | 1,298 | 3,528 | 2,566 |
+Amortization of intangible assets | 323 | 37 | 634 | 75 |
+Impairment charges | — | 1,361 | — | 1,361 |
+Acquisition, disposition and other charges | 78 | 42 | 195 | 123 |
+Total costs and expenses | 9,931 | 8,736 | 18,762 | 16,157 |
+Earnings (loss) from operations | 747 | ( 1,109 ) | 1,217 | ( 676 ) |
+Interest and other, net | ( 73 ) | 39 | ( 127 ) | 78 |
+Gain on sale of a business | — | — | — | 244 |
+Earnings from equity interests | 25 | 25 | 42 | 42 |
+Earnings (loss) before provision for taxes | 699 | ( 1,045 ) | 1,132 | ( 312 ) |
+Provision for taxes | ( 75 ) | ( 5 ) | ( 56 ) | ( 111 ) |
+Net earnings (loss) attributable to HPE | 624 | ( 1,050 ) | 1,076 | ( 423 ) |
+Preferred stock dividends | ( 29 ) | ( 29 ) | ( 58 ) | ( 58 ) |
+Net earnings (loss) attributable to common stockholders | $ | 595 | $ | ( 1,079 ) | $ | 1,018 | $ | ( 481 ) |
+Net Earnings (Loss) Per Share Attributable to Common Stockholders: | | |
+Basic | $ | 0.45 | $ | ( 0.82 ) | $ | 0.76 | $ | ( 0.36 ) |
+Diluted | $ | 0.44 | $ | ( 0.82 ) | $ | 0.75 | $ | ( 0.36 ) |
+Weighted-average Shares Used to Compute Net Earnings (Loss) Per Share: | | |
+Basic | 1,335 | 1,322 | 1,335 | 1,319 |
+Diluted | 1,432 | 1,322 | 1,356 | 1,319 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+7
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Statements of Comprehensive Income
+(Unaudited)
+| For the three months ended April 30, | For the six months ended April 30, |
+| 2026 | 2025 | 2026 | 2025 |
+| In millions |
+Net earnings (loss) attributable to HPE | $ | 624 | $ | ( 1,050 ) | $ | 1,076 | $ | ( 423 ) |
+Other Comprehensive Income (Loss), Before Taxes | | |
+Change in Net Unrealized Losses on Available-for-sale Securities: | | |
+Net unrealized losses arising during the period | ( 3 ) | ( 5 ) | ( 2 ) | ( 6 ) |
+( 3 ) | ( 5 ) | ( 2 ) | ( 6 ) |
+Change in Net Unrealized Components of Cash Flow Hedges: | | |
+Net unrealized gains (losses) arising during the period | 126 | ( 465 ) | ( 65 ) | ( 195 ) |
+Net (gains) losses reclassified into earnings | ( 53 ) | 244 | 85 | 31 |
+73 | ( 221 ) | 20 | ( 164 ) |
+Change in Unrealized Components of Defined Benefit Plans: | | |
+Net unrealized losses arising during the period | ( 1 ) | ( 20 ) | ( 1 ) | ( 20 ) |
+Amortization of net actuarial loss and prior service benefit | 25 | 29 | 49 | 59 |
+Curtailments, settlements and other | 2 | 3 | 2 | 3 |
+26 | 12 | 50 | 42 |
+Change in Cumulative Translation Adjustment: | ( 23 ) | 10 | ( 23 ) | ( 12 ) |
+Other Comprehensive Income (Loss), Before Taxes | 73 | ( 204 ) | 45 | ( 140 ) |
+(Provision) Benefit for Taxes | ( 18 ) | 37 | ( 14 ) | 23 |
+Other Comprehensive Income (Loss), Net of Taxes | 55 | ( 167 ) | 31 | ( 117 ) |
+Comprehensive Income (Loss) | $ | 679 | $ | ( 1,217 ) | $ | 1,107 | $ | ( 540 ) |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+8
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Balance Sheets
+| As of |
+| April 30, 2026 | October 31, 2025 |
+(Unaudited) | (Audited) |
+| In millions, except par value and shares |
+ASSETS | | |
+Current Assets: | | |
+Cash and cash equivalents | $ | 5,292 | $ | 5,773 |
+Accounts receivable, net of allowances | 6,286 | 5,290 |
+Financing receivables, net of allowances | 3,694 | 3,826 |
+Inventory | 9,034 | 6,352 |
+Other current assets | 5,053 | 3,753 |
+Total current assets | 29,359 | 24,994 |
+Property, plant and equipment, net | 5,597 | 6,002 |
+Long-term financing receivables and other assets | 13,992 | 13,817 |
+Investments in equity interests | 916 | 955 |
+Goodwill | 23,828 | 23,770 |
+Intangible assets, net | 5,820 | 6,368 |
+Total assets | $ | 79,512 | $ | 75,906 |
+LIABILITIES AND STOCKHOLDERS' EQUITY | | |
+Current Liabilities: | | |
+Notes payable and short-term borrowings | $ | 3,009 | $ | 4,609 |
+Accounts payable | 11,311 | 7,731 |
+Employee compensation and benefits | 1,957 | 1,871 |
+Taxes on earnings | 387 | 319 |
+Deferred revenue | 5,621 | 5,358 |
+Other accrued liabilities | 4,690 | 4,755 |
+Total current liabilities | 26,975 | 24,643 |
+Long-term debt | 18,237 | 17,756 |
+Other non-current liabilities | 8,947 | 8,753 |
+Commitments and Contingencies | | |
+HPE Stockholders' Equity: | | |
+7.625 % Series C mandatory convertible preferred stock, $ 0.01 par value ( 30,000,000 shares issued and outstanding as of April 30, 2026 and October 31, 2025, respectively)
+| — | — |
+Common stock, $ 0.01 par value ( 9,600,000,000 shares authorized; 1,323,294,768 and 1,318,292,428 shares issued and outstanding as of April 30, 2026 and October 31, 2025, respectively)
+| 13 | 13 |
+Additional paid-in capital | 30,207 | 30,234 |
+Accumulated deficit | ( 2,211 ) | ( 2,811 ) |
+Accumulated other comprehensive loss | ( 2,717 ) | ( 2,748 ) |
+Total HPE stockholders' equity | 25,292 | 24,688 |
+Non-controlling interests | 61 | 66 |
+Total stockholders' equity | 25,353 | 24,754 |
+Total liabilities and stockholders' equity | $ | 79,512 | $ | 75,906 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+9
+Table of Content
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Statements of Cash Flows (Unaudited)
+| For the six months ended April 30, |
+| 2026 | 2025 |
+| In millions |
+Cash Flows from Operating Activities: | | |
+Net earnings (loss) attributable to HPE | $ | 1,076 | $ | ( 423 ) |
+Adjustments to Reconcile Net Earnings (Loss) Attributable to HPE to Net Cash Provided by (Used in) Operating Activities: | | |
+Depreciation and amortization | 1,749 | 1,173 |
+Impairment charges | — | 1,361 |
+Stock-based compensation expense | 434 | 270 |
+Provision for inventory and credit losses | 305 | 190 |
+Cost reduction program | 53 | 146 |
+Deferred taxes on earnings | ( 266 ) | ( 43 ) |
+Earnings from equity interests | ( 42 ) | ( 42 ) |
+Gain on sale of a business | — | ( 244 ) |
+Dividends received from equity investees | 76 | — |
+H3C divestiture related severance costs | — | 97 |
+Amortization of inventory fair value adjustment | 31 | — |
+Other, net | 100 | 28 |
+Changes in Operating Assets and Liabilities, Net of Acquisitions: |
+Accounts receivable | ( 1,098 ) | ( 372 ) |
+Financing receivables | 282 | 25 |
+Inventory | ( 2,956 ) | ( 435 ) |
+Accounts payable | 3,562 | ( 1,698 ) |
+Taxes on earnings | 137 | ( 36 ) |
+Other assets and liabilities | ( 855 ) | ( 848 ) |
+Net cash provided by (used in) operating activities | 2,588 | ( 851 ) |
+Cash Flows from Investing Activities: | | |
+Investment in property, plant and equipment and software assets | ( 1,152 ) | ( 1,075 ) |
+Proceeds from sale of property, plant and equipment | 196 | 164 |
+Purchases of equity investments | ( 4 ) | ( 1 ) |
+Proceeds from sale of available-for-sale securities and other investments | 5 | 41 |
+Financial collateral posted | ( 491 ) | ( 638 ) |
+Financial collateral received | 453 | 287 |
+Proceeds from sale of a business | — | 210 |
+Net cash used in investing activities | ( 993 ) | ( 1,012 ) |
+Cash Flows from Financing Activities: | | |
+Short-term borrowings with original maturities less than 90 days, net | ( 10 ) | ( 11 ) |
+Proceeds from debt, net of issuance costs | 2,230 | 257 |
+Payme

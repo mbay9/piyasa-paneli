@@ -1,0 +1,135 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+SEMBOL: NVDA
+BASVURU_TARIHI: 2026-08-26
+BASVURU: 0001045810-26-000075
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(In millions)
+(Unaudited)
+Six Months Ended |
+Jul 26, 2026 | Jul 27, 2025 |
+Cash flows from operating activities: |
+Net income | $ | 118,010 | $ | 45,197 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Stock-based compensation expense | 3,954 | 3,099 |
+Depreciation and amortization | 2,124 | 1,280 |
+Deferred income taxes | 982 | ( 2,160 ) |
+Gains from equity securities, net | ( 23,707 ) | ( 2,073 ) |
+Other | 222 | ( 196 ) |
+Changes in operating assets and liabilities, net of acquisitions: |
+Accounts receivable | ( 24,590 ) | ( 4,743 ) |
+Inventories | ( 10,204 ) | ( 4,880 ) |
+Prepaid expenses and other assets | ( 6,480 ) | 946 |
+Accounts payable | 4,125 | 2,255 |
+Accrued and other current liabilities | 8,015 | 3,075 |
+Other long-term liabilities | 1,970 | 979 |
+Net cash provided by operating activities | 74,421 | 42,779 |
+Cash flows from investing activities: |
+Proceeds from sales and maturities of debt securities | 26,563 | 6,739 |
+Proceeds from sales of equity securities | 7,241 | 70 |
+Purchases of equity securities | ( 42,404 ) | ( 1,245 ) |
+Purchases of debt securities | ( 21,777 ) | ( 14,108 ) |
+Purchases related to property and equipment and intangible assets | ( 4,434 ) | ( 3,122 ) |
+Acquisitions, net of cash acquired | ( 298 ) | ( 677 ) |
+Other | ( 15 ) | — |
+Net cash used in investing activities | ( 35,124 ) | ( 12,343 ) |
+Cash flows from financing activities: |
+Proceeds related to issuance of debt, net of costs | 24,896 | — |
+Proceeds related to employee stock plans | 515 | 370 |
+Payments related to repurchases of common stock | ( 39,044 ) | ( 23,815 ) |
+Dividends paid | ( 6,290 ) | ( 488 ) |
+Payments related to employee stock plan taxes | ( 4,531 ) | ( 3,380 ) |
+Groq, Inc. | ( 2,944 ) | — |
+Principal payments on property and equipment and intangible assets | ( 92 ) | ( 73 ) |
+Other | 31 | — |
+Net cash used in financing activities | ( 27,459 ) | ( 27,386 ) |
+Change in cash and cash equivalents | 11,838 | 3,050 |
+Cash and cash equivalents at beginning of period | 10,605 | 8,589 |
+Cash and cash equivalents at end of period | $ | 22,443 | $ | 11,639 |
+See accompanying Notes to Condensed Consolidated Financial Statements.
+8
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements
+(Unaudited)
+Note 1 - Summary of Significant Accounting Policies
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements were prepared in accordance with accounting principles generally accepted in the United States of America, or U.S. GAAP, for interim financial information and with the instructions to Form 10-Q and Article 10 of Securities and Exchange Commission, or SEC, Regulation S-X. The January 25, 2026, consolidated balance sheet was derived from our audited consolidated financial statements included in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026, as filed with the SEC, but does not include all disclosures required by U.S. GAAP. In the opinion of management, all adjustments, consisting only of normal recurring adjustments considered necessary for a fair presentation of results of operations and financial position, have been included. The results for the interim periods presented are not necessarily indicative of the results expected for any future period. The following information should be read in conjunction with the audited consolidated financial statements and notes thereto included in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026.
+Certain prior fiscal year balances have been reclassified to conform to the current period presentation.
+Significant Accounting Policies
+There have been no material changes to our significant accounting policies disclosed in Note 1 - Organization and Summary of Significant Accounting Policies, of the Notes to the Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026.
+Fiscal Year
+Fiscal year 2027 is a 53-week year, and fiscal year 2026 was a 52-week year, both ending on the last Sunday in January. The second quarters of fiscal years 2027 and 2026 were both 13-week quarters. The fourth quarter of fiscal year 2027 will be a 14-week quarter.
+Principles of Consolidation
+Our condensed consolidated financial statements include the accounts of NVIDIA Corporation and our wholly owned subsidiaries. All intercompany balances and transactions have been eliminated in consolidation.
+Use of Estimates
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosures of contingent assets and liabilities at the date of the financial statements and the reported amounts of revenue and expenses during the reporting period. Actual results could differ materially from our estimates.
+Recently Issued Accounting Pronouncements
+Recent Accounting Pronouncements Not Yet Adopted
+In November 2024, the Financial Accounting Standards Board, or FASB, issued a new accounting standard requiring disclosures of certain additional expense information on an annual and interim basis, including, among other items, the amounts of purchases of inventory, employee compensation, depreciation, and intangible asset amortization included within each income statement expense caption, as applicable. We will adopt this standard in the fiscal year 2028 annual report. We do not expect the adoption of this standard to have a material impact on our Consolidated Financial Statements other than additional disclosures.
+Note 2 - Stock-Based Compensation
+We recognize stock-based compensation expense from grants of restricted stock units, or RSUs, performance stock units, or PSUs, and market-based PSUs, and issuances under our employee stock purchase plan, or ESPP.
+9
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Condensed Consolidated Statements of Income include stock-based compensation expense as follows:
+Three Months Ended | Six Months Ended |
+Jul 26, 2026 | Jul 27, 2025 | Jul 26, 2026 | Jul 27, 2025 |
+(In millions) |
+Cost of revenue | $ | 71 | $ | 58 | $ | 139 | $ | 123 |
+Research and development | 1,551 | 1,191 | 3,010 | 2,254 |
+Sales, general and administrative | 405 | 375 | 805 | 722 |
+Total | $ | 2,027 | $ | 1,624 | $ | 3,954 | $ | 3,099 |
+Equity Award Activity
+The following is a summary of our equity award transactions under our equity incentive plans:
+RSUs, PSUs and Market-based PSUs Outstanding |
+Number of Shares | Weighted Average Grant-Date Fair Value Per Share |
+(In millions, except per share data) |
+Balance as of Jan 25, 2026
+| 189 | $ | 81.51 |
+Granted | 49 | $ | 183.74 |
+Vested | ( 63 ) | $ | 54.60 |
+Canceled and forfeited | ( 7 ) | $ | 102.16 |
+Balance as of Jul 26, 2026
+| 168 | $ | 120.41 |
+As of July 26, 2026, aggregate unearned stock-based compensation expense was $ 19.4 billion, which is expected to be recognized over a weighted average period of 2.6 years for RSUs, PSUs, and market-based PSUs, and 0.9 years for ESPP.
+Note 3 - Net Income Per Share
+The following are the basic and diluted net income per share computations for the periods presented:
+Three Months Ended | Six Months Ended |
+Jul 26, 2026 | Jul 27, 2025 | Jul 26, 2026 | Jul 27, 2025 |
+(In millions, except per share data) |
+Numerator: |
+Net income | $ | 59,688 | $ | 26,422 | $ | 118,010 | $ | 45,197 |
+Denominator: |
+Basic weighted average shares | 24,190 | 24,366 | 24,238 | 24,404 |
+Dilutive impact of outstanding equity awards | 95 | 166 | 100 | 167 |
+Diluted weighted average shares | 24,285 | 24,532 | 24,338 | 24,571 |
+Net income per share: |
+Basic (1) | $ | 2.47 | $ | 1.08 | $ | 4.87 | $ | 1.85 |
+Diluted (2) | $ | 2.46 | $ | 1.08 | $ | 4.85 | $ | 1.84 |
+Anti-dilutive equity awards excluded from diluted net income per share | 7 | 3 | 52 | 60 |
+(1) Net income divided by basic weighted average shares.
+(2) Net income divided by diluted weighted average shares.
+Diluted net income per share was computed using the weighted average number of common and potentially dilutive shares outstanding during the period, using the treasury stock method.
+10
+NVIDIA Corporation and Subsidiaries
+Notes to Condensed Consolidated Financial Statements (Continued)
+(Unaudited)
+Note 4 - Intangible Assets and Goodwill
+The components of our intangible assets are as follows:
+Jul 26, 2026 | Jan 25, 2026 |
+Gross
+Carrying
+Amount | Accumulated
+Amortization | Net Carrying
+Amount | Gross
+Carrying
+Amount | Accumulated
+Amortization | Net Carrying
+Amount |
+(In millions) |
+Acquisition-related intangible assets | $ | 5,737 | $ | ( 2,974 ) | $ | 2,763 | $ | 5,656 | $ | ( 2,580 ) | $ | 3,076 |
+Patents and licensed technology | 557 | ( 322 ) | 235 | 528 | ( 298 ) | 230 |
+Total intangible assets | $ | 6,294 | $ | ( 3,296 ) | $ | 2,998 | $ | 6,184 | $ | ( 2,878 ) | $ | 3,306 |
+Amortization e

@@ -1,0 +1,388 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1709048/000170904826000111/globalfoundries1q2026earni.htm
+SEMBOL: GFS
+BASVURU_TARIHI: 2026-05-05
+BASVURU: 0001709048-26-000111
+
+EX-99.1
+2
+globalfoundries1q2026earni.htm
+EX-99.1
+Document
+GlobalFoundries Reports First Quarter 2026 Financial Results
+Malta, New York , May 5, 2026 - GLOBALFOUNDRIES Inc. (GF) (Nasdaq: GFS) today announced preliminary financial results for the first quarter ended March 31, 2026.
+Key First Quarter Financial Highlights
+• Revenue of $1.634 billion
+• Gross margin of 27.6% and Non-IFRS gross margin (1) of 29.0%
+• Operating margin of 11.0% and Non-IFRS operating margin (1) of 16.6%
+• Net income of $104 million and Non-IFRS net income (1) of $227 million
+• Diluted earnings per share of $0.18 and Non-IFRS diluted earnings per share (1) of $0.40
+• Non-IFRS adjusted EBITDA (1) of $561 million
+• Ending cash, cash equivalents and marketable securities of $3.8 billion
+• Net cash provided by operating activities of $542 million and Non-IFRS adjusted free cash flow (1) of $233 million
+"GF delivered strong results in the first quarter, with all of our Non-IFRS profitability metrics at or above the high end of the respective guidance ranges,” said Tim Breen, CEO of GlobalFoundries. "Thanks to the excellent execution from our teams around the world and the relentless focus on delivering for our customers, GF made significant traction in secular growth end markets where our differentiated technology drives share growth and outsized value creation."
+Recent Business Highlights
+• In May 2026, GF launched its optical module solution for co-packaged optics (CPO) known as SCALE, or Silicon Photonics Co-packaged Advanced Light Engine. GF’s SCALE CPO solution is the industry’s first Optical Compute Interconnect Multi-Source Agreement (OCI MSA) tailored platform, exceeding the requirements for the OCI MSA’s optical interconnect specification for modern AI scale-up architectures. With this SCALE solution, GF expects to empower customers by driving high-bandwidth, energy-efficient connectivity at scale.
+• In February 2026, GF and Renesas Electronics Corporation announced an expanded multi-billion dollar strategic partnership that broadens Renesas' access to GF's technology portfolio, including FDX, BCD and feature-rich CMOS with non-volatile memory features. These GF technologies will support SoCs, power devices and MCUs across a variety applications such as advanced driver assistance systems, data center power, and secure connectivity for industrial IoT. With this expanded partnership, GF now manufactures semiconductors used by the top three automotive MCU manufacturers globally.
+• In March 2026, at the Optical Fiber Communications Conference (OFC), GF made several announcements in conjunction with partners that showcased GlobalFoundries' robust silicon photonics offerings. Notable highlights included:
+◦ SENKO and GF demonstrated a wafer-level detachable fiber interface solution for CPO - a critical breakthrough that enables fiber connectivity to be attached and detached throughout the entire PIC development process for precise and repeatable testing.
+◦ Corning, GlobalFoundries, and EXFO showcased a complete ecosystem of emerging co-packaged optics (CPO) technology, which brings fiber connectivity closer to a chip, enabling faster data transmission and higher bandwidth density.
+◦ Siluxtek announced a strategic partnership with GF to manufacture 200G/lane high-speed silicon photonic receiver chips using GF's advanced silicon photonics process technology.
+• In March 2026, GF announced the availability of Auto Grade 1 ready embedded magnetic RAM (eMRAM) technology on the company’s ultra-low power FDX platform, a key enhancement to GF’s portfolio of non-
+Page 1 of 12
+volatile memory (eNVM) technologies and AutoPro platform of automotive-ready solutions. This new solution combines speed and reliability of MRAM with GF's energy-efficient FDX platform, helping customers build next generation Software-Defined Vehicles and emerging Physical AI systems.
+(1) See “Reconciliation of IFRS to Non-IFRS" for a detailed reconciliation of Non-IFRS financial measures to the most directly comparable IFRS measure. See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
+Page 2 of 12
+GLOBALFOUNDRIES Inc.
+Summary Quarterly Results
+(Unaudited, in millions, except per share amounts and wafer shipments)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | Year-over-year | | Sequential |
+| | Q1'26 | | Q4'25 | | Q1'25 | | Q1'26 vs Q1'25 | | Q1'26 vs Q4'25 |
+| | | | | | | | | | | | | | |
+Net revenue | | $ | 1,634 | | | $ | 1,830 | | | $ | 1,585 | | | $ | 49 | | | 3 | % | | $ | (196) | | | (11) | % |
+| | | | | | | | | | | | | | |
+Gross profit | | $ | 451 | | | $ | 508 | | | $ | 355 | | | $ | 96 | | | 27 | % | | $ | (57) | | | (11) | % |
+Gross margin | | 27.6 | % | | 27.8 | % | | 22.4 | % | | | | +520bps | | | | (20)bps |
+| | | | | | | | | | | | | | |
+Non-IFRS gross profit (1)
+| | $ | 474 | | | $ | 530 | | | $ | 379 | | | $ | 95 | | | 25 | % | | $ | (56) | | | (11) | % |
+Non-IFRS gross margin (1)
+| | 29.0 | % | | 29.0 | % | | 23.9 | % | | | | +510bps | | | | 0bps |
+| | | | | | | | | | | | | | |
+Operating profit | | $ | 180 | | | $ | 255 | | | $ | 151 | | | $ | 29 | | | 19 | % | | $ | (75) | | | (29) | % |
+Operating margin
+| | 11.0 | % | | 13.9 | % | | 9.5 | % | | | | +150bps | | | | (290)bps |
+| | | | | | | | | | | | | | |
+Non-IFRS operating profit (1)
+| | $ | 271 | | | $ | 335 | | | $ | 213 | | | $ | 58 | | | 27 | % | | $ | (64) | | | (19) | % |
+Non-IFRS operating margin (1)
+| | 16.6 | % | | 18.3 | % | | 13.4 | % | | | | +320bps | | | | (170)bps |
+| | | | | | | | | | | | | | |
+Net income | | $ | 104 | | | $ | 200 | | | $ | 211 | | | $ | (107) | | | (51) | % | | $ | (96) | | | (48) | % |
+Net income margin | | 6.4 | % | | 10.9 | % | | 13.3 | % | | | | (690)bps | | | | (450)bps |
+| | | | | | | | | | | | | | |
+Non-IFRS net income (1)
+| | $ | 227 | | | $ | 310 | | | $ | 189 | | | $ | 38 | | | 20 | % | | $ | (83) | | | (27) | % |
+Non-IFRS net income margin (1)
+| | 13.9 | % | | 16.9 | % | | 11.9 | % | | | | +200bps | | | | (300)bps |
+| | | | | | | | | | | | | | |
+Diluted earnings per share ("EPS") | | $ | 0.18 | | | $ | 0.36 | | | $ | 0.38 | | | $ | (0.20) | | | (53) | % | | $ | (0.18) | | | (50) | % |
+| | | | | | | | | | | | | | |
+Non-IFRS diluted EPS (1)
+| | $ | 0.40 | | | $ | 0.55 | | | $ | 0.34 | | | $ | 0.06 | | | 18 | % | | $ | (0.15) | | | (27) | % |
+| | | | | | | | | | | | | | |
+Non-IFRS adjusted EBITDA (1)
+| | $ | 561 | | | $ | 641 | | | $ | 558 | | | $ | 3 | | | 1 | % | | $ | (80) | | | (12) | % |
+Non-IFRS adjusted EBITDA margin (1)
+| | 34.3 | % | | 35.0 | % | | 35.2 | % | | | | (90)bps | | | | (70)bps |
+| | | | | | | | | | | | | | |
+Cash from operating activities
+| | $ | 542 | | | $ | 374 | | | $ | 331 | | | $ | 211 | | | 64 | % | | $ | 168 | | | 45 | % |
+| | | | | | | | | | | | | | |
+Wafer shipments (300mm equivalent)
+(in thousands)
+| | 579 | | | 619 | | | 543 | | | 36 | | | 7 | % | | (40) | | | (6) | % |
+| | | | | | | | | | | | | | |
+(1) See “Reconciliation of IFRS to Non-IFRS" for a detailed reconciliation of Non-IFRS financial measures to the most directly comparable IFRS measure. See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
+Page 3 of 12
+GLOBALFOUNDRIES Inc.
+Summary of Second Quarter 2026 Guidance (1)
+( Unaudited, in millions, except per share amounts)
+| | | | | | | | | | | | | | | | | |
+| IFRS | | Share-Based Compensation (3)
+| | Non-IFRS (2)
+|
+Net revenue | $1,760 ± $25 | | | | |
+| | | | | |
+Gross margin (2)
+| 27.4% ± 100bps | | ~110bps | | 28.5% ± 100bps |
+Operating expenses (2)
+| $277 ± $10 | | ~$52 | | $225 ± $10 |
+| | | | | |
+Operating margin (2)
+| 11.7% ± 180bps | | ~400bps | | 15.7% ± 180bps |
+| | | | | |
+| | | | | |
+Diluted EPS (2)(4)
+| $0.30 ± $0.05 | | ~$0.13 | | $0.43 ± $0.05 |
+Fully Diluted Share Count | ~555 | | | | |
+| | | | | |
+| | | | | |
+(1) The Guidance provided contains forward-looking statements as defined in the U.S. Private Securities Litigation Act of 1995, and is subject to the safe harbors created therein. The Guidance includes management's beliefs and assumptions and is based on information that is available as of the date of this release.
+(2) Non-IFRS gross margin, Non-IFRS operating expenses, Non-IFRS operating margin and Non-IFRS diluted EPS are Non-IFRS measures and, for purposes of the Guidance only, are defined as gross profit as a percent of revenue, operating expenses, operating profit as a percent of revenue, and diluted EPS, all before share-based compensation, respectively. See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
+(3) We expect share-based compensation of $19 million and $52 million in cost of revenue and operating expenses, respectively. The Non-IFRS margin impacts are calculated by dividing share-based compensation by net revenue, and the Non-IFRS diluted EPS impact is calculated by dividing share-based compensation by the fully diluted share count.
+(4) Included in IFRS and Non-IFRS diluted EPS is net interest income (expense) and other income (expense) which we estimate will be between ($6) million and $2 million for the second quarter 2026. Also included in IFRS and Non-IFRS diluted EPS is income tax expense which we estimate will be between $28 million and $48 million for the second quarter 2026.
+Page 4 of 12
+GLOBALFOUNDRIES Inc.
+Consolidated Statements of Operations
+(Unaudited, in millions, except per share amounts)
+| | | | | | | | | | | | | | | | | | |
+| | Three Months Ended | | |
+| | March 31, 2026 | | March 31, 2025 | | | | |
+| | | | | | | | |
+Net revenue | | $ | 1,634 | | | $ | 1,585 | | | | | |
+Cost of revenue | | 1,183 | | | 1,230 | | | | | |
+Gross profit | | $ | 451 | | | $ | 355 | | | | | |
+Operating expenses: | | | | | | | | |
+Research and development
+| | 132 | | | 127 | | | | | |
+Selling, general and administrative
+| | 139 | | | 77 | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Operating expenses | | $ | 271 | | | $ | 204 | | | | | |
+Operating profit | | $ | 180 | | | $ | 151 | | | | | |
+Finance income (expense), net | | 15 | | | 14 | | | | | |
+Other income (expense), net
+| | (10) | | | 30 | | | | | |
+| | | | | | | | |
+Income tax (expense) benefit
+| | (81) | | | 16 | | | | | |
+Net income | | $ | 104 | | | $ | 211 | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+EPS:
+| | | | | | | | |
+Basic | | $ | 0.19 | | | $ | 0.38 | | | | | |
+Diluted | | $ | 0.18 | | | $ | 0.38 | | | | | |
+Shares used in EPS calculation:
+| | | | | | | | |
+Basic | | 555 | | | 554 | | | | | |
+Diluted | | 561 | | | 557 | | | | | |
+Page 5 of 12
+GLOBALFOUNDRIES Inc.
+Condensed Consolidated Statements of Financial Position
+(Unaudited, in millions)
+| | | | | | | | | | | | | | | |
+| | As of | |
+| | March 31, 2026 | | December 31, 2025 | |
+| | | | | |
+Assets: | | | | | |
+Cash and cash equivalents | | $ | 1,849 | | | $ | 1,809 | | |
+Marketable securities | | 1,154 | | | 1,241 | | |
+Receivables, prepayments and other | | 1,347 | | | 1,578 | | |
+Inventories | | 1,686 | | | 1,577 | | |
+Current assets | | $ | 6,036 | | | $ | 6,205 | | |
+Property, plant and equipment, net | | $ | 7,210 | | | $ | 7,223 | | |
+Goodwill and intangible assets, net | | 1,366 | | | 1,368 | | |
+Marketable securities | | 770 | | | 939 | | |
+Right-of-use assets | | 597 | | | 569 | | |
+| | | | | |
+Other assets | | 918 | | | 837 | | |
+Non-current assets | | $ | 10,861 | | | $ | 10,936 | | |
+Total assets | | $ | 16,897 | | | $ | 17,141 | | |
+Liabilities and equity: | | | | | |
+Current portion of long-term debt | | $ | 84 | | | $ | 86 | | |
+Other current liabilities | | 2,245 | | | 2,282 | | |
+Current liabilities | | $ | 2,329 | | | $ | 2,368 | | |
+Non-current portion of long-term debt | | $ | 1,063 | | | $ | 1,065 | | |
+Non-current portion of lease obligations | | 511 | | | 487 | | |
+Other liabilities | | 1,246 | | | 1,238 | | |
+Non-current liabilities | | $ | 2,820 | | | $ | 2,790 | | |
+Total liabilities | | $ | 5,149 | | | $ | 5,158 | | |
+Shareholders' equity: | | | | | |
+Common stock / additional paid-in capital | | $ | 23,861 | | | $ | 24,231 | | |
+Accumulated deficit | | (12,278) | | | (12,381) | | |
+Accumulated other comprehensive income | | 110 | | | 78 | | |
+Non-controlling interests | | 55 | | | 55 | | |
+Total liabilities and equity | | $ | 16,897 | | | $ | 17,141 | | |
+Page 6 of 12
+GLOBALFOUNDRIES Inc.
+Condensed Consolidated Statements of Cash Flows
+(Unaudited, in millions)
+| | | | | | | | | | | | | | | | | | |
+| | Three Months Ended | | |
+| | March 31,
+2026 | | March 31,
+2025 | | | | |
+| | | | | | | | |
+Operating Activities: | | | | | | | | |
+Net income | | $ | 104 | | | $ | 211 | | | | | |
+Depreciation and amortization | | 311 | | | 352 | | | | | |
+| | | | | | | | |
+Finance (income) expense, net and other
+| | 7 | | | 9 | | | | | |
+Deferred income taxes | | 67 | | | (64) | | | | | |
+| | | | | | | | |
+Net change in working capital | | 4 | | | (144) | | | | | |
+Other non-cash operating activities | | 49 | | | (33) | | | | | |
+Net cash provided by operating activities | | $ | 542 | | | $ | 331 | | | | | |
+| | | | | | | | |
+Investing Activities:
+| | | | | | | | |
+Purchases of property, plant and equipment and intangible assets
+| | $ | (312) | | | $ | (166) | | | | | |
+Acquisitions, net of cash acquired
+| | — | | | (19) | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+Net sales (purchases) of marketable securities
+| | 252 | | | (61) | | | | | |
+Other investing activities | | 9 | | | 35 | | | | | |
+Net cash used in investing activities
+| | $ | (51) | | | $ | (211) | | | | | |
+| | | | | | | | |
+Financing Activities:
+| | | | | | | | |
+Proceeds from issuance of equity instruments, net of taxes paid | | $ | (30) | | | $ | 16 | | | | | |
+| | | | | | | |
+Purchases of treasury stock
+| | (400) | | | — | | | | | |
+Proceeds (repayment) of debt, net | | (20) | | | (733) | | | | | |
+| | | | | | | | |
+Net cash used in financing activities | | $ | (450) | | | $ | (717) | | | | | |
+Effect of exchange rate changes | | (1) | | | 1 | | | | | |
+Net change in cash and cash equivalents | | $ | 40 | | | $ | (596) | | | | | |
+Cash and cash equivalents at the beginning of the period | | 1,809 | | | 2,192 | | | | | |
+Cash and cash equivalents at the end of the period | | $ | 1,849 | | | $ | 1,596 | | | | | |
+Page 7 of 12
+GLOBALFOUNDRIES Inc.
+Reconciliation of IFRS to Non-IFRS
+(Unaudited, in millions, except per share amounts)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | Three Months Ended March 31, 2026 |
+| | | | Gross profit | | Selling, general & administrative
+| | Research & development
+| | Operating profit | | Other income (expense)
+| | Income tax (expense) benefit | | Net income
+| | | | Diluted EPS | | |
+As Reported | | | | $ | 451 | | | $ | 139 | | | $ | 132 | | | $ | 180 | | | $ | (10) | | | $ | (81) | | | $ | 104 | | | | | $ | 0.18 | | | |
+IFRS margins (1)
+| | | | 27.6 | % | | | | | | 11.0 | % | | | | | | 6.4 | % | | | | | | |
+Share-based compensation | | | | 16 | | | (32) | | | (15) | | | 63 | | | — | | | (2) | | | 61 | | | | | 0.11 | | | |
+Structural optimization (2)
+| | | | 2 | | | (3) | | | (1) | | | 6 | | | — | | | (1) | | | 5 | | | | | 0.01 | | | |
+Amortization of acquired intangibles and other acquisition related charges | | | | 5 | | | (15) | | | (2) | | | 22 | | | — | | | (3) | | | 19 | | | | | 0.03 | | | |
+| | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | |
+Tax matters (3)
+| | | | — | | | — | | | — | | | — | | | — | | | 38 | | | 38 | | | | | 0.07 | | | |
+Non-IFRS measures (1)
+| | | | $ | 474 | | | $ | 89 | | | $ | 114 | | | $ | 271 | | | $ | (10) | | | $ | (49) | | | $ | 227 | | | | | $ | 0.40 | | | |
+Non-IFRS margins (1)
+| | | | 29.0 | % | | | | | | 16.6 | % | | | | | | 13.9 | % | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | Three Months Ended December 31, 2025 |
+| | | | Gross profit | | Selling, general & administrative
+| | Research & development
+| | Operating profit | | Other income (expense) | | Income tax (expense) benefit | | Net income | | | | Diluted EPS | | |
+As Reported | | | | $ | 508 | | | $ | 120 | | | $ | 133 | | | $ | 255 | | | $ | 2 | | | $ | (74) | | | $ | 200 | | | | | $ | 0.36 | | | |
+IFRS margins (1)
+| | | | 27.8 | % | | | | | | 13.9 | % | | | | | | 10.9 | % | | | | | | |
+Share-based compensation | | | | 16 | | | (25) | | | (15) | | | 56 | | | — | | | (1) | | | 55 | | | | | 0.10 | | | |
+Structural optimization (2)
+| | | | 4 | | | (2) | | | (1) | | | 7 | | | — | | | 1 | | | 8 | | | | | 0.01 | | | |
+Amortization of acquired intangibles and other acquisition related charges | | | | 2 | | | (13) | | | (2) | | | 17 | | | 1 | | | (2) | | | 16 | | | | | 0.03 | | | |
+Revaluation of equity investments | | | | — | | | — | | | — | | | — | | | (4) | | | — | | | (4) | | | | | (0.01) | | | |
+Tax matters (3)
+| | | | — | | | — | | | — | | | — | | | — | | | 35 | | | 35 | | | | | 0.06 | | | |
+Non-IFRS measures (1)
+| | | | $ | 530 | | | $ | 80 | | | $ | 115 | | | $ | 335 | | | $ | (1) | | | $ | (41) | | | $ | 310 | | | | | $ | 0.55 | | | |
+Non-IFRS margins (1)
+| | | | 29.0 | % | | | | | | 18.3 | % | | | | | | 16.9 | % | | | | | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| | | Three Months Ended March 31, 2025 |
+| | | | Gross profit | | Selling, general & administrative
+| | Research & development
+| | Operating profit | | Other income (expense) | | Income tax (expense) benefit | | Net income
+| | | | Diluted EPS | | |
+As Reported | | | | $ | 355 | | | $ | 77 | | | $ | 127 | | | $ | 151 | | | $ | 30 | | | $ | 16 | | | $ | 211 | | | | | $ | 0.38 | | | |
+IFRS margins (1)
+| | | | 22.4 | % | | | | | | 9.5 | % | | | | | | 13.3 | % | | | | | | |
+Share-based compensation | | | | 13 | | | (20) | | | (7) | | | 40 | | | — | | | (2) | | | 38 | | | | | 0.07 | | | |
+Structural optimization (2)
+| | | | 11 | | | (5) | | | (5) | | | 21 | | | — | | | (3) | | | 18 | | | | | 0.03 | | | |
+Amortization of acquired intangibles and other acquisition related charges | | | | — | | | — | | | (1) | | | 1 | | | (31) | | | 6 | | | (24) | | | | | (0.04) | | | |
+Revaluation of equity investments | | | | — | | | — | | | — | | | — | | | (6) | | | — | | | (6) | | | | | (0.01) | | | |
+Tax matters (3)
+| | | | — | | | — | | | — | | | — | | | — | | | (48) | | | (48) | | | | | (0.09) | | | |
+Non-IFRS measures (1)
+| | | | $ | 379 | | | $ | 52 | | | $ | 114 | | | $ | 213 | | | $ | (7) | | | $ | (31) | | | $ | 189 | | | | | $ | 0.34 | | | |
+Non-IFRS margins (1)
+| | | | 23.9 | % | | | | | | 13.4 | % | | | | | | 11.9 | % | | | | | | |
+(1) See "Financial Measures (Non-IFRS)" for further discussion on these Non-IFRS measures and why we believe they are useful.
+(2) Structural optimization represents costs associated with employee workforce reductions, manufacturing footprint alignment and liquidation charges.
+(3) Includes $38 million tax impact from foreign exchange revaluation of German deferred taxes for the three months ended March 31, 2026, $49 million of non-recurring revaluation of Singapore deferred tax assets and liabilities and nondeductible expenses, offset by $14 million tax impact from foreign exchange revaluation of German deferred taxes for the three months ended December 31, 2025, $40 million tax from foreign exchange revaluation of German deferred taxes and $8 million tax on the recognition of German deferred tax assets net of contingencies for the three months ended March 31, 2025.
+Page 8 of 12
+GLOBALFOUNDRIES Inc.
+Reconciliation of IFRS to Non-IFRS
+Non-IFRS Adjusted Free Cash Flow (1)
+(Unaudited, in millions )
+| | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended | | |
+| | March 31, 2026 | | December 31, 2025 | | March 31, 2025 | | | | |
+| | | | | | | | | | |
+Net cash provided by operating activities
+| | $ | 542 | | | $ | 374 | | | $ | 331 | | | | | |
+Less: Purchases of property, plant and equipment and intangible assets
+| | (312) | | | (208) | | | (166) | | | | | |
+Add: Proceeds from government grants | | 3 | | | 98 | | | — | | | | | |
+Non-IFRS total capital expenditures net of proceeds from government grants (1)
+| | $ | (309) | | | (110) | | | (166) | | | | | |
+Non-IFRS adjusted free cash flow (1)
+| | $ | 233 | | | $ | 264 | | | $ | 165 | | | | | |
+Non-IFRS adjusted free cash flow margin (1)
+| | 14.3 | % | | 14.4 | % | | 10.4 | % | | | | |
+| | | | | | | | | | |
+(1) See "Financial Measures (Non-IFRS)" for further discussion on this Non-IFRS measure and why we believe it is useful.
+Reconciliation of IFRS to Non-IFRS
+Non-IFRS Adjusted EBITDA (1)
+(Unaudited, in millions)
+| | | | | | | | | | | | | | | | | | | | | | | | |
+| | Three Months Ended | | |
+| | March 31, 2026 | | December 31, 2025 | | March 31, 2025 | | | | |
+| | | | | | | | | | |
+Net revenue
+| | $ | 1,634 | | | $ | 1,830 | | | $ | 1,585 | | | | | |
+Net income | | 104 | | | 200 | | | 211 | | | | | |
+Net income margin | | 6.4 | % | | 10.9 | % | | 13.3 | % | | | | |
+Depreciation and amortization | | 311 | | | 313 | | | 352 | | | | | |
+Finance expense | | 22 | | | 23 | | | 25 | | | | | |
+Finance income | | (37) | | | (40) | | | (39) | | | | |
+Income tax expense (benefit) | | 81 | | | 74 | | | (16) | | | | | |
+Share-based compensation | | 63 | | | 56 | | | 40 | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+Structural optimization | | 6 | | | 7 | | | 21 | | | | | |
+Revaluation of equity investments
+| | — | | | (4) | | | (6) | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+Other acquisition related charges
+| | 11 | | | 12 | | | (30) | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+Non-IFRS adjusted EBITDA (1)
+| | $ | 561 | | | $ | 641 | | | $ | 558 | | | | | |
+Non-IFRS adjusted EBITDA margin (1)
+| | 34.3 | % | | 35.0 | % | | 35.2 | % | | | | |
+| | | | | | | | | | |
+(1) See "Financial Measures (Non-IFRS)" for further discussion on this Non-IFRS measure and why we believe it is useful.
+Page 9 of 12
+GLOBALFOUNDRIES Inc.
+Financial Measures (Non-IFRS)
+In addition to the financial information presented in accordance with International Financial Reporting Standards ("IFRS"), this press release includes the following Non-IFRS financial measures: Non-IFRS gross profit, Non-IFRS operating profit, Non-IFRS operating expense, Non-IFRS net income, Non-IFRS selling, general and administrative, Non-IFRS research and development, Non-IFRS other income (expense), Non-IFRS income tax benefit (expense), Non-IFRS diluted earnings per share (“EPS”), Non-IFRS adjusted EBITDA, Non-IFRS adjusted free cash flow, Non-IFRS total capital expenditures net of proceeds from government grants, and any related margins. We define each of Non-IFRS gross profit, Non-IFRS selling, general and administrative, Non-IFRS research and development, Non-IFRS operating profit, Non-IFRS other income (expense), Non-IFRS income tax benefit (expense) and Non-IFRS net income as gross profit, selling, general and administrative, research and development, operating profit, other income (expense), income tax benefit (expense), and net income (loss), respectively, adjusted for share-based compensation, structural optimization, amortization of acquired intangibles and other acquisition related charges, impairment charges, revaluation of equity investments, restructuring charges, litigation claims, tax matters, and any associated income tax effects. We define Non-IFRS operating expense as Non-IFRS gross profit minus Non-IFRS operating profit. We define Non-IFRS diluted EPS as Non-IFRS net income divided by the diluted shares outstanding. We define Non-IFRS adjusted free cash flow as cash flow provided by (used in) operating activities less purchases of property, plant and equipment and intangible assets plus proceeds from government grants related to capital expenditures. We define Non-IFRS total capital expenditures net of proceeds from government grant as purchases of property, plant and equipment and intangible assets less proceeds of government grants. We define Non-IFRS adjusted EBITDA as net income adjusted for the impact of finance expense, finance income, income tax expense (benefit), depreciation and amortization, share-based compensation, restructuring charges, impairment charges, revaluation of equity investments, structural optimization, litigation claims and acquisition related charges. We define each of Non-IFRS gross margin, Non-IFRS operating margin, Non-IFRS net income margin, Non-IFRS adjusted free cash flow margin and Non-IFRS adjusted EBITDA margin as Non-IFRS gross profit, Non-IFRS operating profit, Non-IFRS net income, Non-IFRS adjusted free cash flow and Non-IFRS adjusted EBITDA, respectively, divided by net revenue. Any adjustments described above that are zero for a given period are excluded from the “Reconciliation of IFRS to Non-IFRS” table. See "Reconciliation of IFRS to Non-IFRS" section for a detailed reconciliation of Non-IFRS financial measures to the most directly comparable IFRS measure.
+We believe that in addition to our results determined in accordance with IFRS, these Non-IFRS financial measures provide useful information to both management and investors in measuring our financial performance and highlight trends in our business that may not otherwise be apparent when relying solely on IFRS measures. These Non-IFRS financial measures provide supplemental information regarding our operating performance that excludes certain gains, losses and non-cash charges that occur relatively infrequently and/or that we consider to be unrelated to our core operations. Management believes that Non-IFRS adjusted free cash flow as a Non-IFRS measure is helpful to investors as it provides insights into the nature and amount of cash the Company generates in the period.
+Non-IFRS financial information is presented for supplemental informational purposes only and should not be considered in isolation or as a substitute for financial information presented in accordance with IFRS. Our presentation of Non-IFRS measures should not be construed as an inference that our future results will be unaffected by unusual or nonrecurring items. Other companies in our industry may calculate these measures differently, which may limit their usefulness as comparative measures.
+Conference Call and Webcast Information
+GF will host a conference call with the financial community on Tuesday, May 5, 2026 at 8:30 a.m. U.S. Eastern Time (ET) to review the first quarter 2026 results in detail. Interested parties may join the scheduled conference call by registering at https://edge.media-server.com/mmc/p/osibvq84/.
+The call will be webcast and can be accessed from the GF Investor Relations website https://investors.gf.com. A replay of the call will be available on the GF Investor Relations website within 24 hours of the actual call.
+GF uses its Investor Relations website at https://investors.gf.com as a means of disclosing material non-public information and for complying with its disclosure obligations under Regulation FD. Accordingly, investors should monitor this website, in addition to following GF's press releases, Securities and Exchange Commission (SEC) filings, public conference calls and webcasts.
+Page 10 of 12
+About GlobalFoundries
+GlobalFoundries (GF) is a leading manufacturer of essential semiconductors, enabling AI at scale from the cloud to the physical world. Through deep partnerships with customers, GF delivers differentiated, power‑efficient and high‑performance solutions for automotive, aerospace and defense, data center, smart mobile devices, internet of things and other high‑growth markets. With global manufacturing operations across the U.S., Europe and Asia, GF is a trusted and holistic technology partner for customers around the world. GF’s talented, global team remains focused every day on security, longevity and sustainability. For more information, visit www.gf.com. © 2026 GlobalFoundries Inc. GF®, GlobalFoundries®, the GF logos and other GF marks are trademarks of GlobalFoundries Inc. or its subsidiaries. All other trademarks are the property of their respective owners.
+Forward-looking Statements and Third Party Data
+This press release includes “forward-looking statements” that reflect our current expectations and views of future events. These forward-looking statements are made under the "safe harbor" provisions of the U.S. Private Securities Litigation Reform Act of 1995 and include but are not limited to, statements regarding our financial outlook, future guidance, product development, business strategy and plans, and market trends, opportunities and positioning. These statements are based on current expectations, assumptions, estimates, forecasts, projections and limited information available at the time they are made. Words such as “expect,” “anticipate,” “should,” “believe,” “hope,” “target,” “project,” “goals,” “estimate,” “potential,” “predict,” “may,” “will,” “might,” “could,” “intend,” “shall,” "outlook," "on track" and variations of these terms or the negative of these terms and similar expressions are intended to identify these forward-looking statements, although not all forward-looking statements contain these identifying words. Forward-looking statements are subject to a broad variety of risks and uncertainties, both known and unknown. Any inaccuracy in our assumptions and estimates could affect the realization of the expectations or forecasts in these forward-looking statements. For example, our business could be impacted by geopolitical conditions such as the ongoing political and trade tensions with China and the continuation of conflicts in the Middle East and Ukraine; ongoing political developments in the United States, and in particular, any political and policy-related changes that may impact our industry and the market generally, such as the imposition of trade controls, tariffs and counter-tariffs between the United States and its trade partners and new legislation; the market for our products may develop or recover more slowly than expected or than it has in the past; we may fail to achieve the full benefits of our strategic optimization efforts; our operating results may fluctuate more than expected; there may be significant fluctuations in our results of operations and cash flows related to our revenue recognition or otherwise; a network or data security incident that allows unauthorized access to our network or data or our customers’ data could result in a system disruption, loss of data or damage our reputation; we could experience interruptions or performance problems associated with our technology, including a service outage; global economic conditions could deteriorate, including due to rising inflation and any potential recession; the expected benefits of our announced partnerships may fail to materialize; and we may fail to achieve the anticipated results or benefits from funding received (including awards under the U.S. CHIPS and Science Act and New York State Green CHIPS) and our expected results and planned or further expansions and operations may not proceed as planned if funding we expect to receive is delayed or withheld for any reason. It is not possible for us to predict all risks, nor can we assess the impact of all factors on our business or the extent to which any factor, or combination of factors, may cause actual results or outcomes to differ materially from those contained in any forward-looking statements we may make. Moreover, we operate in a competitive and rapidly changing market, and new risks may emerge from time to time. You should not rely upon forward-looking statements as predictions of future events. These statements are based on our historical performance and on our current plans, estimates and projections in light of information currently available to us, and therefore you should not place undue reliance on them.
+Although we believe that the expectations reflected in our statements are reasonable, we cannot guarantee that the future results, levels of activity, performance or events and circumstances described in the forward-looking statements will be achieved or occur. Moreover, neither we, nor any other person, assumes responsibility for the accuracy and completeness of these statements. Recipients are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date such statements are made and should not be construed as statements of fact. Except to the extent required by federal securities laws, we undertake no obligation to update any information or any forward-looking statements as a result of new information, subsequent events or any other circumstances after the date hereof, or to reflect the occurrence of unanticipated events. For a discussion of potential risks and uncertainties, please refer to the risk factors and cautionary statements in our 2025 Annual Report on Form 20-F, current reports on Form 6-K and other reports filed with the Securities and Exchange Commission (SEC). Copies of our SEC filings are available on our Investor Relations website, investors.gf.com, or from the SEC website, www.sec.gov.
+Page 11 of 12
+For further information, please contact:
+Investor Relations
+ir@gf.com
+Page 12 of 12

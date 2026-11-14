@@ -1,0 +1,285 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/804328/000080432826000061/qcom-20260329.htm
+SEMBOL: QCOM
+BASVURU_TARIHI: 2026-04-29
+BASVURU: 0000804328-26-000061
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 7
+|
+Condensed Consolidated Statements of Stockholders’ Equity
+| 8
+|
+Notes to Condensed Consolidated Financial Statements
+| 9
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 18
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 26
+|
+Item 4.
+| Controls and Procedures
+| 26
+|
+PART II. OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 27
+|
+Item 1A.
+| Risk Factors
+| 27
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 50
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 50
+|
+Item 4.
+| Mine Safety Disclosures
+| 50
+|
+Item 5.
+| Other Information
+| 50
+|
+Item 6.
+| Exhibits
+| 51
+|
+SIGNATURES
+| 52
+|
+3
+PART I. FINANCIAL INFORMATION
+ITEM 1. CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)
+QUALCOMM Incorporated |
+CONDENSED CONSOLIDATED BALANCE SHEETS |
+(In millions, except par value amounts) |
+(Unaudited) |
+March 29,
+2026 | September 28,
+2025 |
+ASSETS |
+Current assets: | | |
+Cash and cash equivalents | $ | 5,435 | $ | 5,520 |
+Restricted cash
+| — | 2,323 |
+Marketable securities | 4,364 | 4,635 |
+Accounts receivable, net | 4,347 | 4,315 |
+Inventories | 7,368 | 6,526 |
+Other current assets | 1,598 | 2,435 |
+Total current assets | 23,112 | 25,754 |
+Deferred tax assets | 5,968 | 743 |
+Property, plant and equipment, net | 5,071 | 4,690 |
+Goodwill | 14,251 | 11,358 |
+Other intangible assets, net | 1,575 | 1,148 |
+Other assets | 7,159 | 6,450 |
+Total assets | $ | 57,136 | $ | 50,143 |
+LIABILITIES AND STOCKHOLDERS’ EQUITY |
+Current liabilities: | | |
+Trade accounts payable | $ | 2,973 | $ | 2,791 |
+Payroll and other benefits related liabilities | 1,370 | 1,839 |
+Unearned revenues | 323 | 358 |
+Short-term debt | 498 | — |
+Other current liabilities | 4,603 | 4,156 |
+Total current liabilities | 9,767 | 9,144 |
+Unearned revenues | 70 | 71 |
+Long-term debt | 14,772 | 14,811 |
+Other liabilities | 5,249 | 4,911 |
+Total liabilities | 29,858 | 28,937 |
+Commitments and contingencies (Note 5)
+| | |
+Stockholders’ equity: | | |
+Preferred stock, $ 0.0001 par value; 8 shares authorized; none outstanding
+| — | — |
+Common stock and paid-in capital, $ 0.0001 par value; 6,000 shares authorized; 1,059 and 1,074 shares issued and outstanding, respectively
+| — | — |
+Retained earnings | 26,901 | 20,646 |
+Accumulated other comprehensive income
+| 377 | 560 |
+Total stockholders’ equity | 27,278 | 21,206 |
+Total liabilities and stockholders’ equity | $ | 57,136 | $ | 50,143 |
+See accompanying notes. |
+4
+QUALCOMM Incorporated |
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS |
+(In millions, except per share data) |
+(Unaudited) |
+| Three Months Ended | Six Months Ended |
+March 29,
+2026 | March 30,
+2025 | March 29,
+2026 | March 30,
+2025 |
+Revenues: | | |
+Equipment and services | $ | 9,060 | $ | 9,359 | $ | 19,526 | $ | 19,301 |
+Licensing | 1,539 | 1,620 | 3,325 | 3,348 |
+Total revenues | 10,599 | 10,979 | 22,851 | 22,649 |
+Costs and expenses: | | |
+Cost of revenues | 4,900 | 4,937 | 10,468 | 10,098 |
+Research and development | 2,463 | 2,216 | 4,915 | 4,446 |
+Selling, general and administrative | 898 | 706 | 1,763 | 1,430 |
+Other
+| 29 | — | 29 | — |
+Total costs and expenses | 8,290 | 7,859 | 17,175 | 15,974 |
+Operating income | 2,309 | 3,120 | 5,676 | 6,675 |
+Interest expense | ( 171 ) | ( 163 ) | ( 341 ) | ( 326 ) |
+Investment and other income, net
+| 94 | 148 | 444 | 391 |
+Income before income taxes | 2,232 | 3,105 | 5,779 | 6,740 |
+Income tax benefit (expense)
+| 5,138 | ( 293 ) | 4,596 | ( 748 ) |
+Net income | $ | 7,370 | $ | 2,812 | $ | 10,375 | $ | 5,992 |
+Basic earnings per share | $ | 6.92 | $ | 2.55 | $ | 9.71 | $ | 5.41 |
+Diluted earnings per share | $ | 6.88 | $ | 2.52 | $ | 9.65 | $ | 5.36 |
+Shares used in per share calculations: | | |
+Basic | 1,066 | 1,104 | 1,068 | 1,107 |
+Diluted | 1,072 | 1,115 | 1,075 | 1,118 |
+See accompanying notes. |
+5
+QUALCOMM Incorporated |
+CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME |
+(In millions) |
+(Unaudited) |
+Three Months Ended | Six Months Ended |
+March 29,
+2026 | March 30,
+2025 | March 29,
+2026 | March 30,
+2025 |
+Net income
+| $ | 7,370 | $ | 2,812 | $ | 10,375 | $ | 5,992 |
+Other comprehensive (loss) income, net of income taxes:
+|
+Foreign currency translation (losses) gains
+| ( 101 ) | 82 | ( 80 ) | ( 134 ) |
+Net unrealized (losses) gains on available-for-sale debt securities
+| ( 7 ) | 16 | ( 5 ) | ( 22 ) |
+Net unrealized (losses) gains on derivative instruments
+| ( 86 ) | 23 | ( 88 ) | ( 36 ) |
+Other reclassifications included in net income | ( 4 ) | 1 | ( 10 ) | — |
+Total other comprehensive (loss) income
+| ( 198 ) | 122 | ( 183 ) | ( 192 ) |
+Comprehensive income | $ | 7,172 | $ | 2,934 | $ | 10,192 | $ | 5,800 |
+See accompanying notes. |
+6
+QUALCOMM Incorporated |
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS |
+(In millions) |
+(Unaudited) |
+Six Months Ended |
+March 29,
+2026 | March 30,
+2025 |
+Operating Activities: |
+Net income | $ | 10,375 | $ | 5,992 |
+Adjustments to reconcile net income to net cash provided by operating activities: | | |
+Depreciation and amortization expense | 806 | 833 |
+Income tax provision less than income tax payments
+| ( 5,857 ) | ( 899 ) |
+Share-based compensation expense | 1,749 | 1,461 |
+Net gains on marketable securities and other investments
+| ( 47 ) | ( 9 ) |
+Equity in net earnings of investees
+| ( 83 ) | ( 16 ) |
+Other items
+| ( 47 ) | ( 12 ) |
+Changes in assets and liabilities: | | |
+Accounts receivable, net | 58 | 227 |
+Inventories | ( 802 ) | 202 |
+Other assets | 1,019 | 299 |
+Trade accounts payable | 229 | ( 97 ) |
+Payroll, benefits and other liabilities | 208 | ( 773 ) |
+Unearned revenues | ( 194 ) | ( 67 ) |
+Net cash provided by operating activities | 7,414 | 7,141 |
+Investing Activities: | | |
+Capital expenditures | ( 1,082 ) | ( 491 ) |
+Purchases of debt and equity marketable securities | ( 1,925 ) | ( 3,326 ) |
+Proceeds from sales and maturities of debt and equity marketable securities | 1,985 | 2,155 |
+Acquisitions and other investments, net of cash acquired | ( 1,238 ) | ( 341 ) |
+Other items
+| 38 | 43 |
+Net cash used by investing activities
+| ( 2,222 ) | ( 1,960 ) |
+Financing Activities: |
+Proceeds from short-term debt | 1,246 | 500 |
+Repayment of short-term debt | ( 750 ) | ( 500 ) |
+Repayment of debt of acquired company | ( 174 ) | — |
+Proceeds from issuance of common stock | — | 201 |
+Repurchases and retirements of common stock | ( 5,442 ) | ( 3,498 ) |
+Dividends paid | ( 1,895 ) | ( 1,880 ) |
+Payments of tax withholdings related to vesting of share-based awards | ( 536 ) | ( 609 ) |
+Other items
+| ( 24 ) | ( 3 ) |
+Net cash used by financing activities | ( 7,575 ) | ( 5,789 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash
+| ( 25 ) | ( 38 ) |
+Net decrease in total cash, cash equivalents and restricted cash
+| ( 2,408 ) | ( 646 ) |
+Total cash and cash equivalents at beginning of period (including $ 2,323 classified as restricted cash at September 28, 2025)
+| 7,843 | 7,849 |
+Total cash and cash equivalents at end of period | $ | 5,435 | $ | 7,203 |
+See accompanying notes. |
+7
+QUALCOMM Incorporated |
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY |
+(In millions, except per share data) |
+(Unaudited) |
+Three Months Ended | Six Months Ended |
+March 29,
+2026 | March 30,
+2025 | March 29,
+2026 | March 30,
+2025 |
+Total stockholders’ equity, beginning balance
+| $ | 23,073 | $ | 26,880 | $ | 21,206 | $ | 26,274 |
+Common stock and paid-in capital: |
+Balance at beginning of period
+| $ | — | $ | — | $ | — | $ | — |
+Common stock issued under employee benefit plans | — | 200 | — | 201 |
+Repurchases and retirements of common stock
+| ( 743 ) | ( 632 ) | ( 3,243 ) | ( 1,108 ) |
+Share-based compensation
+| 889 | 726 | 1,809 | 1,516 |
+Tax withholdings related to vesting of share-based payments
+| ( 256 ) | ( 294 ) | ( 536 ) | ( 609 ) |
+Common stock issued in acquisition
+| 43 | — | 1,903 | — |
+Common stock issued to settle convertible debt
+| 67 | — | 67 | — |
+Balance at end of period
+| — | — | — | — |
+Retained earnings: |
+Balance at beginning of period
+| 22,498 | 26,607 | 20,646 | 25,687 |
+Net income | 7,370 | 2,812 | 10,375 | 5,992 |
+Repurchases and retirements of common stock | ( 1,992 ) | ( 1,120 ) | ( 2,161 ) | ( 2,406 ) |
+Dividends | ( 975 ) | ( 966 ) | ( 1,959 ) | ( 1,940 ) |
+Balance at end of period
+| 26,901 | 27,333 | 26,901 | 27,333 |
+Accumulated other comprehensive income:
+|
+Balance at beginning of period
+| 575 | 273 | 560 | 587 |
+Other comprehensive (loss) income
+| ( 198 ) | 122 | ( 183 ) | ( 192 ) |
+Balance at end of period
+| 377 | 395 | 377 | 395 |
+Total stockholders’ equity, ending balance | $ | 27,278 | $ | 27,728 | $ | 27,278 | $ | 27,728 |
+Dividends per share announced | $ | 0.89 | $ | 0.85 | $ | 1.78 | $ | 1.70 |
+See accompanying notes. |
+8
+QUALCOMM Incorporated |
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS |
+(Unaudited) |
+Note 1. Basis of Presentation and Significant Accounting Policies Update
+Financial Stat

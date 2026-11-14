@@ -1,0 +1,403 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/874238/000087423826000122/a20261028ex991earningsrele.htm
+SEMBOL: STRL
+BASVURU_TARIHI: 2026-10-28
+BASVURU: 0000874238-26-000122
+
+EX-99.1
+2
+a20261028ex991earningsrele.htm
+EX-99.1
+Document
+Exhibit 99.1
+NEWS RELEASE
+For Immediate Release:
+October 28, 2026
+Sterling Reports Record Third Quarter Results and Raises Full Year 2026 Guidance
+THE WOODLANDS, TX – October 28, 2026 – Sterling Infrastructure, Inc. (NasdaqGS: STRL) (“Sterling” or the “Company”) today announced strong financial results for the third quarter of 2026.
+The financial comparisons herein are to the prior year quarter, unless otherwise noted.
+Third Quarter 2026 Consolidated Results:
+• Revenues of $1.56 billion, an increase of 127%.
+• Net income of $214.9 million, or $6.92 per diluted share, both increases of 133%.
+• EBITDA (1) of $320.8 million, an increase of 124%.
+• Each of these third quarter 2026 metrics represent a new record.
+Adjusted Results:
+• Adjusted net income (1) of $235.4 million, or $7.58 per diluted share, increases of 119% and 118%, respectively.
+• Adjusted EBITDA (1) of $337.8 million, an increase of 117%.
+Cash Flow Metrics:
+• Cash flows from operations totaled $427.1 million for the nine months ended September 30, 2026.
+• Cash and cash equivalents totaled $216.9 million at September 30, 2026.
+• Share repurchases totaled $107.3 million for the nine months ended September 30, 2026.
+Backlog Metrics:
+• Signed Backlog at September 30, 2026 was $4.14 billion, an increase of 61% from the prior year period.
+• Combined Backlog (2) at September 30, 2026 was $6.14 billion, an increase of 78% from the prior year period.
+• Third quarter 2026 book-to-burn ratios were 0.9x for Backlog and 1.4x for Combined Backlog.
+Third Quarter 2026 Segment Results:
+E-Infrastructure Solutions
+• E-Infrastructure Solutions revenues of $1.30 billion, an increase of 212%.
+◦ Revenues from Site Development operations increased 133%.
+◦ The CEC electrical business, which was acquired on September 1, 2025, contributed $425.6 million of revenues in the quarter, compared with $41.4 million during the partial ownership period of the third quarter of 2025. On a pro forma basis assuming a full quarter of ownership in the third quarter of 2025, CEC revenues increased 305% year-over-year.
+(1) See “Non-GAAP Measures”, “Adjusted Net Income Reconciliation”, and “EBITDA Reconciliation” sections below for more information.
+(2) Combined Backlog includes Unsigned Awards of $2.00 billion at September 30, 2026.
+• E-Infrastructure Solutions operating income of $294.5 million, an increase of 176%. E-Infrastructure Solutions operating margin of 22.6% declined year-over-year and slightly sequentially due to the higher contribution from CEC.
+◦ Site Development operating margin was in line with levels achieved in the first half of the year.
+◦ CEC operating margin improved both year-over-year and sequentially.
+• E-Infrastructure Solutions adjusted operating income (1) of $302.4 million, an increase of 171%. E-Infrastructure Solutions adjusted operating margin of 23.2%.
+Transportation Solutions
+• Transportation Solutions revenues of $165.2 million, a 3.1% decline, reflecting the reallocation of resources toward E-Infrastructure Solutions work.
+• Transportation Solutions operating income of $30.2 million, an increase of 24.0%. Transportation Solutions operating margin of 18.3%.
+• Transportation Solutions adjusted operating income (1) of $32.6 million, an increase of 22.2%. Transportation Solutions adjusted operating margin was 19.7%.
+Building Solutions
+• Building Solutions revenues of $96.0 million, a decline of 5.4%.
+• Building Solutions operating income of $5.7 million, a decline of 47.3%. Building Solutions operating margin of 5.9%.
+• Building Solutions adjusted operating income (1) of $7.7 million, a decline of 38.7%. Building Solutions adjusted operating margin of 8.0%.
+CEO Remarks and Outlook
+“We delivered another exceptional quarter, with adjusted net income increasing 119%, adjusted diluted EPS reaching $7.58, and adjusted EBITDA more than doubling. Revenue increased 127%, including 70% organic growth,” stated Joe Cutillo, Sterling’s Chief Executive Officer. “These results reflect the strength of our strategy and the disciplined execution of our teams.”
+“Demand remains strong, and our multi-year visibility continues to expand. Together, our signed backlog, unsigned awards, and next phases in design on our current projects represent nearly $8 billion of scoped work, up approximately 90% year-over-year. Importantly, these metrics do not capture the full potential for additional phases and expanded scopes as these large, multi-year projects advance.”
+Mr. Cutillo continued, “ E-Infrastructure Solutions continued to deliver, with revenue increasing 212% and adjusted operating income growing 171%, driven by exceptional performance across both our site development and electrical operations. Site Development generated significant growth across all regions, while maintaining strong operating margin. Demand for CEC’s electrical services remains extremely strong, and the business is scaling to capitalize on this opportunity. CEC revenue quadrupled on a pro forma year-over-year basis (2) and operating margin improved both year-over-year and sequentially. We now believe that CEC has the potential to generate over $1 billion in revenue in 2026.
+Within E-Infrastructure, our signed backlog, unsigned awards and next phases in design now approach $7 billion, an increase of more than 130% year-over-year. Mission-critical projects, including data center campuses, manufacturing and semiconductor facilities, represent approximately 95% of this opportunity.
+In Transportation Solutions, revenue declined 3%, as we continued to reallocate resources from transportation projects toward higher-margin E-Infrastructure opportunities. Adjusted operating income increased 22%, while adjusted operating margin expanded 410 basis points year-over-year to reach 19.7%, reflecting disciplined transportation project selection.
+In Building Solutions , revenue declined 5%, reflecting slower homebuilder activity, while adjusted operating income decreased 39%. We expect market conditions to remain challenging through 2026 as housing affordability continues to weigh on demand, but remain optimistic about the long-term growth opportunities in key geographies.”
+“Our third quarter performance further strengthens our confidence in the outlook. Given the momentum across our business, we are raising our 2026 guidance. At the midpoint, our updated guidance represents 88% year-over-year
+(1) See “Non-GAAP Measures”, “Adjusted Net Income Reconciliation”, “Non-GAAP Segment Information”, and “EBITDA Reconciliation” sections below for more information.
+(2) Pro Forma to reflect full quarter of CEC revenue in 3Q 2025.
+revenue growth, 101% growth in adjusted diluted earnings per share, and 94% growth in adjusted EBITDA. More importantly, the strength of our backlog, expanding visibility, and deepening customer relationships reinforce our confidence in Sterling’s ability to deliver significant profitable growth well beyond 2026,” Mr. Cutillo concluded.
+Full Year 2026 Guidance
+• Revenue of $4.63 billion to $4.73 billion
+• Net Income of $596 million to $604 million
+• Diluted EPS of $19.16 to $19.42
+• EBITDA (1) of $905 million to $916 million
+Full Year 2026 Adjusted Guidance
+Please see the “ Adjusted Net Income Guidance Reconciliation ” and “ EBITDA Guidance Reconciliation ” sections below for reconciliations of GAAP to non-GAAP measures and comparable 2025 results.
+• Adjusted Net Income (1) of $675 million to $683 million
+• Adjusted Diluted EPS (1) of $21.70 to $21.96
+• Adjusted EBITDA (1) of $970 million to $981 million
+(1) See “Non-GAAP Measures”, “Adjusted Net Income Guidance Reconciliation” and “EBITDA Guidance Reconciliation” sections below for more information.
+Conference Call
+Sterling’s management will hold a conference call to discuss these results and recent corporate developments on Thursday, October 29, 2026 at 9:00 a.m. ET/8:00 a.m. CT. Interested parties may participate in the call by dialing (800) 836-8184. Please call in 10 minutes before the conference call is scheduled to begin and ask for the Sterling Infrastructure call. To coincide with the conference call, Sterling will post a slide presentation at www.strlco.com on the Events & Presentations section of the Investor Relations tab. Following management’s opening remarks, there will be a question and answer session.
+To listen to a simultaneous webcast of the call, please go to the Company’s website at www.strlco.com at least 15 minutes early to download and install any necessary audio software. If you are unable to listen live, the conference call webcast will be archived on the Company’s website for 30 days.
+About Sterling
+Sterling operates through a variety of subsidiaries within three segments specializing in E-Infrastructure, Transportation and Building Solutions in the United States, primarily across the Southern, Northeastern, Mid-Atlantic and Rocky Mountain regions and the Pacific Islands. E-Infrastructure Solutions provides advanced, large-scale site development services and mission-critical electrical services for data centers, semiconductor fabrication, manufacturing, distribution centers, warehousing, power generation and more. Transportation Solutions includes infrastructure and rehabilitation projects for highways, roads, bridges, airports, ports, rail and storm drainage systems. Building Solutions includes residential and commercial concrete foundations for single-family and multi-family homes, parking structures, elevated slabs, other concrete work, plumbing services, and surveys for new single-family residential builds. From strategy to operations, we are committed to sustainability by operating responsibly to safeguard and improve society’s quality of life. Caring for our people and our communities, our customers and our investors – that is The Sterling Way.
+Joe Cutillo, CEO, “We build and service the infrastructure that enables our economy to run,
+our people to move and our country to grow.”
+Important Information for Investors and Stockholders
+Non-GAAP Measures
+This press release contains “Non-GAAP” financial measures as defined under Regulation G of the amended U.S. Securities Exchange Act of 1934. The Company reports financial results in accordance with U.S. generally accepted accounting principles (“GAAP”), but the Company believes that certain Non-GAAP financial measures provide useful supplemental information to investors regarding the underlying business trends and performance of the Company’s ongoing operations and are useful for period-over-period comparisons of those operations.
+Non-GAAP measures may include adjusted net income, adjusted operating income, adjusted segment operating income, adjusted EPS, EBITDA, and adjusted EBITDA, in each case excluding the impacts of certain identified items. The excluded items represent items that the Company does not consider to be representative of its normal operations. The Company believes that these measures are useful for investors to review, because they provide a consistent measure of the underlying financial results of the Company’s ongoing business and, in the Company’s view, allow for a supplemental comparison against historical results and expectations for future performance. Furthermore, the Company uses each of these to measure the performance of the Company’s operations for budgeting and forecasting, as well as for determining employee incentive compensation. However, Non-GAAP measures should not be considered as substitutes for net income, operating income, segment operating income, EPS, or other data prepared and reported in accordance with GAAP and should be viewed in addition to the Company’s reported results prepared in accordance with GAAP.
+Reconciliations of Non-GAAP financial measures to the most directly comparable GAAP measures are provided in the tables included within this press release.
+Cautionary Statement Regarding Forward-Looking Statements
+This press release contains statements that are considered forward-looking statements within the meaning of the federal securities laws. These forward-looking statements are subject to a number of risks and uncertainties, many of which are beyond our control, which may include statements about: the anticipated benefits of the CEC and Stone Ridge acquisitions; our business strategy; our financial strategy; our industry outlook; our guidance; our expected earnings and margin growth; our pool of future work; our backlog, unsigned awards, next phases in design and other scoped work, and the timing of their conversion to revenue; the scope, timing and phasing of customer projects; our liquidity, capital resources, capital expenditures, capital allocation and share repurchases; potential future acquisitions and geographic expansion; our margin improvement initiatives, including at CEC, and the exit from non-core business lines; our long-term growth targets; our modeling assumptions, including our expected effective tax rate; and our plans, objectives, expectations, forecasts, outlook and intentions. All of these types of statements, other than statements of historical fact included in this press release, are forward-looking statements. In some cases, forward-looking statements can be identified by terminology such as “may,” “will,” “could,” “would,” “should,” “expect,” “plan,” “project,” “intend,” “anticipate,” “believe,” “estimate,” “predict,” “potential,” “pursue,” “target,” “guidance,” “continue,” the negative of such terms or other comparable terminology. The forward-looking statements contained in this press release are largely based on our expectations, which reflect estimates and assumptions made by our management. These estimates and assumptions reflect our best judgment based on currently known market conditions and other factors. Although we believe such estimates and assumptions to be reasonable, they are inherently uncertain and involve a number of risks and uncertainties that are beyond our control. In addition, management’s assumptions about future events may prove to be inaccurate. Management cautions all readers that the forward-looking statements contained in this press release are not guarantees of future performance, and we cannot assure any reader that such statements will be realized or the forward-looking events and circumstances will occur. Actual results may differ materially from those anticipated or implied in the forward-looking statements due to factors listed in the “Risk Factors” section in our filings with the U.S. Securities and Exchange Commission and elsewhere in those filings. Additional factors or risks that we currently deem immaterial, that are not presently known to us or that arise in the future could also cause our actual results to differ materially from our expected results. Given these uncertainties, investors are cautioned that many of the assumptions upon which our forward-looking statements are based are likely to change after the date the forward-looking statements are made. The forward-looking statements speak only as of the date made, and we undertake no obligation to publicly update or revise any forward-looking statements for any reason, whether as a result of new information, future events or developments, changed circumstances, or otherwise, notwithstanding any changes in our assumptions, changes in business plans, actual experience or other changes. These cautionary statements qualify all forward-looking statements attributable to us or persons acting on our behalf.
+| | | | | |
+Company Contact:
+Sterling Infrastructure, Inc.
+Noelle Dilts, VP Investor Relations and Corporate Strategy
+281-214-0795
+|
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(In thousands, except per share data)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Nine Months Ended September 30, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Revenues | $ | 1,563,927 | | | $ | 689,019 | | | $ | 3,557,781 | | | $ | 1,734,436 | |
+Cost of revenues | (1,186,648) | | | (518,803) | | | (2,696,249) | | | (1,326,240) | |
+Gross profit | 377,279 | | | 170,216 | | | 861,532 | | | 408,196 | |
+General and administrative expenses | (61,363) | | | (37,585) | | | (162,343) | | | (106,203) | |
+Intangible asset amortization | (8,382) | | | (6,035) | | | (22,967) | | | (15,074) | |
+Acquisition related costs | (2,136) | | | (5,349) | | | (16,071) | | | (8,023) | |
+Earn-out expense | (2,487) | | | (1,343) | | | (7,463) | | | (4,029) | |
+Other operating income, net | 3,931 | | | 5,405 | | | 11,229 | | | 11,082 | |
+Operating income | 306,842 | | | 125,309 | | | 663,917 | | | 285,949 | |
+Interest income | 2,035 | | | 5,677 | | | 9,476 | | | 19,405 | |
+Interest expense | (1,874) | | | (4,140) | | | (8,982) | | | (14,367) | |
+Loss on extinguishment of debt | (1,265) | | | — | | | (1,265) | | | — | |
+Income before income taxes | 305,738 | | | 126,846 | | | 663,146 | | | 290,987 | |
+Income tax expense | (76,059) | | | (30,517) | | | (161,056) | | | (72,959) | |
+Net income, including noncontrolling interests | 229,679 | | | 96,329 | | | 502,090 | | | 218,028 | |
+Less: Net income attributable to noncontrolling interests | (14,746) | | | (4,241) | | | (35,362) | | | (15,472) | |
+Net income attributable to Sterling common stockholders | $ | 214,933 | | | $ | 92,088 | | | $ | 466,728 | | | $ | 202,556 | |
+| | | | | | | |
+Net income per share attributable to Sterling common stockholders: | | | | | | | |
+Basic | $ | 7.02 | | | $ | 3.02 | | | $ | 15.23 | | | $ | 6.64 | |
+Diluted | $ | 6.92 | | | $ | 2.97 | | | $ | 15.01 | | | $ | 6.56 | |
+| | | | | | | |
+Weighted average common shares outstanding: | | | | | | | |
+Basic | 30,609 | | 30,519 | | 30,650 | | 30,491 |
+Diluted | 31,071 | | 30,960 | | 31,102 | | 30,875 |
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+SEGMENT INFORMATION
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Nine Months Ended September 30, |
+Revenues | 2026 | | % of Revenue | | 2025 | | % of Revenue | | 2026 | | % of Revenue | | 2025 | | % of Revenue |
+E-Infrastructure Solutions | $ | 1,302,739 | | | 83% | | $ | 417,106 | | | 60% | | $ | 2,805,472 | | | 79% | | $ | 945,775 | | | 55% |
+Transportation Solutions | 165,224 | | | 11% | | 170,490 | | | 25% | | 454,779 | | | 13% | | 487,948 | | | 28% |
+Building Solutions | 95,964 | | | 6% | | 101,423 | | | 15% | | 297,530 | | | 8% | | 300,713 | | | 17% |
+Total Revenues | $ | 1,563,927 | | | | | $ | 689,019 | | | | | $ | 3,557,781 | | | | | $ | 1,734,436 | | | |
+| | | | | | | | | | | | | | | |
+Operating Income | | | | | | | | | | | | | | | |
+E-Infrastructure Solutions | $ | 294,515 | | | 22.6% | | $ | 106,614 | | | 25.6% | | $ | 639,128 | | | 22.8% | | $ | 237,023 | | | 25.1% |
+Transportation Solutions | 30,232 | | | 18.3% | | 24,377 | | | 14.3% | | 73,162 | | | 16.1% | | 61,605 | | | 12.6% |
+Building Solutions | 5,666 | | | 5.9% | | 10,752 | | | 10.6% | | 20,371 | | | 6.8% | | 32,959 | | | 11.0% |
+Segment Operating Income | 330,413 | | | 21.1% | | 141,743 | | | 20.6% | | 732,661 | | | 20.6% | | 331,587 | | | 19.1% |
+Corporate G&A Expenses
+| (18,948) | | | | | (9,742) | | | | | (45,210) | | | | | (33,586) | | | |
+Acquisition Related Costs | (2,136) | | | | | (5,349) | | | | | (16,071) | | | | | (8,023) | | | |
+Earn-out Expense | (2,487) | | | | | (1,343) | | | | | (7,463) | | | | | (4,029) | | | |
+Total Operating Income | $ | 306,842 | | | 19.6% | | $ | 125,309 | | | 18.2% | | $ | 663,917 | | | 18.7% | | $ | 285,949 | | | 16.5% |
+|
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In thousands, except per share data)
+(Unaudited)
+| | | | | | | | | | | |
+| September 30, | | December 31, |
+| 2026 | | 2025 |
+Assets | | | |
+Current assets: | | | |
+Cash and cash equivalents | $ | 216,937 | | | $ | 390,721 | |
+Accounts receivable | 1,226,060 | | | 501,163 | |
+Contract assets | 168,095 | | | 101,154 | |
+Receivables from and equity in construction joint ventures | 9,422 | | | 6,179 | |
+| | | |
+Other current assets | 30,173 | | | 35,245 | |
+Total current assets | 1,650,687 | | | 1,034,462 | |
+Property and equipment, net | 357,743 | | | 278,269 | |
+Investment in unconsolidated subsidiaries | 99,017 | | | 105,813 | |
+Operating lease right-of-use assets, net | 68,446 | | | 58,167 | |
+Goodwill | 628,053 | | | 585,221 | |
+Other intangibles, net | 659,335 | | | 554,702 | |
+| | | |
+Other non-current assets, net | 18,699 | | | 17,197 | |
+Total assets | $ | 3,481,980 | | | $ | 2,633,831 | |
+Liabilities and Stockholders’ Equity | | | |
+Current liabilities: | | | |
+Accounts payable | $ | 387,993 | | | $ | 226,810 | |
+Contract liabilities | 917,425 | | | 652,357 | |
+Current maturities of long-term debt | 143 | | | 15,146 | |
+Current portion of long-term lease obligations | 14,743 | | | 18,679 | |
+Accrued compensation | 108,046 | | | 62,657 | |
+Other current liabilities | 163,879 | | | 46,805 | |
+Total current liabilities | 1,592,229 | | | 1,022,454 | |
+Long-term debt | 95,127 | | | 275,903 | |
+Long-term lease obligations | 55,793 | | | 40,186 | |
+Deferred tax liability, net | 134,911 | | | 123,145 | |
+Other long-term liabilities | 48,976 | | | 65,708 | |
+Total liabilities | 1,927,036 | | | 1,527,396 | |
+Stockholders’ equity: | | | |
+Common stock | 315 | | | 315 | |
+Additional paid in capital | 410,738 | | | 366,101 | |
+Treasury stock, at cost | (242,485) | | | (130,547) | |
+Retained earnings | 1,339,376 | | | 872,648 | |
+| | | |
+Total Sterling stockholders’ equity | 1,507,944 | | | 1,108,517 | |
+Noncontrolling interests | 47,000 | | | (2,082) | |
+Total stockholders’ equity | 1,554,944 | | | 1,106,435 | |
+Total liabilities and stockholders’ equity | $ | 3,481,980 | | | $ | 2,633,831 | |
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | |
+| Nine Months Ended September 30, |
+| 2026 | | 2025 |
+Cash flows from operating activities: | | | |
+Net income | $ | 502,090 | | | $ | 218,028 | |
+Adjustments to reconcile net income to net cash provided by operating activities: | | | |
+Depreciation and amortization | 75,830 | | | 54,526 | |
+Amortization of debt issuance costs and non-cash interest | 618 | | | 633 | |
+Gain on disposal of property and equipment | (1,795) | | | (2,500) | |
+Changes in the fair value of earn-outs | 7,463 | | | 4,029 | |
+Loss on extinguishment of debt | 1,265 | | | — | |
+Distribution of earnings from unconsolidated subsidiaries | 17,332 | | | 16,252 | |
+Equity in earnings from unconsolidated subsidiaries | (10,536) | | | (11,082) | |
+Deferred taxes | 11,766 | | | 9,256 | |
+Stock-based compensation | 26,796 | | | 18,241 | |
+Changes in operating assets and liabilities | (203,734) | | | (53,446) | |
+Net cash provided by operating activities | 427,095 | | | 253,937 | |
+Cash flows from investing activities: | | | |
+Acquisitions, net of cash acquired | (164,995) | | | (484,156) | |
+| | | |
+Capital expenditures | (115,458) | | | (50,923) | |
+Proceeds from sale of property and equipment | 4,202 | | | 4,014 | |
+Net cash used in investing activities | (276,251) | | | (531,065) | |
+Cash flows from financing activities: | | | |
+Borrowings under the revolving credit facility | 160,000 | | | — | |
+Repayments of the revolving credit facility | (65,000) | | | — | |
+Repayments of term loan and other financing agreements | (296,444) | | | (21,067) | |
+| | | |
+Distributions to noncontrolling interest owners | (980) | | | — | |
+Capital contributions from noncontrolling interest owners | 14,700 | | | — | |
+Repurchase of common stock | (107,262) | | | (48,546) | |
+Withholding taxes paid on net share settlement of equity awards | (15,991) | | | (9,650) | |
+Payments of earn-outs | (7,767) | | | — | |
+Debt issuance costs | (5,884) | | | (1,409) | |
+| | | |
+Net cash used in financing activities | (324,628) | | | (80,672) | |
+Net change in cash, cash equivalents, and restricted cash | (173,784) | | | (357,800) | |
+Cash, cash equivalents and restricted cash at beginning of period | 390,721 | | | 664,195 | |
+Cash, cash equivalents and restricted cash at end of period | 216,937 | | | 306,395 | |
+Less: restricted cash | — | | | — | |
+Cash and cash equivalents at end of period | $ | 216,937 | | | $ | 306,395 | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+ADJUSTED NET INCOME RECONCILIATION
+(In thousands, except per share data)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Nine Months Ended September 30, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Net income attributable to Sterling common stockholders | $ | 214,933 | | | $ | 92,088 | | | $ | 466,728 | | | $ | 202,556 | |
+Non-cash stock-based compensation | 11,157 | | | 5,963 | | | 26,796 | | | 18,241 | |
+Intangible asset amortization (1)
+| 10,254 | | | 7,906 | | | 28,581 | | | 20,688 | |
+Acquisition related costs | 2,136 | | | 5,349 | | | 16,071 | | | 8,023 | |
+Earn-out expense | 2,487 | | | 1,343 | | | 7,463 | | | 4,029 | |
+Loss on extinguishment of debt | 1,265 | | | — | | | 1,265 | | | — | |
+Tax impact of adjustments | (6,791) | | | (4,947) | | | (19,472) | | | (12,782) | |
+Adjusted net income attributable to Sterling common stockholders (2)
+| $ | 235,441 | | | $ | 107,702 | | | $ | 527,432 | | | $ | 240,755 | |
+| | | | | | | |
+Net income per share attributable to Sterling common stockholders: | | | | | | | |
+Basic | $ | 7.02 | | | $ | 3.02 | | | $ | 15.23 | | | $ | 6.64 | |
+Diluted | $ | 6.92 | | | $ | 2.97 | | | $ | 15.01 | | | $ | 6.56 | |
+| | | | | | | |
+Adjusted net income per share attributable to Sterling common stockholders: | | | | | | | |
+Basic | $ | 7.69 | | | $ | 3.53 | | | $ | 17.21 | | | $ | 7.90 | |
+Diluted | $ | 7.58 | | | $ | 3.48 | | | $ | 16.96 | | | $ | 7.80 | |
+| | | | | | | |
+Weighted average common shares outstanding: | | | | | | | |
+Basic | 30,609 | | 30,519 | | 30,650 | | 30,491 |
+Diluted | 31,071 | | 30,960 | | 31,102 | | 30,875 |
+| | | | | | | |
+(1) For each of the three and nine months ended September 30, 2026 and 2025, intangible asset amortization includes $1.87 million and $5.61 million, respectively, related to the basis difference recognized upon the deconsolidation of RHB on December 31, 2024.
+|
+| | | | | | | |
+(2) The Company defines adjusted net income attributable to Sterling common stockholders as GAAP net income attributable to Sterling common stockholders excluding non-cash stock-based compensation, intangible asset amortization, acquisition related costs, earn-out (income) expense, loss on extinguishment of debt, and the income tax impact of these adjustments. The tax impact of adjustments is determined by using the Company's annual effective tax rate, unless the nature of the item requires application of a specific tax rate.
+|
+|
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+EBITDA RECONCILIATION
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Nine Months Ended September 30, |
+| 2026 | | 2025 | | 2026 | | 2025 |
+Net income attributable to Sterling common stockholders | $ | 214,933 | | | $ | 92,088 | | | $ | 466,728 | | | $ | 202,556 | |
+Depreciation and amortization (1)
+| 29,965 | | | 22,059 | | | 82,269 | | | 60,965 | |
+Interest income, net | (161) | | | (1,537) | | | (494) | | | (5,038) | |
+Income tax expense | 76,059 | | | 30,517 | | | 161,056 | | | 72,959 | |
+EBITDA (2)
+| 320,796 | | | 143,127 | | | 709,559 | | | 331,442 | |
+Non-cash stock-based compensation | 11,157 | | | 5,963 | | | 26,796 | | | 18,241 | |
+Acquisition related costs | 2,136 | | | 5,349 | | | 16,071 | | | 8,023 | |
+Earn-out expense | 2,487 | | | 1,343 | | | 7,463 | | | 4,029 | |
+Loss on extinguishment of debt | 1,265 | | | — | | | 1,265 | | | — | |
+Adjusted EBITDA (3)
+| $ | 337,841 | | | $ | 155,782 | | | $ | 761,154 | | | $ | 361,735 | |
+| | | | | | | |
+(1) For each of the three and nine months ended September 30, 2026 and 2025, depreciation and amortization includes $1.87 million and $5.61 million, respectively, of intangible asset amortization and $275 thousand and $825 thousand, respectively, of depreciation expense related to the basis difference recognized upon the deconsolidation of RHB.
+|
+| | | | | | | |
+(2) The Company defines EBITDA as GAAP net income attributable to Sterling common stockholders adjusted for depreciation and amortization, net interest income/expense and income tax expense.
+|
+| | | | | | | |
+(3) The Company defines adjusted EBITDA as EBITDA excluding the impact of non-cash stock-based compensation, acquisition related costs, earn-out expense, and loss on extinguishment of debt.
+|
+|
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+NON-GAAP SEGMENT INFORMATION
+(In thousands)
+(Unaudited)
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Nine Months Ended September 30, |
+Adjusted Operating Income | 2026 | | % of Revenue | | 2025 | | % of Revenue | | 2026 | | % of Revenue | | 2025 | | % of Revenue |
+| | | | | | | | | | | | | | | |
+E-Infrastructure Solutions | $ | 302,433 | | | 23.2% | | $ | 111,697 | | | 26.8% | | $ | 660,596 | | | 23.5% | | $ | 249,998 | | | 26.4% |
+Transportation Solutions | 32,608 | | | 19.7% | | 26,680 | | | 15.6% | | 80,181 | | | 17.6% | | 68,528 | | | 14.0% |
+Building Solutions | 7,715 | | | 8.0% | | 12,594 | | | 12.4% | | 26,518 | | | 8.9% | | 38,625 | | | 12.8% |
+Adjusted Segment Operating Income | 342,756 | | | 21.9% | | 150,971 | | | 21.9% | | 767,295 | | | 21.6% | | 357,151 | | | 20.6% |
+Corporate G&A Expenses | (9,881) | | | | | (5,101) | | | | | (24,467) | | | | | (20,221) | | | |
+| | | | | | | | | | | | | | | |
+| | | | | | | | | | | | | | | |
+Total Adjusted Operating Income (1)
+| $ | 332,875 | | | 21.3% | | $ | 145,870 | | | 21.2% | | $ | 742,828 | | | 20.9% | | $ | 336,930 | | | 19.4% |
+| | | | | | | | | | | | | | | |
+(1) The Company defines adjusted operating income as GAAP operating income excluding the impact of non-cash stock-based compensation, intangible asset amortization, acquisition related costs, and earn-out expense. For the three months ended September 30, 2026, GAAP operating income of $306.8 million is adjusted to exclude $11.2 million of non-cash stock-based compensation, $10.3 million of intangible asset amortization (including $1.9 million related to the basis difference of RHB), $2.1 million of acquisition related costs, and $2.5 million of earn-out expense.
+|
+| | | | | | | | | | | | | | | |
+For the nine months ended September 30, 2026, GAAP operating income of $663.9 million is adjusted to exclude $26.8 million of non-cash stock-based compensation, $28.6 million of intangible asset amortization (including $5.6 million related to the basis difference of RHB), $16.1 million of acquisition related costs, and $7.5 million of earn-out expense.
+|
+| | | | | | | | | | | | | | | |
+For the three months ended September 30, 2025, GAAP operating income of $125.3 million is adjusted to exclude $6.0 million of non-cash stock-based compensation, $7.9 million of intangible asset amortization (including $1.9 million related to the basis difference of RHB), $5.3 million of acquisition related costs, and $1.3 million of earn-out expense.
+|
+| | | | | | | | | | | | | | | |
+For the nine months ended September 30, 2025, GAAP operating income of $285.9 million is adjusted to exclude $18.2 million of non-cash stock-based compensation, $20.7 million of intangible asset amortization (including $5.6 million related to the basis difference of RHB), $8.0 million of acquisition related costs, and $4.0 million of earn-out expense.
+|
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+ADJUSTED NET INCOME GUIDANCE RECONCILIATION
+(In millions, except per share data)
+(Unaudited)
+| | | | | | | | | | | | | | | | | |
+| Full Year 2026 Guidance | | Full Year |
+| Low | | High | | 2025 Actual |
+Net income attributable to Sterling common stockholders | $ | 596 | | | $ | 604 | | | $ | 290 | |
+Non-cash stock-based compensation | 38 | | | 38 | | | 24 | |
+Intangible asset amortization (1)
+| 39 | | | 39 | | | 30 | |
+Acquisition related costs | 16 | | | 16 | | | 8 | |
+Earn-out expense (income) | 10 | | | 10 | | | (1) | |
+Loss on extinguishment of debt | 1 | | | 1 | | | — | |
+Income tax impact of adjustments | (25) | | | (25) | | | (15) | |
+Adjusted net income attributable to Sterling common stockholders (2)
+| $ | 675 | | | $ | 683 | | | $ | 337 | |
+| | | | | |
+Net income per share attributable to Sterling common stockholders: | | | | | |
+Diluted | $ | 19.16 | | | $ | 19.42 | | | $ | 9.38 | |
+| | | | | |
+Adjusted net income per share attributable to Sterling common stockholders: | | | | | |
+Diluted | $ | 21.70 | | | $ | 21.96 | | | $ | 10.88 | |
+| | | | | |
+Weighted average common shares outstanding: | | | | | |
+Diluted (2026 is approximate) | 31.1 | | 31.1 | | 30.9 |
+| | | | | |
+(1) Full year 2026 guidance and full year 2025 actual include intangible asset amortization of approximately $7.5 million related to the basis difference recognized in the deconsolidation of RHB.
+|
+| | | | | |
+(2) The Company defines adjusted net income attributable to Sterling common stockholders as GAAP net income attributable to Sterling common stockholders excluding the impact of non-cash stock-based compensation, intangible asset amortization, acquisition related costs, earn-out expense (income), loss on extinguishment of debt, and the income tax impact of these adjustments. The tax impact of adjustments is determined by using the Company's annual effective tax rate, unless the nature of the item requires application of a specific tax rate.
+|
+STERLING INFRASTRUCTURE, INC. & SUBSIDIARIES
+EBITDA GUIDANCE RECONCILIATION
+(In millions)
+(Unaudited)
+| | | | | | | | | | | | | | | | | |
+| Full Year 2026 Guidance | | Full Year 2025 |
+| Low | | High | | Actual |
+Net income attributable to Sterling common stockholders | $ | 596 | | | $ | 604 | | | $ | 290 | |
+Depreciation and amortization (1)
+| 111 | | | 113 | | | 86 | |
+Interest expense (income), net | (2) | | | (4) | | | (3) | |
+Income tax expense | 200 | | | 203 | | | 99 | |
+EBITDA (2)
+| 905 | | | 916 | | | 472 | |
+Non-cash stock-based compensation | 38 | | | 38 | | | 24 | |
+Acquisition related costs | 16 | | | 16 | | | 8 | |
+Earn-out expense (income) | 10 | | | 10 | | | (1) | |
+Loss on extinguishment of debt | 1 | | | 1 | | | — | |
+Adjusted EBITDA (3)
+| $ | 970 | | | $ | 981 | | | $ | 504 | |
+| | | | | |
+(1) Full year 2026 guidance and full year 2025 actual include depreciation and intangible asset amortization of approximately $1.1 million and $7.5 million, respectively, related to the basis difference recognized in the deconsolidation of RHB.
+|
+| | | | | |
+(2) The Company defines EBITDA as GAAP net income attributable to Sterling common stockholders, adjusted for depreciation and amortization, net interest income/expense, and income tax expense.
+|
+| | | | | |
+(3) The Company defines adjusted EBITDA as EBITDA excluding the impact of non-cash stock-based compensation, acquisition related costs, earn-out expense (income), and the loss on extinguishment of debt.
+|

@@ -1,0 +1,1128 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1109345/000117891326005034/0001178913-26-005034.txt
+SEMBOL: NVMI
+BASVURU_TARIHI: 2026-11-05
+BASVURU: 0001178913-26-005034
+
+0001178913-26-005034.txt : 20261105
+0001178913-26-005034.hdr.sgml : 20261105
+20261105073013
+ACCESSION NUMBER: 0001178913-26-005034
+CONFORMED SUBMISSION TYPE: 6-K
+PUBLIC DOCUMENT COUNT: 2
+CONFORMED PERIOD OF REPORT: 20261105
+FILED AS OF DATE: 20261105
+DATE AS OF CHANGE: 20261105
+FILER:
+COMPANY DATA:
+COMPANY CONFORMED NAME: NOVA LTD.
+CENTRAL INDEX KEY: 0001109345
+STANDARD INDUSTRIAL CLASSIFICATION: OPTICAL INSTRUMENTS & LENSES [3827]
+ORGANIZATION NAME: 08 Industrial Applications and Services
+EIN: 000000000
+FISCAL YEAR END: 1231
+FILING VALUES:
+FORM TYPE: 6-K
+SEC ACT: 1934 Act
+SEC FILE NUMBER: 000-30668
+FILM NUMBER: 261524800
+BUSINESS ADDRESS:
+STREET 1: 5 DAVID FIKES STREET
+CITY: REHOVOT
+STATE: L3
+ZIP: 7610201
+BUSINESS PHONE: 972-73-229-5600
+MAIL ADDRESS:
+STREET 1: 5 DAVID FIKES STREET
+CITY: REHOVOT
+STATE: L3
+ZIP: 7610201
+FORMER COMPANY:
+FORMER CONFORMED NAME: NOVA MEASURING INSTRUMENTS LTD
+DATE OF NAME CHANGE: 20000315
+6-K
+1
+zk2636340.htm
+6-K
+UNITED STATES
+SECURITIES AND
+EXCHANGE COMMISSION
+Washington, DC 20549
+FORM 6-K
+REPORT
+OF FOREIGN PRIVATE ISSUER
+PURSUANT
+TO RULE 13a-16 OR 15d-16 OF
+THE SECURITIES
+EXCHANGE ACT OF 1934
+For the month of November 2026
+Commission File No.: 000-30668
+NOVA LTD.
+(Translation of registrant’s name into English)
+5 David Fikes Street, Rehovot, Israel
+(Address of principal executive offices)
+Indicate by check mark whether
+the registrant files or will file annual reports under cover Form 20-F or Form 40-F.
+Form 20-F ☒ Form 40-F ☐
+Attached hereto
+and incorporated by way of reference herein is a press release issued by the Registrant and entitled: “Nova Reports Record Third
+Quarter 2026 Financial Results”.
+The GAAP financial
+statements tables included in the press release attached hereto are hereby incorporated by reference into the Registrant’s registration
+statement on Form S-8, filed with the Securities and Exchange Commission on August 25, 2017 (File No. 333-220158).
+SIGNATURES
+Pursuant to the requirements
+of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto
+duly authorized.
+Date: November 5, 2026
+|
+NOVA LTD.
+(Registrant)
+By: /s/ Guy Kizner
+——————————————
+Guy Kizner
+Chief Financial Officer
+|
+Company
+Contact:
+Guy
+Kizner, Chief Financial Officer
+Tel:
++972-73-229-5760
+E-mail
+- investors@novami.com
+Nova
+website link - https://www.novami.com/
+Investor
+Relations Contact:
+Miri
+Segal MS-IR LLC
+E-mail
+- msegal@ms-ir.com
+Nova
+Reports Record Third Quarter 2026 Financial Results
+REHOVOT,
+Israel - November 5, 2026 - Nova (Nasdaq: NVMI) today announced financial results for the third quarter, the three-month period ended
+September 30, 2026.
+Third
+Quarter 2026 Highlights:
+|
+• |
+Record quarterly revenue of $287.8 million, 13% increase QoQ, and up
+28% YoY. |
+|
+• |
+Record GAAP net income of $90.0 million, or $2.64 per diluted share,
+20% increase QoQ, and up 39% YoY. |
+|
+• |
+Record non-GAAP net income of $98.4 million, or $2.86 per diluted share,
+14% increase QoQ, and up 32% YoY. |
+|
+• |
+Record revenue from Advanced Packaging solutions, driven by capacity
+expansions in HBM and advanced logic |
+|
+• |
+Record revenue from memory devices, driven by demand for dimensional
+and materials metrology solutions |
+GAAP
+Results (K)
+|
+Q3
+2026 |
+Q2
+2026 |
+Q3
+2025 |
+Revenues |
+$287,841 |
+$254,958 |
+$224,608 |
+Net Income |
+$89,960 |
+$75,010 |
+$61,421 |
+Earnings per Diluted
+Share |
+$2.64 |
+$2.20 |
+$1.90 |
+Non-GAAP
+Results (K)
+|
+Q3
+2026 |
+Q2
+2026 |
+Q3
+2025 |
+Net Income |
+$98,405 |
+$86,459 |
+$69,991 |
+Earnings per Diluted
+Share |
+$2.86 |
+$2.51 |
+$2.16 |
+A
+reconciliation between GAAP operating results and non-GAAP operating results is provided following the financial statements included
+in this release. See also "Use of Non-GAAP Adjusted Financial Measures" section.
+Management
+Comments
+“We
+delivered an exceptional third quarter, achieving record revenue and profitability while broadening our position across the semiconductor
+industry's most important growth areas,” said Gaby Waisman, President and CEO. “Record revenue in memory and advanced packaging,
+together with strong demand from logic customers, reflects both the strength of the current investment cycle and the growing adoption
+of Nova's solutions in critical applications. Supported by enhanced visibility into customer investment plans, we remain confident in
+our ability to capture opportunities created by the industry's most advanced technology transitions.”
+2026
+Fourth Quarter Financial Outlook
+Management
+provided an outlook for the fourth quarter, the period ending December 31, 2026. Based on current estimates, management expects:
+| • | $305
+million to $315 million in revenue |
+| • | $2.78
+to $2.93 in diluted GAAP EPS |
+| • | $3.03
+to $3.18 in diluted non-GAAP EPS |
+2026
+Third Quarter Results
+Total
+revenues for the third quarter of 2026 were $287.8 million, an increase of 13% compared with the second quarter of 2026 and an increase
+of 28% compared with the third quarter of 2025.
+Gross
+margin in the third quarter of 2026 was 57.7%, compared with 56.5% in the second quarter of 2026 and 56.7% in the third quarter of 2025.
+Operating
+expenses in the third quarter of 2026 were $73.3 million, compared with $68.0 million in the second quarter of 2026 and $63.6 million
+in the third quarter of 2025.
+On
+a GAAP basis, the Company reported net income of $90.0 million, or $2.64 per diluted share, in the third quarter of 2026. This is compared
+with net income of $75.0 million, or $2.20 per diluted share, in the second quarter of 2026, and $61.4 million, or $1.90 per diluted
+share, in the third quarter of 2025.
+On
+a non-GAAP basis, the Company reported net income of $98.4 million, or $2.86 per diluted share, in the third quarter of 2026. This is
+compared with net income of $86.5 million, or $2.51 per diluted share, in the second quarter of 2026, and $70.0 million, or $2.16 per
+diluted share, in the third quarter of 2025.
+Conference
+Call Information
+Nova
+will host a conference call today, November 5, 2026, at 8:30 a.m. Eastern Time, to discuss the Company’s third quarter of 2026
+financial results and outlook. To attend the conference call, please dial one of the following teleconference numbers. Please begin by
+placing your calls five minutes before the conference call commences. If you are unable to connect using the toll-free numbers, please
+try the international dial-in number.
+U.S.
+TOLL-FREE Dial-in Number: 1-833-816-1427
+ISRAEL
+Dial-in Number: +972 3-374-1008
+INTERNATIONAL
+Dial-in Number: 1-412-317-0519
+At:
+8:30
+a.m. Eastern Time
+5:30
+a.m. Pacific Time
+The
+conference call will also be webcast live from a Link on Nova's website at https://www.novami.com/investors/events/.
+A
+replay of the conference call will be available from November 5, 2026, at 11:30 a.m. Eastern Time until November 12, 2026. To access
+the replay, please dial one of the following numbers:
+Replay
+Dial-in U.S. TOLL-FREE: 1-855-669-9658
+Replay
+Dial-in INTERNATIONAL: 1-412-317-0088
+Replay
+Pin Number: 4753512
+A
+replay will also be available for 90 days on Nova's website link at https://www.novami.com/investors/events/.
+About
+Nova
+Nova
+is a leading innovator and key provider of material, optical and chemical metrology solutions for advanced process control in semiconductor
+manufacturing. Nova delivers continuous innovation by providing state-of-the-art, high-performance metrology solutions for effective
+process control throughout the semiconductor fabrication lifecycle. Nova’s product portfolio, which combines high-precision hardware
+and cutting-edge software, provides its customers with deep insight into developing and producing the most advanced semiconductor devices.
+Nova’s unique capability to deliver innovative solutions enables its customers to improve performance, enhance product yields and
+accelerate time to market. Nova acts as a partner to semiconductor manufacturers from its offices worldwide. Additional information may
+be found on Nova’s website link - https://www.novami.com/ .
+Nova
+is traded on the Nasdaq and TASE, Nasdaq ticker symbol NVMI.
+Use
+of Non-GAAP Adjusted Financial Measures
+This
+press release provides financial measures that exclude amortization of acquired intangible assets, inventory step-up, stock-based compensation
+expenses, acquisition related expenses, revaluation of operating lease liabilities and remeasurement of intercompany loans, amortization
+of debt issuance costs, discrete tax reserve release, net and tax effect of non-GAAP adjustment, as applicable, and are therefore not
+calculated in accordance with generally accepted accounting principles (GAAP). Management believes that these non-GAAP financial measures
+provide meaningful supplemental information regarding Nova's performance because they reflect our operational results and enhance management's
+and investors' ability to evaluate Nova's performance before charges or benefits considered by management to be outside Nova's ongoing
+operating results. The presentation of this non-GAAP financial information is not intended to be considered in isolation or as a substitute
+for the financial information prepared and presented in accordance with GAAP. Management believes that it is in the best interest of
+its investors to provide financial information that will facilitate comparison of both historical and future results and allow greater
+transparency to supplemental information used by management in its financial and operational decision making. A reconciliation of each
+GAAP to non-GAAP financial measure discussed in this press release is contained in the accompanying financial tables.
+Forward-Looking
+Statements
+This
+press release contains forward-looking statements within the meaning of safe harbor provisions of the Private Securities Litigation Reform
+Act of 1995 relating to future events or our future performance, such as statements regarding, but not limited to, anticipated growth
+opportunities and projections about our business and its future revenues, expenses and profitability. Forward-looking statements involve
+known and unknown risks, uncertainties and other factors that may cause our actual results, levels of activity, performance or achievements
+to differ materially from any future results, levels of activity, performance or achievements expressed or implied in those forward-looking
+statements. Factors that may affect our results, performance, circumstances or achievements include, but are not limited to, the following:
+risks related to information technology security threats, sophisticated computer crime, and data privacy; foreign political and economic
+risks including supply-chain difficulties; regulations that could restrict our operations such as economic sanctions and export restrictions;
+changes in U.S. trade policies and taxation; market instability including inflation and recessionary pressures; risks related to doing
+business with China; catastrophic events; inability to protect our intellectual property; open source technology exposure; risks related
+to the use of artificial intelligence technologies; challenges related to implementing our new ERP system; failure to compete effectively
+or to respond to rapid technological changes; consolidation in our industry; difficulty in predicting the length and strength of any
+downturn or expansion period of the market we target; factors that adversely affect the pricing and demand for our product lines; dependency
+on a small number of large customers; dependency on a single manufacturing facility per product line; dependency on a limited number
+of suppliers; difficulty in integrating current or future acquisitions; lengthy sales cycle and customer delays in orders; risks related
+to conditions in Israel, including Israel’s conflicts with certain parties in the region; risks related to our convertible senior
+notes and capped call transactions; currency fluctuations and quarterly fluctuations in our operating results; and risks related to additional
+costs and expenses if there is a change in our status as a foreign private issuer. We cannot guarantee future results, levels of activity,
+performance or achievements. The matters discussed in this press release also involve risks and uncertainties summarized under the heading
+“Risk Factors” in Nova’s Annual Report on Form 20-F for the year ended December 31, 2025, filed with the Securities
+and Exchange Commission on February 17, 2026. These factors are updated from time to time through the filing of reports and registration
+statements with the Securities and Exchange Commission. Nova Ltd. does not assume any obligation to update the forward-looking information
+contained in this press release.
+(Tables
+to Follow)
+NOVA
+LTD.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(U.S.
+dollars in thousands) - (Unaudited)
+| |
+As
+of
+| |
+| |
+September
+30, | | |
+December
+31,
+| |
+ASSETS | |
+2026
+| | |
+2025
+| |
+Current assets | |
+| | | |
+| | |
+Cash
+and cash equivalents | |
+| 188,156 | | |
+| 214,462 | |
+Short-term
+interest-bearing bank deposits | |
+| 395,865 | | |
+| 512,250 | |
+Marketable
+securities | |
+| 493,297 | | |
+| 321,798 | |
+Trade
+accounts receivable, net | |
+| 197,938 | | |
+| 151,929 | |
+Inventories | |
+| 200,731 | | |
+| 183,671 | |
+Other
+current assets | |
+| 41,724 | | |
+| 26,692 | |
+Total
+current assets | |
+| 1,517,711 | | |
+| 1,410,802 | |
+Non-current assets | |
+| | | |
+| | |
+Marketable
+securities | |
+| 711,846 | | |
+| 584,731 | |
+Interest-bearing
+bank deposits and restricted deposits | |
+| 11,448 | | |
+| 12,508 | |
+Deferred tax assets | |
+| 36,347 | | |
+| 38,819 | |
+Operating lease right-of-use
+assets | |
+| 55,366 | | |
+| 57,731 | |
+Property plant and equipment,
+net | |
+| 98,909 | | |
+| 102,625 | |
+Intangible assets, net | |
+| 37,546 | | |
+| 45,819 | |
+Goodwill | |
+| 88,425 | | |
+| 90,807 | |
+Other
+long-term assets | |
+| 18,529 | | |
+| 16,704 | |
+Total
+non-current assets | |
+| 1,058,416 | | |
+| 949,744 | |
+Total
+assets | |
+| 2,576,127 | | |
+| 2,360,546 | |
+LIABILITIES
+AND SHAREHOLDERS’ EQUITY | |
+| | | |
+| | |
+Current liabilities | |
+| | | |
+| | |
+Trade
+accounts payable | |
+| 78,208 | | |
+| 46,982 | |
+Deferred revenues | |
+| 64,949 | | |
+| 67,163 | |
+Operating lease current liabilities | |
+| 9,992 | | |
+| 8,204 | |
+Other
+current liabilities | |
+| 91,110 | | |
+| 102,186 | |
+Total
+current liabilities | |
+| 244,259 | | |
+| 224,535 | |
+Non-current liabilities | |
+| | | |
+| | |
+Convertible senior notes,
+net | |
+| 734,559 | | |
+| 731,680 | |
+Operating lease long-term
+liabilities | |
+| 57,448 | | |
+| 59,271 | |
+Long-term deferred tax liability | |
+| 7,625 | | |
+| 10,221 | |
+Other
+long-term liabilities | |
+| 20,565 | | |
+| 16,591 | |
+Total
+non-current liabilities | |
+| 820,197 | | |
+| 817,763 | |
+Shareholders'
+equity | |
+| 1,511,671 | | |
+| 1,318,248 | |
+Total
+liabilities and shareholders' equity | |
+| 2,576,127 | | |
+| 2,360,546 | |
+NOVA
+LTD.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(U.S.
+dollars in thousands, except per share data) - (Unaudited)
+| |
+Three
+months ended
+September
+30,
+| | |
+Nine
+months ended
+September 30, | |
+| |
+2026
+| | |
+2025
+| | |
+2026
+| | |
+2025
+| |
+Revenues: | |
+| | |
+| | |
+| | |
+| |
+Products | |
+| 231,861 | | |
+| 178,873 | | |
+| 619,596 | | |
+| 530,644 | |
+Services | |
+| 55,980 | | |
+| 45,735 | | |
+| 158,511 | | |
+| 127,309 | |
+Total revenues | |
+| 287,841 | | |
+| 224,608 | | |
+| 778,107 | | |
+| 657,953 | |
+Total cost of revenues | |
+| 121,720 | | |
+| 97,190 | | |
+| 332,137 | | |
+| 280,986 | |
+Gross profit | |
+| 166,121 | | |
+| 127,418 | | |
+| 445,970 | | |
+| 376,967 | |
+Operating expenses: | |
+| | | |
+| | | |
+| | | |
+| | |
+Research and development,
+net | |
+| 42,165 | | |
+| 36,740 | | |
+| 118,505 | | |
+| 105,420 | |
+Sales and marketing | |
+| 23,666 | | |
+| 20,243 | | |
+| 65,263 | | |
+| 59,892 | |
+General
+and administrative | |
+| 7,457 | | |
+| 6,575 | | |
+| 22,348 | | |
+| 18,920 | |
+Total operating expenses | |
+| 73,288 | | |
+| 63,558 | | |
+| 206,116 | | |
+| 184,232 | |
+Operating income | |
+| 92,833 | | |
+| 63,860 | | |
+| 239,854 | | |
+| 192,735 | |
+Financing
+income, net | |
+| 16,757 | | |
+| 9,540 | | |
+| 42,725 | | |
+| 37,654 | |
+Income before taxes on income | |
+| 109,590 | | |
+| 73,400 | | |
+| 282,579 | | |
+| 230,389 | |
+Income
+tax expenses | |
+| 19,630 | | |
+| 11,979 | | |
+| 48,350 | | |
+| 35,854 | |
+Net
+income for the period | |
+| 89,960 | | |
+| 61,421 | | |
+| 234,229 | | |
+| 194,535 | |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Earnings per share: | |
+| | | |
+| | | |
+| | | |
+| | |
+Basic | |
+| 2.83 | | |
+| 2.05 | | |
+| 7.36 | | |
+| 6.57 | |
+Diluted | |
+| 2.64 | | |
+| 1.90 | | |
+| 6.87 | | |
+| 6.10 | |
+| |
+| | | |
+| | | |
+| | | |
+| | |
+Shares used in calculation
+of earnings per share
+(in thousands): | |
+| | | |
+| | | |
+| | | |
+| | |
+Basic | |
+| 31,821 | | |
+| 29,936 | | |
+| 31,807 | | |
+| 29,602 | |
+Diluted | |
+| 34,426 | | |
+| 32,470 | | |
+| 34,442 | | |
+| 32,028 | |
+NOVA
+LTD.
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(U.S.
+dollars in thousands) - (Unaudited)
+| |
+Three
+months ended September 30, | | |
+Nine
+months ended September 30, | |
+| |
+2026
+| | |
+2025
+| | |
+2026
+| | |
+2025
+| |
+Cash
+flows from operating activities: | |
+| | | |
+| | | |
+| | | |
+| | |
+Net
+income | |
+| 89,960 | | |
+| 61,421 | | |
+| 234,229 | | |
+| 194,535 | |
+Adjustments to reconcile net income to net
+cash provided by operating activities: | |
+| | | |
+| | | |
+| | | |
+| | |
+Depreciation
+of property and equipment | |
+| 3,735 | | |
+| 3,374 | | |
+| 10,919 | | |
+| 9,702 | |
+Amortization
+of intangible assets | |
+| 2,274 | | |
+| 2,309 | | |
+| 6,888 | | |
+| 6,353 | |
+Amortization
+of premium and accretion of discount on marketable securities, net | |
+| (1,413 | ) | |
+| (1,305 | ) | |
+| (4,080 | ) | |
+| (4,193 | ) |
+Amortization
+of debt issuance costs | |
+| 971 | | |
+| 448 | | |
+| 2,879 | | |
+| 1,016 | |
+Share-based
+compensation | |
+| 7,079 | | |
+| 6,681 | | |
+| 21,148 | | |
+| 19,314 | |
+Net
+effect of exchange rate fluctuation | |
+| (335 | ) | |
+| (2,329 | ) | |
+| (1,087 | ) | |
+| (17,385 | ) |
+Changes
+in assets and liabilities: | |
+| | | |
+| | | |
+| | | |
+| | |
+Trade
+accounts receivable, net | |
+| 12,138 | | |
+| (6,498 | ) | |
+| (47,235 | ) | |
+| (18 | ) |
+Inventories | |
+| (16,080 | ) | |
+| (2,699 | ) | |
+| (19,153 | ) | |
+| (18,093 | ) |
+Other
+current and long-term assets | |
+| (2,804 | ) | |
+| (8,603 | ) | |
+| (17,588 | ) | |
+| (14,533 | ) |
+Deferred
+tax, net | |
+| (259 | ) | |
+| (3,483 | ) | |
+| 695 | | |
+| (9,627 | ) |
+Operating
+lease right-of-use assets | |
+| 1,338 | | |
+| 4,122 | | |
+| 2,347 | | |
+| 2,241 | |
+Trade
+accounts payable | |
+| 11,593 | | |
+| (2,882 | ) | |
+| 30,949 | | |
+| (4,599 | ) |
+Deferred
+revenues | |
+| 18,355 | | |
+| 8,018 | | |
+| (5,129 | ) | |
+| (4,413 | ) |
+Operating
+lease liabilities | |
+| (2,468 | ) | |
+| (3,208 | ) | |
+| (17 | ) | |
+| 1,160 | |
+Other
+current and long-term liabilities | |
+| 13,963 | | |
+| 15,844 | | |
+| 3,003 | | |
+| 23,605 | |
+Accrued
+severance pay, net | |
+| 35 | | |
+| 65 | | |
+| 309 | | |
+| 420 | |
+Net
+cash provided by operating activities | |
+| 138,082 | | |
+| 71,275 | | |
+| 219,077 | | |
+| 185,485 | |
+Cash
+flows from investment activities: | |
+| | | |
+| | | |
+| | | |
+| | |
+Acquisition of subsidiary, net of acquired
+cash | |
+| - | | |
+| - | | |
+| - | | |
+| (56,355 | ) |
+Change in short-term and long-term interest-bearing
+bank deposits | |
+| 1,270 | | |
+| 29,057 | | |
+| 117,498 | | |
+| 28,928 | |
+Investment in marketable securities | |
+| (172,319 | ) | |
+| (509,522 | ) | |
+| (666,902 | ) | |
+| (666,321 | ) |
+Proceeds from maturity of marketable securities | |
+| 140,224 | | |
+| 92,032 | | |
+| 354,840 | | |
+| 222,192 | |
+Proceeds from sales of marketable securities | |
+| 494 | | |
+| 494 | | |
+| 494 | | |
+| 494 | |
+Purchase of property and
+equipment | |
+| (6,353 | ) | |
+| (4,333 | ) | |
+| (12,896 | ) | |
+| (15,928 | ) |
+Net
+cash provided by (used in) investing activities | |
+| (36,684 | ) | |
+| (392,272 | ) | |
+| (206,966 | ) | |
+| (486,990 | ) |
+Cash
+flows from financing activities: | |
+| | | |
+| | | |
+| | | |
+| | |
+Proceeds from issuance of convertible senior
+notes | |
+| - | | |
+| 750,000 | | |
+| - | | |
+| 750,000 | |
+Issuance costs of convertible senior notes | |
+| - | | |
+| (17,738 | ) | |
+| - | | |
+| (17,738 | ) |
+Purchase of capped calls | |
+| - | | |
+| (51,826 | ) | |
+| - | | |
+| (51,826 | ) |
+Purchases of treasury shares | |
+| (38,461 | ) | |
+| - | | |
+| (38,461 | ) | |
+| (20,002 | ) |
+Net
+cash used in financing activities | |
+| (38,461 | ) | |
+| 680,436 | | |
+| (38,461 | ) | |
+| 660,434 | |
+Effect
+of exchange rate fluctuations on cash and cash equivalents | |
+| 373 | | |
+| 1,631 | | |
+| (274 | ) | |
+| 5,243 | |
+Changes in cash and cash
+equivalents and restricted cash | |
+| 63,310 | | |
+| 361,070 | | |
+| (26,624 | ) | |
+| 364,172 | |
+Cash
+and cash equivalents and restricted cash -beginning of period | |
+| 124,846 | | |
+| 160,881 | | |
+| 214,780 | | |
+| 157,779 | |
+Cash
+and cash equivalents and restricted cash - end of period | |
+| 188,156 | | |
+| 521,951 | | |
+| 188,156 | | |
+| 521,951 | |
+NOVA
+LTD.
+RECONCILIATION OF GAAP TO NON-GAAP RESULTS
+(U.S.
+dollars in thousands, except percentage and per share data) - (Unaudited)
+| |
+Three
+months ended
+| |
+| |
+September
+30,
+2026
+| | |
+June
+30,
+2026
+| | |
+September
+30,
+2025
+| |
+GAAP gross profit | |
+| 166,121 | | |
+| 144,161 | | |
+| 127,418 | |
+Stock-based compensation* | |
+| 1,997 | | |
+| 1,923 | | |
+| 1,901 | |
+Amortization of acquired
+intangible assets | |
+| 2,081 | | |
+| 2,105 | | |
+| 2,113 | |
+Non-GAAP gross profit | |
+| 170,199 | | |
+| 148,189 | | |
+| 131,432 | |
+GAAP gross margin as a
+percentage of revenues | |
+| 58 | % | |
+| 57 | % | |
+| 57 | % |
+Non-GAAP gross margin as
+a percentage of revenues | |
+| 59 | % | |
+| 58 | % | |
+| 59 | % |
+| |
+| | | |
+| | | |
+| | |
+GAAP operating income | |
+| 92,833 | | |
+| 76,185 | | |
+| 63,860 | |
+Stock-based compensation* | |
+| 7,079 | | |
+| 6,764 | | |
+| 6,681 | |
+Amortization
+of acquired intangible assets | |
+| 2,274 | | |
+| 2,299 | | |
+| 2,309 | |
+Non-GAAP operating income | |
+| 102,186 | | |
+| 85,248 | | |
+| 72,850 | |
+GAAP operating margin as
+a percentage of revenues | |
+| 32 | % | |
+| 30 | % | |
+| 28 | % |
+Non-GAAP operating margin
+as a percentage of revenues | |
+| 36 | % | |
+| 33 | % | |
+| 32 | % |
+| |
+| | | |
+| | | |
+| | |
+GAAP net income | |
+| 89,960 | | |
+| 75,010 | | |
+| 61,421 | |
+Stock-based compensation* | |
+| 7,079 | | |
+| 6,764 | | |
+| 6,681 | |
+Amortization of acquired intangible assets | |
+| 2,274 | | |
+| 2,299 | | |
+| 2,309 | |
+Amortization of debt
+issuance costs | |
+| 971 | | |
+| 958 | | |
+| 448 | |
+Revaluation of operating
+lease and intercompany loans | |
+| (453 | ) | |
+| 3,398 | | |
+| 762 | |
+Tax
+effect of non-GAAP adjustments | |
+| (1,426 | ) | |
+| (1,970 | ) | |
+| (1,630 | ) |
+Non-GAAP net income | |
+| 98,405 | | |
+| 86,459 | | |
+| 69,991 | |
+| |
+| | | |
+| | | |
+| | |
+GAAP basic earnings
+per share | |
+| 2.83 | | |
+| 2.36 | | |
+| 2.05 | |
+Non-GAAP basic earnings
+per share | |
+| 3.09 | | |
+| 2.72 | | |
+| 2.34 | |
+| |
+| | | |
+| | | |
+| | |
+GAAP diluted earnings
+per share | |
+| 2.64 | | |
+| 2.20 | | |
+| 1.90 | |
+Non-GAAP diluted
+earnings per share | |
+| 2.86 | | |
+| 2.51 | | |
+| 2.16 | |
+| |
+| | | |
+| | | |
+| | |
+Shares used for calculation of earnings per
+share
+(in thousands): | |
+| | | |
+| | | |
+| | |
+Basic | |
+| 31,821 | | |
+| 31,800 | | |
+| 29,936 | |
+Diluted | |
+| 34,426 | | |
+| 34,450 | | |
+| 32,470 | |
+*
+Stock-based compensation for the three months ended September 30, 2026, included in - Cost of revenues – 1,997; Research and development,
+net – 3,026; Sales and marketing - 1,430; General and administrative - 626.
+NOVA
+LTD.
+SUPPLEMENTAL INFORMATION - RECONCILIATION OF FOURTH QUARTER 2026
+GAAP TO NON-GAAP GUIDANCE
+(U.S.
+dollars) (Unaudited)
+| |
+Low
+| | |
+High
+| |
+Estimated GAAP net income per diluted
+share | |
+| 2.78 | | |
+| 2.93 | |
+Estimated non-GAAP items: | |
+| | | |
+| | |
+Stock-based compensation | |
+| 0.23 | | |
+| 0.23 | |
+Amortization of acquired
+intangible assets | |
+| 0.07 | | |
+| 0.07 | |
+Tax
+effect of non-GAAP adjustments | |
+| (0.05 | ) | |
+| (0.05 | ) |
+Estimated non-GAAP
+net income per diluted share | |
+| 3.03 | | |
+| 3.18 | |
+GRAPHIC
+2
+image_002.jpg
+GRAPHIC
+begin 644 image_002.jpg
+M_]C_X 02D9)1@ ! 0$ 8 !@ #_VP!# @&!@ 7J#A(6&AXB)BI*3E)66EYB9FJ*CI*6FIZBIJK*SM+6VM[BYNL+#Q,7&
+MQ\C)RM+3U-76U]C9VN'BX^3EYN?HZ>KQ\O/T]?;W^/GZ_\0 'P$ P$! 0$!
+M 0$! 0 $" P0%!@ 'EZ@H.$
+MA8:'B(F*DI.4E9:7F)F:HJ.DI::GJ*FJLK.TM;:WN+FZPL/$Q ;GZ.GJ\O/T]?;W^/GZ_]H # ,! (1 Q$ /P#R_P#X2SQ'
+M_P!#!JO_ (&2?XUV?@+XO:KX 4D\C_ &3^&._F
+ME%?33HTYKE:.!2:=S[ )O[K#
+ML?T/:O#Q&&E1?='7":D;5%%% 2?'G4]0TS1=(?3[ZYM&>X
+M^#S7K=>,_M#_ /("T7_KY?\ ]!KHPRO6C TY'U[5&1KF,
+M,K7DA!&X */%FD>$-
+M,-]JUQL!R(HDYDE;T4=_KT' DQP@ZKK-Y/+CD6JK$H/_ @Q/Z5Z
+M;GA\/[O7\3G2G/4\(L]3U#3I!)97US;..0T,K(1^(->A>&/C;XDT:1(M58:M
+M9C@B7Y95'LXZ_P# L_A7:ZI^SWI4D).DZS>02XX%TJRJ3_P$*1^M>.^*O!FM
+M>#;X6VK6VU'SY5Q&=T 'Q'N]?N8-3AJ?5GACQ7I/B[2Q?Z3 C#M_(]C6W7QGX4\4:AX1UV'5-/ FS.BG/F1HU\B^*/$_B"'Q;K
+M,46NZG'&E].JHMW( H$C8 &>!7UU7QAXL_Y'+7/^PA I[ #J2?05\S_$/XI:AXRF>RM=]GHRM\L&?FFQT:0C_T'H/ 3VC[JOOU/L.OF'_"
+M6>)"?^1@U7_P,D_QK-M;6XO;J*UM89)IY6"1QQJ69B>P KZ)^&WPAM_#_DZO
+MKZ1W&J\-%!PT=L?7T9_?H.WK7JS]CAH6M=_BSG7-492^&O@?Q-=>3K/BG6=7
+M2#AX+!KR0,_H9.>!_L]3W]#[+1574=1L])L)K[4+F.WM85W22R' _Q]N]>-
+M4J.I*[.E)118=UC1G=@J*,LS' ]37@_Q)^,K3F71O"LY2+E9M00X+>HC/8?
+M[7Y>IYSXC_%>\\6/)INF&2TT4'!& [^B_[/Y^WFM>GAL%;WZGW?YF%2KT
+MB;'_ EGB/\ Z?_ R3_&OK#P//+ 6:2QB9Y)&+,Q*C))/4U\;
+MU]B> /\ DGOA_P#Z\(?_ $$49A%*,;+J%%N[-75_/_LV3R/-W;EW>5G?LW#=
+MC'. Z..DDY69X+XE\+ZKX3U9]
+M.U6W, X_4=\4WPYXEU3PKJR:CI5P8I5X=3RDB]U8=Q_D8-?7
+M'B7PQI7BS27T[5; 4]C_/OFOE[QS\/M5\$7^VX4SZ?(V(+Q%^
+M5O9O[K>WY9J*&)C67)/?\QSIN.J/HGP)\0]+\;V/[DBWU*) ,_M#_ /("T7_KY?\ ]!KV:O&?
+MVA_^0%HO_7R__H-887^-$NI\+/#M"_Y&'3/^ON+_ -#%?:]?%&A?\C#IG_7W
+M%_Z&*^UZZ\Q^*/H94-F>&?M!Z^X.E^'XG(4@W K'V R?PKM?C?*\GQ+NE8G$=O"J_3;G^9-3? JWCF^(RR.
+M!N@LY9$^O"_R8UU4G[+"\R[7(E[U2Q]$^'M L/#.B6^E:=$$@A7D_P 3MW9C
+MW)K3HHKPVVW=G6%9?B+P_8>)]$N-*U&(/#,O#8^:-NS*>Q'^>*U**$VG= ?$
+M^MZ1
+M9]KG)'W:ECZ@KXP\6?\ (Y:Y_P!A"X_]&-7V?7QAXL_Y'+7/^PA GZFE?9'L7[.W_ !Y>(/\ KI!_)Z]MKQ+]G;_CR\0?]=(/Y/7MM EF[U&7,K@B"V0_O)C[#L/4G@?D*P_B%\4-.\%P-:6^R\U
+MEU^2W!^6+/1I".GTZGV'-?,NLZUJ/B#4Y=1U2Z>XN9#RS= .P Z #T%:X;".
+MK[TM$*=11T6YJ^,?&VK>-=3^U:A)L@0GR+5#^[B'MZGU)Y/TP*S="T'4O$FJ
+MQ:;I5LT]Q)V'11W9CV ]:T_!O@?5O&NI_9K"/9;H1]HNG'R1#^I] /T'-?47
+MA+P=I/@W2A9:;#\[8,UP_,DS>I/IZ#H*[JV(A0CR06IC"#F[LQ? 7PWTOP+9
+M&ZE:.XU1DS/>.,!!W5,_=7WZGOZ#6T;QOI&NZ_=:38R,[0)O68\++@X;;],C
+MZ\XX&3SWQ?75?^$>MY+29ET]9-MY&G4YQL)/]W.1CU*]>,>-Z7JESH^J6^HV
+M;[9X'#KGH?4'V(R#[&N:CA98F#J-W9]!A,OC5H.:>O1?YGTAXF\4:5X2TE]0
+MU6X$:#B.->7E;^ZH[G]!WKY>\ _Y8K/\
+M6:_J_B+7);S6+@R2](U'"1IV"#L/\GFIO!_@K5O&FJ"TTZ+;"A!GN7'[N$>_
+MJ?0=3^9KIHX:.'7/4W_(\&JY\SA:UC,T30]1\0ZI%IVEVSW%S(>%7HH[ECT
+M'J:]JU;X9:=X*^$^M7,NR[UAX$$ER1Q'F1 @Z#\S6=\6/^28:Y_UR3_T8M %Y##_P 3)HTF8+')-;2QQDGI\[*%
+M'XFO+A2J3UA%LZU%O8Z>BL/4/%VBZ7J+V%U =Q=NX 744-HB[C*S SL;2[GN7
+M2.\;;;IY$AEE/M'MW?IW'J*+'Q3HNH6EY ]C8HK"T_QCH>IWL%G;W4@GN$+P+-;R1"51SE2Z@-
+MQZ5NU,Z C?G[^;JS(ZNC%64Y!!P0:^Y'1)8VCD
+M571@596&00>H(KP7XE?!MK7SM:\+0%X.7GL$&2GJT?J/]GJ.W' ]?#8R_N5/
+MO_S.:I2ZQ+WPU^,HF\G1?%,X63A(-0 @D/8_[7Y^IL?M#$'0M%(Y'VE__
+M $$5\_=*V+WQ/JFH^'[/1;VX,]K9R%[ RR=^.@;\_6O WUIIULUS?74-M OWI
+M)I BC\37AWQ,^, M%*C.K*T4$I**NS
+MSWXDZ_%XD\>ZG?6[A[97$,+#HR(-N1[$@G\:ZWX Z8]SXQO=1*DQ6EH5W>CN
+MP _17KR=5+L%4$L3@ #DFOJ_X6>$&\(^#XHKE-NH79\^Y'=21\J?@/U)KUL5
+M)4J'LUUT.:FG*=SMZ^,/%G_(Y:Y_V$+C_P!&-7V?7QAXL_Y'+7/^PA GZFE?9'L7[.W_'EX@_ZZ0?R>K7Q)^,D6E^=H_AF5)KWE9KT89(?9.S
+M-[]![GIXIIGBC5='T34-*T^X-O#?LIN'3AV501M![ [CGU^F I)/4UWGP\^%^H>,YUO+K?::,C?//C
+MYI I)]35ZD) !). .I->(?$KXRB/SM%\*S@ORD^H(>!ZB(^O^U^7K7F4
+MZ :U&NKZT\]C8NA\B),"6;(X;D'
+M"]QD (72N8U GB?WL'KW[GUC7&?%C_ ))AKG_7)/\ T8M 7MTW?A6E\1==TK6/A=KAT[4;6Z/D1N5BE#,H\Q.J]1^
+M-?+U,%B,-42JP:U6O3?OL>)5I3IIJ2/EJOL3P!_R3WP__P!>$/\ Z"*^.Z^Q
+M/ '_ "3WP_\ ]>$/_H(KIS'X8^OZ'%0W9K:Q_P @2_\ ^O:3_P!!- #3+2U@L+*"SMDV001K%&F2=JJ, 9/)X% .@QN/3UJ*VTG3[
+M*_O+RW@$=Q?%6N"&.)"HP#MS@'U('/>NB&+C!*T=5RZ][;I_FFET12J)=.PQ
+M&T@^'@RFU_L?[-WQY/D[?RVXKSK2ALL/ #:AYHTL7%UM^U'@,=WV7=GOM^[^
+M%=C_ ,(!X7\[?_92[?-\WR?-D\G=Z^7NV?AC%;6H6%CJ&GR6-]!%+:R#:T G3TBVTWKTMHUIJ]==_EU!22V'73V226INVMUD,N+?SBH/F$$
+M?)G^+!;ISC- QV_A4$_@'PU ]MXWV;Z7\^XDXK3]!FM:5>WUYHUW;ZI9VNO644C+$Z;HIPRJ)!M
+M)W! 0 TS7/#GBD6.GSI#"SWEM-^Z;>Q\LX;!&&4#:3S^(K?N
+M_"6A7MA:65S8B2*T_P"/=C*_F1_23.[T[]AZ4ZT\*:%9V5U:1:;$T-VP:X$Q
+M,IE(Z;F 33UZV&I*QC?VKX@T'4M,MM?33
+M[^SN[E;6"\ME9)5D*G#.AR. 27
+MR@>NT.Q"_A6]6%>=.37(O72U_E=VT)DT]CX8KZ3^ '_(@W?_ &$I/_1 M$_P"@UJ'_ 'RG^%=]X)\'6O@C19=,M+J:XCDN&G+R@ @E5&./]VNS%8JG
+M5I\L=SDITY1E=G24445Y9T!1110!Y/\ $KX0P>(/.UC0$CM]5Y:6#A4N3Z^B
+MO[]#W]:^=;FVGLKJ6VNH7AGB8I)'(I5E(Z@@U]Q5QOC3X::'XU:.XNA):WR8
+M'VJWP&9?[K C!'IW%>AAL8Z?NSU1C.E?5'RUH7_(PZ9_U]Q?^ABOM>O)+/X!
+MZ-97UO=+K%^S0R+(%*I@D'/I[5ZW48RM"K)./0=*#BG [)V#>H[]>O7V2BN:G5E3ES1+E%25F?#MQ;3V=Q);W,,D,\;
+M;7CD4JRGT(/2B"YGM7WV\\D3>L;E3^E?8^O^$- \3QA=8TN"Y8#"RD;9%'LX
+MP1],UP5Y\ /#,SEK6_U*VS_#O1U'TRN?UKU88^G)6FOU.=T9+8^=9[F>Y?? 7,=M:PR3SR-M2.-2S,?0 =:^BK/X >&87#75_J5SC^'>
+MB*?KA [G+'Z9HGCZ QT45Y52K*I+FD=$8J*L@KXP\6
+M?\CEKG_80N/_ $8U?9]>3ZG\"-'U/5;R_DU>^1[J=YF553 +,20./>NG!UH4
+MI-R(JQ @ '4U]!_#7X.Q:5Y.L^)8DFO^'A
+MLSAD@/8MV9O;H/ ."VA7=)+(V%4>YJ>N,\:^ /^$V>..\UR]M[*
+M/E;6!5"%O[S9Y)^O3MWSP12;]YV1L[]#Q[XD_%RY\2F72=$:2VTCE9)/NR7/
+MU_NK[=3W]!Y='%)-*D42-)(Y"JBC)8GH .YKZ#_X9ZT3_H-:A_WRG^%=1X-^
+M%6@^#;Q[Z(RWMZ>(Y[@#,0[[0!@$^O7] A?U;VZ#OD]/9Z**\RI5E4ES2-XQ459%>]L;74K.2TO;
+M>.>WE&'CD7(->1>*?@W-&SW7AN7S4)S]CF ]5#S7UW=V5K?
+MP&"\MH;F$G)CFC#J3]#Q7(:C\)_">H$LEG+9N226MI2,_@V0/P KZS# XF19/Y;:]"T#2%T'0;/2UF,PMH]GF%=N[OG':O.SS, O!/!Z5ZRZ[XV7.,@C- &9#>[O[#@DA \K'G;HPF>ORXQG'
+M->)AJZI)N^O_ -JU^MCGA+E_KR,M->77;GPXTD1M[^VU-H;VU;K#*+>7(]U/
+M4'N/QK&OM,L;#4=8D\5^&[V^BNKMY8]4@!G$4'502"&B"#C@=NX KL+[PC97
+M?BW3_$ 1>6NX2[5R)U*%1N]",]?3CTQ!<>'=?#W4=EXKFBM)V+!+BT6:2+
+M \W9-7_ !W6CU6MJ4>A7EDMIO%?@Z2S
+MF::V:RNC%*S%BZ[(L$D\DX[GFLS3M-T_5]+O?%6O64^KSRSS1Q6RQ&;R(EE,
+M:I'&.,_+DG /)/J3TT'AB&TN]"D@N'$6D6TELB.N6D#*BY+ G.>U5#X6
+MU"PU.\NM!UO[#!>.TTUK/;">,2GJZ?,I7/4C)&?; &:K06D)6T6NJVE)VNM5
+M=-;>@N9='_5V83W>F6W@.ZCTJQU2*&QU*V#6ERKF8'SX7V(K$D#!&!Q^N2WQ
+M;XJ;4O#LEH?#VNV@DGM_W]U:JD:XF0\D, /29[:XU2:ZO+J\
+MAO+BZDC4;WC>-L!%P%!$8'?&>_2M+Q!I']NZ-)I_G^1ODB?S-F[&R17QC(Z[
+M [FO;5))B#N93*B$'_@
+M/%=3I>CZ?HML]OIMI';0NYD9(Q@%B ,_D!^5,UC3/[6LDMO.\K;

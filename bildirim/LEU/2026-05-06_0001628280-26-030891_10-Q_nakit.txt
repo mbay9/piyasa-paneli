@@ -1,0 +1,148 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1065059/000162828026030891/leu-20260331.htm
+SEMBOL: LEU
+BASVURU_TARIHI: 2026-05-06
+BASVURU: 0001628280-26-030891
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+( Unaudited; in millions)
+Three Months Ended March 31, |
+| 2026 | 2025 |
+OPERATING | |
+Net income
+| $ | 10.0 | $ | 27.2 |
+Adjustments to reconcile net income to cash used in operating activities:
+|
+Depreciation and amortization | 2.2 | 1.5 |
+Deferred tax assets | 2.5 | 7.5 |
+Equity-related compensation
+| 0.4 | 0.5 |
+Revaluation of inventory borrowings
+| ( 0.6 ) | 2.1 |
+Gain on extinguishment of 8.25% Notes
+| — | ( 11.8 ) |
+Amortization of debt issuance costs and discount
+| 1.3 | — |
+Other reconciling adjustments, net
+| 0.3 | 0.6 |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 11.1 ) | 41.3 |
+Inventories | ( 48.8 ) | ( 268.1 ) |
+Inventories owed to customers and suppliers | ( 21.9 ) | 187.7 |
+Other current assets | ( 0.6 ) | 0.8 |
+Accounts payable and other liabilities | 0.4 | ( 6.2 ) |
+Payables under inventory purchase agreements | 47.2 | 55.6 |
+Deferred revenue and advances from customers, net of deferred costs | ( 14.4 ) | 0.1 |
+Pension and postretirement benefit liabilities | ( 2.0 ) | ( 2.2 ) |
+Other changes, net
+| — | ( 0.1 ) |
+Cash (used in) provided by operating activities
+| ( 35.1 ) | 36.5 |
+INVESTING |
+Capital expenditures | ( 23.2 ) | ( 2.1 ) |
+Cash used in investing activities | ( 23.2 ) | ( 2.1 ) |
+FINANCING |
+Proceeds from the issuance of common stock, net | — | 25.2 |
+Common stock withheld for tax obligations under stock-based compensation plan
+| ( 0.3 ) | — |
+Payment of interest classified as debt | — | ( 3.5 ) |
+Payment of principal to redeem 8.25% Notes
+| — | ( 74.3 ) |
+Cash used in financing activities
+| ( 0.3 ) | ( 52.6 ) |
+Effect of exchange rate changes on cash, cash equivalents and restricted cash
+| ( 0.3 ) | ( 0.1 ) |
+Decrease in cash, cash equivalents and restricted cash
+| ( 58.9 ) | ( 18.3 ) |
+Cash, cash equivalents and restricted cash, beginning of period (Note 3) | 1,960.1 | 704.0 |
+Cash, cash equivalents and restricted cash, end of period (Note 3) | $ | 1,901.2 | $ | 685.7 |
+9
+Three Months Ended March 31, |
+2026 | 2025 |
+Supplemental cash flow disclosures:
+|
+Cash paid for interest
+| $ | — | $ | — |
+Cash paid for income taxes
+|
+Federal
+| $ | — | $ | — |
+State
+| $ | — | $ | — |
+Foreign
+| $ | — | $ | — |
+Non-cash activities: |
+Property, plant and equipment included in accounts payable and accrued liabilities | $ | 9.2 | $ | 0.2 |
+Common stock withheld for tax obligations under stock-based compensation plan
+| $ | — | $ | 0.3 |
+The accompanying notes are an integral part of these unaudited condensed consolidated Financial Statements.
+10
+CENTRUS ENERGY CORP.
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY
+( Unaudited; in millions, except per share data)
+Preferred Stock,
+Series B | Common Stock,
+Class A,
+Par Value
+$0.10 per Share | Common Stock,
+Class B,
+Par Value
+$0.10 per Share | Excess of
+Capital Over
+Par Value | Retained Earnings (Accumulated Deficit)
+| Accumulated
+Other Comprehensive Loss
+| Total |
+Balance at December 31, 2024
+| $ | — | $ | 1.6 | $ | 0.1 | $ | 236.5 | $ | ( 76.3 ) | $ | ( 0.5 ) | $ | 161.4 |
+Net income for the three months ended March 31, 2025
+| — | — | — | — | 27.2 | — | 27.2 |
+Issuance of common stock | — | — | — | 25.2 | — | — | 25.2 |
+Equity-related compensation shares withheld for income taxes
+| — | — | — | ( 0.3 ) | — | — | ( 0.3 ) |
+Other comprehensive loss | — | — | — | — | — | ( 0.1 ) | ( 0.1 ) |
+Equity-related compensation
+| — | — | — | 0.5 | — | — | 0.5 |
+Balance at March 31, 2025
+| $ | — | $ | 1.6 | $ | 0.1 | $ | 261.9 | $ | ( 49.1 ) | $ | ( 0.6 ) | $ | 213.9 |
+| Preferred Stock,
+Series B | Common Stock,
+Class A,
+Par Value
+$0.10 per Share | Common Stock,
+Class B,
+Par Value
+$0.10 per Share | Excess of
+Capital Over
+Par Value | Retained Earnings (Accumulated Deficit)
+| Accumulated
+Other Comprehensive Loss
+| Total |
+Balance at December 31, 2025
+| $ | — | $ | 1.9 | $ | 0.1 | $ | 762.3 | $ | 1.5 | $ | ( 0.7 ) | $ | 765.1 |
+Net income for the three months ended March 31, 2026
+| — | — | — | — | 10.0 | — | 10.0 |
+Equity-related compensation shares withheld for income taxes
+| — | — | — | ( 0.3 ) | — | — | ( 0.3 ) |
+Equity-related compensation
+| — | — | — | 0.4 | — | — | 0.4 |
+Balance at March 31, 2026
+| $ | — | $ | 1.9 | $ | 0.1 | $ | 762.4 | $ | 11.5 | $ | ( 0.7 ) | $ | 775.2 |
+The accompanying notes are an integral part of these unaudited condensed consolidated Financial Statements.
+11
+CENTRUS ENERGY CORP.
+NOTES TO C ONDENSED C ONSOLIDATED FINANCIAL STATEMENTS
+1. BASIS OF PRESENTATION
+Basis of Presentation and Principles of Consolidation
+The unaudited condensed consolidated financial statements (the “Financial Statements”) of Centrus (the “Company”), which include the accounts of the Company, its principal subsidiary, Enrichment Corp., and its other subsidiaries, as of March 31, 2026, and for the three months ended March 31, 2026, and 2025, have been prepared pursuant to the rules and regulations of the SEC. The unaudited condensed Consolidated Balance Sheet as of December 31, 2025, was derived from audited Consolidated Financial Statements, but does not include all disclosures required by U.S. GAAP. In the opinion of management, the Financial Statements reflect all adjustments, including normal recurring adjustments, necessary for a fair statement of the financial results for the interim period. Certain prior year amounts have been reclassified for consistency with the current year presentation. Certain information and notes normally included in financial statements prepared in accordance with U.S. GAAP have been omitted pursuant to such rules and regulations. All material intercompany transactions have been eliminated. The Company’s components of comprehensive income for the three months ended March 31, 2026 and 2025, are insignificant.
+Operating results for the three months ended March 31, 2026 are not necessarily indicative of the results that may be expected for the year ending December 31, 2026. The Financial Statements should be read in conjunction with the Consolidated Financial Statements included in the Annual Report on Form 10-K for the year ended December 31, 2025.
+Significant Accounting Policies
+The accounting policies of the Company are set forth in Note 1, Summary of Significant Accounting Policies , of the Consolidated Financial Statements in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025. There has not been a material change to the Company’s accounting policies since that report.
+New Accounting Standards
+Accounting Standards Effective in Future Periods
+In November 2024, the FASB issued ASU 2024-03, Income Statement-Reporting Comprehensive Income-Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses , requiring public entities to disclose additional information about specific expense categories in the notes to the financial statements on an interim and annual basis. This pronouncement is effective for fiscal years beginning after December 15, 2026, and for interim periods beginning after December 15, 2027, and early adoption is permitted. The Company is evaluating the impact this pronouncement will have on its Financial Statements.
+12
+In December 2025, the FASB issued ASU 2025-10, Government Grants (Topic 832), Accounting for Government Grants Received by Business Entities , to establish authoritative guidance on the accounting for government grants received by business entities. The amendments in this pronouncement establish the accounting for a government grant received by a business entity, including guidance for (1) a grant related to an asset and (2) a grant related to income. A grant related to an asset is a government grant, or part of a government grant, that is conditioned on the purchase, construction, or acquisition of an asset (for example, a long-lived asset or inventory). A grant related to income is a government grant, or part of a government grant, other than a grant related to an asset (for example, a grant that reimburses a business entity for operating expenses). This pronouncement is effective for annual reporting periods beginning after December 15, 2028, and for interim periods within those annual periods, and early adoption is permitted. The Company is evaluating the impact this pronouncement will have on its Financial Statements.
+In December 2025, the FASB issued ASU 2025-11, Interim Reporting (Topic 270): Narrow-Scope Improvements to clarify the applicability of Topic 270 and the form and content of interim financial statements. The amendments in this pronouncement require entities to disclose material events occurring since the last annual reporting period. This pronouncement is effective for interim periods beginning January 1, 2028, and can be applied on a prospective or retrospective basis. The Company is evaluating the impact this pronouncement will have on its Financial Statements.
+2. REVENUE AND CONTRACTS WITH CUSTOMERS
+Revenue for the LEU segment is derived from the sales of the SWU component of LEU, f

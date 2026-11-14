@@ -1,0 +1,105 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm
+SEMBOL: SMCI
+BASVURU_TARIHI: 2026-08-31
+BASVURU: 0001375365-26-000022
+TUR: 10-K nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in thousands)
+Years Ended June 30, |
+2026 | 2025 | 2024 |
+OPERATING ACTIVITIES: |
+Net income | $ | 2,230,453 | $ | 1,048,854 | $ | 1,152,666 |
+Reconciliation of net income to net cash (used in) provided by operating activities: |
+Depreciation and amortization | 53,673 | 41,298 | 29,617 |
+Amortization of right-of-use (“ROU”) assets | 36,594 | 17,046 | 9,076 |
+Amortization of debt discount and issuance costs | 25,889 | 10,268 | 2,292 |
+Inventory valuation adjustment write-down | 188,110 | 232,083 | 83,004 |
+Stock-based compensation expense | 412,115 | 314,452 | 231,507 |
+Impairment loss and gain on sale of investments, net | 414 | — | — |
+Share of loss (income) from equity investees | 2,482 | 6,211 | ( 1,821 ) |
+Unrealized foreign currency exchange (gain) loss | 976 | 18,832 | ( 531 ) |
+Loss on extinguishment of convertible notes | — | 30,251 | — |
+Deferred income taxes, net | ( 95,367 ) | ( 214,638 ) | ( 168,499 ) |
+Other non-cash (income) expense, net | ( 16,956 ) | ( 3,077 ) | 12,343 |
+Changes in operating assets and liabilities: |
+Accounts receivable, net (including changes in related party balances of $( 231 ), $ 5,801 , and $( 721 ) in fiscal years 2026, 2025, and 2024, respectively)
+| ( 3,921,872 ) | 533,341 | ( 1,589,187 ) |
+Inventories | ( 8,876,747 ) | ( 587,689 ) | ( 2,983,000 ) |
+Prepaid expenses and other assets (including changes in related party balances of $ 12,728 , $( 1,806 ), and $ 15,793 in fiscal years 2026, 2025, and 2024, respectively)
+| ( 356,230 ) | ( 229,107 ) | ( 44,646 ) |
+Accounts payable (including changes in related party balances of $( 12,690 ), $( 35,543 ), and $ 76,161 in fiscal years 2026, 2025, and 2024, respectively)
+| 963,258 | ( 180,968 ) | 679,190 |
+Accrued liabilities (including changes in related party balances of $ 169 , $ 874 , and $( 13,847 ) in fiscal years 2026, 2025, and 2024, respectively)
+| 406,200 | 272,404 | 92,942 |
+Income taxes payable
+| 213,532 | 32,043 | ( 110,897 ) |
+Deferred revenue | 1,880,650 | 315,006 | 111,927 |
+Other long-term liabilities (including changes in related party balances of $( 246 ), $ 608 , and $( 178 ) in fiscal years 2026, 2025, and 2024, respectively)
+| 42,940 | 2,914 | 8,045 |
+Net cash (used in) provided by operating activities | ( 6,809,886 ) | 1,659,524 | ( 2,485,972 ) |
+INVESTING ACTIVITIES: |
+Purchases of property, plant, and equipment (including payments to related parties of $ 12,567 , $ 17,677 , and $ 10,625 in fiscal years 2026, 2025, and 2024, respectively)
+| ( 161,999 ) | ( 127,214 ) | ( 124,279 ) |
+Investment in equity securities | ( 51,613 ) | ( 56,000 ) | ( 69,673 ) |
+Acquisition, net of cash acquired
+| — | — | ( 296 ) |
+Proceeds from disposal of equity investment | 13,333 | — | — |
+Net cash used in investing activities | ( 200,279 ) | ( 183,214 ) | ( 194,248 ) |
+FINANCING ACTIVITIES: |
+Proceeds from lines of credit and term loans | 4,468,808 | 1,387,991 | 2,156,529 |
+Repayment of lines of credit and term loans | ( 520,510 ) | ( 1,768,650 ) | ( 1,967,545 ) |
+Payments of debt issuance costs | ( 23,483 ) | — | — |
+Proceeds from exercise of stock options | 46,260 | 20,898 | 29,453 |
+Payment for withholding taxes related to settlement of equity awards
+| ( 129,881 ) | ( 142,457 ) | ( 174,354 ) |
+Stock repurchases | — | ( 200,000 ) | — |
+Issuances of common stock in public offerings, net of issuance costs of $ 42,575
+| — | — | 2,313,983 |
+SMCI | 2026 Form 10-K | 63
+Table of Contents
+Years Ended June 30, |
+2026 | 2025 | 2024 |
+Debt issuance costs in connection with amended 2029 Convertibles Notes | — | ( 31,217 ) | — |
+Proceeds from issuance of 2029 Convertible Notes, net of issuance costs of $ 29,232
+| — | — | 1,695,768 |
+Proceeds from issuance of 2028 Convertible Notes, net of issuance costs of $ 16,304
+| — | 683,696 | — |
+Proceeds from issuance of 2030 Convertible Notes, net of issuance costs of $ 44,027
+| — | 2,255,973 | — |
+Purchase of capped calls | — | ( 182,215 ) | ( 142,140 ) |
+Common stock issuance, net of underwriting discounts | 1,406,953 | — | — |
+Series A Mandatory Convertible Preferred Stock issuance, net of underwriting discounts | 4,231,640 | — | — |
+Payments of equity issuance costs | ( 996 ) | — | — |
+Other | ( 36 ) | 26 | 30 |
+Net cash provided by financing activities | 9,478,755 | 2,024,045 | 3,911,724 |
+Effect of exchange rate fluctuations on cash | ( 9,355 ) | 1,673 | ( 2,191 ) |
+Net increase in cash, cash equivalents, and restricted cash | 2,459,235 | 3,502,028 | 1,229,313 |
+Cash, cash equivalents, and restricted cash at the beginning of year | 5,172,301 | 1,670,273 | 440,960 |
+Cash, cash equivalents, and restricted cash at the end of year | $ | 7,631,536 | $ | 5,172,301 | $ | 1,670,273 |
+Supplemental disclosure of cash flow information: |
+Cash paid for interest | $ | 109,306 | $ | 25,490 | $ | 16,015 |
+Cash paid for income taxes, net of refunds | $ | 399,276 | $ | 327,158 | $ | 392,020 |
+Non-cash investing and financing activities: |
+Unpaid property, plant, and equipment purchases (including due to related parties of $ 4,658 , $ 3,879 , and $ 2,339 as of June 30, 2026, 2025, and 2024, respectively)
+| $ | 21,142 | $ | 16,208 | $ | 19,613 |
+ROU assets obtained in exchange for operating lease commitments | $ | 266,753 | $ | 276,170 | $ | 32,581 |
+Series A Mandatory Convertible Preferred Stock accrued dividends | $ | 13,088 | $ | — | $ | — |
+Transfer of inventory to property, plant, and equipment, net
+| $ | 7,304 | $ | 8,260 | $ | 12,535 |
+See accompanying notes to consolidated financial statements.
+SMCI | 2026 Form 10-K | 64
+Table of Contents
+SUPER MICRO COMPUTER, INC.
+NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+Note 1. Organization and Summary of Significant Accounting Policies
+Organization
+Super Micro Computer, Inc. (“Super Micro Computer” or the “Company”) was incorporated in 1993. All references to “Super Micro Computer,” “we,” “us,” “our” or the “Company” mean Super Micro Computer, Inc. and its subsidiaries. Super Micro Computer is a global leader in server technology and green computing innovation. Super Micro Computer develops and provides high performance server and storage solutions based upon an innovative, modular and open-standard architecture. Super Micro Computer has operations primarily in the United States, Taiwan, Malaysia, and the Netherlands.
+Basis of Presentation
+The accompanying consolidated financial statements have been prepared in accordance with accounting principles generally accepted in the United States ("U.S. GAAP") and include the accounts of Super Micro Computer, Inc. and our wholly-owned subsidiaries where we have controlling financial interests, and any variable interest entities for which we are deemed to be the primary beneficiary. All intercompany balances and transactions have been eliminated.
+Use of Estimates
+Preparation of consolidated financial statements in conformity with U.S. GAAP requires the use of estimates and judgments that affect the reported amounts in the consolidated financial statements and accompanying notes. These estimates form the basis for judgments we make about the carrying values of our assets and liabilities, which are not readily apparent from other sources. We base our estimates and judgments on historical information and on various other assumptions that we believe are reasonable under the circumstances. U.S. GAAP requires us to make estimates and judgments in several areas, including, but not limited to, those related to revenue recognition, income taxes, inventory valuation, useful lives of property, plant and equipment, product warranty accruals, impairment of investments, and fair value of financial instruments and leases. These estimates are based on management’s knowledge about current events, interpretation of regulations, and expectations about actions we may undertake in the future. Actual results could differ materially from those estimates.
+Fair Value of Financial Instruments
+We account for certain assets and liabilities at fair value, which is the price that would be received upon the sale of an asset or paid to transfer a liability in an orderly arms-length transaction between market participants. When measuring fair value, we take into account the characteristics of the asset or liability that a market participant would consider when pricing the asset or liability at the measurement date. We consider one or more techniques for measuring fair value: market approach, income approach, and cost approach. The valuation techniques include inputs that are based on three different levels of observability to the market. We categorize each fair value measurements in one of these three levels based on the lowest level input that is significant to the fair value measurement in its entirety. These levels are:
+• Level 1 - Unadjusted quoted prices in active markets that are accessible at the measurement date for identical, unrestricted assets or liabilities;
+• Level 2 - Quoted prices in markets that are not active or financial instrument

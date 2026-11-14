@@ -1,0 +1,217 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1720635/000162828026029370/nvt-20260331.htm
+SEMBOL: NVT
+BASVURU_TARIHI: 2026-05-01
+BASVURU: 0001628280-26-029370
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+| 5
+|
+Condensed Consolidated Statements of Changes in Equity
+| 6
+|
+Notes to Condensed Consolidated Financial Statements
+| 7
+|
+ITEM 2. | Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 22
+|
+ITEM 3. | Quantitative and Qualitative Disclosures about Market Risk
+| 30
+|
+ITEM 4. | Controls and Procedures
+| 31
+|
+PART II OTHER INFORMATION |
+ITEM 1. | Legal Proceedings
+| 32
+|
+ITEM 1A. | Risk Factors
+| 32
+|
+ITEM 2. | Unregistered Sales of Equity Securities and Use of Proceeds
+| 32
+|
+ITEM 5. | Other Information
+| 32
+|
+ITEM 6. | Exhibits
+| 33
+|
+Signatures
+| 34
+|
+2
+PART I FINANCIAL INFORMATION
+ITEM 1. FINANCIAL STATEMENTS
+nVent Electric plc
+Condensed Consolidated Statements of Income and Comprehensive Income (Unaudited)
+Three months ended |
+In millions, except per share data | March 31,
+2026 | March 31,
+2025 |
+Net sales | $ | 1,242.0 | $ | 809.3 |
+Cost of goods sold | 796.4 | 495.6 |
+Gross profit | 445.6 | 313.7 |
+Selling, general and administrative | 227.2 | 166.2 |
+Research and development | 22.7 | 17.5 |
+Operating income | 195.7 | 130.0 |
+Net interest expense | 17.5 | 17.4 |
+Other expense
+| 1.3 | 1.1 |
+Income from continuing operations before income taxes | 176.9 | 111.5 |
+Provision for income taxes | 36.5 | 24.5 |
+Net income from continuing operations | 140.4 | 87.0 |
+Income from discontinued operations, net of tax (Note 6) | 2.0 | 273.7 |
+Net income | $ | 142.4 | $ | 360.7 |
+Comprehensive income, net of tax |
+Net income | $ | 142.4 | $ | 360.7 |
+Changes in cumulative translation adjustment (three months ended March 31, 2025 includes $ 92.7 million reclassified to gain on sale included in Income from discontinued operations, net of tax )
+| ( 0.4 ) | 103.0 |
+Changes in market value of derivative financial instruments, net of tax
+| 3.6 | ( 3.5 ) |
+Comprehensive income | $ | 145.6 | $ | 460.2 |
+Earnings per ordinary share |
+Basic |
+Continuing operations | $ | 0.87 | $ | 0.53 |
+Discontinued operations | 0.01 | 1.65 |
+Basic earnings per ordinary share | $ | 0.88 | $ | 2.18 |
+Diluted |
+Continuing operations | $ | 0.86 | $ | 0.52 |
+Discontinued operations | 0.01 | 1.64 |
+Diluted earnings per ordinary share | $ | 0.87 | $ | 2.16 |
+Weighted average ordinary shares outstanding |
+Basic | 161.7 | 165.1 |
+Diluted | 164.0 | 167.3 |
+Cash dividends paid per ordinary share | $ | 0.21 | $ | 0.20 |
+See accompanying notes to condensed consolidated financial statements.
+3
+nVent Electric plc
+Condensed Consolidated Balance Sheets (Unaudited)
+| March 31,
+2026 | December 31,
+2025 |
+In millions, except per share data |
+Assets |
+Current assets |
+Cash and cash equivalents | $ | 190.0 | $ | 237.5 |
+Accounts and notes receivable, net of allowances of $ 15.5 and $ 13.7 , respectively
+| 828.5 | 693.0 |
+Inventories | 512.0 | 471.9 |
+Other current assets | 257.8 | 237.2 |
+Total current assets | 1,788.3 | 1,639.6 |
+Property, plant and equipment, net | 440.1 | 434.5 |
+Other assets |
+Goodwill | 2,675.5 | 2,678.0 |
+Intangibles, net | 1,834.7 | 1,876.5 |
+Other non-current assets | 223.0 | 223.3 |
+Total other assets | 4,733.2 | 4,777.8 |
+Total assets | $ | 6,961.6 | $ | 6,851.9 |
+Liabilities and Equity |
+Current liabilities |
+Current maturities of long-term debt and short-term borrowings | $ | 13.8 | $ | 13.8 |
+Accounts payable | 422.0 | 358.9 |
+Employee compensation and benefits | 104.9 | 156.6 |
+Other current liabilities | 514.3 | 474.2 |
+Total current liabilities | 1,055.0 | 1,003.5 |
+Other liabilities |
+Long-term debt | 1,542.9 | 1,546.0 |
+Pension and other post-retirement compensation and benefits | 132.9 | 135.6 |
+Deferred tax liabilities | 231.6 | 232.0 |
+Other non-current liabilities | 202.7 | 204.6 |
+Total liabilities | 3,165.1 | 3,121.7 |
+Equity |
+Ordinary shares $ 0.01 par value, 400.0 million authorized and 161.7 million issued at both March 31, 2026 and December 31, 2025
+| 1.6 | 1.6 |
+Additional paid-in capital | 2,027.2 | 2,072.3 |
+Retained earnings | 1,795.7 | 1,687.5 |
+Accumulated other comprehensive loss | ( 28.0 ) | ( 31.2 ) |
+Total equity | 3,796.5 | 3,730.2 |
+Total liabilities and equity | $ | 6,961.6 | $ | 6,851.9 |
+See accompanying notes to condensed consolidated financial statements.
+4
+nVent Electric plc
+Condensed Consolidated Statements of Cash Flows (Unaudited)
+| Three months ended |
+In millions | March 31,
+2026 | March 31,
+2025 |
+Operating activities |
+Net income | $ | 142.4 | $ | 360.7 |
+Less: Income from discontinued operations, net of tax | 2.0 | 273.7 |
+Net income from continuing operations | 140.4 | 87.0 |
+Adjustments to reconcile net income from continuing operations to net cash provided by (used for) operating activities of continuing operations |
+Depreciation | 16.8 | 13.8 |
+Amortization | 41.1 | 28.2 |
+Deferred income taxes | ( 0.2 ) | 0.4 |
+Share-based compensation | 16.4 | 8.5 |
+Changes in assets and liabilities, net of effects of business acquisitions |
+Accounts and notes receivable | ( 138.4 ) | ( 75.9 ) |
+Inventories | ( 42.6 ) | ( 10.6 ) |
+Other current assets | 5.9 | 11.3 |
+Contract assets and liabilities | ( 38.4 ) | ( 1.7 ) |
+Accounts payable | 72.9 | 13.7 |
+Employee compensation and benefits | ( 50.7 ) | ( 15.2 ) |
+Other current liabilities | 63.0 | 5.8 |
+Other non-current assets and liabilities | 3.7 | ( 1.4 ) |
+Net cash provided by (used for) operating activities of continuing operations | 89.9 | 63.9 |
+Net cash provided by (used for) operating activities of discontinued operations | ( 4.7 ) | ( 3.7 ) |
+Net cash provided by (used for) operating activities | 85.2 | 60.2 |
+Investing activities |
+Capital expenditures | ( 36.1 ) | ( 21.1 ) |
+Proceeds from sale of property and equipment | — | 1.6 |
+Acquisitions, net of cash acquired | — | 3.8 |
+Net cash provided by (used for) investing activities of continuing operations | ( 36.1 ) | ( 15.7 ) |
+Net cash provided by (used for) investing activities of discontinued operations | 1.7 | 1,583.1 |
+Net cash provided by (used for) investing activities | ( 34.4 ) | 1,567.4 |
+Financing activities |
+Repayments of long-term debt | ( 3.5 ) | ( 392.5 ) |
+Dividends paid | ( 34.2 ) | ( 33.4 ) |
+Shares issued to employees, net of shares withheld | ( 11.1 ) | ( 4.6 ) |
+Repurchases of ordinary shares | ( 50.4 ) | ( 53.1 ) |
+Net cash provided by (used for) financing activities | ( 99.2 ) | ( 483.6 ) |
+Effect of exchange rate changes on cash and cash equivalents | 0.9 | 9.1 |
+Change in cash and cash equivalents | ( 47.5 ) | 1,153.1 |
+Cash and cash equivalents, beginning of period | 237.5 | 131.2 |
+Cash and cash equivalents within assets held for sale, beginning of period | — | 58.7 |
+Less: Cash and cash equivalents within assets held for sale, end of period | — | — |
+Cash and cash equivalents, end of period | $ | 190.0 | $ | 1,343.0 |
+See accompanying notes to condensed consolidated financial statements.
+5
+nVent Electric plc
+Condensed Consolidated Statements of Changes in Equity (Unaudited)
+In millions | Ordinary shares | Additional paid-in capital | Retained earnings | Accumulated
+other
+comprehensive loss | Total |
+Number | Amount |
+December 31, 2025 | 161.7 | $ | 1.6 | $ | 2,072.3 | $ | 1,687.5 | $ | ( 31.2 ) | $ | 3,730.2 |
+Net income | — | — | — | 142.4 | — | 142.4 |
+Other comprehensive income, net of tax | — | — | — | — | 3.2 | 3.2 |
+Dividends declared | — | — | — | ( 34.2 ) | — | ( 34.2 ) |
+Share repurchases | ( 0.4 ) | — | ( 50.4 ) | — | — | ( 50.4 ) |
+Exercise of options, net of shares tendered for payment | 0.1 | — | 3.0 | — | — | 3.0 |
+Issuance of restricted shares, net of cancellations | 0.4 | — | — | — | — | — |
+Shares surrendered by employees to pay taxes | ( 0.1 ) | — | ( 14.1 ) | — | — | ( 14.1 ) |
+Share-based compensation | — | — | 16.4 | — | — | 16.4 |
+March 31, 2026 | 161.7 | $ | 1.6 | $ | 2,027.2 | $ | 1,795.7 | $ | ( 28.0 ) | $ | 3,796.5 |
+In millions | Ordinary shares | Additional paid-in capital | Retained earnings | Accumulated
+other
+comprehensive loss | Total |
+Number | Amount |
+December 31, 2024 | 165.0 | $ | 1.7 | $ | 2,271.7 | $ | 1,108.6 | $ | ( 144.4 ) | $ | 3,237.6 |
+Net income | — | — | — | 360.7 | — | 360.7 |
+Other comprehensive loss, net of tax | — | — | — | — | 99.5 | 99.5 |
+Dividends declared | — | — | — | ( 33.3 ) | — | ( 33.3 ) |
+Share repurchases | ( 1.0 ) | ( 0.1 ) | ( 53.0 ) | — | — | ( 53.1 ) |
+Exercise of options, net of shares tendered for payment | 0.2 | — | 3.6 | — | — | 3.6 |
+Issuance of restricted shares, net of cancellations | 0.5 | — | — | — | — | — |
+Shares surrendered by employees to pay taxes | ( 0.1 ) | — | ( 8.3 ) | — | — | ( 8.3 ) |
+Share-based compensation | — | — | 9.4 | — | — | 9.4 |
+March 31, 2025 | 164.6 | $ | 1.6 | $ | 2,223.4 | $ | 1,436.0 | $ | ( 44.9 ) | $ | 3,616.1 |
+See accompanying notes to condensed consolidated financial statements.
+6
+nVent Electric plc
+Notes to condensed consolidated financial statements (unaudited)
+1. Basis of Presentation and Responsibility for Interim Financial Statements
+Business
+nVent Electric plc ("nVent," "we," "us," "our" or the "Company") is a leadin

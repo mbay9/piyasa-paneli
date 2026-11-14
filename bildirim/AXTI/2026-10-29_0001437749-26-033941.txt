@@ -1,0 +1,3384 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1051627/000143774926033941/0001437749-26-033941.txt
+SEMBOL: AXTI
+BASVURU_TARIHI: 2026-10-29
+BASVURU: 0001437749-26-033941
+
+0001437749-26-033941.txt : 20261029
+0001437749-26-033941.hdr.sgml : 20261029
+20261029161648
+ACCESSION NUMBER: 0001437749-26-033941
+CONFORMED SUBMISSION TYPE: 8-K
+PUBLIC DOCUMENT COUNT: 14
+CONFORMED PERIOD OF REPORT: 20260930
+ITEM INFORMATION: Results of Operations and Financial Condition
+ITEM INFORMATION: Financial Statements and Exhibits
+FILED AS OF DATE: 20261029
+DATE AS OF CHANGE: 20261029
+FILER:
+COMPANY DATA:
+COMPANY CONFORMED NAME: AXT INC
+CENTRAL INDEX KEY: 0001051627
+STANDARD INDUSTRIAL CLASSIFICATION: SEMICONDUCTORS & RELATED DEVICES [3674]
+ORGANIZATION NAME: 04 Manufacturing
+EIN: 943031310
+STATE OF INCORPORATION: DE
+FISCAL YEAR END: 1231
+FILING VALUES:
+FORM TYPE: 8-K
+SEC ACT: 1934 Act
+SEC FILE NUMBER: 000-24085
+FILM NUMBER: 261502042
+BUSINESS ADDRESS:
+STREET 1: 4281 TECHNOLOGY DR.
+CITY: FREMONT
+STATE: CA
+ZIP: 94538
+BUSINESS PHONE: 510.438.4734
+MAIL ADDRESS:
+STREET 1: 4281 TECHNOLOGY DR.
+CITY: FREMONT
+STATE: CA
+ZIP: 94538
+FORMER COMPANY:
+FORMER CONFORMED NAME: AMERICAN XTAL TECHNOLOGY
+DATE OF NAME CHANGE: 19971217
+8-K
+1
+axti20260905_8k.htm
+FORM 8-K
+axti20260905_8k.htm
+false
+0001051627
+0001051627
+2026-09-30
+2026-09-30
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM 8-K
+CURRENT REPORT
+Pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934
+Date of Report (Date of earliest event reported): September 30, 2026
+AXT, INC.
+(Exact name of registrant as specified in its charter)
+Delaware
+|
+|
+000-24085
+|
+|
+94-3031310
+|
+(State or other jurisdiction of incorporation)
+|
+|
+(Commission File Number)
+|
+|
+(IRS Employer Identification No.)
+|
+4281 Technology Drive
+Fremont , California 94538
+(Address of principal executive offices) (Zip Code)
+Registrant’s telephone number, including area code: ( 510 ) 438-4700
+Not Applicable
+(Former name or former address, if changed since last report)
+Check the appropriate box below if the Form 8‑K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions (see General Instruction A.2. below):
+☐ Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ Soliciting material pursuant to Rule 14a‑12 under the Exchange Act (17 CFR 240.14a‑12)
+☐ Pre-commencement communications pursuant to Rule 14d‑2(b) under the Exchange Act (17 CFR 240.14d‑2(b))
+☐ Pre-commencement communications pursuant to Rule 13e‑4(c) under the Exchange Act (17 CFR 240.13e‑4(c))
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+Emerging growth company ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
+Securities registered pursuant to Section 12(b) of the Act:
+Title of each class:
+|
+|
+Trading Symbol
+|
+|
+Name of each exchange on which registered:
+|
+Common Stock , $0.001 par value
+|
+|
+AXTI
+|
+|
+The NASDAQ Stock Market LLC
+|
+Item 2.02
+|
+Results of Operations and Financial Condition
+|
+On October 29, 2026, AXT, Inc. issued a press release announcing its financial results for the quarter ended September 30, 2026. A copy of the Company’s press release, announcing the results, is attached hereto as Exhibit 99.1 and incorporated herein by reference.
+The information in Exhibit 99.1 hereto discussing the Company’s results of operations and financial condition for the quarter ended September 30, 2026, is being “furnished” in accordance with General Instruction B.2 of Form 8‑K and shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liabilities of that section, or Sections 11 and 12(a)(2) of the Securities Act of 1933, as amended. The information contained herein and in the accompanying exhibit shall not be incorporated by reference into any filing of the Registrant, whether made before or after the date hereof, regardless of any general incorporation language in such filing, unless expressly incorporated by specific reference to such filing.
+Item 9.01
+|
+Financial Statements and Exhibits
+|
+(d)
+|
+Exhibits
+|
+99.1
+|
+Press release dated October 29, 2026, regarding the financial results of AXT, Inc. for the quarter ended September 30, 2026.
+|
+EXHIBIT INDEX
+Exhibit
+Number
+|
+|
+Description
+|
+|
+|
+|
+99.1
+|
+|
+Press release dated October 29, 2026, regarding the financial results of AXT, Inc. for the quarter ended September 30, 2026.
+|
+104
+|
+|
+Cover Page Interactive Data File (embedded within the Inline XBRL document)
+|
+SIGNATURES
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+|
+AXT, INC.
+|
+|
+|
+|
+|
+|
+|
+Date: October 29, 2026
+|
+By:
+|
+/s/ Gary L. Fischer
+|
+|
+|
+Gary L. Fischer
+|
+|
+|
+Chief Financial Officer and Corporate Secretary
+|
+EX-99.1
+2
+ex_1013304.htm
+EXHIBIT 99.1
+ex_1013304.htm
+|
+Exhibit 99.1
+|
+|
+AXT, Inc. Third Quarter 2026 Results
+October 29, 2026
+Page 1 of 6
+|
+AXT, Inc. Announces Third Quarter 2026 Financial Results
+FREMONT, Calif., October 29, 2026 – AXT, Inc. (NasdaqGS: AXTI), a leading manufacturer of compound semiconductor wafer substrates, today reported financial results for the third quarter, ended September 30, 2026 .
+Management Qualitative Comments
+“This is a pivotal and exciting period for AXT,” said Morris Young, chief executive officer. “Our revenue in Q3 reached a record $73.4 million, up 54 percent from the prior quarter and up 162 percent year over year, driven by exceptionally strong customer demand for our indium phosphide material. We entered 2026 with a commitment to double our indium phosphide capacity and I am pleased to report that not only have we surpassed that goal but we have more than quadrupled our 2026 indium phosphide revenue opportunity through additional productivity gains and the expansion of our capabilities for high-value, large diameter products. We remain laser-focused on execution and supporting our customers as they scale, and we believe we are well positioned for transformational growth as our market continues on an extraordinary trajectory.”
+Third Quarter 2026 Results
+In order to provide better clarity on its operational and financial results, AXT reports its financial results on both a GAAP and non-GAAP basis. Non-GAAP results exclude stock-based compensation expense. Investors can find GAAP to non-GAAP reconciliation tables in the financial statements in this earnings release.
+|
+●
+|
+Revenue for the third quarter of 2026 was $73.4 million, compared with $47.6 million for the second quarter of 2026 and $28.0 million for the third quarter of 2025.
+|
+|
+●
+|
+GAAP gross margin was 56.0 percent of revenue for the third quarter of 2026, compared with 44.9 percent of revenue for the second quarter of 2026 and 22.3 percent for the third quarter of 2025.
+|
+|
+●
+|
+Non-GAAP gross margin, after excluding charges for stock-based compensation, was 56.1 percent of revenue for the third quarter of 2026, compared with 45.0 percent of revenue for the second quarter of 2026 and 22.4 percent for the third quarter of 2025.
+|
+|
+●
+|
+GAAP net income, after minority interests, for the third quarter of 2026 was a net income of $25.7 million, or $0.39 diluted income per share, compared with a net income of $11.1 million, or $0.17 per share, for the second quarter of 2026 and a net loss of $1.9 million, or $0.04 per share, for the third quarter of 2025.
+|
+|
+●
+|
+Non-GAAP net income for the third quarter of 2026 was a net income of $26.8 million, or $0.41 per share, compared with a net income of $11.9 million, or $0.19 per share, for the second quarter of 2026 and a net loss of $1.2 million, or $0.03 per share, for the third quarter of 2025.
+|
+AXT, Inc. Third Quarter 2026 Results
+October 29, 2026
+Page 2 of 6
+Conference Call
+The company will host a conference call to discuss these results today at 1:30 p.m. PT. The conference call can be accessed at (833) 461-5787 (passcode 457 551 713). The call will also be simulcast at www.axt.com. The webcast will be available at http://www.axt.com until October 29, 2027. Additional investor information can be accessed at http://www.axt.com.
+About AXT, Inc.
+AXT is a material science company that develops and manufactures high-performance compound and single element semiconductor wafer substrates comprising indium phosphide (InP), gallium arsenide (GaAs) and germanium (Ge). The company’s wafer substrates are used when a typical silicon wafer substrate cannot meet the performance requirements of a semiconductor or optoelectronic device. End markets include 5G infrastructure, data center connectivity (silicon photonics), passive optical networks, LED lighting, lasers, sensors, power amplifiers for wireless devices and satellite solar cells. AXT’s worldwide headquarters are in Fremont, California where the company maintains sales, administration and customer service functions. AXT has its Asia headquarters in Beijing, China and manufacturing facilities in three separate locations in China. In addition, as part of its supply chain strategy, the company has partial ownership in more than ten companies in China producing raw materials and consumables for its manufacturing process. For more information, see AXT’s website at http://www.axt.com.
+Note Regarding Use of Non-GAAP Financial Measures
+As discussed above, the company provides certain non-GAAP financial measures that exclude stock-based compensation in addition to, and not as a substitute for, or because it believes that such information is superior to, financial measures calculated in accordance with GAAP. The company believes that non-GAAP financial measures, when taken collectively, may be helpful to investors because they provide consistency and comparability with past financial performance and provide better comparability with our peer companies, many of which also use similar non-GAAP financial measures. Further, the company believes that these non-GAAP financial measures offer an important analytical tool to help investors understand the company’s core operating results and trends. In addition, management uses non-GAAP financial measures to compare the company’s performance relative to forecasts and strategic plans and to benchmark its performance externally against peer companies. However, non-GAAP financial information is presented for supplemental informational purposes only, has limitations as an analytical tool and should not be considered in isolation or as a substitute for financial information presented in accordance with GAAP. In addition, other companies may calculate similarly-titled non-GAAP financial measures differently or may use other measures to evaluate their performance, all of which could reduce the usefulness of the company’s non-GAAP financial measures as tools for comparison. The company encourages investors to carefully consider its results under GAAP, as well as its supplemental non‐GAAP information and the reconciliation between these presentations, to more fully understand its business. A reconciliation of our GAAP consolidated financial statements to our non-GAAP consolidated financial statements is provided below.
+AXT, Inc. Third Quarter 2026 Results
+October 29, 2026
+Page 3 of 6
+Forward-Looking Statements
+The foregoing paragraphs contain forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, or the Securities Act, and Section 21E of the Securities Exchange Act of 1934, as amended, or the Exchange Act. For example, our plans and ability to increase manufacturing capacity and to enable our industry to meet future demands and needs for our indium phosphide wafer substrates. Statements relating to our expectations regarding the receipt of export permits for our indium phosphide substrates, results of operations, market and customer demand for our products, our ability to expand our markets or increase sales, emerging applications using chips or devices fabricated on our substrates, including the use of indium phosphide wafer substrates in artificial intelligence (“AI”) applications, product yields and gross margins, expense levels, our investments in capital projects, ramping production at our sites, our ability to utilize or increase our manufacturing capacity, and our belief that we have adequate cash and investments to meet our needs are also forward-looking statements. The words “believe,” “may,” “will,” “estimate,” “continue,” “anticipate,” “intend,” “expect,” “could,” “would,” “project,” “plan,” “potentially,” “likely,” and similar expressions and variations thereof are intended to identify forward-looking statements, but are not the exclusive means of identifying such statements. These statements appear in this press release and elsewhere, include statements regarding the intent, belief or current expectations of our management that are subject to known and unknown risks, uncertainties and assumptions which could cause actual results to differ materially from those expressed or implied in the forward-looking statement. These risks, uncertainties and assumptions include, but are not limited to, the receipt of export permits for our indium phosphide substrates, the withdrawal, cancellations or requests for redemptions by private equity funds in China of their investments in Tongmei, the administrative challenges in satisfying the requirements of various government agencies in China in connection with the investments in Tongmei, geopolitical tensions between China and the United States, and other factors described and captioned “Risk Factors” in the company’s Annual Report on Form 10-K, quarterly reports on Form 10-Q and other filings made with the Securities and Exchange Commission. Each of these factors is difficult to predict and many are beyond the company’s control. The company does not undertake any obligation to update any forward-looking statement, as a result of new information, future events or otherwise. You are cautioned that any such forward-looking statements are not guarantees of future performance and involve risks and uncertainties, and that actual results may differ materially from those projected in the forward-looking statements as a result of various factors.
+###
+FINANCIAL TABLES TO FOLLOW
+AXT, Inc. Third Quarter 2026 Results
+October 29, 2026
+Page 4 of 6
+AXT, INC.
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS
+(Unaudited, in thousands, except per share data)
+|
+|
+Three Months Ended
+|
+|
+|
+Nine Months Ended
+|
+|
+|
+|
+September 30,
+|
+|
+|
+September 30,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Revenue
+|
+|
+$ |
+73,410 |
+|
+|
+$ |
+27,955 |
+|
+|
+$ |
+147,923 |
+|
+|
+$ |
+65,285 |
+|
+Cost of revenue
+|
+|
+|
+32,315 |
+|
+|
+|
+21,731 |
+|
+|
+|
+77,484 |
+|
+|
+|
+58,869 |
+|
+Gross profit
+|
+|
+|
+41,095 |
+|
+|
+|
+6,224 |
+|
+|
+|
+70,439 |
+|
+|
+|
+6,416 |
+|
+Operating expenses:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Selling, general and administrative
+|
+|
+|
+8,724 |
+|
+|
+|
+6,334 |
+|
+|
+|
+22,567 |
+|
+|
+|
+17,903 |
+|
+Research and development
+|
+|
+|
+3,944 |
+|
+|
+|
+1,013 |
+|
+|
+|
+10,607 |
+|
+|
+|
+6,656 |
+|
+Total operating expenses
+|
+|
+|
+12,668 |
+|
+|
+|
+7,347 |
+|
+|
+|
+33,174 |
+|
+|
+|
+24,559 |
+|
+Income (loss) from operations
+|
+|
+|
+28,427 |
+|
+|
+|
+(1,123 |
+) |
+|
+|
+37,265 |
+|
+|
+|
+(18,143 |
+) |
+Interest income (expense), net
+|
+|
+|
+5,895 |
+|
+|
+|
+(395 |
+) |
+|
+|
+10,724 |
+|
+|
+|
+(866 |
+) |
+Equity in income of unconsolidated joint ventures
+|
+|
+|
+237 |
+|
+|
+|
+515 |
+|
+|
+|
+1,007 |
+|
+|
+|
+592 |
+|
+Other income (expense), net
+|
+|
+|
+(238 |
+) |
+|
+|
+(166 |
+) |
+|
+|
+(598 |
+) |
+|
+|
+211 |
+|
+Income (loss) before provision for income taxes
+|
+|
+|
+34,321 |
+|
+|
+|
+(1,169 |
+) |
+|
+|
+48,398 |
+|
+|
+|
+(18,206 |
+) |
+Provision for income taxes
+|
+|
+|
+4,571 |
+|
+|
+|
+504 |
+|
+|
+|
+7,103 |
+|
+|
+|
+1,157 |
+|
+Net income (loss)
+|
+|
+|
+29,750 |
+|
+|
+|
+(1,673 |
+) |
+|
+|
+41,295 |
+|
+|
+|
+(19,363 |
+) |
+Less: Net (income) loss attributable to noncontrolling interests and redeemable noncontrolling interests
+|
+|
+|
+(4,027 |
+) |
+|
+|
+(233 |
+) |
+|
+|
+(6,064 |
+) |
+|
+|
+1,651 |
+|
+Net income (loss) attributable to AXT, Inc.
+|
+|
+$ |
+25,723 |
+|
+|
+$ |
+(1,906 |
+) |
+|
+$ |
+35,231 |
+|
+|
+$ |
+(17,712 |
+) |
+Net income (loss) attributable to AXT, Inc. per common share:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+$ |
+0.40 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+0.59 |
+|
+|
+$ |
+(0.41 |
+) |
+Diluted
+|
+|
+$ |
+0.39 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+0.57 |
+|
+|
+$ |
+(0.41 |
+) |
+Weighted-average number of common shares outstanding:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Basic
+|
+|
+|
+63,827 |
+|
+|
+|
+43,842 |
+|
+|
+|
+59,474 |
+|
+|
+|
+43,701 |
+|
+Diluted
+|
+|
+|
+65,862 |
+|
+|
+|
+43,842 |
+|
+|
+|
+61,731 |
+|
+|
+|
+43,701 |
+|
+AXT, Inc. Third Quarter 2026 Results
+October 29, 2026
+Page 5 of 6
+AXT, INC.
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(Unaudited, in thousands)
+|
+|
+September 30,
+|
+|
+|
+December 31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+ASSETS
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Current assets:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash and cash equivalents
+|
+|
+$ |
+485,472 |
+|
+|
+$ |
+120,266 |
+|
+Restricted cash
+|
+|
+|
+41,200 |
+|
+|
+|
+8,100 |
+|
+Short-term investments
+|
+|
+|
+27,266 |
+|
+|
+|
+— |
+|
+Accounts receivable, net
+|
+|
+|
+39,685 |
+|
+|
+|
+26,849 |
+|
+Inventories
+|
+|
+|
+103,658 |
+|
+|
+|
+81,651 |
+|
+Prepaid expenses and other current assets
+|
+|
+|
+27,334 |
+|
+|
+|
+9,690 |
+|
+Total current assets
+|
+|
+|
+724,615 |
+|
+|
+|
+246,556 |
+|
+Long-term investments
+|
+|
+|
+271,956 |
+|
+|
+|
+— |
+|
+Property, plant and equipment, net
+|
+|
+|
+194,370 |
+|
+|
+|
+161,860 |
+|
+Operating lease right-of-use assets
+|
+|
+|
+2,138 |
+|
+|
+|
+1,982 |
+|
+Other assets
+|
+|
+|
+24,801 |
+|
+|
+|
+23,353 |
+|
+Total assets
+|
+|
+$ |
+1,217,880 |
+|
+|
+$ |
+433,751 |
+|
+LIABILITIES, REDEEMABLE NONCONTROLLING INTERESTS AND STOCKHOLDERS’ EQUITY
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Current liabilities:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts payable
+|
+|
+$ |
+18,043 |
+|
+|
+$ |
+12,947 |
+|
+Accrued liabilities
+|
+|
+|
+100,407 |
+|
+|
+|
+14,798 |
+|
+Short-term loans
+|
+|
+|
+72,461 |
+|
+|
+|
+62,796 |
+|
+Total current liabilities
+|
+|
+|
+190,911 |
+|
+|
+|
+90,541 |
+|
+Noncurrent operating lease liabilities
+|
+|
+|
+1,215 |
+|
+|
+|
+1,441 |
+|
+Other long-term liabilities
+|
+|
+|
+42,930 |
+|
+|
+|
+7,138 |
+|
+Total liabilities
+|
+|
+|
+235,056 |
+|
+|
+|
+99,120 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Redeemable noncontrolling interests
+|
+|
+|
+42,287 |
+|
+|
+|
+38,056 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Stockholders’ equity:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Preferred stock
+|
+|
+|
+3,532 |
+|
+|
+|
+3,532 |
+|
+Common stock
+|
+|
+|
+66 |
+|
+|
+|
+55 |
+|
+Additional paid-in capital
+|
+|
+|
+944,829 |
+|
+|
+|
+339,922 |
+|
+Accumulated deficit
+|
+|
+|
+(29,693 |
+) |
+|
+|
+(64,924 |
+) |
+Accumulated other comprehensive loss
+|
+|
+|
+(5,385 |
+) |
+|
+|
+(5,295 |
+) |
+Total AXT, Inc. stockholders’ equity
+|
+|
+|
+913,349 |
+|
+|
+|
+273,290 |
+|
+Noncontrolling interests
+|
+|
+|
+27,188 |
+|
+|
+|
+23,285 |
+|
+Total stockholders’ equity
+|
+|
+|
+940,537 |
+|
+|
+|
+296,575 |
+|
+Total liabilities, redeemable noncontrolling interests and stockholders’ equity
+|
+|
+$ |
+1,217,880 |
+|
+|
+$ |
+433,751 |
+|
+AXT, Inc. Third Quarter 2026 Results
+October 29, 2026
+Page 6 of 6
+AXT, INC.
+Reconciliation of Statements of Operations Under GAAP and Non-GAAP
+(Unaudited, in thousands)
+|
+|
+Three Months Ended
+|
+|
+|
+Nine Months Ended
+|
+|
+|
+|
+September 30,
+|
+|
+|
+September 30,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+GAAP gross profit
+|
+|
+$ |
+41,095 |
+|
+|
+$ |
+6,224 |
+|
+|
+$ |
+70,439 |
+|
+|
+$ |
+6,416 |
+|
+Stock-based compensation expense
+|
+|
+|
+65 |
+|
+|
+|
+50 |
+|
+|
+|
+195 |
+|
+|
+|
+159 |
+|
+Non-GAAP gross profit
+|
+|
+$ |
+41,160 |
+|
+|
+$ |
+6,274 |
+|
+|
+$ |
+70,634 |
+|
+|
+$ |
+6,575 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP operating expenses
+|
+|
+$ |
+12,668 |
+|
+|
+$ |
+7,347 |
+|
+|
+$ |
+33,174 |
+|
+|
+$ |
+24,559 |
+|
+Stock-based compensation expense
+|
+|
+|
+1,004 |
+|
+|
+|
+688 |
+|
+|
+|
+2,671 |
+|
+|
+|
+1,858 |
+|
+Non-GAAP operating expenses
+|
+|
+$ |
+11,664 |
+|
+|
+$ |
+6,659 |
+|
+|
+$ |
+30,503 |
+|
+|
+$ |
+22,701 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP income (loss) from operations
+|
+|
+$ |
+28,427 |
+|
+|
+$ |
+(1,123 |
+) |
+|
+$ |
+37,265 |
+|
+|
+$ |
+(18,143 |
+) |
+Stock-based compensation expense
+|
+|
+|
+1,069 |
+|
+|
+|
+738 |
+|
+|
+|
+2,866 |
+|
+|
+|
+2,017 |
+|
+Non-GAAP income (loss) from operations
+|
+|
+$ |
+29,496 |
+|
+|
+$ |
+(385 |
+) |
+|
+$ |
+40,131 |
+|
+|
+$ |
+(16,126 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP net income (loss)
+|
+|
+$ |
+25,723 |
+|
+|
+$ |
+(1,906 |
+) |
+|
+$ |
+35,231 |
+|
+|
+$ |
+(17,712 |
+) |
+Stock-based compensation expense
+|
+|
+|
+1,069 |
+|
+|
+|
+738 |
+|
+|
+|
+2,866 |
+|
+|
+|
+2,017 |
+|
+Non-GAAP net income (loss)
+|
+|
+$ |
+26,792 |
+|
+|
+$ |
+(1,168 |
+) |
+|
+$ |
+38,097 |
+|
+|
+$ |
+(15,695 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+GAAP net income (loss) per diluted share
+|
+|
+$ |
+0.39 |
+|
+|
+$ |
+(0.04 |
+) |
+|
+$ |
+0.57 |
+|
+|
+$ |
+(0.41 |
+) |
+Stock-based compensation expense per diluted share
+|
+|
+$ |
+0.02 |
+|
+|
+$ |
+0.01 |
+|
+|
+$ |
+0.05 |
+|
+|
+$ |
+0.05 |
+|
+Non-GAAP net income (loss) per diluted share
+|
+|
+$ |
+0.41 |
+|
+|
+$ |
+(0.03 |
+) |
+|
+$ |
+0.62 |
+|
+|
+$ |
+(0.36 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Shares used to compute diluted net income per share
+|
+|
+|
+65,862 |
+|
+|
+|
+43,842 |
+|
+|
+|
+61,731 |
+|
+|
+|
+43,701 |
+|
+EX-101.SCH
+3
+axti-20260930.xsd
+XBRL TAXONOMY EXTENSION SCHEMA
+000 - Document - Document And Entity Information
+link:calculationLink
+link:definitionLink
+link:presentationLink
+EX-101.DEF
+4
+axti-20260930_def.xml
+XBRL TAXONOMY EXTENSION DEFINITION LINKBASE
+EX-101.LAB
+5
+axti-20260930_lab.xml
+XBRL TAXONOMY EXTENSION LABEL LINKBASE
+Entity [Domain]
+Legal Entity [Axis]
+Document Information [Line Items]
+Document Information [Table]
+Document, Type
+Document, Period End Date
+Entity, Registrant Name
+Entity, Incorporation, State or Country Code
+Entity, File Number
+Entity, Tax Identification Number
+Entity, Address, Address Line One
+Entity, Address, City or Town
+Entity, Address, State or Province
+Entity, Address, Postal Zip Code
+City Area Code
+Local Phone Number
+Written Communications
+Soliciting Material
+Pre-commencement Tender Offer
+Pre-commencement Issuer Tender Offer
+Entity, Emerging Growth Company
+Title of 12(b) Security
+Trading Symbol
+Security Exchange Name
+Amendment Flag
+Entity, Central Index Key
+EX-101.PRE
+6
+axti-20260930_pre.xml
+XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE
+GRAPHIC
+7
+axtlogo.jpg
+begin 644 axtlogo.jpg
+M_]C_X 02D9)1@ ! 0$ 8 !@ #_VP!# (! 0(! 0(" @(" @(" P4# P,#
+M P8$! ,%!P8'!P 7J#A(6&AXB)BI*3E)66EYB9FJ*CI*6FIZBIJK*SM+6VM[BYNL+#Q,7&
+MQ\C)RM+3U-76U]C9VN'BX^3EYN?HZ>KQ\O/T]?;W^/GZ_\0 'P$ P$! 0$!
+M 0$! 0 $" P0%!@ 'EZ@H.$
+MA8:'B(F*DI.4E9:7F)F:HJ.DI::GJ*FJLK.TM;:WN+FZPL/$Q ;GZ.GJ\O/T]?;W^/GZ_]H # ,! (1 Q$ /P#]_*\+_;#_
+M ."A_P ./V+-/6/Q+J,E_P"(;F/S+70M. EO9AV9AD+&F?XG('IFL_\ X*2_
+MML0?L2?L_P VL6BP7/BO7)#I^@VLO*M.5RTSCO'$OS$=SM'\5?AGJFI^)/C7
+M\0[J]NGU?Q5XJUZ 2$\G:H)QV P!@# KY7B#B%X-_5\.KU'^'^
+M;/Z!\'O!J/$M-YOF\G#"1;22T=1K?5[06S>[=TK6;7W!\3O^#@KXB:[J$@\)
+M^#O#/AZQW?NS?R27]R1_M$%$!^@-8?A+_@OI\9-%OU?5-&\%:W;9^:(VLMJQ
+M'LR. NS[WZ5Y?KV@W_A76)M.U
+M6PO=+U"W.);6\@>":/ZHX!'Y5\36SC-82YZDY+Y67W6L?U'EOAMX?8BD\-@L
+M+0J);VESR7K+F (()O 'B>[81P0W\ZR6-Y(
+M> L5P &)Z*X4GH,FOL6OYDG02*0P!![&OU;_P""*7_!0S4/BC"WPB\;:A)?
+M:UI=J9_#VH7#EIKVVC WVSL>6>,8*D\E,Y^[S]3D'$\Z]18;%_$]GW\G^GW'
+MX%XO^!&'RG!SSSAZ_LH:U*;;ERQ_F@WJTOM)W:6M[)I?HE1117VY_+!^4/\
+MP5"\%^)?VX/^"H'A[X3^'7"KH>DPPM*X+0:>LN9[FZ -QJ !I](\6Z3"]X(R+'5H$"7VFOV>.3KC/5#E6[BO@[X%?\%&
+M?B)\)/$EO)K&KWGB[0BX%U9Z@XDFV=S%+C XK]-?!7C#3_B#X1TW7
+M-*G%SIVK6R75O(/XD >1V->QP]Q3E_$%*=.G%IKXHRML^O5-?EY:'YC
+MR9AD>*IXO#5'" ,XMIIK^MMFC^>3]I[]G37OV4OC=K7@?Q"%DN]+ WL%O$HZL[R*JC\R*^'S3"?4L=*E3?PM-?FON/\ 1O@+B*/%
+M/"E''XV*O5A*-1=&TW"?RE9NW1.Q_2[#,MQ"DB'*NH8'U!HJ#1[,Z?I%K;L2
+M6@A2,GUPH%%?LRV/\QII*32V/(OVU/AM-KO[//Q%NM'@GEUC5-%C@DCA&6N(
+MX)&DP .2VUY![@XK\H%8.H(Y!K]Q:^2/VL/^"8-I\6O%C^(?!%[IWAW4+UB]
+M_9W$;"TN'/\ RT38"8V)Z@ @]>#U_*/$?@[%YE*&.P*YI17*X]6KMW72^KNO
+MN/J 5E;;ZJ%&?6MO]L#_ (+9_#GX,^&KC0_A?=67CGQ88_L]JUF"=+T\
+MXP&9QQ)M[)'G/J!7F S'&^:5OXG8CD] , 5]5@,MK9ECWF%>/+3O=)];;+T[O[C]UXNXVRS@C
+MA&'!V45U6Q?(X3E%W4'-MU)-_P S;:A'=:.5K)/O:***_03^-PHHJ&TU&WU#
+M?Y$\,_EG:WEN&VGT..E [.US$\9?"+PI\11CQ!X8\/ZYV_XF&G0W./\ OM35
+M'PM^S[X"\#72SZ+X*\)Z3.ARLEGI%O"ZGV*H#77%@,9(&:"P'4@9K-T:;?,X
+MJ_H= !/V.OA9\,;K3+
+MC0/ /A?2[K1[AKNSN8;%! 73A-RFJRDEK"7M*?)%M.:2Y'9VY)-VNIK8F_:K\-^%/
+M$OP)UY/&5\^E:):P&Y:_BE, &Q@?Q$X[U\\?L4:_J'Q;^.-M?
+M?%#4-3_X2_1-%AD\+:=>PFUCNK%Q\U^$SB2=^-V>5ZX]/K3QCX"T7XA:9'9:
+M[IEGJUG#,MPD%U&)8Q(OW6VG@D=J36OA_HGB/7],U6^TJQNM2T9F:QNI(@9K
+M0L,'8W49[@5RYCD=7$9A3QL7%*'+>+O[]F_BZ>Y>\-':5[^7YUA\;&G0E1=[
+MN^O;T]=I>1\T?\%HOAWIWB[]@GQ=K%VU\+OPK''?V0@NY(HC(TL 6I
+M'\*X'M7JOBCPKIOC;P[>Z1K%C:ZGI>HPM!=6MS&)89XV&"K*>"#7,?!7]G#P
+M+^SEIE]9>!O#&E^&;74YEGNH[*,H)W4;0S9)R0.!7K?4K8WZRDM4EYIJ^VG6
+L]NFQ]&N*%+AC^PIU*B
+XML
+9
+R1.htm
+IDEA: XBRL DOCUMENT
+v3.26.3
+Document And Entity Information
+|
+Sep. 30, 2026
+|
+Document Information [Line Items] |
+|
+Entity, Registrant Name |
+AXT, INC.
+|
+Document, Type |
+8-K
+|
+Document, Period End Date |
+Sep. 30, 2026
+|
+Entity, Incorporation, State or Country Code |
+DE
+|
+Entity, File Number |
+000-24085
+|
+Entity, Tax Identification Number |
+94-3031310
+|
+Entity, Address, Address Line One |
+4281 Technology Drive
+|
+Entity, Address, City or Town |
+Fremont
+|
+Entity, Address, State or Province |
+CA
+|
+Entity, Address, Postal Zip Code |
+94538
+|
+City Area Code |
+510
+|
+Local Phone Number |
+438-4700
+|
+Written Communications |
+false
+|
+Soliciting Material |
+false
+|
+Pre-commencement Tender Offer |
+false
+|
+Pre-commencement Issuer Tender Offer |
+false
+|
+Entity, Emerging Growth Company |
+false
+|
+Title of 12(b) Security |
+Common Stock
+|
+Trading Symbol |
+AXTI
+|
+Security Exchange Name |
+NASDAQ
+|
+Amendment Flag |
+false
+|
+Entity, Central Index Key |
+0001051627
+|
+X |
+- Definition Boolean flag that is true when the XBRL content amends previously-filed or accepted submission.
++ References No definition available.
++ Details
+Name: |
+dei_AmendmentFlag |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Area code of city
++ References No definition available.
++ Details
+Name: |
+dei_CityAreaCode |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table.
++ References No definition available.
++ Details
+Name: |
+dei_DocumentInformationLineItems |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:stringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition For the EDGAR submission types of Form 8-K: the date of the report, the date of the earliest event reported; for the EDGAR submission types of Form N-1A: the filing date; for all other submission types: the end of the reporting or transition period. The format of the date is YYYY-MM-DD.
++ References No definition available.
++ Details
+Name: |
+dei_DocumentPeriodEndDate |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:dateItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition The type of document being provided (such as 10-K, 10-Q, 485BPOS, etc). The document type is limited to the same value as the supporting SEC submission type, or the word 'Other'.
++ References No definition available.
++ Details
+Name: |
+dei_DocumentType |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:submissionTypeItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Address Line 1 such as Attn, Building Name, Street Name
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressAddressLine1 |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Name of the City or Town
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressCityOrTown |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Code for the postal or zip code
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressPostalZipCode |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Name of the state or province.
++ References No definition available.
++ Details
+Name: |
+dei_EntityAddressStateOrProvince |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:stateOrProvinceItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition A unique 10-digit SEC-issued value to identify entities that have filed disclosures with the SEC. It is commonly abbreviated as CIK.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityCentralIndexKey |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:centralIndexKeyItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Indicate if registrant meets the emerging growth company criteria.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityEmergingGrowthCompany |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Commission file number. The field allows up to 17 characters. The prefix may contain 1-3 digits, the sequence number may contain 1-8 digits, the optional suffix may contain 1-4 characters, and the fields are separated with a hyphen.
++ References No definition available.
++ Details
+Name: |
+dei_EntityFileNumber |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:fileNumberItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Two-character EDGAR code representing the state or country of incorporation.
++ References No definition available.
++ Details
+Name: |
+dei_EntityIncorporationStateCountryCode |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:edgarStateCountryItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityRegistrantName |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), is a unique 9-digit value assigned by the IRS.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b-2
++ Details
+Name: |
+dei_EntityTaxIdentificationNumber |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:employerIdItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Local phone number for entity.
++ References No definition available.
++ Details
+Name: |
+dei_LocalPhoneNumber |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:normalizedStringItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 13e
+-Subsection 4c
++ Details
+Name: |
+dei_PreCommencementIssuerTenderOffer |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 14d
+-Subsection 2b
++ Details
+Name: |
+dei_PreCommencementTenderOffer |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Title of a 12(b) registered security.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection b
++ Details
+Name: |
+dei_Security12bTitle |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:securityTitleItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Name of the Exchange on which a security is registered.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 12
+-Subsection d1-1
++ Details
+Name: |
+dei_SecurityExchangeName |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:edgarExchangeCodeItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as soliciting material pursuant to Rule 14a-12 under the Exchange Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Exchange Act
+-Number 240
+-Section 14a
+-Subsection 12
++ Details
+Name: |
+dei_SolicitingMaterial |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Trading symbol of an instrument as listed on an exchange.
++ References No definition available.
++ Details
+Name: |
+dei_TradingSymbol |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+dei:tradingSymbolItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+X |
+- Definition Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as written communications pursuant to Rule 425 under the Securities Act.
++ References Reference 1: http://www.xbrl.org/2003/role/presentationRef
+-Publisher SEC
+-Name Securities Act
+-Number 230
+-Section 425
++ Details
+Name: |
+dei_WrittenCommunications |
+Namespace Prefix: |
+dei_ |
+Data Type: |
+xbrli:booleanItemType |
+Balance Type: |
+na |
+Period Type: |
+duration |
+|
+XML
+10
+report.css
+IDEA: XBRL DOCUMENT
+/* Updated 2009-11-04 */
+/* v2.2.0.24 */
+/* DefRef Styles */
+.report table.authRefData{
+background-color: #def;
+border: 2px solid #2F4497;
+font-size: 1em;
+position: absolute;
+}
+.report table.authRefData a {
+display: block;
+font-weight: bold;
+}
+.report table.authRefData p {
+margin-top: 0px;
+}
+.report table.authRefData .hide {
+background-color: #2F4497;
+padding: 1px 3px 0px 0px;
+text-align: right;
+}
+.report table.authRefData .hide a:hover {
+background-color: #2F4497;
+}
+.report table.authRefData .body {
+height: 150px;
+overflow: auto;
+width: 400px;
+}
+.report table.authRefData table{
+font-size: 1em;
+}
+/* Report Styles */
+.pl a, .pl a:visited {
+color: black;
+text-decoration: none;
+}
+/* table */
+.report {
+background-color: white;
+border: 2px solid #acf;
+clear: both;
+color: black;
+font: normal 8pt Helvetica, Arial, san-serif;
+margin-bottom: 2em;
+}
+.report hr {
+border: 1px solid #acf;
+}
+/* Top labels */
+.report th {
+background-color: #acf;
+color: black;
+font-weight: bold;
+text-align: center;
+}
+.report th.void {
+background-color: transparent;
+color: #000000;
+font: bold 10pt Helvetica, Arial, san-serif;
+text-align: left;
+}
+.report .pl {
+text-align: left;
+vertical-align: top;
+white-space: normal;
+width: 200px;
+white-space: normal; /* word-wrap: break-word; */
+}
+.report td.pl a.a {
+cursor: pointer;
+display: block;
+width: 200px;
+overflow: hidden;
+}
+.report td.pl div.a {
+width: 200px;
+}
+.report td.pl a:hover {
+background-color: #ffc;
+}
+/* Header rows... */
+.report tr.rh {
+background-color: #acf;
+color: black;
+font-weight: bold;
+}
+/* Calendars... */
+.report .rc {
+background-color: #f0f0f0;
+}
+/* Even rows... */
+.report .re, .report .reu {
+background-color: #def;
+}
+.report .reu td {
+border-bottom: 1px solid black;
+}
+/* Odd rows... */
+.report .ro, .report .rou {
+background-color: white;
+}
+.report .rou td {
+border-bottom: 1px solid black;
+}
+.report .rou table td, .report .reu table td {
+border-bottom: 0px solid black;
+}
+/* styles for footnote marker */
+.report .fn {
+white-space: nowrap;
+}
+/* styles for numeric types */
+.report .num, .report .nump {
+text-align: right;
+white-space: nowrap;
+}
+.report .nump {
+padding-left: 2em;
+}
+.report .nump {
+padding: 0px 0.4em 0px 2em;
+}
+/* styles for text types */
+.report .text {
+text-align: left;
+white-space: normal;
+}
+.report .text .big {
+margin-bottom: 1em;
+width: 17em;
+}
+.report .text .more {
+display: none;
+}
+.report .text .note {
+font-style: italic;
+font-weight: bold;
+}
+.report .text .small {
+width: 10em;
+}
+.report sup {
+font-style: italic;
+}
+.report .outerFootnotes {
+font-size: 1em;
+}
+XML
+11
+Show.js
+IDEA: XBRL DOCUMENT
+// Edgar(tm) Renderer was created by staff of the U.S. Securities and Exchange Commission. Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection. 17 U.S.C. 105.
+var Show={};Show.LastAR=null,Show.showAR=function(a,r,w){if(Show.LastAR)Show.hideAR();var e=a;while(e&&e.nodeName!='TABLE')e=e.nextSibling;if(!e||e.nodeName!='TABLE'){var ref=((window)?w.document:document).getElementById(r);if(ref){e=ref.cloneNode(!0);
+e.removeAttribute('id');a.parentNode.appendChild(e)}}
+if(e)e.style.display='block';Show.LastAR=e};Show.hideAR=function(){Show.LastAR.style.display='none'};Show.toggleNext=function(a){var e=a;while(e.nodeName!='DIV')e=e.nextSibling;if(!e.style){}else if(!e.style.display){}else{var d,p_;if(e.style.display=='none'){d='block';p='-'}else{d='none';p='+'}
+e.style.display=d;if(a.textContent){a.textContent=p+a.textContent.substring(1)}else{a.innerText=p+a.innerText.substring(1)}}}
+XML
+13
+FilingSummary.xml
+IDEA: XBRL DOCUMENT
+3.26.3
+html
+1
+22
+1
+false
+0
+0
+false
+0
+false
+false
+R1.htm
+000 - Document - Document And Entity Information
+Sheet
+http://www.axti.com/20260930/role/statement-document-and-entity-information
+Document And Entity Information
+Cover
+1
+false
+false
+All Reports
+Book
+All Reports
+axti-20260930.xsd
+axti-20260930_def.xml
+axti-20260930_lab.xml
+axti-20260930_pre.xml
+axti20260905_8k.htm
+http://xbrl.sec.gov/dei/2026
+true
+false
+JSON
+15
+MetaLinks.json
+IDEA: XBRL DOCUMENT
+{
+"version": "2.2",
+"instance": {
+"axti20260905_8k.htm": {
+"nsprefix": "axti",
+"nsuri": "http://www.axti.com/20260930",
+"dts": {
+"schema": {
+"local": [
+"axti-20260930.xsd"
+],
+"remote": [
+"http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd",
+"http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd",
+"http://www.xbrl.org/2003/xl-2003-12-31.xsd",
+"http://www.xbrl.org/2003/xlink-2003-12-31.xsd",
+"http://www.xbrl.org/2005/xbrldt-2005.xsd",
+"http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd",
+"http://www.xbrl.org/lrr/role/net-2009-12-16.xsd",
+"https://www.xbrl.org/dtr/type/2024-01-31/types.xsd",
+"https://xbrl.sec.gov/country/2026/country-2026.xsd",
+"https://xbrl.sec.gov/currency/2026/currency-2026.xsd",
+"https://xbrl.sec.gov/cyd/2026/cyd-2026.xsd",
+"https://xbrl.sec.gov/cyd/2026/cyd-8k-sub-2026.xsd",
+"https://xbrl.sec.gov/cyd/2026/cyd-cr-2026.xsd",
+"https://xbrl.sec.gov/dei/2026/dei-2026.xsd",
+"https://xbrl.sec.gov/exch/2026/exch-2026.xsd",
+"https://xbrl.sec.gov/sic/2026/sic-2026.xsd",
+"https://xbrl.sec.gov/stpr/2026/stpr-2026.xsd"
+]
+},
+"definitionLink": {
+"local": [
+"axti-20260930_def.xml"
+]
+},
+"labelLink": {
+"local": [
+"axti-20260930_lab.xml"
+]
+},
+"presentationLink": {
+"local": [
+"axti-20260930_pre.xml"
+]
+},
+"inline": {
+"local": [
+"axti20260905_8k.htm"
+]
+}
+},
+"keyStandard": 22,
+"keyCustom": 0,
+"axisStandard": 0,
+"axisCustom": 0,
+"memberStandard": 0,
+"memberCustom": 0,
+"hidden": {
+"total": 2,
+"http://xbrl.sec.gov/dei/2026": 2
+},
+"contextCount": 1,
+"entityCount": 1,
+"segmentCount": 0,
+"elementCount": 36,
+"unitCount": 0,
+"baseTaxonomies": {
+"http://xbrl.sec.gov/dei/2026": 22
+},
+"report": {
+"R1": {
+"role": "http://www.axti.com/20260930/role/statement-document-and-entity-information",
+"longName": "000 - Document - Document And Entity Information",
+"shortName": "Document And Entity Information",
+"isDefault": "true",
+"groupType": "document",
+"subGroupType": "",
+"menuCat": "Cover",
+"order": "1",
+"firstAnchor": {
+"contextRef": "d20268K",
+"name": "dei:EntityRegistrantName",
+"unitRef": null,
+"xsiNil": "false",
+"lang": "en-US",
+"decimals": null,
+"ancestors": [
+"div",
+"body",
+"html"
+],
+"reportCount": 1,
+"baseRef": "axti20260905_8k.htm",
+"first": true,
+"unique": true
+},
+"uniqueAnchor": {
+"contextRef": "d20268K",
+"name": "dei:EntityRegistrantName",
+"unitRef": null,
+"xsiNil": "false",
+"lang": "en-US",
+"decimals": null,
+"ancestors": [
+"div",
+"body",
+"html"
+],
+"reportCount": 1,
+"baseRef": "axti20260905_8k.htm",
+"first": true,
+"unique": true
+}
+}
+},
+"tag": {
+"dei_AmendmentFlag": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "AmendmentFlag",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Amendment Flag",
+"documentation": "Boolean flag that is true when the XBRL content amends previously-filed or accepted submission."
+}
+}
+},
+"auth_ref": []
+},
+"dei_CityAreaCode": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "CityAreaCode",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "City Area Code",
+"documentation": "Area code of city"
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentInformationLineItems": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentInformationLineItems",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Document Information [Line Items]",
+"documentation": "Line items represent financial concepts included in a table. These concepts are used to disclose reportable information associated with domain members defined in one or many axes to the table."
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentInformationTable": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentInformationTable",
+"lang": {
+"en-us": {
+"role": {
+"label": "Document Information [Table]",
+"documentation": "Container to support the formal attachment of each official or unofficial, public or private document as part of a submission package."
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentPeriodEndDate": {
+"xbrltype": "dateItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentPeriodEndDate",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Document, Period End Date",
+"documentation": "For the EDGAR submission types of Form 8-K: the date of the report, the date of the earliest event reported; for the EDGAR submission types of Form N-1A: the filing date; for all other submission types: the end of the reporting or transition period. The format of the date is YYYY-MM-DD."
+}
+}
+},
+"auth_ref": []
+},
+"dei_DocumentType": {
+"xbrltype": "submissionTypeItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "DocumentType",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Document, Type",
+"documentation": "The type of document being provided (such as 10-K, 10-Q, 485BPOS, etc). The document type is limited to the same value as the supporting SEC submission type, or the word 'Other'."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressAddressLine1": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressAddressLine1",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, Address Line One",
+"documentation": "Address Line 1 such as Attn, Building Name, Street Name"
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressCityOrTown": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressCityOrTown",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, City or Town",
+"documentation": "Name of the City or Town"
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressPostalZipCode": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressPostalZipCode",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, Postal Zip Code",
+"documentation": "Code for the postal or zip code"
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityAddressStateOrProvince": {
+"xbrltype": "stateOrProvinceItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityAddressStateOrProvince",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Address, State or Province",
+"documentation": "Name of the state or province."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityCentralIndexKey": {
+"xbrltype": "centralIndexKeyItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityCentralIndexKey",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Central Index Key",
+"documentation": "A unique 10-digit SEC-issued value to identify entities that have filed disclosures with the SEC. It is commonly abbreviated as CIK."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_EntityDomain": {
+"xbrltype": "domainItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityDomain",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity [Domain]",
+"documentation": "All the names of the entities being reported upon in a document. Any legal structure used to conduct activities or to hold assets. Some examples of such structures are corporations, partnerships, limited liability companies, grantor trusts, and other trusts. This item does not include business and geographical segments which are included in the geographical or business segments domains."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityEmergingGrowthCompany": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityEmergingGrowthCompany",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Emerging Growth Company",
+"documentation": "Indicate if registrant meets the emerging growth company criteria."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_EntityFileNumber": {
+"xbrltype": "fileNumberItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityFileNumber",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, File Number",
+"documentation": "Commission file number. The field allows up to 17 characters. The prefix may contain 1-3 digits, the sequence number may contain 1-8 digits, the optional suffix may contain 1-4 characters, and the fields are separated with a hyphen."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityIncorporationStateCountryCode": {
+"xbrltype": "edgarStateCountryItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityIncorporationStateCountryCode",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Incorporation, State or Country Code",
+"documentation": "Two-character EDGAR code representing the state or country of incorporation."
+}
+}
+},
+"auth_ref": []
+},
+"dei_EntityRegistrantName": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityRegistrantName",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Registrant Name",
+"documentation": "The exact name of the entity filing the report as specified in its charter, which is required by forms filed with the SEC."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_EntityTaxIdentificationNumber": {
+"xbrltype": "employerIdItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "EntityTaxIdentificationNumber",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Entity, Tax Identification Number",
+"documentation": "The Tax Identification Number (TIN), also known as an Employer Identification Number (EIN), is a unique 9-digit value assigned by the IRS."
+}
+}
+},
+"auth_ref": [
+"r1"
+]
+},
+"dei_LegalEntityAxis": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "LegalEntityAxis",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Legal Entity [Axis]",
+"documentation": "The set of legal entities associated with a report."
+}
+}
+},
+"auth_ref": []
+},
+"dei_LocalPhoneNumber": {
+"xbrltype": "normalizedStringItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "LocalPhoneNumber",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Local Phone Number",
+"documentation": "Local phone number for entity."
+}
+}
+},
+"auth_ref": []
+},
+"cyd_MaterialCybersecurityIncidentAbstract": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentAbstract",
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Abstract]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentAxis": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentAxis",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Axis]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentDomain": {
+"xbrltype": "domainItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentDomain",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Domain]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentInformationNotAvailableOrUndeterminedTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentInformationNotAvailableOrUndeterminedTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Information Not Available or Undetermined [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r8"
+]
+},
+"cyd_MaterialCybersecurityIncidentLineItems": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentLineItems",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Line Items]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentMaterialImpactOrReasonablyLikelyMaterialImpactTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentMaterialImpactOrReasonablyLikelyMaterialImpactTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Material Impact or Reasonably Likely Material Impact [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentNatureTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentNatureTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Nature [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentScopeTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentScopeTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Scope [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"cyd_MaterialCybersecurityIncidentTable": {
+"xbrltype": "stringItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentTable",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident [Table]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r7"
+]
+},
+"cyd_MaterialCybersecurityIncidentTimingTextBlock": {
+"xbrltype": "textBlockItemType",
+"nsuri": "http://xbrl.sec.gov/cyd/2026",
+"localname": "MaterialCybersecurityIncidentTimingTextBlock",
+"presentation": [
+"http://xbrl.sec.gov/cyd/role/MaterialCybersecurityIncidentDisclosure"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Material Cybersecurity Incident Timing [Text Block]"
+}
+}
+},
+"auth_ref": [
+"r6",
+"r9"
+]
+},
+"dei_PreCommencementIssuerTenderOffer": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "PreCommencementIssuerTenderOffer",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Pre-commencement Issuer Tender Offer",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act."
+}
+}
+},
+"auth_ref": [
+"r3"
+]
+},
+"dei_PreCommencementTenderOffer": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "PreCommencementTenderOffer",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Pre-commencement Tender Offer",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act."
+}
+}
+},
+"auth_ref": [
+"r5"
+]
+},
+"dei_Security12bTitle": {
+"xbrltype": "securityTitleItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "Security12bTitle",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Title of 12(b) Security",
+"documentation": "Title of a 12(b) registered security."
+}
+}
+},
+"auth_ref": [
+"r0"
+]
+},
+"dei_SecurityExchangeName": {
+"xbrltype": "edgarExchangeCodeItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "SecurityExchangeName",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Security Exchange Name",
+"documentation": "Name of the Exchange on which a security is registered."
+}
+}
+},
+"auth_ref": [
+"r2"
+]
+},
+"dei_SolicitingMaterial": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "SolicitingMaterial",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Soliciting Material",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as soliciting material pursuant to Rule 14a-12 under the Exchange Act."
+}
+}
+},
+"auth_ref": [
+"r4"
+]
+},
+"dei_TradingSymbol": {
+"xbrltype": "tradingSymbolItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "TradingSymbol",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Trading Symbol",
+"documentation": "Trading symbol of an instrument as listed on an exchange."
+}
+}
+},
+"auth_ref": []
+},
+"dei_WrittenCommunications": {
+"xbrltype": "booleanItemType",
+"nsuri": "http://xbrl.sec.gov/dei/2026",
+"localname": "WrittenCommunications",
+"presentation": [
+"http://www.axti.com/20260930/role/statement-document-and-entity-information"
+],
+"lang": {
+"en-us": {
+"role": {
+"label": "Written Communications",
+"documentation": "Boolean flag that is true when the Form 8-K filing is intended to satisfy the filing obligation of the registrant as written communications pursuant to Rule 425 under the Securities Act."
+}
+}
+},
+"auth_ref": [
+"r10"
+]
+}
+}
+}
+},
+"std_ref": {
+"r0": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "12",
+"Subsection": "b"
+},
+"r1": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "12",
+"Subsection": "b-2"
+},
+"r2": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "12",
+"Subsection": "d1-1"
+},
+"r3": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "13e",
+"Subsection": "4c"
+},
+"r4": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "14a",
+"Subsection": "12"
+},
+"r5": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Exchange Act",
+"Number": "240",
+"Section": "14d",
+"Subsection": "2b"
+},
+"r6": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 6-K",
+"Section": "General Instruction",
+"Subsection": "B"
+},
+"r7": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 8-K",
+"Section": "1.05"
+},
+"r8": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 8-K",
+"Section": "1.05",
+"Subsection": "Instruction",
+"Paragraph": "2"
+},
+"r9": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Form 8-K",
+"Section": "1.05",
+"Subsection": "a"
+},
+"r10": {
+"role": "http://www.xbrl.org/2003/role/presentationRef",
+"Publisher": "SEC",
+"Name": "Securities Act",
+"Number": "230",
+"Section": "425"
+}
+}
+}
+ZIP
+16
+0001437749-26-033941-xbrl.zip
+IDEA: XBRL DOCUMENT
+begin 644 0001437749-26-033941-xbrl.zip
+M4$L#!!0 ( !>"75UX:E)6@@, !H. 1 87AT:2TR,#(V,#DS,"YX
+M 6!MQ F"35L82+M%DP)[*VB1MHE*I):D&OO?
+M=X9Z6$KD1/:AZ,D49[Z9;X;#X?CJ9INEY(>T3AD]C\:C.")2)T8HO9Y'7Q_H
+M[ GIQ'NC(Q=@X'XC"F--!(9U?I.=+2?SFK=,?OOX_U#L-THITI_[U,?3Z=3
+M%J2UJO.Y;30#!2>3T=K\8"@)P=2J+XQV&:-XR5W#6'A+_2Z7KA\#8H9B='%.
+MXS$]&T>MW C?956YN6"EL'$B53][$'3()Z;0WN[ZE2MA!^!4 ^6T^X,4I,%LS%TS.H=NZ]5 JI62 BY$*C.I?4>A)?; Z_D(0)O( *0=FNU7%Q3*Y?:3F#_+8A] JX.#WF;B\ Y;_3#ZO3(=X+^_9VZ8GE4[&6+OVS!NPPJ#EQKXX.AFA7/ GU(8+DUN;1>2==^WH.!C96K>80]G];]_EO*
+MER-XC6J5%PZZ?3LT3(#(]'Y/K\9B]YA'#M*;RC+;OS(0(5?'!@(0I14>PF\7
+M36[EL=$ Q,$8P(^+!Z&/("(*AA9XCWV8):@P21$6,%=3^%5^1[$\;1;L1P1Q
+M7[\L7I\F2F+#K3:L]B=3CDI#9MCK.(YAHK^K?+27MUJ0=\$=6>S=7;%GOAKW
+MA9/B7WT=U@E/DR)MLEJ!*HT^0+>JWM9_?FXO$*QS4&'G6 0)CH; -9[5MSI!D)\R/8OV$6.#G$=OZ*@4V@$69VD:^IT#I0*E'ZPI
+M\GD4_C;-%)0 S**A",L=X 3_XA:PCV%!F89=N"3*B,>@)PI;NF%-D&43AL^?
+M4$L#!!0 ( !>"75WQ+VFPV 0 .8L 5 87AT:2TR,#(V,#DS,%]D
+M968N>&ULS5I=C^(V%'VOU/^0IL\A?,QL"UIVA9C9%>K,#AI8M>I+99(+6.O8
+MR'$&^/>UP\ D'&!B!=XC7K8;(?->O.#=].YO>G4F][P,0A4?X+ICX[ZF* 4/,F#IOG/
+MKC\78M$)P^5R65M-.*DQ/I,AZJUPA_:W WE]^?! 8 R'60XF1!P _?2REF" C,VD ?[O/A_P[LVN(&@"I.OKFC=,B#IU&3_(Q_68%"^RBS.ZV\[,
+MX'4VQFA"H(!=&?1Z#.5:A(% ]%2XBIT$XSMQ8AC=D
+MZK#9,9,A QK?R9/!0*D0YW1//L,,IX(C*KZAI(B:">:4V4!6S7S!>+Z4
+M1^I([;.,"K[NLUA/U*J74]Y?,(%OV6'9=$3R&.*4T1BM!K%Z^DSQIIHNH5>"
+M=\JU%\ JXPD
+M-?!K,!TR63*1?_'"N+5-8$ O1XY#$N]V_7
+MK\M>N2/4B0A+(>[Z@F?[E&_-IO/=OBEGB?DED979%7*(,A&-BXMXZU* S>,E_576>KNU-1@6LQ#W)GS-=/X69NCA9]X'U;M1Y
+M[*"P4SRA*R[,(KO^?=*.[1$+. [+6,BZJ:BL$UP I6'K:UH
+MHZYZ1 T"B(@>*K!H7&Y^N??[K\Q?.^88I9P'&$A@LTF,QHA-D72##J >-!C#S4
+M//-;;;]UUOJ$/EQ\_'!QUD*]>\^3Y\>$_GLA?PR#%"/1!TW5TZO&A//IA>^_
+MOKZ>SH PE)1>I>O$.PH K)?>^!62LD,^\59DG7_*:
+M+>^\>3I/H\9:. 8Q?L(C)'\_/W6-C&U?5O@4CZ5/=\$0QZ)C!3%A>*0_+V8L
+M=YKLHBV[:'Z27?RJ0^.+J0A'2I)IC!O^._OL848@NJ5';E@/:Z'S/@\8M]'[
+M+O!1NQ^ ^-@>M^]=R.-V+*Y=^,@=[T >M>,'?.1D; ,>J]L#VN2[+9;J+98U
+M=^+1LDS"%5Q$%=ORDKT!B^ 2?6\H)7X@5+2!T1:5:O6J8#F>=Q'(A +;]#HLAO'A3J5(2[$K+ DJ!00A[)U#OQJ8DSSLZ VNHD,KCR6C6X=-
+MHD$)-:SX_ 7"68(I[](1L$3-9>(*@[L F1
+MXG 4)CTG*64#Y0Y#HHE!4=M .( _E9B=P@MY8D:2M84=@
+MD!#*:F,Q!%T: IL"4^M+GXO\W X3['%^3_U!,3!@NLJ$H$=Y_OH2LD]>J*R;Q>QTHDC(
+MFRY_R0UQTYB;@MJ#,J/! ?Z 5)_P7BD=2PR1;)");WLY^1&/'QD W@U
+M_]W:6/F>C+RA.4^(I):CB"2O+QT:.779,.ED/QEJU'ED/08O)+M]76BHH?P]
+M&=F"=!Z4]="ZZJ"^M)C4U46F4#;[N>E!RH/X+S(MW/X4%;\G,SE YXG)V)&@
+MKVN#4ZBK+BT%@EG)BKR@=1@.#.G0':Z8ATT(VPE0:XDD HII*JMXKW8*Q?K-4\B%%6,?^PZ@:E)'#BM=_,,(YIC>0)#.ZW.+H
+M;I,6UE5T78MEV_HE* PC!H6O:M;;_*+5.QQ--)>]? C"N, 1$*U+W7[0I5!#*2F,E QTQ=D1R]/@:!V.-
+M^=KC%5W/8=BV>TV&))M3F_5:P5X1+(YU-X*0!7%7#)3S[]@\T!GJ#AKEMK! (MG_IXI7_@-02P,$% @
+M%X)=7:%P%D9T! ?BT !4 !A>'1I+3(P,C8P.3,P7W!R92YX;6S=6EV/
+MXC84?:_4_Y"FSR' S&P+6G:%F-D5*K.#!E:M^E*9Y +6.C%RS #_OM?FHXR(
+M$X\J(XU?R(=/[./C:^?FF(^?MQD+7D 4E.>]L-5HA@'D"4]IONB%WR=1?S(8
+M#L.@D"1/">,Y],* /-
+M9M/8S@1K :=V;G9MFK% Q\I6002ZCE"=K?8*C
+M&N&1RAWV9\Y%INECEW0;2P'S7JAJBXXU*1*_OKDBN5MAX!0T6S$(XU,?5@(*
+M?$A#1WCC@%9DG?1G3P.V$C!0S[1D/'G58]5T ?J0I_ ( 4WDI51JX(Y93;$EZM8 0EQRFA*ML-4K?5SNG_IUM"KP3OEVD]3?-45AX-:
+M,5I&GA78:W 5.8WV C0G"ACC#MG^ . A+Y* "YS!O; 9!EB"\UA .MHW
+M8;1DM-V@>6!CVE;J)HP7D/9"*=:GD2(BN? N7E=T0,0K(I1=D2PI2X]/SP7/
+MJC_2>9VA@-7KCK_?KM?: -S"Q["4H?7^9;#W(XZ:>!08ESWEME_W5FJ\K_@P
+MJF%VAJQ4:/NE0H49927'C1]RO-E7LA+GUB=Q3'Z6E1)W/BEA99U9R?+!)UEJ
+MG3HK27[S4!*3-6@ER.\>"E)I0UJITO%0E0K3TRY!\R1?-3NN=C)XDJA66[UV
+M4GB2K5K8RW9Z>)*NUKG:=F)XDI[:FNAVHGB2J;[-K;>3QJMLU6)OP$X53Q+6
+MZDT).RD\254K-D3L=/ D.:W?A;%SS#Q)2RMV@.QT\"0OM=AU.MMQB"\DP8I_
+M?#J5J!_USUZ\\R]02P,$% @ %X)=75Z61%Y^$ TFD !, !A>'1I
+M,C R-C Y,#5?.&LN:'1M[5WK ,!!((!QR_-UN52L2\>OHUO^EN:8__,9NX
+MY):)D/O>R4>K8'XDS+-]AWNCDX^MFW:W^_$?S0_'8PG=H*L7GN3&4@:-8O'N
+M[JYP5R[X8E2TZO5Z S??6Z]D+)GB^9XWG63/XTA1E/. %:&3 ;V8X'8\;AH:V+1D_I"&
+M S4J;DGQ?BH%&VWD?;T([ IGE1-;2Q B?' 9#N,[M#B,
+M9PL,&M*:%AHC2H-,= W)'.9%J7\ ?4
+M S6=62^;N>;QF%&G^>&78\FERYK80S>:U7_7OA7@5#@NZB;H\S^&0 EKM3L%M2/7OI#4)0:QS&*IKI8@E4:UW*B6R/478AAP$$V8I 0),MA?
+M4WY[DFO[GF2>-/I@-SEBZZ>3G&0S650G4K%Y7-0D'@]\9TY".7=!Q8?0TPCY
+M_[,&+!?((Z)^&-()=^ ]?F$A>22W9&>/Z&>_O&(!-3!\[%!3.X1
+MLV!Q[XB W$)?- B=2O\(F.+PVW@EAX>!2V%2\*PL!V3P60,)8B+Z-W I@[RH? PSFR?7. +1^[@#T/.!%'$L N6Q;TNILZ!NW+)9=K%-,\0#$\B%F
+MVY)-Q:0^%D%Q47H)_4T:QHI%'"VM2!F1>KRE@E-/@CH $G&/ ]U^MW-#
+M6I>GI/.U_4?K\KQ#VE=?OG1O;KI7E\]/T[]H. :_)GUOGYP6V@52,JN5^O?H
+M^+A"R,=M*+E/! SQHGEWUOAP7
+M!S$)@^9N)\*I;T_QP-$G[>(@.(2#H&9\7CT! ]SO55
+MK__NMWL- & V4O][@^)'#, B-&6K8DT&S5RY7WS3X\G'&G/18 Q"7Y^)E1.)Q9* F[A5%$J&;F[#7(-I:I
+M;_IHA;+AP(P3Z#1VZ'P.TS(ORW*O%2SH:+20-.$:'$@L@"D&@'S*YC[!-=8M
+M^KW*YR'(N,=&/,2(B[R$EB0SZ[EFZVM_GW0OVX5=>?CX>\MW9A3L#,E'E1,+
+ML@D-21@P&Q&K0^ FPV5(P#)! \7>ST/_X=?#>.K,?4HZ M&6:OT4 [0MPSBJP>H.]VSI>U/:=I.W73'#VS*5W
+MX($WF#XRHRB=52ZO (9MM+Z=>:7 0_@%Q#ARO,BV S>D,PE G*5D5R25,TUV\ !F-GC=)6JK8C:L.:U#]2Y_\>#531Y@"=LM5Q[>?GF(U+Q
+M^ L$ .'#P7J-1*]CNQIXFG+-J!R:FY#=.Y3KI2])*PA XWW(J*'G+\#WW 9*I52-A+F2C\ T1-XZ).VS'BF5
+MS0)T?#?6]*BBNO'!-0+/O-$7L$E8U$W(J6YNEM-R(.!U/7*#D*P*C (7
+MDZ+ B_PZ&V3QJ/:J[_KQ4N=JI;9>*&FJY8VF^EZXW1W>H_]X8\XT
+M)KX&R [ =:!$,H#R, P.DGHT A=JJ)AP[8W6Z0X43:LB/\P?KY3#$*N?I7FQD2 *DE;+AR\#! EF/AGX[JOD4\E\(6W#
+M@JN=E(U%OC@]*%V_>#?F*Z.6GFV#GCXPH_T23-LI,!QY]SF /V782912R37Q
+M\@&>_4;Z]K?UY,S_F@73M$A !;FE[I0]E=J^-O/=B XL]$=>H / 1&21"*:@A04P9]RS96Y
+MSOJ]Q619!0.)!5;&CH OSRS^_K.PB_5>R4N&Z==XQ/O4ZK _H/%RM-4CM-BYE*.U4RK H3UAPX(_3; X@&Q^\__Y5^P+?Y;Z/
+M UFX^*GTYZ&0.,5QQ1VXLS%/*=-L'==N\#($W4QNU15% _P"Z.07!>2H4=9D?%:@T=4\?7ZE4>.YRZ4N7TKP(FHK@?7'7)V>(6W/;A
+M5JY?]L!YFYO9L$.ATYNZ[2;UO'R@EKWRR)4M?7Q9HE37+TOL$ZSYU_1T/;M
+M.(9E'4))H.HF!',9#1EPUP,_9*L\);!^&6X0D3 P3 %W93W37U-5CD]T3&/]
+M%8V"[M8"CQ IUXO6$H_EA6046?N8=1F\3+N.PD09H@>(0KW%A_9P%#M.HLB]CD\M*=A
+M&'-Z52YB:7Y^VOR66F''YA?K!?F>2BA!#A@NBBN5S*/A5'@\!+&J9^L(: E]5$DZT7O/XX!HK63G:,F]_44%[QT'RPNG@__ HD@C
+M#G0Y'7!7+Z46IQ(\JR)*#8P(#(FE5=XJY>E>OA2E/.Z-RB>IC"QT56T0UE(5
+MZX^L1UN5KGNPHY HRI!IY4IS.V5^2;O#P@=?A37CT@9-Y[)B:7^1G)A0!S
+M YI4L0D=RBAC@>^2*;+\X3Z&]ZAPW*CT"V<>1:J2JH(F+G!_2D=( 7#:'D ?K']U/W7XJL=6]/.U\
+M?9$O;OR-
+M.2B47R1W?,I"6_ @_GS-XR1U(UEOG6?;C 5H./JF54J(_;,AF_[9,JUPV*_A1S(5OPPRF 2P1U):-*-SSV+@H$9?>
+M 1S1QS6/%],NRZR\5^5J^[ \N @0OHYY2B75K^CG4:H.BACCO%&$
+ML:L^K$SPR\K$B;X-]6.OKC\E5/J)=W_BW:W/]YON^66K_V Y:+":*.E4LG?@WOL1#W/ ?I^27S]YM K$=MM.S ]N.!US[M4\MIO_G'
+M:>S&'FW3Q_]5:ZJNUXPJ_'SZCE^%G__G^)A\I3X-K9@ZI/M$;ON)[]#P ^X
+M64FO^M: ?JCT@G!@Q ]^/CR/T_^AZ$&,8GA%WH60/7>WI/_OEW$L0GM^Z 1N2"/I#K
+M8&#Y_.()&5J.X_IW[TG-]4FMJKK^";&3, K"]\1*XN $ZQQF%0VL\,[UX>;A
+M(V$5Q?0Q/K8\]PXNANY=/ZM[+6&@3_#>J59ES_T^\\CO"F%7%!+1T.W-55MI
+M_]/O1L.3TW?X0_OTW;#]YLUI;'4]2FSJ>6F[/U3P7G8E&EKV^,J"GM5>TIA9
+M\1Y H9KBP/UY0]6P;L&0L
+MV,D*3F6KHV@;KL1Q[^=UYT4*.JM.H"3NX(Y8'MB&]1A[P5U0_>_P#D8LM*>O
+MP*!#]5R.=['S;*LW,,QIJQ?8RRM49[YK,]5&G=Z_^A8X%2%$.'7;I]WVV6/?
+M[;HQ:;6JZNF[+BB9R[W+A)K!WQ#-%_ZBPQE[GFX00M@ %U.9 KJ7 6 _1O&
+MHUH97>+!U5359LT87[W_4%'K%>(Z'RH>=?BO7R!LU^MUU31:JEXW#-U0:Y7V
+M;=\-G=-W5IO\E5AA3$,R6U]M(]4U-54W*VV$#E@;;]HUC1(OCD;Z56@W7]IQ
+MT(7V:BV% E8[^WIOA:[EQ^]]1&+>
+MR81 -L P&IZD3:W-. >-XD\E 4B&FNB45@TQV>04=TL@B2,?W@\2W
+MH ]EPS,''593@
+MA4/^.C7[;Q+%;N]INM(OUV??+R]@?#_!3;VJ0F;MDOSS%W >Z@D9:\'1A14Y
+MUM]?;][CQ?.W"K&(!W,&""R@/'[2L^PX":$,,"L[& Q!9 _Z# (8G[=%[SZNMK0:/6
+M4LV&V6H:IE;7#)@SQ=.:]S?7/(50F(TY =K35G)CKG9:>"
+MV*3+S02!VL'*M-H).+Z(P#^+#-W[ &?]%M@.?;3=&*UK"$@K 4P+S\
+M+QV^678?=-R"3S:@2/*KJ5 F$P8.8X!(E"DMH)
+MDQ9N5!O:Z,XG:H$GN( &%1MH6P.'[B*H"UGA,+;@"G%D&A\#3W2]!@*X91C4G@@\1]
+M"SKV@8(;"X=6Q.[$W^\"&+9N$N-/[)9!$%+\R Y?L1Z'\>$/@XM/X+;T -C1=C
+MK@M6YE+N2/L @4!/O80JQ /MI,1QP7WA$*;E1JQ?0Q@$4 \/^B$\[@4P."BZ
+MGRD6?,(ZHX2)BAK*:DN'$ 2*4!X86]ORH":\%SJE2SV7\JZS0OSC06N"B#6,
+M\A&'J.!'/&?%6WL7!@\XJA&K 0SJ)XU9"LN%KHH($P2D@N= =2%VA$]8QG\I
+M1ING:FHHI3B[LCQL&0AM\91I,S"MV6C5&F.8)A(NVV9@. B$PS7OT
+M$%T:HZ7:8+EH_*#\+@"D8(CI8VXNS'/.0B@%@T;JRB+VR#S*@K*Z 7.?7SN=
+M*U:.'_C'[$O7BEQP"Q?9]^P9\.-> F*!U=L_C[O,9R+NHW[$Y$%_!)]I%>#C
+M/86[P#/88*Y0N\.K@;;YXU+!K&UP5OQ9-O&*,$:A9QL+' %B8/@A_0U"'X07
+M'WQ0!$4PSUTD=%HW^\+S'"QG\@*7\%QZ16U.23B?7H%P'+O@E%-]BX/AR=23
+MTY/P#??;+RW O2>S ERT0A_U9K5VMRC3)A%3]:KZZ8RI%U(
+MNUC%+IBO!E061>G=!-6_W@ MS9 _J&*XBO7,FHEA5%O+"EG)8#2MJH]G*YNU
+ME_FDY)JKD=)4#L%41H!ITEQ@-M1#_>/@":=.N'Q_E\[/\J"4DEF9^GHKJR\W
+M56YEBR-=:F#&M@Q,!B1I96L%))_&,!T 1:>9?0U N >AH6#T02F=JJ!ED0>&+^D(:K33:@D+CA'FL8YV-:G.A-1GJ
+MG#4];YAS%J.V%EG, STJ;-'2]$0%,\_V>\=A\#!_$1T#N?IZ\>/[N V,LS7]Y\UI?\2"
+MN^I\/3O^>'W6^?.X\^7V[/H]L;P'ZRDZ21T0*KA/9PAW? =IM?PK\'D!-WZ;(JO!$6*'8
+MPA+3+80J%DO])W!,X&;Z012S9==1ZP%C>&SMU8WL)&)K@1$=+1MPQH .BHJ>MOB=%0C^MFTR1'N )K!PZ%
+M>:U)P"*)J>IOT]*P"":BY44!%A2Y@\2S+90W)@\/#U7K,:Y"8_C]#[3+?F./
+M8+7WENLQ! IW]^-X^/[=NXF'2.+'KC=+G#&KI#->K'73A0_X,%K57-2J^=)W
+MD?\QNQ39Z09)/$$@VE.+P-4UQMW(J DDLEVNQ*F=,'Z 0^^I%PSY @@]3AM9CFABCT:NOC,/,/@Z-R_>JN0.[ +_ %W
+MC?CL^E>K$[UEE=U1% %_/?I*,SOBK6"$,/,DFJ\35_,90^"A3WWHA_AIB/,,
+MD-Q#46 #1#-G5":/\0A#\A3GP[^TP\#'@N\FX84X)%#S\*\,,P>$!>S&#HN3T7
+M.1$(\Q] \
+MWUV??('N K5-N7Q!Z+L6C@0CGXQU$ D=,:.+1):'@ ^(]8?(4[N=Z=?>D3+6X
+MGSZ"%AD\^"!FWQUB\6-B3@SZRF]/I>*R $]T A($52"H7 33XFMY9(4N!_XC8
+M)'R4%1BS .I9@,8/C$+&%GO@!DLPUI]AMZ'Q046@QF\-!WH6 6M!Y -
+MXHR#. L6;/1_*44)_6DZ"6"W ])WHADW/Q@3A*'QT7*%#[*LWL*JIV&%QYG&
+M\ Q BCB7A,(@8YQ&U&H.;!YH1IU$3S=>?
+M&R[6P'Z0>-S&NZER.XPTZZ( @ ( /C%#2='$'P>3/!&
+MAF:S[H$.26RN1U >. J?\@3N(LU:)B!R7Z'K.3C@Z@F][$_[-5 N\ #6'0,=
+MF26A.H,N0]T(;-)Q8NJ760VS-=;!# \Q!FT*R:8T!^1#66O-$R;EY-!E=CI#
+MMP-/]4"IGSJ)='RY:N$>#0YCN&03!H\5=Q.8;#"XTYDM-&4A,QFP/8'G.M;T
+M+H\).A_4@G>/^O;Y)YCY,$_KH*\+'I:BI7WA^,J4O$S)RY2\3,FOE9+75TK)
+M[^AL"B:6,.5^@$GE\; 2QGV@%]\MI&G1V[X43%$,SL9 ()+2 Y;/BCGN&AC8=&3-Z;."E,L]!'3; #K
+MV*1J!.*S^1:;\-DA[@Q(N0)3V9IL$U@&_*EO36P8@QX/61$L6=E+,(>8;E'C
+MM?B4.E'^;K797&EU4B/YI 1D2*$/[I>P,T ?CK(C*5RC[I!U#]R%>]( T [ $G5D[ML1]L\>N/M(FS&R?933:7^9O;?9=O">.].]"G;;.9,;,N*"%OGX#V=
+M)1FAI:BK=\0">.IF*;XDXL1'=\@>RK*A/:L;XCU\KQF6/-D&GM/-.B3A*:-G
+M.YS-4$(P&S>=Q;!DZQU+SQ^EFR([Y^E&L;=38BI9X\F32[UTO">YG-@^OL4%
+M4,$]]=).XHA^M$ &HP'ZFB8*V58^A.4Q;Z_+FCK3U4D,'_^/
+M3O4O[_=%BLQ-#G]G\_\>G_UGFQ(MA_Z=\"1\U&=W3HJ;*3H#XDRS K;O;_8Z>$L8W>&"
+M)W"X?6>N?&9G\Z7#/'!.O$47TY& G
+M>D! L-B(3^SA.@L)W'1PGDMQ782EE6.^/QU=G(/U])Z6C)/"=J?B@Y@+X!M&
+MP:38^@:Z?^8>LG+8HYCAFQEG-.VQ!P-SP6V^V4XL)G6V#8MO8?8BRM8B,ON=
+M>GS:Q['F0,1(U1:GSTF(4_UIQYC.*B "!SW83GW^&
+M:3BNV^ Y%BR7RF(/"Q11E R&O/#)E !/#:)]36R48\O:+$^6+0O E#C=%1U$
+M-!LZ=&$AYM&@* T&0]NY*(:3].CR9+!3%-4#81+[ (! =.:#U8GH(K
+M=CA_R48@9,MT2*IEQ844@D8J71?SJ.X]>AA 7)L"[82P[WG4Y^D27#!S(ZZAO*G3*X9H+$$2D3O #88!K5RRS1GUNFEG29+S@A67\\-E(L#@?I QZ&1';I=RI=WP6VG&Z!3OW -2D"^\'LSYP"R D .@)@>%Z#
+MRQQ4E9Q98#%\5$&%LT:Z/%7GVF U? \K=5P[SI8%GYCF=NE3D)LW]N,P\*;3
+M9D[ ,L(QST%ALI^PG'D7(GJZ;12BY1!31NR'7(/C\#(U:A3>!T@^M4J70CW NF!Q>WL_XG2)CXX"#2H>,>"&ID+G,)XL[L]0[&! VD,"NZU$NE$6P%UQ3-]E1F7NE BY=R$W\>M^C@
+MIU]^^67_&H43\O.+SL6G\\XW DB^7W[Y=_JO@^;C,E!Y IO05
+M6;- T>P953^Z?+B\]G
+M%S=GGPE\NKG\=OZY SB]L; 9GUOBQ?R=7OG4@? '_S,
+MPK&8 @8L$!Y3^W]L3,K-[#H_+B8/!W)'7ZXH^VP 6ZQ4V?A,:4R]38^I28\;D5]=?0V&V/WSIKE+I
+M+??$6Z;!_YCW/=PV?"2,4 C@K\G@_UK]JN]2S#?*
+MU"]#ZM?6_-?F!W8G,*4F,64Q_DM"R0U#R8\%04E68_0TZ!9;(QIDH15R/2VT
+M2CZ.169'^3@662,;QR(K3,>Q\)SSQX*@T %CT!J H&=]- +GT!1#Z(8Y8Q
+M#HW9BO:&7G6\K%>66DXI$OVZV*CF9&G]EO]F[RV*9^J*H=;R[!"D](.'T!IF
+M' =Q1I3IF"Z21$S'2I$H1\?F9"E)QS13:=7K>3JF"ZYCAD@2,1TK1:( ![S)%$P7]UIM*L]':0_1;;H*W5)S[E9W9,PR#GAN7
+M"7)+A;.K\BF$PK?KTT(,5:FU1(+ 4Y2,11M5RL/$I:+?3>AEX7!X?;UL*)J6
+MBV.*!,SS35B#F[95O%HJ5MZ$6A8.GM=72[.F&'HN["D!7[_.76X5WI8*K3>A
+MEX5C[=>X2T-M"(3&7ZB6NY* 7X[>#I&>IAF]?P:E2Y[G5OA(DN>YA7&4
+M/,^MC*/D>6YC'"7/ HBZ"C_[78IUZ@V>#XRL,[Z@/F(2_/VGZ+%JY
+M2+XOB^1-Q KUU5+7%=44
+M::^6Y))*+BDT0S.4>EVDK5V23+IY,NFY;P \E>>CM]X?ZB 770D
+M#K;95 PM%\L4";$EFEY): V@P5W3\"L#45+1&
+M[I[0(H&IQ* K*4WYX!*=3%-1#2'H#LN\S*YD=45C.3#(&-.01C%Q4^R8YG??
+M*L2GDM^P-_R&NM(4ZD0 R6_83W[#D9ZO9@+0&TH!II+9L&%FPY*]"Y+9()D-
+MFW)ES8;(Q(8UT*_D^,Z@W[._$S=^ NR;P=^@1Q+XY+, ?Q*Q &A8DGWW!!(K- 3Z2L@*KZ,^S24">']QK]'H/(" ^"\1)U02%-BWZ4:IN;G3P0 OS(5O/.X
+M]ZC>RO5A L#>/ T3"E]*Q+LT2Z3FON!EAQ&OI,BF%-DN[04AQ; YR$PS#+N*S&8JNY1JG),U*TFP.:3;_!3>2-"M)L]-#8C0570R(
+M*4FS.T6:U6I"4 9$=RDGVC#E00(R)[IJ3E15M/P]?C(G*G.B"YU,2]$;\B"!/ ,11XYO"2)'8L5QZ':3V.IZE,0!E(1[K>(P8&\> Y3)SR*(
+MV&L60NI0.F"WYMTGLZW[DFT],I2:&$=@23[JOF9:CS1=")@K^:C[FF4]:BBU
+MALA'$TA&ZAYD6!MUR4G=[PSK'%#N_/M6(>>^73W4W.OS)Q_KPT?B! EVV,S1
+MQ[\* GU?T02MKICYAWV6FMB=.\\96G&PV=XMJ&GY*>+5FW"D*JU\XENIJ>0 DE,
+M'8EN]P+=ZKG10:);B6XENA5'NR2Z78ANY6'^$MU*=+L[F=M2UY+_15%KJ'-L
+M0:NM.TK\9-"E(;[+:G+9.")!$D>QY;,>EVO( 3:XA'\JV[8:N-(7>MBV3;?NQ=]L 13-R^= "I-SD09G[L86[WE(,4^0M
+MW#+]MA_[N,&CF361DW"20RG7F24"?A8!UY5F(Q>82 0L$;!$P!(![Q(";JB*
+M* W?:;-XOQY(P()^/:6&53B#$%C!.=;U,\W/(D
+ME6(Z$SW$.AWWGMB>%44?*E=?/_XYUR^UVF^+-FVG5]C0LDL B:?+NOCQ?538
+MI#:D$I&)"L8B00DH5'\T*;CJ?#T[_GA]UOGSN//E]NSZ/;&\!^LIRC:_(TCV
+MZ51I)Z1/N5C:\/&$I'.)7VKL/WAN;IJ1_C37@C\^7R]L 7;#,OE'S7CQ_&"!
+M+DVNS2^PJDK[U&V/]G:G8EC$L6+K..YZ7F!_J!C&HUH97?*M 4ADJFJS9HRO
+MWG^HJ& B:# >=?BO7[0:S+GJJFFT5+UN&+JA0B?=]MT0)AQ6F_R56"$,)9FM
+MK[:1ZIJ:JIN5-EQL8&V\:= )3]?1==VD+MU+[I\N+SV ?
+M"7RZN?QV_KES"U\^=KYU+CZ=D9L_SLYN;TJ1[.B';R6."W-]A;@^B?M!$EF^
+M@V_/6"[-AC6!GR?!?2]8>@7 >E\6[T/1I:]N@[]Z8]U[_%1\ -8S @K)/,U%@ JS4/?(Z%EI
+M[FK G%1;,C/LF0SELZ[V*5
+MKBZ==AE.6^Z0V&R% G-VL*X8I!%EX
+M@73RC4W/Z-"\'"7HD*K5%*TAYCN6=G7/B# >_II&<>C:,>4^_E#]^@MW?I3B
+MRE5%JPEQAK;TY"MIC1#.NZFH^4JSHZY[%XZ[R/.X&Z. FIFJYJ1GAMOI)F/]"
+MF-^Q;>B:."(AM:E[CS1KA?@TEGA?C BP !WI+:71K(O@_27>WQV\KS64II%[
+M%KT$_+OLQ,\!Y?MQ$+KT8//O.^"WU9JN-.I-Z;BEXWY1HD8%K MH2 _QVK&JM/+-6"X>R\5CN7@LD7]N?+@*@R$T]TDA0\]"N.\[C/\_Q$ A
+MEXX%"@"+EB!:AJ*;DBLJH?_+U*:A*LV&F#F=787^I3KQ2W#A5@P!D8!M193K
+MT''0.T[@BTS@".[%-475Y3*R].$O\^%*JRG$*QLD_6 +5X =C^??SF_/SVX4 SL>^?CMS-R 9'7GIN5;7]=S8I?+ TM:%!7!)S7ZVDQ&R1$F//)\SEI$/0
+MT(-;IVI*2Q4SJ,A)AZ QH-(&K:D;8G)$Y*1CC57.B\#/_'8PLXE*^O&=\..*
+M)L^^D5[\I4IC[)T3/U0P/MH\Y8U.NA'$ RGK2DV,H]QDN)+AZMESH5N*JHEYB-">K7,L
+M)VM+TOU&*Y2D^^V-HR3='R3N/ ^9*8FL:_$OA+[2NPKL:\HV'>U%W-,0M8 LQT\E;*A?ZYT( LBQ)5_X4C&VYB'7>GO&
+M%BQ\/?TH7XXM^=@U]:,L078'UY6^!C=Z8VN/AB'%%H*7ED0_0?,(,.52ZGKN
+M@=>2Z">)?B]6FATE^AUJ%GG& >^G([?M9)!X5DP=XM">:[OR':'B>O CK:4T6J*>E?A6.F_AG/=1PP#G
+M;0CJO-]* +X!OQVP+9-V,!B&M$_]R+VGQ LB2 45W1FV+NIL]1CE+B
+MA^3?":"H6DO,/-%SBBJG&RN'K:EMDIU_WRKDW+>K/.6_D$\CIR&"1J!*NZ7J
+MBF[(1)* (D1.X$
+M.MR9B ;Q*7_*+.),1*Y^;&(Z(N8D1$:OLOU!RZ@I=5UN9)7A:R?456LUE+IY
+M$/'KX"==>:>.*21\_G0&8OG.K@2]12]'+S3HO>(M].*^=7'U-N"9S*;2;.[(
+MR9O+U:6$*+B"_A;\*L=7ZZ^ ,3&_#8:N*V9=S .B5U*6-"B^@;_HU-MOWBP.
+M/+_/"/7[R5@ 5O]4 ^)[5E1]*%R]?7CGW,=4ZO]MJA%
+MZ16F .P2Q,KILBY^?!\5-JDS-L7P=$(F*AB+!"6@4/T1+KCJ?#T[_GA]UOGS
+MN//E]NSZ/;&\!^LIRC0#HZ=/ITH[(7W*Q=*@FTD*)WZIL?_@N3FDD?XTUX(_
+M/E\O; %VPTR-TP >K7W#+F-A'3-5K%+#1,-2IS!5
+MYVDW5>6+3]73=]VE+=Q*[= Q%=,!Q9>/P[=+_O*1P(_(
+M#Q]\$?G:Z5PQS'T1^,?XI12QCW[X5N*X,744F J0N!\D$0@5O2U>FBFU86$M
+M==O@%BH0"3POC8RC[]'0LD??N2/NN?XM/CKV%]2YL\(LD,^Z%M.LFW.N)9ME
+M "G:_ES063G0(: C_H=*HS)&JA.5+X(:VUQ.+C1#L*AQT] #[/^V'U)*OD,!
+M_8B XY(\-?.-GG +FH\9O0F'J9&E.7&C/2F O77T-AMC]\DWE"Z2UWWUNN
+MG.$6ST1NZ!"0'T)^O::4Y$_760HZ3"=[4(JV^1%^\2+.GCGG@L[2'-F,-FDS
+MFK29E]H,S\"L8"K;.P+P13ZYZ."OR>#_6OVJ[U+,-\K4+T/JU];\U^8'=B CD
+M_N+?3>AD^ W$^PO@-Z^EXL'Y_":8-:6AYZIIF9!^+6>ZOY!^\VHJ'L!?YDR7'/E2)L9?
+M34MW)Q6__.7-!5&#QS95:(U;>F%W":_F+OXEW,6_;KOP%VN7\ KMY\:Q(*KK
+MQ#@662,;QR(K3,>QR"KY.!9$*9T8QR)K9.-89(7I.!:[15/F[I;1-0-^6H1_
+MERVLEWIDMEC9.X&S ]1JDBR-L7#E@?&VE256BTW,$CBIC"
+M] 59CW76TKVYE[ ]1%[
+M4V:!)8>36[VJ-!I"(G?)X90 $ 9O-W@ ;T/TT%=7(]3\E
+MDSG?OAQ5EITMDCQ.\3#EX?$X&[GK;)+'*0Q0/3 >IZE+'J?X /C@>)S-1NX!
+MY)+'*0RJ/C >IZ;4U-RTDN1Q[@5 "JG3&@?%IG3J"FJ+L0^K8VXT?W%]X=-YCQ2&XJJB?DB
+MK. ZDYB614Q(YMS&.DLBYC7&41,YMC*,D "Q_Y]-X.H W#.X/B)ORN2O)&PRHV\H9BMW*BX)F\( ]P,G;*J*FO\",DG9% '%'S9E
+M$_!$K94+GR1E4QA4?^B4S;K2: GQ%G5)V92434G9E)1-2=F4E,V-C*.D;&YC
+M'"5E 4:V:_RK5$A;,9^4K):FVEG:5(I$H:;1 4RN?YK5U)9 D+>YQBG$OSN*?BM
+M";%,+ 8D8I(@JNW (K1QS=RE_<>&KC2-7,TL\RBA
+MM31S?S (4%$^,F$W]F(8G*4J>EF.(=3KN/;$]
+M*XH^5+YU;FZ/KSI?SXX_7I]U_@0@/_GKU= /!U[[_P%02P$"% ,4 " 7@EU=>&I2
+M5H(# :#@ $0 @ $ 87AT:2TR,#(V,#DS,"YX &UL4$L! A0#% @ %X)=72UD$(/X!0
+M1#P !4 ( !O @ &%X=&DM,C R-C Y,S!?;&%B+GAM;%!+
+M 0(4 Q0 ( !>"75VA '1I+3(P,C8P.3,P7W!R92YX;6Q02P$"% ,4 " 7@EU=7I9$7GX0 #2
+M:0 $P @ &.$P 87AT:3(P,C8P.3 U7SAK+FAT;5!+ 0(4
+M Q0 ( !>"75WH8E]T]2T -5* P . " 3TD !E>%\Q
+@,#$S,S T+FAT;5!+!08 !@ & (4! !>4@ !
+end
+XML
+17
+axti20260905_8k_htm.xml
+IDEA: XBRL DOCUMENT
+0001051627
+2026-09-30
+2026-09-30
+false
+0001051627
+8-K
+2026-09-30
+AXT, INC.
+DE
+000-24085
+94-3031310
+4281 Technology Drive
+Fremont
+CA
+94538
+510
+438-4700
+false
+false
+false
+false
+false
+Common Stock
+AXTI
+NASDAQ

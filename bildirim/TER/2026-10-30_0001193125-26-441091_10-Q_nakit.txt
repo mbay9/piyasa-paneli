@@ -1,0 +1,597 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/97210/000119312526441091/ter-20260927.htm
+SEMBOL: TER
+BASVURU_TARIHI: 2026-10-30
+BASVURU: 0001193125-26-441091
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited)
+|
+|
+For the Nine Months
+Ended
+|
+|
+|
+|
+September 27,
+2026
+|
+|
+|
+September 28,
+2025
+|
+|
+|
+|
+(in thousands)
+|
+|
+Cash flows from operating activities:
+|
+|
+|
+|
+|
+|
+|
+Consolidated net income
+|
+|
+$
+|
+1,121,533
+|
+|
+|
+$
+|
+296,827
+|
+|
+Adjustments to reconcile consolidated net income from operations to net cash provided by operating activities:
+|
+|
+|
+|
+|
+|
+|
+Depreciation
+|
+|
+|
+90,256
+|
+|
+|
+|
+79,484
+|
+|
+Stock-based compensation
+|
+|
+|
+63,649
+|
+|
+|
+|
+47,561
+|
+|
+Equity in net earnings of affiliate
+|
+|
+|
+3,277
+|
+|
+|
+|
+16,709
+|
+|
+Amortization
+|
+|
+|
+12,925
+|
+|
+|
+|
+12,723
+|
+|
+Provision for excess and obsolete inventory
+|
+|
+|
+19,213
+|
+|
+|
+|
+19,175
+|
+|
+Losses (gains) on investments
+|
+|
+|
+( 7,076
+|
+)
+|
+|
+|
+( 4,722
+|
+)
+|
+Deferred taxes
+|
+|
+|
+( 41,163
+|
+)
+|
+|
+|
+( 29,100
+|
+)
+|
+Retirement plan losses (gains)
+|
+|
+|
+( 228
+|
+)
+|
+|
+|
+( 673
+|
+)
+|
+Other
+|
+|
+|
+3,757
+|
+|
+|
+|
+3,344
+|
+|
+Changes in operating assets and liabilities, net of businesses acquired:
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable
+|
+|
+|
+( 302,733
+|
+)
+|
+|
+|
+( 111,787
+|
+)
+|
+Inventories
+|
+|
+|
+( 178,794
+|
+)
+|
+|
+|
+( 34,618
+|
+)
+|
+Prepayments and other assets
+|
+|
+|
+( 224,940
+|
+)
+|
+|
+|
+( 22,599
+|
+)
+|
+Accounts payable and other liabilities
+|
+|
+|
+347,615
+|
+|
+|
+|
+121,447
+|
+|
+Deferred revenue and customer advances
+|
+|
+|
+64,045
+|
+|
+|
+|
+25,652
+|
+|
+Retirement plans contributions
+|
+|
+|
+( 4,605
+|
+)
+|
+|
+|
+( 6,986
+|
+)
+|
+Income taxes
+|
+|
+|
+81,144
+|
+|
+|
+|
+( 19,661
+|
+)
+|
+Net cash provided by operating activities
+|
+|
+|
+1,047,875
+|
+|
+|
+|
+392,776
+|
+|
+Cash flows from investing activities:
+|
+|
+|
+|
+|
+|
+|
+Purchases of property, plant and equipment
+|
+|
+|
+( 241,762
+|
+)
+|
+|
+|
+( 161,121
+|
+)
+|
+Acquisition of businesses, net of cash and cash equivalents acquired
+|
+|
+|
+( 165,611
+|
+)
+|
+|
+|
+( 144,380
+|
+)
+|
+Purchase of investment in a business
+|
+|
+|
+( 20,900
+|
+)
+|
+|
+|
+( 25,519
+|
+)
+|
+Purchases of marketable securities
+|
+|
+|
+( 50,004
+|
+)
+|
+|
+|
+( 27,465
+|
+)
+|
+Proceeds from maturities of marketable securities
+|
+|
+|
+11,880
+|
+|
+|
+|
+41,621
+|
+|
+Proceeds from sales of marketable securities
+|
+|
+|
+30,607
+|
+|
+|
+|
+9,172
+|
+|
+Net cash used for investing activities
+|
+|
+|
+( 435,790
+|
+)
+|
+|
+|
+( 307,692
+|
+)
+|
+Cash flows from financing activities:
+|
+|
+|
+|
+|
+|
+|
+Proceeds from borrowings on revolving credit facility
+|
+|
+|
+350,000
+|
+|
+|
+|
+200,000
+|
+|
+Repayments of borrowings on revolving credit facility
+|
+|
+|
+( 550,000
+|
+)
+|
+|
+|
+—
+|
+|
+Dividend payments
+|
+|
+|
+( 61,024
+|
+)
+|
+|
+|
+( 57,574
+|
+)
+|
+Repurchase of common stock
+|
+|
+|
+( 173,502
+|
+)
+|
+|
+|
+( 518,658
+|
+)
+|
+Debt issuance costs
+|
+|
+|
+( 2,686
+|
+)
+|
+|
+|
+—
+|
+|
+Payments related to net settlement of employee stock compensation awards
+|
+|
+|
+( 42,153
+|
+)
+|
+|
+|
+( 15,254
+|
+)
+|
+Issuance of common stock under stock purchase and stock option plans
+|
+|
+|
+33,708
+|
+|
+|
+|
+30,076
+|
+|
+Net cash used for financing activities
+|
+|
+|
+( 445,657
+|
+)
+|
+|
+|
+( 361,410
+|
+)
+|
+Effects of exchange rate changes on cash and cash equivalents
+|
+|
+|
+563
+|
+|
+|
+|
+( 4,328
+|
+)
+|
+(Decrease) increase in cash and cash equivalents
+|
+|
+|
+166,991
+|
+|
+|
+|
+( 280,654
+|
+)
+|
+Cash and cash equivalents at beginning of period
+|
+|
+|
+293,751
+|
+|
+|
+|
+553,354
+|
+|
+Cash and cash equivalents at end of period
+|
+|
+$
+|
+460,742
+|
+|
+|
+$
+|
+272,700
+|
+|
+Non-cash investing activities:
+|
+|
+|
+|
+|
+|
+|
+Capital expenditures incurred but not yet paid:
+|
+|
+$
+|
+12,292
+|
+|
+|
+$
+|
+7,821
+|
+|
+The accompanying notes, together with the Notes to Consolidated Financial Statements included in Teradyne’s Annual Report on Form 10-K for the year ended December 31, 2025, are an integral part of the condensed consolidated financial statements.
+5
+TERADYNE, INC.
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+A. THE COMPANY
+Teradyne, Inc. (“Teradyne”) is a leading global provider of automated test equipment and robotics solutions. Teradyne’s automated test systems are used to test semiconductors, wireless products, data storage, silicon photonics, and complex electronics systems in many industries including consumer electronics, automotive, industrial, computing, communications, and defense and aerospace industries. Teradyne’s robotics product offerings consist primarily of collaborative robotic arms and autonomous mobile robots used by global manufacturing, logistics and industrial customers to improve quality and increase manufacturing and material handling efficiency while reducing costs. Teradyne’s automated test equipment and robotics products and services include:
+• semiconductor test (“Semiconductor Test”) systems and instruments;
+• product test ("Product Test") systems and instruments; and
+• robotics (“Robotics”) products.
+B. ACCOUNTING POLICIES
+Basis of Presentation
+The condensed consolidated interim financial statements include the accounts of Teradyne, its wholly owned subsidiaries, and all other entities in which it has a controlling financial interest. All significant intercompany balances and transactions have been eliminated. These condensed consolidated interim financial statements are unaudited and reflect all normal recurring adjustments that are, in the opinion of management, necessary for the fair statement of such condensed consolidated interim financial statements. The December 31, 2025, condensed consolidated balance sheet data was derived from audited financial statements but does not include all disclosures required by United States of America generally accepted accounting principles (“U.S. GAAP”) for complete financial statements. The accompanying financial information should be read in conjunction with the consolidated financial statements and notes thereto contained in Teradyne’s Annual Report on Form 10-K, filed with the U.S. Securities and Exchange Commission (“SEC”) on February 19, 2026, for the year ended December 31, 2025 .
+Preparation of Financial Statements and Use of Estimates
+The preparation of consolidated financial statements requires management to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses, and related disclosure of contingent liabilities. On an on-going basis, management evaluates its estimates, including those related to inventories, investments, goodwill, intangible and other long-lived assets, accounts receivable, income taxes, deferred tax assets and liabilities, pensions, warranties, and loss contingencies. Management bases its estimates on historical experience and on appropriate and customary assumptions that are believed to be reasonable under the circumstances, which form the basis for making judgments about the carrying values of assets and liabilities that are not readily apparent from other sources. Management is not aware of any specific event or circumstance that would require an update to its estimates or judgments or a revision of the carrying value of its assets or liabilities as of the date of issuance of this Quarterly Report on Form 10-Q. These estimates may change, as new events occur and additional information is obtained. Actual results may differ significantly from these estimates under different assumptions or conditions.
+Redeemable Noncontrolling Interests
+Teradyne has an agreement with the holder of the 25 % noncontrolling interests in MultiLane Test Products Holding LLC (“MLTP”) that provides Teradyne with the right to purchase, and the noncontrolling interests holder with the right to sell, their remaining minority interests following the expiration of a contractual lock-up period, with the earliest redemption date in 2029, and subject to certain conditions. The purchase price will be determined at the time of exercise based on a contractual formula. As the redemption is contingently redeemable at the option of the noncontrolling interests holder and not solely within Teradyne’s control, Teradyne classifies the carrying amount of the redeemable noncontrolling interests as temporary equity, between liabilities and permanent equity, in the consolidated balance sheet. Although the redeemable noncontrolling interests are not currently redeemable, Teradyne has determined that it is probable that the interests will become redeemable. Teradyne applies the accretion method and accretes changes in the redemption value over the period to the earliest redemption date.
+6
+C. RECENTLY ISSUED ACCOUNTING PRONOUNCEMENTS
+In November 2024, the Financial Accounting Standards Board (“FASB”) issued Accounting Standards Update (“ASU”) 2024-03 - “ Income Statement—Reporting Comprehensive Income—Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses, ” which requires disclosure of additional expense information on an annual and interim basis, including the amounts of inventory purchases, employee compensation, depreciation, and intangible asset amortization included within each income statement expense caption. This standard is effective for fiscal years beginning after December 15, 2026, and interim periods within fiscal years beginning after December 15, 2027, with early adoption permitted. Teradyne is

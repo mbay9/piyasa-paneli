@@ -1,0 +1,270 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm
+SEMBOL: STX
+BASVURU_TARIHI: 2026-10-29
+BASVURU: 0001137789-26-000309
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows - Three Months Ended October 2 , 202 6 and Octo ber 3 , 20 25 (Unaudited)
+| 6
+|
+Condensed Consolidated Statements of Shareholders’ Equity ( Deficit ) - Three Months Ended October 2 , 202 6 and Octob er 3 , 20 25 (Unaudited)
+| 7
+|
+Notes to Condensed Consolidated Financial Statements (Unaudited)
+| 8
+|
+Item 2.
+| Management’s Discussion and Analysis of Financial Condition and Results of Operations
+| 20
+|
+Item 3.
+| Quantitative and Qualitative Disclosures About Market Risk
+| 27
+|
+Item 4.
+| Controls and Procedures
+| 28
+|
+PART II
+| OTHER INFORMATION
+|
+Item 1.
+| Legal Proceedings
+| 29
+|
+Item 1A.
+| Risk Factors
+| 29
+|
+Item 2.
+| Unregistered Sales of Equity Securities and Use of Proceeds
+| 49
+|
+Item 3.
+| Defaults Upon Senior Securities
+| 49
+|
+Item 4.
+| Mine Safety Disclosures
+| 49
+|
+Item 5.
+| Other Information
+| 50
+|
+Item 6.
+| Exhibits
+| 51
+|
+SIGNATURES
+| 52
+|
+2
+PART I
+FINANCIAL INFORMATION
+ITEM 1. FINANCIAL STATEMENTS
+Table of Contents | Page |
+Condensed Consolidated Balance Sheets
+| 4
+|
+Condensed Consolidated Statements of Operation s and Comprehensive Income
+| 5
+|
+Condensed Consolidated Statements of Cash Flows
+| 6
+|
+Condensed Consolidated Statements of Shareholders’ Equity ( Defici t )
+| 7
+|
+Notes to Condensed Consolidated Financial Statements
+|
+Note 1. Basis of Presentation and Summary of Significant Accounting Policies
+| 8
+|
+Note 2. Balance Sheet Information
+| 9
+|
+Note 3. Debt
+| 11
+|
+Note 4. Income Taxes
+| 13
+|
+Note 5. Fair Value
+| 13
+|
+Note 6. Shareholders’ Equ ity
+| 16
+|
+Note 7. Business Segment
+| 16
+|
+Note 8. Revenue
+| 16
+|
+Note 9. Guarantees
+| 16
+|
+Note 10. Earnings Per Share
+| 17
+|
+Note 11. Legal, Environmental and Other Contingencies
+| 17
+|
+Note 12. Commitments
+| 19
+|
+Note 13. Subsequent Events
+| 19
+|
+3
+SEAGATE TECHNOLOGY HOLDINGS PLC
+CONDENSED CONSOLIDATED BALANCE SHEETS
+(In millions)
+October 2, 2026 | July 3, 2026 |
+(unaudited) |
+ASSETS |
+Current assets: |
+Cash and cash equivalents | $ | 1,258 | $ | 1,704 |
+Accounts receivable, net | 1,817 | 1,534 |
+Inventories, net | 1,700 | 1,571 |
+Other current assets | 621 | 412 |
+Total current assets | 5,396 | 5,221 |
+Property, equipment and leasehold improvements, net | 2,165 | 2,034 |
+Goodwill | 1,221 | 1,221 |
+Deferred income taxes | 1,161 | 1,105 |
+Other assets, net | 383 | 391 |
+Total Assets | $ | 10,326 | $ | 9,972 |
+LIABILITIES AND SHAREHOLDERS’ EQUITY |
+Current liabilities: |
+Accounts payable | $ | 1,873 | $ | 1,748 |
+Accrued employee compensation | 227 | 377 |
+Accrued warranty | 80 | 73 |
+Current portion of long-term debt | — | 185 |
+Accrued expenses | 788 | 744 |
+Total current liabilities | 2,968 | 3,127 |
+Long-term accrued warranty | 138 | 125 |
+Other non-current liabilities | 1,416 | 1,173 |
+Long-term debt, less current portion | 2,351 | 3,380 |
+Total Liabilities | 6,873 | 7,805 |
+Commitments and contingencies (See Notes 9, 11 and 12) |
+Shareholders’ Equity: |
+Ordinary shares and additional paid-in capital | 8,194 | 8,078 |
+Accumulated other comprehensive loss | ( 4 ) | — |
+Accumulated deficit | ( 4,737 ) | ( 5,911 ) |
+Total Shareholders’ Equity | 3,453 | 2,167 |
+Total Liabilities and Shareholders’ Equity | $ | 10,326 | $ | 9,972 |
+See Notes to Condensed Consolidated Financial Statements.
+4
+SEAGATE TECHNOLOGY HOLDINGS PLC
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE INCOME
+(In millions, except per share data)
+(Unaudited)
+For the Three Months Ended
+|
+October 2, 2026 | October 3, 2025 |
+Revenue | $ | 4,233 | $ | 2,629 |
+Cost of revenue | 1,806 | 1,592 |
+Product development | 200 | 186 |
+Marketing and administrative | 159 | 144 |
+Restructuring and other, net | 4 | 13 |
+Total operating expenses | 2,169 | 1,935 |
+Income from operations | 2,064 | 694 |
+Interest income | 7 | 7 |
+Interest expense | ( 41 ) | ( 80 ) |
+Net loss from debt transactions | ( 44 ) | ( 6 ) |
+Other, net | ( 4 ) | ( 1 ) |
+Other expense, net | ( 82 ) | ( 80 ) |
+Income before income taxes | 1,982 | 614 |
+Provision for income taxes | 221 | 65 |
+Net income | $ | 1,761 | $ | 549 |
+Comprehensive income (loss), net of tax: |
+Effects of derivative instruments | ( 4 ) | — |
+Other comprehensive loss, net of tax | ( 4 ) | — |
+Comprehensive income | $ | 1,757 | $ | 549 |
+Net income per share: |
+Basic | $ | 7.72 | $ | 2.58 |
+Diluted | $ | 7.59 | $ | 2.43 |
+Number of shares used in per share calculations: |
+Basic | 228 | 213 |
+Diluted | 232 | 226 |
+See Notes to Condensed Consolidated Financial Statements.
+5
+SEAGATE TECHNOLOGY HOLDINGS PLC
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS
+(In millions)
+(Unaudited)
+For the Three Months Ended |
+October 2, 2026 | October 3, 2025 |
+OPERATING ACTIVITIES |
+Net income | $ | 1,761 | $ | 549 |
+Adjustments to reconcile net income to net cash provided by operating activities: |
+Depreciation and amortization | 76 | 72 |
+Share-based compensation | 63 | 52 |
+Deferred income taxes | ( 57 ) | ( 25 ) |
+Net loss from debt transactions | 44 | 6 |
+Other non-cash operating activities, net | 3 | 15 |
+Changes in operating assets and liabilities: |
+Accounts receivable, net | ( 283 ) | ( 114 ) |
+Inventories, net | ( 129 ) | ( 56 ) |
+Accounts payable | 101 | 84 |
+Accrued employee compensation | ( 129 ) | ( 140 ) |
+Accrued expenses, income taxes and warranty | 272 | 98 |
+Other assets and liabilities | ( 32 ) | ( 9 ) |
+Net cash provided by operating activities | 1,690 | 532 |
+INVESTING ACTIVITIES |
+Acquisition of property, equipment and leasehold improvements | ( 211 ) | ( 105 ) |
+Proceeds from business divestiture | — | 15 |
+Net cash used in investing activities | ( 211 ) | ( 90 ) |
+FINANCING ACTIVITIES |
+Redemption and repurchase of debt | ( 1,262 ) | — |
+Dividends to shareholders | ( 168 ) | ( 153 ) |
+Repurchases of ordinary shares | ( 400 ) | ( 29 ) |
+Taxes paid related to net share settlement of equity awards | ( 17 ) | ( 50 ) |
+Proceeds from issuance of ordinary shares under employee stock plans | 34 | 22 |
+Other financing activities, net | ( 1 ) | ( 11 ) |
+Net cash used in financing activities | ( 1,814 ) | ( 221 ) |
+(Decrease) Increase in cash, cash equivalents and restricted cash | ( 335 ) | 221 |
+Cash, cash equivalents and restricted cash at the beginning of the period | 1,705 | 893 |
+Cash, cash equivalents and restricted cash at the end of the period | $ | 1,370 | $ | 1,114 |
+See Notes to Condensed Consolidated Financial Statements.
+6
+SEAGATE TECHNOLOGY HOLDINGS PLC
+CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (DEFICIT)
+For the Three Months Ended October 2, 2026 and October 3, 2025
+(In millions )
+(Unaudited)
+Number of Ordinary Shares | Par Value of Shares | Additional Paid-in Capital | Accumulated Other Comprehensive Loss | Accumulated Deficit | Total |
+Balance at July 3, 2026
+| 227 | $ | — | $ | 8,078 | $ | — | $ | ( 5,911 ) | $ | 2,167 |
+Net income | — | — | — | — | 1,761 | 1,761 |
+Other comprehensive loss | — | — | — | ( 4 ) | — | ( 4 ) |
+Conversion of Exchangeable Senior Notes | 2 | — | ( 2 ) | — | — | ( 2 ) |
+Issuance of ordinary shares under employee share plans | 1 | — | 34 | — | — | 34 |
+Repurchases of ordinary shares | — | — | — | — | ( 400 ) | ( 400 ) |
+Tax withholding related to vesting of restricted share units | — | — | — | — | ( 17 ) | ( 17 ) |
+Dividends to shareholders ($ 0.74 per ordinary share)
+| — | — | — | — | ( 170 ) | ( 170 ) |
+Share-based compensation | — | — | 84 | — | — | 84 |
+Balance at October 2, 2026
+| 230 | $ | — | $ | 8,194 | $ | ( 4 ) | $ | ( 4,737 ) | $ | 3,453 |
+Number of Ordinary Shares | Par Value of Shares | Additional Paid-in Capital | Accumulated Other Comprehensive Loss | Accumulated Deficit | Total |
+Balance at June 27, 2025
+| 213 | $ | — | $ | 7,706 | $ | ( 8 ) | $ | ( 8,151 ) | $ | ( 453 ) |
+Net income | — | — | — | — | 549 | 549 |
+Issuance of ordinary shares under employee share plans | 1 | — | 22 | — | — | 22 |
+Repurchases of ordinary shares | — | — | — | — | ( 29 ) | ( 29 ) |
+Tax withholding related to vesting of restricted share units | — | — | — | — | ( 50 ) | ( 50 ) |
+Dividends to shareholders ($ 0.72 per ordinary share)
+| — | — | — | — | ( 154 ) | ( 154 ) |
+Share-based compensation | — | — | 52 | — | — | 52 |
+Balance at October 3, 2025
+| 214 | $ | — | $ | 7,780 | $ | ( 8 ) | $ | ( 7,835 ) | $ | ( 63 ) |
+See Notes to Condensed Consolidated Financial Statements.
+7
+SEAGATE TECHNOLOGY HOLDINGS PLC
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+1. Basis of Presentation and Summary of Significant Accounting Policies
+Organization
+Seagate Technology Holdings plc (“STX”) and its subsidiaries (collectively, unless the context otherwise indicates, the “Company”) is a leading provider of mass-capacity data storage, accelerating the world’s ability to harness the full value of data. The Company designs and manufactures hard disk drives (“HDDs”), a foundational technology for delivering energy-efficient, mass-capacity storage with favorable storage economics that underpins modern digital infrastructure, along with storage systems and related solutions serving two principal end markets

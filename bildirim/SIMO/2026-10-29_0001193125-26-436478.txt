@@ -1,0 +1,3297 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1329394/000119312526436478/d135156dex991.htm
+SEMBOL: SIMO
+BASVURU_TARIHI: 2026-10-29
+BASVURU: 0001193125-26-436478
+
+EX-99.1
+2
+d135156dex991.htm
+EX-99.1
+EX-99.1
+Exhibit 99.1
+|
+|
+|
+|
+|
+Silicon Motion Announces Results for the
+Quarterly Period Ended September 30, 2026
+|
+NEWS RELEASE
+Business Highlights
+|
+• |
+|
+Third quarter of 2026 sales increased 24% Q/Q and increased 131% Y/Y
+|
+|
+• |
+|
+SSD controller sales: 3Q of 2026 increased 20% to 25% Q/Q and increased 55% to 60% Y/Y
+|
+|
+• |
+|
+eMMC+UFS controller sales: 3Q of 2026 decreased 10% to 15% Q/Q and increased 35% to 40% Y/Y
+|
+|
+• |
+|
+Ferri & Boot Drive solutions sales: 3Q of 2026 increased 75% to 80% Q/Q and increased 2,580% to 2,585%
+Y/Y
+|
+Financial Highlights
+|
+|
+|
+|
+|
+|
+|
+3Q 2026 GAAP |
+|
+3Q 2026 Non-GAAP* |
+•
+Net sales
+|
+|
+$560.2 million
+(+24% Q/Q, +131% Y/Y)
+|
+|
+$560.2 million
+(+24% Q/Q, +131% Y/Y)
+|
+•
+Gross margin
+|
+|
+53.6% |
+|
+53.7% |
+•
+Operating margin
+|
+|
+29.0% |
+|
+32.1% |
+•
+Earnings per diluted ADS
+|
+|
+$1.91 |
+|
+$4.35 |
+* |
+Please see reconciliations of U.S. Generally Accepted Accounting Principles (“GAAP”) to all non-GAAP financial measures mentioned herein towards the end of this news release.
+|
+TAIPEI, Taiwan
+and MILPITAS, Calif., October 29, 2026 – Silicon Motion Technology Corporation (NasdaqGS: SIMO) (“Silicon Motion,” the “Company,” “we” or similar terms) today announced its financial
+results for the quarter ended September 30, 2026. For the third quarter of 2026, net sales (GAAP) increased sequentially to $560.2 million from $451.0 million in the second quarter of 2026. Net income (GAAP) decreased sequentially to
+$65.3 million, or $1.91 per diluted American depositary share (“ADS”) (GAAP), from net income (GAAP) of $136.1 million, or $3.99 per diluted ADS (GAAP), in the second quarter of 2026.
+For the third quarter of 2026, net income (non-GAAP) increased sequentially to $149.2 million, or $4.35 per
+diluted ADS (non-GAAP), from net income (non-GAAP) of $83.1 million, or $2.43 per diluted ADS (non-GAAP), in the second
+quarter of 2026.
+All financial numbers are in U.S. dollars unless otherwise noted.
+1
+Third Quarter of 2026 Review
+“Silicon Motion is rapidly evolving from a consumer-focused NAND flash controller supplier into a diversified leader in controllers and storage
+solutions, serving markets from AI infrastructure to the edge,” said Wallace Kou, President and CEO of Silicon Motion. “In the third quarter, revenue, gross margin and operating margin all grew meaningfully. This was driven by our Ferri
+product family for automotive and edge AI and enterprise boot drive solutions, and by our SSD controller businesses, including edge and enterprise SSD controllers, with our new MonTitan enterprise and AI controllers beginning to scale. Building on
+the strong results we have delivered this year, we expect continued momentum in the fourth quarter as we broaden our product portfolio and expand into new markets, providing a foundation for sustainable, long-term growth in revenue and
+profitability.”
+Key Financial Results
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+(in millions, except
+percentages and per ADS
+amounts)
+|
+|
+GAAP |
+|
+|
+Non-GAAP |
+|
+|
+3Q 2026 |
+|
+|
+2Q 2026 |
+|
+|
+3Q 2025 |
+|
+|
+3Q 2026 |
+|
+|
+2Q 2026 |
+|
+|
+3Q 2025 |
+|
+Revenue
+|
+|
+$ |
+560.2 |
+|
+|
+$ |
+451.0 |
+|
+|
+$ |
+242.0 |
+|
+|
+$ |
+560.2 |
+|
+|
+$ |
+451.0 |
+|
+|
+$ |
+242.0 |
+|
+Gross profit
+|
+|
+$ |
+300.4 |
+|
+|
+$ |
+226.2 |
+|
+|
+$ |
+117.7 |
+|
+|
+$ |
+300.7 |
+|
+|
+$ |
+226.3 |
+|
+|
+$ |
+117.8 |
+|
+Percent of revenue
+|
+|
+|
+53.6 |
+% |
+|
+|
+50.2 |
+% |
+|
+|
+48.6 |
+% |
+|
+|
+53.7 |
+% |
+|
+|
+50.2 |
+% |
+|
+|
+48.7 |
+% |
+Operating expenses
+|
+|
+$ |
+137.9 |
+|
+|
+$ |
+125.1 |
+|
+|
+$ |
+88.5 |
+|
+|
+$ |
+120.7 |
+|
+|
+$ |
+122.1 |
+|
+|
+$ |
+79.5 |
+|
+Operating income
+|
+|
+$ |
+162.6 |
+|
+|
+$ |
+101.1 |
+|
+|
+$ |
+29.2 |
+|
+|
+$ |
+180.0 |
+|
+|
+$ |
+104.2 |
+|
+|
+$ |
+38.3 |
+|
+Percent of revenue
+|
+|
+|
+29.0 |
+% |
+|
+|
+22.4 |
+% |
+|
+|
+12.1 |
+% |
+|
+|
+32.1 |
+% |
+|
+|
+23.1 |
+% |
+|
+|
+15.8 |
+% |
+Earnings per diluted ADS
+|
+|
+$ |
+1.91 |
+|
+|
+$ |
+3.99 |
+|
+|
+$ |
+1.16 |
+|
+|
+$ |
+4.35 |
+|
+|
+$ |
+2.43 |
+|
+|
+$ |
+1.00 |
+|
+Other Financial Information
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+(in millions) |
+|
+3Q 2026 |
+|
+|
+2Q 2026 |
+|
+|
+3Q 2025 |
+|
+Cash, cash equivalents and restricted cash-end of period
+|
+|
+$ |
+953.6 |
+|
+|
+$ |
+181.8 |
+|
+|
+$ |
+272.4 |
+|
+Routine capital expenditures
+|
+|
+$ |
+20.1 |
+|
+|
+$ |
+5.8 |
+|
+|
+$ |
+9.9 |
+|
+Dividend payments
+|
+|
+$ |
+16.9 |
+|
+|
+$ |
+16.9 |
+|
+|
+$ |
+16.7 |
+|
+Proceeds from (Repayment of) bank loans
+|
+|
+($ |
+59.2 |
+) |
+|
+$ |
+59.2 |
+|
+|
+|
+—  |
+|
+Proceeds from convertible notes
+|
+|
+$ |
+1,125.9 |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+During the third quarter of 2026, we had $23.0 million of capital expenditures, including $20.1 million for the
+routine purchases of testing equipment, software, design tools and other items, and $2.9 million for building construction.
+2
+Returning Value to Shareholders
+On October 27, 2025, our Board of Directors declared a $2.00 per ADS annual cash dividend to be paid in quarterly installments of $0.50 per ADS. On
+August 20, 2026, we paid $16.9 million to Silicon Motion shareholders as the fourth installment of the annual cash dividend. On October 16, 2026, our Board of Directors declared a $2.30 per ADS annual dividend, representing an annual
+increase of 15%, to be paid in quarterly installments of $0.575 per ADS. The first installment of our annual dividend will be paid on November 19, 2026 to all Silicon Motion shareholders of record as of the close of business on November 5,
+2026.
+Business Outlook
+“The NAND
+industry is undergoing significant change. Growing demand for enterprise and AI storage is absorbing a larger share of industry supply and pushing NAND flash prices higher. In response, NAND manufacturers are increasingly prioritizing high-capacity
+enterprise SSDs and pulling back from certain consumer-oriented segments, including PCs, mobile devices, IoT, automotive and enterprise boot drives. We believe this shift creates a meaningful opportunity for our products in these segments. Our
+proprietary controller technology and nearly two decades of NAND ecosystem relationships, together with our investments in eMMC and UFS solutions, 6nm PCIe Gen 5 edge SSD controllers, 4nm PCIe Gen 6 MonTitan enterprise and AI SSD controllers, and
+our Ferri and boot drive product families, position us to address demand across AI data center, AI server, edge AI and physical AI applications.”
+“While rising memory costs have created pricing pressure in some consumer device segments, our enterprise and Ferri customers have generally prioritized
+supply assurance over price. As our revenue mix continues to shift toward enterprise and AI applications, our backlog and customer forecasts support our expectation of continued growth. Based on results to date and current visibility, we believe we
+are on track to deliver record annual revenue in 2026, representing more than 100% growth over the prior year, with our enterprise and AI product families still in the early stages of revenue contribution,” said Mr. Kou.
+For the fourth quarter of 2026, management expects:
+|
+|
+|
+|
+|
+|
+|
+($ in millions, except percentages)
+|
+|
+GAAP
+|
+|
+Non-GAAP
+Adjustment
+|
+|
+Non-GAAP
+|
+Revenue |
+|
+$588 to $616
++5% to 10% Q/Q
++111% to 121% Y/Y
+|
+|
+— |
+|
+$588 to $616
++5% to 10% Q/Q
++111% to 121% Y/Y
+|
+Gross margin |
+|
+53.8% to 54.8% |
+|
+Approximately $1.0* |
+|
+54.0% to 55.0% |
+Operating margin |
+|
+29.9% to 31.4% |
+|
+Approximately $34.6 to $35.6**
+|
+|
+36.0% to 37.0% |
+* |
+Projected gross margin (non-GAAP) excludes $1.0 million of
+stock-based compensation.
+|
+** |
+Projected operating margin (non-GAAP) excludes $34.6 million to
+$35.6 million of stock-based compensation and dispute-related expenses.
+|
+3
+Convertible Notes Offering
+On August 13, 2026, the Company completed the issuance of $1,150,000,000 aggregate principal amount of 0.00% Convertible Senior Notes due 2031 (the
+“Convertible Notes”), including the exercise in full of the initial purchasers’ option to purchase an additional $150,000,000 aggregate principal amount. The Convertible Notes are senior, unsecured obligations of the Company, do
+not bear regular interest, and will mature on August 15, 2031, unless earlier repurchased, redeemed, or converted. The Company will settle conversions by paying the principal amount in cash, with any conversion value in excess of the principal
+amount settled in cash, ADSs, or a combination thereof, at the Company’s election. The Company may redeem the Convertible Notes on or after August 20, 2029 if the last reported sale price of the ADSs equals or exceeds 130% of the
+conversion price for a specified period. The Convertible Notes were issued in a private offering to persons reasonably believed to be “qualified institutional buyers” pursuant to Rule 144A under the Securities Act of 1933, as amended.
+The Company intends to use the net proceeds for general corporate purposes and the repayment of outstanding borrowings under our credit agreement with CTBC Bank Co., Ltd. The Convertible Notes are reflected as a long-term liability of approximately
+$1.1 billion on the Company’s consolidated balance sheet as of September 30, 2026.
+Conference Call & Webcast:
+The Company’s management team will host a conference call at 8:00 a.m. Eastern Time on October 29, 2026.
+Conference Call Details
+Participants must register in
+advance to join the conference call using the link provided below. Conference access details, including dial-in information and a unique access PIN, will be provided in the confirmation email received upon
+registration.
+Participant Online Registration:
+https://register-conf.media-server.com/register/BI5a2f2137ff5446e59f001272500c5465
+A webcast of the call will be available on the Company’s website at www.siliconmotion.com .
+4
+Discussion of Non-GAAP Financial Measures
+To supplement the Company’s unaudited consolidated financial results calculated in accordance with GAAP, the Company discloses certain non-GAAP financial measures that exclude stock-based compensation and other items, including gross profit (non-GAAP), gross margin
+(non-GAAP), operating expenses (non-GAAP), operating profit (non-GAAP), operating margin
+(non-GAAP), non-operating income (expense) (non-GAAP), net income (non-GAAP), and
+earnings per diluted ADS (non-GAAP). These non-GAAP measures are not in accordance with or an alternative to GAAP and may be different from similarly titled non-GAAP measures used by other companies. We believe that these non-GAAP measures have limitations in that they do not reflect all the amounts associated with the
+Company’s results of operations as determined in accordance with GAAP and that these measures should only be used to evaluate the Company’s results of operations in conjunction with the corresponding GAAP measures. The presentation of
+this additional information is not meant to be considered in isolation or as a substitute for the most directly comparable GAAP measure. We compensate for the limitations of our non-GAAP financial measures by
+relying upon GAAP results to gain a complete picture of our performance.
+Our non-GAAP financial measures are
+provided to enhance the user’s overall understanding of our current financial performance and our prospects for the future. Specifically, we believe the non-GAAP results provide useful information to
+both management and investors as these non-GAAP results exclude certain expenses, gains and losses that we believe are not indicative of our core operating results and because they are consistent with the
+financial models and estimates published by many analysts who follow the Company. We use non-GAAP measures to evaluate the operating performance of our business, for comparison with our forecasts, and for
+benchmarking our performance externally against our competitors. Also, when evaluating potential acquisitions, we exclude the items described below from our consideration of the target’s performance and valuation. Since we find these measures
+to be useful, we believe that our investors benefit from seeing the results from management’s perspective in addition to seeing our GAAP results. We believe that these non-GAAP measures, when read in
+conjunction with the Company’s GAAP financials, provide useful information to investors by offering:
+|
+• |
+|
+the ability to make more meaningful
+period-to-period comparisons of the Company’s on-going operating results;
+|
+|
+• |
+|
+the ability to better identify trends in the Company’s underlying business and perform related trend
+analysis;
+|
+|
+• |
+|
+a better understanding of how management plans and measures the Company’s underlying business; and
+|
+|
+• |
+|
+an easier way to compare the Company’s operating results against analyst financial models and operating
+results of our competitors that supplement their GAAP results with non-GAAP financial measures.
+|
+5
+The following are explanations of each of the adjustments that we incorporate into our non-GAAP measures, as well as the reasons for excluding each of these individual items in our reconciliation of these non-GAAP financial measures:
+Stock-based compensation expense consists of non-cash charges related to the fair value of restricted stock
+units awarded to employees. The Company believes that the exclusion of these non-cash charges provides for more accurate comparisons of our operating results to our peer companies due to the varying available
+valuation methodologies, subjective assumptions and the variety of award types. In addition, the Company believes it is useful to investors to understand the specific impact of share-based compensation on its operating results.
+Dispute related expenses consist of legal, consulting, and other fees and resolution costs related to the dispute.
+Foreign exchange loss (gain) consists of remeasurement gains and/or losses of non-US$ denominated current
+assets and current liabilities, as well as certain other balance sheet items, which result from the appreciation or depreciation of non-US$ currencies against the US$. We do not use financial instruments
+to manage the impact on our operations from changes in foreign exchange rates, and because our operations are subject to fluctuations in foreign exchange rates, we therefore exclude foreign exchange gains and losses when presenting non-GAAP financial measures.
+Realized/Unrealized loss (gain) on investments relates to the disposal and net
+change in fair value of long-term investments.
+6
+Silicon Motion Technology Corporation
+Consolidated Statements of Income
+(in thousands, except percentages and per ADS data, unaudited)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+For Three Months Ended |
+|
+|
+For Nine Months Ended |
+|
+|
+|
+Sep. 30,
+2025
+($) |
+|
+|
+Jun. 30,
+2026
+($) |
+|
+|
+Sep. 30,
+2026
+($) |
+|
+|
+Sep. 30,
+2025
+($) |
+|
+|
+Sep. 30,
+2026
+($) |
+|
+Net sales
+|
+|
+|
+241,999 |
+|
+|
+|
+451,001 |
+|
+|
+|
+560,216 |
+|
+|
+|
+607,166 |
+|
+|
+|
+1,353,323 |
+|
+Cost of sales
+|
+|
+|
+124,311 |
+|
+|
+|
+224,784 |
+|
+|
+|
+259,797 |
+|
+|
+|
+316,424 |
+|
+|
+|
+665,426 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Gross profit
+|
+|
+|
+117,688 |
+|
+|
+|
+226,217 |
+|
+|
+|
+300,419 |
+|
+|
+|
+290,742 |
+|
+|
+|
+687,897 |
+|
+Operating expenses
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Research & development
+|
+|
+|
+69,461 |
+|
+|
+|
+104,654 |
+|
+|
+|
+115,812 |
+|
+|
+|
+182,634 |
+|
+|
+|
+306,706 |
+|
+Sales & marketing
+|
+|
+|
+9,492 |
+|
+|
+|
+13,064 |
+|
+|
+|
+13,235 |
+|
+|
+|
+23,701 |
+|
+|
+|
+39,588 |
+|
+General & administrative
+|
+|
+|
+9,503 |
+|
+|
+|
+7,385 |
+|
+|
+|
+8,821 |
+|
+|
+|
+23,081 |
+|
+|
+|
+25,734 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Operating income
+|
+|
+|
+29,232 |
+|
+|
+|
+101,114 |
+|
+|
+|
+162,551 |
+|
+|
+|
+61,326 |
+|
+|
+|
+315,869 |
+|
+Non-operating income (expense)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Interest income, net
+|
+|
+|
+2,160 |
+|
+|
+|
+1,390 |
+|
+|
+|
+2,919 |
+|
+|
+|
+7,796 |
+|
+|
+|
+5,926 |
+|
+Foreign exchange gain (loss), net
+|
+|
+|
+574 |
+|
+|
+|
+(381 |
+) |
+|
+|
+(63 |
+) |
+|
+|
+(2,355 |
+) |
+|
+|
+(428 |
+) |
+Realized/Unrealized gain (loss) on investments, net
+|
+|
+|
+13,002 |
+|
+|
+|
+74,727 |
+|
+|
+|
+(77,972 |
+) |
+|
+|
+15,246 |
+|
+|
+|
+18,514 |
+|
+Others, net
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+1 |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Subtotal
+|
+|
+|
+15,736 |
+|
+|
+|
+75,736 |
+|
+|
+|
+(75,116 |
+) |
+|
+|
+20,688 |
+|
+|
+|
+24,012 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Income before income tax
+|
+|
+|
+44,968 |
+|
+|
+|
+176,850 |
+|
+|
+|
+87,435 |
+|
+|
+|
+82,014 |
+|
+|
+|
+339,881 |
+|
+Income tax expense
+|
+|
+|
+5,856 |
+|
+|
+|
+40,738 |
+|
+|
+|
+22,127 |
+|
+|
+|
+7,128 |
+|
+|
+|
+71,661 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net income
+|
+|
+|
+39,112 |
+|
+|
+|
+136,112 |
+|
+|
+|
+65,308 |
+|
+|
+|
+74,886 |
+|
+|
+|
+268,220 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Earnings per basic ADS
+|
+|
+|
+1.17 |
+|
+|
+|
+4.01 |
+|
+|
+|
+1.93 |
+|
+|
+|
+2.23 |
+|
+|
+|
+7.93 |
+|
+Earnings per diluted ADS
+|
+|
+|
+1.16 |
+|
+|
+|
+3.99 |
+|
+|
+|
+1.91 |
+|
+|
+|
+2.23 |
+|
+|
+|
+7.88 |
+|
+Margin Analysis:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Gross margin
+|
+|
+|
+48.6 |
+% |
+|
+|
+50.2 |
+% |
+|
+|
+53.6 |
+% |
+|
+|
+47.9 |
+% |
+|
+|
+50.8 |
+% |
+Operating margin
+|
+|
+|
+12.1 |
+% |
+|
+|
+22.4 |
+% |
+|
+|
+29.0 |
+% |
+|
+|
+10.1 |
+% |
+|
+|
+23.3 |
+% |
+Net margin
+|
+|
+|
+16.2 |
+% |
+|
+|
+30.2 |
+% |
+|
+|
+11.7 |
+% |
+|
+|
+12.3 |
+% |
+|
+|
+19.8 |
+% |
+Additional Data:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Weighted avg. ADS equivalents
+|
+|
+|
+33,560 |
+|
+|
+|
+33,908 |
+|
+|
+|
+33,908 |
+|
+|
+|
+33,584 |
+|
+|
+|
+33,831 |
+|
+Diluted ADS equivalents
+|
+|
+|
+33,592 |
+|
+|
+|
+34,097 |
+|
+|
+|
+34,135 |
+|
+|
+|
+33,651 |
+|
+|
+|
+34,049 |
+|
+7
+Silicon Motion Technology Corporation
+Reconciliation of GAAP to Non-GAAP Operating Results
+(in thousands, except percentages and per ADS data, unaudited)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+For Three Months Ended |
+|
+|
+For Nine Months Ended |
+|
+|
+|
+Sep. 30,
+2025
+($) |
+|
+|
+Jun. 30,
+2026
+($) |
+|
+|
+Sep. 30,
+2026
+($) |
+|
+|
+Sep. 30,
+2025
+($) |
+|
+|
+Sep. 30,
+2026
+($) |
+|
+Gross profit (GAAP)
+|
+|
+|
+117,688 |
+|
+|
+|
+226,217 |
+|
+|
+|
+300,419 |
+|
+|
+|
+290,742 |
+|
+|
+|
+687,897 |
+|
+Gross margin (GAAP)
+|
+|
+|
+48.6 |
+% |
+|
+|
+50.2 |
+% |
+|
+|
+53.6 |
+% |
+|
+|
+47.9 |
+% |
+|
+|
+50.8 |
+% |
+Stock-based compensation (A)
+|
+|
+|
+86 |
+|
+|
+|
+74 |
+|
+|
+|
+267 |
+|
+|
+|
+160 |
+|
+|
+|
+475 |
+|
+Gross profit (non-GAAP)
+|
+|
+|
+117,774 |
+|
+|
+|
+226,291 |
+|
+|
+|
+300,686 |
+|
+|
+|
+290,902 |
+|
+|
+|
+688,372 |
+|
+Gross margin
+(non-GAAP)
+|
+|
+|
+48.7 |
+% |
+|
+|
+50.2 |
+% |
+|
+|
+53.7 |
+% |
+|
+|
+47.9 |
+% |
+|
+|
+50.9 |
+% |
+Operating expenses (GAAP)
+|
+|
+|
+88,456 |
+|
+|
+|
+125,103 |
+|
+|
+|
+137,868 |
+|
+|
+|
+229,416 |
+|
+|
+|
+372,028 |
+|
+Stock-based compensation (A)
+|
+|
+|
+(5,435 |
+) |
+|
+|
+(3,344 |
+) |
+|
+|
+(17,080 |
+) |
+|
+|
+(10,346 |
+) |
+|
+|
+(28,664 |
+) |
+Dispute related expenses
+|
+|
+|
+(3,556 |
+) |
+|
+|
+320 |
+|
+|
+|
+(82 |
+) |
+|
+|
+(6,675 |
+) |
+|
+|
+(1,366 |
+) |
+Operating expenses (non-GAAP)
+|
+|
+|
+79,465 |
+|
+|
+|
+122,079 |
+|
+|
+|
+120,706 |
+|
+|
+|
+212,395 |
+|
+|
+|
+341,998 |
+|
+Operating profit (GAAP)
+|
+|
+|
+29,232 |
+|
+|
+|
+101,114 |
+|
+|
+|
+162,551 |
+|
+|
+|
+61,326 |
+|
+|
+|
+315,869 |
+|
+Operating margin (GAAP)
+|
+|
+|
+12.1 |
+% |
+|
+|
+22.4 |
+% |
+|
+|
+29.0 |
+% |
+|
+|
+10.1 |
+% |
+|
+|
+23.3 |
+% |
+Total adjustments to operating profit
+|
+|
+|
+9,077 |
+|
+|
+|
+3,098 |
+|
+|
+|
+17,429 |
+|
+|
+|
+17,181 |
+|
+|
+|
+30,505 |
+|
+Operating profit (non-GAAP)
+|
+|
+|
+38,309 |
+|
+|
+|
+104,212 |
+|
+|
+|
+179,980 |
+|
+|
+|
+78,507 |
+|
+|
+|
+346,374 |
+|
+Operating margin
+(non-GAAP)
+|
+|
+|
+15.8 |
+% |
+|
+|
+23.1 |
+% |
+|
+|
+32.1 |
+% |
+|
+|
+12.9 |
+% |
+|
+|
+25.6 |
+% |
+Non-operating income (expense) (GAAP)
+|
+|
+|
+15,736 |
+|
+|
+|
+75,736 |
+|
+|
+|
+(75,116 |
+) |
+|
+|
+20,688 |
+|
+|
+|
+24,012 |
+|
+Foreign exchange loss (gain), net
+|
+|
+|
+(574 |
+) |
+|
+|
+381 |
+|
+|
+|
+63 |
+|
+|
+|
+2,355 |
+|
+|
+|
+428 |
+|
+Realized/Unrealized gain (loss) on investments, net
+|
+|
+|
+(13,002 |
+) |
+|
+|
+(74,727 |
+) |
+|
+|
+77,972 |
+|
+|
+|
+(15,246 |
+) |
+|
+|
+(18,514 |
+) |
+Non-operating income (expense) (non-GAAP)
+|
+|
+|
+2,160 |
+|
+|
+|
+1,390 |
+|
+|
+|
+2,919 |
+|
+|
+|
+7,797 |
+|
+|
+|
+5,926 |
+|
+Net income (GAAP)
+|
+|
+|
+39,112 |
+|
+|
+|
+136,112 |
+|
+|
+|
+65,308 |
+|
+|
+|
+74,886 |
+|
+|
+|
+268,220 |
+|
+Total pre-tax impact of
+non-GAAP adjustments
+|
+|
+|
+(4,499 |
+) |
+|
+|
+(71,248 |
+) |
+|
+|
+95,464 |
+|
+|
+|
+4,290 |
+|
+|
+|
+12,419 |
+|
+Income tax impact of non-GAAP adjustments
+|
+|
+|
+(789 |
+) |
+|
+|
+18,281 |
+|
+|
+|
+(11,614 |
+) |
+|
+|
+(2,070 |
+) |
+|
+|
+5,513 |
+|
+Net income (non-GAAP)
+|
+|
+|
+33,824 |
+|
+|
+|
+83,145 |
+|
+|
+|
+149,158 |
+|
+|
+|
+77,106 |
+|
+|
+|
+286,152 |
+|
+Earnings per diluted ADS (GAAP)
+|
+|
+$ |
+1.16 |
+|
+|
+$ |
+3.99 |
+|
+|
+$ |
+1.91 |
+|
+|
+$ |
+2.23 |
+|
+|
+$ |
+7.88 |
+|
+Earnings per diluted ADS (non-GAAP)
+|
+|
+$ |
+1.00 |
+|
+|
+$ |
+2.43 |
+|
+|
+$ |
+4.35 |
+|
+|
+$ |
+2.29 |
+|
+|
+$ |
+8.36 |
+|
+Shares used in computing earnings per diluted ADS (GAAP)
+|
+|
+|
+33,592 |
+|
+|
+|
+34,097 |
+|
+|
+|
+34,135 |
+|
+|
+|
+33,651 |
+|
+|
+|
+34,049 |
+|
+Non-GAAP adjustments
+|
+|
+|
+110 |
+|
+|
+|
+154 |
+|
+|
+|
+191 |
+|
+|
+|
+59 |
+|
+|
+|
+189 |
+|
+Shares used in computing earnings per diluted ADS
+(non-GAAP)
+|
+|
+|
+33,702 |
+|
+|
+|
+34,251 |
+|
+|
+|
+34,326 |
+|
+|
+|
+33,710 |
+|
+|
+|
+34,238 |
+|
+(A) Excludes stock-based compensation as follows:
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cost of sales
+|
+|
+|
+86 |
+|
+|
+|
+74 |
+|
+|
+|
+267 |
+|
+|
+|
+160 |
+|
+|
+|
+475 |
+|
+Research & development
+|
+|
+|
+3,820 |
+|
+|
+|
+1,630 |
+|
+|
+|
+12,317 |
+|
+|
+|
+6,877 |
+|
+|
+|
+18,735 |
+|
+Sales & marketing
+|
+|
+|
+677 |
+|
+|
+|
+863 |
+|
+|
+|
+1,808 |
+|
+|
+|
+1,618 |
+|
+|
+|
+4,678 |
+|
+General & administrative
+|
+|
+|
+938 |
+|
+|
+|
+851 |
+|
+|
+|
+2,955 |
+|
+|
+|
+1,851 |
+|
+|
+|
+5,251 |
+|
+8
+Silicon Motion Technology Corporation
+Consolidated Balance Sheets
+(In
+thousands, unaudited)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Sep. 30, |
+|
+|
+Jun. 30, |
+|
+|
+Sep. 30, |
+|
+|
+|
+2025 |
+|
+|
+2026 |
+|
+|
+2026 |
+|
+|
+|
+($) |
+|
+|
+($) |
+|
+|
+($) |
+|
+Cash and cash equivalents
+|
+|
+|
+198,581 |
+|
+|
+|
+74,367 |
+|
+|
+|
+845,926 |
+|
+Accounts receivable, net
+|
+|
+|
+201,576 |
+|
+|
+|
+323,638 |
+|
+|
+|
+443,470 |
+|
+Inventories
+|
+|
+|
+337,967 |
+|
+|
+|
+673,042 |
+|
+|
+|
+870,916 |
+|
+Restricted assets – current
+|
+|
+|
+70,227 |
+|
+|
+|
+103,918 |
+|
+|
+|
+103,918 |
+|
+Prepaid expenses and other current assets
+|
+|
+|
+57,043 |
+|
+|
+|
+41,526 |
+|
+|
+|
+169,399 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total current assets
+|
+|
+|
+865,393 |
+|
+|
+|
+1,216,491 |
+|
+|
+|
+2,433,629 |
+|
+Long-term investments
+|
+|
+|
+32,705 |
+|
+|
+|
+127,403 |
+|
+|
+|
+49,490 |
+|
+Property and equipment, net
+|
+|
+|
+211,080 |
+|
+|
+|
+232,805 |
+|
+|
+|
+236,321 |
+|
+Other assets
+|
+|
+|
+27,846 |
+|
+|
+|
+28,532 |
+|
+|
+|
+34,904 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total assets
+|
+|
+|
+1,137,025 |
+|
+|
+|
+1,605,231 |
+|
+|
+|
+2,754,344 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Accounts payable
+|
+|
+|
+74,981 |
+|
+|
+|
+103,338 |
+|
+|
+|
+63,455 |
+|
+Loans
+|
+|
+|
+—  |
+|
+|
+|
+59,183 |
+|
+|
+|
+—  |
+|
+Income tax payable
+|
+|
+|
+19,231 |
+|
+|
+|
+37,969 |
+|
+|
+|
+71,123 |
+|
+Accrued expenses and other current liabilities
+|
+|
+|
+157,504 |
+|
+|
+|
+281,716 |
+|
+|
+|
+293,675 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total current liabilities
+|
+|
+|
+251,716 |
+|
+|
+|
+482,206 |
+|
+|
+|
+428,253 |
+|
+Convertible notes
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+1,126,514 |
+|
+Other long-term liabilities
+|
+|
+|
+51,506 |
+|
+|
+|
+76,177 |
+|
+|
+|
+68,820 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total liabilities
+|
+|
+|
+303,222 |
+|
+|
+|
+558,383 |
+|
+|
+|
+1,623,587 |
+|
+Shareholders’ equity
+|
+|
+|
+833,803 |
+|
+|
+|
+1,046,848 |
+|
+|
+|
+1,130,757 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Total liabilities & shareholders’ equity
+|
+|
+|
+1,137,025 |
+|
+|
+|
+1,605,231 |
+|
+|
+|
+2,754,344 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+9
+Silicon Motion Technology Corporation
+Condensed Consolidated Statements of Cash Flows
+(in thousands, unaudited)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+For Three Months Ended |
+|
+|
+For Nine Months Ended |
+|
+|
+|
+Sep. 30, |
+|
+|
+Jun. 30, |
+|
+|
+Sep. 30, |
+|
+|
+Sep. 30, |
+|
+|
+Sep. 30, |
+|
+|
+|
+2025 |
+|
+|
+2026 |
+|
+|
+2026 |
+|
+|
+2025 |
+|
+|
+2026 |
+|
+|
+|
+($) |
+|
+|
+($) |
+|
+|
+($) |
+|
+|
+($) |
+|
+|
+($) |
+|
+Net income
+|
+|
+|
+39,112 |
+|
+|
+|
+136,112 |
+|
+|
+|
+65,308 |
+|
+|
+|
+74,886 |
+|
+|
+|
+268,220 |
+|
+Depreciation & amortization
+|
+|
+|
+8,039 |
+|
+|
+|
+9,273 |
+|
+|
+|
+9,578 |
+|
+|
+|
+22,709 |
+|
+|
+|
+27,806 |
+|
+Stock-based compensation
+|
+|
+|
+5,521 |
+|
+|
+|
+3,418 |
+|
+|
+|
+17,348 |
+|
+|
+|
+10,506 |
+|
+|
+|
+29,140 |
+|
+Amortization of convertible notes issuance cost
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+597 |
+|
+|
+|
+—  |
+|
+|
+|
+597 |
+|
+Investment loss (gain) & disposals
+|
+|
+|
+(12,886 |
+) |
+|
+|
+(74,684 |
+) |
+|
+|
+78,026 |
+|
+|
+|
+(15,142 |
+) |
+|
+|
+(18,391 |
+) |
+Changes in operating assets and liabilities
+|
+|
+|
+(12,905 |
+) |
+|
+|
+(137,899 |
+) |
+|
+|
+(426,967 |
+) |
+|
+|
+(33,080 |
+) |
+|
+|
+(658,486 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net cash provided by (used in) operating activities
+|
+|
+|
+26,881 |
+|
+|
+|
+(63,780 |
+) |
+|
+|
+(256,110 |
+) |
+|
+|
+59,879 |
+|
+|
+|
+(351,114 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Purchase of property & equipment
+|
+|
+|
+(20,113 |
+) |
+|
+|
+(7,733 |
+) |
+|
+|
+(22,957 |
+) |
+|
+|
+(47,325 |
+) |
+|
+|
+(48,911 |
+) |
+Purchase of long-term investments
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+(4,000 |
+) |
+|
+|
+—  |
+|
+|
+|
+(4,000 |
+) |
+Proceeds from long-term investments
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+4,965 |
+|
+|
+|
+—  |
+|
+|
+|
+4,965 |
+|
+Proceeds from disposal properties
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+87 |
+|
+Others
+|
+|
+|
+73 |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+86 |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net cash provided by (used in) investing activities
+|
+|
+|
+(20,040 |
+) |
+|
+|
+(7,733 |
+) |
+|
+|
+(21,992 |
+) |
+|
+|
+(47,239 |
+) |
+|
+|
+(47,859 |
+) |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Proceeds from convertible notes
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+1,125,917 |
+|
+|
+|
+—  |
+|
+|
+|
+1,125,917 |
+|
+Dividend payments
+|
+|
+|
+(16,749 |
+) |
+|
+|
+(16,922 |
+) |
+|
+|
+(16,922 |
+) |
+|
+|
+(50,451 |
+) |
+|
+|
+(50,762 |
+) |
+Share repurchases
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+(24,312 |
+) |
+|
+|
+—  |
+|
+Proceeds from (Repayment of) bank loans
+|
+|
+|
+—  |
+|
+|
+|
+59,183 |
+|
+|
+|
+(59,183 |
+) |
+|
+|
+—  |
+|
+|
+|
+—  |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net cash provided by (used in) financing activities
+|
+|
+|
+(16,749 |
+) |
+|
+|
+42,261 |
+|
+|
+|
+1,049,812 |
+|
+|
+|
+(74,763 |
+) |
+|
+|
+1,075,155 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Net increase (decrease) in cash, cash equivalents & restricted cash
+|
+|
+|
+(9,908 |
+) |
+|
+|
+(29,252 |
+) |
+|
+|
+771,710 |
+|
+|
+|
+(62,123 |
+) |
+|
+|
+676,182 |
+|
+Effect of foreign exchange changes
+|
+|
+|
+17 |
+|
+|
+|
+170 |
+|
+|
+|
+76 |
+|
+|
+|
+178 |
+|
+|
+|
+325 |
+|
+Cash, cash equivalents & restricted cash—beginning of period
+|
+|
+|
+282,279 |
+|
+|
+|
+210,884 |
+|
+|
+|
+181,802 |
+|
+|
+|
+334,333 |
+|
+|
+|
+277,081 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Cash, cash equivalents & restricted cash—end of period
+|
+|
+|
+272,388 |
+|
+|
+|
+181,802 |
+|
+|
+|
+953,588 |
+|
+|
+|
+272,388 |
+|
+|
+|
+953,588 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+10
+About Silicon Motion:
+We are the global leader in supplying NAND flash controllers for solid state storage devices. We supply more SSD controllers than any other company in the
+world for servers, PCs and other client devices and are the leading merchant supplier of eMMC and UFS embedded storage controllers used in smartphones, IoT devices and other applications. We also supply customized high-performance hyperscale data
+centers and specialized industrial and automotive SSD solutions. Our customers include most of the NAND flash vendors, storage device module makers and leading OEMs. For further information on Silicon Motion, visit us at
+www.siliconmotion.com .
+Forward-Looking Statements:
+This news release contains “forward-looking statements” within the meaning of Section 27A of the Securities Act of 1933, as amended, and
+Section 21E of the Securities Exchange Act of 1934, as amended. In some cases, you can identify forward-looking statements by terminology such as “may,” “will,” “should,” “expect,”
+“intend,” “plan,” “anticipate,” “believe,” “estimate,” “predict,” “potential,” “continue,” or the negative of these terms or other comparable
+terminology. Although such statements are based on our own information and information from other sources we believe to be reliable, you should not place undue reliance on them. These statements involve risks and uncertainties, and actual market
+trends or our actual results of operations, financial condition or business prospects may differ materially from those expressed or implied in these forward-looking statements for a variety of reasons. Potential risks and uncertainties include, but
+are not limited to, the unpredictable volume and timing of customer orders, which are not fixed by contract but vary on a purchase order basis; the loss of one or more key customers or the significant reduction, postponement, rescheduling or
+cancellation of orders from one or more customers; general economic conditions or conditions in the semiconductor or consumer electronics markets; the impact of inflation on our business and customers’ businesses and any effect this has on
+economic activity in the markets in which we operate; the functionalities and performance of our information technology (“IT”) systems, which are subject to cybersecurity threats and which support our critical operational
+activities, and any breaches of our IT systems or those of our customers, suppliers, partners and providers of third-party licensed technology; the effects on our business and our customers’ business taking into account the
+ongoing U.S.-China tariffs and trade disputes; other factors beyond our control such as natural disasters, terrorism, civil unrest, war, including conflicts in the Middle East, threats to the Strait of Hormuz and global energy supply
+routes, and the ongoing Russia-Ukraine War, and pandemics, epidemics and other health emergencies; the continuing tensions between Taiwan and China, including enhanced military activities; decreases in the overall average selling prices of our
+products; changes in the relative sales mix of our products; supply chain disruptions that have affected us and our industry as well as other industries on a global basis; the payment,
+or non-payment, of cash dividends in the future at the discretion of our Board of Directors and any announced planned increases in such dividends; changes in our cost of finished goods; the
+availability, pricing, and timeliness of delivery of other components and raw materials used in the products we sell given the current raw material supply shortages being experienced in our industry; our customers’ sales outlook, purchasing
+patterns, and inventory adjustments based on consumer demands
+11
+and general economic conditions; any potential impairment charges that may be incurred related to businesses previously acquired or divested in the future; the risk that the anticipated benefits
+from our PCIe Gen 5 controller products, including higher average selling prices, may not be maintained or may be less than expected; the risk that our anticipated market share gains across our product lines and penetration of enterprise end markets
+may not materialize as expected or on the anticipated timeline; our ability to successfully develop, introduce, and sell new or enhanced products in a timely manner; and the timing of new product announcements or introductions by us or by our
+competitors. For additional discussion of these risks and uncertainties and other factors, please see the documents we file from time to time with the U.S. Securities and Exchange Commission, including our Annual Report on Form 20-F filed with the U.S. Securities and Exchange Commission on April 30, 2026. Other than as required under the securities laws, we do not intend, and do not undertake any obligation to, update
+or revise any forward-looking statements, which apply only as of the date of this news release.
+|
+|
+|
+Silicon Motion Investor Contacts: |
+|
+|
+|
+|
+Tom Sepenzis |
+|
+Selina Hsieh |
+|
+|
+Vice President of Investor Relations & Strategy |
+|
+Investor Relations |
+|
+|
+tsepenzis@siliconmotion.com |
+|
+ir@siliconmotion.com |
+12

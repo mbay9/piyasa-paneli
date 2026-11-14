@@ -1,0 +1,256 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1816581/000162828026069487/exhibit991-9302026.htm
+SEMBOL: OUST
+BASVURU_TARIHI: 2026-11-03
+BASVURU: 0001628280-26-069487
+
+EX-99.1
+2
+exhibit991-9302026.htm
+EX-99.1
+Document
+Ouster Announces Results for Third Quarter 2026
+Record product revenue, achieving 15th straight quarter of growth
+Lidar and camera shipments of more than 27,000 units
+SAN FRANCISCO, CA – Ouster, Inc. (Nasdaq: OUST) (“Ouster” or the “Company”), a leader in sensing and perception for Physical AI, announced financial results for the three months ended September 30, 2026.
+“We delivered a strong third quarter, with $59 million in revenue and more than 27,000 t otal sensors shipped, cementing Ouster’s evolution into a comprehensive platform that meets the diverse, global demands of Physical AI. Our Stereolabs cameras had a record quarter of shipments, unlocked by our investments in capacity to meet surging growth in the robotics sector,” said Ouster CEO Angus Pacala.
+“The market reception for Rev8 has been decisive. As the world’s first native color lidar, Rev8 is a paradigm shift that is proving to be an undeniable competitive differentiator. Hundreds of customers have already chosen Rev8 for their mission critical applications. Customer demand has been robust while we ramp initial production, and we expect our delivery cadence to accelerate into 2027. The breakout performance of Stereolabs proves our vision of a unified platform is exactly what the market demands. From farms and distribution centers to last mile delivery, the world’s most innovative companies are choosing Ouster. We provide the complete stack of lidar, vision, compute, and software required to bring Physical AI into the real world.”
+Third Quarter 2026 Highlights:
+• $59 million in revenue, up 50% year over year and up 9% sequentially.
+• Shipped more than 27,000 lidar and camera sensors for revenue, of which lidar was approximately 27% of the total.
+• GAAP gross margin of 43%, essentially flat year over year and down 600 bps sequentially.
+• GAAP net loss of $14 million, an improvement of $8 million year over year and an improvement of $4 million sequentially.
+• Non-GAAP gross margin 1 of 47%, down 100 bps year over year and down 700 bps sequentially.
+• Adjusted EBITDA 1 loss of $3 million, an improvement of $5 million year over year and an improvement of $1 million sequentially.
+• Cash, cash equivalents, restricted cash, and short-term investments of $421 million as of September 30, 2026.
+1 Adjusted EBITDA and non-GAAP gross margin are non-GAAP financial measures. See Non-GAAP Financial Measures for additional information and reconciliations of these measures to their respective most directly comparable financial measures calculated in accordance with U.S. GAAP.
+Revenue
+Ouster delivered third quarter revenue of $59 million, an increase of 50% year over year and 9% sequentially. Product revenue of $56 million was an increase of 42% year over year and 6% sequentially, primarily driven by customers in the industrial and robotics verticals for use cases in warehouse automation, defense, construction, mapping, and data collection. The Company shipped over 27,000 un its, of which lidar was appro ximately 27% o f the total.
+Gross Margin
+GAAP gross margin was 43%, compared with 42% in the third quarter of 2025 and 49% in the second quarter of 2026. A one-time refund positively impacted second quarter gross margin by approximately 1,000 basis points. Non-GAAP gross margin was 47%, compared with 47% in the third quarter of 2025 and 53% in the second quarter of 2026. Non-GAAP gross margin excludes the impact of stock-based compensation expenses, and certain other items outside of ordinary operations.
+Fourth Quarter 2026 Outlook:
+For the fourth quarter of 2026, Ouster expects to achieve $61 million to $64 million in total revenue.
+Upcoming Investor Events
+Ouster management is scheduled to participate in the following upcoming investor events:
+• ROTH Technology Conference - November 18, 2026, New York City
+• Northland Growth Conference - December 16, 2026 (Virtual)
+Conference Call Information
+Ouster will host a conference call and live webcast for analysts and investors at 5:00 p.m. ET today, November 3, 2026 to discuss its financial results and business outlook. Interested parties may listen to a live webcast of the conference call. Registration for the webcast can be completed by visiting the following website: https://edge.media-server.com/mmc/p/5gs6eo5t. The webcast will be available for replay for at least 30 days after the conference call on Ouster’s investor website at https://investors.ouster.com/.
+About Ouster
+Ouster (Nasdaq: OUST) is a leader in sensing and perception for Physical AI across industrial, robotics, automotive, and smart infrastructure. With a unified platform of high-performance digital lidar, cameras, AI compute, sensor fusion and perception software, and AI models, Ouster delivers solutions that improve quality of life in the physical world. Headquartered in San Francisco, CA, Ouster has a global presence serving thousands of customers with offices in the Americas, Europe, and Asia-Pacific. For more information about our products, visit www.ouster.com, contact our sales team, or connect with us on X or LinkedIn.
+Forward-Looking Statements
+This press release contains forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. The Company intends such forward-looking statements to be covered by the safe harbor provisions for forward-looking statements contained in Section 27A of the Securities Act of 1933, as amended and Section 21E of the Securities Exchange Act of 1934, as amended. Such statements are based upon current plans, estimates and expectations of management that are subject to various risks and uncertainties that could cause actual results to differ materially from such statements. The inclusion of forward-looking statements should not be regarded as a representation that such plans, estimates and expectations will be achieved. Words such as “anticipate,” “expect,” “project,” “intend,” “believe,” “may,” “will,” “should,” “plan,” “could,” “continue,” “target,” “contemplate,” “estimate,” “forecast,” “guidance,” “predict,” “possible,” “potential,” “pursue,” “likely,” and the negative of these terms and similar expressions are intended to identify forward-looking statements, though not all forward-looking statements use these words or expressions. All statements, other than statements of historical fact, including statements regarding our future financial results and financial condition, our strategy, our market positioning, development of and demand for our products, trends in investments in and adoption of Physical AI and autonomy, the impact of Ouster’s recent acquisition of Stereolabs, and future investor conference attendance, constitute forward-looking statements. All forward-looking statements are subject to risks and uncertainties that may cause actual results to differ materially from those that we expected, including, but not limited to, risks related to Ouster’s limited operating history and history of losses; the substantial research and development costs needed to develop and commercialize new products; Ouster’s limited sales history and the ability to maintain confidence in the Company’s long-term business prospect among customers in target markets; fluctuations in its operating results; its ability to maintain competitive average selling prices, high sales volumes and reduce product costs; competition in Ouster’s industry; the negotiating power and product standards of its customers; the adoption of its products and the growth of the lidar market generally; product quality and liability risks; Ouster’s future capital needs and ability to secure additional capital on favorable terms or at all; market acceptance of lidar and Ouster’s forecasts for market growth; Ouster’s ability to manage growth, including growing the sales and marketing organization; risks related to international operations, including international manufacturing; cancellation or postponement of contracts or unsuccessful implementations; the Company’s ability to manage its inventory; credit risk of customers; Ouster’s ability to use tax attributes; Ouster’s dependence on key third party suppliers, in particular Benchmark Electronics, Inc., Fabrinet, and other suppliers; supply chain constraints and challenges; conditions in the industries the Company targets or the global economy; Ouster’s ability to recruit and retain key personnel; its ability to complete, successfully integrate or achieve the anticipated benefits of new acquisitions or investments, including the Stereolabs acquisition; changes to trade policy, tariffs, and import/export regulations may have a material adverse effect on Ouster’s business, financial condition and results of operations; risks related to the use of AI tools by us and others, including risks related to cybersecurity, data regulations, product performance, and data privacy; Ouster’s ability to adequately protect and enforce its intellectual property rights; legal and regulatory risks; risks related to operating as a public company; and other important factors discussed in the Company’s Annual Report on Form 10-K for the year ended December 31, 2025, and updated by the Company’s Quarterly Report on Form 10-Q for the quarterly period ended September 30, 2026, once filed, and as may be further updated from time to time in the Company’s other filings with the SEC. Readers are urged to consider these factors carefully and in the totality of the circumstances when evaluating these forward-looking statements, and not to place undue reliance on any of them. Any such forward-looking statements represent management’s reasonable estimates and beliefs as of the date of this press release. While Ouster may elect to update such forward-looking statements at some point in the future, it disclaims any obligation to do so, other than as may be required by law, even if subsequent events cause its views to change.
+In addition, see information below concerning non-GAAP financial measures.
+Non-GAAP Financial Measures
+In addition to its results determined in accordance with generally accepted accounting principles in the United States (“GAAP”), Ouster believes the non-GAAP measures of Non-GAAP Gross Profit, Non-GAAP Gross Margin and Adjusted EBITDA are useful in evaluating its operating performance. Ouster calculates Non-GAAP Gross Profit as gross profit (loss) excluding amortization of acquired intangibles, acquisition and integration-related charges, and stock-based compensation expense. Non-GAAP Gross Margin is calculated as Non-GAAP Gross Profit divided by revenues. Adjusted EBITDA is calculated as net loss excluding interest expense (income), net, other (income) expense, net, stock-based compensation expense, provision for (benefit from) income taxes, amortization of acquired intangibles, acquisition and integration-related charges, depreciation expenses, certain litigation expenses, gain on lease termination and other items. Ouster believes that Non-GAAP Gross Profit, Non-GAAP Gross Margin, and Adjusted EBITDA may be helpful to investors because it provides consistency and comparability with past financial performance and may be helpful in comparison with other companies, some of which use similar non-GAAP information to supplement their GAAP results. Adjusted EBITDA is also used by the Board and management as a performance metric for compensation purposes. The non-GAAP financial information is presented for supplemental informational purposes only and should not be considered a substitute for financial information presented in accordance with GAAP, and may be different from similarly titled non-GAAP measures used by other companies. Reconciliation tables of the most comparable GAAP financial measures to the non-GAAP financial measures are included at the end of this press release.
+| | | | | | | | | | | | | |
+| OUSTER, INC. | |
+| CONDENSED CONSOLIDATED BALANCE SHEETS | |
+| (unaudited) | |
+| (in thousands) | |
+| | | | | |
+| | September 30,
+2026 | | December 31,
+2025 | |
+| Assets | | | | |
+| Current assets: | | | | |
+| Cash and cash equivalents | $ | 88,899 | | | $ | 67,413 | | |
+| Restricted cash, current | 335 | | | 1,467 | | |
+| Short-term investments | 330,897 | | | 141,172 | | |
+| Accounts receivable, net | 39,269 | | | 27,753 | | |
+| Inventory | 36,527 | | | 23,566 | | |
+| Prepaid expenses and other current assets | 27,661 | | | 17,517 | | |
+| Total current assets | 523,588 | | | 278,888 | | |
+| Property and equipment, net | 39,510 | | | 31,891 | | |
+| Operating lease, right-of-use assets | 12,171 | | | 13,452 | | |
+| Goodwill | 38,525 | | | — | | |
+| Unbilled receivable, non-current portion | 5,268 | | | 8,560 | | |
+| Intangible assets, net | 30,791 | | | 13,316 | | |
+| Restricted cash, non-current | 1,100 | | | 1,100 | | |
+| Other non-current assets | 2,768 | | | 2,309 | | |
+| Total assets | $ | 653,721 | | | $ | 349,516 | | |
+| Liabilities and stockholders’ equity | | | | |
+| Current liabilities: | | | | |
+| Accounts payable | $ | 22,874 | | | $ | 19,984 | | |
+| Accrued and other current liabilities | 35,292 | | | 26,200 | | |
+| Contract liabilities, current | 10,384 | | | 20,705 | | |
+| Operating lease liability, current portion | 4,935 | | | 4,142 | | |
+| Total current liabilities | 73,485 | | | 71,031 | | |
+| Operating lease liability, non-current portion | 10,428 | | | 12,938 | | |
+| | | | | |
+| Contract liabilities, non-current portion | 3,840 | | | 3,106 | | |
+| Deferred tax liability | 4,112 | | | — | | |
+| Other non-current liabilities | 563 | | | 703 | | |
+| Total liabilities | 92,428 | | | 87,778 | | |
+| Commitments and contingencies | | | | |
+| Stockholders’ equity: | | | | |
+| Common stock | 49 | | | 48 | | |
+| Additional paid-in capital | 1,585,749 | | | 1,235,580 | | |
+| Accumulated deficit | (1,023,183) | | | (973,448) | | |
+| Accumulated other comprehensive (loss) income | (1,322) | | | (442) | | |
+| Total stockholders’ equity | 561,293 | | | 261,738 | | |
+| Total liabilities and stockholders’ equity | $ | 653,721 | | | $ | 349,516 | | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+OUSTER, INC. |
+CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS AND COMPREHENSIVE LOSS |
+(unaudited) |
+(in thousands, except share and per share data) |
+| | | | | | | | | | | | |
+| Three Months Ended September 30, | | Three Months Ended June 30, | | Nine Months Ended September 30, | |
+| 2026 | | 2025 | | 2026
+| | 2026 | | 2025 | | | |
+Revenue: | | | | | | | | | | | | |
+Product revenue | $ | 56,032 | | | $ | 39,487 | | | $ | 52,763 | | | $ | 157,026 | | | $ | 105,607 | | | | |
+Royalties | 3,293 | | | 38 | | | 1,863 | | | 5,503 | | | 1,599 | | | | |
+Total revenue | 59,325 | | | 39,525 | | | 54,626 | | | 162,529 | | | 107,206 | | | | |
+| | | | | | | | | | | | |
+Cost of revenue | 34,066 | | | 22,866 | | | 27,941 | | | 89,747 | | | 61,222 | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+Gross profit | 25,259 | | | 16,659 | | | 26,685 | | | 72,782 | | | 45,984 | | | | |
+Operating expenses: | | | | | | | | | | | | |
+Research and development | 18,563 | | | 17,777 | | | 19,341 | | | 53,986 | | | 49,909 | | | | |
+Sales and marketing | 9,641 | | | 7,441 | | | 9,186 | | | 26,667 | | | 20,842 | | | | |
+General and administrative | 16,315 | | | 15,692 | | | 18,203 | | | 50,646 | | | 50,136 | | | | |
+| | | | | | | | | | | | |
+Total operating expenses | 44,519 | | | 40,910 | | | 46,730 | | | 131,299 | | | 120,887 | | | | |
+Loss from operations | (19,260) | | | (24,251) | | | (20,045) | | | (58,517) | | | (74,903) | | | | |
+Other income (expense): | | | | | | | | | | | | |
+Interest income | 4,159 | | | 2,414 | | | 2,116 | | | 8,603 | | | 6,739 | | | | |
+| | | | | | | | | | | | |
+Other income (expense), net | 226 | | | 176 | | | (60) | | | 137 | | | 453 | | | | |
+Total other income, net | 4,385 | | | 2,590 | | | 2,056 | | | 8,740 | | | 7,192 | | | | |
+Loss before income taxes | (14,875) | | | (21,661) | | | (17,989) | | | (49,777) | | | (67,711) | | | | |
+Provision for (benefit from) income tax expense | (719) | | | 72 | | | 125 | | | (42) | | | (3,349) | | | | |
+Net loss | $ | (14,156) | | | $ | (21,733) | | | $ | (18,114) | | | $ | (49,735) | | | $ | (64,362) | | | | |
+Other comprehensive income (loss) | | | | | | | | | | | | |
+Changes in unrealized gain (loss) on available for sale securities | $ | (589) | | | $ | 109 | | | $ | (171) | | | $ | (880) | | | $ | 85 | | | | |
+Foreign currency translation adjustments | — | | | (45) | | | — | | | — | | | 436 | | | | |
+Total comprehensive loss | $ | (14,745) | | | $ | (21,669) | | | $ | (18,285) | | | $ | (50,615) | | | $ | (63,841) | | | | |
+Net loss per common share: | | | | | | | | | | | | |
+Basic and diluted | $ | (0.20) | | | $ | (0.37) | | | $ | (0.27) | | | $ | (0.75) | | | $ | (1.17) | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | | |
+Weighted-average shares used to compute basic and diluted loss per share | 71,470,107 | | | 57,976,375 | | | 65,990,437 | | | 66,243,791 | | | 54,997,009 | | | | |
+| | | | | | | | | | | | |
+| | | | | | | | | | | |
+OUSTER, INC. |
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS |
+(unaudited) |
+(in thousands) |
+| | | |
+| Nine Months Ended September 30, |
+| 2026 | | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES | | | |
+Net loss | $ | (49,735) | | | $ | (64,362) | |
+Adjustments to reconcile net loss to net cash used in operating activities: | | | |
+Depreciation and amortization | 9,694 | | | 5,707 | |
+(Gain) loss on write-off and disposal of property and equipment | (157) | | | 106 | |
+Gain on lease termination | — | | | (65) | |
+Stock-based compensation | 30,365 | | | 33,553 | |
+Deferred taxes | (1,395) | | | — | |
+Reduction of revenue related to stock warrant issued to customer | 2,769 | | | 2,054 | |
+Amortization of right-of-use asset | 2,514 | | | 3,868 | |
+| | | |
+| | | |
+Accretion on short-term investments | (2,727) | | | (2,400) | |
+Change in fair value of warrant liabilities | — | | | (8) | |
+(Recovery) provision for inventory write-down | 191 | | | (551) | |
+Provision for doubtful accounts | 189 | | | 120 | |
+| | | |
+Realized gain on sale of available for sale securities | (15) | | | (4) | |
+Changes in operating assets and liabilities, net of effects of business acquisition: | | | |
+Accounts receivable | (6,819) | | | (2,930) | |
+Inventory | (10,993) | | | 455 | |
+Prepaid expenses and other assets | (6,378) | | | (5,943) | |
+| | | |
+Accounts payable | 1,444 | | | 9,216 | |
+Accrued and other liabilities | (3,552) | | | 6,056 | |
+Contract liabilities | (11,866) | | | (4,374) | |
+Operating lease liability | (2,917) | | | (5,028) | |
+Net cash used in operating activities | (49,388) | | | (24,530) | |
+CASH FLOWS FROM INVESTING ACTIVITIES | | | |
+Proceeds from sale of property and equipment | 64 | | | — | |
+Purchases of property and equipment | (10,882) | | | (3,143) | |
+Purchase of short-term investments | (315,608) | | | (118,424) | |
+Proceeds from sales and maturities of short-term investments | 127,745 | | | 90,000 | |
+Acquisition of Stereolabs, net of cash acquired | (27,493) | | | — | |
+Net cash used in investing activities | (226,174) | | | (31,567) | |
+CASH FLOWS FROM FINANCING ACTIVITIES | | | |
+Proceeds from ESPP purchase | 1,332 | | | 980 | |
+Proceeds from exercise of stock options | 3,789 | | | 83 | |
+Payments received to fund employees tax obligation for vested RSUs | 1,337 | | | 2,440 | |
+Proceeds from the issuance of common stock under at-the-market offering, net of commissions and fees | 97,985 | | | 94,057 | |
+At-the-market offering costs for the issuance of common stock | (202) | | | (232) | |
+Proceeds from the underwritten public offering, net of underwriting discounts, commissions and fees | 191,850 | | | — | |
+Underwritten public offering costs for the issuance of common stock | (175) | | | — | |
+Net cash provided by financing activities | 295,916 | | | 97,328 | |
+Effect of exchange rates on cash and cash equivalents | — | | | 436 | |
+Net increase in cash, cash equivalents and restricted cash | 20,354 | | | 41,667 | |
+Cash, cash equivalents and restricted cash at beginning of period | 69,980 | | | 48,099 | |
+Cash, cash equivalents and restricted cash at end of period | $ | 90,334 | | | $ | 89,766 | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+OUSTER, INC. |
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES |
+(unaudited) |
+(in thousands) |
+| | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Three Months Ended June 30, | | Nine Months Ended September 30, | | | | |
+| 2026 | | 2025 | | 2026 | | 2026 | | 2025 | | | | | | |
+GAAP net loss | $ | (14,156) | | | $ | (21,733) | | | $ | (18,114) | | | $ | (49,735) | | | $ | (64,362) | | | | | | | |
+Interest income, net | (4,159) | | | (2,414) | | | (2,116) | | | (8,603) | | | (6,739) | | | | | | | |
+Other income, net | (226) | | | (176) | | | 60 | | | (137) | | | (453) | | | | | | | |
+Stock-based compensation expense (1)
+| 11,486 | | | 11,829 | | | 11,385 | | | 30,365 | | | 33,553 | | | | | | | |
+Provision for (benefit from) income tax expense | (719) | | | 72 | | | 125 | | | (42) | | | (3,349) | | | | | | | |
+| | | | | | | | | | | | | | | |
+Amortization of acquired intangibles (2)
+| 2,117 | | | 1,134 | | | 2,099 | | | 5,925 | | | 3,380 | | | | | | | |
+Depreciation expense (2)
+| 1,641 | | | 919 | | | 1,135 | | | 3,769 | | | 2,326 | | | | | | | |
+Acquisition and integration-related charges (4)
+| 624 | | | 1,348 | | | 986 | | | 3,862 | | | 1,348 | | | | | | | |
+Litigation (recovery) expenses (3)
+| — | | | 652 | | | (13) | | | (132) | | | 12,679 | | | | | | | |
+Gain on lease termination | — | | | — | | | — | | | — | | | (65) | | | | | | | |
+Adjusted EBITDA | $ | (3,392) | | | $ | (8,369) | | | $ | (4,453) | | | $ | (14,728) | | | $ | (21,682) | | | | | | | |
+| | | | | | | | | | | | | | | |
+(1) Includes stock-based compensation expense as follows:
+| | | | | | |
+| Three Months Ended September 30, | | Three Months Ended June 30, | | Nine Months Ended September 30, | | | | |
+| 2026 | | 2025 | | 2026 | | 2026 | | 2025 | | | | | | |
+Cost of revenue | $ | 1,276 | | | $ | 1,618 | | | $ | 1,395 | | | $ | 3,497 | | | $ | 4,553 | | | | | | | |
+Research and development | 4,554 | | | 5,583 | | | 4,332 | | | 11,502 | | | 16,191 | | | | | | | |
+Sales and marketing | 1,199 | | | 1,285 | | | 1,177 | | | 3,142 | | | 4,124 | | | | | | | |
+General and administrative | 4,457 | | | 3,343 | | | 4,481 | | | 12,224 | | | 8,685 | | | | | | | |
+Total stock-based compensation | $ | 11,486 | | | $ | 11,829 | | | $ | 11,385 | | | $ | 30,365 | | | $ | 33,553 | | | | | | | |
+| | | | | | | | | | | | | | | |
+(2) Includes depreciation and amortization expense as follows:
+| | | | | | |
+| Three Months Ended September 30, | | Three Months Ended June 30, | | Nine Months Ended September 30, | | | | |
+| 2026 | | 2025 | | 2026 | | 2026 | | 2025 | | | | | | |
+Cost of revenue | $ | 2,043 | | | $ | 1,086 | | | $ | 1,583 | | | $ | 4,937 | | | $ | 2,952 | | | | | | | |
+Research and development | 964 | | | 718 | | | 907 | | | 2,750 | | | 2,038 | | | | | | | |
+Sales and marketing | 431 | | | 177 | | | 472 | | | 1,219 | | | 523 | | | | | | | |
+General and administrative | 320 | | | 72 | | | 272 | | | 788 | | | 194 | | | | | | | |
+Total depreciation and amortization expense | $ | 3,758 | | | $ | 2,053 | | | $ | 3,234 | | | $ | 9,694 | | | $ | 5,707 | | | | | | | |
+| | | | | | | | | | | | | | | |
+(3) Represents litigation costs consisting primarily of legal fees and the estimated and actual costs to resolve the outstanding litigation cases offset by the estimated amounts recoverable and recovered under insurance, indemnity and contribution agreements for such costs.
+| | |
+(4) Includes legal and accounting fees and transition related services and are not considered normal, recurring, cash operating expenses necessary to operate the Company's business.
+| | |
+| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
+| Three Months Ended September 30, | | Three Months Ended June 30, | | Nine Months Ended September 30, | | |
+| 2026 | | 2025 | | 2026 | | 2026 | | 2025 | | |
+Gross profit on GAAP basis | $ | 25,259 | | | $ | 16,659 | | | $ | 26,685 | | | $ | 72,782 | | | $ | 45,984 | | | |
+Stock-based compensation | 1,276 | | | 1,618 | | | 1,395 | | | 3,497 | | | 4,553 | | | |
+Amortization of acquired intangible assets | 1,139 | | | 467 | | | 1,127 | | | 3,127 | | | 1,385 | | | |
+| | | | | | | | | | | |
+Gross profit on non-GAAP basis | $ | 27,674 | | | $ | 18,744 | | | $ | 29,207 | | | $ | 79,406 | | | $ | 51,922 | | | |
+| | | | | | | | | | | |
+Gross margin on GAAP basis | 43 | % | | 42 | % | | 49 | % | | 45 | % | | 43 | % | | |
+Gross margin on non-GAAP basis | 47 | % | | 47 | % | | 53 | % | | 49 | % | | 48 | % | | |
+Contacts
+For Investors
+investors@ouster.io
+For Media
+press@ouster.io

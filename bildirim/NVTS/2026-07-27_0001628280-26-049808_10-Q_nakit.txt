@@ -1,0 +1,81 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1821769/000162828026049808/nvts-20260630.htm
+SEMBOL: NVTS
+BASVURU_TARIHI: 2026-07-27
+BASVURU: 0001628280-26-049808
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(unaudited)
+Six Months Ended June 30, |
+(In thousands) | 2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: |
+Net loss | $ | ( 262,003 ) | $ | ( 65,904 ) |
+Adjustments to reconcile net loss to net cash used in operating activities: |
+Depreciation | 1,869 | 1,677 |
+Amortization of intangible assets | 9,468 | 9,468 |
+Non-cash lease expense | 742 | 896 |
+Stock-based compensation expense | 18,724 | 6,059 |
+Allowance for expected credit losses | ( 216 ) | 750 |
+Loss from equity method investment | — | 505 |
+Loss on disposition of property and equipment | 8 | 8 |
+Loss from change in fair value of earnout liability | 210,981 | 19,851 |
+Deferred income taxes | — | ( 35 ) |
+Change in operating assets and liabilities: |
+Accounts receivable | ( 930 ) | 756 |
+Inventories | ( 6,227 ) | 353 |
+Prepaid expenses and other current assets | ( 15,443 ) | ( 6 ) |
+Other assets | 54 | 954 |
+Accounts payable, accrued compensation and other accrued expenses | ( 4,513 ) | 728 |
+Operating lease liability | ( 862 ) | ( 825 ) |
+Net cash used in operating activities | ( 48,348 ) | ( 24,765 ) |
+CASH FLOWS FROM INVESTING ACTIVITIES: |
+Proceeds from disposition of property and equipment | — | 46 |
+Investment purchases | ( 1,428 ) | — |
+Purchases of property and equipment | ( 615 ) | ( 720 ) |
+Net cash used in investing activities | ( 2,043 ) | ( 674 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: |
+Proceeds from the issuance of shares in the At-the-market offerings | 380,731 | 100,000 |
+Costs for the issuance of common stock for the At-the-market offering | ( 7,566 ) | ( 3,250 ) |
+Proceeds from issuance of common stock in connection with stock option exercises | 12 | 1,023 |
+Proceeds from employee stock purchase plan | 793 | 818 |
+Settlement of earnout shares | ( 3,750 ) | — |
+Payments on finance lease obligations | ( 158 ) | ( 51 ) |
+Net cash provided by financing activities | 370,061 | 98,540 |
+NET INCREASE IN CASH | 319,670 | 73,101 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT BEGINNING OF PERIOD | 238,602 | 88,240 |
+CASH, CASH EQUIVALENTS, AND RESTRICTED CASH AT END OF PERIOD | $ | 558,272 | $ | 161,341 |
+RECONCILIATION OF CASH, CASH EQUIVALENTS AND RESTRICTED CASH |
+Cash and cash equivalents | $ | 557,409 | $ | 161,189 |
+Restricted cash | 863 | 152 |
+TOTAL CASH, CASH EQUIVALENTS AND RESTRICTED CASH | $ | 558,272 | $ | 161,341 |
+8
+TABLE OF CONTENTS
+SUPPLEMENTAL DISCLOSURE OF CASH FLOW INFORMATION: |
+Cash paid for income taxes | $ | 62 | $ | 187 |
+Cash paid for interest | $ | 17 | $ | 8 |
+Capital expenditures in accounts payable | $ | 111 | $ | 267 |
+SUPPLEMENTAL DISCLOSURE OF NON-CASH INVESTING AND FINANCING ACTIVITIES:
+|
+Shares issued in connection with Earnout Settlement | $ | 229,862 | $ | — |
+The accompanying condensed notes are an integral part of these condensed consolidated financial statements.
+9
+NAVITAS SEMICONDUCTOR CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+1. ORGANIZATION AND BASIS OF PRESENTATION
+Navitas Semiconductor Corporation (“The Company”) was founded in 2014 and has since been developing next-generation power semiconductors including gallium nitride (“GaN”) power integrated circuits (“ICs”), silicon carbide (“SiC”) and associated high-speed silicon system controllers and digital isolators used in power conversion and charging. The Company presently operates as a product design house that contracts the manufacturing of its chips and packaging to partner suppliers. Navitas maintains its operations around the world, including the United States, Philippines, China, Taiwan, and South Korea, with principal executive offices in Torrance, California.
+The Company has two authorized classes of common stock: Class A common stock, par value of $ 0.0001 per share (“Class A common stock”) and Class B common stock, par value of $ 0.0001 per share (“Class B common stock”). Both classes have identical voting, dividend, and liquidation rights. There were no outstanding Class B shares as of June 30, 2026 and December 31, 2025. The Company also has authorized 1.0 million shares of preferred stock, par value of $ 0.0001 per share (“preferred stock”), with no amounts outstanding as of June 30, 2026 and December 31, 2025. The preferred stock may be issued with terms, rights, and preferences determined by the board of directors at the time of issuance.
+Execution of At-The-Market Sales Agreements
+On May 11, 2026, the Company filed a shelf registration statement on Form S-3ASR and entered into a Sales Agreement with Craig-Hallum Capital Group LLC and UBS Securities LLC as sales agents, pursuant to which the Company may offer and sell shares of its Class A common stock from time to time in an “at the market” (“ATM”) offering program. During the three and six months ended June 30, 2026, the Company completed sales of approximately 6.5 million shares of Class A common stock under this ATM program, resulting in gross proceeds of approximately $125 million and offering-related costs of approximately $2.5 million. The Sales Agreement terminated in accordance with its terms on May 12, 2026, following the sale of shares of the Company’s Class A common stock constituting the maximum aggregate offering amount of $ 125.0 million. The shares sold under this ATM program were offered and sold pursuant to the Company’s registration statement on Form S-3ASR (File No. 333-295754), the prospectus included therein, and the prospectus supplement filed with the SEC on May 11, 2026.
+On June 8, 2026, the Company filed a second automatic shelf registration statement on Form S-3ASR and entered into a new Sales Agreement with UBS Securities LLC, Morgan Stanley & Co. LLC and Needham & Company, LLC as sales agents, pursuant to which the Company may offer and sell shares of its Class A common stock from time to time in an ATM offering program. Under the related prospectus supplement, the Company may offer and sell shares having an aggregate offering price of up to $ 500.0 million. During the three and six months ended June 30, 2026, the Company completed sales of approximately 10.9 million shares of Class A common stock under this ATM program, resulting in gross proceeds of approximately $255.8 million and offering-related costs of approximately $5.0 million. The shares sold under this ATM program were offered and sold pursuant to the Company’s registration statement on Form S-3ASR (File No. 333-296576), the prospectus included therein, and the prospectus supplement filed with the SEC on June 8, 2026.
+10
+TABLE OF CONTENTS
+NAVITAS SEMICONDUCTOR CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(unaudited)
+Basis of Presentation and Use of Estimates
+The accompanying condensed consolidated financial statements are unaudited and have been prepared in accordance with U.S. Generally Accepted Accounting Principles ("U.S. GAAP") and pursuant to the rules and regulations of the U.S. Securities and Exchange Commission ("SEC"). In our opinion, they include all adjustments, consisting only of normal recurring adjustments, necessary for the fair presentation of results for the interim periods. Certain information and note disclosures normally included in financial statements prepared in accordance with U.S. GAAP have been condensed or omitted as permitted by the SEC's rules and regulations for interim reporting. These Consolidated Financial Statements should be read in conjunction with our audited financial statements and notes thereto included in our annual report on Form 10-K for the year ended December 31, 2025, filed with the SEC on February 27, 2026.
+The preparation of financial statements in conformity with U.S. GAAP requires management to make estimates and judgments affecting the amounts reported in our condensed consolidated financial statements and the accompanying notes. We base our estimates and judgments on historical experience, knowledge of current conditions, and our beliefs of what could occur in the future considering available information. While we believe that our estimates, assumptions, and judgments are reasonable, they are based on information available when made, and because of the uncertainty inherent in these matters, the actual results that we experience may differ materially from these estimates under different assumptions or conditions. We evaluate our estimates and judgments on an ongoing basis.
+We describe our accounting methods and practices in more detail in our 2025 10-K. There have been no changes to the significant accounting policies, procedures, or general information described in our 2025 10-K that have had a material impact on our condensed consolidated financial statements and the accompanying notes, except as described in Note 15 - “Related Party Transactions.”
+Reclassifications
+Certain prior period amounts have been reclassified to conform to the current period present ation for the three and six months ended June 30, 2026. Eq uipment previously included in construction in progress has been 

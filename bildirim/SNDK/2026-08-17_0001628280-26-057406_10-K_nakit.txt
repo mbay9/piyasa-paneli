@@ -1,0 +1,54 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm
+SEMBOL: SNDK
+BASVURU_TARIHI: 2026-08-17
+BASVURU: 0001628280-26-057406
+TUR: 10-K nakit akışı tablosu
+
+Statements of Cash Flows:
+2026 | 2025 | 2024 |
+(in millions) |
+Net cash provided by (used in): |
+Operating activities | $ | 11,671 | $ | 84 | $ | (309) |
+Investing activities | (1,386) | 556 | 210 |
+Financing activities | (7,001) | 518 | 136 |
+Effect of exchange rate changes on cash | (3) | (5) | (1) |
+Net increase in cash and cash equivalents | $ | 3,281 | $ | 1,153 | $ | 36 |
+In alignment with market conditions, we maintained what we believe to be a conservative capital expenditure strategy for fiscal years 2026 and 2025. For fiscal year 2027, we anticipate increased capital investments as we transition to newer nodes to meet the demand and technology needs of our product portfolio.
+We believe our cash and cash equivalents will be sufficient to meet our working capital and capital expenditure needs, as well as to fund any repurchases of our shares under the Repurchase Program (as defined under Share Repurchase Authorization below). We believe we can also access the various capital markets to further supplement our liquidity position if necessary. Our ability to sustain our working capital position is subject to a number of risks that we discuss in Part I, Item 1A., Risk Factors included in this Annual Report on Form 10-K.
+A total of $2,879 million and $692 million of our cash and cash equivalents were held outside of the U.S. as of July 3, 2026 and June 27, 2025, respectively. There are no material tax consequences that were not previously accrued for the repatriation of this cash. Our cash equivalents are primarily invested in money market funds that invest in U.S. Treasury securities and U.S. Government agency securities.
+Operating Activities
+Net cash provided by operating activities primarily consists of net income or loss, adjusted for non-cash charges, plus or minus changes in operating assets and liabilities. Net cash used as a result of changes in operating assets and liabilities was $212 million for 2026, compared to $380 million net cash provided for 2025 and to $86 million net cash provided for 2024, reflecting an increase in the volume of our business, as discussed above.
+Changes in our operating assets and liabilities are largely affected by our working capital requirements, which are dependent on the volume of our business and the effective management of our cash conversion cycle as well as timing of payments for taxes. Our cash conversion cycle measures how quickly we can convert our products into cash through sales. The cash conversion cycles were as follows (in days):
+2026 | 2025 | 2024 |
+Days sales outstanding | 48 | 51 | 48 |
+Days in inventory | 178 | 135 | 158 |
+Days payable outstanding | (64) | (50) | (54) |
+Cash conversion cycle | 162 | 136 | 152 |
+49
+Table of Contents
+Changes in days sales outstanding, or DSO, are generally due to the timing of shipments. Changes in days in inventory, or DIO, are generally related to the timing of inventory builds. Changes in days payable outstanding, or DPO, are generally related to production volume and the timing of purchases during the period. From time to time, we modify the timing of payments to our vendors. We make modifications primarily to manage our vendor relationships and to manage our cash flows, including our cash balances. Generally, we make payment term modifications through negotiations with our vendors or by granting to, or receiving from, our vendors’ payment term accommodations.
+In 2026, DSO decreased 3 days when compared to the prior year, primarily due to the timing of shipments and continued strong receivables collections. DIO increased 43 days over the prior year, primarily due to inventory builds to meet demand. DPO increased 14 days over the prior year, primarily due to routine variations in the timing of purchases and payments.
+Investing Activities
+Net cash used in investing activities in 2026 primarily consisted of $970 million in purchases of marketable equity securities, $275 million in net issuances from activity related to Flash Ventures and $177 million in capital expenditures , partially offset by $25 million in net proceeds from our sale of a majority interest in one of our subsidiaries. Net cash provided by investing activities in 2025 primarily consisted of $401 million in net proceeds from our sale of a majority interest in one of our subsidiaries and $358 million in net proceeds from activity related to Flash Ventures, partially offset by $204 million in capital expenditures.
+Financing Activities
+Net cash used in financing activities in 2026 primarily consisted of $4.5 billion in repurchases of the Company’s common stock pursuant to the Initial Repurchase Program (as defined under Share Repurchase Authorization below), $1.9 billion for repayments and eventual settlement of the Term Loan Facility, and $630 million in payments of taxes on vested stock awards. Net cash provided by financing activities in 2025 primarily consisted of $2.0 billion in proceeds from borrowings from the Term Loan Facility, $550 million in proceeds from borrowings on notes due to WDC, and $101 million in proceeds from principal repayments on notes due from WDC, partially offset by $1.9 billion transferred to WDC, $100 million in repayment on the Term Loan Facility, and $76 million in net repayments on notes due to WDC.
+A discussion of our cash flows for 2024, including a comparison of such cash flows to 2023, is included in Part II, Item 7., “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” included in our 2025 Annual Report on Form 10-K, filed with the U.S. Securities and Exchange Commission (“SEC”) on August 21, 2025.
+Off-Balance Sheet Arrangements
+Other than the Flash Ventures, SDSS and Nanya-related commitments incurred in the normal course of business and certain indemnification provisions (see “Short-and-Long-term Liquidity — Purchase Obligations and Other Commitments” below), we do not have any other material off-balance sheet financing arrangements or liabilities, guarantee contracts, retained or contingent interests in transferred assets, or any other obligations arising out of a material variable interest in an unconsolidated entity. We do not have any majority-owned subsidiaries that are not included in the Consolidated Financial Statements. Additionally, with the exception of Flash Ventures, the SDSS Venture and the Unis Venture, we do not have an interest in, or relationships with, any variable interest entities. For additional information regarding our off-balance sheet arrangements, see Part II, Item 8., Note 10, Related Parties and Related Commitments and Contingencies of the Notes to Consolidated Financial Statements included in this Annual Report on Form 10-K.
+50
+Table of Contents
+Short-and-Long-term Liquidity
+Material Cash Requirements
+The following is a summary of our known material cash requirements, including those for capital expenditures, as of July 3, 2026. In addition, see the discussions further below related to unrecognized tax benefits, foreign exchange contracts, indemnifications, long term agreements and share repurchase authorization.
+Total | 1 year (2027) | 2-3 Years (2028 - 2029) | 4-5 Years (2030 - 2031) | More than 5 Years (Beyond 2031) |
+(in millions) |
+Flash Ventures related commitments (1)
+| $ | 6,559 | $ | 2,627 | $ | 2,577 | $ | 1,318 | $ | 37 |
+Purchase obligations and other commitments | 4,902 | 726 | 2,993 | 1,111 | 72 |
+Operating leases | 299 | 38 | 55 | 44 | 162 |
+Total | $ | 11,760 | $ | 3,391 | $ | 5,625 | $ | 2,473 | $ | 271 |
+(1) Includes Flash Ventures depreciation reimbursement and lease payments on owned and committed equipment, funding commitments for loans and equity investments and payments for other committed expenses, including research and development and building depreciation and payments made directly to Kioxia in consideration for the manufacturing services and continued availability of supply. Funding commitments assume no additional operating lease guarantees. Additional operating lease guarantees can reduce funding commitments.
+Debt
+In connection with the separation, on February 21, 2025, we entered into the Loan Agreement, comprised of the $1.5 billion Revolving Credit Facility, on which no amounts have been drawn, and the $2.0 billion Term Loan Facility which was due in 2032. The Company used a portion of the proceeds received from the Term Loan Facility, as well as cash on hand, to make a net distribution payment of $1.5 billion t o WDC in exchange for assets, liabilities and certain legal entities of WDC associated with the Company.
+On March 4, 2026, the Company settled in full the remaining outstanding principal amounts of the Term Loan Facility, plus accrued interest, using cash on hand. In connection with the early settlement of the Term Loan Facility, the Company recognized a loss on debt extinguishment of $46 million resulting from the write-off of the remaining unamortized issuance costs.
+As of July 3, 2026 , we were in compliance with the Loan Agr

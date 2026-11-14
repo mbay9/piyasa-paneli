@@ -1,0 +1,139 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/2023554/000162828026029401/sndk-20260403.htm
+SEMBOL: SNDK
+BASVURU_TARIHI: 2026-05-01
+BASVURU: 0001628280-26-029401
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(in millions)
+(Unaudited)
+Nine Months Ended |
+April 3,
+2026 | March 28,
+2025 |
+Cash flows from operating activities |
+Net income (loss) | $ | 4,530 | $ | ( 1,618 ) |
+Adjustments to reconcile net income (loss) to net cash provided by (used in) operations: |
+Depreciation and amortization | 112 | 127 |
+Stock-based compensation | 165 | 133 |
+Goodwill impairment | — | 1,830 |
+Deferred income taxes | ( 42 ) | 7 |
+(Gain) loss on disposal of assets | 1 | ( 1 ) |
+Impairment of cost method investments | 5 | 1 |
+Unrealized foreign exchange (gain) loss | 39 | ( 6 ) |
+(Gain) loss on business divestiture | 10 | ( 34 ) |
+Loss on debt extinguishment | 46 | — |
+Amortization of debt issuance costs and discounts | 6 | 1 |
+Equity loss in investees, net of dividends received | 58 | 68 |
+Gain on sale of investments | ( 9 ) | — |
+Other non-cash operating activities, net | 20 | 17 |
+Settlement of accrued interest on Notes due to Western Digital Corporation | — | ( 99 ) |
+Changes in: |
+Accounts receivable, net | ( 1,658 ) | ( 11 ) |
+Inventories | ( 159 ) | ( 241 ) |
+Accounts payable | 36 | 99 |
+Accounts payable to related parties | 35 | ( 28 ) |
+Contract liabilities | 486 | — |
+Accrued expenses | ( 21 ) | 3 |
+Income taxes payable | 640 | — |
+Accrued compensation | 156 | ( 38 ) |
+Other assets and liabilities, net | 89 | ( 220 ) |
+Net cash provided by (used in) operating activities | 4,545 | ( 10 ) |
+Cash flows from investing activities |
+Purchases of property, plant and equipment | ( 134 ) | ( 159 ) |
+Proceeds from dispositions of business | 25 | 401 |
+Notes receivable issuances to Flash Ventures | ( 339 ) | ( 274 ) |
+Notes receivable proceeds from Flash Ventures | 174 | 428 |
+Distributions from Flash Ventures | — | 176 |
+Strategic investments and other, net | 11 | 1 |
+Net cash provided by (used in) investing activities | ( 263 ) | 573 |
+Cash flows from financing activities |
+Issuance of stock under employee stock plans | 24 | — |
+Taxes paid on vested stock awards under employee stock plans | ( 149 ) | ( 6 ) |
+Proceeds from debt | — | 1,970 |
+Repayment of debt | ( 1,900 ) | — |
+Debt issuance costs | — | ( 32 ) |
+Proceeds from borrowings on Notes due to Western Digital Corporation | — | 550 |
+Proceeds from principal repayments on Notes due from Western Digital Corporation | — | 101 |
+Repayments of principal on Notes due to Western Digital Corporation | — | ( 76 ) |
+Transfers to Western Digital Corporation | — | ( 1,887 ) |
+Net cash provided by (used in) financing activities | ( 2,025 ) | 620 |
+Effect of exchange rate changes on cash | ( 3 ) | ( 4 ) |
+Net increase in cash and cash equivalents | 2,254 | 1,179 |
+Cash and cash equivalents, beginning of year | 1,481 | 328 |
+Cash and cash equivalents, end of period | $ | 3,735 | $ | 1,507 |
+Supplemental disclosure of cash flow information: |
+Cash paid for interest | $ | 111 | $ | 102 |
+Cash received for interest | 40 | 2 |
+Cash paid for income taxes | 117 | 10 |
+Non-cash transfers of: |
+Notes due to (from) Western Digital Corporation | — | 1,223 |
+Other assets and liabilities, net, from Western Digital Corporation | — | 105 |
+Contribution of equity interest in Unis Venture from Western Digital Corporation | — | 61 |
+Property, plant and equipment from Western Digital Corporation | — | 27 |
+Tax balances to Western Digital Corporation | — | 8 |
+Tax indemnification liability to Western Digital Corporation | — | ( 112 ) |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+7
+Table of Contents
+SANDISK CORPORATION
+CONDENSED CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
+(in millions)
+(Unaudited)
+Common Stock |
+Shares | Amount | Additional Paid in Capital | Retained Earnings (Accumulated Deficit) | Accumulated Other Comprehensive Loss | Total |
+Balance at June 27, 2025 | 146 | $ | 1 | $ | 11,248 | $ | ( 1,784 ) | $ | ( 249 ) | $ | 9,216 |
+Net income | — | — | — | 112 | — | 112 |
+Employee stock plans | 1 | — | ( 15 ) | — | — | ( 15 ) |
+Foreign currency translation adjustment | — | — | — | — | ( 14 ) | ( 14 ) |
+Net unrealized gain on derivative contracts | — | — | — | — | 29 | 29 |
+Stock-based compensation | — | — | 53 | — | — | 53 |
+Balance at October 3, 2025 | 147 | $ | 1 | $ | 11,286 | $ | ( 1,672 ) | $ | ( 234 ) | $ | 9,381 |
+Net income | — | — | — | 803 | — | 803 |
+Employee stock plans | 1 | — | ( 8 ) | — | — | ( 8 ) |
+Foreign currency translation adjustment | — | — | — | — | ( 28 ) | ( 28 ) |
+Net unrealized gain on derivative contracts | — | — | — | — | 7 | 7 |
+Stock-based compensation | — | — | 58 | — | — | 58 |
+Balance at January 2, 2026 | 148 | $ | 1 | $ | 11,336 | $ | ( 869 ) | $ | ( 255 ) | $ | 10,213 |
+Net income | — | — | — | 3,615 | — | 3,615 |
+Employee stock plans | — | — | ( 101 ) | — | — | ( 101 ) |
+Foreign currency translation adjustment | — | — | — | — | ( 9 ) | ( 9 ) |
+Net unrealized gain on derivative contracts | — | — | — | — | 5 | 5 |
+Stock-based compensation | — | — | 54 | — | — | 54 |
+Balance at April 3, 2026 | 148 | $ | 1 | $ | 11,289 | $ | 2,746 | $ | ( 259 ) | $ | 13,777 |
+8
+Table of Contents
+Common Stock |
+Shares | Amount | Additional Paid in Capital | Accumulated Deficit | Accumulated Other Comprehensive Loss | Net Investment from Western Digital Corporation | Total |
+Balance at June 28, 2024 | — | $ | — | $ | — | $ | — | $ | ( 452 ) | $ | 11,534 | $ | 11,082 |
+Net income | — | — | — | — | — | 211 | 211 |
+Foreign currency translation adjustment | — | — | — | — | 43 | — | 43 |
+Net unrealized gain on derivative contracts | — | — | — | — | 166 | — | 166 |
+Stock-based compensation | — | — | — | — | — | 41 | 41 |
+Net transfer from Western Digital Corporation | — | — | — | — | — | 583 | 583 |
+Balance at September 27, 2024 | — | — | — | — | ( 243 ) | 12,369 | 12,126 |
+Net income | — | — | — | — | — | 104 | 104 |
+Foreign currency translation adjustment | — | — | — | — | ( 78 ) | — | ( 78 ) |
+Net unrealized loss on derivative contracts | — | — | — | — | ( 107 ) | — | ( 107 ) |
+Stock-based compensation | — | — | — | — | — | 48 | 48 |
+Net transfer from Western Digital Corporation | — | — | — | — | ( 6 ) | ( 86 ) | ( 92 ) |
+Balance at December 27, 2024 | — | — | — | — | ( 434 ) | 12,435 | 12,001 |
+Net loss | — | — | — | ( 1,761 ) | — | ( 172 ) | ( 1,933 ) |
+Foreign currency translation adjustment | — | — | — | — | 24 | — | 24 |
+Net unrealized gain on derivative contracts | — | — | — | — | 108 | — | 108 |
+Stock-based compensation | — | — | 20 | — | — | 24 | 44 |
+Employee stock plans | — | — | ( 7 ) | — | — | — | ( 7 ) |
+Net transfer from Western Digital Corporation | — | — | — | — | ( 4 ) | ( 1,072 ) | ( 1,076 ) |
+Issuance of common stock and reclassification of net transfers from Western Digital Corporation | 145 | 1 | 11,214 | — | — | ( 11,215 ) | — |
+Balance at March 28, 2025 | 145 | $ | 1 | $ | 11,227 | $ | ( 1,761 ) | $ | ( 306 ) | $ | — | $ | 9,161 |
+The accompanying notes are an integral part of these Condensed Consolidated Financial Statements.
+9
+Table of Contents
+SANDISK CORPORATION
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS
+(Unaudited)
+Note 1. Organization and Basis of Presentation
+Description of the Company
+Sandisk Corporation (“Sandisk” or the “Company”) is a leading developer, manufacturer and provider of data storage devices and solutions based on NAND flash technology. With a differentiated innovation engine driving advancements in storage and semiconductor technologies, Sandisk’s broad and ever-expanding portfolio delivers powerful flash storage solutions for artificial intelligence (“AI”) workloads in datacenters, edge devices, and consumer applications. Sandisk’s technologies enable everyone from students, gamers, and home offices to the largest enterprises and public clouds to produce, analyze, and store data. The Company’s solutions include a broad range of solid-state drives, embedded products, removable cards, universal serial bus drives, and wafers and components. The Company’s broad portfolio of technology and products addresses multiple end markets of “Datacenter” (formerly referred to as “Cloud”), “Edge” (formerly referred to as “Client”), and “Consumer.” The Company operates primarily in the United States (“U.S.”) and also internationally, with a significant concentration in the Asia Pacific region.
+On October 30, 2023, Western Digital Corporation (“WDC”) announced that its board of directors (the “WDC Board of Directors”) authorized WDC management to pursue a plan to separate the Company into an independent public company (the “separation” or the “spin-off”). The separation received final approval by the WDC Board of Directors and was completed on February 21, 2025. Prior to February 21, 2025, the Company was wholly owned by WDC.
+On February 21, 2025, WDC executed the spin-off of the Company through WDC’s pro rata distribution of 116,035,464 , or 80.1 %, of the Company’s outstanding shares of common stock to holders of WDC’s common stock. Each WDC stockholder received one-third (1/3) of one share

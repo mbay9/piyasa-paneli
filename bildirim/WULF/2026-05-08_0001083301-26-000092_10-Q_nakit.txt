@@ -1,0 +1,94 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1083301/000108330126000092/wulf-20260331.htm
+SEMBOL: WULF
+BASVURU_TARIHI: 2026-05-08
+BASVURU: 0001083301-26-000092
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+FOR THE THREE MONTHS ENDED MARCH 31, 2026 AND 2025
+(In thousands; unaudited)
+Three Months Ended March 31, |
+2026 | 2025 |
+CASH FLOWS FROM OPERATING ACTIVITIES: | | |
+Net loss | $ | ( 427,703 ) | $ | ( 61,418 ) |
+Adjustments to reconcile net loss to net cash (used in) provided by operating activities: |
+Amortization of debt issuance costs, commitment fees and accretion of debt discount | 13,224 | 607 |
+Stock-based compensation expense | 101,418 | 38,674 |
+Depreciation | 28,477 | 15,574 |
+Accretion of asset retirement obligations
+| 168 | — |
+Amortization of right-of-use asset | 1,871 | 685 |
+Revenue recognized from digital assets mined and hosting services | ( 12,990 ) | ( 34,417 ) |
+Loss on fair value of digital assets, net
+| 653 | 870 |
+Impairment of property, plant, and equipment | 25,697 | — |
+Change in fair value of warrants
+| 216,325 | — |
+Deferred income tax provision
+| 28 | — |
+Equity in net loss of investee, net of tax | 11,548 | — |
+Changes in operating assets and liabilities: |
+Increase in accounts receivable | ( 4,503 ) | — |
+Increase in prepaid expenses
+| ( 14,301 ) | ( 2,306 ) |
+Increase in other current assets
+| ( 9,134 ) | ( 1,289 ) |
+Decrease in deferred charges
+| 114 | — |
+Increase in other assets | 5,807 | ( 7,700 ) |
+Increase in accounts payable
+| 4,315 | 13,844 |
+Increase in accrued interest and other current liabilities
+| 52,548 | 4,359 |
+Increase (decrease) in other amounts due to related parties
+| 259 | ( 990 ) |
+(Decrease) increase in deferred rent liability
+| ( 10,751 ) | 90,000 |
+Decrease in operating lease liability | ( 499 ) | ( 6 ) |
+Decrease in other liabilities
+| ( 162 ) | — |
+Net cash (used in) provided by operating activities
+| ( 17,591 ) | 56,487 |
+CASH FLOWS FROM INVESTING ACTIVITIES: | | |
+Purchase of and deposits on plant and equipment | ( 522,954 ) | ( 93,687 ) |
+Cash paid for asset acquisition
+| ( 201,350 ) | — |
+Proceeds from sale of digital assets | 11,481 | 32,623 |
+Net cash used in investing activities | ( 712,823 ) | ( 61,064 ) |
+CASH FLOWS FROM FINANCING ACTIVITIES: | | |
+Proceeds from issuance of short-term debt, net of issuance costs paid of $ 7,250 and $ 0
+| 92,750 | — |
+Proceeds from issuance of common stock, net of issuance costs paid of $ 0 and $ 0
+| 8,956 | — |
+Proceeds from exercise of warrants | 3,983 | — |
+Purchase of treasury stock | — | ( 33,292 ) |
+Payments of tax withholding related to net share settlements of stock-based compensation awards | ( 5,307 ) | ( 18,034 ) |
+Net cash provided by (used in) financing activities
+| 100,382 | ( 51,326 ) |
+9
+Table of Contents
+Net change in cash and cash equivalents | ( 630,032 ) | ( 55,903 ) |
+Cash, cash equivalents and restricted cash at beginning of period | 3,722,775 | 274,065 |
+Cash, cash equivalents and restricted cash at end of period | $ | 3,092,743 | $ | 218,162 |
+Cash paid during the period for: |
+Interest | $ | 5,310 | $ | 5 |
+Income taxes | $ | — | $ | — |
+See Notes to Condensed Consolidated Financial Statements.
+10
+TERAWULF INC. AND SUBSIDIARIES
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (unaudited)
+NOTE 1 – ORGANIZATION
+TeraWulf Inc. (“TeraWulf” or the “Company”) is a vertically integrated owner and operator of next-generation digital infrastructure, powered by low-carbon energy. The Company develops and operates high-performance datacenters optimized for bitcoin mining and high-performance computing (“HPC”) workloads, leveraging clean, cost-effective, and reliable energy sources to promote long-term sustainability in digital infrastructure.
+TeraWulf derives a portion of its revenue by providing hash computation services to a mining pool operator, facilitating transaction validation of transactions on the global bitcoin network using the Company’s fleet of application-specific integrated circuit (“ASIC”) miners. Bitcoin earned as consideration is routinely converted to U.S. dollars. The Company also previously generated revenue by hosting third-party bitcoin miners. While capable of mining other digital assets, the Company has no current plans to do so.
+In 2024, the Company launched WULF Compute LLC (“WULF Compute”), which is focused on development and deployment of scalable digital infrastructure to support a broader HPC strategy. This business diversifies revenue by offering HPC leasing and colocation, cloud, and connectivity services for GPU-based workloads (see Note 8). Starting in December 2024, the Company has entered into long-term datacenter lease agreements with customers for specified datacenter infrastructure at its Lake Mariner Data Campus in upstate New York (the “Lake Mariner Data Campus”) to support those customers’ HPC operations. With growing demand for high-density compute, TeraWulf’s assets are well-positioned to deliver low-cost, low-carbon power to support these workloads.
+As of March 31, 2026, TeraWulf owned and operated bitcoin mining activities at the Lake Mariner Data Campus, and has energized 145 MW of capacity across three buildings and supporting infrastructure at the site. During the three months ended March 31, 2026, two miner buildings were repurposed or placed out of service to support the HPC development at the Lake Mariner Data Campus. As of March 31, 2026, TeraWulf had energized 60 critical IT MW of HPC leasing capacity at the Lake Mariner Data Campus.
+On May 21, 2025 (the “Acquisition Date”), the Company acquired 100 % of the membership interests of each of Beowulf Electricity & Data LLC, Beowulf E&D (MD) LLC, and Beowulf E&D (NY) LLC (collectively, “Beowulf E&D”). The fair value of total consideration for the transaction was approximately $ 54.6 million, including $ 3.0 million in cash and 5.0 million shares of the Company’s common stock (“Common Stock”) issued on the Acquisition Date. The purchase agreement also included up to $ 19.0 million in contingent cash payments and up to $ 13.0 million in additional Common Stock, subject to the achievement of several earnout milestones related to the expansion of the Company’s datacenter business and project financing initiative (see Note 3). As part of the acquisition, 94 employees of Beowulf E&D, including site staff at the Lake Mariner Data Campus and corporate personnel, were transitioned to TeraWulf. In addition, the existing Administrative and Infrastructure Services Agreement (the “Services Agreement”) (see Note 16) with Beowulf E&D was terminated on the Acquisition Date.
+On October 27, 2025, the Company, through its subsidiary Big Country Wulf LLC (the “TeraWulf Member”), and Fluidstack CS I Inc. (“Fluidstack Member”) (each a “Member” and collectively the “Abernathy Members”) entered into an amended and restated limited liability company agreement (the “Abernathy Joint Venture Agreement”) to govern the terms of operation of FS CS I LLC (the “Abernathy Joint Venture”), which will construct and operate a 168 MW critical IT load datacenter campus in Abernathy, Texas (the “Abernathy HPC Campus”). The Fluidstack Member is a subsidiary of Fluidstack Ltd., a leading Artificial Intelligence (“AI”) cloud platform.
+On February 2, 2026, the Company entered into an Agreement of Purchase and Sale for a former industrial site in Hawesville, Kentucky (“Hawesville”). The Company exercised an exclusivity option to purchase Hawesville, which includes more than 250 buildable acres with immediate access to power infrastructure, including multiple high-voltage transmission lines, an on-site energized substation, and a direct connection to the regional transmission network (see Note 3). The Hawesville seller was granted a 6.8 % minority equity interest in TeraWulf’s Hawesville development entity, which is intended to develop and own a HPC/AI data center on the property (see Note 11). The total consideration for the transaction was approximately $ 301.9 million including cash consideration and the fair value of minority equity interest granted.
+11
+TERAWULF INC. AND SUBSIDIARIES
+NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (unaudited)
+Additionally, on February 2, 2026, the Company announced the entry into an Equity and Asset Purchase Agreement (the “Morgantown Purchase Agreement”) for the Morgantown generating station in Charles County, Maryland. The Morgantown Purchase Agreement was signed in late 2025 and contemplates the acquisition of the Morgantown generating station, a grid-connected power generation facility with approximately 210 MW of current operational capacity, including electrical infrastructure, associated real property, contracts and other assets (“Morgantown”). The closing of the Morgantown acquisition is subject to certain third-party consents and customary regulatory approvals, including from the Federal Energy Regulatory Commission. The Company expects to close on the Morgantown acquisition in the second or third quarter of 2026, subject to receiving these consents and approvals.
+NOTE 2 – SIGNIFICANT ACCOUNTING POLICIES
+Basis of Presentation and Principles of Consolidation
+The accompanying unaudite

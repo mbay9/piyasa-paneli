@@ -1,0 +1,76 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm
+SEMBOL: CRDO
+BASVURU_TARIHI: 2026-09-02
+BASVURU: 0001628280-26-060111
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(unaudited, in thousands)
+Three Months Ended |
+August 1, 2026 | August 2, 2025 |
+Cash flows from operating activities:
+|
+Net income
+| $ | 129,425 | $ | 63,399 |
+Adjustments to reconcile net income to net cash provided by operating activities:
+|
+Depreciation and amortization | 8,606 | 5,460 |
+Share-based compensation | 87,979 | 35,455 |
+Amortization of acquired intangible assets | 11,600 | — |
+Write-downs for excess and obsolete inventory
+| 3,911 | 1,993 |
+Changes in operating assets and liabilities: |
+Accounts receivable | ( 54,503 ) | ( 19,059 ) |
+Inventories | ( 61,547 ) | ( 27,513 ) |
+Other current assets | ( 25,338 ) | 3,940 |
+Other non-current assets | 6,515 | 495 |
+Accounts payable | ( 12,563 ) | ( 8,962 ) |
+Accrued compensation and benefits, other current liabilities, deferred tax liabilities and other non-current liabilities | ( 3,854 ) | ( 1,040 ) |
+Net cash provided by operating activities
+| 90,231 | 54,168 |
+Cash flows from investing activities:
+|
+Purchases of property and equipment | ( 7,282 ) | ( 2,821 ) |
+Maturities of short-term investments | — | 50,000 |
+Purchases of short-term investments | ( 19,055 ) | ( 115,000 ) |
+Business acquisition, net of cash acquired
+| ( 735,619 ) | — |
+Net cash used in investing activities | ( 761,956 ) | ( 67,821 ) |
+Cash flows from financing activities:
+|
+Payments on technology license obligations | ( 5,172 ) | ( 3,906 ) |
+Proceeds from employee share incentive plans
+| 4,452 | 4,648 |
+Tax withheld related to RSU settlement
+| ( 25,938 ) | ( 3,712 ) |
+Net cash used in financing activities | ( 26,658 ) | ( 2,970 ) |
+Effect of exchange rate changes on cash | 300 | ( 69 ) |
+Net decrease in cash and cash equivalents | ( 698,083 ) | ( 16,692 ) |
+Cash and cash equivalents at beginning of the period | 1,164,952 | 236,328 |
+Cash and cash equivalents at end of the period | $ | 466,869 | $ | 219,636 |
+Supplemental cash flow information: |
+Purchases of property and equipment included in accounts payable, other current liabilities and other non-current liabilities | $ | 10,108 | $ | 9,680 |
+The accompanying notes are an integral part of these unaudited condensed consolidated financial statements.
+9
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+1. Description of Business and Basis of Presentation
+Credo Technology Group Holding Ltd was formed as an exempted company under the laws of the Cayman Islands in September 2014. Credo Technology Group Holding Ltd directly owns Credo Technology Group Ltd., which owns, directly and indirectly, all of the shares of its subsidiaries in mainland China, Hong Kong, Singapore, Canada, Israel and the United States (U.S.). References to the “Company” in these notes refer to Credo Technology Group Holding Ltd and its subsidiaries on a consolidated basis, unless otherwise specified.
+The Company’s mission is to transform connectivity at scale through fast, reliable and energy-efficient system solutions. The Company’s high-speed copper and optical interconnect technologies deliver industry-leading power and performance from chip to cluster to meet the ever-expanding data infrastructure demands of AI. The Company’s vertical integrated connectivity product portfolio includes flagship purple ZeroFlap (ZF) Active Electrical Cables (AECs) and ZF optical transceivers; optical components including silicon photonics-based photonic integrated circuits (SiPho PICs) and DSPs; OmniConnect AI memory and chip-to-chip interconnect; and retimers for Ethernet and PCIe—supported by the PILOT diagnostic and analytics software platform. The Company’s innovations enable our customers to connect the systems that connect the world.
+Basis of Presentation
+The accompanying unaudited condensed consolidated financial statements are presented in accordance with generally accepted accounting principles in the United States (US GAAP) applicable to interim periods, under the rules and regulations of the U.S. Securities and Exchange Commission (the SEC). Certain information and footnote disclosures normally included in financial statements prepared in accordance with US GAAP have been condensed or omitted as permitted by the SEC. These unaudited condensed consolidated financial statements and related notes should be read in conjunction with the Company’s fiscal year 2026 audited financial statements included in the Company’s Annual Report on Form 10-K for the fiscal year ended May 2, 2026. The unaudited condensed consolidated financial statements include all adjustments, including normal recurring adjustments and other adjustments, that are considered necessary for fair presentation of the Company’s financial position and results of operations. All inter-company accounts and transactions have been eliminated. Operating results for the periods presented herein are not necessarily indicative of the results that may be expected for the entire year.
+The Company’s fiscal year is a 52- or 53-week period ending on the Saturday closest to April 30. Its fiscal year ending May 1, 2027 (fiscal year 2027) is a 52-week fiscal year. The Company’s fiscal year ended May 2, 2026 (fiscal year 2026) was a 52-week fiscal year.
+2. Significant Accounting Policies
+The Company believes that other than the accounting policies as described below, there have been no significant changes to the items disclosed in Note 2, “Significant Accounting Policies,” included in the Company’s Annual Report on Form 10-K for the fiscal year ended May 2, 2026.
+Contingent Consideration
+Certain of the Company’s acquisition agreements include contingent earn-out arrangements, which are generally based on the achievement of future financial metrics. The fair values of these earn-out arrangements are included as part of the purchase price of the acquired companies on their respective acquisition dates. For each transaction, the Company estimates the fair value of contingent earn-out payments as part of the initial purchase price and records the estimated fair value of contingent consideration as a liability or an equity on the consolidated balance sheets. The Company reviews and re-assesses the estimated fair value of contingent consideration liabilities on a quarterly basis, and the updated fair value could be materially different from the initial estimates or prior amounts. Changes in the estimated fair value of its contingent earn-out liabilities and adjustments to the estimated fair value related to changes in all other unobservable inputs are reported in other income, net on the Company’s consolidated statements of operations.
+Use of Estimates
+The preparation of these condensed consolidated financial statements in conformity with GAAP requires management to make estimates and assumptions that affect the amounts reported in the Company’s condensed consolidated financial statements and accompanying notes.
+10
+Credo Technology Group Holding Ltd
+Notes to Unaudited Condensed Consolidated Financial Statements
+The Company bases its estimates and judgments on historical experience, knowledge of current conditions and beliefs of what could occur in the future, given the available information. Estimates are used for, but not limited to, write-down for excess and obsolete inventories, variable consideration from revenue contracts, determination of the fair value of share-based awards valued under Monte Carlo simulation, determination of the probability of achieving performance conditions for performance-based share-based awards, the realization of tax assets and estimates of tax reserves, valuation of acquired intangible assets and contingent consideration, and impairment of long-lived assets and goodwill (as applicable). Actual results may differ from those estimates and such differences may be material to the financial statements. In the current macroeconomic environment, these estimates require increased judgment and carry a higher degree of variability and volatility. As events continue to evolve and additional information becomes available, these estimates may change materially in future periods.
+Reclassifications
+Certain prior period balances were reclassified to conform to the current period’s presentation. None of these reclassifications had an impact on reported net income or cash flows for any of the periods presented.
+Accounting Pronouncement Recently Adopted
+In July 2025, the FASB issued ASU 2025-05, Financial Instruments—Credit Losses (Topic 326) Measurement of Credit Losses for Accounts Receivable and Contract Assets, providing all entities with a practical expedient when estimating expected credit losses for current accounts receivable and current contract assets arising from transactions accounted for under Topic 606. This ASU is effective for annual reporting periods beginning after December 15, 2025 and interim periods within the fiscal year beginning after December 15, 2025. The Company adopted this guidance in the first quarter of fiscal year 2027 and the adoption

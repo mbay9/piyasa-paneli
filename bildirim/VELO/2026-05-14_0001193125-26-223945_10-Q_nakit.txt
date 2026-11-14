@@ -1,0 +1,998 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1825079/000119312526223945/velo-20260331.htm
+SEMBOL: VELO
+BASVURU_TARIHI: 2026-05-14
+BASVURU: 0001193125-26-223945
+TUR: 10-Q nakit akışı tablosu
+
+STATEMENTS OF CASH FLOWS
+(Unaudited)
+(In thousands)
+|
+|
+Three Months Ended March 31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+Cash flows from operating activities
+|
+|
+|
+|
+|
+|
+|
+Net loss
+|
+|
+$
+|
+( 6,998
+|
+)
+|
+|
+$
+|
+( 25,014
+|
+)
+|
+Adjustments to reconcile net loss to net cash used in operating activities
+|
+|
+|
+|
+|
+|
+|
+Depreciation and amortization
+|
+|
+|
+762
+|
+|
+|
+|
+995
+|
+|
+Amortization of debt discount and deferred financing costs
+|
+|
+|
+17
+|
+|
+|
+|
+48
+|
+|
+Stock-based compensation
+|
+|
+|
+1,889
+|
+|
+|
+|
+3,596
+|
+|
+Loss on fair value of warrants
+|
+|
+|
+—
+|
+|
+|
+|
+1,044
+|
+|
+Loss on warrant cancellation
+|
+|
+|
+—
+|
+|
+|
+|
+11,357
+|
+|
+Non-cash lease expense
+|
+|
+|
+59
+|
+|
+|
+|
+28
+|
+|
+Changes in operating assets and liabilities
+|
+|
+|
+|
+|
+|
+|
+Accounts receivable
+|
+|
+|
+( 469
+|
+)
+|
+|
+|
+( 846
+|
+)
+|
+Inventories
+|
+|
+|
+672
+|
+|
+|
+|
+1,989
+|
+|
+Contract assets
+|
+|
+|
+( 2,081
+|
+)
+|
+|
+|
+( 795
+|
+)
+|
+Prepaid expenses and other current assets
+|
+|
+|
+( 3,928
+|
+)
+|
+|
+|
+( 3,407
+|
+)
+|
+Other assets
+|
+|
+|
+648
+|
+|
+|
+|
+1,224
+|
+|
+Accounts payable
+|
+|
+|
+( 5,504
+|
+)
+|
+|
+|
+( 860
+|
+)
+|
+Accrued expenses and other liabilities
+|
+|
+|
+( 1,032
+|
+)
+|
+|
+|
+1,195
+|
+|
+Contract liabilities
+|
+|
+|
+( 1,542
+|
+)
+|
+|
+|
+( 2,671
+|
+)
+|
+Other noncurrent liabilities
+|
+|
+|
+( 471
+|
+)
+|
+|
+|
+( 232
+|
+)
+|
+Net cash used in operating activities
+|
+|
+|
+( 17,978
+|
+)
+|
+|
+|
+( 12,349
+|
+)
+|
+Cash flows from investing activities
+|
+|
+|
+|
+|
+|
+|
+Purchase of property and equipment
+|
+|
+|
+( 940
+|
+)
+|
+|
+|
+—
+|
+|
+Net cash used in investing activities
+|
+|
+|
+( 940
+|
+)
+|
+|
+|
+—
+|
+|
+Cash flows from financing activities
+|
+|
+|
+|
+|
+|
+|
+Proceeds from convertible secured notes
+|
+|
+|
+—
+|
+|
+|
+|
+15,000
+|
+|
+Repayment of 2025 equipment loan
+|
+|
+|
+( 496
+|
+)
+|
+|
+|
+—
+|
+|
+Repayment of secured notes
+|
+|
+|
+( 3,039
+|
+)
+|
+|
+|
+—
+|
+|
+Net cash (used in) provided by financing activities
+|
+|
+|
+( 3,535
+|
+)
+|
+|
+|
+15,000
+|
+|
+Effect of exchange rate changes on cash and cash equivalents
+|
+|
+|
+( 1
+|
+)
+|
+|
+|
+7
+|
+|
+Net change in cash and cash equivalents
+|
+|
+|
+( 22,454
+|
+)
+|
+|
+|
+2,658
+|
+|
+Cash and cash equivalents and restricted cash at beginning of period
+|
+|
+|
+39,641
+|
+|
+|
+|
+1,840
+|
+|
+Cash and cash equivalents and restricted cash at end of period
+|
+|
+$
+|
+17,187
+|
+|
+|
+$
+|
+4,498
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Supplemental disclosure of cash flow information
+|
+|
+|
+|
+|
+|
+|
+Cash paid for interest
+|
+|
+$
+|
+378
+|
+|
+|
+$
+|
+202
+|
+|
+Supplemental schedule of non-cash investing and financing activities
+|
+|
+|
+|
+|
+|
+|
+Conversion of convertible secured notes into common stock
+|
+|
+|
+18,493
+|
+|
+|
+|
+—
+|
+|
+Unpaid liabilities related to property and equipment, net
+|
+|
+|
+2,468
+|
+|
+|
+|
+151
+|
+|
+Unpaid purchase of inventories, net
+|
+|
+|
+1,765
+|
+|
+|
+|
+1,476
+|
+|
+Equipment subject to operating lease, net returned to inventories, net
+|
+|
+|
+543
+|
+|
+|
+|
+—
+|
+|
+Transfer of property and equipment, net to inventories, net
+|
+|
+|
+615
+|
+|
+|
+|
+191
+|
+|
+5
+The following table provides a reconciliation of cash, cash equivalents, and restricted cash shown on the condensed consolidated statements of cash flows (unaudited):
+|
+|
+Three Months Ended March 31,
+|
+|
+|
+|
+2026
+|
+|
+|
+2025
+|
+|
+|
+|
+(In thousands)
+|
+|
+Cash and cash equivalents
+|
+|
+$
+|
+16,564
+|
+|
+|
+$
+|
+3,870
+|
+|
+Restricted cash (Other assets)
+|
+|
+|
+623
+|
+|
+|
+|
+628
+|
+|
+Total cash and cash equivalents and restricted cash
+|
+|
+$
+|
+17,187
+|
+|
+|
+$
+|
+4,498
+|
+|
+The accompanying notes are an integral part of these unaudited condensed consolidated interim financial statements.
+6
+Velo3D, Inc.
+CONDENSED CONSOLIDATED STATEMENTS OF STOCKHOLD ERS’ EQUITY
+(Unaudited)
+(In thousands, except share data)
+|
+|
+Common Stock
+|
+|
+|
+Additional
+|
+|
+|
+|
+|
+|
+Total
+|
+|
+|
+|
+Shares
+|
+|
+|
+Amount
+|
+|
+|
+Paid-In
+Capital
+|
+|
+|
+Accumulated
+Deficit
+|
+|
+|
+Stockholders’
+Equity
+|
+|
+Balance as of December 31, 2024
+|
+|
+|
+12,993,962
+|
+|
+|
+$
+|
+4
+|
+|
+|
+$
+|
+466,441
+|
+|
+|
+$
+|
+( 426,781
+|
+)
+|
+|
+$
+|
+39,664
+|
+|
+Issuance of common stock upon exercise of stock
+options and release of restricted stock units
+|
+|
+|
+31,397
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+Stock-based compensation
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+3,595
+|
+|
+|
+|
+—
+|
+|
+|
+|
+3,595
+|
+|
+Issuance of common stock in connection with warrant cancellation
+|
+|
+|
+990,159
+|
+|
+|
+|
+—
+|
+|
+|
+|
+14,555
+|
+|
+|
+|
+—
+|
+|
+|
+|
+14,555
+|
+|
+Net loss
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+( 25,014
+|
+)
+|
+|
+|
+( 25,014
+|
+)
+|
+Balance as of March 31, 2025
+|
+|
+|
+14,015,517
+|
+|
+|
+$
+|
+4
+|
+|
+|
+$
+|
+484,591
+|
+|
+|
+$
+|
+( 451,795
+|
+)
+|
+|
+$
+|
+32,800
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+Balance as of December 31, 2025
+|
+|
+|
+24,607,630
+|
+|
+|
+$
+|
+5
+|
+|
+|
+$
+|
+536,294
+|
+|
+|
+$
+|
+( 498,143
+|
+)
+|
+|
+$
+|
+38,156
+|
+|
+Issuance of common stock upon exercise of stock
+options and release of restricted stock units
+|
+|
+|
+68,845
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+Stock-based compensation
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+1,889
+|
+|
+|
+|
+—
+|
+|
+|
+|
+1,889
+|
+|
+Issuance of common stock in connection with capital raise, net
+|
+|
+|
+1,540,347
+|
+|
+|
+|
+—
+|
+|
+|
+|
+18,493
+|
+|
+|
+|
+—
+|
+|
+|
+|
+18,493
+|
+|
+Net loss
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+—
+|
+|
+|
+|
+( 6,998
+|
+)
+|
+|
+|
+( 6,998
+|
+)
+|
+Balance as of March 31, 2026
+|
+|
+|
+26,216,822
+|
+|
+|
+$
+|
+5
+|
+|
+|
+$
+|
+556,676
+|
+|
+|
+$
+|
+( 505,141
+|
+)
+|
+|
+$
+|
+51,540
+|
+|
+The accompanying notes are an integral part of these unaudited condensed consolidated interim financial statements.
+7
+Velo3D, Inc.
+Notes to Condensed Consolidated Interim Fina ncial Statements
+(Unaudited)
+Note 1. Description of Business and Basis of Presentation
+Velo3D, Inc., a Delaware corporation (“ Velo3D ”), formerly known as JAWS Spitfire Acquisition Corporation (“ JAWS Spitfire ”), produces metal additive three dimensional printers (“ 3D Printers ”) which enable the production of components for space rockets, jet engines, fuel delivery systems and other high value metal parts, which it sells or leases to customers for use in their businesses. The Company also provides support services (“ Support Services ”) for an incremental fee.
+Velo3D’s subsidiaries are Velo3D US, Inc. (formerly known as Velo3D, Inc. (“ Legacy Velo3D ”), founded in June 2014 as a Delaware corporation headquartered in Campbell, California), Velo3D, B.V. (a sales and marketing office located in the Netherlands) and Velo3D, GmbH (a sales and marketing office located in Germany). The first commercially developed 3D Printer was delivered in the fourth quarter of 2018.
+On September 29, 2021 (the “ Closing Date ” or the “ Reverse Recapitalization Date ”), JAWS Spitfire completed the previously announced merger with Legacy Velo3D, with Legacy Velo3D surviving as a wholly-owned subsidiary of JAWS Spitfire (the “ Merger ” or the “ Reverse Recapitalization ”). In connection with the Merger, JAWS Spitfire was renamed “Velo3D, Inc.”, and Legacy Velo3D was renamed “Velo3D US, Inc.”
+The shares and net loss per share attributable to common stockholders, basic and diluted, prior to the Merger, have been retroactively restated as shares reflecting the exchange ratio (the “ Exchange Ratio ”) established in the Merger ( 0.8149 shares of Velo3D common stock for 1 share of Legacy Velo3D common stock, par value $ 0.00001 (the “c ommon stock ”) before the 1-for-35 reverse stock split in 2024 and the 1-for-15 reverse stock split in 2025. All fractional shares were rounded.
+Unless otherwise stated herein or unless the context otherwise requires, references in these notes to the “Company” refer to (i) Legacy Velo3D prior to the consummation of the Merger; and (ii) Velo3D and its consolidated subsidiaries following the consummation of the Merger.
+Basis of Presentation
+The unaudited condensed consolidated interim financial statements include the accounts of the Company and its subsidiaries and have been prepared in accordance with accounting principles generally accepted in the United States of America (“U.S. GAAP”) and the requirements of the U.S. Securities and Exchange Commission (the “SEC”) for interim financial reporting. Intercompany balances and transactions have been eliminated in consolidation. As permitted under those rules, certain footnotes or other financial information that are normally required by U.S. GAAP can be condensed or omitted. Accordingly, these unaudited condensed consolidated interim financial statements should be read in conjunction with the audited consolidated financial statements included in the Company’s Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (the “2025 Form 10-K”) and the related notes, which provide a more complete discussion of the Company’s accounting policies and certain other information. The condensed consolidated balance sheet as of December 31, 2025 has been derived from the audited consolidated financial statements of the Company. These unaudited condensed consolidated interim financial statements have been prepared on the same basis as the Company’s annual consolidated financial statements and, in the opinion of management, reflect all adjustments, consisting only of normal recurring adjustments, which are necessary for the fair statement of the Company’s consolidated financial information. These interim results are not necessarily indicative 

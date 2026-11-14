@@ -1,0 +1,95 @@
+KAYNAK: https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm
+SEMBOL: SPCX
+BASVURU_TARIHI: 2026-08-04
+BASVURU: 0001628280-26-052535
+TUR: 10-Q nakit akışı tablosu
+
+Statements of Cash Flows
+(in millions)
+(unaudited)
+Six Months Ended June 30, |
+2026 | 2025 |
+Cash flows from operating activities |
+Net loss | $ | ( 4,817 ) | $ | ( 1,536 ) |
+Adjustments to reconcile net loss to net cash provided by operating activities: |
+Depreciation and amortization | 5,290 | 2,970 |
+Share-based compensation | 1,470 | 694 |
+Deferred income taxes | ( 9 ) | 120 |
+Unrealized (gain) loss on digital assets | 539 | ( 252 ) |
+Impairment and loss on disposal of fixed assets, net | 40 | 54 |
+Loss on debt extinguishment | 1,545 | — |
+Other | ( 72 ) | 126 |
+Changes in operating assets and liabilities |
+Accounts receivable | ( 2,003 ) | ( 470 ) |
+Inventory | ( 827 ) | ( 360 ) |
+Prepaid expenses and other assets | 102 | ( 2,125 ) |
+Accounts payable | ( 88 ) | 309 |
+Deferred revenue | 2,169 | 680 |
+Other liabilities | 127 | 141 |
+Net cash provided by operating activities | $ | 3,466 | $ | 351 |
+Cash flows from investing activities |
+Purchases of property, plant, and equipment (related party of $ 329 and $ 101 for June 30, 2026 and 2025, respectively)
+| ( 28,476 ) | ( 6,965 ) |
+Capitalized interest | ( 20 ) | ( 22 ) |
+Proceeds from product rebates | 1,195 | — |
+Purchases of marketable securities | ( 13,630 ) | ( 601 ) |
+Maturities of marketable securities | 7,248 | 543 |
+Proceeds from sales of marketable securities | — | 1,173 |
+Investments in unconsolidated affiliates | — | ( 86 ) |
+Payments for intangible assets | ( 856 ) | — |
+Other investing activities, net | 52 | ( 74 ) |
+Net cash used in investing activities | $ | ( 34,487 ) | $ | ( 6,032 ) |
+Cash flows from financing activities |
+Principal repayments on finance leases | ( 173 ) | ( 137 ) |
+Proceeds from debt and other financing obligations | 51,812 | 10,943 |
+Payment of debt issuance costs | ( 124 ) | ( 61 ) |
+Repayments on debt and other financing obligations | ( 39,396 ) | ( 5,990 ) |
+Payment of debt extinguishment premium | ( 1,153 ) | — |
+Proceeds from issuance of capital stock, net of issuance costs | 8,319 | 5,047 |
+Proceeds from employee equity award plans | 316 | 155 |
+Payments for repurchase of common and redeemable convertible preferred stock | ( 4,426 ) | ( 520 ) |
+Taxes paid related to net share settlement of equity awards | ( 559 ) | ( 238 ) |
+Proceeds from IPO, net of underwriting commissions and offering costs | 85,675 | — |
+Net cash provided by financing activities | $ | 100,291 | $ | 9,199 |
+Effect of exchange rate changes on cash and cash equivalents | ( 42 ) | 75 |
+Net change in cash and cash equivalents and restricted cash | 69,228 | 3,593 |
+Cash and cash equivalents and restricted cash, beginning of the period | 25,124 | 11,501 |
+Cash and cash equivalents and restricted cash, end of the period | $ | 94,352 | $ | 15,094 |
+9
+Table of Contents
+Six Months Ended June 30, |
+2026 | 2025 |
+Supplemental disclosures of cash flow information |
+Cash paid for the following: |
+Interest, net of interest capitalized | $ | 1,667 | $ | 603 |
+Income taxes, net | $ | 35 | $ | 30 |
+Supplemental schedule of noncash investing and financing activities |
+Share-based compensation capitalized in property, plant, and equipment, net | $ | 110 | $ | 77 |
+Purchases of property, plant, and equipment included in accrued expenses and accounts payable | $ | 5,513 | $ | 4,260 |
+Purchases of property, plant, and equipment financed by other financings | $ | 3,921 | $ | — |
+The accompanying notes are an integral part of these consolidated financial statements.
+10
+Table of Contents
+SPACE EXPLORATION TECHNOLOGIES CORP.
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+(tables in millions, except per share data)
+(unaudited)
+Note 1 - Nature of Business
+Description of Business
+Space Exploration Technologies Corp. and its wholly owned subsidiaries, collectively referred to as the “Company” or “SpaceX,” operate three segments – (i) the Space segment designs, manufactures, and launches reusable rockets to provide high cadence, reliable, and affordable access to space at unprecedented scale, (ii) the Connectivity segment operates a worldwide high-speed, low-latency broadband network powered by thousands of Starlink satellites in Low-Earth Orbit, delivering connectivity to millions of consumer, enterprise, and government customers through our Starlink offering, and (iii) the AI segment operates a vertically integrated AI platform spanning a frontier LLM Grok, AI solutions for consumer and enterprise customers, X — a real-time information, entertainment, and free speech platform — and AI computational infrastructure.
+Initial Public Offering
+In June 2026, the Company completed its initial public offering (“IPO”), in which the Company issued and sold 638.9 million shares of its Class A common stock at a public offering price of $ 135.00 per share, including the full exercise of the underwriters’ over-allotment option, which resulted in net proceeds of $ 85,675 million after deducting the underwriting commissions and offering costs of $ 575 million. The underwriting commissions and offering costs are presented in shareholders’ equity as a reduction of the net proceeds received from the IPO.
+In connection with the IPO, all outstanding shares of the Company’s redeemable convertible preferred stock automatically converted into shares of the Company’s Class A and Class B common stock. Refer to Note 12, Redeemable Convertible Preferred Stock and Shareholders’ Equity for additional information.
+Stock Split
+In May 2026, the Company effected a five -for-one forward stock split of its authorized, issued, and outstanding shares of Class A, Class B, and Class C common stock (“2026 Stock Split”). The conversion rate of the Company’s redeemable convertible preferred stock was proportionately adjusted to factor in the 2026 Stock Split. All share and per share information that relates to dates prior to the 2026 Stock Split has been retroactively adjusted to reflect the 2026 Stock Split for all periods presented.
+Common Control Mergers
+On February 2, 2026 (“xAI Merger Date”), the Company completed its acquisition of X.AI Holdings Corp. (“xAI”), pursuant to which xAI became a wholly-owned subsidiary of the Company (“xAI Merger”). Prior to the xAI Merger, on March 28, 2025, xAI completed its acquisition of X Holdings Corp. (“X”) and X.AI Corp., in which X and X.AI Corp. became wholly-owned subsidiaries of xAI (“X Merger”, and collectively with xAI Merger, “Mergers”). X.AI Corp began operations in March 2023 and Twitter, Inc. (“Twitter”) was acquired by Mr. Elon Musk in October 2022. The Mergers were each effected through a share exchange. Refer to Note 12, Redeemable Convertible Preferred Stock and Shareholders’ Equity for additional details.
+Note 2 - Summary of Significant Accounting Policies
+Unaudited Interim Financial Statements
+The consolidated financial statements, including the consolidated balance sheet as of June 30, 2026, the consolidated statements of operations, the consolidated statements of comprehensive loss, the consolidated statements of redeemable convertible preferred stock and shareholders’ equity for the three and six months ended June 30, 2026 and 2025, and the consolidated statements of cash flows for the six months ended June 30, 2026 and 2025, as well as other information disclosed in the accompanying notes, are unaudited. The consolidated balance sheet as of December 31, 2025 was derived from the audited consolidated financial statements as of that date. The interim consolidated financial statements and the accompanying notes should be read in conjunction with the annual consolidated financial statements and the accompanying notes.
+The interim consolidated financial statements and the accompanying notes have been prepared on the same basis as the annual consolidated financial statements and, in the opinion of management, reflect all adjustments, which include only normal recurring adjustments, necessary for a fair statement of the results of operations for the periods presented. The consolidated results of operations
+11
+Table of Contents
+for any interim period are not necessarily indicative of the results to be expected for the full year or for any other future years or interim periods.
+Use of Estimates
+The preparation of consolidated financial statements in conformity with U.S. GAAP requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities, the disclosure of contingent assets and liabilities at the date of the consolidated financial statements, and the reported amounts of revenue and expenses during the reporting period. Actual results could differ from those estimates. Amounts which are subject to significant judgment and use of estimates include revenues recognized over time using the cost-to-cost input method, the determination of valuation allowances associated with deferred tax assets and estimates of tax liabilities, reserves for excess and obsolete inventory, the fair value of assets acquired and liabilities assumed in business comb
